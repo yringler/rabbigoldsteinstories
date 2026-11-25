@@ -86,3 +86,4 @@ All questions are now answered.
 - **Luchos are drawn square** (owner, 2026-11-25): rectangular, never with rounded or arched tops.
 - **Menorah branches are straight** (owner, 2026-11-25): diagonal straight branches, never curved arms. Applies to the Chanukah menorah and the Beis Hamikdash menorah.
 - **Artwork review (owner, 2026-11-25):** only kosher animals in any artwork (no lion, bear, eagle…), with one exception: the Baal Shem Tov's wagon may have its horse. No crescent-and-star; moons are drawn full or nearly full. Matzah is round, hand-made. A shofar must look like a ram's horn. Avoid compositions that read as a face.
+- **Shpoler Zeide emblem: a fiddle** (owner, 2026-11-25), for his joyful dancing; music notes optional, at the designer's discretion.
