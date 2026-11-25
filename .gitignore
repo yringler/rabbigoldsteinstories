@@ -18,6 +18,12 @@ creds*.txt
 *.doc
 *.docx
 data/documents/
+# ...but site assets and docs screenshots are real source files
+!apps/**/*.png
+!apps/**/*.jpg
+!apps/**/*.jpeg
+!packages/**/*.png
+!docs/sites/screenshots/*.png
 
 # python
 __pycache__/
