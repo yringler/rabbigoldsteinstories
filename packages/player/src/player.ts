@@ -7,6 +7,11 @@
  *
  * Persistence across page loads: kids/library use Astro's <ClientRouter /> and keep the element
  * hosting the player in a `transition:persist` island, so one Player instance lives for the visit.
+ *
+ * AI-improved sound (docs/design/ai-audio.md §2.5): a track may carry `clean_url`, an AI-cleaned
+ * copy of the same length. With `preferClean` on, the player plays it instead of `url`; a toggle
+ * swaps live at the same position, and a load error on the clean copy falls back to the original
+ * silently (the error event is stopped before site handlers see it).
  */
 import type { Store } from "./storage.ts";
 
@@ -14,7 +19,13 @@ export interface Track {
   /** Recording id (resume positions are per id + start). */
   id: string;
   title: string;
+  /** The original audio. Stays the track's identity (setQueue compares it); never the clean copy. */
   url: string;
+  /**
+   * AI-cleaned copy of `url` (same duration, so start_sec/end_sec and resume positions apply
+   * unchanged; keep any `#t=` media fragment that `url` has). Played only when preferClean is on.
+   */
+  clean_url?: string;
   /** Play this range of the file (seconds). Defaults: 0 and the end of the file. */
   start_sec?: number;
   end_sec?: number;
@@ -33,6 +44,8 @@ export interface PlayerState {
   sleepAt: number | null;
   /** Pause when the current track ends instead of advancing ("end of this story" sleep timer). */
   stopAtEnd: boolean;
+  /** Which copy is actually loaded: "clean" only while the AI-cleaned copy plays; null with no track. */
+  source: "original" | "clean" | null;
 }
 
 /** Minimal surface of HTMLAudioElement the player needs (a fake in tests). */
@@ -44,7 +57,7 @@ export interface AudioLike {
   preload: string;
   play(): Promise<void>;
   pause(): void;
-  addEventListener(type: string, fn: () => void): void;
+  addEventListener(type: string, fn: (e: Event) => void): void;
 }
 
 export interface PlayerOptions {
@@ -63,7 +76,15 @@ export interface PlayerOptions {
    */
   resumePositions?: boolean;
   mediaSession?: MediaSession | null;
+  /**
+   * Play each track's `clean_url` when it has one (default false). Sites pass the stored
+   * preference: `preferClean: getAiAudio(store)`; later changes go through setPreferClean().
+   */
+  preferClean?: boolean;
 }
+
+/** Give up waiting for the swapped-in source after this long and clear isSwapping anyway. */
+const SWAP_TIMEOUT_MS = 5000;
 
 type Listener = (s: PlayerState) => void;
 
@@ -84,6 +105,17 @@ export class Player {
   /** Index of the track just marked finished: its position must not be saved again. */
   private finishedIndex = -1;
   private readonly session: MediaSession | null;
+  private preferClean: boolean;
+  /** Ids whose clean copy failed to load this visit (not persisted). */
+  private readonly failedClean = new Set<string>();
+  /** The copy currently assigned to audio.src. */
+  private loaded: "original" | "clean" | null = null;
+  private swapping = false;
+  private swapTimer: ReturnType<typeof setTimeout> | null = null;
+  /** Last known playback time (survives a failed load, where currentTime may be reset). */
+  private lastTime = 0;
+  /** We asked the element to play and no user pause has happened since. */
+  private wantPlay = false;
 
   constructor(opts: PlayerOptions) {
     this.audio = opts.audio;
@@ -92,24 +124,73 @@ export class Player {
     this.finishedWithin = opts.finishedWithinSec ?? 15;
     this.resumeBack = opts.resumeBackSec ?? 0;
     this.resumePositions = opts.resumePositions ?? true;
+    this.preferClean = opts.preferClean ?? false;
     this.session =
       opts.mediaSession ??
       (typeof navigator !== "undefined" && "mediaSession" in navigator
         ? navigator.mediaSession
         : null);
     this.audio.preload = "metadata";
+    // Registered first, before any site listener, so a clean-copy failure can be stopped here.
+    this.audio.addEventListener("error", (e) => this.onError(e));
     this.audio.addEventListener("timeupdate", () => this.onTime());
     this.audio.addEventListener("ended", () => void this.trackEnded());
     this.audio.addEventListener("play", () => this.emit());
     this.audio.addEventListener("pause", () => {
+      if (this.swapping) return;
+      this.wantPlay = false;
       this.savePosition();
       this.emit();
+    });
+    this.audio.addEventListener("playing", () => {
+      if (this.swapping) this.endSwap();
+    });
+    this.audio.addEventListener("loadedmetadata", () => {
+      if (this.swapping && !this.wantPlay) this.endSwap();
     });
     this.bindMediaSession();
   }
 
   get current(): Track | null {
     return this.queue[this.index] ?? null;
+  }
+
+  /** Which copy is playing: "clean" (AI-improved), "original", or null with no track. */
+  get source(): "original" | "clean" | null {
+    return this.current ? this.loaded : null;
+  }
+
+  /**
+   * True while the source is being swapped (toggle or clean-copy fallback). Sites must ignore
+   * pause/play/waiting events while it is true: no sleep-timer freeze, no "paused" UI, no watchdog.
+   */
+  get isSwapping(): boolean {
+    return this.swapping;
+  }
+
+  /** Whether clean copies are preferred (the value passed to setPreferClean / preferClean). */
+  get prefersClean(): boolean {
+    return this.preferClean;
+  }
+
+  /**
+   * Turn AI-improved sound on or off. If that changes the current track's source, it swaps live at
+   * the same position and keeps the play/pause state. Does not store the preference: sites call
+   * setAiAudio(store, on) as well.
+   */
+  setPreferClean(on: boolean): void {
+    this.preferClean = on;
+    const t = this.current;
+    if (!t || this.loaded === null) {
+      this.emit();
+      return;
+    }
+    const want = this.kindFor(t);
+    if (want === this.loaded) {
+      this.emit();
+      return;
+    }
+    this.swapTo(want === "clean" ? (t.clean_url as string) : t.url, want);
   }
 
   state(): PlayerState {
@@ -124,6 +205,7 @@ export class Player {
       duration: Math.max(0, end - start),
       sleepAt: this.sleepAt,
       stopAtEnd: this.stopAtEnd,
+      source: this.source,
     };
   }
 
@@ -188,17 +270,26 @@ export class Player {
     this.savePosition();
     this.index = index;
     this.finishedIndex = -1;
-    if (this.audio.src !== t.url) this.audio.src = t.url;
-    this.audio.currentTime = this.resumePoint(t);
+    this.endSwap();
+    const kind = this.kindFor(t);
+    const src = kind === "clean" ? (t.clean_url as string) : t.url;
+    if (this.audio.src !== src) this.audio.src = src;
+    this.loaded = kind;
+    this.audio.currentTime = this.lastTime = this.resumePoint(t);
     this.updateMetadata();
-    if (autoplay) await this.audio.play().catch(() => undefined);
+    if (autoplay) {
+      this.wantPlay = true;
+      await this.audio.play().catch(() => undefined);
+    }
     this.emit();
   }
 
   play(): Promise<void> {
+    this.wantPlay = true;
     return this.audio.play().catch(() => undefined);
   }
   pause(): void {
+    this.wantPlay = false;
     this.audio.pause();
   }
   toggle(): Promise<void> | void {
@@ -222,7 +313,7 @@ export class Player {
     if (!t) return;
     const start = t.start_sec ?? 0;
     const end = t.end_sec ?? Infinity;
-    this.audio.currentTime = Math.min(Math.max(start, start + positionSec), end);
+    this.audio.currentTime = this.lastTime = Math.min(Math.max(start, start + positionSec), end);
     this.emit();
   }
 
@@ -241,6 +332,44 @@ export class Player {
       }, minutes * 60_000);
     }
     this.emit();
+  }
+
+  private kindFor(t: Track): "original" | "clean" {
+    return this.preferClean && t.clean_url && !this.failedClean.has(t.id) ? "clean" : "original";
+  }
+
+  /** Load another copy of the current track at the same position, keeping the play state. */
+  private swapTo(src: string, kind: "original" | "clean", at = this.audio.currentTime): void {
+    const wasPlaying = !this.audio.paused || this.wantPlay;
+    this.savePosition();
+    this.swapping = true;
+    if (this.swapTimer) clearTimeout(this.swapTimer);
+    this.swapTimer = setTimeout(() => this.endSwap(), SWAP_TIMEOUT_MS);
+    this.audio.src = src;
+    this.loaded = kind;
+    this.audio.currentTime = this.lastTime = at;
+    this.wantPlay = wasPlaying;
+    if (wasPlaying) void this.audio.play().catch(() => undefined);
+    this.emit();
+  }
+
+  private endSwap(): void {
+    if (this.swapTimer) clearTimeout(this.swapTimer);
+    this.swapTimer = null;
+    if (!this.swapping) return;
+    this.swapping = false;
+    this.emit();
+  }
+
+  /** A clean copy that fails to load falls back to the original, silently (D7). */
+  private onError(e: Event): void {
+    const t = this.current;
+    if (!t || this.loaded !== "clean") return;
+    e.stopImmediatePropagation();
+    this.failedClean.add(t.id);
+    // After a failed load currentTime may read 0; lastTime is the position we were at or seeking to.
+    const at = Math.max(this.audio.currentTime, this.lastTime);
+    this.swapTo(t.url, "original", at);
   }
 
   private async trackEnded(): Promise<void> {
@@ -273,6 +402,7 @@ export class Player {
   savePosition(): void {
     const t = this.current;
     if (!t || !this.store || !this.resumePositions || this.index === this.finishedIndex) return;
+    if (this.swapping) return; // mid-swap currentTime may not be settled yet; the swap saved first
     this.store.set(this.key(t), this.audio.currentTime);
   }
 
@@ -285,6 +415,8 @@ export class Player {
   private onTime() {
     const t = this.current;
     if (!t) return;
+    if (this.swapping) return;
+    this.lastTime = this.audio.currentTime;
     if (t.end_sec !== undefined && this.audio.currentTime >= t.end_sec) {
       // A paused player at its end never advances by itself: after "end of this story" pauses,
       // browsers fire one more timeupdate (and another on any seek), which must not start the next

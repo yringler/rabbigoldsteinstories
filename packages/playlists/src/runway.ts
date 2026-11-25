@@ -112,21 +112,31 @@ export function tombstone(e: Edition, pool: UnitPool, overrides: Overrides = {})
   // unit's current tracks (start_sec, or the opening-song intro_start_sec, to end_sec). A data
   // fix that moves or shrinks a track (e.g. a new hidden span) drops the stored item; a block
   // with any such part loses all its parts.
-  const matches = (i: Edition["playlists"][number]["items"][number]) =>
+  type Item = Edition["playlists"][number]["items"][number];
+  const matchOf = (i: Item) =>
     live
       .get(i.unit)
-      ?.tracks.some(
+      ?.tracks.find(
         (t) =>
           t.id === i.id &&
           t.end_sec === i.end_sec &&
           (t.start_sec === i.start_sec || t.intro_start_sec === i.start_sec),
-      ) ?? false;
+      );
+  // Serve-time enrichment (docs/design/ai-audio.md §2.4): the AI-cleaned copy comes from the
+  // matching current track, so frozen editions pick up new clean copies at once while the stored
+  // edition stays an exact record. An item has clean_audio_url iff its current track has one.
+  const enrich = (i: Item): Item => {
+    const clean = matchOf(i)?.clean_audio_url;
+    if (clean === i.clean_audio_url) return i;
+    const { clean_audio_url: _old, ...rest } = i;
+    return clean === undefined ? rest : { ...rest, clean_audio_url: clean };
+  };
   return {
     ...e,
     playlists: e.playlists
       .map((p) => {
-        const bad = new Set(p.items.filter((i) => !matches(i)).map((i) => i.unit));
-        const items = p.items.filter((i) => !bad.has(i.unit));
+        const bad = new Set(p.items.filter((i) => !matchOf(i)).map((i) => i.unit));
+        const items = p.items.filter((i) => !bad.has(i.unit)).map(enrich);
         return {
           ...p,
           items,

@@ -224,3 +224,28 @@ Library
 - **Q1. Default for bedtime.** Off everywhere, as you asked. After you have listened to a few bedtime playlists with it on, would you want bedtime (only) to default to on? It is a one-line change. Kids and library would stay off.
 - **Q2. Naming the model publicly.** The library's about page names Sidon and links to its model page, for honesty and credit. Bedtime and kids say only "a computer program". OK, or should the model's name stay off the sites?
 - **Q3. Offering the AI copy as a download.** The library would offer "AI-improved MP3" next to the original download, and as a column in the data export. Default: yes (the files are already public on the media host). Say no if you'd rather the AI copy were listen-only.
+
+## 7. For site teams (foundation API, implemented)
+
+Everything below is in place on `feature/ai-audio`; sites only wire it up. Nothing changes for a site until it passes `clean_url` on its tracks and `preferClean` to its Player.
+
+**Data (`@goldstein/data`, browser-safe)**
+- `cleanUrlOf(url: string): string`: original URL → cleaned-copy URL (first `/goldstein/audio/` → `/goldstein/audio_clean/`; encoding and any `#t=` fragment kept). Use it only for items flagged as having a clean copy (compact indexes: `c?: 1` / `clean?: 1`).
+- `PublicItem.media.clean_url?` and `media.clean_size_bytes?` (library download link and size).
+- `CatalogEntry.clean_url?` (set your compact flag from it).
+- `UnitTrack.clean_audio_url?` (no fragment) and `Manifest.counts.clean_audio` (render the control only when `> 0`, read at build time from `generated/manifest.json`).
+- All fields are absent, never `undefined`, when there is no clean copy. Today only a few items have one; the count grows as `data/catalog/r2_clean_manifest.csv` is re-exported.
+
+**Playlists (`@goldstein/playlists`)**
+- `PlaylistItem.clean_audio_url?`: on new editions and, via the API's serve-time enrichment (`tombstone()`), on frozen ones. Bedtime: `clean_url: \`${i.clean_audio_url}#t=${i.start_sec},${i.end_sec}\`` when present, like `url`. Kids playlists use it directly.
+
+**Player (`@goldstein/player`)**
+- `Track.clean_url?: string`. `url` stays the original and the track's identity.
+- `new Player({ ..., preferClean: getAiAudio(store) })`.
+- `player.setPreferClean(on)`: swaps the current track live at the same position, keeping play/pause. It does not store anything: call `setAiAudio(store, on)` too.
+- `player.source` and `PlayerState.source`: `"clean" | "original" | null`, what is actually loaded (use it for the kids indicator and the library's "No AI-improved copy…" note: preference on and `source !== "clean"`).
+- `player.isSwapping`: true during a live swap or fallback. Return early from your `pause`/`play`/`waiting` handlers and watchdogs while it is true. It clears on `playing` (when playing) or `loadedmetadata` (when paused), or after 5 s.
+- `player.prefersClean`: the current preference.
+- Fallback is automatic: a load error on a clean copy plays the original from the same position and calls `stopImmediatePropagation()`, so your `error` listener never sees it, provided you add your listener after constructing the Player (bedtime's subclass is fine, since `super()` runs first). Errors on the original reach you as before.
+- Preference helpers: `AI_AUDIO_KEY` (`"ai-audio.v1"`), `getAiAudio(store): boolean` (default false), `setAiAudio(store, on)`. Use your own site store (`createStore("<site>")`), giving `goldstein:<site>:ai-audio.v1`.
+- After a swap, check `playbackRate`: a `src` change resets it unless `defaultPlaybackRate` is set (kids and library already set both).

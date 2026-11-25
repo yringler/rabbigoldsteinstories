@@ -97,4 +97,28 @@ describe("goldstein-api", () => {
     kv.data.set("lock:fill", JSON.stringify(now.getTime() - 120_000));
     expect((await get("/playlists/tonight.json", deps)).status).toBe(200);
   });
+
+  it("adds clean_audio_url to frozen editions at serve time; the KV copy stays unchanged", async () => {
+    const kv = fakeKv();
+    await runCron({ kv, pool, overrides: {} }, now);
+    const storedBefore = kv.data.get("edition:2026-11-25");
+    // The cleaned copies arrive after the edition was frozen (the pool changes, the edition does not).
+    const cleanOf = (url: string) => url.replace(".example/", ".example/clean/");
+    const cleaned = {
+      ...pool,
+      units: pool.units.map((u) => ({
+        ...u,
+        tracks: u.tracks.map((t) => ({ ...t, clean_audio_url: cleanOf(t.audio_url) })),
+      })),
+    };
+    const deps = { kv, pool: cleaned, overrides: {} };
+    for (const path of ["/playlists/tonight.json", "/playlists/editions/2026-11-25.json"]) {
+      const e = (await (await get(path, deps)).json()) as Edition;
+      const items = e.playlists.flatMap((p) => p.items);
+      expect(items.length).toBeGreaterThan(0);
+      for (const i of items) expect(i.clean_audio_url).toBe(cleanOf(i.audio_url));
+    }
+    expect(kv.data.get("edition:2026-11-25")).toBe(storedBefore);
+    expect(storedBefore).not.toContain("clean_audio_url");
+  });
 });

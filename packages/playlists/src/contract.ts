@@ -28,6 +28,12 @@ export interface PlaylistItem {
   title: string;
   narrator: string | null;
   audio_url: string;
+  /**
+   * AI-cleaned copy of audio_url (no media fragment; same duration, so start_sec/end_sec apply
+   * unchanged). Absent when there is none. Frozen editions in KV may lack it; the API adds it at
+   * serve time from the current unit pool (docs/design/ai-audio.md §2.4).
+   */
+  clean_audio_url?: string;
   mime_type: "audio/mpeg";
   /** Always present; play exactly this range (audio is never edited; trim is applied here). */
   start_sec: number;

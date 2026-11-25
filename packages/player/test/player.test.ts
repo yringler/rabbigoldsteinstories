@@ -1,13 +1,31 @@
 import { describe, expect, it } from "vitest";
-import { Player, createStore, type AudioLike } from "../src/index.ts";
+import {
+  AI_AUDIO_KEY,
+  Player,
+  createStore,
+  getAiAudio,
+  setAiAudio,
+  type AudioLike,
+  type Track,
+} from "../src/index.ts";
 
 class FakeAudio implements AudioLike {
-  src = "";
   currentTime = 0;
   duration = 1800;
   paused = true;
   preload = "";
-  private handlers = new Map<string, (() => void)[]>();
+  /** Every src assignment (a real element reloads on each). */
+  loads: string[] = [];
+  private _src = "";
+  private handlers = new Map<string, ((e: Event) => void)[]>();
+  get src() {
+    return this._src;
+  }
+  set src(v: string) {
+    this._src = v;
+    this.loads.push(v);
+    this.paused = true; // the load algorithm pauses without firing "pause"
+  }
   async play() {
     this.paused = false;
     this.fire("play");
@@ -16,11 +34,18 @@ class FakeAudio implements AudioLike {
     this.paused = true;
     this.fire("pause");
   }
-  addEventListener(type: string, fn: () => void) {
+  addEventListener(type: string, fn: (e: Event) => void) {
     this.handlers.set(type, [...(this.handlers.get(type) ?? []), fn]);
   }
-  fire(type: string) {
-    for (const h of this.handlers.get(type) ?? []) h();
+  /** Dispatch like an EventTarget: stopImmediatePropagation() skips the remaining listeners. */
+  fire(type: string): { stopped: boolean } {
+    let stopped = false;
+    const e = { type, stopImmediatePropagation: () => void (stopped = true) } as unknown as Event;
+    for (const h of this.handlers.get(type) ?? []) {
+      h(e);
+      if (stopped) break;
+    }
+    return { stopped };
   }
 }
 
@@ -173,6 +198,156 @@ describe("Player additions (kids site)", () => {
     const b = new FakeAudio();
     await new Player({ audio: b, store, mediaSession: null, resumeBackSec: 3 }).load(tracks);
     expect(b.currentTime).toBe(247);
+  });
+});
+
+describe("AI-improved sound (docs/design/ai-audio.md §2.5)", () => {
+  const clean: Track[] = [
+    {
+      id: "aaaaaaaaaa",
+      title: "Span",
+      url: "https://m/goldstein/audio/a.mp3#t=100,400",
+      clean_url: "https://m/goldstein/audio_clean/a.mp3#t=100,400",
+      start_sec: 100,
+      end_sec: 400,
+    },
+    { id: "bbbbbbbbbb", title: "No clean copy", url: "https://m/goldstein/audio/b.mp3" },
+  ];
+
+  it("goTo plays the clean copy only when preferred and present", async () => {
+    const off = new FakeAudio();
+    const p0 = new Player({ audio: off, mediaSession: null });
+    await p0.load(clean);
+    expect(off.src).toBe(clean[0]!.url);
+    expect(p0.source).toBe("original");
+
+    const on = new FakeAudio();
+    const p1 = new Player({ audio: on, mediaSession: null, preferClean: true });
+    expect(p1.source).toBeNull();
+    await p1.load(clean);
+    expect(on.src).toBe(clean[0]!.clean_url);
+    expect(p1.source).toBe("clean");
+    expect(p1.state().source).toBe("clean");
+    await p1.goTo(1);
+    expect(on.src).toBe(clean[1]!.url);
+    expect(p1.source).toBe("original");
+  });
+
+  it("setPreferClean swaps live at the same position, keeps play state, writes no pos: key", async () => {
+    const storage = memoryStorage();
+    const store = createStore("test", storage);
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, store, mediaSession: null, resumePositions: false });
+    await p.load(clean);
+    a.currentTime = 250;
+    const states: (string | null)[] = [];
+    p.subscribe((s) => states.push(s.source));
+    p.setPreferClean(true);
+    expect(a.src).toBe(clean[0]!.clean_url);
+    expect(a.currentTime).toBe(250);
+    expect(a.paused).toBe(false);
+    expect(p.isSwapping).toBe(true);
+    a.fire("playing");
+    expect(p.isSwapping).toBe(false);
+    expect(states.at(-1)).toBe("clean");
+
+    a.pause();
+    a.currentTime = 260;
+    p.setPreferClean(false);
+    expect(a.src).toBe(clean[0]!.url);
+    expect(a.currentTime).toBe(260);
+    expect(a.paused).toBe(true);
+    a.fire("loadedmetadata");
+    expect(p.isSwapping).toBe(false);
+    expect(storage.length).toBe(0);
+  });
+
+  it("a swap keeps the resume position key (pos:<id>@<start>) on the same value", async () => {
+    const storage = memoryStorage();
+    const store = createStore("test", storage);
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, store, mediaSession: null });
+    await p.load(clean);
+    a.currentTime = 250;
+    p.setPreferClean(true);
+    a.fire("pause"); // transient events during the swap must not save a stale position
+    a.currentTime = 0;
+    a.fire("timeupdate");
+    expect(store.get("pos:aaaaaaaaaa@100", null)).toBe(250);
+    expect([...Array(storage.length).keys()].map((i) => storage.key(i))).toEqual([
+      "goldstein:test:pos:aaaaaaaaaa@100",
+    ]);
+  });
+
+  it("setPreferClean on a track without a clean copy does not reload", async () => {
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null });
+    await p.load([clean[1]!]);
+    const n = a.loads.length;
+    p.setPreferClean(true);
+    expect(a.loads.length).toBe(n);
+    expect(p.source).toBe("original");
+    expect(p.isSwapping).toBe(false);
+  });
+
+  it("an error on the clean copy falls back once, silently, at the same position", async () => {
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    let siteSaw = 0;
+    a.addEventListener("error", () => siteSaw++);
+    await p.load(clean);
+    a.currentTime = 300;
+    a.fire("timeupdate");
+    a.currentTime = 0; // a failed load may reset currentTime
+    const r = a.fire("error");
+    expect(r.stopped).toBe(true);
+    expect(siteSaw).toBe(0);
+    expect(a.src).toBe(clean[0]!.url);
+    expect(a.currentTime).toBe(300);
+    expect(a.paused).toBe(false);
+    expect(p.source).toBe("original");
+    // The id stays on the original for the visit, even when toggled again or revisited.
+    p.setPreferClean(false);
+    p.setPreferClean(true);
+    expect(a.src).toBe(clean[0]!.url);
+    await p.goTo(1);
+    await p.goTo(0);
+    expect(a.src).toBe(clean[0]!.url);
+  });
+
+  it("an error on the original reaches the site handlers", async () => {
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    let siteSaw = 0;
+    a.addEventListener("error", () => siteSaw++);
+    await p.load([clean[1]!]);
+    expect(a.fire("error").stopped).toBe(false);
+    expect(siteSaw).toBe(1);
+  });
+
+  it("setQueue with the same tracks does not reload after a swap", async () => {
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null });
+    await p.load(clean);
+    a.currentTime = 200;
+    p.setPreferClean(true);
+    a.fire("playing");
+    const n = a.loads.length;
+    await p.setQueue([...clean], 0);
+    expect(a.loads.length).toBe(n);
+    expect(a.src).toBe(clean[0]!.clean_url);
+    expect(a.currentTime).toBe(200);
+  });
+
+  it("the preference helpers use one key per site store, default off", () => {
+    const mem = memoryStorage();
+    const bedtime = createStore("bedtime", mem);
+    expect(getAiAudio(bedtime)).toBe(false);
+    setAiAudio(bedtime, true);
+    expect(getAiAudio(bedtime)).toBe(true);
+    expect(mem.getItem(`goldstein:bedtime:${AI_AUDIO_KEY}`)).toBe('{"v":true}');
+    expect(getAiAudio(createStore("kids", mem))).toBe(false);
+    expect(getAiAudio(createStore("library", null))).toBe(false);
   });
 });
 
