@@ -697,42 +697,6 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
   .more-like {
     grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
   }
-  details.others,
-  details.grownups {
-    margin-top: 22px;
-    border-radius: 22px;
-    background: var(--card);
-    border: 2px solid var(--line);
-  }
-  details > summary {
-    list-style: none;
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 0 16px;
-    font-weight: 700;
-    font-size: 19px;
-    cursor: pointer;
-  }
-  details > summary::-webkit-details-marker {
-    display: none;
-  }
-  details > summary .chev {
-    margin-left: auto;
-    transition: transform 0.15s;
-  }
-  details[open] > summary .chev {
-    transform: rotate(180deg);
-  }
-  details.others ul {
-    margin: 0;
-    padding: 0 16px 14px 36px;
-  }
-  details.others li {
-    min-height: 44px;
-    padding: 6px 0;
-  }
   .gu-body {
     padding: 0 16px 16px;
     display: grid;

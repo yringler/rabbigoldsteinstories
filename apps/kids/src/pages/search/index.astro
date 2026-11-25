@@ -26,9 +26,11 @@ const tiles = all
       ...aliases,
       ...(t.facet === "people" ? [m.vocab("people", t.slug)?.label ?? ""] : []),
     ];
-    return vis.length ? { t: terms.join(" ").toLowerCase(), h: tileHtml(t, { vis }) } : null;
+    return vis.length
+      ? { t: terms.join(" ").toLowerCase(), l: t.label, h: tileHtml(t, { vis }) }
+      : null;
   })
-  .filter((x): x is { t: string; h: string } => x !== null);
+  .filter((x): x is { t: string; l: string; h: string } => x !== null);
 ---
 
 <Base title="Search" description="Find a story by name, hero, holiday or anything else.">

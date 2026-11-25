@@ -172,6 +172,10 @@ p {
     display: none;
   }
 }
+.logo {
+  min-width: 56px;
+  justify-content: center;
+}
 .logo svg {
   width: 40px;
   height: 40px;
@@ -909,6 +913,50 @@ dialog.sheet::backdrop {
   margin: 0 auto 12px;
 }
 
+/* ── Disclosures ── */
+details.others,
+details.grownups {
+  margin-top: 22px;
+  border-radius: 22px;
+  background: var(--card);
+  border: 2px solid var(--line);
+}
+details > summary {
+  list-style: none;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 16px;
+  font-weight: 700;
+  font-size: 19px;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary .chev {
+  margin-left: auto;
+  transition: transform 0.15s;
+}
+details[open] > summary .chev {
+  transform: rotate(180deg);
+}
+details.others ul {
+  margin: 0;
+  padding: 0 16px 14px 36px;
+}
+details.others li {
+  padding: 4px 0;
+}
+details.others li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 4px;
+  font-weight: 700;
+}
+
 /* ── Switch ── */
 .switch {
   display: flex;
@@ -1024,11 +1072,27 @@ dialog.sheet::backdrop {
   border-radius: 20px;
 }
 .pl-items li {
-  padding: 8px 0;
   border-bottom: 1px dashed var(--line);
 }
 .pl-items li:last-child {
   border-bottom: 0;
+}
+.pl-row-in {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+}
+.pl-row-in > :first-child {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 4px 0;
+}
+.pl-row-in .muted {
+  flex: none;
+  font-size: 16px;
 }
 .pl-items a {
   font-weight: 700;

@@ -33,6 +33,8 @@ function loadEngine(): Promise<MiniSearchType<SearchDocument> | null> {
 interface TileHit {
   /** Lower-cased label and aliases. */
   t: string;
+  /** Label (for de-duplication). */
+  l: string;
   h: string;
 }
 
@@ -87,9 +89,14 @@ export async function initSearch(root: HTMLElement, rerender: boolean): Promise<
       .filter((r): r is Rec => Boolean(r) && recIn(r as Rec, v));
 
     const qWords = norm(q);
-    const tileHits = tileTerms.filter((t) =>
-      qWords.every((w) => [...t.words].some((x) => x.startsWith(w))),
-    );
+    const seen = new Set<string>();
+    const tileHits = tileTerms.filter((t) => {
+      if (!qWords.every((w) => [...t.words].some((x) => x.startsWith(w)))) return false;
+      // Heroes come first; a topic with the same label (e.g. The Baal Shem Tov) is not repeated.
+      if (seen.has(t.l)) return false;
+      seen.add(t.l);
+      return true;
+    });
 
     let html = "";
     if (tileHits.length) {

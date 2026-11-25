@@ -55,7 +55,7 @@ function rows(p: Playlist, inPool: (id: string) => boolean): string {
         const title = inPool(i.id)
           ? `<a href="${itemPath(i.id)}">${esc(i.title)}</a>`
           : `<span>${esc(i.title)}</span>`;
-        return `<li>${title}<span class="muted"> · ${dur}</span></li>`;
+        return `<li><span class="pl-row-in">${title}<span class="muted">${dur}</span></span></li>`;
       })
       .join("") +
     `</ol>`
