@@ -7,6 +7,7 @@
 import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { gzipSync } from "node:zlib";
 import { beforeAll, describe, expect, it } from "vitest";
 import { build } from "../src/build/build.ts";
 import { runGate } from "../src/build/gate.ts";
@@ -53,7 +54,10 @@ describe("privacy gate on the generated public dataset", () => {
       const shown = term.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/ /g, "  ");
       writeFileSync(join(dir, "page.html"), `<p>Thanks to ${shown} for calling!</p>`);
       writeFileSync(join(dir, "data.json"), JSON.stringify({ title: "x", hidden: { on_air_people: [] } }));
+      // A site's Pagefind fragment (gzip-compressed JSON) is decoded and scanned too.
+      writeFileSync(join(dir, "en_1.pf_fragment"), gzipSync(`pagefind_dcd${JSON.stringify({ url: "/r/x/", content: `Hello ${shown}` })}`));
       const findings = runGate([dir], terms);
+      expect(findings.some((f) => f.file.endsWith("en_1.pf_fragment"))).toBe(true);
       expect(findings.some((f) => f.file.endsWith("page.html"))).toBe(true);
       expect(findings.some((f) => f.file.endsWith("data.json") && f.problem.includes("internal key"))).toBe(true);
       // Findings never print the term itself.
