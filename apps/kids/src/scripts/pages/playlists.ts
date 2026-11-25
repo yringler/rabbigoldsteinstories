@@ -27,6 +27,7 @@ export function playlistTracks(p: Playlist): Track[] {
       artwork: `/covers/${i.id}.svg`,
     };
     if (i.narrator) t.artist = i.narrator;
+    if (i.clean_audio_url) t.clean_url = i.clean_audio_url;
     return t;
   });
 }

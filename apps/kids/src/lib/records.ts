@@ -40,6 +40,8 @@ export interface Rec {
   p?: string[];
   /** Story start (shows: "Jump to the story"). */
   js?: number;
+  /** Has an AI-cleaned copy (URL derived with cleanUrlOf(u)); `c` is taken by the calendar ids. */
+  cl?: 1;
 }
 
 export interface KidsIndex {

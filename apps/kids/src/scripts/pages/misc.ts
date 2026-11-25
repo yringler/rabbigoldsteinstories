@@ -11,6 +11,8 @@ export function initGrownups(root: HTMLElement): void {
     });
     const g = root.querySelector<HTMLInputElement>("[data-gentle]");
     if (g) g.checked = S.getGentle();
+    const ai = root.querySelector<HTMLInputElement>("[data-ai-audio]");
+    if (ai) ai.checked = S.getAiAudio();
   };
   sync();
   if (root.dataset["bound"]) return;
@@ -29,6 +31,12 @@ export function initGrownups(root: HTMLElement): void {
     const on = (e.target as HTMLInputElement).checked;
     S.setGentle(on);
     window.kidsPlayer?.toast(on ? "Gentle stories only" : "All stories for this age");
+  });
+  // AI-improved sound: store it, then let the persistent player swap a playing story live.
+  root.querySelector<HTMLInputElement>("[data-ai-audio]")?.addEventListener("change", (e) => {
+    const on = (e.target as HTMLInputElement).checked;
+    S.setAiAudio(on);
+    window.kidsPlayer?.player.setPreferClean(on);
   });
 }
 

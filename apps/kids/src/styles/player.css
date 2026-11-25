@@ -164,6 +164,17 @@ dialog.psheet::backdrop {
   color: #c9d3e8;
   font-weight: 700;
 }
+/* AI-improved sound indicator (docs/design/ai-audio.md §3.2): a plain label, not a control. */
+.ps-ai {
+  margin-left: auto;
+  padding: 2px 10px;
+  border: 1px solid color-mix(in srgb, var(--paper) 45%, transparent);
+  border-radius: 999px;
+  background: var(--night);
+  color: color-mix(in srgb, var(--paper) 75%, transparent);
+  font-size: 14px;
+  white-space: nowrap;
+}
 .ps-main {
   display: grid;
   gap: 18px;

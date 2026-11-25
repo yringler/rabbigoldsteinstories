@@ -1,4 +1,5 @@
 /** Player tracks for the kids site (browser-safe). */
+import { cleanUrlOf } from "@goldstein/data";
 import type { Track } from "@goldstein/player";
 import { type Rec, BYLINE_NAMES, coverPath } from "./records.ts";
 
@@ -10,6 +11,8 @@ export interface ItemLike {
   /** Content end; omitted when the whole file is content. */
   end?: number | undefined;
   byline?: string | null | undefined;
+  /** The item has an AI-cleaned copy (docs/design/ai-audio.md); its URL is derived from `url`. */
+  clean?: boolean | undefined;
 }
 
 export function itemTrack(i: ItemLike, range?: { start_sec: number; end_sec: number }): Track {
@@ -22,6 +25,7 @@ export function itemTrack(i: ItemLike, range?: { start_sec: number; end_sec: num
   };
   const end = range ? range.end_sec : i.end;
   if (end !== undefined) t.end_sec = end;
+  if (i.clean) t.clean_url = cleanUrlOf(i.url);
   if (i.byline) t.artist = i.byline;
   return t;
 }
@@ -34,6 +38,7 @@ export function recTrack(r: Rec): Track {
     start: r.s ?? 0,
     end: r.e,
     byline: r.b === undefined ? null : BYLINE_NAMES[r.b],
+    clean: r.cl === 1,
   });
 }
 
