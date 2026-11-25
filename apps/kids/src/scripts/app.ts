@@ -50,7 +50,8 @@ function parse<T>(raw: string | undefined): T | null {
 function renderBandChip(): void {
   const band = S.getBand();
   const label = document.querySelector("[data-band-label]");
-  if (label) label.textContent = BAND_INFO[band].label;
+  if (label)
+    label.textContent = `${BAND_INFO[band].label} ${band === "little" ? "3" : band === "kids" ? "6" : "9"}+`;
   document.querySelectorAll<HTMLButtonElement>("#band-sheet [data-band]").forEach((b) => {
     b.setAttribute("aria-pressed", String(b.dataset["band"] === band));
   });
