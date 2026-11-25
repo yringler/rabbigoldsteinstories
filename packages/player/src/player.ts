@@ -31,6 +31,8 @@ export interface PlayerState {
   position: number;
   duration: number;
   sleepAt: number | null;
+  /** Pause when the current track ends instead of advancing ("end of this story" sleep timer). */
+  stopAtEnd: boolean;
 }
 
 /** Minimal surface of HTMLAudioElement the player needs (a fake in tests). */
@@ -52,6 +54,8 @@ export interface PlayerOptions {
   saveEverySec?: number;
   /** Positions this close to the end count as finished (default 15 s). */
   finishedWithinSec?: number;
+  /** Resume this many seconds before the saved position (default 0). */
+  resumeBackSec?: number;
   mediaSession?: MediaSession | null;
 }
 
@@ -64,10 +68,12 @@ export class Player {
   private lastSaved = 0;
   private sleepTimer: ReturnType<typeof setTimeout> | null = null;
   private sleepAt: number | null = null;
+  private stopAtEnd = false;
   private readonly audio: AudioLike;
   private readonly store: Store | undefined;
   private readonly saveEvery: number;
   private readonly finishedWithin: number;
+  private readonly resumeBack: number;
   private readonly session: MediaSession | null;
 
   constructor(opts: PlayerOptions) {
@@ -75,6 +81,7 @@ export class Player {
     this.store = opts.store;
     this.saveEvery = opts.saveEverySec ?? 5;
     this.finishedWithin = opts.finishedWithinSec ?? 15;
+    this.resumeBack = opts.resumeBackSec ?? 0;
     this.session =
       opts.mediaSession ??
       (typeof navigator !== "undefined" && "mediaSession" in navigator
@@ -82,7 +89,7 @@ export class Player {
         : null);
     this.audio.preload = "metadata";
     this.audio.addEventListener("timeupdate", () => this.onTime());
-    this.audio.addEventListener("ended", () => this.next());
+    this.audio.addEventListener("ended", () => void this.trackEnded());
     this.audio.addEventListener("play", () => this.emit());
     this.audio.addEventListener("pause", () => {
       this.savePosition();
@@ -106,6 +113,7 @@ export class Player {
       position: Math.max(0, this.audio.currentTime - start),
       duration: Math.max(0, end - start),
       sleepAt: this.sleepAt,
+      stopAtEnd: this.stopAtEnd,
     };
   }
 
@@ -119,6 +127,35 @@ export class Player {
   async load(queue: Track[], index = 0, autoplay = true): Promise<void> {
     this.queue = [...queue];
     await this.goTo(index, autoplay);
+  }
+
+  /**
+   * Replace the queue without interrupting playback when `queue[index]` is the current track (same
+   * id and range): for "play next", reordering and removing. Otherwise behaves like load().
+   */
+  async setQueue(queue: Track[], index: number): Promise<void> {
+    const cur = this.current;
+    const t = queue[index];
+    if (
+      cur &&
+      t &&
+      t.id === cur.id &&
+      (t.start_sec ?? 0) === (cur.start_sec ?? 0) &&
+      t.url === cur.url
+    ) {
+      this.queue = [...queue];
+      this.index = index;
+      this.emit();
+      return;
+    }
+    await this.load(queue, index, !this.audio.paused);
+  }
+
+  /** "End of this story": pause when the current track ends instead of advancing (false cancels). */
+  stopAfterCurrent(on: boolean): void {
+    this.stopAtEnd = on;
+    if (on) this.sleepIn(null);
+    this.emit();
   }
 
   async goTo(index: number, autoplay = true): Promise<void> {
@@ -171,6 +208,7 @@ export class Player {
     this.sleepAt = null;
     if (minutes !== null) {
       this.sleepAt = now + minutes * 60_000;
+      this.stopAtEnd = false;
       this.sleepTimer = setTimeout(() => {
         this.pause();
         this.sleepAt = null;
@@ -178,6 +216,17 @@ export class Player {
       }, minutes * 60_000);
     }
     this.emit();
+  }
+
+  private async trackEnded(): Promise<void> {
+    if (this.stopAtEnd) {
+      this.stopAtEnd = false;
+      this.markFinished();
+      this.audio.pause();
+      this.emit();
+      return;
+    }
+    await this.next();
   }
 
   private key(t: Track) {
@@ -189,7 +238,9 @@ export class Player {
     const saved = this.store?.get<number | null>(this.key(t), null);
     if (saved === null || saved === undefined) return start;
     const end = t.end_sec ?? Infinity;
-    return saved > start && saved < end - this.finishedWithin ? saved : start;
+    return saved > start && saved < end - this.finishedWithin
+      ? Math.max(start, saved - this.resumeBack)
+      : start;
   }
 
   private savePosition() {
@@ -207,6 +258,10 @@ export class Player {
     const t = this.current;
     if (!t) return;
     if (t.end_sec !== undefined && this.audio.currentTime >= t.end_sec) {
+      if (this.stopAtEnd) {
+        if (!this.audio.paused) void this.trackEnded();
+        return;
+      }
       void this.next();
       return;
     }
