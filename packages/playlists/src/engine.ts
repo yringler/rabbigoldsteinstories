@@ -65,13 +65,19 @@ function usageFrom(
   history: readonly Edition[],
   window: EditionWindow,
   keysOf: (unit: string, itemId: string) => string[],
+  periodMs: number,
 ): Usage {
   const before = history
     .filter((e) => Date.parse(e.starts_at) < Date.parse(window.starts_at))
     .sort((a, b) => Date.parse(b.starts_at) - Date.parse(a.starts_at));
   const u: Usage = { byType: new Map(), headByType: new Map(), anyHead: new Map() };
-  before.forEach((e, i) => {
-    const ago = i + 1;
+  before.forEach((e) => {
+    // Editions ago by date (rotation periods), not by how many editions happen to be stored:
+    // after a gap in the store (a missed or failed night) old editions must not count as recent.
+    const ago = Math.max(
+      1,
+      Math.round((Date.parse(window.starts_at) - Date.parse(e.starts_at)) / periodMs),
+    );
     for (const p of e.playlists) {
       const byType = u.byType.get(p.type) ?? new Map<string, number>();
       const head = u.headByType.get(p.type) ?? new Map<string, number>();
@@ -173,7 +179,7 @@ export function generateEdition(input: GenerateInput): Edition {
     });
   const byUnit = new Map(pool.map((u) => [u.unit, u]));
   const keysOf = (unit: string, itemId: string) => byUnit.get(unit)?.keys ?? [unit, itemId];
-  const usage = usageFrom(input.history, input.window, keysOf);
+  const usage = usageFrom(input.history, input.window, keysOf, 86_400_000 / perDay);
   const editionHeads = new Set<string>();
 
   // Generation order rotates by edition so no type always picks last.
@@ -297,6 +303,7 @@ export function generateEdition(input: GenerateInput): Edition {
       title: recipe.title,
       subtitle: recipe.subtitle,
       ...(recipe.kidLine ? { kid_line: recipe.kidLine } : {}),
+      ...(recipe.ages ? { ages: recipe.ages } : {}),
       total_min: Math.round(items.reduce((s, i) => s + i.duration_sec, 0) / 60),
       age_min: Math.max(0, ...items.map((i) => i.age_min)),
       items,

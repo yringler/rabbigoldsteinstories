@@ -1,8 +1,9 @@
 /* Lights Out Stories service worker (bedtime.md §1 "Offline / PWA", §6 MVP):
  * - the app shell (pages, built CSS/JS/fonts, icons): cache first, refreshed in the background;
- * - the playlist JSON under /playlists/: stale-while-revalidate, so the last known cards show offline;
+ * - the playlist JSON under /playlists/: network first, cache only when offline (a removed story
+ *   must disappear at once; the cache is just for showing the last known cards offline);
  * - audio is never cached (no CORS on the media host: opaque responses break range requests). */
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL = `bedtime-shell-${VERSION}`;
 const DATA = `bedtime-data-${VERSION}`;
 const PAGES = ["/", "/earlier/", "/about/", "/manifest.webmanifest", "/favicon.svg"];
@@ -61,14 +62,7 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return; // audio and anything else: straight to the network
   if (url.pathname.startsWith("/api/")) return;
   if (url.pathname.startsWith("/playlists/")) {
-    // The clock file decides "tonight": prefer the network; editions are immutable per id.
-    event.respondWith(
-      url.pathname.endsWith("index.json") ||
-        url.pathname.endsWith("tonight.json") ||
-        url.pathname.endsWith("history.json")
-        ? networkFirst(DATA, req)
-        : staleWhileRevalidate(DATA, req),
-    );
+    event.respondWith(networkFirst(DATA, req));
     return;
   }
   if (req.mode === "navigate") {

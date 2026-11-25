@@ -57,6 +57,21 @@ function volumeIsWritable(): boolean {
   }
 }
 
+/** Remove per-track positions an earlier version stored (`goldstein:bedtime:pos:*`). */
+function clearTrackPositions(): void {
+  try {
+    const ls = globalThis.localStorage;
+    const stale: string[] = [];
+    for (let i = 0; i < ls.length; i++) {
+      const k = ls.key(i);
+      if (k?.startsWith("goldstein:bedtime:pos:")) stale.push(k);
+    }
+    for (const k of stale) ls.removeItem(k);
+  } catch {
+    /* storage blocked */
+  }
+}
+
 export class BedtimePlayer extends Player {
   readonly el: HTMLAudioElement;
   private playlist: Playlist | null = null;
@@ -65,6 +80,12 @@ export class BedtimePlayer extends Player {
   private message: string | null = null;
   private timer: TimerSetting = parseTimer(store.get<unknown>(TIMER_KEY, null));
   private sleepDeadline: number | null = null;
+  /** Time left on the sleep timer while the listener has paused (the timer is frozen). */
+  private pausedRemaining: number | null = null;
+  /** The next pause is ours or the listener's, not the media fragment reaching end_sec. */
+  private intentionalPause = false;
+  /** The current track has started playing at least once (the 8 s load rule no longer applies). */
+  private startedPlaying = false;
   private sleepTotal: number | null = null;
   private holdAtBoundary = false;
   private hardStopAt: number | null = null;
@@ -79,22 +100,40 @@ export class BedtimePlayer extends Player {
   private readonly watchers = new Set<(s: BedtimeState) => void>();
 
   constructor(el: HTMLAudioElement) {
-    super({ audio: el, store, saveEverySec: 5 });
+    // Bedtime resumes only from its session snapshot; per-track positions would make a story
+    // start mid-way when a later playlist reaches it.
+    super({ audio: el, store, saveEverySec: 5, resumePositions: false });
     this.el = el;
     el.preload = "auto";
+    clearTrackPositions();
     el.addEventListener("playing", () => {
+      this.startedPlaying = true;
       this.failures = 0;
       this.clearWatchdog();
       this.setPhase("playing");
     });
     el.addEventListener("pause", () => {
+      const intentional = this.intentionalPause;
+      this.intentionalPause = false;
+      const t = this.current;
+      // The #t=start,end media fragment pauses the element at end_sec: that is the track's end.
+      if (
+        !intentional &&
+        t?.end_sec !== undefined &&
+        el.currentTime >= t.end_sec - 0.6 &&
+        (this.phase === "playing" || this.phase === "loading")
+      ) {
+        void this.next();
+        return;
+      }
       if (this.phase === "playing" || this.phase === "loading") this.setPhase("paused");
       this.save();
     });
     el.addEventListener("error", () => this.onTrackError());
     el.addEventListener("timeupdate", () => this.tick());
     el.addEventListener("waiting", () => {
-      if (!el.paused) this.armWatchdog();
+      // Only a track that never started is skipped; a stall mid-story just waits.
+      if (!el.paused && !this.startedPlaying) this.armWatchdog();
     });
     this.subscribe(() => this.notify());
     const ms =
@@ -110,6 +149,7 @@ export class BedtimePlayer extends Player {
         }
       };
       on("play", () => void this.resume());
+      on("pause", () => this.pauseNow());
       on("nexttrack", () => void this.skip(1));
       on("previoustrack", () => void this.skip(-1));
       on("seekbackward", (d) => this.nudge(-(d.seekOffset ?? 15)));
@@ -165,13 +205,13 @@ export class BedtimePlayer extends Player {
     this.el.volume = 1;
     this.setPhase("loading");
     this.armTimer();
+    this.startedPlaying = false;
     this.armWatchdog();
     this.trackStartedAt = Date.now();
     const p = this.load(this.toTracks(playlist), index, true);
     this.seek(position);
     this.startTicking();
     await p;
-    this.seek(position);
     this.save(true);
   }
 
@@ -184,19 +224,28 @@ export class BedtimePlayer extends Player {
       await this.start(this.playlist, this.when, 0, 0);
       return;
     }
-    if (this.phase === "asleep" || this.sleepDeadline === null) this.armTimer();
+    if (this.pausedRemaining !== null && this.phase !== "asleep") {
+      // Resume the frozen timer where it stopped.
+      this.sleepDeadline = Date.now() + this.pausedRemaining;
+      this.pausedRemaining = null;
+    } else if (this.phase === "asleep" || this.sleepDeadline === null) this.armTimer();
     this.setPhase("loading");
     this.armWatchdog();
     this.startTicking();
     await this.play();
   }
 
+  /** The listener pauses: the sleep timer freezes until play. */
   pauseNow(): void {
     this.cancelFade();
     this.el.volume = 1;
     this.holdAtBoundary = false;
     this.hardStopAt = null;
-    this.pause();
+    if (this.sleepDeadline !== null) {
+      this.pausedRemaining = Math.max(0, this.sleepDeadline - Date.now());
+      this.sleepDeadline = null;
+    }
+    this.stopAudio();
   }
 
   async togglePlay(): Promise<void> {
@@ -239,6 +288,11 @@ export class BedtimePlayer extends Player {
     this.cancelFade();
     this.el.volume = 1;
     this.armTimer();
+    if (this.el.paused && this.sleepDeadline !== null) {
+      // Chosen while paused: the timer starts when playback does.
+      this.pausedRemaining = this.sleepDeadline - Date.now();
+      this.sleepDeadline = null;
+    }
     this.notify();
   }
 
@@ -247,21 +301,27 @@ export class BedtimePlayer extends Player {
   /** Automatic advance (end of a track): honours the sleep timer and the end of the playlist. */
   override async next(): Promise<void> {
     const s = this.state();
+    if (s.index + 1 >= s.queue.length) {
+      // The last story ended (with or without a pending timer stop): the playlist is over.
+      this.holdAtBoundary = false;
+      this.hardStopAt = null;
+      this.intentionalPause = true;
+      await super.next();
+      this.sleepDeadline = null;
+      this.pausedRemaining = null;
+      this.setPhase("ended");
+      this.save(true, true);
+      return;
+    }
     if (this.holdAtBoundary) {
       this.holdAtBoundary = false;
       this.hardStopAt = null;
-      if (s.index + 1 < s.queue.length) await this.goTo(s.index + 1, false);
-      this.pause();
+      await this.goTo(s.index + 1, false);
+      this.stopAudio();
       this.sleepDeadline = null;
+      this.pausedRemaining = null;
       this.setPhase("asleep");
       this.save(true);
-      return;
-    }
-    if (s.index + 1 >= s.queue.length) {
-      await super.next();
-      this.sleepDeadline = null;
-      this.setPhase("ended");
-      this.save(true, true);
       return;
     }
     await super.next();
@@ -276,7 +336,8 @@ export class BedtimePlayer extends Player {
       return {
         id: i.id,
         title: i.title,
-        url: i.audio_url,
+        // Media fragment (bedtime.md §1): the browser fetches from start_sec and stops at end_sec.
+        url: `${i.audio_url}#t=${i.start_sec},${i.end_sec}`,
         start_sec: i.start_sec,
         end_sec: i.end_sec,
         ...(artist ? { artist } : {}),
@@ -288,12 +349,14 @@ export class BedtimePlayer extends Player {
 
   private afterTrackChange(): void {
     this.trackStartedAt = Date.now();
+    this.startedPlaying = false;
     if (!this.el.paused || this.phase === "loading") this.armWatchdog();
     this.save(true);
     this.notify();
   }
 
   private armTimer(): void {
+    this.pausedRemaining = null;
     if (this.timer === "end") {
       this.sleepDeadline = null;
       this.sleepTotal = null;
@@ -330,7 +393,7 @@ export class BedtimePlayer extends Player {
     if (this.hardStopAt !== null && now >= this.hardStopAt && !this.el.paused) {
       this.hardStopAt = null;
       this.holdAtBoundary = false;
-      this.pause();
+      this.stopAudio();
       this.setPhase("asleep");
     }
     if (!this.el.paused && now - this.lastSave >= SAVE_EVERY_MS) this.save();
@@ -346,7 +409,7 @@ export class BedtimePlayer extends Player {
       this.el.volume = Math.max(0, v0 * (1 - f));
       if (f >= 1) {
         this.cancelFade();
-        this.pause();
+        this.stopAudio();
         this.el.volume = 1;
         this.setPhase("asleep");
         this.save(true);
@@ -385,18 +448,26 @@ export class BedtimePlayer extends Player {
       if (this.state().index !== index) return;
       this.failures++;
       if (this.failures >= MAX_FAILURES) {
-        this.pause();
+        this.stopAudio();
         this.message = "Can't reach the stories right now.";
         this.setPhase("error");
         return;
       }
-      if (index + 1 < this.state().queue.length) void this.skip(1);
+      // A pending "stop after this story" still applies: the failed story counts as ended.
+      if (this.holdAtBoundary || index + 1 >= this.state().queue.length) void this.next();
+      else if (index + 1 < this.state().queue.length) void this.skip(1);
       else {
-        this.pause();
+        this.stopAudio();
         this.setPhase("ended");
         this.save(true, true);
       }
     }, wait);
+  }
+
+  /** Pause without it counting as the end of a track. */
+  private stopAudio(): void {
+    if (!this.el.paused) this.intentionalPause = true;
+    this.pause();
   }
 
   private positionState(): void {

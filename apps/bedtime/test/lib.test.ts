@@ -1,4 +1,5 @@
 import type { Playlist, PlaylistItem } from "@goldstein/playlists";
+import { RECIPES } from "@goldstein/playlists/engine";
 import { describe, expect, it } from "vitest";
 import { isDeepLink } from "../src/lib/deeplink.ts";
 import {
@@ -6,11 +7,13 @@ import {
   continuable,
   endedRecently,
   parseTimer,
+  resumeAt,
   sleepAction,
   type Session,
 } from "../src/lib/session.ts";
 import {
   aboutLength,
+  cardLine,
   cardMeta,
   clock,
   greeting,
@@ -66,6 +69,15 @@ describe("playlist types", () => {
       "#C8B5F3",
     ]);
   });
+
+  it("show the recipes' own card line and age label (one age label per type)", () => {
+    for (const t of TYPES) {
+      const r = RECIPES.find((x) => x.type === t.type)!;
+      expect(t.line).toBe(r.subtitle);
+      expect(t.ages).toBe(r.ages);
+      expect(r.subtitle).not.toMatch(/ages/i);
+    }
+  });
 });
 
 describe("formatting", () => {
@@ -73,8 +85,14 @@ describe("formatting", () => {
     expect(aboutLength(92)).toBe("about 1½ hours");
     expect(aboutLength(118)).toBe("about 2 hours");
     expect(aboutLength(48)).toBe("about 50 minutes");
-    expect(cardMeta({ total_min: 121, age_min: 7 })).toBe("about 2 hours · ages 7+");
-    expect(cardMeta({ total_min: 88, age_min: 0 })).toBe("about 1½ hours · ages 3+");
+    expect(cardMeta({ total_min: 121, type: "big", ages: "6–10" })).toBe(
+      "about 2 hours · ages 6–10",
+    );
+    // older editions without `ages`: the type's label, never the items' maximum age
+    expect(cardMeta({ total_min: 88, type: "little" })).toBe("about 1½ hours · ages 3–6");
+    expect(cardLine({ subtitle: "Short, gentle stories. Ages 3–6." })).toBe(
+      "Short, gentle stories.",
+    );
     expect(clock(372)).toBe("6:12");
     expect(clock(3725)).toBe("1:02:05");
   });
@@ -128,6 +146,9 @@ describe("resume", () => {
     expect(continuable(null, 0)).toBeNull();
     expect(endedRecently(session({ finished: true }), s.updated_at + 1000)).toBe(true);
     expect(endedRecently(session({ finished: true }), s.updated_at + CONTINUE_MS + 1)).toBe(false);
+    // Continue rewinds 10 s (never before the story's start).
+    expect(resumeAt(session({ position: 372 }))).toBe(362);
+    expect(resumeAt(session({ position: 4 }))).toBe(0);
   });
 });
 

@@ -95,7 +95,7 @@ const shot = async (page, name) => {
     `five cards in order (${cards.join(",")})`,
   );
   const meta = await page.textContent('[data-card="little"] [data-meta]');
-  check(/about .* · ages \d\+/.test(meta ?? ""), `card meta "${meta}"`);
+  check(/^about .* · ages 3–6$/.test(meta ?? ""), `card meta "${meta}"`);
   await shot(page, "home-phone");
 
   // ⋯ opens the list without playing

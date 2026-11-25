@@ -220,7 +220,7 @@ The pool is built in `packages/data` from the full `.meta.json` files (it needs 
 | B6 | not a private family recording | `audience.privacy[].flag != private_family` |
 | B7 | audio `good` or `fair` | `quality.audio` |
 | B8 | no blocking issue. Whole-file tracks: none of `defective_source`, `truncated_start`, `truncated_end`, `multiple_programs`, `dead_air`, `noisy_audio`, `mislabeled`. Span tracks: none of `defective_source`, `noisy_audio`, `mislabeled` (a clipped episode start or end does not hurt a span in the middle). | `quality.issues` |
-| B9 | **no overlap with a hidden span:** a track's `[start_sec, end_sec]` must not overlap any `hidden.on_air_people`, `hidden.addresses` or `hidden.other_personal` time span. The audio is public and unedited, but an auto-playing children's playlist should not be the thing that reads a child's full name. | `hidden.*` |
+| B9 | **no overlap with a hidden span:** a track's `[start_sec, end_sec]` must not overlap any `hidden.on_air_people`, `hidden.addresses` or `hidden.other_personal` time span, **padded by 2 s on each side** (the same pad as transcript masking, so a player overshooting `end_sec` cannot reach a name). A padded span that only touches a track's start or end trims the track; one inside it rules the track out. The audio is public and unedited, but an auto-playing children's playlist should not be the thing that reads a child's full name. | `hidden.*` |
 
 **Content types.** Eligible: `story`, `lesson_with_story`, `story_collection`, `story_chapter` (inside a complete set only), `radio_episode` (as story spans, or whole for the `radio` type), `radio_segment` with a non-empty `story_type` (story clips). **Never** in a core playlist: `shiur`, `talk`, `live_event` (rallies are loud), `family_recording`, `fragment`, `song`, `promo`, and `radio_segment` talks (those are used only by the `season` type).
 
@@ -257,7 +257,7 @@ Rules that fall out of this:
 | whole radio episodes passing B1 to B8 (for `radio`) | 396 (250 standalone) | 197.0 (124.2) | 30 min |
 | talk clips, 2 to 15 min, standalone (for `season`) | 228 | 20.7 | 5 min |
 
-**As built (2026-11-25, `packages/data/src/build/units.ts`): 487 units, 117.4 h** — story 141, clip 53, span 254, set 20, serial 19; calm 260 / middle 115 / exciting 112. Why it differs from the 489 above (checked by the bedtime team):
+**As built (2026-11-25, `packages/data/src/build/units.ts`): 491 units, 118.0 h** — story 142, clip 53, span 256, set 20, serial 20 (with the 2 s B9 pad and edge trimming; 487 before, when B9 dropped every track a hidden span touched). Why it differs from the 489 above (checked by the bedtime team):
 - **Serials 19, not 22.** *The Storyteller*, *The Missing Wallet* and *Dama ben Nesina* each have a chapter whose only copy overlaps a hidden span, so B9 rules the whole run out. The first count did not apply B9 to serial chapters. B9 is binding, so 19 is right.
 - **Sets 20, not 21.** The first build counted 16: it rejected any set holding two copies of a part (an alternate take, a superseded copy, a second telling). Now each part plays its best copy (B2 drops superseded ones; then publish over review, good audio over fair, lowest id) and the other copies join the block's dedupe keys, which recovers 5 sets (*Baal Shem Tov Saved a Neshama*, *Hashem Always Helps*, *Hashem's Name*, *Slavita Printer*, *The Four Chochmos*). A "set" with a single part (`meayin-yavo-ezri`, a lone "Part 1") is no longer a one-part block: it is incomplete, so it is out.
 - Stories 141 / clips 53 vs 142 / 50: data edits since the first count (`review` items are now publishable; *The Plot That Boomeranged* copy is now superseded).
@@ -360,17 +360,17 @@ Generation order of the types inside an edition rotates by edition (so no type a
 - **Flip time: 09:00 `America/New_York`** (DST-aware; 13:00 or 14:00 UTC). Editions are **global**, not per-user-local: everyone sees the same "tonight", the files are cacheable, and history means the same thing for every visitor. 09:00 Eastern is the one window that is nobody's bedtime: 06:00 Pacific, 14:00 London, 16:00 Jerusalem, about midnight in Melbourne. A nap at 13:00 anywhere in the US already gets tonight's playlists.
 - Because a started playlist is pinned in the client, a flip never interrupts playback.
 
-**Cooldowns** (days = editions; "use" means any unit sharing a key). As built in `packages/playlists/src/recipes.ts`; the first proposal is in brackets:
+**Cooldowns** (days, counted from edition dates; "use" means any unit sharing a key). As built in `packages/playlists/src/recipes.ts`, after the owner's guidance (2026-11-25): *"As long as the order is different, it's fine. Really only the first 30 minutes, the first few stories, will hopefully be listened to before falling asleep anyway."* So the pool is spent on the **head**; whole-playlist repeats are allowed after 2 nights. The first proposal is in brackets.
 
-| `type` | No repeat in the same type within | No repeat in the **head** of the same type within |
-|---|---|---|
-| `little` | 5 days (6) | 10 days (18) |
-| `calm` | 6 days (7) | 12 days (21) |
-| `adventure` | 6 days (12) | 10 days (24) |
-| `big` | 12 days (16) | 24 days (40) |
-| `mix` | 16 days (24) | 28 days (45) |
+| `type` | No repeat in the same type within | No repeat in the **head** (first 40 min) of the same type within | Distinct material that bounds the head |
+|---|---|---|---|
+| `little` | 2 days (6) | **15 days** (18) | 73 stories, 11.8 h (≈ 16 heads) |
+| `calm` | 2 days (7) | **19 days** (21) | 82 stories, 15.6 h (≈ 21 heads) |
+| `adventure` | 2 days (12) | **18 days** (24) | 49 stories, 12.3 h (≈ 16 heads) |
+| `big` | 2 days (16) | **36 days** (40) | 96 stories, 24.8 h (≈ 33 heads) |
+| `mix` | 2 days (24) | **50 days** (45) | 146 stories, 32.9 h (≈ 44 heads) |
 
-Why lower: with the rule that any shared dedupe key counts as a use, the pools hold far fewer distinct stories than units (re-airings, retellings and story groups). Little Ones has 216 units but 91 key clusters, about 14.5 h of distinct material; Adventure 151 units, 85 clusters, 27.8 h. With the bracketed values almost every playlist relaxed every night (observed minimum gaps then fell to 5 to 8 editions anyway). The new values come from 365-night simulations from three start dates: relaxation in 1 to 6% of playlists, no failed edition, observed minimum same-type gaps little 6, calm 6, adventure 5–6, big 8–10, mix 10–13 editions.
+"Distinct material" counts the type's single (non-block) units without a calendar tag, merged into stories by shared dedupe keys (re-airings, retellings, story groups); seasonal units add a little in season. A head is about 45 minutes (the units that start in the first 40). The head cooldowns are the largest that hold in 365-night simulations from three start dates (Nov, Mar, Jul) with at most about 4% of playlists relaxing (measured 0.8–3.8%); observed: median head gap little 17, calm 22, adventure 21, big 41, mix 56 nights; minimum head gap (after an occasional relaxation) 12–13, 15–17, 12–15, 22–27, 37–40. No two consecutive nights of a type have the same opener or running order (tested). History read for generation: 60 days (`LOOKBACK_DAYS`).
 
 Plus, across types: a unit that was in **any** head is not in any head for the next 2 editions; and within one edition no unit is in two heads. Outside the head, the same story may appear in two different types on the same night (a family picks one).
 
@@ -399,7 +399,7 @@ Plus, across types: a unit that was in **any** head is not in any head for the n
 // index.json: the clock. Clients pick the edition whose window contains now (UTC).
 { "recipe_version": 1, "rotation_hours": 24, "flip_tz": "America/New_York", "flip_local": "09:00",
   "editions": [ { "date": "2026-11-25", "starts_at": "2026-11-25T14:00:00Z", "ends_at": "2026-11-26T14:00:00Z",
-                  "hebrew_date": "16 Kislev 5787", "file": "editions/2026-11-25.json" } ] }  // 7 past + current + 14 future
+                  "hebrew_date": "16 Kislev 5787", "file": "editions/2026-11-25.json" } ] }  // 7 past + current (future editions are not public)
 
 // editions/2026-11-25.json: self-contained; a site can render and play from this alone.
 { "date": "2026-11-25", "starts_at": "...", "ends_at": "...", "hebrew_date": "16 Kislev 5787",
@@ -549,3 +549,13 @@ The privacy gate (`npm run privacy:gate`) must scan `/playlists/**` too: no key 
 26. `index.json` 404 → the site uses `tonight.json`; both missing → "No stories tonight. Please try again in a little while." and no console errors.
 27. axe-core reports no serious or critical issues; all text meets the contrast table; full keyboard operation; `prefers-reduced-motion` disables all animation.
 28. No narrator or series label is rendered for unconfirmed vocabulary entries; no Hebrew-script or Yiddish text appears.
+
+## 8. Review fixes (2026-11-25)
+
+- **Ages:** one label per type, from the recipe (`Playlist.ages`: little 3–6, big 6–10, calm 3+, adventure 6+, mix 6+); card lines no longer carry an age sentence, and the items' highest `age_min` is not shown.
+- **Resume:** the bedtime player never uses per-track positions (`resumePositions: false` in `@goldstein/player`); every story starts at its start; "Continue" resumes from the snapshot, 10 s earlier.
+- **Sleep timer:** a pause freezes the remaining time; play resumes it.
+- **Tombstones** check bounds: a stored item plays only if it matches one of its unit's current tracks (start or opening-song start, and end).
+- **Publishing:** `index.json` and `/playlists/editions/<id>.json` cover only the 7 previous nights and tonight; `/p/<id>/<type>` 404s for anything else. Editions are cached for 5 minutes; the service worker is network-first for playlist JSON.
+- **Determinism (criterion 7)** excludes `generated_at`, the time the job ran.
+- **Cold start:** one request fills the runway; others see a short 503 (best-effort KV lock, 60 s).

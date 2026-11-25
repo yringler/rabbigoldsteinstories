@@ -52,6 +52,12 @@ export interface PlayerOptions {
   saveEverySec?: number;
   /** Positions this close to the end count as finished (default 15 s). */
   finishedWithinSec?: number;
+  /**
+   * Remember and restore a position per track (default true). A site that resumes from its own
+   * snapshot (bedtime) passes false: every track then starts at its start_sec and no `pos:` keys
+   * are written.
+   */
+  resumePositions?: boolean;
   mediaSession?: MediaSession | null;
 }
 
@@ -68,6 +74,9 @@ export class Player {
   private readonly store: Store | undefined;
   private readonly saveEvery: number;
   private readonly finishedWithin: number;
+  private readonly resumePositions: boolean;
+  /** Index of the track just marked finished: its position must not be saved again. */
+  private finishedIndex = -1;
   private readonly session: MediaSession | null;
 
   constructor(opts: PlayerOptions) {
@@ -75,6 +84,7 @@ export class Player {
     this.store = opts.store;
     this.saveEvery = opts.saveEverySec ?? 5;
     this.finishedWithin = opts.finishedWithinSec ?? 15;
+    this.resumePositions = opts.resumePositions ?? true;
     this.session =
       opts.mediaSession ??
       (typeof navigator !== "undefined" && "mediaSession" in navigator
@@ -126,6 +136,7 @@ export class Player {
     if (!t) return;
     this.savePosition();
     this.index = index;
+    this.finishedIndex = -1;
     if (this.audio.src !== t.url) this.audio.src = t.url;
     this.audio.currentTime = this.resumePoint(t);
     this.updateMetadata();
@@ -186,6 +197,7 @@ export class Player {
 
   private resumePoint(t: Track): number {
     const start = t.start_sec ?? 0;
+    if (!this.resumePositions) return start;
     const saved = this.store?.get<number | null>(this.key(t), null);
     if (saved === null || saved === undefined) return start;
     const end = t.end_sec ?? Infinity;
@@ -194,12 +206,13 @@ export class Player {
 
   private savePosition() {
     const t = this.current;
-    if (!t || !this.store) return;
+    if (!t || !this.store || !this.resumePositions || this.index === this.finishedIndex) return;
     this.store.set(this.key(t), this.audio.currentTime);
   }
 
   private markFinished() {
     const t = this.current;
+    this.finishedIndex = this.index;
     if (t && this.store) this.store.remove(this.key(t));
   }
 

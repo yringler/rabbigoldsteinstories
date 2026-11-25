@@ -21,8 +21,8 @@ export interface EditionStore {
 
 export const RUNWAY_DAYS = 14;
 export const HISTORY_NIGHTS = 7;
-/** Longest cooldown in the recipes (mix head: 45 days) — how much history generation reads. */
-export const LOOKBACK_DAYS = 45;
+/** More than the longest cooldown in the recipes (mix head: 50 days): how much history generation reads. */
+export const LOOKBACK_DAYS = 60;
 /** Editions starting within this many hours are frozen: never rewritten. */
 export const FREEZE_HOURS = 24;
 
@@ -105,12 +105,28 @@ export async function ensureRunway(input: RunwayInput): Promise<RunwayResult> {
  * block loses all its tracks. Nothing is substituted.
  */
 export function tombstone(e: Edition, pool: UnitPool, overrides: Overrides = {}): Edition {
-  const live = new Set(pool.units.filter((u) => !overrides[u.unit]?.exclude).map((u) => u.unit));
+  const live = new Map(
+    pool.units.filter((u) => !overrides[u.unit]?.exclude).map((u) => [u.unit, u] as const),
+  );
+  // An item survives only if its unit is still in the pool AND it plays exactly one of that
+  // unit's current tracks (start_sec, or the opening-song intro_start_sec, to end_sec). A data
+  // fix that moves or shrinks a track (e.g. a new hidden span) drops the stored item; a block
+  // with any such part loses all its parts.
+  const matches = (i: Edition["playlists"][number]["items"][number]) =>
+    live
+      .get(i.unit)
+      ?.tracks.some(
+        (t) =>
+          t.id === i.id &&
+          t.end_sec === i.end_sec &&
+          (t.start_sec === i.start_sec || t.intro_start_sec === i.start_sec),
+      ) ?? false;
   return {
     ...e,
     playlists: e.playlists
       .map((p) => {
-        const items = p.items.filter((i) => live.has(i.unit));
+        const bad = new Set(p.items.filter((i) => !matches(i)).map((i) => i.unit));
+        const items = p.items.filter((i) => !bad.has(i.unit));
         return {
           ...p,
           items,
@@ -137,7 +153,9 @@ export async function buildViews(
   clock: ClockConfig = CLOCK,
 ): Promise<Views> {
   const perDay = 24 / clock.rotationHours;
-  const windows = editionsAround(now, HISTORY_NIGHTS * perDay, RUNWAY_DAYS * perDay, clock);
+  // Only what has started is public: the 7 previous nights and the current one. Future editions
+  // stay private (they may still change, and nobody should browse ahead).
+  const windows = editionsAround(now, HISTORY_NIGHTS * perDay, 0, clock);
   const t = now.getTime();
   const entries: IndexEntry[] = [];
   const editions = new Map<string, Edition>();

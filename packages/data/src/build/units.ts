@@ -10,7 +10,7 @@
  * first measurement, are in docs/sites/bedtime.md §4.2.
  */
 import { createHash } from "node:crypto";
-import { hiddenSpans, overlapsAny } from "../privacy.ts";
+import { hiddenSpans, overlapsAny, SPAN_PAD_SEC } from "../privacy.ts";
 import type { RawMeta, RawVocabEntry } from "../raw.ts";
 import { PUBLIC_DATA_VERSION, type ItemId, type Unit, type UnitAdvisory, type UnitPool, type UnitTrack } from "../types.ts";
 import { scoreEnergy } from "./energy.ts";
@@ -87,7 +87,31 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     end_sec: round(end),
     duration_sec: round(end - start),
   });
-  const notHidden = (m: RawMeta, t: UnitTrack) => !overlapsAny(t.start_sec, t.end_sec, hiddenSpans(m.hidden, 0)); // B9 (exact spans)
+  /**
+   * B9 with the transcript-masking pad (SPAN_PAD_SEC = 2 s on each side of a hidden span), so a
+   * player overshooting end_sec or a seek landing early can never reach a name. A padded span
+   * that only touches the start or the end of the track trims it (story segments often begin
+   * where a Shema-guest segment ends); one inside the track rules the track out. Mutates `t`.
+   */
+  const notHidden = (m: RawMeta, t: UnitTrack): boolean => {
+    const spans = hiddenSpans(m.hidden, SPAN_PAD_SEC).sort((a, b) => a.start - b.start);
+    let s = t.start_sec;
+    let e = t.end_sec;
+    for (const h of spans) {
+      if (!(s < h.end && e > h.start)) continue;
+      if (h.start <= s) s = h.end;
+      else if (h.end >= e) e = h.start;
+      else return false;
+      if (e - s < 60) return false;
+    }
+    s = Math.ceil(s * 100) / 100;
+    e = Math.floor(e * 100) / 100;
+    if (overlapsAny(s, e, spans)) return false;
+    t.start_sec = s;
+    t.end_sec = e;
+    t.duration_sec = round(e - s);
+    return true;
+  };
   const advisories = (m: RawMeta, range?: [number, number]): UnitAdvisory[] =>
     m.audience.advisories
       .filter((a) => !range || a.at_sec === undefined || (a.at_sec >= range[0] - 30 && a.at_sec <= range[1]))
@@ -129,10 +153,10 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     const start = song !== null && song > bounds.start && song < end ? song : bounds.start;
     if (end - start < MIN_SEC || end - start > MAX_SEC) continue;
     const t = track(m, start, end);
-    if (!notHidden(m, t)) continue;
-    if (start > bounds.start) {
+    if (!notHidden(m, t) || t.duration_sec < MIN_SEC) continue;
+    if (t.start_sec > bounds.start) {
       const intro = round(bounds.start);
-      if (!overlapsAny(intro, t.end_sec, hiddenSpans(m.hidden, 0))) t.intro_start_sec = intro;
+      if (!overlapsAny(intro, t.end_sec, hiddenSpans(m.hidden, SPAN_PAD_SEC))) t.intro_start_sec = intro;
     }
     units.push(
       make(
@@ -176,7 +200,7 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
       if (end - start < MIN_SEC || end - start > MAX_SEC) continue;
       const story = run.find((s) => s.type === "story")!;
       const t = track(m, start, end, story.title);
-      if (!notHidden(m, t)) continue;
+      if (!notHidden(m, t) || t.duration_sec < MIN_SEC) continue;
       spanUnits.push({ episode: m.id, start, end });
       units.push(
         make(

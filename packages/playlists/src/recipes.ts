@@ -9,12 +9,12 @@
  * than three tracks in a row by one narrator when a swap of same-band neighbours fixes it); the
  * opening-song rule (the first track keeps its "I Believe in Hashem" intro, later ones skip it).
  *
- * Cooldowns are lower than the first table in bedtime.md §4.6 (noted per recipe below): with the
- * binding rule that a unit sharing any dedupe key counts as a use, the pools hold far fewer
- * distinct stories than units (Little Ones: 216 units, 91 key clusters, about 14.5 h of distinct
- * material), and the original numbers made almost every edition relax. These values come from a
- * 365-night simulation on the real pool (relaxation in under 5% of playlists); bedtime.md §4.6
- * has the table and the measurements.
+ * Cooldowns (owner, 2026-11-25: "as long as the order is different, it's fine; really only the
+ * first 30 minutes will be listened to"): the pool is spent on the HEAD. A story may come back in
+ * the same type after 2 nights (never two nights running), but stays out of the first 40 minutes
+ * of that type for as long as the distinct material allows. The values come from 365-night
+ * simulations from three start dates on the real pool, the largest head cooldowns with at most
+ * about 4% of playlists relaxing; bedtime.md §4.6 has the table and the measurements.
  *
  * Changing a recipe changes future editions only (stored editions are frozen); bump
  * RECIPE_VERSION in contract.ts when selection changes.
@@ -204,12 +204,13 @@ export const RECIPES: readonly Recipe[] = [
   make({
     type: "little",
     title: "Little Ones",
-    subtitle: "Short, gentle stories. Ages 3–6.",
+    subtitle: "Short, gentle stories.",
+    ages: "3–6",
     kidLine: "Cozy little stories",
     targetMin: 90,
     toleranceMin: 10,
-    cooldownDays: 5, // first spec table: 6
-    headCooldownDays: 10, // first spec table: 18
+    cooldownDays: 2, // first spec table: 6
+    headCooldownDays: 15, // first spec table: 18
     openerMaxMin: 12,
     noMourningBoost: true,
     eligible: littleEligible,
@@ -218,12 +219,13 @@ export const RECIPES: readonly Recipe[] = [
   make({
     type: "big",
     title: "Big Kids",
-    subtitle: "Longer stories with more to think about. Ages 6–10.",
+    subtitle: "Longer stories with more to think about.",
+    ages: "6–10",
     kidLine: "Big stories for big kids",
     targetMin: 120,
     toleranceMin: 10,
-    cooldownDays: 12, // first spec table: 16
-    headCooldownDays: 24, // first spec table: 40
+    cooldownDays: 2, // first spec table: 16
+    headCooldownDays: 36, // first spec table: 40
     eligible: (u) => u.age_min >= 6 || (u.age_min === 5 && energy(u) >= 1),
     windDown: calmTail(20),
   }),
@@ -231,11 +233,12 @@ export const RECIPES: readonly Recipe[] = [
     type: "calm",
     title: "Quiet Night",
     subtitle: "Soft, slow stories for drifting off.",
+    ages: "3+",
     kidLine: "Stories for sleepy heads",
     targetMin: 120,
     toleranceMin: 10,
-    cooldownDays: 6, // first spec table: 7
-    headCooldownDays: 12, // first spec table: 21
+    cooldownDays: 2, // first spec table: 7
+    headCooldownDays: 19, // first spec table: 21
     noMourningBoost: true,
     eligible: calmEligible,
     windDown: { minSec: 20 * MIN, eligible: calmEligible },
@@ -243,12 +246,13 @@ export const RECIPES: readonly Recipe[] = [
   make({
     type: "adventure",
     title: "Adventure Night",
-    subtitle: "Kings, journeys and narrow escapes, settling down by the end. Ages 6+.",
+    subtitle: "Kings, journeys and narrow escapes, settling down by the end.",
+    ages: "6+",
     kidLine: "Hold on tight",
     targetMin: 120,
     toleranceMin: 10,
-    cooldownDays: 6, // first spec table: 12
-    headCooldownDays: 10, // first spec table: 24
+    cooldownDays: 2, // first spec table: 12
+    headCooldownDays: 18, // first spec table: 24
     eligible: (u) => energy(u) >= 3 && u.age_min <= 9,
     windDown: calmTail(25),
   }),
@@ -256,11 +260,12 @@ export const RECIPES: readonly Recipe[] = [
     type: "mix",
     title: "Tonight's Mix",
     subtitle: "A bit of everything.",
+    ages: "6+",
     kidLine: "A surprise mix",
     targetMin: 120,
     toleranceMin: 10,
-    cooldownDays: 16, // first spec table: 24
-    headCooldownDays: 28, // first spec table: 45
+    cooldownDays: 2, // first spec table: 24
+    headCooldownDays: 50, // first spec table: 45
     eligible: () => true,
     windDown: calmTail(20),
   }),

@@ -2,7 +2,7 @@
  * The published playlist files (docs/sites/bedtime.md §4.6), served by every site under
  * /playlists/. Field names are the contract the three apps code against.
  *
- *   /playlists/index.json              the clock: past 7 + current + up to 14 future editions
+ *   /playlists/index.json              the clock: past 7 + current edition (future ones are not public)
  *   /playlists/editions/<id>.json      one edition, self-contained
  *   /playlists/tonight.json            copy of the current edition at publish time (fallback)
  *   /playlists/history.json            the 7 editions before the current one, newest first
@@ -12,7 +12,7 @@
  */
 import type { ItemId } from "@goldstein/data";
 
-export const RECIPE_VERSION = 2;
+export const RECIPE_VERSION = 3;
 
 export interface PlaylistTrackAdvisory {
   flag: string;
@@ -47,6 +47,8 @@ export interface Playlist {
   subtitle: string;
   /** Kid-facing line (kids site). */
   kid_line?: string;
+  /** The type's age range for display, e.g. "3–6" or "6+" (one label per type; set by the recipe). */
+  ages?: string;
   total_min: number;
   /** Highest age_min among the items. */
   age_min: number;
@@ -65,6 +67,7 @@ export interface Edition {
   recipe_version: number;
   /** UnitPool.pool_hash the edition was generated from. */
   pool_hash: string;
+  /** When the job generated it: the only field not reproducible from pool + history + edition id. */
   generated_at: string;
   playlists: Playlist[];
 }

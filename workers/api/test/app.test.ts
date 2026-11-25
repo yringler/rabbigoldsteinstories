@@ -40,8 +40,13 @@ describe("goldstein-api", () => {
     expect(tonight.date).toBe("2026-11-25");
     expect(tonight.playlists.length).toBe(5);
 
-    const ed = await get("/playlists/editions/2026-11-30.json", deps);
+    const ed = await get("/playlists/editions/2026-11-25.json", deps);
     expect(ed.status).toBe(200);
+    expect(ed.headers.get("cache-control")).toBe("public, max-age=300, stale-while-revalidate=600");
+    // Future editions exist in KV but are not public; neither is anything outside the index.
+    expect(index.editions.map((e) => e.date)).toEqual(["2026-11-25"]);
+    expect((await get("/playlists/editions/2026-11-30.json", deps)).status).toBe(404);
+    expect((await get("/playlists/editions/2026-11-01.json", deps)).status).toBe(404);
     expect((await get("/playlists/editions/nope.json", deps)).status).toBe(404);
     expect((await get("/other", deps)).status).toBe(404);
   });
@@ -76,5 +81,20 @@ describe("goldstein-api", () => {
   it("generates on demand when the cron has not run yet", async () => {
     const tonight = await get("/playlists/tonight.json", { kv: fakeKv(), pool, overrides: {} });
     expect(tonight.status).toBe(200);
+  });
+
+  it("on a cold start, requests while another one is filling get a short 503 (best-effort lock)", async () => {
+    const kv = fakeKv();
+    const deps = { kv, pool, overrides: {} };
+    // Another request started filling 5 s ago (KV has no atomic lock, so this is best-effort).
+    kv.data.set("lock:fill", JSON.stringify(now.getTime() - 5000));
+    const busy = await get("/playlists/tonight.json", deps);
+    expect(busy.status).toBe(503);
+    expect(busy.headers.get("retry-after")).toBe("10");
+    expect(busy.headers.get("cache-control")).toBe("no-store");
+    expect([...kv.data.keys()].filter((k) => k.startsWith("edition:"))).toEqual([]);
+    // A stale lock (the filler died) does not block for longer than its TTL.
+    kv.data.set("lock:fill", JSON.stringify(now.getTime() - 120_000));
+    expect((await get("/playlists/tonight.json", deps)).status).toBe(200);
   });
 });

@@ -37,7 +37,9 @@ export function loadTonight(now = Date.now()): Promise<Loaded<Edition>> {
     if (!isEdition(edition)) edition = await getJson<Edition>("/playlists/tonight.json");
     if (isEdition(edition)) {
       store.set(EDITION_CACHE_KEY, edition);
-      return { data: edition, offline: false };
+      // Offline, the service worker answers from its cache: still say so.
+      const offline = typeof navigator !== "undefined" && navigator.onLine === false;
+      return { data: edition, offline };
     }
     const cached = store.get<unknown>(EDITION_CACHE_KEY, null);
     const offline = typeof navigator !== "undefined" && navigator.onLine === false;

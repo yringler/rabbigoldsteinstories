@@ -12,6 +12,8 @@ export interface TypeUi {
   name: string;
   /** Card line (also in the edition; this is the fallback before the edition loads). */
   line: string;
+  /** Age range of the type, the same as the recipe's `ages` (a test keeps them equal). */
+  ages: string;
   color: string;
   /** SVG inner markup on a 48×48 grid, 2 px round strokes in currentColor. */
   icon: string;
@@ -25,7 +27,8 @@ export const TYPES: readonly TypeUi[] = [
   {
     type: "little",
     name: "Little Ones",
-    line: "Short, gentle stories. Ages 3–6.",
+    line: "Short, gentle stories.",
+    ages: "3–6",
     color: "#F5B7A6",
     // a small sleeping moon
     icon: '<path d="M29 7.5a16.5 16.5 0 1 0 11.5 26A14 14 0 0 1 29 7.5Z"/><path d="M15.5 25.5q2.5 2.5 5 0"/><path d="M33 10.5h5l-5 5h5"/>',
@@ -33,7 +36,8 @@ export const TYPES: readonly TypeUi[] = [
   {
     type: "big",
     name: "Big Kids",
-    line: "Longer stories with more to think about. Ages 6–10.",
+    line: "Longer stories with more to think about.",
+    ages: "6–10",
     color: "#93BBF5",
     // an open book with a star
     icon: `<path d="M24 19c-4.5-3-10.5-4-16-3v22c5.5-1 11.5 0 16 3 4.5-3 10.5-4 16-3V16c-5.5-1-11.5 0-16 3Z"/><path d="M24 19v22"/>${sparkle(24, 8, 4.5)}`,
@@ -42,6 +46,7 @@ export const TYPES: readonly TypeUi[] = [
     type: "calm",
     name: "Quiet Night",
     line: "Soft, slow stories for drifting off.",
+    ages: "3+",
     color: "#A5D0BE",
     // a candle flame
     icon: '<path d="M24 5.5c4.5 5.5 6.5 9 6.5 12a6.5 6.5 0 0 1-13 0c0-3 2-6.5 6.5-12Z"/><path d="M24 14c1.6 2.2 2.6 3.8 2.6 5.2a2.6 2.6 0 0 1-5.2 0c0-1.4 1-3 2.6-5.2Z"/><path d="M24 24v3"/><rect x="18.5" y="27" width="11" height="15" rx="2"/>',
@@ -49,7 +54,8 @@ export const TYPES: readonly TypeUi[] = [
   {
     type: "adventure",
     name: "Adventure Night",
-    line: "Kings, journeys and narrow escapes, settling down by the end. Ages 6+.",
+    line: "Kings, journeys and narrow escapes, settling down by the end.",
+    ages: "6+",
     color: "#F2A45C",
     // a little ship on a wave
     icon: '<path d="M9 30h30l-4.5 7h-21Z"/><path d="M24 7v23"/><path d="M24 10l10 15H24Z"/><path d="M24 7l-6 2.5 6 2.5"/><path d="M5 42c3-2 6-2 9.5 0s6.5 2 9.5 0 6.5-2 9.5 0 6 2 9.5 0"/>',
@@ -58,6 +64,7 @@ export const TYPES: readonly TypeUi[] = [
     type: "mix",
     name: "Tonight's Mix",
     line: "A bit of everything.",
+    ages: "6+",
     color: "#C8B5F3",
     // three stars of different sizes
     icon: `${sparkle(18, 27, 11)}${sparkle(35, 12, 6.5)}${sparkle(36, 36, 4)}`,
@@ -98,8 +105,15 @@ export function minutes(sec: number): string {
   return m >= 60 ? `${Math.floor(m / 60)} h ${m % 60} min` : `${m} min`;
 }
 
-export function cardMeta(p: Pick<Playlist, "total_min" | "age_min">): string {
-  return `${aboutLength(p.total_min)} · ages ${Math.max(3, p.age_min)}+`;
+/** "about 2 hours · ages 6–10": one age label per type (the recipe's), never the items' maximum. */
+export function cardMeta(p: Pick<Playlist, "total_min" | "type" | "ages">): string {
+  const ages = p.ages ?? TYPE_BY_ID[p.type]?.ages;
+  return ages ? `${aboutLength(p.total_min)} · ages ${ages}` : aboutLength(p.total_min);
+}
+
+/** The card line without an age sentence (editions before recipe v3 had "Ages 3–6." in it). */
+export function cardLine(p: Pick<Playlist, "subtitle">): string {
+  return p.subtitle.replace(/\s*Ages [^.]*\.\s*$/, "");
 }
 
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];

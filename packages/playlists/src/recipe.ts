@@ -50,6 +50,8 @@ export interface Recipe {
   subtitle: string;
   /** Kid-facing line (kids site). */
   kidLine?: string;
+  /** Age range shown for the type, e.g. "3–6" or "6+" (published as Playlist.ages). */
+  ages?: string;
   targetMin: number;
   toleranceMin: number;
   /** No repeat (shared key) in the same type within this many days. */

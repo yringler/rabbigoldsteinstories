@@ -5,8 +5,23 @@
 import type { Edition, Playlist } from "@goldstein/playlists";
 import { parseDeepLink } from "../lib/deeplink.ts";
 import { GLYPHS } from "../lib/glyphs.ts";
-import { continuable, EDITION_CACHE_KEY, endedRecently, SESSION_KEY } from "../lib/session.ts";
-import { cardMeta, clock, greeting, iconSvg, nightLabel, TYPE_BY_ID, TYPES } from "../lib/ui.ts";
+import {
+  continuable,
+  EDITION_CACHE_KEY,
+  endedRecently,
+  resumeAt,
+  SESSION_KEY,
+} from "../lib/session.ts";
+import {
+  cardLine,
+  cardMeta,
+  clock,
+  greeting,
+  iconSvg,
+  nightLabel,
+  TYPE_BY_ID,
+  TYPES,
+} from "../lib/ui.ts";
 import { loadHistory, loadTonight } from "./data.ts";
 import type { SheetApi } from "./sheet.ts";
 import { store } from "./store.ts";
@@ -70,7 +85,7 @@ export async function renderHome(app: App): Promise<void> {
     contBtn.hidden = false;
     contBtn.addEventListener("click", () => {
       contBtn.hidden = true;
-      app.start(cont.playlist, cont.when, cont.index, cont.position);
+      app.start(cont.playlist, cont.when, cont.index, resumeAt(cont));
     });
   }
   const greet = $("[data-greeting]", root)!;
@@ -91,11 +106,11 @@ export async function renderHome(app: App): Promise<void> {
       const p = edition.playlists.find((x) => x.type === type);
       card.closest("li")!.hidden = !p || p.items.length === 0;
       if (!p || p.items.length === 0) continue;
-      $("[data-line]", card)!.textContent = p.subtitle;
+      $("[data-line]", card)!.textContent = cardLine(p);
       $("[data-meta]", card)!.textContent = cardMeta(p);
       card.removeAttribute("aria-busy");
       const play = $<HTMLButtonElement>("[data-play]", card)!;
-      play.setAttribute("aria-label", `Play ${p.title}. ${p.subtitle} ${cardMeta(p)}.`);
+      play.setAttribute("aria-label", `Play ${p.title}. ${cardLine(p)} ${cardMeta(p)}.`);
       play.onclick = () => app.start(p, "tonight");
       $<HTMLButtonElement>("[data-more]", card)!.onclick = () => app.sheet.preview(p, "tonight");
     }
