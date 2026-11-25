@@ -74,3 +74,4 @@ All questions are now answered.
 - **Lost episodes:** extract titles from the master tape catalog; done in `data/indexes/lost_episodes.json` (`tools/3-metadata/scripts/build_lost_episodes.py`). The catalog's visitor column (children's names) is not copied.
 - **Bedtime defaults, pending the owner** (he left rotation length to the planners): rotate once a day at 09:00 America/New_York (a config constant, so 12 h is a one-line change); Little Ones 90 min; whole radio episodes are not auto-played in playlists (story spans only); no special Shabbos/Yom Tov/Nine Days/Sefirah behaviour for now.
 - **Hostnames (no dashes):** `bedtimestories.`, `kidsstories.`, `storylibrary.torahlearningtools.com`.
+- **Bedtime repeats (owner, 2026-11-25):** repeats inside a playlist are fine as long as the order differs; what matters is the first ~30 minutes (the first few stories), since children usually fall asleep by then. Tune cooldowns to keep the *openings* fresh, not whole playlists.
