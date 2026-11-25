@@ -46,7 +46,7 @@ The pipeline ran on the owner's Windows PC, in `C:\Users\ybrin\Downloads\`:
 - **Working anywhere else:** the repo is the source of truth. Edit `data/` directly and validate with `tools/validate_repo.py`. Tool scripts under `tools/` contain absolute Windows paths, so adjust them before running.
 
 ## Monorepo / websites
-- Three sites (`apps/{bedtime,kids,library}`, Astro on Cloudflare Workers static assets), the playlist Worker (`workers/api`, cron + KV) and shared `packages/` (npm workspaces, TypeScript strict). Read `docs/ARCHITECTURE.md` before touching them: layout, data flow, team file ownership, dependency/lockfile rules, deployment.
+- Three sites plus a landing page (`apps/{bedtime,kids,library,home}`, Astro on Cloudflare Workers static assets), the playlist Worker (`workers/api`, cron + KV) and shared `packages/` (npm workspaces, TypeScript strict). Read `docs/ARCHITECTURE.md` before touching them: layout, data flow, team file ownership, dependency/lockfile rules, deployment.
 - Sites read only the public dataset that `packages/data` builds into `packages/data/generated/` (git-ignored), never `data/` directly. The privacy gate (`npm test`, `npm run privacy:gate -- <dirs>`) must pass. Never weaken it to make a build pass.
 - Verify with `npm ci && npm run typecheck && npm test && npm run build`.
 
