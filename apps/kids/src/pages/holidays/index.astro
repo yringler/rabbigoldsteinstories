@@ -1,0 +1,32 @@
+---
+// /holidays (§5.2): 12 holiday tiles, ordered on the client starting from the next upcoming holiday.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { countsByVariant, getModel, tileKey, visibleIn } from "../../lib/build/model.ts";
+import { tileHtml } from "../../lib/html.ts";
+import { TILE_MIN } from "../../lib/tiles.ts";
+
+const m = getModel();
+const html = m.tiles.holidays
+  .map((t) => {
+    const items = m.tileItems.get(tileKey(t)) ?? [];
+    return { t, vis: visibleIn(items, TILE_MIN), counts: countsByVariant(items) };
+  })
+  .filter((x) => x.vis.length > 0)
+  .map(({ t, vis, counts }) =>
+    tileHtml(t, { vis, counts }).replace("<a ", `<a data-holiday="${t.slug}" `),
+  )
+  .join("");
+---
+
+<Base title="Holidays" tab="explore" description="Stories for every Yom Tov and special day.">
+  <div data-init="holidays">
+    <PageHead
+      title="Holidays"
+      sub="Stories for every Yom Tov, starting with the next one."
+      icon="calendar-star"
+      color="#E0533F"
+    />
+    <div class="tiles" set:html={html} />
+  </div>
+</Base>

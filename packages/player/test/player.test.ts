@@ -78,6 +78,43 @@ describe("Player", () => {
   });
 });
 
+describe("Player additions (kids site)", () => {
+  it("stopAfterCurrent pauses at end_sec instead of advancing", async () => {
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: null });
+    await p.load(tracks);
+    p.stopAfterCurrent(true);
+    expect(p.state().stopAtEnd).toBe(true);
+    audio.currentTime = 400;
+    audio.fire("timeupdate");
+    await Promise.resolve();
+    expect(p.current?.id).toBe("aaaaaaaaaa");
+    expect(audio.paused).toBe(true);
+    expect(p.state().stopAtEnd).toBe(false);
+  });
+
+  it("setQueue keeps the current track playing", async () => {
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: null });
+    await p.load([tracks[0]!]);
+    audio.currentTime = 200;
+    await p.setQueue([tracks[0]!, tracks[1]!], 0);
+    expect(audio.currentTime).toBe(200);
+    expect(p.state().queue).toHaveLength(2);
+  });
+
+  it("resumes resumeBackSec before the saved position", async () => {
+    const store = createStore("test", memoryStorage());
+    const a = new FakeAudio();
+    await new Player({ audio: a, store, mediaSession: null }).load(tracks);
+    a.currentTime = 250;
+    a.pause();
+    const b = new FakeAudio();
+    await new Player({ audio: b, store, mediaSession: null, resumeBackSec: 3 }).load(tracks);
+    expect(b.currentTime).toBe(247);
+  });
+});
+
 describe("createStore", () => {
   it("namespaces keys and survives a missing backend", () => {
     const s = createStore("kids", null);

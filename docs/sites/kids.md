@@ -529,10 +529,23 @@ Still open:
 
 ---
 
-## 14. Acceptance criteria
+## 14. Implementation notes (apps/kids, 2026-11-25)
+
+Where the built site differs from the text above, and why:
+- **Playlists page path:** `/tonight/`, not `/playlists`. `/playlists/*` is reserved on every host for `goldstein-api` (docs/ARCHITECTURE.md §8). The files are still read from `/playlists/index.json` (then the edition file, falling back to `tonight.json`) and `/playlists/history.json`.
+- **localStorage keys** use the shared `createStore("kids")` prefix `goldstein:kids:<key>` (ARCHITECTURE §8) instead of `kidslib.v1.`; the keys themselves are as in §7.
+- **Near-duplicate guard:** with the formula as written, about 60 unlinked pairs score 0.85 or more, almost all short radio clips with two or three identical tags. All of them are still kept out of "More like this", but a pair is reported (build log) and shown under "Other versions" only when the lengths agree within 5% and the titles mostly match, and neither is a whole show. Today that is 4 pairs. "The Plot That Boomeranged" is now linked in the data.
+- **Overlap of two items** uses the smaller of the two weights when a feature has different base weights in each (a person central in one, mentioned in the other); this keeps scores in 0–1.
+- **Calendar** is computed at build time with `@hebcal/core` (400 days from the build) instead of `pyluach`; a deploy refreshes it.
+- **Covers:** SVG at build; the 512×512 PNG for Media Session artwork is rasterised in the browser from the same-origin SVG (no PNG files in the build). Share previews use no image.
+- **Story of the Day "seasonal" pool** also counts the active chassidishe date (e.g. Yud-Tes Kislev) after the holiday groups.
+- **Search** also indexes the Hebrew midah term (Emunah, Emes…) with the tile labels, and expands a few nicknames ("besht" → Baal Shem Tov, "rashbi").
+- **Tag pages** list events and songs nowhere (as in §4.6); they are reachable through search and direct links.
+
+## 15. Acceptance criteria
 
 **Catalog and privacy**
-1. On the 2026-11-25 data the build reports a kid pool of 1,035 items: 410 shows, 314 stories, 293 quick listens, 11 events, 3 songs.
+1. On the 2026-11-25 data the build reports a kid pool of 1,033 items: 411 shows, 310 stories, 298 quick listens, 11 events, 3 songs. (Recomputed after the owner made `review` items publishable and linked "The Plot That Boomeranged" copies; the concept's original figure was 1,035 = 410 / 314 / 293 / 11 / 3. Band sizes now: Little 512, Kids 828, Big Kids 1,033; with Gentle 445 / 500 / 516. Per-tile Big Kids counts are pinned in `apps/kids/test/catalog.test.ts`.)
 2. Grepping the entire build output finds none of the keys `hidden`, `source`, `quality`, `provenance`, `proposed_new_terms`, `identity_guesses`, `privacy`, and no transcript text.
 3. The hidden-name check (§9) runs in CI and fails the build when a seeded test name is injected into a summary.
 4. No Yiddish item, shiur, family recording, superseded copy, `review` or `hide` item is reachable from any shelf, grid, search result or "More like this".

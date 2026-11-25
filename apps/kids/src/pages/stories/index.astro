@@ -1,0 +1,79 @@
+---
+// /stories (§4.2): every story in band; sort chips and single-select story-type chips; 24 at a time.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { byTitle, getModel, visibleIn } from "../../lib/build/model.ts";
+import { card } from "../../lib/build/views.ts";
+import { STORY_TYPE_CHIPS } from "../../lib/tiles.ts";
+
+const m = getModel();
+const stories = m.pool.filter((k) => k.kind === "story").sort(byTitle);
+const keysOf = (ids: readonly string[]) =>
+  STORY_TYPE_CHIPS.filter((c) => c.ids.some((i) => ids.includes(i))).map((c) => c.slug);
+const chips = STORY_TYPE_CHIPS.map((c) => ({
+  ...c,
+  vis: visibleIn(
+    stories.filter((k) => keysOf(k.item.classification.story_type).includes(c.slug)),
+    1,
+  ),
+}));
+const sorts = [
+  { key: "new", label: "New to me" },
+  { key: "short", label: "Short" },
+  { key: "long", label: "Long" },
+  { key: "az", label: "A–Z" },
+];
+---
+
+<Base
+  title="Stories"
+  tab="stories"
+  description="Chassidic tales, stories with a lesson, true stories and more."
+>
+  <div data-init="grid" data-paged>
+    <PageHead title="Stories" sub="Pick a story." icon="book" color="#7A4FC2" />
+    <div class="chips" role="group" aria-label="Sort">
+      {sorts.map((s, i) => (
+        <button
+          type="button"
+          class="chip"
+          data-sort={s.key}
+          aria-pressed={i === 0 ? "true" : "false"}
+        >
+          {s.label}
+        </button>
+      ))}
+    </div>
+    <div class="chips" role="group" aria-label="Kind of story">
+      <button type="button" class="chip" data-filter="" aria-pressed="true">
+        All
+      </button>
+      {chips.map((c) => (
+        <button
+          type="button"
+          class="chip"
+          data-filter={c.slug}
+          aria-pressed="false"
+          data-vis={c.vis.join(" ")}
+        >
+          {c.label}
+        </button>
+      ))}
+    </div>
+    <div
+      class="grid"
+      data-grid
+      set:html={stories
+        .map((k) => card(k, { f: keysOf(k.item.classification.story_type) }))
+        .join("")}
+    />
+    <div class="more-wrap">
+      <button type="button" class="btn" data-more hidden>
+        Show more
+      </button>
+    </div>
+    <div class="empty" data-grid-empty hidden>
+      <p>No stories of this kind for this age yet.</p>
+    </div>
+  </div>
+</Base>

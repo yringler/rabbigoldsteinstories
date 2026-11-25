@@ -1,0 +1,169 @@
+---
+// /grown-ups (§4.9): plain adult copy. Age band, the Gentle switch, advisories explained, about,
+// privacy, links to the other two sites.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import { loadVocab } from "@goldstein/data/load";
+import { BAND_INFO, BANDS } from "../../lib/kinds.ts";
+import { getModel } from "../../lib/build/model.ts";
+
+const m = getModel();
+const advisories = loadVocab().lists["content_advisory"] ?? [];
+const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0) as never)).length;
+---
+
+<Base title="For grown-ups" description="Age settings, content notes and how this site works.">
+  <div data-init="grownups" class="gu-page">
+    <PageHead
+      title="For grown-ups"
+      sub="Settings and notes for parents and teachers."
+      icon="info"
+      color="#1F5FBF"
+    />
+
+    <section class="gu-card" aria-labelledby="age-h">
+      <h2 id="age-h">Who's listening?</h2>
+      <p>
+        The age setting decides what appears on every shelf, in search and in "More like this". A
+        direct link to any story still opens.
+      </p>
+      <div class="band-options">
+        {BANDS.map((b) => (
+          <button type="button" class="band-opt" data-set-band={b} aria-pressed="false">
+            <span>
+              <b>{BAND_INFO[b].label}</b>
+              <span>
+                Ages {BAND_INFO[b].ages} · {bandCount(b)} recordings
+              </span>
+            </span>
+          </button>
+        ))}
+      </div>
+      <ul class="gu-list">
+        <li>
+          <b>Little (3–5):</b> recordings marked for ages 4 and under without a moderate content
+          note, plus age-5 recordings with no content notes at all.
+        </li>
+        <li>
+          <b>Kids (6–8):</b> recordings marked for ages 6 and under without a moderate content note.
+        </li>
+        <li>
+          <b>Big Kids (9+):</b> everything on this site, including stories with moderate content
+          notes (marked with an "i" on the cover).
+        </li>
+      </ul>
+      <label class="switch gentle">
+        <input type="checkbox" data-gentle />
+        <span class="switch-ui" aria-hidden="true"></span>
+        <span>
+          Gentle stories only <small>(no content notes at all, in every age group)</small>
+        </span>
+      </label>
+    </section>
+
+    <section class="gu-card" aria-labelledby="adv-h">
+      <h2 id="adv-h">Content notes</h2>
+      <p>
+        Some stories include hard moments. Each story page has a "For grown-ups" section listing its
+        notes, with how strong each one is (mild or moderate). Stories with strong notes are not on
+        this site.
+      </p>
+      <dl class="adv-list">
+        {advisories.map((a) => (
+          <div>
+            <dt>{a.label}</dt>
+            {a.description && <dd>{a.description}</dd>}
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="gu-card" aria-labelledby="about-h">
+      <h2 id="about-h">About these recordings</h2>
+      <p>
+        Most recordings come from <i>Tzivos Hashem on the Air</i>, the weekly radio show of Rabbi
+        Yosef Goldstein ("Uncle Yossi"), 1981–1992, and from the stories of his son, Rabbi Chaim
+        Levi Goldstein, known for the song "I Believe in Hashem".
+      </p>
+      <p>
+        Broadcasts are the unedited originals, including the greetings, the mailbox and
+        announcements. Use "Jump to the story" to go straight to the story.
+      </p>
+      <p>
+        Titles, summaries, lessons and content notes were written with the help of AI and may
+        contain mistakes. Nothing here is a transcript: written transcripts are in the reference
+        library.
+      </p>
+    </section>
+
+    <section class="gu-card" aria-labelledby="priv-h">
+      <h2 id="priv-h">Privacy</h2>
+      <p>
+        No accounts, no cookies, no ads and no tracking. Hearts, listening progress and the age
+        setting stay in this browser only. Searches never leave the device. Clearing "My Shelf" or
+        the browser's site data removes everything.
+      </p>
+    </section>
+
+    <section class="gu-card" aria-labelledby="more-h">
+      <h2 id="more-h">More from the archive</h2>
+      <ul class="gu-links">
+        <li>
+          <a href={siteUrl("bedtime", "/")}>{SITES.bedtime.name}</a>: tonight's bedtime playlists,
+          ready to play.
+        </li>
+        <li>
+          <a href={siteUrl("library", "/")}>{SITES.library.name}</a>: the full archive for
+          grown-ups, with transcripts, Yiddish recordings and shiurim.
+        </li>
+        <li>
+          Questions, corrections or a missing tape:{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  .gu-card {
+    margin-top: 18px;
+    padding: 20px;
+    border-radius: 24px;
+    background: var(--card);
+    border: 2px solid var(--line);
+    display: grid;
+    gap: 10px;
+  }
+  .gu-list {
+    margin: 0;
+    padding-left: 20px;
+    display: grid;
+    gap: 6px;
+  }
+  .adv-list {
+    margin: 0;
+    display: grid;
+    gap: 8px;
+  }
+  .adv-list dt {
+    font-weight: 700;
+  }
+  .adv-list dd {
+    margin: 0;
+    color: var(--ink-soft);
+  }
+  .gu-links {
+    margin: 0;
+    padding-left: 20px;
+    display: grid;
+    gap: 4px;
+  }
+  .gu-links a {
+    display: inline-flex;
+    min-height: 56px;
+    align-items: center;
+    font-weight: 700;
+  }
+</style>

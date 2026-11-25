@@ -1,0 +1,48 @@
+---
+// A titled, horizontally scrolling row (§2 "Shelf"). Hidden in variants listed outside `vis`.
+import { ui } from "../lib/ui-icons.ts";
+import type { Variant } from "../lib/kinds.ts";
+
+interface Props {
+  title: string;
+  href?: string | undefined;
+  seeAll?: string;
+  html: string;
+  vis?: readonly Variant[] | undefined;
+  id?: string;
+  cls?: string;
+  tiles?: boolean;
+  attrs?: Record<string, string>;
+}
+const {
+  title,
+  href,
+  seeAll = "See all",
+  html,
+  vis,
+  id,
+  cls = "",
+  tiles = false,
+  attrs = {},
+} = Astro.props;
+const hid = id ? `${id}-h` : undefined;
+---
+
+<section
+  class={`section shelf ${cls}`}
+  data-vis={vis ? vis.join(" ") : undefined}
+  id={id}
+  aria-labelledby={hid}
+  {...attrs}
+>
+  <div class="section-head">
+    <h2 id={hid}>{title}</h2>
+    {href && (
+      <a class="see-all" href={href}>
+        {seeAll}
+        <Fragment set:html={ui("right", "", 22)} />
+      </a>
+    )}
+  </div>
+  <div class={`shelf-row${tiles ? " tiles-row" : ""}`} set:html={html} />
+</section>

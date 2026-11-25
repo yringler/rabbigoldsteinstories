@@ -1,41 +1,317 @@
 ---
-// Placeholder layout (the kids team replaces it). Uses <ClientRouter /> so the player bar (transition:persist) keeps playing across page loads.
+// App shell: top bar, tab bar / rail, the persistent player (transition:persist under <ClientRouter />,
+// so audio never stops on navigation) and the "Who's listening?" sheet. docs/sites/kids.md §3, §7.
 import { ClientRouter } from "astro:transitions";
+import "@fontsource/baloo-2/700.css";
+import "@fontsource/baloo-2/800.css";
+import "@fontsource/atkinson-hyperlegible/400.css";
+import "@fontsource/atkinson-hyperlegible/700.css";
+import "../styles/global.css";
+import "../styles/player.css";
 import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+import { ui } from "../lib/ui-icons.ts";
+import { BAND_INFO, BANDS } from "../lib/kinds.ts";
+import { iconSvg } from "../lib/icons.ts";
+import Logo from "../components/Logo.astro";
 
+export type TabId = "home" | "stories" | "radio" | "explore" | "shelf" | null;
 interface Props {
   title?: string;
+  description?: string;
+  tab?: TabId;
+  back?: boolean;
 }
 const site = SITES.kids;
-const { title } = Astro.props;
+const { title, description, tab = null, back = true } = Astro.props;
+const pageTitle = title ? `${title} · ${site.name}` : `${site.name}: stories for kids`;
+const desc =
+  description ??
+  "Hundreds of Jewish stories for kids from Uncle Yossi's radio show and Rabbi Chaim Levi Goldstein. Tap a cover and listen.";
+const tabs: { id: Exclude<TabId, null>; href: string; label: string; icon: string }[] = [
+  { id: "home", href: "/", label: "Home", icon: "home" },
+  { id: "stories", href: "/stories/", label: "Stories", icon: "stories" },
+  { id: "radio", href: "/radio/", label: "Radio", icon: "radio" },
+  { id: "explore", href: "/explore/", label: "Explore", icon: "explore" },
+  { id: "shelf", href: "/favourites/", label: "My Shelf", icon: "shelf" },
+];
+const bandPics = { little: "seedling", kids: "rocket", big: "mountain-flag" } as const;
+const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as const;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-v="k" data-band="kids">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title ? `${title} · ${site.name}` : site.name}</title>
-    <ClientRouter />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <meta name="theme-color" content="#FFF8EC" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:site_name" content={site.name} />
+    <script is:inline>
+      // Apply the age band and Gentle switch before first paint (localStorage may be unavailable).
+      (function () {
+        var band = "kids",
+          gentle = false,
+          queued = false;
+        try {
+          var b = JSON.parse(localStorage.getItem("goldstein:kids:band") || "null");
+          if (b && (b.v === "little" || b.v === "kids" || b.v === "big")) band = b.v;
+          var g = JSON.parse(localStorage.getItem("goldstein:kids:gentle") || "null");
+          gentle = !!(g && g.v === true);
+          var q = JSON.parse(localStorage.getItem("goldstein:kids:queue") || "null");
+          queued = !!(q && q.v && q.v.tracks && q.v.tracks.length);
+        } catch (e) {}
+        var h = document.documentElement;
+        h.dataset.band = band;
+        h.dataset.v = band.charAt(0) + (gentle ? "g" : "");
+        if (queued) h.classList.add("has-player");
+      })();
+    </script>
+    <ClientRouter fallback="swap" />
   </head>
   <body>
-    <header>
-      <a href="/">{site.name}</a>
-    </header>
-    <main>
-      <slot />
-    </main>
-    <div id="player" transition:persist>
-      <button type="button" data-player-toggle hidden>
-        Play / pause
+    <a class="skip" href="#main">
+      Skip to the stories
+    </a>
+    <header class="top">
+      {back && (
+        <button type="button" class="icon-btn back-btn" data-back aria-label="Go back">
+          <Fragment set:html={ui("back", "", 28)} />
+        </button>
+      )}
+      <a class="logo" href="/" aria-label={`${site.name}, home`}>
+        <Logo />
+        <span>{site.name}</span>
+      </a>
+      <a class="icon-btn" href="/search/" aria-label="Search">
+        <Fragment set:html={ui("search", "", 28)} />
+      </a>
+      <button type="button" class="band-chip" data-open-band aria-haspopup="dialog">
+        <span class="dot" aria-hidden="true" data-band-ages>
+          6+
+        </span>
+        <span>
+          <span class="sr">Who's listening: </span>
+          <span data-band-label>Kids</span>
+        </span>
+        <span class="gentle-mark" aria-label="Gentle stories only">
+          ☾
+        </span>
       </button>
-      <span data-player-title></span>
+    </header>
+
+    <nav class="tabs" aria-label="Main">
+      {tabs.map((t) => (
+        <a class="tab" href={t.href} aria-current={tab === t.id ? "page" : undefined}>
+          <span class="ic-wrap">
+            <Fragment set:html={ui(t.icon, "", 28)} />
+          </span>
+          {t.label}
+        </a>
+      ))}
+    </nav>
+
+    <main id="main" data-page={tab ?? "page"}>
+      <slot />
+      <footer class="foot">
+        <a href="/grown-ups/">For grown-ups</a>
+        <a href="/tonight/">Tonight's playlists</a>
+        <a href={`mailto:${CONTACT_EMAIL}`}>Contact us</a>
+      </footer>
+    </main>
+
+    <div id="kp" transition:persist="kids-player">
+      <div class="mini" data-mini hidden>
+        <button type="button" class="mini-open" data-open-player aria-label="Open the player">
+          <img class="mini-cover" data-p-cover alt="" width="52" height="52" />
+          <span class="mini-text">
+            <span class="mini-title" data-p-title></span>
+            <span class="mini-sub" data-p-sub></span>
+          </span>
+        </button>
+        <button type="button" class="icon-btn mini-btn" data-p-back aria-label="Back 15 seconds">
+          <Fragment set:html={ui("back15", "", 30)} />
+        </button>
+        <button type="button" class="mini-play" data-p-toggle aria-label="Play">
+          <span class="when-paused">
+            <Fragment set:html={ui("play", "", 30)} />
+          </span>
+          <span class="when-playing">
+            <Fragment set:html={ui("pause", "", 30)} />
+          </span>
+        </button>
+        <span class="mini-prog" aria-hidden="true">
+          <i data-p-mini-bar></i>
+        </span>
+      </div>
+
+      <dialog class="psheet" data-player-sheet aria-label="Player">
+        <div class="ps-inner">
+          <div class="ps-top">
+            <button
+              type="button"
+              class="icon-btn ps-close"
+              data-close-player
+              aria-label="Close the player"
+            >
+              <Fragment set:html={ui("down", "", 30)} />
+            </button>
+            <span class="ps-from" data-p-source></span>
+          </div>
+          <div class="ps-main">
+            <img class="ps-cover" data-p-cover alt="" width="320" height="320" />
+            <div class="ps-info">
+              <p class="ps-chapter" data-p-chapter></p>
+              <h2 class="ps-title" data-p-title></h2>
+              <p class="ps-by" data-p-sub></p>
+              <div class="ps-error" data-p-error hidden role="alert">
+                <p>This one isn't working right now. Try another?</p>
+                <button type="button" class="btn sun" data-p-retry>
+                  Try again
+                </button>
+              </div>
+              <div class="scrub">
+                <div class="scrub-track">
+                  <div class="scrub-ticks" data-p-ticks></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    step="1"
+                    value="0"
+                    data-p-seek
+                    aria-label="Position in the story"
+                  />
+                </div>
+                <div class="scrub-times">
+                  <span data-p-pos>0:00</span>
+                  <span data-p-dur>0:00</span>
+                </div>
+              </div>
+              <div class="ps-controls">
+                <button
+                  type="button"
+                  class="icon-btn pc"
+                  data-p-prev-ch
+                  aria-label="Previous chapter"
+                >
+                  <Fragment set:html={ui("prev", "", 30)} />
+                </button>
+                <button type="button" class="icon-btn pc" data-p-back aria-label="Back 15 seconds">
+                  <Fragment set:html={ui("back15", "", 34)} />
+                </button>
+                <button type="button" class="ps-play" data-p-toggle aria-label="Play">
+                  <span class="when-paused">
+                    <Fragment set:html={ui("play", "", 40)} />
+                  </span>
+                  <span class="when-playing">
+                    <Fragment set:html={ui("pause", "", 40)} />
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  class="icon-btn pc"
+                  data-p-fwd
+                  aria-label="Forward 30 seconds"
+                >
+                  <Fragment set:html={ui("fwd30", "", 34)} />
+                </button>
+                <button type="button" class="icon-btn pc" data-p-next-ch aria-label="Next chapter">
+                  <Fragment set:html={ui("next", "", 30)} />
+                </button>
+              </div>
+              <div class="ps-row">
+                <button type="button" class="ps-pill" data-p-heart aria-pressed="false">
+                  <span class="h-off">
+                    <Fragment set:html={ui("heart", "", 24)} />
+                  </span>
+                  <span class="h-on">
+                    <Fragment set:html={ui("heart-fill", "", 24)} />
+                  </span>
+                  <span>Heart</span>
+                </button>
+                <button type="button" class="ps-pill" data-p-speed aria-label="Speed: 1 times">
+                  <Fragment set:html={ui("speed", "", 24)} />
+                  <span data-p-speed-label>1×</span>
+                </button>
+                <button type="button" class="ps-pill" data-p-sleep aria-expanded="false">
+                  <Fragment set:html={ui("moon", "", 24)} />
+                  <span data-p-sleep-label>Sleep</span>
+                </button>
+              </div>
+              <div class="sleep-menu" data-p-sleep-menu hidden>
+                <button type="button" class="chip" data-sleep="15">
+                  15 min
+                </button>
+                <button type="button" class="chip" data-sleep="30">
+                  30 min
+                </button>
+                <button type="button" class="chip" data-sleep="end">
+                  End of this story
+                </button>
+                <button type="button" class="chip" data-sleep="off">
+                  Off
+                </button>
+              </div>
+              <div class="ps-end" data-p-end hidden>
+                <h3>What's next?</h3>
+                <div class="ps-end-cards" data-p-end-cards></div>
+              </div>
+            </div>
+          </div>
+          <section class="queue" aria-labelledby="queue-h">
+            <div class="queue-head">
+              <h3 id="queue-h">Up next</h3>
+              <button type="button" class="ps-link" data-p-clear-queue>
+                Clear
+              </button>
+            </div>
+            <ol class="queue-list" data-p-queue></ol>
+            <p class="queue-empty" data-p-queue-empty>
+              Nothing else in the queue.
+            </p>
+          </section>
+        </div>
+      </dialog>
+      <div class="toast" data-toast role="status" aria-live="polite"></div>
     </div>
-    <footer>
-      Lost a tape or have a question? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
-    </footer>
+
+    <dialog class="sheet" id="band-sheet" aria-labelledby="band-h">
+      <div class="sheet-body">
+        <div class="sheet-head">
+          <h2 id="band-h">Who's listening?</h2>
+          <button type="button" class="icon-btn" data-close-band aria-label="Close">
+            <Fragment set:html={ui("close", "", 26)} />
+          </button>
+        </div>
+        <div class="band-options">
+          {BANDS.map((b) => (
+            <button type="button" class="band-opt" data-band={b} aria-pressed="false">
+              <span class="bo-pic" style={`background:${bandColors[b]}`}>
+                <Fragment
+                  set:html={iconSvg(bandPics[b], { accent: "#FFC83D", white: "#FFFFFF" }, 46)}
+                />
+              </span>
+              <span>
+                <b>{BAND_INFO[b].label}</b>
+                <span>
+                  Ages {BAND_INFO[b].ages} · {BAND_INFO[b].blurb}
+                </span>
+              </span>
+            </button>
+          ))}
+        </div>
+        <p class="muted">
+          Grown-ups: you can also choose <a href="/grown-ups/">gentle stories only</a>.
+        </p>
+      </div>
+    </dialog>
+
     <script>
-      import "../scripts/player.ts";
+      import "../scripts/app.ts";
     </script>
   </body>
 </html>

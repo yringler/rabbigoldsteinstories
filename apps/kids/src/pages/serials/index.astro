@@ -1,0 +1,24 @@
+---
+// /serials (§4.4): radio serials and multi-part stories in one grid, most chapters first.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { getModel } from "../../lib/build/model.ts";
+import { serialCard, serialVis, sortedSerials } from "../../lib/build/views.ts";
+
+const m = getModel();
+const list = sortedSerials(m)
+  .map((s) => ({ s, vis: serialVis(s, m) }))
+  .filter((x) => x.vis.length > 0);
+---
+
+<Base title="Chapter Stories" tab="explore" description="Long stories told chapter by chapter.">
+  <div>
+    <PageHead
+      title="Chapter Stories"
+      sub="Long stories, one chapter at a time."
+      icon="seforim"
+      color="#7A4FC2"
+    />
+    <div class="grid" set:html={list.map(({ s, vis }) => serialCard(s, vis)).join("")} />
+  </div>
+</Base>
