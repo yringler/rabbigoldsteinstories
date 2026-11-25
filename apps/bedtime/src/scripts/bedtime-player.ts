@@ -9,7 +9,7 @@
  *   - a pinned snapshot of the playlist, written every 10 s and on pause/pagehide (resume);
  *   - Media Session: artwork, album "Quiet Night · tonight", ±15/30 s, position in the track.
  */
-import { Player, type Track } from "@goldstein/player";
+import { getAiAudio, Player, type Track } from "@goldstein/player";
 import type { Playlist } from "@goldstein/playlists";
 import {
   FADE_SEC,
@@ -102,7 +102,14 @@ export class BedtimePlayer extends Player {
   constructor(el: HTMLAudioElement) {
     // Bedtime resumes only from its session snapshot; per-track positions would make a story
     // start mid-way when a later playlist reaches it.
-    super({ audio: el, store, saveEverySec: 5, resumePositions: false });
+    super({
+      audio: el,
+      store,
+      saveEverySec: 5,
+      resumePositions: false,
+      // AI-improved sound (docs/design/ai-audio.md §3.1): off unless the listener turned it on.
+      preferClean: getAiAudio(store),
+    });
     this.el = el;
     el.preload = "auto";
     clearTrackPositions();
@@ -113,6 +120,9 @@ export class BedtimePlayer extends Player {
       this.setPhase("playing");
     });
     el.addEventListener("pause", () => {
+      // A live source swap (AI-improved sound toggle or its fallback) pauses the element briefly:
+      // not a real pause, so no "paused" phase and no sleep-timer freeze.
+      if (this.isSwapping) return;
       const intentional = this.intentionalPause;
       this.intentionalPause = false;
       const t = this.current;
@@ -132,6 +142,7 @@ export class BedtimePlayer extends Player {
     el.addEventListener("error", () => this.onTrackError());
     el.addEventListener("timeupdate", () => this.tick());
     el.addEventListener("waiting", () => {
+      if (this.isSwapping) return;
       // Only a track that never started is skipped; a stall mid-story just waits.
       if (!el.paused && !this.startedPlaying) this.armWatchdog();
     });
@@ -338,6 +349,10 @@ export class BedtimePlayer extends Player {
         title: i.title,
         // Media fragment (bedtime.md §1): the browser fetches from start_sec and stops at end_sec.
         url: `${i.audio_url}#t=${i.start_sec},${i.end_sec}`,
+        // The AI-improved copy has the same duration, so the same fragment applies.
+        ...(i.clean_audio_url
+          ? { clean_url: `${i.clean_audio_url}#t=${i.start_sec},${i.end_sec}` }
+          : {}),
         start_sec: i.start_sec,
         end_sec: i.end_sec,
         ...(artist ? { artist } : {}),
@@ -425,8 +440,10 @@ export class BedtimePlayer extends Player {
 
   private armWatchdog(): void {
     this.clearWatchdog();
+    if (this.isSwapping) return;
     this.watchdog = setTimeout(() => {
       this.watchdog = null;
+      if (this.isSwapping) return;
       if (this.el.paused && this.phase !== "loading") return;
       if (this.el.readyState >= 3 && !this.el.paused) return;
       this.onTrackError();

@@ -3,6 +3,7 @@
  * sheet's preview mode ("⋯": the track list without playing). One instance for the visit; its
  * DOM lives in the persisted #player-root.
  */
+import { getAiAudio, setAiAudio } from "@goldstein/player";
 import type { Playlist } from "@goldstein/playlists";
 import { GLYPHS } from "../lib/glyphs.ts";
 import { parseTimer, WAKE_KEY } from "../lib/session.ts";
@@ -143,6 +144,15 @@ export function mountSheet(
     store.set(WAKE_KEY, wake.checked);
     document.dispatchEvent(new CustomEvent("bedtime:wake"));
   });
+  // AI-improved sound: rendered only when some items have a cleaned copy (Base.astro).
+  const aiAudio = $<HTMLInputElement>("[data-ai-audio]", root);
+  if (aiAudio) {
+    aiAudio.checked = getAiAudio(store);
+    aiAudio.addEventListener("change", () => {
+      setAiAudio(store, aiAudio.checked);
+      player.setPreferClean(aiAudio.checked);
+    });
+  }
 
   // ---- preview ----
   $("[data-preview-play]", sheet)!.addEventListener("click", () => {
