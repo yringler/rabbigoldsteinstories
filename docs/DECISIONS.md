@@ -59,3 +59,11 @@ All questions are now answered.
 
 ## Names confirmed during review
 - **The Radatz = Reb Chaim Dovid Tzvi Chein** (user, 2026-11-25). Vocabulary label "The Radatz (Rabbi Chaim Dovid Tzvi Chein)"; "Dovid Tzvi Chein" kept as an alias. The 6 tagged items already used the full name in their text.
+
+## Website decisions (user, 2026-11-25)
+- **`publish_recommendation = review` items are publishable.** The 9 items marked `review` have been public on Google Drive for years; treat them like `publish`. Only `hide` is excluded from the sites.
+- **Kids' site hero emblems and the no-figures rule (docs/sites/kids.md §8.4): approved.**
+- **Kids' "Little" age band also admits `age_min = 5` items that have no advisories.**
+- **Contact for lost tapes and other enquiries: `admin@torahlearningtools.com`.** For now, a single shared constant (e.g. `CONTACT_EMAIL` in the shared site config package) that every site reads; no contact form yet.
+- **"The Plot That Boomeranged"** (`333ab07731` / `5ae5c959ac`): unlinked near-duplicate; transcripts being compared to pick the relation and preferred copy.
+- Still open: the kids' site name ("Story Shelf" is a placeholder).

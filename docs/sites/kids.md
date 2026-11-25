@@ -517,12 +517,15 @@ The bedtime site's concept owns the recipes, rotation time and the playlist file
 ---
 
 ## 13. Open questions for the owner (do not resolve in code)
+Answered 2026-11-25 (see docs/DECISIONS.md, "Website decisions"):
+- `review` items are publishable; only `hide` is excluded. Recompute the pool counts in §14 accordingly.
+- Hero emblem list and no-figures rule: approved.
+- The Little band also admits `age_min = 5` items with no advisories.
+- Lost-tape contact: `admin@torahlearningtools.com`, read from one shared constant.
+- "The Plot That Boomeranged": relation and preferred copy to be set in the data after a transcript comparison.
+
+Still open:
 1. Site name ("Story Shelf" is a placeholder).
-2. The 9 items with `publish_recommendation = review` are excluded until cleared.
-3. Approval of the hero emblem list and the no-figures rule (§8.4).
-4. The unlinked duplicate "The Plot That Boomeranged" (`333ab07731`, `5ae5c959ac`): which copy is preferred.
-5. Whether the Little band (31 stories) should also admit `age_min = 5` items that have no advisories at all.
-6. Contact route for "I have a lost tape".
 
 ---
 
