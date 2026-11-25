@@ -1,0 +1,118 @@
+---
+// /search (§6.5): the index is fetched on the first visit; the query stays on the device.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { getModel, tileKey, visibleIn } from "../../lib/build/model.ts";
+import { tileHtml } from "../../lib/html.ts";
+import { SUGGESTIONS } from "../../lib/search.ts";
+import { TILE_MIN, type Tile } from "../../lib/tiles.ts";
+import { ui } from "../../lib/ui-icons.ts";
+
+const m = getModel();
+const all: Tile[] = [
+  ...m.tiles.heroes,
+  ...m.tiles.topics,
+  ...m.tiles.midos,
+  ...m.tiles.mitzvos,
+  ...m.tiles.holidays,
+];
+const tiles = all
+  .map((t) => {
+    const vis = visibleIn(m.tileItems.get(tileKey(t)) ?? [], TILE_MIN);
+    const aliases = t.facet === "people" ? (m.vocab("people", t.slug)?.aliases ?? []) : [];
+    const terms = [
+      t.label,
+      t.he ?? "",
+      ...aliases,
+      ...(t.facet === "people" ? [m.vocab("people", t.slug)?.label ?? ""] : []),
+    ];
+    return vis.length
+      ? { t: terms.join(" ").toLowerCase(), l: t.label, h: tileHtml(t, { vis }) }
+      : null;
+  })
+  .filter((x): x is { t: string; l: string; h: string } => x !== null);
+---
+
+<Base title="Search" description="Find a story by name, hero, holiday or anything else.">
+  <div data-init="search" class="search-page">
+    <PageHead title="Search" />
+    <script
+      is:inline
+      type="application/json"
+      data-tiles
+      set:html={JSON.stringify(tiles).replace(/</g, "\\u003c")}
+    />
+    <form class="search-box" role="search" onsubmit="return false">
+      <label for="q" class="sr">
+        Search for a story
+      </label>
+      <Fragment set:html={ui("search", "search-ic", 28)} />
+      <input
+        id="q"
+        data-q
+        type="search"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        enterkeyhint="search"
+        placeholder="Type a name, a hero, a holiday…"
+      />
+    </form>
+    <p class="sr" role="status" aria-live="polite" data-status></p>
+    <div data-none hidden class="empty">
+      <p>
+        <b>We couldn't find that. Try one of these:</b>
+      </p>
+    </div>
+    <div class="suggest" data-suggest>
+      <p class="muted">Try:</p>
+      <div class="sugg-chips">
+        {SUGGESTIONS.map((s) => (
+          <button type="button" class="chip" data-suggestion={s}>
+            {s}
+          </button>
+        ))}
+      </div>
+    </div>
+    <div data-results></div>
+  </div>
+</Base>
+
+<style>
+  .search-box {
+    position: relative;
+    margin: 4px 0 14px;
+  }
+  .search-box :global(.search-ic) {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--ink-soft);
+    pointer-events: none;
+  }
+  .search-box input {
+    width: 100%;
+    min-height: 68px;
+    padding: 0 18px 0 58px;
+    border-radius: 999px;
+    border: 3px solid var(--ink);
+    background: var(--card);
+    font-size: 21px;
+    box-shadow: 0 4px 0 var(--ink);
+  }
+  .search-box input:focus-visible {
+    outline: 4px solid var(--sun);
+    outline-offset: 3px;
+  }
+  .sugg-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+  }
+  .search-page :global(.res-h) {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+</style>

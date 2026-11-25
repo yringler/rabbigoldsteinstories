@@ -59,3 +59,32 @@ All questions are now answered.
 
 ## Names confirmed during review
 - **The Radatz = Reb Chaim Dovid Tzvi Chein** (user, 2026-11-25). Vocabulary label "The Radatz (Rabbi Chaim Dovid Tzvi Chein)"; "Dovid Tzvi Chein" kept as an alias. The 6 tagged items already used the full name in their text.
+
+## Website decisions (user, 2026-11-25)
+- **`publish_recommendation = review` items are publishable.** The 9 items marked `review` have been public on Google Drive for years; treat them like `publish`. Only `hide` is excluded from the sites.
+- **Kids' site hero emblems and the no-figures rule (docs/sites/kids.md §8.4): approved.**
+- **Kids' "Little" age band also admits `age_min = 5` items that have no advisories.**
+- **Contact for lost tapes and other enquiries: `admin@torahlearningtools.com`.** For now, a single shared constant (e.g. `CONTACT_EMAIL` in the shared site config package) that every site reads; no contact form yet.
+- **"The Plot That Boomeranged"**: `333ab07731` and `5ae5c959ac` are the same telling (transcripts match word for word; `5ae5c959ac` plays ~1.7% faster). Linked as `same_recording`; `5ae5c959ac` is `superseded_by` `333ab07731` (shown as "other version"). The "(2)" filename suffix is on the copy whose original was not named "2"; harmless.
+- **Site names: placeholders until there is a product owner.** Bedtime: "Lights Out Stories"; kids: "Story Shelf"; reference: "The Goldstein Story Archive". Keep them in one shared constant so renaming is a one-line change.
+- **Cloudflare Workers are fine** (the library concept's "no server" was not a requirement). Dynamic pieces (playlists, search fallback) may use Workers, KV, D1 or cron.
+- **Hidden passages as marked are acceptable**, even where they blank most of a transcript. No need to narrow the spans.
+- **First names that also occur in public text (42 recordings): fine as is.**
+- **Yiddish ASR text inside a downloadable search index: fine** (still never displayed).
+- **Lost episodes:** extract titles from the master tape catalog; done in `data/indexes/lost_episodes.json` (`tools/3-metadata/scripts/build_lost_episodes.py`). The catalog's visitor column (children's names) is not copied.
+- **Bedtime defaults, pending the owner** (he left rotation length to the planners): rotate once a day at 09:00 America/New_York (a config constant, so 12 h is a one-line change); Little Ones 90 min; whole radio episodes are not auto-played in playlists (story spans only); no special Shabbos/Yom Tov/Nine Days/Sefirah behaviour for now.
+- **Hostnames (no dashes):** `bedtimestories.`, `kidsstories.`, `storylibrary.torahlearningtools.com`.
+- **Bedtime repeats (owner, 2026-11-25):** repeats inside a playlist are fine as long as the order differs; what matters is the first ~30 minutes (the first few stories), since children usually fall asleep by then. Tune cooldowns to keep the *openings* fresh, not whole playlists.
+- **Names read on air may be heard in played audio (owner, 2026-11-25): "this aired like 40 years ago."** Playlists may play any part of a radio episode, including spans that overlap `hidden`. This is about *audio playback only*: the `hidden` block, and transcript text inside hidden spans, still never appear as text anywhere public (pages, search index, exports). Playlist rule B9 (no track overlapping a hidden span) is dropped.
+- **Radio Night playlist (owner, 2026-11-25):** a playlist of full radio episodes (names, mailbox and all) is wanted.
+- **Story segments as playlist tracks (owner, 2026-11-25):** an episode with several stories can contribute each story separately ("episode X, third story, 5:00–17:34"). For the story-focused playlists, prefer story segments over name-heavy segments (Shema guests, mailbox, announcements, contest winners), which are "not interesting for 5 minutes straight".
+- **Phone numbers (owner, 2026-11-25):** never shown; they no longer work. Public transcripts replace them with "[phone number]".
+- **"46th Street, Brooklyn"** is a sponsor's location in radio ads (Focus Electronics); allowed in transcripts.
+- **Radio segments in playlists (owner, 2026-11-25):** talks and songs are fair game. Openings, closings and quizzes occasionally, not often. Shema-guest segments may be cute for the youngest (Little Ones) playlist only; tentative, owner reviewing a sample.
+- **Tonight's Mix is the first playlist everywhere** (owner, 2026-11-25): the mix is the default choice; the age- and mood-specific playlists follow.
+- **No cross-like shapes in any site artwork** (owner, 2026-11-25; an X for close or remove buttons and a + sign are fine, as standard controls): no four-pointed stars or sparkles, plus signs as decoration, or crossed lines in icons, covers or decorations. Five-pointed stars, dots, crescents and the Magen David are fine. Started with the Big Kids icon's sparkle.
+- **Luchos are drawn square** (owner, 2026-11-25): rectangular, never with rounded or arched tops.
+- **Menorah branches are straight** (owner, 2026-11-25): diagonal straight branches, never curved arms. Applies to the Chanukah menorah and the Beis Hamikdash menorah.
+- **Artwork review (owner, 2026-11-25):** only kosher animals in any artwork (no lion, bear, eagle…), with one exception: the Baal Shem Tov's wagon may have its horse. No crescent-and-star; moons are drawn full or nearly full. Matzah is round, hand-made. A shofar must look like a ram's horn. Avoid compositions that read as a face.
+- **Shpoler Zeide emblem: a fiddle** (owner, 2026-11-25), for his joyful dancing; music notes optional, at the designer's discretion.
+- **Crossing-line review (owner, 2026-11-25):** old suns (line rays), crossed bonfire logs, the globe grid, the table grid, X close buttons and + signs are all fine and restored. The new scales, house and queue icons are kept. Four-pointed sparkles and the anchor stay out.

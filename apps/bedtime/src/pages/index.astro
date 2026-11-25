@@ -1,0 +1,67 @@
+---
+// Tonight (bedtime.md §2.1): six cards in a fixed order (Tonight's Mix first), one tap to audio. Also serves
+// /p/<edition>/<type> (the site Worker and the dev server map those paths here).
+import { GLYPHS } from "../lib/glyphs.ts";
+import { iconSvg, TYPES } from "../lib/ui.ts";
+import Base from "../layouts/Base.astro";
+---
+
+<Base page="home">
+  <div data-home>
+    <h1 class="greeting" data-greeting>
+      Good night.
+    </h1>
+    <p class="greeting-sub" data-greeting-sub></p>
+    <p class="notice" data-notice role="status" hidden></p>
+
+    <button type="button" class="continue" data-continue hidden>
+      <span class="play-dot" aria-hidden="true">
+        <Fragment set:html={GLYPHS.play(22)} />
+      </span>
+      <span>
+        <span class="continue-label">Continue</span>
+        <span class="continue-text" data-continue-text></span>
+      </span>
+    </button>
+
+    <h2 class="visually-hidden">Tonight's stories</h2>
+    <ul class="cards" data-cards>
+      {TYPES.map((t) => (
+        <li>
+          <div class="card" data-card={t.type} style={`--c:${t.color}`} aria-busy="true">
+            <button type="button" class="card-play" data-play aria-label={`Play ${t.name}`}>
+              <span class="card-icon">
+                <Fragment set:html={iconSvg(t, 44)} />
+              </span>
+              <span>
+                <span class="card-title">{t.name}</span>
+                <span class="card-line" data-line>
+                  {t.line}
+                </span>
+                <span class="card-meta" data-meta>
+                  &nbsp;
+                </span>
+              </span>
+              <span class="play-dot" aria-hidden="true">
+                <Fragment set:html={GLYPHS.play(24)} />
+              </span>
+            </button>
+            <button
+              type="button"
+              class="card-more"
+              data-more
+              aria-label={`${t.name}: see the stories`}
+            >
+              <Fragment set:html={GLYPHS.more(22)} />
+            </button>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <nav class="quiet-links" aria-label="More">
+      <a href="/earlier/">Earlier this week ›</a>
+      <a href="/about/">For parents ›</a>
+    </nav>
+  </div>
+</Base>

@@ -52,3 +52,20 @@ Data and tools behind a website for the recorded stories of the Goldstein family
    - The audio was uploaded to R2 (`tools/4-r2/upload_audio.py`).
 
 `tools/export_repo.py` refreshes this repo from the working folders. The scripts use absolute paths on the original Windows machine (`C:\Users\ybrin\Downloads\...`), so adjust them if you run from elsewhere. Credentials are read from local files that git ignores (`creds.txt`, `_r2/r2.env`); never commit them.
+
+## Monorepo / websites
+
+The repo is also an npm-workspaces monorepo for three sites on Cloudflare Workers:
+- `apps/bedtime`, `apps/kids` and `apps/library` (Astro, static);
+- the playlist API `workers/api` (cron + KV);
+- shared `packages/` (`data` builds the public dataset and holds the privacy gate; `playlists`, `player`, `config`).
+
+`data/`, `tools/` and `review/` are unchanged.
+
+```
+npm ci && npm run build      # public dataset → packages/data/generated/, then the API bundle and three sites
+npm test                     # includes the privacy gate on the real data
+npm run dev:api & npm run dev:kids
+```
+
+Read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the decisions, data flow, privacy gate, playlists, deployment, team conventions and the owner's one-time setup steps.

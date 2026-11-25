@@ -1,0 +1,474 @@
+---
+/**
+ * Site layout: header with navigation and search, the persistent player bar (transition:persist
+ * under <ClientRouter />, so audio keeps playing across page loads), global dialogs, footer.
+ */
+import { ClientRouter } from "astro:transitions";
+import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+import interLatin from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
+import interLatinExt from "@fontsource-variable/inter/files/inter-latin-ext-wght-normal.woff2?url";
+import serifLatin from "@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url";
+import serifLatinExt from "@fontsource-variable/source-serif-4/files/source-serif-4-latin-ext-wght-normal.woff2?url";
+import serifItalic from "@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-italic.woff2?url";
+import frank400 from "@fontsource/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-400-normal.woff2?url";
+import frank700 from "@fontsource/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-700-normal.woff2?url";
+import Icon from "../components/Icon.astro";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  /** Extra <head> content (JSON-LD). */
+  jsonLd?: Record<string, unknown> | null;
+  bodyClass?: string;
+}
+
+const site = SITES.library;
+const { title, description, noindex = false, jsonLd = null, bodyClass = "" } = Astro.props;
+const path = Astro.url.pathname;
+const desc =
+  description ??
+  "Uncle Yossi's Tzivos Hashem on the Air (1981–92), Rabbi Chaim Levi Goldstein's weekly stories, Yiddish Tanya shiurim and family recordings: searchable, with transcripts and citations.";
+const canonical = new URL(path, Astro.site).toString();
+const current = (prefix: string) =>
+  path === prefix || (prefix !== "/" && path.startsWith(prefix)) ? "page" : undefined;
+
+const latin =
+  "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD";
+const latinExt =
+  "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF";
+const hebrew = "U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F";
+const face = (family: string, src: string, range: string, weight: string, style = "normal") =>
+  `@font-face{font-family:"${family}";font-style:${style};font-display:swap;font-weight:${weight};src:url(${src}) format("woff2");unicode-range:${range}}`;
+const fontCss = [
+  face("Inter Variable", interLatin, latin, "100 900"),
+  face("Inter Variable", interLatinExt, latinExt, "100 900"),
+  face("Source Serif 4 Variable", serifLatin, latin, "200 900"),
+  face("Source Serif 4 Variable", serifLatinExt, latinExt, "200 900"),
+  face("Source Serif 4 Variable", serifItalic, latin, "200 900", "italic"),
+  face("Frank Ruhl Libre", frank400, hebrew, "400"),
+  face("Frank Ruhl Libre", frank700, hebrew, "700"),
+].join("");
+const browse: { heading: string; links: [string, string, string][] }[] = [
+  {
+    heading: "Collections",
+    links: [
+      ["/series/", "Series", "Radio show, weekly stories, shiurim"],
+      ["/serials/", "Serials", "26 stories told in chapters"],
+      ["/stories/", "Same story, other tellings", "95 stories told more than once"],
+      ["/study/", "Tanya and study texts", "Shiurim by perek"],
+      ["/radio/lost/", "Lost episodes", "Help us find these tapes"],
+    ],
+  },
+  {
+    heading: "Indexes",
+    links: [
+      ["/people/", "People", "Tzaddikim, Rebbeim, Tanach"],
+      ["/places/", "Places", "Towns and countries"],
+      ["/sources/", "Sources cited", "Chumash, Gemara, Tehillim…"],
+      ["/calendar/", "Jewish calendar", "Yom Tov and special days"],
+      ["/parsha/", "Parsha", "By weekly Torah portion"],
+      ["/midos/", "Midos · Mitzvos · Topics", "Subject lists"],
+    ],
+  },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} · ${site.name}` : site.name}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#faf8f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12161c" media="(prefers-color-scheme: dark)" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='28' height='28' rx='3' fill='%23faf8f3' stroke='%231f4e79' stroke-width='2.5'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%231f4e79'%3EG%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preload" as="font" type="font/woff2" href={interLatin} crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href={serifLatin} crossorigin />
+    <style is:inline set:html={fontCss} />
+    <script is:inline>
+      (function () {
+        try {
+          var raw = localStorage.getItem("goldstein:library:theme");
+          var t = raw ? JSON.parse(raw).v : "auto";
+          if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
+        } catch (e) {}
+      })();
+    </script>
+    {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />}
+    <ClientRouter />
+    <slot name="head" />
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+    <header class="site-header" data-site-header>
+      <div class="wrap">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            G
+          </span>
+          <span>
+            {site.name}
+            <small>Stories, radio and shiurim · 1981 to today</small>
+          </span>
+        </a>
+        <button
+          type="button"
+          class="icon-btn menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          data-menu-toggle
+        >
+          <Icon name="menu" label="Menu" />
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Main">
+          <a href="/search/" aria-current={current("/search/")}>
+            Search
+          </a>
+          <a href="/radio/" aria-current={current("/radio/")}>
+            Radio show
+          </a>
+          <a href="/series/" aria-current={current("/series/")}>
+            Series
+          </a>
+          <details class="browse" data-browse>
+            <summary>
+              Browse <Icon name="down" size={14} />
+            </summary>
+            <div class="browse-panel">
+              {browse.map((g) => (
+                <div>
+                  <h4>{g.heading}</h4>
+                  {g.links.map(([href, text, sub]) => (
+                    <a href={href}>
+                      {text}
+                      <span>{sub}</span>
+                    </a>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </details>
+          <a href="/my-playlists/" aria-current={current("/my-playlists/")}>
+            Playlists
+          </a>
+          <a href="/about/" aria-current={current("/about/")}>
+            About
+          </a>
+        </nav>
+        <form class="header-search" action="/search/" method="get" role="search">
+          <Icon name="search" />
+          <label class="visually-hidden" for="header-q">
+            Search the archive
+          </label>
+          <input id="header-q" name="q" type="search" placeholder="Search…" autocomplete="off" />
+          <kbd aria-hidden="true">/</kbd>
+        </form>
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          aria-label="Switch to dark theme"
+        >
+          <span data-theme-icon="dark">
+            <Icon name="moon" />
+          </span>
+          <span data-theme-icon="light" hidden>
+            <Icon name="sun" />
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div>
+          <p>
+            <strong style="color:var(--ink)">{site.name}</strong>. Recordings of Rabbi Yosef
+            Goldstein (Uncle Yossi), Rabbi Chaim Levi Goldstein and family.
+          </p>
+          <p>
+            Automatic transcripts and AI-written summaries; they may contain errors. Found one, or
+            have a missing tape? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+          </p>
+        </div>
+        <ul>
+          <li>
+            <a href="/about/">About the archive</a>
+          </li>
+          <li>
+            <a href="/help/">Help and shortcuts</a>
+          </li>
+          <li>
+            <a href="/data/">Data download</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="/radio/lost/">Lost episodes</a>
+          </li>
+          <li>
+            <a href="/tonight/">Tonight's playlists</a>
+          </li>
+          <li>
+            <button type="button" class="btn-quiet btn" data-action="shortcuts" style="padding:0">
+              Keyboard shortcuts <kbd>?</kbd>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div
+      class="player"
+      id="player"
+      data-empty
+      transition:persist="player"
+      role="region"
+      aria-label="Audio player"
+    >
+      <div class="player-inner">
+        <div class="player-now">
+          <a class="player-title" data-p-title href="/">
+            Nothing playing
+          </a>
+          <span class="player-chapter" data-p-chapter></span>
+        </div>
+        <div class="player-controls">
+          <button type="button" class="icon-btn" data-p-prev aria-label="Previous track">
+            <Icon name="prev" />
+          </button>
+          <button type="button" class="icon-btn" data-p-back aria-label="Back 15 seconds">
+            <Icon name="back" size={22} />
+          </button>
+          <button type="button" class="player-play" data-p-toggle aria-label="Play">
+            <span data-p-icon="play">
+              <Icon name="play" />
+            </span>
+            <span data-p-icon="pause" hidden>
+              <Icon name="pause" />
+            </span>
+          </button>
+          <button type="button" class="icon-btn" data-p-fwd aria-label="Forward 30 seconds">
+            <Icon name="forward" size={22} />
+          </button>
+          <button type="button" class="icon-btn" data-p-next aria-label="Next track">
+            <Icon name="next" />
+          </button>
+        </div>
+        <div class="player-scrub">
+          <span class="time" data-p-pos>
+            0:00
+          </span>
+          <div class="scrubber">
+            <div class="ticks" data-p-ticks></div>
+            <input
+              type="range"
+              min="0"
+              max="0"
+              step="1"
+              value="0"
+              data-p-range
+              aria-label="Position"
+            />
+          </div>
+          <span class="time" data-p-dur>
+            0:00
+          </span>
+        </div>
+        <div class="player-extra">
+          <label class="visually-hidden" for="p-rate">
+            Speed
+          </label>
+          <select id="p-rate" data-p-rate>
+            <option value="0.75">0.75×</option>
+            <option value="1" selected>
+              1×
+            </option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+            <option value="1.75">1.75×</option>
+            <option value="2">2×</option>
+          </select>
+          <span class="vol-label">
+            <Icon name="volume" />
+          </span>
+          <input
+            class="vol"
+            type="range"
+            min="0"
+            max="1"
+            step="0.05"
+            value="1"
+            data-p-vol
+            aria-label="Volume"
+          />
+          <button
+            type="button"
+            class="icon-btn"
+            data-p-queue
+            aria-expanded="false"
+            aria-label="Queue"
+          >
+            <Icon name="queue" />
+          </button>
+        </div>
+        <p class="player-msg" data-p-msg hidden></p>
+      </div>
+      <div class="queue-panel" data-p-queue-panel hidden>
+        <div class="dialog-head">
+          <h2>Queue</h2>
+          <button type="button" class="btn btn-quiet" data-p-clear>
+            Clear
+          </button>
+        </div>
+        <ol data-p-queue-list></ol>
+      </div>
+    </div>
+
+    <dialog id="shortcuts-dialog" aria-labelledby="shortcuts-title">
+      <div class="dialog-head">
+        <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <Icon name="close" />
+        </button>
+      </div>
+      <div class="dialog-body">
+        <table class="data">
+          <tbody>
+            <tr>
+              <td>
+                <kbd>/</kbd>
+              </td>
+              <td>Focus search</td>
+              <td>
+                <kbd>Space</kbd>
+              </td>
+              <td>Play / pause</td>
+            </tr>
+            <tr>
+              <td>
+                <kbd>j</kbd> <kbd>k</kbd>
+              </td>
+              <td>Next / previous result</td>
+              <td>
+                <kbd>←</kbd> <kbd>→</kbd>
+              </td>
+              <td>Back 15 s / forward 30 s</td>
+            </tr>
+            <tr>
+              <td>
+                <kbd>Enter</kbd>
+              </td>
+              <td>Open result</td>
+              <td>
+                <kbd>[</kbd> <kbd>]</kbd>
+              </td>
+              <td>Previous / next chapter</td>
+            </tr>
+            <tr>
+              <td>
+                <kbd>p</kbd>
+              </td>
+              <td>Play focused result</td>
+              <td>
+                <kbd>&lt;</kbd> <kbd>&gt;</kbd>
+              </td>
+              <td>Slower / faster</td>
+            </tr>
+            <tr>
+              <td>
+                <kbd>a</kbd>
+              </td>
+              <td>Add to playlist</td>
+              <td>
+                <kbd>c</kbd>
+              </td>
+              <td>Copy link at current time</td>
+            </tr>
+            <tr>
+              <td>
+                <kbd>f</kbd>
+              </td>
+              <td>Focus facet filter</td>
+              <td>
+                <kbd>t</kbd>
+              </td>
+              <td>Jump to transcript</td>
+            </tr>
+            <tr>
+              <td>
+                <kbd>x</kbd>
+              </td>
+              <td>Exclude focused facet value</td>
+              <td>
+                <kbd>?</kbd>
+              </td>
+              <td>This help</td>
+            </tr>
+          </tbody>
+        </table>
+        <label class="btn-row">
+          <input type="checkbox" data-shortcuts-off /> Turn off single-key shortcuts
+        </label>
+        <p class="muted small">Shortcuts never fire while you are typing in a text field.</p>
+      </div>
+    </dialog>
+
+    <dialog id="playlist-dialog" aria-labelledby="pl-dialog-title">
+      <div class="dialog-head">
+        <h2 id="pl-dialog-title">Add to playlist</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <Icon name="close" />
+        </button>
+      </div>
+      <div class="dialog-body">
+        <p class="small" data-pl-what></p>
+        <div class="notice">
+          <Icon name="info" />
+          <p>
+            Your playlists are saved in this browser only. There are no accounts. Clearing browser
+            data, private windows or another device will not have them.{" "}
+            <a href="/my-playlists/">Export a file</a> to back up or share.
+          </p>
+        </div>
+        <ul class="index-list" data-pl-choices></ul>
+        <form class="btn-row" data-pl-new>
+          <label class="visually-hidden" for="pl-new-name">
+            New playlist name
+          </label>
+          <input
+            id="pl-new-name"
+            type="text"
+            maxlength="120"
+            placeholder="New playlist name"
+            required
+            style="flex:1"
+          />
+          <button class="btn btn-primary" type="submit">
+            <Icon name="plus" /> Create and add
+          </button>
+        </form>
+      </div>
+    </dialog>
+
+    <div class="visually-hidden" aria-live="polite" data-live></div>
+    <script>
+      import "../scripts/app.ts";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+---
+import TermIndex from "../../components/TermIndex.astro";
+import Base from "../../layouts/Base.astro";
+---
+
+<Base title="Topics" description="Broad subjects of the recordings, with counts.">
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/midos/">Midos</a>
+        <span class="sep">·</span>
+        <a href="/mitzvos/">Mitzvos</a>
+        <span class="sep">·</span>
+        <a href="/topics/">Topics</a>
+      </nav>
+      <h1>Topics</h1>
+      <p>Broad subjects. Each links to a search with that topic selected.</p>
+    </header>
+    <TermIndex list="topics" facet="topics" />
+  </div>
+</Base>

@@ -1,0 +1,38 @@
+---
+import { iconSvg } from "../lib/icons.ts";
+
+interface Props {
+  title: string;
+  sub?: string | undefined;
+  icon?: string | undefined;
+  color?: string | undefined;
+}
+const { title, sub, icon, color } = Astro.props;
+---
+
+<div class="page-head">
+  {icon && (
+    <span class="head-ic" style={color ? `background:${color};border-color:${color}` : undefined}>
+      <span class="head-disk">
+        <Fragment set:html={iconSvg(icon, { accent: "#FFC83D" }, 40)} />
+      </span>
+    </span>
+  )}
+  <div>
+    <h1>{title}</h1>
+    {sub && <p>{sub}</p>}
+    <slot />
+  </div>
+</div>
+
+<style>
+  .head-disk {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #fff;
+    display: grid;
+    place-items: center;
+    border: 2px solid var(--ink);
+  }
+</style>

@@ -1,0 +1,77 @@
+---
+// /quick (§4.5): short talks and clips; single-select collection chips; 24 at a time.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { byTitle, getModel, visibleIn } from "../../lib/build/model.ts";
+import { card } from "../../lib/build/views.ts";
+import { QUICK_CHIPS } from "../../lib/tiles.ts";
+
+const m = getModel();
+const shorts = m.pool.filter((k) => k.kind === "short").sort(byTitle);
+const keysOf = (cols: readonly string[]) =>
+  QUICK_CHIPS.filter((c) => c.collections.some((x) => cols.includes(x))).map((c) => c.slug);
+const chips = QUICK_CHIPS.map((c) => ({
+  ...c,
+  vis: visibleIn(
+    shorts.filter((k) => keysOf(k.item.classification.collections).includes(c.slug)),
+    1,
+  ),
+}));
+---
+
+<Base
+  title="Quick Listens"
+  tab="explore"
+  description="Short talks and pieces from the radio show, most under 10 minutes."
+>
+  <div data-init="grid" data-paged>
+    <PageHead
+      title="Quick Listens"
+      sub="Short and sweet, most under 10 minutes."
+      icon="speech"
+      color="#3DB8E8"
+    />
+    <div class="chips" role="group" aria-label="Sort">
+      <button type="button" class="chip" data-sort="new" aria-pressed="true">
+        New to me
+      </button>
+      <button type="button" class="chip" data-sort="short" aria-pressed="false">
+        Shortest
+      </button>
+      <button type="button" class="chip" data-sort="az" aria-pressed="false">
+        A–Z
+      </button>
+    </div>
+    <div class="chips" role="group" aria-label="Topic">
+      <button type="button" class="chip" data-filter="" aria-pressed="true">
+        All
+      </button>
+      {chips.map((c) => (
+        <button
+          type="button"
+          class="chip"
+          data-filter={c.slug}
+          aria-pressed="false"
+          data-vis={c.vis.join(" ")}
+        >
+          {c.label}
+        </button>
+      ))}
+    </div>
+    <div
+      class="grid"
+      data-grid
+      set:html={shorts
+        .map((k) => card(k, { f: keysOf(k.item.classification.collections) }))
+        .join("")}
+    />
+    <div class="more-wrap">
+      <button type="button" class="btn" data-more hidden>
+        Show more
+      </button>
+    </div>
+    <div class="empty" data-grid-empty hidden>
+      <p>Nothing here for this age yet.</p>
+    </div>
+  </div>
+</Base>

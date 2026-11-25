@@ -1,0 +1,118 @@
+---
+// A tag page (§4.6): big icon, kid label, one-sentence description, "Play all stories", then
+// Stories, Quick Listens and Radio Shows, each sorted unplayed-first (client) then by title.
+import Base from "../layouts/Base.astro";
+import PageHead from "./PageHead.astro";
+import { type KItem, byTitle, countsByVariant, visibleIn } from "../lib/build/model.ts";
+import { card, SECTION_KINDS } from "../lib/build/views.ts";
+import { vcount } from "../lib/html.ts";
+import { VARIANTS, type Variant } from "../lib/kinds.ts";
+import { ui } from "../lib/ui-icons.ts";
+
+interface Chip {
+  key: string;
+  label: string;
+  vis: readonly Variant[];
+}
+interface Props {
+  title: string;
+  he?: string | undefined;
+  description: string;
+  icon: string;
+  color: string;
+  items: readonly KItem[];
+  /** Optional single-select sub-chips; each card's filter keys come from `keysOf`. */
+  chips?: readonly Chip[];
+  keysOf?: ((k: KItem) => string[]) | undefined;
+  tab?: "explore" | "stories" | "radio" | null;
+}
+const {
+  title,
+  he,
+  description,
+  icon,
+  color,
+  items,
+  chips = [],
+  keysOf,
+  tab = "explore",
+} = Astro.props;
+const sections = SECTION_KINDS.map((s) => {
+  const list = items.filter((k) => k.kind === s.kind).sort(byTitle);
+  return { ...s, list, vis: visibleIn(list, 1), counts: countsByVariant(list) };
+}).filter((s) => s.list.length > 0);
+const stories = sections.find((s) => s.kind === "story");
+const sub = he ? `${he} · ${description}` : description;
+const allVis: Variant[] = VARIANTS.filter((v) => items.some((k) => k.vis.includes(v)));
+---
+
+<Base title={title} description={description} tab={tab}>
+  <div data-init="grid" class="tag-page" style={`--c:${color}`}>
+    <PageHead title={title} sub={sub} icon={icon} color={color} />
+    {stories && (
+      <div class="tag-actions" data-vis={stories.vis.join(" ")}>
+        <button
+          type="button"
+          class="btn primary big"
+          data-play-all="#grid-story"
+          data-source={title}
+        >
+          <Fragment set:html={ui("play", "", 28)} />
+          Play all stories
+        </button>
+      </div>
+    )}
+    {chips.length > 0 && (
+      <div class="chips" role="group" aria-label="Pick one">
+        <button type="button" class="chip" data-filter="" aria-pressed="true">
+          All
+        </button>
+        {chips.map((c) => (
+          <button
+            type="button"
+            class="chip"
+            data-filter={c.key}
+            aria-pressed="false"
+            data-vis={c.vis.join(" ")}
+          >
+            {c.label}
+          </button>
+        ))}
+      </div>
+    )}
+    {sections.map((s) => (
+      <section
+        class="section"
+        data-grid-section
+        data-vis={s.vis.join(" ")}
+        aria-labelledby={`h-${s.kind}`}
+      >
+        <div class="section-head">
+          <h2 id={`h-${s.kind}`}>
+            {s.title} <span class="count" set:html={vcount(s.counts, (n) => String(n))} />
+          </h2>
+        </div>
+        <div
+          class="grid"
+          id={`grid-${s.kind}`}
+          data-grid
+          set:html={s.list.map((k) => card(k, keysOf ? { f: keysOf(k) } : {})).join("")}
+        />
+      </section>
+    ))}
+    <div class="empty" data-grid-empty hidden={allVis.length > 0}>
+      <p>Not many stories here for this age yet. Try another tile!</p>
+      <p>
+        <a class="btn" href="/explore/">
+          Explore
+        </a>
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .tag-actions {
+    margin: 4px 0 10px;
+  }
+</style>

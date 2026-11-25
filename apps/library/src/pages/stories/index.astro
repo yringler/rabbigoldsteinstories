@@ -1,0 +1,52 @@
+---
+import Base from "../../layouts/Base.astro";
+import { storyGroups } from "../../lib/site-data.ts";
+
+const groups = [...storyGroups().groups].sort((a, b) => a.title.localeCompare(b.title));
+const lang = (l: string) => ({ en: "English", yi: "Yiddish", he: "Hebrew" })[l] ?? l;
+---
+
+<Base
+  title="Same story, other tellings"
+  description="Stories told more than once in the archive, with every telling side by side."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Same story, other tellings</h1>
+      <p class="lede">
+        {groups.length} stories were told more than once: on the radio and in the weekly stories, in
+        English and in Yiddish, years apart. Each page shows every telling side by side.
+      </p>
+    </header>
+    <div class="table-wrap">
+      <table class="data" data-sortable>
+        <thead>
+          <tr>
+            <th scope="col">Story</th>
+            <th scope="col" class="num">
+              Tellings
+            </th>
+            <th scope="col" class="num">
+              Recordings
+            </th>
+            <th scope="col">Languages</th>
+            <th scope="col">Told by</th>
+          </tr>
+        </thead>
+        <tbody>
+          {groups.map((g) => (
+            <tr>
+              <td>
+                <a href={`/stories/${g.group_id}/`}>{g.title}</a>
+              </td>
+              <td class="num">{g.tellings.length}</td>
+              <td class="num">{g.item_ids.length}</td>
+              <td>{g.languages.map(lang).join(", ")}</td>
+              <td>{g.tellers.join(", ")}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

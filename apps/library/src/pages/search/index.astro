@@ -1,0 +1,521 @@
+---
+/**
+ * Search and browse (docs/sites/library.md §4): facets + query + results, all state in the URL.
+ * The page is a shell; src/scripts/search-page.ts renders facets and results from /idx/catalog.json
+ * and the Pagefind transcript index.
+ */
+import Icon from "../../components/Icon.astro";
+import Base from "../../layouts/Base.astro";
+---
+
+<Base
+  title="Search"
+  description="Search titles, summaries and transcripts; filter by midah, mitzvah, age, length, Yom Tov and more."
+>
+  <div class="wrap page search-page" data-search-app>
+    <h1 class="visually-hidden">Search the archive</h1>
+    <form class="search-top" data-search-form role="search" action="/search/" method="get">
+      <div class="big-search">
+        <Icon name="search" size={20} />
+        <label class="visually-hidden" for="q">
+          Search titles, summaries and transcripts
+        </label>
+        <input
+          id="q"
+          name="q"
+          type="search"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Search titles, summaries and transcripts…"
+          data-search-input
+          role="combobox"
+          aria-expanded="false"
+          aria-controls="suggest-list"
+          aria-autocomplete="list"
+        />
+        <button class="btn btn-primary" type="submit">
+          Search
+        </button>
+        <ul
+          class="suggest"
+          id="suggest-list"
+          role="listbox"
+          aria-label="Suggestions"
+          data-suggest
+          hidden
+        ></ul>
+      </div>
+      <fieldset class="search-in" data-search-in>
+        <legend class="visually-hidden">Search in</legend>
+        <span class="muted small">Search in:</span>
+        <label>
+          <input type="radio" name="in" value="all" checked /> Everything
+        </label>
+        <label>
+          <input type="radio" name="in" value="meta" /> Titles &amp; summaries
+        </label>
+        <label>
+          <input type="radio" name="in" value="transcript" /> Transcripts
+        </label>
+      </fieldset>
+    </form>
+
+    <div class="active-bar" data-active-bar hidden></div>
+
+    <div class="search-layout">
+      <aside class="facets" id="facets" data-facets aria-label="Filters">
+        <div class="facets-head">
+          <h2>Filters</h2>
+          <button type="button" class="btn btn-quiet facets-close" data-facets-close>
+            Done
+          </button>
+        </div>
+        <div data-facets-body>
+          <p class="muted small">Loading filters…</p>
+        </div>
+      </aside>
+      <section class="results" aria-labelledby="results-h">
+        <div class="results-head">
+          <h2 id="results-h" class="results-count" data-count>
+            Loading the catalogue…
+          </h2>
+          <div class="results-tools">
+            <button
+              type="button"
+              class="btn facets-open"
+              data-facets-open
+              aria-controls="facets"
+              aria-expanded="false"
+            >
+              <Icon name="filter" /> <span data-filters-label>Filters</span>
+            </button>
+            <label class="small muted" for="sort">
+              Sort
+            </label>
+            <select id="sort" data-sort>
+              <option value="relevance">Relevance</option>
+              <option value="date">Date, oldest first</option>
+              <option value="date-desc">Date, newest first</option>
+              <option value="title">Title</option>
+              <option value="length">Length</option>
+              <option value="episode">Episode number</option>
+            </select>
+            <div class="seg" role="group" aria-label="View">
+              <button type="button" class="btn" data-view="list" aria-pressed="true">
+                <Icon name="list" /> List
+              </button>
+              <button type="button" class="btn" data-view="table" aria-pressed="false">
+                <Icon name="table" /> Table
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="small muted search-status" data-status></p>
+        <div data-results>
+          <noscript>
+            <p class="notice">
+              Search needs JavaScript. Every recording is also listed on the{" "}
+              <a href="/series/">series</a>, <a href="/radio/">radio show</a> and index pages, which
+              work without it.
+            </p>
+          </noscript>
+        </div>
+        <nav class="pager" data-pager aria-label="Result pages"></nav>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style is:global>
+  .search-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .search-in {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    align-items: center;
+  }
+  .search-in label {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+  }
+  .suggest {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 4px;
+    list-style: none;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    z-index: 30;
+    max-height: 360px;
+    overflow: auto;
+  }
+  .suggest li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .suggest li[aria-selected="true"],
+  .suggest li:hover {
+    background: var(--accent-soft);
+  }
+  .suggest .grp {
+    color: var(--muted);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .active-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    margin-bottom: 4px;
+  }
+  .active-bar .chip button {
+    all: unset;
+    cursor: pointer;
+    display: inline-grid;
+    place-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: var(--muted);
+  }
+  .active-bar .chip button:hover {
+    color: var(--ink);
+  }
+  .active-bar .chip button:focus-visible {
+    outline: 2px solid var(--accent);
+  }
+  .chip.not {
+    text-decoration: line-through;
+    color: var(--advisory);
+  }
+  .search-layout {
+    display: grid;
+    grid-template-columns: 268px minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+  .facets {
+    position: sticky;
+    top: 12px;
+    max-height: calc(100vh - var(--player-h) - 24px);
+    overflow: auto;
+    padding-right: 6px;
+    scrollbar-width: thin;
+  }
+  .facets-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .facets-head h2 {
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--sans);
+  }
+  .facets-close,
+  .facets-open {
+    display: none !important;
+  }
+  .facet {
+    border-top: 1px solid var(--rule);
+    padding: 10px 0 8px;
+  }
+  fieldset.facet {
+    border-top: 0;
+    padding-top: 0;
+  }
+  fieldset.facet > legend.facet-head {
+    float: left;
+    width: 100%;
+    border-top: 1px solid var(--rule);
+    padding-top: 10px;
+  }
+  fieldset.facet > legend + * {
+    clear: both;
+  }
+  .facet-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .facet-head h3 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .facet-hint {
+    margin: 0 0 4px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .anyall {
+    display: inline-flex;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .anyall button {
+    all: unset;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 1px 7px;
+    color: var(--muted);
+  }
+  .anyall button[aria-pressed="true"] {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .anyall button:focus-visible {
+    outline: 2px solid var(--accent);
+  }
+  .fv {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 4px;
+    min-height: 28px;
+    border-radius: 3px;
+    padding: 0 2px;
+  }
+  .fv:hover,
+  .fv:focus-within {
+    background: var(--surface-2);
+  }
+  .fv label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    min-width: 0;
+    padding: 3px 0;
+  }
+  .fv label span.l {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .fv .n {
+    font-size: 12px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .fv.zero {
+    color: var(--muted);
+  }
+  .fv.zero input {
+    opacity: 0.55;
+  }
+  .fv.excluded label span.l {
+    text-decoration: line-through;
+    color: var(--advisory);
+  }
+  .fv .not {
+    all: unset;
+    cursor: pointer;
+    font-size: 11px;
+    color: var(--muted);
+    padding: 0 4px;
+    border-radius: 3px;
+    opacity: 0;
+  }
+  .fv:hover .not,
+  .fv:focus-within .not,
+  .fv.excluded .not {
+    opacity: 1;
+  }
+  @media (hover: none) {
+    .fv .not {
+      opacity: 1;
+    }
+  }
+  .fv .not:focus-visible {
+    outline: 2px solid var(--accent);
+  }
+  .fv.excluded .not {
+    color: var(--advisory);
+    font-weight: 600;
+  }
+  .facet-filter {
+    width: 100%;
+    margin: 2px 0 4px;
+    min-height: 28px;
+    font-size: 13px;
+  }
+  .facet .more {
+    all: unset;
+    cursor: pointer;
+    color: var(--accent);
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .facet .more:focus-visible {
+    outline: 2px solid var(--accent);
+  }
+  .range-row {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 13px;
+  }
+  .range-row select {
+    min-height: 28px;
+  }
+  .results-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px 16px;
+    padding-bottom: 10px;
+  }
+  .results-count {
+    font: 600 16px/22px var(--sans);
+    margin: 0;
+  }
+  .results-tools {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .seg {
+    display: inline-flex;
+  }
+  .seg .btn {
+    border-radius: 0;
+  }
+  .seg .btn:first-child {
+    border-radius: var(--radius) 0 0 var(--radius);
+  }
+  .seg .btn:last-child {
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin-left: -1px;
+  }
+  .seg .btn[aria-pressed="true"] {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent);
+    position: relative;
+  }
+  .nested-note {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .search-status {
+    min-height: 18px;
+    margin: 0 0 6px;
+  }
+  .found-in {
+    font-size: 12px;
+    color: var(--ok);
+  }
+  .pager {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    align-items: center;
+  }
+  .pager .btn[aria-current="page"] {
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-color: var(--accent);
+  }
+  .table-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .cols-menu {
+    position: relative;
+  }
+  .cols-menu > div {
+    position: absolute;
+    z-index: 20;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    padding: 8px 12px;
+    display: grid;
+    gap: 4px;
+    min-width: 200px;
+  }
+  .cols-menu summary {
+    list-style: none;
+  }
+  .cols-menu summary::-webkit-details-marker {
+    display: none;
+  }
+  .cols-menu label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  table.results-table td {
+    white-space: nowrap;
+  }
+  table.results-table td.title-cell {
+    white-space: normal;
+    min-width: 260px;
+  }
+  table.results-table tr.focused {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+  }
+  .empty-state {
+    padding: 32px 0;
+    max-width: 60ch;
+  }
+  @media (max-width: 899px) {
+    .search-layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .facets {
+      position: fixed;
+      inset: 0 0 0 auto;
+      width: min(360px, 92vw);
+      max-height: none;
+      background: var(--bg);
+      z-index: 60;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      transform: translateX(105%);
+      visibility: hidden;
+      transition:
+        transform 0.2s,
+        visibility 0.2s;
+    }
+    .facets.open {
+      transform: none;
+      visibility: visible;
+      box-shadow: 0 0 0 100vmax rgba(10, 14, 20, 0.4);
+    }
+    .facets-close,
+    .facets-open {
+      display: inline-flex !important;
+    }
+  }
+</style>

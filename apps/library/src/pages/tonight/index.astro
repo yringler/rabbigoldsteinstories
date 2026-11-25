@@ -1,0 +1,60 @@
+---
+/** Tonight's playlists (library.md §9): today's in full, then the last 7 nights. Rendered from /playlists/. */
+import Icon from "../../components/Icon.astro";
+import Base from "../../layouts/Base.astro";
+---
+
+<Base
+  title="Tonight's playlists"
+  description="Tonight's playlists, shared with the bedtime site, and the last seven nights."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Tonight's playlists</h1>
+      <p>
+        Shared with the bedtime site. These change every night and are kept for 7 days. To keep one,
+        use “Save a copy to my playlists”.
+      </p>
+    </header>
+    <div data-tonight>
+      <p class="muted" data-tonight-loading>
+        Loading…
+      </p>
+    </div>
+    <div class="notice" data-tonight-empty hidden>
+      <Icon name="info" />
+      <p>
+        There are no playlists to show right now. Browse the <a href="/search/">whole archive</a> or
+        make <a href="/my-playlists/">your own playlists</a>.
+      </p>
+    </div>
+    <noscript>
+      <p class="notice">Tonight's playlists need JavaScript.</p>
+    </noscript>
+  </div>
+</Base>
+
+<style is:global>
+  .tonight-list .tl-title {
+    font: 600 20px/26px var(--serif);
+    margin: 0;
+  }
+  .earlier-h {
+    margin-top: 40px;
+  }
+  details.night {
+    border-top: 1px solid var(--rule);
+    padding: 12px 0;
+  }
+  details.night > summary {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px 0;
+  }
+  details.night[open] > summary {
+    margin-bottom: 12px;
+  }
+  .tonight-list h4.rec-title {
+    font-size: 16px;
+  }
+</style>

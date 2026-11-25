@@ -1,0 +1,27 @@
+---
+import TermIndex from "../../components/TermIndex.astro";
+import Base from "../../layouts/Base.astro";
+---
+
+<Base
+  title="Midos"
+  description="Character traits taught in the stories, with the number of recordings for each."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/midos/">Midos</a>
+        <span class="sep">·</span>
+        <a href="/mitzvos/">Mitzvos</a>
+        <span class="sep">·</span>
+        <a href="/topics/">Topics</a>
+      </nav>
+      <h1>Midos</h1>
+      <p>
+        Character traits the recordings teach. Each links to a search; combine it there with age,
+        length and other filters.
+      </p>
+    </header>
+    <TermIndex list="midos" facet="midos" />
+  </div>
+</Base>

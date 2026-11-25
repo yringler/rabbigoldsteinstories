@@ -1,0 +1,148 @@
+name: deploy
+
+# Push to main: deploy what changed. Shared inputs (data/, packages/, workers/api/, the lockfile)
+# deploy the API Worker and all three sites; a change under apps/<site>/ deploys that site only.
+# Manual run: pick production or staging and which targets (default all).
+# Order: goldstein-api first (the sites' service bindings point at it), then the sites.
+# Every deploy re-runs the privacy gate on the exact bytes that ship; a finding deploys nothing.
+# Secrets (GitHub environment "production" / "staging"): CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Where to deploy
+        type: choice
+        options: [production, staging]
+        default: production
+      only:
+        description: "Comma-separated subset of api,bedtime,kids,library (empty = all)"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-${{ inputs.target || 'production' }}
+  cancel-in-progress: false
+
+env:
+  ASTRO_TELEMETRY_DISABLED: "1"
+  WRANGLER_SEND_METRICS: "false"
+  WRANGLER_VERSION: 4.156.0
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      api: ${{ steps.pick.outputs.api }}
+      bedtime: ${{ steps.pick.outputs.bedtime }}
+      kids: ${{ steps.pick.outputs.kids }}
+      library: ${{ steps.pick.outputs.library }}
+    steps:
+      # Only the workflow-relevant folders: no need for data/ to decide what changed.
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            .github
+          sparse-checkout-cone-mode: true
+      - id: pick
+        env:
+          BEFORE: ${{ github.event.before }}
+          ONLY: ${{ inputs.only }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          all() { for t in api bedtime kids library; do echo "$t=true" >> "$GITHUB_OUTPUT"; done; }
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            if [ -z "$ONLY" ]; then all; exit 0; fi
+            for t in api bedtime kids library; do
+              case ",$ONLY," in *",$t,"*) echo "$t=true" >> "$GITHUB_OUTPUT";; *) echo "$t=false" >> "$GITHUB_OUTPUT";; esac
+            done
+            exit 0
+          fi
+          # First push of a branch or a force push: deploy everything.
+          if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then all; exit 0; fi
+          changed="$(git diff --name-only "$BEFORE" "$GITHUB_SHA")"
+          echo "$changed"
+          shared='^(data/|packages/|workers/api/|package\.json$|package-lock\.json$|\.nvmrc$|\.github/)'
+          if echo "$changed" | grep -Eq "$shared"; then all; exit 0; fi
+          echo "api=false" >> "$GITHUB_OUTPUT"
+          for t in bedtime kids library; do
+            if echo "$changed" | grep -q "^apps/$t/"; then echo "$t=true"; else echo "$t=false"; fi >> "$GITHUB_OUTPUT"
+          done
+
+  deploy:
+    needs: plan
+    if: needs.plan.outputs.api == 'true' || needs.plan.outputs.bedtime == 'true' || needs.plan.outputs.kids == 'true' || needs.plan.outputs.library == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    environment: ${{ inputs.target || 'production' }}
+    env:
+      WRANGLER_ENV: ${{ (inputs.target || 'production') == 'staging' && 'staging' || '' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/setup
+      - name: Public dataset + privacy gate
+        run: npm run data:build
+      - name: Privacy gate tests
+        run: npm test -w @goldstein/data
+      - name: Build
+        run: |
+          [ "${{ needs.plan.outputs.api }}" = "true" ] && npm run build -w @goldstein/api
+          for t in bedtime kids library; do
+            v="DEPLOY_$t"
+            if [ "${!v}" = "true" ]; then npm run build -w "@goldstein/$t"; fi
+          done
+          true
+        env:
+          DEPLOY_bedtime: ${{ needs.plan.outputs.bedtime }}
+          DEPLOY_kids: ${{ needs.plan.outputs.kids }}
+          DEPLOY_library: ${{ needs.plan.outputs.library }}
+          CLOUDFLARE_API_TOKEN: dummy
+      - name: Privacy gate over what ships
+        run: |
+          dirs=""
+          for d in workers/api/dist apps/bedtime/dist apps/kids/dist apps/library/dist; do [ -d "$d" ] && dirs="$dirs $d"; done
+          npm run privacy:gate -- $dirs
+
+      - name: Deploy goldstein-api
+        if: needs.plan.outputs.api == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          workingDirectory: workers/api
+          command: deploy --env=${{ env.WRANGLER_ENV }}
+      - name: Deploy bedtime
+        if: needs.plan.outputs.bedtime == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          workingDirectory: apps/bedtime
+          command: deploy --env=${{ env.WRANGLER_ENV }}
+      - name: Deploy kids
+        if: needs.plan.outputs.kids == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          workingDirectory: apps/kids
+          command: deploy --env=${{ env.WRANGLER_ENV }}
+      - name: Deploy library
+        if: needs.plan.outputs.library == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          workingDirectory: apps/library
+          command: deploy --env=${{ env.WRANGLER_ENV }}

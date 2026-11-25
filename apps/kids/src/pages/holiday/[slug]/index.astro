@@ -1,0 +1,37 @@
+---
+// One holiday (§5.2): a tag page with single-select sub-chips, one per calendar id with 4+ items.
+import type { GetStaticPaths } from "astro";
+import TagPage from "../../../components/TagPage.astro";
+import { getModel, tileKey, visibleIn } from "../../../lib/build/model.ts";
+
+export const getStaticPaths = (() =>
+  getModel().tiles.holidays.map((t) => ({ params: { slug: t.slug } }))) satisfies GetStaticPaths;
+
+const m = getModel();
+const t = m.tiles.holidays.find((x) => x.slug === Astro.params.slug);
+if (!t) throw new Error("unknown holiday");
+const items = m.tileItems.get(tileKey(t)) ?? [];
+const chips =
+  t.ids.length > 1
+    ? t.ids
+        .map((id) => {
+          const list = items.filter((k) => k.item.subjects.calendar.includes(id));
+          const label =
+            t.chips?.[id] ?? (m.vocab("calendar", id)?.label ?? id).replace(/\s*\(.*\)\s*$/, "");
+          return { key: id, label, vis: visibleIn(list, 4) };
+        })
+        .filter((c) => c.vis.length > 0)
+    : [];
+const keysOf = (k: (typeof items)[number]) =>
+  k.item.subjects.calendar.filter((c) => t.ids.includes(c));
+---
+
+<TagPage
+  title={t.label}
+  description={t.description}
+  icon={t.icon}
+  color={t.color}
+  items={items}
+  chips={chips}
+  keysOf={keysOf}
+/>

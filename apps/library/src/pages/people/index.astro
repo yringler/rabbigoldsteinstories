@@ -1,0 +1,67 @@
+---
+/** People index (library.md §7.4): people in use, by category. Unconfirmed placeholders get no page. */
+import Base from "../../layouts/Base.astro";
+import { label, unconfirmed, usage, vocab } from "../../lib/site-data.ts";
+
+const CATEGORY: Record<string, string> = {
+  tanach: "Tanach",
+  sages: "Sages of the Mishnah and Gemara",
+  rishonim_acharonim: "Rishonim and Acharonim",
+  baal_shem_tov_circle_and_chassidic_masters: "The Baal Shem Tov and Chassidic masters",
+  chabad_rebbeim: "Chabad Rebbeim",
+  rebbeim_family: "Rebbeim's family",
+  chassidim: "Chassidim",
+};
+const counts = usage("people");
+const people = (vocab().lists["people"] ?? []).filter((p) => (counts.get(p.id) ?? 0) > 0);
+const groups = Object.entries(CATEGORY)
+  .map(([cat, heading]) => ({ heading, people: people.filter((p) => p.category === cat) }))
+  .concat([
+    { heading: "Others", people: people.filter((p) => !p.category || !(p.category in CATEGORY)) },
+  ])
+  .filter((g) => g.people.length > 0);
+---
+
+<Base
+  title="People"
+  description="Tzaddikim, Rebbeim, sages and figures from Tanach in the recordings."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>People</h1>
+      <p>
+        {people.length} people who appear in, are told about, or are cited in the recordings. The
+        number is how many recordings.
+      </p>
+    </header>
+    <div class="index-grid">
+      {groups.map((g) => (
+        <section>
+          <h2 class="h4">{g.heading}</h2>
+          <ul class="index-list">
+            {g.people.map((p) => (
+              <li>
+                {unconfirmed("people", p.id) ? (
+                  <span class="unconfirmed">{label("people", p.id)}</span>
+                ) : (
+                  <a href={`/people/${p.id}/`}>{label("people", p.id)}</a>
+                )}
+                <span class="n">{counts.get(p.id)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .h4 {
+    font: 600 13px/18px var(--sans);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent-2);
+    margin: 0 0 6px;
+  }
+</style>

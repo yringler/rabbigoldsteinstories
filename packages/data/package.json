@@ -1,0 +1,29 @@
+{
+  "name": "@goldstein/data",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Builds the PUBLIC dataset from data/ (hidden/internal fields dropped, transcripts masked) and defines its types. Includes the privacy gate.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./load": "./src/load.ts",
+    "./privacy": "./src/privacy.ts",
+    "./build/*": "./src/build/*",
+    "./generated/*": "./generated/*",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsx src/build/build.ts",
+    "ensure": "tsx src/build/build.ts --ensure",
+    "gate": "tsx src/build/gate.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@goldstein/config": "0.0.0",
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2"
+  }
+}

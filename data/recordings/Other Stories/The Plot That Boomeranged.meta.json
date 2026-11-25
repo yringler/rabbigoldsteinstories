@@ -147,7 +147,15 @@
   "publish_recommendation": "publish",
   "notes": "A complete story despite the '2' in the filename (likely a second recording or version). No opening song or closing lesson; read in a storybook style."
  },
- "relations": [],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "5ae5c959ac",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Same telling, word for word (transcript match 0.98); the other copy plays about 1.7% faster. This copy is preferred."
+  }
+ ],
  "hidden": {
   "on_air_people": [],
   "addresses": [],

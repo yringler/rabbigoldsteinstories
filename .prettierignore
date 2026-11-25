@@ -1,0 +1,11 @@
+# Data, docs and Python tools keep their own formatting.
+data/
+docs/
+review/
+tools/
+node_modules/
+dist/
+.astro/
+.wrangler/
+packages/data/generated/
+package-lock.json

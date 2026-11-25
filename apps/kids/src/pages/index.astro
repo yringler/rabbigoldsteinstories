@@ -1,0 +1,311 @@
+---
+// Home (docs/sites/kids.md §4.1). Static shelves are band-filtered by CSS; date- and device-dependent
+// shelves (Story of the Day, Keep Listening, tonight's playlists, coming up, parsha, quick listens)
+// are drawn by the client from kids/index.json and kids/calendar.json.
+import Base from "../layouts/Base.astro";
+import Shelf from "../components/Shelf.astro";
+import { getModel, visibleIn } from "../lib/build/model.ts";
+import { serialCard, serialVis, sortedSerials } from "../lib/build/views.ts";
+import { tileHtml } from "../lib/html.ts";
+import { TILE_MIN, SHELF_MIN, tilePath } from "../lib/tiles.ts";
+import { ui } from "../lib/ui-icons.ts";
+import { iconSvg } from "../lib/icons.ts";
+import { VARIANTS, type Variant } from "../lib/kinds.ts";
+import { capPerVariant } from "../lib/build/model.ts";
+
+const m = getModel();
+const items = (key: string) => m.tileItems.get(key) ?? [];
+
+const serials = sortedSerials(m).map((s) => ({ s, vis: serialVis(s, m) }));
+const serialShelf = capPerVariant(serials, 12)
+  .map(({ k, vis }) => serialCard(k.s, vis))
+  .join("");
+const serialShelfVis = VARIANTS.filter(
+  (v) => serials.filter((x) => x.vis.includes(v)).length >= SHELF_MIN,
+);
+
+const heroTiles = m.tiles.heroes
+  .map((t) => ({ t, vis: visibleIn(items(`people:${t.slug}`), TILE_MIN) }))
+  .filter((x) => x.vis.length > 0);
+const heroHtml = heroTiles
+  .map(({ t, vis }) =>
+    tileHtml(t, { vis, href: tilePath(t), cls: "hero-tile" }).replace(
+      "<a ",
+      `<a data-hero="${t.slug}" `,
+    ),
+  )
+  .join("");
+const heroVis = VARIANTS.filter(
+  (v) => heroTiles.filter((x) => x.vis.includes(v)).length >= SHELF_MIN,
+);
+
+const midos = m.tiles.midos
+  .map((t) => ({ t, vis: visibleIn(items(`midos:${t.slug}`), TILE_MIN) }))
+  .filter((x) => x.vis.length);
+const midosHtml = midos.map(({ t, vis }) => tileHtml(t, { vis })).join("");
+const midosVis: Variant[] = VARIANTS.filter(
+  (v) => midos.filter((x) => x.vis.includes(v)).length >= SHELF_MIN,
+);
+---
+
+<Base
+  tab="home"
+  back={false}
+  description="Pick a story. Hundreds of Jewish stories for kids, ready to play."
+>
+  <div class="home" data-init="home">
+    <section class="greet" aria-label="Today">
+      <h1 data-greet>Hello!</h1>
+      <p class="greet-date" data-hdate></p>
+    </section>
+
+    <section class="sotd" data-sotd aria-labelledby="sotd-h">
+      <h2 id="sotd-h" class="sr">
+        Story of the Day
+      </h2>
+      <div class="sotd-card skeleton" data-sotd-card>
+        <div class="sotd-cover"></div>
+        <div class="sotd-body">
+          <span class="sotd-kicker">
+            <Fragment set:html={ui("star", "", 20)} /> Story of the Day
+          </span>
+          <p class="sotd-title">&nbsp;</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shelf" data-keep hidden aria-labelledby="keep-h">
+      <div class="section-head">
+        <h2 id="keep-h">Keep Listening</h2>
+        <a class="see-all" href="/favourites/">
+          My Shelf <Fragment set:html={ui("right", "", 22)} />
+        </a>
+      </div>
+      <div class="shelf-row" data-keep-row></div>
+    </section>
+
+    <section class="section playlists-shelf" data-playlists hidden aria-labelledby="pl-h">
+      <div class="section-head">
+        <h2 id="pl-h">Tonight's Playlists</h2>
+        <a class="see-all" href="/tonight/">
+          Past nights <Fragment set:html={ui("right", "", 22)} />
+        </a>
+      </div>
+      <div class="pl-row" data-playlists-row></div>
+    </section>
+
+    <div data-coming></div>
+    <div data-parsha></div>
+
+    <section class="section shelf home-quick" data-quick hidden aria-labelledby="quick-h">
+      <div class="section-head">
+        <h2 id="quick-h">
+          Quick Listens <span class="count">under 10 minutes</span>
+        </h2>
+        <a class="see-all" href="/quick/">
+          See all <Fragment set:html={ui("right", "", 22)} />
+        </a>
+      </div>
+      <div class="shelf-row" data-quick-row></div>
+    </section>
+
+    <section class="section shelf home-radio" data-radio hidden aria-labelledby="radio-h">
+      <div class="section-head">
+        <h2 id="radio-h">From the Radio Show</h2>
+        <a class="see-all" href="/radio/">
+          See all <Fragment set:html={ui("right", "", 22)} />
+        </a>
+      </div>
+      <div class="shelf-row" data-radio-row></div>
+    </section>
+
+    <Shelf
+      title="Chapter Stories"
+      href="/serials/"
+      html={serialShelf}
+      vis={serialShelfVis}
+      cls="home-serials"
+    />
+    <Shelf
+      title="Meet a Hero"
+      href="/explore/?tab=heroes"
+      html={heroHtml}
+      vis={heroVis}
+      tiles
+      cls="home-heroes"
+      attrs={{ "data-heroes": "" }}
+    />
+    <Shelf
+      title="Pick a Midah"
+      href="/explore/?tab=midos"
+      html={midosHtml}
+      vis={midosVis}
+      tiles
+      cls="home-midos"
+    />
+
+    <section class="surprise">
+      <button type="button" class="btn sun big surprise-btn" data-surprise>
+        <Fragment set:html={iconSvg("sparkles", { accent: "#FFFFFF" }, 40)} />
+        Surprise me!
+      </button>
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  html[data-band="little"] .home .home-quick {
+    order: 1;
+  }
+  html[data-band="little"] .home .home-radio {
+    order: 2;
+  }
+  html[data-band="little"] .home > :not(.greet, .sotd, .home-quick, .home-radio) {
+    order: 3;
+  }
+  .greet {
+    margin: 10px 0 14px;
+  }
+  .greet h1 {
+    font-size: clamp(32px, 7vw, 44px);
+  }
+  .greet-date {
+    color: var(--ink-soft);
+    font-weight: 700;
+    min-height: 27px;
+  }
+  .greet-date b {
+    color: var(--coral-ink);
+  }
+  .sotd-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 28px;
+    overflow: hidden;
+    background: var(--sun);
+    border: 3px solid var(--ink);
+    box-shadow: 0 5px 0 var(--ink);
+    color: var(--ink);
+    text-decoration: none;
+    position: relative;
+  }
+  @media (min-width: 640px) {
+    .sotd-card {
+      grid-template-columns: minmax(220px, 300px) 1fr;
+    }
+  }
+  .sotd-cover {
+    aspect-ratio: 16/10;
+    background: #f5b82a;
+    position: relative;
+  }
+  @media (min-width: 640px) {
+    .sotd-cover {
+      aspect-ratio: auto;
+      min-height: 260px;
+    }
+  }
+  .sotd-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sotd-body {
+    padding: 16px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+  }
+  .sotd-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    background: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 2px 12px 2px 8px;
+    align-self: flex-start;
+    color: var(--coral-ink);
+  }
+  .sotd-title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: clamp(25px, 5.4vw, 34px);
+    line-height: 1.1;
+  }
+  .sotd-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .sotd-title a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+  .sotd-meta {
+    font-weight: 700;
+  }
+  .sotd-summary {
+    font-size: 17px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .sotd-play {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 6px;
+    position: relative;
+    z-index: 1;
+  }
+  .sotd-play .btn.play-xl {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--ink);
+    box-shadow: 0 4px 0 var(--ink);
+  }
+  .skeleton .sotd-cover {
+    animation: pulse 1.2s ease-in-out infinite alternate;
+  }
+  @keyframes pulse {
+    to {
+      opacity: 0.6;
+    }
+  }
+  .pl-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min(320px, 84vw);
+    gap: 12px;
+    overflow-x: auto;
+    padding: 2px var(--gutter) 10px;
+    margin: 0 calc(-1 * var(--gutter));
+    scrollbar-width: none;
+    contain: paint;
+  }
+  @media (min-width: 900px) {
+    .pl-row {
+      margin: 0 -32px;
+      padding: 2px 32px 10px;
+    }
+  }
+  .surprise {
+    margin: 36px 0 6px;
+    display: flex;
+    justify-content: center;
+    order: 10;
+  }
+  .surprise-btn svg {
+    width: 40px;
+    height: 40px;
+  }
+</style>

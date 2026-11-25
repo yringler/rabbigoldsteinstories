@@ -1,0 +1,257 @@
+---
+/** Home (library.md §3.1): search, entry points, tonight's playlists strip, archive numbers. Nothing needs upkeep. */
+import Icon from "../components/Icon.astro";
+import Base from "../layouts/Base.astro";
+import {
+  episodes,
+  manifest,
+  rows,
+  serials,
+  storyGroups,
+  seriesIndex,
+  SITE,
+} from "../lib/site-data.ts";
+
+const m = manifest();
+const pub = rows().filter((r) => r.preferred);
+const eps = episodes();
+const found = eps.filter((e) => e.status === "found").length;
+const lost = eps.length - found;
+const years = pub
+  .map((r) => r.sortKey)
+  .filter((k) => k > 0)
+  .map((k) => Math.floor(k / 10000));
+const first = Math.min(...years);
+const series = seriesIndex().series;
+const classPreset =
+  "/search/?type=story,story_chapter,radio_segment,lesson_with_story&standalone=standalone";
+---
+
+<Base>
+  <div class="home">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">A reference library</p>
+        <h1>{SITE.name}</h1>
+        <p class="stats">
+          <span class="num">{pub.length.toLocaleString("en")}</span> recordings ·{" "}
+          <span class="num">{Math.round(m.hours)}</span> hours · {first} to today
+        </p>
+        <form class="big-search" action="/search/" method="get" role="search" data-home-search>
+          <Icon name="search" size={20} />
+          <label class="visually-hidden" for="home-q">
+            Search titles, summaries and transcripts
+          </label>
+          <input
+            id="home-q"
+            name="q"
+            type="search"
+            placeholder="Search titles, summaries and transcripts…"
+            autocomplete="off"
+          />
+          <button class="btn btn-primary" type="submit">
+            Search
+          </button>
+        </form>
+        <p class="try">
+          Try:
+          <a href="/search/?midos=hakaras_hatov&age=3-6&length=lt5,5-15">
+            hakaras hatov, ages up to 6, under 15 min
+          </a>
+          <span aria-hidden="true">·</span>
+          <a href="/search/?calendar=nissan,rosh_chodesh&calendar.mode=all">Rosh Chodesh Nissan</a>
+          <span aria-hidden="true">·</span>
+          <a href="/search/?q=%22ad+mosai%22">"ad mosai"</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="entry-grid" aria-label="Ways in">
+        <a class="entry" href={classPreset}>
+          <span class="entry-icon">
+            <Icon name="book" size={22} />
+          </span>
+          <span class="entry-title">Find a story for class</span>
+          <span class="entry-sub">
+            Stories that stand alone, by midah, mitzvah, parsha, Yom Tov, age and length
+          </span>
+        </a>
+        <a class="entry" href="/radio/">
+          <span class="entry-icon">
+            <Icon name="radio" size={22} />
+          </span>
+          <span class="entry-title">Radio show 1981–92</span>
+          <span class="entry-sub">
+            Tzivos Hashem on the Air: a timeline of 555 episodes, {found} in the archive, {lost} not
+            yet found
+          </span>
+        </a>
+        <a class="entry" href="/serials/">
+          <span class="entry-icon">
+            <Icon name="list" size={22} />
+          </span>
+          <span class="entry-title">Serials</span>
+          <span class="entry-sub">
+            {serials().serials.length} stories told in chapters, week by week, with every airing
+            side by side
+          </span>
+        </a>
+      </section>
+
+      <nav class="index-links" aria-label="Indexes">
+        <a href="/people/">People</a>
+        <a href="/places/">Places</a>
+        <a href="/sources/">Sources cited</a>
+        <a href="/calendar/">Jewish calendar</a>
+        <a href="/parsha/">Parsha</a>
+        <a href="/study/">Tanya by perek</a>
+        <a href="/stories/">Same story, different tellings ({storyGroups().groups.length})</a>
+        <a href="/midos/">Midos</a>
+        <a href="/mitzvos/">Mitzvos</a>
+        <a href="/topics/">Topics</a>
+      </nav>
+
+      <section class="section tonight-strip" data-tonight-strip hidden aria-labelledby="tonight-h">
+        <div class="section-head">
+          <h2 id="tonight-h">Tonight's playlists</h2>
+          <a href="/tonight/" class="small">
+            Shared with the bedtime site · see the last 7 nights
+          </a>
+        </div>
+        <div class="cards" data-tonight-cards></div>
+      </section>
+
+      <section class="section" aria-labelledby="series-h">
+        <div class="section-head">
+          <h2 id="series-h">Collections</h2>
+          <a class="small" href="/series/">
+            All series
+          </a>
+        </div>
+        <ul class="series-list">
+          {series.slice(0, 8).map((s) => (
+            <li>
+              <a
+                href={`/series/${s.series_id}/`}
+                class={s.label_unconfirmed ? "unconfirmed" : undefined}
+              >
+                {s.label}
+              </a>
+              <span class="muted small num">
+                {s.counts.items} recordings · {Math.round(s.counts.hours)} h
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+    padding: 44px 0 36px;
+  }
+  .eyebrow {
+    font: 600 12px/16px var(--sans);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-2);
+    margin: 0 0 8px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 4vw, 38px);
+    line-height: 1.15;
+    margin: 0 0 6px;
+  }
+  .stats {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 0 0 22px;
+  }
+  .stats .num {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .try {
+    margin: 12px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+  }
+  .entry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin: 32px 0 20px;
+  }
+  @media (max-width: 799px) {
+    .entry-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .entry {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 2px 14px;
+    padding: 18px 20px;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--surface);
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .entry:hover {
+    border-color: var(--accent);
+  }
+  .entry-icon {
+    grid-row: span 2;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .entry-title {
+    font: 600 18px/24px var(--serif);
+  }
+  .entry:hover .entry-title {
+    color: var(--accent);
+  }
+  .entry-sub {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .index-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    padding: 14px 0 22px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 28px;
+  }
+  .series-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0 32px;
+  }
+  .series-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px dotted var(--rule);
+  }
+</style>

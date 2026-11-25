@@ -1,0 +1,40 @@
+{
+  "name": "@goldstein/library",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run ensure -w @goldstein/data && tsx scripts/build-search.ts public --if-missing && ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "npm run ensure -w @goldstein/data && ASTRO_TELEMETRY_DISABLED=1 astro build && tsx scripts/build-search.ts dist",
+    "preview": "npm run build && wrangler dev --env= --port 8790",
+    "deploy": "wrangler deploy --env=",
+    "deploy:staging": "wrangler deploy --env staging",
+    "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check && tsc --noEmit -p worker/tsconfig.json && tsc --noEmit -p tsconfig.scripts.json",
+    "test": "vitest run --passWithNoTests",
+    "gate": "npm run gate -w @goldstein/data -- \"$PWD/dist\""
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "5.3.0",
+    "@fontsource-variable/source-serif-4": "5.3.1",
+    "@fontsource/frank-ruhl-libre": "5.3.0",
+    "@goldstein/api": "0.0.0",
+    "@goldstein/data": "0.0.0",
+    "@goldstein/player": "0.0.0",
+    "@goldstein/playlists": "0.0.0",
+    "astro": "7.4.10",
+    "pagefind": "1.5.2",
+    "qrcode-generator": "2.0.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@cloudflare/workers-types": "5.20261031.1",
+    "@goldstein/config": "0.0.0",
+    "@types/node": "26.6.6",
+    "ajv": "8.17.1",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2",
+    "wrangler": "4.156.0"
+  },
+  "description": "The library site (Astro, static, on Cloudflare Workers static assets). See docs/sites/library.md."
+}

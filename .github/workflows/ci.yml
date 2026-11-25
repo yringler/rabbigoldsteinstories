@@ -1,0 +1,45 @@
+name: ci
+
+# Every PR and push to main: format, typecheck, unit tests (including THE PRIVACY GATE on the real
+# data: packages/data/test/privacy-gate.test.ts), full build of the public dataset, the API Worker
+# bundle and the three sites, then the gate again over everything that would ship.
+# One job: the checkout (data/ is ~150 MB) happens once. See docs/ARCHITECTURE.md §CI/CD.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  ASTRO_TELEMETRY_DISABLED: "1"
+  WRANGLER_SEND_METRICS: "false"
+  # wrangler's dry-run bundling needs no real token; never put a real one in CI checks.
+  CLOUDFLARE_API_TOKEN: dummy
+
+jobs:
+  ci:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/setup
+      - name: Format
+        run: npm run format:check
+      - name: Build the public dataset (and run the gate on it)
+        run: npm run data:build
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Unit tests (privacy gate, playlists engine, API, player, site table)
+        run: npm test
+      - name: Build everything (API Worker bundle, three sites)
+        run: npm run build
+      - name: Privacy gate over everything that ships
+        run: npm run privacy:gate -- packages/data/generated apps/bedtime/dist apps/kids/dist apps/library/dist workers/api/dist

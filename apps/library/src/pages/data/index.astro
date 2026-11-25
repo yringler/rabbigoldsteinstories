@@ -1,0 +1,110 @@
+---
+/** Data download (library.md §10): static files from the public dataset, with a field guide. */
+import { CONTACT_EMAIL } from "@goldstein/config/sites";
+import Icon from "../../components/Icon.astro";
+import Base from "../../layouts/Base.astro";
+import { CSV_COLUMNS } from "../../lib/export.ts";
+import { manifest, rows } from "../../lib/site-data.ts";
+
+const m = manifest();
+const n = rows().length;
+const files: [string, string, string][] = [
+  ["/data/library.json", "library.json", `Every public recording record (${n}), exactly as this site uses it. About 5 MB.`],
+  ["/data/library.csv", "library.csv", "A flat table: one row per recording, the columns listed below."],
+  ["/data/vocabularies.json", "vocabularies.json", "Labels for every id used in the records (people, midos, mitzvos, calendar, works…)."],
+  ["/data/serials.json", "serials.json", "Radio serials: chapters, airings and story segment times."],
+  ["/data/story-groups.json", "story-groups.json", "Stories told more than once and their tellings."],
+  ["/data/series.json", "series.json", "Series descriptions and counts."],
+  ["/data/lost-episodes.json", "lost-episodes.json", "Radio episode numbers not in the archive, with estimated dates."],
+  ["/schemas/recording-1.json", "schemas/recording-1.json", "JSON Schema of one record."],
+  ["/schemas/playlists-1.json", "schemas/playlists-1.json", "JSON Schema of the playlists file this site exports and imports."],
+];
+const guide: [string, string][] = [
+  ["id", "Ten hex characters; stable forever. Recording pages are /r/<id>/."],
+  ["title, summary_short, summary_long, lesson, keywords", "Written with AI from the recording; they may contain errors."],
+  ["duration_sec, content_start_sec, content_end_sec", "The audio is never edited; where a tape has blank stretches the content bounds say where the recording really starts and ends."],
+  ["media.url", "The MP3 on the archive's media host (supports range requests)."],
+  ["classification", "Type, series, speakers, episode number, date (with precision and how it was worked out), serial chapter, part of a set, study text."],
+  ["audience", "Youngest suitable age, level, and parents' notes (advisories) with times."],
+  ["subjects", "People (with role), characters, topics, midos, mitzvos, calendar, parshiyos, places and sources cited."],
+  ["segments", "Chapter marks. Segments where children's names were read on air keep only a generic title."],
+  ["relations", "Clips, rebroadcasts, other versions, other parts, other tellings."],
+  ["transcript", "Whether a readable transcript exists, and how many lines were withheld for privacy."],
+];
+---
+
+<Base title="Data download" description="Download the public metadata of the archive as JSON and CSV, with schemas.">
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Data download</h1>
+      <p class="lede">The public metadata of the archive as plain files, for other family projects, researchers and developers.</p>
+      <p class="small muted">Built {new Date(m.generated_at).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })} · {n} records · {Math.round(m.hours)} hours of audio.</p>
+    </header>
+    <div class="notice" style="max-width:860px;margin-bottom:24px">
+      <Icon name="info" />
+      <p>
+        <strong>Terms of use.</strong> The family has not yet chosen a licence. Until it does, you are welcome to use these files for
+        personal study, teaching and research; please ask at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> before republishing
+        them. Summaries and tags were written with AI and may contain errors. Transcripts are not offered as a bulk download.
+      </p>
+    </div>
+    <section class="section">
+      <h2>Files</h2>
+      <div class="table-wrap">
+        <table class="data">
+          <tbody>
+            {
+              files.map(([href, name, what]) => (
+                <tr>
+                  <td class="nowrap">
+                    <a href={href} download><Icon name="download" size={16} /> {name}</a>
+                  </td>
+                  <td>{what}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Field guide</h2>
+      <dl class="guide">
+        {
+          guide.map(([k, v]) => (
+            <>
+              <dt>
+                <code>{k}</code>
+              </dt>
+              <dd>{v}</dd>
+            </>
+          ))
+        }
+      </dl>
+      <p>CSV columns: <code>{CSV_COLUMNS.join(", ")}</code>. Lists inside a cell are separated by semicolons.</p>
+      <p class="small muted">Not published, by the family's decision: names, addresses and other personal details read on air, internal review notes, and the producer's original tape catalog (it lists the children who visited the studio).</p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .guide {
+    display: grid;
+    grid-template-columns: minmax(200px, 320px) 1fr;
+    gap: 8px 20px;
+  }
+  .guide dt {
+    font-weight: 500;
+  }
+  .guide dd {
+    margin: 0;
+  }
+  @media (max-width: 699px) {
+    .guide {
+      grid-template-columns: 1fr;
+    }
+    .guide dd {
+      margin-bottom: 8px;
+    }
+  }
+</style>

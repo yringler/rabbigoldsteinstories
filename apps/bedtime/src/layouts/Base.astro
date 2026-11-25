@@ -1,0 +1,241 @@
+---
+// The bedtime site's only layout: dark sky, wordmark + one "Earlier" link, and the player (mini
+// bar, sheet, night screen) kept alive across page loads by <ClientRouter /> + transition:persist.
+import "@fontsource-variable/fraunces/soft.css";
+import "@fontsource-variable/nunito-sans/wght.css";
+import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
+import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+import { GLYPHS } from "../lib/glyphs.ts";
+import { moonSvg } from "../lib/ui.ts";
+import { TIMER_CHOICES } from "../lib/session.ts";
+
+interface Props {
+  title?: string;
+  description?: string;
+  page: "home" | "earlier" | "about" | "notfound";
+}
+const site = SITES.bedtime;
+const { title, page, description } = Astro.props;
+const desc =
+  description ??
+  "One tap at bedtime: up to two hours of gentle Jewish stories from Uncle Yossi and Rabbi Chaim Levi Goldstein, playing by themselves and ending quietly.";
+
+// 16 fixed stars (deterministic, so builds are reproducible).
+let seed = 7;
+const rand = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+const stars = Array.from({ length: 16 }, () => ({
+  x: (rand() * 100).toFixed(1),
+  y: (rand() * 62).toFixed(1),
+  s: (1 + rand() * 1.6).toFixed(1),
+  d: (6 + rand() * 3).toFixed(1),
+  delay: (-rand() * 9).toFixed(1),
+}));
+const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true">${moonSvg()}</svg>`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title ? `${title} · ${site.name}` : site.name}</title>
+    <meta name="description" content={desc} />
+    <meta name="theme-color" content="#0B1026" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content={site.name} />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/app-180.png" />
+    <ClientRouter fallback="swap" />
+  </head>
+  <body data-page={page}>
+    <a class="skip" href="#main">
+      Skip to content
+    </a>
+    <div class="sky" aria-hidden="true" transition:persist="sky">
+      {stars.map((s) => (
+        <span
+          class="star"
+          style={`left:${s.x}%;top:${s.y}%;width:${s.s}px;height:${s.s}px;--d:${s.d}s;--delay:${s.delay}s`}
+        />
+      ))}
+    </div>
+    <div class="page">
+      <header class="top">
+        <a class="wordmark" href="/" aria-label={`${site.name}, tonight`}>
+          <Fragment set:html={moon} />
+          <span>{site.name}</span>
+        </a>
+        <a class="top-link" href="/earlier/" aria-current={page === "earlier" ? "page" : undefined}>
+          Earlier
+        </a>
+      </header>
+      <main id="main" tabindex="-1">
+        <slot />
+      </main>
+    </div>
+    <footer class="site-foot">
+      <a href="/about/">For parents</a> · Questions or a lost tape?{" "}
+      <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+    </footer>
+
+    <div id="player-root" transition:persist="player">
+      <audio id="audio" preload="auto"></audio>
+
+      <div class="mini" data-mini hidden>
+        <button type="button" class="mini-open" data-open aria-label="Open the player">
+          <span data-mini-icon></span>
+          <span class="mini-text">
+            <span class="mini-title" data-mini-title></span>
+            <span class="mini-sub" data-mini-sub></span>
+          </span>
+        </button>
+        <button type="button" class="round gold" data-toggle aria-label="Play">
+          <Fragment set:html={GLYPHS.play(24)} />
+        </button>
+        <span class="mini-bar" aria-hidden="true">
+          <span data-mini-bar></span>
+        </span>
+      </div>
+
+      <div class="scrim" data-scrim hidden></div>
+      <section
+        class="sheet"
+        data-sheet
+        hidden
+        role="dialog"
+        aria-modal="false"
+        aria-labelledby="sheet-playlist"
+      >
+        <div class="sheet-head">
+          <button type="button" class="icon-btn" data-close aria-label="Close the player">
+            <Fragment set:html={GLYPHS.down(28)} />
+          </button>
+          <p id="sheet-playlist" data-sheet-playlist></p>
+          <span></span>
+        </div>
+
+        <div class="preview-only preview-head">
+          <div class="art" data-preview-art></div>
+          <h2 data-preview-title></h2>
+          <p data-preview-meta></p>
+          <button type="button" class="preview-play" data-preview-play>
+            <Fragment set:html={GLYPHS.play(22)} />
+            <span data-preview-play-label>Play</span>
+          </button>
+        </div>
+
+        <div class="now">
+          <div class="art" data-art></div>
+          <h2 class="track-title" data-track-title></h2>
+          <p class="track-sub" data-track-sub></p>
+          <input
+            type="range"
+            class="progress"
+            data-progress
+            min="0"
+            max="100"
+            step="1"
+            value="0"
+            aria-label="Position in the story"
+          />
+          <div class="times" aria-hidden="true">
+            <span data-elapsed>0:00</span>
+            <span data-total>0:00</span>
+          </div>
+          <div class="controls">
+            <button type="button" class="ctl" data-prev aria-label="Previous story">
+              <Fragment set:html={GLYPHS.prev(26)} />
+            </button>
+            <button type="button" class="ctl" data-back aria-label="Back 15 seconds">
+              <Fragment set:html={GLYPHS.back(30)} />
+              <small aria-hidden="true">15</small>
+            </button>
+            <button type="button" class="ctl main" data-toggle aria-label="Play">
+              <Fragment set:html={GLYPHS.play(34)} />
+            </button>
+            <button type="button" class="ctl" data-fwd aria-label="Forward 30 seconds">
+              <Fragment set:html={GLYPHS.fwd(30)} />
+              <small aria-hidden="true">30</small>
+            </button>
+            <button type="button" class="ctl" data-next aria-label="Next story">
+              <Fragment set:html={GLYPHS.next(26)} />
+            </button>
+          </div>
+          <p class="status" data-status role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="settings">
+          <fieldset class="timer-chips" data-timer>
+            <legend class="setting-label">Sleep timer</legend>
+            {TIMER_CHOICES.map((t) => (
+              <label>
+                <input type="radio" name="sleep-timer" value={String(t)} />
+                <span>{t === "end" ? "End" : t}</span>
+                <span class="visually-hidden">
+                  {t === "end" ? "until the end of the playlist" : "minutes"}
+                </span>
+              </label>
+            ))}
+          </fieldset>
+          <label class="switch">
+            <input type="checkbox" data-wake />
+            Keep screen on
+          </label>
+        </div>
+
+        <details class="tracks" data-tracks>
+          <summary>
+            <span data-tracks-label>Tonight's stories</span>
+            <Fragment set:html={GLYPHS.down(24)} />
+          </summary>
+          <ol class="track-list" data-track-list></ol>
+        </details>
+      </section>
+
+      <button
+        type="button"
+        class="night"
+        data-night
+        hidden
+        aria-label="Playing. Tap to show controls."
+      >
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle
+            cx="60"
+            cy="60"
+            r="54"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            opacity="0.25"
+          ></circle>
+          <circle
+            class="arc"
+            data-arc
+            cx="60"
+            cy="60"
+            r="54"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            transform="rotate(-90 60 60)"
+            stroke-dasharray="339.3"
+            stroke-dashoffset="339.3"
+          ></circle>
+          <g transform="translate(30 28) scale(1.3)">
+            <Fragment set:html={moonSvg("currentColor", 0.35)} />
+          </g>
+        </svg>
+      </button>
+    </div>
+
+    <script>
+      import "../scripts/app.ts";
+    </script>
+  </body>
+</html>

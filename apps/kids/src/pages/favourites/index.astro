@@ -1,0 +1,101 @@
+---
+// /favourites "My Shelf" (§4.8): drawn on the client from localStorage.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { ui } from "../../lib/ui-icons.ts";
+---
+
+<Base
+  title="My Shelf"
+  tab="shelf"
+  description="Your hearts, stories in progress and stories you finished."
+>
+  <div data-init="shelf">
+    <PageHead
+      title="My Shelf"
+      sub="Your stories live here, on this device."
+      icon="two-hearts"
+      color="#F0624D"
+    />
+    <section class="section" data-hearts hidden aria-labelledby="hearts-h">
+      <h2 id="hearts-h">Hearts</h2>
+      <div class="grid" data-shelf-grid></div>
+    </section>
+    <section class="section" data-keep hidden aria-labelledby="keep2-h">
+      <h2 id="keep2-h">Keep Listening</h2>
+      <div class="grid" data-shelf-grid></div>
+    </section>
+    <section class="section" data-finished hidden aria-labelledby="fin-h">
+      <h2 id="fin-h">Finished</h2>
+      <div class="grid" data-shelf-grid></div>
+    </section>
+
+    <div class="empty shelf-empty" data-shelf-empty>
+      <svg viewBox="0 0 200 120" width="220" height="132" aria-hidden="true">
+        <g
+          fill="none"
+          stroke="#22304A"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M20 96h160M30 96v14M170 96v14" />
+          <rect x="44" y="52" width="16" height="44" rx="3" fill="#FFC83D" />
+          <rect x="62" y="40" width="16" height="56" rx="3" fill="#F0624D" />
+          <path d="M84 60l14-4 11 40-14 4Z" fill="#2E9E6B" />
+          <path
+            d="M140 74c-12-8-15-17-9-21 4-2.5 8-.8 9 2.3 1-3.1 5-4.8 9-2.3 6 4 3 13-9 21Z"
+            fill="#FFFFFF"
+            stroke-dasharray="5 5"
+          />
+        </g>
+      </svg>
+      <p>
+        <b>Your shelf is empty.</b>
+      </p>
+      <p>Tap the heart on a story to keep it here.</p>
+      <p style="margin-top:14px">
+        <a class="btn primary" href="/stories/">
+          Find a story
+        </a>
+      </p>
+    </div>
+
+    <div class="clear-wrap" data-clear-wrap hidden>
+      <button type="button" class="btn" data-clear>
+        <Fragment set:html={ui("trash", "", 24)} />
+        Clear my shelf
+      </button>
+    </div>
+    <dialog class="sheet" data-clear-dialog aria-labelledby="clear-h">
+      <form method="dialog" class="sheet-body">
+        <h2 id="clear-h">Clear your shelf?</h2>
+        <p style="margin:10px 0 18px">
+          This takes away your hearts and where you were in each story.
+        </p>
+        <div class="dialog-btns">
+          <button class="btn" value="no">
+            Keep it
+          </button>
+          <button class="btn primary" value="yes">
+            Yes, clear it
+          </button>
+        </div>
+      </form>
+    </dialog>
+  </div>
+</Base>
+
+<style>
+  .clear-wrap {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .dialog-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+</style>

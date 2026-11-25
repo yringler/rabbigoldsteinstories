@@ -1,0 +1,73 @@
+---
+/** One recording as a list row: title, meta line, summary, Play / Queue / + Playlist. */
+import { humanLength } from "../lib/time.ts";
+import { artistOf, entryOf, trackOf, type Range } from "../lib/tracks.ts";
+import type { LibRow } from "../lib/types.ts";
+import { itemPath, label, speakerLabel, unconfirmed } from "../lib/site-data.ts";
+import Icon from "./Icon.astro";
+
+interface Props {
+  row: LibRow;
+  range?: Range;
+  /** Extra line under the title (e.g. a citation reference or a role). */
+  note?: string;
+  showSummary?: boolean;
+  headingLevel?: "h2" | "h3";
+}
+const { row, range = {}, note, showSummary = true, headingLevel = "h3" } = Astro.props;
+const H = headingLevel;
+const artist = artistOf(
+  row.speakers,
+  (id) => label("speakers", id),
+  (id) => unconfirmed("speakers", id),
+);
+const track = JSON.stringify(trackOf(row, range, artist));
+const entry = JSON.stringify(entryOf(row, range));
+const href =
+  itemPath(row.id) +
+  (range.start !== undefined && range.start > row.start ? `?t=${Math.floor(range.start)}` : "");
+const len =
+  range.start !== undefined && range.end !== undefined ? range.end - range.start : row.dur;
+const speakers = row.speakers.filter((s) => s !== "guest_children").map(speakerLabel);
+---
+
+<li class="rec">
+  <div>
+    <H class="rec-title">
+      <a href={href}>{range.label ?? row.title}</a>
+    </H>
+    <div class="rec-meta">
+      {range.label && <span>from {row.title}</span>}
+      <span>{label("content_type", row.type)}</span>
+      {speakers.length > 0 && <span>{speakers.join(", ")}</span>}
+      {row.dateLabel && <span class="hdate">{row.dateLabel}</span>}
+      {row.dateGreg && <span>{row.dateGreg}</span>}
+      <span class="num">{humanLength(len)}</span>
+      <span>ages {row.age}+</span>
+      {row.lang !== "en" && <span>{row.lang === "yi" ? "Yiddish" : "Hebrew"}</span>}
+    </div>
+    {note && (
+      <p class="small muted" style="margin:2px 0 0">
+        {note}
+      </p>
+    )}
+    {showSummary && <p class="rec-sum">{row.summary}</p>}
+  </div>
+  <div class="rec-actions">
+    <button type="button" class="btn btn-primary" data-action="play" data-track={track}>
+      <Icon name="play" size={14} /> Play
+    </button>
+    <button type="button" class="btn" data-action="queue" data-track={track}>
+      <Icon name="queue" size={16} /> Queue
+    </button>
+    <button
+      type="button"
+      class="btn"
+      data-action="add"
+      data-entry={entry}
+      data-what={range.label ?? row.title}
+    >
+      <Icon name="plus" size={16} /> Playlist
+    </button>
+  </div>
+</li>

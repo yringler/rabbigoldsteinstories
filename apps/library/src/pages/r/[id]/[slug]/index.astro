@@ -1,0 +1,39 @@
+---
+/**
+ * /r/<id>/<slug>/: readable URLs (library.md §3). The id is the key; the slug is ignored for
+ * routing, so this is a static redirect to /r/<id>/ (other slugs are caught by the 404 page).
+ */
+import type { GetStaticPaths } from "astro";
+import { catalog } from "../../../../lib/site-data.ts";
+
+export const getStaticPaths = (() =>
+  catalog()
+    .map((c) => ({ id: c.id, slug: c.slug.replace(new RegExp(`-?${c.id}$`), "") }))
+    .filter((x) => x.slug.length > 0)
+    .map((x) => ({ params: { id: x.id, slug: x.slug } }))) satisfies GetStaticPaths;
+
+const target = `/r/${String(Astro.params.id)}/`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+    <script is:inline>
+      location.replace(
+        location.pathname.replace(/^(\/r\/[0-9a-f]{10}\/).*$/, "$1") +
+          location.search +
+          location.hash,
+      );
+    </script>
+  </head>
+  <body>
+    <p>
+      <a href={target}>Continue to the recording</a>
+    </p>
+  </body>
+</html>

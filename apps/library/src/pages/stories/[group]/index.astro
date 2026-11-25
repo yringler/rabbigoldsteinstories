@@ -1,0 +1,223 @@
+---
+/**
+ * Story group (library.md §7.3): one card per telling; "Compare transcripts" shows two English
+ * tellings' transcripts side by side (each scrolls on its own, with its own play position). No
+ * diffing. Yiddish tellings show the summary only.
+ */
+import type { GetStaticPaths } from "astro";
+import Icon from "../../../components/Icon.astro";
+import Base from "../../../layouts/Base.astro";
+import { artist, label, rowById, speakerLabel, storyGroups } from "../../../lib/site-data.ts";
+import { formatDuration, humanLength } from "../../../lib/time.ts";
+import { entryOf, trackOf } from "../../../lib/tracks.ts";
+
+export const getStaticPaths = (() =>
+  storyGroups().groups.map((g) => ({ params: { group: g.group_id } }))) satisfies GetStaticPaths;
+
+const gid = String(Astro.params.group);
+const g = storyGroups().groups.find((x) => x.group_id === gid);
+if (!g) throw new Error(`group ${gid}`);
+const rows = rowById();
+const lang = (l: string) => ({ en: "English", yi: "Yiddish", he: "Hebrew" })[l] ?? l;
+const tellings = g.tellings.map((t, i) => {
+  const main = t.items.find((x) => rows.has(x.id));
+  const r = main ? rows.get(main.id) : undefined;
+  const start = main?.segment?.[0] ?? r?.start ?? 0;
+  const end = main?.segment?.[1] ?? r?.end ?? 0;
+  return { i, t, main, r, start, end, others: t.items.filter((x) => x !== main && rows.has(x.id)) };
+});
+const comparable = tellings.filter(
+  (t) => t.r && t.r.lang === "en" && t.r.has.includes("transcript"),
+);
+---
+
+<Base
+  title={g.title}
+  description={`"${g.title}": ${g.tellings.length} tellings in the archive, side by side.`}
+>
+  <div class="wrap page" data-compare data-group={gid}>
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/stories/">Same story, other tellings</a>
+      </nav>
+      <h1>{g.title}</h1>
+      <p>
+        {g.tellings.length} tellings · {g.item_ids.length} recordings ·{" "}
+        {g.languages.map(lang).join(" and ")} · told by {g.tellers.join(", ")}
+      </p>
+    </header>
+    <div class="tellings">
+      {tellings.map(({ i, main, r, start, end, others }) =>
+        r && main ? (
+          <article class="card telling">
+            <p class="small muted">Telling {i + 1}</p>
+            <h2 class="h3">
+              <a href={`/r/${r.id}/${start > r.start ? `?t=${Math.floor(start)}` : ""}`}>
+                {main.segment_title ?? r.title}
+              </a>
+            </h2>
+            {main.segment_title && <p class="small">in {r.title}</p>}
+            <p class="small meta">
+              {r.speakers
+                .filter((s) => s !== "guest_children")
+                .map(speakerLabel)
+                .join(", ")}{" "}
+              · {r.dateLabel ?? "date unknown"} · {lang(r.lang)} · {humanLength(end - start)}
+              {r.series && <> · {label("series", r.series)}</>}
+            </p>
+            <p class="summary">{r.summary}</p>
+            {others.length > 0 && (
+              <p class="small muted">
+                Also in:{" "}
+                {others.map((o, k) => (
+                  <>
+                    {k > 0 && ", "}
+                    <a href={`/r/${o.id}/`}>{o.title}</a>
+                  </>
+                ))}
+              </p>
+            )}
+            <div class="btn-row">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-action="play"
+                data-track={JSON.stringify(trackOf(r, { start, end }, artist(r.speakers)))}
+              >
+                <Icon name="play" size={14} /> Play
+                {start > r.start ? ` from ${formatDuration(start)}` : ""}
+              </button>
+              <button
+                type="button"
+                class="icon-btn"
+                data-action="add"
+                data-entry={JSON.stringify(
+                  entryOf(
+                    r,
+                    start > r.start || end < r.end
+                      ? { start, end, label: main.segment_title ?? g.title }
+                      : {},
+                  ),
+                )}
+                data-what={main.segment_title ?? r.title}
+                aria-label={`Add telling ${i + 1} to a playlist`}
+              >
+                <Icon name="plus" />
+              </button>
+            </div>
+          </article>
+        ) : null,
+      )}
+    </div>
+
+    {comparable.length >= 2 && (
+      <section class="section compare" aria-labelledby="cmp-h">
+        <h2 id="cmp-h">Compare transcripts</h2>
+        <p class="muted small">
+          Two English tellings side by side. Each column scrolls on its own; click a line to play
+          from there. Automatic transcripts, may contain errors.
+        </p>
+        <div class="cmp-pick">
+          {[0, 1].map((col) => (
+            <label>
+              <span class="visually-hidden">Column {col + 1}</span>
+              <select data-cmp-select={col}>
+                {comparable.map((t, k) => (
+                  <option value={`${t.r?.id}|${t.start}|${t.end}`} selected={k === col}>
+                    Telling {t.i + 1}: {t.main?.segment_title ?? t.r?.title}
+                  </option>
+                ))}
+              </select>
+            </label>
+          ))}
+          <button type="button" class="btn" data-cmp-go>
+            <Icon name="book" /> Show transcripts
+          </button>
+        </div>
+        <div class="cmp-cols" data-cmp-cols hidden>
+          <div class="cmp-col" data-cmp-col="0" tabindex="0" aria-label="First transcript"></div>
+          <div class="cmp-col" data-cmp-col="1" tabindex="0" aria-label="Second transcript"></div>
+        </div>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style is:global>
+  .tellings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .telling .h3 {
+    font: 600 18px/24px var(--serif);
+    margin: 0;
+  }
+  .telling .summary {
+    color: var(--ink);
+  }
+  .cmp-pick {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .cmp-pick label {
+    flex: 1 1 260px;
+    min-width: 0;
+  }
+  .cmp-pick select {
+    width: 100%;
+    max-width: 380px;
+    min-width: 0;
+  }
+  .cmp-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 799px) {
+    .cmp-cols {
+      grid-template-columns: 1fr;
+    }
+  }
+  .cmp-col {
+    max-height: 70vh;
+    overflow: auto;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--surface);
+    padding: 12px 14px;
+  }
+  .cmp-col h3 {
+    font: 600 15px/20px var(--serif);
+    position: sticky;
+    top: -12px;
+    background: var(--surface);
+    padding: 6px 0;
+    margin: 0 0 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .cmp-line {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 8px;
+    font: 15px/23px var(--serif);
+    padding: 2px 0;
+    cursor: pointer;
+  }
+  .cmp-line:hover {
+    background: var(--accent-soft);
+  }
+  .cmp-line .ts {
+    font: 600 11px/23px var(--sans);
+    color: var(--muted);
+    text-align: right;
+  }
+  .cmp-gap {
+    font: italic 13px/20px var(--sans);
+    color: var(--muted);
+    margin: 6px 0 6px 52px;
+  }
+</style>
