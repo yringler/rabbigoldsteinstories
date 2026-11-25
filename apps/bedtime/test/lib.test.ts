@@ -59,14 +59,23 @@ const session = (over: Partial<Session> = {}): Session => ({
 });
 
 describe("playlist types", () => {
-  it("are the five core types in the fixed order with the spec colours", () => {
-    expect(TYPES.map((t) => t.type)).toEqual(["little", "big", "calm", "adventure", "mix"]);
+  it("are the six types in the recipes' order (Tonight's Mix first) with the spec colours", () => {
+    expect(TYPES.map((t) => t.type)).toEqual([
+      "mix",
+      "little",
+      "big",
+      "calm",
+      "adventure",
+      "radio",
+    ]);
+    expect(TYPES.map((t) => t.type)).toEqual(RECIPES.map((r) => r.type));
     expect(TYPES.map((t) => t.color)).toEqual([
+      "#C8B5F3",
       "#F5B7A6",
       "#93BBF5",
       "#A5D0BE",
       "#F2A45C",
-      "#C8B5F3",
+      "#E9A3C9",
     ]);
   });
 

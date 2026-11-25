@@ -58,6 +58,10 @@ export interface Recipe {
   cooldownDays: number;
   /** No repeat in the head (first 40 min) of the same type within this many days. */
   headCooldownDays: number;
+  /** A block (set, serial) may not end within this many minutes of the end (default 25). */
+  blockTailMin?: number;
+  /** A block may open the playlist (default false: never first). Radio Night's serial airings. */
+  blockMayOpen?: boolean;
   /** Longest opener in minutes (default 15). */
   openerMaxMin?: number;
   /** Hard filter on the pool. */

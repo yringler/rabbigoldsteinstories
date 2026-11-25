@@ -8,7 +8,13 @@ import { beforeAll, describe, expect, it } from "vitest";
 import { editionById, editionsAround } from "../src/clock.ts";
 import type { Edition, Playlist } from "../src/contract.ts";
 import { generateEdition } from "../src/engine.ts";
-import { calmEligible, RECIPES, windsDown } from "../src/recipes.ts";
+import {
+  calmEligible,
+  RECIPES,
+  segmentGroup,
+  SHEMA_GUESTS_IN_LITTLE_ONES,
+  windsDown,
+} from "../src/recipes.ts";
 import { LOOKBACK_DAYS } from "../src/runway.ts";
 import { seasonFor, seasonalStatus } from "../src/seasons.ts";
 
@@ -55,13 +61,21 @@ function simulate(fromIso: string, nights: number) {
 let sim: ReturnType<typeof simulate>;
 beforeAll(() => {
   sim = simulate("2026-11-25T20:00:00Z", 75);
-});
+}, 180_000);
 
 describe("pools (criterion 5)", () => {
   it("every core type has at least 25 hours and is near the measured size", () => {
-    const expected: Record<string, number> = { little: 214, big: 281, calm: 213, adventure: 156 };
+    const expected: Record<string, number> = {
+      little: 224,
+      big: 300,
+      calm: 219,
+      adventure: 160,
+      mix: 514,
+      radio: 258,
+    };
     for (const r of RECIPES) {
-      const units = pool.units.filter((u) => r.eligible(u));
+      // stories and episodes; radio segments (talks, songs, extras) are counted separately
+      const units = pool.units.filter((u) => r.eligible(u) && u.kind !== "segment");
       const h = units.reduce((s, u) => s + u.duration_sec, 0) / 3600;
       expect(h, r.type).toBeGreaterThanOrEqual(25);
       const want = expected[r.type];
@@ -119,15 +133,28 @@ describe("generator on the real pool", () => {
           expect(r.eligible(u) || (r.windDown?.eligible(u) ?? false), `${where} ${u.unit}`).toBe(
             true,
           );
-        // at most one block, never first, never in the last 25 minutes
+        // at most one block; in the story playlists never first and never in the last 25 minutes
         const blocks = units.filter((u) => u.block);
         expect(blocks.length, where).toBeLessThanOrEqual(1);
+        if (p.type === "radio") {
+          // Radio Night: whole episodes only; a serial airing complete, in order, opening the night
+          for (const u of units) expect(["episode", "episodes"], where).toContain(u.kind);
+          if (blocks[0]) expect(p.items[0]!.unit, where).toBe(blocks[0].unit);
+          for (const u of units)
+            for (const tr of u.tracks) {
+              const it = p.items.find((x) => x.unit === u.unit && x.id === tr.id)!;
+              expect([it.start_sec, it.end_sec], where).toEqual([tr.start_sec, tr.end_sec]);
+            }
+          continue;
+        }
         expect(p.items[0]!.block, where).toBeNull();
         let t = 0;
         for (const it of p.items) {
           if (it.block) expect(t + it.duration_sec, where).toBeLessThanOrEqual(total - 25 * 60 + 1);
           t += it.duration_sec;
         }
+        // no whole episodes in the story playlists
+        for (const u of units) expect(["episode", "episodes"], where).not.toContain(u.kind);
         // wind-down: at least 20 minutes of energy ≤ 0 at the end; adventure's last 25 from the calm pool
         let wind = 0;
         for (let i = units.length - 1; i >= 0 && windsDown(units[i]!); i--)
@@ -230,11 +257,13 @@ describe("generator on the real pool", () => {
     const total = units.reduce((s, u) => s + u.duration_sec, 0);
     const seasonal = inSeason.reduce((s, u) => s + u.duration_sec, 0);
     expect(seasonal, `${e.date}/${p.type}`).toBeLessThanOrEqual(0.4 * total);
-    for (const u of headUnits(p))
-      expect(
-        seasonalStatus(byUnit.get(u)!.calendar, season),
-        `${e.date}/${p.type} head ${u}`,
-      ).not.toBe("out");
+    // Radio Night may open with an out-of-season episode (most carry a tag from a talk inside).
+    if (p.type !== "radio")
+      for (const u of headUnits(p))
+        expect(
+          seasonalStatus(byUnit.get(u)!.calendar, season),
+          `${e.date}/${p.type} head ${u}`,
+        ).not.toBe("out");
   }
 
   it("keeps the opening song only on the first track", () => {
@@ -258,6 +287,47 @@ describe("generator on the real pool", () => {
     const relaxedShare = long.relax.size / (730 * RECIPES.length);
     expect(relaxedShare).toBeLessThan(0.1);
   }, 120_000);
+
+  it("plays radio segments by the owner's rules (talks, songs; extras and Shema guests occasionally)", () => {
+    const caps: Record<string, Partial<Record<string, number>>> = {
+      mix: { talk: 2, song: 2, extra: 1 },
+      little: { talk: 1, song: 2, extra: 1, shema: 1 },
+      big: { talk: 2, song: 1, extra: 1 },
+      calm: { talk: 2 },
+      adventure: {},
+      radio: {},
+    };
+    let playlists = 0;
+    let withExtra = 0;
+    for (const e of sim.history) {
+      for (const p of e.playlists) {
+        playlists++;
+        const units = unitsOf(p);
+        // never the opener, never in the calm tail
+        expect(segmentGroup(units[0]!), `${e.date}/${p.type} opener`).toBeNull();
+        const r = recipe(p.type);
+        if (r.windDown) {
+          let t = 0;
+          for (let i = units.length - 1; i >= 0 && t < r.windDown.minSec; i--) {
+            expect(segmentGroup(units[i]!), `${e.date}/${p.type} tail`).toBeNull();
+            t += units[i]!.duration_sec;
+          }
+        }
+        const count: Record<string, number> = {};
+        for (const u of units) {
+          const g = segmentGroup(u);
+          if (g) count[g] = (count[g] ?? 0) + 1;
+        }
+        for (const [g, n] of Object.entries(count))
+          expect(n, `${e.date}/${p.type} ${g}`).toBeLessThanOrEqual(caps[p.type]![g] ?? 0);
+        if (count["extra"]) withExtra++;
+        if (count["shema"]) expect(p.type).toBe("little");
+      }
+    }
+    expect(SHEMA_GUESTS_IN_LITTLE_ONES).toBe(true);
+    // "occasionally, not often"
+    expect(withExtra / playlists).toBeLessThan(0.25);
+  });
 
   it("reads enough history for every cooldown", () => {
     for (const r of RECIPES) {

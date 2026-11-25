@@ -91,8 +91,8 @@ const shot = async (page, name) => {
     els.filter((e) => !e.closest("li").hidden).map((e) => e.dataset.card),
   );
   check(
-    cards.join(",") === "little,big,calm,adventure,mix",
-    `five cards in order (${cards.join(",")})`,
+    cards.join(",") === "mix,little,big,calm,adventure,radio",
+    `six cards in order, Tonight's Mix first (${cards.join(",")})`,
   );
   const meta = await page.textContent('[data-card="little"] [data-meta]');
   check(/^about .* · ages 3–6$/.test(meta ?? ""), `card meta "${meta}"`);

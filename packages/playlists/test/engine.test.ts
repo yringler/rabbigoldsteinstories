@@ -66,6 +66,20 @@ describe("generateEdition", () => {
     }
   });
 
+  it("leaves out a type that has nothing eligible at all, and logs it", () => {
+    const logs: string[] = [];
+    const none: Recipe = { ...recipes[0]!, type: "none", eligible: () => false };
+    const e = generateEdition({
+      pool,
+      recipes: [...recipes, none],
+      window: w,
+      history: [],
+      log: (m) => logs.push(m),
+    });
+    expect(e.playlists.map((p) => p.type)).toEqual(recipes.map((r) => r.type));
+    expect(logs).toEqual([`${w.id}/none: no eligible units, playlist left out`]);
+  });
+
   it("counts cooldowns in days by edition date, not by how many editions are stored", () => {
     const old = generateEdition({ pool, recipes, window: editionById("2026-11-15")!, history: [] });
     const used = new Set(old.playlists.find((p) => p.type === "b")!.items.map((i) => i.unit));
@@ -109,14 +123,16 @@ describe("generateEdition", () => {
     expect(again.playlists.flatMap((p) => p.items.map((i) => i.unit))).not.toContain(victim);
   });
 
-  it("the placeholder recipes fill from a realistic pool", () => {
+  it("the story recipes fill from a realistic pool", () => {
+    // the fake pool has no whole radio episodes, so Radio Night is left out here
+    const story = RECIPES.filter((r) => r.type !== "radio");
     const e = generateEdition({
       pool: fakePool(600, 10),
-      recipes: RECIPES,
+      recipes: story,
       window: w,
       history: [],
     });
-    expect(e.playlists.map((p) => p.type)).toEqual(RECIPES.map((r) => r.type));
+    expect(e.playlists.map((p) => p.type)).toEqual(story.map((r) => r.type));
   });
 });
 

@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { MOON_PATH, TYPES } from "../src/lib/ui.ts";
+import { moonSvg, TYPES } from "../src/lib/ui.ts";
 
 const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
@@ -50,7 +50,7 @@ function app(pad = 0) {
     <rect width="100" height="100" fill="url(#g)"/>${stars(22, 11)}
     <g transform="translate(${50 - 50 * s} ${50 - 50 * s}) scale(${s})">
       <circle cx="50" cy="50" r="38" fill="url(#m)"/>
-      <g transform="translate(19 19) scale(1.3)"><path d="${MOON_PATH}" fill="${GOLD}"/></g>
+      <g transform="translate(19 19) scale(1.3)">${moonSvg(GOLD, 0.25)}</g>
     </g>
   </svg>`;
 }
