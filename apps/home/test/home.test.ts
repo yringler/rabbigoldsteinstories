@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
 import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldstein/data/load";
 import type { Edition, Playlist } from "@goldstein/playlists";
 import { lostEpisodesUrl, siteCards } from "../src/lib/sites.ts";
@@ -66,6 +66,12 @@ describe("site links come from the shared site table", () => {
   it("the home site is in the table and hosts have no dashes", () => {
     expect(SITES.home.host).toBe("goldsteinstories.torahlearningtools.com");
     for (const s of Object.values(SITES)) expect(s.host.split(".")[0]).not.toContain("-");
+  });
+
+  it("the footer carries the project credit from the shared config", () => {
+    const layout = src("layouts/Base.astro");
+    expect(layout).toContain("{PROJECT_CREDIT}");
+    expect(layout).not.toContain(PROJECT_CREDIT);
   });
 
   it("pages don't hardcode site hosts or the contact address", () => {

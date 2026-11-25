@@ -264,7 +264,7 @@ From a clean `npm ci`: install 7 s, typecheck 18 s, tests 34 s, build 28 s. `nod
 3. Add the site to `SITES` (the site-table test then checks its `wrangler.jsonc`), the root `workspaces`, the deploy workflow (plan outputs and loops, the gate's dir list, a deploy step) and the gate list in `ci.yml`.
 
 **The landing page** (`apps/home`, `@goldstein/home`, Worker `goldstein-home`, `goldsteinstories.torahlearningtools.com`): one static page that introduces the archive and links to the three sites.
-- Numbers (recordings, hours, radio episodes, lost episodes, earliest year) are computed at build time from `@goldstein/data/load` (`src/lib/stats.ts`); site names and links come from `SITES` (`src/lib/sites.ts`); the contact address is `CONTACT_EMAIL`.
+- Numbers (recordings, hours, radio episodes, lost episodes, earliest year) are computed at build time from `@goldstein/data/load` (`src/lib/stats.ts`); site names and links come from `SITES` (`src/lib/sites.ts`); the contact address is `CONTACT_EMAIL` and the footer carries `PROJECT_CREDIT`.
 - People and series named in its prose are checked against the public vocabulary at build time: an unconfirmed entry fails the build (`assertConfirmed`).
 - Its only script is the "Tonight's playlists" strip (`src/lib/tonight.ts`): it reads `/playlists/` on its own host, puts Tonight's Mix first and links each playlist to the bedtime deep link `/p/<edition>/<type>/`. It ships `hidden` and stays hidden if the API is unavailable.
 - Light and dark follow `prefers-color-scheme`; no theme toggle (that would need script). Artwork is shapes only (tape-box spines, a full moon, book spines, an index card), per the artwork rules in DECISIONS.
