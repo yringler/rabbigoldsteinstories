@@ -14,7 +14,7 @@ import { minutes } from "../../lib/kinds.ts";
 import { ui } from "../../lib/ui-icons.ts";
 import { loadIndex } from "../data.ts";
 
-const moonArt = `<svg class="pl-art" viewBox="0 0 120 80" aria-hidden="true"><path d="M84 10a26 26 0 1 0 22 38A21 21 0 1 1 84 10Z" fill="#FFC83D"/><g fill="#FFF8EC"><circle cx="20" cy="18" r="1.6"/><circle cx="44" cy="10" r="1.2"/><circle cx="36" cy="40" r="1.4"/><circle cx="12" cy="56" r="1.1"/><circle cx="60" cy="28" r="1"/><path d="M58 56l1.4 3 3 1.4-3 1.4-1.4 3-1.4-3-3-1.4 3-1.4Z"/><path d="M24 30l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1Z"/></g></svg>`;
+const moonArt = `<svg class="pl-art" viewBox="0 0 120 80" aria-hidden="true"><path d="M84 10a26 26 0 1 0 22 38A21 21 0 1 1 84 10Z" fill="#FFC83D"/><g fill="#FFF8EC"><circle cx="20" cy="18" r="1.6"/><circle cx="44" cy="10" r="1.2"/><circle cx="36" cy="40" r="1.4"/><circle cx="12" cy="56" r="1.1"/><circle cx="60" cy="28" r="1"/><path d="M58 54l1.2 3.4 3.6.1-2.9 2.2 1 3.4-2.9-2-2.9 2 1-3.4-2.9-2.2 3.6-.1Z"/><circle cx="26" cy="32" r="1.5"/></g></svg>`;
 
 export function playlistTracks(p: Playlist): Track[] {
   return p.items.map((i) => {

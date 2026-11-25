@@ -212,14 +212,23 @@ p {
   box-shadow: var(--shadow);
 }
 .band-chip .dot {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: 36px;
+  height: 36px;
   display: grid;
+}
+.band-chip .dot-ic {
+  grid-area: 1 / 1;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: none;
   place-items: center;
-  background: var(--sun);
-  font-size: 14px;
-  font-family: var(--font-head);
+  border: 2px solid var(--ink);
+}
+html[data-band="little"] .band-chip .dot-little,
+html[data-band="kids"] .band-chip .dot-kids,
+html[data-band="big"] .band-chip .dot-big {
+  display: grid;
 }
 .band-chip .gentle-mark {
   display: none;
@@ -1151,4 +1160,10 @@ details.night .pl-block {
     animation: none !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* The browser's own clear (×) button on search inputs: not used (no cross-like shapes, kids.md §8.4). */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
 }

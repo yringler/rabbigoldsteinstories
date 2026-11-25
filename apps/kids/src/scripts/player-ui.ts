@@ -246,8 +246,10 @@ export class KidsPlayer {
     this.audio.defaultPlaybackRate = s;
     this.audio.playbackRate = s;
     const label = $(this.root, "[data-p-speed-label]");
-    if (label) label.textContent = `${s}×`;
-    $(this.root, "[data-p-speed]")?.setAttribute("aria-label", `Speed: ${s} times. Change speed`);
+    // Words, not "1×": no cross-like marks anywhere (kids.md §8.4).
+    const word = s < 1 ? "Slow" : s > 1 ? "Fast" : "Normal";
+    if (label) label.textContent = word;
+    $(this.root, "[data-p-speed]")?.setAttribute("aria-label", `Speed: ${word}. Change speed`);
   }
 
   private restore(): void {
@@ -457,7 +459,7 @@ export class KidsPlayer {
           `<li data-i="${i}" class="${i === s.index ? "now" : ""}">` +
           `<button type="button" class="icon-btn q-handle" data-q-handle aria-label="Move ${escapeHtml(t.title)} (use arrow keys)">${gripSvg}</button>` +
           `<button type="button" class="q-play" data-q-play><img src="${coverPath(t.id)}" alt="" width="48" height="48" loading="lazy"><span class="q-text"><span class="q-t">${escapeHtml(t.title)}</span><span class="q-s">${i === s.index ? "Playing now" : i < s.index ? "Played" : `Up next · ${i - s.index}`}</span></span></button>` +
-          `<button type="button" class="icon-btn q-remove" data-q-remove aria-label="Remove ${escapeHtml(t.title)}">${closeSvg}</button></li>`,
+          `<button type="button" class="icon-btn q-remove" data-q-remove aria-label="Remove ${escapeHtml(t.title)}">${trashSvg}</button></li>`,
       )
       .join("");
     if (empty) empty.hidden = s.queue.length > s.index + 1;
@@ -625,7 +627,7 @@ export class KidsPlayer {
 }
 
 const gripSvg = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h.01M8 12h.01M8 18h.01M16 6h.01M16 12h.01M16 18h.01"/></svg>`;
-const closeSvg = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>`;
+const trashSvg = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>`;
 
 const pngCache = new Map<string, string>();
 async function rasterise(src: string, size: number): Promise<string> {
