@@ -42,6 +42,8 @@ export interface LibRow {
   start: number;
   end: number;
   url: string;
+  /** 1 when an AI-improved copy exists (URL = cleanUrlOf(url); docs/design/ai-audio.md). */
+  clean?: 1;
   level: AudienceLevel;
   age: number;
   adv: string[];

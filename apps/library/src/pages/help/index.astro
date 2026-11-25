@@ -1,6 +1,9 @@
 ---
-/** Help: search syntax, filters, keyboard shortcuts, citing, playlists. */
+/** Help: search syntax, filters, keyboard shortcuts, sound, citing, playlists. */
 import Base from "../../layouts/Base.astro";
+import { hasCleanAudio } from "../../lib/site-data.ts";
+
+const sound = hasCleanAudio();
 ---
 
 <Base
@@ -20,6 +23,11 @@ import Base from "../../layouts/Base.astro";
         <a class="chip" href="#keys">
           Keyboard
         </a>
+        {sound && (
+          <a class="chip" href="#sound">
+            Sound
+          </a>
+        )}
         <a class="chip" href="#cite">
           Citing
         </a>
@@ -166,6 +174,14 @@ import Base from "../../layouts/Base.astro";
             </td>
             <td>Jump to the transcript</td>
           </tr>
+          {sound && (
+            <tr>
+              <td>
+                <kbd>s</kbd>
+              </td>
+              <td>Switch between the original and the AI-improved sound</td>
+            </tr>
+          )}
           <tr>
             <td>
               <kbd>?</kbd>
@@ -174,6 +190,23 @@ import Base from "../../layouts/Base.astro";
           </tr>
         </tbody>
       </table>
+
+      {sound && (
+        <>
+          <h2 id="sound">Sound: original and AI-improved</h2>
+          <p>
+            The player plays the original tape by default. Under <strong>Sound</strong> in the
+            player bar you can switch to an <strong>AI-improved</strong> copy, cleaned by a
+            speech-restoration model: less hiss, clearer voices, but sometimes a slightly synthetic
+            voice, and songs or music may be garbled. Switching keeps your place, so you can compare
+            the two by switching back and forth (shortcut: <kbd>s</kbd>). The setting is remembered
+            in this browser, for this site only. Both copies have the same length, so timestamps,
+            transcript links and citations work with either. Some recordings may not have an
+            AI-improved copy yet; for those the original plays and the player says so. The
+            AI-improved files are about a third larger.
+          </p>
+        </>
+      )}
 
       <h2 id="cite">Citing</h2>
       <p>

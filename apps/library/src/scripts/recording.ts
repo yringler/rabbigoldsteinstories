@@ -39,6 +39,15 @@ export function init(): void {
       if (label) label.textContent = `Play from ${formatDuration(t0)}`;
     }
   }
+  // Discovery line: only for items with an AI-improved copy, and only while the preference is off.
+  const hint = $("[data-ai-hint]", page);
+  if (hint) {
+    hint.hidden = player().prefersClean;
+    const onSound = (e: Event) => (hint.hidden = (e as CustomEvent<boolean>).detail);
+    document.addEventListener("gsl:sound", onSound);
+    cleanup.push(() => document.removeEventListener("gsl:sound", onSound));
+  }
+
   const isThis = () =>
     currentId() === id && (player().current?.start_sec ?? 0) <= (absoluteTime() ?? 0);
 

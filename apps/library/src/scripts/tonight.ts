@@ -13,6 +13,7 @@ import {
 import { iconSvg } from "../lib/icons.ts";
 import type { PlaylistEntry } from "../lib/playlists.ts";
 import { formatDuration, humanLength } from "../lib/time.ts";
+import { withClean } from "../lib/tracks.ts";
 import type { LibCatalog, LibRow } from "../lib/types.ts";
 import { sanitizeEdition } from "../lib/editions.ts";
 import { $, h, loadCatalog, toast } from "./core.ts";
@@ -57,7 +58,7 @@ function tracks(p: Playlist, rows: Map<string, LibRow>): Track[] {
       end_sec: i.end_sec,
     };
     if (i.narrator) t.artist = i.narrator;
-    return t;
+    return withClean(t, r);
   });
 }
 
@@ -165,6 +166,7 @@ function playlistSection(
       start_sec: i.start_sec,
       end_sec: i.end_sec,
     };
+    withClean(t, r);
     const e = entries({ ...p, items: [i] }, rows)[0];
     const speakers = r.speakers
       .filter((s) => s !== "guest_children")

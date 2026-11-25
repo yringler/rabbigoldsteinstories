@@ -1,5 +1,6 @@
 /** Story groups: two English transcripts side by side, from /t/<id>.json (already masked). */
 import { formatDuration } from "../lib/time.ts";
+import { withClean } from "../lib/tracks.ts";
 import { $, $$, h, loadCatalog, player } from "./core.ts";
 
 import type { TRow } from "../lib/transcript-rows.ts";
@@ -74,7 +75,12 @@ async function show(root: HTMLElement): Promise<void> {
       const play = () =>
         void player()
           .load(
-            [{ id: r.id, title: r.title, url: r.url, start_sec: r.start, end_sec: r.end }],
+            [
+              withClean(
+                { id: r.id, title: r.title, url: r.url, start_sec: r.start, end_sec: r.end },
+                r,
+              ),
+            ],
             0,
             false,
           )
