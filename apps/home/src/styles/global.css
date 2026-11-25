@@ -684,6 +684,55 @@ a:hover {
   margin: 0 0 8px;
 }
 
+/* Domains for internet filters */
+.filters {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px dashed var(--line);
+}
+
+.filters h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.3em;
+}
+
+.domains {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  font-size: 0.92rem;
+}
+
+.domains li {
+  display: grid;
+  gap: 1px;
+}
+
+.domains code {
+  font:
+    600 0.92rem/1.4 ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    monospace;
+  /* Small enough that the longest host fits one line on a 390px phone. */
+  font-size: min(0.92rem, 3.2vw);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 720px) {
+  .domains {
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: 10px 32px;
+  }
+  .domains li {
+    display: contents;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;

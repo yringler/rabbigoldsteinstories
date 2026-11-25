@@ -3,7 +3,7 @@
 import "@fontsource-variable/fraunces/wght.css";
 import "../styles/global.css";
 import { CONTACT_EMAIL, PROJECT_CREDIT, SITES } from "@goldstein/config/sites";
-import { libraryAboutUrl, siteCards } from "../lib/sites.ts";
+import { filterDomains, libraryAboutUrl, siteCards } from "../lib/sites.ts";
 
 interface Props {
   title?: string;
@@ -15,6 +15,7 @@ const desc =
   description ??
   "The recorded stories of the Goldstein family: Uncle Yossi's radio show Tzivos Hashem on the Air, Rabbi Chaim Levi Goldstein's weekly stories, shiurim and family recordings.";
 const cards = siteCards();
+const domains = filterDomains();
 ---
 
 <!doctype html>
@@ -77,6 +78,30 @@ const cards = siteCards();
             ))}
           </ul>
         </nav>
+      </div>
+      <div class="wrap">
+        <section class="filters" aria-labelledby="filters-h">
+          <h2 id="filters-h">For internet filters</h2>
+          <p class="muted small">
+            If your home or school uses a filter, these are all the domains the sites use. Allowing
+            them is enough for everything to work, including the audio.
+          </p>
+          <ul class="domains" role="list">
+            {domains.map((d) => (
+              <li>
+                <code>
+                  {d.host.split(".").map((part, i) => (
+                    <>
+                      {i > 0 && <wbr />}
+                      {i > 0 ? `.${part}` : part}
+                    </>
+                  ))}
+                </code>
+                <span class="muted">{d.role}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
       </div>
     </footer>
   </body>
