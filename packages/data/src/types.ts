@@ -115,7 +115,6 @@ export interface PublicRelation {
   target_id: ItemId; // always a public item (relations to excluded items are dropped)
   confidence: number;
   offset_sec?: number;
-  note?: string;
 }
 
 /**

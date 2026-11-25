@@ -8,9 +8,22 @@ const hidden = (h: Partial<RawHidden>): RawHidden => ({ on_air_people: [], addre
 describe("hidden spans", () => {
   it("pads spans and assumes a default length when end_sec is missing", () => {
     const spans = hiddenSpans(hidden({ on_air_people: [{ name: "A B", role: "birthday", start_sec: 100 }] }));
-    expect(spans).toEqual([{ start: 98, end: 162 }]);
+    expect(spans).toEqual([{ start: 98, end: 192 }]);
     expect(overlapsAny(150, 155, spans)).toBe(true);
     expect(overlapsAny(10, 97, spans)).toBe(false);
+  });
+
+  it("an entry without end_sec runs to the end of its enclosing chapter when that is later (library.md §5.4 rule 3)", () => {
+    const h = hidden({ on_air_people: [{ name: "A B", role: "shema_guest", start_sec: 100 }] });
+    // chapter 90–400 encloses the entry: masked to 400
+    expect(hiddenSpans(h, 2, [{ start_sec: 0, end_sec: 90 }, { start_sec: 90, end_sec: 400 }])).toEqual([{ start: 98, end: 402 }]);
+    // chapter without end_sec ends where the next starts
+    expect(hiddenSpans(h, 0, [{ start_sec: 95 }, { start_sec: 300 }])).toEqual([{ start: 100, end: 300 }]);
+    // a short enclosing chapter never shortens the 90 s minimum
+    expect(hiddenSpans(h, 0, [{ start_sec: 95, end_sec: 120 }])).toEqual([{ start: 100, end: 190 }]);
+    // entries with end_sec are unchanged
+    const closed = hidden({ addresses: [{ text: "x", start_sec: 10, end_sec: 20 }] });
+    expect(hiddenSpans(closed, 0, [{ start_sec: 0, end_sec: 999 }])).toEqual([{ start: 10, end: 20 }]);
   });
 });
 
