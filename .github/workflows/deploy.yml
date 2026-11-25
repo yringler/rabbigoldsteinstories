@@ -1,7 +1,8 @@
 name: deploy
 
 # Push to main: deploy what changed. Shared inputs (data/, packages/, workers/api/, the lockfile)
-# deploy the API Worker and all three sites; a change under apps/<site>/ deploys that site only.
+# deploy the API Worker and all four sites (bedtime, kids, library, home = the landing page);
+# a change under apps/<site>/ deploys that site only.
 # Manual run: pick production or staging and which targets (default all).
 # Order: goldstein-api first (the sites' service bindings point at it), then the sites.
 # Every deploy re-runs the privacy gate on the exact bytes that ship; a finding deploys nothing.
@@ -18,7 +19,7 @@ on:
         options: [production, staging]
         default: production
       only:
-        description: "Comma-separated subset of api,bedtime,kids,library (empty = all)"
+        description: "Comma-separated subset of api,bedtime,kids,library,home (empty = all)"
         type: string
         default: ""
 
@@ -42,6 +43,7 @@ jobs:
       bedtime: ${{ steps.pick.outputs.bedtime }}
       kids: ${{ steps.pick.outputs.kids }}
       library: ${{ steps.pick.outputs.library }}
+      home: ${{ steps.pick.outputs.home }}
     steps:
       # Only the workflow-relevant folders: no need for data/ to decide what changed.
       - uses: actions/checkout@v5
@@ -57,10 +59,10 @@ jobs:
           ONLY: ${{ inputs.only }}
           EVENT: ${{ github.event_name }}
         run: |
-          all() { for t in api bedtime kids library; do echo "$t=true" >> "$GITHUB_OUTPUT"; done; }
+          all() { for t in api bedtime kids library home; do echo "$t=true" >> "$GITHUB_OUTPUT"; done; }
           if [ "$EVENT" = "workflow_dispatch" ]; then
             if [ -z "$ONLY" ]; then all; exit 0; fi
-            for t in api bedtime kids library; do
+            for t in api bedtime kids library home; do
               case ",$ONLY," in *",$t,"*) echo "$t=true" >> "$GITHUB_OUTPUT";; *) echo "$t=false" >> "$GITHUB_OUTPUT";; esac
             done
             exit 0
@@ -72,13 +74,13 @@ jobs:
           shared='^(data/|packages/|workers/api/|package\.json$|package-lock\.json$|\.nvmrc$|\.github/)'
           if echo "$changed" | grep -Eq "$shared"; then all; exit 0; fi
           echo "api=false" >> "$GITHUB_OUTPUT"
-          for t in bedtime kids library; do
+          for t in bedtime kids library home; do
             if echo "$changed" | grep -q "^apps/$t/"; then echo "$t=true"; else echo "$t=false"; fi >> "$GITHUB_OUTPUT"
           done
 
   deploy:
     needs: plan
-    if: needs.plan.outputs.api == 'true' || needs.plan.outputs.bedtime == 'true' || needs.plan.outputs.kids == 'true' || needs.plan.outputs.library == 'true'
+    if: needs.plan.outputs.api == 'true' || needs.plan.outputs.bedtime == 'true' || needs.plan.outputs.kids == 'true' || needs.plan.outputs.library == 'true' || needs.plan.outputs.home == 'true'
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     environment: ${{ inputs.target || 'production' }}
@@ -94,7 +96,7 @@ jobs:
       - name: Build
         run: |
           [ "${{ needs.plan.outputs.api }}" = "true" ] && npm run build -w @goldstein/api
-          for t in bedtime kids library; do
+          for t in bedtime kids library home; do
             v="DEPLOY_$t"
             if [ "${!v}" = "true" ]; then npm run build -w "@goldstein/$t"; fi
           done
@@ -103,11 +105,12 @@ jobs:
           DEPLOY_bedtime: ${{ needs.plan.outputs.bedtime }}
           DEPLOY_kids: ${{ needs.plan.outputs.kids }}
           DEPLOY_library: ${{ needs.plan.outputs.library }}
+          DEPLOY_home: ${{ needs.plan.outputs.home }}
           CLOUDFLARE_API_TOKEN: dummy
       - name: Privacy gate over what ships
         run: |
           dirs=""
-          for d in workers/api/dist apps/bedtime/dist apps/kids/dist apps/library/dist; do [ -d "$d" ] && dirs="$dirs $d"; done
+          for d in workers/api/dist apps/bedtime/dist apps/kids/dist apps/library/dist apps/home/dist; do [ -d "$d" ] && dirs="$dirs $d"; done
           npm run privacy:gate -- $dirs
 
       - name: Deploy goldstein-api
@@ -145,4 +148,13 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: ${{ env.WRANGLER_VERSION }}
           workingDirectory: apps/library
+          command: deploy --env=${{ env.WRANGLER_ENV }}
+      - name: Deploy home
+        if: needs.plan.outputs.home == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          workingDirectory: apps/home
           command: deploy --env=${{ env.WRANGLER_ENV }}

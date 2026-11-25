@@ -1,0 +1,255 @@
+---
+/**
+ * The landing page: who is in the archive, the three sites, tonight's playlists, lost episodes.
+ * Every number is computed from the public dataset at build time; every site name and link comes
+ * from the shared site table. The only script is the tonight strip (hidden until it has data).
+ */
+import { CONTACT_EMAIL } from "@goldstein/config/sites";
+import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldstein/data/load";
+import Base from "../layouts/Base.astro";
+import { lostEpisodesUrl, siteCards } from "../lib/sites.ts";
+import { assertConfirmed, computeStats, fmt } from "../lib/stats.ts";
+
+assertConfirmed(loadVocab());
+const s = computeStats(loadManifest(), loadCatalog(), loadLostEpisodes());
+const cards = siteCards();
+const lostMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("A lost radio episode")}`;
+
+// Tape-box spines for the hero shelf (deterministic). Widths, heights and colours only: no
+// figures, no circles side by side (DECISIONS "Artwork review": nothing that reads as a face).
+const tones = ["var(--brick)", "var(--amber)", "var(--sage)", "var(--slate)", "var(--plum)"];
+let seed = 11;
+const rand = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+let x = 4;
+const spines: { x: number; w: number; h: number; fill: string; band: number }[] = [];
+while (x < 300) {
+  const w = 14 + Math.round(rand() * 12);
+  if (x + w > 316) break;
+  spines.push({
+    x,
+    w,
+    h: 70 + Math.round(rand() * 46),
+    fill: tones[spines.length % tones.length]!,
+    band: 14 + Math.round(rand() * 20),
+  });
+  x += w + 3;
+}
+---
+
+<Base>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <p class="eyebrow">A family archive of recorded stories</p>
+        <h1>The stories of Uncle Yossi and the Goldstein family</h1>
+        <p class="lede">
+          A children's radio show, weekly stories, shiurim and family recordings, collected over
+          decades and now free to listen to.
+        </p>
+        <dl class="stats">
+          <div>
+            <dt>recordings</dt>
+            <dd>{fmt(s.recordings)}</dd>
+          </div>
+          <div>
+            <dt>hours</dt>
+            <dd>{fmt(s.hours)}</dd>
+          </div>
+          <div>
+            <dt>radio episodes</dt>
+            <dd>{fmt(s.radioEpisodes)}</dd>
+          </div>
+          {s.firstYear && (
+            <div>
+              <dt>earliest recording</dt>
+              <dd>{s.firstYear}</dd>
+            </div>
+          )}
+        </dl>
+      </div>
+      <svg class="shelf" viewBox="0 0 320 130" aria-hidden="true" focusable="false">
+        {spines.map((sp) => (
+          <g>
+            <rect x={sp.x} y={124 - sp.h} width={sp.w} height={sp.h} rx="2" fill={sp.fill} />
+            <rect
+              x={sp.x + 3}
+              y={124 - sp.h + sp.band}
+              width={sp.w - 6}
+              height="9"
+              rx="1"
+              fill="var(--label)"
+            />
+          </g>
+        ))}
+        <rect x="0" y="124" width="320" height="5" rx="2" fill="var(--wood)"></rect>
+      </svg>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sites-h">
+    <div class="wrap">
+      <h2 id="sites-h">Three ways to listen</h2>
+      <p class="section-lede">
+        The same recordings, arranged three ways. Pick the one that fits who is listening.
+      </p>
+      <ul class="cards" role="list">
+        {cards.map((c) => (
+          <li class={`card card-${c.id}`}>
+            <div class="card-art" aria-hidden="true">
+              {c.id === "bedtime" && (
+                <svg viewBox="0 0 120 64" class="art">
+                  <circle cx="60" cy="32" r="26" fill="#f4c56a" opacity=".16" />
+                  <circle cx="60" cy="32" r="17" fill="#f4c56a" />
+                  <circle cx="20" cy="14" r="1.3" fill="#f3ecdd" opacity=".55" />
+                  <circle cx="100" cy="20" r="1.1" fill="#f3ecdd" opacity=".5" />
+                  <circle cx="92" cy="50" r="1.4" fill="#f3ecdd" opacity=".4" />
+                  <circle cx="28" cy="48" r="1" fill="#f3ecdd" opacity=".45" />
+                </svg>
+              )}
+              {c.id === "kids" && (
+                <svg viewBox="0 0 120 64" class="art">
+                  <rect x="38" y="14" width="10" height="38" rx="2.5" fill="#1f5fbf" />
+                  <rect x="50" y="8" width="12" height="44" rx="2.5" fill="#f0604d" />
+                  <rect x="64" y="18" width="9" height="34" rx="2.5" fill="#2e9e6b" />
+                  <rect x="75" y="12" width="11" height="40" rx="2.5" fill="#24304f" />
+                  <rect x="32" y="52" width="60" height="5" rx="2" fill="#24304f" />
+                </svg>
+              )}
+              {c.id === "library" && (
+                <svg viewBox="0 0 120 64" class="art">
+                  <rect
+                    x="34"
+                    y="10"
+                    width="52"
+                    height="44"
+                    rx="3"
+                    fill="var(--lib-card)"
+                    stroke="var(--lib-ink)"
+                    stroke-width="2"
+                  />
+                  <rect x="42" y="18" width="22" height="4" rx="1" fill="var(--lib-accent)" />
+                  <rect x="42" y="27" width="36" height="2.5" rx="1" fill="var(--lib-line)" />
+                  <rect x="42" y="34" width="36" height="2.5" rx="1" fill="var(--lib-line)" />
+                  <rect x="42" y="41" width="26" height="2.5" rx="1" fill="var(--lib-line)" />
+                </svg>
+              )}
+            </div>
+            <div class="card-body">
+              <p class="kicker">{c.kicker}</p>
+              <h3>
+                <a href={c.url} class="card-link">
+                  {c.name}
+                </a>
+              </h3>
+              <p class="purpose">{c.purpose}</p>
+              <p class="audience">
+                <span class="vh">Who it's for: </span>
+                {c.audience}
+              </p>
+              <ul class="points">
+                {c.points.map((p) => (
+                  <li>{p}</li>
+                ))}
+              </ul>
+              <p class="cta" aria-hidden="true">
+                {c.cta} <span class="arrow">→</span>
+              </p>
+              <p class="host">{c.host}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="tonight" data-tonight hidden aria-labelledby="tonight-h">
+    <div class="wrap">
+      <div class="tonight-head">
+        <h2 id="tonight-h">Tonight's playlists</h2>
+        <p class="tonight-date" data-tonight-date></p>
+      </div>
+      <p class="section-lede">New every night on {cards[0]!.name}. Tap one to start there.</p>
+      <ul class="tonight-list" role="list" data-tonight-list></ul>
+      <template data-tonight-card>
+        <li>
+          <a class="tl-card">
+            <span class="tl-title" data-title></span>
+            <span class="tl-sub" data-sub></span>
+            <span class="tl-meta" data-meta></span>
+          </a>
+        </li>
+      </template>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="who-h">
+    <div class="wrap">
+      <h2 id="who-h">Who you will hear</h2>
+      <div class="people">
+        <article>
+          <h3>Uncle Yossi</h3>
+          <p class="role">Rabbi Yosef Goldstein</p>
+          <p>
+            Host of <em>Tzivos Hashem on the Air</em>, the weekly children's radio show broadcast on
+            Tuesday nights from 1981 to 1992: Shema at the microphone, the mailbox, a lesson for the
+            coming Yom Tov and a serial story from week to week. {fmt(s.radioEpisodes)} episodes are
+            in the archive. He also gave the Yiddish Tanya shiurim and hosted <em>Shema B'ni</em>.
+          </p>
+        </article>
+        <article>
+          <h3>Rabbi Chaim Levi Goldstein</h3>
+          <p class="role">Uncle Yossi's son</p>
+          <p>
+            Tells the weekly stories that open with his song “I Believe in Hashem”, as well as
+            stories at children's rallies and farbrengens: {fmt(s.chaimLeviRecordings)} recordings
+            so far.
+          </p>
+        </article>
+        <article>
+          <h3>Bubby Chaya Malka</h3>
+          <p class="role">Uncle Yossi's mother</p>
+          <p>Family recordings of her stories, told in English and in Yiddish.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section lost" aria-labelledby="lost-h">
+    <div class="wrap lost-in">
+      <svg class="lost-art" viewBox="0 0 64 64" aria-hidden="true">
+        <rect
+          x="10"
+          y="14"
+          width="44"
+          height="36"
+          rx="3"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3"
+          stroke-dasharray="6 5"
+        ></rect>
+        <rect x="18" y="22" width="20" height="5" rx="1.5" fill="currentColor"></rect>
+      </svg>
+      <div>
+        <h2 id="lost-h">{fmt(s.lostEpisodes)} radio episodes are still missing</h2>
+        <p>
+          Recordings kept by listeners have already filled gaps in the archive. If you taped{" "}
+          <em>Tzivos Hashem on the Air</em> at home, have one of these tapes, or remember an
+          episode, we would love to hear from you.
+        </p>
+        <p class="lost-actions">
+          <a class="btn" href={lostEpisodesUrl()}>
+            See the list of lost episodes
+          </a>
+          <a class="btn btn-quiet" href={lostMail}>
+            Write to {CONTACT_EMAIL}
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import "../scripts/tonight.ts";
+</script>

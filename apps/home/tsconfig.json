@@ -1,0 +1,10 @@
+{
+  "extends": "@goldstein/config/tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "types": ["node"],
+    "jsx": "preserve"
+  },
+  "include": ["astro.config.ts", "vitest.config.ts", "src/**/*", "test/**/*", ".astro/types.d.ts"],
+  "exclude": ["dist", "node_modules", "worker"]
+}

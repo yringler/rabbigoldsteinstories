@@ -2,7 +2,7 @@
   "name": "rabbigoldsteinstories",
   "private": true,
   "type": "module",
-  "description": "Rabbi Goldstein Stories: archive data (data/) plus the bedtime, kids and library websites. See docs/ARCHITECTURE.md.",
+  "description": "Rabbi Goldstein Stories: archive data (data/) plus the bedtime, kids and library websites and a landing page. See docs/ARCHITECTURE.md.",
   "engines": {
     "node": ">=22.23.4",
     "npm": ">=10"
@@ -15,7 +15,8 @@
     "workers/api",
     "apps/bedtime",
     "apps/kids",
-    "apps/library"
+    "apps/library",
+    "apps/home"
   ],
   "scripts": {
     "data:build": "npm run build -w @goldstein/data",
@@ -30,6 +31,7 @@
     "dev:bedtime": "npm run dev -w @goldstein/bedtime",
     "dev:kids": "npm run dev -w @goldstein/kids",
     "dev:library": "npm run dev -w @goldstein/library",
+    "dev:home": "npm run dev -w @goldstein/home",
     "playlists:preview": "npm run data:ensure && npm run preview -w @goldstein/playlists --"
   },
   "devDependencies": {
