@@ -292,7 +292,17 @@ export interface Manifest {
  * Built on the private side (it applies quality, hidden spans and audience.privacy), but contains
  * only public fields. Input to packages/playlists; not served to browsers as-is.
  */
-export type UnitKind = "story" | "clip" | "span" | "set" | "serial";
+/** story/clip/span/set/serial: the story playlists; episode/episodes: Radio Night (whole episodes; a serial as its complete airing). */
+export type UnitKind =
+  | "story"
+  | "clip"
+  | "span"
+  | "set"
+  | "serial"
+  | "episode"
+  | "episodes"
+  /** One non-story segment of a radio episode (a talk, a song, an opening, a Shema guest...). */
+  | "segment";
 
 export interface UnitTrack {
   id: ItemId;
@@ -322,6 +332,8 @@ export interface Unit {
   /** `<id>` for whole files, `<id>@<start_sec>` for spans, `set:<set_key>` / `serial:<story_key>` for blocks. */
   unit: string;
   kind: UnitKind;
+  /** For kind "segment": the segment type (talk, halachah, sichah, song, opening, closing, quiz, tzedakah, shema_guest). */
+  segment?: string;
   title: string;
   /** "Uncle Yossi" or "R' Chaim Levi Goldstein" style label, or null (bedtime.md §5). */
   narrator: string | null;

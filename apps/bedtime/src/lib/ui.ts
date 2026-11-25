@@ -1,11 +1,11 @@
 /**
- * Bedtime UI vocabulary shared by the Astro pages (build time) and the client scripts: the five
- * playlist types in their fixed order, colours and icons (docs/sites/bedtime.md §2.1, §3), and
+ * Bedtime UI vocabulary shared by the Astro pages (build time) and the client scripts: the six
+ * playlist types in their fixed order (the recipes' order: Tonight's Mix first), colours and icons (docs/sites/bedtime.md §2.1, §3), and
  * small pure formatting helpers. No DOM access here, so it is unit-tested in Node.
  */
 import type { Edition, Playlist, PlaylistItem } from "@goldstein/playlists";
 
-export type CoreType = "little" | "big" | "calm" | "adventure" | "mix";
+export type CoreType = "mix" | "little" | "big" | "calm" | "adventure" | "radio";
 
 export interface TypeUi {
   type: CoreType;
@@ -19,19 +19,37 @@ export interface TypeUi {
   icon: string;
 }
 
-/** A four-point sparkle centred at (x, y) with radius r. */
-const sparkle = (x: number, y: number, r: number) =>
-  `<path d="M${x} ${y - r}Q${x} ${y} ${x + r} ${y}Q${x} ${y} ${x} ${y + r}Q${x} ${y} ${x - r} ${y}Q${x} ${y} ${x} ${y - r}Z"/>`;
+/**
+ * A five-pointed star centred at (x, y), outer radius r. (No four-pointed sparkles or other
+ * cross-like shapes anywhere: owner, 2026-11-25.)
+ */
+const star = (x: number, y: number, r: number) => {
+  const pts = Array.from({ length: 10 }, (_, i) => {
+    const a = -Math.PI / 2 + (i * Math.PI) / 5;
+    const rr = i % 2 === 0 ? r : r * 0.45;
+    return `${(x + rr * Math.cos(a)).toFixed(1)} ${(y + rr * Math.sin(a)).toFixed(1)}`;
+  });
+  return `<path d="M${pts.join("L")}Z"/>`;
+};
 
 export const TYPES: readonly TypeUi[] = [
+  {
+    type: "mix",
+    name: "Tonight's Mix",
+    line: "A bit of everything.",
+    ages: "6+",
+    color: "#C8B5F3",
+    // three five-pointed stars of different sizes
+    icon: `${star(18, 27, 11)}${star(35, 12, 6.5)}${star(36, 36, 4.5)}`,
+  },
   {
     type: "little",
     name: "Little Ones",
     line: "Short, gentle stories.",
     ages: "3–6",
     color: "#F5B7A6",
-    // a small sleeping moon
-    icon: '<path d="M29 7.5a16.5 16.5 0 1 0 11.5 26A14 14 0 0 1 29 7.5Z"/><path d="M15.5 25.5q2.5 2.5 5 0"/><path d="M33 10.5h5l-5 5h5"/>',
+    // a full moon (no crescent, no face) with a sleepy "z"
+    icon: '<circle cx="21" cy="27" r="15"/><path d="M33 7h6l-6 6h6"/>',
   },
   {
     type: "big",
@@ -39,8 +57,8 @@ export const TYPES: readonly TypeUi[] = [
     line: "Longer stories with more to think about.",
     ages: "6–10",
     color: "#93BBF5",
-    // an open book with a star
-    icon: `<path d="M24 19c-4.5-3-10.5-4-16-3v22c5.5-1 11.5 0 16 3 4.5-3 10.5-4 16-3V16c-5.5-1-11.5 0-16 3Z"/><path d="M24 19v22"/>${sparkle(24, 8, 4.5)}`,
+    // an open book
+    icon: '<path d="M24 15c-4.5-3-10.5-4-16-3v24c5.5-1 11.5 0 16 3 4.5-3 10.5-4 16-3V12c-5.5-1-11.5 0-16 3Z"/><path d="M24 15v24"/>',
   },
   {
     type: "calm",
@@ -61,13 +79,13 @@ export const TYPES: readonly TypeUi[] = [
     icon: '<path d="M9 30h30l-4.5 7h-21Z"/><path d="M24 7v23"/><path d="M24 10l10 15H24Z"/><path d="M24 7l-6 2.5 6 2.5"/><path d="M5 42c3-2 6-2 9.5 0s6.5 2 9.5 0 6.5-2 9.5 0 6 2 9.5 0"/>',
   },
   {
-    type: "mix",
-    name: "Tonight's Mix",
-    line: "A bit of everything.",
-    ages: "6+",
-    color: "#C8B5F3",
-    // three stars of different sizes
-    icon: `${sparkle(18, 27, 11)}${sparkle(35, 12, 6.5)}${sparkle(36, 36, 4)}`,
+    type: "radio",
+    name: "Radio Night",
+    line: "Uncle Yossi's radio show, whole episodes as they were broadcast.",
+    ages: "4+",
+    color: "#E9A3C9",
+    // an old radio with its antenna
+    icon: '<rect x="6" y="18" width="36" height="23" rx="5"/><circle cx="17" cy="29.5" r="6"/><path d="M28 25h9M28 29.5h9M28 34h6"/><path d="M13 18 32 7"/><circle cx="33.5" cy="6.2" r="1.6"/>',
   },
 ];
 
@@ -79,8 +97,15 @@ export function iconSvg(t: TypeUi, size = 48, extra = ""): string {
   return `<svg viewBox="0 0 48 48" width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${t.icon}</svg>`;
 }
 
-/** The moon used for the wordmark, the player and the night screen. */
-export const MOON_PATH = "M30 6a18 18 0 1 0 12.5 28.5A15.5 15.5 0 0 1 30 6Z";
+/**
+ * The moon of the wordmark, the night screen and the app icons, on a 48×48 grid: nearly full
+ * (gibbous), the whole disc faintly and the lit part solid. Owner, 2026-11-25: moons full or
+ * nearly full, never a thin crescent, never with a star.
+ */
+export const MOON_LIT = "M24 6A18 18 0 0 1 24 42A13.5 18 0 0 1 24 6Z";
+export function moonSvg(color = "currentColor", disc = 0.3): string {
+  return `<circle cx="24" cy="24" r="18" fill="${color}" opacity="${disc}"/><path d="${MOON_LIT}" fill="${color}"/>`;
+}
 
 /** "about 1½ hours", "about 2 hours", "about 50 minutes". */
 export function aboutLength(totalMin: number): string {

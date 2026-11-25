@@ -120,12 +120,16 @@ export function defaultOrder(chosen: Unit[], recipe: Recipe): Unit[] {
  * later draw into the first 40 minutes. Units drawn while in the head pass, and they add up to at
  * least 40 minutes, so the head can always be filled from them.
  */
-export function enforceHead(ordered: Unit[], headOk: (u: Unit) => boolean): Unit[] {
+export function enforceHead(
+  ordered: Unit[],
+  headOk: (u: Unit) => boolean,
+  blockMayOpen = false,
+): Unit[] {
   const rest = [...ordered];
   const out: Unit[] = [];
   let t = 0;
   while (t < HEAD_SEC && rest.length > 0) {
-    const i = rest.findIndex((u) => headOk(u) && (out.length > 0 || !u.block));
+    const i = rest.findIndex((u) => headOk(u) && (out.length > 0 || !u.block || blockMayOpen));
     if (i < 0) break;
     const [u] = rest.splice(i, 1) as [Unit];
     out.push(u);
@@ -194,11 +198,18 @@ export function generateEdition(input: GenerateInput): Edition {
     const rng = seededRng(`${RECIPE_VERSION}|${input.window.id}|${recipe.type}`);
     const ctx: RecipeContext = { edition: input.window, rng, pool, season };
     const eligible = pool.filter((u) => recipe.eligible(u));
+    if (eligible.length === 0) {
+      // A type with nothing to play at all (e.g. no radio episodes in a test pool) is left out of
+      // the edition; any other shortfall still fails the edition.
+      input.log?.(`${input.window.id}/${recipe.type}: no eligible units, playlist left out`);
+      continue;
+    }
     const tailPool = recipe.windDown ? pool.filter((u) => recipe.windDown!.eligible(u)) : [];
     const tailMin = recipe.windDown?.minSec ?? 0;
     const target = recipe.targetMin * 60;
     const tol = recipe.toleranceMin * 60;
     const openerMax = (recipe.openerMaxMin ?? 15) * 60;
+    const blockTail = recipe.blockTailMin === undefined ? BLOCK_TAIL_SEC : recipe.blockTailMin * 60;
     let chosen: { body: Unit[]; tail: Unit[]; headOk: (u: Unit) => boolean } | null = null;
     let ordered: Unit[] = [];
     let lastProblem: string | null = null;
@@ -241,10 +252,12 @@ export function generateEdition(input: GenerateInput): Edition {
           if (total + u.duration_sec > cap) return false;
           if (blockedBy(used, u, cooldown)) return false;
           if (u.block) {
-            // A block plays second, right after an opener of at most openerMaxMin, so it must
-            // end before the last 25 minutes of the shortest allowed playlist; it is in the head.
-            if (inTail || blocks > 0 || body.length === 0) return false;
-            if (u.duration_sec > target - tol - BLOCK_TAIL_SEC - openerMax) return false;
+            // A block plays second, right after an opener of at most openerMaxMin (or first, when
+            // the recipe allows it), so it must end before the protected tail of the shortest
+            // allowed playlist; it is in the head.
+            if (inTail || blocks > 0 || (body.length === 0 && !recipe.blockMayOpen)) return false;
+            const room = blockTail > 0 ? target - tol - blockTail : target + tol;
+            if (u.duration_sec > room - (recipe.blockMayOpen ? 0 : openerMax)) return false;
           }
           if (inHead || u.block) {
             if (blockedBy(usedHead, u, headCooldown)) return false;
@@ -283,6 +296,7 @@ export function generateEdition(input: GenerateInput): Edition {
       const attempt = enforceHead(
         recipe.order?.(body, orderCtx, tail) ?? [...defaultOrder(body, recipe), ...orderTail(tail)],
         headOk,
+        recipe.blockMayOpen ?? false,
       );
       lastProblem = validate(attempt, recipe) ?? recipe.validate?.(attempt, ctx) ?? null;
       if (lastProblem) continue;
@@ -322,7 +336,7 @@ export function generateEdition(input: GenerateInput): Edition {
     recipe_version: RECIPE_VERSION,
     pool_hash: input.pool.pool_hash,
     generated_at: (input.now ?? new Date()).toISOString(),
-    playlists: input.recipes.map((r) => results.get(r.type)!),
+    playlists: input.recipes.flatMap((r) => results.get(r.type) ?? []),
   };
 }
 
@@ -343,11 +357,12 @@ function validate(units: Unit[], recipe: Recipe): string | null {
       return `unit ${u.unit} has no audio URL`;
   }
   if (units.filter((u) => u.block).length > 1) return "more than one block";
-  if (units[0]?.block) return "block first";
+  if (units[0]?.block && !recipe.blockMayOpen) return "block first";
+  const blockTail = recipe.blockTailMin === undefined ? BLOCK_TAIL_SEC : recipe.blockTailMin * 60;
   let t = 0;
   for (const u of units) {
     t += u.duration_sec;
-    if (u.block && t > total - BLOCK_TAIL_SEC) return "block in the last 25 minutes";
+    if (u.block && t > total - blockTail) return "block in the protected tail";
   }
   return null;
 }

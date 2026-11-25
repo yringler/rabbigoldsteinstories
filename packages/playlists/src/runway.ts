@@ -21,8 +21,8 @@ export interface EditionStore {
 
 export const RUNWAY_DAYS = 14;
 export const HISTORY_NIGHTS = 7;
-/** More than the longest cooldown in the recipes (mix head: 50 days): how much history generation reads. */
-export const LOOKBACK_DAYS = 60;
+/** More than the longest cooldown in the recipes (radio head: 70 days): how much history generation reads. */
+export const LOOKBACK_DAYS = 90;
 /** Editions starting within this many hours are frozen: never rewritten. */
 export const FREEZE_HOURS = 24;
 

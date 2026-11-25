@@ -3,22 +3,46 @@
  * the build because the base filter needs quality, hidden spans and audience.privacy; the output
  * (generated/units.json) carries public fields only and goes through the privacy gate.
  *
- * Implemented: base filter B1–B9, unit kinds story / clip / span / set / serial, clip-vs-parent
- * rule, span advisories and calendar tags, dedupe keys.
+ * Implemented: base filter B1–B8, unit kinds story / clip / span / set / serial for the story
+ * playlists and episode / episodes for Radio Night, clip-vs-parent rule, span advisories and
+ * calendar tags, dedupe keys.
+ *
+ * B9 (no track overlapping a hidden span) was dropped by the owner on 2026-11-25: names read on
+ * air ~40 years ago may be HEARD in playlists. Nothing from `hidden` is ever written here as text;
+ * units.json still goes through the privacy gate.
  * Owned by the bedtime team: the energy score (energy.ts), the opening-song rule (story tracks carry
  * intro_start_sec), sets with duplicate copies of a part. Counts, and why they differ from the
  * first measurement, are in docs/sites/bedtime.md §4.2.
  */
 import { createHash } from "node:crypto";
-import { hiddenSpans, overlapsAny, SPAN_PAD_SEC } from "../privacy.ts";
 import type { RawMeta, RawVocabEntry } from "../raw.ts";
 import { PUBLIC_DATA_VERSION, type ItemId, type Unit, type UnitAdvisory, type UnitPool, type UnitTrack } from "../types.ts";
 import { scoreEnergy } from "./energy.ts";
-import { contentBounds, PUBLISHED } from "./transform.ts";
+import { contentBounds, PRIVATE_SEGMENT_TYPES, PUBLISHED } from "./transform.ts";
 
 const MIN_SEC = 3 * 60;
 const MAX_SEC = 45 * 60;
 const MAX_BLOCK_SEC = 85 * 60;
+/**
+ * Radio segments that may be playlist tracks on their own (owner, 2026-11-25): talks and songs;
+ * openings, closings, quizzes and tzedakah as occasional extras; Shema guests (Little Ones only,
+ * tentative). Mailbox, announcements and sponsor messages never play alone (only inside Radio
+ * Night's whole episodes). [min, max] seconds; generic titles where the real one names people.
+ */
+const SEGMENT_TRACKS: Readonly<Record<string, { min: number; max: number; title?: string }>> = {
+  talk: { min: 60, max: 15 * 60 },
+  halachah: { min: 60, max: 15 * 60 },
+  sichah: { min: 60, max: 15 * 60 },
+  song: { min: 45, max: 10 * 60 },
+  opening: { min: 20, max: 5 * 60, title: "Opening" },
+  closing: { min: 15, max: 5 * 60, title: "Closing" },
+  quiz: { min: 30, max: 7 * 60, title: "Quiz" },
+  tzedakah: { min: 20, max: 4 * 60, title: "Tzedakah with Uncle Yossi" },
+  shema_guest: { min: 60, max: 7 * 60, title: PRIVATE_SEGMENT_TYPES["shema_guest"]! },
+};
+/** Radio Night serial airings: at most four episodes, at most 2 h 15. */
+const MAX_RUN_EPISODES = 4;
+const MAX_RUN_SEC = 135 * 60;
 
 const KID_LEVELS = new Set(["young_children", "children", "older_children", "family"]);
 const BLOCKING_WHOLE = new Set(["defective_source", "truncated_start", "truncated_end", "multiple_programs", "dead_air", "noisy_audio", "mislabeled"]);
@@ -87,31 +111,6 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     end_sec: round(end),
     duration_sec: round(end - start),
   });
-  /**
-   * B9 with the transcript-masking pad (SPAN_PAD_SEC = 2 s on each side of a hidden span), so a
-   * player overshooting end_sec or a seek landing early can never reach a name. A padded span
-   * that only touches the start or the end of the track trims it (story segments often begin
-   * where a Shema-guest segment ends); one inside the track rules the track out. Mutates `t`.
-   */
-  const notHidden = (m: RawMeta, t: UnitTrack): boolean => {
-    const spans = hiddenSpans(m.hidden, SPAN_PAD_SEC).sort((a, b) => a.start - b.start);
-    let s = t.start_sec;
-    let e = t.end_sec;
-    for (const h of spans) {
-      if (!(s < h.end && e > h.start)) continue;
-      if (h.start <= s) s = h.end;
-      else if (h.end >= e) e = h.start;
-      else return false;
-      if (e - s < 60) return false;
-    }
-    s = Math.ceil(s * 100) / 100;
-    e = Math.floor(e * 100) / 100;
-    if (overlapsAny(s, e, spans)) return false;
-    t.start_sec = s;
-    t.end_sec = e;
-    t.duration_sec = round(e - s);
-    return true;
-  };
   const advisories = (m: RawMeta, range?: [number, number]): UnitAdvisory[] =>
     m.audience.advisories
       .filter((a) => !range || a.at_sec === undefined || (a.at_sec >= range[0] - 30 && a.at_sec <= range[1]))
@@ -153,11 +152,7 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     const start = song !== null && song > bounds.start && song < end ? song : bounds.start;
     if (end - start < MIN_SEC || end - start > MAX_SEC) continue;
     const t = track(m, start, end);
-    if (!notHidden(m, t) || t.duration_sec < MIN_SEC) continue;
-    if (t.start_sec > bounds.start) {
-      const intro = round(bounds.start);
-      if (!overlapsAny(intro, t.end_sec, hiddenSpans(m.hidden, SPAN_PAD_SEC))) t.intro_start_sec = intro;
-    }
+    if (t.start_sec > bounds.start) t.intro_start_sec = round(bounds.start);
     units.push(
       make(
         {
@@ -172,7 +167,7 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
           calendar: m.subjects.calendar,
           topics: m.subjects.topics,
           story_type: c.story_type ?? [],
-          keys: keysFor([m]),
+          keys: keysFor([m], [`story:${slug(m.display.title)}`]),
           block: null,
         },
         wholeText(m),
@@ -180,27 +175,31 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     );
   }
 
-  // span: story runs inside radio episodes
+  // span: each story segment of a radio episode is its own unit (owner, 2026-11-25: "episode X,
+  // third story, 5:00–17:34"), with the story_intro segment(s) right before it. Name-heavy
+  // segments (Shema guests, mailbox, announcements) are never part of a span. Story segments of a
+  // serial episode are separate stories (the serial's own chapters are `story_chapter` segments,
+  // played only inside serial blocks), so they count too.
   for (const m of input.metas) {
     const c = m.classification;
     if (c.content_type !== "radio_episode" || !passesBase(m, true)) continue;
-    if ((c.serial && !singleSerial.has(m.id)) || c.standalone === "cliffhanger") continue;
     const segs = [...(m.segments ?? [])].sort((a, b) => a.start_sec - b.start_sec);
     const { end: contentEnd } = contentBounds(m);
-    for (let i = 0; i < segs.length; i++) {
-      if (!["story", "story_intro"].includes(segs[i]!.type)) continue;
-      let j = i;
-      while (j + 1 < segs.length && ["story", "story_intro"].includes(segs[j + 1]!.type)) j++;
-      const run = segs.slice(i, j + 1);
-      i = j;
-      if (!run.some((s) => s.type === "story")) continue;
-      const last = run[run.length - 1]!;
-      const start = run[0]!.start_sec;
-      const end = Math.min(last.end_sec ?? segs[j + 1]?.start_sec ?? contentEnd, contentEnd);
+    const stories = segs.filter((x) => x.type === "story");
+    for (const story of stories) {
+      const k = segs.indexOf(story);
+      let first = k;
+      while (first > 0 && segs[first - 1]!.type === "story_intro") first--;
+      const start = segs[first]!.start_sec;
+      const end = Math.min(story.end_sec ?? segs[k + 1]?.start_sec ?? contentEnd, contentEnd);
       if (end - start < MIN_SEC || end - start > MAX_SEC) continue;
-      const story = run.find((s) => s.type === "story")!;
+      const run = segs.slice(first, k + 1);
       const t = track(m, start, end, story.title);
-      if (!notHidden(m, t) || t.duration_sec < MIN_SEC) continue;
+      const storyKey = `story:${slug(story.title)}`;
+      // One story in the episode: the episode's own keys (relations, story groups) apply. Several:
+      // they are scoped to this story, so two stories of one episode are not "the same thing".
+      const epKeys = keysFor([m]);
+      const keys = stories.length === 1 ? [...epKeys, storyKey] : [...epKeys.map((x) => `${x}~${slug(story.title)}`), storyKey];
       spanUnits.push({ episode: m.id, start, end });
       units.push(
         make(
@@ -213,13 +212,13 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
             age_min: m.audience.age_min,
             level: m.audience.level,
             advisories: advisories(m, [start, end]),
-            calendar: [...new Set(run.flatMap((s) => s.calendar ?? []))],
+            calendar: [...new Set(run.flatMap((x) => x.calendar ?? []))],
             topics: m.subjects.topics,
             story_type: c.story_type ?? [],
-            keys: keysFor([m]),
+            keys: [...new Set(keys)].sort(),
             block: null,
           },
-          [...run.flatMap((s) => [s.title, s.summary ?? ""]), ...(m.display.keywords ?? [])].join(" "),
+          [...run.flatMap((x) => [x.title, x.summary ?? ""]), ...(m.display.keywords ?? [])].join(" "),
         ),
       );
     }
@@ -259,7 +258,6 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
           const { start, end } = contentBounds(m);
           return { m, t: track(m, start, end) };
         })
-        .filter((x) => notHidden(x.m, x.t))
         .sort((a, b) => copyRank(a.m) - copyRank(b.m) || a.m.id.localeCompare(b.m.id))[0];
       if (!best) break;
       parts.push(best.m);
@@ -309,9 +307,7 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
         const m = item.m;
         const { end: contentEnd } = contentBounds(m);
         for (const p of item.i.parts) {
-          const t = track(m, p.start_sec, Math.min(p.end_sec ?? contentEnd, contentEnd), `${s.title}, Chapter ${ch.chapter}`);
-          if (!notHidden(m, t)) ok = false;
-          tracks.push(t);
+          tracks.push(track(m, p.start_sec, Math.min(p.end_sec ?? contentEnd, contentEnd), `${s.title}, Chapter ${ch.chapter}`));
         }
         metas.push(m);
       }
@@ -343,6 +339,115 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     );
   }
 
+  // segment: talks, songs and the occasional extras, one unit per segment (recipes decide where
+  // and how often each type may play). Keys: the segment itself, and its title per type, so the
+  // same march or talk recorded in many episodes counts as one thing.
+  for (const m of input.metas) {
+    const c = m.classification;
+    if (c.content_type !== "radio_episode" || !passesBase(m, true)) continue;
+    const segs = [...(m.segments ?? [])].sort((a, b) => a.start_sec - b.start_sec);
+    const { end: contentEnd } = contentBounds(m);
+    segs.forEach((x, k) => {
+      const rule = SEGMENT_TRACKS[x.type];
+      if (!rule) return;
+      const end = Math.min(x.end_sec ?? segs[k + 1]?.start_sec ?? contentEnd, contentEnd);
+      if (end - x.start_sec < rule.min || end - x.start_sec > rule.max) return;
+      const title = rule.title ?? x.title;
+      kept.push(
+        make(
+          {
+            unit: `${m.id}@${round(x.start_sec)}`,
+            kind: "segment",
+            segment: x.type,
+            title,
+            narrator: narrator(m),
+            tracks: [track(m, x.start_sec, end, title)],
+            age_min: m.audience.age_min,
+            level: m.audience.level,
+            advisories: advisories(m, [x.start_sec, end]),
+            calendar: x.calendar ?? [],
+            topics: m.subjects.topics,
+            story_type: [],
+            keys: [`${m.id}@${round(x.start_sec)}`, `${x.type}:${slug(rule.title ? `${m.id}-${x.start_sec}` : x.title)}`],
+            block: null,
+          },
+          rule.title ? "" : `${x.title} ${x.summary ?? ""}`,
+        ),
+      );
+    });
+  }
+
+  // Radio Night: whole episodes, as broadcast (names, mailbox and all; owner 2026-11-25).
+  // Standalone episodes play alone; a serial plays only as a complete airing of up to four
+  // consecutive episodes, in order (never a chapter out of context).
+  for (const m of input.metas) {
+    const c = m.classification;
+    if (c.content_type !== "radio_episode" || !passesBase(m, false)) continue;
+    if ((c.serial && !singleSerial.has(m.id)) || c.standalone === "cliffhanger") continue;
+    const { start, end } = contentBounds(m);
+    if (end - start < 10 * 60 || end - start > 45 * 60) continue;
+    kept.push(
+      make(
+        {
+          unit: `episode:${m.id}`,
+          kind: "episode",
+          title: m.display.title,
+          narrator: narrator(m),
+          tracks: [track(m, start, end)],
+          age_min: m.audience.age_min,
+          level: m.audience.level,
+          advisories: advisories(m),
+          calendar: m.subjects.calendar,
+          topics: m.subjects.topics,
+          story_type: c.story_type ?? [],
+          keys: keysFor([m], [`episode:${m.id}`]),
+          block: null,
+        },
+        wholeText(m),
+      ),
+    );
+  }
+  for (const s of input.serials?.serials ?? []) {
+    let best: RawMeta[] | null = null;
+    for (const run of s.runs) {
+      if (!run.in_archive || !run.complete || run.chapters.length > MAX_RUN_EPISODES) continue;
+      const ms: RawMeta[] = [];
+      for (const ch of [...run.chapters].sort((a, b) => a.chapter - b.chapter)) {
+        const m = ch.items.map((i) => byId.get(i.id)).find((x) => x && passesBase(x, false));
+        if (!m || ms.includes(m)) break;
+        ms.push(m);
+      }
+      if (ms.length !== run.chapters.length) continue;
+      if (!best || ms.length > best.length) best = ms;
+    }
+    if (!best || best.length < 2) continue;
+    const tracks = best.map((m) => {
+      const { start, end } = contentBounds(m);
+      return track(m, start, end);
+    });
+    if (tracks.reduce((a, t) => a + t.duration_sec, 0) > MAX_RUN_SEC) continue;
+    kept.push(
+      make(
+        {
+          unit: `episodes:${s.story_key}`,
+          kind: "episodes",
+          title: s.title,
+          narrator: narrator(best[0]!),
+          tracks,
+          age_min: Math.max(...best.map((m) => m.audience.age_min)),
+          level: best[0]!.audience.level,
+          advisories: best.flatMap((m) => advisories(m)),
+          calendar: [...new Set(best.flatMap((m) => m.subjects.calendar))],
+          topics: [...new Set(best.flatMap((m) => m.subjects.topics))],
+          story_type: [...new Set(best.flatMap((m) => m.classification.story_type ?? []))],
+          keys: keysFor(best, [`serial:${s.story_key}`, `episodes:${s.story_key}`]),
+          block: { key: s.story_key, title: s.title, of: best.length },
+        },
+        best.map((m) => wholeText(m)).join(" "),
+      ),
+    );
+  }
+
   kept.sort((a, b) => a.unit.localeCompare(b.unit));
   const poolHash = createHash("sha256").update(JSON.stringify(kept)).digest("hex").slice(0, 12);
   return { version: PUBLIC_DATA_VERSION, generated_at: new Date().toISOString(), pool_hash: poolHash, units: kept };
@@ -353,6 +458,15 @@ function openingSongEnd(m: RawMeta): number | null {
   const first = [...(m.segments ?? [])].sort((a, b) => a.start_sec - b.start_sec)[0];
   if (!first || first.type !== "song" || first.end_sec === undefined || first.end_sec === null) return null;
   return first.end_sec < 180 ? first.end_sec : null;
+}
+
+/** Dedupe key for a story title: lowercase letters and digits. */
+function slug(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[\u2018\u2019']/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 function round(n: number): number {

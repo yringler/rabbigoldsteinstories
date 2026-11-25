@@ -7,7 +7,8 @@ import { join } from "node:path";
 import { beforeAll, describe, expect, it } from "vitest";
 import { build } from "../src/build/build.ts";
 import { inputFingerprint, loadRecordings, outDir } from "../src/build/io.ts";
-import { hiddenSpans, overlapsAny } from "../src/privacy.ts";
+import { runGate } from "../src/build/gate.ts";
+import { buildTerms } from "../src/build/terms.ts";
 import type { RawMeta } from "../src/raw.ts";
 import type { Manifest, Unit, UnitPool } from "../src/types.ts";
 
@@ -29,13 +30,17 @@ beforeAll(() => {
 const hours = (us: Unit[]) => us.reduce((s, u) => s + u.duration_sec, 0) / 3600;
 
 describe("unit pool (bedtime.md §4.2)", () => {
-  it("has the expected size (within 10% of the measured 487 units)", () => {
+  it("has the expected size (within 10% of the measured 514 story units and 258 radio units)", () => {
     const kinds: Record<string, number> = {};
     for (const u of units) kinds[u.kind] = (kinds[u.kind] ?? 0) + 1;
     console.log("unit pool:", units.length, "units,", hours(units).toFixed(1), "h", kinds);
-    expect(units.length).toBeGreaterThan(487 * 0.9);
-    expect(units.length).toBeLessThan(487 * 1.1);
-    expect(hours(units)).toBeGreaterThan(100);
+    const radio = units.filter((u) => u.kind === "episode" || u.kind === "episodes");
+    const story = units.filter((u) => !radio.includes(u) && u.kind !== "segment");
+    expect(story.length).toBeGreaterThan(514 * 0.9);
+    expect(story.length).toBeLessThan(514 * 1.1);
+    expect(radio.length).toBeGreaterThan(258 * 0.9);
+    expect(radio.length).toBeLessThan(258 * 1.1);
+    expect(hours(story)).toBeGreaterThan(100);
   });
 
   it("only uses publishable, preferred, English, children's recordings (criterion 1)", () => {
@@ -53,16 +58,15 @@ describe("unit pool (bedtime.md §4.2)", () => {
     }
   });
 
-  it("never overlaps a hidden span, including the opening-song lead-in (criterion 2)", () => {
-    for (const u of units) {
-      for (const t of u.tracks) {
-        // B9 uses the same 2 s pad as transcript masking.
-        const spans = hiddenSpans(byId.get(t.id)!.hidden);
-        expect(overlapsAny(t.start_sec, t.end_sec, spans), `${u.unit} ${t.id}`).toBe(false);
-        if (t.intro_start_sec !== undefined)
-          expect(overlapsAny(t.intro_start_sec, t.end_sec, spans), `${u.unit} intro`).toBe(false);
-      }
-    }
+  it("carries no hidden text: the privacy gate finds nothing in units.json (criterion 2)", () => {
+    // Since the owner's decision of 2026-11-25 a track MAY overlap a hidden span (names read on
+    // air may be heard), so overlap is not checked. What must never happen is hidden TEXT in the
+    // published pool: no internal keys, no name, address or phone number from any hidden block.
+    const findings = runGate([outDir()], buildTerms()).filter((f) => f.file.endsWith("units.json"));
+    expect(findings).toEqual([]);
+    const raw = readFileSync(join(outDir(), "units.json"), "utf8");
+    for (const key of ['"hidden"', '"on_air_people"', '"privacy"', '"identity_guesses"'])
+      expect(raw).not.toContain(key);
   });
 
   it("has no excluded content types and no whole radio episodes (criterion 3)", () => {
@@ -79,8 +83,11 @@ describe("unit pool (bedtime.md §4.2)", () => {
       for (const t of u.tracks) {
         const m = byId.get(t.id)!;
         expect(banned.has(m.classification.content_type), `${u.unit}`).toBe(false);
+        // A whole radio episode plays only on Radio Night; the story playlists use spans of it.
         if (m.classification.content_type === "radio_episode")
-          expect(u.kind === "span" || u.kind === "serial", u.unit).toBe(true);
+          expect(["span", "serial", "episode", "episodes", "segment"], u.unit).toContain(u.kind);
+        if (u.kind === "episode" || u.kind === "episodes")
+          expect(m.classification.content_type).toBe("radio_episode");
       }
     }
   });
@@ -100,9 +107,56 @@ describe("unit pool (bedtime.md §4.2)", () => {
       }
       if (u.kind === "serial") expect(u.tracks.length).toBeGreaterThanOrEqual(2);
       if (u.kind === "span") {
+        // A span is one story segment (plus its intro): never a serial chapter, never a
+        // name-heavy segment (Shema guests, mailbox, announcements).
         const m = byId.get(u.tracks[0]!.id)!;
-        expect(m.classification.standalone).not.toBe("cliffhanger");
+        const t = u.tracks[0]!;
+        const inside = (m.segments ?? []).filter(
+          (x) => x.start_sec >= t.start_sec - 0.01 && x.start_sec < t.end_sec - 1,
+        );
+        const stories = inside.filter((x) => x.type === "story");
+        expect(stories, u.unit).toHaveLength(1);
+        const story = stories[0]!;
+        // anything else must be the story's intro, or nested inside the story (a song in it)
+        for (const x of inside)
+          if (x.type !== "story" && x.type !== "story_intro")
+            expect(
+              x.start_sec >= story.start_sec &&
+                (x.end_sec ?? Infinity) <= (story.end_sec ?? Infinity),
+              `${u.unit} ${x.type}`,
+            ).toBe(true);
       }
+      if (u.kind === "episodes") {
+        // a serial on Radio Night: its complete airing, consecutive episodes, at most four
+        expect(u.tracks.length).toBeGreaterThanOrEqual(2);
+        expect(u.tracks.length).toBeLessThanOrEqual(4);
+      }
+    }
+  });
+
+  it("makes radio segments tracks only for talks, songs and the occasional extras (owner, 2026-11-25)", () => {
+    const segs = units.filter((u) => u.kind === "segment");
+    expect(segs.length).toBeGreaterThan(1000);
+    const allowed = new Set([
+      "talk",
+      "halachah",
+      "sichah",
+      "song",
+      "opening",
+      "closing",
+      "quiz",
+      "tzedakah",
+      "shema_guest",
+    ]);
+    for (const u of segs) {
+      expect(allowed.has(u.segment ?? ""), u.unit).toBe(true);
+      // never mailbox, announcements, sponsors on their own
+      expect(["mailbox", "announcement", "sponsor"]).not.toContain(u.segment);
+    }
+    // Shema guests keep the dataset's generic title (the real one can name a child or school).
+    for (const u of segs.filter((x) => x.segment === "shema_guest")) {
+      expect(u.title).toBe("Shema with a guest");
+      expect(u.tracks[0]!.title).toBe("Shema with a guest");
     }
   });
 
@@ -134,6 +188,13 @@ describe("unit pool (bedtime.md §4.2)", () => {
   });
 
   it("gives every unit dedupe keys that include its own recordings", () => {
-    for (const u of units) for (const t of u.tracks) expect(u.keys).toContain(t.id);
+    // Spans of an episode with several stories carry story-scoped keys (`<id>~<story>`), so two
+    // stories of one episode are not "the same thing".
+    for (const u of units)
+      for (const t of u.tracks)
+        expect(
+          u.keys.some((k) => k === t.id || k.startsWith(`${t.id}~`) || k.startsWith(`${t.id}@`)),
+          u.unit,
+        ).toBe(true);
   });
 });

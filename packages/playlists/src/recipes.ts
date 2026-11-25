@@ -22,6 +22,7 @@
 import type { Unit } from "@goldstein/data";
 import { orderTail } from "./engine.ts";
 import type { FillState, Recipe, RecipeContext, WindDown } from "./recipe.ts";
+import { seededRng } from "./rng.ts";
 import { seasonalStatus, type SeasonalStatus } from "./seasons.ts";
 
 const LITTLE_FLAGS = new Set([
@@ -40,7 +41,51 @@ const CALM_FLAGS = new Set([
 ]);
 const MIN = 60;
 const energy = (u: Unit) => u.energy ?? 0;
-const single = (u: Unit) => u.block === null;
+/** Radio Night's units: a whole episode, or a serial's complete airing. */
+export const radioUnit = (u: Unit) => u.kind === "episode" || u.kind === "episodes";
+/** A story (story, clip, span, set, serial): what opens, fills the body and winds down. */
+export const storyUnit = (u: Unit) => !radioUnit(u) && u.kind !== "segment";
+
+/**
+ * Owner, 2026-11-25 (tentative, a sample is under review): Shema-guest segments (Uncle Yossi
+ * welcomes a child or a class, they say Shema) may play in Little Ones, at most one per playlist
+ * and never first. Set to false to turn them off everywhere.
+ */
+export const SHEMA_GUESTS_IN_LITTLE_ONES = true;
+
+/** Radio segments that may play on their own, by group (owner, 2026-11-25). */
+export type SegmentGroup = "talk" | "song" | "extra" | "shema";
+const SEGMENT_GROUP: Readonly<Record<string, SegmentGroup>> = {
+  talk: "talk",
+  halachah: "talk",
+  sichah: "talk",
+  song: "song",
+  opening: "extra",
+  closing: "extra",
+  quiz: "extra",
+  tzedakah: "extra",
+  shema_guest: "shema",
+};
+export const segmentGroup = (u: Unit): SegmentGroup | null =>
+  u.kind === "segment" ? (SEGMENT_GROUP[u.segment ?? ""] ?? null) : null;
+/** Relative weight of a segment against a story (1): extras are occasional by design. */
+const SEGMENT_WEIGHT: Readonly<Record<SegmentGroup, number>> = {
+  talk: 0.4,
+  song: 0.4,
+  extra: 0.3,
+  shema: 0.3,
+};
+/**
+ * Share of playlists in which a group may appear at all ("occasionally, not often"): decided per
+ * edition and type from a seeded draw, so it is reproducible. Talks and songs: any playlist.
+ */
+const SEGMENT_CHANCE: Readonly<Record<SegmentGroup, number>> = {
+  talk: 1,
+  song: 1,
+  extra: 0.3,
+  shema: 0.3,
+};
+const single = (u: Unit) => u.block === null && storyUnit(u);
 const noModerate = (u: Unit) =>
   !u.advisories.some((a) => a.severity === "moderate" || a.severity === "strong");
 /** A unit that may play in the wind-down: energy ≤ 0 and no moderate advisory (§4.5). */
@@ -72,8 +117,17 @@ const calmTail = (minMin: number): WindDown => ({
 });
 
 interface Spec extends Omit<Recipe, "weight" | "admit" | "order" | "validate"> {
+  /**
+   * Radio segments this type may play, with the most per playlist. They never open (the opener
+   * is a story), never play in the calm tail (stories only), and stay occasional (lower weight).
+   */
+  segments?: Partial<Record<SegmentGroup, number>>;
+  /** Extra filter for segments (e.g. ages, calm band). */
+  segmentOk?: (u: Unit) => boolean;
   /** Mourning tags are never boosted in this type (little, calm). */
   noMourningBoost?: boolean;
+  /** Out-of-season units may open (still weighted ×0.1). */
+  outOfSeasonInHead?: boolean;
 }
 
 function status(u: Unit, ctx: RecipeContext, spec: Spec): SeasonalStatus {
@@ -82,7 +136,49 @@ function status(u: Unit, ctx: RecipeContext, spec: Spec): SeasonalStatus {
 const inSeason = (s: SeasonalStatus) => s === "near" || s === "window";
 
 /** Weight (§4.7), plus a strong pull towards one "near" seasonal story when none is drawn yet. */
+/** A segment is eligible when its group has a cap above 0 for this type. */
+function segmentEligible(u: Unit, spec: Spec): boolean {
+  const g = segmentGroup(u);
+  return g !== null && (spec.segments?.[g] ?? 0) > 0 && (spec.segmentOk?.(u) ?? true);
+}
+
+const allowedMemo = new Map<string, boolean>();
+/** Whether an occasional group may appear in this edition's playlist of this type (memoized). */
+function groupAllowed(edition: string, type: string, g: SegmentGroup): boolean {
+  if (SEGMENT_CHANCE[g] >= 1) return true;
+  const key = `${edition}|${type}|${g}`;
+  let ok = allowedMemo.get(key);
+  if (ok === undefined) {
+    ok = seededRng(key)() < SEGMENT_CHANCE[g];
+    if (allowedMemo.size > 10_000) allowedMemo.clear();
+    allowedMemo.set(key, ok);
+  }
+  return ok;
+}
+
+/** Caps per group per playlist; occasional groups only in some playlists; never in the tail. */
+function segmentAdmit(u: Unit, ctx: RecipeContext, spec: Spec, state: FillState): boolean {
+  const g = segmentGroup(u);
+  if (g === null) return true;
+  if (state.inTail) return false;
+  if (!groupAllowed(ctx.edition.id, spec.type, g)) return false;
+  const n = state.picked.filter((p) => segmentGroup(p) === g).length;
+  return n < (spec.segments?.[g] ?? 0);
+}
+
 function seasonalWeight(u: Unit, ctx: RecipeContext, spec: Spec, state?: FillState): number {
+  const g = segmentGroup(u);
+  if (g !== null) return SEGMENT_WEIGHT[g] * seasonOnly(u, ctx, spec);
+  return storyWeight(u, ctx, spec, state);
+}
+
+/** Seasonal factor alone (segments: no "pull towards one near seasonal story"). */
+function seasonOnly(u: Unit, ctx: RecipeContext, spec: Spec): number {
+  const s = status(u, ctx, spec);
+  return s === "none" ? 1 : s === "out" ? 0.1 : s === "near" ? 6 : 4;
+}
+
+function storyWeight(u: Unit, ctx: RecipeContext, spec: Spec, state?: FillState): number {
   const s = status(u, ctx, spec);
   if (s === "none") return 1;
   if (s === "out") return 0.1;
@@ -94,7 +190,9 @@ function seasonalWeight(u: Unit, ctx: RecipeContext, spec: Spec, state?: FillSta
 /** Out-of-season units never in the head; seasonal minutes capped at 40% (§4.7). */
 function seasonalAdmit(u: Unit, ctx: RecipeContext, spec: Spec, state: FillState): boolean {
   const s = status(u, ctx, spec);
-  if (s === "out") return !state.inHead && !u.block; // a block plays second, in the head
+  // Out of season: never in the head (a block plays early, so it counts as head), except where the
+  // recipe allows it (Radio Night: most episodes carry a tag from a holiday talk inside them).
+  if (s === "out") return spec.outOfSeasonInHead === true || (!state.inHead && !u.block);
   if (!inSeason(s)) return true;
   const used = state.picked
     .filter((p) => inSeason(status(p, ctx, spec)))
@@ -150,6 +248,23 @@ function withOpeningSong(units: Unit[], spec: Spec): Unit[] {
  * descending energy with the block (if any) second (the engine moves it after the head, where
  * blocks are allowed), then the tail, calmest last.
  */
+/**
+ * Radio Night's order: a serial airing (if drawn) opens, so its episodes play in order from the
+ * start of the evening; then in-season episodes, then the rest by descending energy.
+ */
+function radioOrder(spec: Spec, body: Unit[], ctx: RecipeContext): Unit[] {
+  const block = body.find((u) => u.block);
+  const rest = body
+    .filter((u) => u !== block)
+    .sort(
+      (a, b) =>
+        Number(inSeason(status(b, ctx, spec))) - Number(inSeason(status(a, ctx, spec))) ||
+        energy(b) - energy(a) ||
+        a.unit.localeCompare(b.unit),
+    );
+  return block ? [block, ...rest] : rest;
+}
+
 function order(spec: Spec, body: Unit[], ctx: RecipeContext, tail: Unit[] = []): Unit[] {
   const headOk = ctx.headOk ?? (() => true);
   const byUnit = (a: Unit, b: Unit) => a.unit.localeCompare(b.unit);
@@ -187,10 +302,14 @@ function make(spec: Spec): Recipe {
   const windDown = spec.windDown;
   return {
     ...spec,
+    eligible: (u) => (u.kind === "segment" ? segmentEligible(u, spec) : spec.eligible(u)),
     weight: (u, ctx, state) => seasonalWeight(u, ctx, spec, state),
-    admit: (u, ctx, state) => seasonalAdmit(u, ctx, spec, state),
+    admit: (u, ctx, state) =>
+      segmentAdmit(u, ctx, spec, state) && seasonalAdmit(u, ctx, spec, state),
     order: (body, ctx, tail) => order(spec, body, ctx, tail),
     validate: (ordered) => {
+      // A story opens: a talk, song or extra never does (the engine then tries the next step).
+      if (ordered[0] && segmentGroup(ordered[0]) !== null) return "a radio segment would open";
       if (!windDown) return null;
       const t = windDownSeconds(ordered);
       return t >= windDown.minSec
@@ -200,7 +319,51 @@ function make(spec: Spec): Recipe {
   };
 }
 
+/**
+ * Radio Night (owner, 2026-11-25): Uncle Yossi's radio show as broadcast, whole episodes with the
+ * songs, mailbox and Shema guests. About two hours (four episodes); a serial plays as its
+ * complete airing (at most four consecutive episodes) and opens the evening. No calm tail
+ * (whole episodes cannot be reordered inside), no opening-song rule.
+ */
+function radio(): Recipe {
+  const spec: Spec = {
+    type: "radio",
+    title: "Radio Night",
+    subtitle: "Uncle Yossi's radio show, whole episodes as they were broadcast.",
+    ages: "4+",
+    kidLine: "The radio show",
+    targetMin: 120,
+    toleranceMin: 15,
+    // Whole broadcasts are heard whole (often in the daytime): no repeat of an episode for 14
+    // nights, none in the first two episodes of the evening for 70.
+    cooldownDays: 14,
+    headCooldownDays: 70,
+    blockTailMin: 0,
+    blockMayOpen: true,
+    eligible: radioUnit,
+    outOfSeasonInHead: true,
+  };
+  const r = make(spec);
+  return { ...r, order: (body, ctx) => radioOrder(spec, body, ctx) };
+}
+
 export const RECIPES: readonly Recipe[] = [
+  // Owner, 2026-11-25: "Put Tonight's Mix first - it's Rabbi Goldstein, not R L Stine." The
+  // order here is the order of the playlists in every edition, and on every site.
+  make({
+    type: "mix",
+    title: "Tonight's Mix",
+    subtitle: "A bit of everything.",
+    ages: "6+",
+    kidLine: "A surprise mix",
+    targetMin: 120,
+    toleranceMin: 10,
+    cooldownDays: 2, // first spec table: 24
+    headCooldownDays: 66, // first spec table: 45
+    eligible: storyUnit,
+    segments: { talk: 2, song: 2, extra: 1 },
+    windDown: calmTail(20),
+  }),
   make({
     type: "little",
     title: "Little Ones",
@@ -210,10 +373,12 @@ export const RECIPES: readonly Recipe[] = [
     targetMin: 90,
     toleranceMin: 10,
     cooldownDays: 2, // first spec table: 6
-    headCooldownDays: 15, // first spec table: 18
+    headCooldownDays: 20, // first spec table: 18
     openerMaxMin: 12,
     noMourningBoost: true,
     eligible: littleEligible,
+    segments: { talk: 1, song: 2, extra: 1, shema: SHEMA_GUESTS_IN_LITTLE_ONES ? 1 : 0 },
+    segmentOk: (u) => u.age_min <= 5 && noModerate(u),
     windDown: { minSec: 20 * MIN, eligible: (u) => littleEligible(u) && windsDown(u) },
   }),
   make({
@@ -225,8 +390,9 @@ export const RECIPES: readonly Recipe[] = [
     targetMin: 120,
     toleranceMin: 10,
     cooldownDays: 2, // first spec table: 16
-    headCooldownDays: 36, // first spec table: 40
-    eligible: (u) => u.age_min >= 6 || (u.age_min === 5 && energy(u) >= 1),
+    headCooldownDays: 48, // first spec table: 40
+    eligible: (u) => storyUnit(u) && (u.age_min >= 6 || (u.age_min === 5 && energy(u) >= 1)),
+    segments: { talk: 2, song: 1, extra: 1 },
     windDown: calmTail(20),
   }),
   make({
@@ -238,9 +404,11 @@ export const RECIPES: readonly Recipe[] = [
     targetMin: 120,
     toleranceMin: 10,
     cooldownDays: 2, // first spec table: 7
-    headCooldownDays: 19, // first spec table: 21
+    headCooldownDays: 23, // first spec table: 21
     noMourningBoost: true,
     eligible: calmEligible,
+    segments: { talk: 2 },
+    segmentOk: (u) => u.band === "calm" && noModerate(u),
     windDown: { minSec: 20 * MIN, eligible: calmEligible },
   }),
   make({
@@ -252,21 +420,9 @@ export const RECIPES: readonly Recipe[] = [
     targetMin: 120,
     toleranceMin: 10,
     cooldownDays: 2, // first spec table: 12
-    headCooldownDays: 18, // first spec table: 24
-    eligible: (u) => energy(u) >= 3 && u.age_min <= 9,
+    headCooldownDays: 20, // first spec table: 24
+    eligible: (u) => storyUnit(u) && energy(u) >= 3 && u.age_min <= 9,
     windDown: calmTail(25),
   }),
-  make({
-    type: "mix",
-    title: "Tonight's Mix",
-    subtitle: "A bit of everything.",
-    ages: "6+",
-    kidLine: "A surprise mix",
-    targetMin: 120,
-    toleranceMin: 10,
-    cooldownDays: 2, // first spec table: 24
-    headCooldownDays: 50, // first spec table: 45
-    eligible: () => true,
-    windDown: calmTail(20),
-  }),
+  radio(),
 ];

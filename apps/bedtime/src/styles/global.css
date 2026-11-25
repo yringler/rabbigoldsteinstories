@@ -261,7 +261,8 @@ main {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
-  .cards > li:first-child {
+  .cards > li:first-child,
+  .cards > li:last-child {
     grid-column: 1 / -1;
   }
 }

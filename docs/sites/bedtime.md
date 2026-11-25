@@ -82,7 +82,7 @@ The player is a sheet over any route, not a route.
 └──────────────────────────────────────┘
 ```
 
-- Exactly five cards in a fixed order: Little Ones, Big Kids, Quiet Night, Adventure Night, Tonight's Mix. Fixed order means muscle memory: the parent's thumb learns where "their" card is. A sixth card (a holiday playlist) may appear **above** the five during a holiday window once the `season` type ships (section 6).
+- Six cards in a fixed order: **Tonight's Mix first** (owner, 2026-11-25: "Put Tonight's Mix first - it's Rabbi Goldstein, not R L Stine."), then Little Ones, Big Kids, Quiet Night, Adventure Night, and **Radio Night** last (whole episodes; the five bedtime cards keep their places). This is the order of `RECIPES`, hence of every edition's `playlists[]`, so the kids and library sites follow it too. Fixed order means muscle memory. A holiday card may appear above the others once the `season` type ships (section 6).
 - Each card: icon, name, one-line description, "about 2 hours · ages N+". Nothing else. No story titles, no counts, no art thumbnails.
 - A small "⋯" on the card opens the track list without playing (same list as in the player).
 - The page renders from the edition JSON alone. No catalog download.
@@ -220,7 +220,7 @@ The pool is built in `packages/data` from the full `.meta.json` files (it needs 
 | B6 | not a private family recording | `audience.privacy[].flag != private_family` |
 | B7 | audio `good` or `fair` | `quality.audio` |
 | B8 | no blocking issue. Whole-file tracks: none of `defective_source`, `truncated_start`, `truncated_end`, `multiple_programs`, `dead_air`, `noisy_audio`, `mislabeled`. Span tracks: none of `defective_source`, `noisy_audio`, `mislabeled` (a clipped episode start or end does not hurt a span in the middle). | `quality.issues` |
-| B9 | **no overlap with a hidden span:** a track's `[start_sec, end_sec]` must not overlap any `hidden.on_air_people`, `hidden.addresses` or `hidden.other_personal` time span, **padded by 2 s on each side** (the same pad as transcript masking, so a player overshooting `end_sec` cannot reach a name). A padded span that only touches a track's start or end trims the track; one inside it rules the track out. The audio is public and unedited, but an auto-playing children's playlist should not be the thing that reads a child's full name. | `hidden.*` |
+| ~~B9~~ | **Dropped (owner, 2026-11-25):** names read on air ~40 years ago may be *heard* in playlists. A track may overlap a `hidden` span. Text privacy is unchanged: nothing from `hidden` and no withheld transcript text is ever published as text; the privacy gate scans `units.json`, the editions and every `dist/`. | — |
 
 **Content types.** Eligible: `story`, `lesson_with_story`, `story_collection`, `story_chapter` (inside a complete set only), `radio_episode` (as story spans, or whole for the `radio` type), `radio_segment` with a non-empty `story_type` (story clips). **Never** in a core playlist: `shiur`, `talk`, `live_event` (rallies are loud), `family_recording`, `fragment`, `song`, `promo`, and `radio_segment` talks (those are used only by the `season` type).
 
@@ -257,7 +257,7 @@ Rules that fall out of this:
 | whole radio episodes passing B1 to B8 (for `radio`) | 396 (250 standalone) | 197.0 (124.2) | 30 min |
 | talk clips, 2 to 15 min, standalone (for `season`) | 228 | 20.7 | 5 min |
 
-**As built (2026-11-25, `packages/data/src/build/units.ts`): 491 units, 118.0 h** — story 142, clip 53, span 256, set 20, serial 20 (with the 2 s B9 pad and edge trimming; 487 before, when B9 dropped every track a hidden span touched). Why it differs from the 489 above (checked by the bedtime team):
+**As built (2026-11-25, after the owner's playback decisions): 3,155 units.** Story playlists: **514 story units, 126.6 h** — story 153 (50.2 h), span 266 (42.2 h, one per story segment), clip 50, set 23, serial 22 (with B9 gone, the 3 serials and the extra set count again). Radio segments: 2,383 units — talk/halachah/sichah 628 (44.8 h), song 389 (21.4 h; 126 distinct songs, the *Hakochainik March* alone 243 times, deduped by title), opening 381, closing 387, quiz 37, tzedakah 151, Shema guest 410 (20.9 h). Radio Night: 237 standalone episodes (117.7 h) + 21 complete serial airings of 2–4 episodes (23.9 h). The earlier counts and the reasons they differed:
 - **Serials 19, not 22.** *The Storyteller*, *The Missing Wallet* and *Dama ben Nesina* each have a chapter whose only copy overlaps a hidden span, so B9 rules the whole run out. The first count did not apply B9 to serial chapters. B9 is binding, so 19 is right.
 - **Sets 20, not 21.** The first build counted 16: it rejected any set holding two copies of a part (an alternate take, a superseded copy, a second telling). Now each part plays its best copy (B2 drops superseded ones; then publish over review, good audio over fair, lowest id) and the other copies join the block's dedupe keys, which recovers 5 sets (*Baal Shem Tov Saved a Neshama*, *Hashem Always Helps*, *Hashem's Name*, *Slavita Printer*, *The Four Chochmos*). A "set" with a single part (`meayin-yavo-ezri`, a lone "Part 1") is no longer a one-part block: it is incomplete, so it is out.
 - Stories 141 / clips 53 vs 142 / 50: data edits since the first count (`review` items are now publishable; *The Plot That Boomeranged* copy is now superseded).
@@ -360,17 +360,18 @@ Generation order of the types inside an edition rotates by edition (so no type a
 - **Flip time: 09:00 `America/New_York`** (DST-aware; 13:00 or 14:00 UTC). Editions are **global**, not per-user-local: everyone sees the same "tonight", the files are cacheable, and history means the same thing for every visitor. 09:00 Eastern is the one window that is nobody's bedtime: 06:00 Pacific, 14:00 London, 16:00 Jerusalem, about midnight in Melbourne. A nap at 13:00 anywhere in the US already gets tonight's playlists.
 - Because a started playlist is pinned in the client, a flip never interrupts playback.
 
-**Cooldowns** (days, counted from edition dates; "use" means any unit sharing a key). As built in `packages/playlists/src/recipes.ts`, after the owner's guidance (2026-11-25): *"As long as the order is different, it's fine. Really only the first 30 minutes, the first few stories, will hopefully be listened to before falling asleep anyway."* So the pool is spent on the **head**; whole-playlist repeats are allowed after 2 nights. The first proposal is in brackets.
+**Cooldowns** (days, counted from edition dates; "use" means any unit sharing a key). Head-first, per the owner (*"Really only the first 30 minutes, the first few stories, will hopefully be listened to"*): the story playlists may repeat a story after 2 nights, but keep the first 40 minutes fresh for as long as the material allows. First proposal in brackets.
 
-| `type` | No repeat in the same type within | No repeat in the **head** (first 40 min) of the same type within | Distinct material that bounds the head |
+| `type` | Same type within | **Head** (first 40 min) within | Head material (single, untagged stories, merged by key) |
 |---|---|---|---|
-| `little` | 2 days (6) | **15 days** (18) | 73 stories, 11.8 h (≈ 16 heads) |
-| `calm` | 2 days (7) | **19 days** (21) | 82 stories, 15.6 h (≈ 21 heads) |
-| `adventure` | 2 days (12) | **18 days** (24) | 49 stories, 12.3 h (≈ 16 heads) |
-| `big` | 2 days (16) | **36 days** (40) | 96 stories, 24.8 h (≈ 33 heads) |
-| `mix` | 2 days (24) | **50 days** (45) | 146 stories, 32.9 h (≈ 44 heads) |
+| `mix` | 2 days (24) | **66 days** (45) | 156 stories, 33.8 h |
+| `little` | 2 days (6) | **20 days** (18) | 77 stories, 11.9 h |
+| `big` | 2 days (16) | **48 days** (40) | 105 stories, 26.2 h |
+| `calm` | 2 days (7) | **23 days** (21) | 89 stories, 15.8 h |
+| `adventure` | 2 days (12) | **20 days** (24) | 52 stories, 12.9 h |
+| `radio` | 14 days | **70 days** (first two episodes) | 258 units (237 episodes + 21 airings), 141.6 h |
 
-"Distinct material" counts the type's single (non-block) units without a calendar tag, merged into stories by shared dedupe keys (re-airings, retellings, story groups); seasonal units add a little in season. A head is about 45 minutes (the units that start in the first 40). The head cooldowns are the largest that hold in 365-night simulations from three start dates (Nov, Mar, Jul) with at most about 4% of playlists relaxing (measured 0.8–3.8%); observed: median head gap little 17, calm 22, adventure 21, big 41, mix 56 nights; minimum head gap (after an occasional relaxation) 12–13, 15–17, 12–15, 22–27, 37–40. No two consecutive nights of a type have the same opener or running order (tested). History read for generation: 60 days (`LOOKBACK_DAYS`).
+Talks and songs in the body leave more stories for the heads, so the windows grew from the previous round (15/19/36/50 for little/calm/big/mix). Chosen from 365-night simulations from three start dates (Nov, Mar, Jul): relaxation 0–4% of playlists (one run 5.2–6.3% at the next step up, which is why the values stop here); median head gaps mix 77, little 25, big 55, calm 27, adventure 22, radio 74 nights. No two consecutive nights share an opener or a running order (tested). Generation reads 90 days of history (`LOOKBACK_DAYS`).
 
 Plus, across types: a unit that was in **any** head is not in any head for the next 2 editions; and within one edition no unit is in two heads. Outside the head, the same story may appear in two different types on the same night (a family picks one).
 
@@ -559,3 +560,22 @@ The privacy gate (`npm run privacy:gate`) must scan `/playlists/**` too: no key 
 - **Publishing:** `index.json` and `/playlists/editions/<id>.json` cover only the 7 previous nights and tonight; `/p/<id>/<type>` 404s for anything else. Editions are cached for 5 minutes; the service worker is network-first for playlist JSON.
 - **Determinism (criterion 7)** excludes `generated_at`, the time the job ran.
 - **Cold start:** one request fills the runway; others see a short 503 (best-effort KV lock, 60 s).
+
+## 9. Owner decisions, round 2 (2026-11-25)
+
+- **B9 dropped** (above). The 2 s pad and edge trimming went with it.
+- **One unit per story segment.** An episode with two or three stories gives two or three spans ("episode X, third story, 5:00–17:34"), each with the `story_intro` right before it. Their dedupe keys are scoped to the story (`<episode>~<story-slug>`, plus `story:<slug>`), so two stories of one episode are not "the same thing", while the same story told in two episodes (or as a clip) still is. Story segments inside serial episodes count too (8; they are separate stories, e.g. *Onkelos and the Mezuzah*); serial chapters (`story_chapter`) still play only inside serial blocks.
+- **Radio segments as tracks** (`kind: "segment"`):
+
+  | Group | Segment types | Where | Most per playlist | How often |
+  |---|---|---|---|---|
+  | talk | talk, halachah, sichah (1–15 min) | Mix 2, Little 1, Big 2, Quiet 2 (calm-band only) | see left | weight 0.4 vs a story's 1 |
+  | song | song (45 s–10 min; deduped by title) | Mix 2, Little 2, Big 1 | see left | weight 0.4 |
+  | extra | opening, closing, quiz, tzedakah (generic titles) | Mix, Little, Big: 1 | 1 | allowed in ~30% of playlists (seeded per edition and type); measured 27–33% |
+  | shema | Shema guest (generic title "Shema with a guest") | Little Ones only, behind `SHEMA_GUESTS_IN_LITTLE_ONES` (default on; one-line toggle) | 1 | ~30% of Little Ones playlists |
+
+  Segments never open a playlist and never play in the calm tail (tails are stories only), so a march never ends the night. Adventure Night stays all stories. Mailbox, announcements and sponsor messages are never tracks on their own; they are heard only inside Radio Night's whole episodes. Measured per night: Mix 1.9 talks, 1.6 songs, 0.33 extras; Little 1 talk, 2 songs, 0.3 extras, 0.3 Shema guests; Big 2 talks, 1 song, 0.27 extras; Quiet Night 2 talks.
+  The `season` type (not built yet) should open with up to three short holiday talks (≤ 8 min): they are now ordinary units carrying the segment's own calendar tags, so the type can draw them directly.
+- **Radio Night** (`type: "radio"`, 120 ± 15 min, about four episodes): whole episodes from the trimmed content start to `quality.trim`'s content end. Standalone episodes play alone; a serial plays only as one complete airing of at most four consecutive episodes, in order, and opens the evening (`blockMayOpen`, no protected tail). Seasonal weighting as elsewhere, except that an out-of-season episode may open (weighted ×0.1): 195 of 237 episodes carry a calendar tag from a holiday talk inside them, and excluding them from the first 40 minutes left too few openers. No calm tail and no opening-song rule. Card: sixth, pink (`#E9A3C9`), an old radio.
+- **Tonight's Mix first** everywhere (above).
+- **Icons:** no four-pointed sparkles or other cross-like shapes. Big Kids is just the open book; Tonight's Mix is three five-pointed stars; the app icon's stars are round dots.
