@@ -1,0 +1,31 @@
+---
+/** /radio/ep/<n>/: static redirect to episode n's recording, or to its entry in the lost list. */
+import type { GetStaticPaths } from "astro";
+import { episodes } from "../../../../lib/site-data.ts";
+
+export const getStaticPaths = (() =>
+  episodes().map((e) => ({ params: { n: String(e.n) } }))) satisfies GetStaticPaths;
+
+const n = Number(Astro.params.n);
+const cell = episodes().find((e) => e.n === n);
+const target = cell?.status === "found" && cell.id ? `/r/${cell.id}/` : `/radio/lost/#ep-${n}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Episode {n}</title>
+  </head>
+  <body>
+    <p>
+      <a href={target}>
+        Episode {n}
+        {cell?.status === "found" ? "" : ": not found yet"}
+      </a>
+    </p>
+  </body>
+</html>

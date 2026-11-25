@@ -158,6 +158,20 @@ export class Player {
     this.emit();
   }
 
+  /** Add tracks to the end of the queue without interrupting the current one. */
+  append(tracks: readonly Track[]): void {
+    this.queue.push(...tracks);
+    this.emit();
+  }
+
+  /** Remove the track at `index` from the queue (not the current one: use load/next for that). */
+  removeAt(index: number): void {
+    if (index === this.index || index < 0 || index >= this.queue.length) return;
+    this.queue.splice(index, 1);
+    if (index < this.index) this.index--;
+    this.emit();
+  }
+
   async goTo(index: number, autoplay = true): Promise<void> {
     const t = this.queue[index];
     if (!t) return;

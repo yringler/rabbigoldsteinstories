@@ -1,0 +1,67 @@
+---
+/** Every citation of one work: Reference, Note, Recording, Date (sortable by reference). */
+import type { GetStaticPaths } from "astro";
+import Base from "../../../layouts/Base.astro";
+import { allItems, label, rowById } from "../../../lib/site-data.ts";
+
+export const getStaticPaths = (() => {
+  const used = new Set(allItems().flatMap((it) => it.subjects.sources_cited.map((s) => s.work)));
+  return [...used].map((work) => ({ params: { work } }));
+}) satisfies GetStaticPaths;
+
+const work = String(Astro.params.work);
+const rows = rowById();
+const cites = allItems()
+  .filter((it) => it.derived.preferred_copy)
+  .flatMap((it) =>
+    it.subjects.sources_cited
+      .filter((s) => s.work === work)
+      .map((s) => ({ s, it, r: rows.get(it.id) })),
+  )
+  .sort((a, b) => (a.s.ref ?? "~").localeCompare(b.s.ref ?? "~", "en", { numeric: true }));
+const name = label("works", work);
+---
+
+<Base
+  title={`${name}: citations`}
+  description={`Every citation of ${name} in the recordings, with references and notes.`}
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/sources/">Sources cited</a>
+      </nav>
+      <h1>{name}</h1>
+      <p>
+        {cites.length} citations in {new Set(cites.map((c) => c.it.id)).size} recordings.{" "}
+        <a href={`/search/?works=${work}`}>Search and filter these recordings</a>.
+      </p>
+    </header>
+    <div class="table-wrap">
+      <table class="data" data-sortable>
+        <thead>
+          <tr>
+            <th scope="col">Reference</th>
+            <th scope="col">Note</th>
+            <th scope="col">Recording</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {cites.map(({ s, it, r }) => (
+            <tr>
+              <td class="nowrap">{s.ref ?? "—"}</td>
+              <td>{s.note ?? ""}</td>
+              <td>
+                <a href={`/r/${it.id}/`}>{it.title}</a>
+              </td>
+              <td class="nowrap hdate" data-sort={String(r?.sortKey ?? 0).padStart(8, "0")}>
+                {r?.dateLabel ?? ""}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

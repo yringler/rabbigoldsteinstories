@@ -1,0 +1,79 @@
+---
+/** Lost episodes (DECISIONS 9): number, estimated date, catalog title, "help us find this tape". */
+import { CONTACT_EMAIL } from "@goldstein/config/sites";
+import Icon from "../../../components/Icon.astro";
+import Base from "../../../layouts/Base.astro";
+import { formatGregorian, hebrewYearSpan } from "../../../lib/dates.ts";
+import { episodes } from "../../../lib/site-data.ts";
+
+const lost = episodes().filter((e) => e.status === "lost");
+const withTitle = lost.filter((e) => e.catalog).length;
+---
+
+<Base
+  title="Lost radio episodes"
+  description="Episodes of Tzivos Hashem on the Air that are not in the archive yet. Do you have one of these tapes?"
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/radio/">Radio show</a>
+        <span class="sep">›</span>
+        <span>Lost episodes</span>
+      </nav>
+      <h1>Lost episodes</h1>
+      <p class="lede">
+        {lost.length} episodes of <em>Tzivos Hashem on the Air</em> are not in the archive yet. For{" "}
+        {withTitle} of them the producer's master tape catalog gives a title. Dates are estimated
+        from the weekly Tuesday broadcasts around them.
+      </p>
+    </header>
+    <div class="notice" style="margin-bottom:20px;max-width:860px">
+      <Icon name="info" />
+      <p>
+        <strong>Do you have one of these tapes?</strong> Recordings kept by listeners have already
+        filled gaps. Please write to
+        <a href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Lost radio episodes")}`}>
+          {CONTACT_EMAIL}
+        </a>{" "}
+        with the episode number or what you remember of it.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table class="data" data-sortable>
+        <thead>
+          <tr>
+            <th scope="col" class="num">
+              Episode
+            </th>
+            <th scope="col">Hebrew year</th>
+            <th scope="col">About (Hebrew date)</th>
+            <th scope="col">About (Gregorian)</th>
+            <th scope="col">In the producer's catalog</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {lost.map((e) => (
+            <tr id={`ep-${e.n}`}>
+              <td class="num">{e.n}</td>
+              <td>{e.year ? `${e.year} (${hebrewYearSpan(e.year)})` : ""}</td>
+              <td class="hdate">{e.hebrew ?? ""}</td>
+              <td>{e.date ? formatGregorian(e.date) : ""}</td>
+              <td>{e.catalog ?? <span class="muted">no title listed</span>}</td>
+              <td>{e.defective ? "only copy is damaged" : "not found"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>
+
+<style>
+  tr:target {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+    background: var(--accent-soft);
+  }
+</style>

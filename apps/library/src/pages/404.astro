@@ -2,9 +2,31 @@
 import Base from "../layouts/Base.astro";
 ---
 
-<Base title="Not found">
-  <h1>Not found</h1>
-  <p>
-    <a href="/">Back to the start</a>
-  </p>
+<Base title="Not found" noindex>
+  <script is:inline slot="head">
+    // /r/<id>/<any-slug> → /r/<id>/ (the id is the key; a readable slug may follow and is ignored).
+    (function () {
+      var m = /^\/r\/([0-9a-f]{10})\/.+/.exec(location.pathname);
+      if (m) location.replace("/r/" + m[1] + "/" + location.search + location.hash);
+    })();
+  </script>
+  <div class="wrap page">
+    <h1>Page not found</h1>
+    <p class="lede">
+      There is nothing at this address. It may have moved, or the link may be incomplete.
+    </p>
+    <form class="big-search" action="/search/" method="get" role="search" style="margin:20px 0">
+      <label class="visually-hidden" for="nf-q">
+        Search the archive
+      </label>
+      <input id="nf-q" name="q" type="search" placeholder="Search the archive…" />
+      <button class="btn btn-primary" type="submit">
+        Search
+      </button>
+    </form>
+    <p>
+      <a href="/">Go to the home page</a> · <a href="/radio/">Radio show</a> ·{" "}
+      <a href="/series/">Series</a>
+    </p>
+  </div>
 </Base>

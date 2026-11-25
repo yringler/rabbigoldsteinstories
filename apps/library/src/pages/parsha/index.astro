@@ -1,0 +1,69 @@
+---
+/** Parsha: all 54 in order. Coverage is thin and the page says so. */
+import Base from "../../layouts/Base.astro";
+import { rows, usage, vocab } from "../../lib/site-data.ts";
+
+const counts = usage("parshiyos");
+const list = vocab().lists["parshiyos"] ?? [];
+const withAny = list.filter((p) => (counts.get(p.id) ?? 0) > 0).length;
+const tagged = rows().filter((r) => r.preferred && r.parshiyos.length > 0).length;
+const BOOKS = ["Bereishis", "Shemos", "Vayikra", "Bamidbar", "Devarim"];
+const starts = ["bereishis", "shemos", "vayikra", "bamidbar", "devarim"];
+const books = BOOKS.map((b, i) => {
+  const from = list.findIndex((p) => p.id === starts[i]);
+  const to = i < 4 ? list.findIndex((p) => p.id === starts[i + 1]) : list.length;
+  return { book: b, parshiyos: from >= 0 ? list.slice(from, to < 0 ? list.length : to) : [] };
+}).filter((b) => b.parshiyos.length);
+const placed = new Set(books.flatMap((b) => b.parshiyos.map((p) => p.id)));
+const rest = list.filter((p) => !placed.has(p.id));
+---
+
+<Base title="Parsha" description="Recordings tagged with the weekly Torah portion.">
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Parsha</h1>
+      <p>
+        Only {tagged} recordings carry a parsha tag so far, covering {withAny} of the {list.length}{" "}
+        parshiyos. For a parsha with nothing tagged, the transcripts may still mention it: follow
+        “search transcripts”.
+      </p>
+    </header>
+    <div class="index-grid">
+      {[...books, ...(rest.length ? [{ book: "Other", parshiyos: rest }] : [])].map((b) => (
+        <section>
+          <h2 class="book">{b.book}</h2>
+          <ul class="index-list">
+            {b.parshiyos.map((p) => (
+              <li>
+                {(counts.get(p.id) ?? 0) > 0 ? (
+                  <>
+                    <a href={`/search/?parsha=${p.id}`}>{p.label}</a>
+                    <span class="n">{counts.get(p.id)}</span>
+                  </>
+                ) : (
+                  <>
+                    <span class="empty">{p.label}</span>
+                    <a
+                      class="small"
+                      href={`/search/?q=${encodeURIComponent(p.label)}&in=transcript`}
+                    >
+                      nothing tagged yet · search transcripts
+                    </a>
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .book {
+    font-size: 18px;
+    color: var(--accent-2);
+    margin: 0 0 4px;
+  }
+</style>

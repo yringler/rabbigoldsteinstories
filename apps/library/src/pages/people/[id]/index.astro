@@ -1,0 +1,67 @@
+---
+/** One person: recordings in four lists by role, and a link to the same set in /search. */
+import type { GetStaticPaths } from "astro";
+import RecRow from "../../../components/RecRow.astro";
+import Base from "../../../layouts/Base.astro";
+import { label, rows, usage, vocab } from "../../../lib/site-data.ts";
+
+export const getStaticPaths = (() => {
+  const counts = usage("people");
+  return (vocab().lists["people"] ?? [])
+    .filter((p) => !p.unconfirmed && (counts.get(p.id) ?? 0) > 0)
+    .map((p) => ({ params: { id: p.id } }));
+}) satisfies GetStaticPaths;
+
+const id = String(Astro.params.id);
+const name = label("people", id);
+const ROLES = [
+  ["central", "Central to the story"],
+  ["appears", "Appears"],
+  ["teaching_cited", "A teaching of theirs is cited"],
+  ["mentioned", "Mentioned"],
+] as const;
+const mine = rows().filter((r) => r.preferred && r.people.some(([p]) => p === id));
+const byRole = ROLES.map(([role, heading]) => ({
+  role,
+  heading,
+  rows: mine
+    .filter((r) => r.people.some(([p, ro]) => p === id && ro === role))
+    .sort((a, b) => (a.sortKey || 9e7) - (b.sortKey || 9e7)),
+})).filter((g) => g.rows.length > 0);
+---
+
+<Base title={name} description={`Recordings about ${name}: stories, teachings and mentions.`}>
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/people/">People</a>
+      </nav>
+      <h1>{name}</h1>
+      <p>
+        {mine.length} recordings. <a href={`/search/?people=${id}`}>Search and filter these</a>.
+      </p>
+      <nav class="btn-row" aria-label="Roles">
+        {byRole.map((g) => (
+          <a class="chip" href={`#${g.role}`}>
+            {g.heading} <span class="n">{g.rows.length}</span>
+          </a>
+        ))}
+      </nav>
+    </header>
+    {byRole.map((g) => (
+      <section class="section" id={g.role} aria-labelledby={`h-${g.role}`}>
+        <div class="section-head">
+          <h2 id={`h-${g.role}`}>{g.heading}</h2>
+          <a class="small" href={`/search/?people=${id}&people.role=${g.role}`}>
+            {g.rows.length} in search
+          </a>
+        </div>
+        <ol class="rec-list">
+          {g.rows.map((r) => (
+            <RecRow row={r} />
+          ))}
+        </ol>
+      </section>
+    ))}
+  </div>
+</Base>

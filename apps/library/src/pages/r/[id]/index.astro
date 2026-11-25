@@ -1,51 +1,1403 @@
 ---
-// Placeholder item page, one per public recording (all metadata plus the display transcript).
-// URL /r/<id>/ (SITES.library.itemPath in packages/config/src/sites.ts).
+/**
+ * Recording page (docs/sites/library.md §6): every public field, chapters, relations, transcript
+ * with click-to-seek, ?t= deep links, citations and a print card. Works without JavaScript for
+ * reading (metadata, transcript text, native audio control).
+ */
 import type { GetStaticPaths } from "astro";
-import { formatDuration, type PublicItem } from "@goldstein/data";
-import { loadCatalog, loadItem, loadTranscript } from "@goldstein/data/load";
+import { CONTACT_EMAIL } from "@goldstein/config/sites";
+import { formatDuration, type PublicItem, type PublicSegment } from "@goldstein/data";
+import { loadTranscript } from "@goldstein/data/load";
+import Icon from "../../../components/Icon.astro";
 import Base from "../../../layouts/Base.astro";
+import { cite } from "../../../lib/citation.ts";
+import { basisText, displayDate, hebrewYearSpan } from "../../../lib/dates.ts";
+import { qrSvg } from "../../../lib/qr.ts";
+import {
+  artist,
+  catalog,
+  citeInput,
+  episodes,
+  groupsByItem,
+  inverseRelations,
+  item as loadItem,
+  label,
+  ORIGIN,
+  RADIO_SERIES,
+  rowById,
+  serialPosition,
+  setSiblings,
+  speakerLabel,
+  storyGroups,
+  unconfirmed,
+} from "../../../lib/site-data.ts";
+import { humanLength } from "../../../lib/time.ts";
+import { entryOf, trackOf } from "../../../lib/tracks.ts";
 
 export const getStaticPaths = (() =>
-  loadCatalog().map((c) => ({ params: { id: c.id } }))) satisfies GetStaticPaths;
+  catalog().map((c) => ({ params: { id: c.id } }))) satisfies GetStaticPaths;
 
 const id = String(Astro.params.id);
-const item: PublicItem = loadItem(id);
-const transcript = item.transcript.display === "show_with_label" ? loadTranscript(id) : null;
+const it: PublicItem = loadItem(id);
+const rows = rowById();
+const row = rows.get(id);
+if (!row) throw new Error(`no row for ${id}`);
+const c = it.classification;
+const date = displayDate(c.date);
+const transcript = it.transcript.display === "show_with_label" ? loadTranscript(id) : null;
+const art = artist(c.speakers);
+const mainTrack = trackOf(row, {}, art);
+const trackJson = JSON.stringify(mainTrack);
+const entryJson = JSON.stringify(entryOf(row));
+const citation = cite(citeInput(it));
+const cin = citeInput(it);
+const isRadio = c.series === RADIO_SERIES;
+const ep = c.episode?.number;
+const ended = it.content_end_sec < it.duration_sec - 1;
+const langName = (l: string) => ({ en: "English", yi: "Yiddish", he: "Hebrew" })[l] ?? l;
+const spoken = it.language.spoken.filter((l) => l !== it.language.primary).map(langName);
+const langLine = `${langName(it.language.primary)}${spoken.length ? `, with some ${spoken.join(" and ")}` : ""}`;
+const level = label("audience_level", it.audience.level);
+
+// Speakers: unknown → "Speaker not identified"; placeholders render their label verbatim (never linked).
+const speakers = c.speakers.filter((s) => s !== "guest_children");
+const withGuests = c.speakers.includes("guest_children");
+
+// Breadcrumbs and episode neighbours
+const eps = episodes();
+const epIndex =
+  ep !== undefined && c.content_type === "radio_episode" ? eps.findIndex((e) => e.n === ep) : -1;
+const prevEp = epIndex > 0 ? eps[epIndex - 1] : undefined;
+const nextEp = epIndex >= 0 && epIndex < eps.length - 1 ? eps[epIndex + 1] : undefined;
+const epHref = (n: number) => `/radio/ep/${n}/`;
+
+// People by role
+const ROLE_ORDER = [
+  ["central", "Central"],
+  ["appears", "Appears"],
+  ["teaching_cited", "Teaching cited"],
+  ["mentioned", "Mentioned"],
+] as const;
+const peopleBy = ROLE_ORDER.map(([role, heading]) => ({
+  heading,
+  people: it.subjects.people.filter((p) => p.role === role).map((p) => p.id),
+})).filter((g) => g.people.length > 0);
+
+const subjectGroups: { heading: string; facet: string; list: string; ids: string[] }[] = [
+  { heading: "Midos", facet: "midos", list: "midos", ids: it.subjects.midos },
+  { heading: "Mitzvos", facet: "mitzvos", list: "mitzvos", ids: it.subjects.mitzvos },
+  { heading: "Topics", facet: "topics", list: "topics", ids: it.subjects.topics },
+  { heading: "Jewish calendar", facet: "calendar", list: "calendar", ids: it.subjects.calendar },
+  { heading: "Parsha", facet: "parsha", list: "parshiyos", ids: it.subjects.parshiyos },
+].filter((g) => g.ids.length > 0);
+
+// Chapters (end filled from the next start or the content end)
+const segs = it.segments.map((s, i): PublicSegment & { end: number } => ({
+  ...s,
+  end: s.end_sec ?? it.segments[i + 1]?.start_sec ?? it.content_end_sec,
+}));
+const segTag = (t: string) =>
+  (label("segment_type", t).split(/ \/ | \(/)[0] ?? t).replace(/ with guest children$/i, "");
+const PRIVATE_TYPES = new Set(["shema_guest", "mailbox", "announcement", "sponsor"]);
+
+// Relations, grouped (library.md §6.3); inverse links added so both sides show.
+const REL_HEADINGS: [string, string[]][] = [
+  ["This is a clip from", ["clip_of"]],
+  ["Clips from this episode", ["contains"]],
+  ["Broadcast again", ["aired_again_in"]],
+  ["Continued from", ["continues"]],
+  ["Continues in", ["continued_by"]],
+  ["Other parts", ["part_of_set"]],
+  ["Other tellings of this story", ["same_story", "same_story_other_language"]],
+  ["Other versions", ["same_recording", "alternate_take", "superseded_by", "supersedes"]],
+];
+interface Rel {
+  type: string;
+  id: string;
+  confidence: number;
+  offset?: number;
+}
+const rels: Rel[] = it.relations.map((r) => {
+  const x: Rel = { type: r.type, id: r.target_id, confidence: r.confidence };
+  if (r.offset_sec !== undefined) x.offset = r.offset_sec;
+  return x;
+});
+const INVERSE: Record<string, string> = {
+  clip_of: "contains",
+  contains: "clip_of",
+  continues: "continued_by",
+  superseded_by: "supersedes",
+};
+for (const inv of inverseRelations().get(id) ?? []) {
+  const type = INVERSE[inv.type] ?? inv.type;
+  if (!rels.some((r) => r.id === inv.from && (r.type === type || r.type === inv.type))) {
+    const x: Rel = { type, id: inv.from, confidence: inv.confidence };
+    if (inv.type === "clip_of" && inv.offset_sec !== undefined) x.offset = inv.offset_sec;
+    rels.push(x);
+  }
+}
+const confident = rels.filter((r) => r.confidence >= 0.8 && rows.has(r.id));
+const possibly = rels.filter((r) => r.confidence < 0.8 && rows.has(r.id));
+const relGroups = REL_HEADINGS.map(([heading, types]) => ({
+  heading,
+  items: confident
+    .filter((r) => types.includes(r.type))
+    .filter((r, i, a) => a.findIndex((x) => x.id === r.id) === i)
+    .sort(
+      (a, b) =>
+        (rows.get(a.id)?.sortKey ?? 0) - (rows.get(b.id)?.sortKey ?? 0) ||
+        (a.offset ?? 0) - (b.offset ?? 0),
+    ),
+})).filter((g) => g.items.length > 0);
+const groups = (groupsByItem().get(id) ?? [])
+  .map((g) => storyGroups().groups.find((x) => x.group_id === g))
+  .filter((g) => g !== undefined);
+const superseded = !it.derived.preferred_copy;
+const clipParent = it.derived.clip_of[0];
+const clipOffset = it.relations.find((r) => r.type === "clip_of")?.offset_sec;
+
+// Serial, set, study text
+const serial = c.serial ? serialPosition(id) : null;
+const siblings = c.part?.set_key ? setSiblings(c.part.set_key) : [];
+
+// Transcript rows: consecutive withheld lines collapse into one gap.
+type TRow =
+  | { kind: "line"; s: number; e: number; t: string }
+  | { kind: "gap"; s: number; e: number }
+  | { kind: "chapter"; s: number; title: string };
+const tRows: TRow[] = [];
+if (transcript) {
+  const chapterStarts = segs.filter((s) => s.type !== "opening" || s.start_sec > 0);
+  let ci = 0;
+  for (const l of transcript.lines) {
+    while (ci < chapterStarts.length && (chapterStarts[ci]?.start_sec ?? Infinity) <= l.s + 0.5) {
+      const ch = chapterStarts[ci];
+      if (ch) tRows.push({ kind: "chapter", s: ch.start_sec, title: ch.title });
+      ci++;
+    }
+    const last = tRows[tRows.length - 1];
+    if (l.t === null) {
+      if (last?.kind === "gap") last.e = l.e;
+      else tRows.push({ kind: "gap", s: l.s, e: l.e });
+    } else tRows.push({ kind: "line", s: l.s, e: l.e, t: l.t });
+  }
+}
+
+const sizeMb = it.media.size_bytes ? `${(it.media.size_bytes / 1048576).toFixed(1)} MB` : null;
+const jsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "AudioObject",
+  name: it.title,
+  description: it.summary_short,
+  duration: `PT${Math.floor(it.duration_sec / 60)}M${Math.round(it.duration_sec % 60)}S`,
+  contentUrl: it.media.url,
+  encodingFormat: "audio/mpeg",
+  inLanguage: it.language.primary,
+  url: `${ORIGIN}/r/${id}/`,
+};
+if (c.date?.precision === "day" && c.date.gregorian) jsonLd["datePublished"] = c.date.gregorian;
+const reportHref = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction for recording ${id}`)}&body=${encodeURIComponent(
+  `Recording: ${it.title}\nLink: ${ORIGIN}/r/${id}/\nField (summary, date, chapters, transcript…):\nWhat is wrong:\nWhat it should be:\n`,
+)}`;
+const sp = (n: number) => formatDuration(n);
+const yearLabel = c.date?.hebrew_year
+  ? `${c.date.hebrew_year} (${hebrewYearSpan(c.date.hebrew_year)})`
+  : null;
+const relLabel = (r: Rel) => {
+  const t = rows.get(r.id);
+  return t ? t.title : r.id;
+};
+const relHref = (r: Rel) =>
+  `/r/${r.id}/${r.type === "clip_of" && r.offset ? `?t=${Math.floor(r.offset)}` : ""}`;
+const citeData = JSON.stringify(cin);
+const qr = qrSvg(`${ORIGIN}/r/${id}/`, 88);
 ---
 
-<Base title={item.title}>
-  <h1>{item.title}</h1>
-  <p>{item.summary_short}</p>
-  <p>
-    {formatDuration(item.content_end_sec - item.content_start_sec)}
-    <button
-      type="button"
-      data-play-url={item.media.url}
-      data-id={item.id}
-      data-title={item.title}
-      data-start={item.content_start_sec}
-      data-end={item.content_end_sec}
-    >
-      Play
-    </button>
-  </p>
-  {item.segments.length > 0 && (
-    <ol>
-      {item.segments.map((s) => (
-        <li>
-          {formatDuration(s.start_sec)} {s.title}
-        </li>
-      ))}
-    </ol>
-  )}
-  {transcript && (
-    <section>
-      <h2>Transcript</h2>
-      <p>{transcript.label}</p>
-      {transcript.lines.map((l) => (
-        <p>{l.t ?? "…"}</p>
-      ))}
+<Base title={it.title} description={it.summary_short} noindex={superseded} jsonLd={jsonLd}>
+  <article
+    class="page rec-page"
+    data-rec-page
+    data-id={id}
+    data-start={it.content_start_sec}
+    data-end={it.content_end_sec}
+    data-title={it.title}
+  >
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        {isRadio ? (
+          <>
+            <a href="/radio/">Radio show</a>
+            {c.date?.hebrew_year && (
+              <>
+                <span class="sep">›</span>
+                <a href={`/radio/#y${c.date.hebrew_year}`}>{yearLabel}</a>
+              </>
+            )}
+            {ep !== undefined && (
+              <>
+                <span class="sep">›</span>
+                <span>
+                  Episode {ep}
+                  {c.episode?.is_clip ? " (clip)" : ""}
+                </span>
+              </>
+            )}
+          </>
+        ) : c.series ? (
+          <>
+            <a href="/series/">Series</a>
+            <span class="sep">›</span>
+            <a
+              href={`/series/${c.series}/`}
+              class={unconfirmed("series", c.series) ? "unconfirmed" : undefined}
+            >
+              {label("series", c.series)}
+            </a>
+          </>
+        ) : (
+          <a href="/search/">All recordings</a>
+        )}
+        {epIndex >= 0 && (
+          <span class="ep-nav">
+            {prevEp && (
+              <a class="btn btn-quiet" href={epHref(prevEp.n)} rel="prev">
+                ‹ Ep {prevEp.n}
+              </a>
+            )}
+            {nextEp && (
+              <a class="btn btn-quiet" href={epHref(nextEp.n)} rel="next">
+                Ep {nextEp.n} ›
+              </a>
+            )}
+          </span>
+        )}
+      </nav>
+
+      <header class="rec-head">
+        <h1>{it.title}</h1>
+        {it.title_he && (
+          <p class="title-he" lang="he" dir="rtl">
+            {it.title_he}
+          </p>
+        )}
+        {it.title_translit && it.title_translit !== it.title && (
+          <p class="muted title-tr">{it.title_translit}</p>
+        )}
+        <p class="type-line">
+          <span>{label("content_type", c.content_type)}</span>
+          {speakers.length > 0 && (
+            <span>
+              {speakers.map((s, i) => (
+                <>
+                  {i > 0 && ", "}
+                  {s === "unknown" || unconfirmed("speakers", s) ? (
+                    <span class={s === "unknown" ? "muted" : "unconfirmed"}>{speakerLabel(s)}</span>
+                  ) : (
+                    <a href={`/search/?speaker=${s}`}>{speakerLabel(s)}</a>
+                  )}
+                </>
+              ))}
+              {withGuests && ", with guest children"}
+            </span>
+          )}
+          {c.series && (
+            <span>
+              <a
+                href={`/series/${c.series}/`}
+                class={unconfirmed("series", c.series) ? "unconfirmed" : undefined}
+              >
+                {label("series", c.series)}
+              </a>
+            </span>
+          )}
+          {c.collections.length > 0 && <span class="muted">{c.collections.join(", ")}</span>}
+        </p>
+        <p class="date-line">
+          {date.hebrew && <span class="hdate">{date.hebrew}</span>}
+          {date.gregorian && <span>{date.gregorian}</span>}
+          {!date.hebrew && !date.gregorian && <span class="muted">Date unknown</span>}
+          <span class="num">{formatDuration(it.content_end_sec - it.content_start_sec)}</span>
+          <span>{langLine}</span>
+          <span>
+            ages {it.audience.age_min}+ · {level}
+          </span>
+        </p>
+        {c.date && c.date.precision !== "unknown" && (
+          <details class="how">
+            <summary>How do we know the date?</summary>
+            <p>
+              {basisText(c.date.basis)} Precision: {c.date.precision}.
+              {c.date.note && <> {c.date.note}</>}
+            </p>
+          </details>
+        )}
+      </header>
+
+      {superseded && (
+        <div class="notice" style="margin-bottom:16px">
+          <Icon name="info" />
+          <p>
+            A better copy of this recording exists:{" "}
+            {it.derived.preferred_ids.map((p, i) => (
+              <>
+                {i > 0 && ", "}
+                <a href={`/r/${p}/`}>{rows.get(p)?.title ?? p}</a>
+              </>
+            ))}
+            . This copy is kept as another version.
+          </p>
+        </div>
+      )}
+
+      <div class="rec-actions-bar no-print">
+        <button
+          type="button"
+          class="btn btn-primary btn-lg"
+          data-action="play"
+          data-track={trackJson}
+          data-main-play
+        >
+          <Icon name="play" size={16} /> <span data-play-label>Play</span>
+        </button>
+        <button type="button" class="btn btn-lg" data-action="queue" data-track={trackJson}>
+          <Icon name="queue" /> Queue
+        </button>
+        <button
+          type="button"
+          class="btn btn-lg"
+          data-action="add"
+          data-entry={entryJson}
+          data-what={it.title}
+        >
+          <Icon name="plus" /> Playlist
+        </button>
+        <button type="button" class="btn btn-lg" data-cite-open>
+          <Icon name="quote" /> Cite
+        </button>
+        <button type="button" class="btn btn-lg" data-copy-link>
+          <Icon name="link" /> <span data-copy-label>Copy link</span>
+        </button>
+        <button type="button" class="btn btn-lg" data-print-card>
+          <Icon name="print" /> Print card
+        </button>
+        <a class="btn btn-lg btn-quiet" href={it.media.url} download>
+          <Icon name="download" /> Download MP3{sizeMb && ` (${sizeMb})`}
+        </a>
+      </div>
+      <noscript>
+        <p>
+          <audio controls preload="none" src={it.media.url} style="width:100%"></audio>
+        </p>
+      </noscript>
+      {ended && (
+        <p class="small muted">
+          Content ends at {sp(it.content_end_sec)}; the rest of the tape is blank. The player stops
+          there unless you seek past it.
+        </p>
+      )}
+      {clipParent && rows.has(clipParent) && (
+        <p class="small">
+          Cut from{" "}
+          <a href={`/r/${clipParent}/${clipOffset ? `?t=${Math.floor(clipOffset)}` : ""}`}>
+            {rows.get(clipParent)?.title}
+          </a>
+          {clipOffset !== undefined && <>, starting at {sp(clipOffset)}</>}.{" "}
+          <a
+            class="btn btn-quiet"
+            href={`/r/${clipParent}/${clipOffset ? `?t=${Math.floor(clipOffset)}` : ""}`}
+          >
+            Play in context
+          </a>
+        </p>
+      )}
+
+      {it.audience.advisories.length > 0 && (
+        <section class="notice notice-advisory advisories" aria-labelledby="adv-h">
+          <Icon name="alert" />
+          <div>
+            <h2 id="adv-h" class="adv-h">
+              Note for parents
+            </h2>
+            <ul>
+              {it.audience.advisories.map((a) => (
+                <li>
+                  <strong>{label("content_advisory", a.flag)}</strong>{" "}
+                  <span class="tag">{a.severity}</span> {a.note}
+                  {a.at_sec !== undefined && (
+                    <>
+                      {" "}
+                      <a href={`?t=${Math.floor(a.at_sec)}`} data-seek={a.at_sec}>
+                        at {sp(a.at_sec)}
+                      </a>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      <div class="cols-2 rec-body">
+        <div class="rec-main">
+          <section class="section" aria-labelledby="sum-h">
+            <h2 id="sum-h" class="visually-hidden">
+              Summary
+            </h2>
+            <p class="lede summary-short">{it.summary_short}</p>
+            {it.summary_long && it.summary_long !== it.summary_short && (
+              <div class="reading">
+                {it.summary_long.split(/\n+/).map((p) => (
+                  <p>{p}</p>
+                ))}
+              </div>
+            )}
+            <p class="small muted ai-note">Summary written with AI from the recording.</p>
+          </section>
+
+          {it.lesson && (
+            <section class="section">
+              <h2>Lesson</h2>
+              <blockquote class="lesson">{it.lesson}</blockquote>
+            </section>
+          )}
+
+          {it.keywords.length > 0 && (
+            <section class="section">
+              <h2>Keywords</h2>
+              <ul class="chips">
+                {it.keywords.map((k) => (
+                  <li>
+                    <a class="chip" href={`/search/?q=${encodeURIComponent(k)}`}>
+                      {k}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {subjectGroups.length > 0 && (
+            <section class="section">
+              <h2>Subjects</h2>
+              <dl class="facts">
+                {subjectGroups.map((g) => (
+                  <>
+                    <dt>{g.heading}</dt>
+                    <dd>
+                      <ul class="chips">
+                        {g.ids.map((v) => (
+                          <li>
+                            <a class="chip" href={`/search/?${g.facet}=${v}`}>
+                              {label(g.list, v)}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </dd>
+                  </>
+                ))}
+              </dl>
+            </section>
+          )}
+
+          {(peopleBy.length > 0 ||
+            it.subjects.characters.length > 0 ||
+            it.subjects.places.length > 0) && (
+            <section class="section">
+              <h2>People and places</h2>
+              <dl class="facts">
+                {peopleBy.map((g) => (
+                  <>
+                    <dt>{g.heading}</dt>
+                    <dd>
+                      {g.people.map((p, i) => (
+                        <>
+                          {i > 0 && " · "}
+                          {unconfirmed("people", p) ? (
+                            <span class="unconfirmed">{label("people", p)}</span>
+                          ) : (
+                            <a href={`/people/${p}/`}>{label("people", p)}</a>
+                          )}
+                        </>
+                      ))}
+                    </dd>
+                  </>
+                ))}
+                {it.subjects.characters.length > 0 && (
+                  <>
+                    <dt>Characters</dt>
+                    <dd>{it.subjects.characters.join(" · ")}</dd>
+                  </>
+                )}
+                {it.subjects.places.length > 0 && (
+                  <>
+                    <dt>Places</dt>
+                    <dd>
+                      {it.subjects.places.map((p, i) => (
+                        <>
+                          {i > 0 && " · "}
+                          <a href={`/search/?places=${encodeURIComponent(p)}`}>{p}</a>
+                        </>
+                      ))}
+                    </dd>
+                  </>
+                )}
+              </dl>
+            </section>
+          )}
+
+          {it.subjects.sources_cited.length > 0 && (
+            <section class="section">
+              <h2>Sources cited</h2>
+              <div class="table-wrap">
+                <table class="data">
+                  <thead>
+                    <tr>
+                      <th scope="col">Work</th>
+                      <th scope="col">Reference</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {it.subjects.sources_cited.map((s) => (
+                      <tr>
+                        <td class="nowrap">
+                          <a href={`/sources/${s.work}/`}>{label("works", s.work)}</a>
+                        </td>
+                        <td>{s.ref ?? "—"}</td>
+                        <td>{s.note ?? ""}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+
+          {(serial ||
+            c.serial ||
+            c.part ||
+            c.study_text?.length ||
+            c.standalone !== "standalone") && (
+            <section class="section">
+              <h2>Where it belongs</h2>
+              <dl class="facts">
+                {serial ? (
+                  <>
+                    <dt>Serial</dt>
+                    <dd>
+                      Chapter {serial.chapter} of {serial.of} of{" "}
+                      <a href={`/serials/${serial.key}/`}>
+                        <em>{serial.title}</em>
+                      </a>{" "}
+                      ({serial.runLabel} airing)
+                      {serial.start !== null && (
+                        <>
+                          {" "}
+                          · story starts at{" "}
+                          <a href={`?t=${Math.floor(serial.start)}`} data-seek={serial.start}>
+                            {sp(serial.start)}
+                          </a>
+                        </>
+                      )}
+                      <div class="btn-row" style="margin-top:6px">
+                        {serial.prev && (
+                          <a
+                            class="btn"
+                            href={`/r/${serial.prev.id}/${serial.prev.start ? `?t=${Math.floor(serial.prev.start)}` : ""}`}
+                          >
+                            ‹ Chapter {serial.prev.chapter}
+                          </a>
+                        )}
+                        {serial.next && (
+                          <a
+                            class="btn"
+                            href={`/r/${serial.next.id}/${serial.next.start ? `?t=${Math.floor(serial.next.start)}` : ""}`}
+                          >
+                            Chapter {serial.next.chapter} ›
+                          </a>
+                        )}
+                        <a class="btn btn-quiet" href={`/serials/${serial.key}/`}>
+                          Serial reader
+                        </a>
+                      </div>
+                    </dd>
+                  </>
+                ) : c.serial ? (
+                  <>
+                    <dt>Serial</dt>
+                    <dd>
+                      {c.serial.chapter ? `Chapter ${c.serial.chapter} of ` : "Part of "}
+                      {c.serial.story_key ? (
+                        <a href={`/serials/${c.serial.story_key}/`}>
+                          <em>{c.serial.story_title}</em>
+                        </a>
+                      ) : (
+                        <em>{c.serial.story_title}</em>
+                      )}
+                    </dd>
+                  </>
+                ) : null}
+                {c.part && (
+                  <>
+                    <dt>Part of a set</dt>
+                    <dd>
+                      Part {c.part.part_number}
+                      {c.part.of ? ` of ${c.part.of}` : ""}
+                      {siblings.length > 1 && (
+                        <ol class="parts">
+                          {siblings.map((s) => (
+                            <li>
+                              {s.id === id ? (
+                                <strong>{s.title}</strong>
+                              ) : (
+                                <a href={`/r/${s.id}/`}>{s.title}</a>
+                              )}
+                            </li>
+                          ))}
+                        </ol>
+                      )}
+                    </dd>
+                  </>
+                )}
+                {c.study_text?.map((s) => (
+                  <>
+                    <dt>Study text</dt>
+                    <dd>
+                      {label("works", s.work)}
+                      {s.unit && s.from && (
+                        <>
+                          , {s.unit} {s.from}
+                          {s.to && s.to !== s.from ? `–${s.to}` : ""}
+                        </>
+                      )}
+                      {s.lecture_number && <> · shiur {s.lecture_number}</>}
+                      {s.note && <span class="muted"> · {s.note}</span>}
+                    </dd>
+                  </>
+                ))}
+                {c.standalone !== "standalone" && (
+                  <>
+                    <dt>Stands alone?</dt>
+                    <dd>
+                      {c.standalone === "cliffhanger" && "Ends on a cliffhanger"}
+                      {c.standalone === "needs_context" && "Needs the earlier part"}
+                      {c.standalone === "fragment" && "A fragment"}
+                      {c.standalone === "teaser" && "A teaser for another recording"}
+                      {serial?.next && c.standalone === "cliffhanger" && (
+                        <>
+                          : continues in{" "}
+                          <a href={`/r/${serial.next.id}/`}>{rows.get(serial.next.id)?.title}</a>
+                        </>
+                      )}
+                    </dd>
+                  </>
+                )}
+              </dl>
+            </section>
+          )}
+        </div>
+
+        <aside class="rec-side-col">
+          {segs.length > 0 && (
+            <section class="section chapters" aria-labelledby="ch-h">
+              <h2 id="ch-h">Chapters</h2>
+              <ol class="chapter-list">
+                {segs.map((s) => {
+                  const priv = PRIVATE_TYPES.has(s.type);
+                  return (
+                    <li data-ch-start={s.start_sec} data-ch-end={s.end}>
+                      <div class="ch-row">
+                        <a
+                          class="ch-time num"
+                          href={`?t=${Math.floor(s.start_sec)}`}
+                          data-seek={s.start_sec}
+                          aria-label={`Play from ${sp(s.start_sec)}: ${s.title}`}
+                        >
+                          {sp(s.start_sec)}
+                        </a>
+                        <span class="ch-title">
+                          {s.title} <span class="tag">{segTag(s.type)}</span>
+                        </span>
+                        {!priv && (
+                          <button
+                            type="button"
+                            class="icon-btn ch-add"
+                            data-action="add"
+                            data-entry={JSON.stringify(
+                              entryOf(row, { start: s.start_sec, end: s.end, label: s.title }),
+                            )}
+                            data-what={`${s.title} (${sp(s.start_sec)}–${sp(s.end)}) from ${it.title}`}
+                            aria-label={`Add chapter “${s.title}” to a playlist`}
+                          >
+                            <Icon name="plus" size={16} />
+                          </button>
+                        )}
+                      </div>
+                      {!priv && s.summary && (
+                        <details class="ch-more">
+                          <summary>Summary</summary>
+                          <p>{s.summary}</p>
+                        </details>
+                      )}
+                      {!priv && s.linked_items && s.linked_items.length > 0 && (
+                        <p class="small ch-linked">
+                          Also available as a clip:{" "}
+                          {s.linked_items.map((l, i) => (
+                            <>
+                              {i > 0 && ", "}
+                              <a href={`/r/${l}/`}>{rows.get(l)?.title ?? l}</a>
+                            </>
+                          ))}
+                        </p>
+                      )}
+                    </li>
+                  );
+                })}
+              </ol>
+            </section>
+          )}
+
+          {(relGroups.length > 0 || groups.length > 0) && (
+            <section class="section related" aria-labelledby="rel-h">
+              <h2 id="rel-h">Related recordings</h2>
+              {groups.map((g) => (
+                <p class="small">
+                  Same story: <a href={`/stories/${g.group_id}/`}>{g.title}</a> ({g.item_ids.length}{" "}
+                  recordings)
+                </p>
+              ))}
+              {relGroups.map((g) => (
+                <div class="rel-group">
+                  <h3>{g.heading}</h3>
+                  <ul>
+                    {g.items.map((r) => {
+                      const t = rows.get(r.id);
+                      return (
+                        <li>
+                          <a href={relHref(r)}>{relLabel(r)}</a>
+                          <span class="muted small">
+                            {r.offset !== undefined && ` · at ${sp(r.offset)}`}
+                            {t?.dateLabel && ` · ${t.dateLabel}`}
+                            {t && ` · ${humanLength(t.dur)}`}
+                            {r.type === "same_story_other_language" &&
+                              t &&
+                              ` · ${t.lang === "yi" ? "Yiddish" : t.lang === "he" ? "Hebrew" : "English"}`}
+                            {r.type === "superseded_by" && " · better copy"}
+                            {r.type === "supersedes" && " · older copy"}
+                            {r.type === "alternate_take" && " · alternate take"}
+                          </span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              ))}
+              {possibly.length > 0 && (
+                <details class="rel-group">
+                  <summary>Possibly related ({possibly.length})</summary>
+                  <ul>
+                    {possibly.map((r) => (
+                      <li>
+                        <a href={relHref(r)}>{relLabel(r)}</a>
+                        <span class="muted small">
+                          {" "}
+                          ·{" "}
+                          {label(
+                            "relation_type",
+                            r.type === "continued_by"
+                              ? "continues"
+                              : r.type === "supersedes"
+                                ? "superseded_by"
+                                : r.type,
+                          ).toLowerCase()}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              )}
+            </section>
+          )}
+
+          <section class="section about-rec">
+            <h2>About this recording</h2>
+            <dl class="facts small">
+              <dt>Recording id</dt>
+              <dd>
+                <code>{id}</code>
+              </dd>
+              <dt>File length</dt>
+              <dd class="num">
+                {formatDuration(it.duration_sec)}
+                {sizeMb && ` · ${sizeMb}`}
+              </dd>
+              {it.transcript.masked_lines > 0 && (
+                <>
+                  <dt>Transcript</dt>
+                  <dd>
+                    {it.transcript.masked_lines} lines not transcribed (personal details read on
+                    air)
+                  </dd>
+                </>
+              )}
+            </dl>
+            <p class="small">
+              <a href={reportHref}>Report an error in this record</a>
+            </p>
+          </section>
+        </aside>
+      </div>
+
+      {transcript && (
+        <section class="transcript" id="transcript" aria-label="Transcript">
+          <div class="transcript-head">
+            <h2>Transcript</h2>
+            <p class="t-label">Automatic transcript, may contain errors</p>
+            <div class="t-tools no-print">
+              <label class="btn-row small">
+                <input type="checkbox" data-follow checked /> Follow audio
+              </label>
+              <button type="button" class="btn" data-resume-follow hidden>
+                Resume following
+              </button>
+              <div class="t-find" role="search">
+                <label class="visually-hidden" for="t-find">
+                  Find in transcript
+                </label>
+                <input id="t-find" type="search" placeholder="Find in transcript…" data-t-find />
+                <span class="small muted num" data-t-count aria-live="polite"></span>
+                <button type="button" class="icon-btn" data-t-prev aria-label="Previous match">
+                  <Icon name="up" />
+                </button>
+                <button type="button" class="icon-btn" data-t-next aria-label="Next match">
+                  <Icon name="down" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="t-body" data-t-body>
+            {tRows.map((r) =>
+              r.kind === "chapter" ? (
+                <h3 class="t-ch">{r.title}</h3>
+              ) : r.kind === "gap" ? (
+                <p class="t-gap" data-s={r.s} data-e={r.e}>
+                  <a href={`?t=${Math.floor(r.s)}`} class="ts num" data-seek={r.s}>
+                    {sp(r.s)}
+                  </a>
+                  <span>
+                    Part of this recording is not transcribed (personal details read on air).{" "}
+                    {sp(r.s)}–{sp(r.e)}. The audio is unchanged.
+                  </span>
+                </p>
+              ) : (
+                <p class="t-line" data-s={r.s} data-e={r.e} tabindex="0">
+                  <a href={`?t=${Math.floor(r.s)}`} class="ts num" tabindex="-1" data-seek={r.s}>
+                    {sp(r.s)}
+                  </a>
+                  <span class="tx">{r.t}</span>
+                </p>
+              ),
+            )}
+          </div>
+          <button type="button" class="btn copy-quote no-print" data-copy-quote hidden>
+            <Icon name="quote" size={16} /> Copy quote with citation
+          </button>
+        </section>
+      )}
+      {it.transcript.display === "search_only" && (
+        <section class="section transcript-note">
+          <h2>Transcript</h2>
+          <p class="muted">
+            This recording is in Yiddish. There is no readable transcript; you can still search it.
+          </p>
+        </section>
+      )}
+    </div>
+
+    <section class="print-card" aria-label="Story card">
+      <div class="pc-head">
+        <div>
+          <h2>{it.title}</h2>
+          <p>
+            {speakers
+              .filter((s) => s !== "unknown" && !unconfirmed("speakers", s))
+              .map(speakerLabel)
+              .join(", ") || "Speaker not identified"}
+            {date.short !== "Date unknown" && <> · {date.short}</>} ·{" "}
+            {humanLength(it.content_end_sec - it.content_start_sec)} · ages {it.audience.age_min}+
+          </p>
+        </div>
+        <Fragment set:html={qr} />
+      </div>
+      <p class="pc-sum">{it.summary_short}</p>
+      {it.lesson && (
+        <p>
+          <strong>Lesson:</strong> {it.lesson}
+        </p>
+      )}
+      {(it.subjects.midos.length > 0 || it.subjects.mitzvos.length > 0) && (
+        <p>
+          {it.subjects.midos.length > 0 && (
+            <>
+              <strong>Midos:</strong> {it.subjects.midos.map((m) => label("midos", m)).join(", ")}
+              .{" "}
+            </>
+          )}
+          {it.subjects.mitzvos.length > 0 && (
+            <>
+              <strong>Mitzvos:</strong>{" "}
+              {it.subjects.mitzvos.map((m) => label("mitzvos", m)).join(", ")}.
+            </>
+          )}
+        </p>
+      )}
+      {it.subjects.sources_cited.length > 0 && (
+        <p>
+          <strong>Sources:</strong>{" "}
+          {it.subjects.sources_cited
+            .map((s) => `${label("works", s.work)}${s.ref ? ` ${s.ref}` : ""}`)
+            .join("; ")}
+          .
+        </p>
+      )}
+      {it.audience.advisories.length > 0 && (
+        <p>
+          <strong>Note for parents:</strong>{" "}
+          {it.audience.advisories
+            .map((a) => `${label("content_advisory", a.flag)} (${a.severity}): ${a.note}`)
+            .join(" ")}
+        </p>
+      )}
+      {segs.length > 0 && (
+        <ol class="pc-chapters" data-pc-chapters hidden>
+          {segs.map((s) => (
+            <li>
+              <span class="num">{sp(s.start_sec)}</span> {s.title}
+            </li>
+          ))}
+        </ol>
+      )}
+      <p class="pc-cite">{citation.full}</p>
     </section>
-  )}
+
+    <dialog id="cite-dialog" aria-labelledby="cite-title">
+      <div class="dialog-head">
+        <h2 id="cite-title">Cite this recording</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <Icon name="close" />
+        </button>
+      </div>
+      <div class="dialog-body">
+        <label class="btn-row small">
+          <input type="checkbox" data-cite-time /> Include the time{" "}
+          <span data-cite-time-label class="num"></span>
+        </label>
+        <div class="copy-field">
+          <strong class="small">Short</strong>
+          <div class="row">
+            <output data-cite="short">{citation.short}</output>
+            <button type="button" class="btn" data-copy-cite="short">
+              <Icon name="copy" size={16} /> Copy
+            </button>
+          </div>
+        </div>
+        <div class="copy-field">
+          <strong class="small">Full</strong>
+          <div class="row">
+            <output data-cite="full">{citation.full}</output>
+            <button type="button" class="btn" data-copy-cite="full">
+              <Icon name="copy" size={16} /> Copy
+            </button>
+          </div>
+        </div>
+        <div class="copy-field">
+          <strong class="small">Link</strong>
+          <div class="row">
+            <output data-cite="link">{citation.link}</output>
+            <button type="button" class="btn" data-copy-cite="link">
+              <Icon name="copy" size={16} /> Copy
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="print-dialog" aria-labelledby="print-title">
+      <div class="dialog-head">
+        <h2 id="print-title">Print a story card</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <Icon name="close" />
+        </button>
+      </div>
+      <div class="dialog-body">
+        <p class="small">
+          One card with the summary, lesson, subjects, sources, parents' note, the citation and a QR
+          code to this page.
+        </p>
+        {segs.length > 0 && (
+          <label class="btn-row">
+            <input type="checkbox" data-print-chapters /> Print chapters too
+          </label>
+        )}
+      </div>
+      <div class="dialog-foot">
+        <button type="button" class="btn" data-close>
+          Cancel
+        </button>
+        <button type="button" class="btn btn-primary" data-print-go>
+          <Icon name="print" /> Print
+        </button>
+      </div>
+    </dialog>
+    <script type="application/json" id="cite-input" set:html={citeData} />
+  </article>
 </Base>
+
+<style>
+  .rec-head h1 {
+    margin-bottom: 4px;
+    max-width: 46ch;
+  }
+  .title-he {
+    font-size: 22px;
+    margin: 0 0 2px;
+    text-align: left;
+  }
+  .title-tr {
+    margin: 0 0 6px;
+  }
+  .type-line,
+  .date-line {
+    margin: 4px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .type-line > span + span::before,
+  .date-line > span + span::before {
+    content: "·";
+    margin: 0 8px;
+    color: var(--rule-strong);
+  }
+  .date-line {
+    color: var(--muted);
+  }
+  .how {
+    margin: 6px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .how summary {
+    cursor: pointer;
+    color: var(--accent);
+    width: max-content;
+  }
+  .how p {
+    margin: 6px 0 0;
+    max-width: 72ch;
+  }
+
+  .ep-nav {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+  }
+  .rec-actions-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0 16px;
+  }
+  .advisories {
+    margin: 0 0 20px;
+    max-width: 860px;
+  }
+  .adv-h {
+    font: 600 14px/20px var(--sans);
+    margin: 0 0 4px;
+    color: var(--advisory);
+  }
+  .advisories ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+  .advisories li {
+    margin: 2px 0;
+  }
+  .rec-body {
+    margin-top: 8px;
+  }
+  .lesson {
+    margin: 0;
+    padding: 4px 0 4px 18px;
+    border-left: 3px solid var(--accent-2);
+    font: italic 18px/28px var(--serif);
+    max-width: 62ch;
+  }
+  .ai-note {
+    margin-top: -6px;
+  }
+  .facts {
+    display: grid;
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 8px 16px;
+    margin: 0;
+  }
+  .facts dt {
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .facts dd {
+    margin: 0;
+  }
+  .parts {
+    margin: 6px 0 0;
+    padding-left: 20px;
+  }
+  @media (max-width: 599px) {
+    .facts {
+      grid-template-columns: 1fr;
+      gap: 2px;
+    }
+    .facts dd {
+      margin-bottom: 8px;
+    }
+  }
+  .chapter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .chapter-list li {
+    padding: 6px 4px;
+    border-bottom: 1px solid var(--rule);
+    border-left: 3px solid transparent;
+  }
+  .chapter-list li.current {
+    border-left-color: var(--accent-2);
+    background: color-mix(in srgb, var(--accent-soft) 55%, transparent);
+  }
+  .ch-row {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr) auto;
+    gap: 8px;
+    align-items: start;
+  }
+  .ch-time {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 1px;
+  }
+  .ch-title {
+    line-height: 20px;
+  }
+  .ch-add {
+    width: 28px;
+    height: 28px;
+  }
+  .ch-more {
+    margin: 2px 0 0 60px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .ch-more summary {
+    cursor: pointer;
+    width: max-content;
+  }
+  .ch-more p {
+    margin: 4px 0;
+  }
+  .ch-linked {
+    margin: 2px 0 0 60px;
+  }
+  .rel-group h3 {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 14px 0 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .rel-group ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .rel-group li {
+    padding: 3px 0;
+  }
+  details.rel-group summary {
+    cursor: pointer;
+    margin-top: 14px;
+    color: var(--muted);
+  }
+  .transcript {
+    margin-top: 16px;
+    border-top: 2px solid var(--ink);
+    padding-top: 16px;
+  }
+  .transcript-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 16px;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 5;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .transcript-head h2 {
+    margin: 0;
+  }
+  .t-label {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .t-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    align-items: center;
+    margin-left: auto;
+  }
+  .t-find {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  .t-find input {
+    width: 200px;
+  }
+  .t-body {
+    max-width: 82ch;
+    padding-top: 10px;
+  }
+  .t-ch {
+    font: 600 13px/18px var(--sans);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-2);
+    margin: 22px 0 6px 64px;
+  }
+  .t-line,
+  .t-gap {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 12px;
+    margin: 0;
+    padding: 4px 8px 4px 0;
+    border-left: 3px solid transparent;
+    font: 17px/27px var(--serif);
+    cursor: pointer;
+  }
+  .t-line:hover {
+    background: color-mix(in srgb, var(--accent-soft) 35%, transparent);
+  }
+  .t-line.current {
+    border-left-color: var(--accent-2);
+    background: color-mix(in srgb, var(--accent-soft) 60%, transparent);
+  }
+  .t-line .ts,
+  .t-gap .ts {
+    font: 600 12px/27px var(--sans);
+    text-align: right;
+    text-decoration: none;
+    color: var(--muted);
+  }
+  .t-line.current .ts {
+    color: var(--accent);
+  }
+  .t-gap {
+    font: italic 14px/22px var(--sans);
+    color: var(--muted);
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .t-gap span {
+    border: 1px dashed var(--rule-strong);
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+  .copy-quote {
+    position: absolute;
+    z-index: 20;
+  }
+  .print-card {
+    display: none;
+  }
+  @media print {
+    :global(html.print-card-mode) .wrap {
+      display: none;
+    }
+    :global(html.print-card-mode) .print-card {
+      display: block;
+    }
+    .print-card {
+      border: 1.5px solid #000;
+      padding: 18px 20px;
+      max-width: 148mm;
+      font: 10.5pt/1.45 var(--serif);
+    }
+    .pc-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .pc-head h2 {
+      font-size: 15pt;
+      margin: 0 0 4px;
+    }
+    .pc-head p {
+      margin: 0;
+      font: 9pt/1.4 var(--sans);
+    }
+    .pc-sum {
+      font-size: 11.5pt;
+      margin-top: 10px;
+    }
+    .pc-cite {
+      font: 8.5pt/1.4 var(--sans);
+      border-top: 1px solid #999;
+      padding-top: 6px;
+      margin-top: 10px;
+    }
+    .pc-chapters {
+      font: 9pt/1.4 var(--sans);
+      columns: 2;
+    }
+    :global(html:not(.print-card-mode)) .transcript-head {
+      position: static;
+    }
+    .rec-actions-bar,
+    .t-tools,
+    .ch-add {
+      display: none !important;
+    }
+    .cols-2 {
+      display: block;
+    }
+  }
+  :global(html.card-view) .wrap {
+    display: none;
+  }
+  :global(html.card-view) .print-card {
+    display: block;
+    max-width: 148mm;
+    margin: 24px auto;
+    background: #fff;
+    color: #000;
+    border: 1.5px solid #000;
+    padding: 18px 20px;
+    font: 15px/1.5 var(--serif);
+  }
+  :global(html.card-view) .pc-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+</style>

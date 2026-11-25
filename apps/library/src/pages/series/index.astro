@@ -1,0 +1,70 @@
+---
+import Base from "../../layouts/Base.astro";
+import { formatGregorian } from "../../lib/dates.ts";
+import { rows, seriesIndex } from "../../lib/site-data.ts";
+
+const series = seriesIndex().series;
+const none = rows().filter((r) => r.preferred && !r.series).length;
+const range = (a: string | null | undefined, b: string | null | undefined) =>
+  a && b ? `${formatGregorian(a)} – ${formatGregorian(b)}` : a ? formatGregorian(a) : "";
+---
+
+<Base
+  title="Series"
+  description="The radio show, the weekly stories, the Tanya shiurim and the other series in the archive."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Series</h1>
+      <p>
+        The programs and collections the recordings belong to. {none} recordings belong to no
+        series; find them through <a href="/search/">search</a>.
+      </p>
+    </header>
+    <div class="series-cards">
+      {series.map((s) => (
+        <article class="card">
+          <h2 class="h3">
+            <a
+              href={`/series/${s.series_id}/`}
+              class={s.label_unconfirmed ? "unconfirmed" : undefined}
+            >
+              {s.label}
+            </a>
+          </h2>
+          <p class="small num">
+            {s.counts.items} recordings · {Math.round(s.counts.hours)} hours
+            {s.date_range?.earliest && <> · {range(s.date_range.earliest, s.date_range.latest)}</>}
+          </p>
+          <p class="desc">{s.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .series-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+  }
+  .h3 {
+    font: 600 19px/25px var(--serif);
+    margin: 0;
+  }
+  .h3 a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .h3 a:hover {
+    color: var(--accent);
+  }
+  .desc {
+    color: var(--ink) !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

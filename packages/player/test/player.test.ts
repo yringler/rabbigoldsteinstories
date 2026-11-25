@@ -68,6 +68,19 @@ describe("Player", () => {
     expect(b.currentTime).toBe(250);
   });
 
+  it("appends to and removes from the queue without interrupting the current track", async () => {
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: null });
+    await p.load([tracks[1]!]);
+    p.append([tracks[0]!, tracks[1]!]);
+    expect(p.state().queue.length).toBe(3);
+    expect(p.current?.id).toBe("bbbbbbbbbb");
+    p.removeAt(0); // the current track: ignored
+    p.removeAt(1);
+    expect(p.state().queue.map((t) => t.id)).toEqual(["bbbbbbbbbb", "bbbbbbbbbb"]);
+    expect(p.state().index).toBe(0);
+  });
+
   it("sleep timer pauses playback", async () => {
     const audio = new FakeAudio();
     const p = new Player({ audio, mediaSession: null });

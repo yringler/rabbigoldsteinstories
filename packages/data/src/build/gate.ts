@@ -10,11 +10,14 @@
  *   npm run privacy:gate -- apps/kids/dist apps/library/dist
  */
 import { readFileSync } from "node:fs";
+import { gunzipSync } from "node:zlib";
 import { extname, relative, resolve } from "node:path";
 import { FORBIDDEN_KEYS, findTerms, type TermSet } from "../privacy.ts";
 import { listFiles, outDir, REPO_ROOT } from "./io.ts";
 import { buildTerms } from "./terms.ts";
 
+/** Pagefind fragments (a site's full-text search index): gzip-compressed JSON holding the indexed text. */
+const GZIP_TEXT_EXT = new Set([".pf_fragment"]);
 const TEXT_EXT = new Set([".json", ".html", ".htm", ".js", ".mjs", ".cjs", ".css", ".txt", ".xml", ".svg", ".map", ".webmanifest", ".md", ".csv", ".ts"]);
 /** Keys distinctive enough to check in any JSON (app output too). */
 const ALWAYS_FORBIDDEN = new Set(["hidden", "provenance", "identity_guesses", "proposed_new_terms", "on_air_people", "other_personal"]);
@@ -41,11 +44,14 @@ export function runGate(dirs: string[], terms: TermSet, opts: { reveal?: boolean
   for (const dir of dirs) {
     const abs = resolve(dir);
     const strictKeys = abs.startsWith(generated) ? new Set<string>(FORBIDDEN_KEYS) : ALWAYS_FORBIDDEN;
-    const files = listFiles(abs).filter((f) => TEXT_EXT.has(extname(f).toLowerCase()));
+    const files = listFiles(abs).filter((f) => {
+      const ext = extname(f).toLowerCase();
+      return TEXT_EXT.has(ext) || GZIP_TEXT_EXT.has(ext);
+    });
     if (files.length === 0) findings.push({ file: relative(REPO_ROOT, abs), problem: "no files to scan (did the build run?)" });
     for (const f of files) {
       const rel = relative(REPO_ROOT, f);
-      const text = readFileSync(f, "utf8");
+      const text = GZIP_TEXT_EXT.has(extname(f).toLowerCase()) ? gunzipSync(readFileSync(f)).toString("utf8") : readFileSync(f, "utf8");
       for (const hit of findTerms(text, terms)) {
         const label = opts.reveal ? `"${hit}"` : `#${termIndex.get(hit) ?? "?"}`;
         findings.push({ file: rel, problem: `contains hidden personal detail ${label}` });

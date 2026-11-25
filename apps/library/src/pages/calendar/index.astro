@@ -1,0 +1,51 @@
+---
+/** Jewish calendar: occasions in year order (Tishrei first) with counts. */
+import Base from "../../layouts/Base.astro";
+import { calendarGroups } from "../../lib/calendar-order.ts";
+import { usage, vocab } from "../../lib/site-data.ts";
+
+const counts = usage("calendar");
+const used = (vocab().lists["calendar"] ?? []).filter((e) => (counts.get(e.id) ?? 0) > 0);
+const groups = calendarGroups(used);
+---
+
+<Base
+  title="Jewish calendar"
+  description="Recordings for Yom Tov, fast days, Chassidic dates and the months of the year, in calendar order."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Jewish calendar</h1>
+      <p>
+        {used.length} occasions, in the order of the year from Tishrei. Radio episodes were usually
+        made for the week they aired, so a Yom Tov here lists what was said before it each year.
+      </p>
+    </header>
+    <div class="index-grid">
+      {groups.map((g) => (
+        <section>
+          <h2 class="month">{g.month === "year" ? "Through the year" : g.month}</h2>
+          <ul class="index-list">
+            {g.entries.map((e) => (
+              <li>
+                <span>
+                  <a href={`/calendar/${e.id}/`}>{e.label}</a>
+                  {e.when && <span class="muted small"> · {e.when}</span>}
+                </span>
+                <span class="n">{counts.get(e.id)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .month {
+    font-size: 18px;
+    color: var(--accent-2);
+    margin: 0 0 4px;
+  }
+</style>
