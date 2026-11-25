@@ -36,6 +36,19 @@ describe("no cross-like shapes (owner rule, kids.md §8.4)", () => {
     expect(crossingPairs(svg)).toBe(0);
   });
 
+  it("the luchos are square: straight edges only, no arched tops (Bava Basra 14a)", () => {
+    const svg = iconBody("luchos", { accent: "#FFC83D" });
+    for (const m of svg.matchAll(/\sd="([^"]+)"/g)) expect(m[1]).not.toMatch(/[aAcCqQsStT]/);
+    expect(svg).not.toMatch(/<(circle|ellipse)/);
+    expect(svg).not.toMatch(/\srx=/);
+  });
+
+  it("the menorah has straight diagonal branches, level lights and a raised shamash (the Rambam's drawing)", () => {
+    const svg = iconBody("menorah", { accent: "#FFC83D" });
+    for (const m of svg.matchAll(/\sd="([^"]+)"/g)) expect(m[1]).not.toMatch(/[aAcCqQsStT]/);
+    expect(svg).not.toMatch(/<(circle|ellipse)/);
+  });
+
   const patterns: Pattern[] = [
     "forest",
     "hills",
