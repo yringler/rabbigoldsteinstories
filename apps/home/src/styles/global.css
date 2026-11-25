@@ -711,7 +711,12 @@ a:hover {
 }
 
 .domains code {
-  font: 600 0.92rem/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font:
+    600 0.92rem/1.4 ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    monospace;
   /* Small enough that the longest host fits one line on a 390px phone. */
   font-size: min(0.92rem, 3.2vw);
   color: var(--ink);

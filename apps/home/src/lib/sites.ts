@@ -90,7 +90,10 @@ export interface FilterDomain {
 export function filterDomains(): FilterDomain[] {
   return [
     { host: SITES.home.host, role: "this page, which introduces the archive" },
-    ...siteCards().map((c) => ({ host: c.host, role: `${c.name}, the listening site ${c.kicker.toLowerCase()}` })),
+    ...siteCards().map((c) => ({
+      host: c.host,
+      role: `${c.name}, the listening site ${c.kicker.toLowerCase()}`,
+    })),
     { host: MEDIA_HOST, role: "the audio recordings that all the sites play" },
   ];
 }
