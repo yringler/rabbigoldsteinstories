@@ -219,11 +219,13 @@ Library
 - [ ] Recording page: "AI-improved MP3 (size)" link appears when available. The discovery line shows only when the preference is off.
 - [ ] About and help copy are added. The CSV/JSON export and schema have the optional `clean_audio_url`. Citations are unchanged.
 
-## 6. Open questions for the owner
+## 6. Owner answers (2026-11-25)
 
-- **Q1. Default for bedtime.** Off everywhere, as you asked. After you have listened to a few bedtime playlists with it on, would you want bedtime (only) to default to on? It is a one-line change. Kids and library would stay off.
-- **Q2. Naming the model publicly.** The library's about page names Sidon and links to its model page, for honesty and credit. Bedtime and kids say only "a computer program". OK, or should the model's name stay off the sites?
-- **Q3. Offering the AI copy as a download.** The library would offer "AI-improved MP3" next to the original download, and as a column in the data export. Default: yes (the files are already public on the media host). Say no if you'd rather the AI copy were listen-only.
+- **Q1. Default for bedtime:** no. Off on every site.
+- **Q2. Naming the model publicly:** yes, the library's about page names Sidon in one sentence, with no link. Bedtime and kids say only "a computer program".
+- **Q3. AI copy as a download:** yes. The library offers "AI-improved MP3" next to the original, and the data export lists it.
+
+**Change after review (library):** the player bar's extra row (speed, sound) is hidden below 900px, so on phones the recording page's discovery line is also a switch: "Hard to hear? Try the AI-improved sound (or press s)." while off, "Using the AI-improved sound. Switch to the original" while on. It shows on every recording that has a clean copy.
 
 ## 7. For site teams (foundation API, implemented)
 

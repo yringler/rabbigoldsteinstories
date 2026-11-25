@@ -6,7 +6,7 @@ import type { Track } from "@goldstein/player";
 import { cite, type CiteInput } from "../lib/citation.ts";
 import { clampTime, formatDuration, parseTime } from "../lib/time.ts";
 import { lastAtOrBefore, snapToRow, timeWords } from "../lib/words.ts";
-import { $, $$, absoluteTime, audio, copyText, currentId, h, player, tracksFrom } from "./core.ts";
+import { $, $$, absoluteTime, audio, copyText, currentId, h, player, setSound, tracksFrom } from "./core.ts";
 
 let cleanup: (() => void)[] = [];
 
@@ -39,11 +39,20 @@ export function init(): void {
       if (label) label.textContent = `Play from ${formatDuration(t0)}`;
     }
   }
-  // Discovery line: only for items with an AI-improved copy, and only while the preference is off.
+  // Discovery line and switch: only for items with an AI-improved copy. It is also the only sound
+  // control on phones, where the player bar's extra row (speed, sound) is hidden.
   const hint = $("[data-ai-hint]", page);
-  if (hint) {
-    hint.hidden = player().prefersClean;
-    const onSound = (e: Event) => (hint.hidden = (e as CustomEvent<boolean>).detail);
+  const hintBtn = $<HTMLButtonElement>("[data-ai-hint-btn]", page);
+  if (hint && hintBtn) {
+    const show = (clean: boolean) => {
+      hint.querySelectorAll<HTMLElement>("[data-ai-hint-off]").forEach((el) => (el.hidden = clean));
+      hint.querySelectorAll<HTMLElement>("[data-ai-hint-on]").forEach((el) => (el.hidden = !clean));
+      hintBtn.textContent = clean ? "Switch to the original" : "Try the AI-improved sound";
+    };
+    hint.hidden = false;
+    show(player().prefersClean);
+    hintBtn.addEventListener("click", () => setSound(!player().prefersClean));
+    const onSound = (e: Event) => show((e as CustomEvent<boolean>).detail);
     document.addEventListener("gsl:sound", onSound);
     cleanup.push(() => document.removeEventListener("gsl:sound", onSound));
   }

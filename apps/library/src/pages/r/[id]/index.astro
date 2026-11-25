@@ -395,7 +395,10 @@ const qr = qrSvg(`${ORIGIN}/r/${id}/`, 88);
       </div>
       {cleanUrl && (
         <p class="small muted no-print" data-ai-hint hidden>
-          Hard to hear? Try the AI-improved sound in the player bar (press s).
+          <span data-ai-hint-off>Hard to hear? </span>
+          <span data-ai-hint-on hidden>Using the AI-improved sound. </span>
+          <button type="button" class="linklike" data-ai-hint-btn>Try the AI-improved sound</button>
+          <span data-ai-hint-off> (or press s).</span>
         </p>
       )}
       <noscript>
