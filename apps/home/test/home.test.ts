@@ -1,10 +1,10 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, MEDIA_HOST, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
 import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldstein/data/load";
 import type { Edition, Playlist } from "@goldstein/playlists";
-import { lostEpisodesUrl, siteCards } from "../src/lib/sites.ts";
+import { filterDomains, lostEpisodesUrl, siteCards } from "../src/lib/sites.ts";
 import { assertConfirmed, computeStats, fmt, NAMED_IN_PROSE } from "../src/lib/stats.ts";
 import { formatLength, loadTonight, tonightModel } from "../src/lib/tonight.ts";
 
@@ -61,6 +61,12 @@ describe("site links come from the shared site table", () => {
       expect(c.url).toBe(`https://${SITES[c.id].host}/`);
     }
     expect(lostEpisodesUrl()).toBe(`https://${SITES.library.host}/radio/lost/`);
+  });
+
+  it("the filter list names every site host and the media host, once each", () => {
+    const hosts = filterDomains().map((d) => d.host);
+    expect(hosts.sort()).toEqual([...Object.values(SITES).map((s) => s.host), MEDIA_HOST].sort());
+    for (const d of filterDomains()) expect(d.role.length).toBeGreaterThan(0);
   });
 
   it("the home site is in the table and hosts have no dashes", () => {

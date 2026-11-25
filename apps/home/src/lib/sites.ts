@@ -3,7 +3,7 @@
  * table (packages/config/src/sites.ts), so renaming a site or moving a host is a one-line change
  * there; only the wording below belongs to this page.
  */
-import { SITES, siteUrl, type SiteId } from "@goldstein/config/sites";
+import { MEDIA_HOST, SITES, siteUrl, type SiteId } from "@goldstein/config/sites";
 
 export type CardSite = Exclude<SiteId, "home">;
 
@@ -75,3 +75,22 @@ export function siteCards(): SiteCard[] {
 export const lostEpisodesUrl = (): string => siteUrl("library", "/radio/lost/");
 /** The library's about page (people, how the archive was made, privacy). */
 export const libraryAboutUrl = (): string => siteUrl("library", "/about/");
+
+export interface FilterDomain {
+  host: string;
+  /** What the domain serves, in a few words. */
+  role: string;
+}
+
+/**
+ * Every domain the sites load anything from, for families who whitelist sites in an internet
+ * filter. Fonts, scripts and the playlist API are served from each site's own domain, so this is
+ * the complete list: the four site hosts plus the audio host.
+ */
+export function filterDomains(): FilterDomain[] {
+  return [
+    { host: SITES.home.host, role: "this page, which introduces the archive" },
+    ...siteCards().map((c) => ({ host: c.host, role: `${c.name}, the listening site ${c.kicker.toLowerCase()}` })),
+    { host: MEDIA_HOST, role: "the audio recordings that all the sites play" },
+  ];
+}
