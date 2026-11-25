@@ -1,0 +1,30 @@
+// goldstein-library: the library site. Static assets from dist/ (build first: `npm run build -w @goldstein/library`);
+// worker/index.ts runs only for /playlists/* and /api/*, forwarded to goldstein-api (service binding API).
+// Deploy: `npm run deploy -w @goldstein/library` (production) or `deploy:staging`. goldstein-api must exist first.
+// The custom domain must match SITES.library.host in packages/config/src/sites.ts (checked by a test).
+// Staging sets "routes": [] so a staging deploy never claims the production host.
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "goldstein-library",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-28",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/playlists/*", "/api/*"],
+  },
+  "services": [{ "binding": "API", "service": "goldstein-api" }],
+  "routes": [{ "pattern": "story-library.torahlearningtools.com", "custom_domain": true }],
+  "workers_dev": true,
+  "preview_urls": true,
+  "observability": { "enabled": true },
+  "env": {
+    "staging": {
+      "name": "goldstein-library-staging",
+      "routes": [],
+      "services": [{ "binding": "API", "service": "goldstein-api-staging" }],
+    },
+  },
+}

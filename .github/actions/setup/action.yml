@@ -1,0 +1,36 @@
+name: Setup Node and dependencies
+description: >-
+  Node from .nvmrc, then node_modules restored from the Actions cache (keyed on the lockfile and
+  every workspace package.json). npm ci runs only on a miss; the cache is saved only from main so
+  PR branches reuse main's entry.
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v5
+      with:
+        node-version-file: .nvmrc
+    - name: Restore node_modules
+      id: nm
+      uses: actions/cache/restore@v4
+      with:
+        path: |
+          node_modules
+          apps/*/node_modules
+          packages/*/node_modules
+          workers/*/node_modules
+        key: nm-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('.nvmrc', 'package-lock.json', 'package.json', 'apps/*/package.json', 'packages/*/package.json', 'workers/*/package.json') }}
+    - name: Install
+      if: steps.nm.outputs.cache-hit != 'true'
+      shell: bash
+      run: npm ci --no-audit --no-fund
+    - name: Save node_modules
+      if: steps.nm.outputs.cache-hit != 'true' && github.ref == 'refs/heads/main'
+      uses: actions/cache/save@v4
+      with:
+        path: |
+          node_modules
+          apps/*/node_modules
+          packages/*/node_modules
+          workers/*/node_modules
+        key: ${{ steps.nm.outputs.cache-primary-key }}

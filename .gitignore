@@ -25,3 +25,13 @@ __pycache__/
 .venv/
 venv/
 _vendor/
+
+# node / site workspaces (docs/ARCHITECTURE.md)
+node_modules/
+dist/
+.astro/
+.wrangler/
+.dev.vars*
+*.log
+# generated public dataset (packages/data build output; rebuilt from data/ every build)
+packages/data/generated/

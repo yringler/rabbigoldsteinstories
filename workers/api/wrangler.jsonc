@@ -1,0 +1,32 @@
+// goldstein-api: tonight's playlists. Cron generates editions into KV (generate ahead, store,
+// freeze; docs/sites/bedtime.md §4.6); the three site Workers reach it through the service binding
+// `API` for /playlists/* and /api/* (same origin, no CORS). No public route of its own.
+// One-time setup (docs/ARCHITECTURE.md §Owner steps): create the KV namespaces
+//   npx wrangler kv namespace create goldstein-editions
+//   npx wrangler kv namespace create goldstein-editions-staging
+// and replace the two ids below. Deploy this Worker before the sites (service bindings need it).
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "goldstein-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-28",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  "alias": {
+    "virtual:units": "../../packages/data/generated/units.json",
+    "virtual:overrides": "../../packages/playlists/overrides.json",
+  },
+  // Hourly: cheap when nothing changed (reads only); catches a new pool right after a deploy.
+  "triggers": { "crons": ["17 * * * *"] },
+  "kv_namespaces": [{ "binding": "EDITIONS", "id": "00000000000000000000000000000000" }],
+  "env": {
+    "staging": {
+      "name": "goldstein-api-staging",
+      "workers_dev": false,
+      "preview_urls": false,
+      "triggers": { "crons": ["17 * * * *"] },
+      "kv_namespaces": [{ "binding": "EDITIONS", "id": "00000000000000000000000000000001" }],
+    },
+  },
+}

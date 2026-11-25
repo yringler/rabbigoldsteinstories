@@ -1,0 +1,32 @@
+{
+  "name": "@goldstein/kids",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run ensure -w @goldstein/data && ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "npm run ensure -w @goldstein/data && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "npm run build && wrangler dev --env= --port 8790",
+    "deploy": "wrangler deploy --env=",
+    "deploy:staging": "wrangler deploy --env staging",
+    "typecheck": "ASTRO_TELEMETRY_DISABLED=1 astro check && tsc --noEmit -p worker/tsconfig.json",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@goldstein/api": "0.0.0",
+    "@goldstein/data": "0.0.0",
+    "@goldstein/player": "0.0.0",
+    "@goldstein/playlists": "0.0.0",
+    "astro": "7.4.10"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@cloudflare/workers-types": "5.20261031.1",
+    "@goldstein/config": "0.0.0",
+    "@types/node": "26.6.6",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2",
+    "wrangler": "4.156.0"
+  },
+  "description": "The kids site (Astro, static, on Cloudflare Workers static assets). See docs/sites/kids.md."
+}

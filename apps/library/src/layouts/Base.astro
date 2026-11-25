@@ -1,0 +1,41 @@
+---
+// Placeholder layout (the library team replaces it). Uses <ClientRouter /> so the player bar (transition:persist) keeps playing across page loads.
+import { ClientRouter } from "astro:transitions";
+import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+
+interface Props {
+  title?: string;
+}
+const site = SITES.library;
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} · ${site.name}` : site.name}</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <header>
+      <a href="/">{site.name}</a>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <div id="player" transition:persist>
+      <button type="button" data-player-toggle hidden>
+        Play / pause
+      </button>
+      <span data-player-title></span>
+    </div>
+    <footer>
+      Lost a tape or have a question? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+    </footer>
+    <script>
+      import "../scripts/player.ts";
+    </script>
+  </body>
+</html>

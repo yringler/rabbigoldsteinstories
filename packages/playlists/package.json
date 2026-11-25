@@ -1,0 +1,29 @@
+{
+  "name": "@goldstein/playlists",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tonight's playlists: edition clock, published file contract, recipes and the seeded generator with cooldowns and history (runs in the API Worker's cron). Pure TypeScript.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./engine": "./src/engine-entry.ts",
+    "./testing": "./test/fixtures.ts",
+    "./overrides.json": "./overrides.json",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "preview": "tsx src/preview.ts"
+  },
+  "dependencies": {
+    "@goldstein/data": "0.0.0"
+  },
+  "devDependencies": {
+    "@goldstein/config": "0.0.0",
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2"
+  }
+}

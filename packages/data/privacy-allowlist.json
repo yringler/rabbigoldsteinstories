@@ -1,0 +1,21 @@
+{
+  "description": "Phrases that occur in some item's hidden block but are public, so the privacy gate must not treat them as personal details. Add a phrase only with a reason; never add a child's name. Matching is case-insensitive on whole words.",
+  "phrases": [
+    {
+      "phrase": "Rabbi Goldstein",
+      "reason": "How the hosts (Rabbi Yosef / Rabbi Chaim Levi Goldstein) are addressed on air and in public summaries."
+    },
+    {
+      "phrase": "Chaya Malka bas Dina",
+      "reason": "Bubby Chaya Malka's full name, made public by the owner (docs/DECISIONS.md §3, vocabularies.json)."
+    },
+    {
+      "phrase": "Dov Ber",
+      "reason": "Public figure (the Maggid of Mezritch / the Mitteler Rebbe); appears in stories."
+    },
+    {
+      "phrase": "Super Grand Winner",
+      "reason": "A contest title on the radio show, not a name."
+    }
+  ]
+}

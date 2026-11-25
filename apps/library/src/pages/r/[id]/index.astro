@@ -1,0 +1,51 @@
+---
+// Placeholder item page, one per public recording (all metadata plus the display transcript).
+// URL /r/<id>/ (SITES.library.itemPath in packages/config/src/sites.ts).
+import type { GetStaticPaths } from "astro";
+import { formatDuration, type PublicItem } from "@goldstein/data";
+import { loadCatalog, loadItem, loadTranscript } from "@goldstein/data/load";
+import Base from "../../../layouts/Base.astro";
+
+export const getStaticPaths = (() =>
+  loadCatalog().map((c) => ({ params: { id: c.id } }))) satisfies GetStaticPaths;
+
+const id = String(Astro.params.id);
+const item: PublicItem = loadItem(id);
+const transcript = item.transcript.display === "show_with_label" ? loadTranscript(id) : null;
+---
+
+<Base title={item.title}>
+  <h1>{item.title}</h1>
+  <p>{item.summary_short}</p>
+  <p>
+    {formatDuration(item.content_end_sec - item.content_start_sec)}
+    <button
+      type="button"
+      data-play-url={item.media.url}
+      data-id={item.id}
+      data-title={item.title}
+      data-start={item.content_start_sec}
+      data-end={item.content_end_sec}
+    >
+      Play
+    </button>
+  </p>
+  {item.segments.length > 0 && (
+    <ol>
+      {item.segments.map((s) => (
+        <li>
+          {formatDuration(s.start_sec)} {s.title}
+        </li>
+      ))}
+    </ol>
+  )}
+  {transcript && (
+    <section>
+      <h2>Transcript</h2>
+      <p>{transcript.label}</p>
+      {transcript.lines.map((l) => (
+        <p>{l.t ?? "…"}</p>
+      ))}
+    </section>
+  )}
+</Base>

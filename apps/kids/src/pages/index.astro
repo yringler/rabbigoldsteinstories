@@ -1,0 +1,34 @@
+---
+// Placeholder home page: tonight's playlists (client-side, from /playlists/) and a few items
+// from the public dataset (build time). The kids team replaces it; see docs/sites/kids.md.
+import { SITES } from "@goldstein/config/sites";
+import { formatDuration } from "@goldstein/data";
+import { loadCatalog, loadManifest } from "@goldstein/data/load";
+import Base from "../layouts/Base.astro";
+
+const catalog = loadCatalog();
+const manifest = loadManifest();
+const sample = catalog.filter((c) => c.preferred_copy && c.language === "en").slice(0, 6);
+---
+
+<Base>
+  <h1>Tonight's playlists</h1>
+  <ul data-tonight>
+    <li>Loading…</li>
+  </ul>
+
+  <h2>A few stories</h2>
+  <p>
+    {manifest.counts.public_items} recordings, {manifest.hours} hours.
+  </p>
+  <ul>
+    {sample.map((c) => (
+      <li>
+        <a href={SITES.kids.itemPath?.(c.id)}>{c.title}</a> ({formatDuration(c.content_sec)})
+        <button type="button" data-play-url={c.url} data-id={c.id} data-title={c.title}>
+          Play
+        </button>
+      </li>
+    ))}
+  </ul>
+</Base>

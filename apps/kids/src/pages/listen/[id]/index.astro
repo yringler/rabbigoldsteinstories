@@ -1,0 +1,41 @@
+---
+// Placeholder item page, one per public recording (chapters and play).
+// URL /listen/<id>/ (SITES.kids.itemPath in packages/config/src/sites.ts).
+import type { GetStaticPaths } from "astro";
+import { formatDuration, type PublicItem } from "@goldstein/data";
+import { loadCatalog, loadItem } from "@goldstein/data/load";
+import Base from "../../../layouts/Base.astro";
+
+export const getStaticPaths = (() =>
+  loadCatalog().map((c) => ({ params: { id: c.id } }))) satisfies GetStaticPaths;
+
+const id = String(Astro.params.id);
+const item: PublicItem = loadItem(id);
+---
+
+<Base title={item.title}>
+  <h1>{item.title}</h1>
+  <p>{item.summary_short}</p>
+  <p>
+    {formatDuration(item.content_end_sec - item.content_start_sec)}
+    <button
+      type="button"
+      data-play-url={item.media.url}
+      data-id={item.id}
+      data-title={item.title}
+      data-start={item.content_start_sec}
+      data-end={item.content_end_sec}
+    >
+      Play
+    </button>
+  </p>
+  {item.segments.length > 0 && (
+    <ol>
+      {item.segments.map((s) => (
+        <li>
+          {formatDuration(s.start_sec)} {s.title}
+        </li>
+      ))}
+    </ol>
+  )}
+</Base>
