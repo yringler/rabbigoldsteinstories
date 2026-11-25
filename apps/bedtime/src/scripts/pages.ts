@@ -14,6 +14,8 @@ import { store } from "./store.ts";
 export interface App {
   start(p: Playlist, when: string, index?: number, position?: number): void;
   sheet: SheetApi;
+  /** A playlist is already loaded in this visit (then there is nothing to "continue"). */
+  hasPlaylist(): boolean;
 }
 
 const $ = <T extends HTMLElement = HTMLElement>(sel: string, root: ParentNode = document) =>
@@ -57,7 +59,7 @@ export async function renderHome(app: App): Promise<void> {
   // Continue row (only for a session under 18 hours old) or the good-night line after the end.
   const cont = continuable(saved, now);
   const contBtn = $<HTMLButtonElement>("[data-continue]", root)!;
-  if (cont) {
+  if (cont && !app.hasPlaylist()) {
     const item = cont.playlist.items[cont.index]!;
     $("[data-continue-text]", contBtn)!.textContent =
       `${cont.playlist.title} · story ${cont.index + 1} · ${clock(cont.position)}`;

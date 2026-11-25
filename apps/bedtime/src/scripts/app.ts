@@ -24,7 +24,7 @@ function boot(): App & { player: BedtimePlayer } {
   };
   const sheet = mountSheet(player, (p, when, index) => start(p, when, index));
   mountNight(player, sheet);
-  const app = { start, sheet, player };
+  const app = { start, sheet, player, hasPlaylist: () => player.snapshot().playlist !== null };
   window.bedtime = app;
   if (import.meta.env.PROD && "serviceWorker" in navigator)
     navigator.serviceWorker.register("/sw.js").catch(() => undefined);

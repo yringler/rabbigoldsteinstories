@@ -329,6 +329,7 @@ main {
   color: var(--text-2);
   font-size: 16px;
   margin-top: 3px;
+  text-wrap: pretty;
 }
 .card-meta {
   display: block;
@@ -1092,8 +1093,17 @@ main {
     border-radius: 50%;
     background: var(--c);
   }
+  .chips {
+    gap: 8px;
+  }
+  .night-row {
+    padding: 14px 12px 14px;
+  }
+  .chip {
+    padding: 6px 8px 6px 12px;
+  }
   .chip-more {
-    min-width: 40px;
+    min-width: 38px;
   }
 }
 

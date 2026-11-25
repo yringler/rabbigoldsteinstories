@@ -170,6 +170,11 @@ const shot = async (page, name) => {
   console.log(`     earlier: ${nights} nights`);
   await shot(page, "earlier-phone");
 
+  // back to Tonight in the same visit: still playing, no Continue row
+  await page.click(".wordmark");
+  await page.waitForSelector('[data-card="little"]:not([aria-busy])');
+  check(!(await page.isVisible("[data-continue]")), "no Continue row while the playlist plays");
+
   // reload → Continue row
   await page.goto(`${base}/`);
   await page
