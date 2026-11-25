@@ -236,6 +236,18 @@ export interface MaskedTranscript {
   masked: number;
 }
 
+/**
+ * Phone numbers read on air (the show's lines, sponsors). Long out of service, so never shown
+ * (owner decision 2026-11-25): replaced with PHONE_PLACEHOLDER in public transcript text.
+ * Matches "718-763-8200", "(718) 763-8200", "718 763 8200", "1-800-...", and 7-digit "467-7800".
+ */
+export const PHONE_RE = /(?:\b1[\s.-])?(?:\(\d{3}\)\s?|\b\d{3}[\s.-])?\b\d{3}[\s.-]\d{4}\b/g;
+export const PHONE_PLACEHOLDER = "[phone number]";
+
+export function redactPhones(text: string): string {
+  return text.replace(PHONE_RE, PHONE_PLACEHOLDER);
+}
+
 /** Withhold lines inside this item's hidden spans, and lines naming anyone from any hidden block. */
 export function maskTranscript(m: RawMeta, t: RawTranscript, terms: TermSet): MaskedTranscript {
   const spans = hiddenSpans(m.hidden);
@@ -248,7 +260,7 @@ export function maskTranscript(m: RawMeta, t: RawTranscript, terms: TermSet): Ma
       masked++;
       return { s, e, t: null };
     }
-    return { s, e, t: text };
+    return { s, e, t: redactPhones(text) };
   });
   return { lines, masked };
 }

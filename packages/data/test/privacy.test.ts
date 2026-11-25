@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildTermSet, findTerms, hiddenSpans, nameVariants, overlapsAny, redactTerms, REDACTED } from "../src/privacy.ts";
 import type { RawHidden } from "../src/raw.ts";
+import { redactPhones } from "../src/build/transform.ts";
 
 const hidden = (h: Partial<RawHidden>): RawHidden => ({ on_air_people: [], addresses: [], other_personal: [], ...h });
 
@@ -59,5 +60,19 @@ describe("term set", () => {
 
   it("redacts display text", () => {
     expect(redactTerms("Thanks, Estee Pressman.", ["estee pressman"])).toBe(`Thanks, ${REDACTED}.`);
+  });
+});
+
+
+describe("phone numbers in transcripts", () => {
+  it("replaces every common spoken-number format", () => {
+    for (const n of ["718-763-8200", "(718) 763-8200", "718 763 8200", "1-800-467-7800", "467-7800", "212.778.6666"]) {
+      expect(redactPhones(`Call ${n} today`)).toBe("Call [phone number] today");
+    }
+  });
+  it("leaves years, times and episode numbers alone", () => {
+    for (const s of ["In 1987 we said", "at 7:30 tonight", "episode 271", "5747-5748"]) {
+      expect(redactPhones(s)).toBe(s);
+    }
   });
 });
