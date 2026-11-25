@@ -81,3 +81,4 @@ All questions are now answered.
 - **Phone numbers (owner, 2026-11-25):** never shown; they no longer work. Public transcripts replace them with "[phone number]".
 - **"46th Street, Brooklyn"** is a sponsor's location in radio ads (Focus Electronics); allowed in transcripts.
 - **Radio segments in playlists (owner, 2026-11-25):** talks and songs are fair game. Openings, closings and quizzes occasionally, not often. Shema-guest segments may be cute for the youngest (Little Ones) playlist only; tentative, owner reviewing a sample.
+- **Tonight's Mix is the first playlist everywhere** (owner, 2026-11-25): the mix is the default choice; the age- and mood-specific playlists follow.
