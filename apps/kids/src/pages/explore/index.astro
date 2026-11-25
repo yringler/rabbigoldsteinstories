@@ -1,0 +1,94 @@
+---
+// /explore (§4.6): four wide buttons, then tabs of tiles: Topics, Midos, Mitzvos, Heroes.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { countsByVariant, getModel, tileKey, visibleIn } from "../../lib/build/model.ts";
+import { tileHtml } from "../../lib/html.ts";
+import { HERO_GROUPS, TILE_MIN, type Tile } from "../../lib/tiles.ts";
+import { ui } from "../../lib/ui-icons.ts";
+
+const m = getModel();
+const tiles = (list: readonly Tile[]) =>
+  list
+    .map((t) => {
+      const items = m.tileItems.get(tileKey(t)) ?? [];
+      return { t, vis: visibleIn(items, TILE_MIN), counts: countsByVariant(items) };
+    })
+    .filter((x) => x.vis.length > 0)
+    .map(({ t, vis, counts }) => tileHtml(t, { vis, counts }))
+    .join("");
+const heroGroups = HERO_GROUPS.map((g) => ({
+  label: g.label,
+  html: tiles(m.tiles.heroes.filter((h) => g.categories.includes(h.category))),
+})).filter((g) => g.html);
+const tabs = [
+  { key: "topics", label: "Topics", html: tiles(m.tiles.topics) },
+  { key: "midos", label: "Midos", html: tiles(m.tiles.midos) },
+  { key: "mitzvos", label: "Mitzvos", html: tiles(m.tiles.mitzvos) },
+  { key: "heroes", label: "Heroes", html: "" },
+];
+const wide = [
+  { href: "/holidays/", label: "Holidays", icon: "holidays", color: "#E0533F" },
+  { href: "/serials/", label: "Chapter Stories", icon: "serial", color: "#7A4FC2" },
+  { href: "/quick/", label: "Quick Listens", icon: "quick", color: "#2A9FD0" },
+  { href: "/tonight/", label: "Playlists", icon: "moon", color: "#14213D" },
+];
+---
+
+<Base title="Explore" tab="explore" description="Heroes, midos, mitzvos, holidays and more.">
+  <div data-init="explore">
+    <PageHead title="Explore" sub="Find stories about the things you love." />
+    <nav class="wide-btns" aria-label="More to explore">
+      {wide.map((w) => (
+        <a class="wide-btn" href={w.href}>
+          <span class="wi" style={`background:${w.color}`}>
+            <Fragment set:html={ui(w.icon, "", 26)} />
+          </span>
+          {w.label}
+        </a>
+      ))}
+    </nav>
+    <div class="chips explore-tabs" role="tablist" aria-label="Browse by">
+      {tabs.map((t, i) => (
+        <button
+          type="button"
+          class="chip"
+          role="tab"
+          id={`etab-${t.key}`}
+          data-tab={t.key}
+          aria-controls={`epanel-${t.key}`}
+          aria-selected={i === 0 ? "true" : "false"}
+          tabindex={i === 0 ? 0 : -1}
+        >
+          {t.label}
+        </button>
+      ))}
+    </div>
+    {tabs.map((t, i) => (
+      <div
+        role="tabpanel"
+        id={`epanel-${t.key}`}
+        aria-labelledby={`etab-${t.key}`}
+        hidden={i !== 0}
+      >
+        {t.key === "heroes" ? (
+          heroGroups.map((g) => (
+            <section class="section hero-group">
+              <h2>{g.label}</h2>
+              <div class="tiles" set:html={g.html} />
+            </section>
+          ))
+        ) : (
+          <div class="tiles" set:html={t.html} />
+        )}
+      </div>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .hero-group h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+</style>

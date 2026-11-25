@@ -1,0 +1,372 @@
+---
+// /radio (§4.3): year tabs, the episode number grid 1–555, lost-episode tiles (DECISIONS 9).
+import { HDate } from "@hebcal/core";
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Shelf from "../../components/Shelf.astro";
+import { loadCatalog, loadLostEpisodes } from "@goldstein/data/load";
+import { CONTACT_EMAIL, siteUrl } from "@goldstein/config/sites";
+import { getModel, capPerVariant } from "../../lib/build/model.ts";
+import { serialCard, serialVis, sortedSerials } from "../../lib/build/views.ts";
+import { ui } from "../../lib/ui-icons.ts";
+import { iconSvg } from "../../lib/icons.ts";
+import { VARIANTS } from "../../lib/kinds.ts";
+import { SHELF_MIN } from "../../lib/tiles.ts";
+
+const m = getModel();
+const MAX_EP = 555;
+const held = new Map<number, (typeof m.pool)[number]>();
+for (const k of m.pool) {
+  const e = k.item.classification.episode;
+  if (k.kind === "show" && e && !e.is_clip && !held.has(e.number)) held.set(e.number, k);
+}
+// Episodes in the archive but outside the kid pool (any public full-episode recording).
+const archiveYear = new Map<number, number>();
+for (const c of loadCatalog()) {
+  if (c.content_type === "radio_episode" && c.episode !== undefined && c.hebrew_year)
+    if (!archiveYear.has(c.episode)) archiveYear.set(c.episode, c.hebrew_year);
+}
+const lost = new Map(loadLostEpisodes().episodes.map((e) => [e.episode, e]));
+const hyear = (iso: string | null | undefined): number | null => {
+  if (!iso) return null;
+  const d = new Date(`${iso.length === 7 ? `${iso}-15` : iso}T12:00:00Z`);
+  return Number.isNaN(d.getTime()) ? null : new HDate(d).getFullYear();
+};
+const fmtEst = (iso: string | null | undefined) => {
+  if (!iso) return "";
+  const d = new Date(`${iso}T12:00:00Z`);
+  return Number.isNaN(d.getTime())
+    ? ""
+    : `Probably aired around ${d.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })}`;
+};
+
+type Tile =
+  | { kind: "held"; n: number; id: string; vis: string; title: string }
+  | { kind: "lost"; n: number; title: string; est: string }
+  | { kind: "gone"; n: number };
+const byYear = new Map<number | "none", Tile[]>();
+const push = (y: number | "none", t: Tile) => {
+  const l = byYear.get(y) ?? [];
+  l.push(t);
+  byYear.set(y, l);
+};
+let lostCount = 0;
+for (let n = 1; n <= MAX_EP; n++) {
+  const k = held.get(n);
+  if (k) {
+    push(k.item.classification.date?.hebrew_year ?? archiveYear.get(n) ?? "none", {
+      kind: "held",
+      n,
+      id: k.id,
+      vis: k.vis.join(" "),
+      title: k.title,
+    });
+    continue;
+  }
+  const l = lost.get(n);
+  if (l && l.status === "lost") {
+    lostCount++;
+    push(hyear(l.estimated_date) ?? "none", {
+      kind: "lost",
+      n,
+      title: [l.catalog_story, l.catalog_topic].filter(Boolean).join(" · "),
+      est: fmtEst(l.estimated_date),
+    });
+    continue;
+  }
+  push(archiveYear.get(n) ?? hyear(l?.estimated_date) ?? "none", { kind: "gone", n });
+}
+const years = [...byYear.keys()].filter((y): y is number => y !== "none").sort((a, b) => a - b);
+const tabs = [
+  ...years.map((y) => ({
+    key: String(y),
+    label: `${y - 3761}–${String(y - 3760).slice(2)}`,
+    small: String(y),
+  })),
+  ...(byYear.has("none") ? [{ key: "none", label: "Still looking", small: "" }] : []),
+];
+const tilesOf = (key: string) => byYear.get(key === "none" ? "none" : Number(key)) ?? [];
+
+const serials = sortedSerials(m)
+  .filter((s) => s.type === "radio")
+  .map((s) => ({ s, vis: serialVis(s, m) }));
+const serialHtml = capPerVariant(serials, 12)
+  .map(({ k, vis }) => serialCard(k.s, vis))
+  .join("");
+const serialShelfVis = VARIANTS.filter(
+  (v) => serials.filter((x) => x.vis.includes(v)).length >= SHELF_MIN,
+);
+---
+
+<Base
+  title="The Radio Show"
+  tab="radio"
+  description="Uncle Yossi's radio show, Tzivos Hashem on the Air, every week from 1981 to 1992."
+>
+  <div data-init="radio">
+    <PageHead title="The Radio Show" icon="radio" color="#1F5FBF" />
+    <section class="radio-intro">
+      <div>
+        <p class="ri-text">Uncle Yossi's radio show. Every week from 1981 to 1992.</p>
+        <p class="muted">{held.size} shows to listen to. Some tapes are still missing.</p>
+      </div>
+      <button type="button" class="btn sun big" data-play-show>
+        <Fragment set:html={ui("play", "", 28)} />
+        Play a show
+      </button>
+    </section>
+
+    <Shelf
+      title="Chapter stories from the show"
+      href="/serials/"
+      html={serialHtml}
+      vis={serialShelfVis}
+    />
+
+    <section class="section" aria-labelledby="eps-h">
+      <h2 id="eps-h">All the shows</h2>
+      <p class="legend">
+        <span>
+          <i class="ep-key held"></i> Tap to listen
+        </span>
+        <span>
+          <i class="ep-key lost"></i> Still looking for this tape
+        </span>
+        <span>
+          <i class="ep-key gone"></i> Not here
+        </span>
+      </p>
+      <div class="chips year-tabs" role="tablist" aria-label="Years">
+        {tabs.map((t, i) => (
+          <button
+            type="button"
+            class="chip"
+            role="tab"
+            id={`tab-${t.key}`}
+            aria-controls={`year-${t.key}`}
+            aria-selected={i === 0 ? "true" : "false"}
+            tabindex={i === 0 ? 0 : -1}
+          >
+            {t.label}
+            {t.small && <small>{t.small}</small>}
+          </button>
+        ))}
+      </div>
+      {tabs.map((t, i) => (
+        <div
+          class="ep-panel"
+          id={`year-${t.key}`}
+          role="tabpanel"
+          aria-labelledby={`tab-${t.key}`}
+          hidden={i !== 0}
+        >
+          <div class="ep-grid">
+            {tilesOf(t.key).map((x) =>
+              x.kind === "held" ? (
+                <a class="ep held" href={`/listen/${x.id}/`} data-in={x.vis} title={x.title}>
+                  <span class="sr">Episode </span>
+                  {x.n}
+                </a>
+              ) : x.kind === "lost" ? (
+                <button
+                  type="button"
+                  class="ep lost"
+                  data-lost={String(x.n)}
+                  data-title={x.title}
+                  data-est={x.est}
+                >
+                  <span class="sr">Episode </span>
+                  {x.n}
+                  <span class="q" aria-hidden="true">
+                    ?
+                  </span>
+                  <span class="sr"> (still looking for this tape)</span>
+                </button>
+              ) : (
+                <span class="ep gone">
+                  <span class="sr">Episode </span>
+                  {x.n}
+                  <span class="sr"> (not here)</span>
+                </span>
+              ),
+            )}
+          </div>
+        </div>
+      ))}
+      <p class="muted lost-count">{lostCount} tapes are still missing.</p>
+    </section>
+
+    <dialog class="sheet" data-lost-sheet aria-labelledby="lost-h">
+      <div class="sheet-body lost-body">
+        <div class="sheet-head">
+          <h2 id="lost-h" data-lost-num>
+            Episode
+          </h2>
+          <button type="button" class="icon-btn" data-lost-close aria-label="Close">
+            <Fragment set:html={ui("close", "", 26)} />
+          </button>
+        </div>
+        <div class="lost-art">
+          <Fragment set:html={iconSvg("radio", { accent: "#FFC83D" }, 72)} />
+        </div>
+        <p class="lost-msg">
+          We're still looking for this tape. Do you have it? Ask a grown-up to tell us.
+        </p>
+        <p class="lost-title" data-lost-title></p>
+        <p class="muted" data-lost-date></p>
+        <p class="lost-links">
+          <a
+            class="btn"
+            href={`mailto:${CONTACT_EMAIL}?subject=I%20may%20have%20a%20radio%20show%20tape`}
+          >
+            Tell us
+          </a>
+          <a class="btn" href={siteUrl("library", "/radio/lost/")}>
+            All missing tapes
+          </a>
+        </p>
+      </div>
+    </dialog>
+  </div>
+</Base>
+
+<style is:global>
+  .radio-intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 18px;
+    border-radius: 24px;
+    background: var(--night);
+    color: var(--paper);
+    background-image:
+      radial-gradient(circle at 100% 0%, rgba(255, 200, 61, 0.35) 0 34px, transparent 35px),
+      radial-gradient(circle at 10% 80%, rgba(255, 255, 255, 0.12) 0 2px, transparent 3px);
+  }
+  .radio-intro .muted {
+    color: #c9d3e8;
+  }
+  .ri-text {
+    font-family: var(--font-head);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    font-size: 16px;
+    color: var(--ink-soft);
+    margin: 6px 0 10px;
+  }
+  .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .ep-key {
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  .year-tabs .chip {
+    flex-direction: column;
+    gap: 0;
+    line-height: 1.1;
+    justify-content: center;
+  }
+  .year-tabs small {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .ep-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .ep {
+    position: relative;
+    min-height: 56px;
+    min-width: 56px;
+    display: grid;
+    place-items: center;
+    border-radius: 16px;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: none;
+    border: 2px solid transparent;
+  }
+  .ep.held,
+  .ep-key.held {
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 3px 0 var(--primary-dark);
+  }
+  html[data-v="l"] .ep.held:not([data-in~="l"]),
+  html[data-v="k"] .ep.held:not([data-in~="k"]),
+  html[data-v="lg"] .ep.held:not([data-in~="lg"]),
+  html[data-v="kg"] .ep.held:not([data-in~="kg"]),
+  html[data-v="bg"] .ep.held:not([data-in~="bg"]) {
+    background: #a9bfe3;
+    box-shadow: 0 3px 0 #8ca5cf;
+    color: var(--ink);
+  }
+  .ep.lost,
+  .ep-key.lost {
+    background: transparent;
+    border: 2px dashed #b9ab92;
+    color: var(--ink-soft);
+  }
+  .ep.lost .q {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--sun);
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    border: 2px solid var(--ink);
+  }
+  .ep.gone,
+  .ep-key.gone {
+    background: #e9e3d6;
+    color: #6f6a60;
+  }
+  .lost-count {
+    margin-top: 12px;
+  }
+  .lost-body {
+    text-align: center;
+  }
+  .lost-art {
+    display: grid;
+    place-items: center;
+    margin: 4px 0 10px;
+  }
+  .lost-msg {
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .lost-title {
+    margin-top: 8px;
+    font-style: italic;
+  }
+  .lost-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+  }
+</style>

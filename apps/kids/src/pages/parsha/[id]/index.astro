@@ -1,0 +1,27 @@
+---
+// /parsha/<id> (§5.5): only parshiyos with at least 2 items; Home links here when the week's parsha qualifies.
+import type { GetStaticPaths } from "astro";
+import TagPage from "../../../components/TagPage.astro";
+import { getModel } from "../../../lib/build/model.ts";
+
+export const getStaticPaths = (() => {
+  const m = getModel();
+  const count = new Map<string, number>();
+  for (const k of m.pool)
+    for (const p of k.item.subjects.parshiyos) count.set(p, (count.get(p) ?? 0) + 1);
+  return [...count].filter(([, n]) => n >= 2).map(([id]) => ({ params: { id } }));
+}) satisfies GetStaticPaths;
+
+const m = getModel();
+const id = String(Astro.params.id);
+const label = m.vocab("parshiyos", id)?.label ?? id;
+const items = m.pool.filter((k) => k.item.subjects.parshiyos.includes(id));
+---
+
+<TagPage
+  title={`Parshas ${label}`}
+  description={`Stories and lessons for the week of Parshas ${label}.`}
+  icon="torah-scroll"
+  color="#1F5FBF"
+  items={items}
+/>

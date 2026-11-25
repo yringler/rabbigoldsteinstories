@@ -1,0 +1,22 @@
+---
+import type { GetStaticPaths } from "astro";
+import TagPage from "../../../components/TagPage.astro";
+import { getModel, tileKey } from "../../../lib/build/model.ts";
+
+export const getStaticPaths = (() =>
+  getModel().tiles.topics.map((t) => ({ params: { slug: t.slug } }))) satisfies GetStaticPaths;
+
+const m = getModel();
+const t = m.tiles.topics.find((x) => x.slug === Astro.params.slug);
+if (!t) throw new Error("unknown tile");
+const items = m.tileItems.get(tileKey(t)) ?? [];
+---
+
+<TagPage
+  title={t.label}
+  he={t.he}
+  description={t.description}
+  icon={t.icon}
+  color={t.color}
+  items={items}
+/>

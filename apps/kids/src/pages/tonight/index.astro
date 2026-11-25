@@ -1,0 +1,35 @@
+---
+// /tonight (§10): tonight's shared playlists with their items, then the past 7 nights.
+// The files live at /playlists/* (goldstein-api, reserved on every host: docs/ARCHITECTURE.md §8),
+// so this page lives at /tonight/ (kids.md §3 called it /playlists).
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { siteUrl } from "@goldstein/config/sites";
+---
+
+<Base
+  title="Tonight's Playlists"
+  tab="explore"
+  description="Tonight's bedtime playlists and the last week's."
+>
+  <div data-init="playlists" class="pl-page">
+    <PageHead
+      title="Tonight's Playlists"
+      sub="Stories picked for bedtime. New ones every day."
+      icon="moon"
+      color="#14213D"
+    />
+    <section class="section" aria-label="Tonight">
+      <div class="pl-list" data-tonight>
+        <p class="muted">Loading tonight's playlists…</p>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="past-h">
+      <h2 id="past-h">Past nights</h2>
+      <div class="pl-past" data-past></div>
+    </section>
+    <p class="pl-foot">
+      Just want bedtime? <a href={siteUrl("bedtime", "/")}>Open the bedtime site</a>.
+    </p>
+  </div>
+</Base>
