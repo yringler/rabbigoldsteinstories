@@ -35,3 +35,6 @@ dist/
 *.log
 # generated public dataset (packages/data build output; rebuilt from data/ every build)
 packages/data/generated/
+
+# Claude Code agent worktrees
+.claude/worktrees/
