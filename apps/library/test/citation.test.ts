@@ -4,7 +4,7 @@ import { displayDate, hebrewDate, hebrewYearSpan } from "../src/lib/dates.ts";
 import { citeInput, item } from "../src/lib/site-data.ts";
 import { parseTime } from "../src/lib/time.ts";
 
-const ORIGIN = "https://story-library.torahlearningtools.com";
+const ORIGIN = "https://storylibrary.torahlearningtools.com";
 
 describe("citations", () => {
   it("Episode 271 at 12:34 (acceptance 14)", () => {

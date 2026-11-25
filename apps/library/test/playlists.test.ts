@@ -51,14 +51,14 @@ function bigPlaylist(n: number, rnd = seeded()): UserPlaylist {
 }
 
 const ajv = new Ajv2020({ strict: false, validateFormats: false });
-const schemaValidate = ajv.compile(playlistSchema("https://story-library.torahlearningtools.com"));
+const schemaValidate = ajv.compile(playlistSchema("https://storylibrary.torahlearningtools.com"));
 
 describe("playlists file format", () => {
   it("export → serialize → import reproduces a 50-item playlist exactly", () => {
     const p = bigPlaylist(50);
     const doc = exportDoc(
       [p],
-      "https://story-library.torahlearningtools.com",
+      "https://storylibrary.torahlearningtools.com",
       new Date("2026-11-25T12:00:00Z"),
     );
     const text = serialize(doc);
@@ -76,7 +76,7 @@ describe("playlists file format", () => {
   it("the exported file validates against the published JSON Schema", () => {
     const doc = exportDoc(
       [bigPlaylist(50), bigPlaylist(3, seeded(7))],
-      "https://story-library.torahlearningtools.com",
+      "https://storylibrary.torahlearningtools.com",
     );
     const ok = schemaValidate(JSON.parse(serialize(doc)));
     expect(schemaValidate.errors ?? []).toEqual([]);
