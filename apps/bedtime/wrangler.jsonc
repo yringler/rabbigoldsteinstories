@@ -1,5 +1,5 @@
 // goldstein-bedtime: the bedtime site. Static assets from dist/ (build first: `npm run build -w @goldstein/bedtime`);
-// worker/index.ts runs only for /playlists/* and /api/*, forwarded to goldstein-api (service binding API).
+// worker/index.ts runs only for /playlists/* and /api/* (forwarded to goldstein-api, service binding API) and /p/* (deep links).
 // Deploy: `npm run deploy -w @goldstein/bedtime` (production) or `deploy:staging`. goldstein-api must exist first.
 // The custom domain must match SITES.bedtime.host in packages/config/src/sites.ts (checked by a test).
 // Staging sets "routes": [] so a staging deploy never claims the production host.
@@ -13,7 +13,7 @@
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/playlists/*", "/api/*"],
+    "run_worker_first": ["/playlists/*", "/api/*", "/p/*"],
   },
   "services": [{ "binding": "API", "service": "goldstein-api" }],
   "routes": [{ "pattern": "bedtime-stories.torahlearningtools.com", "custom_domain": true }],

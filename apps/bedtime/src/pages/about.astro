@@ -1,0 +1,47 @@
+---
+// For parents (bedtime.md §2.4): under 250 words; confirmed names only.
+import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import Base from "../layouts/Base.astro";
+---
+
+<Base page="about" title="For parents">
+  <article class="prose">
+    <h1 class="page-title">For parents</h1>
+    <p>
+      {SITES.bedtime.name} plays the Goldstein family's recorded stories at bedtime. Most are told
+      by <strong>Uncle Yossi</strong> (Rabbi Yosef Goldstein) on his radio show{" "}
+      <em>Tzivos Hashem on the Air</em>, 1981 to 1992, and by his son{" "}
+      <strong>Rabbi Chaim Levi Goldstein</strong>.
+    </p>
+
+    <h2>How the playlists are chosen</h2>
+    <p>
+      Every morning there are five new playlists, chosen by age and mood. Each one ends with calmer
+      stories, and stories don't come back for a while. Little Ones is about an hour and a half; the
+      others about two hours. A story with something a parent may want to know about has a small ⓘ
+      in the list.
+    </p>
+
+    <h2>The recordings</h2>
+    <p>
+      These are 1980s radio broadcasts and family tapes, as they were. Nothing is cut or changed, so
+      you may hear a song, a little hiss, or a radio station's sound.
+    </p>
+
+    <h2>At bedtime</h2>
+    <p>
+      Tap a playlist, set the sleep timer, and put the phone down. The screen goes dark by itself.
+      To keep the site one tap away, use your browser's “Add to Home Screen”.
+    </p>
+
+    <h2>More stories</h2>
+    <p>
+      Children can browse on <a href={siteUrl("kids", "/")}>{SITES.kids.name}</a>. Every recording,
+      with transcripts, is in <a href={siteUrl("library", "/")}>{SITES.library.name}</a>.
+    </p>
+    <p>
+      Questions, or a tape we're missing? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+      No cookies, no accounts, no tracking.
+    </p>
+  </article>
+</Base>

@@ -1,0 +1,15 @@
+---
+// Earlier this week (bedtime.md §2.3): the 7 previous nights, newest first; tap = play, ⋯ = list.
+import Base from "../layouts/Base.astro";
+---
+
+<Base page="earlier" title="Earlier this week">
+  <div data-earlier>
+    <h1 class="page-title">Earlier this week</h1>
+    <p class="lede">The last seven nights. Tap a playlist to play it again.</p>
+    <ol class="nights" data-nights aria-busy="true"></ol>
+    <p class="empty" data-empty hidden>
+      No earlier nights yet. Come back tomorrow.
+    </p>
+  </div>
+</Base>
