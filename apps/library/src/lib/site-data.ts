@@ -29,6 +29,8 @@ function once<T>(key: string, f: () => T): T {
 
 export const catalog = (): CatalogEntry[] => loadCatalog();
 export const manifest = () => loadManifest();
+/** Whether any item has an AI-improved copy yet; the Sound control and its copy show only then. */
+export const hasCleanAudio = (): boolean => manifest().counts.clean_audio > 0;
 export const vocab = () => loadVocab();
 
 export function vocabEntry(list: string, id: string): VocabEntry | undefined {
@@ -145,6 +147,7 @@ export function toRow(it: PublicItem): LibRow {
     versions: 0,
   };
   if (it.title_he) row.he = it.title_he;
+  if (it.media.clean_url) row.clean = 1;
   if (it.lesson) row.lesson = it.lesson;
   if (c.episode) row.ep = c.episode.number;
   if (g) row.date = g;

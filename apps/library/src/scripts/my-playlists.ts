@@ -17,6 +17,7 @@ import {
   type UserPlaylist,
 } from "../lib/playlists.ts";
 import { formatDuration, humanLength, totalLength } from "../lib/time.ts";
+import { withClean } from "../lib/tracks.ts";
 import type { LibCatalog, LibRow } from "../lib/types.ts";
 import { $, $$, announce, copyText, h, loadCatalog, toast } from "./core.ts";
 import * as store from "./playlist-store.ts";
@@ -96,13 +97,16 @@ const durOf = (p: UserPlaylist) =>
 function itemTrack(e: PlaylistEntry): Track | null {
   const r = rows.get(e.rec);
   if (!r) return null;
-  return {
-    id: r.id,
-    title: e.label ? `${e.label} · ${r.title}` : r.title,
-    url: r.url,
-    start_sec: e.start ?? r.start,
-    end_sec: e.end ?? r.end,
-  };
+  return withClean(
+    {
+      id: r.id,
+      title: e.label ? `${e.label} · ${r.title}` : r.title,
+      url: r.url,
+      start_sec: e.start ?? r.start,
+      end_sec: e.end ?? r.end,
+    },
+    r,
+  );
 }
 
 // ---------------------------------------------------------------------------------------------

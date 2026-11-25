@@ -27,6 +27,8 @@ export const CSV_COLUMNS = [
   "people",
   "works",
   "audio_url",
+  /** AI-improved copy of audio_url; empty when there is none (docs/design/ai-audio.md). */
+  "clean_audio_url",
 ] as const;
 
 export function csvCell(v: string | number | null | undefined): string {
@@ -60,6 +62,7 @@ export function toCsv(items: readonly PublicItem[], origin: string): string {
       it.subjects.people.map((p) => p.id).join(";"),
       [...new Set(it.subjects.sources_cited.map((s) => s.work))].join(";"),
       it.media.url,
+      it.media.clean_url,
     ];
     lines.push(row.map(csvCell).join(","));
   }
@@ -138,6 +141,13 @@ export function recordSchema(origin: string): Record<string, unknown> {
           url: { type: "string", format: "uri" },
           size_bytes: { type: "integer" },
           mime_type: { const: "audio/mpeg" },
+          clean_url: {
+            type: "string",
+            format: "uri",
+            description:
+              "Optional. AI-improved copy of url (speech restoration; same length, so all times apply). Absent when there is none yet.",
+          },
+          clean_size_bytes: { type: "integer", description: "Optional. Size of clean_url." },
         },
       },
       classification: {
