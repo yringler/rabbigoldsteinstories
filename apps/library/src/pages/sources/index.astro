@@ -1,0 +1,67 @@
+---
+/** Sources cited: works with citation and recording counts. */
+import Base from "../../layouts/Base.astro";
+import { allItems, label, vocab } from "../../lib/site-data.ts";
+
+const cites = new Map<string, { n: number; recs: Set<string> }>();
+for (const it of allItems()) {
+  if (!it.derived.preferred_copy) continue;
+  for (const s of it.subjects.sources_cited) {
+    const c = cites.get(s.work) ?? { n: 0, recs: new Set<string>() };
+    c.n++;
+    c.recs.add(it.id);
+    cites.set(s.work, c);
+  }
+}
+const works = (vocab().lists["works"] ?? [])
+  .map((w) => ({
+    id: w.id,
+    label: label("works", w.id),
+    n: cites.get(w.id)?.n ?? 0,
+    recs: cites.get(w.id)?.recs.size ?? 0,
+  }))
+  .filter((w) => w.n > 0)
+  .sort((a, b) => b.n - a.n);
+const total = works.reduce((a, w) => a + w.n, 0);
+---
+
+<Base
+  title="Sources cited"
+  description="Chumash, Gemara, Tehillim, Tanya and the other works the recordings cite, with every reference."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Sources cited</h1>
+      <p>
+        {total.toLocaleString("en")} citations of {works.length} works. Each page lists every
+        reference with the recording it comes from.
+      </p>
+    </header>
+    <div class="table-wrap" style="max-width:760px">
+      <table class="data" data-sortable>
+        <thead>
+          <tr>
+            <th scope="col">Work</th>
+            <th scope="col" class="num">
+              Citations
+            </th>
+            <th scope="col" class="num">
+              Recordings
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {works.map((w) => (
+            <tr>
+              <td>
+                <a href={`/sources/${w.id}/`}>{w.label}</a>
+              </td>
+              <td class="num">{w.n}</td>
+              <td class="num">{w.recs}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

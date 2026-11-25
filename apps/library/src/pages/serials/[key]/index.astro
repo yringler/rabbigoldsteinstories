@@ -1,0 +1,256 @@
+---
+/**
+ * Serial reader (library.md §7.2): chapters in order, one column per airing. Each cell plays only
+ * that chapter's story segment inside its episode (?t=…&end=…).
+ */
+import type { GetStaticPaths } from "astro";
+import type { Track } from "@goldstein/player";
+import Icon from "../../../components/Icon.astro";
+import Base from "../../../layouts/Base.astro";
+import type { SerialChapterItem } from "../../../lib/indexes.ts";
+import type { PlaylistEntry } from "../../../lib/playlists.ts";
+import { formatGregorian } from "../../../lib/dates.ts";
+import { artist, rowById, serials } from "../../../lib/site-data.ts";
+import { formatDuration } from "../../../lib/time.ts";
+import { entryOf, trackOf } from "../../../lib/tracks.ts";
+
+export const getStaticPaths = (() =>
+  serials().serials.map((s) => ({ params: { key: s.story_key } }))) satisfies GetStaticPaths;
+
+const key = String(Astro.params.key);
+const s = serials().serials.find((x) => x.story_key === key);
+if (!s) throw new Error(`serial ${key}`);
+const rows = rowById();
+const runs = s.runs.filter((r) => r.in_archive);
+const maxCh = Math.max(
+  s.chapters_in_full_telling,
+  ...runs.flatMap((r) => r.chapters.map((c) => c.chapter)),
+);
+const chapterNos = Array.from({ length: maxCh }, (_, i) => i + 1);
+
+/** Track(s) for one chapter item: each part of the story segment, bounded. */
+function parts(
+  it: SerialChapterItem,
+  chapter: number,
+): { tracks: Track[]; entries: PlaylistEntry[]; start: number; end: number } | null {
+  const r = rows.get(it.id);
+  if (!r) return null;
+  const ps = it.parts?.length
+    ? it.parts
+    : [
+        {
+          start_sec: it.segment_start_sec ?? r.start,
+          end_sec: it.segment_end_sec,
+          title: `${s?.title}, chapter ${chapter}`,
+        },
+      ];
+  const tracks: Track[] = [];
+  const entries: PlaylistEntry[] = [];
+  for (const p of ps) {
+    const range = {
+      start: p.start_sec,
+      end: p.end_sec ?? r.end,
+      label: `${s?.title ?? ""}, chapter ${chapter}${ps.length > 1 ? ` (part)` : ""}`,
+    };
+    tracks.push(trackOf(r, range, artist(r.speakers)));
+    entries.push(entryOf(r, range));
+  }
+  const first = ps[0];
+  const last = ps[ps.length - 1];
+  return { tracks, entries, start: first?.start_sec ?? r.start, end: last?.end_sec ?? r.end };
+}
+
+const best = [...runs].sort(
+  (a, b) =>
+    Number(b.complete) - Number(a.complete) || b.chapters_in_archive - a.chapters_in_archive,
+)[0];
+const whole = best
+  ? [...best.chapters]
+      .sort((a, b) => a.chapter - b.chapter)
+      .map((c) => (c.items[0] ? parts(c.items[0], c.chapter) : null))
+      .filter((x) => x !== null)
+  : [];
+const wholeTracks = whole.flatMap((w) => w.tracks);
+const wholeEntries = whole.flatMap((w) => w.entries);
+const wholeSec = wholeTracks.reduce((a, t) => a + ((t.end_sec ?? 0) - (t.start_sec ?? 0)), 0);
+---
+
+<Base
+  title={s.title}
+  description={`${s.title}: a radio serial in ${s.chapters_in_full_telling} chapters, every airing side by side.`}
+>
+  <div class="wrap page" data-serial>
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/radio/">Radio show</a>
+        <span class="sep">›</span>
+        <a href="/serials/">Serials</a>
+      </nav>
+      <h1>{s.title}</h1>
+      {s.alt_titles.length > 0 && <p class="muted">Also known as {s.alt_titles.join(", ")}</p>}
+      <p>
+        A serial in {s.chapters_in_full_telling} chapters on <em>Tzivos Hashem on the Air</em>.{" "}
+        {runs.length} airing{runs.length === 1 ? "" : "s"} in the archive
+        {s.runs.length > runs.length && (
+          <>, {s.runs.length - runs.length} known only from the producer's catalog</>
+        )}
+        .
+      </p>
+      {wholeTracks.length > 0 && best && (
+        <div class="btn-row">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-action="play"
+            data-tracks={JSON.stringify(wholeTracks)}
+          >
+            <Icon name="play" size={14} /> Play the whole story
+          </button>
+          <button
+            type="button"
+            class="btn"
+            data-action="add"
+            data-entries={JSON.stringify(wholeEntries)}
+            data-what={`${s.title}: ${whole.length} chapters (${best.label} airing)`}
+          >
+            <Icon name="plus" /> Add story to playlist
+          </button>
+          <span class="small muted">
+            {best.label} airing · {whole.length} chapters · {Math.round(wholeSec / 60)} min of story
+          </span>
+        </div>
+      )}
+    </header>
+
+    <div class="table-wrap serial-table">
+      <table class="data">
+        <thead>
+          <tr>
+            <th scope="col">Chapter</th>
+            {runs.map((r) => (
+              <th scope="col">
+                {r.label} airing
+                <div class="run-meta">
+                  {r.first_episode !== null && (
+                    <>
+                      Episodes {r.first_episode}
+                      {r.last_episode !== r.first_episode && `–${r.last_episode}`}
+                    </>
+                  )}
+                  {r.complete ? (
+                    <span class="tag tag-ok">complete</span>
+                  ) : (
+                    <span class="tag">
+                      {r.chapters_in_archive} of {s.chapters_in_full_telling}
+                    </span>
+                  )}
+                </div>
+                {r.same_text_as_earlier_run.length > 0 && (
+                  <div class="run-meta">
+                    Same script as the {r.same_text_as_earlier_run.join(", ")} airing
+                  </div>
+                )}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {chapterNos.map((n) => (
+            <tr>
+              <th scope="row" class="num">
+                {n}
+              </th>
+              {runs.map((r) => {
+                const ch = r.chapters.find((c) => c.chapter === n);
+                const it = ch?.items[0];
+                const p = it ? parts(it, n) : null;
+                if (!ch || !it || !p)
+                  return (
+                    <td class="missing">{r.missing_chapters.includes(n) ? "missing" : "—"}</td>
+                  );
+                return (
+                  <td>
+                    <a
+                      href={`/r/${it.id}/?t=${Math.floor(p.start)}&end=${Math.floor(p.end)}`}
+                      class="ep-link"
+                    >
+                      Episode {ch.episode ?? "?"}
+                    </a>
+                    <div class="small muted">
+                      {it.date && formatGregorian(it.date, { short: true })} · story{" "}
+                      {formatDuration(p.start)}–{formatDuration(p.end)}
+                    </div>
+                    <div class="btn-row cell-actions">
+                      <button
+                        type="button"
+                        class="btn"
+                        data-action="play"
+                        data-tracks={JSON.stringify(p.tracks)}
+                        aria-label={`Play chapter ${n}, ${r.label} airing`}
+                      >
+                        <Icon name="play" size={12} /> Play
+                      </button>
+                      <button
+                        type="button"
+                        class="icon-btn"
+                        data-action="add"
+                        data-entries={JSON.stringify(p.entries)}
+                        data-what={`${s.title}, chapter ${n} (${r.label} airing)`}
+                        aria-label={`Add chapter ${n}, ${r.label} airing, to a playlist`}
+                      >
+                        <Icon name="plus" size={16} />
+                      </button>
+                    </div>
+                    {ch.text_matches_in_other_runs && ch.text_matches_in_other_runs.length > 0 && (
+                      <div class="small muted">
+                        Same text as ep.{" "}
+                        {ch.text_matches_in_other_runs.map((m) => m.episode).join(", ")}
+                      </div>
+                    )}
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .serial-table table th[scope="col"] {
+    min-width: 170px;
+    white-space: normal;
+    vertical-align: bottom;
+  }
+  .run-meta {
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2px;
+  }
+  .ep-link {
+    font-weight: 600;
+  }
+  .cell-actions {
+    margin-top: 6px;
+    gap: 4px;
+  }
+  .cell-actions .btn {
+    min-height: 28px;
+    padding: 0 8px;
+  }
+  td.missing {
+    color: var(--muted);
+    font-style: italic;
+    background: repeating-linear-gradient(
+      135deg,
+      transparent 0 6px,
+      color-mix(in srgb, var(--lost) 80%, transparent) 6px 8px
+    );
+  }
+</style>

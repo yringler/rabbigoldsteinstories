@@ -1,0 +1,61 @@
+---
+import Base from "../../layouts/Base.astro";
+import { serials } from "../../lib/site-data.ts";
+
+const list = [...serials().serials].sort((a, b) => a.title.localeCompare(b.title));
+const firstYear = (s: (typeof list)[number]) => s.runs.find((r) => r.in_archive)?.label ?? "";
+---
+
+<Base
+  title="Serials"
+  description="Radio stories told in chapters week by week, with every airing side by side."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/radio/">Radio show</a>
+      </nav>
+      <h1>Serials</h1>
+      <p class="lede">
+        At the center of each radio show was a story told chapter by chapter from week to week, and
+        several were broadcast again in later years. Each serial page lays out every airing side by
+        side and plays just the story part of each episode.
+      </p>
+    </header>
+    <div class="table-wrap">
+      <table class="data" data-sortable>
+        <thead>
+          <tr>
+            <th scope="col">Serial</th>
+            <th scope="col" class="num">
+              Chapters
+            </th>
+            <th scope="col" class="num">
+              Airings in the archive
+            </th>
+            <th scope="col" class="num">
+              Complete
+            </th>
+            <th scope="col">First airing</th>
+          </tr>
+        </thead>
+        <tbody>
+          {list.map((s) => (
+            <tr>
+              <td>
+                <a href={`/serials/${s.story_key}/`}>{s.title}</a>
+                {s.alt_titles.length > 0 && (
+                  <span class="muted small"> · also “{s.alt_titles.join("”, “")}”</span>
+                )}
+              </td>
+              <td class="num">{s.chapters_in_full_telling}</td>
+              <td class="num">{s.runs.filter((r) => r.in_archive).length}</td>
+              <td class="num">{s.runs.filter((r) => r.complete).length}</td>
+              <td>{firstYear(s)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

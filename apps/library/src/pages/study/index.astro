@@ -1,0 +1,113 @@
+---
+/** Study texts: Tanya by perek, then the Haggadah, Shulchan Aruch HaRav and others. */
+import Icon from "../../components/Icon.astro";
+import Base from "../../layouts/Base.astro";
+import { allItems, artist, label, rowById } from "../../lib/site-data.ts";
+import { formatDuration } from "../../lib/time.ts";
+import { entryOf, trackOf } from "../../lib/tracks.ts";
+
+const rows = rowById();
+const entries = allItems()
+  .filter((it) => it.derived.preferred_copy && it.classification.study_text?.length)
+  .flatMap((it) => (it.classification.study_text ?? []).map((s) => ({ s, it, r: rows.get(it.id) })))
+  .filter((x) => x.r !== undefined);
+const num = (v?: string) => Number(/\d+/.exec(v ?? "")?.[0] ?? 9999);
+const byWork = new Map<string, typeof entries>();
+for (const e of entries) byWork.set(e.s.work, [...(byWork.get(e.s.work) ?? []), e]);
+const order = ["tanya", "haggadah", "shulchan_aruch_harav"];
+const works = [...byWork.keys()].sort(
+  (a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99),
+);
+for (const w of works)
+  byWork
+    .get(w)
+    ?.sort(
+      (a, b) =>
+        num(a.s.from) - num(b.s.from) || (a.s.lecture_number ?? 0) - (b.s.lecture_number ?? 0),
+    );
+const unitLabel = (u?: string) => (u ? u.replace(/_/g, " ") : "");
+---
+
+<Base
+  title="Tanya and study texts"
+  description="Rabbi Yosef Goldstein's Yiddish Tanya shiurim by perek, the Haggadah and other study texts."
+>
+  <div class="wrap page">
+    <header class="page-head">
+      <h1>Tanya and study texts</h1>
+      <p class="lede">
+        Rabbi Yosef Goldstein's Tanya shiurim (in Yiddish) by perek, followed by the Haggadah,
+        Shulchan Aruch HaRav and the other texts taught in the archive.
+      </p>
+      <p class="small muted">
+        The Yiddish shiurim have no readable transcript; their words can still be found through
+        search.
+      </p>
+    </header>
+    {works.map((w) => (
+      <section class="section" id={w}>
+        <h2>{label("works", w)}</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr>
+                <th scope="col">Section</th>
+                <th scope="col" class="num">
+                  Shiur
+                </th>
+                <th scope="col">Recording</th>
+                <th scope="col">Language</th>
+                <th scope="col" class="num">
+                  Length
+                </th>
+                <th scope="col">
+                  <span class="visually-hidden">Play</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {byWork.get(w)?.map(({ s, it, r }) =>
+                r ? (
+                  <tr>
+                    <td class="nowrap">
+                      {unitLabel(s.unit)} {s.from}
+                      {s.to && s.to !== s.from ? `–${s.to}` : ""}
+                    </td>
+                    <td class="num">{s.lecture_number ?? ""}</td>
+                    <td>
+                      <a href={`/r/${it.id}/`}>{it.title}</a>
+                      {s.note && <div class="small muted">{s.note}</div>}
+                    </td>
+                    <td>{r.lang === "yi" ? "Yiddish" : r.lang === "he" ? "Hebrew" : "English"}</td>
+                    <td class="num">{formatDuration(r.dur)}</td>
+                    <td class="nowrap">
+                      <button
+                        type="button"
+                        class="icon-btn"
+                        data-action="play"
+                        data-track={JSON.stringify(trackOf(r, {}, artist(r.speakers)))}
+                        aria-label={`Play ${it.title}`}
+                      >
+                        <Icon name="play" size={16} />
+                      </button>
+                      <button
+                        type="button"
+                        class="icon-btn"
+                        data-action="add"
+                        data-entry={JSON.stringify(entryOf(r))}
+                        data-what={it.title}
+                        aria-label={`Add ${it.title} to a playlist`}
+                      >
+                        <Icon name="plus" size={16} />
+                      </button>
+                    </td>
+                  </tr>
+                ) : null,
+              )}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

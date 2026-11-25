@@ -1,0 +1,573 @@
+---
+/**
+ * Radio show timeline (library.md §7.1): 555 episode positions by Hebrew year, found and lost,
+ * long runs of lost episodes collapsed. Three arrangements of the same data: grid, list (table)
+ * and by Jewish month. The grid is an enhancement of the table, not a separate data path.
+ */
+import { CONTACT_EMAIL } from "@goldstein/config/sites";
+import Base from "../../layouts/Base.astro";
+import { formatGregorian, HEBREW_MONTH_ORDER, hebrewYearSpan } from "../../lib/dates.ts";
+import { episodes, type EpisodeCell, seriesIndex } from "../../lib/site-data.ts";
+
+const eps = episodes();
+const found = eps.filter((e) => e.status === "found").length;
+const years = [...new Set(eps.map((e) => e.year ?? 0))].filter((y) => y > 0).sort((a, b) => a - b);
+const radio = seriesIndex().series.find((s) => s.series_id === "uy_tzivos_hashem_on_the_air");
+
+type Block = { kind: "cell"; cell: EpisodeCell } | { kind: "run"; cells: EpisodeCell[] };
+function blocks(cells: EpisodeCell[]): Block[] {
+  const out: Block[] = [];
+  let run: EpisodeCell[] = [];
+  const flush = () => {
+    if (run.length >= 10) out.push({ kind: "run", cells: run });
+    else for (const c of run) out.push({ kind: "cell", cell: c });
+    run = [];
+  };
+  for (const c of cells) {
+    if (c.status === "lost") run.push(c);
+    else {
+      flush();
+      out.push({ kind: "cell", cell: c });
+    }
+  }
+  flush();
+  return out;
+}
+const byYear = years.map((y) => {
+  const cells = eps.filter((e) => e.year === y);
+  const serialKeys = [...new Set(cells.map((c) => c.serial?.key).filter((k): k is string => !!k))];
+  return {
+    year: y,
+    cells,
+    blocks: blocks(cells),
+    found: cells.filter((c) => c.status === "found").length,
+    slot: new Map(serialKeys.map((k, i) => [k, i % 6])),
+    months: HEBREW_MONTH_ORDER.map((m) => ({
+      month: m,
+      cells: cells.filter((c) => c.hebrewMonth === m),
+    })).filter((m) => m.cells.length > 0),
+    undated: cells.filter((c) => !c.hebrewMonth),
+  };
+});
+const dayMonth = (c: EpisodeCell) => {
+  if (!c.hebrew) return c.date ? formatGregorian(c.date, { short: true }) : "";
+  const m = /^(\d{1,2}) ([A-Za-z]+(?: I{1,2})?)/.exec(c.hebrew);
+  return m
+    ? `${m[1]} ${(m[2] ?? "").slice(0, 3)}${/ II$/.test(m[2] ?? "") ? " II" : / I$/.test(m[2] ?? "") ? " I" : ""}`
+    : c.hebrew;
+};
+const aria = (c: EpisodeCell) =>
+  c.status === "found"
+    ? `Episode ${c.n}${c.hebrew ? `, ${c.hebrew}` : ""}${c.title ? `, ${c.title}` : ""}${c.serial ? `, serial ${c.serial.title}${c.serial.ch ? ` chapter ${c.serial.ch}` : ""}` : ""}`
+    : `Episode ${c.n}, not found yet`;
+const mail = (n: number) =>
+  `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`I may have radio episode ${n}`)}&body=${encodeURIComponent(`Hello,\n\nI may have a recording of Tzivos Hashem on the Air, episode ${n}.\n\n`)}`;
+---
+
+<Base
+  title="Radio show timeline"
+  description="Uncle Yossi's Tzivos Hashem on the Air, 1981–92: every episode by Hebrew year, including the episodes not yet found."
+>
+  <div class="wrap page" data-radio>
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/series/">Series</a>
+        <span class="sep">›</span>
+        <a href="/series/uy_tzivos_hashem_on_the_air/">Tzivos Hashem on the Air</a>
+      </nav>
+      <h1>Tzivos Hashem on the Air, 1981–92</h1>
+      <p class="lede">{radio?.description}</p>
+      <p>
+        <strong class="num">{eps.length}</strong> episode numbers:{" "}
+        <strong class="num">{found}</strong> in the archive,
+        <strong class="num">{eps.length - found}</strong> not found yet.{" "}
+        <a href="/radio/lost/">List of lost episodes</a>.
+      </p>
+    </header>
+
+    <div class="radio-tools no-print">
+      <div class="seg" role="group" aria-label="Arrangement">
+        <a class="btn" href="?view=grid" data-arrange="grid" aria-pressed="true">
+          Grid
+        </a>
+        <a class="btn" href="?view=list" data-arrange="list" aria-pressed="false">
+          List
+        </a>
+        <a class="btn" href="?view=month" data-arrange="month" aria-pressed="false">
+          By Jewish month
+        </a>
+      </div>
+      <span class="legend small muted">
+        <span class="lg found"></span> in the archive <span class="lg lost"></span> not found yet
+        <span class="lg serial"></span> serial chapter
+      </span>
+    </div>
+
+    <nav class="year-rail" aria-label="Hebrew years">
+      {byYear.map((y) => (
+        <a href={`#y${y.year}`}>
+          <strong>{y.year}</strong>
+          <span>{hebrewYearSpan(y.year)}</span>
+          <span class="num">
+            {y.found}/{y.cells.length}
+          </span>
+        </a>
+      ))}
+    </nav>
+
+    <div class="arr arr-grid" data-arr="grid">
+      {byYear.map((y) => (
+        <section class="year" id={`y${y.year}`} aria-labelledby={`yh${y.year}`}>
+          <div class="year-head">
+            <h2 id={`yh${y.year}`}>
+              {y.year} <span class="muted">({hebrewYearSpan(y.year)})</span>
+            </h2>
+            <span class="small muted">
+              {y.found} of {y.cells.length} episodes in the archive
+            </span>
+          </div>
+          <ol class="ep-grid">
+            {y.blocks.map((b) =>
+              b.kind === "run" ? (
+                <li class="ep-run-li">
+                  <details class="ep-run">
+                    <summary>
+                      Episodes {b.cells[0]?.n}–{b.cells[b.cells.length - 1]?.n} ({y.year}):{" "}
+                      {b.cells.length} episodes not found yet
+                    </summary>
+                    <ol class="ep-grid inner">
+                      {b.cells.map((c) => (
+                        <li>
+                          <details class="ep lost" id={`ep${c.n}`}>
+                            <summary aria-label={aria(c)}>
+                              <span class="n">{c.n}</span>
+                              <span class="d">not found</span>
+                            </summary>
+                            <div class="lost-panel">
+                              <strong>Episode {c.n}: not found yet</strong>
+                              {c.hebrew && (
+                                <p>
+                                  Estimated air date: around {c.hebrew}
+                                  {c.date && ` (${formatGregorian(c.date)})`}
+                                </p>
+                              )}
+                              {c.catalog && <p>Producer's catalog: {c.catalog}</p>}
+                              <p>
+                                <a href={mail(c.n)}>Do you have this tape? Help us find it</a>
+                              </p>
+                            </div>
+                          </details>
+                        </li>
+                      ))}
+                    </ol>
+                  </details>
+                </li>
+              ) : b.cell.status === "found" ? (
+                <li>
+                  <a
+                    class={`ep found${b.cell.serial ? ` serial s${y.slot.get(b.cell.serial.key) ?? 0}` : ""}`}
+                    href={`/r/${b.cell.id}/`}
+                    title={`${b.cell.title ?? ""}${b.cell.serial ? ` · serial: ${b.cell.serial.title}` : ""}`}
+                    aria-label={aria(b.cell)}
+                  >
+                    <span class="n">{b.cell.n}</span>
+                    <span class="d">{dayMonth(b.cell)}</span>
+                    {b.cell.serial && <span class="s">{b.cell.serial.title}</span>}
+                  </a>
+                </li>
+              ) : (
+                <li>
+                  <details class="ep lost" id={`ep${b.cell.n}`}>
+                    <summary aria-label={aria(b.cell)}>
+                      <span class="n">{b.cell.n}</span>
+                      <span class="d">{b.cell.defective ? "damaged" : "not found"}</span>
+                    </summary>
+                    <div class="lost-panel">
+                      <strong>Episode {b.cell.n}: not found yet</strong>
+                      {b.cell.defective && (
+                        <p>The only copy in the archive is damaged and is not published.</p>
+                      )}
+                      {b.cell.hebrew && (
+                        <p>
+                          Estimated air date: around {b.cell.hebrew}
+                          {b.cell.date && ` (${formatGregorian(b.cell.date)})`}
+                        </p>
+                      )}
+                      {b.cell.catalog && <p>Producer's catalog: {b.cell.catalog}</p>}
+                      <p>
+                        <a href={mail(b.cell.n)}>Do you have this tape? Help us find it</a>
+                      </p>
+                    </div>
+                  </details>
+                </li>
+              ),
+            )}
+          </ol>
+        </section>
+      ))}
+    </div>
+
+    <div class="arr arr-list" data-arr="list" hidden>
+      {byYear.map((y) => (
+        <section class="year" id={`yl${y.year}`}>
+          <h2>
+            {y.year} <span class="muted">({hebrewYearSpan(y.year)})</span>
+          </h2>
+          <div class="table-wrap">
+            <table class="data">
+              <thead>
+                <tr>
+                  <th scope="col" class="num">
+                    No.
+                  </th>
+                  <th scope="col">Hebrew date</th>
+                  <th scope="col">Gregorian date</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Serial</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {y.cells.map((c) => (
+                  <tr>
+                    <td class="num">{c.n}</td>
+                    <td class="hdate">
+                      {c.hebrew ? `${c.status === "lost" ? "about " : ""}${c.hebrew}` : ""}
+                    </td>
+                    <td>
+                      {c.date
+                        ? `${c.status === "lost" ? "about " : ""}${formatGregorian(c.date, { short: true })}`
+                        : ""}
+                    </td>
+                    <td>
+                      {c.status === "found" ? (
+                        <a href={`/r/${c.id}/`}>{c.title}</a>
+                      ) : (
+                        (c.catalog ?? "")
+                      )}
+                    </td>
+                    <td>
+                      {c.serial
+                        ? `${c.serial.title}${c.serial.ch ? `, ch. ${c.serial.ch}` : ""}`
+                        : ""}
+                    </td>
+                    <td>
+                      {c.status === "found" ? (
+                        <span class="tag tag-ok">in archive</span>
+                      ) : (
+                        <a href={`/radio/lost/#ep-${c.n}`}>not found</a>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <div class="arr arr-month" data-arr="month" hidden>
+      <p class="muted">
+        Each year arranged by Jewish month, so "what did he say before Pesach each year" reads down
+        a column.
+      </p>
+      <div class="table-wrap">
+        <table class="data month-table">
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              {HEBREW_MONTH_ORDER.filter((m) =>
+                byYear.some((y) => y.months.some((x) => x.month === m)),
+              ).map((m) => (
+                <th scope="col">{m}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {byYear.map((y) => (
+              <tr>
+                <th scope="row">{y.year}</th>
+                {HEBREW_MONTH_ORDER.filter((m) =>
+                  byYear.some((yy) => yy.months.some((x) => x.month === m)),
+                ).map((m) => (
+                  <td>
+                    {y.months
+                      .find((x) => x.month === m)
+                      ?.cells.map((c) =>
+                        c.status === "found" ? (
+                          <a
+                            class="mchip"
+                            href={`/r/${c.id}/`}
+                            title={`${c.hebrew ?? ""} · ${c.title ?? ""}`}
+                          >
+                            {c.n}
+                          </a>
+                        ) : (
+                          <a
+                            class="mchip lost"
+                            href={`/radio/lost/#ep-${c.n}`}
+                            title={`about ${c.hebrew ?? ""} · not found yet`}
+                          >
+                            {c.n}
+                          </a>
+                        ),
+                      )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .radio-tools {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 24px;
+    margin-bottom: 16px;
+  }
+  .seg {
+    display: inline-flex;
+  }
+  .seg .btn {
+    border-radius: 0;
+  }
+  .seg .btn + .btn {
+    margin-left: -1px;
+  }
+  .seg .btn:first-child {
+    border-radius: var(--radius) 0 0 var(--radius);
+  }
+  .seg .btn:last-child {
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .seg .btn[aria-pressed="true"] {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent);
+    position: relative;
+  }
+  .legend {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .lg {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 2px;
+    margin-left: 8px;
+  }
+  .lg.found {
+    background: var(--surface);
+  }
+  .lg.lost {
+    background: repeating-linear-gradient(135deg, var(--lost) 0 3px, var(--rule) 3px 5px);
+  }
+  .lg.serial {
+    background: var(--surface);
+    border-left: 4px solid var(--accent-2);
+  }
+  .year-rail {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 4px 0 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--rule);
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 4;
+  }
+  .year-rail a {
+    flex: none;
+    display: grid;
+    text-align: center;
+    padding: 6px 10px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--surface);
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .year-rail a strong {
+    font-size: 14px;
+  }
+  .year-rail a span {
+    color: var(--muted);
+  }
+  .year-rail a:hover {
+    border-color: var(--accent);
+  }
+  .year {
+    margin: 22px 0 30px;
+    scroll-margin-top: 80px;
+  }
+  .year-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+  }
+  .year-head h2 {
+    margin: 0;
+  }
+  .ep-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+    gap: 6px;
+  }
+  .ep {
+    display: grid;
+    align-content: start;
+    min-height: 62px;
+    padding: 6px 8px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--surface);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+    position: relative;
+  }
+  a.ep:hover {
+    border-color: var(--accent);
+  }
+  .ep .n {
+    font: 600 15px/20px var(--sans);
+    font-variant-numeric: tabular-nums;
+  }
+  .ep .d {
+    color: var(--accent-2);
+  }
+  .ep .s {
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 2px;
+  }
+  .ep.serial {
+    border-left-width: 4px;
+  }
+  .ep.s0 {
+    border-left-color: var(--s0);
+  }
+  .ep.s1 {
+    border-left-color: var(--s1);
+  }
+  .ep.s2 {
+    border-left-color: var(--s2);
+  }
+  .ep.s3 {
+    border-left-color: var(--s3);
+  }
+  .ep.s4 {
+    border-left-color: var(--s4);
+  }
+  .ep.s5 {
+    border-left-color: var(--s5);
+  }
+  details.ep.lost {
+    padding: 0;
+    background: repeating-linear-gradient(
+      135deg,
+      var(--lost) 0 6px,
+      color-mix(in srgb, var(--rule) 60%, var(--lost)) 6px 8px
+    );
+  }
+  details.ep.lost > summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    display: grid;
+    min-height: 60px;
+    align-content: start;
+  }
+  details.ep.lost > summary::-webkit-details-marker {
+    display: none;
+  }
+  details.ep.lost .d {
+    color: var(--muted);
+    font-style: italic;
+  }
+  details.ep.lost[open] {
+    z-index: 10;
+  }
+  .lost-panel {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    z-index: 15;
+    width: 260px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .lost-panel p {
+    margin: 6px 0 0;
+  }
+  .ep-run-li {
+    grid-column: 1 / -1;
+  }
+  .ep-run > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: repeating-linear-gradient(
+      135deg,
+      var(--lost) 0 6px,
+      color-mix(in srgb, var(--rule) 60%, var(--lost)) 6px 8px
+    );
+    font-weight: 500;
+  }
+  .ep-run[open] > summary {
+    margin-bottom: 6px;
+  }
+  .month-table td {
+    min-width: 70px;
+  }
+  .mchip {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    padding: 1px 4px;
+    margin: 1px;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    background: var(--surface);
+  }
+  .mchip.lost {
+    color: var(--muted);
+    background: var(--lost);
+    font-style: italic;
+  }
+</style>

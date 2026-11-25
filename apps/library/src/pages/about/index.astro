@@ -1,0 +1,96 @@
+---
+/** About: people, how the archive was made, AI disclosure, privacy, corrections, lost tapes. */
+import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import Base from "../../layouts/Base.astro";
+import { episodes, manifest, rows, SITE } from "../../lib/site-data.ts";
+
+const m = manifest();
+const pub = rows().filter((r) => r.preferred).length;
+const lost = episodes().filter((e) => e.status === "lost").length;
+---
+
+<Base
+  title="About"
+  description="About the Goldstein Story Archive: who made the recordings, how the archive was put together, privacy and corrections."
+>
+  <div class="wrap page about">
+    <header class="page-head">
+      <h1>About the archive</h1>
+      <p class="lede">
+        {SITE.name} gathers the recorded stories of the Goldstein family: {pub.toLocaleString("en")}{" "}
+        recordings, about {Math.round(m.hours)} hours, from the 1980s to today.
+      </p>
+    </header>
+    <div class="reading">
+      <h2>The people</h2>
+      <p>
+        <strong>Rabbi Yosef Goldstein</strong>, known to a generation of children as{" "}
+        <strong>Uncle Yossi</strong>, hosted
+        <em>Tzivos Hashem on the Air</em>, a weekly radio program broadcast on Tuesday nights from
+        late 1981 into the early 1990s. Each half-hour show opened with children saying Shema at the
+        microphone, answered letters from the mailbox, taught about the coming Yom Tov and the
+        mitzvah campaigns, and carried a serial story from week to week. He also gave the Yiddish
+        Tanya shiurim in the archive and hosted the earlier program <em>Shema B'ni</em>.
+      </p>
+      <p>
+        His son <strong>Rabbi Chaim Levi Goldstein</strong> tells most of the stories outside the
+        radio show, and is known for the song “I Believe in Hashem”, which opens his stories.{" "}
+        <strong>Bubby Chaya Malka</strong>, Uncle Yossi's mother, tells stories of her own in
+        English and Yiddish.
+      </p>
+
+      <h2>How the archive was made</h2>
+      <p>
+        The tapes and files were collected, digitised and transcribed by machine. An AI model then
+        listened through the transcripts and wrote the summaries, lessons, chapter marks, dates,
+        tags and links between recordings, and a person checked the decisions that matter.{" "}
+        <strong>Transcripts are automatic and summaries are written with AI</strong>: both may
+        contain errors. The audio itself is never edited; where a tape ends in blank space the
+        player simply stops at the end of the content.
+      </p>
+      <p>
+        Yiddish recordings have no readable transcript on the site. Their words can still be found
+        through search, so a Yiddish shiur on a given perek or a story told in Yiddish is not lost
+        to a searcher.
+      </p>
+
+      <h2>Privacy</h2>
+      <p>
+        On the radio show, children came to the studio to say Shema, and birthdays, addresses and
+        lists of people needing a refuah were read on air. The recordings are published as they were
+        broadcast, but the site never shows those names, addresses or lists: those parts of the
+        transcripts are withheld (“not transcribed”), and the chapters where they occur carry only a
+        generic title. If you find personal details that should not be here, please write to us.
+      </p>
+
+      <h2>Lost tapes</h2>
+      <p>
+        {lost} episodes of the radio show are not in the archive yet.{" "}
+        <a href="/radio/lost/">See the list</a>. If you recorded the program at home, or have any of
+        these tapes, we would be very glad to hear from you.
+      </p>
+
+      <h2>Corrections and contact</h2>
+      <p>
+        Every recording page has a “Report an error in this record” link that fills in an email for
+        you. For anything else, write to
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+      </p>
+
+      <h2>Related sites</h2>
+      <p>
+        For children: <a href={siteUrl("kids")}>{SITES.kids.name}</a>. At bedtime:{" "}
+        <a href={siteUrl("bedtime")}>{SITES.bedtime.name}</a>, whose nightly playlists also appear
+        here under <a href="/tonight/">Tonight's playlists</a>. The data behind all three is
+        <a href="/data/">available for download</a>.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .about h2 {
+    margin-top: 1.6em;
+    font-size: 21px;
+  }
+</style>

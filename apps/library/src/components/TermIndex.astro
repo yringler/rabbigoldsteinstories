@@ -1,0 +1,44 @@
+---
+/** A vocabulary list with counts; every term links to /search with that facet set (library.md §3). */
+import { label, unconfirmed, usage, vocab } from "../lib/site-data.ts";
+
+interface Props {
+  list: "midos" | "mitzvos" | "topics";
+  facet: string;
+}
+const { list, facet } = Astro.props;
+const counts = usage(list);
+const entries = (vocab().lists[list] ?? [])
+  .map((e) => ({
+    id: e.id,
+    label: label(list, e.id),
+    n: counts.get(e.id) ?? 0,
+    unconfirmed: unconfirmed(list, e.id),
+  }))
+  .sort((a, b) => a.label.localeCompare(b.label));
+const used = entries.filter((e) => e.n > 0);
+const unused = entries.filter((e) => e.n === 0);
+---
+
+<ul class="index-list term-cols">
+  {used.map((e) => (
+    <li>
+      <a href={`/search/?${facet}=${e.id}`} class={e.unconfirmed ? "unconfirmed" : undefined}>
+        {e.label}
+      </a>
+      <span class="n">{e.n}</span>
+    </li>
+  ))}
+</ul>
+{unused.length > 0 && (
+  <p class="small muted" style="margin-top:18px">
+    Not tagged on any recording yet: {unused.map((e) => e.label).join(", ")}.
+  </p>
+)}
+
+<style>
+  .term-cols {
+    columns: 3 240px;
+    column-gap: 32px;
+  }
+</style>

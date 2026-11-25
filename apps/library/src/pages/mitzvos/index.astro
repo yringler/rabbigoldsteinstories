@@ -1,0 +1,23 @@
+---
+import TermIndex from "../../components/TermIndex.astro";
+import Base from "../../layouts/Base.astro";
+---
+
+<Base title="Mitzvos" description="Mitzvos the recordings teach or show, with counts.">
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/midos/">Midos</a>
+        <span class="sep">·</span>
+        <a href="/mitzvos/">Mitzvos</a>
+        <span class="sep">·</span>
+        <a href="/topics/">Topics</a>
+      </nav>
+      <h1>Mitzvos</h1>
+      <p>
+        Mitzvos the recordings teach or show. Each links to a search with that mitzvah selected.
+      </p>
+    </header>
+    <TermIndex list="mitzvos" facet="mitzvos" />
+  </div>
+</Base>

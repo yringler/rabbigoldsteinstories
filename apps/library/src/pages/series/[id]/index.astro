@@ -1,0 +1,118 @@
+---
+/** One series: description, counts, date range and every recording (a sortable table). */
+import type { GetStaticPaths } from "astro";
+import Base from "../../../layouts/Base.astro";
+import { formatGregorian } from "../../../lib/dates.ts";
+import { label, RADIO_SERIES, rows, seriesIndex, speakerLabel } from "../../../lib/site-data.ts";
+import { formatDuration } from "../../../lib/time.ts";
+
+export const getStaticPaths = (() =>
+  seriesIndex().series.map((s) => ({ params: { id: s.series_id } }))) satisfies GetStaticPaths;
+
+const id = String(Astro.params.id);
+const s = seriesIndex().series.find((x) => x.series_id === id);
+if (!s) throw new Error(`series ${id}`);
+const items = rows()
+  .filter((r) => r.series === id && r.preferred)
+  .sort(
+    (a, b) =>
+      (a.sortKey || 99999999) - (b.sortKey || 99999999) ||
+      (a.ep ?? 0) - (b.ep ?? 0) ||
+      a.title.localeCompare(b.title, "en", { numeric: true }),
+  );
+const byType = Object.entries(s.counts.by_content_type).sort((a, b) => b[1] - a[1]);
+---
+
+<Base title={s.label} description={s.description.slice(0, 200)}>
+  <div class="wrap page">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/series/">Series</a>
+      </nav>
+      <h1 class={s.label_unconfirmed ? "unconfirmed" : undefined}>{s.label}</h1>
+      <p class="lede">{s.description}</p>
+      <p class="num">
+        {items.length} recordings ({s.counts.items} including other copies) ·{" "}
+        {Math.round(s.counts.hours)} hours ·
+        {byType.map(([t, n], i) => (
+          <>
+            {i > 0 && ", "}
+            {n} {label("content_type", t).toLowerCase()}
+          </>
+        ))}
+        {s.date_range?.earliest && (
+          <>
+            {" "}
+            · {formatGregorian(s.date_range.earliest)} to{" "}
+            {formatGregorian(s.date_range.latest ?? s.date_range.earliest)}
+          </>
+        )}
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href={`/search/?series=${id}`}>
+          Search and filter this series
+        </a>
+        {id === RADIO_SERIES && (
+          <a class="btn" href="/radio/">
+            Episode timeline
+          </a>
+        )}
+        {id === RADIO_SERIES && (
+          <a class="btn" href="/serials/">
+            Serials
+          </a>
+        )}
+        {id === "tanya_yiddish_goldstein" && (
+          <a class="btn" href="/study/">
+            Tanya by perek
+          </a>
+        )}
+      </div>
+    </header>
+    <div class="table-wrap">
+      <table class="data" data-sortable>
+        <thead>
+          <tr>
+            {id === RADIO_SERIES && (
+              <th scope="col" class="num">
+                Ep.
+              </th>
+            )}
+            <th scope="col">Title</th>
+            <th scope="col">Type</th>
+            <th scope="col">Speaker</th>
+            <th scope="col">Date</th>
+            <th scope="col" class="num">
+              Length
+            </th>
+            <th scope="col">Ages</th>
+          </tr>
+        </thead>
+        <tbody>
+          {items.map((r) => (
+            <tr>
+              {id === RADIO_SERIES && <td class="num">{r.ep ?? ""}</td>}
+              <td>
+                <a href={`/r/${r.id}/`}>{r.title}</a>
+              </td>
+              <td class="nowrap">{label("content_type", r.type)}</td>
+              <td>
+                {r.speakers
+                  .filter((x) => x !== "guest_children")
+                  .map(speakerLabel)
+                  .join(", ")}
+              </td>
+              <td class="nowrap hdate" data-sort={String(r.sortKey).padStart(8, "0")}>
+                {r.dateLabel ?? ""}
+              </td>
+              <td class="num" data-sort={String(Math.round(r.dur)).padStart(6, "0")}>
+                {formatDuration(r.dur)}
+              </td>
+              <td>{r.age}+</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Base>

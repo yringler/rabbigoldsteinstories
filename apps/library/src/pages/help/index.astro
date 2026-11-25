@@ -1,0 +1,210 @@
+---
+/** Help: search syntax, filters, keyboard shortcuts, citing, playlists. */
+import Base from "../../layouts/Base.astro";
+---
+
+<Base
+  title="Help"
+  description="How to search, filter, cite and make playlists, and the keyboard shortcuts."
+>
+  <div class="wrap page help">
+    <header class="page-head">
+      <h1>Help</h1>
+      <nav class="btn-row" aria-label="On this page">
+        <a class="chip" href="#search">
+          Searching
+        </a>
+        <a class="chip" href="#filters">
+          Filters
+        </a>
+        <a class="chip" href="#keys">
+          Keyboard
+        </a>
+        <a class="chip" href="#cite">
+          Citing
+        </a>
+        <a class="chip" href="#playlists">
+          Playlists
+        </a>
+      </nav>
+    </header>
+    <div class="reading">
+      <h2 id="search">Searching</h2>
+      <ul>
+        <li>
+          Words are combined: <code>king ring seder</code> finds recordings with all three words.
+        </li>
+        <li>
+          Put a phrase in quotes for an exact match: <code>"ad mosai"</code>.
+        </li>
+        <li>
+          The last word matches as a prefix: <code>hachn</code> finds <em>hachnasas orchim</em>.
+        </li>
+        <li>
+          Excluding a word (<code>-word</code>), OR and NOT are not supported yet.
+        </li>
+        <li>
+          As you type, the box suggests people, midos, mitzvos, Yom Tov, parshiyos, sources, places,
+          serials and episode numbers (<code>ep 271</code>). Choosing one sets a filter, which also
+          finds recordings whose transcript spells the word differently.
+        </li>
+        <li>
+          Search covers titles, summaries, lessons, keywords and the automatic transcripts. A result
+          found only in the transcript says so and shows the passages, each with a time you can jump
+          to. Hebrew-script words search the Yiddish recordings, which show the time of the match
+          but no text.
+        </li>
+        <li>
+          Spelling varies (Dayeinu, Dayenu): when a transcript search finds little, a few common
+          spelling variants are tried and listed.
+        </li>
+      </ul>
+
+      <h2 id="filters">Filters</h2>
+      <ul>
+        <li>
+          Different filters combine with AND; several values in one filter combine with OR. Filters
+          marked <em>any | all</em> can require every ticked value.
+        </li>
+        <li>
+          Every value can be excluded with its “not” button (or <kbd>x</kbd> on a focused value).
+          Excluded values are struck through.
+        </li>
+        <li>
+          “Leave out stories with…” removes recordings that carry a parents' note on that theme.
+        </li>
+        <li>The number beside each value is how many results you would get by ticking it.</li>
+        <li>Everything is in the address bar: copy the link to share the exact search.</li>
+        <li>
+          “Suitable from age” is the youngest age a recording suits; 3 to 6 finds recordings for
+          young children.
+        </li>
+      </ul>
+
+      <h2 id="keys">Keyboard shortcuts</h2>
+      <p>
+        Single-key shortcuts never fire while you are typing, and can be switched off in the
+        shortcuts panel (<kbd>?</kbd>).
+      </p>
+      <table class="data">
+        <tbody>
+          <tr>
+            <td>
+              <kbd>/</kbd>
+            </td>
+            <td>Focus search</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>j</kbd> / <kbd>k</kbd>
+            </td>
+            <td>Next / previous search result</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>Enter</kbd>
+            </td>
+            <td>Open the focused result</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>p</kbd>
+            </td>
+            <td>Play the focused result</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>a</kbd>
+            </td>
+            <td>Add the focused result (or this recording) to a playlist</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>f</kbd>
+            </td>
+            <td>Focus the filters</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>x</kbd>
+            </td>
+            <td>Exclude the focused filter value</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>Space</kbd>
+            </td>
+            <td>Play / pause</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>←</kbd> / <kbd>→</kbd>
+            </td>
+            <td>Back 15 seconds / forward 30 seconds</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>[</kbd> / <kbd>]</kbd>
+            </td>
+            <td>Previous / next chapter</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>&lt;</kbd> / <kbd>&gt;</kbd>
+            </td>
+            <td>Slower / faster</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>c</kbd>
+            </td>
+            <td>Copy a link to this recording at the current time</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>t</kbd>
+            </td>
+            <td>Jump to the transcript</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>?</kbd>
+            </td>
+            <td>Show the shortcuts</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="cite">Citing</h2>
+      <p>
+        “Cite” on a recording gives a short form, a full form and a link. If the player is past the
+        first few seconds, or you opened the page at a time, the time is included and the link opens
+        the recording there. You can also select words in the transcript and copy them as a quote
+        with its citation. Links take <code>?t=754</code>, <code>?t=12m34s</code> or
+        <code>?t=12:34</code>; the page opens at that time without starting to play.
+      </p>
+
+      <h2 id="playlists">Playlists</h2>
+      <p>
+        “+ Playlist” adds a recording, or just one chapter or serial chapter, to a playlist of your
+        own. Playlists are saved in this browser only: there are no accounts, and clearing browser
+        data, a private window or another device will not have them. Export a file to back up or
+        share; import it on any device. Short playlists can also be shared as a link.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .help h2 {
+    margin-top: 1.5em;
+    scroll-margin-top: 16px;
+  }
+  .help ul li {
+    margin-bottom: 6px;
+  }
+  .help table {
+    max-width: 560px;
+    font-family: var(--sans);
+  }
+</style>
