@@ -25,6 +25,9 @@ export const MEDIA_HOST = "storiesmedia.torahlearningtools.com";
 /** Contact address for lost tapes and other enquiries (owner decision 2026-11-25, docs/DECISIONS.md). No contact form yet. */
 export const CONTACT_EMAIL = "admin@torahlearningtools.com";
 
+/** Credit line on every about / grown-ups page (owner, 2026-11-25). */
+export const PROJECT_CREDIT = "A project of Yehuda Ringler.";
+
 /** Local goldstein-api (`npm run dev:api`); each app's dev server proxies /playlists and /api to it. */
 export const DEV_API_ORIGIN = "http://localhost:8787";
 
