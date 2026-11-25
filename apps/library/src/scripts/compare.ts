@@ -2,10 +2,11 @@
 import { formatDuration } from "../lib/time.ts";
 import { $, $$, h, loadCatalog, player } from "./core.ts";
 
-type Row = [number, number, string | null];
+import type { TRow } from "../lib/transcript-rows.ts";
+
 interface TFile {
   id: string;
-  rows: Row[];
+  rows: TRow[];
 }
 
 const cache = new Map<string, Promise<TFile | null>>();
@@ -50,22 +51,20 @@ async function show(root: HTMLElement): Promise<void> {
     const out: HTMLElement[] = [
       h("h3", {}, sel.selectedOptions[0]?.textContent?.replace(/^Telling \d+: /, "") ?? r.title),
     ];
-    let gap = false;
-    for (const [ls, le, text] of t.rows) {
-      if (le < start - 1 || ls > end + 1) continue;
-      if (text === null) {
-        if (!gap)
-          out.push(
-            h(
-              "p",
-              { class: "cmp-gap" },
-              "Part of this recording is not transcribed (personal details read on air).",
-            ),
-          );
-        gap = true;
+    for (const row of t.rows) {
+      if (!Array.isArray(row)) {
+        if (row.end < start - 1 || row.start > end + 1) continue;
+        out.push(
+          h(
+            "p",
+            { class: "cmp-gap" },
+            "Part of this recording is not transcribed (personal details read on air).",
+          ),
+        );
         continue;
       }
-      gap = false;
+      const [ls, le, text] = row;
+      if (le < start - 1 || ls > end + 1) continue;
       const line = h(
         "p",
         { class: "cmp-line", tabindex: "0" },

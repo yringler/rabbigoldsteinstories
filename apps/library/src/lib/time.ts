@@ -34,3 +34,9 @@ export function totalLength(sec: number): string {
   const h = Math.floor(m / 60);
   return h ? `${h} h ${m % 60} m` : `${m} m`;
 }
+
+/** Keep a deep-link time inside the playable range (a ?t= past the end lands near the end). */
+export function clampTime(t: number | null, start: number, end: number): number | null {
+  if (t === null || !Number.isFinite(t)) return null;
+  return Math.min(Math.max(t, start), Math.max(start, end - 1));
+}
