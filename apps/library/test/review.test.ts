@@ -189,7 +189,14 @@ describe("9. structure", () => {
   });
 });
 
-describe("10. no cross-like shapes in the icon set", () => {
+describe("10. no cross-like shapes in the icon set (UI close/remove X exempt)", () => {
+  /** An X is a standard close/remove control; the owner's rule is about artwork and decoration. */
+  /**
+   * Exempt by name after the owner's review of the redrawn icons (2026-11-25): the X close/remove
+   * control, the plus for "add", the sun with line rays and the table grid were restored. The rule
+   * that remains is narrow: no four-pointed sparkles or stars, nothing drawn as a decorative cross.
+   */
+  const UI_CONTROLS = new Set(["close", "plus", "sun", "table"]);
   /** Absolute "M x y h/v n" segments: does any horizontal one cross through a vertical one? */
   function crossings(d: string): number {
     const hs: [number, number, number][] = [];
@@ -209,9 +216,14 @@ describe("10. no cross-like shapes in the icon set", () => {
   }
   it("no icon draws a plus, an X or crossing strokes", () => {
     for (const [name, d] of Object.entries(ICONS)) {
+      if (UI_CONTROLS.has(name)) continue;
       expect(crossings(d), name).toBe(0);
       expect(/M6 6l12 12|M18 6 6 18/.test(d), name).toBe(false);
     }
     expect("moonStars" in ICONS).toBe(false);
+  });
+  it("the moon is drawn full or nearly full, never a thin crescent", () => {
+    expect(ICONS.moon).toMatch(/<circle cx="12" cy="12" r="8"/);
+    expect(ICONS.moon).not.toMatch(/star/i);
   });
 });
