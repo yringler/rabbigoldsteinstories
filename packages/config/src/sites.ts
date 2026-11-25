@@ -1,9 +1,9 @@
 /**
- * The three websites, their Worker names and production hosts. One table so that apps can link to
+ * The websites (the three sites plus the landing page), their Worker names and production hosts. One table so that apps can link to
  * each other and the Workers, wrangler.jsonc files and docs agree. If you change a host here, change
  * the matching `routes` entry in apps/<site>/wrangler.jsonc (packages/config/test checks they match).
  */
-export const SITE_IDS = ["bedtime", "kids", "library"] as const;
+export const SITE_IDS = ["bedtime", "kids", "library", "home"] as const;
 export type SiteId = (typeof SITE_IDS)[number];
 
 export interface SiteInfo {
@@ -24,6 +24,9 @@ export const ZONE = "torahlearningtools.com";
 export const MEDIA_HOST = "storiesmedia.torahlearningtools.com";
 /** Contact address for lost tapes and other enquiries (owner decision 2026-11-25, docs/DECISIONS.md). No contact form yet. */
 export const CONTACT_EMAIL = "admin@torahlearningtools.com";
+
+/** Credit line on every about / grown-ups page (owner, 2026-11-25). */
+export const PROJECT_CREDIT = "A project of Yehuda Ringler.";
 
 /** Local goldstein-api (`npm run dev:api`); each app's dev server proxies /playlists and /api to it. */
 export const DEV_API_ORIGIN = "http://localhost:8787";
@@ -49,6 +52,15 @@ export const SITES: Readonly<Record<SiteId, SiteInfo>> = {
     worker: "goldstein-library",
     host: "storylibrary.torahlearningtools.com",
     itemPath: (id) => `/r/${id}/`,
+  },
+  home: {
+    id: "home",
+    // Landing page: introduces the archive and links to the three sites. Host confirmed by the
+    // owner 2026-11-25 (docs/DECISIONS.md); the name is a placeholder like the others.
+    name: "Rabbi Goldstein Stories",
+    worker: "goldstein-home",
+    host: "goldsteinstories.torahlearningtools.com",
+    itemPath: null,
   },
 };
 

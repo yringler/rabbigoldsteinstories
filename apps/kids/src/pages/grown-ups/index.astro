@@ -3,7 +3,7 @@
 // privacy, links to the other two sites.
 import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
-import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
 import { loadVocab } from "@goldstein/data/load";
 import { BAND_INFO, BANDS } from "../../lib/kinds.ts";
 import { getModel } from "../../lib/build/model.ts";
@@ -122,6 +122,7 @@ const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0)
           <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
         </li>
       </ul>
+      <p>{PROJECT_CREDIT}</p>
     </section>
   </div>
 </Base>

@@ -1,6 +1,6 @@
 ---
 // For parents (bedtime.md §2.4): under 250 words; confirmed names only.
-import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
 import Base from "../layouts/Base.astro";
 ---
 
@@ -44,5 +44,6 @@ import Base from "../layouts/Base.astro";
       Questions, or a tape we're missing? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
       No cookies, no accounts, no tracking.
     </p>
+    <p>{PROJECT_CREDIT}</p>
   </article>
 </Base>

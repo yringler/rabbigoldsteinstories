@@ -1,6 +1,6 @@
 # Architecture: the websites monorepo
 
-This repository holds the archive data (`data/`, `docs/`, `review/`, `tools/`, unchanged) and three websites built on it, plus the shared code they use. This document gives the decisions and the reasons for them, the layout, how data flows from `data/` to a published page, the privacy gate, the playlist system, deployment, and the rules each site team follows.
+This repository holds the archive data (`data/`, `docs/`, `review/`, `tools/`, unchanged) and three websites built on it, plus a small landing page that introduces them (`apps/home`) and the shared code they use. This document gives the decisions and the reasons for them, the layout, how data flows from `data/` to a published page, the privacy gate, the playlist system, deployment, and the rules each site team follows.
 
 The product concepts are in `docs/sites/{bedtime,kids,library}.md`. The owner's binding decisions are in `docs/DECISIONS.md`. Where this document departs from a concept doc, it says so (§6.6, §11).
 
@@ -14,7 +14,7 @@ The product concepts are in `docs/sites/{bedtime,kids,library}.md`. The owner's 
 | Framework | **Astro 7, static output**, for all three sites | Data changes only at rebuild, and Astro builds 1,185 item pages in about 3 s per site. Islands keep pages light. `<ClientRouter />` with a `transition:persist` player gives a persistent player across page loads without making the site an SPA. The library and kids concepts both assumed this, and the owner's emunas sites use it. |
 | Hosting | Cloudflare **Workers with static assets** (not Pages): one Worker per site plus **`goldstein-api`** | Pages is in maintenance mode, and Workers assets is where Cloudflare puts new features. Each site Worker serves `dist/`. Only `/playlists/*` and `/api/*` run code (`run_worker_first`), and that code forwards to `goldstein-api` through a service binding, so it is same-origin with no CORS. |
 | Separate Workers vs one router | **Separate Worker per site** | Each team deploys independently, a broken deploy can't take down the other sites, and the configs stay simple. Only the playlists are shared at runtime, and they come from one API Worker. |
-| Domains | `bedtimestories.`, `kidsstories.`, `storylibrary.torahlearningtools.com` (one table: `packages/config/src/sites.ts`) | Same zone as the audio host. `stories.` is already taken by another project (True Books). Generic `kids.`/`library.` would be ambiguous on a domain shared by several projects. Confirmed by the owner (no dashes), 2026-11-25. |
+| Domains | `bedtimestories.`, `kidsstories.`, `storylibrary.torahlearningtools.com`, and `goldsteinstories.torahlearningtools.com` for the landing page (one table: `packages/config/src/sites.ts`) | Same zone as the audio host. `stories.` is already taken by another project (True Books). Generic `kids.`/`library.` would be ambiguous on a domain shared by several projects. Confirmed by the owner (no dashes), 2026-11-25; the landing page host confirmed the same day. |
 | Public data | Built by `packages/data` into `packages/data/generated/` (git-ignored, rebuilt by every build) | One build step that drops internal fields and masks transcripts. Apps read only this folder, never `data/`. |
 | Playlists | **Generated ahead, stored and frozen in KV by a cron on `goldstein-api`** (option b) | History stays stable when the catalog is edited, and cooldowns can read 90 days back. A missed cron is covered by the 14-day runway. Details in §6. |
 | Shared UI | Only `packages/player` (audio core and safe localStorage). No shared components or design tokens. | The three sites deliberately look different. The player logic (ranges, resume, Media Session, sleep timer) is the duplication worth removing. |
@@ -26,6 +26,7 @@ apps/
   bedtime/   Astro site + worker/index.ts (forwards /playlists, /api) + wrangler.jsonc   [bedtime team]
   kids/      same shape; item pages at /listen/<id>/                                     [kids team]
   library/   same shape; item pages at /r/<id>/                                           [library team]
+  home/      landing page: one page, archive numbers from the dataset, links to the three sites, tonight strip [foundation]
 packages/
   config/    tsconfig base; sites.ts: site names, hosts, Workers, item paths, CONTACT_EMAIL
   data/      public dataset build, types (the contract), privacy gate, unit pool
@@ -39,7 +40,7 @@ data/ docs/ review/ tools/   unchanged (archive data, docs, Python pipeline)
 
 Nothing under `data/`, `tools/` or `review/` moved, so `CLAUDE.md`, the READMEs and the Python scripts are still correct.
 
-Root scripts: `npm run typecheck | test | build` (all workspaces), `npm run data:build` / `data:ensure`, `npm run privacy:gate -- <dirs>`, `npm run playlists:preview [-- --days N]`, `npm run format[:check]`, `npm run dev:api | dev:bedtime | dev:kids | dev:library`.
+Root scripts: `npm run typecheck | test | build` (all workspaces), `npm run data:build` / `data:ensure`, `npm run privacy:gate -- <dirs>`, `npm run playlists:preview [-- --days N]`, `npm run format[:check]`, `npm run dev:api | dev:bedtime | dev:kids | dev:library | dev:home`.
 
 ## 3. Data flow
 
@@ -200,7 +201,7 @@ Bump `RECIPE_VERSION` (`contract.ts`, now 4) when selection changes. Future edit
 | Worker | Production | Staging | Notes |
 |---|---|---|---|
 | `goldstein-api` | no route, `workers_dev: false` | `goldstein-api-staging` | KV `EDITIONS`, hourly cron. Reached only through service bindings. |
-| `goldstein-bedtime` / `-kids` / `-library` | custom domain from `SITES` | `*-staging`, `routes: []`, bound to `goldstein-api-staging` | Assets from `dist/`; `run_worker_first: ["/playlists/*", "/api/*"]`. |
+| `goldstein-bedtime` / `-kids` / `-library` / `-home` | custom domain from `SITES` | `*-staging`, `routes: []`, bound to `goldstein-api-staging` | Assets from `dist/`; `run_worker_first: ["/playlists/*", "/api/*"]`. |
 
 **Audio**: `<audio src>` points straight at `storiesmedia.torahlearningtools.com`, which supports range requests. The host sends no CORS headers, so don't `fetch()` audio (a waveform, for example) without adding a CORS rule to the bucket first.
 
@@ -209,14 +210,14 @@ Bump `RECIPE_VERSION` (`contract.ts`, now 4) when selection changes. Future edit
 2. data build (with the gate);
 3. typecheck;
 4. `npm test` (privacy gate tests, engine, API, player, site table);
-5. `npm run build` (API bundle by `wrangler deploy --dry-run`, three Astro builds);
+5. `npm run build` (API bundle by `wrangler deploy --dry-run`, four Astro builds);
 6. the gate over `generated/`, `apps/*/dist` and `workers/api/dist`.
 
 From a clean `npm ci`: install 7 s, typecheck 18 s, tests 34 s, build 28 s. `node_modules` is cached by lockfile hash and saved only from `main`.
 
 **Deploy** (`.github/workflows/deploy.yml`):
 - On push to `main` it deploys what changed:
-  - anything under `data/`, `packages/`, `workers/api/`, the lockfile or `.github/` deploys the API and all three sites;
+  - anything under `data/`, `packages/`, `workers/api/`, the lockfile or `.github/` deploys the API and all four sites (the landing page shows numbers from the dataset, so it follows data changes too);
   - `apps/<site>/` deploys that site only.
 - The "plan" job uses a blobless sparse checkout (no `data/` download).
 - Manual dispatch picks production or staging and an optional subset.
@@ -232,7 +233,7 @@ From a clean `npm ci`: install 7 s, typecheck 18 s, tests 34 s, build 28 s. `nod
 | bedtime | `apps/bedtime/**`, `packages/playlists/src/recipes.ts`, `packages/playlists/overrides.json`, `packages/data/src/build/{units,energy}.ts` | `packages/playlists/src/engine.ts` (season, Hebrew date) |
 | kids | `apps/kids/**` | none expected |
 | library | `apps/library/**` | none expected |
-| foundation | `packages/{config,data,player}`, `packages/playlists` (rest), `workers/api`, `.github/`, root config, this doc | |
+| foundation | `packages/{config,data,player}`, `packages/playlists` (rest), `workers/api`, `.github/`, root config, this doc, `apps/home/**` (the landing page) | |
 
 - An app may add its own build scripts (for example `apps/library/scripts/build-search.ts` for Pagefind, or a kids-only export in `apps/kids/scripts/`). Derive from `@goldstein/data/load`; don't change the shared dataset to suit one site.
 - If a site needs a new public field, add it to `packages/data` (types + transform + a gate test if it carries text) in a separate small PR, so the other teams can rebase onto it.
@@ -257,10 +258,17 @@ From a clean `npm ci`: install 7 s, typecheck 18 s, tests 34 s, build 28 s. `nod
 
 **Dev loop:** run `npm run dev:api` (local KV, `--test-scheduled`) in one terminal and `npm run dev:<site>` in another. The Astro dev server proxies `/playlists` and `/api` to `localhost:8787`. `npm run preview -w @goldstein/<site>` serves the built site through its real Worker.
 
-**Adding a fourth app:**
-1. Copy `apps/bedtime` (the smallest).
+**Adding another app** (`apps/home` was added this way):
+1. Copy the shape of `apps/bedtime` or `apps/home` (the smallest).
 2. Rename the package, the Worker and the staging names.
-3. Add the site to `SITES`, the root `workspaces`, the deploy workflow (plan outputs, build loop, a deploy step) and the gate list in `ci.yml`.
+3. Add the site to `SITES` (the site-table test then checks its `wrangler.jsonc`), the root `workspaces`, the deploy workflow (plan outputs and loops, the gate's dir list, a deploy step) and the gate list in `ci.yml`.
+
+**The landing page** (`apps/home`, `@goldstein/home`, Worker `goldstein-home`, `goldsteinstories.torahlearningtools.com`): one static page that introduces the archive and links to the three sites.
+- Numbers (recordings, hours, radio episodes, lost episodes, earliest year) are computed at build time from `@goldstein/data/load` (`src/lib/stats.ts`); site names and links come from `SITES` (`src/lib/sites.ts`); the contact address is `CONTACT_EMAIL` and the footer carries `PROJECT_CREDIT`.
+- People and series named in its prose are checked against the public vocabulary at build time: an unconfirmed entry fails the build (`assertConfirmed`).
+- Its only script is the "Tonight's playlists" strip (`src/lib/tonight.ts`): it reads `/playlists/` on its own host, puts Tonight's Mix first and links each playlist to the bedtime deep link `/p/<edition>/<type>/`. It ships `hidden` and stays hidden if the API is unavailable.
+- Light and dark follow `prefers-color-scheme`; no theme toggle (that would need script). Artwork is shapes only (tape-box spines, a full moon, book spines, an index card), per the artwork rules in DECISIONS.
+- Screenshots: `docs/sites/screenshots/home-*.png`.
 
 ## 9. Owner steps (one time)
 
@@ -269,7 +277,7 @@ From a clean `npm ci`: install 7 s, typecheck 18 s, tests 34 s, build 28 s. `nod
    - Optionally require approval for `production`.
 2. **KV namespaces**: done (2026-11-25). `goldstein-editions` and `goldstein-editions-staging` exist and their ids are in `workers/api/wrangler.jsonc`.
    - Existing namespaces in the account are `SESSIONS` and `labeled-break-votes`; nothing collides.
-3. **Domains** (confirmed, no dashes): the three hosts are in `packages/config/src/sites.ts` and the matching `routes` in `apps/*/wrangler.jsonc`.
+3. **Domains** (confirmed, no dashes): the three site hosts and the landing page's `goldsteinstories.torahlearningtools.com` (confirmed by the owner, 2026-11-25) are in `packages/config/src/sites.ts` and the matching `routes` in `apps/*/wrangler.jsonc`.
    - `wrangler deploy` creates the custom domains and DNS records on the first deploy, if the token has DNS edit on the zone.
    - The names don't exist yet, and `stories.torahlearningtools.com` is taken by True Books.
 4. **First deploy**: run "deploy" by hand (production, all). It deploys `goldstein-api` first, which the sites' service bindings need. The first request to `/playlists/*` fills two weeks of editions.
@@ -279,7 +287,8 @@ The read-only API check found 24 Workers in the account (the `emunas-*` family, 
 
 ## 10. Open questions
 
-- The three hostnames (§9.3), and whether the owner wants a dedicated domain.
+- Whether the owner wants a dedicated domain (the four hostnames in §9.3 are confirmed).
+- The landing page's name ("Rabbi Goldstein Stories", a placeholder in `SITES.home.name`).
 - Rotation length: 24 h is set; 12 h is one line.
 - The `season` playlist type.
 - One hidden `addresses` entry (a Brooklyn street with no house number) occurs in transcript lines of 19 recordings outside their own hidden spans, so those lines are withheld archive-wide. If it is the show's public mailing address, it can go on `privacy-allowlist.json` with that reason.

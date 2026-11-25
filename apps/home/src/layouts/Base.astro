@@ -1,0 +1,83 @@
+---
+// The landing page's only layout: wordmark, content, footer with contact. No client JS here.
+import "@fontsource-variable/fraunces/wght.css";
+import "../styles/global.css";
+import { CONTACT_EMAIL, PROJECT_CREDIT, SITES } from "@goldstein/config/sites";
+import { libraryAboutUrl, siteCards } from "../lib/sites.ts";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const site = SITES.home;
+const { title, description } = Astro.props;
+const desc =
+  description ??
+  "The recorded stories of the Goldstein family: Uncle Yossi's radio show Tzivos Hashem on the Air, Rabbi Chaim Levi Goldstein's weekly stories, shiurim and family recordings.";
+const cards = siteCards();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title ? `${title} · ${site.name}` : site.name}</title>
+    <meta name="description" content={desc} />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f6efe3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#16120f" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <meta property="og:title" content={title ?? site.name} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      Skip to content
+    </a>
+    <header class="masthead">
+      <div class="wrap masthead-in">
+        <a class="wordmark" href="/" aria-label={`${site.name}, home`}>
+          <svg class="mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+            <rect x="4" y="9" width="6" height="18" rx="1.2" fill="var(--brick)"></rect>
+            <rect x="11.5" y="5" width="7" height="22" rx="1.2" fill="var(--amber)"></rect>
+            <rect x="20" y="11" width="7" height="16" rx="1.2" fill="var(--sage)"></rect>
+            <rect x="2" y="27" width="28" height="2.5" rx="1.2" fill="var(--ink)"></rect>
+          </svg>
+          <span>{site.name}</span>
+        </a>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="footer">
+      <div class="wrap footer-in">
+        <div>
+          <p class="footer-name">{site.name}</p>
+          <p class="credit">{PROJECT_CREDIT}</p>
+          <p class="muted">
+            Questions, corrections, or a tape to share? Write to{" "}
+            <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+          </p>
+          <p class="muted small">
+            Transcripts are automatic and summaries are written with AI; both may contain errors.
+            Names and addresses read on air are never shown as text.{" "}
+            <a href={libraryAboutUrl()}>How the archive was made</a>.
+          </p>
+        </div>
+        <nav aria-label="Our sites" class="footer-nav">
+          <ul>
+            {cards.map((c) => (
+              <li>
+                <a href={c.url}>{c.name}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -2,7 +2,7 @@ name: ci
 
 # Every PR and push to main: format, typecheck, unit tests (including THE PRIVACY GATE on the real
 # data: packages/data/test/privacy-gate.test.ts), full build of the public dataset, the API Worker
-# bundle and the three sites, then the gate again over everything that would ship.
+# bundle, the three sites and the landing page, then the gate again over everything that would ship.
 # One job: the checkout (data/ is ~150 MB) happens once. See docs/ARCHITECTURE.md §CI/CD.
 
 on:
@@ -39,7 +39,7 @@ jobs:
         run: npm run typecheck
       - name: Unit tests (privacy gate, playlists engine, API, player, site table)
         run: npm test
-      - name: Build everything (API Worker bundle, three sites)
+      - name: Build everything (API Worker bundle, three sites, landing page)
         run: npm run build
       - name: Privacy gate over everything that ships
-        run: npm run privacy:gate -- packages/data/generated apps/bedtime/dist apps/kids/dist apps/library/dist workers/api/dist
+        run: npm run privacy:gate -- packages/data/generated apps/bedtime/dist apps/kids/dist apps/library/dist apps/home/dist workers/api/dist

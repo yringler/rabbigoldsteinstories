@@ -88,3 +88,4 @@ All questions are now answered.
 - **Artwork review (owner, 2026-11-25):** only kosher animals in any artwork (no lion, bear, eagle…), with one exception: the Baal Shem Tov's wagon may have its horse. No crescent-and-star; moons are drawn full or nearly full. Matzah is round, hand-made. A shofar must look like a ram's horn. Avoid compositions that read as a face.
 - **Shpoler Zeide emblem: a fiddle** (owner, 2026-11-25), for his joyful dancing; music notes optional, at the designer's discretion.
 - **Crossing-line review (owner, 2026-11-25):** old suns (line rays), crossed bonfire logs, the globe grid, the table grid, X close buttons and + signs are all fine and restored. The new scales, house and queue icons are kept. Four-pointed sparkles and the anchor stay out.
+- **Landing page hostname:** `goldsteinstories.torahlearningtools.com` (owner, 2026-11-25). It introduces the archive and links to the three sites.

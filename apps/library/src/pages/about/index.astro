@@ -1,6 +1,6 @@
 ---
 /** About: people, how the archive was made, AI disclosure, privacy, corrections, lost tapes. */
-import { CONTACT_EMAIL, SITES, siteUrl } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
 import Base from "../../layouts/Base.astro";
 import { episodes, manifest, rows, SITE } from "../../lib/site-data.ts";
 
@@ -83,6 +83,7 @@ const lost = episodes().filter((e) => e.status === "lost").length;
         here under <a href="/tonight/">Tonight's playlists</a>. The data behind all three is{" "}
         <a href="/data/">available for download</a>.
       </p>
+      <p>{PROJECT_CREDIT}</p>
     </div>
   </div>
 </Base>
