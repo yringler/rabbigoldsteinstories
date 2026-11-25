@@ -17,7 +17,8 @@
     "preview": "tsx src/preview.ts"
   },
   "dependencies": {
-    "@goldstein/data": "0.0.0"
+    "@goldstein/data": "0.0.0",
+    "@hebcal/hdate": "0.23.1"
   },
   "devDependencies": {
     "@goldstein/config": "0.0.0",

@@ -12,7 +12,7 @@
  */
 import type { ItemId } from "@goldstein/data";
 
-export const RECIPE_VERSION = 1;
+export const RECIPE_VERSION = 2;
 
 export interface PlaylistTrackAdvisory {
   flag: string;
