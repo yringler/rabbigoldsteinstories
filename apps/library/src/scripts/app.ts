@@ -200,7 +200,7 @@ function setRate(r: number): void {
   a.playbackRate = v;
   a.defaultPlaybackRate = v;
   store.set("rate", v);
-  announce(`Speed ${v}x`);
+  announce(`Speed ${v}×`);
 }
 
 // ---------------------------------------------------------------------------------------------

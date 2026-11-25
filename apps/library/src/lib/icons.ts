@@ -2,7 +2,7 @@
 export const ICONS = {
   play: '<path d="M7 4.8v14.4a.8.8 0 0 0 1.2.7l11.3-7.2a.8.8 0 0 0 0-1.4L8.2 4.1A.8.8 0 0 0 7 4.8Z"/>',
   pause: '<path d="M8 5v14M16 5v14"/>',
-  plus: '<path d="M7 3.5h10a.5.5 0 0 1 .5.5v16.2a.3.3 0 0 1-.5.2L12 16.8l-5 3.6a.3.3 0 0 1-.5-.2V4a.5.5 0 0 1 .5-.5Z"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
   queue:
     '<path d="M4 6h12M4 12h12M4 18h7"/><path d="M15 15.2v5.6a.4.4 0 0 0 .6.3l4.3-2.8a.4.4 0 0 0 0-.6l-4.3-2.8a.4.4 0 0 0-.6.3Z"/>',
   quote: '<path d="M9 7H6a2 2 0 0 0-2 2v3h5v5H4M20 7h-3a2 2 0 0 0-2 2v3h5v5h-5"/>',
@@ -16,9 +16,11 @@ export const ICONS = {
   next: '<path d="M18 5v14M6 5.8v12.4a.8.8 0 0 0 1.2.7l8.2-6.2a.8.8 0 0 0 0-1.4L7.2 5.1A.8.8 0 0 0 6 5.8Z"/>',
   chevron: '<path d="m9 6 6 6-6 6"/>',
   down: '<path d="m6 9 6 6 6-6"/>',
-  close: '<circle cx="12" cy="12" r="8.5"/><path d="M8 12h8"/>',
-  sun: '<circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="3.2" r=".9" fill="currentColor"/><circle cx="12" cy="20.8" r=".9" fill="currentColor"/><circle cx="3.2" cy="12" r=".9" fill="currentColor"/><circle cx="20.8" cy="12" r=".9" fill="currentColor"/><circle cx="5.8" cy="5.8" r=".9" fill="currentColor"/><circle cx="18.2" cy="18.2" r=".9" fill="currentColor"/><circle cx="5.8" cy="18.2" r=".9" fill="currentColor"/><circle cx="18.2" cy="5.8" r=".9" fill="currentColor"/>',
-  moon: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/>',
+  // An X is the universal close/remove control (owner: fine for UI controls, not for artwork).
+  close: '<path d="M6 6l12 12M18 6 6 18"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  // Moons are drawn full or nearly full, never a thin crescent (owner art rule).
+  moon: '<circle cx="12" cy="12" r="8"/><path d="M15.2 4.7a8 8 0 0 1 0 14.6a11 11 0 0 0 0-14.6Z" fill="currentColor"/>',
   download: '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>',
   upload: '<path d="M12 16V5M7 10l5-5 5 5M5 20h14"/>',
   info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/>',
@@ -36,7 +38,8 @@ export const ICONS = {
   copy: '<rect x="8" y="8" width="12" height="12" rx="1.5"/><path d="M16 8V5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16H8"/>',
   check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
   filter: '<path d="M4 6h16M7 12h10M10 18h4"/>',
-  table: '<rect x="3.5" y="5" width="17" height="14" rx="1"/><path d="M3.5 9.7h17M3.5 14.3h17"/>',
+  table:
+    '<rect x="3.5" y="5" width="17" height="14" rx="1"/><path d="M3.5 10h17M3.5 14.5h17M9.5 10v9"/>',
   list: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
   book: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v15H5.5A1.5 1.5 0 0 0 4 20.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v15h5.5a1.5 1.5 0 0 1 1.5 1.5z"/>',
   radio:
