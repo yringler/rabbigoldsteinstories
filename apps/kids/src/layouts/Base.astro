@@ -90,8 +90,12 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
         <Fragment set:html={ui("search", "", 28)} />
       </a>
       <button type="button" class="band-chip" data-open-band aria-haspopup="dialog">
-        <span class="dot" aria-hidden="true" data-band-ages>
-          6+
+        <span class="dot" aria-hidden="true">
+          {BANDS.map((b) => (
+            <span class={`dot-ic dot-${b}`} style={`background:${bandColors[b]}`}>
+              <Fragment set:html={iconSvg(bandPics[b], { accent: "#FFC83D" }, 26)} />
+            </span>
+          ))}
         </span>
         <span>
           <span class="sr">Who's listening: </span>
@@ -233,9 +237,9 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
                   </span>
                   <span>Heart</span>
                 </button>
-                <button type="button" class="ps-pill" data-p-speed aria-label="Speed: 1 times">
+                <button type="button" class="ps-pill" data-p-speed aria-label="Speed: Normal">
                   <Fragment set:html={ui("speed", "", 24)} />
-                  <span data-p-speed-label>1×</span>
+                  <span data-p-speed-label>Normal</span>
                 </button>
                 <button type="button" class="ps-pill" data-p-sleep aria-expanded="false">
                   <Fragment set:html={ui("moon", "", 24)} />
@@ -284,7 +288,7 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
         <div class="sheet-head">
           <h2 id="band-h">Who's listening?</h2>
           <button type="button" class="icon-btn" data-close-band aria-label="Close">
-            <Fragment set:html={ui("close", "", 26)} />
+            <Fragment set:html={ui("down", "", 28)} />
           </button>
         </div>
         <div class="band-options">

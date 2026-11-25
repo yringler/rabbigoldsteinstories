@@ -67,8 +67,13 @@ export interface Serial {
   otherRuns: { label: string; chapters: { n: number; id: string }[] }[];
 }
 
-/** Ranges for one chapter item in story-only mode (§4.4). */
-export function storyRanges(it: SerialIndexItem): Range[] {
+/**
+ * Ranges for one chapter item in story-only mode (§4.4). One recording can hold two chapters (The
+ * Storyteller, 1989-90, chapters 6 and 7): `others` are the ranges of the other chapters in the same
+ * recording, and the shared intro is applied only when no other chapter lies between it and this
+ * chapter's story (else chapter 7 would replay chapter 6).
+ */
+export function storyRanges(it: SerialIndexItem, others: readonly Range[] = []): Range[] {
   const parts: Range[] =
     it.parts && it.parts.length > 0
       ? it.parts.map((p) => ({ start_sec: p.start_sec, end_sec: p.end_sec }))
@@ -79,8 +84,14 @@ export function storyRanges(it: SerialIndexItem): Range[] {
         ? [{ start_sec: it.segment_start_sec, end_sec: it.segment_end_sec }]
         : [];
   const first = parts[0];
-  if (first && typeof it.intro_start_sec === "number" && it.intro_start_sec < first.start_sec) {
-    parts[0] = { start_sec: it.intro_start_sec, end_sec: first.end_sec };
+  const intro = it.intro_start_sec;
+  if (
+    first &&
+    typeof intro === "number" &&
+    intro < first.start_sec &&
+    !others.some((o) => o.end_sec > intro && o.start_sec < first.start_sec)
+  ) {
+    parts[0] = { start_sec: intro, end_sec: first.end_sec };
   }
   return parts;
 }
@@ -121,14 +132,18 @@ export function buildRadioSerial(
   const run = chooseRun(s, inPool);
   if (!run) return null;
   const present = new Map<number, Chapter>();
-  for (const c of run.chapters) {
-    const it = pickItem(c, inPool);
+  const picked = run.chapters.map((c) => ({ c, it: pickItem(c, inPool) }));
+  const bare = (it: SerialIndexItem) => storyRanges({ ...it, intro_start_sec: null });
+  for (const { c, it } of picked) {
     if (!it) continue;
+    const others = picked
+      .filter((x) => x.c !== c && x.it?.id === it.id)
+      .flatMap((x) => (x.it ? bare(x.it) : []));
     present.set(c.chapter, {
       n: c.chapter,
       id: it.id,
       title: `Chapter ${c.chapter}`,
-      story: storyRanges(it),
+      story: storyRanges(it, others),
     });
   }
   const nums = [...present.keys(), ...(run.missing_chapters ?? [])];

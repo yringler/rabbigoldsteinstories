@@ -133,6 +133,27 @@ describe("Player additions (kids site)", () => {
     expect(p.state().stopAtEnd).toBe(false);
   });
 
+  it("stopAfterCurrent: later timeupdates at the end never advance (Chromium fires another)", async () => {
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: null });
+    await p.load(tracks);
+    p.stopAfterCurrent(true);
+    audio.currentTime = 400;
+    audio.fire("timeupdate");
+    await Promise.resolve();
+    audio.fire("timeupdate");
+    audio.currentTime = 401;
+    audio.fire("timeupdate");
+    await Promise.resolve();
+    expect(p.current?.id).toBe("aaaaaaaaaa");
+    expect(audio.paused).toBe(true);
+    // Playing on from the end is a user action: it advances.
+    await audio.play();
+    audio.fire("timeupdate");
+    await Promise.resolve();
+    expect(p.current?.id).toBe("bbbbbbbbbb");
+  });
+
   it("setQueue keeps the current track playing", async () => {
     const audio = new FakeAudio();
     const p = new Player({ audio, mediaSession: null });

@@ -6,6 +6,7 @@
 import { Player, type PlayerState, type Track } from "@goldstein/player";
 import type { KidChapter } from "../lib/chapters.ts";
 import { clock } from "../lib/kinds.ts";
+import { groupInfo } from "../lib/queue.ts";
 import { cardHtml, coverPath, escapeHtml } from "../lib/records.ts";
 import type { PlayRequest } from "../lib/tracks.ts";
 import { type ItemExtra, loadExtra, loadIndex, recIn } from "./data.ts";
@@ -54,6 +55,22 @@ export class KidsPlayer {
     this.bind();
     this.player.subscribe((s) => this.render(s));
     this.restore();
+    // Save the exact position when the page goes away, so a reload resumes within a few seconds
+    // (the periodic save runs only every 5 s).
+    const saveNow = () => {
+      this.player.savePosition();
+      this.persist();
+      const st = this.player.state();
+      const cur = st.queue[st.index];
+      if (cur && st.duration > 0) {
+        const g = groupInfo(st.queue, st.index, st.position, st.duration);
+        S.saveProgress(cur.id, g.last ? g.pos : Math.min(g.pos, g.dur * 0.9), g.dur);
+      }
+    };
+    window.addEventListener("pagehide", saveNow);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") saveNow();
+    });
   }
 
   // ── Public API (used by page scripts through window.kidsPlayer) ─────────
@@ -229,8 +246,10 @@ export class KidsPlayer {
     this.audio.defaultPlaybackRate = s;
     this.audio.playbackRate = s;
     const label = $(this.root, "[data-p-speed-label]");
-    if (label) label.textContent = `${s}×`;
-    $(this.root, "[data-p-speed]")?.setAttribute("aria-label", `Speed: ${s} times. Change speed`);
+    // Words, not "1×": no cross-like marks anywhere (kids.md §8.4).
+    const word = s < 1 ? "Slow" : s > 1 ? "Fast" : "Normal";
+    if (label) label.textContent = word;
+    $(this.root, "[data-p-speed]")?.setAttribute("aria-label", `Speed: ${word}. Change speed`);
   }
 
   private restore(): void {
@@ -294,7 +313,9 @@ export class KidsPlayer {
       (now - this.lastSavedAt > 5000 || (prev?.playing === true && !s.playing))
     ) {
       this.lastSavedAt = now;
-      S.saveProgress(t.id, s.position, s.duration, now);
+      const g = groupInfo(s.queue, s.index, s.position, s.duration);
+      // A chapter split into ranges is done only after its last range.
+      S.saveProgress(t.id, g.last ? g.pos : Math.min(g.pos, g.dur * 0.9), g.dur, now);
     }
     if ("mediaSession" in navigator && s.duration > 0 && Number.isFinite(s.position)) {
       try {
@@ -319,15 +340,15 @@ export class KidsPlayer {
   private maybeFinish(prev: PlayerState): void {
     const t = prev.queue[prev.index];
     if (!t) return;
-    if (S.isDone(prev.position, prev.duration)) S.markDone(t.id, prev.duration);
+    const g = groupInfo(prev.queue, prev.index, prev.position, prev.duration);
+    if (g.last && S.isDone(g.pos, g.dur)) S.markDone(t.id, g.dur);
   }
 
   private onTrackChange(t: Track, s: PlayerState): void {
     for (const el of $$<HTMLImageElement>(this.root, "img[data-p-cover]")) el.src = coverPath(t.id);
     for (const el of $$(this.root, "[data-p-title]")) el.textContent = t.title;
-    const sub = [t.artist, s.queue.length > 1 ? `${s.index + 1} of ${s.queue.length}` : ""]
-      .filter(Boolean)
-      .join(" · ");
+    const g = groupInfo(s.queue, s.index, s.position, s.duration);
+    const sub = [t.artist, g.of > 1 ? `${g.n} of ${g.of}` : ""].filter(Boolean).join(" · ");
     for (const el of $$(this.root, "[data-p-sub]")) el.textContent = sub;
     const src = $(this.root, "[data-p-source]");
     if (src) src.textContent = this.source;
@@ -438,7 +459,7 @@ export class KidsPlayer {
           `<li data-i="${i}" class="${i === s.index ? "now" : ""}">` +
           `<button type="button" class="icon-btn q-handle" data-q-handle aria-label="Move ${escapeHtml(t.title)} (use arrow keys)">${gripSvg}</button>` +
           `<button type="button" class="q-play" data-q-play><img src="${coverPath(t.id)}" alt="" width="48" height="48" loading="lazy"><span class="q-text"><span class="q-t">${escapeHtml(t.title)}</span><span class="q-s">${i === s.index ? "Playing now" : i < s.index ? "Played" : `Up next · ${i - s.index}`}</span></span></button>` +
-          `<button type="button" class="icon-btn q-remove" data-q-remove aria-label="Remove ${escapeHtml(t.title)}">${closeSvg}</button></li>`,
+          `<button type="button" class="icon-btn q-remove" data-q-remove aria-label="Remove ${escapeHtml(t.title)}">${trashSvg}</button></li>`,
       )
       .join("");
     if (empty) empty.hidden = s.queue.length > s.index + 1;
@@ -606,7 +627,7 @@ export class KidsPlayer {
 }
 
 const gripSvg = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h.01M8 12h.01M8 18h.01M16 6h.01M16 12h.01M16 18h.01"/></svg>`;
-const closeSvg = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>`;
+const trashSvg = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>`;
 
 const pngCache = new Map<string, string>();
 async function rasterise(src: string, size: number): Promise<string> {

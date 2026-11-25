@@ -46,18 +46,42 @@ export function serialVis(s: Serial, m: Model = getModel()): Variant[] {
   return VARIANTS.filter((v) => ks.every((k) => k.vis.includes(v)));
 }
 
-/** Story-only tracks of a serial (radio: the story ranges; sets: whole items). */
-export function serialTracks(s: Serial, storyOnly: boolean, m: Model = getModel()): Track[] {
-  const out: Track[] = [];
+/**
+ * Tracks of a serial and, for each present chapter (in order), the index of its first track.
+ * Story-only (radio): the chapter's story ranges, each track's `album` naming the chapter (the
+ * player counts chapters, not tracks). Whole recordings: one track per recording, so a recording
+ * holding two chapters is queued once and both chapters point at it.
+ */
+export function serialPlan(
+  s: Serial,
+  storyOnly: boolean,
+  m: Model = getModel(),
+): { tracks: Track[]; first: number[] } {
+  const tracks: Track[] = [];
+  const first: number[] = [];
+  const word = s.type === "set" ? "Part" : "Chapter";
   for (const c of s.chapters) {
     const k = c.id ? m.items.get(c.id) : undefined;
     if (!k) continue;
-    if (storyOnly && c.story.length > 0)
-      for (const r of c.story) out.push({ ...trackOf(k, r), title: c.title });
-    else out.push(trackOf(k));
+    if (storyOnly && c.story.length > 0) {
+      first.push(tracks.length);
+      for (const r of c.story)
+        tracks.push({ ...trackOf(k, r), title: c.title, album: `${word} ${c.n}` });
+    } else {
+      const prev = tracks[tracks.length - 1];
+      if (prev && prev.id === k.id && !storyOnly) {
+        first.push(tracks.length - 1);
+        continue;
+      }
+      first.push(tracks.length);
+      tracks.push({ ...trackOf(k), album: `${word} ${c.n}` });
+    }
   }
-  return out;
+  return { tracks, first };
 }
+
+export const serialTracks = (s: Serial, storyOnly: boolean, m: Model = getModel()): Track[] =>
+  serialPlan(s, storyOnly, m).tracks;
 
 export function serialSeconds(s: Serial, m: Model = getModel()): number {
   let sec = 0;
