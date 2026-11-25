@@ -56,7 +56,8 @@ describe("unit pool (bedtime.md §4.2)", () => {
   it("never overlaps a hidden span, including the opening-song lead-in (criterion 2)", () => {
     for (const u of units) {
       for (const t of u.tracks) {
-        const spans = hiddenSpans(byId.get(t.id)!.hidden, 0);
+        // B9 uses the same 2 s pad as transcript masking.
+        const spans = hiddenSpans(byId.get(t.id)!.hidden);
         expect(overlapsAny(t.start_sec, t.end_sec, spans), `${u.unit} ${t.id}`).toBe(false);
         if (t.intro_start_sec !== undefined)
           expect(overlapsAny(t.intro_start_sec, t.end_sec, spans), `${u.unit} intro`).toBe(false);

@@ -81,6 +81,33 @@ describe("Player", () => {
     expect(p.state().index).toBe(0);
   });
 
+  it("does not re-save a finished track's position when advancing", async () => {
+    const storage = memoryStorage();
+    const store = createStore("test", storage);
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, store, mediaSession: null });
+    await p.load(tracks);
+    a.currentTime = 250;
+    await p.next(); // user skip mid-track
+    expect(storage.getItem("goldstein:test:pos:aaaaaaaaaa@100")).toBeNull();
+    await p.goTo(0);
+    expect(a.currentTime).toBe(100);
+  });
+
+  it("resumePositions: false never stores or restores per-track positions", async () => {
+    const storage = memoryStorage();
+    const store = createStore("test", storage);
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, store, mediaSession: null, resumePositions: false });
+    await p.load(tracks);
+    a.currentTime = 250;
+    a.pause();
+    expect(storage.length).toBe(0);
+    await p.goTo(1);
+    await p.goTo(0);
+    expect(a.currentTime).toBe(100);
+  });
+
   it("sleep timer pauses playback", async () => {
     const audio = new FakeAudio();
     const p = new Player({ audio, mediaSession: null });

@@ -2,8 +2,9 @@
  * goldstein-api request and cron handlers, independent of bindings (tests pass a fake KV).
  *
  * Routes (reached on every site through its Worker's service binding, same origin, no CORS):
- *   GET /playlists/index.json            clock: 7 past + current + up to 14 future editions
- *   GET /playlists/editions/<id>.json    one edition (tombstoned against the current pool)
+ *   GET /playlists/index.json            clock: 7 past + current edition (future ones are private)
+ *   GET /playlists/editions/<id>.json    one edition (tombstoned against the current pool); only
+ *                                        ids listed in index.json (past 7 + current), else 404
  *   GET /playlists/tonight.json          the current edition
  *   GET /playlists/history.json          the 7 editions before it, newest first
  *   GET /api/health                      pool hash, edition counts
@@ -50,7 +51,11 @@ export function kvStore(kv: KVLike, cacheTtl?: number): EditionStore {
 }
 
 const SHORT = "public, max-age=300, stale-while-revalidate=3600";
-const LONG = "public, max-age=3600, stale-while-revalidate=86400";
+/** Editions are tombstoned at read time, so a removal must reach visitors within minutes. */
+const LONG = "public, max-age=300, stale-while-revalidate=600";
+/** Cold start: one request fills the runway; the others get 503 for this long. */
+const FILL_LOCK_KEY = "lock:fill";
+const FILL_LOCK_TTL_SEC = 60;
 
 function json(body: unknown, cache: string, status = 200): Response {
   return new Response(JSON.stringify(body), {
@@ -100,7 +105,23 @@ export async function handle(request: Request, deps: Deps, now = new Date()): Pr
 
   let views = await buildViews(store, deps.pool, now, deps.overrides);
   if (!views.current) {
-    // First request after a fresh deploy, before the cron has run: fill the runway now.
+    // First request after a fresh deploy, before the cron has run. One request fills the
+    // runway; while its lock is set, the others get a short 503 (clients fall back to their
+    // cached copy, or retry), instead of every concurrent request generating 15 editions.
+    const locked = await deps.kv.get(FILL_LOCK_KEY, { type: "json" });
+    if (locked && Number(locked) > now.getTime() - FILL_LOCK_TTL_SEC * 1000) {
+      return new Response(JSON.stringify({ error: "playlists are being prepared" }), {
+        status: 503,
+        headers: {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+          "retry-after": "10",
+        },
+      });
+    }
+    await deps.kv.put(FILL_LOCK_KEY, JSON.stringify(now.getTime()), {
+      expirationTtl: FILL_LOCK_TTL_SEC,
+    });
     await runCron(deps, now);
     views = await buildViews(kvStore(deps.kv), deps.pool, now, deps.overrides);
   }
@@ -112,7 +133,8 @@ export async function handle(request: Request, deps: Deps, now = new Date()): Pr
       : json({ error: "no edition" }, "no-store", 404);
   if (file === "history.json") return json(views.history, SHORT);
   const m = /^editions\/([0-9]{4}-[0-9]{2}-[0-9]{2}(?:-pm)?)\.json$/.exec(file);
-  if (m && editionById(m[1]!)) {
+  // Only published nights (past 7 + current): no browsing ahead, nothing older than history.
+  if (m && editionById(m[1]!) && views.index.editions.some((e) => e.date === m[1])) {
     const e = await store.get(m[1]!);
     if (e) return json(tombstone(e, deps.pool, deps.overrides), LONG);
   }

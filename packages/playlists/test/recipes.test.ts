@@ -9,6 +9,7 @@ import { editionById, editionsAround } from "../src/clock.ts";
 import type { Edition, Playlist } from "../src/contract.ts";
 import { generateEdition } from "../src/engine.ts";
 import { calmEligible, RECIPES, windsDown } from "../src/recipes.ts";
+import { LOOKBACK_DAYS } from "../src/runway.ts";
 import { seasonFor, seasonalStatus } from "../src/seasons.ts";
 
 const pool = loadUnitPool();
@@ -77,11 +78,15 @@ describe("pools (criterion 5)", () => {
 });
 
 describe("generator on the real pool", () => {
-  it("is deterministic (criterion 7)", () => {
+  it("is deterministic apart from generated_at (criterion 7)", () => {
+    // generated_at records when the job ran; it is the one field excluded from criterion 7.
     const w = editionById("2026-11-25")!;
     const a = generateEdition({ pool, recipes: RECIPES, window: w, history: [], now: new Date(0) });
-    const b = generateEdition({ pool, recipes: RECIPES, window: w, history: [], now: new Date(0) });
-    expect(JSON.stringify(a)).toBe(JSON.stringify(b));
+    const b = generateEdition({ pool, recipes: RECIPES, window: w, history: [], now: new Date() });
+    expect(a.generated_at).not.toBe(b.generated_at);
+    expect(JSON.stringify({ ...a, generated_at: "" })).toBe(
+      JSON.stringify({ ...b, generated_at: "" }),
+    );
   });
 
   it("fills the Hebrew date of the night and the active seasons", () => {
@@ -253,6 +258,29 @@ describe("generator on the real pool", () => {
     const relaxedShare = long.relax.size / (730 * RECIPES.length);
     expect(relaxedShare).toBeLessThan(0.1);
   }, 120_000);
+
+  it("reads enough history for every cooldown", () => {
+    for (const r of RECIPES) {
+      expect(LOOKBACK_DAYS).toBeGreaterThan(r.headCooldownDays);
+      expect(LOOKBACK_DAYS).toBeGreaterThan(r.cooldownDays);
+    }
+  });
+
+  it("never repeats a playlist's opener or running order on consecutive nights (owner, 2026-11-25)", () => {
+    for (const r of RECIPES) {
+      let prev: Playlist | null = null;
+      for (const e of sim.history) {
+        const p = e.playlists.find((x) => x.type === r.type)!;
+        if (prev) {
+          expect(p.items[0]!.unit, `${e.date}/${r.type} opener`).not.toBe(prev.items[0]!.unit);
+          expect(p.items.map((i) => i.unit)).not.toEqual(prev.items.map((i) => i.unit));
+          // nothing from last night's first 40 minutes opens tonight's
+          expect(headUnits(prev)).not.toContain(p.items[0]!.unit);
+        }
+        prev = p;
+      }
+    }
+  });
 
   it("never names an unconfirmed narrator", () => {
     for (const e of sim.history)

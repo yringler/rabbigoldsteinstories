@@ -16,7 +16,7 @@ The product concepts are in `docs/sites/{bedtime,kids,library}.md`. The owner's 
 | Separate Workers vs one router | **Separate Worker per site** | Each team deploys independently, a broken deploy can't take down the other sites, and the configs stay simple. Only the playlists are shared at runtime, and they come from one API Worker. |
 | Domains | `bedtimestories.`, `kidsstories.`, `storylibrary.torahlearningtools.com` (one table: `packages/config/src/sites.ts`) | Same zone as the audio host. `stories.` is already taken by another project (True Books). Generic `kids.`/`library.` would be ambiguous on a domain shared by several projects. Confirmed by the owner (no dashes), 2026-11-25. |
 | Public data | Built by `packages/data` into `packages/data/generated/` (git-ignored, rebuilt by every build) | One build step that drops internal fields and masks transcripts. Apps read only this folder, never `data/`. |
-| Playlists | **Generated ahead, stored and frozen in KV by a cron on `goldstein-api`** (option b) | History stays stable when the catalog is edited, and cooldowns can read 45 days back. A missed cron is covered by the 14-day runway. Details in §6. |
+| Playlists | **Generated ahead, stored and frozen in KV by a cron on `goldstein-api`** (option b) | History stays stable when the catalog is edited, and cooldowns can read 60 days back. A missed cron is covered by the 14-day runway. Details in §6. |
 | Shared UI | Only `packages/player` (audio core and safe localStorage). No shared components or design tokens. | The three sites deliberately look different. The player logic (ranges, resume, Media Session, sleep timer) is the duplication worth removing. |
 
 ## 2. Layout
@@ -144,13 +144,13 @@ Recipes, units, cooldowns and file formats follow `docs/sites/bedtime.md` §4, t
   - Editions that start within 24 h, or already started, are **frozen**.
   - Later ones are regenerated when the pool hash or recipe version changes.
   - A failed generation keeps what was stored.
-  - On the first request after a fresh deploy, before the cron has run, the Worker fills the runway inline.
+  - On the first request after a fresh deploy, before the cron has run, one request fills the runway inline; while its KV lock (60 s, best-effort: KV has no compare-and-set) is set, other requests get `503` with `Retry-After: 10`.
 - **Serving** (`workers/api/src/app.ts`), same-origin on every site through the site Worker's service binding:
 
 | Path | Content | Cache-Control |
 |---|---|---|
-| `/playlists/index.json` | `IndexFile`: 7 past + current + up to 14 future editions | `max-age=300, swr=3600` |
-| `/playlists/editions/<id>.json` | `Edition` | `max-age=3600, swr=86400` |
+| `/playlists/index.json` | `IndexFile`: 7 past + current edition (future editions stay private) | `max-age=300, swr=3600` |
+| `/playlists/editions/<id>.json` | `Edition`, only for ids listed in `index.json` (else 404) | `max-age=300, swr=600` |
 | `/playlists/tonight.json` | current `Edition` | `max-age=300` |
 | `/playlists/history.json` | `{nights: Edition[]}`, 7, newest first | `max-age=300` |
 | `/api/health` | pool hash, counts | `no-store` |
@@ -163,25 +163,24 @@ Recipes, units, cooldowns and file formats follow `docs/sites/bedtime.md` §4, t
 ### 6.2 The unit pool (`packages/data/src/build/units.ts`)
 
 Built on the private side because it needs `quality`, `hidden` and `audience.privacy`. It implements bedtime.md:
-- the base filter B1–B9 (B9 uses the exact hidden spans, without padding, because story segments usually start where a Shema-guest segment ends);
+- the base filter B1–B9 (B9 uses the hidden spans padded by 2 s, like transcript masking; a padded span that only touches a track's start or end trims the track, because story segments usually start where a Shema-guest segment ends);
 - kinds `story`, `clip`, `span`, `set`, `serial`, the clip-versus-parent rule, span advisories and span calendar tags;
 - dedupe keys (relations, story groups, set and serial keys);
 - the energy score (`energy.ts`).
 
-Measured: 483 units, 114.9 h (span 254, story 141, clip 53, serial 19, set 16; calm 259 / middle 114 / exciting 110). bedtime.md §4.2 measured 489. The `set` and `serial` counts differ (16/19 vs 21/22) and need a look by the bedtime team.
+Measured (2026-11-25): **491 units, 118.0 h** (span 256, story 142, clip 53, serial 20, set 20). Differences from bedtime.md's first count (489) are explained in bedtime.md §4.2: three serials have a chapter only inside a hidden span (B9), sets with duplicate copies of a part now play the best copy, a lone "Part 1" is not a set, and story tracks that open with a short song carry `intro_start_sec` (the first track of a playlist plays the song).
 
-`npm run playlists:preview -- --days 120` simulates consecutive editions on the real pool and prints the repeat gaps per type. Over 60 days with the placeholder recipes: little median gap 11 editions, calm 12, adventure 13, big 20, mix 27, with no failed editions.
+Tests: `packages/data/test/units.test.ts` (bedtime.md §7 criteria 1–6) and `packages/playlists/test/recipes.test.ts` (real-pool generator: 75 nights of rules and cooldowns, Chanukah, a 730-night run). `npm run playlists:preview -- --days 120` still prints repeat gaps.
 
-### 6.3 What is left for the bedtime team
+### 6.3 Bedtime rules, as built
 
-All of these go in `packages/playlists/src/recipes.ts` (hooks `weight`, `order`, `validate`) and `packages/data/src/build/{units,energy}.ts`:
-- seasonal weighting (§4.7: needs a Hebrew calendar library such as `@hebcal/core`; fill `hebrew_date` and `season` in `engine.ts`);
-- the wind-down rule and calm-pool swaps for `adventure`/`big`/`mix`, and the "voices" rule;
-- the opening-song rule for `story` units;
-- the `season` and `radio` types;
-- reconciling the set/serial counts.
+In `packages/playlists/src/recipes.ts` (hooks `weight`, `admit`, `order`, `validate`, `windDown`), `seasons.ts` and `engine.ts`:
+- **Five recipes** (bedtime.md §4.4), each with an age label (`Playlist.ages`).
+- **Cooldowns** (owner: "only the first 30 minutes are really heard"): whole-playlist repeats after 2 nights; the head (first 40 min) of each type stays fresh for 15 (little), 19 (calm), 18 (adventure), 36 (big) and 50 (mix) days, about as far as each type's distinct stories allow. Counted from edition dates. Tables and simulations: bedtime.md §4.6.
+- **Seasons** with `@hebcal/hdate` (`hebrew_date`, `season` filled); **wind-down** as a reserved calm tail; **head rules** enforced on the final order; **voices** and **opening-song** rules.
+- Not built: the `season` and `radio` types (the radio type needs the owner's yes on whole episodes).
 
-Bump `RECIPE_VERSION` (`contract.ts`) when selection changes. Future editions regenerate, frozen ones stay.
+Bump `RECIPE_VERSION` (`contract.ts`, now 3) when selection changes. Future editions regenerate, frozen ones stay.
 
 ### 6.4 Where this departs from bedtime.md §4.6, and why
 
@@ -191,7 +190,7 @@ Bump `RECIPE_VERSION` (`contract.ts`) when selection changes. Future editions re
 | Tombstone pass rewrites stored files at publish | Tombstones are applied **at read time** | Same effect for visitors; stored editions stay an exact record. |
 | B1 excludes `review` | B1 = not `hide` | Owner decision 2026-11-25: `review` items are publishable. |
 | Files under `/playlists/` "on each site" | Served by `goldstein-api` through each site's Worker at `/playlists/*` | Same URLs and same origin, so the client code in kids.md §10 and library.md §9 works unchanged (they use the bedtime field names). |
-| `hebrew_date`, `season` filled | `null` / `[]` for now | Needs the calendar library; part of §6.3. |
+| `hebrew_date`, `season` filled | Filled (`seasons.ts`, `@hebcal/hdate`) | Same as the spec. |
 
 ## 7. Deployment
 
@@ -282,7 +281,6 @@ The read-only API check found 24 Workers in the account (the `emunas-*` family, 
 - The three hostnames (§9.3), and whether the owner wants a dedicated domain.
 - Rotation length: 24 h is set; 12 h is one line.
 - `radio` and `season` playlist types; auto-playing whole episodes needs the owner's yes (bedtime.md §4.4).
-- The set/serial unit counts differ from bedtime.md (§6.2).
 - One hidden `addresses` entry (a Brooklyn street with no house number) occurs in transcript lines of 19 recordings outside their own hidden spans, so those lines are withheld archive-wide. If it is the show's public mailing address, it can go on `privacy-allowlist.json` with that reason.
 
 ## 11. Differences from the concept docs (summary)

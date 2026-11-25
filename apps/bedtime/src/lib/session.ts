@@ -52,6 +52,11 @@ export function continuable(x: unknown, now: number): Session | null {
   return x;
 }
 
+/** Where "Continue" starts: 10 s before the saved position, so the listener catches the thread. */
+export function resumeAt(s: Pick<Session, "position">): number {
+  return Math.max(0, s.position - RESUME_REWIND_SEC);
+}
+
 /** Whether the last session ended less than 18 hours ago ("That was the end. Good night."). */
 export function endedRecently(x: unknown, now: number): boolean {
   return isSession(x) && x.finished && now - x.updated_at <= CONTINUE_MS;

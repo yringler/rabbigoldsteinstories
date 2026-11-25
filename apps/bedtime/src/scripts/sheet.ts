@@ -8,6 +8,7 @@ import { GLYPHS } from "../lib/glyphs.ts";
 import { parseTimer, WAKE_KEY } from "../lib/session.ts";
 import {
   clock,
+  cardLine,
   cardMeta,
   iconSvg,
   listEntries,
@@ -162,7 +163,7 @@ export function mountSheet(
     $("[data-preview-title]", sheet)!.textContent = p.title;
     const meta = cardMeta(p);
     $("[data-preview-meta]", sheet)!.replaceChildren(
-      p.subtitle,
+      cardLine(p),
       el("br"),
       `${meta[0]!.toUpperCase()}${meta.slice(1)}, ${p.items.length} stories`,
     );

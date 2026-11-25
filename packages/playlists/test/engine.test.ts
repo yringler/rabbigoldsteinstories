@@ -66,6 +66,23 @@ describe("generateEdition", () => {
     }
   });
 
+  it("counts cooldowns in days by edition date, not by how many editions are stored", () => {
+    const old = generateEdition({ pool, recipes, window: editionById("2026-11-15")!, history: [] });
+    const used = new Set(old.playlists.find((p) => p.type === "b")!.items.map((i) => i.unit));
+    // Only the units played 10 nights ago are left: with cooldown 3 / head 6 days they are free
+    // again, although that edition is the only one stored (the old code counted it as 1 ago).
+    const only = { ...pool, units: pool.units.filter((u) => used.has(u.unit)) };
+    const logs: string[] = [];
+    generateEdition({
+      pool: only,
+      recipes: [recipes[1]!],
+      window: w,
+      history: [old],
+      log: (m) => logs.push(m),
+    });
+    expect(logs).toEqual([]);
+  });
+
   it("respects same-type cooldowns across editions", () => {
     const store: Edition[] = [];
     for (const win of editionsAround(new Date("2026-11-25T20:00:00Z"), 0, 20)) {
@@ -138,11 +155,27 @@ describe("runway and published views", () => {
       "2026-11-19",
       "2026-11-18",
     ]);
-    expect(views.index.editions.at(-1)?.date).toBe("2026-12-08");
+    expect(views.index.editions.at(-1)?.date).toBe("2026-11-25");
+    expect(views.index.editions).toHaveLength(8);
 
     const gone = views.current!.playlists[0]!.items[0]!.unit;
     const smaller = { ...pool, units: pool.units.filter((u) => u.unit !== gone) };
     const t = tombstone(views.current!, smaller);
     expect(t.playlists.flatMap((p) => p.items.map((i) => i.unit))).not.toContain(gone);
+
+    // A data fix that moves a track's bounds (e.g. a new hidden span) drops the stored item too.
+    const moved = views.current!.playlists[0]!.items.find((i) => !i.block)!;
+    const shifted = {
+      ...pool,
+      units: pool.units.map((u) =>
+        u.unit === moved.unit
+          ? { ...u, tracks: u.tracks.map((tr) => ({ ...tr, end_sec: tr.end_sec - 30 })) }
+          : u,
+      ),
+    };
+    const t2 = tombstone(views.current!, shifted);
+    expect(t2.playlists.flatMap((p) => p.items.map((i) => i.unit))).not.toContain(moved.unit);
+    // Unchanged items survive.
+    expect(tombstone(views.current!, pool)).toEqual(views.current);
   });
 });

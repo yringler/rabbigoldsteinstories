@@ -37,9 +37,9 @@ export interface Span {
 }
 
 /**
- * Hidden time spans of one item. Transcript masking uses the padded spans (default); playlist
- * track bounds (bedtime.md B9) use the exact spans (pad 0), because story segments usually start
- * exactly where a Shema-guest or mailbox segment ends.
+ * Hidden time spans of one item, padded by SPAN_PAD_SEC by default. Transcript masking and the
+ * playlist track bounds (bedtime.md B9, units.ts) both use the padded spans; units.ts trims a
+ * track whose edge touches one rather than dropping it.
  */
 export function hiddenSpans(hidden: RawHidden, pad = SPAN_PAD_SEC): Span[] {
   const all = [...hidden.on_air_people, ...hidden.addresses, ...hidden.other_personal];
