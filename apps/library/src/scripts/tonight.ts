@@ -14,19 +14,13 @@ import { iconSvg } from "../lib/icons.ts";
 import type { PlaylistEntry } from "../lib/playlists.ts";
 import { formatDuration, humanLength } from "../lib/time.ts";
 import type { LibCatalog, LibRow } from "../lib/types.ts";
+import { sanitizeEdition } from "../lib/editions.ts";
 import { $, h, loadCatalog, toast } from "./core.ts";
 import * as store from "./playlist-store.ts";
 
-const isEdition = (v: unknown): v is Edition =>
-  typeof v === "object" &&
-  v !== null &&
-  Array.isArray((v as Edition).playlists) &&
-  typeof (v as Edition).date === "string";
-
 async function current(): Promise<Edition | null> {
   try {
-    const e = await fetchCurrentEdition();
-    return isEdition(e) ? e : null;
+    return sanitizeEdition(await fetchCurrentEdition());
   } catch {
     return null;
   }
@@ -37,7 +31,9 @@ async function history(): Promise<Edition[]> {
     const r = await fetch("/playlists/history.json");
     if (!r.ok) return [];
     const j = (await r.json()) as HistoryFile;
-    return Array.isArray(j.nights) ? j.nights.filter(isEdition) : [];
+    return Array.isArray(j.nights)
+      ? (j.nights as unknown[]).map(sanitizeEdition).filter((e): e is Edition => e !== null)
+      : [];
   } catch {
     return [];
   }
@@ -275,6 +271,8 @@ export async function init(): Promise<void> {
   host.dataset["done"] = "1";
   const [ed, past, cat] = await Promise.all([current(), history(), loadCatalog()]);
   const empty = $("[data-tonight-empty]");
+  const loading = $("[data-tonight-loading]");
+  if (loading) loading.hidden = true;
   if (!cat || (!ed && !past.length)) {
     if (empty) empty.hidden = false;
     return;

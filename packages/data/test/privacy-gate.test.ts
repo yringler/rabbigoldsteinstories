@@ -86,7 +86,7 @@ describe("privacy gate on the generated public dataset", () => {
     let checked = 0;
     for (const r of recs) {
       if (!PUBLISHED.has(r.meta.quality.publish_recommendation)) continue;
-      const spans = hiddenSpans(r.meta.hidden);
+      const spans = hiddenSpans(r.meta.hidden, undefined, r.meta.segments ?? []);
       const tp = join(out, "transcripts", `${r.meta.id}.json`);
       if (existsSync(tp)) {
         for (const l of readJson<PublicTranscript>(tp).lines) {
@@ -142,6 +142,32 @@ describe("privacy gate on the generated public dataset", () => {
       }
     }
     expect(n).toBeGreaterThan(500);
+  });
+
+  it("relations carry no pipeline notes or evidence", () => {
+    let n = 0;
+    for (const f of readdirSync(join(out, "items"))) {
+      const item = readJson<PublicItem>(join(out, "items", f));
+      for (const r of item.relations) {
+        n++;
+        for (const k of Object.keys(r)) expect(["type", "target_id", "confidence", "offset_sec"], `${item.id} relation key ${k}`).toContain(k);
+      }
+    }
+    expect(n).toBeGreaterThan(1000);
+  });
+
+  it("recordings with a privacy flag but no timed hidden entry have no transcript and no search text (library.md §5.4 rule 6)", () => {
+    let n = 0;
+    for (const r of recs) {
+      if (!PUBLISHED.has(r.meta.quality.publish_recommendation)) continue;
+      const h = r.meta.hidden;
+      if (!r.meta.audience.privacy.length || h.on_air_people.length + h.addresses.length + h.other_personal.length) continue;
+      n++;
+      expect(existsSync(join(out, "transcripts", `${r.meta.id}.json`)), r.meta.id).toBe(false);
+      expect(existsSync(join(out, "search", `${r.meta.id}.json`)), r.meta.id).toBe(false);
+      expect(readJson<PublicItem>(join(out, "items", `${r.meta.id}.json`)).transcript.display).toBe("none");
+    }
+    expect(n).toBeGreaterThan(0);
   });
 
   it("publishes the lost-episodes index", () => {

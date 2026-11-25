@@ -4,8 +4,8 @@
  */
 import type { Track } from "@goldstein/player";
 import { cite, type CiteInput } from "../lib/citation.ts";
-import { formatDuration, parseTime } from "../lib/time.ts";
-import { lastAtOrBefore, timeWords } from "../lib/words.ts";
+import { clampTime, formatDuration, parseTime } from "../lib/time.ts";
+import { lastAtOrBefore, snapToRow, timeWords } from "../lib/words.ts";
 import { $, $$, absoluteTime, audio, copyText, currentId, h, player, tracksFrom } from "./core.ts";
 
 let cleanup: (() => void)[] = [];
@@ -20,7 +20,13 @@ export function init(): void {
   const base = mainBtn ? tracksFrom(mainBtn)[0] : undefined;
   if (!base) return;
   const params = new URLSearchParams(location.search);
-  const t0 = parseTime(params.get("t"));
+  const starts = $$<HTMLElement>(".t-line, .t-gap", page).map((el) => Number(el.dataset["s"]));
+  // Search links carry whole seconds; snap to the transcript row that starts within that second.
+  const t0 = clampTime(
+    snapToRow(parseTime(params.get("t")), starts),
+    Number(page.dataset["start"] ?? 0),
+    Number(page.dataset["end"] ?? Infinity),
+  );
   const end = parseTime(params.get("end"));
   const q = params.get("q");
   const track: Track = { ...base };
@@ -218,6 +224,9 @@ function setupTranscript(
   a.addEventListener("play", kick);
   a.addEventListener("seeked", kick);
   a.addEventListener("timeupdate", kick);
+  // Player.seek() (e.g. priming at ?t=) emits before the media element reports it: follow that too.
+  const unsubKick = player().subscribe(() => kick());
+  cleanup.push(unsubKick);
   cleanup.push(() => {
     a.removeEventListener("play", kick);
     a.removeEventListener("seeked", kick);
@@ -254,11 +263,16 @@ function setupTranscript(
     if (resume) resume.hidden = follow.checked;
   });
 
-  setupFind(page, lines, q);
+  setupFind(page, lines, q, t0);
   setupQuote(page, id);
 }
 
-function setupFind(page: HTMLElement, lines: HTMLElement[], q: string | null): void {
+function setupFind(
+  page: HTMLElement,
+  lines: HTMLElement[],
+  q: string | null,
+  t0: number | null,
+): void {
   const input = $<HTMLInputElement>("[data-t-find]", page);
   const count = $("[data-t-count]", page);
   if (!input) return;
@@ -269,8 +283,11 @@ function setupFind(page: HTMLElement, lines: HTMLElement[], q: string | null): v
     hits = [];
     at = -1;
   };
+  let initial = false;
+  let scroll = true;
   const run = () => {
     clear();
+    let first = 0;
     const needle = input.value.trim().replace(/^"|"$/g, "").toLowerCase();
     if (needle.length < 2) {
       if (count) count.textContent = "";
@@ -300,15 +317,21 @@ function setupFind(page: HTMLElement, lines: HTMLElement[], q: string | null): v
       }
     }
     if (count) count.textContent = hits.length ? `${hits.length} found` : "No matches";
-    if (hits.length) go(0);
+    // Arriving from a search result at ?t=: the active match is the first at or after that time,
+    // and the page stays where ?t= put it.
+    if (t0 !== null && initial) {
+      const i = hits.findIndex((w) => Number(w.dataset["t"]) >= t0 - 0.5);
+      first = i < 0 ? 0 : i;
+    }
+    if (hits.length) go(first, scroll);
   };
-  const go = (i: number) => {
+  const go = (i: number, scroll = true) => {
     if (!hits.length) return;
     hits[at]?.classList.remove("active");
     at = (i + hits.length) % hits.length;
     const el = hits[at];
     el?.classList.add("active");
-    el?.scrollIntoView({ block: "center" });
+    if (scroll) el?.scrollIntoView({ block: "center" });
     if (count) count.textContent = `${at + 1} of ${hits.length}`;
   };
   let timer = 0;
@@ -326,7 +349,11 @@ function setupFind(page: HTMLElement, lines: HTMLElement[], q: string | null): v
   $("[data-t-prev]", page)?.addEventListener("click", () => go(at - 1));
   if (q) {
     input.value = q.replace(/"/g, "");
+    initial = true;
+    scroll = t0 === null;
     run();
+    initial = false;
+    scroll = true;
   }
 }
 

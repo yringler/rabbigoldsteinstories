@@ -17,7 +17,6 @@ const UI: Readonly<Record<string, string>> = {
   "play-next": `<path d="M3 6h11M3 11h11M3 16h6"/><path d="M14 14v7l5.5-3.5Z" fill="currentColor"/>`,
   share: `<path d="M12 3v12M7.5 7.5 12 3l4.5 4.5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/>`,
   moon: `<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/>`,
-  close: `<path d="M6 6l12 12M18 6 6 18"/>`,
   back: `<path d="M15 5 8 12l7 7"/>`,
   down: `<path d="M5 9l7 7 7-7"/>`,
   right: `<path d="M9 5l7 7-7 7"/>`,

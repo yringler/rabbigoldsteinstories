@@ -16,7 +16,27 @@ import type { RawHidden, RawVocabEntry } from "./raw.ts";
 /** Seconds added on both sides of a hidden span (ASR and metadata timings differ slightly). */
 export const SPAN_PAD_SEC = 2;
 /** Span length assumed when a hidden entry has no end_sec. */
-export const DEFAULT_SPAN_SEC = 60;
+export const DEFAULT_SPAN_SEC = 90;
+
+/** A chapter mark, as far as span completion needs it. */
+export interface SpanSegment {
+  start_sec: number;
+  end_sec?: number | undefined;
+}
+
+/**
+ * End of a hidden entry that has no end_sec (library.md §5.4 rule 3): the later of start + 90 s and
+ * the end of the enclosing chapter, if any (a chapter without end_sec ends where the next begins).
+ */
+export function openSpanEnd(start: number, segments: readonly SpanSegment[] = []): number {
+  const sorted = [...segments].sort((a, b) => a.start_sec - b.start_sec);
+  let end = start + DEFAULT_SPAN_SEC;
+  sorted.forEach((seg, i) => {
+    const segEnd = seg.end_sec ?? sorted[i + 1]?.start_sec;
+    if (seg.start_sec <= start && segEnd !== undefined && start < segEnd) end = Math.max(end, segEnd);
+  });
+  return end;
+}
 /** Fields that must never appear as keys anywhere in the public output. */
 export const FORBIDDEN_KEYS = [
   "hidden",
@@ -41,11 +61,15 @@ export interface Span {
  * playlist track bounds (bedtime.md B9, units.ts) both use the padded spans; units.ts trims a
  * track whose edge touches one rather than dropping it.
  */
-export function hiddenSpans(hidden: RawHidden, pad = SPAN_PAD_SEC): Span[] {
+export function hiddenSpans(
+  hidden: RawHidden,
+  pad = SPAN_PAD_SEC,
+  segments: readonly SpanSegment[] = [],
+): Span[] {
   const all = [...hidden.on_air_people, ...hidden.addresses, ...hidden.other_personal];
   return all.map((h) => ({
     start: Math.max(0, h.start_sec - pad),
-    end: (h.end_sec ?? h.start_sec + DEFAULT_SPAN_SEC) + pad,
+    end: (h.end_sec ?? openSpanEnd(h.start_sec, segments)) + pad,
   }));
 }
 

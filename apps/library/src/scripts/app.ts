@@ -5,6 +5,8 @@
  */
 import type { Track } from "@goldstein/player";
 import type { PlaylistEntry } from "../lib/playlists.ts";
+import { iconSvg } from "../lib/icons.ts";
+import { ownsSpaceAndArrows } from "../lib/keys.ts";
 import { formatDuration } from "../lib/time.ts";
 import {
   $,
@@ -173,11 +175,12 @@ function renderQueue(list: HTMLElement): void {
     ...s.queue.map((t, i) => {
       const go = h("button", { type: "button", class: "go" }, `${i + 1}. ${t.title}`);
       go.addEventListener("click", () => void player().goTo(i));
-      const rm = h(
-        "button",
-        { type: "button", class: "icon-btn", "aria-label": `Remove ${t.title}` },
-        "×",
-      );
+      const rm = h("button", {
+        type: "button",
+        class: "icon-btn",
+        "aria-label": `Remove ${t.title}`,
+        html: iconSvg("close", 16),
+      });
       rm.addEventListener("click", () => {
         if (i === s.index) {
           const q = [...s.queue];
@@ -197,7 +200,7 @@ function setRate(r: number): void {
   a.playbackRate = v;
   a.defaultPlaybackRate = v;
   store.set("rate", v);
-  announce(`Speed ${v}×`);
+  announce(`Speed ${v}x`);
 }
 
 // ---------------------------------------------------------------------------------------------
@@ -399,10 +402,8 @@ function onKey(e: KeyboardEvent): void {
   if (shortcutsOff() && e.key !== "?") return;
   const p = player();
   const has = p.current !== null;
-  const onControl =
-    e.target instanceof HTMLButtonElement ||
-    e.target instanceof HTMLAnchorElement ||
-    (e.target instanceof HTMLInputElement && e.target.type === "range");
+  // Space and arrows belong to the focused control (checkbox, radio, select, option, summary…).
+  const onControl = ownsSpaceAndArrows(e.target);
   switch (e.key) {
     case "/": {
       const input = $<HTMLInputElement>("[data-search-input]") ?? $<HTMLInputElement>("#header-q");

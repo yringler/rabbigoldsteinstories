@@ -73,15 +73,14 @@ const lost = episodes().filter((e) => e.status === "lost").length;
       <h2>Corrections and contact</h2>
       <p>
         Every recording page has a “Report an error in this record” link that fills in an email for
-        you. For anything else, write to
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+        you. For anything else, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
       </p>
 
       <h2>Related sites</h2>
       <p>
         For children: <a href={siteUrl("kids")}>{SITES.kids.name}</a>. At bedtime:{" "}
         <a href={siteUrl("bedtime")}>{SITES.bedtime.name}</a>, whose nightly playlists also appear
-        here under <a href="/tonight/">Tonight's playlists</a>. The data behind all three is
+        here under <a href="/tonight/">Tonight's playlists</a>. The data behind all three is{" "}
         <a href="/data/">available for download</a>.
       </p>
     </div>

@@ -38,3 +38,10 @@ export function lastAtOrBefore(starts: readonly number[], t: number): number {
   }
   return ans;
 }
+
+/** A whole-second ?t= that falls just before a transcript row (within 1 s) snaps to that row's start. */
+export function snapToRow(t: number | null, starts: readonly number[]): number | null {
+  if (t === null) return null;
+  const next = starts.find((s) => s >= t && s < t + 1);
+  return next ?? t;
+}

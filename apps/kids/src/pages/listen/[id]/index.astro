@@ -70,6 +70,12 @@ const parentReq: PlayRequest | null = parent
     }
   : null;
 const ch = m.chapterOf.get(id);
+const chWord = ch?.type === "set" ? "Part" : "Chapter";
+const chLabel = ch
+  ? ch.ns.length > 1
+    ? `${chWord}s ${ch.ns.join(" and ")} of ${ch.of}`
+    : `${chWord} ${ch.n} of ${ch.of}`
+  : "";
 const others = (m.otherVersions.get(id) ?? [])
   .map((x) => m.items.get(x))
   .filter((x): x is KItem => Boolean(x));
@@ -155,11 +161,7 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
           <li>{minutes(k.dur)}</li>
           <li>Ages {k.age}+</li>
           <li>{KIND_LABEL[k.kind]}</li>
-          {ch && (
-            <li>
-              {ch.type === "set" ? "Part" : "Chapter"} {ch.n} of {ch.of}
-            </li>
-          )}
+          {ch && <li>{chLabel}</li>}
         </ul>
         <div class="play-row">
           <button
@@ -184,15 +186,20 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
           )}
         </div>
         <div class="actions">
-          <button type="button" class="act" data-fav={id} aria-pressed="false">
-            <span class="h-off">
-              <Fragment set:html={ui("heart", "", 28)} />
-            </span>
-            <span class="h-on">
-              <Fragment set:html={ui("heart-fill", "", 28)} />
-            </span>
-            <span>Heart</span>
-          </button>
+          {
+            // Hearts list only kid-pool items, so a superseded copy offers none (§4.8).
+            k.inPool && (
+              <button type="button" class="act" data-fav={id} aria-pressed="false">
+                <span class="h-off">
+                  <Fragment set:html={ui("heart", "", 28)} />
+                </span>
+                <span class="h-on">
+                  <Fragment set:html={ui("heart-fill", "", 28)} />
+                </span>
+                <span>Heart</span>
+              </button>
+            )
+          }
           <button type="button" class="act" data-play-next={JSON.stringify(track)}>
             <Fragment set:html={ui("play-next", "", 28)} />
             <span>Play next</span>
@@ -233,9 +240,7 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
               <span class="icon-btn" aria-hidden="true" />
             )}
             <a class="ch-mid" href={`/serial/${ch.serialKey}/`}>
-              <b>
-                {ch.type === "set" ? "Part" : "Chapter"} {ch.n} of {ch.of}
-              </b>
+              <b>{chLabel}</b>
               <span>{ch.serialTitle}</span>
             </a>
             {ch.next ? (

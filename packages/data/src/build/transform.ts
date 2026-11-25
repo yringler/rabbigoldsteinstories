@@ -115,6 +115,18 @@ function publicSegment(s: PublicSegment, ctx: Context): PublicSegment {
   };
 }
 
+/**
+ * Transcript display after the privacy rule of library.md §5.4 rule 6: a recording that carries an
+ * audience.privacy flag but has no timed hidden entry gets no transcript at all, neither shown nor
+ * searchable, until someone adds the spans.
+ */
+export function transcriptDisplay(m: RawMeta): RawMeta["display"]["transcript_display"] {
+  const h = m.hidden;
+  const timed = h.on_air_people.length + h.addresses.length + h.other_personal.length;
+  if (m.audience.privacy.length > 0 && timed === 0) return "none";
+  return m.display.transcript_display;
+}
+
 export function toPublicItem(m: RawMeta, ctx: Context, maskedLines: number): PublicItem {
   const c = m.classification;
   const { start, end } = contentBounds(m);
@@ -126,7 +138,7 @@ export function toPublicItem(m: RawMeta, ctx: Context, maskedLines: number): Pub
       target_id: r.target_id,
       confidence: r.confidence,
       ...opt("offset_sec", r.offset_sec),
-      ...opt("note", r.note),
+      // relations[].note and .evidence are pipeline notes ("Fingerprint candidate…"): never published.
     }));
   const item: PublicItem = {
     id: m.id,
@@ -174,7 +186,7 @@ export function toPublicItem(m: RawMeta, ctx: Context, maskedLines: number): Pub
       spoken: m.language.spoken,
       transcript_language: m.language.transcript_language,
     },
-    transcript: { display: m.display.transcript_display, masked_lines: maskedLines },
+    transcript: { display: transcriptDisplay(m), masked_lines: maskedLines },
     derived: derive(m, ctx),
   };
   // Media url and ids are not free text; everything else is scanned.
@@ -250,7 +262,7 @@ export function redactPhones(text: string): string {
 
 /** Withhold lines inside this item's hidden spans, and lines naming anyone from any hidden block. */
 export function maskTranscript(m: RawMeta, t: RawTranscript, terms: TermSet): MaskedTranscript {
-  const spans = hiddenSpans(m.hidden);
+  const spans = hiddenSpans(m.hidden, undefined, m.segments ?? []);
   let masked = 0;
   const lines = t.segments.map((seg) => {
     const s = Math.round(seg.start * 100) / 100;

@@ -30,6 +30,7 @@ import {
 } from "./io.ts";
 import {
   maskTranscript,
+  transcriptDisplay,
   PUBLISHED,
   toCatalogEntry,
   toPublicItem,
@@ -119,7 +120,7 @@ export function build(): BuildResult {
 
   for (const rec of publicRecs.sort((a, b) => a.meta.id.localeCompare(b.meta.id))) {
     const m = rec.meta;
-    const raw = m.display.transcript_display === "none" ? null : loadTranscript(rec);
+    const raw = transcriptDisplay(m) === "none" ? null : loadTranscript(rec);
     const mt = raw ? maskTranscript(m, raw, terms) : { lines: [], masked: 0 };
     maskedTotal += mt.masked;
     const item: PublicItem = toPublicItem(m, ctx, mt.masked);

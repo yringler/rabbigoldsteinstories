@@ -424,6 +424,10 @@ Every cover is an SVG composed at build time from the item's tags, also rasteris
 
 **Respect rule for icons:** no faces or figures of real people, tzaddikim or Rebbeim, and no photographs. Heroes are shown by an object or scene: the Baal Shem Tov by a forest path and wagon, the Alter Rebbe by a Tanya, Rabbi Akiva by a rock worn by water, Avraham Avinu by a tent open on four sides, Eliyahu HaNavi by a cup. Generic characters (a king's crown, a wagon) are fine. The owner approves the hero emblem list before launch.
 
+**No cross-like shapes (owner, 2026-11-25):** no four-pointed stars or sparkles, plus signs, X marks or other shapes that could read as a cross, anywhere in icons, cover patterns, emblems, badges or decoration ("might make people nervous, like a cross"). Use dots, circles, crescents and five-pointed stars instead; a Magen David is fine. In the built site this means: stars are five-pointed, sun rays are dots, the scales stand on a triangle, the globe has only curved lines, logs are stacked rather than crossed, there is no spire on the Beis Hamikdash, close buttons use a down chevron, and the browser's × in the search box is hidden. A test (`apps/kids/test/icons.test.ts`) checks the icon set for four-pointed stars and crossing straight strokes.
+
+**Luchos and menorah (owner, 2026-11-25):** the luchos are square, two rectangles with no arched tops (Bava Basra 14a). The menorah follows the Rambam's drawing, as the Rebbe emphasised: straight diagonal branches rising from the stem to one level, no curved arms; the Chanukah menorah has 8 level lights and a raised shamash. Avraham Avinu's emblem is a fabric tent open on all sides. The icon test asserts that the luchos and menorah use no arcs or curves.
+
 ---
 
 ## 9. Data needed from the public export

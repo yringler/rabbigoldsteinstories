@@ -315,8 +315,33 @@ export const episodes = (): EpisodeCell[] =>
         c.year = prev?.year ?? out.slice(i).find((x) => x.year !== null)?.year ?? null;
       }
     }
+    collapseLostRuns(out);
     return out;
   });
+
+/**
+ * Long runs of lost episodes (10 or more in a row, e.g. 42–112) are shown as one collapsed block,
+ * so the whole run is filed under the Hebrew year that holds most of it (dates are estimates anyway).
+ */
+export function collapseLostRuns(cells: EpisodeCell[], min = 10): void {
+  let i = 0;
+  while (i < cells.length) {
+    if (cells[i]?.status !== "lost") {
+      i++;
+      continue;
+    }
+    let j = i;
+    while (j < cells.length && cells[j]?.status === "lost") j++;
+    const run = cells.slice(i, j);
+    if (run.length >= min) {
+      const votes = new Map<number | null, number>();
+      for (const c of run) votes.set(c.year, (votes.get(c.year) ?? 0) + 1);
+      const year = [...votes.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
+      for (const c of run) c.year = year;
+    }
+    i = j;
+  }
+}
 
 function hebrewParts2(iso: string): { year: number; month: string; text: string } | null {
   const h = hebrewParts(iso);
