@@ -59,7 +59,7 @@ export const SITES: Readonly<Record<SiteId, SiteInfo>> = {
     // owner 2026-11-25 (docs/DECISIONS.md); the name is a placeholder like the others.
     name: "Rabbi Goldstein Stories",
     worker: "goldstein-home",
-    host: "goldsteinstories.torahlearningtools.com",
+    host: "rabbigoldsteinstories.torahlearningtools.com",
     itemPath: null,
   },
 };

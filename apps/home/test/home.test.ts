@@ -64,7 +64,7 @@ describe("site links come from the shared site table", () => {
   });
 
   it("the home site is in the table and hosts have no dashes", () => {
-    expect(SITES.home.host).toBe("goldsteinstories.torahlearningtools.com");
+    expect(SITES.home.host).toBe("rabbigoldsteinstories.torahlearningtools.com");
     for (const s of Object.values(SITES)) expect(s.host.split(".")[0]).not.toContain("-");
   });
 
