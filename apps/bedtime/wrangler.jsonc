@@ -16,7 +16,7 @@
     "run_worker_first": ["/playlists/*", "/api/*"],
   },
   "services": [{ "binding": "API", "service": "goldstein-api" }],
-  "routes": [{ "pattern": "bedtime-stories.torahlearningtools.com", "custom_domain": true }],
+  "routes": [{ "pattern": "bedtimestories.torahlearningtools.com", "custom_domain": true }],
   "workers_dev": true,
   "preview_urls": true,
   "observability": { "enabled": true },
