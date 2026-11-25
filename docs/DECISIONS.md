@@ -84,3 +84,4 @@ All questions are now answered.
 - **Tonight's Mix is the first playlist everywhere** (owner, 2026-11-25): the mix is the default choice; the age- and mood-specific playlists follow.
 - **No cross-like shapes in any site artwork** (owner, 2026-11-25): no four-pointed stars or sparkles, plus signs as decoration, or crossed lines in icons, covers or decorations. Five-pointed stars, dots, crescents and the Magen David are fine. Started with the Big Kids icon's sparkle.
 - **Luchos are drawn square** (owner, 2026-11-25): rectangular, never with rounded or arched tops.
+- **Menorah branches are straight** (owner, 2026-11-25): diagonal straight branches, never curved arms. Applies to the Chanukah menorah and the Beis Hamikdash menorah.
