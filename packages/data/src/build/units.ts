@@ -5,8 +5,9 @@
  *
  * Implemented: base filter B1–B9, unit kinds story / clip / span / set / serial, clip-vs-parent
  * rule, span advisories and calendar tags, dedupe keys.
- * Owned by the bedtime team from here: the energy score (energy.ts), the opening-song rule, and
- * any refinement of the kinds. Change counts in docs/sites/bedtime.md §4.2 when the pool changes.
+ * Owned by the bedtime team: the energy score (energy.ts), the opening-song rule (story tracks carry
+ * intro_start_sec), sets with duplicate copies of a part. Counts, and why they differ from the
+ * first measurement, are in docs/sites/bedtime.md §4.2.
  */
 import { createHash } from "node:crypto";
 import { hiddenSpans, overlapsAny } from "../privacy.ts";
@@ -120,10 +121,19 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     const isStory = ["story", "lesson_with_story", "story_collection"].includes(c.content_type) && !c.part;
     const isClip = c.content_type === "radio_segment" && (c.story_type?.length ?? 0) > 0;
     if (!(isStory || isClip) || c.standalone !== "standalone") continue;
-    const { start, end } = contentBounds(m);
+    const bounds = contentBounds(m);
+    const { end } = bounds;
+    // Opening song (§4.2): a story that opens with a short song starts after it, except as the
+    // first track of a playlist (the recipe's order hook then plays it from intro_start_sec).
+    const song = isStory ? openingSongEnd(m) : null;
+    const start = song !== null && song > bounds.start && song < end ? song : bounds.start;
     if (end - start < MIN_SEC || end - start > MAX_SEC) continue;
     const t = track(m, start, end);
     if (!notHidden(m, t)) continue;
+    if (start > bounds.start) {
+      const intro = round(bounds.start);
+      if (!overlapsAny(intro, t.end_sec, hiddenSpans(m.hidden, 0))) t.intro_start_sec = intro;
+    }
     units.push(
       make(
         {
@@ -206,18 +216,35 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     const key = m.classification.part?.set_key;
     if (key) sets.set(key, [...(sets.get(key) ?? []), m]);
   }
+  // A set may hold several copies of a part (alternate takes, superseded copies, a second
+  // telling). B2 drops superseded copies; of the copies left the best one plays (publish over
+  // review, good audio over fair, then the lowest id), and the other copies' ids join the block's
+  // dedupe keys. A set needs at least two parts: a lone "Part 1" whose other parts are not in the
+  // archive is neither a complete block nor a standalone story.
+  const copyRank = (m: RawMeta) =>
+    (m.quality.publish_recommendation === "review" ? 2 : 0) + (m.quality.audio === "good" ? 0 : 1);
   for (const [key, members] of sets) {
-    const parts = members.sort((a, b) => a.classification.part!.part_number - b.classification.part!.part_number);
-    const of = parts[0]!.classification.part!.of ?? parts.length;
-    if (parts.length !== of || parts.some((p, i) => p.classification.part!.part_number !== i + 1)) continue;
-    if (!parts.every((p) => passesBase(p, false))) continue;
-    const tracks = parts.map((p) => {
-      const { start, end } = contentBounds(p);
-      return track(p, start, end);
-    });
-    if (tracks.some((t, i) => !notHidden(parts[i]!, t))) continue;
+    const of = Math.max(...members.map((m) => Math.max(m.classification.part!.of ?? 0, m.classification.part!.part_number)));
+    if (of < 2) continue;
+    const parts: RawMeta[] = [];
+    const tracks: UnitTrack[] = [];
+    for (let n = 1; n <= of; n++) {
+      const best = members
+        .filter((m) => m.classification.part!.part_number === n && passesBase(m, false))
+        .map((m) => {
+          const { start, end } = contentBounds(m);
+          return { m, t: track(m, start, end) };
+        })
+        .filter((x) => notHidden(x.m, x.t))
+        .sort((a, b) => copyRank(a.m) - copyRank(b.m) || a.m.id.localeCompare(b.m.id))[0];
+      if (!best) break;
+      parts.push(best.m);
+      tracks.push(best.t);
+    }
+    if (parts.length !== of) continue;
     const total = tracks.reduce((s, t) => s + t.duration_sec, 0);
     if (total > MAX_BLOCK_SEC) continue;
+    const others = members.filter((m) => !parts.includes(m)).map((m) => m.id);
     const title = parts[0]!.display.title.replace(/,?\s*(Part|Chapter)\s+\d+.*$/i, "");
     kept.push(
       make(
@@ -233,7 +260,7 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
           calendar: [...new Set(parts.flatMap((p) => p.subjects.calendar))],
           topics: [...new Set(parts.flatMap((p) => p.subjects.topics))],
           story_type: [...new Set(parts.flatMap((p) => p.classification.story_type ?? []))],
-          keys: keysFor(parts, [`set:${key}`]),
+          keys: keysFor(parts, [`set:${key}`, ...others]),
           block: { key, title, of },
         },
         parts.map((p) => `${p.display.title} ${p.display.summary_short} ${p.display.summary_long}`).join(" "),
@@ -295,6 +322,13 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
   kept.sort((a, b) => a.unit.localeCompare(b.unit));
   const poolHash = createHash("sha256").update(JSON.stringify(kept)).digest("hex").slice(0, 12);
   return { version: PUBLIC_DATA_VERSION, generated_at: new Date().toISOString(), pool_hash: poolHash, units: kept };
+}
+
+/** End of a short opening song (first segment, type `song`, ending before 180 s), or null. */
+function openingSongEnd(m: RawMeta): number | null {
+  const first = [...(m.segments ?? [])].sort((a, b) => a.start_sec - b.start_sec)[0];
+  if (!first || first.type !== "song" || first.end_sec === undefined || first.end_sec === null) return null;
+  return first.end_sec < 180 ? first.end_sec : null;
 }
 
 function round(n: number): number {

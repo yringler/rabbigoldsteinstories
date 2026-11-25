@@ -83,6 +83,7 @@ export async function ensureRunway(input: RunwayInput): Promise<RunwayResult> {
         history,
         clock,
         now: input.now,
+        log,
         ...(input.overrides ? { overrides: input.overrides } : {}),
       });
       await input.store.put(e);

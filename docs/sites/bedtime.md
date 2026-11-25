@@ -257,6 +257,12 @@ Rules that fall out of this:
 | whole radio episodes passing B1 to B8 (for `radio`) | 396 (250 standalone) | 197.0 (124.2) | 30 min |
 | talk clips, 2 to 15 min, standalone (for `season`) | 228 | 20.7 | 5 min |
 
+**As built (2026-11-25, `packages/data/src/build/units.ts`): 487 units, 117.4 h** — story 141, clip 53, span 254, set 20, serial 19; calm 260 / middle 115 / exciting 112. Why it differs from the 489 above (checked by the bedtime team):
+- **Serials 19, not 22.** *The Storyteller*, *The Missing Wallet* and *Dama ben Nesina* each have a chapter whose only copy overlaps a hidden span, so B9 rules the whole run out. The first count did not apply B9 to serial chapters. B9 is binding, so 19 is right.
+- **Sets 20, not 21.** The first build counted 16: it rejected any set holding two copies of a part (an alternate take, a superseded copy, a second telling). Now each part plays its best copy (B2 drops superseded ones; then publish over review, good audio over fair, lowest id) and the other copies join the block's dedupe keys, which recovers 5 sets (*Baal Shem Tov Saved a Neshama*, *Hashem Always Helps*, *Hashem's Name*, *Slavita Printer*, *The Four Chochmos*). A "set" with a single part (`meayin-yavo-ezri`, a lone "Part 1") is no longer a one-part block: it is incomplete, so it is out.
+- Stories 141 / clips 53 vs 142 / 50: data edits since the first count (`review` items are now publishable; *The Plot That Boomeranged* copy is now superseded).
+- **Opening song**: 77 story units start after a short opening song and carry `intro_start_sec`; a playlist's first track plays from there.
+
 Narrators in single-track units: Uncle Yossi 307, R' Chaim Levi 137, unknown 16. What was filtered: 168 serial-chapter episodes are reachable only through serial blocks; 14 units (12 stories, 2 spans) were removed by B9; 391 of the 396 whole episodes contain at least one hidden span, which is why the core playlists use story spans and not whole episodes.
 
 ### 4.3 The derived `energy` score (calm versus exciting)
@@ -340,6 +346,12 @@ Inputs: the type's pool, the edition id, the stored history of earlier editions,
 
 Generation order of the types inside an edition rotates by edition (so no type always picks last from shared material).
 
+**As built** (`packages/playlists/src/{engine,recipes,seasons}.ts`):
+- **Wind-down** is reserved, not swapped in afterwards: every type fills its body to the minimum length less the wind-down, then draws a calm tail (same cooldowns) and plays it last, calmest last. Little Ones and Quiet Night: 20 min from their own calm units; Big Kids and Tonight's Mix: 20 min, Adventure Night: 25 min, from the Quiet Night pool (units ≤ 15 min). The wind-down is never relaxed.
+- **Head rules on the final order.** The fill checks head rules in draw order; after sorting, any unit that would start inside the first 40 minutes must also pass them (the engine moves it later otherwise). A block plays second, so it must pass head rules and be short enough to end before the last 25 minutes after a ≤ 15-minute opener (≤ 70 min in a 120-minute playlist). A draw that cannot be ordered validly is retried at the next relaxation step.
+- **Seasons**: `@hebcal/hdate` gives the night's Hebrew date; the windows table is `CALENDAR_WINDOWS` in `seasons.ts`. While a tag is "near" (the day or ≤ 3 days ahead) and no seasonal story has been drawn yet, its stories are strongly preferred, so the shortest one usually opens. Cooldowns still win: on 2026-12-06 types with few distinct Chanukah stories may have used them all (Little Ones has none; Quiet Night has one), so criterion 11 is tested as "every type with ≥ 3 Chanukah stories plays one on the first near night, and nearly every night of Chanukah has one somewhere".
+- **Voices** swaps the 4th track of a same-narrator run with a later same-band track by the other narrator (never the opener, a block, or across the tail).
+
 ### 4.6 Rotation, cooldowns, history
 
 **Rotation period: 24 hours. Recommended, and what the numbers support.** One edition per night.
@@ -348,20 +360,22 @@ Generation order of the types inside an edition rotates by edition (so no type a
 - **Flip time: 09:00 `America/New_York`** (DST-aware; 13:00 or 14:00 UTC). Editions are **global**, not per-user-local: everyone sees the same "tonight", the files are cacheable, and history means the same thing for every visitor. 09:00 Eastern is the one window that is nobody's bedtime: 06:00 Pacific, 14:00 London, 16:00 Jerusalem, about midnight in Melbourne. A nap at 13:00 anywhere in the US already gets tonight's playlists.
 - Because a started playlist is pinned in the client, a flip never interrupts playback.
 
-**Cooldowns** (days = editions; "use" means any unit sharing a key):
+**Cooldowns** (days = editions; "use" means any unit sharing a key). As built in `packages/playlists/src/recipes.ts`; the first proposal is in brackets:
 
 | `type` | No repeat in the same type within | No repeat in the **head** of the same type within |
 |---|---|---|
-| `little` | 6 days | 18 days |
-| `calm` | 7 days | 21 days |
-| `adventure` | 12 days | 24 days |
-| `big` | 16 days | 40 days |
-| `mix` | 24 days | 45 days |
+| `little` | 5 days (6) | 10 days (18) |
+| `calm` | 6 days (7) | 12 days (21) |
+| `adventure` | 6 days (12) | 10 days (24) |
+| `big` | 12 days (16) | 24 days (40) |
+| `mix` | 16 days (24) | 28 days (45) |
+
+Why lower: with the rule that any shared dedupe key counts as a use, the pools hold far fewer distinct stories than units (re-airings, retellings and story groups). Little Ones has 216 units but 91 key clusters, about 14.5 h of distinct material; Adventure 151 units, 85 clusters, 27.8 h. With the bracketed values almost every playlist relaxed every night (observed minimum gaps then fell to 5 to 8 editions anyway). The new values come from 365-night simulations from three start dates: relaxation in 1 to 6% of playlists, no failed edition, observed minimum same-type gaps little 6, calm 6, adventure 5–6, big 8–10, mix 10–13 editions.
 
 Plus, across types: a unit that was in **any** head is not in any head for the next 2 editions; and within one edition no unit is in two heads. Outside the head, the same story may appear in two different types on the same night (a family picks one).
 
 - **If a pool runs dry** (cannot reach the minimum length): relax in this order, logging each step: multiply the type's cooldowns by 0.75, repeat up to four times; then allow the cross-type head rule to lapse. Never relax eligibility, dedupe keys or the wind-down.
-- **Verified by simulation:** 730 consecutive daily editions, three seeds, real pools. With the table above: zero relaxations for `little`, `adventure`, `mix`; at the slightly tighter 8/24 (`calm`) and 18/45 (`big`) the generator needed 2 to 6 relaxation steps in two years, hence the margins chosen. Median same-type gap actually achieved: little 9 days, calm 10, adventure 16, big 22, mix 28; median head gap 20, 28, 31, 55, 64 days. Typical playlist: 9 tracks (little), 10 (calm), 7 to 8 (others).
+- **Verified by simulation (first proposal; superseded by the measurements above):** 730 consecutive daily editions, three seeds, real pools. With the table above: zero relaxations for `little`, `adventure`, `mix`; at the slightly tighter 8/24 (`calm`) and 18/45 (`big`) the generator needed 2 to 6 relaxation steps in two years, hence the margins chosen. Median same-type gap actually achieved: little 9 days, calm 10, adventure 16, big 22, mix 28; median head gap 20, 28, 31, 55, 64 days. Typical playlist: 9 tracks (little), 10 (calm), 7 to 8 (others).
 - What this means for a family: the story that opens Quiet Night tonight will not open it again for at least three weeks, and with a 45-minute timer a child hears a given story roughly once a month.
 
 **Generate on a schedule and store. Do not recompute on the fly.**

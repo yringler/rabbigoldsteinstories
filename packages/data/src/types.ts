@@ -303,6 +303,11 @@ export interface UnitTrack {
   start_sec: number;
   end_sec: number;
   duration_sec: number;
+  /**
+   * Opening-song rule (bedtime.md §4.2): set when the track skips a short opening song; the song
+   * starts here. A playlist's first track plays from this point instead of `start_sec`.
+   */
+  intro_start_sec?: number;
 }
 
 export interface UnitAdvisory {

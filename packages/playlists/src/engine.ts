@@ -7,14 +7,16 @@
  * keys within a playlist, same-type cooldowns and head cooldowns, cross-type head rule (2
  * editions) and no unit in two heads of one edition, at most one block (never first, never in the
  * last 25 minutes), relaxation (cooldowns ×0.75 up to four times, then the cross-type head rule
- * lapses), default running order, validation. Recipe-specific rules (wind-down swaps, voices,
- * seasons) belong in the recipe's order/validate/weight hooks.
+ * lapses), default running order, validation, the reserved wind-down tail (Recipe.windDown), the
+ * edition's Hebrew date and active seasons (seasons.ts). Recipe-specific rules (seasonal weights,
+ * opener, voices, opening song) live in the recipe's weight/admit/order/validate hooks.
  */
 import type { Unit, UnitPool } from "@goldstein/data";
 import { CLOCK, type ClockConfig, type EditionWindow } from "./clock.ts";
 import { RECIPE_VERSION, type Edition, type Playlist, type PlaylistItem } from "./contract.ts";
-import type { Overrides, Recipe, RecipeContext } from "./recipe.ts";
+import type { FillState, Overrides, Recipe, RecipeContext } from "./recipe.ts";
 import { seededRng, weightedPick } from "./rng.ts";
+import { seasonFor } from "./seasons.ts";
 
 const HEAD_SEC = 40 * 60;
 const BLOCK_TAIL_SEC = 25 * 60;
@@ -32,6 +34,8 @@ export interface GenerateInput {
   overrides?: Overrides;
   clock?: ClockConfig;
   now?: Date;
+  /** Receives one line per relaxation step taken (bedtime.md §4.6: "logging each step"). */
+  log?: (msg: string) => void;
 }
 
 interface Usage {
@@ -104,6 +108,33 @@ export function defaultOrder(chosen: Unit[], recipe: Recipe): Unit[] {
   return block ? [opener, block, ...body] : [opener, ...body];
 }
 
+/**
+ * Keep the running order, but make sure every unit that starts inside the head passes the head
+ * rules: the fill checks head rules in draw order, and sorting by energy could otherwise move a
+ * later draw into the first 40 minutes. Units drawn while in the head pass, and they add up to at
+ * least 40 minutes, so the head can always be filled from them.
+ */
+export function enforceHead(ordered: Unit[], headOk: (u: Unit) => boolean): Unit[] {
+  const rest = [...ordered];
+  const out: Unit[] = [];
+  let t = 0;
+  while (t < HEAD_SEC && rest.length > 0) {
+    const i = rest.findIndex((u) => headOk(u) && (out.length > 0 || !u.block));
+    if (i < 0) break;
+    const [u] = rest.splice(i, 1) as [Unit];
+    out.push(u);
+    t += u.duration_sec;
+  }
+  return [...out, ...rest];
+}
+
+/** Wind-down tail order: descending energy, so the calmest story plays last. */
+export function orderTail(tail: Unit[]): Unit[] {
+  return [...tail].sort(
+    (a, b) => (b.energy ?? 0) - (a.energy ?? 0) || a.unit.localeCompare(b.unit),
+  );
+}
+
 function toItems(u: Unit): PlaylistItem[] {
   return u.tracks.map((t, i) => ({
     id: t.id,
@@ -151,15 +182,29 @@ export function generateEdition(input: GenerateInput): Edition {
   const order = input.recipes.map((_, i) => input.recipes[(i + dayIndex) % n]!);
   const results = new Map<string, Playlist>();
 
+  const season = seasonFor(input.window.id);
+
   for (const recipe of order) {
     const rng = seededRng(`${RECIPE_VERSION}|${input.window.id}|${recipe.type}`);
-    const ctx: RecipeContext = { edition: input.window, rng, pool };
+    const ctx: RecipeContext = { edition: input.window, rng, pool, season };
     const eligible = pool.filter((u) => recipe.eligible(u));
+    const tailPool = recipe.windDown ? pool.filter((u) => recipe.windDown!.eligible(u)) : [];
+    const tailMin = recipe.windDown?.minSec ?? 0;
     const target = recipe.targetMin * 60;
     const tol = recipe.toleranceMin * 60;
-    let chosen: Unit[] | null = null;
+    const openerMax = (recipe.openerMaxMin ?? 15) * 60;
+    let chosen: { body: Unit[]; tail: Unit[]; headOk: (u: Unit) => boolean } | null = null;
+    let ordered: Unit[] = [];
+    let lastProblem: string | null = null;
 
     for (let relax = 0; relax <= RELAX_STEPS + 1 && !chosen; relax++) {
+      if (relax > 0)
+        input.log?.(
+          `${input.window.id}/${recipe.type}: relaxing, step ${relax}` +
+            (relax > RELAX_STEPS
+              ? " (cross-type head rule lapses)"
+              : ` (cooldowns ×0.75^${relax})`),
+        );
       const mult = 0.75 ** Math.min(relax, RELAX_STEPS);
       const crossHeads = relax <= RELAX_STEPS;
       const cooldown = Math.ceil(recipe.cooldownDays * perDay * mult);
@@ -169,26 +214,33 @@ export function generateEdition(input: GenerateInput): Edition {
       const blockedBy = (m: Map<string, number>, u: Unit, within: number) =>
         u.keys.some((k) => (m.get(k) ?? Infinity) <= within);
 
-      const pick: Unit[] = [];
+      const body: Unit[] = [];
+      const tail: Unit[] = [];
       const keys = new Set<string>();
       let total = 0;
+      let tailTotal = 0;
       let blocks = 0;
       const rngTry = seededRng(`${RECIPE_VERSION}|${input.window.id}|${recipe.type}|${relax}`);
-      while (total < target - tol) {
+      // Body: fill to the minimum less the reserved wind-down; tail: calm units to the end.
+      const bodyGoal = target - tol - tailMin;
+      const bodyMax = target + tol - tailMin;
+      for (;;) {
+        const inTail = total >= bodyGoal;
+        if (inTail && tailTotal >= tailMin && total >= target - tol) break;
+        const cap = inTail ? target + tol : bodyMax;
         const inHead = total < HEAD_SEC;
-        const options = eligible.filter((u) => {
-          if (pick.includes(u) || u.keys.some((k) => keys.has(k))) return false;
-          if (total + u.duration_sec > target + tol) return false;
+        const state: FillState = { picked: [...body, ...tail], total, inHead, inTail };
+        const options = (inTail ? tailPool : eligible).filter((u) => {
+          if (u.keys.some((k) => keys.has(k))) return false;
+          if (total + u.duration_sec > cap) return false;
           if (blockedBy(used, u, cooldown)) return false;
-          if (
-            u.block &&
-            (blocks > 0 ||
-              pick.length === 0 ||
-              total + u.duration_sec > target + tol - BLOCK_TAIL_SEC)
-          )
-            return false;
-          if (inHead) {
-            if (u.block) return false;
+          if (u.block) {
+            // A block plays second, right after an opener of at most openerMaxMin, so it must
+            // end before the last 25 minutes of the shortest allowed playlist; it is in the head.
+            if (inTail || blocks > 0 || body.length === 0) return false;
+            if (u.duration_sec > target - tol - BLOCK_TAIL_SEC - openerMax) return false;
+          }
+          if (inHead || u.block) {
             if (blockedBy(usedHead, u, headCooldown)) return false;
             if (
               crossHeads &&
@@ -197,29 +249,47 @@ export function generateEdition(input: GenerateInput): Edition {
             )
               return false;
           }
-          return true;
+          return recipe.admit?.(u, ctx, state) ?? true;
         });
         const next = weightedPick(
           options,
-          (u) => recipe.weight?.(u, { ...ctx, rng: rngTry }) ?? 1,
+          (u) => recipe.weight?.(u, { ...ctx, rng: rngTry }, state) ?? 1,
           rngTry,
         );
         if (!next) break;
-        pick.push(next);
+        (inTail ? tail : body).push(next);
         for (const k of next.keys) keys.add(k);
         total += next.duration_sec;
+        if (inTail) tailTotal += next.duration_sec;
         if (next.block) blocks++;
       }
-      if (total >= target - tol) chosen = pick;
+      const headOk = (u: Unit) =>
+        !blockedBy(usedHead, u, headCooldown) &&
+        !(
+          crossHeads &&
+          (blockedBy(usage.anyHead, u, CROSS_TYPE_HEAD_EDITIONS) ||
+            u.keys.some((k) => editionHeads.has(k)))
+        ) &&
+        (recipe.admit?.(u, ctx, { picked: [], total: 0, inHead: true, inTail: false }) ?? true);
+      if (total < target - tol || total > target + tol || tailTotal < tailMin) continue;
+      // Order and validate; a draw that cannot be ordered validly counts as a failed attempt.
+      const orderCtx: RecipeContext = { ...ctx, headOk };
+      const attempt = enforceHead(
+        recipe.order?.(body, orderCtx, tail) ?? [...defaultOrder(body, recipe), ...orderTail(tail)],
+        headOk,
+      );
+      lastProblem = validate(attempt, recipe) ?? recipe.validate?.(attempt, ctx) ?? null;
+      if (lastProblem) continue;
+      chosen = { body, tail, headOk };
+      ordered = attempt;
     }
     if (!chosen)
       throw new EditionError(
-        `${input.window.id}/${recipe.type}: pool cannot fill ${recipe.targetMin} min even after relaxing`,
+        `${input.window.id}/${recipe.type}: ` +
+          (lastProblem ?? `pool cannot fill ${recipe.targetMin} min`) +
+          " even after relaxing",
       );
 
-    const ordered = recipe.order?.(chosen, ctx) ?? defaultOrder(chosen, recipe);
-    const problem = validate(ordered, recipe) ?? recipe.validate?.(ordered, ctx) ?? null;
-    if (problem) throw new EditionError(`${input.window.id}/${recipe.type}: ${problem}`);
     const items = ordered.flatMap(toItems);
     const playlist: Playlist = {
       id: `${input.window.id}/${recipe.type}`,
@@ -240,8 +310,8 @@ export function generateEdition(input: GenerateInput): Edition {
     date: input.window.id,
     starts_at: input.window.starts_at,
     ends_at: input.window.ends_at,
-    hebrew_date: null,
-    season: [],
+    hebrew_date: season.hebrewDate,
+    season: [...season.active.keys()].sort(),
     recipe_version: RECIPE_VERSION,
     pool_hash: input.pool.pool_hash,
     generated_at: (input.now ?? new Date()).toISOString(),
@@ -267,5 +337,10 @@ function validate(units: Unit[], recipe: Recipe): string | null {
   }
   if (units.filter((u) => u.block).length > 1) return "more than one block";
   if (units[0]?.block) return "block first";
+  let t = 0;
+  for (const u of units) {
+    t += u.duration_sec;
+    if (u.block && t > total - BLOCK_TAIL_SEC) return "block in the last 25 minutes";
+  }
   return null;
 }
