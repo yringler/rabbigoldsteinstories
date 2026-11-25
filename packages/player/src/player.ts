@@ -269,7 +269,8 @@ export class Player {
       : start;
   }
 
-  private savePosition() {
+  /** Save the current position now (sites call this on pagehide so a reload resumes close by). */
+  savePosition(): void {
     const t = this.current;
     if (!t || !this.store || !this.resumePositions || this.index === this.finishedIndex) return;
     this.store.set(this.key(t), this.audio.currentTime);
@@ -285,11 +286,14 @@ export class Player {
     const t = this.current;
     if (!t) return;
     if (t.end_sec !== undefined && this.audio.currentTime >= t.end_sec) {
-      if (this.stopAtEnd) {
-        if (!this.audio.paused) void this.trackEnded();
+      // A paused player at its end never advances by itself: after "end of this story" pauses,
+      // browsers fire one more timeupdate (and another on any seek), which must not start the next
+      // track. Advancing again needs a user action (play, next).
+      if (this.audio.paused) {
+        this.emit();
         return;
       }
-      void this.next();
+      void this.trackEnded();
       return;
     }
     if (Math.abs(this.audio.currentTime - this.lastSaved) >= this.saveEvery) {
