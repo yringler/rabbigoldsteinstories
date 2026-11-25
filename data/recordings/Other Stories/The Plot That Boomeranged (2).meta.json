@@ -135,14 +135,31 @@
    "summary": "Zureik's Purim plot turns back on him."
   }
  ],
- "relations": [],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "333ab07731",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Same telling, word for word (transcript match 0.98); this copy plays about 1.7% faster."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "333ab07731",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Preferred copy: natural tempo and slightly better transcript."
+  }
+ ],
  "quality": {
   "audio": "good",
   "transcript": "good",
-  "issues": [],
+  "issues": [
+   "alternate_take"
+  ],
   "trim": null,
-  "publish_recommendation": "publish",
-  "notes": "No opening song or intro teaching; starts straight with the story and ends without a sign-off. Name spelled variously by ASR (Zureik/Zurek/Zarek)."
+  "publish_recommendation": "publish_with_note",
+  "notes": "No opening song or intro teaching; starts straight with the story and ends without a sign-off. Name spelled variously by ASR (Zureik/Zurek/Zarek). Other copy of 333ab07731 (same telling, ~1.7% faster); compared by transcript 2026-11-25."
  },
  "hidden": {
   "on_air_people": [],

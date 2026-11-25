@@ -65,5 +65,5 @@ All questions are now answered.
 - **Kids' site hero emblems and the no-figures rule (docs/sites/kids.md §8.4): approved.**
 - **Kids' "Little" age band also admits `age_min = 5` items that have no advisories.**
 - **Contact for lost tapes and other enquiries: `admin@torahlearningtools.com`.** For now, a single shared constant (e.g. `CONTACT_EMAIL` in the shared site config package) that every site reads; no contact form yet.
-- **"The Plot That Boomeranged"** (`333ab07731` / `5ae5c959ac`): unlinked near-duplicate; transcripts being compared to pick the relation and preferred copy.
+- **"The Plot That Boomeranged"**: `333ab07731` and `5ae5c959ac` are the same telling (transcripts match word for word; `5ae5c959ac` plays ~1.7% faster). Linked as `same_recording`; `5ae5c959ac` is `superseded_by` `333ab07731` (shown as "other version"). The "(2)" filename suffix is on the copy whose original was not named "2"; harmless.
 - Still open: the kids' site name ("Story Shelf" is a placeholder).
