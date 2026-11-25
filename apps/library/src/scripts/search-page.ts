@@ -28,6 +28,7 @@ import {
   toQuery,
 } from "../lib/facets.ts";
 import { iconSvg } from "../lib/icons.ts";
+import { nestClips } from "../lib/nest.ts";
 import type { Suggestion } from "../lib/suggest.ts";
 import { suggest } from "../lib/suggest.ts";
 import { hasHebrewScript, parseQuery, queryVariants, TextIndex } from "../lib/text.ts";
@@ -390,17 +391,7 @@ function paint(
     return r;
   });
   // Clips nest under their episode when both match (scope "both").
-  if (state.scope === "both") {
-    const byId = new Map(results.map((r) => [r.row.id, r]));
-    results = results.filter((r) => {
-      const parent = r.row.clipOf.map((p) => byId.get(p)).find((p) => p !== undefined);
-      if (!parent || parent === r) return true;
-      parent.nested.push(r.row);
-      parent.meta = Math.max(parent.meta, r.meta);
-      parent.tr = Math.max(parent.tr, r.tr);
-      return false;
-    });
-  }
+  if (state.scope === "both") results = nestClips(results);
   sortResults(results);
   const total = results.length;
   const secs = results.reduce((a, r) => a + r.row.dur, 0);

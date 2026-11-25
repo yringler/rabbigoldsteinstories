@@ -57,7 +57,7 @@ beforeAll(async () => {
       .slice(0, 5),
   ];
   samples = pick.map(({ r }) => {
-    const spans = hiddenSpans(r.meta.hidden);
+    const spans = hiddenSpans(r.meta.hidden, undefined, r.meta.segments ?? []);
     const segs = loadTranscript(r)?.segments ?? [];
     const open = new Set(
       segs.filter((s) => !overlapsAny(s.start, s.end, spans)).map((s) => norm(s.text).trim()),
@@ -138,11 +138,14 @@ describe.runIf(existsSync(join(DIST, "r")))(
         const t = join(DIST, "t", `${s.id}.json`);
         if (existsSync(t)) {
           const rows = (
-            JSON.parse(readFileSync(t, "utf8")) as { rows: [number, number, string | null][] }
+            JSON.parse(readFileSync(t, "utf8")) as {
+              rows: ([number, number, string] | { gap: true; start: number; end: number })[];
+            }
           ).rows;
-          expect(leaks(norm(rows.map((r) => r[2] ?? "").join(" ")), s), `/t/${s.id}.json`).toEqual(
-            [],
-          );
+          expect(
+            leaks(norm(rows.map((r) => (Array.isArray(r) ? r[2] : "")).join(" ")), s),
+            `/t/${s.id}.json`,
+          ).toEqual([]);
         }
         const frag = real.get(s.id);
         if (frag) expect(leaks(frag, s), `pagefind ${s.id}`).toEqual([]);

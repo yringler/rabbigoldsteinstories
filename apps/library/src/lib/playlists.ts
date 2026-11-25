@@ -181,6 +181,8 @@ function validateItem(
   const label = str(v, "label", 200, errs, where);
   const note = str(v, "note", 1000, errs, where);
   const title = str(v, "title", 300, errs, where);
+  if (start !== undefined && end !== undefined && end <= start)
+    errs.push(`${where}: "end" (${end}) must be after "start" (${start}).`);
   if (errs.length > before) return null;
   const out: PlaylistEntry = { rec: v["rec"] as string };
   if (start !== undefined) out.start = start;

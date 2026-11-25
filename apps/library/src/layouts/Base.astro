@@ -295,14 +295,14 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
             Speed
           </label>
           <select id="p-rate" data-p-rate>
-            <option value="0.75">0.75×</option>
+            <option value="0.75">0.75x</option>
             <option value="1" selected>
-              1×
+              1x
             </option>
-            <option value="1.25">1.25×</option>
-            <option value="1.5">1.5×</option>
-            <option value="1.75">1.75×</option>
-            <option value="2">2×</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="1.75">1.75x</option>
+            <option value="2">2x</option>
           </select>
           <span class="vol-label">
             <Icon name="volume" />
@@ -343,8 +343,8 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
     <dialog id="shortcuts-dialog" aria-labelledby="shortcuts-title">
       <div class="dialog-head">
         <h2 id="shortcuts-title">Keyboard shortcuts</h2>
-        <button type="button" class="icon-btn" data-close aria-label="Close">
-          <Icon name="close" />
+        <button type="button" class="btn btn-quiet" data-close>
+          Close
         </button>
       </div>
       <div class="dialog-body">
@@ -432,8 +432,8 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
     <dialog id="playlist-dialog" aria-labelledby="pl-dialog-title">
       <div class="dialog-head">
         <h2 id="pl-dialog-title">Add to playlist</h2>
-        <button type="button" class="icon-btn" data-close aria-label="Close">
-          <Icon name="close" />
+        <button type="button" class="btn btn-quiet" data-close>
+          Close
         </button>
       </div>
       <div class="dialog-body">
@@ -443,8 +443,7 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
           <p>
             Your playlists are saved in this browser only. There are no accounts. Clearing browser
             data, private windows or another device will not have them.{" "}
-            <a href="/my-playlists/">Export a file</a>
-            to back up or share.
+            <a href="/my-playlists/">Export a file</a> to back up or share.
           </p>
         </div>
         <ul class="index-list" data-pl-choices></ul>
