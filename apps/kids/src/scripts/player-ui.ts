@@ -6,6 +6,7 @@
 import { Player, type PlayerState, type Track } from "@goldstein/player";
 import type { KidChapter } from "../lib/chapters.ts";
 import { clock } from "../lib/kinds.ts";
+import { groupInfo } from "../lib/queue.ts";
 import { cardHtml, coverPath, escapeHtml } from "../lib/records.ts";
 import type { PlayRequest } from "../lib/tracks.ts";
 import { type ItemExtra, loadExtra, loadIndex, recIn } from "./data.ts";
@@ -54,6 +55,22 @@ export class KidsPlayer {
     this.bind();
     this.player.subscribe((s) => this.render(s));
     this.restore();
+    // Save the exact position when the page goes away, so a reload resumes within a few seconds
+    // (the periodic save runs only every 5 s).
+    const saveNow = () => {
+      this.player.savePosition();
+      this.persist();
+      const st = this.player.state();
+      const cur = st.queue[st.index];
+      if (cur && st.duration > 0) {
+        const g = groupInfo(st.queue, st.index, st.position, st.duration);
+        S.saveProgress(cur.id, g.last ? g.pos : Math.min(g.pos, g.dur * 0.9), g.dur);
+      }
+    };
+    window.addEventListener("pagehide", saveNow);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") saveNow();
+    });
   }
 
   // ── Public API (used by page scripts through window.kidsPlayer) ─────────
@@ -294,7 +311,9 @@ export class KidsPlayer {
       (now - this.lastSavedAt > 5000 || (prev?.playing === true && !s.playing))
     ) {
       this.lastSavedAt = now;
-      S.saveProgress(t.id, s.position, s.duration, now);
+      const g = groupInfo(s.queue, s.index, s.position, s.duration);
+      // A chapter split into ranges is done only after its last range.
+      S.saveProgress(t.id, g.last ? g.pos : Math.min(g.pos, g.dur * 0.9), g.dur, now);
     }
     if ("mediaSession" in navigator && s.duration > 0 && Number.isFinite(s.position)) {
       try {
@@ -319,15 +338,15 @@ export class KidsPlayer {
   private maybeFinish(prev: PlayerState): void {
     const t = prev.queue[prev.index];
     if (!t) return;
-    if (S.isDone(prev.position, prev.duration)) S.markDone(t.id, prev.duration);
+    const g = groupInfo(prev.queue, prev.index, prev.position, prev.duration);
+    if (g.last && S.isDone(g.pos, g.dur)) S.markDone(t.id, g.dur);
   }
 
   private onTrackChange(t: Track, s: PlayerState): void {
     for (const el of $$<HTMLImageElement>(this.root, "img[data-p-cover]")) el.src = coverPath(t.id);
     for (const el of $$(this.root, "[data-p-title]")) el.textContent = t.title;
-    const sub = [t.artist, s.queue.length > 1 ? `${s.index + 1} of ${s.queue.length}` : ""]
-      .filter(Boolean)
-      .join(" · ");
+    const g = groupInfo(s.queue, s.index, s.position, s.duration);
+    const sub = [t.artist, g.of > 1 ? `${g.n} of ${g.of}` : ""].filter(Boolean).join(" · ");
     for (const el of $$(this.root, "[data-p-sub]")) el.textContent = sub;
     const src = $(this.root, "[data-p-source]");
     if (src) src.textContent = this.source;

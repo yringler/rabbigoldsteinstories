@@ -3,7 +3,7 @@
 import type { GetStaticPaths } from "astro";
 import Base from "../../../layouts/Base.astro";
 import { getModel } from "../../../lib/build/model.ts";
-import { serialSeconds, serialTracks, serialVis } from "../../../lib/build/views.ts";
+import { serialPlan, serialSeconds, serialVis } from "../../../lib/build/views.ts";
 import { minutes } from "../../../lib/kinds.ts";
 import { itemPath } from "../../../lib/records.ts";
 import { ui } from "../../../lib/ui-icons.ts";
@@ -18,16 +18,12 @@ const s = m.serialByKey.get(String(Astro.params.key));
 if (!s) throw new Error("unknown serial");
 const present = s.chapters.filter((c): c is typeof c & { id: string } => c.id !== null);
 const isRadio = s.type === "radio";
-const story = serialTracks(s, true, m);
-const whole = serialTracks(s, false, m);
-// Index of each present chapter's first track in each mode.
-const firstIdx = (tracks: typeof story) =>
-  present.map((c) => tracks.findIndex((t) => t.id === c.id));
+// Chapters are keyed by position (one recording can hold two chapters), never by recording id.
 const data = {
   title: s.title,
   ids: present.map((c) => c.id),
-  story: { tracks: story, first: firstIdx(story) },
-  whole: { tracks: whole, first: firstIdx(whole) },
+  story: serialPlan(s, true, m),
+  whole: serialPlan(s, false, m),
 };
 const vis = serialVis(s, m);
 const word = isRadio ? "Chapter" : "Part";
@@ -103,7 +99,7 @@ const durOf = (id: string, i: number) => {
               </span>
             </li>
           );
-        const pos = present.findIndex((p) => p.id === c.id);
+        const pos = present.findIndex((p) => p.n === c.n);
         return (
           <li class="ch-row" data-ch-id={c.id}>
             <button

@@ -4,6 +4,7 @@
  * per-page code runs on astro:page-load.
  */
 import type { Track } from "@goldstein/player";
+import { navigate } from "astro:transitions/client";
 import { BAND_INFO, type Band } from "../lib/kinds.ts";
 import type { PlayRequest } from "../lib/tracks.ts";
 import { decorateCards } from "./cards.ts";
@@ -24,6 +25,18 @@ export function kp(): KidsPlayer | null {
   window.kidsPlayer = new KidsPlayer(root);
   return window.kidsPlayer;
 }
+
+/**
+ * How many in-app pages lie behind the current one in this tab's history (client-routed
+ * navigations only). The back arrow uses history.back() when > 0, else goes home.
+ */
+let inAppDepth = 0;
+document.addEventListener("astro:before-preparation", (e) => {
+  const ev = e as Event & { navigationType?: string; direction?: string };
+  if (ev.navigationType === "push") inAppDepth++;
+  else if (ev.navigationType === "traverse")
+    inAppDepth = Math.max(0, inAppDepth + (ev.direction === "back" ? -1 : 1));
+});
 
 function parse<T>(raw: string | undefined): T | null {
   if (!raw) return null;
@@ -63,8 +76,10 @@ document.addEventListener("click", (e) => {
 
   const back = t.closest("[data-back]");
   if (back) {
-    if (history.length > 1 && document.referrer.startsWith(location.origin)) history.back();
-    else location.href = "/";
+    // document.referrer is stale under <ClientRouter />; count in-app steps instead, and never
+    // reload the page (a full load would stop the audio).
+    if (inAppDepth > 0) history.back();
+    else void navigate("/");
     return;
   }
   if (t.closest("[data-open-band]")) {

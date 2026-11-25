@@ -71,7 +71,10 @@ export interface KItem {
 export interface ChapterLink {
   serialKey: string;
   serialTitle: string;
+  /** First chapter number in this recording. */
   n: number;
+  /** Every chapter number this recording holds (usually one; The Storyteller 1989-90 has 6 and 7 in one). */
+  ns: number[];
   of: number;
   prev: string | null;
   next: string | null;
@@ -189,13 +192,17 @@ function buildModel(): Model {
       const of = Math.max(s.chapters_in_full_telling ?? 0, ...shown.chapters.map((c) => c.n));
       ids.forEach((c, i) => {
         if (chapterOf.has(c.id)) return;
+        // Neighbours are the nearest chapters held by a different recording (never a self-link).
+        const before = ids.slice(0, i).filter((x) => x.id !== c.id);
+        const after = ids.slice(i + 1).filter((x) => x.id !== c.id);
         chapterOf.set(c.id, {
           serialKey: s.story_key,
           serialTitle: s.title,
           n: c.n,
+          ns: ids.filter((x) => x.id === c.id).map((x) => x.n),
           of,
-          prev: ids[i - 1]?.id ?? null,
-          next: ids[i + 1]?.id ?? null,
+          prev: before[before.length - 1]?.id ?? null,
+          next: after[0]?.id ?? null,
           type: "radio",
         });
       });
@@ -209,6 +216,7 @@ function buildModel(): Model {
         serialKey: s.key,
         serialTitle: s.title,
         n: c.n,
+        ns: [c.n],
         of: s.chapters.length,
         prev: present[i - 1]?.id ?? null,
         next: present[i + 1]?.id ?? null,
@@ -221,9 +229,15 @@ function buildModel(): Model {
     for (const c of s.chapters) {
       if (!c.id) continue;
       const it = byId.get(c.id);
-      const seg = it?.segments.find(
+      const segs = (it?.segments ?? []).filter(
         (g) => (g.type === "story_chapter" || g.type === "story") && g.story_key === s.key,
       );
+      // A recording holding two chapters has one segment per chapter: match the number, then the time.
+      const start = c.story[c.story.length - 1]?.start_sec;
+      const seg =
+        segs.find((g) => g.chapter === c.n) ??
+        segs.find((g) => start !== undefined && g.start_sec === start) ??
+        segs[0];
       if (seg?.title) c.title = seg.title;
     }
   }

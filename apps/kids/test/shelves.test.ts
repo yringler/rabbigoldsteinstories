@@ -4,7 +4,8 @@ import { describe, expect, it } from "vitest";
 import { buildCalendar, calendarDay, parshaIds } from "../src/lib/build/calendar.ts";
 import { capPerVariant, countsByVariant, getModel, visibleIn } from "../src/lib/build/model.ts";
 import { buildSearchIndex } from "../src/lib/build/search-docs.ts";
-import { serialTracks, serialVis } from "../src/lib/build/views.ts";
+import { serialPlan, serialTracks, serialVis } from "../src/lib/build/views.ts";
+import { groupInfo } from "../src/lib/queue.ts";
 import type { Variant } from "../src/lib/kinds.ts";
 import {
   MINISEARCH_OPTIONS,
@@ -71,6 +72,63 @@ describe("serials (§4.4)", () => {
       for (const v of serialVis(s, m))
         for (const c of s.chapters) if (c.id) expect(m.items.get(c.id)?.vis).toContain(v);
     }
+  });
+
+  it("a recording holding two chapters (The Storyteller 6 and 7) plays each chapter once", () => {
+    const s = m.serialByKey.get("the-storyteller");
+    if (!s) throw new Error("missing serial");
+    const c6 = s.chapters.find((c) => c.n === 6);
+    const c7 = s.chapters.find((c) => c.n === 7);
+    expect(c6?.id).toBe("9184a83a28");
+    expect(c7?.id).toBe("9184a83a28");
+    // The shared intro leads into chapter 6 only; chapter 7 starts at its own story.
+    expect(c6?.story[0]?.start_sec).toBe(630);
+    expect(c7?.story).toEqual([{ start_sec: 1301, end_sec: 1690 }]);
+    expect(c6?.title).not.toBe(c7?.title);
+    const present = s.chapters.filter((c) => c.id);
+    const story = serialPlan(s, true, m);
+    const i6 = present.findIndex((c) => c.n === 6);
+    expect(story.tracks[story.first[i6 + 1] ?? -1]?.start_sec).toBe(1301);
+    expect(new Set(story.first).size).toBe(present.length);
+    const whole = serialPlan(s, false, m);
+    expect(whole.first[i6]).toBe(whole.first[i6 + 1]);
+    expect(whole.tracks.filter((t) => t.id === "9184a83a28")).toHaveLength(1);
+    const link = m.chapterOf.get("9184a83a28");
+    expect(link?.ns).toEqual([6, 7]);
+  });
+
+  it("chapter strips never link a recording to itself", () => {
+    for (const [id, l] of m.chapterOf) {
+      expect(l.next).not.toBe(id);
+      expect(l.prev).not.toBe(id);
+    }
+  });
+
+  it("the queue counts chapters, not ranges, and a split chapter is done only after its last range", () => {
+    const s = m.serialByKey.get("the-storyteller");
+    if (!s) throw new Error("missing serial");
+    const { tracks } = serialPlan(s, true, m);
+    const chapters = s.chapters.filter((c) => c.id).length;
+    expect(tracks.length).toBeGreaterThan(chapters);
+    const lastOfFirst = tracks.findIndex((t, i) => tracks[i + 1]?.album !== t.album);
+    const g0 = groupInfo(tracks, 0, 10, 100);
+    expect(g0.of).toBe(chapters);
+    expect(g0.n).toBe(1);
+    expect(g0.last).toBe(lastOfFirst === 0);
+    const gl = groupInfo(tracks, lastOfFirst, 5, 50);
+    expect(gl.n).toBe(1);
+    expect(gl.last).toBe(true);
+  });
+
+  it("groupInfo sums the ranges of a split chapter", () => {
+    const q = [
+      { id: "a", title: "A", url: "u", start_sec: 0, end_sec: 100, album: "Chapter 1" },
+      { id: "a", title: "A", url: "u", start_sec: 200, end_sec: 300, album: "Chapter 1" },
+      { id: "b", title: "B", url: "v", start_sec: 0, end_sec: 50, album: "Chapter 2" },
+    ];
+    expect(groupInfo(q, 0, 99, 100)).toEqual({ n: 1, of: 2, pos: 99, dur: 200, last: false });
+    expect(groupInfo(q, 1, 50, 100)).toEqual({ n: 1, of: 2, pos: 150, dur: 200, last: true });
+    expect(groupInfo(q, 2, 10, 50)).toMatchObject({ n: 2, of: 2, last: true });
   });
 
   it("set titles drop the part suffix", () => {
