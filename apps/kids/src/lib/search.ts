@@ -161,5 +161,5 @@ export const SUGGESTIONS: readonly string[] = [
   "Shabbos",
   "Rabbi Akiva",
   "tzedakah",
-  "lion",
+  "Eliyahu HaNavi",
 ];

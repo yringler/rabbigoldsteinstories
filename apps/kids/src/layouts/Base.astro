@@ -99,11 +99,9 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
         </span>
         <span>
           <span class="sr">Who's listening: </span>
-          <span data-band-label>Kids</span>
+          <span data-band-label>Kids 6+</span>
         </span>
-        <span class="gentle-mark" aria-label="Gentle stories only">
-          ☾
-        </span>
+        <span class="gentle-mark">· gentle</span>
       </button>
     </header>
 
@@ -237,9 +235,9 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
                   </span>
                   <span>Heart</span>
                 </button>
-                <button type="button" class="ps-pill" data-p-speed aria-label="Speed: Normal">
+                <button type="button" class="ps-pill" data-p-speed aria-label="Speed: 1 times">
                   <Fragment set:html={ui("speed", "", 24)} />
-                  <span data-p-speed-label>Normal</span>
+                  <span data-p-speed-label>1×</span>
                 </button>
                 <button type="button" class="ps-pill" data-p-sleep aria-expanded="false">
                   <Fragment set:html={ui("moon", "", 24)} />
@@ -288,7 +286,7 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
         <div class="sheet-head">
           <h2 id="band-h">Who's listening?</h2>
           <button type="button" class="icon-btn" data-close-band aria-label="Close">
-            <Fragment set:html={ui("down", "", 28)} />
+            <Fragment set:html={ui("close", "", 26)} />
           </button>
         </div>
         <div class="band-options">

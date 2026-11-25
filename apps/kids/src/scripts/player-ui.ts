@@ -246,10 +246,8 @@ export class KidsPlayer {
     this.audio.defaultPlaybackRate = s;
     this.audio.playbackRate = s;
     const label = $(this.root, "[data-p-speed-label]");
-    // Words, not "1×": no cross-like marks anywhere (kids.md §8.4).
-    const word = s < 1 ? "Slow" : s > 1 ? "Fast" : "Normal";
-    if (label) label.textContent = word;
-    $(this.root, "[data-p-speed]")?.setAttribute("aria-label", `Speed: ${word}. Change speed`);
+    if (label) label.textContent = `${s}×`;
+    $(this.root, "[data-p-speed]")?.setAttribute("aria-label", `Speed: ${s} times. Change speed`);
   }
 
   private restore(): void {

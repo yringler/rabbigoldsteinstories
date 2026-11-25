@@ -266,9 +266,9 @@ export const MIDOS_TILES: readonly Tile[] = [
     he: "Gevurah",
     facet: "midos",
     ids: ["courage", "mesiras_nefesh"],
-    icon: "lion",
+    icon: "ram",
     color: C.amber,
-    description: "Being strong like a lion to do what Hashem wants.",
+    description: "Being strong and brave to do what Hashem wants.",
   },
   {
     slug: "listening-to-hashem",
@@ -844,8 +844,8 @@ export const HEROES: Readonly<
   },
   shpoler_zeide: {
     label: "The Shpoler Zeide",
-    icon: "bear",
-    description: "A tzaddik who loved poor Jews and helped them with great kindness.",
+    icon: "fiddle",
+    description: "A joyful tzaddik who danced, played and helped poor Jews with great kindness.",
   },
   rambam: {
     label: "The Rambam",

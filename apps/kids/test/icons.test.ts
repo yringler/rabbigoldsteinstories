@@ -7,6 +7,14 @@ import { describe, expect, it } from "vitest";
 import { ICON_NAMES, iconBody } from "../src/lib/icons.ts";
 import { coverSvg, type Pattern } from "../src/lib/covers.ts";
 import { UI_NAMES, ui } from "../src/lib/ui-icons.ts";
+import { SUGGESTIONS } from "../src/lib/search.ts";
+import {
+  HEROES,
+  HOLIDAY_TILES,
+  MIDOS_TILES,
+  MITZVOS_TILES,
+  TOPIC_TILES,
+} from "../src/lib/tiles.ts";
 
 import { crossingPairs, fourPointStars } from "./geometry.ts";
 
@@ -22,18 +30,23 @@ describe("no cross-like shapes (owner rule, kids.md §8.4)", () => {
     ).toBe(0);
   });
 
-  // A Magen David is two overlapping triangles: allowed (owner), so these two skip the crossing check.
-  const MAGEN_DAVID = new Set(["siddur", "shield"]);
+  // Skip the crossing check (the four-pointed check still applies):
+  // - a Magen David is two overlapping triangles: allowed (owner);
+  // - sun/smile-sun rays, crossed bonfire logs and the globe's grid were restored by the owner's
+  //   review of 2026-11-25 ("old sun was better"): plain drawings, not decorative crosses.
+  const MAGEN_DAVID = new Set(["siddur", "shield", "sun", "smile-sun", "bonfire", "globe"]);
   it.each(ICON_NAMES)("icon %s", (name) => {
     const svg = iconBody(name, { accent: "#FFC83D" });
     expect(fourPointStars(svg)).toBe(0);
     if (!MAGEN_DAVID.has(name)) expect(crossingPairs(svg)).toBe(0);
   });
 
+  // Owner: an X (close/remove) or + is a universal control, not decoration; only artwork is checked.
+  const UI_CONTROL_GLYPHS = new Set(["close"]);
   it.each(UI_NAMES)("interface icon %s", (name) => {
     const svg = ui(name);
     expect(fourPointStars(svg)).toBe(0);
-    expect(crossingPairs(svg)).toBe(0);
+    if (!UI_CONTROL_GLYPHS.has(name)) expect(crossingPairs(svg)).toBe(0);
   });
 
   it("the luchos are square: straight edges only, no arched tops (Bava Basra 14a)", () => {
@@ -71,5 +84,64 @@ describe("no cross-like shapes (owner rule, kids.md §8.4)", () => {
     });
     expect(fourPointStars(svg)).toBe(0);
     expect(crossingPairs(svg)).toBe(0);
+  });
+});
+
+/** Owner rule: only kosher animals anywhere (kids.md §8.4). */
+const NON_KOSHER = [
+  "lion",
+  "bear",
+  "eagle",
+  "horse",
+  "wolf",
+  "fox",
+  "pig",
+  "dog",
+  "cat",
+  "rabbit",
+  "hare",
+  "camel",
+  "donkey",
+  "mouse",
+  "snake",
+  "frog",
+  "owl",
+  "raven",
+  "monkey",
+  "elephant",
+  "tiger",
+  "leopard",
+];
+/** Explicit, owner-approved exceptions: icon name -> animal words it may mention. */
+const ALLOWED: Record<string, readonly string[]> = {
+  // The Baal Shem Tov's wagon may have a horse (owner, 2026-11-25).
+  "forest-wagon": ["horse"],
+};
+
+describe("only kosher animals (owner rule, kids.md §8.4)", () => {
+  const words = (s: string) => s.toLowerCase().split(/[^a-z]+/);
+  it("no icon name names a non-kosher animal (except the listed exceptions)", () => {
+    for (const name of ICON_NAMES) {
+      const bad = words(name).filter(
+        (w) => NON_KOSHER.includes(w) && !(ALLOWED[name] ?? []).includes(w),
+      );
+      expect(bad, name).toEqual([]);
+    }
+  });
+  it("no tile label, description or icon names one", () => {
+    const tiles = [...TOPIC_TILES, ...MIDOS_TILES, ...MITZVOS_TILES, ...HOLIDAY_TILES];
+    for (const t of tiles) {
+      for (const w of words(`${t.label} ${t.description} ${t.icon}`))
+        expect(NON_KOSHER, t.slug).not.toContain(w);
+    }
+    for (const [id, h] of Object.entries(HEROES)) {
+      const bad = words(`${h.label} ${h.description} ${h.icon}`).filter(
+        (w) => NON_KOSHER.includes(w) && !(ALLOWED[h.icon] ?? []).includes(w),
+      );
+      expect(bad, id).toEqual([]);
+    }
+  });
+  it("search suggestions name none", () => {
+    for (const s of SUGGESTIONS) for (const w of words(s)) expect(NON_KOSHER).not.toContain(w);
   });
 });
