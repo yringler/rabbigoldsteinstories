@@ -83,3 +83,4 @@ All questions are now answered.
 - **Radio segments in playlists (owner, 2026-11-25):** talks and songs are fair game. Openings, closings and quizzes occasionally, not often. Shema-guest segments may be cute for the youngest (Little Ones) playlist only; tentative, owner reviewing a sample.
 - **Tonight's Mix is the first playlist everywhere** (owner, 2026-11-25): the mix is the default choice; the age- and mood-specific playlists follow.
 - **No cross-like shapes in any site artwork** (owner, 2026-11-25): no four-pointed stars or sparkles, plus signs as decoration, or crossed lines in icons, covers or decorations. Five-pointed stars, dots, crescents and the Magen David are fine. Started with the Big Kids icon's sparkle.
+- **Luchos are drawn square** (owner, 2026-11-25): rectangular, never with rounded or arched tops.
