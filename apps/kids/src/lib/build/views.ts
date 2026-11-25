@@ -30,6 +30,7 @@ export function trackOf(k: KItem, range?: { start_sec: number; end_sec: number }
       start: it.content_start_sec,
       end: it.content_end_sec < it.duration_sec ? it.content_end_sec : undefined,
       byline: k.byline,
+      clean: Boolean(it.media.clean_url),
     },
     range,
   );

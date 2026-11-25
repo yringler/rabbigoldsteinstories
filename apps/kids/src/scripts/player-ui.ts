@@ -47,6 +47,8 @@ export class KidsPlayer {
       store: S.store,
       finishedWithinSec: 20,
       resumeBackSec: 3,
+      // AI-improved sound (docs/design/ai-audio.md §3.2): set on /grown-ups, off by default.
+      preferClean: S.getAiAudio(),
     });
     const sheet = $<HTMLDialogElement>(root, "[data-player-sheet]");
     if (!sheet) throw new Error("player sheet missing");
@@ -264,6 +266,11 @@ export class KidsPlayer {
 
   // ── Rendering ────────────────────────────────────────────────────────────
   private render(s: PlayerState): void {
+    const ai = $(this.root, "[data-p-ai]");
+    if (ai) ai.hidden = s.source !== "clean";
+    // A live swap between the original and the AI-improved copy (or a silent fallback) briefly
+    // pauses the element and may read position 0: ignore it, the swap's end emits again.
+    if (this.player.isSwapping) return;
     const t = s.queue[s.index];
     const has = Boolean(t);
     document.documentElement.classList.toggle("has-player", has);
@@ -440,6 +447,7 @@ export class KidsPlayer {
   }
 
   private skipSilence(): void {
+    if (this.player.isSwapping) return;
     const z = this.extra?.z;
     const t = this.player.current;
     if (!z || !t || this.extraFor !== t.id) return;
