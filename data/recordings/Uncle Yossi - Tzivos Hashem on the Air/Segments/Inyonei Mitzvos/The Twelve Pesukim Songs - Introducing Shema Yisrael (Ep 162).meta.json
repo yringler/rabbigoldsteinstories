@@ -1,0 +1,143 @@
+{
+ "id": "e707859a8d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "12 Psukim Shema 2 162",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Twelve Pesukim Songs - Introducing Shema Yisrael (Ep 162).mp3",
+  "duration_sec": 31.367,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 162,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 162,
+   "story": "The forbidden road #2",
+   "topic": "כיבוד או\"א טו בשבט ננס הקצב",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Twelve Pesukim Songs: Introducing Shema Yisrael",
+  "title_basis": "content",
+  "summary_short": "A half-minute introduction: after last week's Torah Tziva, the second of the Twelve Pesukim to be sung is Shema Yisrael.",
+  "summary_long": "A very short clip from the Tzivos Hashem radio show, cut from the episode broadcast on the eve of Tu B'Shvat. Uncle Yossi reminds listeners that the program has begun playing songs for the Yud-Beis Pesukim, the twelve verses and sayings that every member of Tzivos Hashem, Hashem's army, knows by heart and says every day. Last week's song was Torah Tziva Lanu, the first of the twelve; this week comes the second, which everyone knows: Shema Yisrael. The clip ends as he names it, before the song itself begins.",
+  "lesson": null,
+  "keywords": [
+   "Twelve Pesukim",
+   "Yud-Beis Pesukim",
+   "Shema Yisrael",
+   "Torah Tziva",
+   "song"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 162,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "teaser",
+  "date": {
+   "gregorian": "1985-02-05",
+   "hebrew": "14 Shevat 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 162, which says 'tonight is Tu B'Shvat' (evening of Tue 1985-02-05)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "tzivos_hashem"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "twelve_pesukim",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Only the spoken introduction; the Shema Yisrael song that follows in episode 162 (about 145-265 s) is not in the clip. Consider extending the cut or not publishing alone."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "30-second intro without the song it introduces; decide whether to publish."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:53Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "f826c5f743",
+   "evidence": "text_overlap",
+   "confidence": 0.66,
+   "offset_sec": 112,
+   "note": "Episode 162 (filename number); clip = 112-143 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Twelve%20Pesukim%20Songs%20-%20Introducing%20Shema%20Yisrael%20%28Ep%20162%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Twelve Pesukim Songs - Introducing Shema Yisrael (Ep 162).mp3",
+  "size_bytes": 377295,
+  "mime_type": "audio/mpeg"
+ }
+}

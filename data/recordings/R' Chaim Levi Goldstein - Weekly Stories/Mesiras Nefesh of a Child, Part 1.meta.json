@@ -1,0 +1,264 @@
+{
+ "id": "5135fe8f4d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Mesiras Nefesh of a Child - part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Mesiras Nefesh of a Child, Part 1.mp3",
+  "duration_sec": 1304.939,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Mesiras Nefesh of a Child, Part 1",
+  "title_basis": "filename",
+  "summary_short": "For Yud-Beis Tammuz: as an eleven-year-old in Lubavitch, the Frierdiker Rebbe stands up for a poor butcher struck by a policeman and is locked in a dark jail cell.",
+  "summary_long": "On Yud-Beis Tammuz, the Frierdiker Rebbe's festival of liberation, the storyteller explains the opening of the discourse the Rebbe asked us to learn that day: when even one Jew sits and learns Torah, the Shechinah rests there. He explains that mesiras nefesh also means giving over our own will to Hashem. Then, in the Frierdiker Rebbe's own words, the story: at eleven he had earned thirty rubles for knowing two orders of Mishnayos by heart and used them for a free-loan fund, keeping careful books. One borrower was Reb Dovid the butcher, a poor, simple, cheerful Jew who never missed the sunrise minyan. One summer market day in 1891, while his parents were away, the boy saw a policeman strike Reb Dovid so hard his nose bled. He shouted and pushed the policeman, and was dragged to the police station, slapped and locked in a dark room. Frightened by strange noises, he reviewed Mishnayos by heart and davened Mincha with joy, feeling it was a Yom Tov to suffer for helping a Jew. What happens next? To be continued.",
+  "lesson": "Stand up for a fellow Jew even at a cost, and keep Torah in your head so you can learn wherever you are.",
+  "keywords": [
+   "Lubavitch",
+   "butcher",
+   "policeman",
+   "market day",
+   "jail",
+   "free-loan fund",
+   "Mishnayos by heart",
+   "Mincha"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "12 Tammuz",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'It's now Yud-Beis Tammuz'; no year given."
+  },
+  "collections": [
+   "Story Videos"
+  ],
+  "part": {
+   "set_key": "mesiras-nefesh-of-a-child",
+   "part_number": 1,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A policeman strikes a man until his nose bleeds; an eleven-year-old is dragged off, slapped and pulled by the ear."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The boy is locked alone in a dark jail room for a few hours."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbetzin_shterna_sarah",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbetzin_rivkah",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Dovid the butcher",
+   "Shimon, his friend",
+   "the policeman (uradnik)",
+   "the jail officer",
+   "his melamed"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "courage",
+   "mesiras_nefesh",
+   "ahavas_yisroel",
+   "simcha",
+   "emes"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "gemilus_chasadim",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "3:6",
+    "note": "When ten, or even one, sit and learn Torah, the Shechinah rests among them."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "2:4",
+    "note": "Set aside your will before His will."
+   },
+   {
+    "work": "maamarim",
+    "note": "The Frierdiker Rebbe's Yud-Beis Tammuz discourse that opens with the Mishnah of ten who learn."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The story is told in the Frierdiker Rebbe's own words."
+   },
+   {
+    "work": "neviim",
+    "note": "Eliyahu HaNavi was answered at the time of Mincha."
+   }
+  ],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 26,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 26,
+   "end_sec": 244,
+   "type": "talk",
+   "title": "Yud-Beis Tammuz: even one who learns brings the Shechinah",
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 244,
+   "end_sec": 337,
+   "type": "sichah",
+   "title": "What mesiras nefesh means"
+  },
+  {
+   "start_sec": 337,
+   "type": "story_chapter",
+   "title": "Mesiras Nefesh of a Child, Part 1",
+   "summary": "The young Frierdiker Rebbe defends a butcher, is jailed, and learns and davens alone in the dark.",
+   "story_key": "mesiras-nefesh-of-a-child",
+   "chapter": 1,
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "8dc2821114",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'Mesiras Nefesh of a Child - part 2'."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles 'Frierdiker Rebbe' in several ways."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Mesiras%20Nefesh%20of%20a%20Child%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Mesiras Nefesh of a Child, Part 1.mp3",
+  "size_bytes": 15660158,
+  "mime_type": "audio/mpeg"
+ }
+}

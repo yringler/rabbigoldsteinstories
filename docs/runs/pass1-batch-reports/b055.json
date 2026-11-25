@@ -1,0 +1,38 @@
+{
+ "batch_id": "b055",
+ "done": [
+  "569c810057",
+  "5e372c37c6",
+  "db30dda6bf",
+  "5c67395102",
+  "d9c03b5a9d",
+  "2cb6d77ea4",
+  "cd4eceba47",
+  "179f246846",
+  "b1a205211a",
+  "6629d7464c",
+  "cce7163480",
+  "aeae91b4cd",
+  "211fe9790b",
+  "3ab5f08f27",
+  "78283b5e51",
+  "75bc3346d1"
+ ],
+ "skipped_already_done": [
+  "569c810057",
+  "5e372c37c6",
+  "db30dda6bf",
+  "5c67395102",
+  "d9c03b5a9d"
+ ],
+ "failed": [],
+ "notes": [
+  "2cb6d77ea4 and cd4eceba47 are two tellings of the same story by the same narrator (a rich man signs away his property rather than convert, then lightning burns the police station). Linked as same_story.",
+  "'Hashems name' set: two recordings of part 1 (179f246846, 6629d7464c; both Parshas Lech Lecha) and two of part 2 (b1a205211a, cce7163480 marked 'good'). They are worded differently, so they could be re-takes or different years. Linked as same_story within each part and part_of_set across parts. Which A goes with which B is uncertain.",
+  "The Rabbi Moshe Galanti / Damascus sheikh story also appears in item 03fe816538 ('Fear of Hashem's Name', from another batch). Probably same_story; pass 2 should link it.",
+  "3ab5f08f27 / 78283b5e51: same recording (required relation). 78283b5e51 lacks the opening song; added superseded_by -> 3ab5f08f27.",
+  "211fe9790b ('Honest thief') has no opening song. Series and narrator were assigned from style only. The recording ends mid-sentence (truncated_end, publish_with_note).",
+  "75bc3346d1: only 2 s of transcribed speech in a 95 s file; treated as a song and not trimmed. 'Wachsman' in the filename is unidentified (singer, composer, or a child?).",
+  "Proposed new people terms: rabbi_moshe_galanti, rabbi_wolf_kitzes, tosafos_yom_tov."
+ ]
+}

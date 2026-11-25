@@ -1,0 +1,145 @@
+{
+ "id": "b75d20d44d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Neshek- 264",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Lehadlik, Kindling the Good in Everyone (Ep 264).mp3",
+  "duration_sec": 173.918,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 264,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 264,
+   "story": "Reb Yehudah #?",
+   "topic": "Tu B’Shvat, / Shabbos Shira, / Neshek #?",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Candles: Lehadlik, Kindling the Good in Everyone",
+  "title_basis": "content",
+  "summary_short": "The eleventh word of the Shabbos candle brachah, 'lehadlik', to kindle: just as a candle needs a flame, we bring out the good in others with Torah and mitzvos.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, continuing the series on the brachah over Shabbos candles. After reviewing the first ten words, 'Baruch Atah Hashem Elokeinu Melech HaOlam asher kiddeshanu b'mitzvosav v'tzivanu', Uncle Yossi teaches the eleventh word, 'lehadlik', to kindle. A candle cannot light itself; someone must strike a match and bring the flame to the wick, and then it glows in every direction. That is a lesson for every soldier in Tzivos Hashem: our mission is to kindle, to bring out the good hidden in everyone we meet by bringing them close to the warm flame of Torah and mitzvos, getting them to do any mitzvah. This makes the world brighter and more peaceful and hastens the coming of Moshiach.",
+  "lesson": "Like lighting a candle, we can bring out the good in every person by helping them do a mitzvah.",
+  "keywords": [
+   "Shabbos candles",
+   "lehadlik",
+   "match",
+   "wick",
+   "flame",
+   "mitzvah mission"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 264,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1987-02-10",
+   "hebrew": "11 Shevat 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Cut from episode 264, whose filename is dated 2-10-87."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "prayer_and_brachos",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "brachos",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "89da57355d",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 1487,
+   "note": "Episode 264 (filename number); clip = 1487-1660 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Part of the Neshek series; the lessons on the words between 'Asher Kiddeshanu' and 'lehadlik' are not in this batch."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:47Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Shabbos%20Candles%20-%20Lehadlik%2C%20Kindling%20the%20Good%20in%20Everyone%20%28Ep%20264%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Lehadlik, Kindling the Good in Everyone (Ep 264).mp3",
+  "size_bytes": 2087888,
+  "mime_type": "audio/mpeg"
+ }
+}

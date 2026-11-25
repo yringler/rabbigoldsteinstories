@@ -1,0 +1,151 @@
+{
+ "id": "bda93bf549",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Rosh Chodesh 273",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh - Why the First Day Is the 'Head' of the Month (Ep 273).mp3",
+  "duration_sec": 250.899,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 273,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 273,
+   "story": "The Flickering Flame",
+   "topic": "Rosh Chodesh, Sefira",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rosh Chodesh: Why the First Day Is the 'Head' of the Month",
+  "title_basis": "content",
+  "summary_short": "Welcoming Rosh Chodesh Iyar: why our Sages called it the 'head' of the month, and how to make the most of it by doing a little more of every good thing.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, broadcast as the month of Iyar began. Uncle Yossi explains that our Sages could have called the first day of the month 'the beginning of the month', but chose 'Rosh Chodesh', the head of the month. Just as every part of the body is connected to the head, every day of the month is connected to its first day and draws its strength from it. Hashem gives us another whole month to learn Torah and do mitzvos, so Rosh Chodesh, with its added prayers, Torah reading and Hallel, is the day to make our thoughts, speech and actions pure. As the saying goes, a healthy head means a healthy body: show more respect to parents, teachers and friends, daven more slowly, say brachos clearly, give more tzedakah and learn more Torah, and Hashem will bless us with a blessed month.",
+  "lesson": "Start the month well: Rosh Chodesh is the head that gives strength to every day after it.",
+  "keywords": [
+   "new month",
+   "head",
+   "Yaaleh V'yavo",
+   "Hallel",
+   "healthy head",
+   "Iyar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 273,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-04-28",
+   "hebrew": "29 Nissan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 273 (04-28-87): 'welcoming in the new month of Iyar; tonight we say Yaaleh V'yavo'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "character",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "kibbud",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "davening",
+   "brachos",
+   "tzedakah",
+   "torah_study",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short seasonal clip; fits any Rosh Chodesh, though it opens by naming Iyar."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:55Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6ad37ebe02",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 28,
+   "note": "Episode 273 (filename number); clip = 28-279 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Rosh%20Chodesh%20-%20Why%20the%20First%20Day%20Is%20the%20%27Head%27%20of%20the%20Month%20%28Ep%20273%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh - Why the First Day Is the 'Head' of the Month (Ep 273).mp3",
+  "size_bytes": 3011683,
+  "mime_type": "audio/mpeg"
+ }
+}

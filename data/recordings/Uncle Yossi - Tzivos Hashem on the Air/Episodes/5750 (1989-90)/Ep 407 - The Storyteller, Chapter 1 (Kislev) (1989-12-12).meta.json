@@ -1,0 +1,325 @@
+{
+ "id": "f6b8e3f679",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "407",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 407 - The Storyteller, Chapter 1 (Kislev) (1989-12-12).mp3",
+  "duration_sec": 1833.782,
+  "filename_facts": {
+   "episode_number": 407,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 407,
+   "story": "The storyteller #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 407: The Storyteller, Chapter 1 (Kislev)",
+  "title_basis": "master_catalog",
+  "summary_short": "Kislev, the month of miracles: unity through a letter in the children's Sefer Torah, a class's Shema, and chapter 1 of the Baal Shem Tov's storyteller.",
+  "summary_long": "Broadcast in Kislev 5750, shortly before Yud-Tes Kislev and Chanukah. Uncle Yossi recalls the Rebbe's blessing that 5750 be a year of miracles, especially in Kislev, the month of the Chanukah miracle. In the Chanukah story the Jewish people were saved in the merit of unity, and nothing unites us like the Torah, so the Rebbe urges every child to buy a letter in the new children's Sefer Torah and to share the mitzvah with relatives and friends, just as the menorah's candles burn together. After the Hakochainik march, a first-grade class from Beis Yaakov of Boro Park recites the Shema, listeners say amen for a sick person's recovery, and everyone gives tzedakah. Story time begins a new serial, 'The Storyteller'. Days before his passing, the Baal Shem Tov gives each of his students a mission for life: teacher, shochet, rabbi. Last comes Rabbi Yehuda, his devoted shamash, whose family had gone without because of his service. The Baal Shem Tov makes him a storyteller, to tell everywhere of the wonders he witnessed, and promises that this will bring him great wealth if he is patient and never gives up. The show closes with a reminder that even newborns can join Tzivos Hashem, and a first-birthday wish for a baby's full recovery.",
+  "lesson": "Unite through the Torah and share mitzvos with others; trust a tzaddik's blessing and be patient.",
+  "keywords": [
+   "children's Sefer Torah",
+   "letter in the Torah",
+   "menorah",
+   "year of miracles",
+   "storyteller",
+   "shamash",
+   "deathbed",
+   "newborn members"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 407,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1989-12-12",
+   "hebrew": "14 Kislev 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Already in the month of Kislev', Yud-Tes Kislev 'coming'; one week before ep. 408 (19 Dec 1989). Tuesday broadcast."
+  },
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Set at the Baal Shem Tov's bedside in his last days, as he gives final instructions.",
+    "at_sec": 1050
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A baby named in a refuah shleimah request; a teacher named.",
+    "at_sec": 1650
+   },
+   {
+    "flag": "health_info",
+    "note": "Refuah shleimah for a named baby and her recovery.",
+    "at_sec": 1650
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "the Baal Shem Tov's students"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "calendar",
+   "tzivos_hashem",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "bitachon",
+   "savlanus"
+  ],
+  "mitzvos": [
+   "mivtzoim",
+   "torah_study",
+   "shema",
+   "tzedakah",
+   "chanukah_lights"
+  ],
+  "calendar": [
+   "chanukah",
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750, 'a year of miracles'; the children's Sefer Torah",
+    "note": "The Rebbe's blessing for the year and his call for children to buy letters."
+   },
+   {
+    "work": "siddur",
+    "ref": "Al HaNissim",
+    "note": "'In those days, at this time'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 16,
+   "end_sec": 52,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 52,
+   "end_sec": 455,
+   "type": "sichah",
+   "title": "Kislev, Month of Miracles: Unity Through a Letter in the Torah",
+   "summary": "The Rebbe's blessing for a year of miracles, unity as the merit of Chanukah, and the campaign to buy a letter in the children's Sefer Torah.",
+   "people": [
+    "the_rebbe"
+   ],
+   "calendar": [
+    "chanukah"
+   ],
+   "linked_items": [
+    "7b4969cbde"
+   ]
+  },
+  {
+   "start_sec": 455,
+   "end_sec": 625,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 625,
+   "end_sec": 778,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 778,
+   "end_sec": 835,
+   "type": "announcement",
+   "title": "Amen for a listener's refuah shleimah request"
+  },
+  {
+   "start_sec": 835,
+   "end_sec": 852,
+   "type": "tzedakah",
+   "title": "Coins in the pushka"
+  },
+  {
+   "start_sec": 852,
+   "end_sec": 1575,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 1",
+   "summary": "On his last days, the Baal Shem Tov appoints his shamash Rabbi Yehuda to be a storyteller and promises him wealth.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1575,
+   "end_sec": 1746,
+   "type": "announcement",
+   "title": "Enrolling newborns in Tzivos Hashem; a first-birthday refuah shleimah",
+   "calendar": [
+    "yud_tes_kislev"
+   ]
+  },
+  {
+   "start_sec": 1746,
+   "type": "closing",
+   "title": "Closing, sponsor and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "7b4969cbde",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "'Chanukah 407' = 51-454 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "019e1942d3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 407 ch. 1 and ep 408 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "A baby's name and health are mentioned (see hidden; audio is not edited). Sefer Torah campaign contact details are untranscribed (4:29-4:44); sponsor is period content."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Linchevsky",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 651,
+    "end_sec": 778
+   },
+   {
+    "name": "Miriam Chana",
+    "role": "refuah_list",
+    "group": "Daughter of Avraham and Zahava Chaya Emunah (names as heard)",
+    "start_sec": 1650,
+    "end_sec": 1746,
+    "note": "Born on Yud-Tes Kislev the year before; first birthday."
+   },
+   {
+    "name": "Avraham and Zahava Chaya Emunah (parents)",
+    "role": "other",
+    "start_sec": 1650,
+    "end_sec": 1670
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Baby Miriam Chana has been ill since birth and has improved remarkably; listeners wish her a full recovery.",
+    "start_sec": 1650,
+    "end_sec": 1746
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "The refuah shleimah name at about 13:40 is not transcribed; listen to check whether a name is said."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20407%20-%20The%20Storyteller%2C%20Chapter%201%20%28Kislev%29%20%281989-12-12%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 407 - The Storyteller, Chapter 1 (Kislev) (1989-12-12).mp3",
+  "size_bytes": 22006395,
+  "mime_type": "audio/mpeg"
+ }
+}

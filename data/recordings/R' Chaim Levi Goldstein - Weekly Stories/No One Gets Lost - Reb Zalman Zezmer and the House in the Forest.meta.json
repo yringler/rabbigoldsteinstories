@@ -1,0 +1,235 @@
+{
+ "id": "06304e8858",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "No One Gets Lost",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/No One Gets Lost - Reb Zalman Zezmer and the House in the Forest.mp3",
+  "duration_sec": 1005.349,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "No One Gets Lost: Reb Zalman Zezmer and the House in the Forest",
+  "title_basis": "filename",
+  "summary_short": "On the Alter Rebbe's yahrzeit: a Chassid collecting tzedakah gets lost in a forest and is trapped in a robbers' house, and learns that his detour was planned to bring a lost Jew back.",
+  "summary_long": "For Chof-Daled Teves, the Alter Rebbe's yahrzeit, the storyteller explains the song's words 'every step is perfectly planned': the Baal Shem Tov taught that Hashem directs a person's footsteps, and wherever we arrive, even by 'getting lost', we are meant to do a mitzvah there. The Alter Rebbe sends his Chassid Reb Zalman Zezmer to collect tzedakah for poor families, warning him never to stay in a house whose doorway faces east. On the way home the wagon driver falls asleep, the horse wanders deep into a forest, and they knock at a lit house kept by an old Jew. Only when Reb Zalman asks which way is east does he realize his mistake. The old man locks them in, and a band of robbers arrives. All night Reb Zalman says Tehillim and calls out to his Rebbe. At dawn the old man frees them, saying they owe their lives to their Rebbe, and sends a banknote for the Rebbe. The Alter Rebbe explains that Hashem made Reb Zalman get lost to help a lost Jew return, and months later the old man comes back as a penitent. A short story of the Rebbe Rashab teaches that the Rebbe hears whenever we call.",
+  "lesson": "Every step is planned by Hashem; wherever you end up, there is a mitzvah to do there. Whenever you call out to the Rebbe, the Rebbe hears.",
+  "keywords": [
+   "forest",
+   "robbers",
+   "wagon driver",
+   "tzedakah collector",
+   "banknote",
+   "doorway facing east",
+   "lost travelers",
+   "Tehillim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "24 Teves (year not stated)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'Today is Chof-Daled Teves, the yahrzeit of the Alter Rebbe'; the year is not given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Travelers are locked in a house by an old man working with a band of robbers; they are freed unharmed."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Locked in overnight by robbers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_zalman_zezmer",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Zalman Zezmer",
+   "the wagon driver",
+   "the old man in the forest",
+   "the robbers"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "chabad_rebbeim",
+   "hiskashrus",
+   "teshuvah"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "emunah"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "tehillim",
+   "teshuvah"
+  ],
+  "calendar": [
+   "chof_daled_teves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 37:23",
+    "note": "'From Hashem are a man's footsteps established', as explained by the Baal Shem Tov."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Teaching of the Baal Shem Tov on why Hashem brings a person to a place."
+   }
+  ],
+  "places": [
+   "Russia",
+   "Eretz Yisroel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 38,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 38,
+   "end_sec": 205,
+   "type": "talk",
+   "title": "Every step is perfectly planned",
+   "summary": "For the Alter Rebbe's yahrzeit, the Baal Shem Tov's teaching that Hashem directs our footsteps for a purpose.",
+   "calendar": [
+    "chof_daled_teves"
+   ]
+  },
+  {
+   "start_sec": 205,
+   "end_sec": 955,
+   "type": "story",
+   "title": "Reb Zalman Zezmer and the house in the forest",
+   "summary": "The Alter Rebbe's emissary gets lost, is trapped by robbers, and is freed by an old man who later does teshuvah.",
+   "people": [
+    "alter_rebbe",
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 955,
+   "type": "talk",
+   "title": "Lessons of the story"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'Chavdalot Teves' for Chof-Daled Teves and 'Ebesht' for Hashem. Ends on the lesson without the usual sign-off."
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:41Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "ca1ed29b8b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Lost and Found: The Alter Rebbe Saves His Shliach' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/No%20One%20Gets%20Lost%20-%20Reb%20Zalman%20Zezmer%20and%20the%20House%20in%20the%20Forest.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/No One Gets Lost - Reb Zalman Zezmer and the House in the Forest.mp3",
+  "size_bytes": 12064946,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "id": "bd08f13af0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "117",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 117 - The Sly Fox and the Cheese (Purim) (1984-03-13).mp3",
+  "duration_sec": 1784.904,
+  "filename_facts": {
+   "episode_number": 117,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 117,
+   "story": "The sly fox and the cheese",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 117: The Sly Fox and the Cheese (Purim)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's pre-Purim show: hearing every word of the Megillah, Shema with a young guest, and the fable of the fox in the well, which teaches how tricky the yetzer hara is.",
+  "summary_long": "Broadcast the week before Purim 5744, which fell on a Sunday. Uncle Yossi reminds children to make noise only at Haman's name, to hear every word of the Megillah, and to walk into shul proudly, since the Purim miracle came in the merit of the children Mordechai taught. After the Hakochainik march and the sponsor, story time begins with a hungry fox who mistakes the moon's reflection for cheese and lowers himself to the bottom of a well. A seven-year-old guest recites the Shema. Uncle Yossi then explains why the Torah was given to people and not to angels: we have a yetzer hara, a sly enemy who disguises himself. The fox escapes by tricking a second fox into the well, and Uncle Yossi draws the lesson: be alert, don't argue with the yetzer hara, and fight him with Torah, prayer and tzedakah. The show ends with the Tzivos Hashem Purim missions and Purim wishes.",
+  "lesson": "The yetzer hara is sly and tricky: stay alert, don't argue with him, and weaken him with Torah, davening and tzedakah.",
+  "keywords": [
+   "fox",
+   "well",
+   "cheese",
+   "moon's reflection",
+   "buckets",
+   "grogger",
+   "Megillah",
+   "angels",
+   "secret weapons",
+   "Purim missions"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 117,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-03-13",
+   "hebrew": "9 Adar II 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Sunday is Purim', Megillah on Shabbos night (Purim 5744 = Sunday 18 March); one week after episode 116 (2 Adar II)."
+  },
+  "serial": {
+   "story_key": "the-sly-fox-and-the-cheese",
+   "story_title": "The Sly Fox and the Cheese",
+   "chapter": null
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with age and school.",
+    "at_sec": 883
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the hungry fox",
+   "the second fox",
+   "the farmer"
+  ],
+  "topics": [
+   "character",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "self_control"
+  ],
+  "mitzvos": [
+   "megillah",
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [
+   "purim",
+   "shabbos_zachor"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 52,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 52,
+   "end_sec": 164,
+   "type": "talk",
+   "title": "Getting ready for Purim: hearing every word of the Megillah",
+   "summary": "A time to make noise and a time to listen; the Purim miracle came in the merit of the children Mordechai taught.",
+   "people": [
+    "mordechai"
+   ],
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 164,
+   "end_sec": 355,
+   "type": "song",
+   "title": "Purim Hakochainik March"
+  },
+  {
+   "start_sec": 355,
+   "end_sec": 419,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 419,
+   "end_sec": 735,
+   "type": "story",
+   "title": "The Sly Fox and the Cheese, part 1",
+   "summary": "A hungry fox mistakes the moon's reflection for cheese and gets stuck at the bottom of a well.",
+   "story_key": "the-sly-fox-and-the-cheese"
+  },
+  {
+   "start_sec": 735,
+   "end_sec": 865,
+   "type": "talk",
+   "title": "Winning the war against the yetzer hara",
+   "summary": "Why the story matters to soldiers in Hashem's army."
+  },
+  {
+   "start_sec": 865,
+   "end_sec": 997,
+   "type": "shema_guest",
+   "title": "Shema with a seven-year-old guest"
+  },
+  {
+   "start_sec": 997,
+   "end_sec": 1058,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1058,
+   "end_sec": 1250,
+   "type": "talk",
+   "title": "Why the Torah was given to people, not angels",
+   "summary": "Only people have a yetzer hara; he is sly, so don't argue with him, just ignore him.",
+   "linked_items": [
+    "c56c8ad235"
+   ]
+  },
+  {
+   "start_sec": 1250,
+   "end_sec": 1491,
+   "type": "story",
+   "title": "The Sly Fox and the Cheese, part 2",
+   "summary": "The fox sings happily, tricks a second fox into the other bucket and rides up to freedom.",
+   "story_key": "the-sly-fox-and-the-cheese"
+  },
+  {
+   "start_sec": 1491,
+   "end_sec": 1680,
+   "type": "talk",
+   "title": "Three secret weapons: Torah, davening and tzedakah",
+   "summary": "The fox shows how tricky the yetzer hara is; fight him with Torah, prayer and daily tzedakah, and hasten Moshiach.",
+   "linked_items": [
+    "c56c8ad235"
+   ]
+  },
+  {
+   "start_sec": 1680,
+   "end_sec": 1740,
+   "type": "announcement",
+   "title": "Tzivos Hashem Purim missions",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 1740,
+   "type": "closing",
+   "title": "Purim wishes and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "c56c8ad235",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Fighting the Yetzer Hara 117' = 1292-1658 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sponsor ads and a 1984 Purim missions campaign. The yetzer hara clip (c56c8ad235) joins two separate stretches of this episode (about 1058-1250 and 1491-1680 s), skipping the end of the fox story."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehoshua Kivman",
+    "role": "shema_guest",
+    "group": "Lubavitch yeshiva; age 7",
+    "start_sec": 883,
+    "end_sec": 997
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Candidate rebroadcast in episode 466 (7d90697bef) not verified."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:33Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20117%20-%20The%20Sly%20Fox%20and%20the%20Cheese%20%28Purim%29%20%281984-03-13%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 117 - The Sly Fox and the Cheese (Purim) (1984-03-13).mp3",
+  "size_bytes": 21419893,
+  "mime_type": "audio/mpeg"
+ }
+}

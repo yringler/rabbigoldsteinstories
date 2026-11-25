@@ -1,0 +1,194 @@
+{
+ "id": "abe52de743",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Aron",
+  "audio_path": "audio/Other Stories/Aharon and the Golden Calf - Seeing the Good in Every Jew.mp3",
+  "duration_sec": 763.286,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Aharon and the Golden Calf: Seeing the Good in Every Jew",
+  "title_basis": "content",
+  "summary_short": "From Parshas Ki Sisa: Moshe Rabbeinu gives Aharon a way to explain the golden calf, and a cheder teacher finds a stolen watch with his own eyes closed.",
+  "summary_long": "The storyteller explains that the most important message of every parsha is Ahavas Yisroel. In this week's parsha the Yidden make the golden calf, and Aharon seems to help them, though he was really trying to delay them. When Moshe Rabbeinu comes down, he does not shout at Aharon. Instead he asks, 'What did this people do to you?', giving Aharon a way to explain himself and showing that this was not the real Aharon. A mashal follows: a rebbe whose pupil kicks a friend assumes something must have upset the boy, because he is really good. Then a story from Eretz Yisroel: when a valuable watch disappears in cheder, an elderly Chassid who teaches there has all the boys close their eyes and searches their pockets. Years later a grown man thanks him for never shaming him, and learns that the teacher had kept his own eyes closed too. Finally, Rebbetzin Chaya Mushka once turned her face away when a bachur bumped into her, so that she would never know who it was.",
+  "lesson": "When a Jew does something wrong, judge him favorably, do not shame him, and show him that you know he is really good; this Ahavas Yisroel will bring Moshiach.",
+  "keywords": [
+   "golden calf",
+   "stolen watch",
+   "cheder",
+   "teacher",
+   "closed eyes",
+   "770",
+   "apology letter",
+   "school bus"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "tanach_midrash",
+   "contemporary",
+   "mashal_parable"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "aharon_hakohen",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "central"
+   },
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "an elderly Chassid, a cheder teacher in Eretz Yisroel",
+   "the boy who took the watch",
+   "a bachur running to Mincha"
+  ],
+  "topics": [
+   "parsha",
+   "character"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "ki_sisa"
+  ],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Alter Rebbe's saying 'live with the times', meaning with the weekly parsha."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 32:21",
+    "note": "'What did this people do to you?'"
+   }
+  ],
+  "places": [
+   "Eretz Yisroel",
+   "770 Eastern Parkway"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 300,
+   "type": "talk",
+   "title": "Moshe Rabbeinu judges Aharon favorably",
+   "summary": "In Parshas Ki Sisa, Moshe Rabbeinu answers the golden calf by giving Aharon a way to explain himself."
+  },
+  {
+   "start_sec": 300,
+   "end_sec": 420,
+   "type": "talk",
+   "title": "A mashal: the boy who kicked his friend",
+   "summary": "A rebbe assumes something upset his pupil, because the real boy is good."
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 666,
+   "type": "story",
+   "title": "The teacher who closed his eyes",
+   "summary": "A cheder teacher recovers a stolen watch without ever knowing who took it."
+  },
+  {
+   "start_sec": 666,
+   "type": "story",
+   "title": "Rebbetzin Chaya Mushka looks away",
+   "summary": "The Rebbetzin turned her face away so as not to know which bachur bumped into her.",
+   "people": [
+    "rebbetzin_chaya_mushka"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No 'I believe in Hashem' opening song. ASR garbles the teacher's name (Rebbe Kachen/Kahan?) and once calls him 'Rabbi Akiva'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:44Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator attributed to the weekly storyteller by style (parsha-based Ahavas Yisroel talk, Rebbetzin anecdote) but there is no opening song; series left null. Confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Aharon%20and%20the%20Golden%20Calf%20-%20Seeing%20the%20Good%20in%20Every%20Jew.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Aharon and the Golden Calf - Seeing the Good in Every Jew.mp3",
+  "size_bytes": 9160327,
+  "mime_type": "audio/mpeg"
+ }
+}

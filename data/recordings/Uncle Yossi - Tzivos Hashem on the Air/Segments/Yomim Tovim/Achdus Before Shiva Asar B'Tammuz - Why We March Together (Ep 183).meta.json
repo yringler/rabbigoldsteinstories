@@ -1,0 +1,146 @@
+{
+ "id": "7ed8bf3af5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "17 Tammuz Achdus 183",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Achdus Before Shiva Asar B'Tammuz - Why We March Together (Ep 183).mp3",
+  "duration_sec": 122.309,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 183,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 183,
+   "story": "The two brothers",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Achdus Before Shiva Asar B'Tammuz: Why We March Together",
+  "title_basis": "content",
+  "summary_short": "Why the weekly Hakochainik march matters: it brings simcha and achdus, which are needed most before the fast of the seventeenth of Tammuz.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded the week of Shiva Asar B'Tammuz. Uncle Yossi gives two reasons for the weekly Hakochainik march: it makes us happy, and it is a mitzvah to serve Hashem with joy; and it has us doing things together, which is achdus, so precious to Hashem. Now in the month of Tammuz, with the seventeenth of Tammuz falling on Shabbos that year so the fast is moved to Sunday, he explains that the sad events of that day happened because the Jewish people lacked unity and Ahavas Yisroel. Doing things together, especially now, strengthens our achdus and brings Moshiach closer.",
+  "lesson": "Doing good things together with joy builds achdus, and achdus brings Moshiach closer.",
+  "keywords": [
+   "march",
+   "togetherness",
+   "unity",
+   "fast day",
+   "joy"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 183,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-07-02",
+   "hebrew": "13 Tammuz 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 183: 'this coming Shabbos is the 17th of Tammuz', fast postponed to Sunday (5745)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "character"
+  ],
+  "midos": [
+   "achdus",
+   "simcha",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Introduces the march, which is not included in the clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:43Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "275560992e",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 187,
+   "note": "Episode 183 (filename number); clip = 187-309 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Achdus%20Before%20Shiva%20Asar%20B%27Tammuz%20-%20Why%20We%20March%20Together%20%28Ep%20183%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Achdus Before Shiva Asar B'Tammuz - Why We March Together (Ep 183).mp3",
+  "size_bytes": 1468791,
+  "mime_type": "audio/mpeg"
+ }
+}

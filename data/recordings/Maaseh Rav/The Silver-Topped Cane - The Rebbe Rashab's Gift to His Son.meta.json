@@ -1,0 +1,152 @@
+{
+ "id": "d8e2da15b1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Maaseh Rav",
+  "filename_title": "Mateh",
+  "audio_path": "audio/Maaseh Rav/The Silver-Topped Cane - The Rebbe Rashab's Gift to His Son.mp3",
+  "duration_sec": 411.167,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Silver-Topped Cane: The Rebbe Rashab's Gift to His Son",
+  "title_basis": "content",
+  "summary_short": "At a time of real financial strain, the Rebbe Rashab spends heavily on a silver-topped cane for his son, the future Frierdiker Rebbe. The Rebbe explains what the gift meant.",
+  "summary_long": "This is a story the Rebbe told about the Rebbe Rashab and his son, the Frierdiker Rebbe. The Rebbe Rashab's household sometimes went through serious shortages of money, yet outsiders never knew it, and the Rebbe Rashab still traveled abroad often, officially for his health but really for more important reasons. On one such trip, at a time when money was very tight, he came home with a beautiful walking cane topped with pure silver, a gift for their only son. The Rebbetzin asked how he could spend their last coins on it. He explained that on a walk he had met a Polish Rebbe with his son, and seeing the difference made him realize how special their own son was, so he felt a strong urge to give him a present. The Rebbe teaches that every detail is hashgachah pratis: a staff is a sign of leadership, hinting that the son would become the leader of the Jewish people. Its silver top (kesef, which also means longing and love) shows that he would lead with warmth, lifting people up and bringing them close.",
+  "lesson": "Lead and influence others with warmth and love, lifting them up and bringing them closer to Hashem, not by force.",
+  "keywords": [
+   "walking cane",
+   "silver",
+   "gift",
+   "father and son",
+   "leadership",
+   "Marienbad",
+   "Hamburg",
+   "money shortage"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Maaseh Rav"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "maaseh_rav",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rebbetzin_shterna_sarah",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a Polish Rebbe and his son"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hashgacha_pratis",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Marienbad",
+   "Hamburg"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe told the story and explained its lesson."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename 'Mateh' = staff/cane. ASR writes 'Fridiker/Freedek' and 'Teda' (Torah)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song"
+  ]
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Maaseh%20Rav/The%20Silver-Topped%20Cane%20-%20The%20Rebbe%20Rashab%27s%20Gift%20to%20His%20Son.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Maaseh Rav/The Silver-Topped Cane - The Rebbe Rashab's Gift to His Son.mp3",
+  "size_bytes": 4934772,
+  "mime_type": "audio/mpeg"
+ }
+}

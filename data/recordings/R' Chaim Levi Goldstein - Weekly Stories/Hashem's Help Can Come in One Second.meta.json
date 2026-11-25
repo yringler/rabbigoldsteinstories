@@ -1,0 +1,228 @@
+{
+ "id": "cd4eceba47",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem's Help Can Come In One Second",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem's Help Can Come in One Second.mp3",
+  "duration_sec": 1318.087,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hashem's Help Can Come in One Second",
+  "title_basis": "filename",
+  "summary_short": "A father's fake steering wheel shows how Hashem guides our lives, and a rich man learns that Hashem can make a person poor, or rich again, in one second.",
+  "summary_long": "The storyteller explains that everything except our choices in Torah and mitzvos comes from Hashem. A Rav visiting Eretz Yisroel notices that his driver's car has two steering wheels; the driver explains that the second, fake one is for his restless six-year-old, who thinks he is steering. Hashem holds the real wheel of our lives, and since He loves every Jew more than elderly parents love an only child, we can trust Him and be calm. Reb Moshe, the richest man in his town and a generous giver of tzedakah, hears the Rav teach Dovid HaMelech's words that riches come from Hashem, who can turn the richest man into the poorest in one second. He cannot understand it. On his way home he steps one pace over the yellow line that Jews may not cross during the priest's Sunday sermon, and is arrested. Offered his fortune back if he gives up his Judaism, he refuses and signs everything away. Then lightning destroys the police station and the paper with it. The storyteller adds the Rebbe's teaching that the Geulah will come in less than a second.",
+  "lesson": "Hashem steers every part of our lives, and His help can come in one second, just as the Geulah will.",
+  "keywords": [
+   "two steering wheels",
+   "taxi",
+   "rich man",
+   "tenth part",
+   "priest",
+   "yellow line",
+   "police station",
+   "lightning",
+   "one second"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "moral_fiction",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew is arrested under an unfair rule and threatened with losing all his property."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "mild",
+    "note": "A priest offers to return his wealth if he gives up his Judaism; he refuses."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, the rich man",
+   "the Rav",
+   "the taxi driver and his son",
+   "the police officer",
+   "the priest"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "emunah_bitachon",
+   "mesiras_nefesh_kiddush_hashem",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "generosity",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "kiddush_hashem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "\"Everything is in the hands of Heaven except the fear of Heaven.\""
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov's parable of an elderly couple's love for their only child."
+   },
+   {
+    "work": "siddur",
+    "note": "Dovid HaMelech: riches and honor come from You."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "At the Geulah everyone will be brought to Yerushalayim in less than a second."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 152,
+   "type": "talk",
+   "title": "Everything is from Hashem except our choices"
+  },
+  {
+   "start_sec": 152,
+   "end_sec": 344,
+   "type": "story",
+   "title": "The car with two steering wheels"
+  },
+  {
+   "start_sec": 344,
+   "end_sec": 420,
+   "type": "talk",
+   "title": "Hashem's love for every Jew"
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 1270,
+   "type": "story",
+   "title": "The rich man and the signed paper"
+  },
+  {
+   "start_sec": 1270,
+   "type": "talk",
+   "title": "The Geulah in less than a second"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "2cb6d77ea4",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Hashem's Help - As Quick As the Blink of an Eye': the same rich-man-and-lightning story by the same narrator (there the man is called Dovid); this version adds the steering-wheel parable."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%27s%20Help%20Can%20Come%20in%20One%20Second.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem's Help Can Come in One Second.mp3",
+  "size_bytes": 15817822,
+  "mime_type": "audio/mpeg"
+ }
+}

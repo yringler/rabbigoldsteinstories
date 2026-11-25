@@ -1,0 +1,285 @@
+{
+ "id": "03bfbdd2c3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "24",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 024 - The Whispering Droplets (Sefiras HaOmer) (1982-05-18).mp3",
+  "duration_sec": 1704.056,
+  "filename_facts": {
+   "episode_number": 24,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 24,
+   "story": "The Whispering Droplets",
+   "topic": "Sefira-3",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 24: The Whispering Droplets (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi teaches why we count the days of Sefirah and how precious time is, then tells how dripping water convinced Rabbi Akiva that it is never too late to learn Torah.",
+  "summary_long": "Broadcast during Sefiras HaOmer, the week before Shabbos Mevarchim Sivan. Uncle Yossi explains that counting the Omer teaches how precious each day is: every day should be better than the one before, and time lost never comes back, as a little girl who keeps crying over her lost dime learns from her mother. He looks ahead to the new Chumash, Bamidbar, and calls the Torah a living lesson. A nine-year-old yeshiva boy leads the Shema in Studio 604. The story, 'Never Too Late', tells how Rachel begged her forty-year-old husband Akiva to learn Torah. Sitting by a river, he sees soft drops of water that have bored a hole through hard rock, and realizes that the gentle words of Torah can enter even a hard heart. He becomes the great Rabbi Akiva and gives all the honor to his wife. After a sponsor message, a listener's poem about Moshiach is read, and Uncle Yossi offers a free bonus tape with his story series.",
+  "lesson": "It is never too late to begin learning Torah; time is a precious gift from Hashem, so fill every day with Torah and mitzvos.",
+  "keywords": [
+   "dime",
+   "counting days",
+   "time",
+   "dripping water",
+   "rock",
+   "river",
+   "forty years old",
+   "Rachel",
+   "poem",
+   "records and tapes",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 24,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1982-05-18",
+   "hebrew": "25 Iyar 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Last week was Lag BaOmer'; 'this Shabbos is Shabbos Mevarchim, we begin Bamidbar, Rosh Chodesh Sivan is Sunday'. Matches the weekly estimate (a Tuesday)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and a letter writer named in full on air.",
+    "at_sec": 523
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rachel, wife of Rabbi Akiva",
+   "Miriam, the girl who lost a dime",
+   "Miriam's mother"
+  ],
+  "topics": [
+   "sages",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "hasmadah",
+   "mesiras_nefesh",
+   "hakaras_hatov",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [
+   "bamidbar"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'So that your days be lengthened', quoted from the second part of the Shema."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 26,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 26,
+   "end_sec": 412,
+   "type": "talk",
+   "title": "Sefirah: Counting Precious Time",
+   "summary": "Why we count each day of the Omer, and the girl who kept crying over her lost dime.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "27e4be78a2"
+   ]
+  },
+  {
+   "start_sec": 412,
+   "end_sec": 523,
+   "type": "story_intro",
+   "title": "A new Chumash and a living Torah",
+   "summary": "Chazak at the end of Vayikra, the coming Chumash Bamidbar, and tonight's story about time."
+  },
+  {
+   "start_sec": 523,
+   "end_sec": 690,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student in Studio 604"
+  },
+  {
+   "start_sec": 690,
+   "end_sec": 1243,
+   "type": "story",
+   "title": "Never Too Late: Rabbi Akiva and the Whispering Droplets",
+   "summary": "Rachel urges Akiva to learn Torah at forty, and drops of water boring through a rock give him his answer.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1243,
+   "end_sec": 1273,
+   "type": "mailbox",
+   "title": "Into the mailbox"
+  },
+  {
+   "start_sec": 1273,
+   "end_sec": 1408,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1408,
+   "end_sec": 1500,
+   "type": "mailbox",
+   "title": "A listener's poem: Moshiach Is Coming"
+  },
+  {
+   "start_sec": 1500,
+   "end_sec": 1646,
+   "type": "announcement",
+   "title": "Special offer on Uncle Yossi's story tapes"
+  },
+  {
+   "start_sec": 1646,
+   "type": "closing",
+   "title": "Closing: Shabbos Mevarchim Sivan",
+   "calendar": [
+    "shabbos_mevarchim"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "27e4be78a2",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "'Sefira-3 24' = 26-412 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "eb0459de7a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 23: Kelipah and Kelipas Nogah, Tanya Chapters 6-7' (Stories, 19:28-21:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sponsor ad (door company with phone number), tape-offer prices and mail-in address are period pieces. Catalog title 'The Whispering Droplets'; the story is introduced on air as 'Never Too Late'."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehudah Leib Korf",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah; age 9",
+    "start_sec": 523,
+    "end_sec": 690
+   },
+   {
+    "name": "Leah Weiss",
+    "role": "mailbox_letter",
+    "group": "Union City, New Jersey",
+    "start_sec": 1408,
+    "end_sec": 1500,
+    "note": "Sent a poem, 'Moshiach Is Coming'."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20024%20-%20The%20Whispering%20Droplets%20%28Sefiras%20HaOmer%29%20%281982-05-18%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 024 - The Whispering Droplets (Sefiras HaOmer) (1982-05-18).mp3",
+  "size_bytes": 20449705,
+  "mime_type": "audio/mpeg"
+ }
+}

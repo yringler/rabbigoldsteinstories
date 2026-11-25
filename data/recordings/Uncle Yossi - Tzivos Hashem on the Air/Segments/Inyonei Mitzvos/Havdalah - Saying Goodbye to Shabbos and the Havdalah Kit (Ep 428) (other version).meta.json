@@ -1,0 +1,181 @@
+{
+ "id": "7c429e4277",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Havdalah 428",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Havdalah - Saying Goodbye to Shabbos and the Havdalah Kit (Ep 428) (other version).mp3",
+  "duration_sec": 224.975,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 428,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 428,
+   "story": "Judge for a day #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-35.9 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Havdalah: Saying Goodbye to Shabbos and the Havdalah Kit",
+  "title_basis": "content",
+  "summary_short": "What Havdalah means, when we say it after Shabbos, and what goes into a Havdalah kit: wine, a cup, spices and a candle with many wicks.",
+  "summary_long": "A mitzvah-time lesson from the Tzivos Hashem radio show. After learning how we welcome Shabbos by lighting candles, Uncle Yossi teaches how we bid Shabbos farewell with Havdalah. The word Havdalah means separation: it separates the holy day of Shabbos from the ordinary weekdays. Just as candles are lit no later than 18 minutes before sunset, Havdalah is said the next night after the stars appear, and because the times change from week to week, it is best to check a Jewish calendar. Before explaining the reasons for Havdalah, he introduces the Havdalah kit: a bottle of wine and a cup, as for Kiddush; a box of fragrant spices, besamim; and a Havdalah candle, which unlike a Shabbos candle must have at least two wicks.",
+  "lesson": "We end Shabbos with Havdalah, separating the holy day from the weekdays, once the stars are out.",
+  "keywords": [
+   "Havdalah kit",
+   "wine",
+   "cup",
+   "spices",
+   "besamim",
+   "Havdalah candle",
+   "wicks",
+   "stars",
+   "Jewish calendar"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 428,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-05-15",
+   "hebrew": "20 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 427 (09dddba098) (filename says 428; text matches ep 427). Episode: Estimate was 6 Iyar. Candles 7:51, Shabbos ends 9:01 fit Friday 18 May 1990; Pirkei Avos chapter 5"
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "halachah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "havdalah",
+   "shabbos",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "09dddba098",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "offset_sec": 1396,
+   "note": "Filename says 428, but the text is the Havdalah lesson of episode 427 (1396-1621 s); 428 only has the review and quiz."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d0a966e65b",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Same lesson in episode 276 (1410-1635 s; containment 0.97)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3f74202549",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Same lesson in episode 379 (1412-1637 s)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "cbefd2fcab",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Preferred version: the same Havdalah lesson as re-aired in episode 427 (file mislabeled 428); episode 276 is the first airing."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "cbefd2fcab",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume",
+   "mislabeled",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Other version of cbefd2fcab ('Havdalah 276'), the preferred copy: the same Havdalah lesson as re-aired in episode 427 (file mislabeled 428); episode 276 is the first airing. Labeled 428, but it is the Havdalah lesson aired in episode 427 (and earlier in 276 and 379). Content itself is clean and complete. Quiet source."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Filename episode number (428) does not match the source episode (427, or 276/379)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Havdalah%20-%20Saying%20Goodbye%20to%20Shabbos%20and%20the%20Havdalah%20Kit%20%28Ep%20428%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Havdalah - Saying Goodbye to Shabbos and the Havdalah Kit (Ep 428) (other version).mp3",
+  "size_bytes": 2700721,
+  "mime_type": "audio/mpeg"
+ }
+}

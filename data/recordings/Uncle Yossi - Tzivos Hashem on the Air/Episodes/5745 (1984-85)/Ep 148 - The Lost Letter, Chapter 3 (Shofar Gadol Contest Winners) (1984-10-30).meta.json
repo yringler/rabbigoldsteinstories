@@ -1,0 +1,376 @@
+{
+ "id": "25a669862e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "148",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 148 - The Lost Letter, Chapter 3 (Shofar Gadol Contest Winners) (1984-10-30).mp3",
+  "duration_sec": 1837.52,
+  "filename_facts": {
+   "episode_number": 148,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 148,
+   "story": "The lost letter #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 148: The Lost Letter, Chapter 3 (Shofar Gadol Contest Winners)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi announces the winners of the Shofar Gadol drawing contest, and the story ends: ten years late, Reb Leibel delivers the Baal Shem Tov's letter and learns what it says.",
+  "summary_long": "Uncle Yossi opens with the grand finale of the Shofar Gadol contest, working up from the smallest entry, a few inches long, through family projects of nine and seventeen feet, to the winner: a drawing more than forty-eight feet long. Every entrant gets a gift, and the winners will be invited to say the Shema in the studio. The Hakochainik march is sung to 'Teka b'Shofar Gadol.' After a recap, a boy who loves signing up his friends for Tzivos Hashem leads the Shema, and the week's program is dedicated in memory of a sponsoring family's father. The story concludes: Reb Leibel, now poor and shabby, travels to deliver the Baal Shem Tov's letter to Reb Sholom, a wealthy former student. The guard will not let him in until Reb Sholom, hearing who wrote the letter, agrees to see him. Recognizing his teacher's seal, Reb Sholom reads it in tears: the Baal Shem Tov foresaw that Reb Leibel would pay for refusing a brachah and asked Reb Sholom to set him back on his feet. The letter is dated that very day. The lesson: never underestimate a brachah, especially from a tzaddik.",
+  "lesson": "Never think you have no need of a brachah; a blessing, especially from a tzaddik, brings Hashem's goodness.",
+  "keywords": [
+   "lost letter",
+   "sealed envelope",
+   "mansion",
+   "guard",
+   "handwriting",
+   "shabby clothes",
+   "drawing contest",
+   "shofar gadol",
+   "prizes",
+   "Teka b'Shofar Gadol"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 148,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1984-10-30",
+   "hebrew": "4 Cheshvan 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "No calendar cue on air. Episode 147 (about 23 Oct 1984) promised the contest winners 'next week', and this show announces them, so one week later."
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 3
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A once-rich man, now poor and in shabby clothes, seeks help; his troubles end happily.",
+    "at_sec": 1118
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Contest winners and the Shema guest named in full.",
+    "at_sec": 100
+   },
+   {
+    "flag": "home_address",
+    "note": "Street addresses of several contest winners read on air.",
+    "at_sec": 128
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Leibel, a student of the Baal Shem Tov",
+   "Reb Leibel's wife",
+   "Reb Sholom, a wealthy student of the Baal Shem Tov",
+   "the guard at the gate"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "hiskashrus",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "responsibility",
+   "chesed",
+   "generosity"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 16,
+   "end_sec": 47,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 47,
+   "end_sec": 597,
+   "type": "announcement",
+   "title": "Shofar Gadol contest: the winners",
+   "summary": "From a few inches to more than forty-eight feet: the contest entries and winners."
+  },
+  {
+   "start_sec": 597,
+   "end_sec": 880,
+   "type": "song",
+   "title": "Hakochainik March: \"Teka b'Shofar Gadol\""
+  },
+  {
+   "start_sec": 880,
+   "end_sec": 960,
+   "type": "story_intro",
+   "title": "Recap: the lost letter is found"
+  },
+  {
+   "start_sec": 960,
+   "end_sec": 1082,
+   "type": "shema_guest",
+   "title": "Shema with a Tzivos Hashem recruiter"
+  },
+  {
+   "start_sec": 1082,
+   "end_sec": 1118,
+   "type": "sponsor",
+   "title": "Program dedication"
+  },
+  {
+   "start_sec": 1118,
+   "end_sec": 1660,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 3",
+   "summary": "Ten years late, Reb Leibel delivers the letter, which asks Reb Sholom to restore his fortune.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1660,
+   "end_sec": 1745,
+   "type": "talk",
+   "title": "The Power of a Brachah",
+   "summary": "Why we should value every blessing, especially a tzaddik's."
+  },
+  {
+   "start_sec": 1745,
+   "end_sec": 1782,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "525312872b",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 147 = 'The lost letter #2', 148 = '#3'; the episode recaps chapter 2."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b35e60b8a2",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Episode 209 reruns the recap, Shema, dedication and chapter 3 (about 880-1745 s here) nearly word for word."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "525312872b",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1984): ep 147 ch. 2 and ep 148 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "The contest segment (about 47-597 s) reads out many children's full names and several home street addresses (see hidden); audio is not edited, so a human may want to decide on this part. March boundaries estimated (one long ASR line)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yitzchak Klinger",
+    "role": "contest_winner",
+    "group": "Borough Park",
+    "start_sec": 100,
+    "end_sec": 160
+   },
+   {
+    "name": "Chaya Necha, Henny, Esty and Moshe (Pshemish family?)",
+    "role": "contest_winner",
+    "group": "Family entry; ages 12½, 10, 9 and 3½; surname unclear in ASR",
+    "start_sec": 160,
+    "end_sec": 210
+   },
+   {
+    "name": "Amram Klinger",
+    "role": "contest_winner",
+    "group": "Brother of Yitzchak Klinger",
+    "start_sec": 199,
+    "end_sec": 240
+   },
+   {
+    "name": "Yehuda Leib Stolik",
+    "role": "contest_winner",
+    "group": "Stolik family, Montgomery Street, Crown Heights",
+    "start_sec": 240,
+    "end_sec": 287
+   },
+   {
+    "name": "Mendel Stolik",
+    "role": "contest_winner",
+    "group": "Stolik family, Montgomery Street, Crown Heights",
+    "start_sec": 240,
+    "end_sec": 287
+   },
+   {
+    "name": "Zev Avraham Frimmerman",
+    "role": "contest_winner",
+    "group": "Last week's Shema guest",
+    "start_sec": 287,
+    "end_sec": 330
+   },
+   {
+    "name": "Elimelech, Tiferes, Mordechai, Shloimy, Devorah and Bas Sheva (Sabo)",
+    "role": "contest_winner",
+    "group": "Beis Yaakov of Flatbush; envelope addressed from the Sabo family",
+    "start_sec": 315,
+    "end_sec": 374
+   },
+   {
+    "name": "Shandy, Feige, Mechi, Heshi and Shelly Friedlander",
+    "role": "contest_winner",
+    "group": "The Friedlander family, Brooklyn",
+    "start_sec": 374,
+    "end_sec": 460
+   },
+   {
+    "name": "Aharon Eichorn",
+    "role": "contest_winner",
+    "group": "Grand winner (entry 48 ft 9 in long)",
+    "start_sec": 460,
+    "end_sec": 570
+   },
+   {
+    "name": "Menachem Mendel Muchkin",
+    "role": "shema_guest",
+    "group": "Member of the Tzivos Hashem Club",
+    "start_sec": 994,
+    "end_sec": 1082
+   }
+  ],
+  "addresses": [
+   {
+    "text": "1545 42nd Street, Borough Park",
+    "start_sec": 128,
+    "end_sec": 140
+   },
+   {
+    "text": "Montgomery Street, Crown Heights, Brooklyn (Stolik family)",
+    "start_sec": 240,
+    "end_sec": 259
+   },
+   {
+    "text": "1062 East 12th Street, Brooklyn",
+    "start_sec": 360,
+    "end_sec": 374
+   },
+   {
+    "text": "949 51st Street, Brooklyn",
+    "start_sec": 380,
+    "end_sec": 403
+   },
+   {
+    "text": "1373 East 12th Street, Brooklyn",
+    "start_sec": 470,
+    "end_sec": 487
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Program sponsored by the Muchkin brothers and family in memory of their father, Rabbi Peretz.",
+    "start_sec": 1082,
+    "end_sec": 1118
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:46Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Contest segment names many children with home addresses; decide whether to publish it as is."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20148%20-%20The%20Lost%20Letter%2C%20Chapter%203%20%28Shofar%20Gadol%20Contest%20Winners%29%20%281984-10-30%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 148 - The Lost Letter, Chapter 3 (Shofar Gadol Contest Winners) (1984-10-30).mp3",
+  "size_bytes": 22051221,
+  "mime_type": "audio/mpeg"
+ }
+}

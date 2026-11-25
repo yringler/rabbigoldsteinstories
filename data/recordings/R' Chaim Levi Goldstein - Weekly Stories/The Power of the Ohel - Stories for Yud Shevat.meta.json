@@ -1,0 +1,255 @@
+{
+ "id": "15ee14294d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Ohel Mittiler Rebbe",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Power of the Ohel - Stories for Yud Shevat.mp3",
+  "duration_sec": 1340.55,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Power of the Ohel: Stories for Yud Shevat",
+  "title_basis": "content",
+  "summary_short": "For Yud Shevat, seventy years of the Rebbe's leadership: why we go to the Ohel, a miracle at the Mitteler Rebbe's Ohel, and a shliach who told the Rebbe he was afraid.",
+  "summary_long": "On Yud Shevat, seventy years after the passing of the Frierdiker Rebbe and the start of the Rebbe's leadership, the storyteller explains that before one leader sets, the next one rises, and asks every child to take home a good resolution, like coming home from the market with merchandise. He explains why we go to the Ohel: a tzaddik never really leaves us, and we ask him to daven for us, as the head prays for the body. Then two stories. Reb Yankel of Kaidanov sends a businessman to pray at the Mitteler Rebbe's Ohel in Nezhin; at the very hour he places his notes on the grave, his gravely ill wife at home suddenly recovers. In the second, a shliach unsure whether to open a cheder writes to the Rebbe at the Ohel, 'Rebbe, I am afraid', and on his way out hears a story of the Frierdiker Rebbe gently taking a frightened little girl by the hand. He understands the answer and opens the cheder. The talk ends with the Rebbe's request that every child have a siddur, Chumash, Tanya and tzedakah box of their own.",
+  "lesson": "A tzaddik never leaves us; when we connect to the Rebbe, he holds our hand and leads the way. Take on a good resolution so the brachos can reach us.",
+  "keywords": [
+   "Ohel",
+   "Nezhin",
+   "tobacco business",
+   "notes on the grave",
+   "shliach",
+   "cheder",
+   "frightened girl",
+   "hachlata",
+   "Mikdash Me'at",
+   "tzedakah box"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-02-05",
+   "hebrew": "10 Shevat 5780",
+   "hebrew_year": 5780,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Yud Shevat this year marks 70 years' and 'on a day like today': Yud Shevat 5780."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A woman falls gravely ill and the doctors give up hope; she recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mitteler_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_yaakov_kaidaner",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Yankel of Kaidanov",
+   "the businessman",
+   "his wife",
+   "the shliach",
+   "the secretary's young daughter"
+  ],
+  "topics": [
+   "hiskashrus",
+   "the_rebbe",
+   "chabad_rebbeim",
+   "miracles",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "courage",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "davening",
+   "tehillim",
+   "tzedakah",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "The Sages on 'the sun rises and the sun sets': before one leader passes, the next arises."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe on davening at the Ohel: a tzaddik never passes away, and we ask him to daven for us."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's request that every child make his room a Mikdash Me'at with his own siddur, Chumash, Tanya and tzedakah box."
+   }
+  ],
+  "places": [
+   "Nezhin"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 258,
+   "type": "talk",
+   "title": "Yud Shevat: seventy years",
+   "summary": "Before one leader sets the next rises; every child should take a good resolution from this day.",
+   "calendar": [
+    "yud_shevat"
+   ]
+  },
+  {
+   "start_sec": 258,
+   "end_sec": 459,
+   "type": "talk",
+   "title": "Why we go to the Ohel",
+   "summary": "A tzaddik never leaves us, and at the Ohel we ask the Rebbe to daven for us.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 459,
+   "end_sec": 967,
+   "type": "story",
+   "title": "A miracle at the Mitteler Rebbe's Ohel",
+   "summary": "A businessman prays at the Ohel in Nezhin, and at that very hour his gravely ill wife recovers.",
+   "people": [
+    "mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 967,
+   "end_sec": 1228,
+   "type": "story",
+   "title": "'Rebbe, I am afraid'",
+   "summary": "A shliach's question at the Ohel is answered through a story of the Frierdiker Rebbe holding a little girl's hand.",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1228,
+   "type": "talk",
+   "title": "The Rebbe's request to children",
+   "summary": "Each child should have his own siddur, Chumash, Tanya and tzedakah box, and a letter in a Sefer Torah."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; same narrator and style as the 'I believe in Hashem' stories. ASR writes 'Eihel/Oihel/Ayel' for Ohel and 'Merazov' for the secretary's surname."
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "b97b61289f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Ohel Miracle' (Stories, 10:42-21:15), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "In connection with this, I want to tell you two stories.",
+   "at_sec": 459
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Series and speaker assigned by narrator style; the item does not open with the song."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Power%20of%20the%20Ohel%20-%20Stories%20for%20Yud%20Shevat.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Power of the Ohel - Stories for Yud Shevat.mp3",
+  "size_bytes": 16087389,
+  "mime_type": "audio/mpeg"
+ }
+}

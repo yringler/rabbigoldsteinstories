@@ -1,0 +1,262 @@
+{
+ "id": "72693dbf7c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chuppah At Midnight",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chuppah at Midnight.mp3",
+  "duration_sec": 1202.904,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chuppah at Midnight",
+  "title_basis": "filename",
+  "summary_short": "For Rebbetzin Chana's birthday, memories of the Rebbe's mother, and the story of a secret midnight wedding in the home of Rabbi Levi Yitzchak in Soviet Russia.",
+  "summary_long": "For the week of Chof-Ches Teves, Rebbetzin Chana's birthday, the storyteller tells about the Rebbe's mother and her husband, Rabbi Levi Yitzchak, the rav of Yekaterinoslav. The Soviets watched him, arrested him and sent him into exile, where Rebbetzin Chana joined him and made ink from leaves and grasses so he could write down his Torah insights, later printed and often explained by the Rebbe. The storyteller then shares his own childhood memories of Rebbetzin Chana in Crown Heights: the Rebbe's daily visits to his mother, the Rebbe walking her to the door of 770 and watching until she turned the corner, and how he and his brothers held open her heavy building door. Then the story: late one night an old woman asks Reb Leivik to marry her daughter and the groom, both high officials who must keep their Jewishness secret. He quietly gathers trusted men, and when only nine come he calls the building superintendent, though he suspects him of spying. The chuppah is held in the dark with the shades drawn. Afterward two of the men throw their Communist Party cards on the table, preferring to stay with Reb Leivik.",
+  "lesson": "Respect your parents as the Rebbe honored his mother, and being near a tzaddik makes people want to become better Jews.",
+  "keywords": [
+   "secret wedding",
+   "chuppah",
+   "minyan",
+   "Soviet Russia",
+   "Communist Party card",
+   "superintendent",
+   "homemade ink",
+   "770",
+   "President Street",
+   "birthday"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2025-01-28",
+   "hebrew": "Week of 28 Teves 5785",
+   "hebrew_year": 5785,
+   "precision": "week",
+   "basis": "stated_in_audio",
+   "note": "'This week, on Chof-Ches Teves, she turned 145': Rebbetzin Chana was born 28 Teves 5640, so 5785."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Soviet spies watch Rabbi Levi Yitzchak; he is arrested and exiled, where he passes away (mentioned briefly)."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbetzin_chana",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_schneerson",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the old woman",
+   "the bride and groom",
+   "the building superintendent",
+   "the minyan men"
+  ],
+  "topics": [
+   "the_rebbe",
+   "mesiras_nefesh_kiddush_hashem",
+   "family_and_home",
+   "hiskashrus"
+  ],
+  "midos": [
+   "kibbud",
+   "mesiras_nefesh",
+   "courage",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem",
+   "hachnasas_kallah",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "likkutei_levi_yitzchak",
+    "note": "Rabbi Levi Yitzchak's writings from exile, later printed and explained by the Rebbe."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe tells that his mother made ink for his father in exile."
+   }
+  ],
+  "places": [
+   "Yekaterinoslav",
+   "Crown Heights",
+   "770 Eastern Parkway"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 318,
+   "type": "talk",
+   "title": "Rebbetzin Chana's birthday",
+   "summary": "Rebbetzin Chana's birthday and how she made ink for Rabbi Levi Yitzchak in exile.",
+   "people": [
+    "rebbetzin_chana",
+    "rabbi_levi_yitzchak_schneerson"
+   ]
+  },
+  {
+   "start_sec": 318,
+   "end_sec": 572,
+   "type": "talk",
+   "title": "Memories of the Rebbe's mother",
+   "summary": "The storyteller remembers the Rebbe's devotion to his mother and holding her door open as a boy.",
+   "people": [
+    "rebbetzin_chana",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 572,
+   "type": "story",
+   "title": "The chuppah at midnight",
+   "summary": "Rabbi Levi Yitzchak makes a secret wedding for two Jewish officials in Soviet Russia.",
+   "people": [
+    "rabbi_levi_yitzchak_schneerson",
+    "rebbetzin_chana"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "4ffb659bb2",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'chupa rlvyitz': the same secret-wedding story told live at a children's Chof Av farbrengen (there the building manager does teshuvah)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "43a1aa92e1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Reb Levi Yitzchak's Secret Midnight Chuppah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "734039b19c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Eight Chanukah Lights: The Miracle of the First Night and a Secret Chuppah' (Stories, from 15:37), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "7035a2e1c5",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Reb Levik's Secret Chuppah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "fd6f47640f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Erev Chof Av: Reb Levi Yitzchak and the Secret Chuppah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No theme song; ends 'That's the story for today.' ASR writes 'Rebbe Tzemachana' for Rebbetzin Chana."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No theme song; weekly framing 'This week, we had a very special birthday' and sign-off 'That's the story for today.'",
+   "at_sec": 2
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:15:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from format only (no theme song).",
+   "Date assumes 'turned 145' is exact (5785); Rebbetzin Chana's birthday (28 Teves) has no calendar id."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chuppah%20at%20Midnight.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chuppah at Midnight.mp3",
+  "size_bytes": 14435718,
+  "mime_type": "audio/mpeg"
+ }
+}

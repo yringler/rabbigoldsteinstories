@@ -1,0 +1,174 @@
+{
+ "id": "653c681319",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "12 Tammuz 485",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis and Yud-Gimmel Tammuz - The Frierdiker Rebbe's Miraculous Release (Ep 485).mp3",
+  "duration_sec": 176.019,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 485,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 485,
+   "story": "The lost wallet",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud-Beis and Yud-Gimmel Tammuz: The Frierdiker Rebbe's Miraculous Release",
+  "title_basis": "content",
+  "summary_short": "Why the 12th and 13th of Tammuz are days of thanksgiving: the Frierdiker Rebbe was condemned for teaching Torah to children and miraculously freed in 1927.",
+  "summary_long": "A short Yud-Gimmel Tammuz talk from the Tzivos Hashem radio show. Uncle Yossi explains that the twelfth and thirteenth of Tammuz are days set aside for strong resolutions to learn more Torah and do more mitzvos. In 1927 the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneersohn, was sentenced to death for the 'crime' of gathering Jewish children and teaching them Torah; step by step, beginning on Gimmel Tammuz, his sentence was eased until he was completely freed on Yud-Beis and Yud-Gimmel Tammuz. Because of this miracle he later came to America and built a network of yeshivos and Torah institutions that spread all over the world. So these days are days of thanksgiving to Hashem, and we pray, as the Sages teach, to link one redemption to the next, so that this celebration leads to the final Geulah.",
+  "lesson": "Celebrate Yud-Beis Tammuz by resolving to learn more Torah and do more mitzvos, and pray that this redemption lead to the final Geulah.",
+  "keywords": [
+   "Frierdiker Rebbe",
+   "prison",
+   "Russia",
+   "1927",
+   "teaching children Torah",
+   "yeshivos",
+   "thanksgiving",
+   "Geulah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 485,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-06-25",
+   "hebrew": "13 Tammuz 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Yud-Gimmel Tammuz'; 'this year, the year of wonders' (5751)."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe was imprisoned and sentenced to death for teaching Torah to children, then freed.",
+    "at_sec": 28
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Berachos 4b",
+    "note": "'Lismoch geulah ligeulah', linking one redemption to the next, cited as what the Chachamim teach."
+   }
+  ],
+  "places": [
+   "Russia",
+   "America"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "bb5a45e023",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 55,
+   "note": "Episode 485 (filename number); clip = 55-231 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename says 12 Tammuz; the talk was given on 13 Tammuz and covers both days."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Beis%20and%20Yud-Gimmel%20Tammuz%20-%20The%20Frierdiker%20Rebbe%27s%20Miraculous%20Release%20%28Ep%20485%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis and Yud-Gimmel Tammuz - The Frierdiker Rebbe's Miraculous Release (Ep 485).mp3",
+  "size_bytes": 2113288,
+  "mime_type": "audio/mpeg"
+ }
+}

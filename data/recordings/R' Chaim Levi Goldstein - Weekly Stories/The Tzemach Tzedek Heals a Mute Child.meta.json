@@ -1,0 +1,228 @@
+{
+ "id": "190b69f97a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Tz tz heals mute child",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Tzemach Tzedek Heals a Mute Child.mp3",
+  "duration_sec": 1133.1,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Tzemach Tzedek Heals a Mute Child",
+  "title_basis": "filename",
+  "summary_short": "Chanukah's lesson of adding one light each day, and the story of a boy who could never speak until the Tzemach Tzedek told him to give his mother a message.",
+  "summary_long": "The Chanukah lights teach us to add one more light each day: Torah and mitzvos light our way, and each day Hashem gives us strength to do a little better. The Rebbe once told the man running the Frierdiker Rebbe's free loan fund, who proudly reported its growth, that he asks himself every night whether he could have done better. Modeh Ani's \"great is Your faithfulness\" also means Hashem trusts us to make today better. The yetzer hara pushes for huge resolutions so we give up; the right way is small steps, one light at a time. The thirty-six Chanukah lights recall the thirty-six hours of the hidden light of creation, which tzaddikim can see by. Then the story: a five-year-old boy who has never spoken is sent by his mother to crawl under the table at the Tzemach Tzedek's farbrengen with a note asking a blessing for his sick father. The Rebbe tells him to tell his mother that his father will recover, and the boy runs back and says it. Nobody had told the Rebbe the boy was mute. Looking ahead to Hei Teves, the storyteller urges children to free the sefarim on their own shelves by using them.",
+  "lesson": "Grow a little each day, one light at a time, and remember that when a tzaddik asks something of us, we have the strength to do it.",
+  "keywords": [
+   "Chanukah lights",
+   "one light at a time",
+   "free loan fund",
+   "resolutions",
+   "hidden light",
+   "mute boy",
+   "note",
+   "crawling under the table",
+   "sefarim on the shelf"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Chanukah, shortly before Hei Teves",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Chanukah lesson; 'now it's coming to Hei Teves'. Year not stated."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A boy's father is seriously ill; the Tzemach Tzedek blesses him with recovery."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the mute boy",
+   "his mother",
+   "Rabbi Elchonon Gordon, head of the free loan fund"
+  ],
+  "topics": [
+   "teshuvah",
+   "chabad_rebbeim",
+   "miracles",
+   "calendar"
+  ],
+  "midos": [
+   "hasmadah",
+   "kabbalas_ol",
+   "emunah"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "torah_study",
+   "modeh_ani",
+   "gemilus_chasadim"
+  ],
+  "calendar": [
+   "chanukah",
+   "hei_teves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Freeing the sefarim on our own shelves by using them (Hei Teves)."
+   }
+  ],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 670,
+   "type": "talk",
+   "title": "Chanukah: one more light each day",
+   "summary": "Growing step by step, Modeh Ani, small resolutions and the thirty-six lights."
+  },
+  {
+   "start_sec": 106,
+   "end_sec": 245,
+   "type": "story",
+   "title": "The Rebbe and the free loan fund report",
+   "summary": "The Rebbe asks himself each night whether he could have done better."
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 935,
+   "type": "story",
+   "title": "The mute boy and the Tzemach Tzedek",
+   "summary": "A boy who never spoke delivers the Rebbe's message to his mother."
+  },
+  {
+   "start_sec": 935,
+   "end_sec": 1095,
+   "type": "talk",
+   "title": "Hei Teves: freeing our sefarim",
+   "summary": "Use the sefarim in your home, a little at a time."
+  },
+  {
+   "start_sec": 1095,
+   "type": "qa",
+   "title": "A question from a listener"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song. Ends with an audience member's question ('Yes, you have a question?'), so it was probably recorded before a live group of children."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No theme song; same narrator and talk-plus-story format as the series.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series attributed from narrator style (no theme song); confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:19Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0cc47ed234",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Pre-Sukkos Farbrengen: After Yom Kippur, Now We Do Teshuvah' (Stories, 10:40-13:58), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Tzemach%20Tzedek%20Heals%20a%20Mute%20Child.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Tzemach Tzedek Heals a Mute Child.mp3",
+  "size_bytes": 13598131,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,295 @@
+{
+ "id": "58a54533f7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "140",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 140 - Reward for Kindness (Month of Elul) (1984-09-04).mp3",
+  "duration_sec": 1830.715,
+  "filename_facts": {
+   "episode_number": 140,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 140,
+   "story": "The great surprise",
+   "topic": "צדקה",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 140: Reward for Kindness (Month of Elul)",
+  "title_basis": "on_air",
+  "summary_short": "A girl who gave away apples from her tree discovers a hidden treasure when a storm blows the tree down; plus the Alter Rebbe's parable of the King in the field for Elul.",
+  "summary_long": "Back from summer vacation, Uncle Yossi explains that just as rest and good food strengthen the body, davening, Torah study and daily tzedakah strengthen the soul for the new year. After the Hakochainik march and a sponsor message, a third-grade class from a Brooklyn girls' school leads the Shema. Story time begins with the greatness of tzedakah, which brings Moshiach closer, then tells of Sarah, a poor man's daughter who gave her pennies to beggars and the apples of her backyard tree to hungry families, always teaching them to thank Hashem. When a storm uproots the tree, her father reminds her that whatever Hashem does is good, and in the hole left by the roots they find a chest of treasure. Uncle Yossi then explains the month of Elul: on Rosh Hashanah our deeds are weighed, and teshuvah, tefillah and tzedakah tip the scale. He shares the Alter Rebbe's parable of the King who goes out to the field to greet his people just as they are. The show ends with a new drawing contest, the Shofar Gadol contest, with free copies of the Moshiach Times.",
+  "lesson": "Give tzedakah with a full heart and trust that whatever Hashem does is good; in Elul the King is in the field, so come close through teshuvah, tefillah and tzedakah.",
+  "keywords": [
+   "apple tree",
+   "storm",
+   "hidden treasure",
+   "yellow basket",
+   "beggars",
+   "King in the field",
+   "heavenly scale",
+   "shofar gadol",
+   "drawing contest",
+   "Moshiach Times"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction",
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 140,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1984-09-04",
+   "hebrew": "7 Elul 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Talks about 'now, in the month of Elul' and a contest running until Rosh Hashanah; follows episode 139 (Rosh Chodesh Elul, 28 Aug 1984), so the next Tuesday."
+  },
+  "serial": {
+   "story_key": "reward-for-kindness",
+   "story_title": "Reward for Kindness",
+   "chapter": null
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "Teacher of the visiting class named on air.",
+    "at_sec": 391
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Sarah, a girl who loves tzedakah",
+   "Sarah's father",
+   "the poor families",
+   "the King (parable)"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "hashgacha_pratis",
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "generosity",
+   "bitachon",
+   "hakaras_hatov",
+   "chesed"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "teshuvah",
+   "brachos",
+   "davening",
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Parshas Re'eh",
+    "note": "The Alter Rebbe's parable of the King in the field during Elul."
+   },
+   {
+    "work": "gemara",
+    "ref": "'Israel is redeemed only through tzedakah'",
+    "note": "Cited in the name of the Sages."
+   },
+   {
+    "work": "siddur",
+    "ref": "Machzor: 'Teshuvah, tefillah and tzedakah avert the evil decree'",
+    "note": "Quoted from the Rosh Hashanah prayers."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 150,
+   "type": "opening",
+   "title": "Opening: strengthening body and soul after vacation"
+  },
+  {
+   "start_sec": 150,
+   "end_sec": 270,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 270,
+   "end_sec": 335,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 335,
+   "end_sec": 362,
+   "type": "story_intro",
+   "title": "Today's story: Reward for Kindness"
+  },
+  {
+   "start_sec": 362,
+   "end_sec": 551,
+   "type": "shema_guest",
+   "title": "Shema with a third-grade class from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 551,
+   "end_sec": 617,
+   "type": "talk",
+   "title": "Tzedakah Brings Moshiach",
+   "summary": "Of all the mitzvos, tzedakah is especially treasured and hastens the Geulah."
+  },
+  {
+   "start_sec": 617,
+   "end_sec": 1085,
+   "type": "story",
+   "title": "Reward for Kindness",
+   "summary": "Sarah shares her apples with the poor; when a storm topples her tree, a hidden treasure appears in its roots.",
+   "linked_items": []
+  },
+  {
+   "start_sec": 1085,
+   "end_sec": 1360,
+   "type": "talk",
+   "title": "The Month of Elul: Tipping the Scale",
+   "summary": "Teshuvah erases our mistakes so our mitzvos outweigh them on Rosh Hashanah.",
+   "calendar": [
+    "elul",
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 1360,
+   "end_sec": 1590,
+   "type": "talk",
+   "title": "The King in the Field",
+   "summary": "The Alter Rebbe's parable of the King who goes out to meet his people in Elul.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "elul"
+   ]
+  },
+  {
+   "start_sec": 1590,
+   "end_sec": 1768,
+   "type": "announcement",
+   "title": "The Shofar Gadol drawing contest"
+  },
+  {
+   "start_sec": 1768,
+   "end_sec": 1797,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4ae3b5e23e",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "Story announced on air as 'Reward for Kindness'; audio-fingerprint candidate shows a shared segment with 'Reward for Kindness 493'."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Catalog title 'The great surprise'; on air the story is called 'Reward for Kindness'. Contest and sponsor are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Lazar",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Gimmel (class reciting the Shema)",
+    "start_sec": 362,
+    "end_sec": 551
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:46Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20140%20-%20Reward%20for%20Kindness%20%28Month%20of%20Elul%29%20%281984-09-04%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 140 - Reward for Kindness (Month of Elul) (1984-09-04).mp3",
+  "size_bytes": 21969719,
+  "mime_type": "audio/mpeg"
+ }
+}

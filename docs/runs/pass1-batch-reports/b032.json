@@ -1,0 +1,24 @@
+{
+ "batch_id": "b032",
+ "done": [
+  "26ea9a56c1", "d763b291e6", "42bbcb8057",
+  "964b1d68cc", "0886846f0f", "3dc9b7eae9",
+  "b70ca9e7ce", "cd32aa7e6a", "9009cfad88",
+  "dfed566766", "de06368210", "cf4291cf0b",
+  "d8110e6dc7", "3f1b99b89b", "66bca5ffd7",
+  "6787db0918", "f783cbfe0c",
+  "8e97b7f750", "3575b7812c"
+ ],
+ "failed": [],
+ "notes": [
+  "Dates for episodes 418-423 are confirmed from audio cues: 418 = 2 Adar 5750 (yahrzeit 'today, Beis Adar'), 419 = 9 Adar (Megillah on Motzei Shabbos), 420 = 16 Adar (right after Purim), 421 = 23 Adar (Shabbos Mevarchim Nissan), 422 = 1 Nissan (said on air), 423 = 8 Nissan (right before Pesach). All match the weekly estimate.",
+  "Episode 424 (8e97b7f750) and its clip 3575b7812c: the weekly estimate (10 April 1990 = 15 Nissan, first day of Pesach) cannot be right. The content is after Pesach, during Sefirah, so the likely date is 17 or 24 April 1990. Set to month precision. The sequence for 425 onward may be one week off.",
+  "The Mystery of Toras Emes is a two-part serial: 420 (b70ca9e7ce) is chapter 1 and 421 (dfed566766) is chapter 2. A 'continues' relation was added on 421.",
+  "The Mitzvah Time Shema series runs through every episode in this batch (418-424). The Inyonei Mitzvos 'Shema' clips are consecutive lessons. Pass 2 may want a set relation.",
+  "Episode 424: the story starts abruptly right after 'here comes story time', so its opening may be cut (marked splice_glitch). Both 424 files are very quiet sources (pipeline flag).",
+  "Episode 421 has a stray phrase after the closing at about 29:48.",
+  "In episode 419 the opening line of clip 3dc9b7eae9 does not appear in the episode transcript, probably an ASR gap in the episode.",
+  "Two phone-quiz girls in 421 (Riva Reis) and 422 (Dina Davidowitz) give the same school, class and teacher. The names are kept in hidden only.",
+  "Identity clue: in 418 the phone-quiz child is 'Schneur Zalman Goldstein' and in 424 the studio guest is 'Alter Yehoshua Goldstein' from Ann Arbor. They may be relatives of the host, but this is not stated."
+ ]
+}

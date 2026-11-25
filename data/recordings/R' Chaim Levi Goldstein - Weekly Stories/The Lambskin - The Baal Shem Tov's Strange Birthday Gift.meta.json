@@ -1,0 +1,185 @@
+{
+ "id": "b2fa343143",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Lambskin aaa",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Lambskin - The Baal Shem Tov's Strange Birthday Gift.mp3",
+  "duration_sec": 1212.825,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Lambskin: The Baal Shem Tov's Strange Birthday Gift",
+  "title_basis": "filename",
+  "summary_short": "An innkeeper deep in debt to a cruel poritz is told by the Baal Shem Tov to buy a plain lambskin and give it as a birthday gift. It sounds foolish, but he follows the tzaddik's instructions.",
+  "summary_long": "The storyteller opens with emunas tzaddikim: we follow a tzaddik's instructions even when they make no sense to us. Reb Moshe, a G-d-fearing innkeeper, rents his inn from Tadeusz, a cruel and wasteful poritz who demands a full year's rent in advance. After hard summers and snowbound winters, Moshe owes two years' rent and is threatened with prison for his whole family. His wife Rivkah urges him to go to the Baal Shem Tov in Mezhibuzh. The Baal Shem Tov tells him that bitachon comes first, like plugging in a machine before it can work, and then sends him to the market with a silver coin, where a peasant sells him a lambskin. The Baal Shem Tov runs his fingers over it and tells Moshe to give it to the poritz at his birthday party. Terrified, Moshe goes anyway. The angry poritz throws him into the cellar while his guests mock the gift, until one of them spreads it out and finds the poritz's name, birth date and emblem woven into it in beautiful artwork. Overjoyed, the poritz cancels the debt, gives Moshe the inn and sends gold to the Baal Shem Tov, and Moshe becomes his Chassid.",
+  "lesson": "Trust in Hashem first, then follow a tzaddik's instructions even when you do not understand them; you will always succeed.",
+  "keywords": [
+   "lambskin",
+   "innkeeper",
+   "rent",
+   "poritz",
+   "birthday party",
+   "silver coin",
+   "marketplace",
+   "cellar",
+   "artwork",
+   "gifts"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor family in debt is threatened with prison and eviction; resolved happily."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "Tipsy noblemen mock the gift at a party."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Moshe the innkeeper",
+   "Rivkah, his wife",
+   "Tadeusz, the poritz",
+   "the old poritz",
+   "the peasant",
+   "the doorman",
+   "the noblemen"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "hiskashrus",
+   "emunah_bitachon",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "emunah"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Mezhibuzh"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "talk",
+   "title": "Trusting the words of a tzaddik"
+  },
+  {
+   "start_sec": 30,
+   "type": "story",
+   "title": "The lambskin",
+   "people": [
+    "baal_shem_tov"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "7515df930a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Baal Shem Tov and the Lambskin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song. Filename suffix 'aaa' unexplained (possibly a take marker). ASR writes 'pirates'/'parrots' for poritz and once 'Moshiach' for Moshe."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No song or series name; same narrator and 'plug in the machine' teaching as 'Im Yirtze Hashem - Of Course'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series attribution from narrator style (no opening song); confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Lambskin%20-%20The%20Baal%20Shem%20Tov%27s%20Strange%20Birthday%20Gift.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Lambskin - The Baal Shem Tov's Strange Birthday Gift.mp3",
+  "size_bytes": 14554830,
+  "mime_type": "audio/mpeg"
+ }
+}

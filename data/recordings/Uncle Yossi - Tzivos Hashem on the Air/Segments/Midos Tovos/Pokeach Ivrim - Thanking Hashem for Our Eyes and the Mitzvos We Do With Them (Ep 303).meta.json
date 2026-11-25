@@ -1,0 +1,157 @@
+{
+ "id": "7bb07aa4f3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Eyes 303",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Pokeach Ivrim - Thanking Hashem for Our Eyes and the Mitzvos We Do With Them (Ep 303).mp3",
+  "duration_sec": 549.637,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 303,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 303,
+   "story": "The Golden Staff #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Pokeach Ivrim: Thanking Hashem for Our Eyes and the Mitzvos We Do With Them",
+  "title_basis": "content",
+  "summary_short": "Why we thank Hashem every morning for the power to see, the many mitzvos we do with our eyes, and why we should look only at good things.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, part of a series on starting the day the right way. Uncle Yossi explains the morning brachah Pokeach Ivrim: even with eyes, we can only see because Hashem gives us the power, just as a light bulb needs electricity. He goes through the many mitzvos we do with our eyes: enjoying the Havdalah flame, gazing at the Chanukah lights, coming close to see the letters of the Torah at Hagbah, looking at the new moon for Kiddush Levanah, looking at tzitzis to remember all the mitzvos, seeing the blossoming trees in Nissan, lightning and the rainbow, and looking at the face of a tzaddik, which inspires us to grow. In the days of the Beis HaMikdash, Jews came three times a year to see its miracles. So we must use our eyes only for good and modest things, and Hashem will bless us to see the greatest sight of all: the coming of Moshiach.",
+  "lesson": "Thank Hashem for the gift of sight, and use your eyes only to see good and holy things.",
+  "keywords": [
+   "eyes",
+   "sight",
+   "light bulb",
+   "Havdalah candle",
+   "Kiddush Levanah",
+   "Hagbah",
+   "rainbow",
+   "lightning",
+   "tzaddik's face"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 303,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-11-24",
+   "hebrew": "3 Kislev 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 303 (6ad4603cff). Episode: Consistent with the audio: Shabbos candles 'this coming Friday, November the 27th' at 4:13."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos",
+   "morning_routine",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "tznius",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "brachos",
+   "havdalah",
+   "chanukah_lights",
+   "tzitzis"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "5:5",
+    "note": "The ten miracles seen in the Beis HaMikdash."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'right in the middle of learning how to start the day', referring to an ongoing series; still understandable alone."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:02Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6ad4603cff",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 35,
+   "note": "Episode 303 (filename number); clip = 35-585 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Pokeach%20Ivrim%20-%20Thanking%20Hashem%20for%20Our%20Eyes%20and%20the%20Mitzvos%20We%20Do%20With%20Them%20%28Ep%20303%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Pokeach Ivrim - Thanking Hashem for Our Eyes and the Mitzvos We Do With Them (Ep 303).mp3",
+  "size_bytes": 6596511,
+  "mime_type": "audio/mpeg"
+ }
+}

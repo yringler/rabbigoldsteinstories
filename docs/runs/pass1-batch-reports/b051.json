@@ -1,0 +1,28 @@
+{
+ "batch_id": "b051",
+ "done": [
+  "a70d104e90",
+  "a06fb5b0d9",
+  "048cba0e8e",
+  "6b6fec027a",
+  "6164b3359f",
+  "a690295602",
+  "f9f2974567",
+  "db6ee5b364",
+  "65cc733f61"
+ ],
+ "skipped_already_done": [
+  "aae4e91c38"
+ ],
+ "failed": [],
+ "notes": [
+  "6b6fec027a (94.6 min) is the complete home recording. 'Bubby Chaya Malka 1' (a06fb5b0d9) and '2' (048cba0e8e) are its two halves, split mid-sentence in the Shmuel HaNavi story. I set them as part 1 and 2 of set 'bubby-chaya-malka' (part_of_set, continues) and recommended 'review': a human should decide whether to publish the halves, the joined file, or both.",
+  "Single-story clips: a70d104e90 (Besht and the Bear), 6164b3359f (dayeinu), db6ee5b364 (Reb Meir), 65cc733f61 (shmuel hanovie), a690295602 (coin), f9f2974567 (cup), aae4e91c38 (butcher). The 'Stories' root copies of a70d104e90, 6164b3359f, f9f2974567, db6ee5b364 and 65cc733f61 have duplicate copies in the Bubby Chaya Malka folder (181e0774ff, c642af82e3, 19a020abf8, b4e22b1425, 432c8aa752 per pipeline_flags). Those are not catalog ids, so I added no relations.",
+  "a70d104e90: the fingerprint showed only partial overlap with 6b6fec027a, but the text is identical, so I added clip_of 6b6fec027a (text_overlap, offset about 28s).",
+  "65cc733f61 (Shmuel) spans the break between part 1 and part 2. The candidate 'aired_again_in' with a06fb5b0d9 is really a partial overlap, so I did not add it.",
+  "Speaker is Bubby Chaya Malka, from the folder name; she never names herself. She names her grandchildren (Rochele, Chezkele/Chezki, Dvoirele/Dvorah, Kalmele, Shimi, Toibele). These are in hidden with private_family and minor_named.",
+  "The stories are told before Pesach. No year is given, so I set no date.",
+  "Proposed new people term: Eli HaKohen (eli_hakohen).",
+  "The Butcher item (aae4e91c38, already DONE) refers to the 'butcher and tailor'. In the full recording the storekeeper sells dry goods."
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "id": "326ab9f203",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "rest of prep of erev pesach",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Erev Pesach in Yiddish - Seder Korban Pesach and Helping at Home (Excerpt) (other version).mp3",
+  "duration_sec": 357.599,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Erev Pesach in Yiddish: Seder Korban Pesach and Helping at Home (Excerpt)",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish talk for children on Erev Pesach afternoon: saying Seder Korban Pesach after Minchah, helping at home, clean hands and what not to eat.",
+  "summary_long": "Told in Yiddish to children, this talk covers Erev Pesach afternoon. In the days of the Beis HaMikdash the Korban Pesach was brought after the afternoon Tamid offering; today we daven Minchah and then say Seder Korban Pesach, think about the destruction of the Beis HaMikdash, and pray that it be rebuilt speedily. In the time that is left, children ask their parents how they can help finish the preparations, a great mitzvah on so busy a day: watching the baby, or bringing apples and nuts, cracking nuts and peeling apples for the charoses. Before touching anything in the Pesach kitchen they must wash their hands well, since hands that touched a door or the street may carry chametz. On Erev Pesach we do not eat matzah, so that we will eat it with appetite at the Seder, nor the fruits and nuts that go into the charoses. Then Mother and the older sisters light candles, and everyone goes to shul wishing a good Yom Tov.",
+  "lesson": "Helping your parents prepare for Pesach is a great mitzvah.",
+  "keywords": [
+   "Minchah",
+   "charoses",
+   "apples",
+   "nuts",
+   "washing hands",
+   "kitchen",
+   "baby",
+   "candle lighting"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "talk",
+  "story_type": [],
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "needs_context"
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "halachah",
+   "family_and_home"
+  ],
+  "midos": [
+   "kibbud",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem",
+   "matzah",
+   "davening",
+   "shabbos_candles",
+   "chametz"
+  ],
+  "calendar": [
+   "erev_pesach",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 150,
+   "type": "halachah",
+   "title": "Seder Korban Pesach after Minchah",
+   "summary": "The Korban Pesach in the Beis HaMikdash, and saying its order today after Minchah."
+  },
+  {
+   "start_sec": 150,
+   "end_sec": 266,
+   "type": "talk",
+   "title": "Helping Mommy and Tatty",
+   "summary": "Helping with the baby and the charoses is a great mitzvah on Erev Pesach."
+  },
+  {
+   "start_sec": 266,
+   "type": "halachah",
+   "title": "Clean hands and what we do not eat",
+   "summary": "Washing before touching Pesach dishes, not eating matzah or charoses fruits, then candle lighting and shul."
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "4673f6eb79",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'rest of preparations of erev pesach' (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "4673f6eb79",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "'rest of preparations of erev pesach' has the same audio plus the opening minute on resting before the Seder."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 4673f6eb79 ('rest of preparations of erev pesach'), the preferred copy: the same audio without the first minute."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No name, sign-off or credit in the recording; the teacher addresses 'kinderlach' throughout.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Teacher not named; possibly Rabbi Yosef Goldstein (same archive), unconfirmed."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Erev%20Pesach%20in%20Yiddish%20-%20Seder%20Korban%20Pesach%20and%20Helping%20at%20Home%20%28Excerpt%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Erev Pesach in Yiddish - Seder Korban Pesach and Helping at Home (Excerpt) (other version).mp3",
+  "size_bytes": 4292232,
+  "mime_type": "audio/mpeg"
+ }
+}

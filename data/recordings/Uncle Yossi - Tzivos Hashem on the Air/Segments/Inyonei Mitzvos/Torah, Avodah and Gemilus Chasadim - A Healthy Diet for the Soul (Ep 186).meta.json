@@ -1,0 +1,211 @@
+{
+ "id": "e0f067ddc8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Torah Avoda Ge'mach 186",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Torah, Avodah and Gemilus Chasadim - A Healthy Diet for the Soul (Ep 186).mp3",
+  "duration_sec": 322.789,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 186,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 186,
+   "story": "",
+   "topic": "איכה י' אב",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Torah, Avodah and Gemilus Chasadim: A Healthy Diet for the Soul",
+  "title_basis": "content",
+  "summary_short": "The world stands on three things: learning Torah, davening to Hashem and acts of kindness, especially daily tzedakah. Uncle Yossi calls them Hashem's diet for a healthy neshamah.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded in the summer. Uncle Yossi teaches that the world stands on three things. Torah is our lifeline and the source of our existence, so we must set aside time to learn every day. Avodah is davening: as the Rambam taught, whatever we need, the only One to turn to is Hashem, who creates and sustains the world every second, so we pray every day with confidence that He hears us. Gemilus Chasadim, acts of kindness, includes everything between us and Hashem and between us and other people, and above all the mitzvah of tzedakah. Giving tzedakah every day helps those in need and also changes the giver, who becomes more refined with every good deed. Torah, Avodah and Gemilus Chasadim are Hashem's prescribed diet for a strong, healthy neshamah, and a blessing for a successful summer vacation.",
+  "lesson": "Learn Torah, daven and give tzedakah every day: that is the diet that keeps the neshamah healthy.",
+  "keywords": [
+   "three pillars",
+   "lifeline",
+   "prayer",
+   "charity",
+   "diet",
+   "healthy soul"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 186,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-07-23",
+   "hebrew": "4 Av 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 186 (17d9dca041). Episode: No music 'for the past three weeks', Eicha for Tisha B'Av (catalog: 'Eicha, 10 Av', the postponed fast of 5745). Same recording as episode 1"
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "torah_study",
+   "prayer_and_brachos",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "gemilus_chasadim"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Evergreen talk re-aired many times; ends with a summer-vacation blessing."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:51Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0d4dd89383",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 337."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3d8a6f67a3",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "Also aired in episode 34."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6c110183df",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 287."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "9cef1efc9e",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 238."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b325e66419",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 438."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c69b013e95",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 488."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c8f2c07973",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 389."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f33fa1ac66",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.91,
+   "note": "Audio also found in episode 136."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "17d9dca041",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 25,
+   "note": "Episode 186 (filename number); clip = 25-348 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Torah%2C%20Avodah%20and%20Gemilus%20Chasadim%20-%20A%20Healthy%20Diet%20for%20the%20Soul%20%28Ep%20186%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Torah, Avodah and Gemilus Chasadim - A Healthy Diet for the Soul (Ep 186).mp3",
+  "size_bytes": 3874362,
+  "mime_type": "audio/mpeg"
+ }
+}

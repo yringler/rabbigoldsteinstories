@@ -1,0 +1,312 @@
+{
+ "id": "c8f2c07973",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "389 08-08-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 389 - The Dike (Tisha B'Av) (1989-08-08).mp3",
+  "duration_sec": 1767.323,
+  "filename_facts": {
+   "episode_number": 389,
+   "date_in_filename": "1989-08-08",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 389,
+   "story": "The dike",
+   "topic": "איכה",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 389: The Dike (Tisha B'Av)",
+  "title_basis": "master_catalog",
+  "summary_short": "Before Tisha B'Av: a girl swept away when a dike breaks in Holland is found years later through the light of Shabbos candles, plus the ancient tune of Eichah.",
+  "summary_long": "Broadcast two days before Tisha B'Av 5749. Uncle Yossi teaches that the world stands on three things, Torah, Avodah and Gemilus Chasadim, a 'diet' for a healthy soul, and stresses daily tzedakah, which refines a person's character. A first-grade boy recites the Shema. The story 'The Dike' takes place in a Dutch town by the sea, where two devoted sisters live. When the dike breaks, everyone flees, but the younger sister, slowed by an old injury, falls asleep exhausted and is carried off by a harsh old woman who works her hard for three years and tells her she has no family left. She forgets her home and even that she is Jewish. Sent to sell butter and cheese at a distant fair, she walks home at dusk and sees Shabbos candles in a window; the memories come flooding back, she knocks, and finds her own family. Uncle Yossi then talks about the power of music, explains that the mournful tune of Eichah may be sung even on Tisha B'Av as a song of exile and hope, chants it, and reminds listeners of the fast.",
+  "lesson": "The light of Shabbos candles can bring a lost Jewish soul back home.",
+  "keywords": [
+   "Holland",
+   "dike",
+   "flood",
+   "sisters",
+   "old woman",
+   "fair",
+   "butter and cheese",
+   "Shabbos candles",
+   "Eichah",
+   "music"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 389,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-08-08",
+   "hebrew": "7 Av 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename"
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A lost girl is kept for three years by a harsh woman who overworks her and tells her she has no family.",
+    "at_sec": 732
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A flood after the dike breaks; a threatened beating.",
+    "at_sec": 640
+   },
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Tisha B'Av and the mourning of exile.",
+    "at_sec": 1240
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 370
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Gittel",
+   "Leah, her older sister",
+   "the harsh old woman",
+   "the girls' parents"
+  ],
+  "topics": [
+   "shabbos",
+   "family_and_home",
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "gemilus_chasadim",
+   "fast_days",
+   "shema"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "nine_days",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:2",
+    "note": "The world stands on Torah, Avodah and Gemilus Chasadim (cited as 'our Chachamim')."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:1",
+    "note": "'Az yashir': the future tense hints at the song we will sing when Moshiach comes."
+   }
+  ],
+  "places": [
+   "Holland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 17,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 17,
+   "end_sec": 341,
+   "type": "talk",
+   "title": "Torah, Avodah and Gemilus Chasadim",
+   "summary": "Three things the world stands on, a 'diet' for a healthy soul; why daily tzedakah refines us.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 341,
+   "end_sec": 488,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade boy"
+  },
+  {
+   "start_sec": 488,
+   "end_sec": 1206,
+   "type": "story",
+   "title": "The Dike",
+   "summary": "A girl lost in a flood forgets her Jewishness until Shabbos candles in a window lead her back to her family."
+  },
+  {
+   "start_sec": 1206,
+   "end_sec": 1240,
+   "type": "song",
+   "title": "The chant of Eichah"
+  },
+  {
+   "start_sec": 1240,
+   "end_sec": 1589,
+   "type": "talk",
+   "title": "Music and the song of exile",
+   "summary": "Music is Hashem's gift; the tune of Eichah, sung even on Tisha B'Av, is a song of exile and hope.",
+   "people": [
+    "moshe_rabbeinu"
+   ],
+   "calendar": [
+    "tisha_bav"
+   ]
+  },
+  {
+   "start_sec": 1589,
+   "end_sec": 1628,
+   "type": "announcement",
+   "title": "Tisha B'Av this Thursday",
+   "calendar": [
+    "tisha_bav"
+   ]
+  },
+  {
+   "start_sec": 1628,
+   "end_sec": 1686,
+   "type": "announcement",
+   "title": "Tzivos Hashem summer event"
+  },
+  {
+   "start_sec": 1686,
+   "end_sec": 1743,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1743,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Chanting of Eichah around 20:06 and a likely sung passage at 25:36-26:29 are only partly transcribed. Event date, sponsor and phone number are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Baruch Azriel Tzvi Hirsh Shafran",
+    "role": "shema_guest",
+    "group": "Kitah Alef",
+    "start_sec": 362,
+    "end_sec": 488
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Audio-fingerprint candidates (episodes 238, 287, 337 and 'Tisha B'Av 287') share a segment with this show; not verified."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:27Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "2647489fa0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Gittel and the Candles: The Lost Sister' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a78808ef52",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Gittel and the Shabbos Candles: A Chanukah Story' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20389%20-%20The%20Dike%20%28Tisha%20B%27Av%29%20%281989-08-08%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 389 - The Dike (Tisha B'Av) (1989-08-08).mp3",
+  "size_bytes": 21208937,
+  "mime_type": "audio/mpeg"
+ }
+}

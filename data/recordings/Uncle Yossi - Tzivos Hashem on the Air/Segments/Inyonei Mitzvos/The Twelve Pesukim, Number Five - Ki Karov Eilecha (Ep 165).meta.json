@@ -1,0 +1,146 @@
+{
+ "id": "25c32cec0a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "12 Psukim Ki Karov 5 165",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Twelve Pesukim, Number Five - Ki Karov Eilecha (Ep 165).mp3",
+  "duration_sec": 127.561,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 165,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 165,
+   "story": "Three lost on an island #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Twelve Pesukim, Number Five: Ki Karov Eilecha",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains Ki Karov Eilecha, the fifth of the Twelve Pesukim: serving Hashem with mouth, heart and actions is very close to every one of us.",
+  "summary_long": "A short teaching from the Tzivos Hashem radio show. Uncle Yossi reviews the first four of the Twelve Pesukim (Torah Tziva, Shema Yisroel, Bechol Dor Vador and Kol Yisroel) and introduces number five, Ki Karov Eilecha. This pasuk brings good news: learning Torah and doing mitzvos is not so hard after all, because it is very close to us. He explains it phrase by phrase. 'In your mouth' means saying brachos, learning Torah and davening; 'in your heart' means the thoughts of the mind that come from deep in the heart; and 'to do it' means doing the mitzvos in action. All of this is within reach of every child: you must try your best, and Hashem will do the rest.",
+  "lesson": "Serving Hashem with your speech, thoughts and actions is close to you: try your very best and Hashem will do the rest.",
+  "keywords": [
+   "Ki Karov Eilecha",
+   "mouth",
+   "heart",
+   "action",
+   "Twelve Pesukim",
+   "brachos"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 165,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-02-26",
+   "hebrew": "5 Adar 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Clip of episode 165, aired the week after Rosh Chodesh Adar 5745 (episode 164 was its eve)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "tzivos_hashem",
+   "torah_study"
+  ],
+  "midos": [
+   "hasmadah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "torah_study",
+   "brachos",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('And today we're up to...') but stands on its own."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:24Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "3c57114b54",
+   "evidence": "text_overlap",
+   "confidence": 0.77,
+   "offset_sec": 94,
+   "note": "Episode 165 (filename number); clip = 94-221 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Twelve%20Pesukim%2C%20Number%20Five%20-%20Ki%20Karov%20Eilecha%20%28Ep%20165%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Twelve Pesukim, Number Five - Ki Karov Eilecha (Ep 165).mp3",
+  "size_bytes": 1531806,
+  "mime_type": "audio/mpeg"
+ }
+}

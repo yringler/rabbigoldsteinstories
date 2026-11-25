@@ -1,0 +1,336 @@
+{
+ "id": "0477e253d6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "444",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 444 - The Strange Beggar, Chapter 2 (Selichos) (1990-09-11).mp3",
+  "duration_sec": 1794.514,
+  "filename_facts": {
+   "episode_number": 444,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 444,
+   "story": "The strange beggar #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 444: The Strange Beggar, Chapter 2 (Selichos)",
+  "title_basis": "master_catalog",
+  "summary_short": "Before Selichos, Uncle Yossi explains the blessing of the last Shabbos of the year; in the story, Rabbi Yisrael disguises himself as a beggar.",
+  "summary_long": "Broadcast a few days before Selichos 5750. Uncle Yossi explains that on the last Shabbos of the year Hashem gives a blessing for the whole coming year, as the Zohar teaches that Shabbos is the source of blessing for all the days, which is why we say Tehillim early that morning. Selichos begin after midnight that Shabbos night, so the blessing reaches us in full with a clean record. After the Hakochainik march and the pushka, two young brothers visiting from Madrid, Spain recite the Shema. Story time continues 'The Strange Beggar': Rabbi Yisrael disguises himself in shabby clothes and goes from door to door in the town that wants him as rabbi, but every door is slammed in his face. Saddened, he decides that these people need a teacher all the more, and he thinks up a new plan to teach them a lesson. A teenage listener's letter thanks Tzivos Hashem for eight years of programs and asks about the story-time tapes. The show ends with a Selichos reminder and Shabbos candle times.",
+  "lesson": "Welcome guests and give tzedakah gladly; and a leader helps people improve instead of giving up on them.",
+  "keywords": [
+   "beggar",
+   "disguise",
+   "shabby clothes",
+   "slammed door",
+   "town rabbi",
+   "last Shabbos of the year",
+   "Tehillim",
+   "story-time tapes",
+   "Madrid"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 444,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-09-11",
+   "hebrew": "21 Elul 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Selichos begin 'this coming Shabbos night', the last Shabbos of the year, with Rosh Hashanah the following week: the Tuesday before is 21 Elul 5750. Candle time 6:49 fits mid-September."
+  },
+  "serial": {
+   "story_key": "the-strange-beggar",
+   "story_title": "The Strange Beggar",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guests and a letter writer named in full on air.",
+    "at_sec": 671
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisrael, a Torah scholar",
+   "Sarah, his wife",
+   "the townspeople"
+  ],
+  "topics": [
+   "calendar",
+   "kindness_and_community",
+   "teshuvah"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "ahavas_yisroel",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_orchim",
+   "teshuvah",
+   "tehillim",
+   "shema"
+  ],
+  "calendar": [
+   "selichos",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "ref": "II 63b",
+    "note": "From Shabbos all the days are blessed."
+   },
+   {
+    "work": "siddur",
+    "ref": "Lecha Dodi",
+    "note": "'Ki hi mekor haberachah.'"
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Teaching attributed to the Baal Shem Tov: Hashem Himself blesses the month of Tishrei on the last Shabbos of the year."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "opening",
+   "title": "Opening"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 397,
+   "type": "talk",
+   "title": "The Last Shabbos of the Year and Selichos",
+   "summary": "Hashem's blessing for the whole year on the last Shabbos, Tehillim in the morning, and Selichos after midnight.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "calendar": [
+    "selichos"
+   ],
+   "linked_items": [
+    "a0bfb40767"
+   ]
+  },
+  {
+   "start_sec": 397,
+   "end_sec": 580,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 580,
+   "end_sec": 643,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 643,
+   "end_sec": 791,
+   "type": "shema_guest",
+   "title": "Shema with two young visitors from Madrid, Spain"
+  },
+  {
+   "start_sec": 791,
+   "end_sec": 888,
+   "type": "story_intro",
+   "title": "Recap of The Strange Beggar"
+  },
+  {
+   "start_sec": 888,
+   "end_sec": 1305,
+   "type": "story_chapter",
+   "title": "The Strange Beggar, Chapter 2",
+   "summary": "Disguised as a beggar, Rabbi Yisrael is turned away at every door and resolves to teach the town a lesson.",
+   "story_key": "the-strange-beggar",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1305,
+   "end_sec": 1355,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1355,
+   "end_sec": 1645,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: eight years of listening"
+  },
+  {
+   "start_sec": 1645,
+   "end_sec": 1718,
+   "type": "announcement",
+   "title": "Selichos reminder and Shabbos candle times",
+   "calendar": [
+    "selichos"
+   ]
+  },
+  {
+   "start_sec": 1718,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "a0bfb40767",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Selichos 444' = 43-397 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "c76133006f",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 443 = 'The strange beggar #1', 444 = '#2'; recap confirms."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "c76133006f",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Strange Beggar' (1990): ep 443 ch. 1 and ep 444 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1ede044c5a",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Strange Beggar' (1990): ep 444 ch. 2 and ep 445 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guests and a letter writer are named (see hidden). Tape offer, sponsor and candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Schneur Zalman Goldstein",
+    "role": "shema_guest",
+    "group": "Madrid, Spain",
+    "start_sec": 671,
+    "end_sec": 791
+   },
+   {
+    "name": "Menachem Mendel Goldstein",
+    "role": "shema_guest",
+    "group": "Madrid, Spain",
+    "start_sec": 671,
+    "end_sec": 791
+   },
+   {
+    "name": "Sarah Lichtenstein",
+    "role": "mailbox_letter",
+    "group": "New Jersey",
+    "start_sec": 1355,
+    "end_sec": 1645,
+    "note": "Age 14; has listened since the program began eight years earlier; asked about the story-time tapes."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Letter writer is 14, attends a yeshiva and listens with her younger brothers and sisters.",
+    "start_sec": 1380,
+    "end_sec": 1440
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20444%20-%20The%20Strange%20Beggar%2C%20Chapter%202%20%28Selichos%29%20%281990-09-11%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 444 - The Strange Beggar, Chapter 2 (Selichos) (1990-09-11).mp3",
+  "size_bytes": 21535250,
+  "mime_type": "audio/mpeg"
+ }
+}

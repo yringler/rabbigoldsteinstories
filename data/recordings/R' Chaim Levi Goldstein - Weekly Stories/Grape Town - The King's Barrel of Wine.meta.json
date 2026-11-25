@@ -1,0 +1,204 @@
+{
+ "id": "4fa6f295a0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Grape Town",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Grape Town - The King's Barrel of Wine.mp3",
+  "duration_sec": 928.94,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Grape Town: The King's Barrel of Wine",
+  "title_basis": "filename",
+  "summary_short": "A boy wonders whether he must daven if the whole class is davening anyway. His teacher answers with the story of a town that filled the king's barrel with wine, or so everyone thought.",
+  "summary_long": "In class, a boy's yetzer hara argues that he need not say every word of davening, since the whole class is davening and Moshiach will come anyway; his yetzer tov answers that the Rebbe said each person must do his own part. After davening the teacher tells a story. Grape Town grows the sweetest grapes in the land, and its people make the finest wine. When the king announces a royal visit to taste it, everyone wants the honor of serving him, so they agree to pour a bottle each into one giant barrel in the marketplace. Along the way the storyteller explains why wine must be kept covered from non-Jews and what mevushal wine is. Beryl climbs the ladder with his best wine, then decides to keep it and pour in water instead, since no one will notice one bottle. But every single townsperson has the same idea. When the king opens the tap, out comes water, again and again. The king is not angry: he teaches them to do good things themselves and not rely on others. The boy understands, and from then on davens every word, because Hashem wants to hear every child's voice.",
+  "lesson": "When there is something good to do, do it yourself and don't rely on others; Hashem wants to hear every child's own davening.",
+  "keywords": [
+   "grapes",
+   "wine",
+   "barrel",
+   "king",
+   "royal visit",
+   "ladder",
+   "water",
+   "classroom",
+   "yetzer hara",
+   "mevushal"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "mashal_parable",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the boy in class",
+   "his yetzer tov and yetzer hara",
+   "the teacher",
+   "Beryl",
+   "Yossi and Mendy",
+   "the king",
+   "the mayor"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "moshiach_geulah",
+   "kashrus",
+   "character"
+  ],
+  "midos": [
+   "responsibility",
+   "emes",
+   "self_control",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "davening",
+   "kashrus",
+   "kiddush"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 55,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 55,
+   "end_sec": 170,
+   "type": "story",
+   "title": "The argument during davening"
+  },
+  {
+   "start_sec": 170,
+   "end_sec": 505,
+   "type": "story",
+   "title": "Grape Town prepares for the king"
+  },
+  {
+   "start_sec": 505,
+   "end_sec": 570,
+   "type": "halachah",
+   "title": "Keeping wine covered; what is mevushal"
+  },
+  {
+   "start_sec": 570,
+   "type": "story",
+   "title": "A barrel full of water"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends right after the lesson with no sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:46Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "3b7fd42cf1",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 519: The Big Barrel of Wine (Shabbos Zachor)' (episode 519, 17:04-27:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "45db0c2fb5",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 479: The Big Barrel of Wine (Rosh Chodesh Sivan)' (episode 479, 16:02-27:48), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6f9edbf8da",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 386: The Big Barrel of Wine (Shiva Asar B'Tammuz)' (episode 386, 12:54-23:56), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Grape%20Town%20-%20The%20King%27s%20Barrel%20of%20Wine.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Grape Town - The King's Barrel of Wine.mp3",
+  "size_bytes": 11148042,
+  "mime_type": "audio/mpeg"
+ }
+}

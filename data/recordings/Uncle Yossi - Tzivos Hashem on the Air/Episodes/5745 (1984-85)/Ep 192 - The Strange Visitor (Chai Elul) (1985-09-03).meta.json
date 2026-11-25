@@ -1,0 +1,305 @@
+{
+ "id": "53e581f8e2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "192",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 192 - The Strange Visitor (Chai Elul) (1985-09-03).mp3",
+  "duration_sec": 1801.076,
+  "filename_facts": {
+   "episode_number": 192,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 192,
+   "story": "The strange visitor",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 192: The Strange Visitor (Chai Elul)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Chai Elul show: 192 weeks on the air, a march to 'Sheyibaneh Beis HaMikdash', Shema with a young guest, and the story of the orphan Yisrolik and the stranger in the cave.",
+  "summary_long": "Broadcast on 17 Elul 5745, the eve of Chai Elul. Uncle Yossi celebrates program number 192, nearly four years of songs, contests, Mitzvah Time and stories, and the classes who record the show to play in school. Back from summer vacation, he urges strong Elul resolutions and asks for the one wish that includes all others, Moshiach now, leading into a Hakochainik march to 'Sheyibaneh Beis HaMikdash' from Pirkei Avos. After sponsor messages, a young guest leads the Shema. For Chai Elul, the birthday of the Baal Shem Tov, story time tells of little Yisrolik, orphaned at five, who never forgot his father's last words: fear nothing and no one, only Hashem. He studies alone in a cave in the woods until a stranger with a white beard and shining eyes finds him, hears that he is not alone because Hashem is with him, and becomes his teacher. Uncle Yossi reveals that the boy grew up to be the Baal Shem Tov, notes that Chai Elul is also the Alter Rebbe's birthday, and announces the Tzivos Hashem Sukkos Experience on the first day of Chol HaMoed.",
+  "lesson": "Fear only Hashem, and you are never alone; a birthday of a tzaddik is a special time to ask Hashem for blessings.",
+  "keywords": [
+   "Chai Elul",
+   "cave",
+   "orphan",
+   "stranger",
+   "white beard",
+   "forest",
+   "birthday",
+   "Sukkos fair",
+   "192nd program"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 192,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-09-03",
+   "hebrew": "17 Elul 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the 17th of Elul, and tonight begins Chai Elul'; Sukkos fair on 'Wednesday, October 2', the first day of Chol HaMoed 5746."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The hero is orphaned at five and remembers his father's words at his deathbed.",
+    "at_sec": 866
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 609
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "little Yisrolik (the young Baal Shem Tov)",
+   "Yisrolik's father",
+   "the stranger with the white beard"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "calendar",
+   "torah_study",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "courage",
+   "hasmadah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema",
+   "teshuvah"
+  ],
+  "calendar": [
+   "chai_elul",
+   "elul",
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "5:20",
+    "note": "Words of the 'Sheyibaneh Beis HaMikdash' march, named on air."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 37,
+   "type": "opening",
+   "title": "Opening: program number 192"
+  },
+  {
+   "start_sec": 37,
+   "end_sec": 182,
+   "type": "talk",
+   "title": "192 Weeks on the Air and Elul Resolutions",
+   "summary": "Thanks to listeners and classes who tape the show; back from summer vacation, time for resolutions before the new year.",
+   "calendar": [
+    "elul"
+   ]
+  },
+  {
+   "start_sec": 182,
+   "end_sec": 299,
+   "type": "talk",
+   "title": "One Wish: Moshiach Now",
+   "summary": "The wish that includes all wishes, and the words of 'Sheyibaneh Beis HaMikdash' from Pirkei Avos."
+  },
+  {
+   "start_sec": 299,
+   "end_sec": 476,
+   "type": "song",
+   "title": "Hakochainik March: Sheyibaneh Beis HaMikdash"
+  },
+  {
+   "start_sec": 476,
+   "end_sec": 548,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 548,
+   "end_sec": 700,
+   "type": "shema_guest",
+   "title": "Shema with a young guest"
+  },
+  {
+   "start_sec": 700,
+   "end_sec": 778,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 778,
+   "end_sec": 866,
+   "type": "story_intro",
+   "title": "Chai Elul: the Baal Shem Tov's birthday",
+   "calendar": [
+    "chai_elul"
+   ]
+  },
+  {
+   "start_sec": 866,
+   "end_sec": 1438,
+   "type": "story",
+   "title": "The Strange Visitor",
+   "summary": "Orphaned Yisrolik studies alone in a cave, unafraid because Hashem is with him, until a holy stranger becomes his teacher.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1438,
+   "end_sec": 1540,
+   "type": "talk",
+   "title": "Chai Elul: Birthday of the Baal Shem Tov and the Alter Rebbe",
+   "people": [
+    "baal_shem_tov",
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "chai_elul"
+   ]
+  },
+  {
+   "start_sec": 1540,
+   "end_sec": 1742,
+   "type": "announcement",
+   "title": "Tzivos Hashem Sukkos Experience on Chol HaMoed",
+   "calendar": [
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 1742,
+   "type": "closing",
+   "title": "Dial-a-Jewish-Story and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "46049ff3d0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Three Weeks: The Three Empty Walls, the Western Wall and 'He Is Watching'' (Stories, 21:27-27:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "b41bd58798",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 44: Chapter 33, Hashem Is Everywhere and the Joy of Being Near Him' (Stories, 2:00-5:06), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guest named on air (see hidden). Sukkos fair (Empire Blvd, 2 Oct 1985), ads and phone numbers are period pieces. Guest's own introduction is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rachel Minkowitz",
+    "role": "shema_guest",
+    "start_sec": 576,
+    "end_sec": 700
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:24Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20192%20-%20The%20Strange%20Visitor%20%28Chai%20Elul%29%20%281985-09-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 192 - The Strange Visitor (Chai Elul) (1985-09-03).mp3",
+  "size_bytes": 21613931,
+  "mime_type": "audio/mpeg"
+ }
+}

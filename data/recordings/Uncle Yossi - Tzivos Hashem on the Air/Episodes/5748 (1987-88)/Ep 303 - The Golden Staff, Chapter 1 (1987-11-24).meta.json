@@ -1,0 +1,262 @@
+{
+ "id": "6ad4603cff",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "303 11-24-87 redo",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 303 - The Golden Staff, Chapter 1 (1987-11-24).mp3",
+  "duration_sec": 1859.247,
+  "filename_facts": {
+   "episode_number": 303,
+   "date_in_filename": "1987-11-24",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "redo"
+   ]
+  },
+  "master_catalog": {
+   "episode": 303,
+   "story": "The Golden Staff #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 303: The Golden Staff, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "The brachah Pokeach Ivrim and all the mitzvos we do with our eyes, then the start of 'The Golden Staff': a poor woodchopper's wish that everything he touches turn to gold.",
+  "summary_long": "Broadcast in Kislev 5748. Continuing the series on starting the day right, Uncle Yossi explains the morning brachah Pokeach Ivrim: just as a bulb needs electricity, our eyes need Hashem's power to see. He lists the mitzvos we do with our eyes, from the Havdalah flame, the Chanukah lights and seeing the Torah at Hagbah to Kiddush Levanah, tzitzis, the blossoming trees of Nissan, lightning, the rainbow and the face of a tzaddik, and asks children to look only at good and modest things, until our eyes see the coming of Moshiach. After the Hakochainik march, story time begins 'The Golden Staff'. Binyamin, a poor woodchopper in Poland, cries out to Hashem that he works so hard for a few copper coins. A radiant old stranger appears and grants him two wishes, and Binyamin wishes that everything he touches turn to gold. Between the two halves, a ten-year-old yeshiva boy leads the Shema. Binyamin's bundle of sticks turns to gold, but riches bring him greater tests, and he grows greedy. To be continued. The show ends with Shabbos candle time and news of gifts for new candle lighters and Tzivos Hashem rooms.",
+  "lesson": "Thank Hashem for the gift of sight and use your eyes only for good things; riches can be a harder test than poverty.",
+  "keywords": [
+   "eyes",
+   "Pokeach Ivrim",
+   "Kiddush Levanah",
+   "rainbow",
+   "Hagbah",
+   "woodchopper",
+   "golden staff",
+   "two wishes",
+   "gold",
+   "greed"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 303,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-11-24",
+   "hebrew": "3 Kislev 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Shabbos candles 'this coming Friday, November the 27th' at 4:13."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "the-golden-staff",
+   "story_title": "The Golden Staff",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with age and yeshiva.",
+    "at_sec": 1162
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Binyamin the woodchopper",
+   "the radiant old stranger"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "character",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "tznius",
+   "contentment",
+   "generosity"
+  ],
+  "mitzvos": [
+   "brachos",
+   "havdalah",
+   "chanukah_lights",
+   "tzitzis",
+   "shema",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "5:5",
+    "note": "The ten miracles seen in the Beis HaMikdash."
+   }
+  ],
+  "places": [
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 36,
+   "type": "opening",
+   "title": "Opening"
+  },
+  {
+   "start_sec": 36,
+   "end_sec": 570,
+   "type": "talk",
+   "title": "Pokeach Ivrim: The Gift of Sight",
+   "summary": "The morning brachah for sight and the many mitzvos we do with our eyes.",
+   "linked_items": [
+    "7bb07aa4f3"
+   ]
+  },
+  {
+   "start_sec": 570,
+   "end_sec": 782,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 782,
+   "end_sec": 1162,
+   "type": "story_chapter",
+   "title": "The Golden Staff, Chapter 1 (first part)",
+   "summary": "A poor woodchopper prays for riches, and a radiant stranger offers him two wishes.",
+   "story_key": "the-golden-staff",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1162,
+   "end_sec": 1310,
+   "type": "shema_guest",
+   "title": "Shema with a ten-year-old yeshiva student"
+  },
+  {
+   "start_sec": 1310,
+   "end_sec": 1709,
+   "type": "story_chapter",
+   "title": "The Golden Staff, Chapter 1 (continued)",
+   "summary": "Binyamin wishes for a golden touch, his firewood turns to gold, and he begins to grow greedy.",
+   "story_key": "the-golden-staff",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1709,
+   "end_sec": 1796,
+   "type": "announcement",
+   "title": "Shabbos candle time, candle-lighting medallions and Tzivos Hashem rooms"
+  },
+  {
+   "start_sec": 1796,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename marked 'redo'. The story is called 'The Golden Rod' on air; the catalog calls it 'The Golden Staff'. Candle time is a period piece."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Herschel Leib Minkowitz",
+    "role": "shema_guest",
+    "group": "Yeshiva Tomchei Temimim, Ocean Parkway, Brooklyn; age 10",
+    "start_sec": 1162,
+    "end_sec": 1310
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:06:45Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "7bb07aa4f3",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Eyes 303' = 35-585 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "47ab2fc67b",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Golden Staff' (1987): ep 303 ch. 1 and ep 304 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20303%20-%20The%20Golden%20Staff%2C%20Chapter%201%20%281987-11-24%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 303 - The Golden Staff, Chapter 1 (1987-11-24).mp3",
+  "size_bytes": 22312041,
+  "mime_type": "audio/mpeg"
+ }
+}

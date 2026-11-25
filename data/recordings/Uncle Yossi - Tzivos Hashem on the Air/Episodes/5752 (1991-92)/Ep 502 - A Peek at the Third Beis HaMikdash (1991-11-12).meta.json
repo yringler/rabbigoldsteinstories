@@ -1,0 +1,279 @@
+{
+ "id": "633e530dea",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "502",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 502 - A Peek at the Third Beis HaMikdash (1991-11-12).mp3",
+  "duration_sec": 1814.793,
+  "filename_facts": {
+   "episode_number": 502,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 502,
+   "story": "A peek at the 3rd Beis Hamikdosh",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 502: A Peek at the Third Beis HaMikdash",
+  "title_basis": "master_catalog",
+  "summary_short": "Welcoming new Tzivos Hashem soldiers, Shema with an eleven-year-old guest, and little Levi's dream of a spaceship ride to see the third Beis HaMikdash.",
+  "summary_long": "Uncle Yossi welcomes the many new members who joined Tzivos Hashem after hearing the program, explains that even a newborn baby can join, and teaches about zechus harabim: a good deed done together with hundreds of thousands of children carries a special merit. After the Hakochainik march, an eleven-year-old girl from a Boro Park girls' school leads the Shema and everyone gives tzedakah. Story time: Levi comes home excited because his rebbe taught that Hashem has already built the third Beis HaMikdash in Heaven and lowers it a little with every mitzvah. His father adds that it will last forever because Hashem Himself built it, and that Rabbi Levi Yitzchak of Berditchev said tzaddikim are shown it on Shabbos Chazon. That night Levi dreams that 'Flight 770' lands in his backyard and takes him to see the Beis HaMikdash, but he stays too long and the spaceship leaves without him, until he wakes up in tears beside his parents. We can make the dream come true by learning more Torah and doing more mitzvos. The mailbox brings two brothers' request to visit Studio 604 and a question about why we smell spices at Havdalah, followed by candle-lighting times now that the clocks have been turned back.",
+  "lesson": "Every bit of Torah and every mitzvah brings the third Beis HaMikdash closer, so we can make Levi's dream come true.",
+  "keywords": [
+   "spaceship",
+   "Flight 770",
+   "dream",
+   "third Beis HaMikdash",
+   "Har HaMoriah",
+   "Shabbos Chazon",
+   "besamim",
+   "Havdalah",
+   "clock change",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 502,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-11-12",
+   "hebrew": "5 Kislev 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Clocks just turned back; candles 4:21, Shabbos ends 5:23 fit mid-November 1991 in New York; refers to last week's mezuzah letter (episode 501). Weekly run to 504 (19 Kislev)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest and two child letter writers are named in full on air.",
+    "at_sec": 511
+   },
+   {
+    "flag": "home_address",
+    "note": "The letter writers' street is read on air.",
+    "at_sec": 1424
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Levi",
+   "Levi's mother",
+   "Levi's father",
+   "the spaceship captain"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "achdus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "havdalah",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "Rabbi Levi Yitzchak of Berditchev on Shabbos Chazon",
+    "note": "Each year on Shabbos Chazon the tzaddikim are shown the third Beis HaMikdash."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 46,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 275,
+   "type": "talk",
+   "title": "Welcome, New Soldiers: The Merit of the Many",
+   "summary": "New members join Tzivos Hashem; even a newborn can join, and good deeds done together carry the merit of the many."
+  },
+  {
+   "start_sec": 275,
+   "end_sec": 482,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 482,
+   "end_sec": 628,
+   "type": "shema_guest",
+   "title": "Shema with a fifth-grade girl from a Boro Park school"
+  },
+  {
+   "start_sec": 628,
+   "end_sec": 693,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 693,
+   "end_sec": 1393,
+   "type": "story",
+   "title": "A Peek at the Third Beis HaMikdash",
+   "summary": "Levi learns that the third Beis HaMikdash is waiting in Heaven, then dreams of a spaceship trip to see it.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 1393,
+   "end_sec": 1566,
+   "type": "mailbox",
+   "title": "Mailbox: two brothers ask to visit Studio 604"
+  },
+  {
+   "start_sec": 1566,
+   "end_sec": 1650,
+   "type": "mailbox",
+   "title": "Question of the week: why we smell spices at Havdalah"
+  },
+  {
+   "start_sec": 1650,
+   "end_sec": 1690,
+   "type": "announcement",
+   "title": "Clocks turned back: Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1690,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Membership offer, candle times and Dial-a-Jewish-Story number are period pieces. Letter writers' street read on air (see hidden). Shema recitation itself is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Aviva Basia Schreiber",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Hei; age 11",
+    "start_sec": 511,
+    "end_sec": 628
+   },
+   {
+    "name": "Aharon Karp",
+    "role": "mailbox_letter",
+    "group": "New York Avenue, Brooklyn",
+    "start_sec": 1393,
+    "end_sec": 1538
+   },
+   {
+    "name": "Moshe Karp",
+    "role": "mailbox_letter",
+    "group": "New York Avenue, Brooklyn",
+    "start_sec": 1393,
+    "end_sec": 1538
+   }
+  ],
+  "addresses": [
+   {
+    "text": "New York Avenue, Brooklyn, New York",
+    "start_sec": 1424,
+    "end_sec": 1430
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The two letter writers are brothers; Uncle Yossi promises to phone them to invite them to the studio.",
+    "start_sec": 1393,
+    "end_sec": 1538
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20502%20-%20A%20Peek%20at%20the%20Third%20Beis%20HaMikdash%20%281991-11-12%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 502 - A Peek at the Third Beis HaMikdash (1991-11-12).mp3",
+  "size_bytes": 21778502,
+  "mime_type": "audio/mpeg"
+ }
+}

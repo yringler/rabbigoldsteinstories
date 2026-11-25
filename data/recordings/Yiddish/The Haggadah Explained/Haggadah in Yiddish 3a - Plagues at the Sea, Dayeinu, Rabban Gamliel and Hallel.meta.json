@@ -1,0 +1,278 @@
+{
+ "id": "40e6c74122",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "hg3a",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Haggadah in Yiddish 3a - Plagues at the Sea, Dayeinu, Rabban Gamliel and Hallel.mp3",
+  "duration_sec": 2843.817,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Haggadah in Yiddish 3a: Plagues at the Sea, Dayeinu, Rabban Gamliel and Hallel",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Haggadah class for children: counting the plagues at the sea, Dayeinu, Rabban Gamliel's Pesach, Matzah and Maror, and Hallel up to the second cup.",
+  "summary_long": "Told in Yiddish to children, this class continues Maggid. Rabbi Yosi HaGlili shows that if one finger of Hashem brought ten plagues in Egypt, His whole hand at the sea brought fifty; Rabbi Eliezer counts each plague as four, making two hundred at the sea, and Rabbi Akiva counts five, making two hundred and fifty. The teacher then explains Dayeinu: fifteen kindnesses, from leaving Egypt to the Beis HaMikdash, each of which alone would have been enough to thank Hashem for, and the song is sung. Rabban Gamliel teaches that one must explain Pesach, Matzah and Maror: Hashem passed over the Jewish houses, the dough had no time to rise, and the Egyptians made our lives bitter. In every generation a Jew must see himself as if he left Egypt. The class ends with Lefichach and the first part of Hallel, how to hold the cup in the right hand shaped like a cup, the brachah Asher Ge'alanu with its Motzaei Shabbos change, and drinking the second cup while leaning.",
+  "lesson": "Hashem did so many kindnesses for us that each one alone would deserve our thanks, and every Jew should feel as if he himself left Egypt.",
+  "keywords": [
+   "Dayeinu",
+   "finger of G-d",
+   "plagues at the sea",
+   "Rabban Gamliel",
+   "Pesach Matzah Maror",
+   "Hallel",
+   "second cup",
+   "fifteen kindnesses",
+   "Asher Ge'alanu",
+   "in every generation"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "shiur",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "needs_context",
+  "study_text": [
+   {
+    "work": "haggadah",
+    "unit": "section",
+    "from": "Rabbi Yosi HaGlili",
+    "to": "Asher Ge'alanu (second cup)",
+    "lecture_number": null,
+    "note": "Filename 'hg3a'."
+   }
+  ]
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The plague of the firstborn and the Egyptians drowning in the sea are mentioned."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_eliezer_ben_hurkenos",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabban_gamliel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yosi HaGlili",
+   "Pharaoh's magicians"
+  ],
+  "topics": [
+   "calendar",
+   "halachah",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "seder",
+   "matzah",
+   "brachos"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Mitzrayim (Egypt)",
+   "the Red Sea",
+   "Har Sinai",
+   "Eretz Yisroel"
+  ],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Rabbi Yosi HaGlili through Asher Ge'alanu"
+   },
+   {
+    "work": "tehillim",
+    "ref": "78:49"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 8:15; 14:31; 12:27; 12:39; 1:14; 13:8"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 628,
+   "type": "text_study",
+   "title": "How many plagues at the sea?",
+   "summary": "Rabbi Yosi HaGlili, Rabbi Eliezer and Rabbi Akiva count fifty, two hundred and two hundred fifty plagues at the sea."
+  },
+  {
+   "start_sec": 628,
+   "end_sec": 1189,
+   "type": "text_study",
+   "title": "Dayeinu explained",
+   "summary": "Fifteen kindnesses of Hashem, each alone enough to thank Him for."
+  },
+  {
+   "start_sec": 1189,
+   "end_sec": 1524,
+   "type": "song",
+   "title": "Dayeinu sung",
+   "summary": "The Dayeinu song and the closing paragraph are sung."
+  },
+  {
+   "start_sec": 1524,
+   "end_sec": 2105,
+   "type": "text_study",
+   "title": "Rabban Gamliel: Pesach, Matzah and Maror",
+   "summary": "Why we have the Korban Pesach, why we eat matzah and why we eat maror."
+  },
+  {
+   "start_sec": 2105,
+   "end_sec": 2221,
+   "type": "text_study",
+   "title": "In every generation",
+   "summary": "Each Jew must see himself as if he himself left Egypt."
+  },
+  {
+   "start_sec": 2221,
+   "end_sec": 2598,
+   "type": "halachah",
+   "title": "Lefichach and Hallel",
+   "summary": "Covering the matzah, lifting and holding the cup, nine words of praise and the first two chapters of Hallel."
+  },
+  {
+   "start_sec": 2598,
+   "type": "text_study",
+   "title": "Asher Ge'alanu and the second cup",
+   "summary": "The brachah thanking Hashem for the redemption, its Motzaei Shabbos wording, and the second cup drunk while leaning."
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "933079e352",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'hg1a' (audio fingerprint)."
+  },
+  {
+   "type": "continues",
+   "target_id": "8871031f73",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "'hg2b' ends with the ten plagues and Rabbi Yehudah's signs; this part opens with Rabbi Yosi HaGlili."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "edf3b051d2",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "'hg3b' continues from Rachtzah."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR repetition loops at about 12:21 and during the sung Dayeinu (about 19:49-25:24)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No name, sign-off or credit in the recording; the teacher addresses 'kinderlach' throughout.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Teacher not named; possibly Rabbi Yosef Goldstein (same archive), unconfirmed."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Haggadah%20in%20Yiddish%203a%20-%20Plagues%20at%20the%20Sea%2C%20Dayeinu%2C%20Rabban%20Gamliel%20and%20Hallel.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Haggadah in Yiddish 3a - Plagues at the Sea, Dayeinu, Rabban Gamliel and Hallel.mp3",
+  "size_bytes": 34126658,
+  "mime_type": "audio/mpeg"
+ }
+}

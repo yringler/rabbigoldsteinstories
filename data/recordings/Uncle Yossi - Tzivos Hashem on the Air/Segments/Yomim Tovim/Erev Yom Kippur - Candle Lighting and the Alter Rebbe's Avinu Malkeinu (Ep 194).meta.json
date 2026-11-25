@@ -1,0 +1,156 @@
+{
+ "id": "595e996cdf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Yom Kippur 194",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Yom Kippur - Candle Lighting and the Alter Rebbe's Avinu Malkeinu (Ep 194).mp3",
+  "duration_sec": 138.446,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 194,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 194,
+   "story": "The sly fox and the cheese",
+   "topic": "ערב יום כיפור",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Erev Yom Kippur: Candle Lighting and the Alter Rebbe's Avinu Malkeinu",
+  "title_basis": "content",
+  "summary_short": "Right before Yom Kippur: the candle-lighting brachos, turning to Hashem as Father and King, and an introduction to the Alter Rebbe's tune for Avinu Malkeinu.",
+  "summary_long": "A short Erev Yom Kippur message from the Tzivos Hashem radio show, broadcast just before candle lighting. Uncle Yossi gives the New York candle time and the two brachos, l'hadlik ner shel Yom HaKippurim and Shehecheyanu, and reminds listeners that once Shehecheyanu has been said at home it is not repeated in shul. After the candles it is already Yom Tov, and everyone goes to shul to pray for a blessed year. Yom Kippur is the day of forgiveness: we ask Hashem to forgive the mistakes of the past year and resolve never to repeat them. We turn to Him as both our Father and our King, as we say in Avinu Malkeinu. Uncle Yossi then introduces the moving tune that the Alter Rebbe composed for this prayer, which sets the mood for the day. The tune itself is not included in this clip.",
+  "lesson": "On Yom Kippur we come to Hashem as His children and His servants, asking forgiveness and resolving to do better.",
+  "keywords": [
+   "candle lighting",
+   "Shehecheyanu",
+   "Avinu Malkeinu",
+   "forgiveness",
+   "Father and King",
+   "niggun"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 194,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1985-09-24",
+   "hebrew": "9 Tishrei 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Date of episode 194: 'Today is Erev Yom Kippur'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "brachos",
+   "teshuvah",
+   "davening"
+  ],
+  "calendar": [
+   "yom_kippur"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "1b071e89b1",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 4,
+   "note": "Episode 194 (filename number); clip = 4-143 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content",
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Gives the 1985 New York candle time (6:32). Ends as the Avinu Malkeinu tune is introduced; the tune is not in the clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:45Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Erev%20Yom%20Kippur%20-%20Candle%20Lighting%20and%20the%20Alter%20Rebbe%27s%20Avinu%20Malkeinu%20%28Ep%20194%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Yom Kippur - Candle Lighting and the Alter Rebbe's Avinu Malkeinu (Ep 194).mp3",
+  "size_bytes": 1662195,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "id": "7226693357",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Sefiras Haomer 174",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Sefiras HaOmer - Making Every Day Count (Zalman and the Lost Nickel) (Ep 174).mp3",
+  "duration_sec": 399.68,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 174,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 174,
+   "story": "The missing wallet",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Sefiras HaOmer: Making Every Day Count (Zalman and the Lost Nickel)",
+  "title_basis": "content",
+  "summary_short": "Counting the Omer teaches that time is precious. Uncle Yossi explains with the story of Zalman, who learned to stop mourning a lost nickel and guard the coins he still had.",
+  "summary_long": "A Sefirah teaching from the Tzivos Hashem radio show. Since the second night of Pesach we count the 49 days of the Omer, and one lesson is to count time itself. Time marches on: we cannot stop it, speed it up or slow it down, but we can control what fills it, using each day wisely instead of wasting it. A day without accomplishment is lost and can never come back. Uncle Yossi tells of little Zalman, whose nickel slipped through a hole in his pocket. His father gives him another, and then another, but Zalman keeps returning to say how much more he would have with the first nickel, until his father explains that he must forget the lost coin and take care of the ones he has. So too, we make every day worth counting by davening carefully, learning Torah and doing mitzvos, thanking Hashem for the gift of time, and He will lengthen our days in good health and happiness.",
+  "lesson": "Time is a precious gift from Hashem: don't dwell on lost days, but fill each new day with davening, Torah and mitzvos.",
+  "keywords": [
+   "counting the Omer",
+   "time",
+   "nickel",
+   "hole in the pocket",
+   "father and son",
+   "wasting time"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 174,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-04-30",
+   "hebrew": "9 Iyar 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Clip of episode 174, aired 'in the middle of the days of Sefirah' four weeks after episode 170 (2 Apr 1985)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Zalman",
+   "Zalman's father"
+  ],
+  "topics": [
+   "calendar",
+   "character"
+  ],
+  "midos": [
+   "zerizus",
+   "hakaras_hatov",
+   "contentment",
+   "valuing_time"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "davening",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'L'maan yirbu yemeichem', quoted from the Shema."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 146,
+   "type": "talk",
+   "title": "Counting the Omer: time is precious"
+  },
+  {
+   "start_sec": 146,
+   "end_sec": 320,
+   "type": "story",
+   "title": "Zalman and the Lost Nickel"
+  },
+  {
+   "start_sec": 320,
+   "type": "talk",
+   "title": "Make every day worth counting"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins at 'Remember, dear children?' just after the episode greeting; ends cleanly."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:05Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "676c0eab8c",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 18,
+   "note": "Episode 174 (filename number); clip = 18-417 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 15:28-18:02), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ea3bc56c0e",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'The Precious Gift of Time: The Boy Who Lost His Dollar' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "27e4be78a2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Counting the Omer: Every Day Is Precious (The Lost Dime)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "39959e8c5c",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Counting the Omer: The Precious Gift of Time' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6ad37ebe02",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 273: The Flickering Flame (Rosh Chodesh Iyar)' (episode 273, 12:20-14:52), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "86a44f3dba",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Respect for Each Other and the Gift of Time' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e2cf00d09c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Every Day Counts: Sefirah, Time, and Miriam's Lost Dime' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f71ee91642",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Counting Days and the Lost Dime' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8fa0b3541e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:17-25:47), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cab583e2b7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:27-25:56), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Sefiras%20HaOmer%20-%20Making%20Every%20Day%20Count%20%28Zalman%20and%20the%20Lost%20Nickel%29%20%28Ep%20174%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Sefiras HaOmer - Making Every Day Count (Zalman and the Lost Nickel) (Ep 174).mp3",
+  "size_bytes": 4797207,
+  "mime_type": "audio/mpeg"
+ }
+}

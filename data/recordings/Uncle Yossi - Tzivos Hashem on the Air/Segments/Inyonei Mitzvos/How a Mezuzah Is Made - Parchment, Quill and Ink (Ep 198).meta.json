@@ -1,0 +1,143 @@
+{
+ "id": "0f534f42b1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Mezuzah 198",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/How a Mezuzah Is Made - Parchment, Quill and Ink (Ep 198).mp3",
+  "duration_sec": 200.906,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 198,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 198,
+   "story": "The strange gift",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "How a Mezuzah Is Made: Parchment, Quill and Ink",
+  "title_basis": "content",
+  "summary_short": "A mezuzah must be written exactly as the Torah commands: on parchment from a kosher animal, with a quill from a kosher bird and special black ink.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show. Continuing the series on the mezuzah, Uncle Yossi explains how a mezuzah is made. It must follow the rules exactly as Hashem commanded in the Torah, or it is no mezuzah at all. First, it is written on parchment: the skin of a kosher animal slaughtered by a shochet, treated so that it becomes soft and ready to write the Shema on. A Shema written on ordinary paper cannot be used, so it is important to make sure every mezuzah in the house is real parchment. The sofer writes with a quill, a long feather from a kosher bird with a specially sharpened point, the way people wrote before fountain pens. The ink, too, is specially prepared so that it is thick and heavy, and it is black on the white parchment. Uncle Yossi suggests that children ask to see a real mezuzah unrolled and look at its holy letters.",
+  "lesson": "A mezuzah is kosher only when made exactly as the Torah requires, so make sure yours is real parchment.",
+  "keywords": [
+   "parchment",
+   "quill",
+   "ink",
+   "sofer",
+   "kosher animal",
+   "feather",
+   "paper mezuzah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 198,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-11-05",
+   "hebrew": "21 Cheshvan 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Date of episode 198, three weeks after 195 (Rosh Chodesh Cheshvan 5746)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "responsibility"
+  ],
+  "mitzvos": [
+   "mezuzah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a45eaaa6e3",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 412,
+   "note": "Episode 198 (filename number); clip = 412-613 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Part of the Mitzvah Time mezuzah series (see also 'Mezuzah 195' and 'Mezuzah 196')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:14Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/How%20a%20Mezuzah%20Is%20Made%20-%20Parchment%2C%20Quill%20and%20Ink%20%28Ep%20198%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/How a Mezuzah Is Made - Parchment, Quill and Ink (Ep 198).mp3",
+  "size_bytes": 2411702,
+  "mime_type": "audio/mpeg"
+ }
+}

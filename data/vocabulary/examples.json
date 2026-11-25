@@ -1,0 +1,1776 @@
+{
+ "_note": "Eight worked examples (schema v0.2), filled by hand from the real transcripts and reconciled with facts/<id>.json. Validate with: python -I -X utf8 scripts/validate_items.py --file examples.json",
+ "items": [
+  {
+   "id": "019e1942d3",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+    "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+    "filename_title": "408 12-19-89",
+    "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 408 - The Storyteller, Chapter 2 (Erev Chanukah 5750) (1989-12-19).mp3",
+    "duration_sec": 1780.405,
+    "filename_facts": {
+     "episode_number": 408,
+     "date_in_filename": "1989-12-19",
+     "trailing_number": null,
+     "part_marker": null,
+     "production_notes": []
+    },
+    "master_catalog": {
+     "episode": 408,
+     "story": "",
+     "topic": "",
+     "has_visitor_names": false
+    },
+    "pipeline_flags": []
+   },
+   "display": {
+    "title": "Episode 408: The Storyteller, Chapter 2 (Erev Chanukah 5750)",
+    "title_basis": "content",
+    "summary_short": "Uncle Yossi's pre-Chanukah show: what the Chanukah candles whisper to children, Shema with a Beis Yaakov class, and chapter 2 of the Baal Shem Tov's storyteller.",
+    "summary_long": "Recorded the week Chanukah 5750 began. Uncle Yossi opens with the Rebbe's teaching that the Chanukah lights 'whisper' a message: just as each candle lights up the room, every child must bring the light of Torah and mitzvos into a dark world, and add more light every day (maalin bakodesh). After the Hakochainik march, a third-grade class from Beis Yaakov of Boro Park recites the Shema, and everyone drops coins in the pushka. Story time continues 'The Storyteller': Rabbi Yehuda, the Baal Shem Tov's personal shamash, was told on the Baal Shem Tov's last day to travel and tell stories, and that this would make him rich. His first customer, an innkeeper, pays three kopecks; Rabbi Yehuda refuses to give up. The show closes with a listener's letter, the timing of Chanukah and Shabbos candles on Friday, and a reminder to invite friends who have no menorah.",
+    "lesson": "Be like a Chanukah candle: bring the light of Torah and mitzvos to others, and add a little more light every day.",
+    "keywords": [
+     "menorah",
+     "Chanukah candles",
+     "storyteller",
+     "shamash",
+     "kopecks",
+     "Studio 604",
+     "mailbox"
+    ],
+    "transcript_display": "show_with_label"
+   },
+   "classification": {
+    "content_type": "radio_episode",
+    "story_type": [
+     "chassidic"
+    ],
+    "series": "uy_tzivos_hashem_on_the_air",
+    "speakers": [
+     "rabbi_yosef_goldstein",
+     "guest_children"
+    ],
+    "standalone": "cliffhanger",
+    "episode": {
+     "number": 408,
+     "is_clip": false
+    },
+    "date": {
+     "gregorian": "1989-12-19",
+     "hebrew": "21 Kislev 5750",
+     "hebrew_year": 5750,
+     "precision": "day",
+     "basis": "filename",
+     "note": "Consistent with the audio: 'this Friday is the first night of Chanukah'."
+    },
+    "serial": {
+     "story_key": "the-storyteller",
+     "story_title": "The Storyteller",
+     "chapter": 2
+    },
+    "collections": [
+     "Radio episodes"
+    ]
+   },
+   "audience": {
+    "level": "children",
+    "age_min": 4,
+    "advisories": [
+     {
+      "flag": "death",
+      "severity": "mild",
+      "note": "Opens at the Baal Shem Tov's deathbed as he gives final instructions.",
+      "at_sec": 767
+     }
+    ],
+    "privacy": [
+     {
+      "flag": "minor_named",
+      "note": "Letter writer named in full in the mailbox segment.",
+      "at_sec": 1340
+     },
+     {
+      "flag": "home_address",
+      "note": "Street address of the letter writer read on air.",
+      "at_sec": 1342
+     }
+    ]
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "baal_shem_tov",
+      "role": "appears"
+     },
+     {
+      "id": "the_rebbe",
+      "role": "teaching_cited"
+     }
+    ],
+    "characters": [
+     "Rabbi Yehuda, the Baal Shem Tov's shamash",
+     "the innkeeper"
+    ],
+    "topics": [
+     "calendar",
+     "baal_shem_tov_and_students",
+     "tzivos_hashem"
+    ],
+    "midos": [
+     "bitachon",
+     "hasmadah",
+     "ahavas_yisroel"
+    ],
+    "mitzvos": [
+     "chanukah_lights",
+     "shabbos_candles",
+     "shema",
+     "tzedakah"
+    ],
+    "calendar": [
+     "chanukah"
+    ],
+    "parshiyos": [],
+    "sources_cited": [
+     {
+      "work": "sichos_of_the_rebbe",
+      "ref": "'Listen to what the candles are telling us'",
+      "note": "Cited as said by the Rebbe; the saying originates with the Frierdiker Rebbe."
+     }
+    ]
+   },
+   "segments": [
+    {
+     "start_sec": 0,
+     "end_sec": 16,
+     "type": "opening",
+     "title": "Opening theme and greeting"
+    },
+    {
+     "start_sec": 16,
+     "end_sec": 427,
+     "type": "sichah",
+     "title": "The Whispering Chanukah Candles",
+     "summary": "The Rebbe's teaching: the Chanukah lights tell children to bring light into the world and to add light every day; Moshiach and the menorah of the Beis HaMikdash.",
+     "people": [
+      "the_rebbe"
+     ],
+     "calendar": [
+      "chanukah"
+     ],
+     "linked_items": [
+      "f8a60cbd4b"
+     ]
+    },
+    {
+     "start_sec": 427,
+     "end_sec": 577,
+     "type": "song",
+     "title": "Hakochainik March"
+    },
+    {
+     "start_sec": 577,
+     "end_sec": 718,
+     "type": "shema_guest",
+     "title": "Shema with a third-grade class from Beis Yaakov of Boro Park"
+    },
+    {
+     "start_sec": 718,
+     "end_sec": 767,
+     "type": "tzedakah",
+     "title": "Tzedakah together"
+    },
+    {
+     "start_sec": 767,
+     "end_sec": 1272,
+     "type": "story_chapter",
+     "title": "The Storyteller, Chapter 2",
+     "summary": "Rabbi Yehuda sets out as a storyteller; his first customer pays only three kopecks, but he holds on to the Baal Shem Tov's promise.",
+     "people": [
+      "baal_shem_tov"
+     ],
+     "story_key": "the-storyteller",
+     "chapter": 2
+    },
+    {
+     "start_sec": 1272,
+     "end_sec": 1519,
+     "type": "mailbox",
+     "title": "Uncle Yossi's Mailbox"
+    },
+    {
+     "start_sec": 1519,
+     "end_sec": 1637,
+     "type": "announcement",
+     "title": "Lighting the menorah before Shabbos candles",
+     "calendar": [
+      "chanukah"
+     ]
+    },
+    {
+     "start_sec": 1637,
+     "type": "closing",
+     "title": "Closing and sponsor"
+    }
+   ],
+   "relations": [
+    {
+     "type": "contains",
+     "target_id": "f8a60cbd4b",
+     "evidence": "text_overlap",
+     "confidence": 0.9,
+     "note": "'Chanukah 408' = 49-443 s of this episode."
+    },
+    {
+     "type": "continues",
+     "target_id": "f6b8e3f679",
+     "evidence": "master_catalog",
+     "confidence": 0.85,
+     "note": "Catalog: 407 = 'The storyteller #1', 409 = '#3'; row 408 is blank."
+    }
+   ],
+   "language": {
+    "primary": "en",
+    "spoken": [
+     "en",
+     "yi",
+     "he"
+    ],
+    "transcript_language": "en",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "good",
+    "issues": [
+     "music_untranscribed",
+     "time_bound_content"
+    ],
+    "trim": null,
+    "publish_recommendation": "publish_with_note",
+    "notes": "Mailbox reads a child's name and street address (see hidden; audio is not edited). Candle time and sponsor are period pieces; label 'broadcast Dec 1989'."
+   },
+   "hidden": {
+    "on_air_people": [
+     {
+      "name": "Morah Lazar",
+      "role": "visitor",
+      "group": "Beis Yaakov of Boro Park, Kitah Gimmel (class reciting the Shema)",
+      "start_sec": 577,
+      "end_sec": 718
+     },
+     {
+      "name": "Estee (S.D.) Pressman",
+      "role": "mailbox_letter",
+      "group": "Borough Park, Brooklyn",
+      "start_sec": 1340,
+      "end_sec": 1500,
+      "note": "Asked to say the Shema on the radio; got 100 on a Chumash test."
+     }
+    ],
+    "addresses": [
+     {
+      "text": "1834 48th Street, Borough Park, Brooklyn",
+      "start_sec": 1342,
+      "end_sec": 1350
+     }
+    ],
+    "other_personal": []
+   },
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "high",
+     "segments": "high",
+     "date": "high",
+     "audience": "medium"
+    },
+    "needs_human_review": [
+     "Chapter number inferred from neighbouring catalog rows."
+    ]
+   },
+   "identity_guesses": [],
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20408%20-%20The%20Storyteller%2C%20Chapter%202%20%28Erev%20Chanukah%205750%29%20%281989-12-19%29.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 408 - The Storyteller, Chapter 2 (Erev Chanukah 5750) (1989-12-19).mp3",
+    "size_bytes": 21365986,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "f760feafed",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+    "folder": "Inyonei Mitzvos",
+    "filename_title": "Netilas Yodayim 122",
+    "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Water, Hashem's Precious Gift - Why We Wash Negel Vasser (Ep 122).mp3",
+    "duration_sec": 228.531,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": 122,
+     "part_marker": null,
+     "production_notes": []
+    },
+    "master_catalog": {
+     "episode": 122,
+     "story": "",
+     "topic": "ספירה, עקיבא נט\"י",
+     "has_visitor_names": false
+    },
+    "pipeline_flags": []
+   },
+   "display": {
+    "title": "Water, Hashem's Precious Gift: Why We Wash Negel Vasser",
+    "title_basis": "content",
+    "summary_short": "Why water is one of Hashem's greatest gifts, and how its special power of purity is why we wash negel vasser every morning.",
+    "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi explains that life on earth depends on water, and that Hashem placed the sun exactly far enough away that the oceans neither boil nor freeze. We pray for rain and say a brachah before drinking. Water also has a spiritual power to make us pure: the Kohanim washed their hands and feet from the copper basin at the entrance of the Mishkan, and we begin each day by washing negel vasser so we can serve Hashem in purity. The clip ends by introducing a story about Rabbi Akiva and this mitzvah, which is not included.",
+    "lesson": "Appreciate Hashem's gift of water, and start every day by washing negel vasser so you serve Hashem in purity.",
+    "keywords": [
+     "water",
+     "sun",
+     "rain",
+     "Mishkan",
+     "kiyor",
+     "purity"
+    ],
+    "transcript_display": "show_with_label"
+   },
+   "classification": {
+    "content_type": "radio_segment",
+    "story_type": [],
+    "series": "uy_tzivos_hashem_on_the_air",
+    "speakers": [
+     "rabbi_yosef_goldstein"
+    ],
+    "standalone": "needs_context",
+    "episode": {
+     "number": 122,
+     "is_clip": true
+    },
+    "date": {
+     "gregorian": "1984-05",
+     "hebrew": "Iyar 5744",
+     "hebrew_year": 5744,
+     "precision": "month",
+     "basis": "sequence_interpolation",
+     "note": "Episode 113 is Adar 5744; catalog topic for 122 is Sefirah."
+    },
+    "collections": [
+     "Inyonei Mitzvos"
+    ]
+   },
+   "audience": {
+    "level": "young_children",
+    "age_min": 4,
+    "advisories": [],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "rabbi_akiva",
+      "role": "mentioned"
+     }
+    ],
+    "characters": [],
+    "topics": [
+     "morning_routine",
+     "hashem_in_nature"
+    ],
+    "midos": [
+     "hakaras_hatov"
+    ],
+    "mitzvos": [
+     "negel_vasser",
+     "brachos"
+    ],
+    "calendar": [],
+    "parshiyos": [],
+    "sources_cited": [
+     {
+      "work": "chumash",
+      "ref": "Shemos 30:17-21",
+      "note": "The Kohanim washing at the kiyor."
+     }
+    ]
+   },
+   "relations": [
+    {
+     "type": "aired_again_in",
+     "target_id": "0615c36a34",
+     "evidence": "text_overlap",
+     "confidence": 0.88,
+     "note": "Also aired in episode 526."
+    },
+    {
+     "type": "aired_again_in",
+     "target_id": "23e24d9359",
+     "evidence": "text_overlap",
+     "confidence": 0.93,
+     "note": "Also aired in episode 376."
+    },
+    {
+     "type": "aired_again_in",
+     "target_id": "4d19621b73",
+     "evidence": "text_overlap",
+     "confidence": 0.93,
+     "note": "Also aired in episode 135."
+    },
+    {
+     "type": "aired_again_in",
+     "target_id": "6475c5455b",
+     "evidence": "text_overlap",
+     "confidence": 0.89,
+     "note": "Also aired in episode 224."
+    },
+    {
+     "type": "aired_again_in",
+     "target_id": "afb5e4a1c3",
+     "evidence": "text_overlap",
+     "confidence": 0.95,
+     "note": "Also aired in episode 25."
+    },
+    {
+     "type": "clip_of",
+     "target_id": "5f2fe46249",
+     "evidence": "text_overlap",
+     "confidence": 0.92,
+     "offset_sec": 800,
+     "note": "Episode 122 (filename number); clip = 800-1029 s of the episode."
+    },
+    {
+     "type": "alternate_take",
+     "target_id": "5804227fb3",
+     "evidence": "audio_fingerprint",
+     "confidence": 0.8,
+     "note": "'Netilas Yodayim 135' is a slightly different cut of the same talk."
+    }
+   ],
+   "language": {
+    "primary": "en",
+    "spoken": [
+     "en"
+    ],
+    "transcript_language": "en",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "good",
+    "issues": [],
+    "trim": null,
+    "publish_recommendation": "publish",
+    "notes": "Ends with the lead-in to a Rabbi Akiva story that is not in the clip; consider trimming the last sentence or linking the story. Possible small gap at 02:29-02:59."
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "high",
+     "date": "medium",
+     "audience": "high"
+    },
+    "needs_human_review": []
+   },
+   "identity_guesses": [],
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Water%2C%20Hashem%27s%20Precious%20Gift%20-%20Why%20We%20Wash%20Negel%20Vasser%20%28Ep%20122%29.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Water, Hashem's Precious Gift - Why We Wash Negel Vasser (Ep 122).mp3",
+    "size_bytes": 2743360,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "ccedcd76fb",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Stories",
+    "folder": "",
+    "filename_title": "Besht to the Rescue",
+    "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Baal Shem Tov to the Rescue.mp3",
+    "duration_sec": 1244.474,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": null,
+     "part_marker": null,
+     "production_notes": []
+    },
+    "master_catalog": null,
+    "pipeline_flags": []
+   },
+   "display": {
+    "title": "The Baal Shem Tov to the Rescue",
+    "title_basis": "filename",
+    "summary_short": "Years after the Baal Shem Tov's passing, a boy born through his blessing is kidnapped, and a mysterious 'bishop' brings him home.",
+    "summary_long": "A childless Chassid receives the Baal Shem Tov's blessing for a son, on condition that the boy is always watched. Three years after the Baal Shem Tov passes away, the babysitter steps out for a moment to see a dancing bear, and five-year-old Moshele disappears. The father turns to Adel, the Baal Shem Tov's daughter, who asks her father at his resting place and returns with instructions: ask at every inn. At last an innkeeper reveals that a local poritz has taken the boy to raise him as a non-Jew, and is waiting for the bishop to arrive. The father stops a bishop's carriage on the road; the 'bishop' convinces the poritz that a Jewish child will always run to a fellow Jew, and the boy runs straight into his father's arms. Then the real bishop arrives late. Adel tells the father that he gave her father a hard job and must be more careful.",
+    "lesson": "A Rebbe continues to care for his Chassidim after his passing, and a Jewish child always stays connected to his people. A tzaddik's instructions must be followed carefully.",
+    "keywords": [
+     "kidnapped boy",
+     "dancing bear",
+     "bishop",
+     "inn",
+     "Ohel",
+     "babysitter"
+    ],
+    "transcript_display": "show_with_label"
+   },
+   "classification": {
+    "content_type": "story",
+    "story_type": [
+     "chassidic"
+    ],
+    "series": "weekly_story_i_believe",
+    "speakers": [
+     "rabbi_chaim_levi_goldstein"
+    ],
+    "standalone": "standalone",
+    "collections": [
+     "Stories"
+    ]
+   },
+   "audience": {
+    "level": "children",
+    "age_min": 6,
+    "advisories": [
+     {
+      "flag": "kidnapping_captivity",
+      "severity": "moderate",
+      "note": "A five-year-old is kidnapped; resolved happily."
+     },
+     {
+      "flag": "forced_conversion",
+      "severity": "moderate",
+      "note": "The poritz plans to convert the boy."
+     }
+    ],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "baal_shem_tov",
+      "role": "central"
+     },
+     {
+      "id": "adel_daughter_of_besht",
+      "role": "appears"
+     },
+     {
+      "id": "rebbe_rashab",
+      "role": "mentioned"
+     },
+     {
+      "id": "frierdiker_rebbe",
+      "role": "mentioned"
+     },
+     {
+      "id": "the_rebbe",
+      "role": "mentioned"
+     }
+    ],
+    "characters": [
+     "Moshele",
+     "his father",
+     "the babysitter",
+     "the innkeeper",
+     "the poritz",
+     "the bishop"
+    ],
+    "topics": [
+     "baal_shem_tov_and_students",
+     "hiskashrus",
+     "miracles"
+    ],
+    "midos": [
+     "bitachon",
+     "responsibility",
+     "kabbalas_ol"
+    ],
+    "mitzvos": [],
+    "calendar": [],
+    "parshiyos": [],
+    "sources_cited": []
+   },
+   "relations": [
+    {
+     "type": "same_story",
+     "target_id": "1f7ce74bc7",
+     "evidence": "content",
+     "confidence": 0.95,
+     "note": "Story Videos 'The Besht to the Rescue': the same story told again by the same narrator, with the theme song and a different ending lesson."
+    }
+   ],
+   "language": {
+    "primary": "en",
+    "spoken": [
+     "en"
+    ],
+    "transcript_language": "en",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "good",
+    "issues": [
+     "music_untranscribed"
+    ],
+    "trim": null,
+    "publish_recommendation": "publish",
+    "notes": "First 24 s untranscribed (probably the theme song). ASR writes 'pirates' for poritz throughout."
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "identity_guesses": [
+    {
+     "placeholder_id": "weekly_story_i_believe",
+     "guess": null,
+     "confidence": "none",
+     "evidence_quote": "No series name said on air; same narrator and sign-off as the 'I believe in Hashem' recordings.",
+     "at_sec": 0
+    }
+   ],
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "high",
+     "audience": "medium"
+    },
+    "needs_human_review": [
+     "Opens with 'last week I told you how the Rebbe Rashab came to a doctor in a dream' - probably 'The Doctors Dream' (65cc95fe2e); a series order may be recoverable.",
+     "Series attribution from narrator style; confirm."
+    ]
+   },
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Baal%20Shem%20Tov%20to%20the%20Rescue.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Baal Shem Tov to the Rescue.mp3",
+    "size_bytes": 14934448,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "86349c08d6",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Stories",
+    "folder": "Uncle Yossi - Heritage Series 2/Drunkard",
+    "filename_title": "The Drunken Father 21",
+    "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Drunken Father (Ep 021).mp3",
+    "duration_sec": 1000.592,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": 21,
+     "part_marker": null,
+     "production_notes": [
+      "duration_label"
+     ]
+    },
+    "master_catalog": {
+     "episode": 21,
+     "story": "The Drunken Father",
+     "topic": "ספירה, ל\"ג בעומר",
+     "has_visitor_names": true
+    },
+    "pipeline_flags": []
+   },
+   "display": {
+    "title": "The Drunken Father",
+    "title_basis": "master_catalog",
+    "summary_short": "Naftali tries to cure his father's drinking by showing him a drunk in the street, but the father only asks where to get such a good drink. A story with no happy ending and an important lesson.",
+    "summary_long": "Broadcast on 4 Iyar 5742, the week of Parshas Acharei-Kedoshim. Uncle Yossi explains the Alter Rebbe's teaching to 'live with the times': learn each day's portion of the weekly parsha and take a lesson from it. The parsha warns not to follow the ways of Egypt and Canaan; Hashem showed us how they lived only so that we would see it is not our way. Then comes a story that 'has no happy ending'. Naftali, a fine, respectful boy, is ashamed that his father drinks too much. He leads his father to a drunk lying in the street, hoping he will see how awful it is, but the father bends down and asks the drunk where he got such a good drink. Uncle Yossi ties it back: the Torah shows us bad ways only so we can reject them, and we should be a living example of how pleasant a life of Torah and mitzvos is.",
+    "lesson": "Seeing how others live should teach us what not to copy; we are meant to be an example, not to imitate.",
+    "keywords": [
+     "drunkard",
+     "live with the times",
+     "daily Chumash",
+     "street corner"
+    ],
+    "transcript_display": "show_with_label"
+   },
+   "classification": {
+    "content_type": "radio_segment",
+    "story_type": [
+     "moral_fiction"
+    ],
+    "series": "uy_tzivos_hashem_on_the_air",
+    "speakers": [
+     "rabbi_yosef_goldstein"
+    ],
+    "standalone": "standalone",
+    "episode": {
+     "number": 21,
+     "is_clip": true
+    },
+    "date": {
+     "gregorian": "1982-04-27",
+     "hebrew": "4 Iyar 5742",
+     "hebrew_year": 5742,
+     "precision": "day",
+     "basis": "stated_in_audio",
+     "note": "'Today is Dalet Iyar'; matches weekly spacing from episode 18 (1982-04-06)."
+    },
+    "collections": [
+     "Heritage Series 2"
+    ]
+   },
+   "audience": {
+    "level": "older_children",
+    "age_min": 8,
+    "advisories": [
+     {
+      "flag": "alcohol",
+      "severity": "moderate",
+      "note": "A father's drinking problem; a child crying about it."
+     },
+     {
+      "flag": "sad_ending",
+      "severity": "mild",
+      "note": "The story deliberately ends without the father changing."
+     }
+    ],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "alter_rebbe",
+      "role": "teaching_cited"
+     }
+    ],
+    "characters": [
+     "Naftali",
+     "Naftali's father",
+     "Naftali's mother"
+    ],
+    "topics": [
+     "parsha",
+     "character",
+     "family_and_home"
+    ],
+    "midos": [
+     "self_control",
+     "kibbud"
+    ],
+    "mitzvos": [
+     "torah_study",
+     "kibbud_av_vaem"
+    ],
+    "calendar": [],
+    "parshiyos": [
+     "acharei",
+     "kedoshim"
+    ],
+    "sources_cited": [
+     {
+      "work": "chumash",
+      "ref": "Vayikra 18:3",
+      "note": "'Like the practice of the land of Egypt... you shall not do.'"
+     }
+    ]
+   },
+   "segments": [
+    {
+     "start_sec": 0,
+     "end_sec": 380,
+     "type": "talk",
+     "title": "Dalet Iyar: living with the parsha"
+    },
+    {
+     "start_sec": 380,
+     "end_sec": 808,
+     "type": "story",
+     "title": "The Drunken Father"
+    },
+    {
+     "start_sec": 808,
+     "type": "talk",
+     "title": "The lesson from Acharei-Kedoshim"
+    }
+   ],
+   "relations": [
+    {
+     "type": "clip_of",
+     "target_id": "2ed007c078",
+     "evidence": "text_overlap",
+     "confidence": 0.92,
+     "offset_sec": 344,
+     "note": "Episode 21 (filename number); clip = 344-1345 s of the episode."
+    },
+    {
+     "type": "aired_again_in",
+     "target_id": "8ae1d03037",
+     "evidence": "text_overlap",
+     "confidence": 0.6,
+     "note": "The story portion re-aired in episode 436."
+    },
+    {
+     "type": "aired_again_in",
+     "target_id": "28133bf24a",
+     "evidence": "text_overlap",
+     "confidence": 0.6,
+     "note": "The story portion re-aired in episode 539."
+    },
+    {
+     "type": "same_story",
+     "target_id": "59ebaba0bf",
+     "evidence": "filename",
+     "confidence": 0.7,
+     "note": "'The Drunkard 184' in the same Heritage subfolder; check whether it is a re-telling or a re-edit."
+    }
+   ],
+   "language": {
+    "primary": "en",
+    "spoken": [
+     "en",
+     "yi"
+    ],
+    "transcript_language": "en",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "good",
+    "issues": [],
+    "trim": null,
+    "publish_recommendation": "publish_with_note",
+    "notes": "Suggest a parent note about the alcohol theme. ASR writes 'Ir' for Iyar."
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "high",
+     "segments": "high",
+     "date": "high",
+     "audience": "medium"
+    },
+    "needs_human_review": []
+   },
+   "proposed_new_terms": [
+    {
+     "vocabulary": "midos",
+     "label": "Resisting bad influences",
+     "suggested_id": "resisting_bad_influence",
+     "used_instead": "self_control",
+     "reason": "Recurring theme ('do not copy their ways') with no exact midah in the list."
+    }
+   ],
+   "identity_guesses": [],
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/The%20Drunken%20Father%20%28Ep%20021%29.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Drunken Father (Ep 021).mp3",
+    "size_bytes": 12007941,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "ebbc632f9f",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Stories",
+    "folder": "Story Videos",
+    "filename_title": "The Melave Malka Special Guest",
+    "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Melave Malka Special Guest (other version).mp3",
+    "duration_sec": 1649.28,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": null,
+     "part_marker": null,
+     "production_notes": []
+    },
+    "master_catalog": null,
+    "pipeline_flags": [
+     "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+     "Drive download suffix '-014' stripped"
+    ]
+   },
+   "display": {
+    "title": "The Melave Malka Special Guest",
+    "title_basis": "filename",
+    "summary_short": "How the Alter Rebbe's script began on Rosh Chodesh Shevat, and how a hidden tzaddik's Melave Malka guest turned out to be Eliyahu HaNavi.",
+    "summary_long": "For the week of Rosh Chodesh Shevat, the storyteller explains its anniversary: the Maggid of Mezritch asked the Alter Rebbe to design letters for sifrei Torah, tefillin and mezuzos that satisfy every opinion, and the new script was first used on Rosh Chodesh Shevat; Rabbi Zusha of Anipoli, told of it from Heaven, had his scribe Reb Moshe Sofer write it too. The story then follows that scribe when he was still a hidden tzaddik, working as the supervisor in Reb Yankel's distillery. Every Motzaei Shabbos the two shared Melave Malka. Along the way the storyteller explains why Melave Malka matters: the Gemara's teaching, a warm dish, Miriam's well, Dovid HaMelech's thanksgiving meal and the luz bone. One week Reb Yankel is too busy, goes to find Moshe late at night, and sees a radiant old man at his table. Moshe admits it was Eliyahu HaNavi, who told him to reveal himself and become a teacher, and children announce the new Rebbe when he arrives.",
+    "lesson": "Make Melave Malka every week, even a small bite, and go out of your way to help someone who needs it.",
+    "keywords": [
+     "Alter Rebbe's script",
+     "Ksav Admur HaZaken",
+     "scribe",
+     "distillery",
+     "hidden tzaddik",
+     "luz bone",
+     "Miriam's well"
+    ],
+    "transcript_display": "show_with_label"
+   },
+   "classification": {
+    "content_type": "lesson_with_story",
+    "story_type": [
+     "chassidic"
+    ],
+    "series": "weekly_story_i_believe",
+    "speakers": [
+     "rabbi_chaim_levi_goldstein"
+    ],
+    "standalone": "standalone",
+    "date": {
+     "gregorian": null,
+     "hebrew": "Week of Rosh Chodesh Shevat, a Hakhel year",
+     "hebrew_year": null,
+     "precision": "unknown",
+     "basis": "calendar_cues",
+     "note": "'This is Hakhel' suggests 5776 or 5783; confirm with the producer."
+    },
+    "collections": [
+     "Story Videos"
+    ]
+   },
+   "audience": {
+    "level": "children",
+    "age_min": 6,
+    "advisories": [],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "alter_rebbe",
+      "role": "central"
+     },
+     {
+      "id": "maggid_of_mezritch",
+      "role": "appears"
+     },
+     {
+      "id": "rabbi_zusha_of_anipoli",
+      "role": "appears"
+     },
+     {
+      "id": "rabbi_moshe_sofer_of_pshevorsk",
+      "role": "central"
+     },
+     {
+      "id": "eliyahu_hanavi",
+      "role": "appears"
+     },
+     {
+      "id": "david_hamelech",
+      "role": "mentioned"
+     },
+     {
+      "id": "miriam_haneviah",
+      "role": "mentioned"
+     },
+     {
+      "id": "arizal",
+      "role": "teaching_cited"
+     }
+    ],
+    "characters": [
+     "Reb Yankel, the distillery owner"
+    ],
+    "topics": [
+     "chassidic_masters",
+     "shabbos",
+     "calendar"
+    ],
+    "midos": [
+     "anavah",
+     "chesed"
+    ],
+    "mitzvos": [
+     "melave_malka",
+     "tefillin",
+     "mezuzah",
+     "hachnasas_orchim"
+    ],
+    "calendar": [
+     "rosh_chodesh_shevat",
+     "shabbos_weekly"
+    ],
+    "parshiyos": [],
+    "sources_cited": [
+     {
+      "work": "gemara",
+      "ref": "Shabbos 119b",
+      "note": "Rabbi Chanina on the fourth meal (as cited)."
+     },
+     {
+      "work": "shulchan_aruch",
+      "note": "Cited generally for Melave Malka."
+     }
+    ]
+   },
+   "segments": [
+    {
+     "start_sec": 0,
+     "end_sec": 40,
+     "type": "song",
+     "title": "I Believe in Hashem"
+    },
+    {
+     "start_sec": 40,
+     "end_sec": 544,
+     "type": "talk",
+     "title": "Rosh Chodesh Shevat and the Alter Rebbe's script",
+     "people": [
+      "alter_rebbe",
+      "maggid_of_mezritch",
+      "rabbi_zusha_of_anipoli"
+     ]
+    },
+    {
+     "start_sec": 544,
+     "end_sec": 834,
+     "type": "story",
+     "title": "The hidden tzaddik in Reb Yankel's distillery",
+     "people": [
+      "rabbi_moshe_sofer_of_pshevorsk"
+     ]
+    },
+    {
+     "start_sec": 834,
+     "end_sec": 1239,
+     "type": "halachah",
+     "title": "Why Melave Malka matters"
+    },
+    {
+     "start_sec": 1239,
+     "end_sec": 1598,
+     "type": "story",
+     "title": "The guest revealed: Eliyahu HaNavi",
+     "people": [
+      "rabbi_moshe_sofer_of_pshevorsk",
+      "eliyahu_hanavi"
+     ]
+    },
+    {
+     "start_sec": 1598,
+     "type": "closing",
+     "title": "Lesson, tzedakah and 'We want Moshiach now'"
+    }
+   ],
+   "relations": [
+    {
+     "type": "same_recording",
+     "target_id": "66223bdaef",
+     "evidence": "audio_fingerprint",
+     "confidence": 0.98,
+     "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+    }
+   ],
+   "language": {
+    "primary": "en",
+    "spoken": [
+     "en"
+    ],
+    "transcript_language": "en",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "good",
+    "issues": [],
+    "trim": null,
+    "publish_recommendation": "publish"
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "identity_guesses": [
+    {
+     "placeholder_id": "weekly_story_i_believe",
+     "guess": null,
+     "confidence": "none",
+     "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+     "at_sec": 0
+    }
+   ],
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "high",
+     "segments": "medium",
+     "date": "low",
+     "audience": "high"
+    },
+    "needs_human_review": [
+     "Recording year (Hakhel 5776 or 5783?)."
+    ]
+   },
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Melave%20Malka%20Special%20Guest%20%28other%20version%29.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Melave Malka Special Guest (other version).mp3",
+    "size_bytes": 19792307,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "3770fac95d",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Stories",
+    "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+    "filename_title": "29 P13",
+    "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 29 - Shivisi Hashem L'negdi Tamid and Tanya Chapter 13 (Elul).mp3",
+    "duration_sec": 3807.242,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": null,
+     "part_marker": null,
+     "production_notes": []
+    },
+    "master_catalog": null,
+    "pipeline_flags": [
+     "language from folder אידיש"
+    ]
+   },
+   "display": {
+    "title": "Tanya Shiur 29: Shivisi Hashem L'negdi Tamid and Tanya Chapter 13 (Elul)",
+    "title_basis": "content",
+    "summary_short": "A Yiddish shiur: the Alter Rebbe's Shulchan Aruch on waking up before the King, Tanya chapter 13 on the beinoni, and an Elul talk on crowning Hashem on Rosh Hashanah.",
+    "summary_long": "Shiur 29 in Rabbi Yosef Goldstein's Yiddish Tanya series, recorded in Elul. Part 1 studies Shulchan Aruch HaRav, Hilchos Hashkamas HaBoker 1:4-5. On waking, one should think before Whom one lies: the King of kings stands over him, so he rises with alacrity, and 'Shivisi Hashem l'negdi tamid' is a great principle of the Torah. Stories illustrate it: the young Tzemach Tzedek in the Alter Rebbe's home, the Baal Shem Tov's father's words 'fear nothing but G-d', and Rabbi Yochanan ben Zakai's deathbed blessing that his students fear Heaven as much as they fear people. Part 2 continues Tanya chapter 13: the beinoni, in whom the yetzer tov and yetzer hara are both 'judges', and Hashem's help that lets the G-dly soul prevail. Part 3 is an Elul talk: Rosh Hashanah as accepting Hashem as King (malchiyos), and the Chassidic custom of taking stock of the year from Chai Elul.",
+    "lesson": "Remember constantly that Hashem stands before you; that awareness brings alacrity, fear of Heaven and joy in serving Him.",
+    "keywords": [
+     "beinoni",
+     "Shivisi",
+     "Hashkamas HaBoker",
+     "malchiyos",
+     "kabbalas ol",
+     "cheshbon hanefesh"
+    ],
+    "transcript_display": "search_only"
+   },
+   "classification": {
+    "content_type": "shiur",
+    "story_type": [
+     "chassidic",
+     "talmudic"
+    ],
+    "series": "tanya_yiddish_goldstein",
+    "speakers": [
+     "rabbi_yosef_goldstein"
+    ],
+    "standalone": "standalone",
+    "date": {
+     "gregorian": "1976-09",
+     "hebrew": "Elul 5736",
+     "hebrew_year": 5736,
+     "precision": "month",
+     "basis": "folder_or_sibling",
+     "note": "Previous shiur's filename says '29 Av 5736'; this one speaks of the coming Chai Elul."
+    },
+    "study_text": [
+     {
+      "work": "shulchan_aruch_harav",
+      "unit": "seif",
+      "from": "1:4",
+      "to": "1:5",
+      "lecture_number": 29,
+      "note": "Hilchos Hashkamas HaBoker"
+     },
+     {
+      "work": "tanya",
+      "unit": "perek",
+      "from": "13",
+      "to": "13",
+      "lecture_number": 29
+     }
+    ],
+    "collections": [
+     "Yiddish",
+     "Tanya (Yiddish)"
+    ]
+   },
+   "audience": {
+    "level": "adults",
+    "age_min": 16,
+    "advisories": [],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "alter_rebbe",
+      "role": "teaching_cited"
+     },
+     {
+      "id": "tzemach_tzedek",
+      "role": "appears"
+     },
+     {
+      "id": "baal_shem_tov",
+      "role": "appears"
+     },
+     {
+      "id": "rabbi_yochanan_ben_zakai",
+      "role": "appears"
+     },
+     {
+      "id": "moshe_rabbeinu",
+      "role": "mentioned"
+     },
+     {
+      "id": "the_rebbe",
+      "role": "teaching_cited"
+     }
+    ],
+    "characters": [],
+    "topics": [
+     "chassidus_tanya",
+     "halachah",
+     "calendar"
+    ],
+    "midos": [
+     "yiras_shamayim",
+     "zerizus",
+     "simcha",
+     "kabbalas_ol"
+    ],
+    "mitzvos": [
+     "modeh_ani",
+     "torah_study"
+    ],
+    "calendar": [
+     "elul",
+     "chai_elul",
+     "rosh_hashanah"
+    ],
+    "parshiyos": [],
+    "sources_cited": [
+     {
+      "work": "shulchan_aruch_harav",
+      "ref": "OC 1:4-5"
+     },
+     {
+      "work": "tanya",
+      "ref": "ch. 13; ch. 41"
+     },
+     {
+      "work": "tehillim",
+      "ref": "16:8"
+     },
+     {
+      "work": "chumash",
+      "ref": "Devarim 10:12"
+     },
+     {
+      "work": "gemara",
+      "ref": "Berachos 28b; Berachos 33b"
+     }
+    ]
+   },
+   "segments": [
+    {
+     "start_sec": 0,
+     "end_sec": 1777,
+     "type": "text_study",
+     "title": "Shulchan Aruch HaRav 1:4-5: waking before the King"
+    },
+    {
+     "start_sec": 827,
+     "end_sec": 900,
+     "type": "story",
+     "title": "The young Tzemach Tzedek in the Alter Rebbe's home",
+     "people": [
+      "tzemach_tzedek",
+      "alter_rebbe"
+     ]
+    },
+    {
+     "start_sec": 1344,
+     "end_sec": 1420,
+     "type": "story",
+     "title": "'Fear nothing but G-d': the Baal Shem Tov's father",
+     "people": [
+      "baal_shem_tov"
+     ]
+    },
+    {
+     "start_sec": 1558,
+     "end_sec": 1700,
+     "type": "story",
+     "title": "Rabbi Yochanan ben Zakai's blessing",
+     "people": [
+      "rabbi_yochanan_ben_zakai"
+     ]
+    },
+    {
+     "start_sec": 1777,
+     "end_sec": 2892,
+     "type": "text_study",
+     "title": "Tanya chapter 13: the beinoni and the two judges"
+    },
+    {
+     "start_sec": 2892,
+     "type": "talk",
+     "title": "Elul: crowning Hashem on Rosh Hashanah; from Chai Elul",
+     "calendar": [
+      "elul",
+      "chai_elul",
+      "rosh_hashanah"
+     ]
+    }
+   ],
+   "relations": [
+    {
+     "type": "continues",
+     "target_id": "fcef4d5ded",
+     "evidence": "filename",
+     "confidence": 0.8,
+     "note": "Shiur 28b (end of ch. 12, Shulchan Aruch 1:1-3)."
+    },
+    {
+     "type": "part_of_set",
+     "target_id": "9c2537ad8a",
+     "evidence": "filename",
+     "confidence": 0.7,
+     "note": "'29b P13': second recording numbered 29; check whether it is a continuation or another take."
+    }
+   ],
+   "language": {
+    "primary": "yi",
+    "spoken": [
+     "yi",
+     "he"
+    ],
+    "transcript_language": "yi",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "usable",
+    "issues": [
+     "asr_loop"
+    ],
+    "trim": null,
+    "publish_recommendation": "publish",
+    "notes": "Loshn-koydesh quotations are garbled by ASR; a repetition loop at about 57:40. Do not show the transcript as an authoritative text."
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "medium",
+     "summary": "medium",
+     "people": "high",
+     "calendar": "high",
+     "segments": "medium",
+     "date": "medium",
+     "audience": "high"
+    },
+    "needs_human_review": [
+     "Story boundaries are approximate (Yiddish ASR).",
+     "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+    ]
+   },
+   "identity_guesses": [],
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2029%20-%20Shivisi%20Hashem%20L%27negdi%20Tamid%20and%20Tanya%20Chapter%2013%20%28Elul%29.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 29 - Shivisi Hashem L'negdi Tamid and Tanya Chapter 13 (Elul).mp3",
+    "size_bytes": 45687753,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "407fcad3a4",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Stories",
+    "folder": "אידיש/Yiddish stories",
+    "filename_title": "דריי דין תורה'ס",
+    "audio_path": "audio/Other Stories/Three Din Torahs - The Hidden Tzaddik of Berditchev.mp3",
+    "duration_sec": 1080.308,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": null,
+     "part_marker": null,
+     "production_notes": []
+    },
+    "master_catalog": null,
+    "pipeline_flags": [
+     "language from folder אידיש"
+    ]
+   },
+   "display": {
+    "title": "Three Din Torahs: The Hidden Tzaddik of Berditchev",
+    "title_he": "דריי דין תורה'ס",
+    "title_translit": "Dray Din Toyres",
+    "title_basis": "filename",
+    "summary_short": "A Yiddish story. Why did Rabbi Levi Yitzchak of Berditchev honor the funeral of a man the whole town thought was a miser? He tells of three cases that came before him.",
+    "summary_long": "Told in Yiddish. When Reb Dovid, a rich man everyone in Berditchev considered stingy, passes away, the Chevra Kadisha wants to charge his family extra, but Rabbi Levi Yitzchak forbids it and himself attends the funeral, and the whole town follows. Afterwards he explains with three din Torahs. First, Reb Dovid secretly replaced the five thousand rubles a wine merchant had lost, saving the man's life, and refused to take the money back when the real finder repented. Second, he paid the wife of a poor man who had pretended to have a job with Reb Dovid, and refused repayment. Third, he cancelled a loan because, he said, Hashem as guarantor had already repaid him. Reb Dovid gave in secret, so people thought he was a miser; in truth he was a tzaddik.",
+    "lesson": "Do not judge people by how they appear; the greatest tzedakah is often given in secret.",
+    "keywords": [
+     "miser",
+     "funeral",
+     "five thousand rubles",
+     "wine merchant",
+     "guarantor",
+     "secret charity"
+    ],
+    "transcript_display": "search_only"
+   },
+   "classification": {
+    "content_type": "story",
+    "story_type": [
+     "chassidic"
+    ],
+    "series": null,
+    "speakers": [
+     "yiddish_narrator_unconfirmed"
+    ],
+    "standalone": "standalone",
+    "collections": [
+     "Yiddish",
+     "Yiddish stories"
+    ]
+   },
+   "audience": {
+    "level": "children",
+    "age_min": 7,
+    "advisories": [
+     {
+      "flag": "death",
+      "severity": "mild",
+      "note": "Opens with a death and funeral; a man faints and nearly dies from distress."
+     }
+    ],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [
+     {
+      "id": "rabbi_levi_yitzchak_of_berditchev",
+      "role": "central"
+     }
+    ],
+    "characters": [
+     "Reb Dovid",
+     "Gershon the wine merchant",
+     "a poor man and his wife",
+     "a borrower"
+    ],
+    "topics": [
+     "chassidic_masters",
+     "kindness_and_community"
+    ],
+    "midos": [
+     "dan_lkaf_zchus",
+     "generosity",
+     "anavah"
+    ],
+    "mitzvos": [
+     "tzedakah",
+     "gemilus_chasadim"
+    ],
+    "calendar": [],
+    "parshiyos": [],
+    "places": [
+     "Berditchev"
+    ],
+    "sources_cited": []
+   },
+   "relations": [
+    {
+     "type": "same_story_other_language",
+     "target_id": "803a210c72",
+     "evidence": "content",
+     "confidence": 0.9,
+     "note": "'3 din toras' (English): the same three-part story, with a Chof Cheshvan / Tomchei Temimim introduction."
+    }
+   ],
+   "language": {
+    "primary": "yi",
+    "spoken": [
+     "yi"
+    ],
+    "transcript_language": "yi",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "usable",
+    "issues": [],
+    "trim": null,
+    "publish_recommendation": "publish",
+    "notes": "Several transcript lines end mid-word, so some words may be lost; the plot is still clear."
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "identity_guesses": [
+    {
+     "placeholder_id": "yiddish_narrator_unconfirmed",
+     "guess": null,
+     "confidence": "none",
+     "evidence_quote": "No name or sign-off in the recording."
+    }
+   ],
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "high",
+     "audience": "medium"
+    },
+    "needs_human_review": [
+     "Narrator unknown (see identity_guesses)."
+    ]
+   },
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Three%20Din%20Torahs%20-%20The%20Hidden%20Tzaddik%20of%20Berditchev.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/Other Stories/Three Din Torahs - The Hidden Tzaddik of Berditchev.mp3",
+    "size_bytes": 12964674,
+    "mime_type": "audio/mpeg"
+   }
+  },
+  {
+   "id": "addf1aed4d",
+   "schema_version": "0.3",
+   "source": {
+    "collection": "Stories",
+    "folder": "",
+    "filename_title": "Red Ivan-part 1",
+    "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Red Ivan, Part 1.mp3",
+    "duration_sec": 1456.118,
+    "filename_facts": {
+     "episode_number": null,
+     "date_in_filename": null,
+     "trailing_number": null,
+     "part_marker": "part 1",
+     "production_notes": []
+    },
+    "master_catalog": null,
+    "pipeline_flags": []
+   },
+   "display": {
+    "title": "Red Ivan, Part 1",
+    "title_basis": "filename",
+    "summary_short": "Beryl the merchant loves his money and asks a tzaddik for a blessing for a long journey. He is told to daven three times a day and to send regards to a red-bearded man named Ivan.",
+    "summary_long": "The storyteller opens with a lesson from Bereishis: Hashem creates the world anew every second, like a stretched rubber band that would snap back if released, so Hashem is always with us and we can trust Him. In every generation He also gives us tzaddikim who see further than we do. Beryl, a merchant who keeps mitzvos but hates giving tzedakah, asks the holy Reb Shmuel for a blessing before a long trip. Reb Shmuel tells him to daven three times a day and, oddly, to send regards to a red-haired, red-bearded man called Ivan if he meets him. On the way home Beryl pays to stop the wagon so he can daven Mincha in a forest, and is left behind. He reaches an inn and learns that robbers attacked the wagon he had been on. When the robbers' red-bearded leader, Ivan, walks in, Beryl must decide whether to follow the tzaddik's strange instruction. To be continued.",
+    "lesson": "Trust in Hashem, daven even when it is hard, and follow a tzaddik's instructions.",
+    "keywords": [
+     "merchant",
+     "robbers",
+     "forest",
+     "inn",
+     "red beard",
+     "gold coins",
+     "rubber band"
+    ],
+    "transcript_display": "show_with_label"
+   },
+   "classification": {
+    "content_type": "story_chapter",
+    "story_type": [
+     "chassidic"
+    ],
+    "series": "weekly_story_i_believe",
+    "speakers": [
+     "rabbi_chaim_levi_goldstein"
+    ],
+    "standalone": "cliffhanger",
+    "part": {
+     "set_key": "red-ivan",
+     "part_number": 1,
+     "of": 2
+    },
+    "collections": [
+     "Stories"
+    ]
+   },
+   "audience": {
+    "level": "children",
+    "age_min": 7,
+    "advisories": [
+     {
+      "flag": "peril_violence",
+      "severity": "moderate",
+      "note": "Robbers boast of robbing and killing the wagon passengers (reported, not described)."
+     },
+     {
+      "flag": "death",
+      "severity": "mild",
+      "note": "The other passengers are killed off-scene."
+     }
+    ],
+    "privacy": []
+   },
+   "subjects": {
+    "people": [],
+    "characters": [
+     "Beryl the merchant",
+     "Reb Shmuel",
+     "Ivan, the robbers' leader"
+    ],
+    "topics": [
+     "emunah_bitachon",
+     "prayer_and_brachos",
+     "hiskashrus"
+    ],
+    "midos": [
+     "bitachon",
+     "generosity",
+     "kabbalas_ol"
+    ],
+    "mitzvos": [
+     "davening",
+     "tzedakah"
+    ],
+    "calendar": [],
+    "parshiyos": [
+     "bereishis"
+    ],
+    "sources_cited": [
+     {
+      "work": "sichos_of_the_rebbe",
+      "note": "'As the Rebbe explained': maaser, the tenth part is not yours."
+     }
+    ]
+   },
+   "segments": [
+    {
+     "start_sec": 0,
+     "end_sec": 60,
+     "type": "song",
+     "title": "I Believe in Hashem"
+    },
+    {
+     "start_sec": 60,
+     "end_sec": 335,
+     "type": "talk",
+     "title": "Hashem creates the world every second"
+    },
+    {
+     "start_sec": 335,
+     "type": "story_chapter",
+     "title": "Red Ivan, Part 1",
+     "story_key": "red-ivan",
+     "chapter": 1
+    }
+   ],
+   "relations": [
+    {
+     "type": "part_of_set",
+     "target_id": "62f0b4603b",
+     "evidence": "filename",
+     "confidence": 0.95,
+     "note": "Part 2: 'Red Ivan -Part 2'."
+    }
+   ],
+   "language": {
+    "primary": "en",
+    "spoken": [
+     "en"
+    ],
+    "transcript_language": "en",
+    "transcript_language_ok": true
+   },
+   "quality": {
+    "audio": "good",
+    "transcript": "good",
+    "issues": [],
+    "trim": null,
+    "publish_recommendation": "publish"
+   },
+   "hidden": {
+    "on_air_people": [],
+    "addresses": [],
+    "other_personal": []
+   },
+   "identity_guesses": [
+    {
+     "placeholder_id": "weekly_story_i_believe",
+     "guess": null,
+     "confidence": "none",
+     "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+     "at_sec": 0
+    }
+   ],
+   "provenance": {
+    "method": "human",
+    "filled_at": "2026-11-25T12:00:00Z",
+    "confidence": {
+     "title": "high",
+     "summary": "high",
+     "people": "high",
+     "calendar": "medium",
+     "segments": "high",
+     "audience": "medium"
+    },
+    "needs_human_review": []
+   },
+   "media": {
+    "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Red%20Ivan%2C%20Part%201.mp3",
+    "public_host": "storiesmedia.torahlearningtools.com",
+    "r2_bucket": "stories",
+    "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Red Ivan, Part 1.mp3",
+    "size_bytes": 17474173,
+    "mime_type": "audio/mpeg"
+   }
+  }
+ ]
+}

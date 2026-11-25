@@ -1,0 +1,147 @@
+{
+ "id": "1099bfc28c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "some drasha",
+  "audio_path": "audio/Other Stories/Some Drasha! The Old Man Who Made the Rabbi Miss His Train.mp3",
+  "duration_sec": 873.629,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Some Drasha! The Old Man Who Made the Rabbi Miss His Train",
+  "title_basis": "content",
+  "summary_short": "A talkative old man keeps a busy rabbi from his train with praise for his Shabbos Shuvah drasha. The rabbi misses the train, and it turns out to be the one that crashes.",
+  "summary_long": "Between Rosh Hashanah and Yom Kippur, Rabbi Meir, the rav of his town, is about to leave for the station to lead a delegation to the Minister of Education. A little old man insists on seeing him, saying it is a matter of life and death, yet keeps praising the rabbi's Shabbos Shuvah drasha and slowly telling his life story. At last he explains: his grandson died before the bris at which he was to be sandek, and now a new grandson has been born. As the rabbi jumps into his wagon, the old man calls out to ask what to name the baby, and the hurried rabbi rattles off a string of names. The rabbi misses the express train. Two hours later, at the station for the next train, he learns that the earlier train crashed and many passengers were killed or injured. The minister, who feared for them, welcomes the delegation warmly and their mission succeeds. A year later the old man proudly shows the rabbi his grandson, who was given every one of those names. The storyteller explains that everything Hashem does is for the good, even missing a bus. The recording ends mid-sentence.",
+  "lesson": "Everything Hashem does is for the good; when something goes wrong, like missing the bus, there is a reason, so we should not get upset.",
+  "keywords": [
+   "train",
+   "train crash",
+   "old man",
+   "drasha",
+   "sandek",
+   "bris",
+   "baby names",
+   "minister",
+   "wagon"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A newborn dies before his bris (told briefly); a train crash kills and injures many passengers."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A train crash, reported after the fact."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Meir, the town rav",
+   "the little old man",
+   "the rav's wife",
+   "two community leaders",
+   "the Minister of Education",
+   "the baby grandson"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "bitachon",
+   "savlanus",
+   "emunah"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Starts directly with the story; cut off mid-sentence at the end ('as the Tzemach Tzedek says,'), after the lesson."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:23:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unidentified (no opening song; addresses listeners as 'kinderlach').",
+   "Ends mid-sentence."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Some%20Drasha%21%20The%20Old%20Man%20Who%20Made%20the%20Rabbi%20Miss%20His%20Train.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Some Drasha! The Old Man Who Made the Rabbi Miss His Train.mp3",
+  "size_bytes": 10484429,
+  "mime_type": "audio/mpeg"
+ }
+}

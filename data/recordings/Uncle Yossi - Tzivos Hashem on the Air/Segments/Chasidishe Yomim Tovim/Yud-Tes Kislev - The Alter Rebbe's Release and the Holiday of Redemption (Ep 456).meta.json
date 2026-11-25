@@ -1,0 +1,167 @@
+{
+ "id": "87014a5c1e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "19 Kislev 456",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Kislev - The Alter Rebbe's Release and the Holiday of Redemption (Ep 456).mp3",
+  "duration_sec": 359.105,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 456,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 456,
+   "story": "The ten wedding gifts #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud-Tes Kislev: The Alter Rebbe's Release and the Holiday of Redemption",
+  "title_basis": "content",
+  "summary_short": "Why we celebrate Yud-Tes Kislev: the Alter Rebbe's miraculous release from prison in 5559, and how every soldier of Tzivos Hashem can mark the day by adding in Torah learning.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, given in the days before Yud-Tes Kislev 5751, the year of wonders. Uncle Yossi explains that Kislev is the month of miracles we can see, like Chanukah. On the 19th of Kislev in 5559 (1798), the Alter Rebbe, Rabbi Schneur Zalman of Liadi, was freed from prison, where his life had been in danger, and cleared of every false accusation. Each year we thank Hashem for that miracle and for what followed from it: all later generations could learn the Alter Rebbe's teachings of Chassidus. That is why the day is called the Chag HaGeulah, the holiday of redemption. People gather to retell its stories, make resolutions, and divide the whole Talmud so that each person learns a tractate during the year. Tzivos Hashem soldiers can celebrate by adding to their daily learning, in the merit of the Alter Rebbe, and praying for the greatest redemption, the coming of Moshiach.",
+  "lesson": "Celebrate Yud-Tes Kislev by thanking Hashem and taking on a little more Torah learning and mitzvos.",
+  "keywords": [
+   "Alter Rebbe's release",
+   "prison",
+   "Chag HaGeulah",
+   "Chassidus",
+   "dividing the Talmud",
+   "resolutions",
+   "month of miracles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 456,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-12-04",
+   "hebrew": "17 Kislev 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'This coming Thursday is Yud-Tes Kislev' in 5751; the full episode 456 names the date as December 4th."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The Alter Rebbe's imprisonment, when his life was in danger, is recalled.",
+    "at_sec": 125
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "torah_study",
+   "chassidus_tanya"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Liadi"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "49c48be342",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 52,
+   "note": "Episode 456 (filename number); clip = 52-411 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Thursday' and the year 5751; label as broadcast before Yud-Tes Kislev 5751."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Tes%20Kislev%20-%20The%20Alter%20Rebbe%27s%20Release%20and%20the%20Holiday%20of%20Redemption%20%28Ep%20456%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Kislev - The Alter Rebbe's Release and the Holiday of Redemption (Ep 456).mp3",
+  "size_bytes": 4310081,
+  "mime_type": "audio/mpeg"
+ }
+}

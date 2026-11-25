@@ -1,0 +1,170 @@
+{
+ "id": "5a8bd9829c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Ahavas Yisroel 357",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Ahavas Yisroel - The Baal Shem Tov Carries the Children to Cheder (Ep 357).mp3",
+  "duration_sec": 183.381,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 357,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 357,
+   "story": "The return of Yehudah #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Ahavas Yisroel: The Baal Shem Tov Carries the Children to Cheder",
+  "title_basis": "content",
+  "summary_short": "The Baal Shem Tov, as a hidden tzaddik, carried little children through the mud to cheder; and like Avraham Avinu, every Jew has the power to bless others.",
+  "summary_long": "A short midos talk from the Tzivos Hashem radio show on Ahavas Yisroel, love for every Jew. Uncle Yossi tells how the Baal Shem Tov, while still a hidden tzaddik disguised as a simple man, helped little children get to cheder, because he knew how much Hashem loves to hear their pure voices learning the aleph-beis. On rainy days, when the roads were deep in mud, he carried the children on his shoulders, singing as he walked. Soldiers of Tzivos Hashem should likewise be living examples of how precious this mitzvah is. One way to start: Hashem told Avraham Avinu, 'You shall be a blessing', which Rashi explains to mean that the power to bless others was now given to him. We too have that power to bless one another, and Hashem will do the rest.",
+  "lesson": "Show love for every Jew by helping others and by using your power to bless them.",
+  "keywords": [
+   "cheder",
+   "mud",
+   "hidden tzaddik",
+   "aleph-beis",
+   "blessing",
+   "carrying children"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "collections": [
+   "Midos Tovos"
+  ],
+  "episode": {
+   "number": 357,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-12-27",
+   "hebrew": "19 Teves 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 357 (4f76af6486). Episode: Consistent with the audio: candle lighting 'this coming Friday, December the 30th'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the cheder children"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "baal_shem_tov_and_students",
+   "torah_study"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "anavah"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 12:2",
+    "note": "'And you shall be a blessing': the power to bless is given to Avraham."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "4f76af6486",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 1281,
+   "note": "Episode 357 (filename number); clip = 1281-1465 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends just before the episode asks listeners to bless a sick child; the closing line about blessing one another can stand alone."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:40:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Ahavas%20Yisroel%20-%20The%20Baal%20Shem%20Tov%20Carries%20the%20Children%20to%20Cheder%20%28Ep%20357%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Ahavas Yisroel - The Baal Shem Tov Carries the Children to Cheder (Ep 357).mp3",
+  "size_bytes": 2201680,
+  "mime_type": "audio/mpeg"
+ }
+}

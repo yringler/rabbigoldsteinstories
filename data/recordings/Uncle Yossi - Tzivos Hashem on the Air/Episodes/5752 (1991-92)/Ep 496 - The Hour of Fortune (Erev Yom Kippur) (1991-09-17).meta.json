@@ -1,0 +1,254 @@
+{
+ "id": "edab733670",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "496",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 496 - The Hour of Fortune (Erev Yom Kippur) (1991-09-17).mp3",
+  "duration_sec": 1789.343,
+  "filename_facts": {
+   "episode_number": 496,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 496,
+   "story": "The hour of fortune",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 496: The Hour of Fortune (Erev Yom Kippur)",
+  "title_basis": "master_catalog",
+  "summary_short": "Broadcast on Erev Yom Kippur 5752: how teshuvah, tefillah and tzedakah wipe the slate clean, Shema with a young guest, and a servant who wastes his hour in the king's treasure room.",
+  "summary_long": "Aired on Erev Yom Kippur, shortly before the fast. Uncle Yossi explains that Yom Kippur, 'once a year', is the day Hashem erases our sins, earned through teshuvah, tefillah and tzedakah. Following the Rambam he lists the steps of teshuvah: stop the wrongdoing, confess to Hashem, resolve never to repeat it, and ask forgiveness. He gives the fast times, explains who fasts, urges children to daven slowly and with feeling, bring relatives to shul and listen for the shofar at the end of the day, and notes that Yom Kippur ends in joy. A young girl leads the Shema, and everyone gives tzedakah. Story time is 'The Hour of Fortune': as a reward, a king lets his most devoted servant take whatever he wants from the royal treasure room for one hour. Ten barrels stand ready, but a violinist the king has placed there plays such beautiful music that the servant keeps listening, and when the hour ends he leaves empty-handed. Uncle Yossi explains: the King is Hashem, the treasures are mitzvos, and the musician is the yetzer hara. The show ends with wishes for a gmar chasimah tovah.",
+  "lesson": "Our time in this world is the king's hour of fortune: gather Torah and mitzvos, and don't let the yetzer hara's distractions waste it.",
+  "keywords": [
+   "treasure room",
+   "ten barrels",
+   "violinist",
+   "diamonds",
+   "clock",
+   "machzor",
+   "fast",
+   "Ne'ilah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 496,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-09-17",
+   "hebrew": "9 Tishrei 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'6:58 tonight is the beginning of the fast of Yom Kippur' (Erev Yom Kippur 5752 = Tue 17 Sep 1991). Tue 10 Sep was Rosh Hashanah, so no show that week."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 586
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Yisroel, the faithful servant",
+   "the king",
+   "the violinist"
+  ],
+  "topics": [
+   "teshuvah",
+   "calendar",
+   "mitzvos_in_daily_life",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "self_control",
+   "zerizus",
+   "simcha"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "tzedakah",
+   "fast_days",
+   "shofar",
+   "shema"
+  ],
+  "calendar": [
+   "yom_kippur",
+   "aseres_yemei_teshuvah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 16:34",
+    "note": "'Once a year': the Torah's name for Yom Kippur."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 2:2",
+    "note": "The steps of teshuvah: stop, confess, resolve never to repeat, ask forgiveness."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 60,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 561,
+   "type": "talk",
+   "title": "Yom Kippur: Teshuvah, Tefillah and Tzedakah",
+   "summary": "The day our sins are erased, the Rambam's steps of teshuvah, fast times, davening with feeling and the joyful end of the day.",
+   "people": [
+    "rambam"
+   ],
+   "calendar": [
+    "yom_kippur"
+   ],
+   "linked_items": [
+    "360b02d123"
+   ]
+  },
+  {
+   "start_sec": 561,
+   "end_sec": 675,
+   "type": "shema_guest",
+   "title": "Shema with a young guest"
+  },
+  {
+   "start_sec": 675,
+   "end_sec": 705,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 705,
+   "end_sec": 1444,
+   "type": "story",
+   "title": "The Hour of Fortune",
+   "summary": "Given one hour in the royal treasure room, a servant is distracted by a violinist and leaves empty-handed."
+  },
+  {
+   "start_sec": 1444,
+   "end_sec": 1668,
+   "type": "talk",
+   "title": "The King's Treasure Room Is This World",
+   "summary": "Hashem is the King, the mitzvos are the treasures, and the yetzer hara is the musician."
+  },
+  {
+   "start_sec": 1668,
+   "type": "closing",
+   "title": "Gmar chasimah tovah and closing",
+   "calendar": [
+    "yom_kippur"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guest named on air (see hidden). Fast times are period content and inconsistent on air (6:58 at the start, 6:50 later). No march or sponsor in this episode."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Maryasha Shem Tov",
+    "role": "shema_guest",
+    "group": "yeshiva student (school not named)",
+    "start_sec": 575,
+    "end_sec": 675
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "360b02d123",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Yom Kippur 496' = 60-561 s of this episode."
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:28Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20496%20-%20The%20Hour%20of%20Fortune%20%28Erev%20Yom%20Kippur%29%20%281991-09-17%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 496 - The Hour of Fortune (Erev Yom Kippur) (1991-09-17).mp3",
+  "size_bytes": 21473183,
+  "mime_type": "audio/mpeg"
+ }
+}

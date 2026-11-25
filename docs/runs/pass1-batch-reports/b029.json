@@ -1,0 +1,34 @@
+{
+ "batch_id": "b029",
+ "done": [
+  "d90fcf6d04",
+  "de960168b5",
+  "ab8bcf9dda",
+  "d1e2071ee1",
+  "acb8cebb3e",
+  "0b2ff37d4b",
+  "fb80479822",
+  "ec9db14f6a",
+  "87234351b2",
+  "311722f164",
+  "8f5afa40d5",
+  "084989493e",
+  "5650f2336c",
+  "112c0c9905",
+  "34122f43d5",
+  "9b9050cf28",
+  "c20363c72e"
+ ],
+ "failed": [],
+ "notes": [
+  "Dating: all eight episodes (392-399) confirm the weekly estimates from audio cues with no gaps: 392 = 28 Av 5749 (1989-08-29, Rosh Chodesh Elul Thursday); 393 = first week of Elul (1989-09-05); 394 = 1989-09-12 ('next Monday the 18th of September is Chai Elul'); 395 = day after Chai Elul (1989-09-19, first Selichos that Motzei Shabbos); 396 = 1989-09-26 (Erev Rosh Hashanah on Friday, Tzemach Tzedek's 200th birthday); 397 = 4 Tishrei 5750 (1989-10-03, Vov Tishrei Thursday, Shabbos Shuvah); 398 = 11 Tishrei (1989-10-10, Erev Sukkos Friday 13 Oct); 399 = Chol HaMoed Sukkos (1989-10-17).",
+  "Identity clue: in episode 397 (084989493e) a Shema guest from a shlichus family in Madrid calls the host 'Zaidy' and he says she is his granddaughter; her surname is Goldstein. The episode 392 Shema guest is also named Goldstein (Ohalei Torah), possibly family. Recorded only in hidden.",
+  "Re-airs found and linked (aired_again_in): 393 story 'The King Is Watching' in episode 431 (7576c3475c); 394 story 'The Two Brothers' in 481 (cb7b450fa0); 395 story of the young Baal Shem Tov in the cave in 545 (a8dd8c8c66); 397 opening + Hop Kozak march + 'Pillar of Fire' story also in 295 (3073859dbb) and 446 (8bbf7a6519); 398 Sukkos talk + hidden-tzaddik story + Sukkos Experience promo in 447 (e17ac37c8e).",
+  "Clip 'Shpoller Zeide 397' (5650f2336c): source episode is uncertain. Text matches 446 (0.67) better than 397 (0.50); it contains the line 'later in this program we will tell you how to find out if you are a descendant', which is only followed up in episode 295 (Shpoler Zeide Family Society guest). Episodes 295 and 397 both have an ASR gap at about 01:45-02:36 where that sentence would be. Pass 2 should decide which episode the clip was cut from.",
+  "Clip 'Sukkos 398' (34122f43d5) and 'Zman Simchaseinu 447' (7b70f3b3d4) are cuts of the same Sukkos talk; linked as same_recording.",
+  "Episode 399 (9b9050cf28) file is 62.7 min; speech ends at 1787 s and the remaining ~33 min have no speech. Trim set; needs a human check that it is blank tape.",
+  "Episode 396 (311722f164) has about 2 minutes of trailing silence after the closing; trim set.",
+  "ASR: Reb Boruch (the Shpoler Zeide's father) is repeatedly transcribed as 'Rabbi Akiva' in 398; 'Shpola Zeda/Shpala Zeta' for Shpoler Zeide throughout; Shema guest surnames in 395 ('Chadaitov') and 398 ('Yabra') are uncertain spellings.",
+  "Episode 398 title uses the story content ('The Birth of the Shpoler Zeide'); the master catalog row is only 'Maharal. Shpoler Zeide. Reb Boruch'."
+ ]
+}

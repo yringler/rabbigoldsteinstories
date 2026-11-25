@@ -1,0 +1,16 @@
+{
+ "batch_id": "b095",
+ "done": [
+  "241ca67725",
+  "f10a20007e",
+  "eb981b7c2e",
+  "9595d61d8b"
+ ],
+ "failed": [],
+ "notes": [
+  "241ca67725 ('56 tanya T23a Y') and c465a14448 ('56 P23') are the same recording word for word (two transfers, ~30 s length difference). Added same_recording; pass 2 should pick the better copy and mark superseded_by.",
+  "f10a20007e (shiur 57) says '5737' on air and wishes a happy Purim; refers to the Rebbe's Kuntres Ahavas Yisroel issued 'last week'. Dated Adar 5737; shiur 56 dated a week earlier. This conflicts with the folder's numbering elsewhere (shiur 31 = Tishrei 5737 on chapter 14, shiur 35 = chapter 24), so the shiur numbers may not be one chronological sequence or may span two cycles.",
+  "eb981b7c2e ('perek 36 t1') starts mid-sentence; its opening likely continues the second session at the end of d640b2306b ('49 P36b', which ends mid-recap of the chain of worlds). Not added as a relation because that id is outside this batch's facts/hints; pass 2 should check.",
+  "9595d61d8b ('perek 36 t2') follows t1 directly and is cut off as a Baal Shem Tov story begins. Its on-air year is ASR-garbled ('ה'תשלמ\"ח'); shiur 48 ('48 P36 and Elul', 4257fc657b) says 'today 5738', so both t1/t2 were dated 5738 with low confidence. Possible overlap with 810be25897 / d640b2306b ('49 P36a/b') should be checked in pass 2."
+ ]
+}

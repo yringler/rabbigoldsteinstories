@@ -1,0 +1,312 @@
+{
+ "id": "1548d130c1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "11 2-16-82",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 011 - The Lost Letter, Chapter 1 (1982-02-16).mp3",
+  "duration_sec": 1715.742,
+  "filename_facts": {
+   "episode_number": 11,
+   "date_in_filename": "1982-02-16",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 11,
+   "story": "The Lost Letter #1",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 11: The Lost Letter, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "A new serial begins: a wealthy student tells the dying Baal Shem Tov he needs no blessing, and is given a sealed letter to deliver, which he loses. Plus listeners' letters and a contest.",
+  "summary_long": "After a grand march, story time begins a new serial, \"The Lost Letter\". In the Baal Shem Tov's last days, he calls each student to his bedside to bless him. Reb Leibel, the richest man in town, generous with tzedakah and blessed with a healthy family, decides he needs no bracha, a big mistake, since the wheel of fortune always turns, which is why we daven every day. Halfway through, a young club member leads the Shema. When Reb Leibel says he needs nothing, the Baal Shem Tov asks him for a favor instead: to deliver a sealed letter to Reb Sholom, for his eyes only. Riding home through a fierce rainstorm, Reb Leibel bends to pull off his muddy boots, and the envelope slips away; strangely, he forgets all about it. Chapter 2 is next week. The mailbox has a girl who wants a Tzivos Hashem T-shirt for a poor friend in Eretz Yisroel, and several children asking for the words of the theme song \"We Want Moshiach Now\". Uncle Yossi announces a contest, running until Purim, for a letter, poem or drawing, with a set of 28 story tapes as the prize.",
+  "lesson": "However well things are going, keep asking Hashem and the tzaddikim for blessing, because no one knows what tomorrow will bring.",
+  "keywords": [
+   "blessing",
+   "deathbed",
+   "rich student",
+   "sealed envelope",
+   "rainstorm",
+   "muddy boots",
+   "T-shirt",
+   "iron-on",
+   "We Want Moshiach Now",
+   "contest",
+   "story tapes"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "note": "Date from the filename; the contest is said to end on Purim, 9 March 1982, which fits.",
+   "gregorian": "1982-02-16",
+   "hebrew": "23 Shevat 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "filename"
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 1
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 11,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Set at the Baal Shem Tov's deathbed as he blesses his students.",
+    "at_sec": 503
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child Shema guest and several child letter writers named in full.",
+    "at_sec": 706
+   },
+   {
+    "flag": "home_address",
+    "note": "Street addresses of four letter writers read on air.",
+    "at_sec": 1074
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Leibel, a wealthy student of the Baal Shem Tov",
+   "Reb Sholom"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "prayer_and_brachos",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "anavah",
+   "bitachon",
+   "kabbalas_ol",
+   "generosity"
+  ],
+  "mitzvos": [
+   "davening",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 17,
+   "type": "opening",
+   "title": "Opening theme"
+  },
+  {
+   "start_sec": 17,
+   "end_sec": 75,
+   "type": "sponsor",
+   "title": "Greeting and sponsor"
+  },
+  {
+   "start_sec": 75,
+   "end_sec": 150,
+   "type": "announcement",
+   "title": "Thank you for tuning in"
+  },
+  {
+   "start_sec": 150,
+   "end_sec": 421,
+   "type": "song",
+   "title": "Grand march: Mizmor Shir Chanukas HaBayis"
+  },
+  {
+   "start_sec": 421,
+   "end_sec": 1050,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 1",
+   "summary": "Reb Leibel declines the dying Baal Shem Tov's blessing, is sent with a sealed letter, and loses it on a stormy night.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 1
+  },
+  {
+   "start_sec": 690,
+   "end_sec": 780,
+   "type": "shema_guest",
+   "title": "A young club member leads the Shema"
+  },
+  {
+   "start_sec": 1050,
+   "end_sec": 1354,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A T-shirt for a poor friend in Eretz Yisroel, and requests for the words of 'We Want Moshiach Now'."
+  },
+  {
+   "start_sec": 1354,
+   "end_sec": 1600,
+   "type": "announcement",
+   "title": "Contest: a letter, poem or drawing",
+   "summary": "Enter by Purim to win a set of 28 story tapes."
+  },
+  {
+   "start_sec": 1600,
+   "type": "closing",
+   "title": "Closing and sponsor thanks"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "94351be6b8",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1982): ep 11 ch. 1 and ep 12 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mailbox reads children's full names and four home addresses (see hidden). Contest, prizes and sponsor are period pieces. The program's own address (604 Empire Boulevard) is public and not listed in hidden."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avraham Zuntz",
+    "role": "shema_guest",
+    "group": "Tzivos Hashem club member",
+    "start_sec": 706,
+    "end_sec": 770
+   },
+   {
+    "name": "Dina Guttman",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of Boro Park, Brooklyn",
+    "start_sec": 1074,
+    "end_sec": 1215,
+    "note": "Asked for a Tzivos Hashem T-shirt to send to a poor friend in Eretz Yisroel."
+   },
+   {
+    "name": "Devorah Aberbach",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1215,
+    "end_sec": 1324,
+    "note": "Asked for the words of the theme song."
+   },
+   {
+    "name": "Shalom Birnbaum",
+    "role": "mailbox_letter",
+    "group": "Brooklyn",
+    "start_sec": 1295,
+    "end_sec": 1324
+   },
+   {
+    "name": "Frady Shane (ASR spelling)",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1305,
+    "end_sec": 1324
+   }
+  ],
+  "addresses": [
+   {
+    "text": "5012 20th Avenue, Brooklyn, New York",
+    "start_sec": 1074,
+    "end_sec": 1100
+   },
+   {
+    "text": "5 Meadowbrook Lane, Monsey, New York",
+    "start_sec": 1215,
+    "end_sec": 1230
+   },
+   {
+    "text": "1172 50th Street, Brooklyn, New York",
+    "start_sec": 1295,
+    "end_sec": 1305
+   },
+   {
+    "text": "10 Susan Drive, Monsey, New York",
+    "start_sec": 1305,
+    "end_sec": 1320
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:49:01Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20011%20-%20The%20Lost%20Letter%2C%20Chapter%201%20%281982-02-16%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 011 - The Lost Letter, Chapter 1 (1982-02-16).mp3",
+  "size_bytes": 20589833,
+  "mime_type": "audio/mpeg"
+ }
+}

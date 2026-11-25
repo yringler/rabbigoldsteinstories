@@ -1,0 +1,326 @@
+{
+ "id": "393f61d950",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "555",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 555 - A Time to Remember, and Ani Maamin (Asarah B'Teves) (1993-01-03).mp3",
+  "duration_sec": 1777.252,
+  "filename_facts": {
+   "episode_number": 555,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 555,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 555: A Time to Remember, and Ani Maamin (Asarah B'Teves)",
+  "title_basis": "content",
+  "summary_short": "On Asarah B'Teves, Uncle Yossi explains why we remember the siege of Yerushalayim, two brothers who say the Twelve Pesukim lead the Shema, and a young guest sings Ani Maamin.",
+  "summary_long": "Broadcast on Asarah B'Teves 5753. Uncle Yossi explains, with Shlomo HaMelech's words 'there is a time for everything', that there is a time to be happy and a time to be sad, not to stay sad but to learn from the past and improve. On the tenth of Teves, Nevuchadnetzar's armies began their siege of Yerushalayim; after two and a half years the walls were breached on the seventeenth of Tammuz, and three weeks later, on Tisha B'Av, the Beis HaMikdash was destroyed. As long as we learn Torah and keep mitzvos, Hashem, the Guardian of Israel, protects us, and He has promised that these fast days will become days of joy when Moshiach comes. Two brothers, who say the Twelve Pesukim and encourage their friends to do so, lead the Shema; then come tzedakah, Tehillim for the Rebbe's recovery and an advertisement. A young guest sings 'Ani Maamin', the song of our belief in Moshiach's coming, and tells how much he enjoys being a member of Tzivos Hashem and reading the Moshiach Times.",
+  "lesson": "We remember sad days in order to learn from the past and improve, and we believe that Moshiach will turn them into days of joy.",
+  "keywords": [
+   "siege",
+   "Yerushalayim",
+   "Nevuchadnetzar",
+   "fast day",
+   "a time for everything",
+   "Ani Maamin",
+   "Moshiach Times",
+   "Twelve Pesukim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 555,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1993-01-03",
+   "hebrew": "10 Teves 5753",
+   "hebrew_year": 5753,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the tenth day of the month Teves'; 10 Teves 5753 was Sunday 3 Jan 1993, a week after ep. 554 (Zos Chanukah)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim, hunger in the city, and the destruction of the Beis HaMikdash.",
+    "at_sec": 256
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests and a singing guest named in full.",
+    "at_sec": 749
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "jewish_history",
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "twelve_pesukim",
+   "shema",
+   "tzedakah",
+   "tehillim",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'There is a time for everything' (cited as Shlomo HaMelech)."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 20",
+    "note": "Recited together for the Rebbe's recovery."
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 49,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 49,
+   "end_sec": 702,
+   "type": "talk",
+   "title": "Asarah B'Teves: A Time to Remember",
+   "summary": "Why we fast and remember the siege of Yerushalayim, how it led to the Churban, and Hashem's promise to turn these days into Yomim Tovim.",
+   "calendar": [
+    "asarah_bteves"
+   ]
+  },
+  {
+   "start_sec": 702,
+   "end_sec": 1020,
+   "type": "shema_guest",
+   "title": "Shema with two brothers who say the Twelve Pesukim"
+  },
+  {
+   "start_sec": 1020,
+   "end_sec": 1053,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1053,
+   "end_sec": 1189,
+   "type": "other",
+   "title": "Tehillim for the Rebbe's recovery"
+  },
+  {
+   "start_sec": 1189,
+   "end_sec": 1269,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 1269,
+   "end_sec": 1523,
+   "type": "song",
+   "title": "Ani Maamin, sung by a young guest"
+  },
+  {
+   "start_sec": 1523,
+   "end_sec": 1606,
+   "type": "other",
+   "title": "What I like about Tzivos Hashem: a chat with the guest"
+  },
+  {
+   "start_sec": 1606,
+   "end_sec": 1687,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 1687,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "b8577c47e9",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The Asarah B'Teves talk and the Ani Maamin guest segment also appear in episode 507."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "efb72976ab",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "File '5' has the same Asarah B'Teves talk and Ani Maamin segment; possibly a copy of 507."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "2cdc2fb9fd",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Clip 'Asarah B'Teves 507' is the same Asarah B'Teves talk."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "213559b057",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Clip 'Asarah B'Teves 5' is the same Asarah B'Teves talk."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Reuses the Asarah B'Teves talk and Ani Maamin segment from episode 507. Two advertisements with phone numbers. Child guests named (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yosef Yitzchak Drizin",
+    "role": "shema_guest",
+    "group": "age 10",
+    "start_sec": 749,
+    "end_sec": 1020
+   },
+   {
+    "name": "Schneur Zalman Moshe Drizin",
+    "role": "shema_guest",
+    "group": "age 7",
+    "start_sec": 749,
+    "end_sec": 1020
+   },
+   {
+    "name": "Yehuda Zavdi",
+    "role": "visitor",
+    "group": "sings Ani Maamin",
+    "start_sec": 1327,
+    "end_sec": 1606
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Singing guest says his parents are from Eretz Yisroel.",
+    "start_sec": 1357,
+    "end_sec": 1380
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Talk and song segment appear to be reused from episode 507; check whether the 'today is Asarah B'Teves' opening is original to 555."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5753%20%281992-93%29/Ep%20555%20-%20A%20Time%20to%20Remember%2C%20and%20Ani%20Maamin%20%28Asarah%20B%27Teves%29%20%281993-01-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 555 - A Time to Remember, and Ani Maamin (Asarah B'Teves) (1993-01-03).mp3",
+  "size_bytes": 21328047,
+  "mime_type": "audio/mpeg"
+ }
+}

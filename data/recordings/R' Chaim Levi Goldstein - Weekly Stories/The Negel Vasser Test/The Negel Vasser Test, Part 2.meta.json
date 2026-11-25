@@ -1,0 +1,206 @@
+{
+ "id": "f34861c52d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Negel-Vasser Test 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Negel Vasser Test/The Negel Vasser Test, Part 2.mp3",
+  "duration_sec": 1195.807,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Negel Vasser Test, Part 2",
+  "title_basis": "filename",
+  "summary_short": "Matzliach gives away his whole sack of gold for a second bottle of water for negel vasser, then, alone in the wild, stumbles on a robbers' hidden cave.",
+  "summary_long": "After the song \"I Believe in Hashem\" and a recap, Matzliach, dizzy with thirst after using his only water for negel vasser, asks the caravan captain for a second bottle. Refused, he remembers his promise and offers his entire sack of gold coins, meant for two years of spices. The captain and passengers laugh at him but gladly share the gold, and he receives two bottles each day until they leave the desert. With no money left to buy goods, Matzliach parts from the caravan and sets out on foot to find a Jewish town. At nightfall he finds a ring of trees with a smoldering fire and lies down to sleep, then jumps up, ashamed: he has no negel vasser ready. While he searches for water at a pond, an armed band of robbers arrives at the very spot where he had been lying, leading the captain in chains. Hidden behind the trees, he thanks Hashem: the mitzvah saved his life. The robbers disappear into a tunnel beneath a great rock, and in the morning, after they ride away, Matzliach bravely enters their cave, finds a dining hall and treasure rooms, and sees two shadowy figures in a dark room. To be continued.",
+  "lesson": "A mitzvah is worth more than all the gold in the world, and a mitzvah protects the one who keeps it.",
+  "keywords": [
+   "sack of gold",
+   "water bottle",
+   "caravan captain",
+   "pond",
+   "robbers",
+   "secret cave",
+   "treasure",
+   "campfire"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "the-negel-vasser-test",
+   "part_number": 2,
+   "of": 3
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "An armed band of robbers passes close to the hiding hero."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The robbers lead the caravan captain away in chains."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Matzliach",
+   "the caravan captain",
+   "the passengers",
+   "the robbers"
+  ],
+  "topics": [
+   "morning_routine",
+   "mitzvos_in_daily_life",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "bitachon",
+   "courage",
+   "generosity"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "kashrus",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 125,
+   "type": "story_intro",
+   "title": "Recap of Part 1"
+  },
+  {
+   "start_sec": 125,
+   "type": "story_chapter",
+   "title": "The Negel Vasser Test, Part 2",
+   "story_key": "the-negel-vasser-test",
+   "chapter": 2
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles negel vasser."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem. There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "c2fbdf730a",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Part 1: the halachos of negel vasser and the start of the desert journey."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "efcdc98ed0",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Part 3: the robbers' cave and the ending."
+  },
+  {
+   "type": "continues",
+   "target_id": "c2fbdf730a",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Opens 'as we told you in the last part of the story'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "09853315db",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Matzliach and the Mitzvah of Negel Vasser, Part 3' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Negel%20Vasser%20Test/The%20Negel%20Vasser%20Test%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Negel Vasser Test/The Negel Vasser Test, Part 2.mp3",
+  "size_bytes": 14350459,
+  "mime_type": "audio/mpeg"
+ }
+}

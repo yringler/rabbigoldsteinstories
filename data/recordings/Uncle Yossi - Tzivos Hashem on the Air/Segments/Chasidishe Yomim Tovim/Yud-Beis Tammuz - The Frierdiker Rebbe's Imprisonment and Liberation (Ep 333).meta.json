@@ -1,0 +1,183 @@
+{
+ "id": "db1f84ef9e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Yud Beis Tammuz 333",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Imprisonment and Liberation (Ep 333).mp3",
+  "duration_sec": 387.756,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 333,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 333,
+   "story": "The Island of Treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yud-Beis Tammuz: The Frierdiker Rebbe's Imprisonment and Liberation",
+  "title_basis": "content",
+  "summary_short": "How the Frierdiker Rebbe was jailed in 1927 for teaching Torah and freed on his birthday, the 12th of Tammuz, and why Tzivos Hashem celebrates the day.",
+  "summary_long": "A Yud-Beis Tammuz talk from the Tzivos Hashem radio show, given six days before the holiday. Uncle Yossi tells how in 1927 the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, was put in prison in Russia for secretly teaching Torah and mitzvos, especially to young children, at a time when the government forbade it. Jews around the world prayed for him, and through a miracle he was freed on the 12th of Tammuz, his own birthday. His victory was a victory for all Jews: he went right back to founding yeshivos, shuls and mikvaos, and thanks to his mesiras nefesh there are so many yeshivos today. Tzivos Hashem exists in his merit, because the Jewish child was always at the top of his list, and the children of today are the leaders of tomorrow. Uncle Yossi urges strong resolutions to learn more Torah and do more mitzvos, prays that this Geulah lead to the final Geulah, and notes that today is the 6th of Tammuz and Yud-Beis Tammuz falls this coming Monday.",
+  "lesson": "The Frierdiker Rebbe risked his life so that children could learn Torah; we honor him by learning more Torah and doing more mitzvos.",
+  "keywords": [
+   "prison",
+   "Russia",
+   "1927",
+   "birthday",
+   "liberation",
+   "yeshivos",
+   "leaders of tomorrow"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 333,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-06-21",
+   "hebrew": "6 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Vav Tammuz'; cut from episode 333 (filename date 1988-06-21)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe is jailed in Soviet Russia for teaching Torah, and his life is in danger.",
+    "at_sec": 52
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "tzivos_hashem",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "ec81364f6e",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 14,
+   "note": "Episode 333 (filename number); clip = 14-402 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "3b2eabf95b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'12 Tammuz 333' is a slightly shorter cut of the same talk (episode 333, 39-377 s); this cut also has the opening line and the date announcement."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "342600f363",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Text match with episode 283 (containment 0.77); the closing date announcement is specific to this year."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with the dated line 'today is Vav Tammuz... this coming Monday'. Better copy than '12 Tammuz 333'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Beis%20Tammuz%20-%20The%20Frierdiker%20Rebbe%27s%20Imprisonment%20and%20Liberation%20%28Ep%20333%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Imprisonment and Liberation (Ep 333).mp3",
+  "size_bytes": 4653963,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "id": "18c3f70218",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "In The Pots",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/In the Pots - Six-Year-Old Shmuel and the Copper Pots.mp3",
+  "duration_sec": 977.685,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "In the Pots: Six-Year-Old Shmuel and the Copper Pots",
+  "title_basis": "filename",
+  "summary_short": "A Chassid accused of stealing the government's copper cannot see the Tzemach Tzedek, so he tells his trouble to the Rebbe's six-year-old son, Shmuel, the future Rebbe Maharash.",
+  "summary_long": "Chassidim crowd the waiting room, but the Tzemach Tzedek will see no one today. One Chassid, Reb Moshe, bursts into tears, and the Rebbe's six-year-old son Shmuel, later the Rebbe Maharash, asks how he can help. Reb Moshe explains: his factory makes copper pots for the Russian army from metal the government supplies, and some of his workers secretly made the pots thinner and kept the leftover copper. Now the pots weigh a hundred pounds too little, and he must stand trial for stealing from the government. Little Shmuel asks him for three rubles and promises that everything will be all right. In court the pots are weighed again, and they weigh more than all the copper he was given, so the army must pay him a fine instead. When Reb Moshe comes to thank the Tzemach Tzedek, the truth comes out: Shmuel had given the three rubles to a poor kallah who was crying because she could not buy a tallis for her chassan, and that mitzvah of helping a bride and groom is what he \"put inside the pots.\"",
+  "lesson": "The mitzvah of tzedakah, especially helping a chassan and kallah, brings great blessing and can turn a bad situation around.",
+  "keywords": [
+   "copper pots",
+   "factory",
+   "army",
+   "scale",
+   "trial",
+   "judge",
+   "three rubles",
+   "kallah",
+   "tallis"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, the pot-factory owner",
+   "the gabbai",
+   "the factory workers",
+   "the army officer",
+   "the prosecutor",
+   "the judge",
+   "the lawyer",
+   "a poor kallah"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "emunah"
+  ],
+  "mitzvos": [
+   "hachnasas_kallah",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "type": "story",
+   "title": "Six-year-old Shmuel and the copper pots",
+   "people": [
+    "rebbe_maharash",
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'Rebbe Maharaj' for the Rebbe Maharash and 'Rebbe Moshe' for Reb Moshe."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/In%20the%20Pots%20-%20Six-Year-Old%20Shmuel%20and%20the%20Copper%20Pots.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/In the Pots - Six-Year-Old Shmuel and the Copper Pots.mp3",
+  "size_bytes": 11732977,
+  "mime_type": "audio/mpeg"
+ }
+}

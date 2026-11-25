@@ -1,0 +1,30 @@
+{
+ "batch_id": "b044",
+ "done": [
+  "551d0cc521",
+  "6e00e2fa4a",
+  "9647400647",
+  "711aac43fe",
+  "e5bda94df8",
+  "070e12f2ca",
+  "6d8a16d892",
+  "b83f53e345",
+  "f71ee91642",
+  "f8e399e249",
+  "07c3d8ea78",
+  "b53bc18740",
+  "f3cabf2504",
+  "729ed8fc5d",
+  "2c098c1183",
+  "ca0235a8ba",
+  "4ed256fa8a"
+ ],
+ "failed": [],
+ "notes": [
+  "This run filled the 4 remaining items (729ed8fc5d, 2c098c1183, ca0235a8ba, 4ed256fa8a). The other 13 were already DONE from an earlier run and were left as they were. All 17 pass validation.",
+  "Episode 4ed256fa8a (534) is chapter 1 of 'The Ten Wedding Gifts' (catalog: 535 = #2). This story was also told in the early episodes 7-8 (items 94d2197a4f and 01e89fcc30, seen in the items folder from another batch). It may be a rebroadcast or a retelling; pass 2 should check for same_story or aired_again_in. Chapter 2 (episode 535) is not in this batch, so no 'continues' relation was added.",
+  "Episode 534 has no parsha or Hebrew date on air. The date 1992-06-23 is one week after 533, and the 8:12 candle-lighting time fits late June.",
+  "Episodes 533 and 534 use the same 1992 Focus Electronics sponsor ad (air-conditioner rebate).",
+  "The Shema guest in 533 has the same surname as the host (see hidden). He may be a relative; this is not stated on air."
+ ]
+}

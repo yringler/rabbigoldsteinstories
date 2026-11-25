@@ -1,0 +1,31 @@
+{
+ "batch_id": "b043",
+ "done": [
+  "3d001f2478",
+  "af18cd92e4",
+  "a94d6c505a",
+  "aa20abae80",
+  "3b7fd42cf1",
+  "2881ed4511",
+  "602df7aae5",
+  "3c4ee18ff6",
+  "d89547e51a",
+  "d434a2d6c5",
+  "3f112e5df7",
+  "dd6c7333fc",
+  "99ddc34100",
+  "f9d5303d06",
+  "2629d0ceeb",
+  "4ab57db8c9",
+  "0615c36a34",
+  "f1de486e32"
+ ],
+ "failed": [],
+ "notes": [
+  "This run filled only the 4 remaining TODO items (2629d0ceeb, 4ab57db8c9, 0615c36a34, f1de486e32); the other 14 were already DONE and were skipped. All 18 validate.",
+  "Episode 525 (2629d0ceeb) is dated 18 Nissan 5752 (21 Apr 1992), Chol HaMoed Pesach, the Tuesday after episode 524 (11 Nissan 5752). In its story the ASR gives the shammes' name as 'Rebbe Arala' and also 'Rabbi Akiva'; I used 'Reb Arele'.",
+  "Episode 526 (0615c36a34) is mostly a rebroadcast: about 0-1564 s match episode 224 (6475c5455b) almost word for word, and 224 is itself a rebroadcast of episode 122 (5f2fe46249), with the same Shema guest. Only the Tehillim for the Rebbe's recovery and the 5752 candle times (7:33, which fits 1 May 1992) are new. In 526 the guest also gives his age.",
+  "The water and negel vasser talk in episode 526 (about 818-1027 s) is the 'Netilas Yodayim 122' clip f760feafed (a worked example, which already points to 0615c36a34). I did not add a relation to it because it is not in this batch's facts.",
+  "f1de486e32 'Sefiras Haomer 526' is the same audio as the Sefirah talk in episodes 122, 224 and 526, so the filename only shows which airing it is filed under. 'Sefira 224' (0f22df3f8d) is a longer cut that contains it, linked as same_recording."
+ ]
+}

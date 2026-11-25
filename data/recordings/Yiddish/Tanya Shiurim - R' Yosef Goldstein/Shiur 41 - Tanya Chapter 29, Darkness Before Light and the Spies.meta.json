@@ -1,0 +1,267 @@
+{
+ "id": "5d3657a190",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "41 P29",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 41 - Tanya Chapter 29, Darkness Before Light and the Spies.mp3",
+  "duration_sec": 2812.761,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 41: Tanya Chapter 29, Darkness Before Light and the Spies",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur on Tanya chapter 29: kelipah is like darkness that flees from light, the Shechinah's return to this world, and how Moshe's rebuke revealed the spies' faith.",
+  "summary_long": "Shiur 41 in Rabbi Yosef Goldstein's Yiddish Tanya series, continuing Tanya chapter 29. Kelipah is compared to darkness: it has no substance of its own, and Hashem lets it rise up against the G-dly soul only as a test, to bring out a Jew's hidden strengths. When a person humbles himself and breaks his coarseness, help comes from Above and the kelipah vanishes like darkness before a candle. A long talk follows on Hashem's desire for a dwelling in the lowest world: this world is His garden; sins from Adam onward drove the Shechinah up through seven heavens, and seven tzaddikim from Avraham to Moshe brought it back down at Matan Torah. Along the way come the kavanah of 'Echad' in Shema, why we cover the eyes, and Rabbi Yisroel of Ruzhin's teaching in prison on 'I will fear no evil, for You are with me'. The seven Chabad Rebbeim and the seventh generation parallel this, and tests are only a passing shadow. The shiur returns to Tanya: one may shout at the animal soul, as Moshe's sharp rebuke of the spies revealed that they were believers, sons of believers.",
+  "lesson": "The yetzer hara is like darkness with no real substance: humble yourself, stand up to it firmly, and the soul's light and faith shine through.",
+  "keywords": [
+   "kelipah",
+   "darkness and light",
+   "dirah b'tachtonim",
+   "seven heavens",
+   "Shechinah",
+   "garden",
+   "Basi L'Gani",
+   "Shema",
+   "spies",
+   "seventh generation",
+   "tests"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1977-01",
+   "hebrew": "Teves 5737",
+   "hebrew_year": 5737,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "Two shiurim after shiur 39, recorded at Chanukah 5737; no date stated in this recording."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "29",
+    "to": "29",
+    "lecture_number": 41,
+    "note": "Middle of chapter 29 (from page 37b), up to the spies; the end of the chapter is in '41 end P29'."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Rabbi Yisroel of Ruzhin's suffering in prison for spreading Yiddishkeit is mentioned.",
+    "at_sec": 1612
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_yisroel_of_ruzhin",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the spies",
+   "Kayin and Hevel"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "moshiach_geulah",
+   "chabad_rebbeim",
+   "emunah_bitachon",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "anavah",
+   "emunah",
+   "courage",
+   "self_control"
+  ],
+  "mitzvos": [
+   "shema",
+   "mivtzoim",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 29"
+   },
+   {
+    "work": "zohar",
+    "note": "Iskafya sitra achra; awakening from below"
+   },
+   {
+    "work": "midrash",
+    "note": "Hashem desired a dwelling in the lower worlds; the Shechinah and the seven heavens"
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "Covering the eyes and moving the head for Shema"
+   },
+   {
+    "work": "tehillim",
+    "ref": "23:4"
+   },
+   {
+    "work": "maamarim",
+    "note": "Basi L'Gani of the Frierdiker Rebbe"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 13-14"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 813,
+   "type": "text_study",
+   "title": "Tanya chapter 29: kelipah is like darkness",
+   "summary": "Kelipah has no substance; Hashem lets it rise only as a test, and humility breaks it like a candle dispelling darkness."
+  },
+  {
+   "start_sec": 813,
+   "end_sec": 2369,
+   "type": "talk",
+   "title": "A dwelling below: the Shechinah's return to the world",
+   "summary": "This world is Hashem's garden; sins drove the Shechinah up through seven heavens and seven tzaddikim, and later seven Rebbeim, bring it back down."
+  },
+  {
+   "start_sec": 1300,
+   "end_sec": 1464,
+   "type": "halachah",
+   "title": "Covering the eyes for Shema and the meaning of Echad",
+   "summary": "Why we cover our eyes for the first verse of Shema, and how the letters of 'Echad' point to the seven heavens, the earth and the four directions."
+  },
+  {
+   "start_sec": 1612,
+   "end_sec": 1740,
+   "type": "story",
+   "title": "Rabbi Yisroel of Ruzhin: 'For You are with me'",
+   "summary": "After his release from prison the Ruzhiner explained that his own suffering did not frighten him; what pained him was that the Shechinah suffered with him.",
+   "people": [
+    "rabbi_yisroel_of_ruzhin"
+   ]
+  },
+  {
+   "start_sec": 2369,
+   "type": "text_study",
+   "title": "Shouting at the animal soul: the spies",
+   "summary": "The spies thought the Canaanites were stronger than Hashem, yet Moshe's sharp rebuke revealed their faith; so too one may rebuke the yetzer hara."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations are garbled by ASR. Ends announcing that next week chapter 29 will be finished."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:39Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Date estimated from the series sequence only."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2041%20-%20Tanya%20Chapter%2029%2C%20Darkness%20Before%20Light%20and%20the%20Spies.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 41 - Tanya Chapter 29, Darkness Before Light and the Spies.mp3",
+  "size_bytes": 33753973,
+  "mime_type": "audio/mpeg"
+ }
+}

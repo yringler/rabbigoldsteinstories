@@ -1,0 +1,262 @@
+{
+ "id": "5e786ca354",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Agunah Is Saved part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Agunah Is Saved, Part 1.mp3",
+  "duration_sec": 1416.15,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Agunah Is Saved, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Uncle Yossi races to fulfill the Rebbe's request, the Rebbe asks every child to make a Mikdash Me'at, and the Alter Rebbe sends an agunah hundreds of miles to Vilna.",
+  "summary_long": "After the song, the storyteller teaches that nothing can stand in the way of a strong will. He tells how, as a yeshiva student in 770 in the days of the Frierdiker Rebbe, Uncle Yossi was asked by the Rebbe to have cards printed for a Mishnayos-learning campaign at his father's Borough Park print shop right away. Though the presses were already cleaned and closed for the night, Uncle Yossi begged his father until he printed them, and the next day the Rebbe told him, 'You see? Nothing stands in the way of your will.' The storyteller then explains the Rebbe's request that every child make a bedroom into a Mikdash Me'at with a personal Chumash, Siddur and pushka, used every day. The main story begins: a Chassid brings his daughter, whose husband vanished three years ago, to the Alter Rebbe, who tells her to travel to Vilna and not give up until Reb Meir Refoels, a fierce opponent of the Chassidim, finds her husband. She waits stubbornly in Vilna, and Reb Meir is called to the police station about Jewish prisoners. To be continued.",
+  "lesson": "With a strong will and Hashem's help nothing stands in the way; do what the Rebbe asks right away, and make your room a Mikdash Me'at with your own Chumash, Siddur and pushka.",
+  "keywords": [
+   "770",
+   "printing press",
+   "Borough Park",
+   "Mishnayos cards",
+   "Mikdash Me'at",
+   "Chumash",
+   "Siddur",
+   "pushka",
+   "Vilna",
+   "missing husband",
+   "police station"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "the-aguna-is-saved",
+   "part_number": 1,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A young woman has been an agunah for three years after her husband disappeared."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Uncle Yossi as a yeshiva student",
+   "his father, the Borough Park printer",
+   "the agunah",
+   "her father",
+   "Reb Meir's wife",
+   "the chief of police"
+  ],
+  "topics": [
+   "the_rebbe",
+   "tzivos_hashem",
+   "chabad_rebbeim",
+   "hiskashrus"
+  ],
+  "midos": [
+   "zerizus",
+   "hasmadah",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's letter to children before bar and bas mitzvah: make your room a Mikdash Me'at."
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway",
+   "Borough Park",
+   "Liozna",
+   "Vilna"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 60,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 94,
+   "type": "talk",
+   "title": "Nothing stands in the way of a strong will"
+  },
+  {
+   "start_sec": 94,
+   "end_sec": 517,
+   "type": "story",
+   "title": "Uncle Yossi prints the Rebbe's cards that night",
+   "summary": "As a yeshiva student, Uncle Yossi persuades his father to reopen his print shop so the Rebbe's request is done right away.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 517,
+   "end_sec": 707,
+   "type": "talk",
+   "title": "The Rebbe's request: make your room a Mikdash Me'at",
+   "summary": "Every child should have a personal Chumash, Siddur and pushka and use them every day.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 707,
+   "type": "story_chapter",
+   "title": "The Agunah Is Saved, Part 1",
+   "summary": "The Alter Rebbe sends an agunah to Reb Meir Refoels in Vilna, who is called to the police station.",
+   "story_key": "the-aguna-is-saved",
+   "chapter": 1,
+   "people": [
+    "alter_rebbe",
+    "rabbi_meir_refoels"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "a05fbdecf2",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'The Aguna Is Saved part 2'."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "ce28d1962a",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "'R Meir rafaels - Aguna' is a single-file edit that reuses this file's agunah story audio (from about 11:47) with a new intro, joined to the story part of part 2."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6e0946d4ee",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh: The Agunah Sent to Vilna' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db7fffffe3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Reb Meir Refoels and the Agunah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles Reb Meir Refoels ('Meir Fals', 'Rebbe Mayer') and Mishnayos ('Mishnayis')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator calls Uncle Yossi 'my father': strong identity clue for the weekly storyteller."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Agunah%20Is%20Saved%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Agunah Is Saved, Part 1.mp3",
+  "size_bytes": 16994576,
+  "mime_type": "audio/mpeg"
+ }
+}

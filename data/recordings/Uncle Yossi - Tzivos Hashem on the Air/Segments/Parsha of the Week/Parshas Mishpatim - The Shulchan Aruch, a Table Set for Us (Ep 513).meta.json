@@ -1,0 +1,171 @@
+{
+ "id": "fab4e7ebca",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Mishpatim 513",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Mishpatim - The Shulchan Aruch, a Table Set for Us (Ep 513).mp3",
+  "duration_sec": 358.069,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 513,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 513,
+   "story": "The king is watching",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Parshas Mishpatim: The Shulchan Aruch, a Table Set for Us",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains why the code of Jewish law is called the Shulchan Aruch, a set table, and why it opens with 'Shivisi Hashem', I set Hashem before me always.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired the week of Parshas Mishpatim. Last week we heard the Ten Commandments; now the parsha teaches many laws. Hashem told Moshe Rabbeinu to set the laws before the Jewish people clearly, like a table fully set and ready to eat from. That is why the book of Jewish law is called the Shulchan Aruch, the set table: it arranges the laws and customs so simply that anyone can learn how to do the mitzvos properly. Uncle Yossi urges every family to have one, in Hebrew or in English as the Code of Jewish Law, and offers to help listeners find a copy. Its very first line comes from Tehillim: 'Shivisi Hashem lenegdi samid', I set Hashem before me always. Remembering that Hashem sees and hears even our thoughts makes us careful in thought, speech and action, and since Hashem is always with us, we should serve Him with joy.",
+  "lesson": "Always remember that Hashem is before you: be careful in thought, speech and action, and serve Him with joy.",
+  "keywords": [
+   "Shulchan Aruch",
+   "Code of Jewish Law",
+   "set table",
+   "Shivisi Hashem",
+   "laws",
+   "Ten Commandments"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 513,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-01-28",
+   "hebrew": "23 Shevat 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Aired in episode 513, the week of Parshas Mishpatim 5752."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "halachah",
+   "torah_study"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "mishpatim"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 21:1",
+    "note": "'Set before them', explained as a set table."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 16:8",
+    "note": "'Shivisi Hashem lenegdi samid'."
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 1:1",
+    "note": "Its opening rule."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "799f19cd7a",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 52,
+   "note": "Episode 513 (filename number); clip = 52-410 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Includes an offer to write to Uncle Yossi at Tzivos Hashem for help getting a Shulchan Aruch (period offer)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Parshas%20Mishpatim%20-%20The%20Shulchan%20Aruch%2C%20a%20Table%20Set%20for%20Us%20%28Ep%20513%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Mishpatim - The Shulchan Aruch, a Table Set for Us (Ep 513).mp3",
+  "size_bytes": 4297852,
+  "mime_type": "audio/mpeg"
+ }
+}

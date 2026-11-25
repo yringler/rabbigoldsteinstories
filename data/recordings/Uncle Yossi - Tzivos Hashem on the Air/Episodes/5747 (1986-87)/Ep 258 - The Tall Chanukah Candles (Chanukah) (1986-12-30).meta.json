@@ -1,0 +1,382 @@
+{
+ "id": "1fe3e3a5c7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "258",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 258 - The Tall Chanukah Candles (Chanukah) (1986-12-30).mp3",
+  "duration_sec": 1857.957,
+  "filename_facts": {
+   "episode_number": 258,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 258,
+   "story": "The tall Chanukah candles",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 258: The Tall Chanukah Candles (Chanukah)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Chanukah show with singer Eli Lipsker in Studio 604, the story of the Rebbe Rashab's three-foot Chanukah candles, and the words 'Asher Kiddeshanu' at mitzvah time.",
+  "summary_long": "Broadcast during Chanukah 5747. Uncle Yossi opens with the message of the Chanukah lights, emunah and bitachon in the G-d of miracles, and the hope that next Chanukah the Kohen Gadol will light the menorah in the third Beis HaMikdash. Guest singer Eli Lipsker performs 'Oy Chanukah', 'I Have a Little Dreidel' and 'Sevivon'. Three young siblings lead the Shema. Story time tells of Naftali, a Chassid who danced every Chanukah in front of the Aron Kodesh. Before a journey, the Rebbe Rashab blessed him and told him to buy Chanukah candles three feet tall. Stranded by a blizzard on the first night, Naftali was seized by robbers; he lit the tall candles, and their flames were seen by firemen in a distant watchtower, whose approach scared the robbers away. At mitzvah time, a girl answers a phone quiz on 'Melech HaOlam' and wins a Shabbos candlestick, and Uncle Yossi teaches 'Asher Kiddeshanu', with the Alter Rebbe's explanation that 'asher' also means 'how fortunate'. The show ends with a sponsor message, contest news and a reminder to light Chanukah candles before Shabbos candles on Friday.",
+  "lesson": "Following a tzaddik's instructions brings Hashem's protection, and we should be happy and thankful for the miracles Hashem does for us.",
+  "keywords": [
+   "tall candles",
+   "menorah",
+   "robbers",
+   "blizzard",
+   "fire tower",
+   "dreidel",
+   "Sevivon",
+   "Asher Kiddeshanu",
+   "phone quiz",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 258,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-12-30",
+   "hebrew": "28 Kislev 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Candle lighting for 'this Friday, January the 2nd' (said as 1986; means 1987), when all eight Chanukah candles are lit before Shabbos; the Tuesday before is 30 Dec 1986, 4th night of Chanukah."
+  },
+  "serial": {
+   "story_key": "the-tall-chanukah-candles",
+   "story_title": "The Tall Chanukah Candles",
+   "chapter": null
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers seize a traveler and order him to say his last prayers before he is rescued.",
+    "at_sec": 1022
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guests, a quiz winner and a family of contest entrants are named.",
+    "at_sec": 621
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Naftali, a joyful Chassid",
+   "the robbers",
+   "the firemen in the watchtower"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "calendar",
+   "prayer_and_brachos",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "simcha",
+   "emunah",
+   "bitachon",
+   "kabbalas_ol",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "shabbos_candles",
+   "brachos",
+   "shema"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Al HaNissim / 'bayamim hahem bazman hazeh'",
+    "note": "As Hashem did miracles in those days, so in our days."
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "The Alter Rebbe on 'asher kiddeshanu'",
+    "note": "'Asher' also means fortunate, as in 'ashrei'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 44,
+   "type": "opening",
+   "title": "Opening greeting and Chanukah wishes",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 44,
+   "end_sec": 159,
+   "type": "talk",
+   "title": "The Message of the Chanukah Lights",
+   "summary": "The flames speak of trust in the G-d of miracles and of the menorah in the third Beis HaMikdash.",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 159,
+   "end_sec": 587,
+   "type": "song",
+   "title": "Chanukah songs with guest singer Eli Lipsker",
+   "summary": "'Oy Chanukah', 'I Have a Little Dreidel' and 'Sevivon' in Studio 604.",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 587,
+   "end_sec": 741,
+   "type": "shema_guest",
+   "title": "Shema with three young siblings"
+  },
+  {
+   "start_sec": 741,
+   "end_sec": 833,
+   "type": "story_intro",
+   "title": "A Chanukah story about the Rebbe Rashab"
+  },
+  {
+   "start_sec": 833,
+   "end_sec": 1235,
+   "type": "story",
+   "title": "The Tall Chanukah Candles",
+   "summary": "The Rebbe Rashab's instruction to buy three-foot candles saves a Chassid from robbers on a snowy Chanukah night.",
+   "people": [
+    "rebbe_rashab"
+   ],
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1235,
+   "end_sec": 1307,
+   "type": "review",
+   "title": "Mitzvah Time review: the brachah so far"
+  },
+  {
+   "start_sec": 1307,
+   "end_sec": 1465,
+   "type": "quiz",
+   "title": "Mitzvah Time phone quiz: Melech HaOlam"
+  },
+  {
+   "start_sec": 1465,
+   "end_sec": 1576,
+   "type": "halachah",
+   "title": "Mitzvah Time: Asher Kiddeshanu",
+   "summary": "A mitzvah makes us holy, and the Alter Rebbe explains that 'asher' also means how fortunate we are.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "linked_items": [
+    "b914a3d639"
+   ]
+  },
+  {
+   "start_sec": 1576,
+   "end_sec": 1604,
+   "type": "announcement",
+   "title": "Send in your phone number for Mitzvah Time"
+  },
+  {
+   "start_sec": 1604,
+   "end_sec": 1664,
+   "type": "sponsor",
+   "title": "Sponsor message: Chanukah gifts"
+  },
+  {
+   "start_sec": 1664,
+   "end_sec": 1751,
+   "type": "announcement",
+   "title": "Shabbos Candlestick Contest: many winners next week"
+  },
+  {
+   "start_sec": 1751,
+   "end_sec": 1796,
+   "type": "announcement",
+   "title": "Chanukah and Shabbos candles on Friday",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1796,
+   "end_sec": 1822,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "b914a3d639",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "'Neshek 258' = 1464-1569 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "time_bound_content",
+   "mixed_language"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Songs are transcribed roughly (Yiddish and Hebrew lyrics garbled). Year of the Friday candle time is misspoken on air as 1986. Sponsor, contest and gift-shop pickup are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shterna Sarah Goldstein",
+    "role": "shema_guest",
+    "group": "Goldstein family",
+    "start_sec": 621,
+    "end_sec": 741
+   },
+   {
+    "name": "Devorah Leah Goldstein",
+    "role": "shema_guest",
+    "group": "Goldstein family",
+    "start_sec": 621,
+    "end_sec": 741
+   },
+   {
+    "name": "Levi Yitzchak Goldstein",
+    "role": "shema_guest",
+    "group": "Goldstein family",
+    "start_sec": 621,
+    "end_sec": 741
+   },
+   {
+    "name": "Suri Fasten",
+    "role": "contest_winner",
+    "group": "Bobover Yeshiva, Boro Park (heard as 'Babava Yeshiva'); won the Mitzvah Time phone quiz",
+    "start_sec": 1311,
+    "end_sec": 1465
+   },
+   {
+    "name": "Tamar Weingarten",
+    "role": "contest_winner",
+    "group": "Weingarten family, Shabbos candlestick entry",
+    "start_sec": 1724,
+    "end_sec": 1750
+   },
+   {
+    "name": "Yosef Weingarten",
+    "role": "contest_winner",
+    "group": "Weingarten family, Shabbos candlestick entry",
+    "start_sec": 1724,
+    "end_sec": 1750
+   },
+   {
+    "name": "Aaron Weingarten",
+    "role": "contest_winner",
+    "group": "Weingarten family, Shabbos candlestick entry",
+    "start_sec": 1724,
+    "end_sec": 1750
+   },
+   {
+    "name": "Mrs. Feigenbaum",
+    "role": "other",
+    "group": "grandmother of the Weingarten children, sent in their entry",
+    "start_sec": 1724,
+    "end_sec": 1750
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Guest singer Eli Lipsker is named in public text as a public performer; confirm that is acceptable.",
+   "Speaker 'unknown' stands for the guest singer, who has no vocabulary id."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:44Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5747%20%281986-87%29/Ep%20258%20-%20The%20Tall%20Chanukah%20Candles%20%28Chanukah%29%20%281986-12-30%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 258 - The Tall Chanukah Candles (Chanukah) (1986-12-30).mp3",
+  "size_bytes": 22296354,
+  "mime_type": "audio/mpeg"
+ }
+}

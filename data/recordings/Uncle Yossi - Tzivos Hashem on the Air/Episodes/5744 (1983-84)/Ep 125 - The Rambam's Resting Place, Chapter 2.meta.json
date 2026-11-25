@@ -1,0 +1,367 @@
+{
+ "id": "5af071df38",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "125",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 125 - The Rambam's Resting Place, Chapter 2.mp3",
+  "duration_sec": 1781.114,
+  "filename_facts": {
+   "episode_number": 125,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 125,
+   "story": "The Rambam’s resting place #2",
+   "topic": "ספירה",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 125: The Rambam's Resting Place, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "Robbers attack the caravan carrying the Rambam to Eretz Yisroel, and a camel led by an unseen hand finds his resting place in Teveria. Also: the Twelve Pesukim and starting Chumash Bamidbar.",
+  "summary_long": "Uncle Yossi opens with an offer: write in and say when and where you recite the Twelve Pesukim, on the school bus, in the park or on the swing, and receive a free copy of the new tape Story Time with Uncle Yossi No. 9. Story time continues the account of the Rambam's burial. His students carry his coffin out of Egypt on a camel, and in the middle of the desert a band of robbers attacks. Everyone flees, but each robber who reaches for the box falls to the ground, and the rest run away in fright. Then the camel sets off on its own, as if led by someone, past the border of Eretz Yisroel, until it kneels in a field in Teveria, where the Rambam is buried to this day. In between, two brothers from Studio 604 lead the Shema and speak about the Twelve Pesukim. A girl's letter in the mailbox brings a lesson about doing homework first and an explanation of how to join Tzivos Hashem. The show ends with a talk on behaving quietly in shul, calling out 'Chazak' at the end of Vayikra, and beginning Chumash Bamidbar this Shabbos.",
+  "lesson": "Hashem never sleeps and guards the Jewish people; the resting place of a tzaddik is holy, and his teachings are learned to this day.",
+  "keywords": [
+   "camel",
+   "robbers",
+   "caravan",
+   "desert",
+   "coffin",
+   "Teveria",
+   "Twelve Pesukim",
+   "Story Time tape",
+   "Chazak",
+   "Chumash Bamidbar",
+   "mailbox"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 125,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1984-05",
+   "hebrew": "Iyar 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'Last week we finished Vayikra, this Shabbos we begin Bamidbar' points to 29 May 1984, but weekly spacing back from 127 (Erev Shavuos, 5 June 1984) gives 22 May."
+  },
+  "serial": {
+   "story_key": "the-rambams-resting-place",
+   "story_title": "The Rambam's Resting Place",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Armed robbers attack a caravan in the desert.",
+    "at_sec": 321
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story is about the Rambam's burial; two robbers fall down lifeless when they reach for his coffin.",
+    "at_sec": 845
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests and a letter writer named in full.",
+    "at_sec": 519
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the Rambam's students",
+   "the robbers and their leader",
+   "the leader of the caravan",
+   "the camel"
+  ],
+  "topics": [
+   "great_rabbis",
+   "miracles",
+   "tzivos_hashem",
+   "parsha"
+  ],
+  "midos": [
+   "bitachon",
+   "ahavas_yisroel",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "shema",
+   "kavod_shul",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "bamidbar"
+  ],
+  "places": [
+   "Egypt",
+   "the desert",
+   "Teveria",
+   "Yerushalayim",
+   "Chevron",
+   "Meron"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 218,
+   "type": "announcement",
+   "title": "When do you say the Twelve Pesukim? A free tape offer",
+   "summary": "Listeners who write in to say when and where they recite the Twelve Pesukim receive Story Time with Uncle Yossi No. 9."
+  },
+  {
+   "start_sec": 218,
+   "end_sec": 488,
+   "type": "story_chapter",
+   "title": "The Rambam's Resting Place, Chapter 2 (part 1)",
+   "summary": "Recap of the Rambam's last wish; robbers ambush the caravan carrying his coffin through the desert.",
+   "people": [
+    "rambam"
+   ],
+   "story_key": "the-rambams-resting-place",
+   "chapter": 2
+  },
+  {
+   "start_sec": 488,
+   "end_sec": 784,
+   "type": "shema_guest",
+   "title": "Shema with two brothers in Studio 604"
+  },
+  {
+   "start_sec": 784,
+   "end_sec": 1243,
+   "type": "story_chapter",
+   "title": "The Rambam's Resting Place, Chapter 2 (part 2)",
+   "summary": "The robbers flee in fear, and the camel leads the caravan to the Rambam's resting place in Teveria.",
+   "people": [
+    "rambam"
+   ],
+   "story_key": "the-rambams-resting-place",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1243,
+   "end_sec": 1566,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a second-grader's letter",
+   "summary": "A listener's letter; homework first, how to join Tzivos Hashem, and a word about the matzah ball contest."
+  },
+  {
+   "start_sec": 1566,
+   "end_sec": 1736,
+   "type": "talk",
+   "title": "Chazak! Finishing Vayikra and beginning Bamidbar",
+   "summary": "How we behave in shul, why we call out 'Chazak, chazak' at the end of a Chumash, and starting Bamidbar this Shabbos.",
+   "linked_items": [
+    "cb5b6e4328"
+   ]
+  },
+  {
+   "start_sec": 1736,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "cb5b6e4328",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Shabbos Bamidbar 125' = 1566-1756 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "eee1f9a53f",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 221 repeats the Rambam chapter and the same Shema guests (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7aea3038aa",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 284 repeats the Rambam chapter and the same Shema guests (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "148c93c242",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 435 repeats the Rambam chapter and the same Shema guests (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "070e12f2ca",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 529 repeats the Rambam chapter and the same Shema guests (checked in its transcript)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "f963e9286e",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Rambam's Resting Place' (1984): ep 124 ch. 1 and ep 125 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "f963e9286e",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "ep 125 ch. 2 continues 'The Rambam's Resting Place' (1984): ep 124 ch. 1."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Tape offer, contest and addresses are period pieces. Children's names read on air (see hidden). Date cue conflicts with weekly spacing by one week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yosef Yitzchak Drizin",
+    "role": "shema_guest",
+    "group": "age 10, brother of the other guest",
+    "start_sec": 519,
+    "end_sec": 784
+   },
+   {
+    "name": "Schneur Zalman Moshe Drizin",
+    "role": "shema_guest",
+    "group": "age 7",
+    "start_sec": 519,
+    "end_sec": 784
+   },
+   {
+    "name": "Sarah Dina Wickler (also heard as Winkler)",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of 18th Avenue, Brooklyn; second grade",
+    "start_sec": 1283,
+    "end_sec": 1566
+   },
+   {
+    "name": "Morah Bernstein",
+    "role": "other",
+    "group": "the letter writer's English teacher",
+    "start_sec": 1367,
+    "end_sec": 1375
+   },
+   {
+    "name": "Morah Rosenberg",
+    "role": "other",
+    "group": "the letter writer's Hebrew teacher, from Manchester, England",
+    "start_sec": 1373,
+    "end_sec": 1385
+   },
+   {
+    "name": "Bryna Winkler",
+    "role": "other",
+    "note": "Parent who signed the matzah ball contest scorecard.",
+    "start_sec": 1536,
+    "end_sec": 1545
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Letter writer's three-year-old brother Yeshaya just had his upsherin on 9 Adar; she lives in a one-family house.",
+    "start_sec": 1345,
+    "end_sec": 1530
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Air date: the Bamidbar cue says 29 May 1984; the weekly sequence says 22 May 1984."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:53:42Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20125%20-%20The%20Rambam%27s%20Resting%20Place%2C%20Chapter%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 125 - The Rambam's Resting Place, Chapter 2.mp3",
+  "size_bytes": 21374440,
+  "mime_type": "audio/mpeg"
+ }
+}

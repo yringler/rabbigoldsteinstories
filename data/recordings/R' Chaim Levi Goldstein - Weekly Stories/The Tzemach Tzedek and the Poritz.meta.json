@@ -1,0 +1,198 @@
+{
+ "id": "ac1665d002",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Tzemach Tzedek and the Poritz",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Tzemach Tzedek and the Poritz.mp3",
+  "duration_sec": 936.098,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Tzemach Tzedek and the Poritz",
+  "title_basis": "filename",
+  "summary_short": "A Chassid is sent by the Tzemach Tzedek past vicious dogs and armed guards to tell a wicked poritz that it is time for teshuvah, and the Rebbe explains why some people need a quick fix.",
+  "summary_long": "A shochet from far away, returning from a visit to the Tzemach Tzedek, stops for Shabbos in a city where a very old Chassid tells stories at Shalosh Seudos. Unable to hear through the crowd, he asks the elder afterwards to repeat the story. The elder recalls how the Tzemach Tzedek once called a Chassid, Reb Yankel, and sent him to a distant poritz, a cruel man far from Torah whose estate was guarded by ferocious dogs and armed men, with one message: it is time to do teshuvah. The Rebbe gave him a holy name to keep in mind and promised he would be safe. Reb Yankel walks past the dogs and guards as if invisible, delivers the message, and the poritz answers just one word: yes. Soon the poritz vanishes, and later a ragged stranger appears in the Lubavitch shul, learning, davening and fasting day and night. When Chassidim ask the Tzemach Tzedek why they must work so hard while this man was changed in a moment, he answers with a parable: a shepherd calls back sheep that stray, but one that falls into a deep pit he must carry out himself.",
+  "lesson": "We each have to do the work of improving ourselves; when we try, Hashem helps, and a Rebbe reaches out personally to someone who has fallen far.",
+  "keywords": [
+   "shochet",
+   "Shalosh Seudos",
+   "vicious dogs",
+   "armed guards",
+   "secret holy name",
+   "baal teshuvah",
+   "shepherd",
+   "sheep in a pit",
+   "Lubavitch"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A Chassid walks past ferocious dogs and guards with rifles; he is unharmed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Dov the shochet",
+   "the old Chassid",
+   "Reb Yankel",
+   "the poritz"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "teshuvah",
+   "hiskashrus",
+   "miracles"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "courage",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 42,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 42,
+   "end_sec": 830,
+   "type": "story",
+   "title": "The mission to the poritz",
+   "summary": "The Tzemach Tzedek sends a Chassid to tell a wicked poritz it is time for teshuvah."
+  },
+  {
+   "start_sec": 830,
+   "type": "story",
+   "title": "The shepherd and the sheep in the pit",
+   "summary": "The Tzemach Tzedek's parable about why some must be carried back."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:22Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "28664b56ac",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rebbe, Our Shepherd' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Tzemach%20Tzedek%20and%20the%20Poritz.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Tzemach Tzedek and the Poritz.mp3",
+  "size_bytes": 11233956,
+  "mime_type": "audio/mpeg"
+ }
+}

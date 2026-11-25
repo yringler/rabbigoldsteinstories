@@ -1,0 +1,262 @@
+{
+ "id": "052d37b4ea",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "4 chochmas",
+  "filename_title": "4 חכמות",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos - Rabbi Yehudah's Four Pieces of Wisdom.mp3",
+  "duration_sec": 4160.986,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language guessed from Hebrew-script name (could be Hebrew)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos: Rabbi Yehudah's Four Pieces of Wisdom",
+  "title_he": "4 חכמות",
+  "title_translit": "4 Chochmos",
+  "title_basis": "filename",
+  "summary_short": "Rabbi Yehudah spends his year's savings on four strange pieces of advice from a mysterious old man, and each one rescues him, his friend and his mitzvah of hachnasas orchim.",
+  "summary_long": "Rabbi Yehudah always gives his guests the very best. He saves a few coins every day for a whole year so he can buy something special for them at the great Leipzig fair, and arrives with just four gold coins. Nothing he can afford is any good, until an old man in an empty shop sells him four 'chochmos', pieces of wisdom, for a coin each, and adds a warm challah as a gift. When he steps outside, the shop has vanished. On the way home each piece of advice comes true. Taking the long, bumpy road saves him, and he rescues his rich friend from robbers on the short road. Laughing at a strange sight at an inn breaks a curse and returns the governor's daughter. Leaving a hotel room shared with a priest lets him witness a murder and clear his friend in court. Holding back his anger at home spares honored guests from embarrassment. Inside the challah he finds his four gold coins and a note: the old couple were Avraham Avinu and Sarah Imeinu, rewarding his years of hachnasas orchim.",
+  "lesson": "Give your guests the best, trust Hashem, and follow the words of a tzaddik even when you do not understand them. Never lose your temper.",
+  "keywords": [
+   "guest room",
+   "Leipzig fair",
+   "four gold coins",
+   "fork in the road",
+   "robbers",
+   "frog",
+   "governor's daughter",
+   "hotel",
+   "courtroom",
+   "cut-off finger",
+   "challah",
+   "disappearing shop"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "4 chochmas"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers tie up a merchant and threaten to kill him; a drunken priest stabs a man in the night; the hero cuts off the killer's finger as proof."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A man is murdered off-scene; the guilty priest and false witnesses are later executed."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew is falsely accused of murder and sentenced to death before he is cleared."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The murderer is a drunken priest."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehudah",
+   "his wife Rivkah",
+   "Moshe (later called Yaakov), the rich merchant",
+   "the old man in the empty shop",
+   "the governor and his daughter",
+   "the chief priest",
+   "the judge"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "hiskashrus",
+   "miracles",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "chesed",
+   "kabbalas_ol",
+   "bitachon",
+   "controlling_anger",
+   "generosity"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Leipzig"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 17,
+   "end_sec": 555,
+   "type": "story",
+   "title": "The guest gets the best: saving for the fair"
+  },
+  {
+   "start_sec": 555,
+   "end_sec": 1009,
+   "type": "story",
+   "title": "Four gold coins at the Leipzig fair"
+  },
+  {
+   "start_sec": 1009,
+   "end_sec": 1982,
+   "type": "story",
+   "title": "The empty shop and the four chochmos",
+   "summary": "An old man sells Rabbi Yehudah four pieces of advice and gives him a challah; then the shop disappears.",
+   "people": [
+    "avraham_avinu",
+    "sarah_imeinu"
+   ]
+  },
+  {
+   "start_sec": 1982,
+   "end_sec": 2502,
+   "type": "story",
+   "title": "First chochmah: the long, bumpy road"
+  },
+  {
+   "start_sec": 2502,
+   "end_sec": 2832,
+   "type": "story",
+   "title": "Second chochmah: the strange sight at the inn"
+  },
+  {
+   "start_sec": 2832,
+   "end_sec": 3846,
+   "type": "story",
+   "title": "Third chochmah: the hotel, the murder and the trial",
+   "linked_items": [
+    "85733bc4b0"
+   ]
+  },
+  {
+   "start_sec": 3846,
+   "type": "story",
+   "title": "Fourth chochmah and the gift in the challah",
+   "people": [
+    "avraham_avinu",
+    "sarah_imeinu"
+   ],
+   "linked_items": [
+    "85733bc4b0"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Dramatized with voices. First 17 s untranscribed (probably music). The rich friend is called Moshe at first and Yaakov later (narrator slip). Same recording as 008f627970; the last 23 minutes were also cut as 'Chochmos 3-4' (85733bc4b0)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; same narration as the 'Chochmos 3-4' cut that opens with the 'I believe in Hashem' song.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed via the 'Chochmos 3-4' cut, which adds the 'I believe' song; confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:22:28Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "85733bc4b0",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.96,
+   "note": "Contains 'Chochmos 3-4' (audio fingerprint)."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "008f627970",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos%20-%20Rabbi%20Yehudah%27s%20Four%20Pieces%20of%20Wisdom.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos - Rabbi Yehudah's Four Pieces of Wisdom.mp3",
+  "size_bytes": 49932687,
+  "mime_type": "audio/mpeg"
+ }
+}

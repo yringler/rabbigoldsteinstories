@@ -1,0 +1,158 @@
+{
+ "id": "acefd44620",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Pesach Sheni 326",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Pesach Sheni - It's Never Too Late (Ep 326).mp3",
+  "duration_sec": 284.725,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 326,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 326,
+   "story": "The Silver-Coated Mirror",
+   "topic": "Fighting the Yetzer Hara, Pesach Sheni",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Pesach Sheni: It's Never Too Late",
+  "title_basis": "content",
+  "summary_short": "Why there is a second Pesach but no second Sukkos, and the Rebbe's lesson from Pesach Sheni: it is never too late to start again and do better.",
+  "summary_long": "A Pesach Sheni talk from the Tzivos Hashem radio show, given two days after the 14th of Iyar. Uncle Yossi asks why there is a second Pesach when there is no second Sukkos or Shavuos. He explains that the Korban Pesach was brought on the 14th of Nissan, in the Midbar and later in the Beis HaMikdash, and that Hashem in His kindness gave those who could not bring it on time for a valid reason a second chance a month later, on the 14th of Iyar. The lesson, in the Rebbe's words, is that it is never too late: Hashem gives us a second chance to do teshuvah and start again. 'Pesach' also means to jump, so Pesach Sheni is a chance to jump back on the wagon of Torah and mitzvos. The yetzer hara will say it is too late, but we ignore it and start learning and doing more right away. 'You try your best and Hashem will do the rest.'",
+  "lesson": "It's never too late to become better: Hashem always gives us a second chance.",
+  "keywords": [
+   "second chance",
+   "Korban Pesach",
+   "14 Iyar",
+   "jump",
+   "wagon",
+   "resolutions"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 326,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-05-03",
+   "hebrew": "16 Iyar 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Says Pesach Sheni was 'this past Sunday'; the episode it was cut from says 'today is 16 Iyar' (1988-05-03), though its filename says 04-26-88."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "self_control",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "torah_study"
+  ],
+  "calendar": [
+   "pesach_sheni"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "'Es iz nito kein farfallen' (it's never too late)"
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('...this past Sunday was Pesach Sheni')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "baed6e5c02",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 388,
+   "note": "Episode 326 (filename number); clip = 388-673 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Pesach%20Sheni%20-%20It%27s%20Never%20Too%20Late%20%28Ep%20326%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Pesach Sheni - It's Never Too Late (Ep 326).mp3",
+  "size_bytes": 3417626,
+  "mime_type": "audio/mpeg"
+ }
+}

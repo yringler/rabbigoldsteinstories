@@ -1,0 +1,263 @@
+{
+ "id": "13f4c1401c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "483",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 483 - The King Is Watching (Rosh Chodesh Tammuz) (1991-06-11).mp3",
+  "duration_sec": 1778.63,
+  "filename_facts": {
+   "episode_number": 483,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 483,
+   "story": "The king is watching",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 483: The King Is Watching (Rosh Chodesh Tammuz)",
+  "title_basis": "master_catalog",
+  "summary_short": "A coachman tries to pick apples from the king's orchard, and the rabbi on lookout cries 'He's watching!', meaning the King of all kings. Plus a Rosh Chodesh Tammuz message.",
+  "summary_long": "Broadcast on the eve of Rosh Chodesh Tammuz, as the show reaches program number 483 after ten years on the air. Uncle Yossi marvels that grown-ups still tune in, even in their cars on the way home, and hopes that saying the Shema together leads listeners to more mitzvos, since one mitzvah brings another. After the Hakochainik march, a returning young guest says the Shema and one of the Twelve Pesukim, and everyone gives tzedakah. The story, on the theme that good character and honesty come before Torah, follows old Rabbi Yitzchak on a long wagon ride through a forest. His hungry coachman wants to climb into the king's apple orchard and asks the rabbi to keep watch. Just as he reaches the top of the fence, the rabbi calls out 'He's watching!' and the coachman flees, only to learn that the One watching was the King of all kings, Who commanded 'You shall not steal'. Uncle Yossi then explains that Rosh Chodesh is the 'head' of the month, so good resolutions made then shape the whole month, and gives candle-lighting time.",
+  "lesson": "Hashem is always watching, so be honest and never take what is not yours, even when no person can see.",
+  "keywords": [
+   "coachman",
+   "horse and wagon",
+   "forest",
+   "apple orchard",
+   "fence",
+   "king",
+   "stealing",
+   "program 483",
+   "Yud-Beis Pesukim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 483,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1991-06-11",
+   "hebrew": "29 Sivan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight is Rosh Chodesh... the new month is Tammuz' (evening of 29 Sivan begins 30 Sivan, Rosh Chodesh Tammuz 5751); program number 483 stated on air; candle lighting 8:10. A Tuesday."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 502
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Rabbi Yitzchak, an old rabbi",
+   "the coachman",
+   "the king's guards"
+  ],
+  "topics": [
+   "character",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emes",
+   "yiras_shamayim",
+   "self_control"
+  ],
+  "mitzvos": [
+   "shema",
+   "twelve_pesukim",
+   "tzedakah",
+   "teshuvah",
+   "torah_study",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "2:1",
+    "note": "'Know what is above you: an eye that sees', so you will not come to sin."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:2",
+    "note": "'Mitzvah goreres mitzvah', one mitzvah brings another."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:13",
+    "note": "'You shall not steal.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 55,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 55,
+   "end_sec": 225,
+   "type": "talk",
+   "title": "Program 483: Ten Years of Tzivos Hashem on the Air",
+   "summary": "Listeners young and old still tune in; saying the Shema together can lead to many more mitzvos."
+  },
+  {
+   "start_sec": 225,
+   "end_sec": 445,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 445,
+   "end_sec": 474,
+   "type": "story_intro",
+   "title": "Story time is coming"
+  },
+  {
+   "start_sec": 474,
+   "end_sec": 650,
+   "type": "shema_guest",
+   "title": "Shema and one of the Twelve Pesukim with a returning guest"
+  },
+  {
+   "start_sec": 650,
+   "end_sec": 713,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 713,
+   "end_sec": 1530,
+   "type": "story",
+   "title": "The King Is Watching",
+   "summary": "A rabbi on lookout warns a coachman stealing apples from the king's orchard that 'He is watching', meaning Hashem."
+  },
+  {
+   "start_sec": 1530,
+   "end_sec": 1688,
+   "type": "talk",
+   "title": "Rosh Chodesh Tammuz: The Head of the Month",
+   "summary": "Just as the head gives life to the body, Rosh Chodesh sets the tone for the whole month.",
+   "calendar": [
+    "rosh_chodesh"
+   ]
+  },
+  {
+   "start_sec": 1688,
+   "end_sec": 1712,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1712,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "46049ff3d0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Three Weeks: The Three Empty Walls, the Western Wall and 'He Is Watching'' (Stories, 28:05-32:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guest named on air (see hidden). The show states its own program number (483) and its ten-year run, which supports the 1991 dating."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avraham West",
+    "role": "shema_guest",
+    "start_sec": 502,
+    "end_sec": 650,
+    "note": "Returning guest; also recited Pasuk 3 of the Twelve Pesukim."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20483%20-%20The%20King%20Is%20Watching%20%28Rosh%20Chodesh%20Tammuz%29%20%281991-06-11%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 483 - The King Is Watching (Rosh Chodesh Tammuz) (1991-06-11).mp3",
+  "size_bytes": 21344661,
+  "mime_type": "audio/mpeg"
+ }
+}

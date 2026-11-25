@@ -1,0 +1,244 @@
+{
+ "id": "f18c947f46",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "What's Your Wish- Power of Joy",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/What's Your Wish The Power of Joy.mp3",
+  "duration_sec": 1042.53,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "What's Your Wish? The Power of Joy",
+  "title_basis": "filename",
+  "summary_short": "Why we daven, told through a king's open invitation; the storyteller's own childhood lesson about davening properly; and a Chassid whose Simchas Torah dancing saves his son.",
+  "summary_long": "After the song \"I believe in Hashem\", the storyteller gives a mashal: a king lets every citizen ask for one wish, and one wise man asks for a pass to visit the king every day. Hashem gives us that pass three times a day, so we should speak to Him clearly and with respect. He then shares something from his own childhood: as a young boy he found the siddur too long, so he only turned pages and moved his lips. He later learned the Shulchan Aruch's rule that a little with kavanah is better than a lot without it, and a Rav told him children may begin with the main parts, such as Shema and Shemoneh Esreh, as a first step and add more over time. For the coming summer, he urges children to really daven. The story: a Chassid of the Tzemach Tzedek travels to Lubavitch for a brachah for his gravely ill son and receives only a vague answer. He weeps over Tehillim until the hakafos of Shemini Atzeres, then realizes Hashem wants him to dance, and dances with all his strength through Simchas Torah. The Tzemach Tzedek tells him his joy broke a harsh decree, and he finds his son healthy.",
+  "lesson": "Daven every day with clear words, even if you start with only the main parts, and serve Hashem with simcha, which brings every brachah.",
+  "keywords": [
+   "king's wish",
+   "daily pass",
+   "siddur",
+   "turning pages",
+   "sick son",
+   "hakafos",
+   "dancing",
+   "Tehillim",
+   "summer"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable",
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A boy is gravely ill and doctors say he may not live; he recovers completely."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a king and his subjects",
+   "a Chassid of the Tzemach Tzedek",
+   "his sick son",
+   "the gabbai"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "chabad_rebbeim",
+   "miracles"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "emes"
+  ],
+  "mitzvos": [
+   "davening",
+   "shema",
+   "tehillim"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Lubavitch"
+  ],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "note": "'Better a little with kavanah than a lot without kavanah.'"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "In our days, say Tehillim with simcha rather than tears."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 58,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 58,
+   "end_sec": 255,
+   "type": "talk",
+   "title": "A pass to see the King every day",
+   "summary": "A mashal about a king's offer explains why we daven three times a day."
+  },
+  {
+   "start_sec": 255,
+   "end_sec": 606,
+   "type": "talk",
+   "title": "How I learned to really daven",
+   "summary": "The storyteller's childhood mistake and how children can start with the main parts of davening."
+  },
+  {
+   "start_sec": 606,
+   "end_sec": 1022,
+   "type": "story",
+   "title": "Dancing on Simchas Torah",
+   "summary": "A father's joyful dancing breaks a decree against his sick son.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 1022,
+   "type": "closing",
+   "title": "Lesson and summer wishes"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "1b994d468f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'Tz tz rikudim saves': the same Tzemach Tzedek story by the same narrator, framed for Adar instead of davening."
+  },
+  {
+   "type": "same_story",
+   "target_id": "16727d2e9e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3b05d42392",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Hoshana Rabbah Night: Dancing That Broke a Decree' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "80b558554d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simcha Power: The Chassid Who Danced on Simchas Torah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cc16e78758",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva, Hoshana Rabbah Night: The Dance That Broke the Decree' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song only partly transcribed (gap 0:05 to 0:58)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator gives a personal clue: grew up on Montgomery Street in Crown Heights and davened at the shul at 770 Montgomery Street."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:04Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/What%27s%20Your%20Wish%20The%20Power%20of%20Joy.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/What's Your Wish The Power of Joy.mp3",
+  "size_bytes": 12511341,
+  "mime_type": "audio/mpeg"
+ }
+}

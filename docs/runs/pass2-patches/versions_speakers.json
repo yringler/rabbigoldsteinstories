@@ -1,0 +1,2744 @@
+{
+ "task": "versions_speakers",
+ "patches": [
+  {
+   "item": "1b994d468f",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [],
+   "reason": "Pass 2: this is the preferred version; the 'alternate_take' issue marks only the other versions."
+  },
+  {
+   "item": "1b994d468f",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "16727d2e9e"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "16727d2e9e",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 1b994d468f."
+  },
+  {
+   "item": "16727d2e9e",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 1b994d468f ('Tz tz rikudim saves'), the preferred copy: same recording without the 14-second greeting.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "1b994d468f",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "16727d2e9e",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "d89bdb8bdc",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "21a742a4c5",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "d89bdb8bdc",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "21a742a4c5"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "21a742a4c5",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of d89bdb8bdc ('Hashem Always Helps part 1'), the preferred copy: raw narration of the same telling; the preferred file is the finished edit with the opening song. Dramatized telling with character voices. No opening song here; the edited copy has one. Filename 'Shlomo h' is a truncated working title.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "d89bdb8bdc",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "21a742a4c5",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "78283b5e51",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "78283b5e51",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 3ab5f08f27 ('How Can The Yetzer Harah Be Helpful'), the preferred copy: same recording without the opening song.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "4ea90aa292",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [],
+   "reason": "Pass 2: this is the preferred version; the 'alternate_take' issue marks only the other versions."
+  },
+  {
+   "item": "87c0db90e5",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 4ea90aa292."
+  },
+  {
+   "item": "87c0db90e5",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 4ea90aa292 ('Toldos-3-business-men-good'), the preferred copy: another take of the same talk and story; the preferred take is marked 'good' in its filename. Earlier or alternate take; the 'good' take is 4ea90aa292. This one has extra closing examples. No opening song.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "87c0db90e5",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Series attributed from narrator style and format (no theme song); confirm."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "71743d402a",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 50a1238473."
+  },
+  {
+   "item": "71743d402a",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 50a1238473 ('Im Yirtze Hashem'), the preferred copy: same recording without the opening song.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "71743d402a",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "7d789b1f0b",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 5d6e893d0e ('Rashi's Prophecy'), the preferred copy: same recording; this file is marked 'copy'.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "65cc95fe2e",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "ab3187c74c",
+    "evidence": "text_overlap",
+    "confidence": 0.9,
+    "note": "Preferred version: same recording, about 6 s shorter, without the closing 'Guten Shabbos'."
+   },
+   "reason": "Pass 2 preferred-version pick (ab3187c74c 'The Rebbe Rashab and The Amazing Dream'): same recording, about 6 s shorter, without the closing 'Guten Shabbos'."
+  },
+  {
+   "item": "65cc95fe2e",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "65cc95fe2e",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of ab3187c74c ('The Rebbe Rashab and The Amazing Dream'), the preferred copy: same recording, about 6 s shorter, without the closing 'Guten Shabbos'.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "ab3187c74c",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "65cc95fe2e",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "'Besht to the Rescue' (ccedcd76fb) opens by recalling this story as last week's; series order may be recoverable."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "dc093bdc5d",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "6a1de77edd",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.6,
+    "note": "Preferred version: same recording, both complete; the preferred transfer is 4 s longer (arbitrary tie-break)."
+   },
+   "reason": "Pass 2 preferred-version pick (6a1de77edd 'A Gimmel-Tammuz Gift For The Rebbe'): same recording, both complete; the preferred transfer is 4 s longer (arbitrary tie-break)."
+  },
+  {
+   "item": "dc093bdc5d",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "dc093bdc5d",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 6a1de77edd ('A Gimmel-Tammuz Gift For The Rebbe'), the preferred copy: same recording, both complete; the preferred transfer is 4 s longer (arbitrary tie-break).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "6a1de77edd",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Gimmel Tammuz tag is from the filename only; the talk speaks of Yud-Aleph Nissan."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "dc093bdc5d",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Gimmel Tammuz tag is from the filename only; the talk speaks of Yud-Aleph Nissan."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "790b67e4cc",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 7dda3cc1ae."
+  },
+  {
+   "item": "790b67e4cc",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 7dda3cc1ae ('Baal Shem Tov Saved a Neshama -2'), the preferred copy: same recording without the opening song.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "790b67e4cc",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "86d25aefb6",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "86d25aefb6",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 9fedd70daf."
+  },
+  {
+   "item": "86d25aefb6",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 9fedd70daf ('The Caliph's Secratary'), the preferred copy: the first 84 minutes of the complete telling; ends before the trial.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "86d25aefb6",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Narrator attributed to the weekly storyteller by style only; series left null."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "008f627970",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "052d37b4ea",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.6,
+    "note": "Preferred version: same recording, both complete; the preferred transfer is slightly longer and has no ASR loop (near tie)."
+   },
+   "reason": "Pass 2 preferred-version pick (052d37b4ea '4 חכמות'): same recording, both complete; the preferred transfer is slightly longer and has no ASR loop (near tie)."
+  },
+  {
+   "item": "008f627970",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "asr_loop",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "008f627970",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 052d37b4ea ('4 חכמות'), the preferred copy: same recording, both complete; the preferred transfer is slightly longer and has no ASR loop (near tie).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "052d37b4ea",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Series and narrator attributed via the 'Chochmos 3-4' cut, which adds the 'I believe' song; confirm."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "008f627970",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Series and narrator attributed via the 'Chochmos 3-4' cut, which adds the 'I believe' song; confirm."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "57f8a507a8",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [],
+   "reason": "Pass 2: this is the preferred version; the 'alternate_take' issue marks only the other versions."
+  },
+  {
+   "item": "603890b365",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 57f8a507a8."
+  },
+  {
+   "item": "603890b365",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 57f8a507a8 ('4 chochmos a'), the preferred copy: another recording of Part 1 that ends before Avram's shop, where Part 2 picks up; possible cut near 9:14.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "603890b365",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Series and narrator attributed from format (calendar talk, weekly serial, 'a gutten tag' sign-off); does not open with the 'I Believe' song. Confirm."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "3b2eabf95b",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "db1f84ef9e",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "3b2eabf95b",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of db1f84ef9e ('Yud Beis Tammuz 333'), the preferred copy: a slightly shorter cut of the same talk from episode 333, starting mid-sentence.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "fe70f6bcaf",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "59d09779c7",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Preferred version: a shorter cut (the first 104 s) of the same opening of episode 334."
+   },
+   "reason": "Pass 2 preferred-version pick (59d09779c7 '12 Tammuz 334'): a shorter cut (the first 104 s) of the same opening of episode 334."
+  },
+  {
+   "item": "fe70f6bcaf",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 59d09779c7 ('12 Tammuz 334'), the preferred copy: a shorter cut (the first 104 s) of the same opening of episode 334.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "1b70a1949c",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is d7fe4cf227."
+  },
+  {
+   "item": "1b70a1949c",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of d7fe4cf227 ('Moshiach 341'), the preferred copy: identical copy (tiny length difference; arbitrary tie-break).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "d7fe4cf227",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "1b70a1949c",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "1fa6b2d0ea",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "824ac3f4d7",
+    "evidence": "text_overlap",
+    "confidence": 0.7,
+    "note": "Preferred version: a shorter cut of the same shofar talk (aired in episode 245); the episode-342 cut has the added material."
+   },
+   "reason": "Pass 2 preferred-version pick (824ac3f4d7 'Tekias Shofar 342'): a shorter cut of the same shofar talk (aired in episode 245); the episode-342 cut has the added material."
+  },
+  {
+   "item": "824ac3f4d7",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "1fa6b2d0ea",
+    "evidence": "text_overlap",
+    "confidence": 0.7,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "1fa6b2d0ea",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "music_untranscribed",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "1fa6b2d0ea",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 824ac3f4d7 ('Tekias Shofar 342'), the preferred copy: a shorter cut of the same shofar talk (aired in episode 245); the episode-342 cut has the added material. About 30 s near the start (0:20-0:50) is untranscribed, probably the shofar blasts.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "39959e8c5c",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "27e4be78a2",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Preferred version: the same Sefirah 'lost dime' talk re-aired in episode 324 (different first line); the episode-24 cut is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (27e4be78a2 'Sefira-3 24'): the same Sefirah 'lost dime' talk re-aired in episode 324 (different first line); the episode-24 cut is the first airing."
+  },
+  {
+   "item": "39959e8c5c",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "27e4be78a2",
+    "evidence": "content",
+    "confidence": 0.8,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "39959e8c5c",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "39959e8c5c",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 27e4be78a2 ('Sefira-3 24'), the preferred copy: the same Sefirah 'lost dime' talk re-aired in episode 324 (different first line); the episode-24 cut is the first airing.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "27e4be78a2",
+    "evidence": "text_overlap",
+    "confidence": 0.9,
+    "note": "Preferred version: the same Sefirah 'lost dime' talk re-aired in episode 126, word for word; the episode-24 cut is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (27e4be78a2 'Sefira-3 24'): the same Sefirah 'lost dime' talk re-aired in episode 126, word for word; the episode-24 cut is the first airing."
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "27e4be78a2",
+    "evidence": "text_overlap",
+    "confidence": 0.9,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "27e4be78a2",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "e2cf00d09c",
+    "evidence": "text_overlap",
+    "confidence": 0.9,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 27e4be78a2 ('Sefira-3 24'), the preferred copy: the same Sefirah 'lost dime' talk re-aired in episode 126, word for word; the episode-24 cut is the first airing. Self-contained talk. Filename 'Shmiras HaZman' = guarding time.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "f71ee91642",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "27e4be78a2",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Preferred version: the same Sefirah 'lost dime' talk re-aired in episode 530 (adds 'as I told you last week'); the episode-24 cut is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (27e4be78a2 'Sefira-3 24'): the same Sefirah 'lost dime' talk re-aired in episode 530 (adds 'as I told you last week'); the episode-24 cut is the first airing."
+  },
+  {
+   "item": "f71ee91642",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "f71ee91642",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 27e4be78a2 ('Sefira-3 24'), the preferred copy: the same Sefirah 'lost dime' talk re-aired in episode 530 (adds 'as I told you last week'); the episode-24 cut is the first airing. Opens with 'as I told you last week'; otherwise self-contained.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "5804227fb3",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "f760feafed",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Preferred version: a slightly shorter cut of the same water/negel vasser talk (re-aired in episode 135)."
+   },
+   "reason": "Pass 2 preferred-version pick (f760feafed 'Netilas Yodayim 122'): a slightly shorter cut of the same water/negel vasser talk (re-aired in episode 135)."
+  },
+  {
+   "item": "5804227fb3",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "5804227fb3",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of f760feafed ('Netilas Yodayim 122'), the preferred copy: a slightly shorter cut of the same water/negel vasser talk (re-aired in episode 135). Ends cleanly before the Rabbi Akiva story. A sentence seems missing or untranscribed at about 2:29-2:59 (the Kohen washing at the Mishkan), as in the 122 cut.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "7f23a52931",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "db9712388b"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "db9712388b",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 7f23a52931 ('Kiddush Levana 352'), the preferred copy: same cut without the opening 'Baruch Hashem'.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "db9712388b",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "f1de486e32",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "0f22df3f8d",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.85,
+    "note": "Preferred version: the same Sefirah talk; 'Sefira 224' is a longer cut that contains all of this audio."
+   },
+   "reason": "Pass 2 preferred-version pick (0f22df3f8d 'Sefira 224'): the same Sefirah talk; 'Sefira 224' is a longer cut that contains all of this audio."
+  },
+  {
+   "item": "0f22df3f8d",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "f1de486e32",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.9,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "f1de486e32",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "f1de486e32",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 0f22df3f8d ('Sefira 224'), the preferred copy: the same Sefirah talk; 'Sefira 224' is a longer cut that contains all of this audio.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "fa63d3c763",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "32ef7d25e6",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.9,
+    "note": "Preferred version: same recording without the opening song and with part of the Ushpizin list missing."
+   },
+   "reason": "Pass 2 preferred-version pick (32ef7d25e6 'Succos unedited 5750'): same recording without the opening song and with part of the Ushpizin list missing."
+  },
+  {
+   "item": "fa63d3c763",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_end",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "fa63d3c763",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 32ef7d25e6 ('Succos unedited 5750'), the preferred copy: same recording without the opening song and with part of the Ushpizin list missing. Unedited class; the teacher refers to pictures the children are looking at. Lacks the opening song of the other copy (32ef7d25e6), and the list of the fifth to seventh Ushpizin is missing around 42:00-42:48. Ends mid-explanation of the Ush...",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "32ef7d25e6",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "The phrase 'the Rebbe Melech HaMoshiach' is more typical of years after 5750; confirm the year."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "fa63d3c763",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Speaker set to the 'I believe' storyteller because the other copy opens with that song; series follows the Maaseh Rav folder.",
+    "Year 5750 comes from the other copy's filename; the phrase 'the Rebbe Melech HaMoshiach' is more typical of later years."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "03f01eb654",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "212c1a5998",
+    "evidence": "content",
+    "confidence": 0.85,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "03f01eb654",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_end",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "03f01eb654",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 212c1a5998."
+  },
+  {
+   "item": "03f01eb654",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 212c1a5998 ('Shmiras Halashon 115'), the preferred copy: only the first 70 seconds of the same talk.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "03f01eb654",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "61dd385c6d",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "a5f42127fc",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Preferred version: a shorter cut of the same Ahavas Yisroel talk (episode 224 re-aired episode 122)."
+   },
+   "reason": "Pass 2 preferred-version pick (a5f42127fc 'Ahavas Yisroel 122'): a shorter cut of the same Ahavas Yisroel talk (episode 224 re-aired episode 122)."
+  },
+  {
+   "item": "a5f42127fc",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "61dd385c6d",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "61dd385c6d",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "61dd385c6d",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of a5f42127fc ('Ahavas Yisroel 122'), the preferred copy: a shorter cut of the same Ahavas Yisroel talk (episode 224 re-aired episode 122).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "bfa83834c1",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "037dde292b",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.85,
+    "note": "Preferred version: shorter cut that stops before the children practise 'Chazak chazak'."
+   },
+   "reason": "Pass 2 preferred-version pick (037dde292b 'Shabbos Chazak 356'): shorter cut that stops before the children practise 'Chazak chazak'."
+  },
+  {
+   "item": "bfa83834c1",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "bfa83834c1",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 037dde292b ('Shabbos Chazak 356'), the preferred copy: shorter cut that stops before the children practise 'Chazak chazak'.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "258d5e35ae",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "2235fd69e3",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.8,
+    "note": "Preferred version: same recording, starting a word or two later."
+   },
+   "reason": "Pass 2 preferred-version pick (2235fd69e3 'Parshas Ki Sisa 365'): same recording, starting a word or two later."
+  },
+  {
+   "item": "258d5e35ae",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "258d5e35ae",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 2235fd69e3 ('Parshas Ki Sisa 365'), the preferred copy: same recording, starting a word or two later.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "2235fd69e3",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "258d5e35ae",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "777afc34b1",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "681b318628",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.6,
+    "note": "Preferred version: identical copy in another folder (arbitrary tie-break)."
+   },
+   "reason": "Pass 2 preferred-version pick (681b318628 'Parshas Shekalim 366'): identical copy in another folder (arbitrary tie-break)."
+  },
+  {
+   "item": "777afc34b1",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "777afc34b1",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 681b318628 ('Parshas Shekalim 366'), the preferred copy: identical copy in another folder (arbitrary tie-break).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "681b318628",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "777afc34b1",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "128e6246c6",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "347a66ec71",
+    "evidence": "filename",
+    "confidence": 0.85,
+    "note": "Preferred version: 'copy' file: a shorter cut ending at the reveal, without the closing lesson."
+   },
+   "reason": "Pass 2 preferred-version pick (347a66ec71 'R'Boruch and the birth of the Shpoler Zeida 176'): 'copy' file: a shorter cut ending at the reveal, without the closing lesson."
+  },
+  {
+   "item": "128e6246c6",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 347a66ec71 ('R'Boruch and the birth of the Shpoler Zeida 176'), the preferred copy: 'copy' file: a shorter cut ending at the reveal, without the closing lesson.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "054944bbf2",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "fec54397e2",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.6,
+    "note": "Preferred version: identical recording (3 s shorter transfer; arbitrary tie-break)."
+   },
+   "reason": "Pass 2 preferred-version pick (fec54397e2 'The Mysterious Broommaker'): identical recording (3 s shorter transfer; arbitrary tie-break)."
+  },
+  {
+   "item": "054944bbf2",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "054944bbf2",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of fec54397e2 ('The Mysterious Broommaker'), the preferred copy: identical recording (3 s shorter transfer; arbitrary tie-break).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "ebbc632f9f",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "66223bdaef",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.8,
+    "note": "Preferred version: slightly shorter transfer without the final sign-off."
+   },
+   "reason": "Pass 2 preferred-version pick (66223bdaef 'מלוה מלכה'): slightly shorter transfer without the final sign-off."
+  },
+  {
+   "item": "ebbc632f9f",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "ebbc632f9f",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 66223bdaef ('מלוה מלכה'), the preferred copy: slightly shorter transfer without the final sign-off. Slightly shorter transfer than 66223bdaef; the ending stops at 'We want Moshiach now' without the final sign-off.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "66223bdaef",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Recording year (Hakhel 5776 or 5783?)."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c3857a3b34",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "0f6f2dc878",
+    "evidence": "text_overlap",
+    "confidence": 0.6,
+    "note": "Preferred version: same broadcast; this copy has a splice glitch and a gap at the start of the story (18:10-19:06); the preferred copy is quiet but complete."
+   },
+   "reason": "Pass 2 preferred-version pick (0f6f2dc878 '373'): same broadcast; this copy has a splice glitch and a gap at the start of the story (18:10-19:06); the preferred copy is quiet but complete."
+  },
+  {
+   "item": "c3857a3b34",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "splice_glitch",
+    "music_untranscribed",
+    "time_bound_content",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "c3857a3b34",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 0f6f2dc878 ('373'), the preferred copy: same broadcast; this copy has a splice glitch and a gap at the start of the story (18:10-19:06); the preferred copy is quiet but complete.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "0f6f2dc878",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c3857a3b34",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "cab583e2b7",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "8fa0b3541e",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Preferred version: same broadcast; this copy clips the first word of the greeting."
+   },
+   "reason": "Pass 2 preferred-version pick (8fa0b3541e '374 04-25-89'): same broadcast; this copy clips the first word of the greeting."
+  },
+  {
+   "item": "cab583e2b7",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_start",
+    "music_untranscribed",
+    "time_bound_content",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "cab583e2b7",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 8fa0b3541e ('374 04-25-89'), the preferred copy: same broadcast; this copy clips the first word of the greeting. Starts on 'Dear children' (first word of the greeting clipped). Same broadcast as the dated copy 8fa0b3541e.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "c7d705e31a",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish_with_note",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is ac13894ea5. Note kept for the caveat (cut off / blank tape)."
+  },
+  {
+   "item": "c7d705e31a",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of ac13894ea5 ('416'), the preferred copy: a re-recorded 5-minute opening of episode 416, cut off mid-sentence.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "c7d705e31a",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c454f1dd5b",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "f35ed7194d",
+    "evidence": "text_overlap",
+    "confidence": 0.7,
+    "note": "Preferred version: same broadcast with part of the class roll call cut."
+   },
+   "reason": "Pass 2 preferred-version pick (f35ed7194d '372'): same broadcast with part of the class roll call cut."
+  },
+  {
+   "item": "c454f1dd5b",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "music_untranscribed",
+    "time_bound_content",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "c454f1dd5b",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of f35ed7194d ('372'), the preferred copy: same broadcast with part of the class roll call cut. Same broadcast as the undated copy f35ed7194d; here part of the class roll call is cut. Chametz-sale phone line, candle time and newsletter are period pieces.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "bc6b1c6167",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "41d518f4f6",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Preferred version: the same narration cut from the episode-383 rebroadcast; episode 298 is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (41d518f4f6 'The King and the Shabbos Candles 298'): the same narration cut from the episode-383 rebroadcast; episode 298 is the first airing."
+  },
+  {
+   "item": "bc6b1c6167",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "41d518f4f6",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "bc6b1c6167",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_start",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "bc6b1c6167",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 41d518f4f6 ('The King and the Shabbos Candles 298'), the preferred copy: the same narration cut from the episode-383 rebroadcast; episode 298 is the first airing. Starts at 'Story time', just after the introduction. Speech ends about 20 s before the file ends. The follow-up talk on girls lighting Shabbos candles is a separate clip ('Kibud Av V'Em 383').",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "41d518f4f6",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Preferred version (pass 2); other versions: bc6b1c6167.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "07c3d8ea78",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "408d5f35d3",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Preferred version: the same talk and story cut from the episode-531 re-airing, without the closing; episode 310 is the earlier, fuller cut."
+   },
+   "reason": "Pass 2 preferred-version pick (408d5f35d3 'Why We Shake During Prayer 310'): the same talk and story cut from the episode-531 re-airing, without the closing; episode 310 is the earlier, fuller cut."
+  },
+  {
+   "item": "408d5f35d3",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "07c3d8ea78",
+    "evidence": "content",
+    "confidence": 0.7,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "07c3d8ea78",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "07c3d8ea78",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 408d5f35d3 ('Why We Shake During Prayer 310'), the preferred copy: the same talk and story cut from the episode-531 re-airing, without the closing; episode 310 is the earlier, fuller cut. Uses the period terms 'Goy' and 'l'havdil' for the non-Jewish boy, who is portrayed kindly.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "b625a28e6c",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "0b8f27e227",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.6,
+    "note": "Preferred version: identical copy, the '(2)' file."
+   },
+   "reason": "Pass 2 preferred-version pick (0b8f27e227 'Purim 368'): identical copy, the '(2)' file."
+  },
+  {
+   "item": "b625a28e6c",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "b625a28e6c",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 0b8f27e227 ('Purim 368'), the preferred copy: identical copy, the '(2)' file.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "7b70f3b3d4",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "34122f43d5",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Preferred version: the same Sukkos talk as re-aired in episode 447; episode 398 is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (34122f43d5 'Sukkos 398'): the same Sukkos talk as re-aired in episode 447; episode 398 is the first airing."
+  },
+  {
+   "item": "7b70f3b3d4",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "34122f43d5",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "7b70f3b3d4",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "34122f43d5"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "7b70f3b3d4",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "7b70f3b3d4",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 34122f43d5 ('Sukkos 398'), the preferred copy: the same Sukkos talk as re-aired in episode 447; episode 398 is the first airing.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "fd5d08758f",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "3415a81e0a",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.8,
+    "note": "Preferred version: same recording without the opening 'And Baruch Hashem'."
+   },
+   "reason": "Pass 2 preferred-version pick (3415a81e0a 'Chodesh Nissan 371'): same recording without the opening 'And Baruch Hashem'."
+  },
+  {
+   "item": "fd5d08758f",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "fd5d08758f",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 3415a81e0a ('Chodesh Nissan 371'), the preferred copy: same recording without the opening 'And Baruch Hashem'.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "64dc417cdd",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "37367b27fe",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Preferred version: the same Asarah B'Teves talk cut from the episode-355 rebroadcast; episode 308 is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (37367b27fe 'Asarah B'Teves 308'): the same Asarah B'Teves talk cut from the episode-355 rebroadcast; episode 308 is the first airing."
+  },
+  {
+   "item": "64dc417cdd",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "37367b27fe",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "64dc417cdd",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "64dc417cdd",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 37367b27fe ('Asarah B'Teves 308'), the preferred copy: the same Asarah B'Teves talk cut from the episode-355 rebroadcast; episode 308 is the first airing. Text also matches episodes 410 and 555 at about 0.65; possibly later re-airs (not added as relations).",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "3ec5471714",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is a91e103f11."
+  },
+  {
+   "item": "3ec5471714",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of a91e103f11 ('Elul 340'), the preferred copy: near-identical copy offset by about a second.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "a91e103f11",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "3ec5471714",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c941c66592",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "445b45e05b",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.8,
+    "note": "Preferred version: same recording without the opening 'And Baruch Hashem'."
+   },
+   "reason": "Pass 2 preferred-version pick (445b45e05b 'Simchas Adar 364'): same recording without the opening 'And Baruch Hashem'."
+  },
+  {
+   "item": "c941c66592",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "c941c66592",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 445b45e05b ('Simchas Adar 364'), the preferred copy: same recording without the opening 'And Baruch Hashem'.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "445b45e05b",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c941c66592",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "4d54f86128",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "4b73fb52c9",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Preferred version: the same Zos Chanukah talk; this cut has a gap at about 0:57-1:22 that the episode-458 cut does not."
+   },
+   "reason": "Pass 2 preferred-version pick (4b73fb52c9 'Chanukah 458'): the same Zos Chanukah talk; this cut has a gap at about 0:57-1:22 that the episode-458 cut does not."
+  },
+  {
+   "item": "4b73fb52c9",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "4d54f86128",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "4b73fb52c9",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "4d54f86128"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "4d54f86128",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "splice_glitch",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "4d54f86128",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 4b73fb52c9 ('Chanukah 458'), the preferred copy: the same Zos Chanukah talk; this cut has a gap at about 0:57-1:22 that the episode-458 cut does not. Transcript has a gap at about 0:57-1:22 where the episode has a sentence on emunah and Al HaNissim; possibly a dropout in this cut. 'Chanukah 458' (4b73fb52c9) may be the more complete copy.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "4d86625467",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "4c4feaf34b",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Preferred version: a shorter version of the same talk with a re-recorded opening (episode 237); episode 33 is the fuller original."
+   },
+   "reason": "Pass 2 preferred-version pick (4c4feaf34b 'Rosh Chodesh 33'): a shorter version of the same talk with a re-recorded opening (episode 237); episode 33 is the fuller original."
+  },
+  {
+   "item": "4d86625467",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "4d86625467",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 4c4feaf34b ('Rosh Chodesh 33'), the preferred copy: a shorter version of the same talk with a re-recorded opening (episode 237); episode 33 is the fuller original. Opens with 'today is Erev Rosh Chodesh Av'; the rest applies to any Rosh Chodesh.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "5b6b690fa8",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is afddab9ffe."
+  },
+  {
+   "item": "5b6b690fa8",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of afddab9ffe ('Chof Hey Elul 344'), the preferred copy: near-identical copy, a few seconds shorter.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "afddab9ffe",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "5b6b690fa8",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "699d1e84da",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [],
+   "reason": "Pass 2: this is the preferred version; the 'alternate_take' issue marks only the other versions."
+  },
+  {
+   "item": "e23ba9ec95",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 699d1e84da ('Geulah 120'), the preferred copy: same recording, one sentence shorter.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "6ab892a712",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "9fab00623c",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.75,
+    "note": "Preferred version: the same 17 Tammuz talk re-aired in episode 435 with a new opening line ('copy' file); episode 284 is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (9fab00623c 'Shiva-asar B'Tammuz 284'): the same 17 Tammuz talk re-aired in episode 435 with a new opening line ('copy' file); episode 284 is the first airing."
+  },
+  {
+   "item": "6ab892a712",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "6ab892a712",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 9fab00623c ('Shiva-asar B'Tammuz 284'), the preferred copy: the same 17 Tammuz talk re-aired in episode 435 with a new opening line ('copy' file); episode 284 is the first airing.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "6ab892a712",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "6bb7db50e1",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "48d68b1ed7",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.7,
+    "note": "Preferred version: the same Asarah B'Teves talk with a re-recorded 5750 opening (episode 410); episode 260 is the earlier, fuller cut."
+   },
+   "reason": "Pass 2 preferred-version pick (48d68b1ed7 'Asarah B'Teves 260'): the same Asarah B'Teves talk with a re-recorded 5750 opening (episode 410); episode 260 is the earlier, fuller cut."
+  },
+  {
+   "item": "48d68b1ed7",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "6bb7db50e1",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.8,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "6bb7db50e1",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "time_bound_content",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "6bb7db50e1",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 48d68b1ed7 ('Asarah B'Teves 260'), the preferred copy: the same Asarah B'Teves talk with a re-recorded 5750 opening (episode 410); episode 260 is the earlier, fuller cut. Opens with 'this coming Sunday, January the 7th' (5750). The full episode continues past the clip with the promise that the fasts will become Yomim Tovim.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "b45fe5bf64",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "7517022d79",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.7,
+    "note": "Preferred version: same cut starting two seconds later (without 'And Baruch Hashem')."
+   },
+   "reason": "Pass 2 preferred-version pick (7517022d79 'Chanukah 353'): same cut starting two seconds later (without 'And Baruch Hashem')."
+  },
+  {
+   "item": "b45fe5bf64",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "b45fe5bf64",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 7517022d79 ('Chanukah 353'), the preferred copy: same cut starting two seconds later (without 'And Baruch Hashem').",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "7f45016228",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_end",
+    "time_bound_content",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "7f45016228",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of a682ecebd1 ('Pesach 370'), the preferred copy: shorter cut that stops before the closing sentences.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "a199630f7e",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "72e01acc61",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.7,
+    "note": "Preferred version: the same Tu B'Shvat talk; the episode-264 cut is longer and also contains this one."
+   },
+   "reason": "Pass 2 preferred-version pick (72e01acc61 'Tu B'Shvat 264'): the same Tu B'Shvat talk; the episode-264 cut is longer and also contains this one."
+  },
+  {
+   "item": "72e01acc61",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "a199630f7e",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.85,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "a199630f7e",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "a199630f7e",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 72e01acc61 ('Tu B'Shvat 264'), the preferred copy: the same Tu B'Shvat talk; the episode-264 cut is longer and also contains this one. Opens mid-sentence ('And Baruch Hashem, here we are...') right after the show greeting.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "b69e250698",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "f72441c6af"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "f72441c6af",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of b69e250698 ('Rosh Chodesh Kislev 350'), the preferred copy: same cut starting about 2 s later (without 'And Baruch Hashem').",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "f72441c6af",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c857948984",
+   "op": "remove_relation",
+   "match": {
+    "type": "alternate_take",
+    "target": "e4290bb182"
+   },
+   "reason": "Pass 2: the pair is linked as same_recording both ways; the extra alternate_take link was redundant."
+  },
+  {
+   "item": "e4290bb182",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of c857948984 ('Tishrei 346'), the preferred copy: same cut starting one word later.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "e4290bb182",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "326ab9f203",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_start",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "326ab9f203",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 4673f6eb79."
+  },
+  {
+   "item": "326ab9f203",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 4673f6eb79 ('rest of preparations of erev pesach'), the preferred copy: the same audio without the first minute.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "326ab9f203",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Teacher not named; possibly Rabbi Yosef Goldstein (same archive), unconfirmed."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "78d629608b",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "78d629608b",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 1afde74e08."
+  },
+  {
+   "item": "78d629608b",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 1afde74e08 ('Haggada 2'), the preferred copy: an excerpt (about 14:20-60:30) of Haggada 2 with its own short lead-in.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "78d629608b",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Teacher unidentified (see identity_guesses)."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c465a14448",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "241ca67725",
+    "evidence": "text_overlap",
+    "confidence": 0.6,
+    "note": "Preferred version: another transfer of the same shiur, about 30 s shorter (speed difference); tie-break: no ASR loop in the preferred copy. Speed not checked by ear."
+   },
+   "reason": "Pass 2 preferred-version pick (241ca67725 '56 tanya T23a Y'): another transfer of the same shiur, about 30 s shorter (speed difference); tie-break: no ASR loop in the preferred copy. Speed not checked by ear."
+  },
+  {
+   "item": "c465a14448",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "asr_loop",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "c465a14448",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 241ca67725 ('56 tanya T23a Y'), the preferred copy: another transfer of the same shiur, about 30 s shorter (speed difference); tie-break: no ASR loop in the preferred copy. Speed not checked by ear.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "241ca67725",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Story boundaries are approximate (Yiddish ASR)."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "c465a14448",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "The talk on the Kuntres Ahavas Yisroel may date the recording; no year is stated."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "9187a4035a",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "dead_air",
+    "trailing_silence",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "9187a4035a",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish_with_note",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is cbdb9ab2ea. Note kept for the caveat (cut off / blank tape)."
+  },
+  {
+   "item": "9187a4035a",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of cbdb9ab2ea ('38 cont P27'), the preferred copy: the same shiur with about 55 minutes of dead air inserted at 29:30 and trailing silence.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "9187a4035a",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Confirm the blank at about 29:30-84:35 is silence (no speech was transcribed there).",
+    "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "47ece14b5e",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "8707992670",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.95,
+    "note": "Preferred version: an exact copy of the last ~31 minutes of '43 P33', starting mid-sentence."
+   },
+   "reason": "Pass 2 preferred-version pick (8707992670 '43 P33'): an exact copy of the last ~31 minutes of '43 P33', starting mid-sentence."
+  },
+  {
+   "item": "47ece14b5e",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_start",
+    "asr_loop",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "47ece14b5e",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 8707992670."
+  },
+  {
+   "item": "47ece14b5e",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 8707992670 ('43 P33'), the preferred copy: an exact copy of the last ~31 minutes of '43 P33', starting mid-sentence.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "47ece14b5e",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Year inferred from a Thursday Lag BaOmer (5738 assumed)."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "7fff92712d",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "19ca38b078",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.9,
+    "note": "Preferred version: only the story preview, which 'Saved by Negel Vasser 25' contains with the full story."
+   },
+   "reason": "Pass 2 preferred-version pick (19ca38b078 'Saved by Negel Vasser 25'): only the story preview, which 'Saved by Negel Vasser 25' contains with the full story."
+  },
+  {
+   "item": "7fff92712d",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_end",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "7fff92712d",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish",
+   "reason": "DECISIONS 7: other versions are listed, not hidden; the preferred copy is 19ca38b078."
+  },
+  {
+   "item": "7fff92712d",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 19ca38b078 ('Saved by Negel Vasser 25'), the preferred copy: only the story preview, which 'Saved by Negel Vasser 25' contains with the full story.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "7fff92712d",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "ee84a13b26",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "3fecbf9b28",
+    "evidence": "content",
+    "confidence": 0.8,
+    "note": "Preferred version: an earlier, shorter take of the same Chanukah testimony that stops abruptly at 5:29."
+   },
+   "reason": "Pass 2 preferred-version pick (3fecbf9b28 'chanuka - my miracle'): an earlier, shorter take of the same Chanukah testimony that stops abruptly at 5:29."
+  },
+  {
+   "item": "ee84a13b26",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "3fecbf9b28",
+    "evidence": "content",
+    "confidence": 0.8,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "3fecbf9b28",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "ee84a13b26",
+    "evidence": "content",
+    "confidence": 0.8,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "ee84a13b26",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "truncated_end",
+    "time_bound_content",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "ee84a13b26",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 3fecbf9b28 ('chanuka - my miracle'), the preferred copy: an earlier, shorter take of the same Chanukah testimony that stops abruptly at 5:29. Ends abruptly at 5:29 right after 'I would like to share... some interesting highlights'; probably an early or cut take. The longer version is 3fecbf9b28.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "ee84a13b26",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Personal health story of a living person; confirm publication."
+   ],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "5567ce3c30",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "4ab732d2b6",
+    "evidence": "content",
+    "confidence": 0.75,
+    "note": "Preferred version: another recording of part 2 with interruptions (phone call) around 6:55-7:33; 'Slavita printer B' is cleaner."
+   },
+   "reason": "Pass 2 preferred-version pick (4ab732d2b6 'Slavita printer B'): another recording of part 2 with interruptions (phone call) around 6:55-7:33; 'Slavita printer B' is cleaner."
+  },
+  {
+   "item": "5567ce3c30",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "4ab732d2b6",
+    "evidence": "content",
+    "confidence": 0.75,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "4ab732d2b6",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "5567ce3c30",
+    "evidence": "content",
+    "confidence": 0.75,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "5567ce3c30",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "5567ce3c30",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of 4ab732d2b6 ('Slavita printer B'), the preferred copy: another recording of part 2 with interruptions (phone call) around 6:55-7:33; 'Slavita printer B' is cleaner. Live class; the storyteller pauses for interruptions around 6:55 and 7:33 (a phone call, asking listeners to stop). The other telling ('Slavita printer B') is cleaner.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "4ab732d2b6",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "5567ce3c30",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [],
+   "reason": "Pass 2 resolved the which-copy question (preferred version picked)."
+  },
+  {
+   "item": "b1a205211a",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "cce7163480",
+    "evidence": "filename",
+    "confidence": 0.75,
+    "note": "Preferred version: another recording of part 2; the preferred one is marked 'good' in its filename."
+   },
+   "reason": "Pass 2 preferred-version pick (cce7163480 'Hashems name good B'): another recording of part 2; the preferred one is marked 'good' in its filename."
+  },
+  {
+   "item": "b1a205211a",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "cce7163480",
+    "evidence": "content",
+    "confidence": 0.75,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "cce7163480",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "b1a205211a",
+    "evidence": "content",
+    "confidence": 0.75,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "b1a205211a",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "b1a205211a",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of cce7163480 ('Hashems name good B'), the preferred copy: another recording of part 2; the preferred one is marked 'good' in its filename. No opening song. Another recording of part 2 exists (cce7163480, marked 'good'). ASR writes 'Moshiach' for Moshe in places.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "7c429e4277",
+   "op": "add_relation",
+   "value": {
+    "type": "superseded_by",
+    "target_id": "cbefd2fcab",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Preferred version: the same Havdalah lesson as re-aired in episode 427 (file mislabeled 428); episode 276 is the first airing."
+   },
+   "reason": "Pass 2 preferred-version pick (cbefd2fcab 'Havdalah 276'): the same Havdalah lesson as re-aired in episode 427 (file mislabeled 428); episode 276 is the first airing."
+  },
+  {
+   "item": "7c429e4277",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "cbefd2fcab",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "cbefd2fcab",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "7c429e4277",
+    "evidence": "text_overlap",
+    "confidence": 0.85,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "7c429e4277",
+   "op": "set",
+   "path": "quality.issues",
+   "value": [
+    "low_volume",
+    "mislabeled",
+    "alternate_take"
+   ],
+   "reason": "Pass 2: marks a non-preferred version (listed as another version)."
+  },
+  {
+   "item": "7c429e4277",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Other version of cbefd2fcab ('Havdalah 276'), the preferred copy: the same Havdalah lesson as re-aired in episode 427 (file mislabeled 428); episode 276 is the first airing. Labeled 428, but it is the Havdalah lesson aired in episode 427 (and earlier in 276 and 379). Content itself is clean and complete. Quiet source.",
+   "reason": "Pass 2: notes updated after the preferred-version decision."
+  },
+  {
+   "item": "ce28d1962a",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "5e786ca354",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "ce28d1962a",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "a05fbdecf2",
+    "evidence": "text_overlap",
+    "confidence": 0.8,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "f71ee91642",
+    "evidence": "content",
+    "confidence": 0.6,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "2a6ad8add6",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "e2cf00d09c",
+    "evidence": "audio_fingerprint",
+    "confidence": 0.75,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "933079e352",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "380cd387f3",
+    "evidence": "text_overlap",
+    "confidence": 0.7,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "933079e352",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "d4fdf9e355",
+    "evidence": "text_overlap",
+    "confidence": 0.7,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "933079e352",
+   "op": "add_relation",
+   "value": {
+    "type": "same_recording",
+    "target_id": "da784bf1d1",
+    "evidence": "text_overlap",
+    "confidence": 0.75,
+    "note": "Same recording (other transfer/cut)."
+   },
+   "reason": "Pass 2: same_recording is symmetric; added the missing direction."
+  },
+  {
+   "item": "933079e352",
+   "op": "add_relation",
+   "value": {
+    "type": "alternate_take",
+    "target_id": "4673f6eb79",
+    "evidence": "text_overlap",
+    "confidence": 0.6,
+    "note": "Alternate take / cut of the same material."
+   },
+   "reason": "Pass 2: alternate_take is symmetric; added the missing direction."
+  },
+  {
+   "item": "e39943b482",
+   "op": "set",
+   "path": "quality.trim",
+   "value": {
+    "content_end_sec": 1730,
+    "note": "Episode 13 ends at about 28:50; the rest of the tape is a copy of episode 14 (5bcc2b3a95)."
+   },
+   "reason": "DECISIONS 11: audio is not edited; mark where episode 13 ends (transcript: closing at 28:15-28:48, episode 14 opening from 28:48)."
+  },
+  {
+   "item": "e39943b482",
+   "op": "set",
+   "path": "quality.publish_recommendation",
+   "value": "publish_with_note",
+   "reason": "Content end is now marked (episode 14 copy after 28:50); the open question from pass 1 is resolved."
+  },
+  {
+   "item": "e39943b482",
+   "op": "set",
+   "path": "quality.notes",
+   "value": "Two programs in one file: episode 13 (0-1730 s, see quality.trim) followed by a complete copy of episode 14 (5bcc2b3a95). Contest dates and the program's old mailing address are period pieces.",
+   "reason": "Pass 2: content end marked."
+  },
+  {
+   "item": "ce9622aadc",
+   "op": "set",
+   "path": "quality.trim",
+   "value": {
+    "content_end_sec": 3300,
+    "note": "Shiur 32 ends at about 55:00; after a pause (to 68:00) the tape holds a partial copy of '32 begin P 15' (c939864b1b)."
+   },
+   "reason": "DECISIONS 11: mark where the shiur ends; the tail is a partial duplicate of c939864b1b (transcript: sign-off 54:31, next speech 68:06)."
+  },
+  {
+   "item": "d8e2da15b1",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song."
+  },
+  {
+   "item": "d8e2da15b1",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "bd0356ce35",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song."
+  },
+  {
+   "item": "bd0356ce35",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "eec487ad64",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song."
+  },
+  {
+   "item": "eec487ad64",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "7666632281",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song."
+  },
+  {
+   "item": "7666632281",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "5003aabf6f",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song."
+  },
+  {
+   "item": "5003aabf6f",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "4289ef2683",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song."
+  },
+  {
+   "item": "4289ef2683",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "234db79ac9",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (high): self-reference ~10:06: 'I heard this from my father who was there when the Frierdiker Rebbe said the Sicha' (his father Uncle Yossi was a bochur at 770)."
+  },
+  {
+   "item": "234db79ac9",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (high); basis: self-reference ~10:06: 'I heard this from my father who was there when the Frierdiker Rebbe said the Sicha' (his father Uncle Yossi was...",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "bae411ef9d",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's sichah."
+  },
+  {
+   "item": "bae411ef9d",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's s...",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "09853315db",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's sichah."
+  },
+  {
+   "item": "09853315db",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's s...",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "1a993b1bd5",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's sichah."
+  },
+  {
+   "item": "1a993b1bd5",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's s...",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "6bdf3b9e45",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "guest_children"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): teacher telling his class (~1:34 'I was in class, I was teaching'); recorded after the Rubashkin release (Dec 2017), when Uncle Yossi was about 90; he teaches young boys."
+  },
+  {
+   "item": "6bdf3b9e45",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: teacher telling his class (~1:34 'I was in class, I was teaching'); recorded after the Rubashkin release (Dec 2017), when Uncle Yossi...",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "1e53bafbf7",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "guest_children"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): his weekly format: opens 'This week, on Tuesday, was Asarah B'Teves... before I get to the story'; same live-class teacher as 6bdf3b9e45 (pass-1 b057)."
+  },
+  {
+   "item": "1e53bafbf7",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: his weekly format: opens 'This week, on Tuesday, was Asarah B'Teves... before I get to the story'; same live-class teacher as 6bdf3b9...",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "3342eced38",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "guest_children"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): same live boys'-class teacher as 6bdf3b9e45 and 1e53bafbf7 (pass-1 b057); Adar talk then story, his weekly format; voice not checked."
+  },
+  {
+   "item": "3342eced38",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: same live boys'-class teacher as 6bdf3b9e45 and 1e53bafbf7 (pass-1 b057); Adar talk then story, his weekly format; voice not checked",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "0abb04dece",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein"
+   ],
+   "reason": "Pass 2 speaker attribution (medium): his weekly format: calendar/parsha teaching that ends 'and then we'll get to the story for today'; voice not checked."
+  },
+  {
+   "item": "0abb04dece",
+   "op": "add_to_list",
+   "path": "provenance.needs_human_review",
+   "value": "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: his weekly format: calendar/parsha teaching that ends 'and then we'll get to the story for today'; voice not checked",
+   "reason": "Records the basis of the pass-2 speaker attribution (schema has no per-field basis)."
+  },
+  {
+   "item": "85fd6a2f32",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "guest_children"
+   ],
+   "reason": "Pass 2 speaker re-attribution (high): host 'Rabbi Goldstein' is asked to sing again and sings 'I Believe in Hashem' (~3:04-4:04), his song. The host of the rallies is the son, not Uncle Yossi (DECISIONS 3)."
+  },
+  {
+   "item": "85fd6a2f32",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Year unknown (Hakhel year: 5769, 5776 or 5783).",
+    "Pass 2: host re-attributed to R' Chaim Levi Goldstein (high); basis: host 'Rabbi Goldstein' is asked to sing again and sings 'I Believe in Hashem' (~3:04-4:04), his song"
+   ],
+   "reason": "Records the basis of the pass-2 speaker attribution; drops the pass-1 question whether the host is Rabbi Yosef Goldstein."
+  },
+  {
+   "item": "5493440d73",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "simcha_engel",
+    "guest_children"
+   ],
+   "reason": "Pass 2 speaker re-attribution (medium): Sukkos 5786 rally with Simcha Engel, same format as the 5785 rallies whose host 'Rabbi Goldstein' sings 'I Believe' (3b05d42392). The host of the rallies is the son, not Uncle Yossi (DECISIONS 3)."
+  },
+  {
+   "item": "5493440d73",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Filename '3' read as the third night of the rallies (Ushpizin Yaakov Avinu and the Alter Rebbe), not a part number.",
+    "Host assumed to be Rabbi Goldstein; he is not named in this file (he is in night 6).",
+    "Pass 2: host re-attributed to R' Chaim Levi Goldstein (medium); basis: Sukkos 5786 rally with Simcha Engel, same format as the 5785 rallies whose host 'Rabbi Goldstein' sings 'I Believe' (3b05d42392)"
+   ],
+   "reason": "Records the basis of the pass-2 speaker attribution; drops the pass-1 question whether the host is Rabbi Yosef Goldstein."
+  },
+  {
+   "item": "5493440d73",
+   "op": "set",
+   "path": "display.summary_long",
+   "value": "Recorded live at a Simchas Beis Hashoeva rally for children during Sukkos 5786. Rabbi Goldstein welcomes the crowd and jokes with Simcha Engel about the new year, then groups of children come up to recite the Twelve Pesukim, and everyone says and sings Al Tira together. Rabbi Goldstein explains that tonight's Ushpizin, Yaakov Avinu and the Alter Rebbe, both excelled in learning Torah, and tells a story of the Alter Rebbe. The Alter Rebbe arrives for the wedding of two orphans whose match he had made, only to find that the town official has seized the groom to send him to the Russian army for twenty-five years. The official demands 1,500 rubles, and the poor town cannot raise even half. With Rabbi Levi Yitzchak of Berditchev and Rabbi Menachem Mendel of Horodok, the Alter Rebbe visits the richest man in town, known for giving only a nickel. He accepts the nickel with a smile and a warm brachah, and the man keeps calling them back with more, until he breaks down, tells why he had stopped giving tzedakah, and pays the whole ransom. The wedding goes ahead with great joy, and the evening ends with a lesson about reaching every Jew's heart.",
+   "reason": "Host re-attributed to R' Chaim Levi Goldstein; 'Uncle Yossi' (his father) is not said on air here, the host is called 'Rabbi Goldstein'."
+  },
+  {
+   "item": "5493440d73",
+   "op": "set",
+   "path": "segments.0.summary",
+   "value": "Rabbi Goldstein welcomes everyone and jokes with Simcha Engel about the new year.",
+   "reason": "Host re-attributed to R' Chaim Levi Goldstein; 'Uncle Yossi' (his father) is not said on air here, the host is called 'Rabbi Goldstein'."
+  },
+  {
+   "item": "770aa7cebf",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "simcha_engel",
+    "guest_children"
+   ],
+   "reason": "Pass 2 speaker re-attribution (medium): Sukkos 5786 rally; host 'Rabbi Goldstein' with Simcha Engel, same format as the 5785 rallies (3b05d42392, host sings 'I Believe'). The host of the rallies is the son, not Uncle Yossi (DECISIONS 3)."
+  },
+  {
+   "item": "770aa7cebf",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Filename '6' read as the sixth night of the rallies (Ushpizin Yosef HaTzaddik and the Rebbe Maharash), not a part number.",
+    "Innkeeper's name unclear in the recording (ASR gives Akiva, Yechiel and Yankel).",
+    "Pass 2: host re-attributed to R' Chaim Levi Goldstein (medium); basis: Sukkos 5786 rally; host 'Rabbi Goldstein' with Simcha Engel, same format as the 5785 rallies (3b05d42392, host sings 'I Believe')"
+   ],
+   "reason": "Records the basis of the pass-2 speaker attribution; drops the pass-1 question whether the host is Rabbi Yosef Goldstein."
+  },
+  {
+   "item": "770aa7cebf",
+   "op": "set",
+   "path": "display.summary_long",
+   "value": "Recorded live at a Simchas Beis Hashoeva rally for children during Chol HaMoed Sukkos 5786, on the night of the Rebbe Maharash and his motto 'Lechatchila Ariber'. Simcha Engel turns up with a shoe missing: he danced so hard he lost it, after hearing the Rebbe's teaching that joyful dancing now can make up for whatever was missed earlier in the season. Rabbi Goldstein lists the Ushpizin and explains that tonight's guests, Yosef HaTzaddik and the Rebbe Maharash, teach that a Jew can leap straight to the greatest heights, just as Yosef went from prison to ruler at once. He then begins a story of a Jewish innkeeper whose village priest wants to drive him out of business. The story pauses while groups of children recite the Twelve Pesukim and Al Tira. When it resumes, the priest pretends to make peace, swaps in a poisoned bottle, and blames the innkeeper when a customer dies. The Rebbe Maharash puts off seeing him for two days, then sends him straight home on a first-class train ticket, where he unknowingly pours out his heart to the very judges of his case. They uncover the priest's plot and the innkeeper goes free.",
+   "reason": "Host re-attributed to R' Chaim Levi Goldstein; 'Uncle Yossi' (his father) is not said on air here, the host is called 'Rabbi Goldstein'."
+  },
+  {
+   "item": "cc16e78758",
+   "op": "set",
+   "path": "classification.speakers",
+   "value": [
+    "rabbi_chaim_levi_goldstein",
+    "unknown"
+   ],
+   "reason": "Pass 2 speaker re-attribution (medium): Hoshana Rabbah 5786 rally host thanked as 'Rabbi Goldstein'; same rally series as 770aa7cebf and the 5785 rallies. The host of the rallies is the son, not Uncle Yossi (DECISIONS 3)."
+  },
+  {
+   "item": "cc16e78758",
+   "op": "set",
+   "path": "provenance.needs_human_review",
+   "value": [
+    "Assigned to the 5786 Simchas Beis Hashoeva series from content (file is in the Stories root, not the 5786 folder); year from 'the coming year is a leap year'.",
+    "The child character in the dialogue may be Simcha Engel; speaker left as unknown.",
+    "Pass 2: host re-attributed to R' Chaim Levi Goldstein (medium); basis: Hoshana Rabbah 5786 rally host thanked as 'Rabbi Goldstein'; same rally series as 770aa7cebf and the 5785 rallies"
+   ],
+   "reason": "Records the basis of the pass-2 speaker attribution; drops the pass-1 question whether the host is Rabbi Yosef Goldstein."
+  },
+  {
+   "item": "cc16e78758",
+   "op": "set",
+   "path": "display.summary_short",
+   "value": "On Hoshana Rabbah night, Rabbi Goldstein teaches that today we serve Hashem with simcha, and tells how a Chassid's dancing saved his sick son in the days of the Tzemach Tzedek.",
+   "reason": "Host re-attributed to R' Chaim Levi Goldstein; 'Uncle Yossi' (his father) is not said on air here, the host is called 'Rabbi Goldstein'."
+  },
+  {
+   "item": "cc16e78758",
+   "op": "set",
+   "path": "display.summary_long",
+   "value": "Recorded live at a Simchas Beis Hashoeva rally for children on the night of Hoshana Rabbah. Rabbi Goldstein wishes everyone a good and sweet year and explains that tonight's Ushpizin, Dovid HaMelech and the Rebbe Rashab, are both connected to Moshiach. A child character arrives with a Tehillim and a Chumash, ready for the Hoshana Rabbah custom of reading Sefer Devarim and saying Tehillim, and asks whether to say it with tears as in the olden days. Rabbi Goldstein explains that the Rebbe taught our generation to serve Hashem with simcha and bitachon, and tells a story: in the time of the Tzemach Tzedek, a Chassid whose son was gravely ill traveled to Lubavitch and received only 'Hashem should help you'. He spent Hoshana Rabbah crying over Tehillim, then decided to dance with all his might through Shemini Atzeres and Simchas Torah. Before he left, the Tzemach Tzedek told him that his joy had broken a Heavenly decree and his son would recover. Rabbi Goldstein closes with the Zohar's teaching that Heaven gives according to the joy on our faces, and the Rebbe's call to grab another Jew while dancing and bring Moshiach. The emcee then begins the Twelve Pesukim.",
+   "reason": "Host re-attributed to R' Chaim Levi Goldstein; 'Uncle Yossi' (his father) is not said on air here, the host is called 'Rabbi Goldstein'."
+  },
+  {
+   "item": "cc16e78758",
+   "op": "set",
+   "path": "segments.4.summary",
+   "value": "The emcee thanks Rabbi Goldstein and introduces the children's Twelve Pesukim.",
+   "reason": "Host re-attributed to R' Chaim Levi Goldstein; 'Uncle Yossi' (his father) is not said on air here, the host is called 'Rabbi Goldstein'."
+  }
+ ],
+ "notes": "Version groups: 64 linked groups (same_recording / alternate_take / superseded_by) plus 6 pairs found in the batch-report leads (47ece14b5e, 7fff92712d, ee84a13b26, 5567ce3c30, b1a205211a, 7c429e4277). The rule used: the preferred item has no outgoing superseded_by. Every other copy gets superseded_by -> preferred and keeps or gets a symmetric same_recording or alternate_take link. The 'alternate_take' quality issue now marks only non-preferred copies. Non-preferred copies set to 'review' only for the which-copy question now get 'publish' (DECISIONS 7: listed as other versions, not hidden), or 'publish_with_note' when cut off or blank (c7d705e31a, 9187a4035a). Their quality.notes name the preferred copy, and the resolved which-copy entries were removed from needs_human_review. Pick order: complete > partial, then clean > glitch, then filename 'good' over 'copy'/'(2)', then the first airing for clips re-aired in later episodes, then the longer transfer. Tie-breaks between identical copies are arbitrary and listed in REVIEW_QUEUE.md. Every pair was checked with a 5-gram transcript overlap (pass2/work/versions_speakers/cmp.py). The lost-dime Sefirah talk (episodes 24, 126, 324, 530) was merged into one group: 27e4be78a2 and e2cf00d09c overlap 1.00/0.99.\nGroups deliberately left with more than one unsuperseded member (different scope or an open question): 136/186, 13/14 (file 13 contains episode 14), 238/287, Asarah B'Teves 5/507, Pesach 223/322, 2a6ad8add6 (longer cut with its own intro), the Agunah edit ce28d1962a vs the 2-part set, the Heritage Rabbi Akiva compilation 09074ce59f vs its single-story cuts, and the Haggadah excerpts vs hg1a (933079e352). Only the missing reverse links were added there. Split halves next to a complete file (Bubby Chaya Malka 1/2, Shlomo Hamelech's Pool 01/02, Kesser 1/lesson) are not superseded; that is a policy question for the user.\nRelations: remove_relation is used only on non-locked links: redundant alternate_take where same_recording already exists both ways. Locked required_relations are untouched.\nTrims (DECISIONS 11): e39943b482 content_end 1730 s (the rest is episode 14; set to publish_with_note) and ce9622aadc content_end 3300 s (the tail is a partial copy of c939864b1b).\nSpeakers: 14 Stories items changed from unknown to rabbi_chaim_levi_goldstein: the 6 Maaseh Rav items, negel vasser 1-4, the live-class items 6bdf3b9e45, 1e53bafbf7 and 3342eced38, and 0abb04dece. 4 rally/puppet items were re-attributed from rabbi_yosef_goldstein (85fd6a2f32: the host 'Rabbi Goldstein' sings 'I Believe in Hashem'; the 5786 rallies 5493440d73, 770aa7cebf and cc16e78758 have the same host and format as the 5785 rallies). In those, public text that called the host 'Uncle Yossi' (never said on air there) now says 'Rabbi Goldstein'. The schema has no per-field basis, so the basis and confidence are recorded as a 'Pass 2: speaker set ...' entry in provenance.needs_human_review. Voices that were left unknown are listed in REVIEW_QUEUE.md section 5.\nPath note: a few set paths index into lists (segments.N.summary).\nChecks: the whole patch file was applied to copies of items/ (pass2/work/versions_speakers/applied/), and scripts/validate_items.py all reports 1184/1184 valid. All same_recording and alternate_take links are symmetric after patching. Remaining asymmetric same_story and part_of_set links belong to the same_story and serials tasks."
+}

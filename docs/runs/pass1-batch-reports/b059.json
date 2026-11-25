@@ -1,0 +1,36 @@
+{
+ "batch_id": "b059",
+ "done": [
+  "56c2eaabb2",
+  "73edd7e5fc",
+  "b56d1794b6",
+  "5e3346ab8e",
+  "5d6e893d0e",
+  "7d789b1f0b",
+  "6ae3a00c97",
+  "7035a2e1c5",
+  "38a2448562",
+  "62f0b4603b",
+  "addf1aed4d",
+  "43a1aa92e1",
+  "aa38182b31",
+  "8ca5d012ba",
+  "21a742a4c5",
+  "22732f6818"
+ ],
+ "failed": [],
+ "notes": [
+  "vocabularies.json changed during the run: storyteller_i_believe is now confirmed (Rabbi Chaim Levi Goldstein), so its identity_guesses were removed from every item in this batch, including the previously DONE 22732f6818, which had turned INVALID for that reason alone. Guesses for weekly_story_i_believe were kept.",
+  "rashab hashavas aveida: 56c2eaabb2 and 73edd7e5fc are two separate tellings of part 1 (same Tu B'Shvat 5780 talk and story chapter, different wording; 73edd7e5fc's filename is marked 'copy' but the audio differs). b56d1794b6 is part 2 (Chof-Beis Shevat 5780). Linked as same_story and part_of_set. Pass 2 should pick which part 1 to feature.",
+  "Rashi's Prophecy: 5d6e893d0e and 7d789b1f0b are the same recording; 7d789b1f0b (marked 'copy') is marked superseded_by 5d6e893d0e. Both are complete.",
+  "5e3346ab8e (Yiddish 'Rashi'): grandmother's home recording, speaker set to bubby_chaya_malka from its duplicate's folder (00fb9475c4, 'Bubby Chaya Malka etc'); grandchildren named at the end (hidden, minor_named + private_family). Belongs on the family_recordings list. Possibly the same story exists in English among the Bubby stories (Rashi's father and the diamond).",
+  "21a742a4c5 'Shlomo h' is the raw narration of d89bdb8bdc 'Hashem Always Helps part 1' (same text; the other copy is trimmed and adds the 'I believe' song). Marked same_recording + superseded_by, and set as part 1 of set 'hashem-always-helps'. The hint called it aired_again_in, which does not fit.",
+  "6ae3a00c97 (Reb Gavriel and the Pirates): no song, but assigned to the weekly storyteller/series from its identical dramatized style and 'tracht gut' refrain (matches 21a742a4c5).",
+  "43a1aa92e1 'Rlytz' and 7035a2e1c5 'Reb Levik's Secret Chupah' are the same story (live class version vs. Vov Tishrei version); linked same_story both ways.",
+  "Live-class recordings 43a1aa92e1, aa38182b31 and the rashab set were assigned to the weekly storyteller by style; series left null for the classroom-only items (43a1aa92e1, aa38182b31).",
+  "aa38182b31 ('Sandy'): recorded soon after Hurricane Sandy (Nov 2012); opens with ~2 minutes of school announcements by another speaker. The storyteller tells of his grandfather, a shliach near Pittsburgh, and a letter from the Frierdiker Rebbe.",
+  "38a2448562 (Reb Meir Refoels, kingship) refers back with 'as you remember' to an agunah story of Reb Meir Refoels; likely another archive item told before it.",
+  "b56d1794b6 names the narrator's friend in a true story about Rebbetzin Chaya Mushka (recorded in hidden, flag identifiable_living_people).",
+  "7035a2e1c5 has an ASR loop (9:37-10:12) that should be re-transcribed if possible."
+ ]
+}

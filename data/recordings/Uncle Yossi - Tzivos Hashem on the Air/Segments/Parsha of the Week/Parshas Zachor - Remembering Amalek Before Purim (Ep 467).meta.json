@@ -1,0 +1,177 @@
+{
+ "id": "d694753095",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Parshas Zachor 467",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Zachor - Remembering Amalek Before Purim (Ep 467).mp3",
+  "duration_sec": 412.275,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 467,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 467,
+   "story": "The napkins and toothpicks #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Parshas Zachor: Remembering Amalek Before Purim",
+  "title_basis": "content",
+  "summary_short": "Why the Torah commands everyone, young and old, to hear Parshas Zachor on the Shabbos before Purim, and how achdus brought the Purim victory.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given the week of Shabbos Zachor. Uncle Yossi explains that besides the weekly sedra, a special portion, Parshas Zachor, is read that Shabbos, and that hearing it is a mitzvah from the Torah itself for men and women, young and old. It recalls how Amalek attacked the Jewish people after they left Egypt on the way to Har Sinai and was defeated. It is read right before Purim because Haman descended from Amalek, which is why we sound our groggers at his name and pray that Hashem erase every Haman. Soldiers of Tzivos Hashem should come to shul and bring friends and relatives too. Just as the first Purim victory came through unity, when Esther asked to gather all the Jews, Ahavas Yisroel today will bring the Geulah, when Moshiach gathers all Jews to Eretz Yisroel and the eternal third Beis HaMikdash descends from heaven.",
+  "lesson": "Be in shul to hear Parshas Zachor and bring others along; unity and Ahavas Yisroel defeat every Haman.",
+  "keywords": [
+   "Parshas Zachor",
+   "Amalek",
+   "Haman",
+   "groggers",
+   "shul",
+   "unity",
+   "third Beis HaMikdash"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 467,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-02-19",
+   "hebrew": "5 Adar 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'This coming Shabbos is Shabbos Zachor'; same as episode 467."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "esther_hamalkah",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "parshas_zachor"
+  ],
+  "calendar": [
+   "shabbos_zachor",
+   "purim",
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 25:17-19",
+    "note": "The mitzvah to remember Amalek."
+   },
+   {
+    "work": "megillas_esther",
+    "ref": "4:16",
+    "note": "'Go, gather all the Jews.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7df306633a",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 58,
+   "note": "Episode 467 (filename number); clip = 58-471 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Parshas%20Zachor%20-%20Remembering%20Amalek%20Before%20Purim%20%28Ep%20467%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Zachor - Remembering Amalek Before Purim (Ep 467).mp3",
+  "size_bytes": 4948306,
+  "mime_type": "audio/mpeg"
+ }
+}

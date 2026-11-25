@@ -1,0 +1,234 @@
+{
+ "id": "234db79ac9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "negel vasser 1",
+  "audio_path": "audio/Other Stories/Matzliach and the Mitzvah of Negel Vasser/Matzliach and the Mitzvah of Negel Vasser, Part 1.mp3",
+  "duration_sec": 1041.789,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Matzliach and the Mitzvah of Negel Vasser, Part 1",
+  "title_basis": "content",
+  "summary_short": "Before he passes away, Matzliach's father asks him to choose one mitzvah to keep with mesiras nefesh. He chooses negel vasser, and the storyteller teaches how to wash in the morning.",
+  "summary_long": "In old Baghdad, Matzliach, the son of a wealthy scholar, learns in yeshiva and continues learning after his marriage with his father's support. Before his passing, his father hands over his business and passes on a family instruction: choose one mitzvah to guard more preciously than anything, ready to give everything for it, and in its merit Hashem will protect you. Matzliach chooses netilas yadayim of the morning, negel vasser. The storyteller then teaches the mitzvah: why we wash when we wake up, not walking four amos before washing, keeping the water by the bed, washing each hand three times in turn, first thinking of Hashem and saying Modeh Ani, and how the Frierdiker Rebbe showed the Chassidim how to hold their hands for Modeh Ani. He adds the Baal Shem Tov's teaching that the first thought, word and deed of the morning set the whole day. Back in the story, Matzliach prepares a two-handled cup each night, pours out the used water properly, and washes again before the morning brachos. To be continued.",
+  "lesson": "Choose a mitzvah to treasure with all your heart; begin each day by thinking of Hashem, saying Modeh Ani and washing negel vasser properly.",
+  "keywords": [
+   "Baghdad",
+   "father's last request",
+   "two-handled cup",
+   "washing cup",
+   "Modeh Ani",
+   "bedside water",
+   "morning brachos"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "negel-vasser",
+   "part_number": 1,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Matzliach's elderly father gives his last instructions before passing away."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Matzliach, a young scholar and spice merchant of Baghdad",
+   "Matzliach's father"
+  ],
+  "topics": [
+   "morning_routine",
+   "halachah",
+   "mesiras_nefesh_kiddush_hashem"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "zerizus",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "modeh_ani",
+   "brachos",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "note": "Laws of morning washing: not walking four amos, pouring out the water."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "note": "The Alter Rebbe on washing a second time and not speaking before the brachah."
+   },
+   {
+    "work": "tehillim",
+    "note": "'I always place Hashem before me' (Shivisi)."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "A sichah of the Frierdiker Rebbe on how to hold the hands for Modeh Ani."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: the first things done in the morning set the whole day."
+   }
+  ],
+  "places": [
+   "Baghdad"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 292,
+   "type": "story_chapter",
+   "title": "Matzliach's father's last request",
+   "story_key": "negel-vasser",
+   "chapter": 1
+  },
+  {
+   "start_sec": 292,
+   "end_sec": 672,
+   "type": "halachah",
+   "title": "Waking up: thinking of Hashem, Modeh Ani and negel vasser",
+   "people": [
+    "frierdiker_rebbe",
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 672,
+   "type": "halachah",
+   "title": "Matzliach's morning routine and the second washing",
+   "summary": "The two-handled cup, pouring out the water, and washing again before the brachos."
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "bae411ef9d",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2: 'negel vasser 2'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "09853315db",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 3: 'negel vasser 3'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1a993b1bd5",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 4: 'negel vasser 4'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c2fbdf730a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Negel Vasser Test, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No intro song. The narrator says his father was present when the Frierdiker Rebbe demonstrated Modeh Ani (identity clue)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:42:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium",
+   "segments": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unidentified; says his father was present at the Frierdiker Rebbe's Modeh Ani sichah.",
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (high); basis: self-reference ~10:06: 'I heard this from my father who was there when the Frierdiker Rebbe said the Sicha' (his father Uncle Yossi was..."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Matzliach%20and%20the%20Mitzvah%20of%20Negel%20Vasser/Matzliach%20and%20the%20Mitzvah%20of%20Negel%20Vasser%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Matzliach and the Mitzvah of Negel Vasser/Matzliach and the Mitzvah of Negel Vasser, Part 1.mp3",
+  "size_bytes": 12502234,
+  "mime_type": "audio/mpeg"
+ }
+}

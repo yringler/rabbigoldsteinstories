@@ -1,0 +1,259 @@
+{
+ "id": "59ebaba0bf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Drunkard",
+  "filename_title": "The Drunkard 184",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Drunken Father (The Three Weeks) (Ep 184).mp3",
+  "duration_sec": 601.511,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 184,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 184,
+   "story": "",
+   "topic": "נט\"י עקיבא",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Drunken Father (The Three Weeks)",
+  "title_basis": "content",
+  "summary_short": "Naftali tries to cure his father's drinking by showing him a drunk in the street, but the father only asks where to get such a good drink. A story with no happy ending and an important lesson.",
+  "summary_long": "Recorded during the Three Weeks. Uncle Yossi explains that the Jewish people are a chosen nation with a special way of life: the Torah teaches us not to copy the ways of other nations but to be an example to them. Then comes a story that 'has no happy ending'. Naftali is a fine, well-mannered boy who honors his parents and is content with what he has. One night his mother finds him crying: he is ashamed because his father drinks too much and everyone knows it. She has begged her husband to stop, with no success. The next morning Naftali sees children laughing at a drunk lying on the street corner, and runs to bring his father, hoping he will see how awful it is. But the father bends down and asks the drunk where he got such a good drink. Uncle Yossi ties it to Parshas Acharei: Hashem shows us the ways of Egypt and Canaan only so that we will reject them. In the Three Weeks especially, we should live by the Torah and set an example that brings peace.",
+  "lesson": "Seeing how others live should teach us what not to copy; we are meant to be an example, not to imitate.",
+  "keywords": [
+   "drunkard",
+   "street corner",
+   "chosen nation",
+   "Egypt",
+   "Canaan",
+   "example"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 184,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-07-09",
+   "hebrew": "20 Tammuz 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'Now during the Three Weeks'; cut from episode 184. The same segment aired in episode 135 (Three Weeks 5744)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "moderate",
+    "note": "A father's drinking problem; his son cries about it.",
+    "at_sec": 120
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "The story deliberately ends without the father changing.",
+    "at_sec": 400
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A mother and son cope with the father's drinking.",
+    "at_sec": 244
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Naftali",
+   "Naftali's father",
+   "Naftali's mother"
+  ],
+  "topics": [
+   "character",
+   "family_and_home"
+  ],
+  "midos": [
+   "self_control",
+   "kibbud",
+   "resisting_bad_influence"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 18:3",
+    "note": "'Like the practice of the land of Egypt... you shall not do.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 88,
+   "type": "talk",
+   "title": "A chosen nation, an example to others"
+  },
+  {
+   "start_sec": 88,
+   "end_sec": 462,
+   "type": "story",
+   "title": "The Drunken Father"
+  },
+  {
+   "start_sec": 462,
+   "type": "talk",
+   "title": "The lesson from Parshas Acharei",
+   "calendar": [
+    "three_weeks"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Suggest a parent note about the alcohol theme. Transcript skips about 40 s near 1:00 (description of Naftali); the episode transcript has the full text, so likely an ASR gap."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:51Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "276c6bf981",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 486."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "28133bf24a",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 539."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4d19621b73",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 135."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8ae1d03037",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 436."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bc5773ec17",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 236."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 387."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "45e5fe6378",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 983,
+   "note": "Episode 184 (filename number); clip = 983-1584 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "09074ce59f",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The longer 'Rabbi Akiva negel vasser' cut ends with this same drunkard segment."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "ac3847e263",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 41 (Continued): End of Tanya Chapter 29, Rebuking the Yetzer Hara' (Stories, 43:02-44:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/The%20Drunken%20Father%20%28The%20Three%20Weeks%29%20%28Ep%20184%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Drunken Father (The Three Weeks) (Ep 184).mp3",
+  "size_bytes": 7219064,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "batch_id": "b030",
+ "done": [
+  "8a1af814fc",
+  "a7f6fa797c",
+  "bab6c0a2ac",
+  "1d4117ef66",
+  "1824a0591f",
+  "018b62765f",
+  "3c9dede9f4",
+  "b61eb257d3",
+  "b11c869378",
+  "de3557ddc0",
+  "f65f47a9f3",
+  "b4c76f6c7e",
+  "a2aba9fdf0",
+  "3ee0567d22",
+  "f6b8e3f679",
+  "7b4969cbde",
+  "019e1942d3",
+  "f8a60cbd4b"
+ ],
+ "failed": [],
+ "notes": [
+  "Master catalog row 401 reads \"A diamond from heaven\" (repeating row 400), but episode 401 (bab6c0a2ac) actually tells the lost-wallet story (little David and Mr. Green); titled from content.",
+  "All undated episodes 400-407 were confirmed by on-air cues (parsha, stated dates, candle times) as consecutive Tuesdays 24 Oct - 12 Dec 1989 (25 Tishrei - 14 Kislev 5750), with no gaps before the dated ep. 408.",
+  "019e1942d3 (ep. 408) is the worked example; the item was built from the example content and checked against the transcript (method set to llm).",
+  "The Storyteller serial: ep. 407 = chapter 1 (catalog), ep. 408 = chapter 2 (catalog row blank; recap confirms), catalog 409 = #3 (not in this batch).",
+  "Same letter writer (Forest Hills) appears in ep. 403 (letter asking for a brachah) and ep. 404 (phone follow-up: 100 on the Chumash test).",
+  "ep. 407: a refuah shleimah name around 13:37 is not transcribed (possible name in the audio); hidden block records a named baby and her health.",
+  "ASR substitutes \"Rabbi Akiva\" for the story hero in eps. 400, 404 and 405; not copied into public text.",
+  "Benson's Pharmacy sponsor message in eps. 405-408 (time_bound_content).",
+  "Process note: I accidentally overwrote a shared scratchpad file build.py belonging to another batch agent; it has since been restored by its owner. My helper is build_b030.py."
+ ]
+}

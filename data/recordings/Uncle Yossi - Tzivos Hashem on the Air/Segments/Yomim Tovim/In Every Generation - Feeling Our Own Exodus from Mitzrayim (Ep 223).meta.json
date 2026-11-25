@@ -1,0 +1,191 @@
+{
+ "id": "3ab8c0ebe9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Pesach 223",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/In Every Generation - Feeling Our Own Exodus from Mitzrayim (Ep 223).mp3",
+  "duration_sec": 401.295,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 223,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 223,
+   "story": "The Vanishing Bottle of Wine",
+   "topic": "Pesach",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "In Every Generation: Feeling Our Own Exodus from Mitzrayim",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains the Pesach pasuk from the Twelve Pesukim, 'In every generation...', followed by a short skit about two children who free a trapped deer.",
+  "summary_long": "A Pesach talk from the Tzivos Hashem radio show, broadcast during Chol HaMoed. Uncle Yossi reviews what we do at the Seder, matzah, maror, wine, reclining and the Haggadah, to show we are a free nation, and recalls that had Hashem not taken our fathers out of Egypt, we would still be slaves. He then teaches one of the Twelve Pesukim, 'In every generation a person must see himself as if he left Mitzrayim': the Exodus happened more than 3,300 years ago, yet its miracles and freedom are ours today, so we read the Haggadah as the story of our own redemption. A short dramatized skit follows: Dovid and his sister, dreaming in their pajamas, wander into 'Mitzvah Stone National Park' and free a deer stuck in a bush; the deer's relief reminds them how the Jewish people were stuck as slaves in Egypt until Hashem took them out, and that we should thank Hashem and remember the Exodus every day.",
+  "lesson": "The freedom of Pesach is our own; we should feel as if we ourselves left Mitzrayim and thank Hashem every day.",
+  "keywords": [
+   "Seder",
+   "Haggadah",
+   "Exodus",
+   "freedom",
+   "deer",
+   "pajamas",
+   "Mitzvah Stone National Park",
+   "Twelve Pesukim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 223,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-04-29",
+   "hebrew": "20 Nissan 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Date of episode 223 ('223 04-29-86'), from which this clip is cut; 'right in the middle of the lovely Yom Tov Pesach'. Re-aired in episode 322."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Dovid",
+   "Dovid's sister",
+   "Mrs. Deer"
+  ],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "simcha"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "seder",
+   "matzah"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "note": "'In every generation a person must see himself as if he left Mitzrayim'; 'had Hashem not taken our fathers out'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 227,
+   "type": "talk",
+   "title": "In every generation"
+  },
+  {
+   "start_sec": 227,
+   "type": "other",
+   "title": "Skit and song: the deer at Mitzvah Stone National Park"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens mid-sentence ('And Baruch Hashem...'). The skit uses other voices; the song after it is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:54Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "c9bc2ce31c",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "Also aired in episode 322."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "1f313c869c",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 9,
+   "note": "Episode 223 (filename number); clip = 9-410 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "2ea540c461",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "'Pesach 322' carries the same talk and skit as cut from episode 322 (checked: same wording)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/In%20Every%20Generation%20-%20Feeling%20Our%20Own%20Exodus%20from%20Mitzrayim%20%28Ep%20223%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/In Every Generation - Feeling Our Own Exodus from Mitzrayim (Ep 223).mp3",
+  "size_bytes": 4816634,
+  "mime_type": "audio/mpeg"
+ }
+}

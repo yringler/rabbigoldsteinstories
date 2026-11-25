@@ -1,0 +1,178 @@
+{
+ "id": "e869ca6975",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Kashrus 323",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Parshas Shemini - The Two Signs of a Kosher Animal (Ep 323).mp3",
+  "duration_sec": 619.881,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 323,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 323,
+   "story": "King David’s Grave",
+   "topic": "Kashrus",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Parshas Shemini: The Two Signs of a Kosher Animal",
+  "title_basis": "content",
+  "summary_short": "Living with the weekly parsha: Uncle Yossi teaches from Parshas Shemini the two signs of a kosher animal, with the pig, the camel and the rabbit as examples.",
+  "summary_long": "A kashrus talk from the Tzivos Hashem radio show, given the week of Parshas Shemini. Uncle Yossi begins with the Alter Rebbe's teaching that we must 'live with the times', which the Mitteler Rebbe explained as living with the weekly parsha, learning a part each day of the week. He opens the Chumash to Shishi of Shemini, where Hashem teaches Moshe Rabbeinu and Aharon HaKohen which animals may be eaten. A kosher animal needs two signs: fully split hooves and chewing its cud, and he explains how a cow or sheep brings up its food to chew again. An animal with only one sign is not kosher: the pig has split hooves but does not chew its cud, while the camel and the rabbit chew their cud but lack split hooves. He concludes that Hashem gave these laws out of love, like a devoted father who tells his only child what is good to eat, because He alone knows what is best for our body and soul.",
+  "lesson": "Hashem gave us the laws of kashrus out of love, because He knows best what is good for our body and soul.",
+  "keywords": [
+   "split hooves",
+   "chewing the cud",
+   "cow",
+   "sheep",
+   "pig",
+   "camel",
+   "rabbit",
+   "Chumash Vayikra",
+   "live with the times"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 323,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-04-12",
+   "hebrew": "25 Nissan 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 323 (filename date 1988-04-12), the week of Parshas Shemini."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "kashrus",
+   "parsha"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "kashrus",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "shemini"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 11:2-8",
+    "note": "'This is the animal which you may eat'; the signs of kosher animals."
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "The Alter Rebbe: 'Live with the times'",
+    "note": "Explained by the Mitteler Rebbe as living with the weekly parsha."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "f73efd0eee",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 112,
+   "note": "Episode 323 (filename number); clip = 112-732 s of the episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'And now, as we look at the Jewish calendar...' but stands on its own."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Parshas%20Shemini%20-%20The%20Two%20Signs%20of%20a%20Kosher%20Animal%20%28Ep%20323%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Parshas Shemini - The Two Signs of a Kosher Animal (Ep 323).mp3",
+  "size_bytes": 7439437,
+  "mime_type": "audio/mpeg"
+ }
+}

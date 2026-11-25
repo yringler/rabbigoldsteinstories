@@ -1,0 +1,149 @@
+{
+ "id": "db5b964a5d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Aseres Yemei Teshuvah 446",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Ten Days of Teshuvah - Returning to Hashem Before Yom Kippur (Ep 446).mp3",
+  "duration_sec": 203.222,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 446,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 446,
+   "story": "Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Ten Days of Teshuvah: Returning to Hashem Before Yom Kippur",
+  "title_basis": "content",
+  "summary_short": "What teshuvah means: mitzvos connect us to Hashem and aveiros pull us away, and on Yom Kippur we return, fast and are forgiven.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show during the Ten Days of Teshuvah, with Yom Kippur falling on the coming Shabbos. Uncle Yossi explains that teshuvah means returning to our merciful Father in Heaven. Why return, if we never left? Because the word mitzvah also means connecting: each mitzvah joins us to Hashem, while an aveirah tears us away. Teshuvah means firmly resolving never to repeat the wrong and asking Hashem's forgiveness, and Yom Kippur is the day Hashem forgives us because we have returned with all our heart. To show how sorry we are, those of age fast (girls over twelve, boys over thirteen), and Hashem answers 'I have forgiven', inscribing us in the Book of Life for a year of health and blessing, and above all the coming of Moshiach.",
+  "lesson": "Every mitzvah connects us to Hashem; teshuvah brings us back when we have drifted away.",
+  "keywords": [
+   "Day of Forgiveness",
+   "fasting",
+   "connection",
+   "Book of Life",
+   "returning",
+   "Ten Days of Teshuvah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 446,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-09-25",
+   "hebrew": "6 Tishrei 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos is Yom Kippur' (Shabbos 10 Tishrei 5751); episode 446 says 'today is Vov Tishrei'."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "aseres_yemei_teshuvah",
+   "yom_kippur"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8bbf7a6519",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 1506,
+   "note": "Episode 446 (filename number); clip = 1506-1710 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mentions that Yom Kippur falls on Shabbos that year (5751)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Ten%20Days%20of%20Teshuvah%20-%20Returning%20to%20Hashem%20Before%20Yom%20Kippur%20%28Ep%20446%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Ten Days of Teshuvah - Returning to Hashem Before Yom Kippur (Ep 446).mp3",
+  "size_bytes": 2439610,
+  "mime_type": "audio/mpeg"
+ }
+}

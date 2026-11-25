@@ -1,0 +1,35 @@
+{
+ "batch_id": "b015",
+ "done": [
+  "a6d365fb27",
+  "1ebee98ea9",
+  "e1f0dfdd1d",
+  "bcdb570c27",
+  "36638e1583",
+  "9658bf3781",
+  "0f5b2812b1",
+  "bc5773ec17",
+  "33258ba2e2",
+  "4d86625467",
+  "98a0014e2a",
+  "9cef1efc9e",
+  "b1a458b742",
+  "b997afa367",
+  "7e61328794",
+  "2ef8dfd816",
+  "1fa6b2d0ea"
+ ],
+ "failed": [],
+ "notes": [
+  "Dates: every episode 232-240 and 245 is now fixed to a Tuesday in 5746 from on-air cues (1986-07-01 to 1986-09-30, one show a week, with 241-244 missing between 240 and 245). The weekly_estimate dates were Mondays, because the episode 230 anchor (1986-06-16) is a Monday. Pass 2 might want to check that anchor.",
+  "98a0014e2a 'Three Weeks 237' is a spliced clip: the first ~86 s of episode 237 joined to the Av talk (~1329-1505 s). The facts' clip_of span of 1242-1519 is only approximate.",
+  "9cef1efc9e (ep 238) is mostly the same program as episodes 136 (f33fa1ac66), 186 (17d9dca041), 389 (c8f2c07973) and 488 (c69b013e95), including the same Shema guest. It looks like a yearly Tisha B'Av rebroadcast; 136 may be the original. Its required same_recording target 6c110183df is another copy.",
+  "33258ba2e2 (ep 237): the Chanina ben Dosa story, the Rosh Chodesh talk and the Ahavas Yisroel talk also appear in episode 33 (a9c42df651). bc5773ec17 (ep 236): the Rabbi Akiva story, the talk and the Drunken Father story also appear in episodes 135, 486 and 539. Original vs rebroadcast still needs deciding.",
+  "The Drunken Father story in ep 236 (bc5773ec17) is the same story as the Heritage clip 'The Drunken Father 21' (example 86349c08d6) and 'The Drunkard 184' (59ebaba0bf). I did not add a relation because those ids are not in this batch's facts or hints.",
+  "Ep 245 (2ef8dfd816) holds a chapter of 'The Return of (Little) Yehudah' plus the catalog's 'Secret of the Fireplace' story. The catalog puts Return of Yehudah at 246. Chapter number unknown; earlier chapters are probably in the missing episodes 241-244.",
+  "Ep 245: a refuah shleimah name was read on air (around 5:30-6:10) but is not in the transcript. It is flagged as health_info; a human should listen and fill hidden.",
+  "Ep 232/233 serial 'Saved by Miracle' is called 'Through the Eyes of a Tzaddik' on air. The ASR sometimes renders the hero Reb Boruch as 'Rabbi Akiva'.",
+  "Ep 233: the visiting teacher shares the host's surname (Goldstein); kept in hidden.",
+  "Vocabulary gaps: the works list has no Kesuvim books other than Tehillim. Koheles was tagged 'neviim' and Mishlei 'tehillim', and 'mishlei' is proposed in b1a458b742. Rabbi Yaakov (Avos 4:16) is proposed for people."
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "id": "1a7a9cfcb6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "203",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 203 - The Tall Chanukah Candles (Chanukah) (1985-12-10).mp3",
+  "duration_sec": 1791.805,
+  "filename_facts": {
+   "episode_number": 203,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 203,
+   "story": "The tall Chanukah candles",
+   "topic": "חנוכה, ליפסקר",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 203: The Tall Chanukah Candles (Chanukah)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Chanukah show with singer Eli Lipsker, Shema with three young guests, the story of the Rebbe Rashab's three-foot Chanukah candles, and the mezuzah contest finalists.",
+  "summary_long": "Broadcast during Chanukah 5746. Uncle Yossi opens with the message of the Chanukah lights: as we sit and gaze at the flames, they speak of emunah and bitachon in Hashem, the G-d of miracles, and we pray that next Chanukah will be in Yerushalayim with the third Beis HaMikdash. Singer Eli Lipsker visits Studio 604 and sings 'Oy Chanukah', 'I Have a Little Dreidel' and 'Sevivon'. Three young children lead the Shema. The story tells of Naftali, a Chassid who danced with special joy every Chanukah. Before a winter journey, the Rebbe Rashab told him to buy Chanukah candles three feet tall. Stranded by a blizzard on the first night, Naftali was caught by robbers who told him to say his last prayers; he climbed onto his wagon and lit the tall candles, and fire watchmen in a distant tower saw the flames and galloped over, scaring the robbers away. Uncle Yossi then reads the list of finalists in the My Mezuzah contest, announces a 'Wonderful World of Shabbos' exhibit, and closes with Chanukah wishes.",
+  "lesson": "Hashem gives a tzaddik special power to help those who turn to him, and the Chanukah lights remind us that Hashem is the G-d of miracles.",
+  "keywords": [
+   "tall candles",
+   "robbers",
+   "blizzard",
+   "fire tower",
+   "menorah",
+   "dreidel",
+   "Sevivon",
+   "Eli Lipsker",
+   "mezuzah contest",
+   "Wonderful World of Shabbos"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-12-10",
+   "hebrew": "27 Kislev 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Tonight is Chanukah'; the contest 'ends on the last day of Chanukah'. The weekly estimate (Tuesday 10 Dec 1985) falls on the third day of Chanukah 5746."
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 203,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers stop a traveler and tell him to say his last prayers before he is rescued.",
+    "at_sec": 990
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guests and many contest finalists named on air.",
+    "at_sec": 595
+   },
+   {
+    "flag": "home_address",
+    "note": "Street addresses of contest finalists read on air.",
+    "at_sec": 1466
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Naftali the Chassid",
+   "the robbers",
+   "the fire watchmen"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "simcha",
+   "hakaras_hatov",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "shema",
+   "mezuzah",
+   "shabbos"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 20,
+   "type": "opening",
+   "title": "Chanukah greeting"
+  },
+  {
+   "start_sec": 20,
+   "end_sec": 153,
+   "type": "talk",
+   "title": "The Message of the Chanukah Lights",
+   "summary": "The flames speak of emunah and bitachon in the G-d of miracles; next year in Yerushalayim.",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 153,
+   "end_sec": 595,
+   "type": "song",
+   "title": "Chanukah Songs with Eli Lipsker",
+   "summary": "Guest singer Eli Lipsker sings 'Oy Chanukah', 'I Have a Little Dreidel' and 'Sevivon'."
+  },
+  {
+   "start_sec": 595,
+   "end_sec": 735,
+   "type": "shema_guest",
+   "title": "Shema with three young guests"
+  },
+  {
+   "start_sec": 735,
+   "end_sec": 782,
+   "type": "story_intro",
+   "title": "Story time: a Chanukah story"
+  },
+  {
+   "start_sec": 782,
+   "end_sec": 1208,
+   "type": "story",
+   "title": "The Tall Chanukah Candles",
+   "summary": "The Rebbe Rashab's instruction to buy three-foot candles saves a Chassid from robbers on the first night of Chanukah.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 1208,
+   "end_sec": 1650,
+   "type": "announcement",
+   "title": "My Mezuzah Contest finalists",
+   "summary": "Finalists are asked to send in photos for the Tzivos Hashem newsletter; the grand winner will be named next week."
+  },
+  {
+   "start_sec": 1650,
+   "end_sec": 1710,
+   "type": "announcement",
+   "title": "The Wonderful World of Shabbos exhibit"
+  },
+  {
+   "start_sec": 1710,
+   "end_sec": 1729,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1729,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The story's last sentence is cut mid-word by an edit at about 20:08, straight into the contest announcement. Contest list reads many children's names and home addresses (see hidden). Exhibit dates, phone and sponsor are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Sterna Sarah Goldstein",
+    "role": "shema_guest",
+    "group": "Goldstein family",
+    "start_sec": 595,
+    "end_sec": 735
+   },
+   {
+    "name": "Dvorah Leah Goldstein",
+    "role": "shema_guest",
+    "group": "Goldstein family",
+    "start_sec": 595,
+    "end_sec": 735
+   },
+   {
+    "name": "Levi Yitzchak Goldstein",
+    "role": "shema_guest",
+    "group": "Goldstein family",
+    "start_sec": 595,
+    "end_sec": 735
+   },
+   {
+    "name": "Roti Weinberg",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1466,
+    "end_sec": 1475
+   },
+   {
+    "name": "Honey Frank",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1475,
+    "end_sec": 1485
+   },
+   {
+    "name": "Gershon Bornfriend",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1485,
+    "end_sec": 1495
+   },
+   {
+    "name": "The Wolfson Family",
+    "role": "contest_winner",
+    "group": "Spring Valley, New York",
+    "start_sec": 1495,
+    "end_sec": 1500
+   },
+   {
+    "name": "Miriam Weinstock",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1500,
+    "end_sec": 1505
+   },
+   {
+    "name": "Bela Frank",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1505,
+    "end_sec": 1510
+   },
+   {
+    "name": "Aria Silverman",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1510,
+    "end_sec": 1515
+   },
+   {
+    "name": "The Ashwang Family (Hindi, Mesha Chaim and Chana)",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1515,
+    "end_sec": 1526
+   },
+   {
+    "name": "Naftali Levavitz",
+    "role": "contest_winner",
+    "group": "Spring Valley, New York",
+    "start_sec": 1526,
+    "end_sec": 1531
+   },
+   {
+    "name": "Moshe and Rivka Chedva Katz",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1531,
+    "end_sec": 1537
+   },
+   {
+    "name": "Chana Miriam Neger",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1537,
+    "end_sec": 1542
+   },
+   {
+    "name": "Efrat Liami",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1542,
+    "end_sec": 1546
+   },
+   {
+    "name": "Feige Mindel and Avraham Chaim Rothman",
+    "role": "contest_winner",
+    "group": "Morristown, New Jersey",
+    "start_sec": 1546,
+    "end_sec": 1556
+   },
+   {
+    "name": "Devery Hultzburg",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1556,
+    "end_sec": 1560
+   },
+   {
+    "name": "Zippy Ostrich",
+    "role": "contest_winner",
+    "group": "Beis Yaakov of Boro Park, Kitah Hei",
+    "start_sec": 1560,
+    "end_sec": 1564
+   },
+   {
+    "name": "Devery Hultzman",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1564,
+    "end_sec": 1569
+   },
+   {
+    "name": "Schneur Zalman Goldstein",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1569,
+    "end_sec": 1574
+   },
+   {
+    "name": "Moshe Aaron Kaladny",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1574,
+    "end_sec": 1579
+   },
+   {
+    "name": "Yaakov Nisanel Klugman",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1579,
+    "end_sec": 1587
+   },
+   {
+    "name": "Rivki Klein",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1587,
+    "end_sec": 1591
+   },
+   {
+    "name": "Goldie Ravner",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1591,
+    "end_sec": 1595
+   },
+   {
+    "name": "Bracha Goldenberg",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1595,
+    "end_sec": 1600
+   },
+   {
+    "name": "Zippy Rausner",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1600,
+    "end_sec": 1605
+   },
+   {
+    "name": "Yehuda Neger",
+    "role": "contest_winner",
+    "group": "Brooklyn",
+    "start_sec": 1605,
+    "end_sec": 1612
+   },
+   {
+    "name": "Zvi Steinhauser",
+    "role": "contest_winner",
+    "group": "name cut off by an edit",
+    "start_sec": 1612,
+    "end_sec": 1620
+   },
+   {
+    "name": "Hannah Henia Torenheim",
+    "role": "contest_winner",
+    "group": "Bridgeport, Connecticut (sent in a photo early)",
+    "start_sec": 1620,
+    "end_sec": 1640
+   }
+  ],
+  "addresses": [
+   {
+    "text": "1850 48th Street, Brooklyn, NY",
+    "start_sec": 1466,
+    "end_sec": 1475
+   },
+   {
+    "text": "1545 44th Street, Brooklyn, NY",
+    "start_sec": 1475,
+    "end_sec": 1485
+   },
+   {
+    "text": "4711 14th Avenue, Brooklyn, NY",
+    "start_sec": 1485,
+    "end_sec": 1495
+   },
+   {
+    "text": "30 Truman Avenue, Spring Valley, NY",
+    "start_sec": 1495,
+    "end_sec": 1500
+   },
+   {
+    "text": "1575 50th Street, Brooklyn, NY",
+    "start_sec": 1500,
+    "end_sec": 1505
+   },
+   {
+    "text": "1171 53rd Street, Brooklyn, NY",
+    "start_sec": 1505,
+    "end_sec": 1510
+   },
+   {
+    "text": "1685 43rd Street, Brooklyn, NY",
+    "start_sec": 1510,
+    "end_sec": 1515
+   },
+   {
+    "text": "1350 46th Street, Brooklyn, NY",
+    "start_sec": 1515,
+    "end_sec": 1526
+   },
+   {
+    "text": "34 Morris Road, Spring Valley, NY",
+    "start_sec": 1526,
+    "end_sec": 1531
+   },
+   {
+    "text": "1452 41st Street, Brooklyn, NY",
+    "start_sec": 1531,
+    "end_sec": 1537
+   },
+   {
+    "text": "1820 48th Street, Brooklyn, NY",
+    "start_sec": 1537,
+    "end_sec": 1542
+   },
+   {
+    "text": "423 Ocean Parkway, Brooklyn, NY",
+    "start_sec": 1542,
+    "end_sec": 1546
+   },
+   {
+    "text": "11 Colonial Road, Morristown, NJ",
+    "start_sec": 1546,
+    "end_sec": 1556
+   },
+   {
+    "text": "1065 56th Street, Brooklyn, NY",
+    "start_sec": 1556,
+    "end_sec": 1560
+   },
+   {
+    "text": "5534 15th Avenue, Brooklyn, NY",
+    "start_sec": 1564,
+    "end_sec": 1569
+   },
+   {
+    "text": "324 Kingston Avenue, Brooklyn, NY",
+    "start_sec": 1569,
+    "end_sec": 1574
+   },
+   {
+    "text": "1128 45th Street, Brooklyn, NY",
+    "start_sec": 1574,
+    "end_sec": 1579
+   },
+   {
+    "text": "1911 59th Street, Brooklyn, NY",
+    "start_sec": 1579,
+    "end_sec": 1587
+   },
+   {
+    "text": "1214 55th Street, Brooklyn, NY",
+    "start_sec": 1587,
+    "end_sec": 1591
+   },
+   {
+    "text": "1678 44th Street, Brooklyn, NY",
+    "start_sec": 1591,
+    "end_sec": 1595
+   },
+   {
+    "text": "1536 43rd Street, Brooklyn, NY",
+    "start_sec": 1595,
+    "end_sec": 1600
+   },
+   {
+    "text": "1917 50th Street, Brooklyn, NY",
+    "start_sec": 1600,
+    "end_sec": 1605
+   },
+   {
+    "text": "77 Mount Pleasant Drive, Bridgeport, CT",
+    "start_sec": 1620,
+    "end_sec": 1640
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "One finalist identified by school and class: Beis Yaakov of Boro Park, Kitah Hei.",
+    "start_sec": 1560,
+    "end_sec": 1564
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Contest names and addresses are ASR spellings; several look garbled."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:53:31Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20203%20-%20The%20Tall%20Chanukah%20Candles%20%28Chanukah%29%20%281985-12-10%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 203 - The Tall Chanukah Candles (Chanukah) (1985-12-10).mp3",
+  "size_bytes": 21502649,
+  "mime_type": "audio/mpeg"
+ }
+}

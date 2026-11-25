@@ -1,0 +1,279 @@
+{
+ "id": "392ba3b130",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "28 mid P12 - 29 av 5736 inyan elul",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 28 - Rising Like a Lion, the Beinoni of Chapter 12, and Elul.mp3",
+  "duration_sec": 2631.079,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 28: Rising Like a Lion, the Beinoni of Chapter 12, and Elul",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur: the Rebbe's call to learn more as nights lengthen, Shulchan Aruch HaRav on rising bold as a leopard and strong as a lion, the beinoni in Tanya 12, and Elul.",
+  "summary_long": "Shiur 28 in Rabbi Yosef Goldstein's Yiddish Tanya series, recorded at the end of Av. It opens with the Rebbe's talk of Chamishah Asar B'Av: as the nights grow longer, add to Torah study, both Chassidus and practical halachah, which is why a new class in the Alter Rebbe's Shulchan Aruch was added. On sleep, the speaker explains that as a Jew goes to sleep so he wakes, that the soul ascends at night, and that the right amount of sleep prepares a day of service. The first seif of Hilchos Hashkamas HaBoker follows: be bold as a leopard and do not be shamed by scoffers, be strong as a lion to overcome the yetzer hara every morning, and wake the dawn rather than letting it wake you. The Tanya part continues chapter 12: during davening the beinoni's G-dly soul rules, and afterwards the yetzer hara stirs again. Each small victory brings great joy above, and the beinoni pushes away a stray thought 'with both hands' and is glad to do so. A talk for the coming month of Elul ends the class: the King in the field, the shofar's call to take stock, and wishes for a good inscription.",
+  "lesson": "Each morning and each moment is a new battle with the yetzer hara; win it with boldness and joy, and use the longer nights and the month of Elul to add in Torah and return to Hashem.",
+  "keywords": [
+   "leopard",
+   "lion",
+   "waking up",
+   "sleep",
+   "beinoni",
+   "lashon hara",
+   "King in the field",
+   "shofar",
+   "longer nights",
+   "stray thoughts"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-08-25",
+   "hebrew": "29 Av 5736",
+   "hebrew_year": 5736,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Filename says '29 av 5736'; on air the speaker refers to the coming Rosh Chodesh Elul and a farbrengen that evening."
+  },
+  "study_text": [
+   {
+    "work": "shulchan_aruch_harav",
+    "unit": "seif",
+    "from": "1:1",
+    "to": "1:1",
+    "lecture_number": 28,
+    "note": "Hilchos Hashkamas HaBoker"
+   },
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "12",
+    "to": "12",
+    "lecture_number": 28,
+    "note": "Middle of chapter 12"
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidus_tanya",
+   "halachah",
+   "morning_routine",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "courage",
+   "self_control",
+   "zerizus",
+   "simcha",
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shemiras_halashon",
+   "davening",
+   "shofar"
+  ],
+  "calendar": [
+   "tu_bav",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "15 Av 5736",
+    "note": "Longer nights: add to Torah study, in Chassidus and in halachah."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "ref": "OC 1:1"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "5:20"
+   },
+   {
+    "work": "tanya",
+    "ref": "ch. 12; ch. 14"
+   },
+   {
+    "work": "zohar",
+    "note": "Iskafya sitra achra"
+   },
+   {
+    "work": "gemara",
+    "ref": "Bava Basra 164b; Arachin 15b"
+   },
+   {
+    "work": "tehillim",
+    "ref": "57:9"
+   },
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Re'eh",
+    "note": "The King in the field"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 115,
+   "type": "sichah",
+   "title": "The Rebbe on Chamishah Asar B'Av: longer nights, more Torah",
+   "calendar": [
+    "tu_bav"
+   ],
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 115,
+   "end_sec": 540,
+   "type": "text_study",
+   "title": "Going to sleep and waking as a Jew",
+   "summary": "The soul's ascent at night, the Frierdiker Rebbe's saying, and the right measure of sleep."
+  },
+  {
+   "start_sec": 540,
+   "end_sec": 1011,
+   "type": "halachah",
+   "title": "Shulchan Aruch HaRav 1:1: bold as a leopard, strong as a lion",
+   "summary": "Do not be shamed by scoffers, overcome the yetzer hara every morning, and wake the dawn yourself."
+  },
+  {
+   "start_sec": 1011,
+   "end_sec": 1040,
+   "type": "announcement",
+   "title": "A farbrengen tonight"
+  },
+  {
+   "start_sec": 1040,
+   "end_sec": 2300,
+   "type": "text_study",
+   "title": "Tanya chapter 12: the beinoni during and after davening",
+   "summary": "The beinoni's yetzer hara is held in check, not destroyed; small victories bring joy above, and he pushes away stray thoughts with both hands."
+  },
+  {
+   "start_sec": 2300,
+   "type": "talk",
+   "title": "Elul: the King in the field",
+   "summary": "The month of Elul as a time when the King greets everyone, the shofar's wake-up call, and wishes for a good inscription.",
+   "calendar": [
+    "elul"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations are garbled by ASR. The class was shortened for a farbrengen that evening."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:57Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2028%20-%20Rising%20Like%20a%20Lion%2C%20the%20Beinoni%20of%20Chapter%2012%2C%20and%20Elul.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 28 - Rising Like a Lion, the Beinoni of Chapter 12, and Elul.mp3",
+  "size_bytes": 31573822,
+  "mime_type": "audio/mpeg"
+ }
+}

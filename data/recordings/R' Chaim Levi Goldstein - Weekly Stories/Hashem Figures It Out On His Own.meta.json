@@ -1,0 +1,175 @@
+{
+ "id": "569c810057",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem Figures It Out On His Own",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Figures It Out On His Own.mp3",
+  "duration_sec": 852.799,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hashem Figures It Out On His Own",
+  "title_basis": "filename",
+  "summary_short": "A poor rav who needs money for his daughters' weddings refuses to travel to his rich brother, trusting Hashem instead, and help arrives in a way no one could have planned.",
+  "summary_long": "The storyteller opens with a lesson on bitachon: we do not need to work out how Hashem will help, because nature itself is His creation. He recalls the Gemara's story of Rabbi Chanina ben Dosa's daughter, whose Shabbos candles burned on vinegar. The story follows Reb Avraham, a Chassid of the Chozeh of Lublin and the rav of a small, poor town in Poland. His wife worries about paying for their daughters' weddings, but he will not ask the struggling townspeople for a raise. She urges him to travel a hundred miles to his rich brother in Moscow. He sets out, but returns at once with three questions: is his brother still alive, is he still rich, and will he give? Hashem, he says, is always alive, always rich and always kind. Days later a burly poritz leaves a sack of gold coins in his care, saying that if he does not return in ten days the money is theirs. Months later, unsure, the rav asks the Chozeh of Lublin, who tells him to use the gift Hashem sent.",
+  "lesson": "Trust in Hashem without trying to figure out how He will help; He is always alive, always rich and always kind.",
+  "keywords": [
+   "rabbi's salary",
+   "weddings",
+   "rich brother",
+   "Moscow",
+   "three questions",
+   "sack of gold coins",
+   "vinegar candles",
+   "Pesach cleaning"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "talmudic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_chanina_ben_dosa",
+    "role": "appears"
+   },
+   {
+    "id": "chozeh_of_lublin",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Avraham, the town rav",
+   "his wife, the rebbetzin",
+   "his brother Shimon in Moscow",
+   "the poritz with the sack of gold",
+   "the Chozeh of Lublin",
+   "Rabbi Chanina ben Dosa's daughter"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "chassidic_masters",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "contentment"
+  ],
+  "mitzvos": [
+   "hachnasas_kallah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Rabbi Chanina ben Dosa's daughter lights Shabbos candles with vinegar (Taanis 25a), told as 'a story in the Gemara'."
+   }
+  ],
+  "places": [
+   "Poland",
+   "Lublin",
+   "Moscow"
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "93f9ef4eb9",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Chai V'Kayam: The Rabbi Who Trusted Only Hashem' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f9544de2aa",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem Chai V'Kayam: The Rav Who Turned Back at the Door' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; starts directly with the lesson. ASR writes 'pirates' for poritz and 'Chaisa/Chayze' for the Chozeh."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name or opening song; same lesson-then-story format and 'A gutten tag' sign-off as the series.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:10Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series attribution from narrator style and sign-off only (no opening song); confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Figures%20It%20Out%20On%20His%20Own.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Figures It Out On His Own.mp3",
+  "size_bytes": 10234615,
+  "mime_type": "audio/mpeg"
+ }
+}

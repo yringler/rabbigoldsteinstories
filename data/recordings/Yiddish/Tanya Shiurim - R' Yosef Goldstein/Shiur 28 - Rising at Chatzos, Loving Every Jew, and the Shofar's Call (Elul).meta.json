@@ -1,0 +1,320 @@
+{
+ "id": "fcef4d5ded",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "28b end P12 also shul aruch 1-3",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 28 - Rising at Chatzos, Loving Every Jew, and the Shofar's Call (Elul).mp3",
+  "duration_sec": 2988.565,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "3",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 28b: Rising at Chatzos, Loving Every Jew, and the Shofar's Call (Elul)",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur: Shulchan Aruch HaRav on rising at midnight, the end of Tanya 12 on the beinoni who repays harm with kindness, and an Elul talk on the shofar.",
+  "summary_long": "Shiur 28b in Rabbi Yosef Goldstein's Yiddish Tanya series, recorded early in Elul. Part 1 continues the Alter Rebbe's Hilchos Hashkamas HaBoker, seifim 2 and 3: those who rise at midnight to mourn the Beis HaMikdash and the Shechinah in exile, why chatzos is a time of favor, and learning Torah until daybreak. Stories and teachings illustrate it: Rabbi Yisroel of Ruzhin's reading of 'I will fear no evil, for You are with me' after his release from prison, and Rabbi Akiva's rooster. Part 2 finishes Tanya chapter 12: the beinoni never lets a hateful thought about another Jew settle in his mind, and answers wrongs with kindness, as Yosef did with his brothers. Judging others favorably is illustrated by the Gemara's story of the worker whose employer said he had nothing to pay him. Part 3 is an Elul talk: the daily shofar is a wake-up call, like the town that bought a trumpet but forgot the water, and it leads to crowning Hashem as King on Rosh Hashanah.",
+  "lesson": "Judge every Jew favorably and repay wrongs with kindness; and let the shofar of Elul wake you to real action in Torah and mitzvos.",
+  "keywords": [
+   "chatzos",
+   "tikkun chatzos",
+   "rooster",
+   "midnight",
+   "beinoni",
+   "Yosef and his brothers",
+   "worker's wages",
+   "trumpet",
+   "fire",
+   "shofar",
+   "malchiyos"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "talmudic",
+   "tanach_midrash",
+   "mashal_parable"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-09",
+   "hebrew": "Elul 5736",
+   "hebrew_year": 5736,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "Follows shiur 28 (filename '29 av 5736'); the daily Elul shofar has already begun."
+  },
+  "study_text": [
+   {
+    "work": "shulchan_aruch_harav",
+    "unit": "seif",
+    "from": "1:2",
+    "to": "1:3",
+    "lecture_number": 28,
+    "note": "Hilchos Hashkamas HaBoker"
+   },
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "12",
+    "to": "12",
+    "lecture_number": 28,
+    "note": "End of chapter 12 (28b)"
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Brief mention of Rabbi Yisroel of Ruzhin's imprisonment.",
+    "at_sec": 410
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_yisroel_of_ruzhin",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "appears"
+   },
+   {
+    "id": "yosef_hatzaddik",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a worker from the Upper Galilee",
+   "his wealthy employer",
+   "a villager who buys a trumpet"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "halachah",
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "ahavas_yisroel",
+   "forgiveness",
+   "controlling_anger",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "ahavas_yisroel_mitzvah",
+   "shofar",
+   "davening"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch_harav",
+    "ref": "OC 1:2-3"
+   },
+   {
+    "work": "tanya",
+    "ref": "ch. 12; ch. 13 (preview)"
+   },
+   {
+    "work": "zohar",
+    "note": "Praise of rising at midnight"
+   },
+   {
+    "work": "gemara",
+    "ref": "Shabbos 127b; Berachos 60b"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:6"
+   },
+   {
+    "work": "tehillim",
+    "ref": "23:4"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 11:4"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 1078,
+   "type": "halachah",
+   "title": "Shulchan Aruch HaRav 1:2-3: rising at chatzos",
+   "summary": "Mourning the Beis HaMikdash and the Shechinah's exile at midnight, why chatzos is a time of favor, and learning until daybreak."
+  },
+  {
+   "start_sec": 410,
+   "end_sec": 590,
+   "type": "story",
+   "title": "Rabbi Yisroel of Ruzhin: 'You are with me'",
+   "people": [
+    "rabbi_yisroel_of_ruzhin"
+   ]
+  },
+  {
+   "start_sec": 965,
+   "end_sec": 1050,
+   "type": "story",
+   "title": "Rabbi Akiva's rooster",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1078,
+   "end_sec": 2530,
+   "type": "text_study",
+   "title": "Tanya chapter 12: the beinoni between man and his fellow",
+   "summary": "The beinoni lets no hateful thought settle and answers harm with kindness."
+  },
+  {
+   "start_sec": 1760,
+   "end_sec": 1842,
+   "type": "story",
+   "title": "Yosef forgives his brothers",
+   "people": [
+    "yosef_hatzaddik"
+   ]
+  },
+  {
+   "start_sec": 1934,
+   "end_sec": 2443,
+   "type": "story",
+   "title": "The worker who judged his employer favorably",
+   "summary": "The Gemara's story of a worker who was told there was nothing to pay him, and still judged favorably."
+  },
+  {
+   "start_sec": 2530,
+   "type": "talk",
+   "title": "Elul: the shofar's wake-up call and crowning the King",
+   "calendar": [
+    "elul",
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 2640,
+   "end_sec": 2850,
+   "type": "story",
+   "title": "The town that bought a trumpet to fight fires"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "392ba3b130",
+   "evidence": "filename",
+   "confidence": 0.85,
+   "note": "Shiur 28 (middle of Tanya 12, Shulchan Aruch 1:1, 29 Av 5736); this class picks up at seif 2 and the end of chapter 12."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations and names are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:57Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Story boundaries are approximate (Yiddish ASR)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2028%20-%20Rising%20at%20Chatzos%2C%20Loving%20Every%20Jew%2C%20and%20the%20Shofar%27s%20Call%20%28Elul%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 28 - Rising at Chatzos, Loving Every Jew, and the Shofar's Call (Elul).mp3",
+  "size_bytes": 35863647,
+  "mime_type": "audio/mpeg"
+ }
+}

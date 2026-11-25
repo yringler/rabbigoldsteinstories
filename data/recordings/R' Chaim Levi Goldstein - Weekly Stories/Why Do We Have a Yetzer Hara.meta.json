@@ -1,0 +1,228 @@
+{
+ "id": "764576cb84",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Why do we have a yetzer hara",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Why Do We Have a Yetzer Hara.mp3",
+  "duration_sec": 901.236,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Why Do We Have a Yetzer Hara?",
+  "title_basis": "filename",
+  "summary_short": "From Rivkah's twins in Parshas Toldos to Reb Zusha's seven lessons from a thief: why Hashem gave us a yetzer hara and how to turn its tricks against it.",
+  "summary_long": "After the song \"I believe in Hashem\", the storyteller turns to Parshas Toldos. Rivkah is troubled because her unborn child seems drawn both to the beis midrash and to places of idol worship, until she learns she is carrying twins, Yaakov and Eisav. Like Rivkah, the Alter Rebbe explains in Tanya, each of us has two inclinations, and we choose which to follow. Why would Hashem create a yetzer hara at all, and why do we confess on Yom Kippur for sins done 'with the yetzer hara'? Because the yetzer hara is only a messenger doing its job, hoping we will not listen. A clever boy points out that he cannot simply copy the yetzer hara's loyalty, because the yetzer hara has no yetzer hara of its own. Like a river that grows stronger when blocked, the test makes us stronger and earns great reward. Rabbi Zusha of Anipoli learned seven lessons from a thief: work quietly, take risks, value every mitzvah, work hard, move quickly, stay hopeful, and try again. Finally, we can turn the yetzer hara's own words against it: 'ignore' it, and 'steal' time from play for a mitzvah. The recording ends just as a story is about to begin.",
+  "lesson": "The yetzer hara is a test from Hashem that makes us stronger; we can ignore it and even use its own tricks to serve Hashem better.",
+  "keywords": [
+   "twins",
+   "Yaakov and Eisav",
+   "two inclinations",
+   "Al Chet",
+   "thief",
+   "seven lessons",
+   "river and board",
+   "helping Mommy"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "talk",
+  "story_type": [
+   "tanach_midrash",
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "fragment"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rivkah_imeinu",
+    "role": "central"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "noach",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Shem, son of Noach",
+   "a mischievous boy and his father",
+   "a thief (in Reb Zusha's lesson)"
+  ],
+  "topics": [
+   "teshuvah",
+   "parsha",
+   "chassidus_tanya"
+  ],
+  "midos": [
+   "self_control",
+   "zerizus",
+   "hasmadah",
+   "anavah"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "toldos"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 25:22",
+    "note": "Rivkah's unborn child seemed drawn to both the beis midrash and idolatry."
+   },
+   {
+    "work": "tanya",
+    "note": "The two souls and two inclinations in every Jew."
+   },
+   {
+    "work": "siddur",
+    "note": "The Yom Kippur Al Chet for sins 'with the yetzer hara'."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Rabbi Zusha's seven lessons from a thief."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 273,
+   "type": "talk",
+   "title": "Rivkah's twins",
+   "summary": "Parshas Toldos: Rivkah learns she carries Yaakov and Eisav."
+  },
+  {
+   "start_sec": 273,
+   "end_sec": 595,
+   "type": "talk",
+   "title": "Why Hashem gave us a yetzer hara",
+   "summary": "The yetzer hara is only a messenger, and the test makes us stronger."
+  },
+  {
+   "start_sec": 595,
+   "end_sec": 813,
+   "type": "talk",
+   "title": "Seven lessons from a thief",
+   "summary": "Rabbi Zusha of Anipoli's lessons for serving Hashem.",
+   "people": [
+    "rabbi_zusha_of_anipoli"
+   ]
+  },
+  {
+   "start_sec": 813,
+   "type": "talk",
+   "title": "Turning the yetzer hara's words against it"
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Ends with 'And for this I have a story.' The story itself is missing; it may be in another file."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording stops just before the promised story; look for a continuation file."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:25Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Why%20Do%20We%20Have%20a%20Yetzer%20Hara.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Why Do We Have a Yetzer Hara.mp3",
+  "size_bytes": 10815783,
+  "mime_type": "audio/mpeg"
+ }
+}

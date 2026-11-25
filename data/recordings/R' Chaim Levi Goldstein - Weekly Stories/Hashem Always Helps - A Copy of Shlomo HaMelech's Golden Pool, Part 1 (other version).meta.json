@@ -1,0 +1,243 @@
+{
+ "id": "21a742a4c5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Shlomo h",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Always Helps - A Copy of Shlomo HaMelech's Golden Pool, Part 1 (other version).mp3",
+  "duration_sec": 1498.244,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashem Always Helps: A Copy of Shlomo HaMelech's Golden Pool, Part 1",
+  "title_basis": "content",
+  "summary_short": "A jealous advisor gets the king to order Rabbi Yehuda to copy Shlomo HaMelech's golden pool. With his wife's encouragement to trust in Hashem, he succeeds, but a new plot puts his life in danger.",
+  "summary_long": "About seven hundred years ago, a king's chief advisor, Rabbi Yehuda, is envied by a second advisor, Ivan, who persuades the king to order an exact copy of Shlomo HaMelech's famous golden pool, sure that Rabbi Yehuda will fail. Rabbi Yehuda comes home worried, and his wife Rivka reminds him to press the 'button' of bitachon and to remember the Tzemach Tzedek's words, 'Think good and it will be good.' In her late father's safe he finds the very plans he needs. The pool is built, but the gold paint peels off in the water again and again. Rivka suggests that not finding the answer may itself be a favor from Hashem. Ivan, a master painter, refuses to share his secret, so Rabbi Yehuda cleverly has the king assign the painting to Ivan, and the pool is finished. The furious Ivan then has the king demand that Rabbi Yehuda swear no gold went missing. Rabbi Yehuda will swear only for himself, not for fifty workers, and the angry king orders him to convert or die. He refuses, says Shema, and is thrown bound into the river. To be continued.",
+  "lesson": "Trust in Hashem even when a task seems impossible; think good and it will be good. Even what we do not get can be a hidden favor.",
+  "keywords": [
+   "king",
+   "jealous advisor",
+   "swimming pool",
+   "gold paint",
+   "blueprints",
+   "safe",
+   "oath",
+   "river",
+   "physician"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "historical",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "hashem-always-helps",
+   "part_number": 1,
+   "of": null
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "The king orders Rabbi Yehuda to give up his Judaism or die; he refuses."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Rabbi Yehuda is tied up and thrown into a river to drown; a doctor pulls him out alive."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A jealous advisor plots against a Jewish advisor at court."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the king's advisor",
+   "Rivka, his wife",
+   "Ivan, the jealous advisor",
+   "the king",
+   "Rabbi Yitzchak, the king's physician"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "mesiras_nefesh_kiddush_hashem",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "emes",
+   "mesiras_nefesh",
+   "courage"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek's saying 'Tracht gut vet zain gut' (think good and it will be good)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 703,
+   "type": "story_chapter",
+   "title": "The impossible order",
+   "summary": "Rabbi Yehuda is ordered to copy Shlomo HaMelech's pool and, trusting in Hashem, finds the plans."
+  },
+  {
+   "start_sec": 703,
+   "end_sec": 1229,
+   "type": "story_chapter",
+   "title": "The gold paint",
+   "summary": "The paint keeps peeling until Rabbi Yehuda gets the jealous Ivan to finish the job."
+  },
+  {
+   "start_sec": 1229,
+   "type": "story_chapter",
+   "title": "The oath and the river",
+   "summary": "Rabbi Yehuda refuses a false oath and conversion and is thrown into the river."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "d89bdb8bdc",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Hashem Always Helps part 1': the same narration, slightly trimmed, with the 'I believe' song added."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "d89bdb8bdc",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "The other file looks like the finished edit (opening song, a few lines trimmed); this looks like the raw narration."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3b507e35c4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Shlomo HaMelech's Pool, Part 2' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ad8eb4387b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Shlomo HaMelech's Pool, Part 1' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b9cf46cd8d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Shlomo HaMelech's Pool' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b3a7eb29c2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Always Helps, Part 2: The King's Ring' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of d89bdb8bdc ('Hashem Always Helps part 1'), the preferred copy: raw narration of the same telling; the preferred file is the finished edit with the opening song. Dramatized telling with character voices. No opening song here; the edited copy has one. Filename 'Shlomo h' is a truncated working title."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name in this file; the same narration in 'Hashem Always Helps part 1' opens with 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:55:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Always%20Helps%20-%20A%20Copy%20of%20Shlomo%20HaMelech%27s%20Golden%20Pool%2C%20Part%201%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Always Helps - A Copy of Shlomo HaMelech's Golden Pool, Part 1 (other version).mp3",
+  "size_bytes": 17979792,
+  "mime_type": "audio/mpeg"
+ }
+}

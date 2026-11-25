@@ -1,0 +1,18 @@
+{
+ "batch_id": "b067",
+ "done": ["3e219c0910", "16727d2e9e", "1b994d468f", "36e89c0829", "3179cab4c6", "4c6faa00d3", "f18c947f46", "030c6c4820", "8c94be08ea", "9c835f86c7", "764576cb84", "3bc728ac3c", "ed960138a4", "3c5643fa48", "1c578063be"],
+ "failed": [],
+ "notes": [
+  "16727d2e9e and 1b994d468f are the same recording; 1b994d468f adds a 14 s greeting and is marked as the better copy (16727d2e9e set to review, superseded_by 1b994d468f).",
+  "f18c947f46 tells the same Tzemach Tzedek Simchas Torah dancing story as 1b994d468f/16727d2e9e (same narrator, davening/summer framing vs. Adar framing); same_story added.",
+  "764576cb84 ends with 'And for this I have a story.' The story is missing and may be in another file (continuation?).",
+  "ed960138a4: pipeline says a duplicate copy a93e1bea04 sits in 'Yiddish stories/Bubby Chaya Malka etc', but that id is not in the catalog, so no relation was added. The folder hints the narrator may be Bubby Chaya Malka (low-confidence guess). The Water Carrier (4c6faa00d3) also has a fish/gem motif but it is a different story.",
+  "Identity clues for storyteller_i_believe: in f18c947f46 the narrator says he grew up on Montgomery Street and davened at the shul at 770 Montgomery St; in 3c5643fa48 he recalls, as a 7-8 year old with his brothers, holding the door of Rebbetzin Chana's building (1418 President St) and watching the Rebbe escort her out of 770, so he was a child in Crown Heights before 1965. His style (children's rally examples from the Rebbe, 'Agutn tog') resembles Uncle Yossi's; the family recording 1c578063be mentions a 'Goldstein Mishpocho Gemilus Chesed'. Possibly the narrator is Rabbi Yosef Goldstein. Unconfirmed; worth a human check.",
+  "3e219c0910 and 3bc728ac3c have no opening song; series and narrator were attributed from style and sign-off.",
+  "36e89c0829 (Tzitzis eye miracle) and 4c6faa00d3 (Water Carrier) have no song or sign-off and are read aloud from written versions; narrator unknown, series null.",
+  "3bc728ac3c is dated Tishrei 5781 (Oct 2020) from pandemic remarks; proposed new calendar term shabbos_bereishis.",
+  "3179cab4c6 is marked 'unedited', has ASR loops where children repeat sayings, and one child is called by first name; check whether an edited version exists.",
+  "1c578063be: speech ends at 59 s; the filename says 'speaking and singing', so no trim was set. Confirm the rest is singing and not silence.",
+  "8c94be08ea / 030c6c4820: the 'Baal Shem Tov's attendant who forgot his stories / the bishop' story is widely told; other tellings may exist elsewhere in the archive."
+ ]
+}

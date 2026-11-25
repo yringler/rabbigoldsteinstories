@@ -1,0 +1,304 @@
+{
+ "id": "0e6e2614b0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Bitachon and story",
+  "audio_path": "audio/Other Stories/Bitachon and the Alter Rebbe's Wedding Rescue.mp3",
+  "duration_sec": 1974.462,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "copy"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Bitachon and the Alter Rebbe's Wedding Rescue",
+  "title_basis": "filename",
+  "summary_short": "A Motzaei Shabbos talk at a wedding celebration: the seven ingredients of true bitachon, and how the Alter Rebbe's warm smile opened a miser's heart to free a captured groom.",
+  "summary_long": "Recorded at a Melave Malka celebrating a new couple, during the Corona pandemic and the week of the Alter Rebbe's yahrzeit. The speaker explains how Chassidus changes the way we see a world that seems out of control. The Rebbe asked children why a drop of water gets the brachah 'Shehakol', which speaks of the whole universe. Then come the Chovos HaLevavos's seven conditions for trusting someone, which only Hashem fulfils, and the Rebbe's teaching that trust, unlike belief, changes how we live, with his encouragement to study Shaar HaBitachon. The story: the Alter Rebbe arranges a match between two orphans, but on the wedding day a Jew-hating police chief seizes the groom for the army and demands 1,500 rubles. The town is poor; the only rich man is known as a miser. The Alter Rebbe accepts his single rusty coin with a sincere smile and blessing, and the man breaks down, tells why he stopped giving, and pays the whole sum. The wedding goes ahead, and the money returns to the couple in a surprising way. The lesson: look at every Jew, our children and ourselves with a good eye.",
+  "lesson": "Trust Hashem completely, and look at every Jew with a good eye, seeing what he does rather than what he lacks.",
+  "keywords": [
+   "Shehakol",
+   "drop of water",
+   "Shaar HaBitachon",
+   "In God we trust",
+   "Corona",
+   "orphans",
+   "wedding",
+   "police chief",
+   "army",
+   "miser",
+   "rusty coin",
+   "1,500 rubles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2021-01-09",
+   "hebrew": "Motzaei Shabbos Parshas Shemos, 26 Teves 5781",
+   "hebrew_year": 5781,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Motzaei Shabbos 'coming from the Alter Rebbe's yahrzeit', this week's Likkutei Sichos on Shemos, and a new Corona strain: fits 24 Teves 5781 (Friday) and Shabbos Shemos 9 Jan 2021."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A Jew-hating police chief seizes a groom on his wedding day for army service and demands a ransom."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The groom is held at the police station until he is ransomed."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The police chief dies falling from his horse."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the orphaned bride and groom",
+   "the police chief (nachalnik)",
+   "Moshe, the rich man called a miser",
+   "the town's rabbis"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "chabad_rebbeim",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "bitachon",
+   "dan_lkaf_zchus",
+   "ahavas_yisroel",
+   "generosity"
+  ],
+  "mitzvos": [
+   "brachos",
+   "hachnasas_kallah",
+   "pidyon_shvuyim",
+   "tzedakah",
+   "hashavas_aveidah"
+  ],
+  "calendar": [
+   "chof_daled_teves"
+  ],
+  "parshiyos": [
+   "shemos"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe at a children's rally on why water gets 'Shehakol'; 'In God we trust' versus believing."
+   },
+   {
+    "work": "likkutei_sichos",
+    "note": "This week's sichah (Shemos): Hashem rewards bitachon itself."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "Letters urging study of Shaar HaBitachon; 'Tracht gut vet zein gut' applied to raising children."
+   },
+   {
+    "work": "tanya",
+    "note": "The Alter Rebbe: through emunah and bitachon the good becomes revealed (as cited)."
+   },
+   {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Seven conditions for trusting someone, which only Hashem fulfils."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 237,
+   "type": "talk",
+   "title": "Seeing the world through Chassidus: the brachah on water",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 237,
+   "end_sec": 895,
+   "type": "talk",
+   "title": "The seven ingredients of bitachon",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 895,
+   "end_sec": 1745,
+   "type": "story",
+   "title": "The Alter Rebbe and the miser's coin",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1745,
+   "end_sec": 1971,
+   "type": "talk",
+   "title": "Looking with a good eye, and blessings for the couple",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Live recording at a sheva brachos / Melave Malka; begins mid-sentence ('I'll explain what I mean'). Filename marks it a copy. References Corona."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Live talk, not the weekly-story format; speaker assigned to the weekly storyteller from voice phrasing only. Confirm.",
+   "Starts mid-sentence; a fuller copy may exist (filename suffix '(1)' / copy)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:35Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Bitachon%20and%20the%20Alter%20Rebbe%27s%20Wedding%20Rescue.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Bitachon and the Alter Rebbe's Wedding Rescue.mp3",
+  "size_bytes": 23694349,
+  "mime_type": "audio/mpeg"
+ }
+}

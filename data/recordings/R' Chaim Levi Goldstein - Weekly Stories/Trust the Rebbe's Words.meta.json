@@ -1,0 +1,229 @@
+{
+ "id": "9134a62649",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Trust the Rebbe's Words",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Trust the Rebbe's Words.mp3",
+  "duration_sec": 1100.885,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Trust the Rebbe's Words",
+  "title_basis": "filename",
+  "summary_short": "An evicted innkeeper fears the Tzemach Tzedek sent his letter to the wrong Moshe, until a poritz's broken wagon stops outside that very house.",
+  "summary_long": "Reb Yankel, an innkeeper near the town of Kamen in the Vitebsk region, is thrown out of his inn by the poritz after a hard year. The Tzemach Tzedek tells him to trust in Hashem and gives him a letter for his Chassid Moshe Ratner, asking him to speak to the poritz. But there are two men named Moshe in Kamen. Moshe the short one inherited wealth and connections with the poritzim from his father Shimshon, whom the town loved so much that Nachum the melamed once tried to take his place at the gallows when Polish rebels wanted to hang him. Moshe Ratner, the tall one, is only a kind storekeeper. The Rebbe's sons assure Yankel that their father does not make mistakes. That night, as Yankel says Tehillim in Moshe Ratner's attic, a poritz's wagon breaks down outside, drawn by the only light in the street. Moshe welcomes him, refuses payment for his hospitality, and asks only that his friend be given back his inn. The poritz signs the inn over to Yankel for good. The storyteller ends with the Rebbe's words that the time of the Geulah has come.",
+  "lesson": "A Rebbe's words come true exactly as he says them; trust them and trust in Hashem.",
+  "keywords": [
+   "innkeeper",
+   "eviction",
+   "letter",
+   "two Moshes",
+   "broken wagon",
+   "attic",
+   "gallows",
+   "Polish rebels",
+   "Cossacks",
+   "deed"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "A Hakhel year",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Don't forget to make this a good Hakhel'; probably the same Hakhel year as the other Story Videos items (5776 or 5783?)."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Polish rebels try to hang a Jewish leader; a teacher offers his own life; both are saved."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A family is evicted from their home by the poritz; resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Yankel the innkeeper",
+   "Moshe Ratner (the tall Moshe)",
+   "Moshe the short, owner of the post office",
+   "Shimshon, his father",
+   "Nachum the melamed",
+   "the poritz and his daughter",
+   "the sons of the Tzemach Tzedek",
+   "Polish rebel soldiers"
+  ],
+  "topics": [
+   "hiskashrus",
+   "chabad_rebbeim",
+   "hashgacha_pratis",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "ahavas_yisroel",
+   "mesiras_nefesh",
+   "chesed"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tehillim"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Kamen",
+   "Vitebsk region"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 38,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 38,
+   "end_sec": 1041,
+   "type": "story",
+   "title": "Trust the Rebbe's Words",
+   "summary": "The Tzemach Tzedek's letter to the 'wrong' Moshe wins back an innkeeper's inn.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 268,
+   "end_sec": 525,
+   "type": "story",
+   "title": "Nachum the melamed at the gallows",
+   "summary": "A poor teacher offers his life to save the town's beloved leader from Polish rebels."
+  },
+  {
+   "start_sec": 1041,
+   "type": "closing",
+   "title": "The Rebbe's words: the Geulah has come",
+   "people": [
+    "the_rebbe"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "1f6a9072a1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Trust the Rebbe' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "74ef583ca6",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'It Was No Mistake: The Tzemach Tzedek's Letter to the Other Moshe' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR alternates 'pirates/Puritz' for poritz and 'Shimshin/Shimshon' for the father's name."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Trust%20the%20Rebbe%27s%20Words.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Trust the Rebbe's Words.mp3",
+  "size_bytes": 13211637,
+  "mime_type": "audio/mpeg"
+ }
+}

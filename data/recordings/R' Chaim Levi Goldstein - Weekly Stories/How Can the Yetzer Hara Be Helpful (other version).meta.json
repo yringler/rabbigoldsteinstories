@@ -1,0 +1,187 @@
+{
+ "id": "78283b5e51",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "How Can The Yetzer Harah Be Helpful?",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/How Can the Yetzer Hara Be Helpful (other version).mp3",
+  "duration_sec": 995.509,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "How Can the Yetzer Hara Be Helpful?",
+  "title_basis": "filename",
+  "summary_short": "The yetzer hara is only Hashem's messenger, and we can turn its own ideas into mitzvos. A story of a clever Rav who uses a broken condition to save an innkeeper.",
+  "summary_long": "The storyteller asks why on Yom Kippur we confess one sin specifically \"with the yetzer hara,\" when every sin comes from it. One answer: the yetzer hara is Hashem's messenger, sent to test us so that we earn reward for not listening, and deep down it hopes we will not listen. A troublemaking boy, told to learn loyalty from the yetzer hara, answers that the yetzer hara has no yetzer hara of its own. We can even use its suggestions for good: \"steal\" some playtime to say Tehillim, or \"ignore\" the yetzer hara when Mommy calls for help. Then the story: three poor partners, Beryl, Getzel and Shmerl, leave their savings with the innkeeper Reb Moshe on condition that he return it only when all three are present. Two weeks later the two older partners call from the lobby that they are \"present,\" so Reb Moshe hands the money to Shmerl, who disappears with it. The court orders Reb Moshe to pay, but his Rav, said to be the Tosafos Yom Tov, points out that paying only two partners would break the same condition again. The very condition that got him into trouble sets him free.",
+  "lesson": "The yetzer hara is only Hashem's messenger; we can take its very suggestions and turn them into mitzvos.",
+  "keywords": [
+   "Al Chet",
+   "bag of chips",
+   "three partners",
+   "inn",
+   "sack of money",
+   "condition",
+   "court",
+   "judge",
+   "business trip"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tosfos_yom_tov",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Beryl",
+   "Getzel",
+   "Shmerl",
+   "Reb Moshe, the innkeeper",
+   "the judge",
+   "the Tosafos Yom Tov"
+  ],
+  "topics": [
+   "character",
+   "great_rabbis"
+  ],
+  "midos": [
+   "self_control",
+   "kibbud",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem",
+   "tzedakah",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The Al Chet confession of Yom Kippur: 'for the sin we sinned with the yetzer hara'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 330,
+   "type": "talk",
+   "title": "The yetzer hara is Hashem's messenger"
+  },
+  {
+   "start_sec": 330,
+   "end_sec": 957,
+   "type": "story",
+   "title": "The three partners and the innkeeper"
+  },
+  {
+   "start_sec": 957,
+   "type": "talk",
+   "title": "Using the yetzer hara's ideas for good"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "3ab5f08f27",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.94,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "3ab5f08f27",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same recording; 3ab5f08f27 also includes the opening song 'I believe in Hashem', so it is the fuller copy."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 3ab5f08f27 ('How Can The Yetzer Harah Be Helpful'), the preferred copy: same recording without the opening song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No opening song in this copy; the fuller copy of the same recording (3ab5f08f27) opens with 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:38:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/How%20Can%20the%20Yetzer%20Hara%20Be%20Helpful%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/How Can the Yetzer Hara Be Helpful (other version).mp3",
+  "size_bytes": 11947102,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "id": "8678280881",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 430",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Shavuos - The Tikkun, Flowers and Why We Eat Dairy (Ep 430).mp3",
+  "duration_sec": 291.664,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 430,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 430,
+   "story": "Let’s say thank you. The two voices",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-37.8 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "After Shavuos: The Tikkun, Flowers and Why We Eat Dairy",
+  "title_basis": "content",
+  "summary_short": "Looking back on Shavuos: learning the Tikkun all night, hearing the Ten Commandments, flowers in shul, and why we eat dairy foods and cheesecake.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, given right after Shavuos. Uncle Yossi explains that although the holiday lasts only two days, its inspiration lasts all year. He recalls reading the Tikkun through the first night, a book with a portion of every part of the Torah, from each parsha and Navi to the Mishnah, Gemara and Zohar, until the morning. Then comes hearing the Ten Commandments in shul as if standing at Har Sinai, and the flowers that decorate shul and home like the flowers around the mountain. We eat dairy foods such as blintzes and cheesecake because Har Sinai is called Har Gavnunim, related to 'gevinah', cheese, and because after receiving the laws of kashrus the Jewish people needed time to prepare kosher meat and dishes, so at first they ate dairy. He calls the kosher diet the healthiest, planned by Hashem Himself, and asks children to keep their 'Naaseh v'nishma' resolutions and help friends learn more Torah too.",
+  "lesson": "Carry the inspiration of Shavuos all year by keeping your resolution to learn more Torah and do more mitzvos.",
+  "keywords": [
+   "Tikkun",
+   "flowers",
+   "cheesecake",
+   "blintzes",
+   "dairy",
+   "Har Sinai",
+   "kosher diet"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 430,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-06-05",
+   "hebrew": "12 Sivan 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 430: 'right after Chag HaShavuos', candle times fit Friday 8 June 1990."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "kashrus"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kashrus"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a958284081",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 47,
+   "note": "Episode 430 (filename number); clip = 47-339 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the post-Shavuos talk; very quiet source, normalize volume."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/After%20Shavuos%20-%20The%20Tikkun%2C%20Flowers%20and%20Why%20We%20Eat%20Dairy%20%28Ep%20430%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Shavuos - The Tikkun, Flowers and Why We Eat Dairy (Ep 430).mp3",
+  "size_bytes": 3501004,
+  "mime_type": "audio/mpeg"
+ }
+}

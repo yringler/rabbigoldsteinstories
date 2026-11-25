@@ -1,0 +1,234 @@
+{
+ "id": "cc26e08e69",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chanukah Never Ends",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chanukah Never Ends - The Flame That Flew Away (Zos Chanukah).mp3",
+  "duration_sec": 1443.561,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chanukah Never Ends: The Flame That Flew Away (Zos Chanukah)",
+  "title_basis": "filename",
+  "summary_short": "On Zos Chanukah, why the menorah's light stays with us all year, and the story of a Chanukah flame that left a tzaddik's menorah to lead a captured Chassid through a wolf-filled forest.",
+  "summary_long": "Told on Zos Chanukah, the eighth day. The storyteller explains its name: the twelve Nesiim brought offerings to dedicate the Mizbeach, and the Torah sums them up with the words 'Zos Chanukas HaMizbeach'. Aharon HaKohen felt left out, but Hashem told him that his lighting of the menorah, which lights up Jewish souls, would never end. The 36 Chanukah lights recall the 36 hours of the hidden light of Creation, so we carry Chanukah with us all year. Then the story, worth hearing again and again: as the tzaddik Reb Boruch lights the first Chanukah light, the flame lifts off the menorah and floats out through the window. He tells his Chassidim it has gone on a mission. At midnight it returns, and soon after, a Chassid named Reb Moshe arrives, shaken. Hurrying through the forest at night, he was captured by robbers, whose captain, a Jew who had drifted away, released him into a forest full of wolves as a test of whether Hashem watches over Jews. A floating flame led him safely out, the wolves fleeing before it.",
+  "lesson": "The lights of Chanukah stay in our souls all year and guide us through the darkness of golus.",
+  "keywords": [
+   "menorah",
+   "Zos Chanukah",
+   "Nesiim",
+   "36 lights",
+   "floating flame",
+   "robbers",
+   "wolves",
+   "forest",
+   "white handkerchief",
+   "winter storm"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Zos Chanukah",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'This Zos Chanukah, which is today'; year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Robbers seize a traveler and lock him in a basement overnight; he is released."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Hungry wolves rush at him in the forest but flee from the flame."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_boruch_of_mezhibuzh",
+    "role": "central"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Moshe the Chassid",
+   "the robbers and their captain",
+   "Nachshon ben Aminadav",
+   "the Nesiim of the twelve tribes"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "miracles",
+   "calendar",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "chanukah_lights"
+  ],
+  "calendar": [
+   "zos_chanukah",
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 7:84",
+    "note": "'Zos Chanukas HaMizbeach': the offerings of the Nesiim."
+   },
+   {
+    "work": "midrash",
+    "note": "Aharon's lighting of the menorah lasts forever, unlike the offerings."
+   },
+   {
+    "work": "hayom_yom",
+    "note": "The Tzemach Tzedek's family Chanukah gathering where the same stories were retold each year."
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "A Jew must not put himself in danger (said by the Rebbe in the story)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 47,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 47,
+   "end_sec": 531,
+   "type": "talk",
+   "title": "Zos Chanukah and the light that never ends",
+   "calendar": [
+    "zos_chanukah"
+   ],
+   "people": [
+    "aharon_hakohen"
+   ]
+  },
+  {
+   "start_sec": 531,
+   "end_sec": 1380,
+   "type": "story",
+   "title": "The flame that flew out the window",
+   "people": [
+    "rabbi_boruch_of_mezhibuzh"
+   ]
+  },
+  {
+   "start_sec": 1380,
+   "end_sec": 1443,
+   "type": "closing",
+   "title": "The menorah's light guides us all year"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The tzaddik is called only 'Reb Boruch'; identified as Reb Boruch of Mezhibuzh by the usual telling."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "'Rabbi Boruch' identified as Reb Boruch of Mezhibuzh; confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:50Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chanukah%20Never%20Ends%20-%20The%20Flame%20That%20Flew%20Away%20%28Zos%20Chanukah%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chanukah Never Ends - The Flame That Flew Away (Zos Chanukah).mp3",
+  "size_bytes": 17323712,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,255 @@
+{
+ "id": "0ab028b9b9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Runaway",
+  "audio_path": "audio/Other Stories/The Runaway.mp3",
+  "duration_sec": 5458.743,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Runaway",
+  "title_basis": "filename",
+  "summary_short": "Lazy twelve-year-old Aryeh keeps a classmate's lost penknife and runs away from home, falling in with thieves and robbers, until a Friday night at a rabbi's table changes everything.",
+  "summary_long": "Naftali loves learning Gemara, but his younger brother Aryeh, almost bar mitzvah, is lazy, sneaks treats and keeps a classmate's lost penknife. Ashamed, he runs away to Odessa, where a tough older boy, Feivel, feeds him, calls him 'brother' and slowly poisons his mind. Feivel places him as a trusted servant in a rich merchant's home, and one night Aryeh opens the back door for Feivel's gang; in the shootout the merchant's wife is killed and Aryeh is jailed. In prison he learns worse ways, escapes, and joins a band of highwaymen. Years later he disguises himself as a poor wanderer to rob a kindly rav who won the lottery, and is welcomed to his Shabbos table. There he slowly realizes that the rav is his brother Naftali and the elderly couple are his own parents, still mourning him eighteen years later. That night the robbers break in, and Aryeh fights them, until he wakes up in his own bed with his family around him and the penknife pricking his back. It was all a dream. Aryeh becomes a new boy, confesses to his father and promises to return the penknife.",
+  "lesson": "One small wrong can lead to terrible places; be strong as a lion to conquer the yetzer hara, return what isn't yours, and treasure your family and your learning.",
+  "keywords": [
+   "penknife",
+   "running away",
+   "train",
+   "Odessa",
+   "robbers",
+   "prison",
+   "lottery",
+   "Shabbos table",
+   "disguise",
+   "nightmare",
+   "lion"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 9,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "strong",
+    "note": "Armed robberies, shootouts, a plan to kill a prison guard, and a robber choking and stabbing the hero (in a dream)."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A merchant's wife and servants are shot during a robbery the boy helped set up."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The boy is held in prison and escapes."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A child runs away from home; his parents grieve for years (all within a dream)."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Aryeh",
+   "Naftali, his older brother",
+   "their parents",
+   "Big Feivel",
+   "the merchant and his wife",
+   "the robber band",
+   "the rav (grown-up Naftali)"
+  ],
+  "topics": [
+   "teshuvah",
+   "character",
+   "family_and_home"
+  ],
+  "midos": [
+   "emes",
+   "self_control",
+   "zerizus",
+   "hasmadah",
+   "courage"
+  ],
+  "mitzvos": [
+   "hashavas_aveidah",
+   "torah_study",
+   "kibbud_av_vaem",
+   "shabbos_candles",
+   "kiddush",
+   "hachnasas_orchim",
+   "tzedakah",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "4:1",
+    "note": "Who is strong? One who conquers his yetzer hara."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "5:20",
+    "note": "Be bold as a leopard, light as an eagle, swift as a deer and strong as a lion."
+   }
+  ],
+  "places": [
+   "Odessa",
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 432,
+   "type": "story",
+   "title": "Two very different brothers",
+   "summary": "Studious Naftali and lazy Aryeh, who keeps a classmate's lost penknife."
+  },
+  {
+   "start_sec": 432,
+   "end_sec": 1014,
+   "type": "story",
+   "title": "Running away to Odessa",
+   "summary": "Aryeh takes the train alone to a strange city."
+  },
+  {
+   "start_sec": 1014,
+   "end_sec": 2497,
+   "type": "story",
+   "title": "Big Feivel's plan",
+   "summary": "A tough boy befriends Aryeh and plans a robbery through him."
+  },
+  {
+   "start_sec": 2497,
+   "end_sec": 2781,
+   "type": "story",
+   "title": "The robbery and prison",
+   "summary": "The robbery ends in bloodshed and Aryeh is jailed."
+  },
+  {
+   "start_sec": 2781,
+   "end_sec": 3013,
+   "type": "silence",
+   "title": "Gap in the recording"
+  },
+  {
+   "start_sec": 3013,
+   "end_sec": 3294,
+   "type": "other",
+   "title": "Repeated passage",
+   "summary": "The robbery and prison passage is heard a second time (editing duplicate)."
+  },
+  {
+   "start_sec": 3294,
+   "end_sec": 3770,
+   "type": "story",
+   "title": "With the highwaymen",
+   "summary": "Aryeh escapes prison and plans to rob a kindly rav."
+  },
+  {
+   "start_sec": 3770,
+   "end_sec": 5085,
+   "type": "story",
+   "title": "Friday night at the rav's table",
+   "summary": "Disguised as a wanderer, Aryeh realizes he is at his own family's Shabbos table."
+  },
+  {
+   "start_sec": 5085,
+   "end_sec": 5331,
+   "type": "story",
+   "title": "The night attack and waking up",
+   "summary": "The robbers break in, and Aryeh wakes from a nightmare."
+  },
+  {
+   "start_sec": 5331,
+   "type": "story",
+   "title": "A new Aryeh",
+   "summary": "Aryeh confesses to his father, who teaches him to be strong as a lion."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch",
+   "dead_air"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "About 46:21-50:13 has no speech, then the robbery/prison passage (41:37-46:21) repeats at 50:13-54:55. Shorter gaps near 8:00 and 40:00. No theme song; narrator unidentified."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Duplicated passage and ~4 min gap around 46-55 min; check the audio and whether a cleaner copy exists.",
+   "Narrator not identified (no theme song): the weekly storyteller or Uncle Yossi?"
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:41Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Runaway.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Runaway.mp3",
+  "size_bytes": 65505830,
+  "mime_type": "audio/mpeg"
+ }
+}

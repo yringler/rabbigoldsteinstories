@@ -1,0 +1,334 @@
+{
+ "id": "3c57114b54",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "165",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 165 - Three Lost on an Island, Chapter 2 (1985-02-26).mp3",
+  "duration_sec": 1849.0,
+  "filename_facts": {
+   "episode_number": 165,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 165,
+   "story": "Three lost on an island #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 165: Three Lost on an Island, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "In Adar, Uncle Yossi teaches Ki Karov Eilecha, a listener tells of Rabbi Tarfon honoring his mother, and the island story ends with a lesson about the neshamah.",
+  "summary_long": "Uncle Yossi opens in the happy month of Adar and teaches number five of the Twelve Pesukim, Ki Karov Eilecha: serving Hashem with our mouth, heart and actions is very close to us; we try our best and Hashem does the rest. The Hakochainik march sings it, and listeners hear about a new Torah trivia club with points and prizes. In Mitzvah Time a girl reads her composition about how Rabbi Tarfon honored his sick mother. After a recap and the Shema with a ten-year-old yeshiva student, 'Three Lost on an Island' concludes. Through the telescope the survivors see a castle with a notice that the queen is ill. They fly there, the doctor's apple cures her, and each man claims the reward of marrying the princess. The king rewards all three with treasure but gives his daughter to the doctor, whose apple is the one thing he could not get elsewhere. Uncle Yossi explains the mashal: our possessions, our body and our neshamah all matter, but only the neshamah, with its Torah and mitzvos, goes on to the world to come. The show ends with a grager and a promise of Purim visitors next week.",
+  "lesson": "Food, clothing, shelter and the body are all needed, but the neshamah is what lasts forever; only Torah and good deeds go with a person to the world to come.",
+  "keywords": [
+   "deserted island",
+   "telescope",
+   "queen",
+   "castle",
+   "healing apple",
+   "princess",
+   "reward",
+   "neshamah",
+   "Rabbi Tarfon",
+   "composition",
+   "Torah trivia club",
+   "grager"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 165,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-02-26",
+   "hebrew": "5 Adar 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Week after ep. 164 (19 Feb 1985, eve of Rosh Chodesh Adar); 'here we are in the month of Adar' and the Purim program is 'next week'. Weekly estimate was 3 weeks late."
+  },
+  "serial": {
+   "story_key": "three-lost-on-an-island",
+   "story_title": "Three Lost on an Island",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A queen is gravely ill until the doctor's apple cures her; a listener's composition mentions Rabbi Tarfon's sick mother.",
+    "at_sec": 1076
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The composition reader and the Shema guest are named in full with their schools.",
+    "at_sec": 511
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_tarfon",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the doctor",
+   "the scientist",
+   "the engineer",
+   "the king",
+   "the queen",
+   "Rabbi Tarfon's mother"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "torah_study",
+   "tzivos_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "simcha",
+   "kibbud",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "torah_study",
+   "kibbud_av_vaem",
+   "shema"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "Chapter 6",
+    "note": "Not silver, gold or jewels accompany a person, only Torah and good deeds."
+   },
+   {
+    "work": "zohar",
+    "note": "Hashem, Yisroel and the Torah are one and eternal."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "opening",
+   "title": "Opening: we are in the month of Adar",
+   "calendar": [
+    "adar"
+   ]
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 237,
+   "type": "talk",
+   "title": "The Twelve Pesukim: Ki Karov Eilecha",
+   "summary": "Serving Hashem with mouth, heart and action is close to every child: try your best and Hashem will do the rest.",
+   "linked_items": [
+    "25c32cec0a"
+   ]
+  },
+  {
+   "start_sec": 237,
+   "end_sec": 329,
+   "type": "song",
+   "title": "Hakochainik March: Ki Karov Eilecha"
+  },
+  {
+   "start_sec": 329,
+   "end_sec": 475,
+   "type": "announcement",
+   "title": "A new Torah trivia club"
+  },
+  {
+   "start_sec": 475,
+   "end_sec": 695,
+   "type": "quiz",
+   "title": "Mitzvah Time: Rabbi Tarfon and His Mother",
+   "summary": "A girl reads her composition on how Rabbi Tarfon bent down so his sick mother could step on him, and carried her home when her sandal tore.",
+   "people": [
+    "rabbi_tarfon"
+   ]
+  },
+  {
+   "start_sec": 695,
+   "end_sec": 832,
+   "type": "story_intro",
+   "title": "Story time: recap of Chapter 1"
+  },
+  {
+   "start_sec": 832,
+   "end_sec": 1008,
+   "type": "shema_guest",
+   "title": "Shema with a ten-year-old yeshiva student"
+  },
+  {
+   "start_sec": 1008,
+   "end_sec": 1376,
+   "type": "story_chapter",
+   "title": "Three Lost on an Island, Chapter 2",
+   "summary": "The doctor's apple cures the queen, all three claim the reward, and the king gives his daughter to the doctor.",
+   "story_key": "three-lost-on-an-island",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1376,
+   "end_sec": 1737,
+   "type": "talk",
+   "title": "The Lesson of the Story: The Neshamah Gets the Reward",
+   "summary": "The mashal explained: possessions, body and soul are all needed, but only the neshamah, with its Torah and mitzvos, goes on to the world to come."
+  },
+  {
+   "start_sec": 1737,
+   "end_sec": 1777,
+   "type": "announcement",
+   "title": "Purim visitors next week",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 1777,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Trivia-club offer with prizes and the next-week Purim promo are dated."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Hani (Chani) Blyer",
+    "role": "mailbox_letter",
+    "group": "Beis Rivkah, fifth grade, Morah Lipsker",
+    "start_sec": 511,
+    "end_sec": 695,
+    "note": "Read her composition about Rabbi Tarfon on Mitzvah Time."
+   },
+   {
+    "name": "Morah Lipsker",
+    "role": "other",
+    "group": "Beis Rivkah, fifth-grade teacher",
+    "start_sec": 655,
+    "end_sec": 670
+   },
+   {
+    "name": "Ari Sperling",
+    "role": "shema_guest",
+    "group": "Yeshiva Eliyahu Torah, sixth grade, Rabbi Zalmanov",
+    "start_sec": 858,
+    "end_sec": 1008,
+    "note": "Age ten; also heard as 'Sperlin'."
+   },
+   {
+    "name": "Rabbi Zalmanov",
+    "role": "other",
+    "group": "Yeshiva Eliyahu Torah, teacher of the Shema guest",
+    "start_sec": 887,
+    "end_sec": 918
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:23Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "25c32cec0a",
+   "evidence": "text_overlap",
+   "confidence": 0.77,
+   "note": "'12 Psukim Ki Karov 5 165' = 94-221 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "cfcb2683b3",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 164 = 'Three lost on an island #1', 165 = '#2'; on-air recap of last week's chapter."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "cfcb2683b3",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapters 1 and 2 of 'Three Lost on an Island'."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20165%20-%20Three%20Lost%20on%20an%20Island%2C%20Chapter%202%20%281985-02-26%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 165 - Three Lost on an Island, Chapter 2 (1985-02-26).mp3",
+  "size_bytes": 22189147,
+  "mime_type": "audio/mpeg"
+ }
+}

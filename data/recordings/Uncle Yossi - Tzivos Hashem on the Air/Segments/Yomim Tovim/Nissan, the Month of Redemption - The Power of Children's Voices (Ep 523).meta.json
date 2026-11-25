@@ -1,0 +1,175 @@
+{
+ "id": "99ddc34100",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Nissan 523",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Nissan, the Month of Redemption - The Power of Children's Voices (Ep 523).mp3",
+  "duration_sec": 208.879,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 523,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 523,
+   "story": "The mystery of Dayeinu",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Nissan, the Month of Redemption: The Power of Children's Voices",
+  "title_basis": "content",
+  "summary_short": "At the start of Nissan, Uncle Yossi explains that we were redeemed in Nissan and will be again, and that children's pure voices in Torah and prayer will bring Moshiach.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show at the beginning of Nissan. Uncle Yossi quotes the Sages: the Jewish people were redeemed from Egypt in the month of Nissan, and in Nissan we will be redeemed again. At the Exodus the children were the first to recognize Hashem and call out 'This is my G-d', and when Moshiach comes, children will again play a leading role, through the merit of their prayers. Their greatest power is their voice, the 'voice of Yaakov' in Torah and prayer, which defeats the hands of Esav, reaches the heavens and turns a bad decree into a blessing. So it was at Purim, when Mordechai taught Torah to 22,000 children and their voices nullified Haman's decree. Today, too, Hashem listens to every child and answers all their requests.",
+  "lesson": "Children's prayers and Torah learning have the power to bring the Geulah; Hashem listens to every child.",
+  "keywords": [
+   "Nissan",
+   "Exodus",
+   "redemption",
+   "voice of Yaakov",
+   "22,000 children",
+   "prayer"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 523,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-04-07",
+   "hebrew": "4 Nissan 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 523: 'here we are already in the new month of Nissan' (Nissan 5752)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "prayer_and_brachos",
+   "calendar"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study"
+  ],
+  "calendar": [
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Rosh Hashanah 11a",
+    "note": "'In Nissan they were redeemed and in Nissan they will be redeemed', as 'our Chachamim tell us'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:2",
+    "note": "'This is my G-d': the children recognized Hashem first."
+   },
+   {
+    "work": "midrash",
+    "ref": "Esther Rabbah",
+    "note": "Mordechai gathered 22,000 children to learn Torah."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "From 'the voice of Yaakov' onward the wording repeats the pre-Purim talk in episode 520 (see the 'Tehillim for the Rebbe' clip)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:47Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "dd6c7333fc",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 46,
+   "note": "Episode 523 (filename number); clip = 46-255 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Nissan%2C%20the%20Month%20of%20Redemption%20-%20The%20Power%20of%20Children%27s%20Voices%20%28Ep%20523%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Nissan, the Month of Redemption - The Power of Children's Voices (Ep 523).mp3",
+  "size_bytes": 2507618,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "id": "7b12e4e282",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Shpoler zeida",
+  "filename_title": "Shpole Zeide Pillar of Fire 295",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Shpoler Zeide and the Strange Pillar of Fire (Ep 295).mp3",
+  "duration_sec": 717.845,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 295,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 295,
+   "story": "Shpole Zeide Pillar of Fire",
+   "topic": "The Shpole Zeide",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Shpoler Zeide and the Strange Pillar of Fire",
+  "title_basis": "master_catalog",
+  "summary_short": "On the Shpoler Zeide's last day, a pillar of fire rises from the Alter Rebbe's burning house, and the mystery is explained by a holy book and a tzaddik's wish.",
+  "summary_long": "Told by Uncle Yossi on Vov Tishrei, the yahrzeit of the Shpoler Zeide. In 1812 a fire breaks out in the house of the Alter Rebbe, and as the Chassidim put it out they see a winding pillar of fire rise from the roof and vanish into the sky. The story then goes back: the Shpoler Zeide, admired for his saintly character and his Ahavas Yisroel, often visited the Alter Rebbe to learn Torah. Once the Alter Rebbe showed him a new book he was writing, the 'Book for the Righteous'. The Shpoler Zeide turned pale and trembling, and begged that these writings be returned to Heaven, since the world was not yet ready for them. He said the book would rise to Heaven in a pillar of fire, as Eliyahu HaNavi did, and wished that his own soul would rise in such a holy fire. The book burned in that very fire, and the Alter Rebbe's messengers found Shpola in mourning: the Shpoler Zeide had passed away at that same moment, on Vov Tishrei.",
+  "lesson": "The holy deeds and wishes of a tzaddik are precious in Heaven; remembering them brings blessing.",
+  "keywords": [
+   "pillar of fire",
+   "holy book",
+   "manuscript",
+   "fire",
+   "yahrzeit",
+   "messengers",
+   "1812"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 295,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-09-29",
+   "hebrew": "6 Tishrei 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Whose yahrzeit is today, Vav Tishrei'; clip of episode 295 dated 1987-09-29."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story ends with the Shpoler Zeide's passing and his town in mourning.",
+    "at_sec": 621
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Chassidim of Liadi",
+   "the Alter Rebbe's messengers"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "chabad_rebbeim",
+   "miracles"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kibbud",
+   "anavah"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "vav_tishrei"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Liadi",
+   "Shpola"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 82,
+   "type": "story_intro",
+   "title": "Introduction for the yahrzeit"
+  },
+  {
+   "start_sec": 82,
+   "type": "story",
+   "title": "The Strange Pillar of Fire"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The introduction is heard twice at the start (0:00-0:54 repeats); an editing artifact."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:19Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "084989493e",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Also aired in episode 397."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8bbf7a6519",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "Also aired in episode 446."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "3073859dbb",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 529,
+   "note": "Episode 295 (filename number); clip = 529-1247 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/The%20Shpoler%20Zeide%20and%20the%20Strange%20Pillar%20of%20Fire%20%28Ep%20295%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Shpoler Zeide and the Strange Pillar of Fire (Ep 295).mp3",
+  "size_bytes": 8614963,
+  "mime_type": "audio/mpeg"
+ }
+}

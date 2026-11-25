@@ -1,0 +1,213 @@
+{
+ "id": "2cb6d77ea4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem's Help - As Quick As the Blink of an Eye",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem's Help - As Quick as the Blink of an Eye.mp3",
+  "duration_sec": 1089.463,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hashem's Help: As Quick as the Blink of an Eye",
+  "title_basis": "filename",
+  "summary_short": "A wealthy, generous Jew doubts that Hashem can make a rich man poor in one second, until a single morning teaches him that Hashem can do both.",
+  "summary_long": "The storyteller explains bitachon: everything except our free choice comes from Hashem, who loves every Jew more than elderly parents love an only child, so even hidden good will come out, and Hashem's help can come in the blink of an eye. Reb Dovid, the richest man in town, gives tzedakah freely, explaining that the tenth part of his earnings never belonged to him. One Sunday the Rav teaches the verse of Dovid HaMelech that riches and honor come from Hashem, and that Hashem can turn the richest man into the poorest in one second. Reb Dovid, who worked 25 years for his wealth, cannot understand it. Walking home, lost in thought, he steps over a forbidden line during the priest's Sunday sermon and is arrested. The priest offers him his fortune back if he will give up his Judaism; he refuses and proudly signs away everything. Then a bolt of lightning destroys the police station and the signed paper with it, and in one second he is rich again. The storyteller adds that, as the Rebbe often said, Moshiach can come in one second too.",
+  "lesson": "Hashem's help can come in the blink of an eye, and every word of the Torah is true even when we do not yet understand it.",
+  "keywords": [
+   "rich man",
+   "tenth part",
+   "priest",
+   "yellow line",
+   "police station",
+   "lightning",
+   "signed paper",
+   "one second"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew is arrested under an unfair rule and stripped of his property."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "mild",
+    "note": "A priest offers to return his wealth if he gives up his Judaism; he refuses."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Dovid, the rich man",
+   "the Rav",
+   "the police officer",
+   "the police chief",
+   "the priest"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "mesiras_nefesh_kiddush_hashem",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "generosity",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "kiddush_hashem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Everything is in Hashem's hands except whether a person is a tzaddik or a rasha."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov's parable of an elderly couple's love for their only child."
+   },
+   {
+    "work": "siddur",
+    "note": "Dovid HaMelech's blessing: riches and honor come from You."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe often said at farbrengens that the Geulah can come in one second."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 38,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 38,
+   "end_sec": 214,
+   "type": "talk",
+   "title": "Bitachon: Hashem's help in the blink of an eye"
+  },
+  {
+   "start_sec": 214,
+   "end_sec": 1057,
+   "type": "story",
+   "title": "The rich man and the signed paper"
+  },
+  {
+   "start_sec": 1057,
+   "type": "talk",
+   "title": "Moshiach in one second"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "cd4eceba47",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Hashem's Help Can Come In One Second': the same rich-man-and-lightning story by the same narrator (there the man is called Moshe), with a steering-wheel parable added."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:04Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%27s%20Help%20-%20As%20Quick%20as%20the%20Blink%20of%20an%20Eye.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem's Help - As Quick as the Blink of an Eye.mp3",
+  "size_bytes": 13074349,
+  "mime_type": "audio/mpeg"
+ }
+}

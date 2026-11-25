@@ -1,0 +1,34 @@
+{
+ "batch_id": "b002",
+ "done": [
+  "e39943b482",
+  "410f43c6c5",
+  "5bcc2b3a95",
+  "25f7b4e626",
+  "6d98153d65",
+  "89f933a998",
+  "0b394738aa",
+  "f8713031b8",
+  "74ae981cd2",
+  "96b0e06c39",
+  "828b6c6fa8",
+  "2ed007c078",
+  "86349c08d6",
+  "46a223a493",
+  "7267fa808d",
+  "b7ad069e28"
+ ],
+ "failed": [],
+ "notes": [
+  "Merged programs: file '13' (e39943b482, 58 min) is episode 13 (0-~1728 s) followed by a word-for-word copy of episode 14, the Purim show (5bcc2b3a95). Tagged multiple_programs, publish_recommendation 'review', and linked both ways with same_recording. A human should decide whether to mark the content end at about 1728 s.",
+  "Candidate 7dcee8e50f ('Purim Song 369') on e39943b482 matches the guest's Purim song in the appended episode-14 part, not episode 13 itself. I confirmed that episode 369 (c1bc5d8609) re-airs the Purim Merrymakers opening and the gragger songs, and added aired_again_in from 5bcc2b3a95 to c1bc5d8609.",
+  "Episode 16 (6d98153d65) is the known defective looped file. It has minimal metadata and stays hidden. The Star Gazer chapter 1 is lost until a good copy is found.",
+  "Episode 18 (0b394738aa): the catalog says 'The Stolen Purse #1', but the story is told complete in this episode. Chapter 1 is kept from the catalog. The story (Rebbe of Chortkov / Meir Anshel Rothschild) is probably told elsewhere in the archive (Dial-a-Story, Heritage).",
+  "86349c08d6 is also a worked example. I kept the example's content after checking it against the transcript, added aired_again_in candidates 276c6bf981 (ep 486) and 45e5fe6378 (ep 184), and noted that the Shema guests were edited out of the clip (splice at about 380 s).",
+  "Shemiras halashon clips 74ae981cd2 / 828b6c6fa8 and Sefirah clips 46a223a493 / b7ad069e28 are linked as part_of_set pairs (filename numbering -1/-2).",
+  "Episode 20 (96b0e06c39): eight Beis Yaakov girls give their names in an untranscribed gap (about 465-495 s). Only the first names in the transcript are in hidden. Check the audio for full names.",
+  "Sponsor and supporter dedications in episodes 13 and 18 name private families, including children in ep 18. Under the rules they are not in hidden.on_air_people. The ep 13 dedication is noted in hidden.other_personal.",
+  "Proposed vocabulary: people 'chofetz_chaim' (episodes 19-20 and their clips) and works 'kesuvim' (Mishlei and Koheles are quoted often; tagged neviim for now).",
+  "Dates: ep 13 = 1982-03-02 (Purim next week), ep 14 = Purim 1982-03-09, ep 17 = 1982-03-30 (before Pesach), ep 19 = Chol HaMoed 1982-04-13 (aired Tuesday morning), ep 21 = 4 Iyar stated, ep 22 = 11 Iyar / Omer day 26 stated. The weekly spacing holds with no gaps from episode 11 to episode 22."
+ ]
+}

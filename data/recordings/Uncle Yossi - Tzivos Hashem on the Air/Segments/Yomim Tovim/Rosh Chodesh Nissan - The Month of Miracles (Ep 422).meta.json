@@ -1,0 +1,156 @@
+{
+ "id": "3f1b99b89b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Rosh Chodesh Nissan 422",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh Nissan - The Month of Miracles (Ep 422).mp3",
+  "duration_sec": 121.704,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 422,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 422,
+   "story": "The mystery of Dayeinu",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Rosh Chodesh Nissan: The Month of Miracles",
+  "title_basis": "filename",
+  "summary_short": "Nissan is the month of miracles, and the Rebbe taught that 5750 is a year of miracles; we pray for the final redemption this Nissan.",
+  "summary_long": "A short Rosh Chodesh talk from the Tzivos Hashem radio show, broadcast on Rosh Chodesh Nissan 5750. Uncle Yossi wishes everyone a happy Rosh Chodesh and explains that the name Nissan is connected to the word nes, a miracle. Just as the miracles of Pesach happened in Nissan, every year this month is set aside as a month of miracles. This year especially, as the Rebbe said many times, the letters of the year 5750 stand for 'Tehei Shnas Nissim', may it be a year of miracles. Our Sages teach that in Nissan our ancestors left Mitzrayim and in Nissan we will be redeemed again, so we pray that Moshiach come and bring every Jew back to Eretz Yisroel to celebrate Pesach in Yerushalayim.",
+  "lesson": "Nissan is a month of miracles; pray and expect the greatest miracle, the coming of Moshiach.",
+  "keywords": [
+   "Nissan",
+   "miracles",
+   "year of miracles",
+   "Yetzias Mitzrayim",
+   "Yerushalayim",
+   "redemption"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 422,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-03-27",
+   "hebrew": "1 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Rosh Chodesh Nissan', and the year is named as 5750."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "miracles",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "rosh_chodesh",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750 (Tav-Shin-Nun) = 'Tehei Shnas Nissim', a year of miracles"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d8110e6dc7",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "offset_sec": 55,
+   "note": "Episode 422 (filename number); clip = 55-177 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Tied to the year 5750 ('a year of miracles')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Rosh%20Chodesh%20Nissan%20-%20The%20Month%20of%20Miracles%20%28Ep%20422%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh Nissan - The Month of Miracles (Ep 422).mp3",
+  "size_bytes": 1461270,
+  "mime_type": "audio/mpeg"
+ }
+}

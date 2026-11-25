@@ -1,0 +1,169 @@
+{
+ "id": "de2e1dfc33",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Vayera 499",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Vayeira - Avraham Avinu's Tent of Kindness (Ep 499).mp3",
+  "duration_sec": 398.129,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 499,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 499,
+   "story": "Reb Ariel and the lion",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Vayeira: Avraham Avinu's Tent of Kindness",
+  "title_basis": "content",
+  "summary_short": "Living with the weekly sedra: in Vayeira, Avraham Avinu feeds weary travelers and teaches them to thank Hashem, and every child can bring a friend closer to Hashem the same way.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show. Uncle Yossi explains the Alter Rebbe's saying that we must 'live with the times', which the Mitteler Rebbe explained as living with the weekly sedra: each day we learn that day's portion, and on Shabbos we hear the whole sedra in shul. The Torah is called Torah because it teaches us how to live a happy and peaceful life today. In Parshas Vayeira, Avraham Avinu, a man of chesed, pitches his tent by the main road and gives food and drink to tired travelers. When they thank him, he tells them to thank Hashem instead, and so he teaches thousands of people about the one Creator, and many throw away their idols. Children can be 'the Avraham Avinu of today' by teaching a relative or friend about Hashem and the Torah, which is what Tzivos Hashem is all about, and this kindness will bring the greatest kindness of all, the coming of Moshiach.",
+  "lesson": "Like Avraham Avinu, use kindness to help others know Hashem; that is the mission of every Tzivos Hashem soldier.",
+  "keywords": [
+   "Avraham's tent",
+   "travelers",
+   "highway",
+   "idols",
+   "weekly sedra",
+   "daily Chumash",
+   "Moshiach"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Parsha of the Week"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 499,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-10-22",
+   "hebrew": "14 Cheshvan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 499, the week of Vayeira 5752 (calendar cues in the full episode)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "chesed",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeira"
+  ],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "'Live with the times' (the Alter Rebbe)",
+    "note": "Explained by the Mitteler Rebbe as living with the weekly sedra."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0b07a8778f",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 55,
+   "note": "Episode 499 (filename number); clip = 55-453 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the opening talk of episode 499."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:10Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Vayeira%20-%20Avraham%20Avinu%27s%20Tent%20of%20Kindness%20%28Ep%20499%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Vayeira - Avraham Avinu's Tent of Kindness (Ep 499).mp3",
+  "size_bytes": 4778397,
+  "mime_type": "audio/mpeg"
+ }
+}

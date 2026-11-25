@@ -1,0 +1,191 @@
+{
+ "id": "03fe816538",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Fear of Hashem's Name",
+  "audio_path": "audio/Other Stories/Fear of Hashem's Name - Rabbi Moshe Galanti and the Sheikh.mp3",
+  "duration_sec": 1236.783,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Fear of Hashem's Name: Rabbi Moshe Galanti and the Sheikh",
+  "title_basis": "filename",
+  "summary_short": "In Damascus, Rabbi Moshe Galanti trades wisdom with a learned sheikh to discover how he can tell whether a sick person will recover, and learns a lesson in honoring Hashem's Name.",
+  "summary_long": "In Damascus there lived Rabbi Moshe Galanti, a great tzaddik and Torah scholar who also mastered the seven branches of worldly wisdom. A learned Arab sheikh in the same city had a mysterious gift: after praying for a sick person, he could tell whether that person would live. Wondering how this was possible, Rabbi Moshe arranges to meet the sheikh, who is so taken with his wisdom that he invites him again and again. When the sheikh begs to learn the seventh wisdom, Rabbi Moshe agrees only in exchange for the sheikh's secret. After two days of fasting, prayer and teshuvah, the sheikh leads him through a mikveh to a dazzling hidden palace, where behind a jeweled curtain hangs the verse 'Shivisi Hashem l'negdi samid', with Hashem's Name written large. If the letters shine, the sick person will live. Rabbi Moshe goes home in tears: if a sheikh who never learned Torah shows such awe for Hashem's Name, how much more must we.",
+  "lesson": "Say and treat Hashem's Name with great respect and awe, remembering that it is the Name of the Creator of heaven and earth.",
+  "keywords": [
+   "sheikh",
+   "Damascus",
+   "seven wisdoms",
+   "palace",
+   "mikveh",
+   "Shivisi",
+   "sick person",
+   "curtain",
+   "Hashem's Name"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rabbi Moshe Galanti",
+   "the sheikh of Damascus",
+   "the parnas (community leader) of Damascus"
+  ],
+  "topics": [
+   "great_rabbis",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "anavah"
+  ],
+  "mitzvos": [
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "16:8",
+    "note": "'Shivisi Hashem l'negdi samid', named as a pasuk in Tehillim."
+   }
+  ],
+  "places": [
+   "Damascus, Syria"
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song or sign-off; ends right after the closing lesson. ASR once writes 'Rabbi Akiva' for Rabbi Moshe."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unidentified; different reading style from the 'I believe' storyteller."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:03Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "179f246846",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Name: Rabbi Moshe Galanti and the Sheikh's Secret, Part 1 (Lech Lecha)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6629d7464c",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Name: Rabbi Moshe Galanti and the Sheikh's Secret, Part 1 (Lech Lecha)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b1a205211a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Name: Rabbi Moshe Galanti and the Sheikh's Secret, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cce7163480",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Name: Rabbi Moshe Galanti and the Sheikh's Secret, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "35571dde36",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Secret of the Name of Hashem, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bad310d608",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Secret of the Name of Hashem, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b70e1124bd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Brachos and Hashem's Name: Rabbi Moshe Galante and the Sheikh's Secret' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Fear%20of%20Hashem%27s%20Name%20-%20Rabbi%20Moshe%20Galanti%20and%20the%20Sheikh.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Fear of Hashem's Name - Rabbi Moshe Galanti and the Sheikh.mp3",
+  "size_bytes": 14842290,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "batch_id": "b009",
+ "done": ["64064de9d3", "370c29c56e", "cfcb2683b3", "6872536f21", "5f77291d43", "3c57114b54", "25c32cec0a", "1658b83955", "2047974075", "8719f5bf30", "4f45cd6331", "460a27675c", "676b74eea3", "676c0eab8c", "7226693357"],
+ "failed": [],
+ "notes": [
+  "Dating: on-air cues fix this run to Feb-Apr 1985 and show the weekly estimates are 3 weeks too late for 163-170 and 174: 164 = Tue 19 Feb 1985 ('tomorrow night is Rosh Chodesh Adar'), 166 = 5 Mar ('tomorrow, Wednesday, is Taanis Esther'), 169 = 26 Mar (Erev Pesach 'next Friday, 5 April'), 170 = 2 Apr (Rambam's birthday 'this Friday', Chol HaMoed 'this Monday'). 163/165/167/174 were placed by sequence. Worth re-anchoring the interpolation for nearby episodes (about 112-210).",
+  "Episode 168 is missing from the batch and from the catalog (row null); 171-173 are also absent. 174 fits 30 Apr 1985 (mid-Sefirah, no Lag BaOmer mention), which suggests there was no gap in the weekly sequence over Pesach.",
+  "1658b83955 (166): hint candidate 5120830d37 (episode 218) checked: its opening Purim Merrymakers skit and Purim songs are nearly word for word the same. Added aired_again_in (text_overlap, 0.85). 218 is probably the following year's Purim show reusing these segments.",
+  "Serial pairs linked with continues/part_of_set: Three Lost on an Island (164->165), The Mystery of Toras Emes (166->167), The Rambam's Resting Place (169->170). 163 and 174 are complete single stories.",
+  "676c0eab8c (174): the only private name heard is a visiting class's teacher (no children named). The validator requires a privacy flag whenever hidden.on_air_people is non-empty, so minor_named is set with a note saying so. The validator rule may need a flag for adult-only names.",
+  "2047974075 (167): mailbox letter names the writers' uncle, Rabbi Yosef Yitzchak HaKohen Stock, who rebroadcast the show to 12 states by radio. Recorded in hidden as a family detail. It is also a possible clue to the program's distribution history.",
+  "Episodes 169/170/174 advertise half-price sales of six Uncle Yossi story records (24 stories) at Eichler's. If those records are in the archive, they may share stories with this series.",
+  "370c29c56e: very quiet source (-35 LUFS), so low_volume is set; normalize on export."
+ ]
+}

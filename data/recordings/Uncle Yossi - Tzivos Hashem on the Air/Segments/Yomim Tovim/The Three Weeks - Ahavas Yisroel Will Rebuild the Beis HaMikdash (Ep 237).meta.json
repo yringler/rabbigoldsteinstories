@@ -1,0 +1,203 @@
+{
+ "id": "98a0014e2a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Three Weeks 237",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Three Weeks - Ahavas Yisroel Will Rebuild the Beis HaMikdash (Ep 237).mp3",
+  "duration_sec": 276.926,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 237,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 237,
+   "story": "The Stone for the Beis Hamikdosh",
+   "topic": "Three Weeks, / Rosh Chodesh",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Three Weeks: Ahavas Yisroel Will Rebuild the Beis HaMikdash",
+  "title_basis": "content",
+  "summary_short": "Why there is no music in the Three Weeks, why baseless hatred caused the Churban, and why Hashem, like a parent, delights most when His children love one another.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show during the Three Weeks, edited together from the opening and a later part of the same broadcast. Uncle Yossi explains that no music is played in these weeks because they recall the saddest page in Jewish history, the destruction of the Beis HaMikdash. Since it was destroyed because Jews failed to love their fellow as themselves, strengthening Ahavas Yisroel will bring the Geulah. As the month of Av arrives, he asks what caused these tragedies and how to prevent them: our Sages say it was baseless hatred, which Hashem despises. He brings the Alter Rebbe's teaching that just as nothing pleases parents more than seeing their children live in harmony, nothing pleases Hashem more than seeing His children, the Jewish people, love one another. Doing so corrects the mistakes of the past and paves the way for Moshiach, who will bring every Jew home to Eretz Yisroel.",
+  "lesson": "Hashem, like a loving parent, delights most when His children love each other; Ahavas Yisroel will rebuild the Beis HaMikdash.",
+  "keywords": [
+   "no music",
+   "baseless hatred",
+   "parents and children",
+   "month of Av",
+   "unity",
+   "Holy Temple"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 237,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-08-05",
+   "hebrew": "29 Tammuz 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "From episode 237, broadcast on Erev Rosh Chodesh Av ('as the coming month of Av arrives'). Also aired in episodes 388, 437 and 487."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The destruction of the Beis HaMikdash, mentioned without detail.",
+    "at_sec": 15
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "shalom"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "three_weeks",
+   "nine_days"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 14:1",
+    "note": "'You are children to Hashem your G-d.'"
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Alter Rebbe: as parents delight when their children love each other, so does Hashem."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "12f2454f7d",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 388."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "14e201cef4",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 487."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e69b5cd4d9",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 437."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "33258ba2e2",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 1242,
+   "note": "Episode 237 (filename number); clip = 1242-1519 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a9c42df651",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "Episode 33 contains the same Ahavas Yisroel / Alter Rebbe passage."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Edited from two parts of episode 237: 0-86 s of the episode (no-music intro) joined at about 1:28 to the Av talk (about 1329-1505 s). The facts' 1242-1519 s span is an approximate text match. Check the join."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Clip is spliced from two parts of episode 237; clip_of offset 1242 is approximate."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Three%20Weeks%20-%20Ahavas%20Yisroel%20Will%20Rebuild%20the%20Beis%20HaMikdash%20%28Ep%20237%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Three Weeks - Ahavas Yisroel Will Rebuild the Beis HaMikdash (Ep 237).mp3",
+  "size_bytes": 3324211,
+  "mime_type": "audio/mpeg"
+ }
+}

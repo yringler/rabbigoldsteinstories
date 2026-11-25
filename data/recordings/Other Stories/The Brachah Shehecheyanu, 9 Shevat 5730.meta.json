@@ -1,0 +1,132 @@
+{
+ "id": "4ad523a84f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "9 shevat 5730 Bracha shehecheyanu",
+  "audio_path": "audio/Other Stories/The Brachah Shehecheyanu, 9 Shevat 5730.mp3",
+  "duration_sec": 26.41,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "little_speech_maybe_song",
+   "repetitive_check"
+  ]
+ },
+ "display": {
+  "title": "The Brachah Shehecheyanu, 9 Shevat 5730",
+  "title_basis": "filename",
+  "summary_short": "A short archival recording of the brachah Shehecheyanu, labeled 9 Shevat 5730 (January 1970), the eve of Yud Shevat.",
+  "summary_long": "This very short archival clip, under half a minute long, holds a single brachah: Shehecheyanu, the blessing thanking Hashem for keeping us alive and bringing us to this time. The file is labeled 9 Shevat 5730, which was Friday, January 16, 1970, the day before Yud Shevat, the twentieth yahrzeit of the Frierdiker Rebbe. The recording does not say who recites the brachah or what occasion it marks. It sits among the storytelling recordings, probably as material for a story or a video about that day, and is best heard together with the program it belongs to.",
+  "lesson": null,
+  "keywords": [
+   "Shehecheyanu",
+   "brachah",
+   "archival recording",
+   "5730",
+   "1970"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "fragment",
+  "story_type": [],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1970-01-16",
+   "hebrew": "9 Shevat 5730",
+   "hebrew_year": 5730,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Date from the filename title; the audio itself gives no date."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "brachos"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "language": {
+  "primary": "he",
+  "spoken": [
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "poor",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Only the brachah is heard (about 7-14 s); ASR repeats 'Elohim' several times. Speaker and occasion unknown."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "low",
+   "calendar": "low",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Who recites the Shehecheyanu and on what occasion (possibly a farbrengen around Yud Shevat 5730)?",
+   "Decide whether this short clip should be listed at all."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Brachah%20Shehecheyanu%2C%209%20Shevat%205730.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Brachah Shehecheyanu, 9 Shevat 5730.mp3",
+  "size_bytes": 317711,
+  "mime_type": "audio/mpeg"
+ }
+}

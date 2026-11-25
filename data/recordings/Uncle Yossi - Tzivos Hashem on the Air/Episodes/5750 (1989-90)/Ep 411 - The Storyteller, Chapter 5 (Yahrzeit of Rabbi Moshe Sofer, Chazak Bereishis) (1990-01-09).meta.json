@@ -1,0 +1,356 @@
+{
+ "id": "7dd6bcc0fc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "411",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 411 - The Storyteller, Chapter 5 (Yahrzeit of Rabbi Moshe Sofer, Chazak Bereishis) (1990-01-09).mp3",
+  "duration_sec": 1829.614,
+  "filename_facts": {
+   "episode_number": 411,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 411,
+   "story": "The storyteller #5",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 411: The Storyteller, Chapter 5 (Yahrzeit of Rabbi Moshe Sofer, Chazak Bereishis)",
+  "title_basis": "master_catalog",
+  "summary_short": "The yahrzeit of Rabbi Moshe Sofer of Pshevorsk, the Hakochainik march, Shema with a first-grade class, chapter 5 of The Storyteller, a Chanukah art letter, and why we call out Chazak.",
+  "summary_long": "Broadcast on 12 Teves 5750. Uncle Yossi marks the yahrzeit of Rabbi Moshe Sofer of Pshevorsk, author of Ohr Pnei Moshe, whom Rabbi Zusha of Anipoli saw learning with a face like an angel while sparks flew from the letters he wrote; Uncle Yossi mentions his own family descends from him. After the Hakochainik march and a recap, a first-grade class from a Boro Park girls' school says the Shema. In chapter 5 of The Storyteller, Rabbi Yehuda stays at the merchant's mansion until after Shabbos but still cannot remember any story. The merchant says they must wait for 'the right time' and sends him home by coach in tears, but the coach suddenly stops and Rabbi Yehuda runs back: he has remembered one story. The mailbox shows a girl's Chanukah string of drawings and her first Chumash words, and Uncle Yossi notes the show is now 411 weeks old. He then explains why everyone calls out 'Chazak, Chazak, V'nis'chazek' this Shabbos as Bereishis is completed with Parshas Vayechi, followed by candle time and the sponsor.",
+  "lesson": "Be patient and never give up; Hashem's help comes at the right time.",
+  "keywords": [
+   "yahrzeit",
+   "Ohr Pnei Moshe",
+   "mansion",
+   "coach",
+   "Havdalah",
+   "mailbox",
+   "Chanukah drawings",
+   "Chazak",
+   "Chumash Bereishis",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 411,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-01-09",
+   "hebrew": "12 Teves 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the twelfth day of Teves'; Shabbos Parshas Vayechi; candle lighting 'this coming Friday, the 12th of January' at 4:30."
+  },
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 5
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Letter writer named in full with her town and parents' names; a visiting class identified by school and teacher.",
+    "at_sec": 1194
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_moshe_sofer_of_pshevorsk",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Rabbi Yitzchak, the wealthy merchant",
+   "the coachman"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "baal_shem_tov_and_students",
+   "parsha",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "savlanus",
+   "bitachon",
+   "hasmadah",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shema",
+   "torah_study",
+   "kavod_shul",
+   "hachnasas_orchim",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "shabbos_chazak"
+  ],
+  "parshiyos": [
+   "vayechi"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 17,
+   "end_sec": 51,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 51,
+   "end_sec": 262,
+   "type": "talk",
+   "title": "Yud-Beis Teves: Yahrzeit of Rabbi Moshe Sofer of Pshevorsk",
+   "summary": "The greatness of the Ohr Pnei Moshe, as seen by Rabbi Zusha of Anipoli.",
+   "people": [
+    "rabbi_moshe_sofer_of_pshevorsk",
+    "rabbi_zusha_of_anipoli"
+   ],
+   "linked_items": [
+    "b98423e1d3"
+   ]
+  },
+  {
+   "start_sec": 262,
+   "end_sec": 421,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 421,
+   "end_sec": 575,
+   "type": "story_intro",
+   "title": "Story time: the story so far"
+  },
+  {
+   "start_sec": 575,
+   "end_sec": 750,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 750,
+   "end_sec": 1105,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 5",
+   "summary": "After Shabbos, Rabbi Yehuda leaves the mansion in despair, but his coach stops and he runs back, having remembered one story.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 5
+  },
+  {
+   "start_sec": 1105,
+   "end_sec": 1521,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: A Chanukah String of Drawings",
+   "summary": "A listener sends a string of Chanukah drawings and her first handwritten words of Chumash."
+  },
+  {
+   "start_sec": 1521,
+   "end_sec": 1712,
+   "type": "talk",
+   "title": "Chazak, Chazak, V'nis'chazek: Finishing Bereishis",
+   "summary": "Why the whole shul calls out Chazak when Parshas Vayechi completes the first Chumash.",
+   "calendar": [
+    "shabbos_chazak"
+   ],
+   "linked_items": [
+    "ceee8944c0"
+   ]
+  },
+  {
+   "start_sec": 1712,
+   "end_sec": 1750,
+   "type": "announcement",
+   "title": "Shabbos candle time"
+  },
+  {
+   "start_sec": 1750,
+   "end_sec": 1776,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1776,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "b98423e1d3",
+   "evidence": "text_overlap",
+   "confidence": 0.64,
+   "note": "'Yahrtzeit R'Moshe Sofer 411' = 51-275 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "ceee8944c0",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Chazak Bereishis 411' = 1521-1708 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "7e9d4fa376",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 410 = 'The storyteller #4', 411 = '#5'; the recap matches chapter 4."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "7e9d4fa376",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 410 ch. 4 and ep 411 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "9184a83a28",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 411 ch. 5 and ep 412 ch. 6 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Candle times, sponsor phone and address are period pieces. On air: 'this week marks number 411', i.e. 411 weeks since the show began."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Bender",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 618,
+    "end_sec": 750
+   },
+   {
+    "name": "Morah Nechama",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (named in the thank-you; possibly the same teacher)",
+    "start_sec": 709,
+    "end_sec": 720
+   },
+   {
+    "name": "Leah Shoshana Morgan",
+    "role": "mailbox_letter",
+    "group": "Hoffman Estates, Illinois",
+    "start_sec": 1194,
+    "end_sec": 1491,
+    "note": "Sent a string of Chanukah drawings and her handwritten first verses of Bereishis."
+   },
+   {
+    "name": "Esther Yehudis (Morgan)",
+    "role": "other",
+    "group": "Mother of the letter writer",
+    "start_sec": 1460,
+    "end_sec": 1491
+   },
+   {
+    "name": "Aaron Yosef (Morgan)",
+    "role": "other",
+    "group": "Father of the letter writer",
+    "start_sec": 1460,
+    "end_sec": 1491
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Letter writer's parents named and thanked for their card.",
+    "start_sec": 1460,
+    "end_sec": 1491
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:22:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20411%20-%20The%20Storyteller%2C%20Chapter%205%20%28Yahrzeit%20of%20Rabbi%20Moshe%20Sofer%2C%20Chazak%20Bereishis%29%20%281990-01-09%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 411 - The Storyteller, Chapter 5 (Yahrzeit of Rabbi Moshe Sofer, Chazak Bereishis) (1990-01-09).mp3",
+  "size_bytes": 21956239,
+  "mime_type": "audio/mpeg"
+ }
+}

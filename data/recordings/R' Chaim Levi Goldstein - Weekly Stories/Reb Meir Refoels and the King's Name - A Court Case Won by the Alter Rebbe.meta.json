@@ -1,0 +1,225 @@
+{
+ "id": "b3e66d649f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "R Meir Refaels Malchusa",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Meir Refoels and the King's Name - A Court Case Won by the Alter Rebbe.mp3",
+  "duration_sec": 1265.906,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Meir Refoels and the King's Name: A Court Case Won by the Alter Rebbe",
+  "title_basis": "content",
+  "summary_short": "For Hei Teves, another court victory: two Vilna partners falsely accused of tax fraud are freed by a teaching of the Alter Rebbe, and Reb Meir Refoels becomes a Chassid.",
+  "summary_long": "In the week of Hei Teves, the day the court case over the Rebbe's library was won, the storyteller tells of an earlier court victory through the Alter Rebbe, after singing 'I Believe in Hashem'. A Chassid on his way to the Alter Rebbe stops in a Vilna shul, and a wealthy man, Reb Moshe, persuades him to come for the Shabbos meals. At the end of each meal Reb Moshe sighs: he and his partner, vodka merchants, have been falsely accused of cheating on taxes and sentenced to three years of hard labor in Siberia, and their appeal is weeks away. The guest urges them to visit the Alter Rebbe. Unsure, they ask Reb Meir Refoels, head of the community, who has already seen one miracle and decides to let them go and watch what happens. The Alter Rebbe tells them only why 'the kingdom on earth is like the Kingdom of Heaven': neither the king nor Hashem is called by his real name. Disappointed, they travel to Petersburg, where in the royal park they mistake the Minister of Education for the Minister of Justice. He asks them the very question the Czar had asked him that morning, they repeat the Alter Rebbe's answer, and their case is dropped. Reb Meir sees the Rebbe's ruach hakodesh and becomes his Chassid.",
+  "lesson": "A tzaddik's words may not make sense at first, but they hold the help we need; trust them.",
+  "keywords": [
+   "court case",
+   "tax accusation",
+   "vodka business",
+   "Siberia",
+   "Shabbos guest",
+   "royal park",
+   "Minister of Education",
+   "Czar's question",
+   "king's name"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Hei Teves (year not stated)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'This week started off with a big Yom Tov, Hei Teves'; no year given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hating judge sentences two innocent Jews to hard labor in Siberia; they are freed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Dovid, a Chassid",
+   "the shammes",
+   "Reb Moshe, the wealthy host",
+   "his partner Shmuel",
+   "the Minister of Education"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "chassidim",
+   "hiskashrus"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "shabbos",
+   "torah_study"
+  ],
+  "calendar": [
+   "hei_teves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "'Our Chachamim say' the kingdom on earth is like the Kingdom of Heaven (malchusa d'ara k'ein malchusa d'rakia)."
+   },
+   {
+    "work": "chumash",
+    "note": "Moshe Rabbeinu asks Hashem what His name is."
+   }
+  ],
+  "places": [
+   "Vilna",
+   "Liozna",
+   "Petersburg",
+   "Siberia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 66,
+   "type": "talk",
+   "title": "Hei Teves and another court victory",
+   "calendar": [
+    "hei_teves"
+   ]
+  },
+  {
+   "start_sec": 66,
+   "end_sec": 95,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 95,
+   "type": "story",
+   "title": "The partners and the king's name",
+   "summary": "The Alter Rebbe's answer to a question about kings frees two falsely accused partners, and Reb Meir Refoels becomes a Chassid.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_meir_refoels"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "trailing_silence"
+  ],
+  "trim": {
+   "content_end_sec": 1254.3,
+   "note": "Speech ends about 12 seconds before the end of the file."
+  },
+  "publish_recommendation": "publish",
+  "notes": "Second of the two Reb Meir Refoels miracle stories; it refers back to the agunah story."
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "38a2448562",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Reb Meir Refoels and the Alter Rebbe's Lesson on Kingship' (Stories), told by unknown teller."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "And Belin Eder, I want to do it each time, because every time we sing it, we think about the words, it strengthens our Emunah and B'tachin.",
+   "at_sec": 37
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:40:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Reb%20Meir%20Refoels%20and%20the%20King%27s%20Name%20-%20A%20Court%20Case%20Won%20by%20the%20Alter%20Rebbe.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Meir Refoels and the King's Name - A Court Case Won by the Alter Rebbe.mp3",
+  "size_bytes": 15191810,
+  "mime_type": "audio/mpeg"
+ }
+}

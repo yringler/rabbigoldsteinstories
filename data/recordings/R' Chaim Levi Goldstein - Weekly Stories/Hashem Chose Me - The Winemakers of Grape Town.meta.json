@@ -1,0 +1,243 @@
+{
+ "id": "f1c56fd994",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Hashem Chose ME",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Chose Me - The Winemakers of Grape Town.mp3",
+  "duration_sec": 1465.216,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-022' stripped"
+  ]
+ },
+ "display": {
+  "title": "Hashem Chose Me: The Winemakers of Grape Town",
+  "title_basis": "filename",
+  "summary_short": "Why did Hashem say 'your G-d' to each Jew at Har Sinai? Three stories, ending with the winemakers of Grape Town, teach that every one of us must do our own part.",
+  "summary_long": "Just after Shavuos, the storyteller asks why the Ten Commandments begin 'I am Hashem your G-d' in the singular, when Hashem was speaking to millions. The answer: Hashem spoke to each Jew as if he were the only one there, so each of us carries the full responsibility and strength to keep the mitzvos. Two short stories set it up. When the Alter Rebbe hosted guests, every helper in the kitchen salted the soup, each thinking no one else would; the Alter Rebbe ate it without complaint, having trained himself under the Maggid not to notice taste. A Rebbe, perhaps the Rebbe Rashab, ate a whole pot of cholent ruined with kerosene so that the kitchen girl would not be shamed. Then the main story: the king will visit Grape Town, famous for its wine, and each resident is to pour a gallon of his best wine into one great barrel. Each one decides a gallon of water will not be noticed, and the king is served pure water. The storyteller ends with the Rebbe's teaching that no one may rely on others to bring Moshiach.",
+  "lesson": "Do not rely on others to do what needs doing: each of us must do our own part, because our mitzvah may be the one that brings the Geulah.",
+  "keywords": [
+   "Ten Commandments",
+   "salty soup",
+   "cholent",
+   "kerosene",
+   "wine barrel",
+   "Grape Town",
+   "king",
+   "water"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Shortly after Shavuos",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'We just came from Shavuos'; no year given."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Alter Rebbe's Rebbetzin",
+   "the cook",
+   "the kitchen girl",
+   "Beryl the baker",
+   "Gershon the grocer",
+   "Yechiel the shoemaker",
+   "the mayor",
+   "the king"
+  ],
+  "topics": [
+   "character",
+   "chabad_rebbeim",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "responsibility",
+   "ahavas_yisroel",
+   "self_control",
+   "emes"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:2",
+    "note": "'I am Hashem your G-d' in the singular."
+   },
+   {
+    "work": "midrash",
+    "note": "Hearing the Ten Commandments on Shavuos is like standing at Har Sinai."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "No one may rely on others to bring Moshiach."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "One mitzvah can tip the scale and bring the Geulah."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 371,
+   "type": "talk",
+   "title": "Why 'your G-d' in the singular?",
+   "summary": "At Har Sinai Hashem spoke to each Jew as if he were the only one there."
+  },
+  {
+   "start_sec": 371,
+   "end_sec": 598,
+   "type": "story",
+   "title": "The Alter Rebbe and the salty soup",
+   "people": [
+    "alter_rebbe",
+    "maggid_of_mezritch"
+   ]
+  },
+  {
+   "start_sec": 598,
+   "end_sec": 793,
+   "type": "story",
+   "title": "The cholent that was eaten to save a girl's honor",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 793,
+   "end_sec": 1313,
+   "type": "story",
+   "title": "The winemakers of Grape Town"
+  },
+  {
+   "start_sec": 1313,
+   "type": "closing",
+   "title": "Every Jew's part in bringing Moshiach"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The narrator is unsure which Rebbe ate the cholent ('I think it was the Rebbe Rashab, but I'm not sure')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Chose%20Me%20-%20The%20Winemakers%20of%20Grape%20Town.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Chose Me - The Winemakers of Grape Town.mp3",
+  "size_bytes": 17583587,
+  "mime_type": "audio/mpeg"
+ }
+}

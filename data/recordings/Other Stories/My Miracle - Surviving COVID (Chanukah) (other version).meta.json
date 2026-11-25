@@ -1,0 +1,191 @@
+{
+ "id": "ee84a13b26",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "My Miracle",
+  "audio_path": "audio/Other Stories/My Miracle - Surviving COVID (Chanukah) (other version).mp3",
+  "duration_sec": 348.587,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "My Miracle: Surviving COVID (Chanukah)",
+  "title_basis": "filename",
+  "summary_short": "A short Chanukah telling of how the storyteller survived a critical case of COVID, and his thanks to Hashem and to everyone who davened for him.",
+  "summary_long": "Because Chanukah is the time to publicize miracles, the storyteller shares his own. In the week of Purim he fell ill, tested positive for COVID and was intubated and kept in an induced coma for about a month. His lungs stopped working, the doctors did everything they could, and his family was being prepared for the worst, until Hashem turned things around. His children had no explanation except that Hashem runs the world and still has missions for him. He thanks all of Klal Yisroel for their prayers and tells of a six-year-old who told his father that davening works when he saw the storyteller walking in the street. He remembers nothing of the weeks he was unconscious, only waking up to learn he had missed Pesach. This short recording ends just as he begins to share more highlights; a longer telling of the same story exists.",
+  "lesson": "Only Hashem runs the world, and davening works.",
+  "keywords": [
+   "COVID",
+   "hospital",
+   "induced coma",
+   "recovery",
+   "prayer",
+   "miracle",
+   "770"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-12",
+   "hebrew": "Chanukah 5781 (probable)",
+   "hebrew_year": 5781,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'Good Chanukah'; COVID illness from Purim to Pesach, recovery recent. Year inferred."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "The narrator describes being critically ill with COVID, on full oxygen, with his family told to prepare for the worst."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "health_info",
+    "note": "The narrator, who names himself, describes his own critical illness.",
+    "at_sec": 20
+   },
+   {
+    "flag": "identifiable_living_people",
+    "note": "The narrator names himself.",
+    "at_sec": 1
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "a six-year-old boy who saw that davening works"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "miracles",
+   "prayer_and_brachos",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "hakaras_hatov",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "770 Eastern Parkway"
+  ]
+ },
+ "relations": [
+  {
+   "type": "superseded_by",
+   "target_id": "3fecbf9b28",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Preferred version: an earlier, shorter take of the same Chanukah testimony that stops abruptly at 5:29."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "3fecbf9b28",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Alternate take / cut of the same material."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end",
+   "time_bound_content",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Other version of 3fecbf9b28 ('chanuka - my miracle'), the preferred copy: an earlier, shorter take of the same Chanukah testimony that stops abruptly at 5:29. Ends abruptly at 5:29 right after 'I would like to share... some interesting highlights'; probably an early or cut take. The longer version is 3fecbf9b28."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Levi Goldstein",
+    "role": "other",
+    "start_sec": 0,
+    "end_sec": 31,
+    "note": "The narrator introduces himself; later called 'Rabbi Goldstein'."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "The narrator describes his own COVID-19 illness from the week of Purim: intubated, induced coma about a month, lungs failing, proned on 100% oxygen.",
+    "start_sec": 20,
+    "end_sec": 330
+   }
+  ]
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Personal health story of a living person; confirm publication."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/My%20Miracle%20-%20Surviving%20COVID%20%28Chanukah%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/My Miracle - Surviving COVID (Chanukah) (other version).mp3",
+  "size_bytes": 4184019,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "id": "09ded4ae6f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tisha B'Av 337",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Song of Eicha - Music, Hope and Tisha B'Av (Ep 337).mp3",
+  "duration_sec": 508.501,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 337,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 337,
+   "story": "The Dike",
+   "topic": "איכה. ט' אב",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Song of Eicha: Music, Hope and Tisha B'Av",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains why music is a gift from Hashem, shares the ancient tune of Eicha, and explains how Tisha B'Av is kept when it falls on Shabbos.",
+  "summary_long": "A Tisha B'Av segment from the Tzivos Hashem radio show, framed by the chanting of Eicha. Uncle Yossi explains that music is one of Hashem's greatest gifts: it can lift a person up or bring him down, which is why the Levi'im sang in the Beis HaMikdash, and why 'Az Yashir' hints at the song we will sing when Moshiach comes. Though we have not listened to music during the Three Weeks, there is one tune we sing even on Tisha B'Av: the age-old melody of Eicha, a song of exile, hope and prayer, ending with 'Hashiveinu'. He then explains that this year Tisha B'Av falls on Shabbos, so the fast is postponed to Sunday and begins right after Shabbos, when everyone goes to shul for Maariv and Eicha. He prays that Hashem turn Tisha B'Av into a day of rejoicing.",
+  "lesson": "Even in golus the Jewish people sing a song of hope, and we pray that Hashem turn Tisha B'Av into a Yom Tov.",
+  "keywords": [
+   "Eicha",
+   "Lamentations",
+   "music",
+   "Levi'im",
+   "Az Yashir",
+   "fast",
+   "Hashiveinu"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 337,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-07-19",
+   "hebrew": "5 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Date of episode 337; confirmed by 'this coming Shabbos is Tisha B'Av' (9 Av 5748 fell on Shabbos)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Tisha B'Av and the destruction of the Beis HaMikdash, explained gently.",
+    "at_sec": 377
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "teshuvah"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "three_weeks",
+   "nine_days"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Sanhedrin 91b",
+    "note": "Cited as 'our Chachamim': 'Az Yashir' in the future tense hints at the song of the Geulah."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0d4dd89383",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 1187,
+   "note": "Episode 337 (filename number); clip = 1187-1695 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "9cef1efc9e",
+   "evidence": "text_overlap",
+   "confidence": 0.73,
+   "note": "Text match in episode 238 (1217-1725 s)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6c110183df",
+   "evidence": "text_overlap",
+   "confidence": 0.71,
+   "note": "Text match in episode 287 (1207-1716 s)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c8f2c07973",
+   "evidence": "text_overlap",
+   "confidence": 0.65,
+   "note": "Text match in episode 389 (1208-1717 s)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c69b013e95",
+   "evidence": "text_overlap",
+   "confidence": 0.63,
+   "note": "Text match in episode 488 (1252-1761 s); also an audio-fingerprint candidate."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening Eicha chant is garbled in the transcript. The Tisha B'Av-on-Shabbos rules apply only to years when the fast is postponed. Lower text-match scores in other episodes may mean only the music talk was reused."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Other airings (238, 287, 389, 488) have 0.63-0.73 text containment; the postponed-fast part may differ there."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:40Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Song%20of%20Eicha%20-%20Music%2C%20Hope%20and%20Tisha%20B%27Av%20%28Ep%20337%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Song of Eicha - Music, Hope and Tisha B'Av (Ep 337).mp3",
+  "size_bytes": 6103116,
+  "mime_type": "audio/mpeg"
+ }
+}

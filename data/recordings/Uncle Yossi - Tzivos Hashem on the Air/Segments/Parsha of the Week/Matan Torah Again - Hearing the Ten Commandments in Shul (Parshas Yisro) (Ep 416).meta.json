@@ -1,0 +1,161 @@
+{
+ "id": "265e6ceeb7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Matan Torah 416",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Matan Torah Again - Hearing the Ten Commandments in Shul (Parshas Yisro) (Ep 416).mp3",
+  "duration_sec": 510.791,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 416,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 416,
+   "story": "The three loaves of bread",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Matan Torah Again: Hearing the Ten Commandments in Shul (Parshas Yisro)",
+  "title_basis": "content",
+  "summary_short": "Why the reading of the Ten Commandments in Parshas Yisro is like receiving the Torah at Har Sinai all over again, and why every child should be in shul for it.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show. Uncle Yossi does a little arithmetic with the listeners: the Torah was given in the year 2448, so in 5750 Matan Torah was 3,302 years ago. Why, then, is everyone excited about it now? The Alter Rebbe taught that we must 'live with the times', and the Mitteler Rebbe explained that this means living with the weekly parsha. This week is Parshas Yisro, when the Ten Commandments are read in shul. Uncle Yossi describes what happens: the shul falls silent, everyone stands and faces the Torah, and each person pictures himself at Har Sinai saying 'Na'aseh v'nishma.' Just as no Jew was missing at Har Sinai, every child and family member should be in shul, and we pray to hear soon the great shofar announcing Moshiach.",
+  "lesson": "Live with the weekly parsha; when the Ten Commandments are read, be there and receive the Torah anew.",
+  "keywords": [
+   "Ten Commandments",
+   "Har Sinai",
+   "arithmetic",
+   "Torah reading",
+   "shul",
+   "Na'aseh v'nishma",
+   "great shofar"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 416,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-02-13",
+   "hebrew": "18 Shevat 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This year is 5750'; Parshas Yisro this coming Shabbos; date of episode 416."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "torah_study",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kavod_shul",
+   "aseres_hadibros"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "yisro"
+  ],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "ac13894ea5",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 48,
+   "note": "Episode 416 (filename number); clip = 48-559 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The '3,302 years ago' figure is tied to 5750."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:51:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Matan%20Torah%20Again%20-%20Hearing%20the%20Ten%20Commandments%20in%20Shul%20%28Parshas%20Yisro%29%20%28Ep%20416%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Matan Torah Again - Hearing the Ten Commandments in Shul (Parshas Yisro) (Ep 416).mp3",
+  "size_bytes": 6130396,
+  "mime_type": "audio/mpeg"
+ }
+}

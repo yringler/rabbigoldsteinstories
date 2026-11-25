@@ -1,0 +1,187 @@
+{
+ "id": "09853315db",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "negel vasser 3",
+  "audio_path": "audio/Other Stories/Matzliach and the Mitzvah of Negel Vasser/Matzliach and the Mitzvah of Negel Vasser, Part 3.mp3",
+  "duration_sec": 951.118,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "3",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Matzliach and the Mitzvah of Negel Vasser, Part 3",
+  "title_basis": "content",
+  "summary_short": "The passengers gladly take Matzliach's gold. Alone and penniless in a forest, he hides from armed robbers and slips into their hidden cave full of treasure.",
+  "summary_long": "The passengers agree to share Matzliach's gold in return for a little less water, and every day he receives a second container, so he can wash, say brachos, put on tefillin and daven. When the caravan leaves the desert, Matzliach, now without money or a camel, thanks the chief, who had also let him rest on Shabbos, and sets off alone through a forest with his tallis and tefillin, eating berries and trusting in Hashem. At nightfall he finds a stone oven with warm coals, and before lying down he searches for water and finds a clear pond to fill his negel vasser cup. Suddenly a band of armed robbers arrives, dragging a prisoner in chains: the caravan chief. Hiding in a tree, Matzliach watches them roll aside a great rock and enter a hidden cave. In the morning, after they leave, he levers the rock open with a branch, eats only food he knows is kosher, and discovers an underground hall filled with treasures. To be continued.",
+  "lesson": "Hashem watches over a Jew who trusts in Him and keeps His mitzvos even when alone.",
+  "keywords": [
+   "forest",
+   "pond",
+   "stone oven",
+   "robbers",
+   "prisoner in chains",
+   "hidden cave",
+   "rock",
+   "treasure"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "negel-vasser",
+   "part_number": 3,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "An armed band of robbers with guns, swords and knives; the hero hides from them."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The robbers drag a prisoner in chains."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Matzliach, a young scholar and spice merchant of Baghdad",
+   "the caravan chief",
+   "the robbers"
+  ],
+  "topics": [
+   "morning_routine",
+   "emunah_bitachon",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "courage",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "kashrus",
+   "shabbos",
+   "tefillin"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Baghdad"
+  ]
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "234db79ac9",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 1: 'negel vasser 1'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "bae411ef9d",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2: 'negel vasser 2'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1a993b1bd5",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 4: 'negel vasser 4'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "continues",
+   "target_id": "bae411ef9d",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Picks up exactly where part 2 ends."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f34861c52d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Negel Vasser Test, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Continues directly from part 2 without a recap; no intro song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:42:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's s..."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Matzliach%20and%20the%20Mitzvah%20of%20Negel%20Vasser/Matzliach%20and%20the%20Mitzvah%20of%20Negel%20Vasser%2C%20Part%203.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Matzliach and the Mitzvah of Negel Vasser/Matzliach and the Mitzvah of Negel Vasser, Part 3.mp3",
+  "size_bytes": 11414182,
+  "mime_type": "audio/mpeg"
+ }
+}

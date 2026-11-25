@@ -1,0 +1,325 @@
+{
+ "id": "b35e60b8a2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "209",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 209 - The Lost Letter, Conclusion (Tu B'Shvat) (1986-01-21).mp3",
+  "duration_sec": 1814.001,
+  "filename_facts": {
+   "episode_number": 209,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 209,
+   "story": "The lost letter #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 209: The Lost Letter, Conclusion (Tu B'Shvat)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Tu B'Shvat lesson on people as trees whose fruits are good deeds, Shema with a young guest, the ending of 'The Lost Letter', and Mitzvah Time on stacking holy books.",
+  "summary_long": "Broadcast the week of Tu B'Shvat 5746, which fell on Shabbos. Uncle Yossi explains that the Mishnah lists several 'Rosh Hashanahs', including the New Year for trees on the fifteenth of Shevat. We eat the fruits for which the Torah praises Eretz Yisroel, say Borei Pri Ha'etz and Shehecheyanu on a new fruit, and learn from the tree: a person is like a tree of the field, and our fruits are our mitzvos and good deeds. After the Hakochainik march and the Shema with a young guest, 'The Lost Letter' concludes. Leibel, now poor, travels to the wealthy Reb Shalom, insists on handing him the Baal Shem Tov's letter in person, and is let in. Reb Shalom recognizes his teacher's seal and weeps as he reads it aloud: Leibel failed to value a blessing and has paid for it, and Reb Shalom must now set him back on his feet. The letter is dated that very day. In Mitzvah Time, Uncle Yossi teaches that no sefer may be placed on top of a Chumash, while Nevi'im and Kesuvim are equal to each other. The show closes with Tu B'Shvat wishes.",
+  "lesson": "Value every blessing, especially a tzaddik's; and like a tree, a person is known by the fruits of his good deeds.",
+  "keywords": [
+   "fruit trees",
+   "seven species",
+   "Shehecheyanu",
+   "sealed letter",
+   "mansion",
+   "guard",
+   "seal",
+   "Chumash",
+   "Tanach"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1986-01-21",
+   "hebrew": "11 Shevat 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'This coming Shabbos Kodesh is the fifteenth of Shevat' (Tu B'Shvat 5746 = Saturday 25 Jan 1986); the Tuesday before is 21 Jan, matching the weekly estimate."
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 3
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 209,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest is named on air.",
+    "at_sec": 735
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Leib (Leibel)",
+   "Reb Shalom",
+   "Leibel's wife",
+   "the gate guard"
+  ],
+  "topics": [
+   "calendar",
+   "baal_shem_tov_and_students",
+   "hiskashrus",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "chesed",
+   "kabbalas_ol",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "brachos",
+   "kavod_shul",
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [
+   "tu_bshvat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Rosh Hashanah 1:1",
+    "note": "'In the Mishnah we learn' that there are several Rosh Hashanahs, including one for trees."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 8:8",
+    "note": "The fruits for which Eretz Yisroel is praised."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 20:19",
+    "note": "'Man is a tree of the field.'"
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 12,
+   "end_sec": 45,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 340,
+   "type": "talk",
+   "title": "Tu B'Shvat: Rosh Hashanah for the Trees",
+   "summary": "The New Year for trees, the special fruits and their brachos, and how our good deeds are our fruits.",
+   "calendar": [
+    "tu_bshvat"
+   ],
+   "linked_items": [
+    "a199630f7e"
+   ]
+  },
+  {
+   "start_sec": 340,
+   "end_sec": 604,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 604,
+   "end_sec": 714,
+   "type": "story_intro",
+   "title": "Recap: The Lost Letter",
+   "summary": "After ten years of losses, Leibel finds the Baal Shem Tov's letter."
+  },
+  {
+   "start_sec": 714,
+   "end_sec": 828,
+   "type": "shema_guest",
+   "title": "Shema with a young guest"
+  },
+  {
+   "start_sec": 828,
+   "end_sec": 861,
+   "type": "sponsor",
+   "title": "Sponsor dedication"
+  },
+  {
+   "start_sec": 861,
+   "end_sec": 1480,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Conclusion",
+   "summary": "Leibel delivers the letter to Reb Shalom, who reads the Baal Shem Tov's instructions to restore Leibel's fortune.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1480,
+   "end_sec": 1625,
+   "type": "halachah",
+   "title": "Mitzvah Time: Which Sefer Goes on Top",
+   "summary": "Nothing is placed on a Chumash; Nevi'im and Kesuvim are equal.",
+   "linked_items": [
+    "2d0d3bd8bd"
+   ]
+  },
+  {
+   "start_sec": 1625,
+   "end_sec": 1729,
+   "type": "announcement",
+   "title": "Mitzvah Time phone quiz, Tu B'Shvat on Shabbos, and recruiting friends",
+   "calendar": [
+    "tu_bshvat"
+   ]
+  },
+  {
+   "start_sec": 1729,
+   "type": "closing",
+   "title": "Closing and sponsor"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "2d0d3bd8bd",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'Sifrei Kodesh 209' = 1488-1624 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "a199630f7e",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "'Tu B'Shvat 209' = 44-360 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "70655704ec",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "The Lost Letter continues from episode 208 (recap on air; catalog #1 -> #2)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "89da57355d",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The Tu B'Shvat talk (44-360 s, clip 'Tu B'Shvat 209') also aired in episode 264."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "70655704ec",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1986): ep 208 ch. 2 and ep 209 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mitzvah Time address is said as '322 Kingston Avenue' once (slip for 332). The friend is 'Rabbi Shimon' in episode 208 but 'Reb Shalom' here."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Mutchkin",
+    "role": "shema_guest",
+    "start_sec": 714,
+    "end_sec": 828
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Program sponsored by the Mutchkin brothers and family in memory of their father, Rabbi Peretz.",
+    "start_sec": 828,
+    "end_sec": 861
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Catalog says 'The lost letter #2'; 208 already opened mid-story, so chapter numbering is uncertain and left null. This chapter ends the story."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:02Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20209%20-%20The%20Lost%20Letter%2C%20Conclusion%20%28Tu%20B%27Shvat%29%20%281986-01-21%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 209 - The Lost Letter, Conclusion (Tu B'Shvat) (1986-01-21).mp3",
+  "size_bytes": 21769098,
+  "mime_type": "audio/mpeg"
+ }
+}

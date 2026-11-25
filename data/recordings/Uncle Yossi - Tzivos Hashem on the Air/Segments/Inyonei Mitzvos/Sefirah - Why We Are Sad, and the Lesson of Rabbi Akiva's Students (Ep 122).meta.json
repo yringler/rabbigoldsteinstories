@@ -1,0 +1,189 @@
+{
+ "id": "777566ae04",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefira 122",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefirah - Why We Are Sad, and the Lesson of Rabbi Akiva's Students (Ep 122).mp3",
+  "duration_sec": 337.212,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 122,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 122,
+   "story": "",
+   "topic": "ספירה, עקיבא נט\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Sefirah: Why We Are Sad, and the Lesson of Rabbi Akiva's Students",
+  "title_basis": "content",
+  "summary_short": "Why the radio show had no music during Sefirah: the days of mourning for Rabbi Akiva's students, and the lesson to respect and love every Jew.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, broadcast during Sefiras HaOmer without the usual opening music. Uncle Yossi explains that serving Hashem with joy is a mitzvah, but as Shlomo HaMelech taught, there is a time for everything, including a time to be sad. During the days between Pesach and Shavuos we hold back from celebrations: no new clothes, no new fruits that need Shehecheyanu, no haircuts. The reason is a tragedy long ago: thousands of Rabbi Akiva's students died in a plague because they did not show respect to one another, and the plague ended on Lag BaOmer. These days are a time to check ourselves: do we honor others? Showing respect is a sign of Ahavas Yisroel, which leads to achdus, the unity that protects the Jewish people and will bring Moshiach.",
+  "lesson": "Use the days of Sefirah to check that you show respect to others; Ahavas Yisroel and achdus bring Moshiach.",
+  "keywords": [
+   "no music",
+   "mourning",
+   "Rabbi Akiva's students",
+   "plague",
+   "haircut",
+   "Shehecheyanu",
+   "respect",
+   "unity"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 122,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-05-01",
+   "hebrew": "29 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 122 (Sefirah 5744); re-aired in episodes 224 and 526."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Thousands of Rabbi Akiva's students died in a plague (told briefly).",
+    "at_sec": 166
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "kindness_and_community",
+   "sages"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel",
+   "achdus"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'A time for everything' (Shlomo HaMelech)."
+   }
+  ],
+  "places": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 526."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 224."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 55,
+   "note": "Episode 122 (filename number); clip = 55-393 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens mid-sentence ('Today is different. You noticed there was no music'), referring to the episode's silent opening."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:53Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Sefirah%20-%20Why%20We%20Are%20Sad%2C%20and%20the%20Lesson%20of%20Rabbi%20Akiva%27s%20Students%20%28Ep%20122%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefirah - Why We Are Sad, and the Lesson of Rabbi Akiva's Students (Ep 122).mp3",
+  "size_bytes": 4047384,
+  "mime_type": "audio/mpeg"
+ }
+}

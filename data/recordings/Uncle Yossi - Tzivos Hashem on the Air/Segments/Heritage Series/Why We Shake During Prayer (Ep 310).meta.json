@@ -1,0 +1,209 @@
+{
+ "id": "408d5f35d3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Shukel davening",
+  "filename_title": "Why We Shake During Prayer 310",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Why We Shake During Prayer (Ep 310).mp3",
+  "duration_sec": 1047.558,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 310,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 310,
+   "story": "Why We Shake During Prayer",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Why We Shake During Prayer",
+  "title_basis": "master_catalog",
+  "summary_short": "Why do Jews sway when they daven? The young Frierdiker Rebbe sets a clever test for his father, the Rebbe Rashab, and learns the answer.",
+  "summary_long": "Uncle Yossi begins with the lulav: we shake it in six directions to show we trust Hashem to protect us from every side. Swaying is also a sign of life, and a sign of being a Yid. Then comes the story. At a farbrengen, the nine-year-old Yosef Yitzchak, later the Frierdiker Rebbe, hears his father, the Rebbe Rashab, say that a Jew's body is holy too, and that he can tell a Jew just by looking. Curious, the boy teaches the opening lines of Ashrei to a polite non-Jewish neighbor and to a Jewish friend, drills them until they sound identical and dresses them alike. Yet the Rebbe Rashab picks out the Jewish boy right away. He explains that at Mattan Torah the people trembled before Hashem, and that sway has been passed down to every Jew: the Jewish boy swayed as he read. Uncle Yossi ends: when we 'shake' with more Torah and mitzvos, Hashem will shake Moshiach into coming.",
+  "lesson": "Swaying in prayer is part of every Jew's identity from Har Sinai; shake yourself into more Torah and good deeds.",
+  "keywords": [
+   "shuckling",
+   "swaying in prayer",
+   "lulav",
+   "Ashrei",
+   "two boys",
+   "farbrengen",
+   "Mattan Torah",
+   "Jewish identity"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 310,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-01-12",
+   "hebrew": "22 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Date of the source episode 310 (filename 310 01-12-88)."
+  },
+  "collections": [
+   "Heritage Series 2"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "young Yosef Yitzchak",
+   "a Jewish friend",
+   "a well-mannered non-Jewish neighbor boy"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening",
+   "arba_minim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "ref": "'Nishmasa d'lehon kadisha, gufa d'lehon kadisha'",
+    "note": "Quoted by the Rebbe Rashab: both the soul and the body of a Jew are holy."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:15, 'Vayar ha'am vayanu'u'",
+    "note": "At Mattan Torah the people saw and trembled; the source of swaying in prayer."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 175,
+   "type": "talk",
+   "title": "Why we shake the lulav, and why we shuckle"
+  },
+  {
+   "start_sec": 175,
+   "end_sec": 975,
+   "type": "story",
+   "title": "The Rebbe Rashab and the Two Boys"
+  },
+  {
+   "start_sec": 975,
+   "type": "talk",
+   "title": "A good shake for Moshiach"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "f8e399e249",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Also aired in episode 531."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "937180b0f3",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 729,
+   "note": "Episode 310 (filename number); clip = 729-1776 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "07c3d8ea78",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the talk and story from episode 310. Candidate same-segment clip from episode 531 ('Why we shake during davening 531', 07c3d8ea78) not verified."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Why%20We%20Shake%20During%20Prayer%20%28Ep%20310%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Why We Shake During Prayer (Ep 310).mp3",
+  "size_bytes": 12571575,
+  "mime_type": "audio/mpeg"
+ }
+}

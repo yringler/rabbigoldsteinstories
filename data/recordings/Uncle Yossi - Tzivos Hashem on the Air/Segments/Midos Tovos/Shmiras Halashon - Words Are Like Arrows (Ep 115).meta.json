@@ -1,0 +1,183 @@
+{
+ "id": "212c1a5998",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Shmiras Halashon 115",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Shmiras Halashon - Words Are Like Arrows (Ep 115).mp3",
+  "duration_sec": 231.368,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 115,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 115,
+   "story": "Life in the hands of the tongue #1",
+   "topic": "חפץ חיים",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shmiras Halashon: Words Are Like Arrows",
+  "title_basis": "content",
+  "summary_short": "Following the Chofetz Chaim, Uncle Yossi teaches that our words are like arrows: we control them before we speak, but once spoken they cannot be called back.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi introduces the Chofetz Chaim, the great rabbi named after his famous sefer on shmiras halashon, and his teaching that a person's very life depends on his tongue: words can bring good fortune, or, if we are careless, great harm. Following the Baal Shem Tov's instruction to learn a lesson in serving Hashem from everything we see, he describes a bow and arrow. While the arrow is still on the string, the archer decides when and where to shoot, but once it flies he cannot stop it or change its course. Words are the same: before we speak we can choose the right words and tone, but afterwards it is too late. That is why, our Sages say, Hashem placed the tongue behind two walls, the teeth and the lips, to show how carefully it must be guarded.",
+  "lesson": "Think before you speak, because words, like arrows, cannot be taken back.",
+  "keywords": [
+   "Chofetz Chaim",
+   "bow and arrow",
+   "tongue",
+   "teeth and lips",
+   "words"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 115,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-02",
+   "hebrew": "Adar I 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 115 (Adar I 5744, a leap year per the episode's opening)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "character",
+   "great_rabbis"
+  ],
+  "midos": [
+   "shemiras_halashon",
+   "self_control"
+  ],
+  "mitzvos": [
+   "shemiras_halashon"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: learn how to serve Hashem from everything you see or hear."
+   },
+   {
+    "work": "gemara",
+    "ref": "Arachin 15b",
+    "note": "Hashem guarded the tongue with two walls, the teeth and the lips."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "a890e4740d",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 476."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f8713031b8",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 19."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "29dc93d7ca",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 550,
+   "note": "Episode 115 (filename number); clip = 550-781 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "03f01eb654",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'chofetz chaim 115' is a shorter cut (first 70 s) of this same talk."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete lesson; the story it introduces (Life in the Hands of the Tongue) is not included."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:30Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Shmiras%20Halashon%20-%20Words%20Are%20Like%20Arrows%20%28Ep%20115%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Shmiras Halashon - Words Are Like Arrows (Ep 115).mp3",
+  "size_bytes": 2777525,
+  "mime_type": "audio/mpeg"
+ }
+}

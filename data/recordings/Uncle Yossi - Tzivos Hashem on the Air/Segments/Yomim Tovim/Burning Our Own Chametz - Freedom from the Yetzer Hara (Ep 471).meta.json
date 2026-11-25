@@ -1,0 +1,152 @@
+{
+ "id": "4bb9391f0f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chomet-Yetzer Hara 471",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Burning Our Own Chametz - Freedom from the Yetzer Hara (Ep 471).mp3",
+  "duration_sec": 369.397,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 471,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 471,
+   "story": "The lost letter #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Burning Our Own Chametz: Freedom from the Yetzer Hara",
+  "title_basis": "content",
+  "summary_short": "As we burn the chametz before Pesach, we ask Hashem to help us get rid of our own 'chametz', the yetzer hara, and feel true freedom, the freedom Moshiach will bring.",
+  "summary_long": "A short pre-Pesach talk from the Tzivos Hashem radio show. Uncle Yossi explains that we can truly feel the freedom of Pesach by praying, as we burn the chametz, that Hashem help us burn our own 'chametz' too: the yetzer hara, the little voice that tempts us to do wrong and holds us back from mitzvos. With a pure heart we can serve Hashem in truth. This is what Moshiach is all about: besides rebuilding the Beis HaMikdash and bringing every Jew back to Eretz Yisroel, Moshiach will remove all evil from the world, including the yetzer hara, as we pray in Shemoneh Esrei. The standing order of the day: the next time the yetzer hara bothers you, tell it that its time is up because Moshiach is almost here, and learn more Torah and do more mitzvos instead. The talk ends with the hope to celebrate next Pesach in Yerushalayim.",
+  "lesson": "Clean out your own 'chametz' along with the house: ignore the yetzer hara and do more mitzvos to bring Moshiach closer.",
+  "keywords": [
+   "yetzer hara",
+   "burning chametz",
+   "freedom",
+   "evil inclination",
+   "Beis HaMikdash",
+   "Yerushalayim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 471,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-03-19",
+   "hebrew": "4 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 471, broadcast shortly before Pesach 5751."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "self_control"
+  ],
+  "mitzvos": [
+   "chametz"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Shemoneh Esrei",
+    "note": "The prayer said three times a day that all evil be removed."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:17:10Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "577e0215fd",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 59,
+   "note": "Episode 471 (filename number); clip = 59-428 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Burning%20Our%20Own%20Chametz%20-%20Freedom%20from%20the%20Yetzer%20Hara%20%28Ep%20471%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Burning Our Own Chametz - Freedom from the Yetzer Hara (Ep 471).mp3",
+  "size_bytes": 4433586,
+  "mime_type": "audio/mpeg"
+ }
+}

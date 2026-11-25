@@ -1,0 +1,315 @@
+{
+ "id": "36638e1583",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "234",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 234 - The Island of Treasures (1986-07-15).mp3",
+  "duration_sec": 1746.939,
+  "filename_facts": {
+   "episode_number": 234,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 234,
+   "story": "The island of treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 234: The Island of Treasures",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi marks 234 weeks on the air, an eight-year-old recites a Mishnah about lost objects, and a shipwrecked man becomes king of a mysterious island, with a lesson about this world and the next.",
+  "summary_long": "Uncle Yossi celebrates the 234th program, four and a half years on the air, with listeners across the United States, and hopes to keep broadcasting until Moshiach comes, then from Yerushalayim. After the Hakochainik march and a sponsor message, an eight-year-old yeshiva student leads the Shema and recites by heart the Mishnah 'Eilu metzios' from Bava Metzia, about which found objects may be kept and which must be returned. Story time tells 'The Island of Treasures': the only survivor of a shipwreck is crowned king of an island and spends its whole treasury beautifying it, only to learn that he must leave, in his old rags, as soon as the next castaway arrives. Uncle Yossi explains the mashal from Pirkei Avos: this world is a corridor to the World to Come, and Torah and mitzvos are the treasures we send ahead. The show closes with the last Sefer Torah contest entrants, news of the Tzivos Hashem newsletter, Yud-Beis Tammuz this Shabbos, and the campaign to buy a letter in the children's Sefer Torah.",
+  "lesson": "This world is a corridor to the World to Come; use your time here to learn Torah and do mitzvos, the treasures you send ahead.",
+  "keywords": [
+   "shipwreck",
+   "island",
+   "king",
+   "royal treasury",
+   "rags",
+   "lost objects",
+   "corridor",
+   "World to Come",
+   "Sefer Torah letter",
+   "anniversary"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 234,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1986-07-15",
+   "hebrew": "8 Tammuz 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos is Yud-Beis Tammuz' (Shabbos 12 Tammuz 5746 = 1986-07-19); 'as we told you last week' matches episode 233 on Rosh Chodesh Tammuz. Weekly estimate was 1986-07-14."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm; one man survives.",
+    "at_sec": 947
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest (with age and school) and contest entrants named in full.",
+    "at_sec": 535
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Yisrael, the shipwrecked king",
+   "the islanders",
+   "the servant"
+  ],
+  "topics": [
+   "torah_study",
+   "mitzvos_in_daily_life",
+   "tzivos_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "zerizus",
+   "emes",
+   "achdus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "hashavas_aveidah",
+   "shema",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "Avos 4:16",
+    "note": "'This world is like a corridor before the World to Come', from Rabbi Yaakov."
+   },
+   {
+    "work": "mishnah",
+    "ref": "Bava Metzia 2:1",
+    "note": "'Eilu metzios': found objects that may be kept, recited by the guest."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 9,
+   "type": "opening",
+   "title": "Opening theme"
+  },
+  {
+   "start_sec": 9,
+   "end_sec": 157,
+   "type": "talk",
+   "title": "234 Weeks of Tzivos Hashem on the Air",
+   "summary": "Uncle Yossi marks four and a half years on the air and the stations around the country that carry the program."
+  },
+  {
+   "start_sec": 157,
+   "end_sec": 385,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 385,
+   "end_sec": 479,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 479,
+   "end_sec": 654,
+   "type": "shema_guest",
+   "title": "Shema with an eight-year-old yeshiva student"
+  },
+  {
+   "start_sec": 654,
+   "end_sec": 857,
+   "type": "text_study",
+   "title": "A Mishnah About Lost Objects",
+   "summary": "The guest recites the Mishnah 'Eilu metzios' from Bava Metzia, about which found objects may be kept, after Uncle Yossi explains the duty to return lost things."
+  },
+  {
+   "start_sec": 857,
+   "end_sec": 918,
+   "type": "story_intro",
+   "title": "Story time: this world is a corridor"
+  },
+  {
+   "start_sec": 918,
+   "end_sec": 1380,
+   "type": "story",
+   "title": "The Island of Treasures",
+   "summary": "A shipwrecked man is made king of an island and spends its whole treasury on it, then learns he must leave with nothing when the next castaway arrives."
+  },
+  {
+   "start_sec": 1380,
+   "end_sec": 1469,
+   "type": "talk",
+   "title": "The lesson: sending treasures ahead"
+  },
+  {
+   "start_sec": 1469,
+   "end_sec": 1537,
+   "type": "announcement",
+   "title": "Last contest entrants and the Tzivos Hashem newsletter"
+  },
+  {
+   "start_sec": 1537,
+   "end_sec": 1651,
+   "type": "talk",
+   "title": "Yud-Beis Tammuz This Shabbos",
+   "people": [
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "yud_beis_tammuz"
+   ]
+  },
+  {
+   "start_sec": 1651,
+   "end_sec": 1708,
+   "type": "announcement",
+   "title": "Join the children's Sefer Torah"
+  },
+  {
+   "start_sec": 1708,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "ec81364f6e",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Episode 333 ('333 06-21-88') re-airs the Island of Treasures story and its lesson."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97c9b37c1d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Treasure Island: A Mashal About Freedom and Mitzvos' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Transcript skips about 30 s near 22:30 (the episode 333 copy has the missing lines about 'this world'); check for an audio dropout. Sponsor ad, contest and phone numbers are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Mendy Barber",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah; age 8",
+    "start_sec": 535,
+    "end_sec": 857
+   },
+   {
+    "name": "Rabbi Horowitz",
+    "role": "other",
+    "group": "Yeshiva Ohalei Torah",
+    "start_sec": 806,
+    "end_sec": 830,
+    "note": "The guest's teacher, named on air."
+   },
+   {
+    "name": "Ruchi and Shmuel Meishi Gross",
+    "role": "other",
+    "start_sec": 1469,
+    "end_sec": 1500,
+    "note": "Sefer Torah contest entrants."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Possible audio dropout around 22:30 (transcript gap)."
+  ]
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20234%20-%20The%20Island%20of%20Treasures%20%281986-07-15%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 234 - The Island of Treasures (1986-07-15).mp3",
+  "size_bytes": 20964109,
+  "mime_type": "audio/mpeg"
+ }
+}

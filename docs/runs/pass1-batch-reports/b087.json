@@ -1,0 +1,12 @@
+{
+ "batch_id": "b087",
+ "done": ["04226e5cc2", "c939864b1b", "ce9622aadc"],
+ "failed": [],
+ "notes": [
+  "ce9622aadc ('32 end p 14') holds the end of Tanya ch. 14 (0:20-54:30), then an apparent pause (about 55:00-68:00, verify), then a partial copy of the first ~22 minutes of c939864b1b ('32 begin P 15'), cut off at 89:47 mid-story. c939864b1b is the complete copy. Recorded as aired_again_in (text_overlap); a human should decide whether to trim or label the tail.",
+  "Both files are numbered 32, but c939864b1b opens 'last week we finished chapter 14', so they are consecutive weekly shiurim (relation 'continues' added).",
+  "Dating: 04226e5cc2 was given between Yom Kippur and Sukkos; c939864b1b mentions 'this year, Shnas HaChinuch' (5737). This fits example 3770fac95d (shiur 29, Elul 5736), so the series around shiurim 29-32 is 5736-5737 (1976).",
+  "Siblings outside this batch that probably belong to the sequence: 38f17a669a ('31 P14', likely between 04226e5cc2 and ce9622aadc), 332f976b78 ('30 P 13'), 13f49636bc ('32 seems like tanya double', possibly another copy of shiur 32 or 33). No relations were written to them because their content was not checked.",
+  "04226e5cc2: the mekubal story's year is garbled by ASR (it reads like 5736); it describes a predicted war 'moved into Lebanon' by a tzaddik in New York through the mivtzoim."
+ ]
+}

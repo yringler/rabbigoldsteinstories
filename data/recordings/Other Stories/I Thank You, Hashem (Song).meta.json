@@ -1,0 +1,127 @@
+{
+ "id": "75bc3346d1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "I thank you Hashem wachsman",
+  "audio_path": "audio/Other Stories/I Thank You, Hashem (Song).mp3",
+  "duration_sec": 94.825,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "little_speech_maybe_song",
+   "repetitive_check"
+  ]
+ },
+ "display": {
+  "title": "I Thank You, Hashem (Song)",
+  "title_basis": "filename",
+  "summary_short": "A short song of thanks to Hashem.",
+  "summary_long": "A short recording, about a minute and a half long, of the song \"I Thank You, Hashem.\" Only the opening words are transcribed; the rest of the recording is presumably singing or music, which the transcription does not capture. The song expresses gratitude to Hashem, a theme that runs through the storytelling recordings in this collection, and it may have been used as an opening or closing song for the weekly stories. Listen to the audio for the full words and melody.",
+  "lesson": null,
+  "keywords": [
+   "song",
+   "thank you",
+   "music",
+   "gratitude"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "song",
+  "story_type": [],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "hakaras_hatov"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 95,
+   "type": "song",
+   "title": "I Thank You, Hashem"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "poor",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Only 'I thank you, Hashem' transcribed (0:00-0:02); the remaining ~93 s are presumably the song. Not trimmed; check by ear. 'Wachsman' in the filename may be the singer or composer."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:42:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "low",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Confirm the recording is a song and not silence after the first two seconds; if silent, set trim.content_end_sec to 2 and add trailing_silence.",
+   "Identify who 'Wachsman' in the filename is (singer, composer or a child performer)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/I%20Thank%20You%2C%20Hashem%20%28Song%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/I Thank You, Hashem (Song).mp3",
+  "size_bytes": 1138982,
+  "mime_type": "audio/mpeg"
+ }
+}

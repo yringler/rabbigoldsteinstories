@@ -1,0 +1,188 @@
+{
+ "id": "e20bb7f477",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Following The Tzaddik's Instructions",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Following the Tzaddik's Instructions - The Baal Shem Tov and the Lambskin.mp3",
+  "duration_sec": 1255.265,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Following the Tzaddik's Instructions: The Baal Shem Tov and the Lambskin",
+  "title_basis": "filename",
+  "summary_short": "A poor innkeeper facing prison for unpaid rent is told by the Baal Shem Tov to buy a lambskin and give it to the cruel poritz as a birthday present.",
+  "summary_long": "The story opens with emunas tzaddikim: when a tzaddik gives an instruction, we follow it even if it makes no sense to us. Reb Moshe, a G-d-fearing innkeeper in the time of the Baal Shem Tov, rents his inn from a cruel young poritz who wastes his money on parties and demands the year's rent up front. After hard years Moshe owes two years' rent and is threatened with prison for his whole family. His wife Rivkah urges him to go to the Baal Shem Tov in Mezhibuzh. The Baal Shem Tov teaches him that bitachon comes first, like plugging in a machine, then gives him a silver coin to spend at the market. A peasant sells him a plain lambskin, and the Baal Shem Tov runs his fingers over it and tells him to give it to the poritz at his birthday party. Terrified, Moshe goes, and the poritz orders him locked in the cellar, until a guest unrolls the skin and finds the poritz's name, birth date and emblem woven into it. Delighted, the poritz forgives the debt, gives Moshe the inn and sends gold to the Baal Shem Tov, and Moshe becomes his Chassid.",
+  "lesson": "Trust in Hashem first, and follow a tzaddik's instructions even when you do not understand them; you will always succeed.",
+  "keywords": [
+   "innkeeper",
+   "lambskin",
+   "silver coin",
+   "marketplace",
+   "birthday party",
+   "rent",
+   "prison",
+   "cellar",
+   "gift",
+   "machine plugged in"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor innkeeper cannot pay the rent and his family is threatened with prison."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The innkeeper is briefly locked in the poritz's cellar; resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Moshe the innkeeper",
+   "Rivkah, his wife",
+   "Tadeusz, the poritz",
+   "the peasant at the market",
+   "the doorman"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "emunah_bitachon",
+   "miracles",
+   "hiskashrus"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "emunah",
+   "courage"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Mezhibuzh"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 95,
+   "type": "talk",
+   "title": "Trusting the words of a tzaddik"
+  },
+  {
+   "start_sec": 95,
+   "type": "story",
+   "title": "The Baal Shem Tov and the lambskin",
+   "people": [
+    "baal_shem_tov"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates'/'parrots' for poritz and sometimes 'Moshiach' for Moshe. Ends 'That's the end of the story.'"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:01Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "7515df930a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Baal Shem Tov and the Lambskin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Following%20the%20Tzaddik%27s%20Instructions%20-%20The%20Baal%20Shem%20Tov%20and%20the%20Lambskin.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Following the Tzaddik's Instructions - The Baal Shem Tov and the Lambskin.mp3",
+  "size_bytes": 15064241,
+  "mime_type": "audio/mpeg"
+ }
+}

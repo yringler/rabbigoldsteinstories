@@ -1,0 +1,246 @@
+{
+ "id": "65cc95fe2e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Doctors Dream",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Doctor's Dream (other version).mp3",
+  "duration_sec": 1056.261,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Doctor's Dream",
+  "title_basis": "filename",
+  "summary_short": "A Shabbos-observant doctor in Vitebsk dreams of a tzaddik who tells him to travel to save a life. Later, in Lubavitch, he recognizes the man from his dream: the Rebbe Rashab.",
+  "summary_long": "The storyteller opens with the Rebbe's teaching that in earlier times a Rebbe gave a brachah to whoever asked, but now the Rebbeim give brachos even without being asked; we only need to receive them by doing what the Rebbe asks, such as learning Torah, doing mitzvos and learning Rambam every day. The story: the Rebbe Rashab often sent sick people to Dr. Lieberman of Vitebsk, a G-d-fearing doctor who taught Ein Yaakov in shul and avoided traveling on Shabbos, walking to patients when he had to. One Shabbos afternoon he dreams of a striking tzaddik with a red beard who tells him that when a life is in danger, the Torah requires him to travel. Waking, he washes negel vasser, and the storyteller explains washing after a daytime nap. A farmer is at the door: his daughter is critically ill. The doctor rides out at once and nurses her back to health. Soon after he is called to a patient in Lubavitch, goes in to meet the Rebbe Rashab for the first time, and freezes in astonishment at the face he sees.",
+  "lesson": "The Rebbeim give their brachos even before we ask; we receive them by following their instructions. Saving a life overrides Shabbos, and we wash negel vasser after every sleep.",
+  "keywords": [
+   "dream",
+   "doctor",
+   "Vitebsk",
+   "Lubavitch",
+   "farmer",
+   "sick girl",
+   "wagon",
+   "prescription pad",
+   "telegram",
+   "pikuach nefesh"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A farmer's daughter is dangerously ill and recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Dr. Lieberman of Vitebsk",
+   "the farmer",
+   "the farmer's daughter",
+   "the doctor's servant"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "shabbos",
+   "halachah"
+  ],
+  "midos": [
+   "emunah",
+   "kabbalas_ol",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "shabbos",
+   "rambam_daily"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Vitebsk",
+   "Lubavitch"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe told a secretary that today the Rebbeim give brachos even without being asked."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "note": "'So says the Alter Rebbe': negel vasser beside the bed at night; after a daytime nap one may wash at the sink."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 132,
+   "type": "sichah",
+   "title": "Brachos even without asking",
+   "summary": "The Rebbe's teaching that the Rebbeim give brachos to all, and how we receive them.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 132,
+   "end_sec": 547,
+   "type": "story",
+   "title": "Dr. Lieberman's Shabbos dream",
+   "summary": "A tzaddik in a dream tells the doctor that saving a life comes before not traveling on Shabbos.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 547,
+   "end_sec": 610,
+   "type": "halachah",
+   "title": "Negel vasser after a nap",
+   "summary": "Why we wash after every sleep, and where to wash by night and by day.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 610,
+   "end_sec": 1005,
+   "type": "story",
+   "title": "The face in Lubavitch",
+   "summary": "The doctor saves a farmer's daughter on Shabbos, then meets the Rebbe Rashab.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 1005,
+   "end_sec": 1056,
+   "type": "closing",
+   "title": "The lesson of the story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "ab3187c74c",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'The Rebbe Rashab and The Amazing Dream': same telling word for word; that copy is about 6 s longer and ends with 'Guten Shabbos'."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "ab3187c74c",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Preferred version: same recording, about 6 s shorter, without the closing 'Guten Shabbos'."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of ab3187c74c ('The Rebbe Rashab and The Amazing Dream'), the preferred copy: same recording, about 6 s shorter, without the closing 'Guten Shabbos'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem. There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "'Besht to the Rescue' (ccedcd76fb) opens by recalling this story as last week's; series order may be recoverable."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Doctor%27s%20Dream%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Doctor's Dream (other version).mp3",
+  "size_bytes": 12675899,
+  "mime_type": "audio/mpeg"
+ }
+}

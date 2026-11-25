@@ -1,0 +1,153 @@
+{
+ "id": "97d8a9ddf9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 26",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shavuos Flowers and Dairy Foods - Why We Eat Milchigs (Ep 026).mp3",
+  "duration_sec": 160.544,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 26,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 26,
+   "story": "Saved by a Miracle #1",
+   "topic": "Shavuos",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shavuos Flowers and Dairy Foods: Why We Eat Milchigs",
+  "title_basis": "content",
+  "summary_short": "Why shuls are decorated with flowers on Shavuos, why we eat dairy foods like cheese blintzes, and why every Yom Tov must be filled with joy.",
+  "summary_long": "A short Shavuos talk from the Tzivos Hashem radio show, given just after the holiday. Uncle Yossi recalls hearing the Ten Commandments in shul and the colorful flowers that decorate the shul and the home, a reminder of the flowers that covered Har Sinai when the Torah was given. He explains one reason for eating dairy foods such as cheese blintzes: once the Jewish people received the laws of kashrus at Har Sinai, they could not eat meat until they had learned to prepare it properly, so they ate dairy. Every Shavuos we remember this. Like every Yom Tov, Shavuos is a time of joy, as the Torah commands, and the clip ends as Uncle Yossi announces the return of music after the days of Sefirah.",
+  "lesson": "Shavuos customs remind us of receiving the Torah at Har Sinai, and every Yom Tov is a time to be truly joyful.",
+  "keywords": [
+   "flowers",
+   "Har Sinai",
+   "cheese blintzes",
+   "dairy foods",
+   "meat",
+   "Ten Commandments"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 26,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-06-01",
+   "hebrew": "10 Sivan 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of the source episode 26 (just after Shavuos; Parshas Naso that Shabbos)."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "kashrus"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "kashrus"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 16:14",
+    "note": "'You shall rejoice in your festival.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d4bce1f21a",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 77,
+   "note": "Episode 26 (filename number); clip = 77-238 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('...lovely holiday of Shavuos') and ends on the lead-in to the march, which is not included."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:24:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shavuos%20Flowers%20and%20Dairy%20Foods%20-%20Why%20We%20Eat%20Milchigs%20%28Ep%20026%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shavuos Flowers and Dairy Foods - Why We Eat Milchigs (Ep 026).mp3",
+  "size_bytes": 1927386,
+  "mime_type": "audio/mpeg"
+ }
+}

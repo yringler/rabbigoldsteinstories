@@ -1,0 +1,278 @@
+{
+ "id": "241ca67725",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "56 tanya T23a Y",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 56 - Chapter 23, Mitzvos as the King's Limbs, and Ahavas Yisroel.mp3",
+  "duration_sec": 3331.788,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 56: Chapter 23, Mitzvos as the King's Limbs, and Ahavas Yisroel",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya shiur on chapter 23: Torah and Hashem are one, mitzvos are like the limbs of the King, followed by a talk on loving every Jew.",
+  "summary_long": "Shiur 56 in Rabbi Yosef Goldstein's Yiddish Tanya series. It opens with an introduction: Torah is light, and Chassidus, the inner part of the Torah, teaches us to see the inner side of everything rather than its outer shell. The difference between 'chefetz' (inner desire) and 'ratzon' (outer will) is explained with the example of a man who works only for the sake of the satisfaction it brings; Hashem's inner desire is a dwelling place in this lowest world, and the word 'barasi' hints at the 613 mitzvos. The class then studies Tanya chapter 23: the Zohar calls Torah and Hashem 'entirely one', while the Tikkunim call the mitzvos 'the limbs of the King'. Just as a hand moves the instant a person wills it, the mitzvah act becomes wholly given over to Hashem's will and draws His light into all the worlds. The last part is a talk on Ahavas Yisroel, tied to the Rebbe's new booklet on the subject: the Baal Shem Tov's teaching to love every single Jew, the Alter Rebbe's parable of a tarnished gold cup, the Rambam's laws of loving one's fellow and the convert, and why the Alter Rebbe's siddur places 'I hereby accept the mitzvah of loving my fellow' before davening, as the Frierdiker Rebbe learned at his bar mitzvah.",
+  "lesson": "Every mitzvah joins a Jew to Hashem's innermost will, and nothing gives Hashem more pleasure than seeing one Jew love another; accepting Ahavas Yisroel before davening opens the gates for our prayers.",
+  "keywords": [
+   "inner and outer will",
+   "chefetz and ratzon",
+   "dirah b'tachtonim",
+   "limbs of the King",
+   "613 mitzvos",
+   "Ahavas Yisroel booklet",
+   "tarnished gold cup",
+   "convert",
+   "Mah Tovu",
+   "bar mitzvah question"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1977-02",
+   "hebrew": "Adar 5737",
+   "hebrew_year": 5737,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "The next shiur (57) says '5737' on air and is just before Purim; this one is a week earlier and recalls the recent talk on machatzis hashekel."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "23",
+    "to": "23",
+    "lecture_number": 56,
+    "note": "First half of chapter 23 (daf 28a), up to mitzvos as 'evarin d'malka'."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidus_tanya",
+   "kindness_and_community",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "dan_lkaf_zchus"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "torah_study",
+   "davening",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 23"
+   },
+   {
+    "work": "zohar",
+    "ref": "Oraisa v'Kudsha Brich Hu kula chad; Tikkunei Zohar 30 (248 pikudin)"
+   },
+   {
+    "work": "tehillim",
+    "ref": "146:2"
+   },
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 45:12"
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18; Devarim 10:19"
+   },
+   {
+    "work": "midrash",
+    "ref": "the seventy bulls of Sukkos"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos De'os 6:3-4"
+   },
+   {
+    "work": "siddur",
+    "ref": "the Alter Rebbe's siddur, before Mah Tovu"
+   },
+   {
+    "work": "maamarim",
+    "ref": "the Frierdiker Rebbe's maamar on 'Baruch Atah'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 935,
+   "type": "text_study",
+   "title": "Introduction: inner and outer will, and Hashem's desire for this world",
+   "summary": "Torah as light, the inner and outer side of things, chefetz versus ratzon, and the 613 mitzvos as the purpose of creating man."
+  },
+  {
+   "start_sec": 935,
+   "end_sec": 1998,
+   "type": "text_study",
+   "title": "Tanya chapter 23: mitzvos as the limbs of the King",
+   "summary": "Torah and Hashem are entirely one, while mitzvos are like limbs that move instantly at the soul's will."
+  },
+  {
+   "start_sec": 1998,
+   "end_sec": 3331,
+   "type": "talk",
+   "title": "Ahavas Yisroel: loving every Jew",
+   "summary": "A talk tied to the Rebbe's booklet on Ahavas Yisroel, with the Baal Shem Tov's teaching, the Rambam's laws and the custom before davening."
+  },
+  {
+   "start_sec": 2236,
+   "end_sec": 2330,
+   "type": "story",
+   "title": "The Alter Rebbe's parable of the tarnished gold cup",
+   "summary": "Rub off the rust and the gold shines again: the essence of every Jew is good.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 3127,
+   "end_sec": 3331,
+   "type": "story",
+   "title": "The Frierdiker Rebbe's bar mitzvah question",
+   "summary": "Why the Alter Rebbe put the acceptance of Ahavas Yisroel before davening, and the Rebbe Rashab's answer.",
+   "people": [
+    "frierdiker_rebbe",
+    "rebbe_rashab"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "c465a14448",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'56 P23' has the same shiur word for word from start to end; this transfer runs about 30 seconds longer (speed difference)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations are garbled by the Yiddish ASR. Another transfer of the same recording exists ('56 P23')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:24Z",
+  "confidence": {
+   "title": "high",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Story boundaries are approximate (Yiddish ASR)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2056%20-%20Chapter%2023%2C%20Mitzvos%20as%20the%20King%27s%20Limbs%2C%20and%20Ahavas%20Yisroel.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 56 - Chapter 23, Mitzvos as the King's Limbs, and Ahavas Yisroel.mp3",
+  "size_bytes": 39982306,
+  "mime_type": "audio/mpeg"
+ }
+}

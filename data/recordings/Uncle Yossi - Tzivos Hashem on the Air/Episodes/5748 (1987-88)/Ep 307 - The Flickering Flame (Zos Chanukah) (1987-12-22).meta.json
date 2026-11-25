@@ -1,0 +1,381 @@
+{
+ "id": "6341e96d6e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "307 zos chanuka",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 307 - The Flickering Flame (Zos Chanukah) (1987-12-22).mp3",
+  "duration_sec": 1760.577,
+  "filename_facts": {
+   "episode_number": 307,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 307,
+   "story": "The Flickering Flame",
+   "topic": "זאת חנוכה",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 307: The Flickering Flame (Zos Chanukah)",
+  "title_basis": "master_catalog",
+  "summary_short": "On the night all eight Chanukah lights are lit: what the candles whisper about Moshiach's clouds, a first-grade siddur celebration in Studio 604, and Rabbi Yisrael Salanter's lesson from a cobbler's lamp.",
+  "summary_long": "Broadcast on the eighth night of Chanukah 5748. Uncle Yossi shares the Rebbe's call, in the name of the Frierdiker Rebbe, to listen to what the Chanukah lights are telling us: a message of emunah and bitachon that the King of miracles will soon bring Moshiach, who will gather all Jews on heavenly clouds, as the prophet Daniel says, to Eretz Yisroel and the rebuilt Beis HaMikdash. 'Ad mosai? We want Moshiach now!' After the Hakochainik march, a first-grade class from a Boro Park girls' school, which has just received its first siddurim, visits the studio with its teacher, sings a song about the siddur, and leads the Shema; Uncle Yossi calls the siddur a telephone to Hashem. Story time tells 'The Flickering Flame': collecting tzedakah late at night, Rabbi Yisrael of Salant finds a cobbler still working by his lamp. The cobbler explains his rule, 'as long as the candle burns, one can still repair', and the rabbi exclaims that this is a lesson for life: as long as the neshamah is within us, we can still do teshuvah. The show ends with Shabbos candle time.",
+  "lesson": "As long as the candle is burning, we can still repair: as long as we are alive, we can always do teshuvah and improve.",
+  "keywords": [
+   "menorah",
+   "eight candles",
+   "heavenly clouds",
+   "Ad Mosai",
+   "siddur celebration",
+   "first graders",
+   "cobbler",
+   "oil lamp",
+   "late at night",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 307,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-12-22",
+   "hebrew": "1 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Tonight is Zos Chanukah... we light all eight candles' (8th candle on the night of 22 Dec 1987); Shabbos candles 'this coming Friday, December 25th' at 4:16. Matches the weekly estimate."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "A first-grade teacher and her school's dean are named on air; the children are not named.",
+    "at_sec": 547
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisrael Salanter",
+   "Reb Nosson the cobbler"
+  ],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "teshuvah",
+   "great_rabbis",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "chesed",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "teshuvah",
+   "davening",
+   "hachnasas_orchim",
+   "tzedakah",
+   "shema",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "chanukah",
+   "zos_chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "'Listen carefully to what the candles are saying'",
+    "note": "Cited as the Rebbe quoting the Frierdiker Rebbe."
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "'With the clouds of heaven': the clouds that will bring the Jews home."
+   },
+   {
+    "work": "siddur",
+    "ref": "Al HaNissim",
+    "note": "Thanking Hashem for miracles and wonders."
+   },
+   {
+    "work": "tehillim",
+    "ref": "37:23",
+    "note": "'The steps of a man are established by Hashem', quoted as a teaching of the Baal Shem Tov."
+   }
+  ],
+  "places": [
+   "Salant"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 47,
+   "type": "opening",
+   "title": "Opening: a happy Chanukah"
+  },
+  {
+   "start_sec": 47,
+   "end_sec": 386,
+   "type": "sichah",
+   "title": "What the Eight Lights Tell Us",
+   "summary": "The Rebbe's call to listen to the Chanukah lights: a message of faith that Moshiach will soon gather all Jews on heavenly clouds.",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "zos_chanukah"
+   ],
+   "linked_items": [
+    "4d54f86128"
+   ]
+  },
+  {
+   "start_sec": 386,
+   "end_sec": 502,
+   "type": "song",
+   "title": "Hakochainik March for Chanukah"
+  },
+  {
+   "start_sec": 502,
+   "end_sec": 670,
+   "type": "other",
+   "title": "A first-grade siddur celebration in Studio 604",
+   "summary": "A first-grade class that just received its first siddurim visits the studio with its teacher."
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 765,
+   "type": "song",
+   "title": "The first graders sing about their siddur"
+  },
+  {
+   "start_sec": 765,
+   "end_sec": 1008,
+   "type": "shema_guest",
+   "title": "Shema with the first graders; the siddur is a telephone to Hashem"
+  },
+  {
+   "start_sec": 1008,
+   "end_sec": 1040,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 1040,
+   "end_sec": 1675,
+   "type": "story",
+   "title": "The Flickering Flame",
+   "summary": "A cobbler's rule, 'as long as the candle burns, one can still repair', becomes Rabbi Yisrael Salanter's lesson about teshuvah."
+  },
+  {
+   "start_sec": 1675,
+   "end_sec": 1700,
+   "type": "announcement",
+   "title": "Shabbos candle time"
+  },
+  {
+   "start_sec": 1700,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Class song and Shema not transcribed. Teacher and school dean are named on air (see hidden); no children are named."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Lanchefsky",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Alef (first grade)",
+    "start_sec": 547,
+    "end_sec": 1008
+   },
+   {
+    "name": "Rabbi Aaron Reich",
+    "role": "other",
+    "group": "dean of Beis Yaakov of Boro Park (thanked by the teacher)",
+    "start_sec": 642,
+    "end_sec": 670
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:09:26Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "4d54f86128",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "'Zos Chanukah 307' = 47-390 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 19:42-28:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "38d83b32ce",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 157: The Flickering Flame, Chapter 2 (Asarah B'Teves)' (episode 157, 14:12-18:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 156: The Flickering Flame, Chapter 1 (Zos Chanukah)' (episode 156, 21:50-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "40d280cb23",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 377: The Flickering Flame (Sefiras HaOmer)' (episode 377, 13:10-19:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "4c22e88ed2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 324: The Flickering Flame (Sefiras HaOmer)' (episode 324, 16:52-23:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "57b4f27b82",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 475: The Flickering Flame (Sefiras HaOmer)' (episode 475, 13:05-19:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6ad37ebe02",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 273: The Flickering Flame (Rosh Chodesh Iyar)' (episode 273, 20:37-26:57), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bc10ca2c5f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Flickering Flame' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20307%20-%20The%20Flickering%20Flame%20%28Zos%20Chanukah%29%20%281987-12-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 307 - The Flickering Flame (Zos Chanukah) (1987-12-22).mp3",
+  "size_bytes": 21128065,
+  "mime_type": "audio/mpeg"
+ }
+}

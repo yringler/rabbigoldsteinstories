@@ -1,0 +1,151 @@
+{
+ "id": "dbabe9e10c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Elul 442",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul - Improving in Thought, Speech and Action (Ep 442).mp3",
+  "duration_sec": 456.443,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 442,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 442,
+   "story": "The return of little Tzip Tzip",
+   "topic": "אלול",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Elul: Improving in Thought, Speech and Action",
+  "title_basis": "content",
+  "summary_short": "Elul is the last month of the year: Uncle Yossi explains how to improve in thought, speech and action and why we wish each other a ksivah vachasimah tovah.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi explains that Elul, the last month of the year, is the time to end the year well and ask Hashem for a good and sweet new year. We improve in three ways: thought (thinking only good thoughts), speech (no lashon hara or unkind words, saying brachos and davening with care), and action (doing mitzvos and avoiding wrongdoing). The first request in our Rosh Hashanah prayers is for life, and in return we resolve to fill that life with more Torah and mitzvos. Because we trust Hashem will grant a good year, we begin wishing everyone a ksivah vachasimah tovah from Rosh Chodesh Elul, in conversation and in letters, and Hashem answers our blessings for one another, above all with the coming of Moshiach.",
+  "lesson": "Use Elul to improve your thoughts, speech and actions, and bless others with a ksivah vachasimah tovah.",
+  "keywords": [
+   "Book of Life",
+   "ksivah vachasimah tovah",
+   "new year",
+   "letters",
+   "lashon hara",
+   "blessings"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 442,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-08-28",
+   "hebrew": "7 Elul 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 442: in Elul, one week after Rosh Chodesh Elul (episode 441)."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "shemiras_halashon",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "shemiras_halashon",
+   "davening",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "f1f91fc657",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 56,
+   "note": "Episode 442 (filename number); clip = 56-513 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Elul%20-%20Improving%20in%20Thought%2C%20Speech%20and%20Action%20%28Ep%20442%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul - Improving in Thought, Speech and Action (Ep 442).mp3",
+  "size_bytes": 5478366,
+  "mime_type": "audio/mpeg"
+ }
+}

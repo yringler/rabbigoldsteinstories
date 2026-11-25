@@ -1,0 +1,160 @@
+{
+ "id": "b3f13d45c6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Asher Yatzar",
+  "audio_path": "audio/Other Stories/Asher Yatzar - Yossi Visits the Orange Juice Factory.mp3",
+  "duration_sec": 1799.604,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Asher Yatzar: Yossi Visits the Orange Juice Factory",
+  "title_basis": "filename",
+  "summary_short": "Yossi keeps forgetting to say Asher Yatzar, until a trip to an orange juice factory with his father shows him why the brachah matters so much.",
+  "summary_long": "Yossi is a fine boy who listens to his parents and learns well, but he often forgets to say the brachah Asher Yatzar after washing his hands. One afternoon his father takes him along to an orange juice factory, where he goes to put on tefillin with the workers. Yossi watches trucks of oranges being sucked up through a giant chute, peeled, squeezed, pasteurized and strained, and learns why juice needs a reliable hechsher. Suddenly the whole line stops: the filter has cracked and lets pits and peels through. After it is replaced, the juice stops again, because a part was put back crooked and is blocking the pipe. Once everything runs, Yossi's father puts on tefillin with the busy boss, and Yossi drinks fresh juice with a brachah. On the way home his father explains the two mistakes: something that should be closed opened, and something that should be open closed. That is exactly what Asher Yatzar thanks Hashem for. The storyteller then goes through the words of the brachah and reminds us to keep healthy while remembering that Hashem is the One who heals.",
+  "lesson": "Say Asher Yatzar every time with real thanks: if any part of the body that should be open were closed, or closed were open, a person could not live. Do your best to stay healthy, and Hashem will do the rest.",
+  "keywords": [
+   "orange juice factory",
+   "filter",
+   "oranges",
+   "pasteurizing",
+   "hechsher",
+   "tefillin",
+   "washing hands",
+   "father and son",
+   "healthy food"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Yossi",
+   "his father (Tati)",
+   "the factory boss",
+   "a factory worker"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "hashem_in_nature"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "emunah"
+  ],
+  "mitzvos": [
+   "brachos",
+   "negel_vasser",
+   "tefillin",
+   "kashrus",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The words of the brachah Asher Yatzar, explained phrase by phrase."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 160,
+   "type": "story",
+   "title": "Yossi forgets Asher Yatzar",
+   "summary": "A good boy who washes his hands carefully keeps forgetting to say the brachah."
+  },
+  {
+   "start_sec": 160,
+   "end_sec": 1452,
+   "type": "story",
+   "title": "A trip to the orange juice factory",
+   "summary": "Yossi watches juice being made, and the line stops twice: once for a broken filter and once for a blocked pipe."
+  },
+  {
+   "start_sec": 1452,
+   "type": "talk",
+   "title": "What Asher Yatzar means",
+   "summary": "Yossi's father and the storyteller explain the words of the brachah and how to keep the body healthy."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song. ASR writes 'iron juice' for orange juice and garbles the Hebrew of the brachah."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unidentified (no opening song or sign-off); placeholder speaker used, series left null."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Asher%20Yatzar%20-%20Yossi%20Visits%20the%20Orange%20Juice%20Factory.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Asher Yatzar - Yossi Visits the Orange Juice Factory.mp3",
+  "size_bytes": 21596293,
+  "mime_type": "audio/mpeg"
+ }
+}

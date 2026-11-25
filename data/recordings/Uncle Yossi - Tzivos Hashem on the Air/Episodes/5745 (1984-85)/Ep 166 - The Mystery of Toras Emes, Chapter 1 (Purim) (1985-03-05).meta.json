@@ -1,0 +1,339 @@
+{
+ "id": "1658b83955",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "166",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 166 - The Mystery of Toras Emes, Chapter 1 (Purim) (1985-03-05).mp3",
+  "duration_sec": 1815.757,
+  "filename_facts": {
+   "episode_number": 166,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 166,
+   "story": "The mystery of Toras Emes #1",
+   "topic": "Purim fun",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 166: The Mystery of Toras Emes, Chapter 1 (Purim)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's Purim show: the Purim Merrymakers land in Studio 604, a new story begins about a wicked officer's plot against a kind king's Jews, and a guest sings Purim songs.",
+  "summary_long": "Uncle Yossi's Purim program, broadcast on the eve of Taanis Esther. Every time Uncle Yossi tries to open the show he is interrupted by strange noises and laughter, until a helicopter lands in Studio 604 and out march the Purim Merrymakers, little soldiers of Tzivos Hashem who remind everyone that on Purim it is a mitzvah to be happy. Story time, in honor of Purim, begins 'The Mystery of Toras Emes': a kind king lets the Jews learn Torah freely, and they honor him on each visit with a procession led by the rabbi carrying a Sefer Torah. A jealous officer, like Haman, tricks Chaim the shammes into preparing an empty, make-believe Torah scroll for the procession, planning to expose it to the king. Between the two halves of the story, a third-grade girl leads the Shema. Uncle Yossi promises that, as with Haman, the plot will turn against its maker in the next chapter. A guest singer then leads Purim songs while listeners sound their gragers. The show closes with the Torah trivia club offer and reminders for Taanis Esther, the Megillah, matanos la'evyonim and mishloach manos.",
+  "lesson": "Hashem turns the plots of the Jews' enemies against them, just as He did with Haman; and on Purim it is a mitzvah to be happy.",
+  "keywords": [
+   "Purim Merrymakers",
+   "helicopter",
+   "grager",
+   "Purim songs",
+   "king",
+   "Sefer Torah",
+   "empty Torah scroll",
+   "shammes",
+   "wicked officer",
+   "Megillah",
+   "Taanis Esther"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 166,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1985-03-05",
+   "hebrew": "12 Adar 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Said on air: 'tomorrow, that is Wednesday, is Taanis Esther' and the Megillah is read tomorrow night (13 Adar 5745 = Wed 6 Mar 1985)."
+  },
+  "serial": {
+   "story_key": "the-mystery-of-toras-emes",
+   "story_title": "The Mystery of Toras Emes",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A jealous royal officer, compared to Haman, schemes to have the Jews forbidden to learn Torah.",
+    "at_sec": 698
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest is named in full with her school, class and teacher; a guest singer is named.",
+    "at_sec": 809
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the kind king",
+   "Yivan, the wicked officer",
+   "Chaim the shammes",
+   "the rabbi",
+   "the Purim Merrymakers"
+  ],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "megillah",
+   "mishloach_manos",
+   "matanos_levyonim",
+   "fast_days",
+   "kavod_shul",
+   "shema"
+  ],
+  "calendar": [
+   "purim",
+   "taanis_esther"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "megillas_esther",
+    "note": "Haman hanged on the gallows he built for Mordechai."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 186,
+   "type": "opening",
+   "title": "An opening that keeps getting interrupted",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 186,
+   "end_sec": 546,
+   "type": "other",
+   "title": "The Purim Merrymakers land in Studio 604",
+   "summary": "A helicopter brings little Tzivos Hashem soldiers who sing and celebrate, reminding everyone that on Purim it is a mitzvah to be happy.",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 546,
+   "end_sec": 593,
+   "type": "story_intro",
+   "title": "Story time in honor of Purim"
+  },
+  {
+   "start_sec": 593,
+   "end_sec": 780,
+   "type": "story_chapter",
+   "title": "The Mystery of Toras Emes, Chapter 1",
+   "summary": "A kind king lets the Jews learn Torah freely, but a jealous officer looks for a way to make trouble.",
+   "story_key": "the-mystery-of-toras-emes",
+   "chapter": 1
+  },
+  {
+   "start_sec": 780,
+   "end_sec": 958,
+   "type": "shema_guest",
+   "title": "Shema with a third-grade girl from Beis Rivkah"
+  },
+  {
+   "start_sec": 958,
+   "end_sec": 1314,
+   "type": "story_chapter",
+   "title": "The Mystery of Toras Emes, Chapter 1 (continued)",
+   "summary": "The officer persuades the shammes to prepare an empty Torah scroll for the king's procession, planning to expose it.",
+   "people": [
+    "haman",
+    "mordechai"
+   ],
+   "story_key": "the-mystery-of-toras-emes",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1314,
+   "end_sec": 1620,
+   "type": "song",
+   "title": "Purim songs with gragers",
+   "summary": "A guest singer leads Purim songs while listeners sound their gragers.",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 1620,
+   "end_sec": 1705,
+   "type": "announcement",
+   "title": "Send for the Torah trivia club kit"
+  },
+  {
+   "start_sec": 1705,
+   "end_sec": 1760,
+   "type": "announcement",
+   "title": "Taanis Esther and Purim reminders",
+   "calendar": [
+    "taanis_esther",
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 1760,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Merrymakers skit and songs are largely untranscribed (gaps 4:19-9:06, 23:36-27:00). Officer's name varies in ASR (Yivan/Ivan/Yovan)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Nechama Dina Sperling",
+    "role": "shema_guest",
+    "group": "Beis Rivkah, third grade, Morah Marazaf (as heard)",
+    "start_sec": 809,
+    "end_sec": 958,
+    "note": "Age eight."
+   },
+   {
+    "name": "Morah Marazaf",
+    "role": "other",
+    "group": "Beis Rivkah, third-grade teacher of the Shema guest (spelling as heard)",
+    "start_sec": 839,
+    "end_sec": 845
+   },
+   {
+    "name": "Chaim Elchanan Fogelman",
+    "role": "visitor",
+    "group": "Guest singer of Purim songs",
+    "start_sec": 1349,
+    "end_sec": 1620
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:06Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "5120830d37",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Episode 218 repeats the Purim Merrymakers opening and the guest's Purim songs nearly word for word."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "2047974075",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapters 1 and 2 of 'The Mystery of Toras Emes' (catalog 166 #1, 167 #2)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "10570f8f7e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 214: The Secret of Toras Emes, Chapter 1' (episode 214, 20:13-28:01), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "70f8ca0fa2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 516: The Mystery of Toras Emes (Purim Katan)' (episode 516, 15:35-27:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b70ca9e7ce",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 420: The Mystery of Toras Emes, Chapter 1' (episode 420, 22:55-29:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20166%20-%20The%20Mystery%20of%20Toras%20Emes%2C%20Chapter%201%20%28Purim%29%20%281985-03-05%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 166 - The Mystery of Toras Emes, Chapter 1 (Purim) (1985-03-05).mp3",
+  "size_bytes": 21790101,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "id": "7b70f3b3d4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Zman Simchaseinu 447",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zman Simchaseinu - The Sukkah, Shadow of Faith (Ep 447) (other version).mp3",
+  "duration_sec": 470.784,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 447,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 447,
+   "story": "Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Zman Simchaseinu: The Sukkah, Shadow of Faith",
+  "title_basis": "content",
+  "summary_short": "Why the sukkah is a mitzvah that surrounds us from head to toe, who the Ushpizin are, and how a real smile beautifies the sukkah.",
+  "summary_long": "A short pre-Sukkos talk from the Tzivos Hashem radio show. After Yom Kippur our record is clean, and we show our joy by starting a mitzvah right away, building the sukkah, as the Shulchan Aruch says. Most mitzvos use one part of the body, but the sukkah surrounds the whole person, with our clothes, tables and dishes. The Zohar calls the sukkah's holiness the 'shadow of faith', which strengthens our trust in Hashem who provides food, clothing and shelter. Each night the Ushpizin visit: Avraham, Yitzchak, Yaakov, Yosef, Moshe, Aharon and Dovid HaMelech, each with his own night, so we behave in the sukkah as in the company of tzaddikim. Uncle Yossi's easy way to beautify the sukkah is a real smile, which is contagious, and he encourages children to invite friends and relatives who have no sukkah of their own.",
+  "lesson": "Fill the sukkah with joy: smile, behave as in the company of tzaddikim, and share it with those who have no sukkah.",
+  "keywords": [
+   "sukkah",
+   "Ushpizin",
+   "shadow of faith",
+   "smile",
+   "guests",
+   "building the sukkah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 447,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-10-02",
+   "hebrew": "13 Tishrei 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 447 (a few days before Sukkos 5751). The same talk also aired in episode 398."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yosef_hatzaddik",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "simcha",
+   "emunah",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "sukkah",
+   "hachnasas_orchim",
+   "brachos"
+  ],
+  "calendar": [
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "note": "The sukkah is called 'tzila dimeheimnusa', the shadow of faith."
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 624:5",
+    "note": "Begin building the sukkah right after Yom Kippur."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "112c0c9905",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "Also aired in episode 398."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "e17ac37c8e",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 29,
+   "note": "Episode 447 (filename number); clip = 29-499 s of the episode."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "34122f43d5",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Preferred version: the same Sukkos talk as re-aired in episode 447; episode 398 is the first airing."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "34122f43d5",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 34122f43d5 ('Sukkos 398'), the preferred copy: the same Sukkos talk as re-aired in episode 447; episode 398 is the first airing."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Zman%20Simchaseinu%20-%20The%20Sukkah%2C%20Shadow%20of%20Faith%20%28Ep%20447%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zman Simchaseinu - The Sukkah, Shadow of Faith (Ep 447) (other version).mp3",
+  "size_bytes": 5650472,
+  "mime_type": "audio/mpeg"
+ }
+}

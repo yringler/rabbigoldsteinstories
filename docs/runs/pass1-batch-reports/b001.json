@@ -1,0 +1,34 @@
+{
+ "batch_id": "b001",
+ "done": [
+  "953c616177",
+  "4e41b6a442",
+  "beeb398177",
+  "83acbfb2e0",
+  "0e6a0febbc",
+  "22c247eae5",
+  "4a7b36fa3d",
+  "efb72976ab",
+  "213559b057",
+  "5ab1e235fc",
+  "94d2197a4f",
+  "01e89fcc30",
+  "28d65320a3",
+  "b905d4bf33",
+  "2ce3043f24",
+  "1548d130c1",
+  "94351be6b8"
+ ],
+ "failed": [],
+ "notes": [
+  "The weekly sequence from episode 1 is confirmed on air: ep 2 = 19 Kislev 5742 (1981-12-15), ep 5 = 10 Teves (1982-01-05), ep 9 = 9 Shevat (1982-02-02). Episodes 1, 4, 6, 8, 10 and 12 fall exactly on the weekly estimate but have no cues of their own, so they are given month precision.",
+  "Episode 3 (0e6a0febbc): speech ends at 27:34 of a 44:29 file; trim.content_end_sec is set. Episode 6 (5ab1e235fc): about 2 minutes with no speech at the end.",
+  "Episode 8 (01e89fcc30) is cut off during the closing sponsor thanks (truncated_end). Episode 12 (94351be6b8) starts mid-sentence; the theme and greeting are missing (truncated_start).",
+  "The hints' candidate aired_again_in from episode 3 to 'Mitzvos 3' (22c247eae5) is really clip_of/contains, so it was not added.",
+  "Checked against the transcripts: the Tzip Tzip story in episode 4 re-aired in episode 217 (14aeec866c); the Asarah B'Teves talk and the Ani Maamin guest segment from episode 5 re-aired in 507 (b8577c47e9) and 555 (393f61d950); 'Asarah B'Teves 507' (2cdc2fb9fd) is the same talk, linked as same_recording; chapter 2 of The Ten Wedding Gifts (episode 8) re-aired in episode 211 (9bc8ca94cc, 1986-02-04). Chapters 1, 3 and 4 probably re-aired around episodes 210 and 212-213 as well; pass 2 should check.",
+  "In The Lost Letter, the letter's recipient is 'Reb Sholom' in chapter 1 (ep 11) and 'Rabbi Shimon' in the chapter 2 recap (ep 12).",
+  "Episode 6 has the first on-air use of 'Hakochainik' (the pot-cover drum march). The theme song is 'We Want Moshiach Now' (letters in episodes 7 and 11).",
+  "Privacy: from episode 3 on, children's full names, towns and street addresses are read on air (ep 10: a guest's home address; ep 11: four letter writers' addresses). All are in hidden. 604 Empire Boulevard (ep 11-12) is the program's own contest address and is treated as public.",
+  "Proposed a works term 'kesuvim' for quotes from Koheles and Mishlei (efb72976ab, 213559b057); 'neviim' is used for now."
+ ]
+}

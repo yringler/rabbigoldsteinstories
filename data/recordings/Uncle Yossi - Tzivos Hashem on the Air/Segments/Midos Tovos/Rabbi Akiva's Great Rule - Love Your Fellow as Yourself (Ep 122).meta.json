@@ -1,0 +1,231 @@
+{
+ "id": "a5f42127fc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Ahavas Yisroel 122",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Rabbi Akiva's Great Rule - Love Your Fellow as Yourself (Ep 122).mp3",
+  "duration_sec": 223.545,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 122,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 122,
+   "story": "",
+   "topic": "ספירה, עקיבא נט\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rabbi Akiva's Great Rule: Love Your Fellow as Yourself",
+  "title_basis": "content",
+  "summary_short": "Rabbi Akiva taught that loving your fellow Jew is a great rule of the Torah; the Alter Rebbe adds that Ahavas Yisroel leads to love of Hashem.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. It opens with the closing lesson of a story about Rabbi Akiva: how much he loved Hashem, ready to give his life to learn Torah and keep mitzvos, and how Hashem blesses those who keep the mitzvos with firm faith. Uncle Yossi then turns to Rabbi Akiva's most famous saying from the Gemara: the Torah's command to love your fellow as yourself is not just another rule but a great, all-embracing one. Through Ahavas Yisroel we come to love Hashem and keep all the other mitzvos, as the Alter Rebbe taught. He explains with a simple example: if you truly love a friend, you also show love to the friends he loves. Hashem loves every single Jew, so to show our love for Hashem we must openly love everyone He loves.",
+  "lesson": "Love every Jew, because Hashem loves each one; Ahavas Yisroel leads to Ahavas Hashem.",
+  "keywords": [
+   "love your fellow",
+   "great rule",
+   "friend's friends",
+   "Ahavas Hashem"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 122,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1984-05-01",
+   "hebrew": "29 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 122 (Sefirah 5744); re-aired in many later episodes."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "sages"
+  ],
+  "midos": [
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "'Love your fellow as yourself'."
+   },
+   {
+    "work": "gemara",
+    "ref": "Rabbi Akiva: 'This is a great rule of the Torah'",
+    "note": "Cited as the Gemara; the saying appears in the Yerushalmi (Nedarim 9:4) and Sifra."
+   }
+  ],
+  "places": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 526."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "23e24d9359",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "Also aired in episode 376."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "276c6bf981",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 486."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "28133bf24a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Audio also found in episode 539."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "45e5fe6378",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 184."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4d19621b73",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Audio also found in episode 135."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 224."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bc5773ec17",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 236."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 387."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 1244,
+   "note": "Episode 122 (filename number); clip = 1244-1467 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "61dd385c6d",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Alternate take / cut of the same material."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the last lines of the Rabbi Akiva prison story ('The story also teaches us...'), which is not in the clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Rabbi%20Akiva%27s%20Great%20Rule%20-%20Love%20Your%20Fellow%20as%20Yourself%20%28Ep%20122%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Rabbi Akiva's Great Rule - Love Your Fellow as Yourself (Ep 122).mp3",
+  "size_bytes": 2683483,
+  "mime_type": "audio/mpeg"
+ }
+}

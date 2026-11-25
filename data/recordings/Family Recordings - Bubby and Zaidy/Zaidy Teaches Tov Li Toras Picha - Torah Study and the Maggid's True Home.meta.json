@@ -1,0 +1,290 @@
+{
+ "id": "21abe7ce4a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Yiddish stories",
+  "filename_title": "tov li tioras picha zaidy",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Zaidy Teaches Tov Li Toras Picha - Torah Study and the Maggid's True Home.mp3",
+  "duration_sec": 3135.138,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Zaidy Teaches Tov Li Toras Picha: Torah Study and the Maggid's True Home",
+  "title_basis": "content",
+  "summary_short": "A grandfather teaches his grandchildren in Yiddish why Torah learned in this world is dearer to Hashem than Gan Eden, and tells how the Mezritcher Maggid explained his empty house.",
+  "summary_long": "Told in Yiddish at home, with the children answering and repeating. A grandfather explains the four times in the Shema when we learn Torah: 'when you sit in your house' is the soul in Gan Eden, its true home; 'when you walk on the way' is life in this world, a temporary road; 'when you lie down' is the soul's return after a person's life; and 'when you rise' is Techiyas HaMeisim. He then teaches a maamar of the Alter Rebbe on Dovid HaMelech's words 'Tov li toras picha mei'alfei zahav vachasef': gold and silver stand for the awe and love of Hashem that the soul feels in Gan Eden, and Avraham Avinu called himself 'dust and ashes' beside them, yet the Torah a Jew learns here is dearer still. The children read the text with him line by line. He ends with two stories from Likkutei Dibburim: why the pilgrims returning from the Beis HaMikdash went home 'to their tents', and how a chassid brought a letter from the Baal Shem Tov to the Mezritcher Maggid, found him teaching young children in a broken, empty house, and asked where his furniture was.",
+  "lesson": "Every bit of Torah a child learns in this world is more precious to Hashem than the delights of Gan Eden; this world is only a road, and our true home is built by our mitzvos.",
+  "keywords": [
+   "grandfather",
+   "Gan Eden",
+   "gold and silver",
+   "dust and ashes",
+   "Techiyas HaMeisim",
+   "letter",
+   "empty house",
+   "furniture",
+   "melamed"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "family_recording",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "yiddish_narrator_unconfirmed",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Yiddish",
+   "Yiddish stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "A grandfather teaching his grandchildren at home."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a chassid of the Baal Shem Tov",
+   "the Maggid's young pupils",
+   "pilgrims returning from the Beis HaMikdash"
+  ],
+  "topics": [
+   "torah_study",
+   "chassidus_tanya",
+   "baal_shem_tov_and_students",
+   "family_heritage"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "contentment",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema",
+   "twelve_pesukim",
+   "kibbud_av_vaem",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Mezritch",
+   "Yerushalayim"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 6:7"
+   },
+   {
+    "work": "tehillim",
+    "ref": "119:72"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 18:27"
+   },
+   {
+    "work": "maamarim",
+    "ref": "Alter Rebbe, 'Tov li toras picha' (Sefer HaMaamarim in Yiddish)"
+   },
+   {
+    "work": "tanya",
+    "ref": "ch. 4"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "5:5"
+   },
+   {
+    "work": "neviim",
+    "ref": "Melachim I 8:66"
+   },
+   {
+    "work": "likkutei_dibburim"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 805,
+   "type": "talk",
+   "title": "Four times to learn Torah: Gan Eden, this world, after life, Techiyas HaMeisim"
+  },
+  {
+   "start_sec": 805,
+   "end_sec": 1595,
+   "type": "text_study",
+   "title": "Tov li toras picha: gold, silver, love and awe of Hashem"
+  },
+  {
+   "start_sec": 1380,
+   "end_sec": 1515,
+   "type": "story",
+   "title": "Avraham Avinu: 'I am dust and ashes'",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1595,
+   "end_sec": 2240,
+   "type": "text_study",
+   "title": "Review and reading the maamar together"
+  },
+  {
+   "start_sec": 2240,
+   "end_sec": 2545,
+   "type": "story",
+   "title": "Going home 'to their tents' from the Beis HaMikdash",
+   "people": [
+    "shlomo_hamelech"
+   ]
+  },
+  {
+   "start_sec": 2545,
+   "end_sec": 3135,
+   "type": "story",
+   "title": "The Baal Shem Tov's letter and the Maggid's empty house",
+   "people": [
+    "maggid_of_mezritch",
+    "baal_shem_tov"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "9cc0f3d732",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'At Home Everything Is Different: The Maggid's Real Home' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he",
+   "en"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "mixed_language"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Home teaching session with children answering in chorus; English words mixed in. ASR repetition loops near 8:15 and 19:40. The second half begins with a review of 'last week's' lesson, so two sessions may be joined."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The grandfather mentions that the child's father was pleased the child had repeated the lesson to him.",
+    "start_sec": 2210
+   }
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": "Rabbi Yosef Goldstein",
+   "confidence": "low",
+   "evidence_quote": "דער רבי שליט''א וועזט אז די לופט פון קינדער פון ציפות השם",
+   "at_sec": 2863
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:48Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Family recording: confirm who the grandfather is (see identity_guesses).",
+   "Possibly two teaching sessions joined in one file."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Zaidy%20Teaches%20Tov%20Li%20Toras%20Picha%20-%20Torah%20Study%20and%20the%20Maggid%27s%20True%20Home.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Zaidy Teaches Tov Li Toras Picha - Torah Study and the Maggid's True Home.mp3",
+  "size_bytes": 37622482,
+  "mime_type": "audio/mpeg"
+ }
+}

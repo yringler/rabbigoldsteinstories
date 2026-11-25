@@ -1,0 +1,273 @@
+{
+ "id": "3342eced38",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Miteler Rebbe simcha kozaken",
+  "audio_path": "audio/Other Stories/The Mitteler Rebbe's Cossacks - Simcha Breaks a Decree (Adar).mp3",
+  "duration_sec": 1085.075,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Mitteler Rebbe's Cossacks: Simcha Breaks a Decree (Adar)",
+  "title_basis": "filename",
+  "summary_short": "For the month of Adar, a lesson on doubling our simcha every day, and the story of the Mitteler Rebbe, who called for music and dancing to cancel a Heavenly decree against his son.",
+  "summary_long": "Each Yom Tov gives strength for the whole year, and Adar is the month for gathering simcha. The storyteller explains the Rebbe's teaching that 'marbin b'simcha' means doubling our joy every day, with a riddle: a penny doubled daily for a month beats a gift of a million dollars. A short story follows of the young Rebbe Maharash, a playful boy who behaved perfectly when his father, the Tzemach Tzedek, came to check on him. Simcha, he explains, is the strongest way to cancel a harsh decree: the Zohar teaches that Hashem reflects a joyful face with blessing, and the Alter Rebbe smiled at his interrogators' hardest question. Then the main story: the Mitteler Rebbe kept a choir, musicians and a troupe of Chassidim who dressed up as Cossacks and rode horses in circles. One ordinary weekday he suddenly called for a great celebration and clapped along from his window. When his son Reb Nochum fell from his horse, the Rebbe clapped even harder. Afterwards he explained that he had seen a decree in Heaven against his son, and only simcha could break it; Reb Nochum's injury healed completely.",
+  "lesson": "Simcha opens the channel for Hashem's blessings and can break even a harsh decree; in Adar, add more joy every day and make others happy too.",
+  "keywords": [
+   "Cossacks",
+   "horses",
+   "choir",
+   "musicians",
+   "dancing",
+   "penny riddle",
+   "smile",
+   "decree"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Beginning of Adar",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Talk about 'Mishenichnas Adar' as the month begins; year not stated."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A Heavenly decree that the Rebbe's son should pass away is cancelled through simcha."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A rider falls from a speeding horse and is injured; he recovers fully."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mitteler_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_nochum_son_of_mitteler_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Mitteler Rebbe's choir and musicians",
+   "Chassidim dressed as Cossacks",
+   "the young Rebbe Maharash's teacher",
+   "the doctor"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "miracles"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe on 'marbin b'simcha': double the joy every day."
+   },
+   {
+    "work": "zohar",
+    "note": "As the Rebbe quotes it in many letters: Hashem shines to a person with a joyful face."
+   },
+   {
+    "work": "tanya",
+    "note": "Mentioned as the subject of one of the questions put to the Alter Rebbe in prison."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 306,
+   "type": "talk",
+   "title": "Adar: doubling our simcha every day",
+   "summary": "Each Yom Tov gives strength for the year; a riddle of a penny doubled daily shows how simcha should grow in Adar.",
+   "calendar": [
+    "adar"
+   ]
+  },
+  {
+   "start_sec": 306,
+   "end_sec": 376,
+   "type": "story",
+   "title": "The young Rebbe Maharash and his father's visit",
+   "people": [
+    "rebbe_maharash",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 376,
+   "end_sec": 528,
+   "type": "talk",
+   "title": "Simcha breaks harsh decrees",
+   "summary": "The Zohar on a joyful face, and why the Alter Rebbe smiled at his interrogators' hardest question.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 528,
+   "end_sec": 1051,
+   "type": "story",
+   "title": "The Mitteler Rebbe's Cossacks",
+   "summary": "The Mitteler Rebbe calls for a sudden celebration to cancel a Heavenly decree against his son, Reb Nochum.",
+   "people": [
+    "mitteler_rebbe",
+    "rabbi_nochum_son_of_mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1051,
+   "type": "closing",
+   "title": "Bring simcha to others"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "16727d2e9e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories, 4:57-8:05), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1b994d468f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories, 5:11-8:19), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1d8cd14fa3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Fourth Night of Sukkos: The Mitteler Rebbe's Simcha' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "870d0298c2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Young Rebbe Maharash and Mishenichnas Adar (Fragment)' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c4c5e3319c",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Keep On Dancing: The Mitteler Rebbe and the Power of Simcha (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told to a class with a brief exchange with a child about the riddle. ASR writes 'Maharaj' for Maharash and 'Kayach' for koach."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:24:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unidentified; classroom style like 6bdf3b9e45 and 1e53bafbf7.",
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: same live boys'-class teacher as 6bdf3b9e45 and 1e53bafbf7 (pass-1 b057); Adar talk then story, his weekly format; voice not checked"
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Mitteler%20Rebbe%27s%20Cossacks%20-%20Simcha%20Breaks%20a%20Decree%20%28Adar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Mitteler Rebbe's Cossacks - Simcha Breaks a Decree (Adar).mp3",
+  "size_bytes": 13021980,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "id": "1f6a9072a1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Trust The Rebbe",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Trust the Rebbe.mp3",
+  "duration_sec": 1307.925,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Trust the Rebbe",
+  "title_basis": "filename",
+  "summary_short": "An evicted innkeeper is sent by the Tzemach Tzedek to the 'wrong' Reb Moshe, a simple storekeeper, but that very night a poritz's wagon breaks down at his door.",
+  "summary_long": "In the times of the Tzemach Tzedek, an innkeeper near the small town of Kamen has a bad year and the poritz throws his family out. At Lubavitch the Tzemach Tzedek tells him first to have bitachon, explaining with a parable of a forest dweller amazed by a light switch: we see only the switch, but much happens behind it. Then the Rebbe gives him a letter to Reb Moshe. The innkeeper is dismayed to see it is addressed to Reb Moshe Ratner, a simple storekeeper, and not to the rich Reb Moshe who has connections with the poritzim. The storyteller tells how that Reb Moshe's father was once saved from the gallows when a melamed tried to take his place, until the Polish soldiers fled from approaching Cossacks. The Rebbe's sons insist their father never errs, so the innkeeper goes to the storekeeper, who receives the letter with great reverence. That night, while the innkeeper says Tehillim, a poritz's wagon breaks down outside. Reb Moshe hosts him warmly and refuses payment, asking only a favor for his friend, and the grateful poritz gives the innkeeper his inn as a gift.",
+  "lesson": "Trust in Hashem and in the words of a tzaddik even when they seem not to make sense; the Rebbe's promise that we will see Moshiach will come true.",
+  "keywords": [
+   "innkeeper",
+   "eviction",
+   "letter",
+   "light switch",
+   "two men named Moshe",
+   "gallows",
+   "Cossacks",
+   "broken wagon",
+   "hospitality",
+   "deed to the inn"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Soldiers prepare to hang a Jewish leader, and a melamed fights the executioners; both are saved."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Polish soldiers terrorize the Jews of the town and accuse their leader of spying."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "An innkeeper's family is evicted for unpaid rent; resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Yankel the innkeeper",
+   "Reb Moshe Ratner the storekeeper",
+   "Reb Moshe the rich postmaster",
+   "Shimshon, his father",
+   "Nachum the melamed",
+   "the poritz and his daughter",
+   "the Tzemach Tzedek's sons"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "emunah_bitachon",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "mesiras_nefesh",
+   "chesed"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "We are the last generation of exile and the first of redemption."
+   }
+  ],
+  "places": [
+   "Lubavitch",
+   "Kamen"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 1250,
+   "type": "story",
+   "title": "The letter to the 'wrong' Moshe",
+   "summary": "The Tzemach Tzedek's letter leads an evicted innkeeper to the one house where a poritz will stop that night."
+  },
+  {
+   "start_sec": 515,
+   "end_sec": 745,
+   "type": "story",
+   "title": "The melamed at the gallows",
+   "summary": "A melamed tries to take the place of the town's leader, and both are saved when the soldiers flee."
+  },
+  {
+   "start_sec": 1250,
+   "type": "talk",
+   "title": "The Rebbe's words come true"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:19Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "74ef583ca6",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'It Was No Mistake: The Tzemach Tzedek's Letter to the Other Moshe' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9134a62649",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Trust the Rebbe's Words' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Trust%20the%20Rebbe.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Trust the Rebbe.mp3",
+  "size_bytes": 15695861,
+  "mime_type": "audio/mpeg"
+ }
+}

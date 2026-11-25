@@ -1,0 +1,180 @@
+{
+ "id": "4d86625467",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Rosh Chodesh 237",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh - Why the First Day Is the Head of the Month (Ep 237) (other version).mp3",
+  "duration_sec": 157.27,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 237,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 237,
+   "story": "The Stone for the Beis Hamikdosh",
+   "topic": "Three Weeks, / Rosh Chodesh",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Rosh Chodesh: Why the First Day Is the Head of the Month",
+  "title_basis": "content",
+  "summary_short": "On Erev Rosh Chodesh Av, Uncle Yossi explains why the first day of the month is called its 'head', and why our conduct on Rosh Chodesh matters for the whole month.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given on Erev Rosh Chodesh Av. Uncle Yossi points out that the word Rosh in Rosh Chodesh does not mean 'new' but 'head'. Our Sages explain that just as the head guides the whole body and every limb draws its life from it, the first day of the month is the head of all the days that follow. On Rosh Chodesh Hashem grants the blessings for health, life and livelihood, including food, clothing and shelter, for the entire month, and they are then shared out among its days. That is why there are special prayers on Rosh Chodesh, and why we should take extra care with how we behave on that day, when we pass before Hashem, our merciful King, to be judged for good and for blessing.",
+  "lesson": "Rosh Chodesh is the head of the month: the blessings for the whole month flow from it, so behave especially well on that day.",
+  "keywords": [
+   "new month",
+   "head",
+   "human body",
+   "blessings",
+   "livelihood",
+   "special prayers"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 237,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-08-05",
+   "hebrew": "29 Tammuz 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Erev Rosh Chodesh Av'; dated with episode 237. The same talk also aired in episodes 33, 134 and 487."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "14e201cef4",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Also aired in episode 487."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4f9d7f0c70",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "Also aired in episode 134."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a9c42df651",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "Also aired in episode 33."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "33258ba2e2",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 886,
+   "note": "Episode 237 (filename number); clip = 886-1043 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "4c4feaf34b",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "'Rosh Chodesh 33' is a clip of the same Rosh Chodesh talk from episode 33."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "4c4feaf34b",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Preferred version: a shorter version of the same talk with a re-recorded opening (episode 237); episode 33 is the fuller original."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 4c4feaf34b ('Rosh Chodesh 33'), the preferred copy: a shorter version of the same talk with a re-recorded opening (episode 237); episode 33 is the fuller original. Opens with 'today is Erev Rosh Chodesh Av'; the rest applies to any Rosh Chodesh."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Rosh%20Chodesh%20-%20Why%20the%20First%20Day%20Is%20the%20Head%20of%20the%20Month%20%28Ep%20237%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh - Why the First Day Is the Head of the Month (Ep 237) (other version).mp3",
+  "size_bytes": 1888209,
+  "mime_type": "audio/mpeg"
+ }
+}

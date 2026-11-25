@@ -1,0 +1,259 @@
+{
+ "id": "d4f821d23f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Flax merchant?",
+  "audio_path": "audio/Other Stories/The Flax Merchant - Rabbi Zusha, Shivisi and Hashgachah Pratis.mp3",
+  "duration_sec": 1028.04,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Flax Merchant: Rabbi Zusha, Shivisi and Hashgachah Pratis",
+  "title_basis": "content",
+  "summary_short": "A class on Rabbi Zusha's letter shin of teshuvah, a story of the Alter Rebbe's new script, and the flax merchant who freed fellow Jews and was blessed with two tzaddikim for sons.",
+  "summary_long": "Linking the day's Hayom Yom to a song the children just sang, the storyteller explains Rabbi Zusha of Anipoli's teaching on the five letters of teshuvah: shin stands for 'Shivisi Hashem l'negdi samid', Hashem is always with me and every step is planned. He shows Rabbi Zusha's holiness with a story: when the Alter Rebbe, at the Maggid's request, designed a new script for tefillin, mezuzos and sifrei Torah, he visited the scribe Rabbi Moshe Sofer and found him already writing tefillin in the new script for Rabbi Zusha, who knew of it through ruach hakodesh. Then a story of hashgachah pratis: Reb Eliezer Lipa, a rich flax merchant who loved freeing Jews from the poritzim's dungeons, dozes on the road and his horse leads him to a stranded poritz. He overhears the poritz threatening a Jewish innkeeper, later pays the innkeeper's whole debt with his deposit money, and refuses to deal with another poritz until a Jewish boy held hostage is sent home. In Heaven it is decided that such a man deserves two special sons: Rabbi Zusha and Rabbi Elimelech.",
+  "lesson": "Hashem is always with us and guides every step, and going out of your way to help another Jew brings great blessing.",
+  "keywords": [
+   "flax",
+   "merchant",
+   "letters of teshuvah",
+   "Alter Rebbe's script",
+   "scribe",
+   "innkeeper",
+   "hostage",
+   "dungeon",
+   "rubles"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Aseres Yemei Teshuvah (Hayom Yom on the letter shin of teshuvah)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Today's Hayom Yom' teaches Rabbi Zusha's explanation of the five letters of teshuvah, learned in the days between Rosh Hashanah and Yom Kippur; exact day and year not given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Poritzim jail Jews and hold a child hostage for unpaid rent; both are freed."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "A half-drunk poritz shouts threats."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child in the class is thanked by first name."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_moshe_sofer_of_pshevorsk",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_elimelech_of_lizhensk",
+    "role": "mentioned"
+   },
+   {
+    "id": "beis_yosef",
+    "role": "mentioned"
+   },
+   {
+    "id": "arizal",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Eliezer Lipa, the flax merchant",
+   "the poritz",
+   "Moshke the innkeeper",
+   "the poritz's brother-in-law",
+   "the hostage boy"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "hashgacha_pratis",
+   "kindness_and_community",
+   "teshuvah"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "generosity",
+   "bitachon",
+   "chesed"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "tzedakah",
+   "teshuvah",
+   "tefillin"
+  ],
+  "calendar": [
+   "aseres_yemei_teshuvah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "hayom_yom",
+    "note": "'Today's Hayom Yom': Rabbi Zusha on the five letters of teshuvah; shin = Shivisi."
+   },
+   {
+    "work": "tehillim",
+    "ref": "16:8",
+    "note": "Shivisi Hashem l'negdi samid."
+   }
+  ],
+  "places": [
+   "Anipoli",
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 76,
+   "type": "talk",
+   "title": "Rabbi Zusha and the letters of teshuvah"
+  },
+  {
+   "start_sec": 76,
+   "end_sec": 305,
+   "type": "story",
+   "title": "The Alter Rebbe's new script and Rabbi Zusha's tefillin",
+   "people": [
+    "alter_rebbe",
+    "rabbi_zusha_of_anipoli",
+    "rabbi_moshe_sofer_of_pshevorsk"
+   ]
+  },
+  {
+   "start_sec": 305,
+   "end_sec": 690,
+   "type": "story",
+   "title": "The flax merchant falls asleep on the road"
+  },
+  {
+   "start_sec": 690,
+   "type": "story",
+   "title": "Freeing the innkeeper and the hostage boy",
+   "people": [
+    "rabbi_zusha_of_anipoli",
+    "rabbi_elimelech_of_lizhensk"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Seems recorded in a class with children; opens referring to 'the song we just sang', which is not on the file. Ends right after the story with no sign-off. ASR garbles poritz, Eliezer Lipa and Rabbi Zusha."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Kuti",
+    "role": "other",
+    "start_sec": 25,
+    "end_sec": 37
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator attribution from style only.",
+   "A child answers a question and is thanked by first name; confirm whether this is a live class recording.",
+   "Exact Hayom Yom date for the letter shin not verified."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:31Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "e8344bd6f4",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Flax merchant cheshvon': the same flax-merchant story by the same narrator, with a Cheshvan introduction."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Flax%20Merchant%20-%20Rabbi%20Zusha%2C%20Shivisi%20and%20Hashgachah%20Pratis.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Flax Merchant - Rabbi Zusha, Shivisi and Hashgachah Pratis.mp3",
+  "size_bytes": 12337349,
+  "mime_type": "audio/mpeg"
+ }
+}

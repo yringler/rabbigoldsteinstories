@@ -1,0 +1,245 @@
+{
+ "id": "86a44f3dba",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefiras Haomer 426",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefiras HaOmer - Respect for Each Other and the Gift of Time (Ep 426).mp3",
+  "duration_sec": 757.173,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 426,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 426,
+   "story": "The flickering flame",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Sefiras HaOmer: Respect for Each Other and the Gift of Time",
+  "title_basis": "content",
+  "summary_short": "Why we avoid music during Sefirah, how to practice respect and peace, and why counting the Omer teaches us never to waste the precious gift of time.",
+  "summary_long": "A Sefirah talk from the Tzivos Hashem radio show in two parts. First, Uncle Yossi explains that we do not listen to music during Sefirah because Rabbi Akiva's many students died in a plague for failing to show each other respect. He describes respect for parents, teachers and friends, looking for the good in others, avoiding quarrels and pursuing peace, and says that unity and setting a good example are the answer to 'Ad mosai, how long until Moshiach?'. Second, he teaches that counting the Omer shows how precious every day is: each day's number is higher than the last, so today must be better than yesterday. A story about a girl named Miriam, who keeps crying over a lost dime even after her mother gives her more, shows that we cannot get lost time back and must use the time we are given well. Time is like a treasure of jewels to be counted, and using it for Torah and mitzvos brings long life, as the Shema promises.",
+  "lesson": "Respect one another, and treasure each day: make it better than the one before and never waste the gift of time.",
+  "keywords": [
+   "no music",
+   "Rabbi Akiva's students",
+   "respect",
+   "peace",
+   "lost dime",
+   "time",
+   "counting",
+   "jewels"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 426,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-05-08",
+   "hebrew": "13 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 426 (candle times and Lag BaOmer 'Sunday, May 13'). The same talk aired earlier in episodes 273 and 324 (1988)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students die in a plague as a punishment for not respecting one another.",
+    "at_sec": 30
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Miriam",
+   "Miriam's mother"
+  ],
+  "topics": [
+   "calendar",
+   "character",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "kibbud",
+   "shalom",
+   "achdus",
+   "dan_lkaf_zchus",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "kibbud_av_vaem",
+   "kibbud_zekeinim",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Avos 1:12",
+    "note": "'Ohev shalom v'rodef shalom', love peace and pursue it."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'So that your days be lengthened', from the second part of the Shema."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 312,
+   "type": "talk",
+   "title": "Rabbi Akiva's Students and Respect"
+  },
+  {
+   "start_sec": 312,
+   "type": "talk",
+   "title": "Counting Days: The Gift of Time"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4c22e88ed2",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 324."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6ad37ebe02",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 273."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "82672b0336",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 54,
+   "note": "Episode 426 (filename number); clip = 54-812 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 15:28-18:02), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ea3bc56c0e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Precious Gift of Time: The Boy Who Lost His Dollar' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "7226693357",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Making Every Day Count (Zalman and the Lost Nickel)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8fa0b3541e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:17-25:47), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cab583e2b7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:27-25:56), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins mid-sentence ('Because now we are in the days of Sefirah...'), right after the opening; otherwise a clean cut. Partial matches also in episodes 377 and 475."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Sefiras%20HaOmer%20-%20Respect%20for%20Each%20Other%20and%20the%20Gift%20of%20Time%20%28Ep%20426%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefiras HaOmer - Respect for Each Other and the Gift of Time (Ep 426).mp3",
+  "size_bytes": 9087039,
+  "mime_type": "audio/mpeg"
+ }
+}

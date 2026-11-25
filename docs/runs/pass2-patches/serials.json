@@ -1,0 +1,3642 @@
+{
+ "task": "serials",
+ "patches": [
+  {
+   "item": "4ed256fa8a",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-ten-wedding-gifts",
+   "reason": "Segment 4 (start 360 s, 'The Ten Wedding Gifts, Chapter 1'): story_key None -> 'the-ten-wedding-gifts'"
+  },
+  {
+   "item": "4ed256fa8a",
+   "op": "set",
+   "path": "segments.4.chapter",
+   "value": 1,
+   "reason": "Segment 4 (start 360 s): chapter None -> 1 (1992 run of 'The Ten Wedding Gifts')"
+  },
+  {
+   "item": "70655704ec",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-lost-letter",
+    "story_title": "The Lost Letter",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1986 run of 'The Lost Letter', episode 208): chapter None -> 2. Text: 208 = chapter 2 (eps 12/147, 0.95), 209 = chapter 3 (eps 13/148, 0.84); 208 opens mid-story. The catalog calls them #1/#2. Chapter 1 (206 or 207) is missing."
+  },
+  {
+   "item": "70655704ec",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 2,
+   "reason": "Segment 5 (start 722 s): chapter None -> 2 (1986 run of 'The Lost Letter')"
+  },
+  {
+   "item": "b35e60b8a2",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-lost-letter",
+    "story_title": "The Lost Letter",
+    "chapter": 3
+   },
+   "reason": "Serial normalization (1986 run of 'The Lost Letter', episode 209): chapter None -> 3. Text: 208 = chapter 2 (eps 12/147, 0.95), 209 = chapter 3 (eps 13/148, 0.84); 208 opens mid-story. The catalog calls them #1/#2. Chapter 1 (206 or 207) is missing."
+  },
+  {
+   "item": "b35e60b8a2",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 3,
+   "reason": "Segment 6 (start 861 s): chapter None -> 3 (1986 run of 'The Lost Letter')"
+  },
+  {
+   "item": "5bcc2b3a95",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-mystery-of-toras-emes",
+    "story_title": "The Mystery of Toras Emes",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1982 run of 'The Mystery of Toras Emes', episode 14): story_key 'the-miracle-of-toras-emes' -> 'the-mystery-of-toras-emes'; title 'The Miracle of Toras Emes' -> 'The Mystery of Toras Emes'"
+  },
+  {
+   "item": "5bcc2b3a95",
+   "op": "set",
+   "path": "segments.3.story_key",
+   "value": "the-mystery-of-toras-emes",
+   "reason": "Segment 3 (start 575 s, 'The Miracle of Toras Emes, Chapter 1 (part 1)'): story_key 'the-miracle-of-toras-emes' -> 'the-mystery-of-toras-emes'"
+  },
+  {
+   "item": "5bcc2b3a95",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-mystery-of-toras-emes",
+   "reason": "Segment 5 (start 905 s, 'The Miracle of Toras Emes, Chapter 1 (part 2)'): story_key 'the-miracle-of-toras-emes' -> 'the-mystery-of-toras-emes'"
+  },
+  {
+   "item": "25f7b4e626",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-mystery-of-toras-emes",
+    "story_title": "The Mystery of Toras Emes",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1982 run of 'The Mystery of Toras Emes', episode 15): story_key 'the-miracle-of-toras-emes' -> 'the-mystery-of-toras-emes'; title 'The Miracle of Toras Emes' -> 'The Mystery of Toras Emes'"
+  },
+  {
+   "item": "25f7b4e626",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-mystery-of-toras-emes",
+   "reason": "Segment 4 (start 604 s, 'The Miracle of Toras Emes, Chapter 2'): story_key 'the-miracle-of-toras-emes' -> 'the-mystery-of-toras-emes'"
+  },
+  {
+   "item": "10570f8f7e",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-mystery-of-toras-emes",
+    "story_title": "The Mystery of Toras Emes",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1986 run of 'The Mystery of Toras Emes', episode 214): story_key 'the-secret-of-toras-emes' -> 'the-mystery-of-toras-emes'; title 'The Secret of Toras Emes' -> 'The Mystery of Toras Emes'"
+  },
+  {
+   "item": "10570f8f7e",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-mystery-of-toras-emes",
+   "reason": "Segment 4 (start 1213 s, 'The Secret of Toras Emes, Chapter 1'): story_key 'the-secret-of-toras-emes' -> 'the-mystery-of-toras-emes'"
+  },
+  {
+   "item": "b412d5961c",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-mystery-of-toras-emes",
+    "story_title": "The Mystery of Toras Emes",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1986 run of 'The Mystery of Toras Emes', episode 215): story_key 'the-secret-of-toras-emes' -> 'the-mystery-of-toras-emes'; title 'The Secret of Toras Emes' -> 'The Mystery of Toras Emes'"
+  },
+  {
+   "item": "b412d5961c",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-mystery-of-toras-emes",
+   "reason": "Segment 4 (start 1011 s, 'The Secret of Toras Emes, Chapter 2'): story_key 'the-secret-of-toras-emes' -> 'the-mystery-of-toras-emes'"
+  },
+  {
+   "item": "f8713031b8",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "life-in-the-hands-of-the-tongue",
+    "story_title": "Life in the Hands of the Tongue",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1982 run of 'Life in the Hands of the Tongue', episode 19): story_key 'life-in-the-hand-of-the-tongue' -> 'life-in-the-hands-of-the-tongue'; title 'Life in the Hand of the Tongue' -> 'Life in the Hands of the Tongue'"
+  },
+  {
+   "item": "f8713031b8",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "life-in-the-hands-of-the-tongue",
+   "reason": "Segment 6 (start 838 s, 'Life in the Hand of the Tongue, Chapter 1'): story_key 'life-in-the-hand-of-the-tongue' -> 'life-in-the-hands-of-the-tongue'"
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "life-in-the-hands-of-the-tongue",
+    "story_title": "Life in the Hands of the Tongue",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1982 run of 'Life in the Hands of the Tongue', episode 20): story_key 'life-in-the-hand-of-the-tongue' -> 'life-in-the-hands-of-the-tongue'; title 'Life in the Hand of the Tongue' -> 'Life in the Hands of the Tongue'"
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "life-in-the-hands-of-the-tongue",
+   "reason": "Segment 4 (start 287 s, 'Life in the Hand of the Tongue, Chapter 2 (part 1)'): story_key 'life-in-the-hand-of-the-tongue' -> 'life-in-the-hands-of-the-tongue'"
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "set",
+   "path": "segments.8.story_key",
+   "value": "life-in-the-hands-of-the-tongue",
+   "reason": "Segment 8 (start 829 s, 'Life in the Hand of the Tongue, Chapter 2 (part 2)'): story_key 'life-in-the-hand-of-the-tongue' -> 'life-in-the-hands-of-the-tongue'"
+  },
+  {
+   "item": "7df306633a",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-needles-and-toothpicks",
+    "story_title": "The Needles and Toothpicks",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1991 run of 'The Needles and Toothpicks', episode 467): story_key 'the-napkins-and-toothpicks' -> 'the-needles-and-toothpicks'; title 'The Napkins and Toothpicks' -> 'The Needles and Toothpicks'"
+  },
+  {
+   "item": "7df306633a",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-needles-and-toothpicks",
+   "reason": "Segment 5 (start 940 s, 'The Napkins and Toothpicks, Chapter 1'): story_key 'the-napkins-and-toothpicks' -> 'the-needles-and-toothpicks'"
+  },
+  {
+   "item": "54ec7dddd9",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-needles-and-toothpicks",
+    "story_title": "The Needles and Toothpicks",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1991 run of 'The Needles and Toothpicks', episode 468): story_key 'the-napkins-and-toothpicks' -> 'the-needles-and-toothpicks'; title 'The Napkins and Toothpicks' -> 'The Needles and Toothpicks'"
+  },
+  {
+   "item": "54ec7dddd9",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-needles-and-toothpicks",
+   "reason": "Segment 5 (start 862 s, 'The Napkins and Toothpicks, Chapter 2'): story_key 'the-napkins-and-toothpicks' -> 'the-needles-and-toothpicks'"
+  },
+  {
+   "item": "a6d365fb27",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "saved-by-a-miracle",
+    "story_title": "Saved by a Miracle",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1986 run of 'Saved by a Miracle', episode 232): story_key 'saved-by-miracle' -> 'saved-by-a-miracle'; title 'Saved by Miracle' -> 'Saved by a Miracle'"
+  },
+  {
+   "item": "a6d365fb27",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "saved-by-a-miracle",
+   "reason": "Segment 5 (start 756 s, 'Saved by Miracle, Chapter 1'): story_key 'saved-by-miracle' -> 'saved-by-a-miracle'"
+  },
+  {
+   "item": "e1f0dfdd1d",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "saved-by-a-miracle",
+    "story_title": "Saved by a Miracle",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1986 run of 'Saved by a Miracle', episode 233): story_key 'saved-by-miracle' -> 'saved-by-a-miracle'; title 'Saved by Miracle' -> 'Saved by a Miracle'"
+  },
+  {
+   "item": "e1f0dfdd1d",
+   "op": "set",
+   "path": "segments.7.story_key",
+   "value": "saved-by-a-miracle",
+   "reason": "Segment 7 (start 1112 s, 'Saved by Miracle, Chapter 2'): story_key 'saved-by-miracle' -> 'saved-by-a-miracle'"
+  },
+  {
+   "item": "8446e61564",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "saved-by-a-miracle",
+    "story_title": "Saved by a Miracle",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1992 run of 'Saved by a Miracle', episode 548): story_key 'reb-boruch-and-the-alter-rebbes-blessing' -> 'saved-by-a-miracle'; title \"Reb Boruch and the Alter Rebbe's Blessing\" -> 'Saved by a Miracle'"
+  },
+  {
+   "item": "8446e61564",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "saved-by-a-miracle",
+   "reason": "Segment 5 (start 911 s, 'Reb Boruch and the Alter Rebbe's Blessing, Chapter 1'): story_key 'reb-boruch-and-the-alter-rebbes-blessing' -> 'saved-by-a-miracle'"
+  },
+  {
+   "item": "3cb16cf403",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "saved-by-a-miracle",
+    "story_title": "Saved by a Miracle",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1992 run of 'Saved by a Miracle', episode 549): story_key 'reb-boruch-and-the-alter-rebbes-blessing' -> 'saved-by-a-miracle'; title \"Reb Boruch and the Alter Rebbe's Blessing\" -> 'Saved by a Miracle'"
+  },
+  {
+   "item": "3cb16cf403",
+   "op": "set",
+   "path": "segments.7.story_key",
+   "value": "saved-by-a-miracle",
+   "reason": "Segment 7 (start 941 s, 'Reb Boruch and the Alter Rebbe's Blessing, Chapter 2'): story_key 'reb-boruch-and-the-alter-rebbes-blessing' -> 'saved-by-a-miracle'"
+  },
+  {
+   "item": "fb66968f80",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-rambams-resting-place",
+    "story_title": "The Rambam's Resting Place",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1986 run of 'The Rambam's Resting Place', episode 220): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'; title \"The Rambam's Grave\" -> \"The Rambam's Resting Place\""
+  },
+  {
+   "item": "fb66968f80",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-rambams-resting-place",
+   "reason": "Segment 5 (start 645 s, 'The Rambam's Grave, Chapter 1'): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'"
+  },
+  {
+   "item": "eee1f9a53f",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-rambams-resting-place",
+    "story_title": "The Rambam's Resting Place",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1986 run of 'The Rambam's Resting Place', episode 221): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'; title \"The Rambam's Grave\" -> \"The Rambam's Resting Place\""
+  },
+  {
+   "item": "eee1f9a53f",
+   "op": "set",
+   "path": "segments.3.story_key",
+   "value": "the-rambams-resting-place",
+   "reason": "Segment 3 (start 455 s, 'The Rambam's Grave, Chapter 2 (part 1)'): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'"
+  },
+  {
+   "item": "eee1f9a53f",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-rambams-resting-place",
+   "reason": "Segment 5 (start 1017 s, 'The Rambam's Grave, Chapter 2 (part 2)'): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'"
+  },
+  {
+   "item": "711aac43fe",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-rambams-resting-place",
+    "story_title": "The Rambam's Resting Place",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1992 run of 'The Rambam's Resting Place', episode 528): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'; title \"The Rambam's Grave\" -> \"The Rambam's Resting Place\""
+  },
+  {
+   "item": "711aac43fe",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-rambams-resting-place",
+   "reason": "Segment 5 (start 617 s, 'The Rambam's Grave, Chapter 1'): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'"
+  },
+  {
+   "item": "070e12f2ca",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-rambams-resting-place",
+    "story_title": "The Rambam's Resting Place",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1992 run of 'The Rambam's Resting Place', episode 529): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'; title \"The Rambam's Grave\" -> \"The Rambam's Resting Place\""
+  },
+  {
+   "item": "070e12f2ca",
+   "op": "set",
+   "path": "segments.3.story_key",
+   "value": "the-rambams-resting-place",
+   "reason": "Segment 3 (start 291 s, 'The Rambam's Grave, Chapter 2: Robbers in the Desert'): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'"
+  },
+  {
+   "item": "070e12f2ca",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "the-rambams-resting-place",
+   "reason": "Segment 6 (start 927 s, 'The Rambam's Grave, Chapter 2: The Camel Leads the Way'): story_key 'the-rambams-grave' -> 'the-rambams-resting-place'"
+  },
+  {
+   "item": "0a9df2758e",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-blessing-of-a-tzaddik",
+    "story_title": "The Blessing of a Tzaddik",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1984 run of 'The Blessing of a Tzaddik', episode 127): story_key 'a-blessing-from-a-tzaddik' -> 'the-blessing-of-a-tzaddik'; title 'A Blessing from a Tzaddik' -> 'The Blessing of a Tzaddik'"
+  },
+  {
+   "item": "0a9df2758e",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-blessing-of-a-tzaddik",
+   "reason": "Segment 4 (start 565 s, 'A Blessing from a Tzaddik, Chapter 1 (part 1)'): story_key 'a-blessing-from-a-tzaddik' -> 'the-blessing-of-a-tzaddik'"
+  },
+  {
+   "item": "0a9df2758e",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "the-blessing-of-a-tzaddik",
+   "reason": "Segment 6 (start 1283 s, 'A Blessing from a Tzaddik, Chapter 1 (part 2)'): story_key 'a-blessing-from-a-tzaddik' -> 'the-blessing-of-a-tzaddik'"
+  },
+  {
+   "item": "578d853efd",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-blessing-of-a-tzaddik",
+    "story_title": "The Blessing of a Tzaddik",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1987 run of 'The Blessing of a Tzaddik', episode 302): story_key 'a-blessing-from-a-tzaddik' -> 'the-blessing-of-a-tzaddik'; title 'A Blessing From a Tzaddik' -> 'The Blessing of a Tzaddik'; chapter None -> 2. 302 is the final chapter (text = chapter 2 of 353/372, 0.85-0.96); chapter 1 (301) is missing."
+  },
+  {
+   "item": "578d853efd",
+   "op": "set",
+   "path": "segments.8.story_key",
+   "value": "the-blessing-of-a-tzaddik",
+   "reason": "Segment 8 (start 1067 s, 'A Blessing From a Tzaddik (conclusion)'): story_key 'a-blessing-from-a-tzaddik' -> 'the-blessing-of-a-tzaddik'"
+  },
+  {
+   "item": "578d853efd",
+   "op": "set",
+   "path": "segments.8.chapter",
+   "value": 2,
+   "reason": "Segment 8 (start 1067 s): chapter None -> 2 (1987 run of 'The Blessing of a Tzaddik')"
+  },
+  {
+   "item": "2ef8dfd816",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-return-of-yehudah",
+    "story_title": "The Return of Yehudah",
+    "chapter": 4
+   },
+   "reason": "Serial normalization (1986 run of 'The Return of Yehudah', episode 245): chapter None -> 4. Chapters fixed by text match with the 1988-89 run: 245 = ch. 4 (ep 359, 0.89), 246 = ch. 5 (ep 360, 0.88), 254 = ch. 13 (ep 368, 0.95). Missing episode numbers are inferred (one chapter a week); 254 promises the final chapter next week."
+  },
+  {
+   "item": "2ef8dfd816",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 4,
+   "reason": "Segment 6 (start 700 s): chapter None -> 4 (1986 run of 'The Return of Yehudah')"
+  },
+  {
+   "item": "261ddfd063",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-return-of-yehudah",
+    "story_title": "The Return of Yehudah",
+    "chapter": 5
+   },
+   "reason": "Serial normalization (1986 run of 'The Return of Yehudah', episode 246): chapter 4 -> 5. Chapters fixed by text match with the 1988-89 run: 245 = ch. 4 (ep 359, 0.89), 246 = ch. 5 (ep 360, 0.88), 254 = ch. 13 (ep 368, 0.95). Missing episode numbers are inferred (one chapter a week); 254 promises the final chapter next week."
+  },
+  {
+   "item": "261ddfd063",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-return-of-yehudah",
+   "reason": "Segment 5 (start 905 s, 'The Return of Yehudah, Chapter 4'): story_key None -> 'the-return-of-yehudah'"
+  },
+  {
+   "item": "261ddfd063",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 5,
+   "reason": "Segment 5 (start 905 s): chapter None -> 5 (1986 run of 'The Return of Yehudah')"
+  },
+  {
+   "item": "261ddfd063",
+   "op": "set",
+   "path": "segments.5.title",
+   "value": "The Return of Yehudah, Chapter 5",
+   "reason": "Segment 5 title names chapter 4; this segment is chapter 5 (Chapters fixed by text match with the 1988-89 run: 245 = ch. 4 (ep 359, 0.89), 246 = ch. 5 (ep 360, 0.88), 254 = ch. 13 (ep 368, 0.95). Missing episode numbers are inferred (one chapter a week); 254 promises the final chapter next week.)"
+  },
+  {
+   "item": "261ddfd063",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 246: The Return of Yehudah, Chapter 5 (Aseres Yemei Teshuvah)",
+   "reason": "Title follows the chapter fix (4 -> 5); evidence: Chapters fixed by text match with the 1988-89 run: 245 = ch. 4 (ep 359, 0.89), 246 = ch. 5 (ep 360, 0.88), 254 = ch. 13 (ep 368, 0.95). Missing episode numbers are inferred (one chapter a week); 254 promises the final chapter next week."
+  },
+  {
+   "item": "261ddfd063",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "6f4d381b92",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-return-of-yehudah",
+    "story_title": "The Return of Yehudah",
+    "chapter": 13
+   },
+   "reason": "Serial normalization (1986 run of 'The Return of Yehudah', episode 254): chapter None -> 13. Chapters fixed by text match with the 1988-89 run: 245 = ch. 4 (ep 359, 0.89), 246 = ch. 5 (ep 360, 0.88), 254 = ch. 13 (ep 368, 0.95). Missing episode numbers are inferred (one chapter a week); 254 promises the final chapter next week."
+  },
+  {
+   "item": "6f4d381b92",
+   "op": "set",
+   "path": "segments.7.story_key",
+   "value": "the-return-of-yehudah",
+   "reason": "Segment 7 (start 1006 s, 'The Return of Yehudah: The Secret Message'): story_key None -> 'the-return-of-yehudah'"
+  },
+  {
+   "item": "6f4d381b92",
+   "op": "set",
+   "path": "segments.7.chapter",
+   "value": 13,
+   "reason": "Segment 7 (start 1006 s): chapter None -> 13 (1986 run of 'The Return of Yehudah')"
+  },
+  {
+   "item": "6b44697042",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "little-zalmy-and-the-spooky-house",
+   "reason": "Segment 6 (start 715 s, 'Little Zalmy and the Spooky House, Chapter 1'): story_key None -> 'little-zalmy-and-the-spooky-house'"
+  },
+  {
+   "item": "6b44697042",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 1,
+   "reason": "Segment 6 (start 715 s): chapter None -> 1 (1986 run of 'Little Zalmy and the Spooky House')"
+  },
+  {
+   "item": "35b2d7e621",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "little-zalmy-and-the-spooky-house",
+   "reason": "Segment 6 (start 880 s, 'Little Zalmy and the Spooky House, Chapter 2'): story_key None -> 'little-zalmy-and-the-spooky-house'"
+  },
+  {
+   "item": "35b2d7e621",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 2,
+   "reason": "Segment 6 (start 880 s): chapter None -> 2 (1986 run of 'Little Zalmy and the Spooky House')"
+  },
+  {
+   "item": "89da57355d",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 3
+   },
+   "reason": "Serial normalization (1987 run of 'The Storyteller', episode 264): chapter None -> 3. Catalog 'Reb Yehudah #?' / '(climax)'. Chapters fixed by text match with 1989-90: 264 = ch. 3 (ep 409), 267 = ch. 6 (ep 412), 270 = ch. 9 (ep 414). Missing numbers inferred (one chapter a week)."
+  },
+  {
+   "item": "89da57355d",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-storyteller",
+   "reason": "Segment 4 (start 662 s, 'The Storyteller: Rabbi Yehudah Meets a Kind Innkeeper'): story_key None -> 'the-storyteller'"
+  },
+  {
+   "item": "89da57355d",
+   "op": "set",
+   "path": "segments.4.chapter",
+   "value": 3,
+   "reason": "Segment 4 (start 662 s): chapter None -> 3 (1987 run of 'The Storyteller')"
+  },
+  {
+   "item": "89da57355d",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "the-storyteller",
+   "reason": "Segment 6 (start 1127 s, 'The Storyteller: The Merchant Who Pays for Stories'): story_key None -> 'the-storyteller'"
+  },
+  {
+   "item": "89da57355d",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 3,
+   "reason": "Segment 6 (start 1127 s): chapter None -> 3 (1987 run of 'The Storyteller')"
+  },
+  {
+   "item": "11afe89ace",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 6
+   },
+   "reason": "Serial normalization (1987 run of 'The Storyteller', episode 267): chapter None -> 6. Catalog 'Reb Yehudah #?' / '(climax)'. Chapters fixed by text match with 1989-90: 264 = ch. 3 (ep 409), 267 = ch. 6 (ep 412), 270 = ch. 9 (ep 414). Missing numbers inferred (one chapter a week)."
+  },
+  {
+   "item": "11afe89ace",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-storyteller",
+   "reason": "Segment 4 (start 644 s, 'The Storyteller: The Baal Shem Tov Sends for Alex'): story_key None -> 'the-storyteller'"
+  },
+  {
+   "item": "11afe89ace",
+   "op": "set",
+   "path": "segments.4.chapter",
+   "value": 6,
+   "reason": "Segment 4 (start 644 s): chapter None -> 6 (1987 run of 'The Storyteller')"
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 9
+   },
+   "reason": "Serial normalization (1987 run of 'The Storyteller', episode 270): chapter None -> 9. Catalog 'Reb Yehudah #?' / '(climax)'. Chapters fixed by text match with 1989-90: 264 = ch. 3 (ep 409), 267 = ch. 6 (ep 412), 270 = ch. 9 (ep 414). Missing numbers inferred (one chapter a week)."
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-storyteller",
+   "reason": "Segment 5 (start 908 s, 'The Storyteller: The Baal Shem Tov's Sign'): story_key None -> 'the-storyteller'"
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 9,
+   "reason": "Segment 5 (start 908 s): chapter None -> 9 (1987 run of 'The Storyteller')"
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "set",
+   "path": "segments.7.story_key",
+   "value": "the-storyteller",
+   "reason": "Segment 7 (start 1234 s, 'The Storyteller: The Day Has Come'): story_key None -> 'the-storyteller'"
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "set",
+   "path": "segments.7.chapter",
+   "value": 9,
+   "reason": "Segment 7 (start 1234 s): chapter None -> 9 (1987 run of 'The Storyteller')"
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 339): chapter 1 -> 2. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "segments.3.chapter",
+   "value": 2,
+   "reason": "Segment 3 (start 560 s): chapter 1 -> 2 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "segments.3.title",
+   "value": "The Storyteller, Chapter 2 (first part)",
+   "reason": "Segment 3 title follows the chapter fix (1 -> 2)"
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 2,
+   "reason": "Segment 5 (start 905 s): chapter 1 -> 2 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "segments.5.title",
+   "value": "The Storyteller, Chapter 2 (continued)",
+   "reason": "Segment 5 title follows the chapter fix (1 -> 2)"
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 339: The Storyteller, Chapter 2 (Shabbos Mevarchim Elul)",
+   "reason": "Title follows the chapter fix (1 -> 2); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 3
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 340): chapter 2 -> 3. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "segments.3.chapter",
+   "value": 3,
+   "reason": "Segment 3 (start 760 s): chapter 2 -> 3 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "segments.3.title",
+   "value": "The Storyteller, Chapter 3 (first part)",
+   "reason": "Segment 3 title follows the chapter fix (2 -> 3)"
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 3,
+   "reason": "Segment 5 (start 1215 s): chapter 2 -> 3 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "segments.5.title",
+   "value": "The Storyteller, Chapter 3 (continued)",
+   "reason": "Segment 5 title follows the chapter fix (2 -> 3)"
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 340: The Storyteller, Chapter 3 (Rosh Chodesh Elul)",
+   "reason": "Title follows the chapter fix (2 -> 3); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 4
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 341): chapter 3 -> 4. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "segments.4.chapter",
+   "value": 4,
+   "reason": "Segment 4 (start 626 s): chapter 3 -> 4 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "segments.4.title",
+   "value": "The Storyteller, Chapter 4 (first part)",
+   "reason": "Segment 4 title follows the chapter fix (3 -> 4)"
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 4,
+   "reason": "Segment 6 (start 960 s): chapter 3 -> 4 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "segments.6.title",
+   "value": "The Storyteller, Chapter 4 (continued)",
+   "reason": "Segment 6 title follows the chapter fix (3 -> 4)"
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 341: The Storyteller, Chapter 4 (Elul)",
+   "reason": "Title follows the chapter fix (3 -> 4); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "82715ff045",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "2673cb25a1",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 5
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 342): chapter None -> 5. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "2673cb25a1",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 5,
+   "reason": "Segment 5 (start 555 s): chapter None -> 5 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "28f877b59d",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 6
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 343): chapter 4 -> 6. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "28f877b59d",
+   "op": "set",
+   "path": "segments.3.chapter",
+   "value": 6,
+   "reason": "Segment 3 (start 240 s): chapter 4 -> 6 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "28f877b59d",
+   "op": "set",
+   "path": "segments.3.title",
+   "value": "The Storyteller, Chapter 6",
+   "reason": "Segment 3 title follows the chapter fix (4 -> 6)"
+  },
+  {
+   "item": "28f877b59d",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 343: The Storyteller, Chapter 6 (Chai Elul)",
+   "reason": "Title follows the chapter fix (4 -> 6); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "28f877b59d",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 7
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 344): chapter 5 -> 7. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "segments.3.chapter",
+   "value": 7,
+   "reason": "Segment 3 (start 595 s): chapter 5 -> 7 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "segments.3.title",
+   "value": "The Storyteller, Chapter 7 (first part)",
+   "reason": "Segment 3 title follows the chapter fix (5 -> 7)"
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "segments.5.chapter",
+   "value": 7,
+   "reason": "Segment 5 (start 1035 s): chapter 5 -> 7 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "segments.5.title",
+   "value": "The Storyteller, Chapter 7 (continued)",
+   "reason": "Segment 5 title follows the chapter fix (5 -> 7)"
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 344: The Storyteller, Chapter 7 (Before Rosh Hashanah)",
+   "reason": "Title follows the chapter fix (5 -> 7); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 8
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 345): chapter 6 -> 8. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "segments.4.chapter",
+   "value": 8,
+   "reason": "Segment 4 (start 818 s): chapter 6 -> 8 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "segments.4.title",
+   "value": "The Storyteller, Chapter 8: You Are a Jew",
+   "reason": "Segment 4 title follows the chapter fix (6 -> 8)"
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 8,
+   "reason": "Segment 6 (start 1290 s): chapter 6 -> 8 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "segments.6.title",
+   "value": "The Storyteller, Chapter 8 (continued): A Sign of Forgiveness",
+   "reason": "Segment 6 title follows the chapter fix (6 -> 8)"
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 345: The Storyteller, Chapter 8 (Erev Yom Kippur)",
+   "reason": "Title follows the chapter fix (6 -> 8); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "the-storyteller",
+    "story_title": "The Storyteller",
+    "chapter": 9
+   },
+   "reason": "Serial normalization (1988 run of 'The Storyteller', episode 346): chapter 7 -> 9. The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "segments.4.chapter",
+   "value": 9,
+   "reason": "Segment 4 (start 689 s): chapter 7 -> 9 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "segments.4.title",
+   "value": "The Storyteller, Chapter 9: The Promised Sign",
+   "reason": "Segment 4 title follows the chapter fix (7 -> 9)"
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "segments.6.chapter",
+   "value": 9,
+   "reason": "Segment 6 (start 1058 s): chapter 7 -> 9 (1988 run of 'The Storyteller')"
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "segments.6.title",
+   "value": "The Storyteller, Chapter 9: The Day Has Come",
+   "reason": "Segment 6 title follows the chapter fix (7 -> 9)"
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "display.title",
+   "value": "Episode 346: The Storyteller, Chapter 9: The Climax (Rosh Chodesh Cheshvan)",
+   "reason": "Title follows the chapter fix (7 -> 9); evidence: The catalog numbers 339-346 as #1-#7, skipping 342. Text match with 1989-90 (0.80-0.98) gives 339 = ch. 2 (ep 408) ... 346 = ch. 9 (ep 414); 339 recaps 'last week's chapter', so ch. 1 was probably 338."
+  },
+  {
+   "item": "5883b47d62",
+   "op": "set",
+   "path": "display.title_basis",
+   "value": "content",
+   "reason": "Chapter number in the title now comes from content (text alignment with other runs), not the catalog numbering."
+  },
+  {
+   "item": "09dddba098",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "judge-for-a-day",
+    "story_title": "Judge for a Day",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1990 run of 'Judge for a Day', episode 427): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'; title 'A Judge for a Day' -> 'Judge for a Day'"
+  },
+  {
+   "item": "09dddba098",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "judge-for-a-day",
+   "reason": "Segment 4 (start 840 s, 'A Judge for a Day, Chapter 1'): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'"
+  },
+  {
+   "item": "be032f3167",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "judge-for-a-day",
+    "story_title": "Judge for a Day",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1990 run of 'Judge for a Day', episode 428): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'; title 'A Judge for a Day' -> 'Judge for a Day'"
+  },
+  {
+   "item": "be032f3167",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "judge-for-a-day",
+   "reason": "Segment 5 (start 915 s, 'A Judge for a Day, Chapter 2'): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'"
+  },
+  {
+   "item": "6aa8d7ae63",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "judge-for-a-day",
+    "story_title": "Judge for a Day",
+    "chapter": 3
+   },
+   "reason": "Serial normalization (1990 run of 'Judge for a Day', episode 429): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'; title 'A Judge for a Day' -> 'Judge for a Day'"
+  },
+  {
+   "item": "6aa8d7ae63",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "judge-for-a-day",
+   "reason": "Segment 4 (start 572 s, 'A Judge for a Day, Chapter 3'): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'"
+  },
+  {
+   "item": "d89547e51a",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "judge-for-a-day",
+    "story_title": "Judge for a Day",
+    "chapter": 1
+   },
+   "reason": "Serial normalization (1992 run of 'Judge for a Day', episode 521): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'; title 'A Judge for a Day' -> 'Judge for a Day'"
+  },
+  {
+   "item": "d89547e51a",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "judge-for-a-day",
+   "reason": "Segment 6 (start 893 s, 'A Judge for a Day, Chapter 1'): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'"
+  },
+  {
+   "item": "3f112e5df7",
+   "op": "set",
+   "path": "classification.serial",
+   "value": {
+    "story_key": "judge-for-a-day",
+    "story_title": "Judge for a Day",
+    "chapter": 2
+   },
+   "reason": "Serial normalization (1992 run of 'Judge for a Day', episode 522): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'; title 'A Judge for a Day' -> 'Judge for a Day'"
+  },
+  {
+   "item": "3f112e5df7",
+   "op": "set",
+   "path": "segments.6.story_key",
+   "value": "judge-for-a-day",
+   "reason": "Segment 6 (start 896 s, 'A Judge for a Day, Chapter 2'): story_key 'a-judge-for-a-day' -> 'judge-for-a-day'"
+  },
+  {
+   "item": "94d2197a4f",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "01e89fcc30",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1982): ep 7 ch. 1 and ep 8 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1982): ep 7 ch. 1 and ep 8 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "01e89fcc30",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "94d2197a4f",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1982): ep 7 ch. 1 and ep 8 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1982): ep 7 ch. 1 and ep 8 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "01e89fcc30",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "28d65320a3",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1982): ep 8 ch. 2 and ep 9 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1982): ep 8 ch. 2 and ep 9 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "28d65320a3",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "01e89fcc30",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1982): ep 8 ch. 2 and ep 9 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1982): ep 8 ch. 2 and ep 9 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "28d65320a3",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "2ce3043f24",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1982): ep 9 ch. 3 and ep 10 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1982): ep 9 ch. 3 and ep 10 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "2ce3043f24",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "28d65320a3",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1982): ep 9 ch. 3 and ep 10 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1982): ep 9 ch. 3 and ep 10 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "1d0f28c0a0",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9b4f8abe35",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1984): ep 130 ch. 2 and ep 131 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1984): ep 130 ch. 2 and ep 131 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9b4f8abe35",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "1d0f28c0a0",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1984): ep 130 ch. 2 and ep 131 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1984): ep 130 ch. 2 and ep 131 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9b4f8abe35",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "1d0f28c0a0",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 131 ch. 3 continues 'The Ten Wedding Gifts' (1984): ep 130 ch. 2."
+   },
+   "reason": "Serial chain: ep 131 ch. 3 continues 'The Ten Wedding Gifts' (1984): ep 130 ch. 2."
+  },
+  {
+   "item": "a18c8f842e",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9bc8ca94cc",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1986): ep 210 ch. 1 and ep 211 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1986): ep 210 ch. 1 and ep 211 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9bc8ca94cc",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a18c8f842e",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1986): ep 210 ch. 1 and ep 211 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1986): ep 210 ch. 1 and ep 211 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9bc8ca94cc",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "25fd6b1098",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1986): ep 211 ch. 2 and ep 212 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1986): ep 211 ch. 2 and ep 212 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "25fd6b1098",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9bc8ca94cc",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1986): ep 211 ch. 2 and ep 212 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1986): ep 211 ch. 2 and ep 212 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "25fd6b1098",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3ee5407420",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1986): ep 212 ch. 3 and ep 213 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1986): ep 212 ch. 3 and ep 213 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3ee5407420",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "25fd6b1098",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1986): ep 212 ch. 3 and ep 213 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1986): ep 212 ch. 3 and ep 213 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "fa0b329e13",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "83ccaab69f",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1990): ep 454 ch. 1 and ep 455 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1990): ep 454 ch. 1 and ep 455 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "fa0b329e13",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "49c48be342",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1990): ep 455 ch. 2 and ep 456 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1990): ep 455 ch. 2 and ep 456 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "49c48be342",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "fa0b329e13",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1990): ep 455 ch. 2 and ep 456 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1990): ep 455 ch. 2 and ep 456 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "49c48be342",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3394fd4624",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1990): ep 456 ch. 3 and ep 457 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1990): ep 456 ch. 3 and ep 457 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3394fd4624",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "49c48be342",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1990): ep 456 ch. 3 and ep 457 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1990): ep 456 ch. 3 and ep 457 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4ed256fa8a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "69dc7d2e54",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1992): ep 534 ch. 1 and ep 535 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1992): ep 534 ch. 1 and ep 535 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "69dc7d2e54",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4ed256fa8a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1992): ep 534 ch. 1 and ep 535 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1992): ep 534 ch. 1 and ep 535 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "69dc7d2e54",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "4ed256fa8a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 535 ch. 2 continues 'The Ten Wedding Gifts' (1992): ep 534 ch. 1."
+   },
+   "reason": "Serial chain: ep 535 ch. 2 continues 'The Ten Wedding Gifts' (1992): ep 534 ch. 1."
+  },
+  {
+   "item": "a2b2b58acf",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "69dc7d2e54",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1992): ep 535 ch. 2 and ep 536 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1992): ep 535 ch. 2 and ep 536 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "0b62e44a6e",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a2b2b58acf",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Ten Wedding Gifts' (1992): ep 536 ch. 3 and ep 537 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Ten Wedding Gifts' (1992): ep 536 ch. 3 and ep 537 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "1548d130c1",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "94351be6b8",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1982): ep 11 ch. 1 and ep 12 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1982): ep 11 ch. 1 and ep 12 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "94351be6b8",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "1548d130c1",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1982): ep 11 ch. 1 and ep 12 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1982): ep 11 ch. 1 and ep 12 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "94351be6b8",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e39943b482",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1982): ep 12 ch. 2 and ep 13 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1982): ep 12 ch. 2 and ep 13 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e39943b482",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "94351be6b8",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1982): ep 12 ch. 2 and ep 13 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1982): ep 12 ch. 2 and ep 13 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e39943b482",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "94351be6b8",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 13 ch. 3 continues 'The Lost Letter' (1982): ep 12 ch. 2."
+   },
+   "reason": "Serial chain: ep 13 ch. 3 continues 'The Lost Letter' (1982): ep 12 ch. 2."
+  },
+  {
+   "item": "ba89efe781",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "525312872b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1984): ep 146 ch. 1 and ep 147 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1984): ep 146 ch. 1 and ep 147 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "525312872b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "ba89efe781",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1984): ep 146 ch. 1 and ep 147 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1984): ep 146 ch. 1 and ep 147 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "525312872b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "25a669862e",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1984): ep 147 ch. 2 and ep 148 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1984): ep 147 ch. 2 and ep 148 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "25a669862e",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "525312872b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1984): ep 147 ch. 2 and ep 148 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1984): ep 147 ch. 2 and ep 148 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "70655704ec",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b35e60b8a2",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1986): ep 208 ch. 2 and ep 209 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1986): ep 208 ch. 2 and ep 209 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b35e60b8a2",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "70655704ec",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1986): ep 208 ch. 2 and ep 209 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1986): ep 208 ch. 2 and ep 209 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "689d05b1c7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "527438b8a3",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1991a): ep 461 ch. 1 and ep 462 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1991a): ep 461 ch. 1 and ep 462 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "527438b8a3",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "689d05b1c7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1991a): ep 461 ch. 1 and ep 462 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1991a): ep 461 ch. 1 and ep 462 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "577e0215fd",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "796a534305",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1991b): ep 471 ch. 1 and ep 472 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1991b): ep 471 ch. 1 and ep 472 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "796a534305",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "577e0215fd",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Lost Letter' (1991b): ep 471 ch. 1 and ep 472 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Lost Letter' (1991b): ep 471 ch. 1 and ep 472 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "5bcc2b3a95",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "25f7b4e626",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Mystery of Toras Emes' (1982): ep 14 ch. 1 and ep 15 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Mystery of Toras Emes' (1982): ep 14 ch. 1 and ep 15 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "25f7b4e626",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "5bcc2b3a95",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Mystery of Toras Emes' (1982): ep 14 ch. 1 and ep 15 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Mystery of Toras Emes' (1982): ep 14 ch. 1 and ep 15 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "10570f8f7e",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b412d5961c",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Mystery of Toras Emes' (1986): ep 214 ch. 1 and ep 215 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Mystery of Toras Emes' (1986): ep 214 ch. 1 and ep 215 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b412d5961c",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "10570f8f7e",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Mystery of Toras Emes' (1986): ep 214 ch. 1 and ep 215 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Mystery of Toras Emes' (1986): ep 214 ch. 1 and ep 215 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b70ca9e7ce",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "dfed566766",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Mystery of Toras Emes' (1990): ep 420 ch. 1 and ep 421 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Mystery of Toras Emes' (1990): ep 420 ch. 1 and ep 421 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "dfed566766",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b70ca9e7ce",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Mystery of Toras Emes' (1990): ep 420 ch. 1 and ep 421 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Mystery of Toras Emes' (1990): ep 420 ch. 1 and ep 421 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "6d98153d65",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "89f933a998",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Star Gazer' (1982): ep 16 ch. 1 and ep 17 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Star Gazer' (1982): ep 16 ch. 1 and ep 17 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "89f933a998",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "6d98153d65",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Star Gazer' (1982): ep 16 ch. 1 and ep 17 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Star Gazer' (1982): ep 16 ch. 1 and ep 17 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "f8713031b8",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "96b0e06c39",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Life in the Hands of the Tongue' (1982): ep 19 ch. 1 and ep 20 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Life in the Hands of the Tongue' (1982): ep 19 ch. 1 and ep 20 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "f8713031b8",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Life in the Hands of the Tongue' (1982): ep 19 ch. 1 and ep 20 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Life in the Hands of the Tongue' (1982): ep 19 ch. 1 and ep 20 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "29dc93d7ca",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "77cf0ad617",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Life in the Hands of the Tongue' (1984): ep 115 ch. 1 and ep 116 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Life in the Hands of the Tongue' (1984): ep 115 ch. 1 and ep 116 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "77cf0ad617",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "29dc93d7ca",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Life in the Hands of the Tongue' (1984): ep 115 ch. 1 and ep 116 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Life in the Hands of the Tongue' (1984): ep 115 ch. 1 and ep 116 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "77cf0ad617",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "29dc93d7ca",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 116 ch. 2 continues 'Life in the Hands of the Tongue' (1984): ep 115 ch. 1."
+   },
+   "reason": "Serial chain: ep 116 ch. 2 continues 'Life in the Hands of the Tongue' (1984): ep 115 ch. 1."
+  },
+  {
+   "item": "a890e4740d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "8876a93979",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Life in the Hands of the Tongue' (1991): ep 476 ch. 1 and ep 477 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Life in the Hands of the Tongue' (1991): ep 476 ch. 1 and ep 477 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "8876a93979",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a890e4740d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Life in the Hands of the Tongue' (1991): ep 476 ch. 1 and ep 477 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Life in the Hands of the Tongue' (1991): ep 476 ch. 1 and ep 477 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7267fa808d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "6593d0560a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Needles and Toothpicks' (1982): ep 22 ch. 1 and ep 23 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Needles and Toothpicks' (1982): ep 22 ch. 1 and ep 23 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "6593d0560a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7267fa808d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Needles and Toothpicks' (1982): ep 22 ch. 1 and ep 23 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Needles and Toothpicks' (1982): ep 22 ch. 1 and ep 23 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "6593d0560a",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "7267fa808d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 23 ch. 2 continues 'The Needles and Toothpicks' (1982): ep 22 ch. 1."
+   },
+   "reason": "Serial chain: ep 23 ch. 2 continues 'The Needles and Toothpicks' (1982): ep 22 ch. 1."
+  },
+  {
+   "item": "fda38af798",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "08d7e6a3d5",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Needles and Toothpicks' (1984): ep 118 ch. 1 and ep 119 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Needles and Toothpicks' (1984): ep 118 ch. 1 and ep 119 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "08d7e6a3d5",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "fda38af798",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Needles and Toothpicks' (1984): ep 118 ch. 1 and ep 119 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Needles and Toothpicks' (1984): ep 118 ch. 1 and ep 119 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7df306633a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "54ec7dddd9",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Needles and Toothpicks' (1991): ep 467 ch. 1 and ep 468 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Needles and Toothpicks' (1991): ep 467 ch. 1 and ep 468 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "54ec7dddd9",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7df306633a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Needles and Toothpicks' (1991): ep 467 ch. 1 and ep 468 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Needles and Toothpicks' (1991): ep 467 ch. 1 and ep 468 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "d4bce1f21a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c7ad731703",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1982): ep 26 ch. 1 and ep 27 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1982): ep 26 ch. 1 and ep 27 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "c7ad731703",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d4bce1f21a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1982): ep 26 ch. 1 and ep 27 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1982): ep 26 ch. 1 and ep 27 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "0d0dca3950",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "da4e994561",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1984): ep 144 ch. 1 and ep 145 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1984): ep 144 ch. 1 and ep 145 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "da4e994561",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "0d0dca3950",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1984): ep 144 ch. 1 and ep 145 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1984): ep 144 ch. 1 and ep 145 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9ad0681eb7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c3c1431fbb",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1985): ep 190 ch. 1 and ep 191 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1985): ep 190 ch. 1 and ep 191 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "a6d365fb27",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e1f0dfdd1d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1986): ep 232 ch. 1 and ep 233 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1986): ep 232 ch. 1 and ep 233 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e1f0dfdd1d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a6d365fb27",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1986): ep 232 ch. 1 and ep 233 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1986): ep 232 ch. 1 and ep 233 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9e76795fbd",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "853da317f6",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1991): ep 469 ch. 1 and ep 470 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1991): ep 469 ch. 1 and ep 470 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "853da317f6",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9e76795fbd",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1991): ep 469 ch. 1 and ep 470 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1991): ep 469 ch. 1 and ep 470 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "853da317f6",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "9e76795fbd",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 470 ch. 2 continues 'Saved by a Miracle' (1991): ep 469 ch. 1."
+   },
+   "reason": "Serial chain: ep 470 ch. 2 continues 'Saved by a Miracle' (1991): ep 469 ch. 1."
+  },
+  {
+   "item": "8446e61564",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3cb16cf403",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1992): ep 548 ch. 1 and ep 549 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1992): ep 548 ch. 1 and ep 549 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3cb16cf403",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "8446e61564",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'Saved by a Miracle' (1992): ep 548 ch. 1 and ep 549 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Saved by a Miracle' (1992): ep 548 ch. 1 and ep 549 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "c17d6b4605",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "01e137f549",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Forbidden Road' (1982): ep 30 ch. 1 and ep 31 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Forbidden Road' (1982): ep 30 ch. 1 and ep 31 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "01e137f549",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c17d6b4605",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Forbidden Road' (1982): ep 30 ch. 1 and ep 31 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Forbidden Road' (1982): ep 30 ch. 1 and ep 31 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "de684a1a44",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "084bdc9506",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Forbidden Road' (1984): ep 120 ch. 1 and ep 121 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Forbidden Road' (1984): ep 120 ch. 1 and ep 121 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "084bdc9506",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "de684a1a44",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Forbidden Road' (1984): ep 120 ch. 1 and ep 121 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Forbidden Road' (1984): ep 120 ch. 1 and ep 121 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "53cdf327e6",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "f826c5f743",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Forbidden Road' (1985): ep 161 ch. 1 and ep 162 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Forbidden Road' (1985): ep 161 ch. 1 and ep 162 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "f826c5f743",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "53cdf327e6",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Forbidden Road' (1985): ep 161 ch. 1 and ep 162 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Forbidden Road' (1985): ep 161 ch. 1 and ep 162 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "c086cd94b1",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d15a73b724",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Three Lost on an Island' (1991): ep 463 ch. 1 and ep 464 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Three Lost on an Island' (1991): ep 463 ch. 1 and ep 464 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "d15a73b724",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c086cd94b1",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Three Lost on an Island' (1991): ep 463 ch. 1 and ep 464 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Three Lost on an Island' (1991): ep 463 ch. 1 and ep 464 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "f963e9286e",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "5af071df38",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Rambam's Resting Place' (1984): ep 124 ch. 1 and ep 125 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Rambam's Resting Place' (1984): ep 124 ch. 1 and ep 125 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "5af071df38",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "f963e9286e",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Rambam's Resting Place' (1984): ep 124 ch. 1 and ep 125 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Rambam's Resting Place' (1984): ep 124 ch. 1 and ep 125 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "5af071df38",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "f963e9286e",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 125 ch. 2 continues 'The Rambam's Resting Place' (1984): ep 124 ch. 1."
+   },
+   "reason": "Serial chain: ep 125 ch. 2 continues 'The Rambam's Resting Place' (1984): ep 124 ch. 1."
+  },
+  {
+   "item": "fb66968f80",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "eee1f9a53f",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Rambam's Resting Place' (1986): ep 220 ch. 1 and ep 221 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Rambam's Resting Place' (1986): ep 220 ch. 1 and ep 221 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "eee1f9a53f",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "fb66968f80",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Rambam's Resting Place' (1986): ep 220 ch. 1 and ep 221 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Rambam's Resting Place' (1986): ep 220 ch. 1 and ep 221 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "711aac43fe",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "070e12f2ca",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Rambam's Resting Place' (1992): ep 528 ch. 1 and ep 529 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Rambam's Resting Place' (1992): ep 528 ch. 1 and ep 529 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "070e12f2ca",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "711aac43fe",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Rambam's Resting Place' (1992): ep 528 ch. 1 and ep 529 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Rambam's Resting Place' (1992): ep 528 ch. 1 and ep 529 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "5ec266a540",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9e1be60351",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Blessing of a Tzaddik' (1988): ep 352 ch. 1 and ep 353 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Blessing of a Tzaddik' (1988): ep 352 ch. 1 and ep 353 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9e1be60351",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "5ec266a540",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Blessing of a Tzaddik' (1988): ep 352 ch. 1 and ep 353 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Blessing of a Tzaddik' (1988): ep 352 ch. 1 and ep 353 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9e1be60351",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "5ec266a540",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 353 ch. 2 continues 'The Blessing of a Tzaddik' (1988): ep 352 ch. 1."
+   },
+   "reason": "Serial chain: ep 353 ch. 2 continues 'The Blessing of a Tzaddik' (1988): ep 352 ch. 1."
+  },
+  {
+   "item": "4691bcb442",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c454f1dd5b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "c454f1dd5b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4691bcb442",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "f35ed7194d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4691bcb442",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3a100b0be2",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "8309f9f55f",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Kibbud Av Va'em: Dama ben Nesina' (1984): ep 149 ch. 1 and ep 150 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Kibbud Av Va'em: Dama ben Nesina' (1984): ep 149 ch. 1 and ep 150 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "8309f9f55f",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3a100b0be2",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Kibbud Av Va'em: Dama ben Nesina' (1984): ep 149 ch. 1 and ep 150 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Kibbud Av Va'em: Dama ben Nesina' (1984): ep 149 ch. 1 and ep 150 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "fbe6825c15",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4ede6df733",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Torah, the Best Thing of All' (1987): ep 280 ch. 1 and ep 281 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Torah, the Best Thing of All' (1987): ep 280 ch. 1 and ep 281 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4ede6df733",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "fbe6825c15",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Torah, the Best Thing of All' (1987): ep 280 ch. 1 and ep 281 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Torah, the Best Thing of All' (1987): ep 280 ch. 1 and ep 281 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4ede6df733",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "fbe6825c15",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 281 ch. 2 continues 'Torah, the Best Thing of All' (1987): ep 280 ch. 1."
+   },
+   "reason": "Serial chain: ep 281 ch. 2 continues 'Torah, the Best Thing of All' (1987): ep 280 ch. 1."
+  },
+  {
+   "item": "11adf87746",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c7e1d15aed",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Torah, the Best Thing of All' (1989): ep 384 ch. 1 and ep 385 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Torah, the Best Thing of All' (1989): ep 384 ch. 1 and ep 385 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "c7e1d15aed",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "11adf87746",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Torah, the Best Thing of All' (1989): ep 384 ch. 1 and ep 385 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Torah, the Best Thing of All' (1989): ep 384 ch. 1 and ep 385 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "d7c2af64da",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b446975e89",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Torah, the Best Thing of All' (1990): ep 439 ch. 1 and ep 440 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Torah, the Best Thing of All' (1990): ep 439 ch. 1 and ep 440 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b446975e89",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d7c2af64da",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Torah, the Best Thing of All' (1990): ep 439 ch. 1 and ep 440 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Torah, the Best Thing of All' (1990): ep 439 ch. 1 and ep 440 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b446975e89",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "d7c2af64da",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 440 ch. 2 continues 'Torah, the Best Thing of All' (1990): ep 439 ch. 1."
+   },
+   "reason": "Serial chain: ep 440 ch. 2 continues 'Torah, the Best Thing of All' (1990): ep 439 ch. 1."
+  },
+  {
+   "item": "73da1f9026",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d03df5b27d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'On the Road' (1984): ep 153 ch. 1 and ep 154 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'On the Road' (1984): ep 153 ch. 1 and ep 154 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "d03df5b27d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "73da1f9026",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'On the Road' (1984): ep 153 ch. 1 and ep 154 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'On the Road' (1984): ep 153 ch. 1 and ep 154 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "a5ddda2685",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "38d83b32ce",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Flickering Flame' (1984-85): ep 156 ch. 1 and ep 157 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Flickering Flame' (1984-85): ep 156 ch. 1 and ep 157 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "38d83b32ce",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a5ddda2685",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Flickering Flame' (1984-85): ep 156 ch. 1 and ep 157 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Flickering Flame' (1984-85): ep 156 ch. 1 and ep 157 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "2ef8dfd816",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "261ddfd063",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1986): ep 245 ch. 4 and ep 246 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1986): ep 245 ch. 4 and ep 246 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "261ddfd063",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "2ef8dfd816",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1986): ep 245 ch. 4 and ep 246 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1986): ep 245 ch. 4 and ep 246 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "261ddfd063",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "2ef8dfd816",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "ep 246 ch. 5 continues 'The Return of Yehudah' (1986): ep 245 ch. 4."
+   },
+   "reason": "Serial chain: ep 246 ch. 5 continues 'The Return of Yehudah' (1986): ep 245 ch. 4."
+  },
+  {
+   "item": "261ddfd063",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "6f4d381b92",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1986): ep 246 ch. 5 and ep 254 ch. 13 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1986): ep 246 ch. 5 and ep 254 ch. 13 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7d0d2d59d7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4f76af6486",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 356 ch. 1 and ep 357 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 356 ch. 1 and ep 357 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4f76af6486",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7d0d2d59d7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 356 ch. 1 and ep 357 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 356 ch. 1 and ep 357 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4f76af6486",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e5af19b792",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 357 ch. 2 and ep 358 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 357 ch. 2 and ep 358 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e5af19b792",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4f76af6486",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 357 ch. 2 and ep 358 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 357 ch. 2 and ep 358 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e5af19b792",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a815fbd757",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 358 ch. 3 and ep 359 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 358 ch. 3 and ep 359 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "a815fbd757",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e5af19b792",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 358 ch. 3 and ep 359 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 358 ch. 3 and ep 359 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "a815fbd757",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b4e30d4905",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 359 ch. 4 and ep 360 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 359 ch. 4 and ep 360 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b4e30d4905",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a815fbd757",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 359 ch. 4 and ep 360 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 359 ch. 4 and ep 360 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b4e30d4905",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "a815fbd757",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 360 ch. 5 continues 'The Return of Yehudah' (1988-89): ep 359 ch. 4."
+   },
+   "reason": "Serial chain: ep 360 ch. 5 continues 'The Return of Yehudah' (1988-89): ep 359 ch. 4."
+  },
+  {
+   "item": "b4e30d4905",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a3aba3f78a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 360 ch. 5 and ep 361 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 360 ch. 5 and ep 361 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "a3aba3f78a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b4e30d4905",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 360 ch. 5 and ep 361 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 360 ch. 5 and ep 361 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "a3aba3f78a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "f9b2e381c7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 361 ch. 6 and ep 362 ch. 7 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 361 ch. 6 and ep 362 ch. 7 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "f9b2e381c7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "a3aba3f78a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 361 ch. 6 and ep 362 ch. 7 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 361 ch. 6 and ep 362 ch. 7 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "f9b2e381c7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7def6f6a43",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 362 ch. 7 and ep 363 ch. 8 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 362 ch. 7 and ep 363 ch. 8 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7def6f6a43",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "f9b2e381c7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 362 ch. 7 and ep 363 ch. 8 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 362 ch. 7 and ep 363 ch. 8 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7def6f6a43",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e0a3b2e938",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 363 ch. 8 and ep 364 ch. 9 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 363 ch. 8 and ep 364 ch. 9 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e0a3b2e938",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7def6f6a43",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 363 ch. 8 and ep 364 ch. 9 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 363 ch. 8 and ep 364 ch. 9 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e0a3b2e938",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "eb05b90af0",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 364 ch. 9 and ep 365 ch. 10 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 364 ch. 9 and ep 365 ch. 10 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "eb05b90af0",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e0a3b2e938",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 364 ch. 9 and ep 365 ch. 10 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 364 ch. 9 and ep 365 ch. 10 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "eb05b90af0",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9c22ce4e9b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 365 ch. 10 and ep 366 ch. 11 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 365 ch. 10 and ep 366 ch. 11 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9c22ce4e9b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "eb05b90af0",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 365 ch. 10 and ep 366 ch. 11 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 365 ch. 10 and ep 366 ch. 11 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9c22ce4e9b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "27f962744b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 366 ch. 11 and ep 367 ch. 12 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 366 ch. 11 and ep 367 ch. 12 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "27f962744b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9c22ce4e9b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 366 ch. 11 and ep 367 ch. 12 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 366 ch. 11 and ep 367 ch. 12 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "27f962744b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "2a05164ba3",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 367 ch. 12 and ep 368 ch. 13 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 367 ch. 12 and ep 368 ch. 13 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "2a05164ba3",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "27f962744b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 367 ch. 12 and ep 368 ch. 13 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 367 ch. 12 and ep 368 ch. 13 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "2a05164ba3",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "27f962744b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 368 ch. 13 continues 'The Return of Yehudah' (1988-89): ep 367 ch. 12."
+   },
+   "reason": "Serial chain: ep 368 ch. 13 continues 'The Return of Yehudah' (1988-89): ep 367 ch. 12."
+  },
+  {
+   "item": "50483b7a60",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "2a05164ba3",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Return of Yehudah' (1988-89): ep 368 ch. 13 and ep 370 ch. 14 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Return of Yehudah' (1988-89): ep 368 ch. 13 and ep 370 ch. 14 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "6b44697042",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "35b2d7e621",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Little Zalmy and the Spooky House' (1986): ep 256 ch. 1 and ep 257 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Little Zalmy and the Spooky House' (1986): ep 256 ch. 1 and ep 257 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "35b2d7e621",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "6b44697042",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Little Zalmy and the Spooky House' (1986): ep 256 ch. 1 and ep 257 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Little Zalmy and the Spooky House' (1986): ep 256 ch. 1 and ep 257 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "bfcb743595",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "1e207cfa95",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Little Zalmy and the Spooky House' (1990-91): ep 459 ch. 1 and ep 460 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Little Zalmy and the Spooky House' (1990-91): ep 459 ch. 1 and ep 460 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "1e207cfa95",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "bfcb743595",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Little Zalmy and the Spooky House' (1990-91): ep 459 ch. 1 and ep 460 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Little Zalmy and the Spooky House' (1990-91): ep 459 ch. 1 and ep 460 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "1e207cfa95",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "bfcb743595",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 460 ch. 2 continues 'Little Zalmy and the Spooky House' (1990-91): ep 459 ch. 1."
+   },
+   "reason": "Serial chain: ep 460 ch. 2 continues 'Little Zalmy and the Spooky House' (1990-91): ep 459 ch. 1."
+  },
+  {
+   "item": "89da57355d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "11afe89ace",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1987): ep 264 ch. 3 and ep 267 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1987): ep 264 ch. 3 and ep 267 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "11afe89ace",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "89da57355d",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1987): ep 264 ch. 3 and ep 267 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1987): ep 264 ch. 3 and ep 267 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "11afe89ace",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "1a39be3c88",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1987): ep 267 ch. 6 and ep 270 ch. 9 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1987): ep 267 ch. 6 and ep 270 ch. 9 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "11afe89ace",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1987): ep 267 ch. 6 and ep 270 ch. 9 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1987): ep 267 ch. 6 and ep 270 ch. 9 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3018dcdff0",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b55afe2c6b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 339 ch. 2 and ep 340 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 339 ch. 2 and ep 340 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3018dcdff0",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 339 ch. 2 and ep 340 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 339 ch. 2 and ep 340 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "3018dcdff0",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 340 ch. 3 continues 'The Storyteller' (1988): ep 339 ch. 2."
+   },
+   "reason": "Serial chain: ep 340 ch. 3 continues 'The Storyteller' (1988): ep 339 ch. 2."
+  },
+  {
+   "item": "b55afe2c6b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "82715ff045",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 340 ch. 3 and ep 341 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 340 ch. 3 and ep 341 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "82715ff045",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b55afe2c6b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 340 ch. 3 and ep 341 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 340 ch. 3 and ep 341 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "82715ff045",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "b55afe2c6b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 341 ch. 4 continues 'The Storyteller' (1988): ep 340 ch. 3."
+   },
+   "reason": "Serial chain: ep 341 ch. 4 continues 'The Storyteller' (1988): ep 340 ch. 3."
+  },
+  {
+   "item": "82715ff045",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "2673cb25a1",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 341 ch. 4 and ep 342 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 341 ch. 4 and ep 342 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "2673cb25a1",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "82715ff045",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 341 ch. 4 and ep 342 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 341 ch. 4 and ep 342 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "2673cb25a1",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "82715ff045",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "ep 342 ch. 5 continues 'The Storyteller' (1988): ep 341 ch. 4."
+   },
+   "reason": "Serial chain: ep 342 ch. 5 continues 'The Storyteller' (1988): ep 341 ch. 4."
+  },
+  {
+   "item": "2673cb25a1",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "28f877b59d",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 342 ch. 5 and ep 343 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 342 ch. 5 and ep 343 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "28f877b59d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "2673cb25a1",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 342 ch. 5 and ep 343 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 342 ch. 5 and ep 343 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "28f877b59d",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "2673cb25a1",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "ep 343 ch. 6 continues 'The Storyteller' (1988): ep 342 ch. 5."
+   },
+   "reason": "Serial chain: ep 343 ch. 6 continues 'The Storyteller' (1988): ep 342 ch. 5."
+  },
+  {
+   "item": "28f877b59d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9888017ef7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 343 ch. 6 and ep 344 ch. 7 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 343 ch. 6 and ep 344 ch. 7 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "28f877b59d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 343 ch. 6 and ep 344 ch. 7 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 343 ch. 6 and ep 344 ch. 7 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "28f877b59d",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 344 ch. 7 continues 'The Storyteller' (1988): ep 343 ch. 6."
+   },
+   "reason": "Serial chain: ep 344 ch. 7 continues 'The Storyteller' (1988): ep 343 ch. 6."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "b088ce6ac1",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 344 ch. 7 and ep 345 ch. 8 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 344 ch. 7 and ep 345 ch. 8 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9888017ef7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1988): ep 344 ch. 7 and ep 345 ch. 8 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1988): ep 344 ch. 7 and ep 345 ch. 8 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "b088ce6ac1",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "9888017ef7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "ep 345 ch. 8 continues 'The Storyteller' (1988): ep 344 ch. 7."
+   },
+   "reason": "Serial chain: ep 345 ch. 8 continues 'The Storyteller' (1988): ep 344 ch. 7."
+  },
+  {
+   "item": "f6b8e3f679",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "019e1942d3",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 407 ch. 1 and ep 408 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 407 ch. 1 and ep 408 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "019e1942d3",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "f6b8e3f679",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 407 ch. 1 and ep 408 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 407 ch. 1 and ep 408 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "019e1942d3",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "58cad2a9c8",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 408 ch. 2 and ep 409 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 408 ch. 2 and ep 409 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "58cad2a9c8",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "019e1942d3",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 408 ch. 2 and ep 409 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 408 ch. 2 and ep 409 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "58cad2a9c8",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "019e1942d3",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "ep 409 ch. 3 continues 'The Storyteller' (1989-90): ep 408 ch. 2."
+   },
+   "reason": "Serial chain: ep 409 ch. 3 continues 'The Storyteller' (1989-90): ep 408 ch. 2."
+  },
+  {
+   "item": "58cad2a9c8",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7e9d4fa376",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 409 ch. 3 and ep 410 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 409 ch. 3 and ep 410 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7e9d4fa376",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "58cad2a9c8",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 409 ch. 3 and ep 410 ch. 4 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 409 ch. 3 and ep 410 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7e9d4fa376",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7dd6bcc0fc",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 410 ch. 4 and ep 411 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 410 ch. 4 and ep 411 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7dd6bcc0fc",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7e9d4fa376",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 410 ch. 4 and ep 411 ch. 5 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 410 ch. 4 and ep 411 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7dd6bcc0fc",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9184a83a28",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 411 ch. 5 and ep 412 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 411 ch. 5 and ep 412 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9184a83a28",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7dd6bcc0fc",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 411 ch. 5 and ep 412 ch. 6 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 411 ch. 5 and ep 412 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "9184a83a28",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4517c187b2",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 412 ch. 7 and ep 413 ch. 8 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 412 ch. 7 and ep 413 ch. 8 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4517c187b2",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "9184a83a28",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 412 ch. 7 and ep 413 ch. 8 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 412 ch. 7 and ep 413 ch. 8 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "4517c187b2",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "e6879ae744",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 413 ch. 8 and ep 414 ch. 9 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 413 ch. 8 and ep 414 ch. 9 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "e6879ae744",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "4517c187b2",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Storyteller' (1989-90): ep 413 ch. 8 and ep 414 ch. 9 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Storyteller' (1989-90): ep 413 ch. 8 and ep 414 ch. 9 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "49efe58654",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d0a966e65b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1987): ep 276 ch. 1 and ep 277 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1987): ep 276 ch. 1 and ep 277 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3f74202549",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3fa3f0c8c9",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1989): ep 379 ch. 1 and ep 380 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1989): ep 379 ch. 1 and ep 380 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3fa3f0c8c9",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3f74202549",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1989): ep 379 ch. 1 and ep 380 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1989): ep 379 ch. 1 and ep 380 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3fa3f0c8c9",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "35d1a78d02",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1989): ep 380 ch. 2 and ep 381 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1989): ep 380 ch. 2 and ep 381 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "35d1a78d02",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3fa3f0c8c9",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1989): ep 380 ch. 2 and ep 381 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1989): ep 380 ch. 2 and ep 381 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "09dddba098",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "be032f3167",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1990): ep 427 ch. 1 and ep 428 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1990): ep 427 ch. 1 and ep 428 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "be032f3167",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "09dddba098",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1990): ep 427 ch. 1 and ep 428 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1990): ep 427 ch. 1 and ep 428 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "be032f3167",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "6aa8d7ae63",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1990): ep 428 ch. 2 and ep 429 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1990): ep 428 ch. 2 and ep 429 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "6aa8d7ae63",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "be032f3167",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1990): ep 428 ch. 2 and ep 429 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1990): ep 428 ch. 2 and ep 429 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "d89547e51a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "3f112e5df7",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1992): ep 521 ch. 1 and ep 522 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1992): ep 521 ch. 1 and ep 522 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "3f112e5df7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d89547e51a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Judge for a Day' (1992): ep 521 ch. 1 and ep 522 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Judge for a Day' (1992): ep 521 ch. 1 and ep 522 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "6ad4603cff",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "47ab2fc67b",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Golden Staff' (1987): ep 303 ch. 1 and ep 304 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Golden Staff' (1987): ep 303 ch. 1 and ep 304 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "47ab2fc67b",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "6ad4603cff",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Golden Staff' (1987): ep 303 ch. 1 and ep 304 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Golden Staff' (1987): ep 303 ch. 1 and ep 304 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "c76133006f",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "0477e253d6",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Strange Beggar' (1990): ep 443 ch. 1 and ep 444 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Strange Beggar' (1990): ep 443 ch. 1 and ep 444 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "0477e253d6",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "c76133006f",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Strange Beggar' (1990): ep 443 ch. 1 and ep 444 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Strange Beggar' (1990): ep 443 ch. 1 and ep 444 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "0477e253d6",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "1ede044c5a",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Strange Beggar' (1990): ep 444 ch. 2 and ep 445 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Strange Beggar' (1990): ep 444 ch. 2 and ep 445 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "1ede044c5a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "0477e253d6",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'The Strange Beggar' (1990): ep 444 ch. 2 and ep 445 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The Strange Beggar' (1990): ep 444 ch. 2 and ep 445 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "d55facca63",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d5a312e778",
+    "evidence": "master_catalog",
+    "confidence": 0.9,
+    "note": "'Reb Asher the Melamed' (1992): ep 541 ch. 1 and ep 542 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Reb Asher the Melamed' (1992): ep 541 ch. 1 and ep 542 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "192b60591a",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "d55facca63",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'Reb Asher the Melamed' (1992): ep 542 ch. 2 and ep 543 ch. 3 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'Reb Asher the Melamed' (1992): ep 542 ch. 2 and ep 543 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "ad5377a39d",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "7152bb742c",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The King Saved by a Shabbos Candle' (1992): ep 552 ch. 1 and ep 553 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The King Saved by a Shabbos Candle' (1992): ep 552 ch. 1 and ep 553 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "7152bb742c",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "ad5377a39d",
+    "evidence": "content",
+    "confidence": 0.9,
+    "note": "'The King Saved by a Shabbos Candle' (1992): ep 552 ch. 1 and ep 553 ch. 2 are chapters of the same airing of the serial."
+   },
+   "reason": "Serial chain: 'The King Saved by a Shabbos Candle' (1992): ep 552 ch. 1 and ep 553 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "item": "02f03f1392",
+   "op": "add_relation",
+   "value": {
+    "type": "continues",
+    "target_id": "43ccf7c7b6",
+    "evidence": "filename",
+    "confidence": 0.9,
+    "note": "Heritage 'Akiva Torah ship 11m 23s': file 02 (ep 281, ch. 2) continues file 01 (ep 280, ch. 1)."
+   },
+   "reason": "Serial chain: Heritage 'Akiva Torah ship 11m 23s': file 02 (ep 281, ch. 2) continues file 01 (ep 280, ch. 1)."
+  },
+  {
+   "item": "02f03f1392",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "43ccf7c7b6",
+    "evidence": "filename",
+    "confidence": 0.9,
+    "note": "Heritage 'Akiva Torah ship 11m 23s': files 01-02 are chapters 1-2 of 'Torah, the Best Thing of All'."
+   },
+   "reason": "Serial chain: Heritage 'Akiva Torah ship 11m 23s': files 01-02 are chapters 1-2 of 'Torah, the Best Thing of All'."
+  },
+  {
+   "item": "43ccf7c7b6",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "02f03f1392",
+    "evidence": "filename",
+    "confidence": 0.9,
+    "note": "Heritage 'Akiva Torah ship 11m 23s': files 01-02 are chapters 1-2 of 'Torah, the Best Thing of All'."
+   },
+   "reason": "Serial chain: Heritage 'Akiva Torah ship 11m 23s': files 01-02 are chapters 1-2 of 'Torah, the Best Thing of All'."
+  },
+  {
+   "item": "11afe89ace",
+   "op": "remove_relation",
+   "match": {
+    "type": "continues",
+    "target_id": "89da57355d"
+   },
+   "reason": "'continues' must point at the immediately previous chapter of the same airing; 89da57355d is the-storyteller 1987 ch. [3] and this item is the-storyteller 1987 ch. [6]. Replaced by part_of_set."
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "remove_relation",
+   "match": {
+    "type": "continues",
+    "target_id": "11afe89ace"
+   },
+   "reason": "'continues' must point at the immediately previous chapter of the same airing; 11afe89ace is the-storyteller 1987 ch. [6] and this item is the-storyteller 1987 ch. [9]. Replaced by part_of_set."
+  },
+  {
+   "item": "3f74202549",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "35d1a78d02",
+    "evidence": "master_catalog",
+    "confidence": 0.95,
+    "note": "Reverse of the existing part_of_set from 35d1a78d02 (symmetric relation)."
+   },
+   "reason": "Serial chain: Reverse of the existing part_of_set from 35d1a78d02 (symmetric relation)."
+  },
+  {
+   "item": "baf69ae3d7",
+   "op": "add_relation",
+   "value": {
+    "type": "part_of_set",
+    "target_id": "64ad199817",
+    "evidence": "filename",
+    "confidence": 0.9,
+    "note": "Reverse of the existing part_of_set from 64ad199817 (symmetric relation)."
+   },
+   "reason": "Serial chain: Reverse of the existing part_of_set from 64ad199817 (symmetric relation)."
+  },
+  {
+   "item": "8a1af814fc",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "a-diamond-from-heaven",
+   "reason": "Segment 5 ('The Diamond from Heaven', start 848 s): same story as serial 'A Diamond from Heaven' (transcript text match); story_key 'the-diamond-from-heaven' -> 'a-diamond-from-heaven'. Chapter stays null (told complete in this episode)."
+  },
+  {
+   "item": "a2aba9fdf0",
+   "op": "set",
+   "path": "segments.5.story_key",
+   "value": "the-star-gazer",
+   "reason": "Segment 5 ('The Stargazer', start 1058 s): same story as serial 'The Star Gazer' (transcript text match); story_key 'the-stargazer' -> 'the-star-gazer'. Chapter stays null (told complete in this episode)."
+  },
+  {
+   "item": "bab6c0a2ac",
+   "op": "set",
+   "path": "segments.4.story_key",
+   "value": "the-missing-wallet",
+   "reason": "Segment 4 ('Little David and the Lost Wallet', start 522 s): same story as serial 'The Missing Wallet' (transcript text match); story_key 'little-david-and-the-lost-wallet' -> 'the-missing-wallet'. Chapter stays null (told complete in this episode)."
+  }
+ ],
+ "notes": "Serials task. Index: pass2/serials_index.json (26 radio serials, 67 airings in the archive, 170 chapter-episodes, plus catalog-only airings for the lost-episodes list). Method: master-catalog '#n' rows, pass-1 serial/segment keys, batch-report leads, and transcript 6-gram containment between the story-chapter segments of every radio episode (pass2/work/serials/sim_pairs.json); chapters of re-runs were aligned by text (0.8-1.0 containment).\n\nMerged story keys (classification.serial and segment story_key): the-miracle-of-toras-emes + the-secret-of-toras-emes -> the-mystery-of-toras-emes (two tellings of one story: 1982/1985 and 1986/1990); life-in-the-hand-of-the-tongue -> life-in-the-hands-of-the-tongue; the-napkins-and-toothpicks -> the-needles-and-toothpicks; saved-by-miracle + reb-boruch-and-the-alter-rebbes-blessing (548-549) -> saved-by-a-miracle (on air 'Through the Eyes of a Tzaddik'); the-rambams-grave -> the-rambams-resting-place; a-blessing-from-a-tzaddik -> the-blessing-of-a-tzaddik; a-judge-for-a-day -> judge-for-a-day. Segment keys of three complete single-episode tellings were also normalized (400 a-diamond-from-heaven, 401 the-missing-wallet, 406 the-star-gazer).\n\nChapter fixes that go against the catalog numbering (USER MAY WANT TO CONFIRM): The Storyteller 1988 run, episodes 339-346, renumbered 2-9 (catalog #1-#7, skipping 342) because each chapter matches the 1989-90 run one chapter later (339 = ep 408 ch. 2 ... 346 = ep 414 ch. 9) and 339 recaps 'last week's chapter'; display titles and segment titles of 339-341 and 343-346 were updated and title_basis set to content. The Storyteller 1987 ('Reb Yehudah #?'): 264 = ch. 3, 267 = ch. 6, 270 = ch. 9. Return of Yehudah 1986: 245 = ch. 4, 246 = ch. 5 (pass 1 had 4; title updated), 254 = ch. 13, all by text match with 359/360/368. The Lost Letter 1986: 208 = ch. 2, 209 = ch. 3. Blessing of a Tzaddik 302 = ch. 2. Ten Wedding Gifts 1984 keeps 130 = ch. 2, 131 = ch. 3 (said on air). The 1991 Lost Letter airings (461-462, 471-472) are a two-chapter retelling and are numbered 1-2 in their own division.\n\nRelations: 'continues' (later chapter -> immediately previous chapter of the same airing; the vocabulary defines no inverse, so it is one-directional) and 'part_of_set' (symmetric, emitted both ways) between consecutive chapters of each airing in the archive; non-adjacent members (gaps from missing episodes) get part_of_set only. Removed two wrong 'continues' (267->264 and 270->267, chapters 6->3 and 9->6) and replaced them with part_of_set. Added missing reverse part_of_set where pass 1 set only one direction. Heritage clips: 02f03f1392 continues 43ccf7c7b6 (folder 'Akiva Torah ship 11m 23s'), plus part_of_set both ways; baf69ae3d7 <-> 64ad199817 symmetry. No relations were added across airings: re-runs are recorded in the index (same_text_as_earlier_run, text_matches_in_other_runs); aired_again_in / same_story links between airings are left to the rebroadcast and same-story tasks.\n\nClips: only four radio clips cover a story chapter (the Heritage 'Torah, the Best Thing of All' files 01, 02, 03, 05) and they already had the right serial fields; no other clip of a serial episode contains a chapter (checked by clip_of offset overlap).\n\nNot patched / for review: (1) Nine complete single-episode stories carry classification.serial with chapter null or a stray chapter 1 (0b394738aa ep 18 The Stolen Purse, bd08f13af0 117, 67bbe1e780 123, 86330c8469 139, 58a54533f7 140, 2c9fe91954 141, 865ca014cf 142, fa812d9395 143, 1fe3e3a5c7 258). They are not serials, but the patch format cannot delete a field; listed in serials_index.json single_stories_with_serial_field so the site ignores them. (2) Judge for a Day: the 1987 run lacks ch. 3 (278 missing) and the 1992 run stops at ch. 2 (522); 523 airs a different story, so the 1992 ending may be lost or never aired. (3) Episode 16 (The Star Gazer ch. 1) is the defective file. (4) Catalog-only airings ('Golden rods' 45-46/95-96 may be The Golden Staff) are in the index as unverified. (5) Weekly-story (non-radio) multi-part sets such as The Four Chochmos, the Slavita printer and the stolen logs carry segment story_keys too; they were outside this radio task and were not touched."
+}

@@ -1,0 +1,351 @@
+{
+ "id": "460a27675c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "170",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 170 - The Rambam's Resting Place, Chapter 2 (Siyum HaRambam) (1985-04-02).mp3",
+  "duration_sec": 1855.214,
+  "filename_facts": {
+   "episode_number": 170,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 170,
+   "story": "The Rambam’s resting place #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 170: The Rambam's Resting Place, Chapter 2 (Siyum HaRambam)",
+  "title_basis": "master_catalog",
+  "summary_short": "In the week of the Rambam's 850th birthday and the first Siyum HaRambam, the story ends as robbers are struck down and a camel leads the Rambam's coffin to Teveria.",
+  "summary_long": "Broadcast in the week of Pesach 5745, when the Rambam's 850th birthday falls on Erev Pesach. Uncle Yossi explains the Rambam's advice to learn his Mishneh Torah right after the Chumash, and the worldwide learning of the whole work over the past year, to be completed with a grand siyum on his birthday. He invites children to a Tzivos Hashem Siyum and Pesach event on Chol HaMoed. After a lively march and a sponsor message, story time recaps how the Rambam's students set out from Egypt with his coffin, unsure where in Eretz Yisroel to bury him. In the desert, armed robbers attack and the caravan scatters. Two brothers lead the Shema. When robbers try to touch the coffin they fall lifeless, and the band flees in fear. Then the camel walks on by itself, as if led by an unseen guide, past every city that hoped for the honor, until it kneels in a field in Teveria, the Rambam's chosen resting place. The show ends with a birthday wish, a greeting for a kosher and happy Pesach, and a call to invite someone without a Seder to join yours.",
+  "lesson": "Hashem, the Guardian of Israel, never sleeps, and He guided the people to the Rambam's resting place; learning the Rambam's works is a way to honor him.",
+  "keywords": [
+   "Rambam",
+   "Mishneh Torah",
+   "siyum",
+   "camel",
+   "coffin",
+   "desert",
+   "robbers",
+   "caravan",
+   "Teveria",
+   "Seder guests",
+   "850th birthday"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 170,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-04-02",
+   "hebrew": "11 Nissan 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Rambam's birthday (14 Nissan) is 'this coming Friday' and the first day of Chol HaMoed Pesach is 'this coming Monday' (8 Apr 1985)."
+  },
+  "serial": {
+   "story_key": "the-rambams-resting-place",
+   "story_title": "The Rambam's Resting Place",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers armed with swords and knives attack the funeral caravan in the desert; the people flee and hide.",
+    "at_sec": 867
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story centers on the Rambam's coffin; two robbers who approach it fall lifeless.",
+    "at_sec": 1375
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two brothers who lead the Shema and a birthday girl are named in full.",
+    "at_sec": 1092
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Rambam's students",
+   "the leader of the caravan",
+   "the robbers and their leader",
+   "the camel"
+  ],
+  "topics": [
+   "great_rabbis",
+   "miracles",
+   "torah_study",
+   "calendar",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "kibbud",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "rambam_daily",
+   "torah_study",
+   "seder",
+   "hachnasas_orchim",
+   "shema",
+   "twelve_pesukim"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Introduction",
+    "note": "The Rambam's advice to learn the Mishneh Torah right after the Written Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 51,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 51,
+   "end_sec": 245,
+   "type": "talk",
+   "title": "The Rambam's 850th Birthday and the Great Siyum",
+   "summary": "Jews worldwide have learned the whole Mishneh Torah over the year and will complete it with a siyum on the Rambam's birthday, 14 Nissan.",
+   "people": [
+    "rambam",
+    "moshe_rabbeinu"
+   ],
+   "calendar": [
+    "erev_pesach",
+    "nissan"
+   ],
+   "linked_items": [
+    "676b74eea3"
+   ]
+  },
+  {
+   "start_sec": 245,
+   "end_sec": 450,
+   "type": "announcement",
+   "title": "The children's Siyum and Pesach event on Chol HaMoed"
+  },
+  {
+   "start_sec": 450,
+   "end_sec": 590,
+   "type": "song",
+   "title": "Hakochainik March: be joyful on your Yom Tov"
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 770,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 770,
+   "end_sec": 847,
+   "type": "story_intro",
+   "title": "Story time: recap of Chapter 1"
+  },
+  {
+   "start_sec": 847,
+   "end_sec": 1039,
+   "type": "story_chapter",
+   "title": "The Rambam's Resting Place, Chapter 2",
+   "summary": "Robbers attack the caravan carrying the Rambam's coffin, and everyone flees into the desert.",
+   "people": [
+    "rambam"
+   ],
+   "story_key": "the-rambams-resting-place",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1039,
+   "end_sec": 1347,
+   "type": "shema_guest",
+   "title": "Shema with two brothers from Tzivos Hashem"
+  },
+  {
+   "start_sec": 1347,
+   "end_sec": 1752,
+   "type": "story_chapter",
+   "title": "The Rambam's Resting Place, Chapter 2 (conclusion)",
+   "summary": "Robbers who approach the coffin fall lifeless, and the camel leads the caravan to Teveria, where the Rambam is buried.",
+   "people": [
+    "rambam"
+   ],
+   "story_key": "the-rambams-resting-place",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1752,
+   "end_sec": 1785,
+   "type": "announcement",
+   "title": "A birthday wish"
+  },
+  {
+   "start_sec": 1785,
+   "type": "closing",
+   "title": "Pesach greetings and closing",
+   "calendar": [
+    "pesach"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Long event promo (Chol HaMoed 1985, venue, ticket outlets, prices) is dated. The march section has stray untranscribed crowd chatter."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yosef Yitzchak Drizin",
+    "role": "shema_guest",
+    "start_sec": 1092,
+    "end_sec": 1347,
+    "note": "Age ten."
+   },
+   {
+    "name": "Schneur Zalman Moshe Drizin",
+    "role": "shema_guest",
+    "start_sec": 1092,
+    "end_sec": 1347,
+    "note": "Age seven; brother of Yosef Yitzchak."
+   },
+   {
+    "name": "Sarah Malka Edelstein",
+    "role": "other",
+    "group": "Monsey",
+    "start_sec": 1752,
+    "end_sec": 1770,
+    "note": "Asked Uncle Yossi to announce her friend's birthday."
+   },
+   {
+    "name": "Heni Srelowitz",
+    "role": "birthday",
+    "start_sec": 1761,
+    "end_sec": 1785,
+    "note": "13th birthday; spelling as heard."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:08Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "676b74eea3",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Siyum HaRambam 170' = 51-245 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "8719f5bf30",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 169 = 'The Rambam's resting place #1', 170 = '#2'; on-air recap of last week's chapter."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "8719f5bf30",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapters 1 and 2 of 'The Rambam's Resting Place'."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20170%20-%20The%20Rambam%27s%20Resting%20Place%2C%20Chapter%202%20%28Siyum%20HaRambam%29%20%281985-04-02%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 170 - The Rambam's Resting Place, Chapter 2 (Siyum HaRambam) (1985-04-02).mp3",
+  "size_bytes": 22263439,
+  "mime_type": "audio/mpeg"
+ }
+}

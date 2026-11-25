@@ -1,0 +1,282 @@
+{
+ "id": "e1ee3b60ec",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "229 06-10-86",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 229 - Skippy and Crawly (Before Shavuos) (1986-06-10).mp3",
+  "duration_sec": 1887.367,
+  "filename_facts": {
+   "episode_number": 229,
+   "date_in_filename": "1986-06-10",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 229,
+   "story": "Skippy and Crawly",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 229: Skippy and Crawly (Before Shavuos)",
+  "title_basis": "master_catalog",
+  "summary_short": "Three days before Shavuos: a calculator shows how long ago the Torah was given, the march returns after Sefirah, and a father tells the tale of Skippy the grasshopper and Crawly the ant.",
+  "summary_long": "Broadcast on Gimmel Sivan, three days before Shavuos. With a calculator, Uncle Yossi subtracts the year of Matan Torah, 2448, from 5746 to show that the Torah was given 3,298 years ago, and explains the last days of counting the Omer. The Hakochainik march returns now that the days of Sefirah mourning are over. Uncle Yossi explains that Hashem gave the Torah because the children were our guarantors, and we renew 'Naaseh v'nishma'. A five-year-old girl says the Shema in Studio 604 and answers questions about brachos, followed by a sponsor message. The story is built on one of the Twelve Pesukim: 'I worked hard and succeeded, believe it'. Dovid asks his father why his sister Miriam gets better marks; she does her homework first, while he plays and does it tired at night. The father tells of Skippy the grasshopper, who hopped about all summer, and Crawly the ant, who stored food, so that in winter Skippy was left out in the cold. 'There was evening, and there was morning': hard work comes first, then success. The show closes with Chag Sameach and a reminder to hear the Ten Commandments in shul.",
+  "lesson": "Work hard first and success will follow: 'I toiled and I found'. Prepare now, like the ant, instead of putting things off.",
+  "keywords": [
+   "calculator",
+   "2448",
+   "Matan Torah",
+   "grasshopper",
+   "ant",
+   "homework",
+   "school marks",
+   "winter",
+   "Ten Commandments",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 229,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1986-06-10",
+   "hebrew": "3 Sivan 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Confirmed by the audio: 'Today is Gimmel Sivan'; tonight is the 48th day of the Omer."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "In the fable, the grasshopper is left outside in the cold with nothing to eat.",
+    "at_sec": 1650
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Five-year-old Shema guest named in full.",
+    "at_sec": 830
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Dovid, a boy with poor marks",
+   "Miriam, his hard-working sister",
+   "their father",
+   "Skippy the grasshopper",
+   "Crawly the ant"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "character"
+  ],
+  "midos": [
+   "hasmadah",
+   "zerizus",
+   "responsibility",
+   "simcha"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "torah_study",
+   "sefiras_haomer",
+   "shema",
+   "brachos",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Megillah 6b",
+    "note": "'Yagati u'matzasi, ta'amin', cited as one of the Twelve Pesukim."
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:5",
+    "note": "'There was evening and there was morning': effort first, then the light of success."
+   },
+   {
+    "work": "midrash",
+    "ref": "Shir HaShirim Rabbah 1:4",
+    "note": "The children are the guarantors for the Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "opening",
+   "title": "Greeting"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 349,
+   "type": "talk",
+   "title": "How long ago was Matan Torah? A calculator lesson",
+   "summary": "Subtracting 2448 from 5746 shows the Torah was given 3,298 years ago; three days of counting remain.",
+   "calendar": [
+    "shavuos",
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "5186e42f0d"
+   ]
+  },
+  {
+   "start_sec": 349,
+   "end_sec": 623,
+   "type": "song",
+   "title": "Hakochainik March returns after Sefirah"
+  },
+  {
+   "start_sec": 623,
+   "end_sec": 804,
+   "type": "talk",
+   "title": "Our children are our guarantors",
+   "summary": "Hashem gave the Torah because of the children; on Shavuos we again say Naaseh v'nishma.",
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 804,
+   "end_sec": 985,
+   "type": "shema_guest",
+   "title": "Shema with a five-year-old Tzivos Hashem member"
+  },
+  {
+   "start_sec": 985,
+   "end_sec": 1057,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1057,
+   "end_sec": 1238,
+   "type": "talk",
+   "title": "I worked hard and succeeded: one of the Twelve Pesukim"
+  },
+  {
+   "start_sec": 1238,
+   "end_sec": 1786,
+   "type": "story",
+   "title": "Skippy and Crawly",
+   "summary": "A father uses the fable of the grasshopper and the ant to show his son why effort comes before success."
+  },
+  {
+   "start_sec": 1786,
+   "type": "closing",
+   "title": "Chag Sameach and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "5186e42f0d",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Shavuos 229' = 29-369 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "splice_glitch",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "March at about 7:18-10:43 is untranscribed. A passage at about 11:40-12:55 seems to repeat (possible splice). Short gap at about 15:50-16:25. Sponsor ad is a period piece."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Gittel Leah Mangel",
+    "role": "shema_guest",
+    "group": "age five; preschool name garbled in the transcript",
+    "start_sec": 830,
+    "end_sec": 985
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20229%20-%20Skippy%20and%20Crawly%20%28Before%20Shavuos%29%20%281986-06-10%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 229 - Skippy and Crawly (Before Shavuos) (1986-06-10).mp3",
+  "size_bytes": 22649329,
+  "mime_type": "audio/mpeg"
+ }
+}

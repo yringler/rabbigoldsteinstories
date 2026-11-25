@@ -1,0 +1,317 @@
+{
+ "id": "7d1316b235",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "554",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 554 - Naftali and the Three-Foot Chanukah Candles (Zos Chanukah) (1992-12-27).mp3",
+  "duration_sec": 1797.657,
+  "filename_facts": {
+   "episode_number": 554,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 554,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 554: Naftali and the Three-Foot Chanukah Candles (Zos Chanukah)",
+  "title_basis": "content",
+  "summary_short": "A Zos Chanukah show: every mitzvah is a light to be done with warmth, Shema with a four-year-old guest, and how a Rebbe's advice to buy very tall Chanukah candles saved a traveler from robbers.",
+  "summary_long": "Broadcast on Zos Chanukah, the eighth day of Chanukah 5753. Uncle Yossi teaches that 'a mitzvah is a candle and Torah is light': just as Hashem began Creation with light, every mitzvah brings light and warmth into a dark world, and the dancing flames of the menorah teach us to daven, learn and give tzedakah with liveliness and joy. A four-and-a-half-year-old boy and his mother lead the Shema, followed by tzedakah, Tehillim for the Rebbe's recovery and an advertisement. Story time: Naftali, who always danced on Chanukah, explains why. Before traveling home for Chanukah he asked his Rebbe for a blessing and was told to buy Chanukah candles three feet tall. Stranded by a blizzard, he was stopped by robbers who told him to say his last prayers. He climbed onto his wagon and lit all eight tall candles; fire watchmen on a distant tower saw the flames and galloped over, and the robbers fled. After another advertisement and a Zos Chanukah Hakochainik march, Uncle Yossi reads a letter from a girl whose teacher plays the programs in class.",
+  "lesson": "Every mitzvah brings light into the world; do mitzvos with warmth and joy, like the dancing Chanukah flames.",
+  "keywords": [
+   "tall candles",
+   "robbers",
+   "blizzard",
+   "fire tower",
+   "telescope",
+   "menorah",
+   "Haneros Halalu",
+   "dancing",
+   "mailbox"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 554,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1992-12-27",
+   "hebrew": "3 Teves 5753",
+   "hebrew_year": 5753,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Here we are enjoying the eighth day of Chanukah'; Zos Chanukah 5753 fell on Sunday 27 Dec 1992."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers threaten to kill a traveler and tell him to say his last prayers; he is rescued.",
+    "at_sec": 1047
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Young studio guest and a letter writer named in full.",
+    "at_sec": 360
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Naftali",
+   "Naftali's Rebbe",
+   "the robbers",
+   "the fire watchmen"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "hiskashrus"
+  ],
+  "midos": [
+   "simcha",
+   "kabbalas_ol",
+   "hakaras_hatov",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "torah_study",
+   "shema",
+   "tzedakah",
+   "tehillim"
+  ],
+  "calendar": [
+   "chanukah",
+   "zos_chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Mishlei 6:23",
+    "note": "'A mitzvah is a candle and Torah is light'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:3",
+    "note": "'Let there be light.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 20",
+    "note": "Recited together for the Rebbe's recovery."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 34,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 34,
+   "end_sec": 331,
+   "type": "talk",
+   "title": "Zos Chanukah: Mitzvos Are Light",
+   "summary": "Every mitzvah brings light into the world; the dancing flames teach us to do mitzvos with warmth and joy.",
+   "calendar": [
+    "zos_chanukah"
+   ],
+   "linked_items": [
+    "a94d9e51d5"
+   ]
+  },
+  {
+   "start_sec": 331,
+   "end_sec": 360,
+   "type": "story_intro",
+   "title": "A special Zos Chanukah story is coming"
+  },
+  {
+   "start_sec": 360,
+   "end_sec": 562,
+   "type": "shema_guest",
+   "title": "Shema with a four-year-old guest and his mother"
+  },
+  {
+   "start_sec": 562,
+   "end_sec": 600,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 600,
+   "end_sec": 728,
+   "type": "other",
+   "title": "Tehillim for the Rebbe's recovery"
+  },
+  {
+   "start_sec": 728,
+   "end_sec": 818,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 818,
+   "end_sec": 1220,
+   "type": "story",
+   "title": "Naftali and the Three-Foot Chanukah Candles",
+   "summary": "A traveler who followed his Rebbe's odd advice is saved from robbers when watchmen see his tall Chanukah candles.",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1220,
+   "end_sec": 1300,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 1300,
+   "end_sec": 1617,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 1617,
+   "end_sec": 1720,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox"
+  },
+  {
+   "start_sec": 1720,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "a94d9e51d5",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Chanukah 554' = 34-333 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two advertisements with phone numbers. Child guest, his mother, a letter writer and her teacher named (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Shalom Dubin",
+    "role": "shema_guest",
+    "group": "age 4 1/2",
+    "start_sec": 360,
+    "end_sec": 562
+   },
+   {
+    "name": "Mrs. Dubin",
+    "role": "visitor",
+    "group": "mother of the Shema guest; speaks on air",
+    "start_sec": 360,
+    "end_sec": 562
+   },
+   {
+    "name": "Miriam Englard",
+    "role": "mailbox_letter",
+    "group": "Far Rockaway",
+    "start_sec": 1651,
+    "end_sec": 1720
+   },
+   {
+    "name": "Morah Berman",
+    "role": "other",
+    "group": "teacher of the letter writer; plays the programs in class",
+    "start_sec": 1651,
+    "end_sec": 1720
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Naftali's Rebbe is named on air as 'Rabbi Sholom Dov...' (ASR unclear); possibly the Rebbe Rashab, so left untagged."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5753%20%281992-93%29/Ep%20554%20-%20Naftali%20and%20the%20Three-Foot%20Chanukah%20Candles%20%28Zos%20Chanukah%29%20%281992-12-27%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 554 - Naftali and the Three-Foot Chanukah Candles (Zos Chanukah) (1992-12-27).mp3",
+  "size_bytes": 21572866,
+  "mime_type": "audio/mpeg"
+ }
+}

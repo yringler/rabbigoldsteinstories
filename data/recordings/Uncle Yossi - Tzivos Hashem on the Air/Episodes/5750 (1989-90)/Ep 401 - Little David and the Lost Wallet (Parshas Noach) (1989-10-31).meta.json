@@ -1,0 +1,270 @@
+{
+ "id": "bab6c0a2ac",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "401",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 401 - Little David and the Lost Wallet (Parshas Noach) (1989-10-31).mp3",
+  "duration_sec": 1799.156,
+  "filename_facts": {
+   "episode_number": 401,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 401,
+   "story": "A diamond from heaven",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 401: Little David and the Lost Wallet (Parshas Noach)",
+  "title_basis": "content",
+  "summary_short": "Parshas Noach teaches honesty, and story time brings it to life: a poor boy returns a wallet full of money to a bank president, with an amazing result.",
+  "summary_long": "Broadcast the week of Parshas Noach 5750. Uncle Yossi explains the Alter Rebbe's call to 'live with the times': each week's parsha has a living lesson. The generation of the Flood was punished because the earth was filled with robbery, so Noach teaches us to be honest and to be an example to others. After the Hakochainik march, a boy visiting from Monsey recites the Shema in Studio 604. Then the story: little David, who has just learned about hashavas aveidah in yeshivah, finds a wallet holding twelve hundred dollars. His yetzer hara argues with his yetzer tov, and his sick, widowed mother, though very poor, agrees the money must go back. The owner, the president of the local bank, drives David home, hears the family's story, and discovers that David's late father was the generous man who once lent him the money that built his fortune. He has been saving the father's share all along. The show closes with Shabbos candle times and an invitation to send stories, poems and jingles to Uncle Yossi.",
+  "lesson": "Be honest and return what you find; the Torah brings blessing both in this world and the next.",
+  "keywords": [
+   "lost wallet",
+   "bank president",
+   "hundred-dollar bills",
+   "the Flood",
+   "widow",
+   "loan",
+   "yeshivah boy"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 401,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-10-31",
+   "hebrew": "2 Cheshvan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Parshas Noach; candle-lighting given for 'Friday, November the 3rd' (1989). Tuesday broadcast."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A widowed mother, bedridden and penniless, raises her son on charity; it ends happily.",
+    "at_sec": 1036
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 400
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "noach",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "little David",
+   "David's mother, Mrs. Goldberg",
+   "Mr. Green, the bank president",
+   "Avraham Goldberg, David's late father"
+  ],
+  "topics": [
+   "parsha",
+   "character",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "emes",
+   "self_control",
+   "generosity",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "hashavas_aveidah",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "noach"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 6:11",
+    "note": "'The earth was filled with chamas.'"
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 6:11",
+    "note": "Chamas means robbery."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 160,
+   "type": "talk",
+   "title": "Parshas Noach: The Lesson of Honesty",
+   "summary": "Living with the weekly parsha: the Flood came because of robbery, so Noach teaches us to be honest.",
+   "linked_items": [
+    "1d4117ef66"
+   ]
+  },
+  {
+   "start_sec": 160,
+   "end_sec": 343,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 343,
+   "end_sec": 522,
+   "type": "shema_guest",
+   "title": "Shema with a guest from Monsey"
+  },
+  {
+   "start_sec": 522,
+   "end_sec": 1650,
+   "type": "story",
+   "title": "Little David and the Lost Wallet",
+   "summary": "A poor boy returns a wallet full of cash, and the bank president who owns it turns out to owe his late father a fortune.",
+   "story_key": "the-missing-wallet"
+  },
+  {
+   "start_sec": 1650,
+   "end_sec": 1743,
+   "type": "announcement",
+   "title": "Candle-lighting times and send-in invitation"
+  },
+  {
+   "start_sec": 1743,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "1d4117ef66",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "note": "'Noach-Honesty 401' = 48-160 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "676c0eab8c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 174: The Missing Wallet (Sefiras HaOmer)' (episode 174, 12:35-29:17), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Master catalog row 401 reads 'A diamond from heaven' (repeating row 400); the story actually aired here is the lost-wallet story."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shloimy Goldwasser",
+    "role": "shema_guest",
+    "group": "Monsey, New York",
+    "start_sec": 371,
+    "end_sec": 522
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Catalog story title for 401 does not match the story aired."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20401%20-%20Little%20David%20and%20the%20Lost%20Wallet%20%28Parshas%20Noach%29%20%281989-10-31%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 401 - Little David and the Lost Wallet (Parshas Noach) (1989-10-31).mp3",
+  "size_bytes": 21590734,
+  "mime_type": "audio/mpeg"
+ }
+}

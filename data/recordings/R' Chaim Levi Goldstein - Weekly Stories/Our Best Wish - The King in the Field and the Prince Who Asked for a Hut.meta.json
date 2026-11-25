@@ -1,0 +1,196 @@
+{
+ "id": "5b0f472ca9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Our Best Wish",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Our Best Wish - The King in the Field and the Prince Who Asked for a Hut.mp3",
+  "duration_sec": 984.529,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Our Best Wish: The King in the Field and the Prince Who Asked for a Hut",
+  "title_basis": "filename",
+  "summary_short": "Two parables for Elul: the king who greets everyone in the field, and a lost prince who asks his father for a hut instead of asking to come home.",
+  "summary_long": "To explain why Elul is special, the storyteller retells the Alter Rebbe's parable of the king in the field. A poor father of a large family travels to the palace to ask the king for help but cannot get past the guards; they tell him that sometimes the king leaves the palace, goes out to the field in simple clothes, and greets everyone with a smile. In Elul Hashem is like that king, and we go out to meet Him with more Torah, mitzvos, tzedakah, Tehillim and Ahavas Yisroel. Those who come out to greet Him follow Him into the palace for Rosh Hashanah and Yom Kippur. Then a second parable explains what we should ask for most. A king's only son, who never studied or helped at home, is sent to a faraway university, wastes all his money, and ends up as a shepherd suffering in the summer heat, unable even to build a hut. When the king passes through, the son throws a note into the carriage asking only for a sturdy hut, and his father weeps that he did not simply ask to come home. So too, in golus we should ask Hashem above all to take us home with Moshiach.",
+  "lesson": "In Elul Hashem is close and waiting for us to come to Him. Of everything we ask for, our best wish should be for Moshiach to take us home.",
+  "keywords": [
+   "king in the field",
+   "palace guards",
+   "poor father",
+   "prince",
+   "university",
+   "shepherd",
+   "hut",
+   "note in the carriage",
+   "summer heat"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Elul (year not stated)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Teaching for the month of Elul; no year given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Moishe, a poor father",
+   "the king",
+   "the palace guards",
+   "the king's only son"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "responsibility",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "tzedakah",
+   "tehillim",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "The Alter Rebbe's parable of the king in the field for the month of Elul (Likkutei Torah)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 444,
+   "type": "talk",
+   "title": "The king in the field",
+   "summary": "The Alter Rebbe's parable explains why in Elul Hashem is close and welcoming to everyone.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "elul"
+   ]
+  },
+  {
+   "start_sec": 444,
+   "end_sec": 928,
+   "type": "story",
+   "title": "The prince who asked for a hut",
+   "summary": "A lost prince asks his father the king only for a hut, when he could have asked to come home."
+  },
+  {
+   "start_sec": 928,
+   "type": "talk",
+   "title": "Ask Hashem to take us home",
+   "summary": "In golus our first request should be for Moshiach."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song is only partly transcribed (first line runs to 1:11). Ends with 'We want Moshiach now' and no sign-off."
+ },
+ "relations": [],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem, there never is.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:20:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Our%20Best%20Wish%20-%20The%20King%20in%20the%20Field%20and%20the%20Prince%20Who%20Asked%20for%20a%20Hut.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Our Best Wish - The King in the Field and the Prince Who Asked for a Hut.mp3",
+  "size_bytes": 11815108,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "id": "d640b2306b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "49 P36b",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 49 - Chapter 36, A Dwelling Place for Hashem Below.mp3",
+  "duration_sec": 1811.461,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 49: Chapter 36, A Dwelling Place for Hashem Below",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya shiur on chapter 36: why Hashem desired a dwelling in this lowest world, and why the soul descends here to serve Him.",
+  "summary_long": "Shiur 49 in Rabbi Yosef Goldstein's Yiddish Tanya series, on Tanya chapter 36. It opens mid-lesson with the question why the Shema says Hashem is 'Echad' (One) rather than 'Yachid' (Only): a Jew in this physical world, with its four directions, heaven and earth, declares that all of it is nullified to Hashem. The class then studies the chapter's text: before Creation Hashem filled all of space, and He fills it the same way now; the change is only for the creations, who can exist only because His light is concealed in many 'garments'. The sun's protective sheath and the scorching day when Avraham Avinu was recovering from his bris illustrate the idea. The chain of worlds is explained, down to this physical world, the lowest of all in concealment, which is exactly where Hashem wants His dwelling. After a sign-off, the next session recaps and continues: the soul's descent is for the sake of an ascent; Avraham's words 'I am dust and ashes' show how even the greatest love in this world compares to Gan Eden; this world is Hashem's 'garden'; and every person was created to serve his Creator. The recording ends mid-sentence.",
+  "lesson": "This physical world is where Hashem most wants to dwell, and every mitzvah a Jew does here brings Him a delight even the angels cannot give; a person should feel fortunate for every mitzvah.",
+  "keywords": [
+   "dirah b'tachtonim",
+   "chain of worlds",
+   "garments",
+   "Shema Echad",
+   "dust and ashes",
+   "descent for ascent",
+   "Gan Eden",
+   "Basi L'gani",
+   "Creation"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "36",
+    "to": "36",
+    "lecture_number": 49,
+    "note": "Filename '49 P36b'. Contains the end of one session (signs off until next week at about 17:40) and the start of the next session, which recaps 'the middle of chapter 36'."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidus_tanya"
+  ],
+  "midos": [
+   "anavah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "shema",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 36; Iggeres HaKodesh"
+   },
+   {
+    "work": "midrash",
+    "ref": "Nisaveh HaKadosh Baruch Hu lihyos lo dirah b'tachtonim"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 33:20; Bereishis 18:1; Bereishis 18:27"
+   },
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "'asher' in the brachah as 'osher' (fortune)"
+   },
+   {
+    "work": "maamarim",
+    "ref": "Basi L'gani"
+   },
+   {
+    "work": "mishnah",
+    "ref": "Kiddushin 4:14 ('I was created only to serve my Creator')"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 148,
+   "type": "text_study",
+   "title": "Why the Shema says 'Echad'",
+   "summary": "A Jew in the physical world declares that heaven, earth and all four directions are nullified to the One Hashem."
+  },
+  {
+   "start_sec": 148,
+   "end_sec": 650,
+   "type": "text_study",
+   "title": "Before and after Creation: the change is only for us",
+   "summary": "Hashem fills the world now as before Creation; creations exist only because His light is hidden in garments."
+  },
+  {
+   "start_sec": 424,
+   "end_sec": 540,
+   "type": "talk",
+   "title": "The sun's sheath and Avraham's hot day",
+   "summary": "A mashal from Chazal about the sun's covering, and the scorching day after Avraham's bris.",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 650,
+   "end_sec": 1032,
+   "type": "text_study",
+   "title": "The chain of worlds down to the lowest",
+   "summary": "Higher and lower worlds differ in how much the garments conceal, and this world is the lowest, where Hashem wants His dwelling."
+  },
+  {
+   "start_sec": 1032,
+   "end_sec": 1063,
+   "type": "closing",
+   "title": "Feeling fortunate in a mitzvah; until next week",
+   "summary": "The word 'asher' in a brachah hints at a Jew's good fortune, and the class signs off until next week."
+  },
+  {
+   "start_sec": 1063,
+   "end_sec": 1122,
+   "type": "review",
+   "title": "Recap: the middle of chapter 36",
+   "summary": "The next session recaps the special quality of this physical world."
+  },
+  {
+   "start_sec": 1122,
+   "end_sec": 1500,
+   "type": "text_study",
+   "title": "Descent for ascent: 'I am dust and ashes'",
+   "summary": "Avraham's humility shows how love in this world compares to Gan Eden, so why must the soul descend here?",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1500,
+   "end_sec": 1811,
+   "type": "text_study",
+   "title": "This world is Hashem's garden",
+   "summary": "The treasures hidden in this world, Basi L'gani, and man created to serve his Creator; the recording breaks off mid-sentence."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start",
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Starts mid-lesson and breaks off mid-sentence at 30:05. Contains the end of one session and the start of the next (sign-off at about 17:40). Loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:45Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File joins the end of one session and the start of the next; check whether the second half continues in another file.",
+   "Segment boundaries are approximate (Yiddish ASR)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2049%20-%20Chapter%2036%2C%20A%20Dwelling%20Place%20for%20Hashem%20Below.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 49 - Chapter 36, A Dwelling Place for Hashem Below.mp3",
+  "size_bytes": 21738379,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "d763b291e6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mishenichnas Adar 418",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Mishenichnas Adar - Adding Simcha When the Month of Adar Arrives (Ep 418).mp3",
+  "duration_sec": 204.287,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 418,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 418,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Mishenichnas Adar: Adding Simcha When the Month of Adar Arrives",
+  "title_basis": "filename",
+  "summary_short": "Why we add joy from the very first day of Adar: a head start toward Purim, and toward the greatest simcha of all, Moshiach.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi explains the teaching of our Sages that as soon as Adar arrives we increase our simcha. Serving Hashem with joy is the rule all year, as Dovid HaMelech says in Tehillim, but Adar holds Purim, the happiest Yom Tov, which can only be celebrated properly with complete joy. So we get a head start of almost two weeks, doing every mitzvah and learning Torah with extra happiness from the first of the month. When Hashem sees this, He will bless us with the greatest simcha of all: leaving golus with Moshiach, who will gather every Jew on the clouds of heaven back to Eretz Yisroel. The clip ends with the 'order of the month' for every member of Tzivos Hashem: add simcha.",
+  "lesson": "From the first day of Adar, do every mitzvah and learn Torah with extra joy.",
+  "keywords": [
+   "Adar",
+   "simcha",
+   "joy",
+   "Purim",
+   "head start",
+   "Moshiach",
+   "clouds"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 418,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-02-27",
+   "hebrew": "2 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Date stated later in the full episode 418 (yahrzeit 'today, Beis Adar')."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "adar",
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "100:2, 'Ivdu es Hashem b'simcha'",
+    "note": "Cited as Dovid HaMelech's teaching."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "26ea9a56c1",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 50,
+   "note": "Episode 418 (filename number); clip = 50-255 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends just before the march introduction."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Mishenichnas%20Adar%20-%20Adding%20Simcha%20When%20the%20Month%20of%20Adar%20Arrives%20%28Ep%20418%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Mishenichnas Adar - Adding Simcha When the Month of Adar Arrives (Ep 418).mp3",
+  "size_bytes": 2452459,
+  "mime_type": "audio/mpeg"
+ }
+}

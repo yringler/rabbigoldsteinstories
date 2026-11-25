@@ -1,0 +1,329 @@
+{
+ "id": "c7ad731703",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "27",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 027 - Saved by a Miracle, Chapter 2 (1982-06-08).mp3",
+  "duration_sec": 1737.121,
+  "filename_facts": {
+   "episode_number": 27,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 27,
+   "story": "Saved by a Miracle #2",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 27: Saved by a Miracle, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "The end of Reb Boruch's story: by following the Alter Rebbe's advice to wait a week, he escapes a deadly trap. Plus two brothers say the Shema and listeners' letters.",
+  "summary_long": "Uncle Yossi opens by thanking listeners whose letters come from as far as 150 miles around New York, followed by a sponsor message and the Hakochainik march, this time with a tambourine. After a recap of Reb Boruch's story, two brothers recite the Shema in Studio 604 and tell how they bought letters in the new Sefer Torah. The story concludes: a week late, the Alter Rebbe sends Reb Boruch to the minister with a blessing. The guards rush him in, and the minister greets him with amazement. Furious about the logs, he had handed the case to the authorities, who had sent an officer to shoot Reb Boruch when he arrived that Tuesday. Because he did not come, he was saved, and in the meantime two witnesses revealed that Alex had planted the logs. Reb Boruch gets his job back with a raise, and sees how different things look through the eyes of a tzaddik. Two listeners' letters are read in the mailbox, one with coins for the pushka, and Uncle Yossi links Parshas Behaaloscha's golden menorah to the light girls bring by lighting Shabbos candles.",
+  "lesson": "Trust the guidance of a tzaddik even when it seems strange; Hashem gives the tzaddik the power to see what we cannot.",
+  "keywords": [
+   "tambourine",
+   "minister",
+   "logs",
+   "guards",
+   "witnesses",
+   "raise in pay",
+   "Sefer Torah letter",
+   "pushka",
+   "menorah",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 27,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1982-06-08",
+   "hebrew": "17 Sivan 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Be in shul this Shabbos for Behaaloscha' (Shabbos 20 Sivan 5742); a letter dated February 19 'waited almost four months'. Matches the weekly estimate."
+  },
+  "serial": {
+   "story_key": "saved-by-a-miracle",
+   "story_title": "Saved by a Miracle",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "The minister reveals that an officer had been ordered to shoot Reb Boruch on sight.",
+    "at_sec": 1043
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew falsely accused and summoned by the Russian authorities.",
+    "at_sec": 757
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests and two letter writers named in full on air.",
+    "at_sec": 609
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Boruch",
+   "Reb Boruch's wife",
+   "Alex, a jealous man",
+   "the minister",
+   "the guard"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "miracles",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "emunah",
+   "generosity"
+  ],
+  "mitzvos": [
+   "shema",
+   "tehillim",
+   "tzedakah",
+   "shabbos_candles",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "behaaloscha"
+  ],
+  "sources_cited": [],
+  "places": [
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 68,
+   "type": "opening",
+   "title": "Opening: listeners from near and far"
+  },
+  {
+   "start_sec": 68,
+   "end_sec": 218,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 218,
+   "end_sec": 458,
+   "type": "song",
+   "title": "Hakochainik March with a tambourine"
+  },
+  {
+   "start_sec": 458,
+   "end_sec": 609,
+   "type": "story_intro",
+   "title": "Recap: Reb Boruch and the planted logs"
+  },
+  {
+   "start_sec": 609,
+   "end_sec": 757,
+   "type": "shema_guest",
+   "title": "Shema with two brothers in Studio 604"
+  },
+  {
+   "start_sec": 757,
+   "end_sec": 1162,
+   "type": "story_chapter",
+   "title": "Saved by a Miracle, Chapter 2",
+   "summary": "Arriving a week late on the Alter Rebbe's word, Reb Boruch learns that waiting saved his life and that Alex has been exposed.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "saved-by-a-miracle",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1162,
+   "end_sec": 1577,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "Two listeners' letters about marching, stories and wanting to visit the studio."
+  },
+  {
+   "start_sec": 1487,
+   "end_sec": 1560,
+   "type": "tzedakah",
+   "title": "A listener's coins go into the pushka"
+  },
+  {
+   "start_sec": 1577,
+   "end_sec": 1690,
+   "type": "talk",
+   "title": "Behaaloscha: the Menorah and Shabbos Candles",
+   "summary": "Like the golden menorah, we bring light to the world; girls light Shabbos candles 18 minutes before sunset."
+  },
+  {
+   "start_sec": 1690,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "d4bce1f21a",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 26 = 'Saved by a Miracle #1', 27 = '#2'; the on-air recap confirms."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "d4bce1f21a",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Saved by a Miracle' (1982): ep 26 ch. 1 and ep 27 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "456522bfcc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6144d5e2ae",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Transcript begins mid-opening (no 'Shalom, dear children' greeting transcribed). As in episode 26, the hero is sometimes called 'Rabbi Akiva' instead of Reb Boruch. Sponsor ad and candle-lighting reminder are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avraham Brikman",
+    "role": "shema_guest",
+    "group": "age 11; brother of Mendel",
+    "start_sec": 609,
+    "end_sec": 757
+   },
+   {
+    "name": "Mendel Brikman",
+    "role": "shema_guest",
+    "group": "age 9",
+    "start_sec": 609,
+    "end_sec": 757
+   },
+   {
+    "name": "Miriam Freda Goldberg",
+    "role": "mailbox_letter",
+    "group": "Keser Malka; Brooklyn; age 9",
+    "start_sec": 1219,
+    "end_sec": 1396
+   },
+   {
+    "name": "Tova Feld",
+    "role": "mailbox_letter",
+    "group": "Brooklyn",
+    "start_sec": 1396,
+    "end_sec": 1577,
+    "note": "Sent 20 cents for tzedakah and asked to be a Shema guest; her phone number was on the letter but not read on air."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:28:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20027%20-%20Saved%20by%20a%20Miracle%2C%20Chapter%202%20%281982-06-08%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 027 - Saved by a Miracle, Chapter 2 (1982-06-08).mp3",
+  "size_bytes": 20846557,
+  "mime_type": "audio/mpeg"
+ }
+}

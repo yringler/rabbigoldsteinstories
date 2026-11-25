@@ -1,0 +1,212 @@
+{
+ "id": "8ca5d012ba",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "See the Good",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/See the Good.mp3",
+  "duration_sec": 713.509,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "good"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "See the Good",
+  "title_basis": "filename",
+  "summary_short": "From Parshas Ki Sisa, how Moshe Rabbeinu judged Aharon favorably, with the story of a teacher who found a stolen watch with his own eyes shut.",
+  "summary_long": "The Alter Rebbe taught us to 'live with the times', with the weekly parsha, and the most important lesson of every parsha is Ahavas Yisroel. In this week's parsha the Jewish people make the golden calf, and Aharon, who tried to delay them, seemed to help. When Moshe Rabbeinu came down he did not scold Aharon; he asked, 'What did this people do to you?', giving him a way to explain and showing he knew the real Aharon. The storyteller compares it to a teacher who tells a boy who kicked a friend, 'Something must have upset you; this is not the real you.' Then a story from Eretz Yisroel: when a rich boy's watch disappeared in class, the teacher had everyone close their eyes and searched every pocket. Years later the boy who took it thanked him for never shaming him, and the teacher revealed that he had kept his own eyes closed too. Finally, Rebbetzin Chaya Mushka once turned her face away when a bochur bumped into her, so she would not know who it was.",
+  "lesson": "Judge others favorably, never embarrass someone who did wrong, and show people you believe in the good inside them.",
+  "keywords": [
+   "golden calf",
+   "watch",
+   "classroom",
+   "closed eyes",
+   "recess",
+   "pockets",
+   "770"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "tanach_midrash",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Ki Sisa",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'In this week's parsha' (the golden calf). Year not stated."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "central"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "central"
+   },
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a cheder teacher in Eretz Yisroel",
+   "the boy who took the watch",
+   "a bochur at 770"
+  ],
+  "topics": [
+   "character",
+   "parsha"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "ahavas_yisroel",
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "ki_sisa"
+  ],
+  "places": [
+   "Eretz Yisroel"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 32:21",
+    "note": "Moshe's words to Aharon, 'What did this people do to you?'"
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Alter Rebbe's saying that we should 'live with the times' of the weekly parsha."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 420,
+   "type": "talk",
+   "title": "Moshe Rabbeinu judges Aharon favorably",
+   "summary": "In the parsha of the golden calf, Moshe gives Aharon a way to explain, and a teacher does the same for a boy.",
+   "people": [
+    "moshe_rabbeinu",
+    "aharon_hakohen"
+   ]
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 611,
+   "type": "story",
+   "title": "The teacher who closed his eyes",
+   "summary": "A teacher finds a stolen watch without ever learning who took it."
+  },
+  {
+   "start_sec": 611,
+   "type": "story",
+   "title": "Rebbetzin Chaya Mushka looks away",
+   "summary": "The Rebbetzin turned away so she would not know which bochur bumped into her, and a closing call for Ahavas Yisroel.",
+   "people": [
+    "rebbetzin_chaya_mushka"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename marked 'good'. The teacher's name is unclear in the recording."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T17:00:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/See%20the%20Good.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/See the Good.mp3",
+  "size_bytes": 8562862,
+  "mime_type": "audio/mpeg"
+ }
+}

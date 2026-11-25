@@ -1,0 +1,182 @@
+{
+ "id": "de3557ddc0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Chayei Sarah 404",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Chayei Sarah - Rivkah's Kindness at the Well (Ep 404).mp3",
+  "duration_sec": 490.548,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 404,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 404,
+   "story": "The strange gift",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Chayei Sarah: Rivkah's Kindness at the Well",
+  "title_basis": "content",
+  "summary_short": "The Torah is a living Torah: Rivkah's kindness to Eliezer and his camels teaches us to help others, in body and in soul.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show for Parshas Chayei Sarah. Uncle Yossi explains why the Torah is called a 'Toras Chaim': the same Torah Moshe Rabbeinu placed before the Jewish people is alive today, and every week's sedra holds a lesson. Avraham and Sarah were people of chesed. When Avraham sent his servant Eliezer to find a wife for Yitzchak, Eliezer asked Hashem for a sign: a girl who would give water not only to him but also to all his camels. Rivkah did exactly that, showing she was worthy to join Avraham's family. We should ask, 'When will my deeds reach those of my fathers?' and follow the Avos and Imahos, who watch from Gan Eden. Kindness means sharing food, clothing and shelter, and also helping a friend's neshamah by learning Torah and doing mitzvos together.",
+  "lesson": "Be kind like Rivkah: help others with what they need for the body, and help them learn Torah and do mitzvos for the soul.",
+  "keywords": [
+   "well",
+   "camels",
+   "Eliezer",
+   "living Torah",
+   "sharing",
+   "neshamah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Parsha of the Week"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 404,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-11-21",
+   "hebrew": "23 Cheshvan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 404, week of Parshas Chayei Sarah 5750."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rivkah_imeinu",
+    "role": "central"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Eliezer, Avraham's servant"
+  ],
+  "topics": [
+   "parsha",
+   "tanach",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "tzedakah",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "chayei_sarah"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 24",
+    "note": "Eliezer and Rivkah at the well."
+   },
+   {
+    "work": "midrash",
+    "note": "'When will my deeds reach the deeds of my fathers', quoted from the Sages."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b11c869378",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 38,
+   "note": "Episode 404 (filename number); clip = 38-529 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Chayei%20Sarah%20-%20Rivkah%27s%20Kindness%20at%20the%20Well%20%28Ep%20404%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Chayei Sarah - Rivkah's Kindness at the Well (Ep 404).mp3",
+  "size_bytes": 5887458,
+  "mime_type": "audio/mpeg"
+ }
+}

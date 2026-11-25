@@ -1,0 +1,137 @@
+{
+ "id": "da784bf1d1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "burning chametz",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Biur Chametz - Burning the Chametz on Erev Pesach.mp3",
+  "duration_sec": 228.698,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Biur Chametz: Burning the Chametz on Erev Pesach",
+  "title_basis": "filename",
+  "summary_short": "A short Yiddish lesson for children on burning the chametz on Erev Pesach morning, selling chametz to a non-Jew, and the second Kol Chamira and Yehi Ratzon.",
+  "summary_long": "Told in Yiddish for children. On Erev Pesach chametz may be eaten only until the middle of the morning; after that, the bag of chametz from the night's search and any leftovers are burned in a fire. Chametz that was sold to a non-Jew before Pesach is not burned, but it must be locked away in closets and cabinets, because a Jew may not even own chametz on Pesach. While burning, one says Kol Chamira again. Last night only the chametz one had not seen was nullified; this morning all chametz, seen or unseen, that was not sold is declared ownerless, like the dust of the earth. Then one says the Yehi Ratzon prayer, asking Hashem that just as we removed the chametz from our homes, He should remove the 'chametz' of the whole world, the yetzer hara and everything bad, and bring Moshiach, as He did at the Exodus from Egypt.",
+  "lesson": "Just as we burn our chametz, we ask Hashem to remove all evil from the world and bring Moshiach.",
+  "keywords": [
+   "fire",
+   "burning chametz",
+   "selling chametz",
+   "Kol Chamira",
+   "Yehi Ratzon",
+   "yetzer hara",
+   "Exodus"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "talk",
+  "story_type": [],
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "933079e352",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Same teaching in 'hg1a' at about 19:25-23:30 (fingerprint candidate 'aired_again_in'); this file is a tighter edit of that recording, not a rebroadcast."
+  }
+ ],
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "chametz"
+  ],
+  "calendar": [
+   "erev_pesach",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Kol Chamira; Yehi Ratzon at the burning"
+   }
+  ]
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Excerpt of a longer Yiddish Haggadah series. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Speaker not named in the recording."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Biur%20Chametz%20-%20Burning%20the%20Chametz%20on%20Erev%20Pesach.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Biur Chametz - Burning the Chametz on Erev Pesach.mp3",
+  "size_bytes": 2745249,
+  "mime_type": "audio/mpeg"
+ }
+}

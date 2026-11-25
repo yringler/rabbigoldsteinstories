@@ -1,0 +1,166 @@
+{
+ "id": "6a8926ccff",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "El Chanan Nachalaso",
+  "audio_path": "audio/Other Stories/Elchanan Nachalaso - The Lost Son of Rabbi Shimon of Mainz.mp3",
+  "duration_sec": 1265.721,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Elchanan Nachalaso: The Lost Son of Rabbi Shimon of Mainz",
+  "title_basis": "filename",
+  "summary_short": "A rabbi's four-year-old son is kidnapped by the family maid and raised in a church until he becomes the Pope, and a poem his father wrote brings him home to his people.",
+  "summary_long": "In the old city of Mainz on the Rhine, Rabbi Shimon, a great scholar and writer of piyutim, writes a poem beginning 'Elchanan nachalaso', Hashem is gracious to His heritage and always helps a Jew who strays to return. His four-year-old son Elchanan sees his own name in it and promises never to leave the Torah. Soon the boy falls gravely ill. He recovers enough to ask the Four Questions from his bed at the Seder, but the next morning, while his parents are in shul, the non-Jewish maid carries him off to a monastery. The illness returns and he loses his memory. Raised as a Christian named Felix, he becomes a brilliant scholar in Rome and is eventually chosen as Pope. Years later the rav of Mainz comes to plead with him to cancel a cruel decree against the Jews. The Pope agrees, invites the rav back, and asks to see his poems. When he reads the words 'Elchanan nachalaso', his memory returns and he embraces his father. He secretly leaves the papacy and returns to his people, and at the end father and son stand ready to give their lives rather than abandon Hashem.",
+  "lesson": "Every Jew has a share in Hashem's heritage, and Hashem always helps a Jew who has strayed return through teshuvah.",
+  "keywords": [
+   "Mainz",
+   "piyut",
+   "poem",
+   "kidnapped boy",
+   "maid",
+   "monastery",
+   "lost memory",
+   "Pope",
+   "Rome",
+   "decree",
+   "parchment",
+   "Four Questions"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "historical",
+   "rishonim_acharonim"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A sick four-year-old is kidnapped by the family's maid and never found by his parents for decades."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "The boy is raised as a Christian and becomes the Pope before returning to Judaism."
+   },
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "The young boy is gravely ill with a high fever and loses his memory."
+   },
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A cleric's decree against the Jews of Mainz; a later campaign to convert Jews."
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "The story ends with father and son ready to give their lives for Hashem."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Rabbi Shimon of Mainz",
+   "Elchanan, his son (later Felix)",
+   "Margaret, the maid",
+   "the head of the monastery",
+   "the Pope"
+  ],
+  "topics": [
+   "teshuvah",
+   "mesiras_nefesh_kiddush_hashem",
+   "great_rabbis"
+  ],
+  "midos": [
+   "emunah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "kiddush_hashem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Mainz",
+   "Rome"
+  ]
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No theme song or sign-off; starts straight into the story and ends on the martyrdom line. Possibly read from a written version."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:27:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator attribution from style only (no theme song).",
+   "Rabbi Shimon HaGadol of Mainz is not in the people vocabulary; kept as a character."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Elchanan%20Nachalaso%20-%20The%20Lost%20Son%20of%20Rabbi%20Shimon%20of%20Mainz.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Elchanan Nachalaso - The Lost Son of Rabbi Shimon of Mainz.mp3",
+  "size_bytes": 15189612,
+  "mime_type": "audio/mpeg"
+ }
+}

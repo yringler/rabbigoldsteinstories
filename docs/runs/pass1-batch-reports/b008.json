@@ -1,0 +1,25 @@
+{
+ "batch_id": "b008",
+ "done": [
+  "3a100b0be2", "8309f9f55f", "ddb57dd689", "73da1f9026", "d03df5b27d", "cf97f15688", "60ff0977a7",
+  "a5ddda2685", "38d83b32ce", "edb070d876", "0fc136be34", "53cdf327e6", "f826c5f743", "aec343b992",
+  "e707859a8d", "42a448f1fc", "bda75a59cd"
+ ],
+ "failed": [],
+ "notes": [
+  "Air dates: episodes 149-162 form an unbroken weekly run anchored by audio cues: 153 = 1984-12-04 (after Shabbos Vayeitzei 5745), 154 = 1984-12-11 (Yud-Tes Kislev 'this Thursday'), 155 = 1984-12-18 (first night of Chanukah), 156 = 1984-12-25 (eighth candle), 157 = 1985-01-01 (Asarah B'Teves 'this Thursday'), 162 = 1985-02-05 ('tonight is Tu B'Shvat'). The hints' weekly_estimate dates are 3 weeks too late in this range (e.g. 152 estimated 1984-12-18, actually about 1984-11-27); neighbouring batches may need the same correction.",
+  "Episodes with no cue of their own (149, 150, 152, 161) are dated by month with the likely exact Tuesday in the date note.",
+  "Serial links: 152 is chapter 2 of 'Torah, the best thing of all', whose chapter 1 is episode 151 (not in this batch; id unknown). Added continues links 150->149, 154->153, 157->156, 162->161.",
+  "Catalog row 156 has no story; its story (Rabbi Yisrael Salanter and the cobbler) is chapter 1 of 'The flickering flame' (row 157).",
+  "Episode 155's story is called 'The Secret Tunnel' on air (catalog: 'The miraculous Menorah'); fingerprint candidates 538a84153e ('The Secret Tunnel 354') and 5ecadf26f2 (354 12-06-88) were added as aired_again_in at 0.65-0.7.",
+  "Episode 157's Asarah B'Teves talk (about 1112-1766 s) probably re-aired as clips 48d68b1ed7, 6bb7db50e1 and 64dc417cdd (added at 0.6).",
+  "Identity clue (hidden only): the child whose letter is read in ep 150 appears to be the same child who is the Shema guest in ep 153.",
+  "Episode 152 has an ASR repetition loop around 20:52 (one guest's sentence repeated); flagged asr_loop.",
+  "Very quiet sources: 38d83b32ce (ep 157) and aec343b992 (Tu B'Shvat 162); flagged low_volume.",
+  "e707859a8d ('12 Psukim Shema 2 162') is only a 30-second spoken intro without the song; marked review.",
+  "60ff0977a7 and bda75a59cd are Lagavina sponsor commercials (typed promo); a policy decision on publishing commercials is needed.",
+  "Episode 149's Moshiach Times promo describes a late-summer/Elul cover although the show aired in Cheshvan; probably just an older issue.",
+  "Proposed new people terms: rabbi_yisrael_salanter (eps 156-157) and rabbi_yehoshua_ben_ilem (Nanas the butcher, ep 162 and clip 42a448f1fc).",
+  "Shared scratchpad: this agent briefly overwrote another agent's scratchpad\\build.py; its owner restored it. b008 working files are in scratchpad\\b008."
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "id": "b3a7eb29c2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem Always Helps part 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Always Helps, Part 2 - The King's Ring.mp3",
+  "duration_sec": 1031.053,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashem Always Helps, Part 2: The King's Ring",
+  "title_basis": "filename",
+  "summary_short": "Hidden away after his rescue, Rabbi Yehuda catches a fish with the king's lost ring inside, and a clever plan reveals why it was a favor that he never finished the golden pool.",
+  "summary_long": "After a recap, the story continues. Rabbi Yitzchak, the king's physician, nurses Rabbi Yehuda back to health but must hide him in a windowless room full of sefarim, where he learns Torah for weeks. On Thursday nights Rabbi Yehuda goes out alone to fish for Shabbos. One night the king and queen stroll by the river; a gust of wind opens the king's coat and his precious heirloom ring falls into the water. The wicked Yivan persuades the king to decree that the Jews must find the ring within ten days or be expelled, and the Jews fast and say Tehillim with bitachon. That Thursday Rabbi Yehuda catches a huge fish with the ring inside. Rabbi Yitzchak davens for an idea and tells the king of a dream: the ring will be returned at the river on the night of the full moon, Shushan Purim. Out of a small boat steps Rabbi Yehuda, saying the 'King of the Seven Seas' demands a copy of the golden pool to forgive the king for taking water without thanking Hashem, and wants Yivan to finish the gold paint. He hands back the ring, the king sends Yivan into the river, and Rabbi Yehuda finally understands the hidden favor.",
+  "lesson": "When Hashem does not give us something we want, it is a hidden favor; everything Hashem does is for the good.",
+  "keywords": [
+   "king's ring",
+   "fish",
+   "fishing",
+   "river",
+   "decree",
+   "expulsion",
+   "full moon",
+   "boat",
+   "King of the Seven Seas",
+   "golden pool"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "part": {
+   "set_key": "hashem-always-helps",
+   "part_number": 2,
+   "of": 2
+  },
+  "content_type": "story_chapter",
+  "story_type": [
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The king decrees that the Jews will be expelled unless they find his lost ring."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The villain is tied up and thrown into the river."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Rabbi Yehuda",
+   "Rabbi Yitzchak, the king's physician",
+   "Rivkah, Rabbi Yitzchak's wife",
+   "Yivan, the wicked advisor",
+   "the king",
+   "the queen"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hashgacha_pratis",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "savlanus",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "tehillim",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 205,
+   "type": "story_intro",
+   "title": "Recap of part 1"
+  },
+  {
+   "start_sec": 205,
+   "type": "story_chapter",
+   "title": "Hashem Always Helps, Part 2",
+   "story_key": "hashem-always-helps",
+   "chapter": 2
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Story set around Purim (Shushan Purim night) but not tied to the broadcast date."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:56Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "d89bdb8bdc",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'Hashem Always Helps part 1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "d89bdb8bdc",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Opens 'we're in the middle of the story' and recaps part 1."
+  },
+  {
+   "type": "same_story",
+   "target_id": "21a742a4c5",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Always Helps: A Copy of Shlomo HaMelech's Golden Pool, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3b507e35c4",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Shlomo HaMelech's Pool, Part 2' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ad8eb4387b",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Shlomo HaMelech's Pool, Part 1' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b9cf46cd8d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Shlomo HaMelech's Pool' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Always%20Helps%2C%20Part%202%20-%20The%20King%27s%20Ring.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Always Helps, Part 2 - The King's Ring.mp3",
+  "size_bytes": 12373410,
+  "mime_type": "audio/mpeg"
+ }
+}

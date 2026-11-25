@@ -1,0 +1,259 @@
+{
+ "id": "45d0fea825",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "2 Stories for Yud Shevat",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Two Stories for Yud Shevat - A Letter from the Frierdiker Rebbe and the Missing Pushka.mp3",
+  "duration_sec": 1067.653,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Two Stories for Yud Shevat: A Letter from the Frierdiker Rebbe and the Missing Pushka",
+  "title_basis": "filename",
+  "summary_short": "Seven reasons we can trust only Hashem completely, then two true stories: a letter from the Frierdiker Rebbe that saved a life, and the Rebbe's answer about a missing pushka.",
+  "summary_long": "Learning from this year's chapter of Basi LeGani that Hashem is everywhere, from the highest to the lowest, the storyteller explains bitachon with the seven conditions taught by Rabbeinu Bachya: to rely on someone he must love us, know our needs and not be lazy, be able to help, know what is truly good for us, have always helped, be the only one who can help, and help even when we do not deserve it. Only Hashem has all seven. Two true stories follow. The storyteller's grandparents, who spread Yiddishkeit in Pennsylvania, received a letter from the Frierdiker Rebbe telling the grandfather to be home two hours before Shabbos; the first Friday he did so, a terrible storm struck his workplace. Then the storyteller himself was chased through Flatbush by a menacing driver; when he wrote to the Rebbe, the answer told him to keep a Tehillim, Tanya and siddur in his car, with only the pushka outside the parentheses. Checking the car, he found the pushka was missing. He closes by encouraging everyone to prepare for Yud Shevat and strengthen their connection to the Rebbe.",
+  "lesson": "Trust Hashem completely, and strengthen your connection to the Rebbe by following his instructions.",
+  "keywords": [
+   "letter",
+   "storm",
+   "car chase",
+   "dentist",
+   "tzedakah pushka",
+   "parentheses",
+   "Tehillim",
+   "Tanya",
+   "siddur"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary",
+   "family_memoir"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2025-02",
+   "hebrew": "Before Yud Shevat 5785",
+   "hebrew_year": 5785,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'Getting ready for Yud Shevat'; 'this year's Basi LeGani, chapter 15' fits 5785 (also 5765, 5745)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The storyteller is chased by a menacing driver."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A storm kills and injures people at the grandfather's workplace."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "The storyteller names his grandparents' family.",
+    "at_sec": 588
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbeinu_bachya_ibn_paquda",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the storyteller's grandparents",
+   "a menacing driver"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hiskashrus",
+   "the_rebbe",
+   "family_heritage"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "tzedakah",
+   "tehillim"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "maamarim",
+    "ref": "Basi LeGani, ch. 15",
+    "note": "This year's chapter of the Basi LeGani maamar."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "A letter of the Frierdiker Rebbe to the storyteller's grandparents, shown to the listeners."
+   },
+   {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Rabbeinu Bachya's seven conditions for trusting someone, which only Hashem fulfils."
+   }
+  ],
+  "places": [
+   "Pennsylvania",
+   "Flatbush"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "song",
+   "title": "I Believe in Hashem",
+   "end_sec": 35
+  },
+  {
+   "start_sec": 35,
+   "type": "talk",
+   "title": "Basi LeGani: Hashem is everywhere",
+   "end_sec": 102
+  },
+  {
+   "start_sec": 102,
+   "type": "talk",
+   "title": "Seven reasons to trust only Hashem",
+   "end_sec": 563
+  },
+  {
+   "start_sec": 563,
+   "type": "story",
+   "title": "A letter from the Frierdiker Rebbe: home before Shabbos",
+   "end_sec": 745,
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 745,
+   "type": "story",
+   "title": "The Rebbe's answer and the missing pushka",
+   "end_sec": 1040,
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1040,
+   "type": "talk",
+   "title": "Getting ready for Yud Shevat"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Winter (family)",
+    "role": "family_member",
+    "start_sec": 588,
+    "end_sec": 600,
+    "note": "Storyteller's grandparents' family name."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Grandparents lived in Pennsylvania and did shlichus for the Frierdiker Rebbe over 80 years ago; storyteller wrote to the Rebbe after a car incident in Flatbush.",
+    "start_sec": 588
+   }
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:41Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording year (5785 assumed from the Basi LeGani chapter)."
+  ]
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Two%20Stories%20for%20Yud%20Shevat%20-%20A%20Letter%20from%20the%20Frierdiker%20Rebbe%20and%20the%20Missing%20Pushka.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Two Stories for Yud Shevat - A Letter from the Frierdiker Rebbe and the Missing Pushka.mp3",
+  "size_bytes": 12812892,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,333 @@
+{
+ "id": "c086cd94b1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "463",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 463 - Three Lost on an Island, Chapter 1 (1991-01-22).mp3",
+  "duration_sec": 1855.852,
+  "filename_facts": {
+   "episode_number": 463,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 463,
+   "story": "Three lost on a island #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 463: Three Lost on an Island, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "At a time of danger Uncle Yossi teaches how achdus brings shalom, begins the tale of three shipwreck survivors on a deserted island, and tells how Rabbi Levi Yitzchak of Berditchev saw only good.",
+  "summary_long": "Broadcast at a time when Jews everywhere were praying for Hashem's mercy and for peace. Uncle Yossi teaches that the way to bring shalom is achdus and Ahavas Yisroel, and gives the example of Aharon HaKohen, who loved peace and pursued it by quietly bringing quarreling people back together. After the Hakochainik march, a yeshiva student leads the Shema and Uncle Yossi explains that a true chayal (soldier) is a Chassid, a yarei Shamayim and a lamdan; everyone gives tzedakah. Story time begins 'Three Lost on an Island', a parable about life itself: a doctor, a scientist and an engineer survive a shipwreck. The doctor finds a healing apple, the scientist builds a telescope and the engineer repairs an abandoned airplane. Then the scientist sees something astonishing through his telescope, to be revealed next week. A second story tells how Rabbi Levi Yitzchak of Berditchev saw a man greasing his wagon in tallis and tefillin and praised him for davening even while he worked. Listeners say Tehillim in his merit, and the show ends with a call to say the Twelve Pesukim.",
+  "lesson": "Love peace and pursue it like Aharon HaKohen, and always judge others favorably as Rabbi Levi Yitzchak of Berditchev did.",
+  "keywords": [
+   "shipwreck",
+   "deserted island",
+   "doctor",
+   "scientist",
+   "engineer",
+   "telescope",
+   "airplane",
+   "healing apple",
+   "wagon axle",
+   "peacemaker"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 463,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1991-01-22",
+   "hebrew": "7 Shevat 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Between ep 462 (erev Rosh Chodesh Shevat, 15 Jan) and ep 465 (Mevarchim Adar, 5 Feb); wartime prayers fit January 1991."
+  },
+  "serial": {
+   "story_key": "three-lost-on-an-island",
+   "story_title": "Three Lost on an Island",
+   "chapter": 1
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm and only three people survive.",
+    "at_sec": 862
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest is named on air.",
+    "at_sec": 651
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the doctor",
+   "the scientist",
+   "the engineer",
+   "the man greasing his wagon"
+  ],
+  "topics": [
+   "character",
+   "chassidic_masters",
+   "moshiach_geulah",
+   "prayer_and_brachos",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "shalom",
+   "achdus",
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "emunah"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "tehillim",
+   "twelve_pesukim",
+   "davening",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 2:4",
+    "note": "'Nation will not lift sword against nation.'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:12",
+    "note": "Be among the students of Aharon: love peace and pursue peace."
+   },
+   {
+    "work": "siddur",
+    "note": "The closing brachah of Shemoneh Esrei: Hashem blesses His people with peace."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Alter Rebbe on Rabbi Levi Yitzchak's 'Heichal HaZechus' and saying Tehillim in his merit."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 52,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 52,
+   "end_sec": 433,
+   "type": "talk",
+   "title": "Achdus Brings Shalom",
+   "summary": "Praying for peace, and learning from Aharon HaKohen to love peace and pursue it.",
+   "people": [
+    "aharon_hakohen"
+   ],
+   "linked_items": [
+    "01f69928d5"
+   ]
+  },
+  {
+   "start_sec": 435,
+   "end_sec": 592,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 592,
+   "end_sec": 800,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student; what makes a true chayal",
+   "summary": "A yeshiva student leads the Shema, and Uncle Yossi explains the letters of the word chayal."
+  },
+  {
+   "start_sec": 800,
+   "end_sec": 835,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 835,
+   "end_sec": 1340,
+   "type": "story_chapter",
+   "title": "Three Lost on an Island, Chapter 1",
+   "summary": "Three shipwreck survivors each make a discovery, until the scientist sees something astonishing through his telescope.",
+   "story_key": "three-lost-on-an-island",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1340,
+   "end_sec": 1590,
+   "type": "story",
+   "title": "Rabbi Levi Yitzchak of Berditchev Sees the Good",
+   "summary": "Rabbi Levi Yitzchak praises a man greasing his wagon in tallis and tefillin for davening even while he works.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 1590,
+   "end_sec": 1698,
+   "type": "talk",
+   "title": "Tehillim in the merit of Rabbi Levi Yitzchak",
+   "summary": "The Alter Rebbe's teaching about the Heichal HaZechus, and saying a verse of Tehillim together.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1698,
+   "end_sec": 1726,
+   "type": "announcement",
+   "title": "Say the Twelve Pesukim every day"
+  },
+  {
+   "start_sec": 1726,
+   "end_sec": 1742,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  },
+  {
+   "start_sec": 1742,
+   "type": "silence",
+   "title": "Silence at end of tape"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "01f69928d5",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Achdus for Shalom 463' = 52-433 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "d15a73b724",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Three Lost on an Island' (1991): ep 463 ch. 1 and ep 464 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ca0235a8ba",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Rabbi Levi Yitzchak of Berditchev and the Coachman Greasing His Wheels' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "trailing_silence",
+   "time_bound_content"
+  ],
+  "trim": {
+   "content_end_sec": 1742,
+   "note": "Speech ends at about 1742 s; the rest of the file (about 2 minutes) has no speech."
+  },
+  "publish_recommendation": "publish",
+  "notes": "Wartime prayers for peace likely refer to the Gulf War (January 1991). No candle time given this week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Harlech (as heard; also 'Harlick')",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah",
+    "start_sec": 651,
+    "end_sec": 800
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20463%20-%20Three%20Lost%20on%20an%20Island%2C%20Chapter%201%20%281991-01-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 463 - Three Lost on an Island, Chapter 1 (1991-01-22).mp3",
+  "size_bytes": 22271276,
+  "mime_type": "audio/mpeg"
+ }
+}

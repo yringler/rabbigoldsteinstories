@@ -1,0 +1,184 @@
+{
+ "id": "a29727aa73",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2",
+  "filename_title": "The Silver Mirror 451",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Silver Mirror (Ep 451).mp3",
+  "duration_sec": 817.005,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 451,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 451,
+   "story": "The silver mirror",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Silver Mirror",
+  "title_basis": "filename",
+  "summary_short": "A generous man asks a Rebbe for wealth so he can give more tzedakah, but riches make him a miser, until the Rebbe shows him the difference between a window and a mirror.",
+  "summary_long": "Reb Avraham is a kind, hard-working man who always welcomes guests and gives tzedakah with an open hand. When a great Rebbe stays at his home, Reb Avraham asks for a blessing of wealth so he can give even more. The Rebbe warns him that riches can change a person's nature, but blesses him. As his business grows, Reb Avraham stops davening in shul, drops his evening learning, and sends his maid to turn the poor away with a few coins. Within a year he is known as a selfish miser. The Rebbe returns and stands him before a window, where he sees the poor water carrier, woodchopper and cobbler, and then before a mirror, where he sees only himself. Both are glass, the Rebbe explains, but the mirror is coated with silver. Reb Avraham weeps, does teshuvah, returns to his good ways, and gives more tzedakah than ever.",
+  "lesson": "Do not let wealth, the 'silver', blind you to others; riches are a blessing only when they are shared.",
+  "keywords": [
+   "mirror",
+   "window",
+   "silver",
+   "rich man",
+   "miser",
+   "beggars",
+   "blessing for wealth",
+   "water carrier",
+   "cobbler"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 451,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-10-30",
+   "hebrew": "11 Cheshvan 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Inherits the air date of episode 451 (3553669bc5). Episode: Weekly sequence: 1 wk after ep 450 (23 Oct 1990), 1 wk before ep 452 (6 Nov 1990); no gap between them. No date cue of its own."
+  },
+  "collections": [
+   "Heritage Series 2"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Reb Avraham",
+   "the visiting Rebbe",
+   "the maid",
+   "Berel the water carrier",
+   "Getzel the woodchopper",
+   "Feivel the cobbler"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "teshuvah",
+   "chassidim"
+  ],
+  "midos": [
+   "generosity",
+   "ahavas_yisroel",
+   "chesed",
+   "anavah"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_orchim",
+   "davening",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "ac0c610c3a",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 378."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b53bc18740",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 532."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "baed6e5c02",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "Also aired in episode 326."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "3553669bc5",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 867,
+   "note": "Episode 451 (filename number); clip = 867-1684 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete story, clean cut."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/The%20Silver%20Mirror%20%28Ep%20451%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Silver Mirror (Ep 451).mp3",
+  "size_bytes": 9804869,
+  "mime_type": "audio/mpeg"
+ }
+}

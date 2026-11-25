@@ -1,0 +1,170 @@
+{
+ "id": "360b02d123",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Yom Kippur 496",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Yom Kippur - A Clean Slate Through Teshuvah, Tefillah and Tzedakah (Ep 496).mp3",
+  "duration_sec": 501.895,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 496,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 496,
+   "story": "The hour of fortune",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yom Kippur: A Clean Slate Through Teshuvah, Tefillah and Tzedakah",
+  "title_basis": "content",
+  "summary_short": "On Erev Yom Kippur, Uncle Yossi explains how the day erases our sins, the Rambam's steps of teshuvah, how to daven, and why the day ends in joy.",
+  "summary_long": "A Yom Kippur teaching from the Tzivos Hashem radio show, aired on Erev Yom Kippur. Uncle Yossi explains that the Torah calls Yom Kippur 'once a year': a rare chance to have every sin of the past year erased from the heavenly record. To deserve it we use three tools: teshuvah, tefillah and tzedakah. Following the Rambam, he lists the steps of real teshuvah: stop the wrongdoing, confess to Hashem, promise never to do it again and ask for forgiveness. He gives the times of the fast, explains that boys over thirteen and girls over twelve fast, and urges children to daven slowly and with feeling, using a machzor with an English translation, and to bring relatives and friends to shul, since one mitzvah leads to another. He describes the shofar at the end of the day, which recalls the great shofar of Moshiach, and explains why Yom Kippur ends in simchah: with our sins wiped away, only our mitzvos remain.",
+  "lesson": "Through teshuvah, tefillah and tzedakah we start the new year with a clean record; then serve Hashem with joy.",
+  "keywords": [
+   "clean slate",
+   "heavenly scale",
+   "confession",
+   "machzor",
+   "fast",
+   "heavenly record"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 496,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-09-17",
+   "hebrew": "9 Tishrei 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Date of episode 496, from which the clip is cut: '6:58 tonight is the beginning of the fast of Yom Kippur' (5752)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "teshuvah",
+   "calendar",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "simcha",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "tzedakah",
+   "fast_days",
+   "shofar"
+  ],
+  "calendar": [
+   "yom_kippur"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 16:34",
+    "note": "'Once a year': the Torah's name for Yom Kippur."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 2:2",
+    "note": "The steps of teshuvah: stop, confess, resolve never to repeat, ask forgiveness."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Fast start and end times for 1991 are stated on air (and inconsistent: 6:58 and 6:50)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "edab733670",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 60,
+   "note": "Episode 496 (filename number); clip = 60-561 s of the episode."
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:28Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Yom%20Kippur%20-%20A%20Clean%20Slate%20Through%20Teshuvah%2C%20Tefillah%20and%20Tzedakah%20%28Ep%20496%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Yom Kippur - A Clean Slate Through Teshuvah, Tefillah and Tzedakah (Ep 496).mp3",
+  "size_bytes": 6023808,
+  "mime_type": "audio/mpeg"
+ }
+}

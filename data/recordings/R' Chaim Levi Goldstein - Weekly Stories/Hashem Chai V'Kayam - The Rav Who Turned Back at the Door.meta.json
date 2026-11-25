@@ -1,0 +1,181 @@
+{
+ "id": "f9544de2aa",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem chai vekayom",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Chai V'Kayam - The Rav Who Turned Back at the Door.mp3",
+  "duration_sec": 1041.043,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashem Chai V'Kayam: The Rav Who Turned Back at the Door",
+  "title_basis": "filename",
+  "summary_short": "A poor rav who needs money to marry off his children sets out to ask his rich brother for help, then turns back with three questions, because Hashem is living, rich and generous.",
+  "summary_long": "In the days of the Chozeh of Lublin, one of his Chassidim serves as rav of a large but poor town, supported by small contributions from every family. When their children reach marriageable age, his wife asks him to request a raise, but he refuses to take bread from poor families' tables and tells her to trust in Hashem. Months later she urges him to travel to his wealthy brother in Moscow. At last he agrees, kisses the mezuzah and leaves, only to walk back in a moment later with three questions: Is his brother, unseen for twenty years, still alive? Is he still rich? Will he even want to share? No one knows. But Hashem, he says, is chai v'kayam, living forever; He is always rich, and He is always generous. A few days later a burly poritz on his way to buy lumber leaves a sack of gold coins with the rav, saying that if he does not return within three days, the rav may keep it. Months pass, and while cleaning for Pesach the rebbetzin finds the sack. Unsure, the rav asks the Chozeh of Lublin, who greets him with a smile, repeats his three answers, and tells him to use Hashem's gift in good health.",
+  "lesson": "Put your trust in Hashem, Who lives forever, is never short of money and is always generous, rather than in people.",
+  "keywords": [
+   "rav",
+   "rebbetzin",
+   "weddings",
+   "rich brother",
+   "Moscow",
+   "three questions",
+   "mezuzah",
+   "sack of gold",
+   "lumber",
+   "Pesach cleaning"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor rav cannot afford to marry off his children."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "chozeh_of_lublin",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the Chozeh of Lublin",
+   "Rabbi Yosef, the town rav",
+   "the rebbetzin",
+   "David, his brother in Moscow",
+   "the poritz"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "chassidic_masters",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "contentment",
+   "savlanus"
+  ],
+  "mitzvos": [
+   "hachnasas_kallah",
+   "mezuzah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:8",
+    "note": "'Hashem yishmor tzeischa', said when kissing the mezuzah before a trip (as a custom)."
+   }
+  ],
+  "places": [
+   "Lublin",
+   "Moscow"
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "dead_air"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Gap of roughly 30 s with no speech around 2:10-2:40. No opening song; ends 'Gezunterheit'. ASR writes 'Chaisa von Lublin' for the Chozeh and 'parrot' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name or opening song; same narrator voice and wording as the 'I believe in Hashem' recordings.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attribution from style only (no opening song)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:56Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "569c810057",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem Figures It Out On His Own' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "93f9ef4eb9",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Chai V'Kayam: The Rabbi Who Trusted Only Hashem' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Chai%20V%27Kayam%20-%20The%20Rav%20Who%20Turned%20Back%20at%20the%20Door.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Chai V'Kayam - The Rav Who Turned Back at the Door.mp3",
+  "size_bytes": 12493462,
+  "mime_type": "audio/mpeg"
+ }
+}

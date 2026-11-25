@@ -1,0 +1,123 @@
+{
+ "id": "cdd9f50dce",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chicken with one leg",
+  "audio_path": "audio/Other Stories/The Chicken with One Leg - A Purim Joke Story.mp3",
+  "duration_sec": 273.899,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Chicken with One Leg: A Purim Joke Story",
+  "title_basis": "filename",
+  "summary_short": "On Erev Purim, hungry Yonason secretly eats a chicken leg, then insists at the Purim seudah that the chicken was born with only one leg.",
+  "summary_long": "Yonason is a clever boy who learns well in cheder but sometimes acts the wise guy. On the day before Purim he comes home hungry, finds a chicken cooking in the pot, pulls off a leg, makes a brachah and eats it, and cleans up so no one will know. At the Purim seudah, Mommy opens the pot and finds a leg missing. Yonason will not tell a lie, so he suggests that maybe this chicken was born with only one leg, and everyone laughs. The next day Tati takes him for a walk by a river and shows him a duck standing on one leg; when Tati claps his hands, the duck puts down its second foot. Yonason has a quick answer ready: if only Tati had clapped his hands at the table yesterday, the chicken would have put out its second foot too. The storyteller explains that this is a Purim joke story, told to bring simcha.",
+  "lesson": null,
+  "keywords": [
+   "chicken",
+   "chicken leg",
+   "duck",
+   "river",
+   "pot",
+   "Purim seudah",
+   "joke"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Yonason",
+   "Mommy",
+   "Tati"
+  ],
+  "topics": [
+   "calendar",
+   "family_and_home"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short Purim joke story; no theme song. ASR spells the boy's name several ways (Yonason)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:12Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator not identified (no theme song or sign-off)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Chicken%20with%20One%20Leg%20-%20A%20Purim%20Joke%20Story.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Chicken with One Leg - A Purim Joke Story.mp3",
+  "size_bytes": 3287807,
+  "mime_type": "audio/mpeg"
+ }
+}

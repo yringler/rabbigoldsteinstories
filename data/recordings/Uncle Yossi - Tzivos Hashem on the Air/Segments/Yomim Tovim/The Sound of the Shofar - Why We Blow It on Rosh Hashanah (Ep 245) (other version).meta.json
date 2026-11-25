@@ -1,0 +1,215 @@
+{
+ "id": "1fa6b2d0ea",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shofar 245",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Sound of the Shofar - Why We Blow It on Rosh Hashanah (Ep 245) (other version).mp3",
+  "duration_sec": 177.886,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 245,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 245,
+   "story": "The secret of the fireplace",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Sound of the Shofar: Why We Blow It on Rosh Hashanah",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains the mitzvah of shofar on Rosh Hashanah: a wake-up alarm that crowns Hashem as our King and calls us to teshuvah.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given the week before Rosh Hashanah. Uncle Yossi introduces the sound of the shofar, the ram's horn that the Torah commands us to blow on Rosh Hashanah, 'a day of sounding the shofar'. As the Rambam says, the Torah gives no reason for the mitzvah, since it is a heavenly decree, but it hints at many lessons. Above all, the shofar is like an alarm that wakes a person from sleep: it reminds us that a new year has begun, that on this day we proclaim Hashem our King and ourselves His servants, our Father and ourselves His children, and that we must ask Him to inscribe us in the Book of Life. We do teshuvah, regret our wrongdoings and resolve to learn more Torah and keep more mitzvos, and Hashem in His kindness grants us a good and sweet year.",
+  "lesson": "The shofar is a wake-up call: crown Hashem as King, do teshuvah, and resolve to do better in the new year.",
+  "keywords": [
+   "shofar",
+   "ram's horn",
+   "alarm",
+   "wake up",
+   "Book of Life",
+   "King",
+   "new year"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 245,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-09-30",
+   "hebrew": "25 Elul 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "From episode 245, 'the last Tuesday of this year' before Rosh Hashanah 5747. The talk also aired in episodes 139, 291, 342, 441 and 544."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah"
+  ],
+  "calendar": [
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 29:1",
+    "note": "'It shall be a day of sounding the shofar for you.'"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4",
+    "note": "A heavenly decree with a hint: the shofar says 'wake up, sleepers'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "2673cb25a1",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 342."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "86330c8469",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 139."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "984b61b4df",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 544."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a1fccff69a",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 441."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2b1059d0e",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 291."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "2ef8dfd816",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 1521,
+   "note": "Episode 245 (filename number); clip = 1521-1699 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "824ac3f4d7",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "'Tekias Shofar 342' is a longer cut of the same shofar talk with added material."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "824ac3f4d7",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Preferred version: a shorter cut of the same shofar talk (aired in episode 245); the episode-342 cut has the added material."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 824ac3f4d7 ('Tekias Shofar 342'), the preferred copy: a shorter cut of the same shofar talk (aired in episode 245); the episode-342 cut has the added material. About 30 s near the start (0:20-0:50) is untranscribed, probably the shofar blasts."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Sound%20of%20the%20Shofar%20-%20Why%20We%20Blow%20It%20on%20Rosh%20Hashanah%20%28Ep%20245%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Sound of the Shofar - Why We Blow It on Rosh Hashanah (Ep 245) (other version).mp3",
+  "size_bytes": 2135530,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,386 @@
+{
+ "id": "8876a93979",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "477",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 477 - Life in the Hands of the Tongue, Chapter 2 (Sefiras HaOmer) (1991-04-30).mp3",
+  "duration_sec": 1746.385,
+  "filename_facts": {
+   "episode_number": 477,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 477,
+   "story": "Life in the hands of the tongue #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 477: Life in the Hands of the Tongue, Chapter 2 (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "Pesach's lasting strength, a class recites the Shema, and the lion's-milk story ends: one wrong word lands the hunter in prison, and the tongue proves that life and death depend on it.",
+  "summary_long": "Broadcast during Sefirah, 5751, soon after Pesach. Uncle Yossi recalls the Seder nights and the moment we opened the door for Eliyahu HaNavi, and says Pesach gives us strength for the whole year to serve Hashem with pure emunah. He asks his many pen pals to be patient while he works through their letters. After a recap of last week's chapter, the hunter brings the bucket of milk to the sick king but calls it by a word that, in the king's country, means a dog, and he is thrown into prison. Students from a Brooklyn girls' school recite the Shema, and everyone gives tzedakah. Uncle Yossi then teaches that a person's words are counted, while words of Torah and prayer add to our years. In a second dream the tongue shows the body that it holds their fate; the hunter explains his mistake, the king is cured, and the hunter is rewarded. Shlomo HaMelech teaches that death and life are in the hands of the tongue. A listener's letter describes a family marching to the Hakochainik march, and the show ends with the Rambam's teaching to believe in Moshiach's coming and the great shofar that will announce it.",
+  "lesson": "Death and life are in the hands of the tongue: guard your words, and use your speech for Torah, brachos and prayer.",
+  "keywords": [
+   "lion's milk",
+   "hunter",
+   "sick king",
+   "prison",
+   "dream",
+   "tongue",
+   "Seder night",
+   "pen pals",
+   "shofar of Moshiach",
+   "ram's horns",
+   "mailbox"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 477,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1991-04-30",
+   "hebrew": "16 Iyar 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Pesach has just passed and the march is held back for Sefirah; falls between episode 476 (9 Iyar 5751) and episode 478 (after Lag BaOmer, candles fit 10 May 1991)."
+  },
+  "serial": {
+   "story_key": "life-in-the-hands-of-the-tongue",
+   "story_title": "Life in the Hands of the Tongue",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The hunter is chained and thrown into prison by mistake; he is freed and rewarded.",
+    "at_sec": 320
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The king is gravely ill until he drinks the lion's milk.",
+    "at_sec": 175
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A young letter writer is named in full with her town.",
+    "at_sec": 1150
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the sick king",
+   "the hunter",
+   "the prison warden",
+   "the tongue and the other parts of the body"
+  ],
+  "topics": [
+   "character",
+   "moshiach_geulah",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "shemiras_halashon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shemiras_halashon",
+   "torah_study",
+   "davening",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Mishlei 18:21",
+    "note": "Shlomo HaMelech in Mishlei: death and life are in the hands of the tongue."
+   },
+   {
+    "work": "siddur",
+    "ref": "Maariv, Ahavas Olam",
+    "note": "'Ki hem chayeinu v'orech yameinu': words of Torah are our life and the length of our days."
+   },
+   {
+    "work": "siddur",
+    "ref": "Birchas HaMazon, HaRachaman; Shemoneh Esrei, Teka B'shofar",
+    "note": "Prayers for Eliyahu HaNavi's good news and for the great shofar of Moshiach."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The Rambam's rule to believe in the coming of Moshiach."
+   },
+   {
+    "work": "midrash",
+    "note": "The two horns of Yitzchak's ram: one sounded at Matan Torah, the other to be sounded when Moshiach comes."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 28,
+   "type": "opening",
+   "title": "Opening and greeting",
+   "linked_items": [
+    "08d9060dab"
+   ]
+  },
+  {
+   "start_sec": 28,
+   "end_sec": 125,
+   "type": "talk",
+   "title": "The Echoes of Pesach",
+   "summary": "Memories of the Seder and Eliyahu HaNavi; Pesach gives us strength all year to serve Hashem with pure emunah.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "08d9060dab"
+   ]
+  },
+  {
+   "start_sec": 125,
+   "end_sec": 175,
+   "type": "announcement",
+   "title": "A note to pen pals",
+   "summary": "Uncle Yossi asks listeners to be patient while he gets to all their letters."
+  },
+  {
+   "start_sec": 175,
+   "end_sec": 262,
+   "type": "story_intro",
+   "title": "Recap: the hunter's strange dream",
+   "summary": "The hunter brought the lion's milk and dreamed that his body parts quarreled, while the tongue vowed to prove he was king."
+  },
+  {
+   "start_sec": 262,
+   "end_sec": 408,
+   "type": "story_chapter",
+   "title": "Life in the Hands of the Tongue, Chapter 2: Into Prison",
+   "summary": "The hunter calls the milk by the wrong name, and the angry king has him thrown into prison.",
+   "story_key": "life-in-the-hands-of-the-tongue",
+   "chapter": 2
+  },
+  {
+   "start_sec": 408,
+   "end_sec": 583,
+   "type": "shema_guest",
+   "title": "Shema with a visiting class"
+  },
+  {
+   "start_sec": 583,
+   "end_sec": 617,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 617,
+   "end_sec": 764,
+   "type": "talk",
+   "title": "Counted Words and Added Years",
+   "summary": "Following the Chofetz Chaim, every idle word is counted, while words of Torah and prayer add years to our life."
+  },
+  {
+   "start_sec": 764,
+   "end_sec": 1090,
+   "type": "story_chapter",
+   "title": "Life in the Hands of the Tongue, Chapter 2: The Tongue Proves Its Power",
+   "summary": "In a second dream the tongue saves the body, the hunter explains his mistake, and the king is cured.",
+   "story_key": "life-in-the-hands-of-the-tongue",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1090,
+   "end_sec": 1343,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A listener describes her family marching around the table to the Hakochainik march."
+  },
+  {
+   "start_sec": 1343,
+   "end_sec": 1727,
+   "type": "talk",
+   "title": "Believing in Moshiach",
+   "summary": "The Rambam's rule to believe in Moshiach, our daily prayers for him, and the ram's horn that will sound when he comes.",
+   "people": [
+    "rambam"
+   ],
+   "linked_items": [
+    "d96bb32d47"
+   ]
+  },
+  {
+   "start_sec": 1727,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No march by design (Sefirah). Hunter's word for the lion is garbled in ASR (dog/lion confusion). Mailbox address is the public Tzivos Hashem address. The Pesach talk also aired in episode 20."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "students of Beis Yaakov of Borough Park",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park",
+    "start_sec": 408,
+    "end_sec": 583,
+    "note": "A visiting class; no individual names heard."
+   },
+   {
+    "name": "Sarah Bernstein",
+    "role": "mailbox_letter",
+    "group": "Newark, New Jersey",
+    "start_sec": 1150,
+    "end_sec": 1316
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Letter writer's family marches around the table during the march; she tapes the stories and her teacher plays them in class.",
+    "start_sec": 1170,
+    "end_sec": 1236
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:32Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "08d9060dab",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Pesach recap 477' = 0-132 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "d96bb32d47",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Believe in Moshiach 477' = 1347-1727 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "a890e4740d",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapter 2 of 'Life in the hands of the tongue'; chapter 1 is episode 476."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a890e4740d",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Life in the Hands of the Tongue' (1991): ep 476 ch. 1 and ep 477 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20477%20-%20Life%20in%20the%20Hands%20of%20the%20Tongue%2C%20Chapter%202%20%28Sefiras%20HaOmer%29%20%281991-04-30%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 477 - Life in the Hands of the Tongue, Chapter 2 (Sefiras HaOmer) (1991-04-30).mp3",
+  "size_bytes": 20957526,
+  "mime_type": "audio/mpeg"
+ }
+}

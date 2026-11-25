@@ -1,0 +1,155 @@
+{
+ "id": "9416033b17",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 277",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shavuos - Everyone to Shul to Hear the Ten Commandments (Ep 277).mp3",
+  "duration_sec": 512.922,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 277,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 277,
+   "story": "Judge For A Day #2",
+   "topic": "Shavuos",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shavuos: Everyone to Shul to Hear the Ten Commandments",
+  "title_basis": "content",
+  "summary_short": "Before Shavuos, Uncle Yossi describes the reading of the Ten Commandments in shul and asks every child to come, and to bring relatives and friends, even babies, to hear it.",
+  "summary_long": "A talk from the Tzivos Hashem radio show one week before Erev Shavuos. Shavuos celebrates the greatest gift ever given, the Torah. In shul, when the Aseres HaDibros are about to be read, an announcement is made and everyone falls silent and faces the reader, because these are the very words Hashem said at Har Sinai. Each year we stand again in awe, strengthen our belief in Hashem and His Torah, and say once more 'Naaseh v'nishma'. Seeing us united in shul, Hashem blesses us. Uncle Yossi gives the dates and the Yom Tov candle-lighting time with its brachos, and explains that the Ten Commandments are read on the first morning. Just as every Jew was at Har Sinai, every Jew, young and old, even babies in carriages, should be in shul to hear them, so children should find out the time in their shul, invite relatives and friends politely, and fill out their Shavuos mitzvah chart.",
+  "lesson": "Every Jew stood at Har Sinai, so every Jew, even the youngest, should be in shul on Shavuos to hear the Ten Commandments.",
+  "keywords": [
+   "Ten Commandments",
+   "shul",
+   "Har Sinai",
+   "Naaseh v'nishma",
+   "Yom Tov candles",
+   "babies",
+   "mitzvah chart"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 277,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-05-26",
+   "hebrew": "27 Iyar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 277 (05-26-87): 'next Tuesday is Erev Shavuos', June 2."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shabbos_candles",
+   "brachos",
+   "ahavas_yisroel_mitzvah",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Gives 1987 dates and the Yom Tov candle time (8:03). Also matches episodes 380 and 428 (text overlap 0.77; not confirmed)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:51Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "49efe58654",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 17,
+   "note": "Episode 277 (filename number); clip = 17-530 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shavuos%20-%20Everyone%20to%20Shul%20to%20Hear%20the%20Ten%20Commandments%20%28Ep%20277%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shavuos - Everyone to Shul to Hear the Ten Commandments (Ep 277).mp3",
+  "size_bytes": 6156089,
+  "mime_type": "audio/mpeg"
+ }
+}

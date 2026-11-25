@@ -1,0 +1,149 @@
+{
+ "id": "92ff816d90",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 127",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Shavuos - Everyone to Shul for the Ten Commandments (Ep 127).mp3",
+  "duration_sec": 212.734,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 127,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 127,
+   "story": "A blessing from a Tzaddik",
+   "topic": "ערב שבועות",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Erev Shavuos: Everyone to Shul for the Ten Commandments",
+  "title_basis": "content",
+  "summary_short": "On Erev Shavuos, Uncle Yossi explains the Yom Tov candles and why everyone, from grandparents to babies in carriages, should be in shul to hear the Aseres HaDibros.",
+  "summary_long": "A short Erev Shavuos talk from the Tzivos Hashem radio show. Uncle Yossi reminds children that Mommy and the girls will soon light the Yom Tov candles with two brachos, including Shehecheyanu, thanking Hashem for letting us celebrate Shavuos, the holiday of Matan Torah. On the first day of Shavuos the Aseres HaDibros are read in shul: the very words Hashem spoke when He gave the Torah. Just as every Jew stood at Har Sinai, everyone should come to hear them again: parents, brothers and sisters, grandparents, cousins and friends. Even babies in carriages belong there, because Hashem gave the Torah in the merit of little children, who guarantee that the Torah will last forever. So children should find out the exact time in their shul, come early, and stand right up front as special guests.",
+  "lesson": "Everyone, even the youngest baby, should be in shul on Shavuos to hear the Ten Commandments, because the Torah was given in the merit of the children.",
+  "keywords": [
+   "Ten Commandments",
+   "Yom Tov candles",
+   "Shehecheyanu",
+   "Matan Torah",
+   "babies in shul",
+   "Har Sinai"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 127,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-06-05",
+   "hebrew": "5 Sivan 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Erev Shavuos'; cut from episode 127, which dates itself to 1984."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study"
+  ],
+  "midos": [
+   "achdus",
+   "simcha"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "brachos",
+   "torah_study",
+   "chinuch",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0a9df2758e",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 113,
+   "note": "Episode 127 (filename number); clip = 113-326 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Self-contained holiday talk; best featured before Shavuos."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:11Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Erev%20Shavuos%20-%20Everyone%20to%20Shul%20for%20the%20Ten%20Commandments%20%28Ep%20127%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Shavuos - Everyone to Shul for the Ten Commandments (Ep 127).mp3",
+  "size_bytes": 2553699,
+  "mime_type": "audio/mpeg"
+ }
+}

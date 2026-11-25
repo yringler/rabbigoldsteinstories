@@ -1,0 +1,254 @@
+{
+ "id": "c4c5e3319c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Keep On Dancing",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Keep On Dancing - The Mitteler Rebbe and the Power of Simcha (Adar).mp3",
+  "duration_sec": 996.345,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Keep On Dancing: The Mitteler Rebbe and the Power of Simcha (Adar)",
+  "title_basis": "filename",
+  "summary_short": "What if you are not in the mood to be happy in Adar? The storyteller explains how to bring on simcha, and tells how the Mitteler Rebbe used joy to cancel a decree against his son.",
+  "summary_long": "In a leap year with two months of Adar, sixty days of extra simcha, the storyteller asks: what if I am just not in the mood? He shares the Tzemach Tzedek's advice in his letters: always be happy, and even pretend to be happy, because the heart follows one's actions. The Frierdiker Rebbe taught that once you decide to be happy, Hashem sends new reasons for joy; thanking Hashem makes us happy, and simcha sweetens harsh judgments. Then the story: the Mitteler Rebbe had a choir and musicians, and Chassidim who put on a horse-riding show like Cossacks, all saved for special days. One ordinary weekday he suddenly called for a great celebration. In the middle, his son Reb Nochum fell from his galloping horse, but the Mitteler Rebbe signaled for even more music. The injury turned out to be minor. The Mitteler Rebbe later explained that he had seen a decree against his son's life, and that joy is the strongest way to remove it, so he increased the simcha to remove every trace.",
+  "lesson": "Simcha breaks through every bad decree; in Adar, choose to be happy, thank Hashem, and do things that bring joy to you and your family.",
+  "keywords": [
+   "bad mood",
+   "happiness",
+   "choir",
+   "musicians",
+   "horse show",
+   "Cossacks",
+   "fall from a horse",
+   "decree",
+   "leap year",
+   "letters"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Adar of a leap year",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "\"Two months of Adar... 60 days of simcha\": told around Adar I of a leap year; no year given."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The Rebbe's son falls from a galloping horse; he is only slightly hurt."
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A Heavenly decree against the son's life is removed through simcha."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mitteler_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_nochum_son_of_mitteler_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Mitteler Rebbe's choir and musicians",
+   "the Chassidic horse riders",
+   "the doctor",
+   "Reb Shlomo, the Tzemach Tzedek's in-law"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "character"
+  ],
+  "midos": [
+   "simcha",
+   "hakaras_hatov",
+   "bitachon"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "ref": "Tzemach Tzedek, letters 3 and 15",
+    "note": "Advice to always be happy, and to act happy even when not in the mood."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "When you resolve to be happy, Hashem sends reasons for joy; the Mitteler Rebbe's music."
+   },
+   {
+    "work": "zohar",
+    "note": "Brachos are given according to the face one shows."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 356,
+   "type": "talk",
+   "title": "Adar: what if I am not in the mood?"
+  },
+  {
+   "start_sec": 356,
+   "end_sec": 907,
+   "type": "story",
+   "title": "The Mitteler Rebbe's weekday celebration",
+   "people": [
+    "mitteler_rebbe",
+    "rabbi_nochum_son_of_mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 907,
+   "type": "talk",
+   "title": "Lesson: sixty days of simcha"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "16727d2e9e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories, 4:57-8:05), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1b994d468f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories, 5:11-8:19), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1d8cd14fa3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Fourth Night of Sukkos: The Mitteler Rebbe's Simcha' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3342eced38",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Mitteler Rebbe's Cossacks: Simcha Breaks a Decree (Adar)' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "870d0298c2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Young Rebbe Maharash and Mishenichnas Adar (Fragment)' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song partly transcribed; the talk begins around 0:40 (first transcript line spans it)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Keep%20On%20Dancing%20-%20The%20Mitteler%20Rebbe%20and%20the%20Power%20of%20Simcha%20%28Adar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Keep On Dancing - The Mitteler Rebbe and the Power of Simcha (Adar).mp3",
+  "size_bytes": 11957112,
+  "mime_type": "audio/mpeg"
+ }
+}

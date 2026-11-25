@@ -1,0 +1,220 @@
+{
+ "id": "0f22df3f8d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefira 224",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Time to Be Sad - The Days of Sefirah and the Lesson of Har Sinai (Ep 224).mp3",
+  "duration_sec": 527.861,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 224,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 224,
+   "story": "Saved by Negel Vasser",
+   "topic": "Sefira, Ahavas Yisroel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "A Time to Be Sad: The Days of Sefirah and the Lesson of Har Sinai",
+  "title_basis": "content",
+  "summary_short": "Why the radio show has no music during Sefirah, what happened to Rabbi Akiva's students, and how humble Har Sinai teaches us to respect and love one another.",
+  "summary_long": "A talk from the Tzivos Hashem radio show during Sefiras HaOmer. Uncle Yossi explains why the program opens without music: Shlomo HaMelech taught that there is a time for everything, a time to be happy and a time to be sad. Between Pesach and Shavuos we avoid celebrations, new clothes, new fruits that need Shehecheyanu, and haircuts, in memory of Rabbi Akiva's thousands of students, who did not show each other respect and died in a plague that ended on Lag BaOmer. Each of us should check that we honor others; this builds Ahavas Yisroel and unity, our secret weapon, and brings Moshiach. The clip continues with the custom of learning Pirkei Avos in these weeks. The first Mishnah says Moshe received the Torah 'from Sinai': he also learned from the mountain itself, chosen because it was the lowest, that serving Hashem needs humility and seeing the good in others.",
+  "lesson": "During Sefirah, make sure you give respect to others; be humble like Har Sinai and see the good in every Jew.",
+  "keywords": [
+   "Sefirah",
+   "no music",
+   "haircut",
+   "Rabbi Akiva's students",
+   "plague",
+   "respect",
+   "Pirkei Avos",
+   "Har Sinai",
+   "humility"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 224,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-05-06",
+   "hebrew": "27 Nissan 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 224 (1986-05-06); the same talk first aired in episode 122 (Sefirah 5744)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students died in a plague.",
+    "at_sec": 199
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "character",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel",
+   "achdus",
+   "anavah"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1",
+    "note": "'Moshe kibel Torah mi-Sinai': Moshe learned humility from the mountain itself."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 370,
+   "type": "talk",
+   "title": "A time to be sad: the days of Sefirah",
+   "summary": "Why there is no music, the Sefirah customs, and the lesson of Rabbi Akiva's students.",
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 370,
+   "type": "talk",
+   "title": "Pirkei Avos: humble Har Sinai",
+   "summary": "Moshe learned from Har Sinai, the lowest mountain, that serving Hashem takes humility."
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 122."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 30,
+   "note": "Episode 224 (filename number); clip = 30-558 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e5445b520a",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "The Pirkei Avos part (from about 370 s) matches 'Pirkei Avos Alef 122'."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "f1de486e32",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Edited clip: episode 30-374 s joined to the Pirkei Avos talk at about 1474-1631 s (the story and Shema in between are left out). Starts mid-sentence ('We have opened today's program...')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/A%20Time%20to%20Be%20Sad%20-%20The%20Days%20of%20Sefirah%20and%20the%20Lesson%20of%20Har%20Sinai%20%28Ep%20224%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Time to Be Sad - The Days of Sefirah and the Lesson of Har Sinai (Ep 224).mp3",
+  "size_bytes": 6335397,
+  "mime_type": "audio/mpeg"
+ }
+}

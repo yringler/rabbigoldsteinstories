@@ -1,0 +1,347 @@
+{
+ "id": "b55afe2c6b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "340 08-09-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 340 - The Storyteller, Chapter 3 (Rosh Chodesh Elul) (1988-08-09).mp3",
+  "duration_sec": 1776.188,
+  "filename_facts": {
+   "episode_number": 340,
+   "date_in_filename": "1988-08-09",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 340,
+   "story": "The storyteller #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 340: The Storyteller, Chapter 3 (Rosh Chodesh Elul)",
+  "title_basis": "content",
+  "summary_short": "Elul and the King in the Field, the Hakochainik march, Shema with a first-grade class, Rabbi Yehuda hears of a rich man who pays for Baal Shem Tov stories, and the first shofar of Elul.",
+  "summary_long": "Broadcast a few days before Rosh Chodesh Elul 5748. Uncle Yossi explains why Elul should make us cry 'Oy gevald!': using the Alter Rebbe's parable from Likkutei Torah, Hashem in Elul is like a king who comes out to the fields, greets everyone with a smile and grants their requests, and at the top of every list is 'We want Moshiach now.' After the Hakochainik march to 'Sheyibaneh Beis HaMikdash', the story continues: for months Rabbi Yehuda tells stories for pennies, until a kind hotel owner, Reb Avraham, feeds him and tells him of a wealthy merchant, Reb Yitzchak, who pays huge sums for any new story about the Baal Shem Tov. A first-grade class from a Boro Park girls' school recites the Shema, and Rabbi Yehuda sets off for the mansion saying Tehillim. A young listener's letter about the Tzivos Hashem club is read, and Uncle Yossi explains that the shofar will be blown every weekday morning in Elul to prepare for Rosh Hashanah. Candle-lighting time and the Dial-a-Jewish-Story line close the show.",
+  "lesson": "In Elul Hashem is close like a king in the field, so ask Him for what matters most; and never give up, because help can come from where you least expect it.",
+  "keywords": [
+   "king in the field",
+   "Elul",
+   "shofar",
+   "storyteller",
+   "hotel owner",
+   "wealthy merchant",
+   "mansion",
+   "kopecks",
+   "mailbox",
+   "Tzivos Hashem club"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 340,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-08-09",
+   "hebrew": "26 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'a few days to Rosh Chodesh Elul'; first Elul shofar 'this coming Sunday' (2 Elul, since 1 Elul 5748 was Shabbos)."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 3
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Letter writer named in full in the mailbox segment.",
+    "at_sec": 1468
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Reb Avraham, the kind hotel owner",
+   "Reb Yitzchak, the wealthy merchant"
+  ],
+  "topics": [
+   "calendar",
+   "baal_shem_tov_and_students",
+   "moshiach_geulah",
+   "chassidus_tanya",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "hasmadah",
+   "savlanus",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shofar",
+   "davening",
+   "hachnasas_orchim",
+   "shema",
+   "tehillim"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Parshas Re'eh",
+    "note": "The Alter Rebbe's parable of the king in the field."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 603,
+   "type": "talk",
+   "title": "Elul: The King in the Field",
+   "summary": "The Alter Rebbe's parable: in Elul Hashem is close and ready to grant requests, first of all Moshiach.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "a91e103f11",
+    "3ec5471714"
+   ]
+  },
+  {
+   "start_sec": 603,
+   "end_sec": 760,
+   "type": "song",
+   "title": "Hakochainik March: Sheyibaneh Beis HaMikdash"
+  },
+  {
+   "start_sec": 760,
+   "end_sec": 1058,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 3 (first part)",
+   "summary": "Months of hardship end at a hotel where a kind owner feeds Rabbi Yehuda and hints at a fortune.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1058,
+   "end_sec": 1215,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 1215,
+   "end_sec": 1415,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 3 (continued)",
+   "summary": "Rabbi Yehuda learns of a rich merchant who pays for new Baal Shem Tov stories and sets out to see him.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1415,
+   "end_sec": 1555,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A young listener writes about how much he enjoys the program and the Tzivos Hashem club."
+  },
+  {
+   "start_sec": 1555,
+   "end_sec": 1665,
+   "type": "talk",
+   "title": "The Shofar of Elul",
+   "summary": "From Sunday the shofar is blown each weekday morning in Elul to prepare for Rosh Hashanah.",
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "a49091ffd9"
+   ]
+  },
+  {
+   "start_sec": 1665,
+   "end_sec": 1690,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1690,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3ec5471714",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Chodesh Elul 340' = 49-608 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "a49091ffd9",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "'Tekias Shofar 340' = 1556-1666 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "a91e103f11",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Elul 340' = 48-608 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "3018dcdff0",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 339 ch. 2 and ep 340 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "3018dcdff0",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "ep 340 ch. 3 continues 'The Storyteller' (1988): ep 339 ch. 2."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "82715ff045",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 340 ch. 3 and ep 341 ch. 4 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Candle time (7:40) and phone line are period details. Two near-identical clips of the Elul talk exist (a91e103f11, 3ec5471714)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Luba Friedman",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 1058,
+    "end_sec": 1215
+   },
+   {
+    "name": "Morah I.D. (as heard)",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph (last week's class, mentioned)",
+    "start_sec": 1087,
+    "end_sec": 1095
+   },
+   {
+    "name": "Asher Bier",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1468,
+    "end_sec": 1555,
+    "note": "Enjoys the program and recruits friends to the Tzivos Hashem club."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:05Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20340%20-%20The%20Storyteller%2C%20Chapter%203%20%28Rosh%20Chodesh%20Elul%29%20%281988-08-09%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 340 - The Storyteller, Chapter 3 (Rosh Chodesh Elul) (1988-08-09).mp3",
+  "size_bytes": 21315204,
+  "mime_type": "audio/mpeg"
+ }
+}

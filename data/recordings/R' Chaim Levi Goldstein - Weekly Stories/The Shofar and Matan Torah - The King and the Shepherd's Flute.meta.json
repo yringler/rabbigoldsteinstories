@@ -1,0 +1,192 @@
+{
+ "id": "8e94797760",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Shofar and Matan Torah",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Shofar and Matan Torah - The King and the Shepherd's Flute.mp3",
+  "duration_sec": 990.276,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Shofar and Matan Torah: The King and the Shepherd's Flute",
+  "title_basis": "filename",
+  "summary_short": "Why do we blow the shofar on Rosh Hashanah? A parable of a king, a loyal shepherd and his flute shows how the shofar reminds Hashem of Har Sinai.",
+  "summary_long": "The storyteller opens with the Rambam's explanation that the shofar on Rosh Hashanah is like an alarm calling us to teshuvah, and with Rabbi Saadia Gaon's ten reasons, one of which is that the shofar recalls the giving of the Torah at Har Sinai. Then comes a parable. A good king wonders whether the people of his city respect him, dresses as a commoner and walks the streets, but hears only mockery and indifference. Saddened, he wanders into the fields and hears a shepherd playing a beautiful flute in honor of the king. Overjoyed, the king reveals himself and brings the shepherd to live in the palace as his friend. One day the shepherd offends the king and is sent away to stand trial. Before the sentence he asks only to play his flute, and the familiar tune moves the king to forgive him. The storyteller explains the parable: the Midrash teaches that every nation refused the Torah and only the Jewish people said Naaseh v'Nishma. The shofar on Rosh Hashanah reminds Hashem of the shofar at Har Sinai, and He forgives us and grants a good year.",
+  "lesson": "The shofar on Rosh Hashanah reminds Hashem that the Jewish people alone accepted His Torah, so He forgives us and inscribes us for a good year; we should do teshuvah and get ready for the new year.",
+  "keywords": [
+   "shofar",
+   "king",
+   "shepherd",
+   "flute",
+   "Har Sinai",
+   "Naaseh v'Nishma",
+   "disguise",
+   "royal court",
+   "seventy nations"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rav_saadia_gaon",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the shepherd"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "torah_study"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "anavah"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah"
+  ],
+  "calendar": [
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4",
+    "note": "The shofar hints at an alarm to do teshuvah (reference not stated on air)."
+   },
+   {
+    "work": "midrash",
+    "note": "Hashem offered the Torah to the seventy nations, who refused; the Jewish people said Naaseh v'Nishma."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 44,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 44,
+   "end_sec": 122,
+   "type": "talk",
+   "title": "Why we blow the shofar",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 122,
+   "end_sec": 838,
+   "type": "story",
+   "title": "The king and the shepherd's flute"
+  },
+  {
+   "start_sec": 838,
+   "type": "talk",
+   "title": "The shofar at Har Sinai and on Rosh Hashanah"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "dca475212d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Great Shepherd' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Shofar%20and%20Matan%20Torah%20-%20The%20King%20and%20the%20Shepherd%27s%20Flute.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Shofar and Matan Torah - The King and the Shepherd's Flute.mp3",
+  "size_bytes": 11884081,
+  "mime_type": "audio/mpeg"
+ }
+}

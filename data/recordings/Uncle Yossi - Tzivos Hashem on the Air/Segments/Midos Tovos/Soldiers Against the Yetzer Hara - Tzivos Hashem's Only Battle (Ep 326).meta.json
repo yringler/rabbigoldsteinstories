@@ -1,0 +1,142 @@
+{
+ "id": "5a3f0c73e0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Fighting the Yetzer Hara 326",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Soldiers Against the Yetzer Hara - Tzivos Hashem's Only Battle (Ep 326).mp3",
+  "duration_sec": 155.023,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 326,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 326,
+   "story": "The Silver-Coated Mirror",
+   "topic": "Fighting the Yetzer Hara, Pesach Sheni",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Soldiers Against the Yetzer Hara: Tzivos Hashem's Only Battle",
+  "title_basis": "content",
+  "summary_short": "Tzivos Hashem is a peace corps whose only enemy is the yetzer hara, and the only weapons that defeat it are Torah, mitzvos and good midos.",
+  "summary_long": "A short midos talk from the Tzivos Hashem radio show. Uncle Yossi notes how quickly new members are joining Tzivos Hashem from all over the world, learning good midos, love of Hashem, His Torah and mitzvos, and Ahavas Yisroel, which are the true secrets of lasting peace. Tzivos Hashem is a living peace corps; its military theme refers only to the battle against the yetzer hara, the little voice inside that tries to get us to do what is wrong and makes us lazy, cranky and tired so we lose the good feeling of doing mitzvos. As soldiers in Hashem's army, children have been given ammunition, and the only weapon that works against the yetzer hara is learning more Torah and doing more mitzvos, together with good midos. That is how we become true soldiers in Hashem's army.",
+  "lesson": "Our only enemy is the yetzer hara, and we defeat it by learning more Torah, doing more mitzvos and working on good midos.",
+  "keywords": [
+   "evil inclination",
+   "soldiers",
+   "ammunition",
+   "peace corps",
+   "laziness",
+   "army"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 326,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-05-03",
+   "hebrew": "16 Iyar 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 326; the episode says 'today is 16 Iyar' (1988-05-03), though its filename says 04-26-88."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "character",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "self_control",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-thought ('And it's so fascinating to notice...') but is complete."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "baed6e5c02",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 78,
+   "note": "Episode 326 (filename number); clip = 78-233 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Soldiers%20Against%20the%20Yetzer%20Hara%20-%20Tzivos%20Hashem%27s%20Only%20Battle%20%28Ep%20326%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Soldiers Against the Yetzer Hara - Tzivos Hashem's Only Battle (Ep 326).mp3",
+  "size_bytes": 1861262,
+  "mime_type": "audio/mpeg"
+ }
+}

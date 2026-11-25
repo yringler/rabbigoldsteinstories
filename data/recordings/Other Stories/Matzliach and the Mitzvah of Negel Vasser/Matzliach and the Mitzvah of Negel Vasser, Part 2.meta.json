@@ -1,0 +1,182 @@
+{
+ "id": "bae411ef9d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "negel vasser 2",
+  "audio_path": "audio/Other Stories/Matzliach and the Mitzvah of Negel Vasser/Matzliach and the Mitzvah of Negel Vasser, Part 2.mp3",
+  "duration_sec": 722.469,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Matzliach and the Mitzvah of Negel Vasser, Part 2",
+  "title_basis": "content",
+  "summary_short": "Lost in the desert after a sandstorm, Matzliach's caravan rations its water. To keep negel vasser he goes thirsty, then offers all his money for one extra cup of water.",
+  "summary_long": "Matzliach runs his father's spice business and sets off with a large bag of money to buy new stock, joining a camel caravan across the desert. A sandstorm holds them up for days and leaves them lost, and the caravan chief gathers all the water and threatens to shoot anyone who hides even a drop. Matzliach asks for his ration the night before so he can keep his negel vasser by his bed, and in the morning it is just enough to wash each hand three times. He goes the whole burning day without a drink. Remembering his promise to his father, he offers the astonished chief all the gold he carries in return for one extra container of water a day. The chief says he must first ask the other passengers. To be continued.",
+  "lesson": "A mitzvah you have chosen to treasure is worth more than all your money.",
+  "keywords": [
+   "caravan",
+   "camels",
+   "desert",
+   "sandstorm",
+   "water ration",
+   "gold coins",
+   "thirst",
+   "spices"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "negel-vasser",
+   "part_number": 2,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Lost in the desert; the chief threatens to shoot anyone who hides water."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Matzliach, a young scholar and spice merchant of Baghdad",
+   "the caravan chief",
+   "the passengers"
+  ],
+  "topics": [
+   "morning_routine",
+   "mesiras_nefesh_kiddush_hashem"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "responsibility",
+   "self_control"
+  ],
+  "mitzvos": [
+   "negel_vasser"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "note": "Washing each hand three times in turn."
+   }
+  ],
+  "places": [
+   "Baghdad"
+  ]
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "234db79ac9",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 1: 'negel vasser 1'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "09853315db",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 3: 'negel vasser 3'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1a993b1bd5",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 4: 'negel vasser 4'; the four files are consecutive parts of one story."
+  },
+  {
+   "type": "continues",
+   "target_id": "234db79ac9",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Picks up exactly where part 1 ends."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c2fbdf730a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Negel Vasser Test, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Continues directly from part 1 without a recap; no intro song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:42:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: part of the 4-part 'negel vasser' story whose part 1 (234db79ac9) has his self-reference about his father at the Frierdiker Rebbe's s..."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Matzliach%20and%20the%20Mitzvah%20of%20Negel%20Vasser/Matzliach%20and%20the%20Mitzvah%20of%20Negel%20Vasser%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Matzliach and the Mitzvah of Negel Vasser/Matzliach and the Mitzvah of Negel Vasser, Part 2.mp3",
+  "size_bytes": 8670384,
+  "mime_type": "audio/mpeg"
+ }
+}

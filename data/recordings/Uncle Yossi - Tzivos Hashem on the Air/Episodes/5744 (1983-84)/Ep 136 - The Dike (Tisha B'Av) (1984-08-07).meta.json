@@ -1,0 +1,335 @@
+{
+ "id": "f33fa1ac66",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "136",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 136 - The Dike (Tisha B'Av) (1984-08-07).mp3",
+  "duration_sec": 1774.684,
+  "filename_facts": {
+   "episode_number": 136,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 136,
+   "story": "The dike (נש\"ק)",
+   "topic": "ט' באב משיח ביהמ\"ק",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 136: The Dike (Tisha B'Av)",
+  "title_basis": "master_catalog",
+  "summary_short": "On Tisha B'Av: Torah, davening and kindness as a summer 'diet' for the soul, the story of a lost girl brought home by the light of Shabbos candles, and the ancient tune of Eichah.",
+  "summary_long": "Broadcast on Tisha B'Av. Uncle Yossi talks about rebuilding the Beis HaMikdash through three things: Torah, which lights up the world and shows right from wrong, so set a time to learn each day of the summer; avodah, davening to Hashem, who alone grants every need, as the Rambam taught; and gemilus chasadim, above all daily tzedakah, which helps the poor and refines the giver. A first-grade boy leads the Shema. The story takes place in a Dutch town by the sea. Kind Leah nurses her mischievous little sister Gittel after a fall. One day the dike breaks and everyone flees the flood, but Gittel falls behind. A hard, cruel old woman carries her to her cottage, tells her she has no family left, and works her for three years until she forgets her home and that she is Jewish. Sent to a distant fair, Gittel walks home after dark and sees Shabbos candles glowing in a window. Memories flood back; she knocks, and the door is opened by her sister. The show closes by explaining that the sad tune of Eichah, sung through the long exile, carries hope, and with a prayer that Tisha B'Av become a Yom Tov.",
+  "lesson": "The light of Shabbos candles can bring a Jewish child home; and Torah, prayer and kindness keep the soul strong and help rebuild the Beis HaMikdash.",
+  "keywords": [
+   "dike",
+   "flood",
+   "Holland",
+   "sisters",
+   "cruel old woman",
+   "fair",
+   "Shabbos candles",
+   "Eichah",
+   "summer diet for the soul",
+   "Az Yashir"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 136,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-08-07",
+   "hebrew": "9 Av 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Tisha B'Av, a fast day'; 9 Av 5744 was Tuesday 7 August 1984, weekly from 133 (17 Tammuz)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A dike breaks and a little girl is left asleep in the path of the flood.",
+    "at_sec": 735
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A cruel woman keeps the girl for three years, tells her she has no family, works her hard and threatens beatings.",
+    "at_sec": 845
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A child separated from her family forgets her home and her Jewishness before the happy reunion.",
+    "at_sec": 935
+   },
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Tisha B'Av and the destruction of the Beis HaMikdash.",
+    "at_sec": 0
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 466
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Gittel, the younger sister",
+   "Leah, the older sister",
+   "the cruel old woman",
+   "Gittel's parents"
+  ],
+  "topics": [
+   "shabbos",
+   "calendar",
+   "moshiach_geulah",
+   "torah_study",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "gemilus_chasadim",
+   "shema",
+   "fast_days",
+   "teshuvah"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "three_weeks",
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Holland"
+  ],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "Attributed to the Rambam: whatever you need, turn only to Hashem."
+   },
+   {
+    "work": "gemara",
+    "ref": "Sanhedrin 91b",
+    "note": "'Az yashir' read as 'will sing': the song of the Geulah, as 'our Chachamim tell us'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "Opening: today is Tisha B'Av",
+   "calendar": [
+    "tisha_bav"
+   ]
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 425,
+   "type": "talk",
+   "title": "Torah, Avodah and Gemilus Chasadim: a summer diet for the soul",
+   "summary": "Torah lights up the world, davening turns to Hashem for every need, and daily tzedakah refines the giver."
+  },
+  {
+   "start_sec": 425,
+   "end_sec": 466,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 466,
+   "end_sec": 588,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade yeshiva boy"
+  },
+  {
+   "start_sec": 588,
+   "end_sec": 1335,
+   "type": "story",
+   "title": "The Dike",
+   "summary": "Swept away from her family by a flood and kept by a cruel woman, Gittel finds her way home by the light of Shabbos candles."
+  },
+  {
+   "start_sec": 1356,
+   "end_sec": 1710,
+   "type": "talk",
+   "title": "The song of exile: the tune of Eichah",
+   "summary": "Music is Hashem's gift; the one tune sung even on Tisha B'Av is Eichah, a song of hope that ends 'Hashiveinu'.",
+   "calendar": [
+    "tisha_bav"
+   ]
+  },
+  {
+   "start_sec": 1710,
+   "end_sec": 1758,
+   "type": "talk",
+   "title": "A prayer that Tisha B'Av become a Yom Tov"
+  },
+  {
+   "start_sec": 1758,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "17d9dca041",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "9cef1efc9e",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 238 repeats the talk, Shema guest, The Dike and the Eichah segment (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6c110183df",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 287 (1987-08-04) repeats the talk, Shema guest, The Dike and the Eichah segment (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b325e66419",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 438 repeats the talk, Shema guest, The Dike and the Eichah segment (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c69b013e95",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 488 repeats the talk, Shema guest, The Dike and the Eichah segment (checked in its transcript)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "2647489fa0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Gittel and the Candles: The Lost Sister' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a78808ef52",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Gittel and the Shabbos Candles: A Chanukah Story' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Transcript skips about 30 s at 10:18-11:00 (Gittel's fall on the ice), present in the copy '186' (17d9dca041); check whether this file has a dropout. Eichah chanting around 26:50-28:30 is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Baruch Ezriel Tzvi Hirsh Shafran",
+    "role": "shema_guest",
+    "group": "Kitah Aleph (first grade), yeshiva",
+    "start_sec": 466,
+    "end_sec": 588
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Possible audio dropout at 10:18-11:00; the same recording filed as '186' seems complete there."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:03:41Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20136%20-%20The%20Dike%20%28Tisha%20B%27Av%29%20%281984-08-07%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 136 - The Dike (Tisha B'Av) (1984-08-07).mp3",
+  "size_bytes": 21297327,
+  "mime_type": "audio/mpeg"
+ }
+}

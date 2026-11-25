@@ -1,0 +1,321 @@
+{
+ "id": "4fc7c5e37d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "465",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 465 - Shoot Holes in the Jacket Too (Shabbos Mevarchim Adar) (1991-02-05).mp3",
+  "duration_sec": 1833.446,
+  "filename_facts": {
+   "episode_number": 465,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 465,
+   "story": "“Shoot holes in the jacket too”",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 465: Shoot Holes in the Jacket Too (Shabbos Mevarchim Adar)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi explains 'when Adar enters, increase in joy', and tells how a tzedakah collector tricked an armed robber into emptying his gun and saved the money for the poor.",
+  "summary_long": "Broadcast the week of Shabbos Mevarchim Adar 5751. Uncle Yossi explains that when Adar begins we must not only be happy but add to our simcha, a joy rooted in our trust that Hashem, who never sleeps, protects the Jewish people and foils the plans of every enemy. He prays that this year of wonders will bring a new holiday like Purim and the coming of Moshiach, the king of peace. The Hakochainik march is sung to 'Utzu Eitzah'. A fifth-grade girl from Beis Yaakov of Boro Park leads the Shema, and everyone gives tzedakah. In the story, Reb Nachman, a poor woodcutter who distributes the town's tzedakah, is held up at gunpoint in the forest. Before leaving, he asks the robber to shoot holes in his jacket and hat so the poor will believe him, until the gun is empty. Then he grabs back the bag of tzedakah money and the robber flees. The show ends with a listener's cheerful letter about his whole family, and the neighbors, listening to the program, and with candle-lighting times.",
+  "lesson": "Tzedakah saves from death; treat money given for the poor as a sacred trust, and in Adar add to your joy by trusting Hashem.",
+  "keywords": [
+   "robber",
+   "gun",
+   "bullet holes",
+   "jacket",
+   "hat",
+   "woodcutter",
+   "tzedakah collector",
+   "forest",
+   "Utzu Eitzah",
+   "mailbox"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 465,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1991-02-05",
+   "hebrew": "21 Shevat 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'This coming Shabbos we bench Rosh Chodesh Adar'; candle time 5:05 fits Fri 8 Feb 1991 (NY)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A robber holds up the hero at gunpoint, threatens his life and fires shots at his jacket and hat.",
+    "at_sec": 915
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest and the letter writer are named on air.",
+    "at_sec": 677
+   },
+   {
+    "flag": "home_address",
+    "note": "The letter writer's street (no house number) is read on air.",
+    "at_sec": 1517
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Nachman, a woodcutter and tzedakah collector",
+   "the robber"
+  ],
+  "topics": [
+   "calendar",
+   "hashgacha_pratis",
+   "kindness_and_community",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "responsibility",
+   "courage",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [
+   "adar",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Taanis 29a",
+    "note": "'When Adar enters, we increase in joy.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "100:2; 121:4",
+    "note": "Serve Hashem with joy; the Guardian of Israel never sleeps."
+   },
+   {
+    "work": "siddur",
+    "note": "'Utzu eitzah vesufar... ki imanu Keil' at the end of Aleinu; Ani Maamin."
+   },
+   {
+    "work": "neviim",
+    "ref": "Michah 7:15",
+    "note": "'I will show them wonders' as the theme of the year 5751."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 442,
+   "type": "talk",
+   "title": "When Adar Enters, Increase in Joy",
+   "summary": "Adar calls for added simcha, rooted in trust that Hashem protects the Jewish people and foils every enemy's plan.",
+   "calendar": [
+    "adar",
+    "shabbos_mevarchim"
+   ],
+   "linked_items": [
+    "23dfd213dc"
+   ]
+  },
+  {
+   "start_sec": 442,
+   "end_sec": 625,
+   "type": "song",
+   "title": "Hakochainik March: Utzu Eitzah"
+  },
+  {
+   "start_sec": 625,
+   "end_sec": 806,
+   "type": "shema_guest",
+   "title": "Shema with a fifth-grader from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 806,
+   "end_sec": 836,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 836,
+   "end_sec": 1422,
+   "type": "story",
+   "title": "Shoot Holes in the Jacket Too",
+   "summary": "A tzedakah collector outwits an armed robber and recovers the money meant for the poor."
+  },
+  {
+   "start_sec": 1422,
+   "end_sec": 1743,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: The Whole Block Is Listening",
+   "summary": "A yeshiva student writes that his family, and even the neighbors, listen to the program together."
+  },
+  {
+   "start_sec": 1743,
+   "end_sec": 1771,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1771,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "23dfd213dc",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Marbin Besimcha 465' = 56-442 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR once calls the hero 'Rabbi Akiva'; it is Reb Nachman throughout. A phrase naming the year's theme is missing around 5:10 (possible edit gap). Mailbox reads a child's name, street, school and birthday (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Dina Gottman / Gutman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Hei",
+    "start_sec": 677,
+    "end_sec": 806
+   },
+   {
+    "name": "Leibel (Laby) Gutman",
+    "role": "mailbox_letter",
+    "group": "Yeshiva Torah Vodaas, grade 7; Brooklyn",
+    "start_sec": 1485,
+    "end_sec": 1743,
+    "note": "Age 12; mentions a baby brother."
+   },
+   {
+    "name": "Mordechai",
+    "role": "other",
+    "group": "baby brother of the letter writer",
+    "start_sec": 1576,
+    "end_sec": 1743
+   }
+  ],
+  "addresses": [
+   {
+    "text": "55th Street, Brooklyn, New York",
+    "start_sec": 1517,
+    "end_sec": 1525
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Letter writer is 12, born February 2; baby brother named Mordechai.",
+    "start_sec": 1576,
+    "end_sec": 1700
+   },
+   {
+    "kind": "school",
+    "text": "Yeshiva Torah Vodaas, grade 7.",
+    "start_sec": 1517,
+    "end_sec": 1700
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20465%20-%20Shoot%20Holes%20in%20the%20Jacket%20Too%20%28Shabbos%20Mevarchim%20Adar%29%20%281991-02-05%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 465 - Shoot Holes in the Jacket Too (Shabbos Mevarchim Adar) (1991-02-05).mp3",
+  "size_bytes": 22002319,
+  "mime_type": "audio/mpeg"
+ }
+}

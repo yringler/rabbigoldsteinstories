@@ -1,0 +1,238 @@
+{
+ "id": "879d51af83",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Doctor and His Patient",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Doctor and His Patient (Rosh Chodesh Iyar).mp3",
+  "duration_sec": 1383.314,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Doctor and His Patient (Rosh Chodesh Iyar)",
+  "title_basis": "filename",
+  "summary_short": "For Rosh Chodesh Iyar, the month of healing: Hashem is the true Doctor. Then the Mezritcher Maggid's puzzling words about doctors and angels save a dying man and bring a doctor to teshuvah.",
+  "summary_long": "On the first day of Rosh Chodesh Iyar the storyteller explains the month's names: the second month, Chodesh Ziv, and Iyar, whose letters hint at the Avos and Rachel and at the words 'Ani Hashem rofecha', I am Hashem your healer. A doctor's permission and power to heal come from the Torah, but the real Healer is Hashem, and the best Doctor is the One who keeps us from getting sick at all. He tells of the Rebbe Maharash's praise for a Chassid doctor who stroked his long beard to draw down healing from Above, and teaches the value of leaving the beard whole. Then the story: Reb Yaakov, a wealthy and learned merchant of Vilna, visits the Mezritcher Maggid, who tells him that a truly great doctor is accompanied by the angel Refael and heals even without medicine. Back home, Reb Yaakov falls gravely ill. The king, visiting Vilna, sends his own Jewish doctor, who is far from Torah and mitzvos. As soon as the doctor sits at the bedside, the patient begins to recover, and both men set out for Mezritch.",
+  "lesson": "Every cure comes from Hashem through the doctor and the medicine; a tzaddik's words come from ruach hakodesh, and seeing Hashem's hand can bring a person to teshuvah.",
+  "keywords": [
+   "doctor",
+   "prescription",
+   "angel Refael",
+   "beard",
+   "king's doctor",
+   "Vilna",
+   "Mezritch",
+   "medicine",
+   "Ani Hashem Rofecha"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Rosh Chodesh Iyar (first day)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'Today is the first day of Rosh Chodesh Iyar'; year not stated."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A man is near death from an unknown illness and recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "maggid_of_mezritch",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Yaakov of Vilna",
+   "the king's doctor",
+   "the king",
+   "Dr. Avraham, a Chassid of the Rebbe Maharash"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "miracles",
+   "teshuvah",
+   "calendar",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "tehillim"
+  ],
+  "calendar": [
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Vilna",
+   "Mezritch"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:26",
+    "note": "'Kol hamachalah... ki ani Hashem rofecha'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 21:19",
+    "note": "Parshas Mishpatim, 'v'rapo yerapei': permission for doctors to heal, as the Sages say."
+   },
+   {
+    "work": "neviim",
+    "note": "Sefer Melachim: the second month called Chodesh Ziv."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 495,
+   "type": "talk",
+   "title": "Iyar, the month of healing",
+   "summary": "The names of the month and the hint of 'Ani Hashem rofecha' in the letters of Iyar.",
+   "calendar": [
+    "rosh_chodesh"
+   ]
+  },
+  {
+   "start_sec": 495,
+   "end_sec": 705,
+   "type": "talk",
+   "title": "The Rebbe Maharash's doctor and the beard",
+   "summary": "A Chassid doctor drew down healing by stroking his beard; why the beard is left whole.",
+   "people": [
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 705,
+   "end_sec": 1383,
+   "type": "story",
+   "title": "The Mezritcher Maggid and the king's doctor",
+   "summary": "A dying man recovers at the sight of a great doctor, just as the Maggid hinted, and the doctor seeks teshuvah.",
+   "people": [
+    "maggid_of_mezritch"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "1e53bafbf7",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Maggid of Mezritch and the Doctor's Healing Angel (Asarah B'Teves)' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR sometimes calls Reb Yaakov 'Rabbi Akiva' and the Maharash 'Maharaj'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Doctor%20and%20His%20Patient%20%28Rosh%20Chodesh%20Iyar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Doctor and His Patient (Rosh Chodesh Iyar).mp3",
+  "size_bytes": 16600545,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "id": "3e219c0910",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Tz tz ki besimcha teitzeiu",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Ki B'Simcha Teitzei'u - The Tzemach Tzedek's Three Words.mp3",
+  "duration_sec": 1365.925,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Ki B'Simcha Teitzei'u: The Tzemach Tzedek's Three Words",
+  "title_basis": "filename",
+  "summary_short": "The Rebbe's Purim lesson on the three pesukim said after davening, and a Chassid who saves his business by singing with simcha, as the Tzemach Tzedek advised.",
+  "summary_long": "The storyteller begins with the Midrash: the Torah learning of Jewish children helped overturn Haman's decree, and Mordechai, seeking a sign from Heaven, asked three children for the pasuk they had just learned. Each answered with an encouraging verse, the same three pesukim we say at the end of davening. He then explains a sichah the Rebbe gave to children before Purim: every action has three stages, thought, speech and deed, and so did Haman's plot; today the yetzer hara follows the same steps, bringing darkness, telling a child he is too tired to daven or make a brachah, and pulling him away from shul on Shabbos morning, and each pasuk answers one stage. The story follows a wealthy Chassid of the Tzemach Tzedek who sells seed grain to the poritzim and must deliver on the exact day. Halfway to the inn he realizes he left the richest poritz's wagon at home. Instead of despairing, he forces himself to sing a happy niggun and treats the poritzim to drinks. That night a downpour ruins all the grain, and the poritzim pay him in full anyway. He explains that the Tzemach Tzedek had told him three words: ki b'simcha teitzei'u, with joy you will go out.",
+  "lesson": "Simcha brings a person out of his troubles; even when you do not feel happy, act joyful and the joy will follow. The yetzer hara's plans will not succeed, because Hashem is with us.",
+  "keywords": [
+   "seed grain",
+   "wagons",
+   "inn",
+   "rainstorm",
+   "happy niggun",
+   "three pesukim",
+   "Al Tira",
+   "Haman's decree",
+   "cheder children"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The Chassid serves the poritzim a strong punch and they fall asleep drunk; told humorously."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mordechai",
+    "role": "appears"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a wealthy Chassid, a grain merchant",
+   "his business manager",
+   "the poritzim",
+   "three cheder children"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "emunah_bitachon",
+   "calendar"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "self_control",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study",
+   "brachos"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "Mordechai asks three children for their pasuk; the Torah learning of children overturned Haman's decree."
+   },
+   {
+    "work": "tehillim",
+    "note": "'From the mouths of babes' (Tehillim 8:3), quoted from Dovid HaMelech."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's talk to children before Purim on the three pesukim (Al Tira, Utzu Eitzah, V'ad Ziknah)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 248,
+   "type": "talk",
+   "title": "Mordechai and the three children",
+   "summary": "The Midrash of Mordechai asking three children for their pasuk, and the power of children's Torah learning."
+  },
+  {
+   "start_sec": 248,
+   "end_sec": 735,
+   "type": "sichah",
+   "title": "Thought, speech and action: the Rebbe's Purim lesson",
+   "summary": "The Rebbe explains how the three pesukim answer the three stages of Haman's plot and of the yetzer hara.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 735,
+   "end_sec": 1362,
+   "type": "story",
+   "title": "The Chassid who sang his way out of trouble",
+   "summary": "A grain merchant follows the Tzemach Tzedek's advice to be joyful and is saved from ruin.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "03dffd5920",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simcha: Free From All Problems (Purim Katan)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "81177cd802",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simcha and the Tzemach Tzedek' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; series inferred from narrator style and sign-off. ASR garbles Hebrew pesukim and writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name or opening song; same narrator style and 'A gutten tag' sign-off as the series.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from style and sign-off only (no opening song); confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:26Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Ki%20B%27Simcha%20Teitzei%27u%20-%20The%20Tzemach%20Tzedek%27s%20Three%20Words.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Ki B'Simcha Teitzei'u - The Tzemach Tzedek's Three Words.mp3",
+  "size_bytes": 16392088,
+  "mime_type": "audio/mpeg"
+ }
+}

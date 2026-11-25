@@ -1,0 +1,252 @@
+{
+ "id": "b97b61289f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Ohel Miracle",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Ohel Miracle.mp3",
+  "duration_sec": 1315.573,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Ohel Miracle",
+  "title_basis": "filename",
+  "summary_short": "Why Yidden daven at a tzaddik's Ohel, and how a businessman's prayer at the Mitteler Rebbe's Ohel came at the very moment his gravely ill wife recovered.",
+  "summary_long": "The storyteller opens with a letter of the Rebbe answering someone who did not understand why people go to the Ohel: a tzaddik's neshamah lives on, nobody davens to the tzaddik, and he is asked to bring our tefillos to Hashem, like the head of a body. He describes how often the Rebbe went to the Ohel, and retells a story a cheder teacher told his class there: a Chassid merited a child only because he once davened Mincha under a tree where the tzaddik Reb Simcha Bunim of Peshischa had davened. Then comes a story recorded by Rabbi Yaakov Kadaner. A businessman from his town, not yet a Chassid, promises to visit the Mitteler Rebbe's Ohel in Nezhin. His trip goes badly, he loses his money, and he feels something is wrong at home. At the Ohel he cries, leaves notes for his family and for his wife's recovery, and feels sudden relief. Back home he learns his wife, whom three doctors had given up on, woke up at nine in the morning on that very day, the moment he put down his note. Along the way the storyteller teaches that a doctor may heal but must never give up hope.",
+  "lesson": "Tzaddikim never really leave us; when we connect to them and daven at their resting place, they bring our tefillos to Hashem.",
+  "keywords": [
+   "Ohel",
+   "kever",
+   "pan (note)",
+   "businessman",
+   "doctors",
+   "Mincha",
+   "tree",
+   "Nezhin",
+   "Zohar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A wife becomes critically ill and the doctors give up hope; she recovers."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A businessman loses all his money and falls into debt on a trip."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mitteler_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_simcha_bunim_of_pshischa",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_yaakov_kaidaner",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Yaakov Kadaner",
+   "Reb Moshe, the businessman",
+   "his wife",
+   "the three doctors",
+   "a childless Chassid",
+   "Reb Simcha Bunim of Peshischa",
+   "a cheder teacher and his class"
+  ],
+  "topics": [
+   "hiskashrus",
+   "chabad_rebbeim",
+   "miracles",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "davening",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's letter explaining why people go to the Ohel."
+   },
+   {
+    "work": "sippurim_noraim",
+    "note": "Story recorded by Reb Yaakov Kaidaner, who witnessed it."
+   },
+   {
+    "work": "zohar",
+    "note": "Tzaddikim are greater after their passing than in their lifetime (as cited)."
+   }
+  ],
+  "places": [
+   "Nezhin",
+   "the Ohel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 330,
+   "type": "sichah",
+   "title": "Why go to the Ohel?",
+   "summary": "The Rebbe's letter on why we daven at a tzaddik's resting place, and how often the Rebbe went to the Ohel.",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 330,
+   "end_sec": 642,
+   "type": "story",
+   "title": "The tree where a tzaddik davened",
+   "summary": "A childless Chassid merits a son after davening Mincha where a great tzaddik once davened."
+  },
+  {
+   "start_sec": 642,
+   "end_sec": 1275,
+   "type": "story",
+   "title": "The miracle at the Mitteler Rebbe's Ohel",
+   "summary": "A businessman's note at the Ohel coincides with his gravely ill wife's recovery.",
+   "people": [
+    "mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1275,
+   "type": "talk",
+   "title": "Tzaddikim are always with us",
+   "summary": "Tzaddikim daven for those who think of them."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "15ee14294d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Power of the Ohel: Stories for Yud Shevat' (Stories, 7:39-16:07), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a512619974",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Rabbi Shimon bar Yochai and the Child Brought Back to Life: Two Lag BaOmer Stories' (Stories, 3:16-8:42), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends right after the closing teaching with no sign-off. ASR writes 'oil/Oihel/Eyal' for Ohel and 'Piana' for Nezhin."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:20Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Ohel%20Miracle.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Ohel Miracle.mp3",
+  "size_bytes": 15787709,
+  "mime_type": "audio/mpeg"
+ }
+}

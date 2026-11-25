@@ -1,0 +1,154 @@
+{
+ "id": "1a6b27f138",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 228",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/What Is the Mitzvah of Shavuos Receiving the Whole Torah (Ep 228).mp3",
+  "duration_sec": 358.641,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 228,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 228,
+   "story": "King David’s Grave",
+   "topic": "Shavuos",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "What Is the Mitzvah of Shavuos? Receiving the Whole Torah",
+  "title_basis": "content",
+  "summary_short": "Every Yom Tov has its own mitzvah, so what is the mitzvah of Shavuos? Uncle Yossi explains that it is the Torah itself, all 613 mitzvos.",
+  "summary_long": "A pre-Shavuos talk from the Tzivos Hashem radio show, recorded the week before Shavuos 5746. Pesach has matzah, Sukkos has the sukkah and lulav, Chanukah the menorah and Purim the Megillah, but what is the mitzvah of Shavuos? Uncle Yossi explains that Shavuos is different: it stands for all 613 mitzvos, because it celebrates the day Hashem Himself appeared on Har Sinai and gave us the Torah. We call it 'the time of the giving of our Torah' because the Torah we have today is the very same Torah. So the mitzvah of Shavuos is the Torah itself. Just as at the first Shavuos we said 'Naaseh v'nishma', we say it again by resolving to learn more Torah and do more mitzvos, and we stay up on Shavuos night learning Tikkun Leil Shavuos, which brings a blessing of success in learning, teaching and keeping the Torah all year, received with joy.",
+  "lesson": "The mitzvah of Shavuos is the Torah itself: resolve to learn more and do more mitzvos, and receive the Torah with joy.",
+  "keywords": [
+   "Shavuos",
+   "Matan Torah",
+   "Har Sinai",
+   "613 mitzvos",
+   "Naaseh v'nishma",
+   "Tikkun Leil Shavuos",
+   "crown of Torah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 228,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-06-03",
+   "hebrew": "25 Iyar 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 228 (1986-06-03); 'Shavuos is next week, Friday and Shabbos'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study"
+  ],
+  "midos": [
+   "simcha",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 24:7",
+    "note": "'Naaseh v'nishma.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "59eebafc60",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 27,
+   "note": "Episode 228 (filename number); clip = 27-386 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mentions that Shavuos falls on Friday and Shabbos 'next week' (1986)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/What%20Is%20the%20Mitzvah%20of%20Shavuos%20Receiving%20the%20Whole%20Torah%20%28Ep%20228%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/What Is the Mitzvah of Shavuos Receiving the Whole Torah (Ep 228).mp3",
+  "size_bytes": 4304739,
+  "mime_type": "audio/mpeg"
+ }
+}

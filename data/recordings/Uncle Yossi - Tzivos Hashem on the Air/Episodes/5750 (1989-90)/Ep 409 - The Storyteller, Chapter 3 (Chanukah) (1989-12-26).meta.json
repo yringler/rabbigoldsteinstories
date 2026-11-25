@@ -1,0 +1,342 @@
+{
+ "id": "58cad2a9c8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "409",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 409 - The Storyteller, Chapter 3 (Chanukah) (1989-12-26).mp3",
+  "duration_sec": 1871.648,
+  "filename_facts": {
+   "episode_number": 409,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 409,
+   "story": "The storyteller #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 409: The Storyteller, Chapter 3 (Chanukah)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Chanukah show: why a miracle and nature are the same to Hashem, a Chanukah sing-along with a guest singer, Shema with a first-grade class, and chapter 3 of The Storyteller.",
+  "summary_long": "Broadcast during Chanukah 5750, with the menorah already lit. Uncle Yossi teaches that Hashem, who created nature, can change it at will: to Hashem a miracle and nature are the same thing, but we get used to nature, so miracles like the oil that burned for eight days remind us that there is a Creator. He looks forward to the greatest miracle, Moshiach, and the golden menorah in the Beis HaMikdash. A guest singer in Studio 604 then leads Maoz Tzur, I Have a Little Dreidel, the Hebrew song Chanukah, Chanukah and an old Yiddish Chanukah song. In chapter 3 of The Storyteller, Rabbi Yehuda wanders from town to town telling stories of the Baal Shem Tov for a few pennies, until a kind hotel owner named Avraham feeds him and hears his troubles. A first-grade class from a Brooklyn girls' school says the Shema, everyone gives tzedakah, and the story continues: Avraham tells Rabbi Yehuda about a wealthy merchant who pays huge sums for new Baal Shem Tov stories, and Rabbi Yehuda sets out to see him. The show ends with Chanukah mitzvah missions in the newsletter and a reminder to light the menorah before Shabbos candles on Friday.",
+  "lesson": "Nature and miracles both come from Hashem; the Chanukah lights remind us not to take His daily wonders for granted.",
+  "keywords": [
+   "menorah",
+   "miracles",
+   "nature",
+   "Maoz Tzur",
+   "dreidel",
+   "storyteller",
+   "hotel owner",
+   "wealthy merchant",
+   "Studio 604",
+   "newsletter"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 409,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-12-26",
+   "hebrew": "28 Kislev 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Menorah already lit 'for tonight'; 'this Friday we light all eight candles' before Shabbos (candle time 4:17). Fits Tuesday 28 Kislev, the week after episode 408 (1989-12-19)."
+  },
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 3
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A first-grade class identified on air by school, grade and teacher (children not named individually); a guest singer also named.",
+    "at_sec": 1300
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "daniel",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Avraham, the kind hotel owner",
+   "Rabbi Yitzchak, the wealthy merchant"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "baal_shem_tov_and_students",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "savlanus",
+   "chesed"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "shabbos_candles",
+   "shema",
+   "tzedakah",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "opening",
+   "title": "Opening greeting and Chanukah wishes"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 442,
+   "type": "talk",
+   "title": "Chanukah: Hashem Is a G-d of Miracles",
+   "summary": "To Hashem nature and miracles are the same; the Chanukah miracles remind us of the Creator, and we await the miracle of Moshiach.",
+   "calendar": [
+    "chanukah"
+   ],
+   "linked_items": [
+    "dd42cea1d5"
+   ]
+  },
+  {
+   "start_sec": 442,
+   "end_sec": 540,
+   "type": "song",
+   "title": "Maoz Tzur with a guest singer"
+  },
+  {
+   "start_sec": 540,
+   "end_sec": 712,
+   "type": "song",
+   "title": "I Have a Little Dreidel"
+  },
+  {
+   "start_sec": 712,
+   "end_sec": 793,
+   "type": "song",
+   "title": "Chanukah, Chanukah (Hebrew)"
+  },
+  {
+   "start_sec": 793,
+   "end_sec": 959,
+   "type": "song",
+   "title": "An old Yiddish Chanukah song"
+  },
+  {
+   "start_sec": 959,
+   "end_sec": 1300,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 3",
+   "summary": "Rabbi Yehuda tells stories for pennies until a kind hotel owner feeds him and promises him a chance at great wealth.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1300,
+   "end_sec": 1437,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 1437,
+   "end_sec": 1490,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1490,
+   "end_sec": 1682,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 3 (continued)",
+   "summary": "The hotel owner tells Rabbi Yehuda about a rich merchant who pays for new Baal Shem Tov stories, and Rabbi Yehuda sets out saying Tehillim.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1682,
+   "end_sec": 1750,
+   "type": "announcement",
+   "title": "Chanukah mitzvah missions in the newsletter"
+  },
+  {
+   "start_sec": 1750,
+   "end_sec": 1777,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1777,
+   "end_sec": 1813,
+   "type": "announcement",
+   "title": "Lighting the menorah before Shabbos candles",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1813,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "dd42cea1d5",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Chanukah 409' = 39-438 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "019e1942d3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 408 ch. 2 and ep 409 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "019e1942d3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "ep 409 ch. 3 continues 'The Storyteller' (1989-90): ep 408 ch. 2."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "7e9d4fa376",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 409 ch. 3 and ep 410 ch. 4 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Songs only partly transcribed. Sponsor (with phone and address) and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Reb Chaim Fogelman",
+    "role": "visitor",
+    "group": "Guest singer in Studio 604",
+    "start_sec": 442,
+    "end_sec": 959
+   },
+   {
+    "name": "Morah Luba Friedman",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 1300,
+    "end_sec": 1437
+   },
+   {
+    "name": "Morah I.D. (as transcribed; unclear)",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (last week's class, mentioned)",
+    "start_sec": 1300,
+    "end_sec": 1330
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Song boundaries estimated from timestamp gaps.",
+   "Last week's class is said to be Kitah Aleph here, while episode 408 had a Kitah Gimmel class; teacher name unclear in ASR."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20409%20-%20The%20Storyteller%2C%20Chapter%203%20%28Chanukah%29%20%281989-12-26%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 409 - The Storyteller, Chapter 3 (Chanukah) (1989-12-26).mp3",
+  "size_bytes": 22460925,
+  "mime_type": "audio/mpeg"
+ }
+}

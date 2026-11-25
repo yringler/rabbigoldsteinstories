@@ -1,0 +1,149 @@
+{
+ "id": "6a73b22781",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Vacation 431",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Summer Vacation - Share the Torah with Every New Friend (Ep 431).mp3",
+  "duration_sec": 465.698,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 431,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 431,
+   "story": "The king is watching",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Summer Vacation: Share the Torah with Every New Friend",
+  "title_basis": "content",
+  "summary_short": "Summer travel brings new friends, and Hashem may have sent you to teach one of them about Hashem and the Torah, which is also a kind of tzedakah.",
+  "summary_long": "A talk from the Tzivos Hashem radio show as summer vacation approaches. Uncle Yossi explains that in the summer many children travel to overnight camp or across the ocean to visit relatives, and meet people they have never met. Some of these new friends may never have learned about Hashem, the Torah or mitzvos, and by hashgachah pratis Hashem chose you to share with them. He shows how to begin, with a smile: offer to share the most precious gift ever given, the Torah. Explain that 'Hashem' means 'the Name', that once there was nothing but Hashem, that He created everything from nothing and keeps the whole world, and you, alive every second, and that He gave the Torah to teach the happiest and healthiest way to live. Teaching another Jew about Hashem is also tzedakah, for body and soul. The 'order of the day' for every soldier in Tzivos Hashem, all year and especially in vacation, is to help others learn more, bringing Moshiach sooner.",
+  "lesson": "Use summer vacation to share Hashem and the Torah with new friends; teaching another Jew is also tzedakah.",
+  "keywords": [
+   "summer vacation",
+   "camp",
+   "travel",
+   "new friends",
+   "creation",
+   "sharing"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 431,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-06-12",
+   "hebrew": "19 Sivan 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 431: candle times fit Friday 15 June 1990; summer vacation 'just around the corner'."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "tzivos_hashem",
+   "hashgacha_pratis",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "generosity",
+   "emunah"
+  ],
+  "mitzvos": [
+   "mivtzoim",
+   "ahavas_yisroel_mitzvah",
+   "tzedakah"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7576c3475c",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 38,
+   "note": "Episode 431 (filename number); clip = 38-504 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the vacation talk; ends before the march."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Summer%20Vacation%20-%20Share%20the%20Torah%20with%20Every%20New%20Friend%20%28Ep%20431%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Summer Vacation - Share the Torah with Every New Friend (Ep 431).mp3",
+  "size_bytes": 5589338,
+  "mime_type": "audio/mpeg"
+ }
+}

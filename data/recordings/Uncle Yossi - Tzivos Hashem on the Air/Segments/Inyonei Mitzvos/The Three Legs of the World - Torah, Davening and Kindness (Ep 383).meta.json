@@ -1,0 +1,161 @@
+{
+ "id": "f70b565990",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Torah Avoda Ge'mach 383",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Three Legs of the World - Torah, Davening and Kindness (Ep 383).mp3",
+  "duration_sec": 473.605,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 383,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 383,
+   "story": "The king and the Shabbos candles",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Three Legs of the World: Torah, Davening and Kindness",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains the Mishnah that the world stands on Torah, avodah and gemilus chasadim, with a potato and three toothpicks, and what to take along to summer camp.",
+  "summary_long": "A talk from the Tzivos Hashem radio show at the start of summer vacation. Uncle Yossi recalls the Mishnah in Pirkei Avos: the world stands on three things, learning Torah, davening, and acts of kindness, which means tzedakah. Like a stool that needs at least three legs, we need all three every day. He suggests an experiment: a potato will not stand on one or two toothpicks, but with three it stands by itself. So when children go to camp or the country, they should take along a Chumash or other sefer to learn every day, a siddur for Shacharis, Mincha, Maariv and the bedtime Shema, and their own tzedakah pushka. The best time to give tzedakah is right before davening, because tzedakah opens the gates of mercy, and before Shabbos candle lighting we give extra for Shabbos, when money may not be handled. Doing all three brings a threefold blessing, like the Birkas Kohanim.",
+  "lesson": "Every day needs all three: learning Torah, davening and giving tzedakah, even on vacation.",
+  "keywords": [
+   "potato",
+   "toothpicks",
+   "three-legged stool",
+   "tzedakah pushka",
+   "siddur",
+   "summer camp",
+   "Birkas Kohanim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 383,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-06-27",
+   "hebrew": "24 Sivan 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 383 (1989-06-27), start of summer vacation."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "mitzvos_in_daily_life",
+   "kindness_and_community",
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [
+   "generosity",
+   "chesed"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "gemilus_chasadim",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:2",
+    "note": "'The world stands on three things: Torah, avodah and gemilus chasadim.'"
+   }
+  ],
+  "places": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "79f1685101",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 27,
+   "note": "Episode 383 (filename number); clip = 27-500 s of the episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins 'Here we are, ready to start off our summer vacation', without the greeting. Wording differs slightly from the episode (text match 0.87); it may be a slightly different edit of the same talk."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:41Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Three%20Legs%20of%20the%20World%20-%20Torah%2C%20Davening%20and%20Kindness%20%28Ep%20383%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Three Legs of the World - Torah, Davening and Kindness (Ep 383).mp3",
+  "size_bytes": 5684334,
+  "mime_type": "audio/mpeg"
+ }
+}

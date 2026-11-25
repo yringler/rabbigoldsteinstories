@@ -1,0 +1,316 @@
+{
+ "id": "964b1d68cc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "419",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 419 - The Purim Mitzvah Chart, Songs and Graggers (Purim) (1990-03-06).mp3",
+  "duration_sec": 1843.292,
+  "filename_facts": {
+   "episode_number": 419,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 419,
+   "story": "Purim",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 419: The Purim Mitzvah Chart, Songs and Graggers (Purim)",
+  "title_basis": "content",
+  "summary_short": "A pre-Purim show: the four mitzvos of Purim, Purim songs with graggers, Kabbalas ol malchus Shamayim in the Shema, and a song for Uvnei Yerushalayim.",
+  "summary_long": "Broadcast the week before Purim 5750. Uncle Yossi walks through the Tzivos Hashem Purim mitzvah chart: hearing every word of the Megillah (this year read on Motzei Shabbos and Sunday morning), using the gragger only at the signal, sending mishloach manos, giving matanos la'evyonim, and holding a Purim seudah. He urges children to invite a friend who knows little about Purim, just as Mordechai gathered thousands of Jewish children to learn Torah and brought the Purim salvation. A guest singer in Studio 604 leads Purim songs while listeners practice with their graggers. Mitzvah Time teaches the words Kabbalas ol malchus Shamayim: like a horse that wears a yoke, we accept Hashem as our King, especially when we say Baruch Shem after the Shema. A young listener answers questions in a phone call and leads the Shema, and everyone gives tzedakah. Uncle Yossi links Purim to the Beis HaMikdash and teaches a tune for Uvnei Yerushalayim to sing after benching at the Purim seudah. The show ends with memorial dedications, candle-lighting time and a Purim greeting.",
+  "lesson": "Do all the mitzvos of Purim with joy, share them with a friend, and accept Hashem as our King every time we say the Shema.",
+  "keywords": [
+   "Megillah",
+   "gragger",
+   "Haman",
+   "mishloach manos",
+   "Purim seudah",
+   "mitzvah chart",
+   "yoke",
+   "horse",
+   "Uvnei Yerushalayim",
+   "benching",
+   "Purim songs"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 419,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-03-06",
+   "hebrew": "9 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Megillah is read 'this coming Shabbos night', the night after 13 Adar; Purim 5750 fell on Sunday 11 March 1990, so the Tuesday show was 6 March, matching the weekly estimate."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Guest singer and a child on the telephone quiz and Shema named in full.",
+    "at_sec": 442
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "esther_hamalkah",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "King Achashverosh"
+  ],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos",
+   "tzivos_hashem",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "simcha",
+   "kabbalas_ol",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "megillah",
+   "mishloach_manos",
+   "matanos_levyonim",
+   "shema",
+   "tzedakah",
+   "brachos"
+  ],
+  "calendar": [
+   "purim",
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 67,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 67,
+   "end_sec": 442,
+   "type": "talk",
+   "title": "The Purim Mitzvah Chart",
+   "summary": "Megillah, graggers, mishloach manos, matanos la'evyonim and the seudah, and inviting a friend for Purim like Mordechai gathered the children.",
+   "calendar": [
+    "purim"
+   ],
+   "linked_items": [
+    "0886846f0f"
+   ]
+  },
+  {
+   "start_sec": 442,
+   "end_sec": 799,
+   "type": "song",
+   "title": "Purim songs with a guest singer and graggers",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 799,
+   "end_sec": 897,
+   "type": "announcement",
+   "title": "Mitzvah Time mailbag and how to be called"
+  },
+  {
+   "start_sec": 897,
+   "end_sec": 1222,
+   "type": "talk",
+   "title": "Mitzvah Time: Kabbalas Ol Malchus Shamayim",
+   "summary": "Like a horse that wears a yoke, we accept Hashem as our King when we say the Shema and Baruch Shem.",
+   "linked_items": [
+    "3dc9b7eae9"
+   ]
+  },
+  {
+   "start_sec": 1222,
+   "end_sec": 1340,
+   "type": "quiz",
+   "title": "Telephone quiz on the Shema",
+   "summary": "A young listener explains the meanings of Shema and Elokeinu."
+  },
+  {
+   "start_sec": 1340,
+   "end_sec": 1400,
+   "type": "shema_guest",
+   "title": "Shema led by the telephone guest"
+  },
+  {
+   "start_sec": 1400,
+   "end_sec": 1428,
+   "type": "announcement",
+   "title": "How to be on the radio"
+  },
+  {
+   "start_sec": 1428,
+   "end_sec": 1458,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1458,
+   "end_sec": 1546,
+   "type": "talk",
+   "title": "Purim and the Beis HaMikdash",
+   "summary": "Achashverosh used the vessels of the Beis HaMikdash at his feast; on Purim we also remember the Beis HaMikdash that Hashem will rebuild."
+  },
+  {
+   "start_sec": 1546,
+   "end_sec": 1721,
+   "type": "song",
+   "title": "A tune for Uvnei Yerushalayim"
+  },
+  {
+   "start_sec": 1721,
+   "end_sec": 1775,
+   "type": "announcement",
+   "title": "Dedications and Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1775,
+   "type": "closing",
+   "title": "Purim greeting and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0886846f0f",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Purim 419' = 67-459 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "3dc9b7eae9",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "'Shema 419' = 897-1199 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Songs are mostly untranscribed or garbled by ASR. Megillah timing and candle times are specific to Purim 5750."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Elchanan Fogelman",
+    "role": "visitor",
+    "group": "guest singer in Studio 604",
+    "start_sec": 442,
+    "end_sec": 799
+   },
+   {
+    "name": "Aviva Klugman",
+    "role": "shema_guest",
+    "start_sec": 1222,
+    "end_sec": 1400,
+    "note": "Answered the telephone quiz, then led the Shema by phone."
+   },
+   {
+    "name": "Sora Rivka bas Chaika",
+    "role": "other",
+    "start_sec": 1721,
+    "end_sec": 1740,
+    "note": "Named in a memorial (l'ilui nishmas) dedication."
+   },
+   {
+    "name": "Eliyahu ben Chaya",
+    "role": "other",
+    "start_sec": 1721,
+    "end_sec": 1740,
+    "note": "Named in a memorial (l'ilui nishmas) dedication."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20419%20-%20The%20Purim%20Mitzvah%20Chart%2C%20Songs%20and%20Graggers%20%28Purim%29%20%281990-03-06%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 419 - The Purim Mitzvah Chart, Songs and Graggers (Purim) (1990-03-06).mp3",
+  "size_bytes": 22120497,
+  "mime_type": "audio/mpeg"
+ }
+}

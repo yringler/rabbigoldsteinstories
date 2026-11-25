@@ -1,0 +1,159 @@
+{
+ "id": "3fbb2473dc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Shemos 508",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Shemos - A Brand New Chumash and Living with the Parsha (Ep 508).mp3",
+  "duration_sec": 277.817,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 508,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 508,
+   "story": "The stargazer",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Parshas Shemos: A Brand New Chumash and Living with the Parsha",
+  "title_basis": "content",
+  "summary_short": "As Chumash Shemos begins, Uncle Yossi explains the Alter Rebbe's teaching to live with the weekly parsha and find a living lesson in it every day.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired the week of Parshas Shemos. Uncle Yossi reminds children that last Shabbos everyone called out 'Chazak, chazak, venischazek' at the end of Bereishis, and this Shabbos a brand new Chumash, Shemos, begins. The Alter Rebbe taught that we must 'live with the times', meaning with the weekly parsha: each week's sedra holds living lessons for how to act every day, which is why the Torah is called Toras Chaim. Learning Torah and doing mitzvos makes us a holy nation, as we say in each brachah. He previews the stories of Shemos, from slavery in Egypt through the miracles to the giving of the Torah, encourages children to ask a teacher about good sefarim on the parsha, and mentions the Tzivos Hashem bookshop.",
+  "lesson": "Learn the weekly parsha and look for a living lesson in it for every day.",
+  "keywords": [
+   "new Chumash",
+   "Chazak chazak",
+   "weekly sedra",
+   "Toras Chaim",
+   "sefarim",
+   "bookshop",
+   "Egypt"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 508,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-12-24",
+   "hebrew": "17 Teves 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Same as episode 508: the week before Shabbos Shemos 5752."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "torah_study"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "shemos"
+  ],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "'Live with the times'",
+    "note": "The Alter Rebbe's saying about living with the weekly parsha."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "52e77319e6",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 46,
+   "note": "Episode 508 (filename number); clip = 46-323 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mentions the Tzivos Hashem bookshop at 332 Kingston Ave (period plug)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Parshas%20Shemos%20-%20A%20Brand%20New%20Chumash%20and%20Living%20with%20the%20Parsha%20%28Ep%20508%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Shemos - A Brand New Chumash and Living with the Parsha (Ep 508).mp3",
+  "size_bytes": 3334871,
+  "mime_type": "audio/mpeg"
+ }
+}

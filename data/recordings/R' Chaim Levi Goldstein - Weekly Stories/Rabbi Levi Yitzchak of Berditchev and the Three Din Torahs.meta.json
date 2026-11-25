@@ -1,0 +1,243 @@
+{
+ "id": "803a210c72",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "3 din toras",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Rabbi Levi Yitzchak of Berditchev and the Three Din Torahs.mp3",
+  "duration_sec": 1199.5,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rabbi Levi Yitzchak of Berditchev and the Three Din Torahs",
+  "title_basis": "filename",
+  "summary_short": "Rabbi Levi Yitzchak of Berditchev attends the funeral of a rich man everyone called a miser, and explains with three din Torahs what a hidden tzaddik he was.",
+  "summary_long": "Before the Rebbe Rashab's 160th birthday, the storyteller explains that Tomchei Temimim was founded to teach Chassidus and its way of seeing every Jew in a good light, as Rabbi Levi Yitzchak of Berditchev did. When Shimon, a rich man thought to be a miser, passes away, the Chevra Kadisha wants to charge his family extra; the Berditchever forbids it and attends the funeral, and the whole town follows. Afterwards he tells three din Torahs. First, Shimon claimed to have found a merchant's lost money to save the fainting man's life, and refused repayment when the real finder came forward. Second, a poor man left town pretending to work for Shimon, and Shimon quietly paid the wife a weekly wage, refusing to be repaid. Third, a borrower named Hashem as his guarantor and came late to repay; Shimon said Hashem had already paid him through a good profit. The lesson: never judge a person from the outside.",
+  "lesson": "Look at every Jew with a good eye; you never know the good a person does in secret.",
+  "keywords": [
+   "miser",
+   "funeral",
+   "Chevra Kadisha",
+   "wine merchant",
+   "lost money",
+   "loan",
+   "guarantor",
+   "wages",
+   "din Torah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-11",
+   "hebrew": "Week of 20 Cheshvan 5781",
+   "hebrew_year": 5781,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'The Rebbe Rashab, whose birthday is on Shabbos, he's turning 160': 20 Cheshvan 5781 fell on Shabbos, 7 Nov 2020."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story begins with a funeral."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor father leaves his family for a few months."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Shimon, the 'miser'",
+   "the wine merchant",
+   "the man who found the money",
+   "a poor family",
+   "the borrower",
+   "the Chevra Kadisha"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "kindness_and_community",
+   "character"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "generosity",
+   "chesed",
+   "anavah"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "gemilus_chasadim",
+   "hashavas_aveidah",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "chof_cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Berditchev"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "talk",
+   "title": "Tomchei Temimim and seeing every Jew in a good light",
+   "end_sec": 117
+  },
+  {
+   "start_sec": 117,
+   "type": "story",
+   "title": "The funeral of the 'miser'",
+   "end_sec": 365
+  },
+  {
+   "start_sec": 365,
+   "type": "story",
+   "title": "First din Torah: the lost money",
+   "end_sec": 680
+  },
+  {
+   "start_sec": 680,
+   "type": "story",
+   "title": "Second din Torah: the wife's wages",
+   "end_sec": 993
+  },
+  {
+   "start_sec": 993,
+   "type": "story",
+   "title": "Third din Torah: Hashem the guarantor",
+   "end_sec": 1160
+  },
+  {
+   "start_sec": 1160,
+   "type": "closing",
+   "title": "Never judge from the outside"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Signs off 'A guten Tag'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name or theme song; same narrator and 'A guten Tag' sign-off as the weekly story.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "407fcad3a4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Three Din Torahs: The Hidden Tzaddik of Berditchev' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5891cd1abb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Judge Every Yid Favorably: Rabbi Levi Yitzchak and the Secret Giver of Berditchev' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a1317d8c93",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'True Ahavas Yisroel, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f044a3eccb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'True Ahavas Yisroel, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Rabbi%20Levi%20Yitzchak%20of%20Berditchev%20and%20the%20Three%20Din%20Torahs.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Rabbi Levi Yitzchak of Berditchev and the Three Din Torahs.mp3",
+  "size_bytes": 14394959,
+  "mime_type": "audio/mpeg"
+ }
+}

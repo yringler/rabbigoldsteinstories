@@ -1,0 +1,15 @@
+{
+ "batch_id": "b080",
+ "done": [
+  "f0365de7cf",
+  "76303b6292"
+ ],
+ "failed": [],
+ "notes": [
+  "76303b6292 ('20 needs splicing') contains two consecutive Tanya shiurim: the first continues ch. 15 and ends at about 58:03 ('a dank eich un a gute nacht'); the second starts at about 58:20 ('last week we finished ch. 15'), studies ch. 16 and is cut off mid-sentence at the end of the file. Candidate for splitting; the rest of the second shiur may exist in another file.",
+  "Folder numbering does not track chapter order: '17 perek 27' covers Tanya ch. 27, '20' covers ch. 15-16, while the worked example '29 P13' covers ch. 13. The numbers may belong to different cycles or years; pass 2 should check the sequence before adding continues/part_of_set relations across the folder.",
+  "f0365de7cf ends with 'next week we begin chapter 28', so the shiur on Tanya ch. 28 in this folder probably continues it.",
+  "76303b6292: the second shiur mentions a story 'the Rebbe shlita told on Chof Cheshvan'; it may have been recorded shortly after a Chof Cheshvan (no year stated), so no date was set.",
+  "f0365de7cf: speech ends at about 60:12 of a 69:56 file; trim set."
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "batch_id": "b056",
+ "done": [
+  "50a1238473",
+  "71743d402a",
+  "150ca1badb",
+  "175a930717",
+  "18c3f70218",
+  "74ef583ca6",
+  "5891cd1abb",
+  "c4c5e3319c",
+  "0f82bdc6fb",
+  "0dab3223a8",
+  "3835486e91",
+  "e4adab699f",
+  "b2fa343143"
+ ],
+ "failed": [],
+ "notes": [
+  "50a1238473, 71743d402a and 150ca1badb were already DONE from an earlier run; this run filled the other 10.",
+  "175a930717 ('Im Yirtze Hashem ADHZ') is the third telling of the Im Yirtzeh Hashem/Siberia story (same_story with 150ca1badb and 50a1238473). It is dated to Yud Shevat 5780 from '70 years'. 'ADHZ' is not explained.",
+  "0f82bdc6fb ('kesser tefila 1') and 0dab3223a8 ('kesser tel lesson') are the two halves of 27799e2e4b ('Tefilah - Kesser', 59.7 min, offsets about 13 s and 1800 s). They are linked as clip_of and part_of_set, set_key 'kesser-tefillah'. Pass 2 should check the combined item. The narrator is unknown; it may be the weekly storyteller.",
+  "3835486e91 ('Kidnapped Part 1') ends on a cliffhanger, and no Part 2 turns up when searching filenames. The narrator (no song; addresses 'Kinderlach') may not be the weekly storyteller. It is a blood-libel story, so publish_with_note.",
+  "e4adab699f ('Lag Bomer Oht') is a short live talk at a Lag BaOmer event, attributed to storyteller_i_believe by style. Identity clue: the speaker's father was brought to Lubavitch as a boy by Rabbi Eliyahu Simpson of Boro Park, and 'Rabbi Simpson's Zayda' suggests the host was his grandson.",
+  "74ef583ca6, b2fa343143 and 175a930717 have no opening song. They are put in the weekly series by narrator style (shared phrases such as 'plug in the machine' and 'seven sons and two daughters'). 74ef583ca6 ends with 'Sukkos. All the best', maybe a seasonal greeting.",
+  "74ef583ca6: the narrator says 'That's what Hatzalah does. I gave you a plug last time also', a possible link to an earlier recording or a sponsor.",
+  "5891cd1abb has an ASR repetition loop at 18:59-19:32; consider re-transcribing.",
+  "0dab3223a8 repeats a passage around 15:42-17:00 (splice).",
+  "b2fa343143: the filename suffix 'aaa' may be a take marker. No other Lambskin copy turns up when searching filenames."
+ ]
+}

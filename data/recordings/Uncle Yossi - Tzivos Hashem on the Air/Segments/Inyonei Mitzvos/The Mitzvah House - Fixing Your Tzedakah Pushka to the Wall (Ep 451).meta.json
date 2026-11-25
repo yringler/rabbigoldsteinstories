@@ -1,0 +1,160 @@
+{
+ "id": "664f4708ad",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Mitzvah House 451",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Mitzvah House - Fixing Your Tzedakah Pushka to the Wall (Ep 451).mp3",
+  "duration_sec": 298.145,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 451,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 451,
+   "story": "The silver mirror",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Mitzvah House: Fixing Your Tzedakah Pushka to the Wall",
+  "title_basis": "content",
+  "summary_short": "How to turn your whole house into a big mitzvah: attach your tzedakah pushka permanently to a wall, and your home becomes part of the mitzvah that brings Moshiach sooner.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi explains that the word mitzvah means not only a commandment but also a connection: each mitzvah joins us to Hashem. A house can be connected to a mitzvah too. If you fix your tzedakah pushka permanently to a wall of your home, with a nail, tape or glue, the whole house becomes part of the mitzvah of tzedakah, which our Sages say is so great that it brings the Geulah closer. The 'order of the day' for members of Tzivos Hashem is to tell their parents the good news and ask them to help attach the pushka. A home connected to tzedakah invites Hashem to dwell there, protecting and blessing the family in body and soul. The talk ends by encouraging children to put a few coins in their pushka.",
+  "lesson": "Make tzedakah a permanent part of your home, and your whole house becomes a mitzvah that brings Moshiach sooner.",
+  "keywords": [
+   "tzedakah box",
+   "pushka",
+   "wall",
+   "nail",
+   "home",
+   "order of the day"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 451,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-10-30",
+   "hebrew": "11 Cheshvan 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Inherits the air date of episode 451 (3553669bc5). Episode: Weekly sequence: 1 wk after ep 450 (23 Oct 1990), 1 wk before ep 452 (6 Nov 1990); no gap between them. No date cue of its own."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "family_and_home",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "generosity"
+  ],
+  "mitzvos": [
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Mitzvah as 'tzavta v'chibur', joining and connecting."
+   },
+   {
+    "work": "gemara",
+    "note": "'Great is tzedakah, for it brings the Redemption closer' (cited as 'our Chachamim')."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "6c85a42c28",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 347."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "3553669bc5",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 44,
+   "note": "Episode 451 (filename number); clip = 44-342 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Also partly matches episode 530 (containment 0.65 at 1468-1766 s); not added as a relation."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Mitzvah%20House%20-%20Fixing%20Your%20Tzedakah%20Pushka%20to%20the%20Wall%20%28Ep%20451%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Mitzvah House - Fixing Your Tzedakah Pushka to the Wall (Ep 451).mp3",
+  "size_bytes": 3578754,
+  "mime_type": "audio/mpeg"
+ }
+}

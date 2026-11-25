@@ -1,0 +1,172 @@
+{
+ "id": "0f5b2812b1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "17 Tammuz 235",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - How Baseless Hatred Destroyed the Beis HaMikdash (Ep 235).mp3",
+  "duration_sec": 395.918,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 235,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 235,
+   "story": "The two brothers",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shiva Asar B'Tammuz: How Baseless Hatred Destroyed the Beis HaMikdash",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains what happened on the 17th of Tammuz, why our Sages say baseless hatred caused the Churban, and how Ahavas Yisroel will bring Moshiach.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given the week of Shiva Asar B'Tammuz. Uncle Yossi explains that on the 17th of Tammuz an army surrounded Yerushalayim, cutting off food and water, and that this siege began the Three Weeks and led to the destruction of the Beis HaMikdash on the ninth of Av. Our Sages ask why this happened, and answer: baseless hatred, the opposite of the mitzvah to love your fellow as yourself, which Rabbi Akiva called a great rule of the Torah. Hashem rests among His children only when they live in unity, so the order of the day for every soldier of Tzivos Hashem is to strengthen Ahavas Yisroel, discourage quarrels and spread love. This will bring Moshiach, when the sad days will become Yomim Tovim. The clip ends by noting that the holiness of Shabbos lingers until Tuesday, an echo of the Yud-Beis Tammuz celebration.",
+  "lesson": "Baseless hatred caused the Churban; strengthen Ahavas Yisroel and unity to bring the Geulah.",
+  "keywords": [
+   "17th of Tammuz",
+   "siege",
+   "Jerusalem",
+   "baseless hatred",
+   "unity",
+   "Three Weeks",
+   "fast day"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 235,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-07-22",
+   "hebrew": "15 Tammuz 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'This coming Thursday is Shiva Asar B'Tammuz'; 'today, Tuesday' after Shabbos Yud-Beis Tammuz."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim and the destruction of the Beis HaMikdash, told simply.",
+    "at_sec": 28
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "shalom"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "fast_days"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks",
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "Rabbi Akiva: loving your fellow as yourself is a great rule of the Torah."
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9658bf3781",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 101,
+   "note": "Episode 235 (filename number); clip = 101-497 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Last 40 s (Shabbos holiness lingering until Tuesday) leads into the march of the full episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shiva%20Asar%20B%27Tammuz%20-%20How%20Baseless%20Hatred%20Destroyed%20the%20Beis%20HaMikdash%20%28Ep%20235%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - How Baseless Hatred Destroyed the Beis HaMikdash (Ep 235).mp3",
+  "size_bytes": 4752062,
+  "mime_type": "audio/mpeg"
+ }
+}

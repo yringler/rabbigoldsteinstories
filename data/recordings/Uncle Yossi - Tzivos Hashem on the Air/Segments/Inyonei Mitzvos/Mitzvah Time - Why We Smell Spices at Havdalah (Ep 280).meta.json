@@ -1,0 +1,192 @@
+{
+ "id": "542cf9e061",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Havdalah-2 280",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Mitzvah Time - Why We Smell Spices at Havdalah (Ep 280).mp3",
+  "duration_sec": 398.828,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 280,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 280,
+   "story": "Torah The Best Thing of All #1",
+   "topic": "Havdalah, Moshiach",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mitzvah Time: Why We Smell Spices at Havdalah",
+  "title_basis": "content",
+  "summary_short": "Why we smell besamim at Havdalah when the extra Shabbos soul departs, why Havdalah opens with words of trust, and how counting the days toward Shabbos and keeping it can bring Moshiach.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, continuing the laws of Havdalah. After reviewing the Havdalah kit, Uncle Yossi explains that when Shabbos arrives Hashem gives us an extra soul, the neshamah yeseirah, which makes us feel happy and holy, so we daven, learn and behave better. When Shabbos ends it returns to Hashem and we feel a little sad, so we smell sweet spices and bless Hashem for them to lift our spirits. Hashem reassures us that He stays with us all week, which is why Havdalah opens with 'Behold, G-d is my salvation, I will trust and not fear', and he recalls the Baal Shem Tov's father telling him to fear nothing but Hashem. Shabbos is the day Hashem Himself rested; we count the days toward it in the daily Song of the Day, as we counted toward Shavuos, and save good food and new clothes in its honor. The Gemara says that if all Jews kept Shabbos properly, Moshiach would come immediately.",
+  "lesson": "Shabbos is so holy that we long for it all week; keeping it properly can bring Moshiach, and we start every week trusting Hashem.",
+  "keywords": [
+   "besamim",
+   "spices",
+   "extra soul",
+   "Havdalah",
+   "counting to Shabbos",
+   "new clothes",
+   "trust"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 280,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1987-06-16",
+   "hebrew": "19 Sivan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 280 (06-16-87). Also re-aired in episode 384."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "halachah",
+   "emunah_bitachon",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "simcha",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "havdalah",
+   "shabbos",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Havdalah: 'Hinei Keil yeshuasi'",
+    "note": "Havdalah opens with words of trust in Hashem."
+   },
+   {
+    "work": "siddur",
+    "ref": "Shir shel Yom",
+    "note": "'Today is the first day of Shabbos': counting the days toward Shabbos."
+   },
+   {
+    "work": "gemara",
+    "ref": "Shabbos 118b",
+    "note": "If all Israel kept Shabbos properly, they would be redeemed at once."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Second lesson in the Havdalah series; refers back to the Havdalah kit taught earlier ('Havdalah 276')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:09:50Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "11adf87746",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 384."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "fbe6825c15",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 1368,
+   "note": "Episode 280 (filename number); clip = 1368-1767 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "cbefd2fcab",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Continues the Mitzvah Time Havdalah lessons begun in 'Havdalah 276' (episode 277 also reviewed them)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "cbefd2fcab",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Mitzvah Time Havdalah series: this is the first lesson; 'Havdalah-2 280' continues with the besamim."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Mitzvah%20Time%20-%20Why%20We%20Smell%20Spices%20at%20Havdalah%20%28Ep%20280%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Mitzvah Time - Why We Smell Spices at Havdalah (Ep 280).mp3",
+  "size_bytes": 4786862,
+  "mime_type": "audio/mpeg"
+ }
+}

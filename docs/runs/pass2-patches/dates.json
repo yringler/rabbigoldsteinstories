@@ -1,0 +1,888 @@
+{
+ "task": "dates",
+ "patches": [
+  {
+   "item": "953c616177",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1981-12-08",
+    "hebrew": "12 Kislev 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "First show; says 'tune in next week... next Tuesday'. One week before ep 2 (19 Kislev 5742 stated on air). Extrapolated, not bracketed."
+   },
+   "reason": "ep 1: 1981-12 month sequence_interpolation -> 1981-12-08 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "4a7b36fa3d",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1981-12-29",
+    "hebrew": "3 Teves 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 3 (22 Dec 1981), 1 wk before ep 5 (5 Jan 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 4: 1981-12 month sequence_interpolation -> 1981-12-29 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "5ab1e235fc",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-01-12",
+    "hebrew": "17 Teves 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 5 (5 Jan 1982), 1 wk before ep 7 (19 Jan 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 6: 1982-01 month sequence_interpolation -> 1982-01-12 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "01e89fcc30",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-01-26",
+    "hebrew": "2 Shevat 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 7 (19 Jan 1982), 1 wk before ep 9 (2 Feb 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 8: 1982-01 month sequence_interpolation -> 1982-01-26 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "2ce3043f24",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-02-09",
+    "hebrew": "16 Shevat 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 9 (2 Feb 1982), 1 wk before ep 11 (16 Feb 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 10: 1982-02 month sequence_interpolation -> 1982-02-09 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "94351be6b8",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-02-23",
+    "hebrew": "30 Shevat 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 11 (16 Feb 1982), 1 wk before ep 13 (2 Mar 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 12: 1982-02 month sequence_interpolation -> 1982-02-23 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "6d98153d65",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-03-23",
+    "hebrew": "28 Adar 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 15 (16 Mar 1982), 1 wk before ep 17 (30 Mar 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 16: 1982-03 month sequence_interpolation -> 1982-03-23 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "fc0719805f",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-06-15",
+    "hebrew": "24 Sivan 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 27 (8 Jun 1982), 2 wk before ep 30 (29 Jun 1982); no gap between them. No date cue of its own. Assumes the lost ep 29 aired 22 Jun."
+   },
+   "reason": "ep 28: 1982-06 month sequence_interpolation -> 1982-06-15 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "4b03cc2ca5",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-08-10",
+    "hebrew": "21 Av 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 35 (3 Aug 1982), 2 wk before ep 38 (24 Aug 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 36: 1982-08 month sequence_interpolation -> 1982-08-10 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "8fe3be8300",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1982-08-17",
+    "hebrew": "28 Av 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 2 wk after ep 35 (3 Aug 1982), 1 wk before ep 38 (24 Aug 1982); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 37: 1982-08 month sequence_interpolation -> 1982-08-17 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "ed05b36a9b",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1984-08-14",
+    "hebrew": "16 Av 5744",
+    "hebrew_year": 5744,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 136 (7 Aug 1984), 1 wk before ep 138 (21 Aug 1984); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 137: 1984-08 month sequence_interpolation -> 1984-08-14 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "3a100b0be2",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1984-11-06",
+    "hebrew": "11 Cheshvan 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 2 wk after ep 147 (23 Oct 1984), 4 wk before ep 153 (4 Dec 1984); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 149: 1984-11 month sequence_interpolation -> 1984-11-06 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "8309f9f55f",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1984-11-13",
+    "hebrew": "18 Cheshvan 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 3 wk after ep 147 (23 Oct 1984), 3 wk before ep 153 (4 Dec 1984); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 150: 1984-11 month sequence_interpolation -> 1984-11-13 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "ddb57dd689",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1984-11-27",
+    "hebrew": "3 Kislev 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 5 wk after ep 147 (23 Oct 1984), 1 wk before ep 153 (4 Dec 1984); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 152: 1984-11 month sequence_interpolation -> 1984-11-27 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "53cdf327e6",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1985-01-29",
+    "hebrew": "7 Shevat 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 3 wk after ep 158 (8 Jan 1985), 1 wk before ep 162 (5 Feb 1985); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 161: 1985-01 month sequence_interpolation -> 1985-01-29 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "2047974075",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1985-03-12",
+    "hebrew": "19 Adar 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 166 (5 Mar 1985), 2 wk before ep 169 (26 Mar 1985); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 167: 1985-03 month sequence_interpolation -> 1985-03-12 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "70655704ec",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1986-01-14",
+    "hebrew": "4 Shevat 5746",
+    "hebrew_year": 5746,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 3 wk after ep 205 (24 Dec 1985), 1 wk before ep 209 (21 Jan 1986); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 208: 1986-01 month sequence_interpolation -> 1986-01-14 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "a18c8f842e",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1986-01-28",
+    "hebrew": "18 Shevat 5746",
+    "hebrew_year": 5746,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 209 (21 Jan 1986), 1 wk before ep 211 (4 Feb 1986); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 210: 1986-01 month sequence_interpolation -> 1986-01-28 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "8e97b7f750",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1990-04-24",
+    "hebrew": "29 Nissan 5750",
+    "hebrew_year": 5750,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "First show after Pesach (Sefirah begun, Pesach over). 10 and 17 Apr 1990 were Yom Tov Tuesdays, so the week before ep 425 (1 May 1990)."
+   },
+   "reason": "ep 424: 1990-04 month calendar_cues -> 1990-04-24 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "3553669bc5",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1990-10-30",
+    "hebrew": "11 Cheshvan 5751",
+    "hebrew_year": 5751,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 450 (23 Oct 1990), 1 wk before ep 452 (6 Nov 1990); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 451: 1990-10 month sequence_interpolation -> 1990-10-30 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "933326aa43",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-10-29",
+    "hebrew": "21 Cheshvan 5752",
+    "hebrew_year": 5752,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 499 (22 Oct 1991), 2 wk before ep 502 (12 Nov 1991); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 500: 1991-10 month sequence_interpolation -> 1991-10-29 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "3b71176387",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-11-05",
+    "hebrew": "28 Cheshvan 5752",
+    "hebrew_year": 5752,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 2 wk after ep 499 (22 Oct 1991), 1 wk before ep 502 (12 Nov 1991); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 501: 1991-11 month sequence_interpolation -> 1991-11-05 (Tue) week, re-anchored weekly fit"
+  },
+  {
+   "item": "ab6f22d096",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1992-11-29",
+    "hebrew": "4 Kislev 5753",
+    "hebrew_year": 5753,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 1 wk after ep 549 (22 Nov 1992), 2 wk before ep 552 (13 Dec 1992); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 550: 1992-11 month sequence_interpolation -> 1992-11-29 (Sun) week, re-anchored weekly fit"
+  },
+  {
+   "item": "c716c81414",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1992-12-06",
+    "hebrew": "11 Kislev 5753",
+    "hebrew_year": 5753,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Weekly sequence: 2 wk after ep 549 (22 Nov 1992), 1 wk before ep 552 (13 Dec 1992); no gap between them. No date cue of its own."
+   },
+   "reason": "ep 551: 1992-12 month sequence_interpolation -> 1992-12-06 (Sun) week, re-anchored weekly fit"
+  },
+  {
+   "item": "0e2e47abbe",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1985-07-09",
+    "hebrew": "20 Tammuz 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 184 (45e5fe6378). Episode: 'In the middle of the Three Weeks'; the week after episode 183 (13 Tammuz 5745). Most of the content repeats episode 135 (Three Weeks 5744)."
+   },
+   "reason": "clip of ep 184: 1985-07 month folder_or_sibling -> 1985-07-09 week folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "0ece09874d",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-02-09",
+    "hebrew": "21 Shevat 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'This coming Shabbos' is Mishpatim-Shekalim, Mevarchim Adar (27 Shevat 5748); matches source episode 314 (filename 314 02-09-88)."
+   },
+   "reason": "clip of ep 314: 1988-02-09 week calendar_cues -> 1988-02-09 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "1916360509",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-12-20",
+    "hebrew": "12 Teves 5749",
+    "hebrew_year": 5749,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 356 (7d0d2d59d7). Episode: Consistent with the audio: this Shabbos the last sedra of Bereishis is read (Vayechi, 16 Teves 5749)."
+   },
+   "reason": "clip of ep 356: 1988-12 month sequence_interpolation -> 1988-12-20 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "2838d2da96",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-02-23",
+    "hebrew": "5 Adar 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'Read in the shul this coming Shabbos': Shabbos Zachor, 9 Adar 5748; matches source episode 316 (filename 316 02-23-88)."
+   },
+   "reason": "clip of ep 316: 1988-02-23 week calendar_cues -> 1988-02-23 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "29ba549f21",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-12-29",
+    "hebrew": "8 Teves 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'This Shabbos we read Parshas Vayechi' (Shabbos 2 Jan 1988); clip of episode 308 dated 1987-12-29."
+   },
+   "reason": "clip of ep 308: 1987-12-29 week calendar_cues -> 1987-12-29 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "32e631c050",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-04-02",
+    "hebrew": "18 Nissan 5751",
+    "hebrew_year": 5751,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Filed as from episode 473 (Chol HaMoed Pesach 5751); the same talk also aired in episodes 272 and 374 in earlier years."
+   },
+   "reason": "clip of ep 473: 1991-04-02 week calendar_cues -> 1991-04-02 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "3575b7812c",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1990-04-24",
+    "hebrew": "29 Nissan 5750",
+    "hebrew_year": 5750,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Inherits the air date of episode 424 (8e97b7f750). Episode: First show after Pesach (Sefirah begun, Pesach over). 10 and 17 Apr 1990 were Yom Tov Tuesdays, so the week before ep 425 (1 May 1990)."
+   },
+   "reason": "clip of ep 424: 1990-04 month calendar_cues -> 1990-04-24 week sequence_interpolation (inherits episode air date)"
+  },
+  {
+   "item": "37367b27fe",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-12-29",
+    "hebrew": "8 Teves 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'This Thursday is Asarah B'Teves' (Thursday 31 Dec 1987); clip of episode 308. The same talk also aired in episodes 260 and 355."
+   },
+   "reason": "clip of ep 308: 1987-12-29 week calendar_cues -> 1987-12-29 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "3f5a4d35cb",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-12-01",
+    "hebrew": "10 Kislev 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'This year, 5748, is the year of Hakhel'; clip of episode 304 (broadcast 1987-12-01)."
+   },
+   "reason": "clip of ep 304: 1987-12-01 month calendar_cues -> 1987-12-01 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "41d518f4f6",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-10-20",
+    "hebrew": "27 Tishrei 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 298 (34fa0cd369). Episode: Consistent with the audio: 'right after the great holiday of Sukkos'."
+   },
+   "reason": "clip of ep 298: 1987-10 month sequence_interpolation -> 1987-10-20 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "45b8ad173e",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1989-01-03",
+    "hebrew": "26 Teves 5749",
+    "hebrew_year": 5749,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 358 (e5af19b792). Episode: Consistent with the audio: candle lighting 'this coming Friday, January 6th'."
+   },
+   "reason": "clip of ep 358: 1989-01 month sequence_interpolation -> 1989-01-03 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "4bb9391f0f",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-03-19",
+    "hebrew": "4 Nissan 5751",
+    "hebrew_year": 5751,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Cut from episode 471, broadcast shortly before Pesach 5751."
+   },
+   "reason": "clip of ep 471: 1991-03-19 week calendar_cues -> 1991-03-19 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "4e41b6a442",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1981-12-08",
+    "hebrew": "12 Kislev 5742",
+    "hebrew_year": 5742,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Inherits the air date of episode 1 (953c616177). Episode: First show; says 'tune in next week... next Tuesday'. One week before ep 2 (19 Kislev 5742 stated on air). Extrapolated, not bracketed."
+   },
+   "reason": "clip of ep 1: 1981-12 month sequence_interpolation -> 1981-12-08 week sequence_interpolation (inherits episode air date)"
+  },
+  {
+   "item": "4f9c3bd084",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1986-01-14",
+    "hebrew": "4 Shevat 5746",
+    "hebrew_year": 5746,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Inherits the air date of episode 208 (70655704ec). Episode: Weekly sequence: 3 wk after ep 205 (24 Dec 1985), 1 wk before ep 209 (21 Jan 1986); no gap between them. No date cue of its own."
+   },
+   "reason": "clip of ep 208: 1986-01 month sequence_interpolation -> 1986-01-14 week sequence_interpolation (inherits episode air date)"
+  },
+  {
+   "item": "528b031b11",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-10-20",
+    "hebrew": "27 Tishrei 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 298 (34fa0cd369). Episode: Consistent with the audio: 'right after the great holiday of Sukkos'."
+   },
+   "reason": "clip of ep 298: 1987-10 month sequence_interpolation -> 1987-10-20 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "538a84153e",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-12-06",
+    "hebrew": "27 Kislev 5749",
+    "hebrew_year": 5749,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Cut from episode 354 (dated 12-06-88), told 'in honor of Chanukah'; the same story also aired in episodes 155 and 506."
+   },
+   "reason": "clip of ep 354: 1988-12-06 week calendar_cues -> 1988-12-06 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "5650f2336c",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1989-10-03",
+    "hebrew": "4 Tishrei 5750",
+    "hebrew_year": 5750,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Date of episode 397 (the week of Vov Tishrei 5750). The same introduction also aired in episodes 295 and 446, so the clip may come from one of those."
+   },
+   "reason": "clip of ep 397: 1989-10-03 week calendar_cues -> 1989-10-03 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "5a8bd9829c",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-12-27",
+    "hebrew": "19 Teves 5749",
+    "hebrew_year": 5749,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 357 (4f76af6486). Episode: Consistent with the audio: candle lighting 'this coming Friday, December the 30th'."
+   },
+   "reason": "clip of ep 357: 1988-12 month sequence_interpolation -> 1988-12-27 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "60ff0977a7",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1984-12-18",
+    "hebrew": "24 Kislev 5745",
+    "hebrew_year": 5745,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 155 (cf97f15688). Episode: First night of Chanukah 5745 ('you have probably lit your menorah by now', 'tonight and the rest of the eight days'); one week after ep 154."
+   },
+   "reason": "clip of ep 155: 1984-12 month folder_or_sibling -> 1984-12-18 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "664f4708ad",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1990-10-30",
+    "hebrew": "11 Cheshvan 5751",
+    "hebrew_year": 5751,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Inherits the air date of episode 451 (3553669bc5). Episode: Weekly sequence: 1 wk after ep 450 (23 Oct 1990), 1 wk before ep 452 (6 Nov 1990); no gap between them. No date cue of its own."
+   },
+   "reason": "clip of ep 451: 1990-10 month sequence_interpolation -> 1990-10-30 week sequence_interpolation (inherits episode air date)"
+  },
+  {
+   "item": "7bb07aa4f3",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-11-24",
+    "hebrew": "3 Kislev 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 303 (6ad4603cff). Episode: Consistent with the audio: Shabbos candles 'this coming Friday, November the 27th' at 4:13."
+   },
+   "reason": "clip of ep 303: 1987-11 month sequence_interpolation -> 1987-11-24 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "7c429e4277",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1990-05-15",
+    "hebrew": "20 Iyar 5750",
+    "hebrew_year": 5750,
+    "precision": "week",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 427 (09dddba098) (filename says 428; text matches ep 427). Episode: Estimate was 6 Iyar. Candles 7:51, Shabbos ends 9:01 fit Friday 18 May 1990; Pirkei Avos chapter 5"
+   },
+   "reason": "clip of ep 427: 1990-05 month sequence_interpolation -> 1990-05-15 week folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "89c906b5c6",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-02-16",
+    "hebrew": "28 Shevat 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'This past Tuesday night' the Rebbetzin passed away (22 Shevat 5748); matches source episode 315 (filename 315 02-16-88)."
+   },
+   "reason": "clip of ep 315: 1988-02-16 week calendar_cues -> 1988-02-16 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "8bce6b241e",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-12-13",
+    "hebrew": "5 Teves 5749",
+    "hebrew_year": 5749,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 355 (2502f04235). Episode: Consistent with the audio: 'Chanukah is over'; 'this coming Sunday will be Asarah B'Teves' (18 Dec 1988)."
+   },
+   "reason": "clip of ep 355: 1988-12 month sequence_interpolation -> 1988-12-13 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "90086c4a4c",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1985-07-09",
+    "hebrew": "20 Tammuz 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 184 (45e5fe6378). Episode: 'In the middle of the Three Weeks'; the week after episode 183 (13 Tammuz 5745). Most of the content repeats episode 135 (Three Weeks 5744)."
+   },
+   "reason": "clip of ep 184: 1985-07 month folder_or_sibling -> 1985-07-09 week folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "9cc0f3d732",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-10-15",
+    "hebrew": "7 Cheshvan 5752",
+    "hebrew_year": 5752,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 498 (07163738c0) (filename says 499; text matches ep 498). Episode: Candles 5:55 fits Friday 18 Oct 1991; the Shema guest is the letter writer from ep. 497 (8 Oct 1991"
+   },
+   "reason": "clip of ep 498: 1991-10 month sequence_interpolation -> 1991-10-15 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "a04a4cbaa0",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1989-01-10",
+    "hebrew": "4 Shevat 5749",
+    "hebrew_year": 5749,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 359 (a815fbd757). Episode: Consistent with the audio: candle lighting 'this coming Friday, January the 13th'."
+   },
+   "reason": "clip of ep 359: 1989-01 month sequence_interpolation -> 1989-01-10 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "a199630f7e",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1986-01-21",
+    "hebrew": "11 Shevat 5746",
+    "hebrew_year": 5746,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "First aired in episode 209, the week of Tu B'Shvat 5746; the clip says Tu B'Shvat is 'a few days' away. Re-aired in episode 264."
+   },
+   "reason": "clip of ep 209: 1986-01-21 week calendar_cues -> 1986-01-21 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "a29727aa73",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1990-10-30",
+    "hebrew": "11 Cheshvan 5751",
+    "hebrew_year": 5751,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Inherits the air date of episode 451 (3553669bc5). Episode: Weekly sequence: 1 wk after ep 450 (23 Oct 1990), 1 wk before ep 452 (6 Nov 1990); no gap between them. No date cue of its own."
+   },
+   "reason": "clip of ep 451: 1990-10 month sequence_interpolation -> 1990-10-30 week sequence_interpolation (inherits episode air date)"
+  },
+  {
+   "item": "a9ed11bf3b",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-04-02",
+    "hebrew": "18 Nissan 5751",
+    "hebrew_year": 5751,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Cut from episode 473 (Chol HaMoed Pesach 5751); the Omer count has begun and the Torah is read every day of Yom Tov."
+   },
+   "reason": "clip of ep 473: 1991-04-02 week calendar_cues -> 1991-04-02 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "ae155cc007",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-03-26",
+    "hebrew": "11 Nissan 5751",
+    "hebrew_year": 5751,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Cut from episode 472 (Yud-Aleph Nissan 5751); the same talk also aired in episode 423, a year earlier."
+   },
+   "reason": "clip of ep 472: 1991-03-26 week calendar_cues -> 1991-03-26 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "aff1f25906",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-10-29",
+    "hebrew": "21 Cheshvan 5752",
+    "hebrew_year": 5752,
+    "precision": "week",
+    "basis": "sequence_interpolation",
+    "note": "Inherits the air date of episode 500 (933326aa43). Episode: Weekly sequence: 1 wk after ep 499 (22 Oct 1991), 2 wk before ep 502 (12 Nov 1991); no gap between them. No date cue of its own."
+   },
+   "reason": "clip of ep 500: 1991-10 month sequence_interpolation -> 1991-10-29 week sequence_interpolation (inherits episode air date)"
+  },
+  {
+   "item": "bda75a59cd",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1985-02-05",
+    "hebrew": "14 Shevat 5745",
+    "hebrew_year": 5745,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 162 (f826c5f743). Episode: 'Tonight is Tu B'Shvat, the fifteenth day of Shevat': evening of Tue 1985-02-05."
+   },
+   "reason": "clip of ep 162: 1985-02 month folder_or_sibling -> 1985-02-05 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "c6250a3b05",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-04-09",
+    "hebrew": "25 Nissan 5751",
+    "hebrew_year": 5751,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Cut from episode 474 (Sefirah 5751); the same segment also aired in episodes 347 and 375."
+   },
+   "reason": "clip of ep 474: 1991-04-09 week calendar_cues -> 1991-04-09 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "d8b676e7bd",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1987-11-17",
+    "hebrew": "25 Cheshvan 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 302 (578d853efd). Episode: Consistent with the audio: Shabbos candles 'this coming Friday, November the 20th' at 4:17."
+   },
+   "reason": "clip of ep 302: 1987-11 month sequence_interpolation -> 1987-11-17 day folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "dcbd13ef16",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1991-04-09",
+    "hebrew": "25 Nissan 5751",
+    "hebrew_year": 5751,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Filed as from episode 474 (Sefirah 5751); the same talk also aired in episodes 375 and 425 in earlier years."
+   },
+   "reason": "clip of ep 474: 1991-04-09 week calendar_cues -> 1991-04-09 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "e0f067ddc8",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1985-07-23",
+    "hebrew": "4 Av 5745",
+    "hebrew_year": 5745,
+    "precision": "week",
+    "basis": "folder_or_sibling",
+    "note": "Inherits the air date of episode 186 (17d9dca041). Episode: No music 'for the past three weeks', Eicha for Tisha B'Av (catalog: 'Eicha, 10 Av', the postponed fast of 5745). Same recording as episode 1"
+   },
+   "reason": "clip of ep 186: 1985-07 month folder_or_sibling -> 1985-07-23 week folder_or_sibling (inherits episode air date)"
+  },
+  {
+   "item": "f1de486e32",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1992-04-28",
+    "hebrew": "25 Nissan 5752",
+    "hebrew_year": 5752,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "Cut from episode 526 (Sefirah 5752, the week after Pesach). The same recording first aired in episode 122 (5744) and again in episode 224 (5746)."
+   },
+   "reason": "clip of ep 526: 1992-04-28 week calendar_cues -> 1992-04-28 day calendar_cues (inherits episode air date)"
+  },
+  {
+   "item": "f639703e3b",
+   "op": "set",
+   "path": "classification.date",
+   "value": {
+    "gregorian": "1988-02-23",
+    "hebrew": "5 Adar 5748",
+    "hebrew_year": 5748,
+    "precision": "day",
+    "basis": "calendar_cues",
+    "note": "'This coming Thursday is Zayin Adar' (7 Adar 5748 = Thursday, 25 February 1988); matches source episode 316 (filename 316 02-23-88)."
+   },
+   "reason": "clip of ep 316: 1988-02-23 week calendar_cues -> 1988-02-23 day calendar_cues (inherits episode air date)"
+  }
+ ],
+ "notes": "Method (pass2/work/dates/fit.py + build_patch.py): anchors = radio episodes (mains and clips) whose own date has basis filename / stated_in_audio / calendar_cues at day or week precision (377 episode numbers). For fitting only, ep 326 uses the audio date 1988-05-03 and ep 230 the Tuesday 1986-06-17. Every pair of consecutive anchors was checked: none has fewer weeks than episode numbers between them and all are on the same weekday, except the documented Tuesday->Sunday move between 546 (1992-09-22) and 547 (1992-11-01). Pass 1 had already corrected the pass-0 drift (3 weeks late in 1984-85, 2 weeks early in 1990-91) from on-air cues, so few dates were still estimates. Episodes with no cue of their own, lying between anchors with no slack (weeks = episode-number difference), get that exact Tuesday (Sunday from 547 on) with precision 'week' and basis 'sequence_interpolation'. The schema has no 'interpolated' basis value. Missing episode numbers (29, 168, 171-173, 241-244, ...) still take up a week each, which every bracket confirms. Clips take the air date of the episode named in their clip_of relation, with precision copied from it, and keep their own basis when their cue gives the same day. Hebrew dates come from scripts/hdate.py (heb_str), which spells 'Adar 1/Adar 2'.\nManual decisions: ep 1 = 1981-12-08, one week before ep 2 (the show says 'tune in next week... next Tuesday'; extrapolated). Ep 424 = 1990-04-24: the audio puts it after Pesach, and 10 and 17 Apr 1990 were both Yom Tov Tuesdays (15 and 22 Nissan), so it is the week before 425.\nLeft unchanged / needs the user:\n- Ep 125 (5af071df38) vs 126 (eb89723366), possible misnumbering. 124 (Lag BaOmer 'this coming Sunday May 20', so 1984-05-15) and 127 (Erev Shavuos 1984-06-05, stated) leave exactly 22 May and 29 May for 125 and 126. But 125 says on air (26:06) 'last week we celebrated completing ... Vayikra', i.e. Bechukosai was read Shabbos 26 May, which puts 125 on 29 May. 126 says 'right before Shavuos', which also fits 29 May. Two files claim one slot. 125 also shares its Rambam burial story with 221 (b013), and 126's 'whispering droplets' re-aired as 424, so one of the files may be a later year's airing. Both left at month precision (1984-05).\n- Ep 41 (46d718e3d2): the slot is 14-28 Sep 1982 (slack 2 between 40 and 116), but the host says the show has been on 'only a few weeks', presents the Sefer Torah as new and never mentions Rosh Hashanah (b004). It may be a re-aired early show or misnumbered. Left at year precision.\n- Eps 113-115: long bracket (40 to 116, slack 2). The cues say Adar I 5744 and the items already say so (month 1984-02, notes give the likely Tuesdays 14/21/28 Feb). Not changed.\n- Ep 230 (db798251a1): the locked filename date 1986-06-16 is a Monday; every neighbour is a Tuesday, so it is probably 1986-06-17. Locked, not patched.\n- Ep 326 (baed6e5c02): the locked filename date 1988-04-26 contradicts the audio ('today is 16 Iyar', Lag BaOmer 'this Thursday', so 1988-05-03), which also fits weekly spacing. Locked, not patched. Its clips 5a3f0c73e0 and acefd44620 keep 1988-05-03.\n- Clips 7c429e4277 ('Havdalah 428') and 9cc0f3d732 ('...499') carry their filename episode numbers, but their clip_of targets are eps 427 and 498. They were dated from the clip_of target. Their classification.episode.number probably needs fixing (not this task).\n- 09074ce59f ('Rabbi Akiva negel vasser') has clip_of to 184 but no episode number, and its source broadcast is uncertain (b010). Not dated.\n- Minor caveats with no contradiction: 542 (1992-08-18) gives a candle time that fits 28 Aug (re-edit?); 549's date rests on its candle time and the Sunday count back from 552, and 550/551 depend on it; 440 is dated from candle times that could be carried over from 1987; ep 294's Sukkos-fair date does not fit 5748; 255 was promised but 256 says 'last week' about 254; 209 opens with a rerun mentioning Rosh Hashanah, but its stated Tu B'Shvat date stands."
+}

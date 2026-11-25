@@ -1,0 +1,146 @@
+{
+ "id": "eb81c40bed",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Modeh Ani 339",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Modeh Ani - The First Thank-You of the Day (Ep 339).mp3",
+  "duration_sec": 427.015,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 339,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 339,
+   "story": "The storyteller #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Modeh Ani: The First Thank-You of the Day",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi teaches hakaras hatov through Modeh Ani: the very first thing we do each morning is thank Hashem for returning our soul, with a song to sing it to.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show on the midah of hakaras hatov, gratitude. Uncle Yossi explains that this midah is so important that we begin every day with it. Whether we wake to an alarm clock, a bugle or a rooster, the first thing we do, while still in bed, is talk to Hashem and thank Him for returning our neshamah, refreshed with new strength to serve Him all day. He translates Modeh Ani into English and teaches a tune for singing it. Modeh Ani is only the first thank-you of the day: we should get into the habit of thanking anyone who does something for us, because it makes others feel good, shows good manners, and brings Hashem's blessing.",
+  "lesson": "Begin each day by thanking Hashem with Modeh Ani, and always say thank you to people who help you.",
+  "keywords": [
+   "thank you",
+   "gratitude",
+   "waking up",
+   "alarm clock",
+   "rooster",
+   "soul",
+   "good manners"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 339,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-08-02",
+   "hebrew": "19 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Date of episode 339, which this clip was cut from."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "morning_routine",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "modeh_ani"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "3018dcdff0",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 1296,
+   "note": "Episode 339 (filename number); clip = 1296-1723 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Modeh Ani song (about 3:55-5:15) is not transcribed. Weak text match (0.3) with episode 302 at 102-529 s may be an earlier version of this talk."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:52Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Modeh%20Ani%20-%20The%20First%20Thank-You%20of%20the%20Day%20%28Ep%20339%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Modeh Ani - The First Thank-You of the Day (Ep 339).mp3",
+  "size_bytes": 5125095,
+  "mime_type": "audio/mpeg"
+ }
+}

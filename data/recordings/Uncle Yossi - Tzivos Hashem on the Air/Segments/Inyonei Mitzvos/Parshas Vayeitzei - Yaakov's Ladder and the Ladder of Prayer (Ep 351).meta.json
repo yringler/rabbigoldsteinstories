@@ -1,0 +1,170 @@
+{
+ "id": "7203ee178e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Parshas Vayeitzei 351",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Parshas Vayeitzei - Yaakov's Ladder and the Ladder of Prayer (Ep 351).mp3",
+  "duration_sec": 410.777,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 351,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 351,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "same audio also appeared as 'Uncle Yossi - Tzivos Hashem Radio Program/Parsha of the Week/Vayetze 351.mp3' (different title)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Parshas Vayeitzei: Yaakov's Ladder and the Ladder of Prayer",
+  "title_basis": "content",
+  "summary_short": "Why did the angels on Yaakov Avinu's ladder go up before they came down? The Zohar explains that our words of davening become angels that rise to Hashem and bring His blessings back.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show for Parshas Vayeitzei, the seventh parsha of the Torah. Uncle Yossi counts the parshiyos so far and tells of Yaakov Avinu, tired from his journey, falling asleep on a mountain and dreaming of a ladder that stood on the ground and reached the heavens, with angels going up and coming down. Why up first, if angels live in heaven? Rabbi Shimon bar Yochai asks this in the Zohar and answers that this is the ladder of tefillah. The holy words we say from the siddur become angels that climb up to Hashem and plead for us, and Hashem sends His brachos down the very same ladder. Hashem then promised Yaakov the land he lay on, Har HaMoriah, the site of the first and second Batei HaMikdash and of the third one, which will be rebuilt when Moshiach comes. Uncle Yossi ends with the call 'We want Moshiach now!'",
+  "lesson": "Every word of davening becomes an angel that rises to Hashem, and Hashem's blessings come back down the same ladder.",
+  "keywords": [
+   "Yaakov's ladder",
+   "dream",
+   "angels",
+   "siddur",
+   "Har HaMoriah",
+   "Beis HaMikdash"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 351,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-11-15",
+   "hebrew": "6 Kislev 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 351 (filename date 15 Nov 1988); 'here we are already up to Parshas Vayeitzei' fits."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yaakov_avinu",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "prayer_and_brachos",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeitzei"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 28:12-13",
+    "note": "Yaakov's dream and the promise of the land."
+   },
+   {
+    "work": "zohar",
+    "ref": "",
+    "note": "The ladder is the ladder of prayer; the angels are our words of tefillah. Attributed to Rabbi Shimon bar Yochai."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The same audio was also filed as 'Parsha of the Week/Vayetze 351' (removed as a duplicate by the pipeline)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:53Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "378f6dd25e",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 34,
+   "note": "Episode 351 (filename number); clip = 34-445 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Parshas%20Vayeitzei%20-%20Yaakov%27s%20Ladder%20and%20the%20Ladder%20of%20Prayer%20%28Ep%20351%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Parshas Vayeitzei - Yaakov's Ladder and the Ladder of Prayer (Ep 351).mp3",
+  "size_bytes": 4930438,
+  "mime_type": "audio/mpeg"
+ }
+}

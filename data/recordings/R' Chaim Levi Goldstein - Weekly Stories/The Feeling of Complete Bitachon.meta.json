@@ -1,0 +1,218 @@
+{
+ "id": "821974460e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Feeling Of Complete Bitachon",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Feeling of Complete Bitachon.mp3",
+  "duration_sec": 1631.112,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Feeling of Complete Bitachon",
+  "title_basis": "filename",
+  "summary_short": "Why Yosef told his brothers \"it was not you who sent me here\", a Chassid who sent mishloach manos to the man who informed on him, and the Baal Shem Tov's lesson in true bitachon.",
+  "summary_long": "After the song \"I Believe in Hashem\", the storyteller asks a question from Parshas Vayigash: Yosef tells his brothers that they sold him, yet also says that it was not they who sent him to Mitzrayim but Hashem. A riddle answers it: the same Hebrew letters can read \"lamah\", why, or \"lemah\", for what purpose. Instead of asking why, Yosef asked what he was there to accomplish. As the Alter Rebbe explains in Tanya, whatever another person does to us comes from Hashem, so we need not hold a grudge. A story shows it: a Jew in Russia was jailed for years because of an informer, and later, in Eretz Yisroel, he sent his son every Purim with mishloach manos to that very man. True bitachon, the storyteller continues, is not hoping but being certain that Hashem will help, and feeling calm already now. The Baal Shem Tov takes his students to the inn of Reb Yankel, who has no money for the poritz's rent yet calmly joins the farbrengen while the reminders come. On the way to the poritz, Hashem sends him exactly the money he needs.",
+  "lesson": "Everything comes from Hashem, so ask \"for what purpose?\" instead of \"why?\" and do not hold a grudge. True bitachon means being sure Hashem will help, and it brings the good out sooner.",
+  "keywords": [
+   "Yosef and his brothers",
+   "informer",
+   "prison",
+   "mishloach manos",
+   "innkeeper",
+   "rent",
+   "wheat",
+   "spilled drink",
+   "riddle"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "tanach_midrash",
+   "contemporary",
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew in Soviet Russia is jailed for years after an informer reports him."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yosef_hatzaddik",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Shmuel, a former prisoner in Russia",
+   "his son Yisrael",
+   "the informer",
+   "Reb Yankel the innkeeper",
+   "Alexi the wagon driver",
+   "the poritz",
+   "a second poritz"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hashgacha_pratis",
+   "baal_shem_tov_and_students",
+   "parsha"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "forgiveness",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "mishloach_manos"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayigash"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 45",
+    "note": "Yosef reveals himself to his brothers (Parshas Vayigash)."
+   },
+   {
+    "work": "tanya",
+    "note": "The Alter Rebbe explains that whatever happens is from Hashem; bitachon removes the covering from the good."
+   }
+  ],
+  "places": [
+   "Russia",
+   "Eretz Yisroel",
+   "Mezhibuzh"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 36,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 36,
+   "end_sec": 498,
+   "type": "talk",
+   "title": "Why or for what? Yosef and his brothers"
+  },
+  {
+   "start_sec": 498,
+   "end_sec": 814,
+   "type": "story",
+   "title": "Mishloach manos for the informer"
+  },
+  {
+   "start_sec": 814,
+   "end_sec": 990,
+   "type": "talk",
+   "title": "What true bitachon means"
+  },
+  {
+   "start_sec": 990,
+   "type": "story",
+   "title": "The Baal Shem Tov and the innkeeper's rent",
+   "people": [
+    "baal_shem_tov"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song only partly transcribed. Speech runs to the last second with no usual sign-off; the ending may be clipped slightly. ASR writes 'pirates' for poritz and garbles bitachon."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "He's holding me tight. So I'll be all right. I believe and I trust in Hashem. Before I begin today's story",
+   "at_sec": 30
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File ends right as speech ends, without the usual sign-off; check whether the ending is clipped."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Feeling%20of%20Complete%20Bitachon.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Feeling of Complete Bitachon.mp3",
+  "size_bytes": 19574122,
+  "mime_type": "audio/mpeg"
+ }
+}

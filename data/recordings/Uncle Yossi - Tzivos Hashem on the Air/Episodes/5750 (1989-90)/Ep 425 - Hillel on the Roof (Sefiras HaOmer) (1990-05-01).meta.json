@@ -1,0 +1,323 @@
+{
+ "id": "5871477c4a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "425",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 425 - Hillel on the Roof (Sefiras HaOmer) (1990-05-01).mp3",
+  "duration_sec": 1819.244,
+  "filename_facts": {
+   "episode_number": 425,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 425,
+   "story": "Hillel on the roof",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 425: Hillel on the Roof (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Sefirah show: why we learn Pirkei Avos before Shavuos, Shema with a young yeshiva student, the story of Hillel listening to the Torah lesson from a snowy skylight, and Lag BaOmer plans.",
+  "summary_long": "Uncle Yossi opens in the middle of the days of Sefirah. Just as the Jewish people counted the days from leaving Egypt to receiving the Torah, every year we feel a new love for Torah, and we learn a chapter of Pirkei Avos each Shabbos afternoon, because good midos must come before Torah. A nine-year-old yeshiva student leads the Shema, and everyone gives tzedakah. Story time tells of Hillel, who could not afford the time to chop firewood for the shul, so he lay on the skylight in a blizzard to hear the lesson below. Found frozen under the snow, he is carried inside and revives, and the townspeople free him from bringing wood. He grows up to be the great Hillel of the Mishnah and Pirkei Avos. Next, a third-grade girls' class sings the Four Questions to an old-world tune. The show ends with the meaning of Lag BaOmer and the yahrzeit of Rabbi Shimon bar Yochai, an invitation to the Tzivos Hashem Lag BaOmer parade and carnival, help choosing a Torah-true summer camp, and Shabbos candle-lighting times.",
+  "lesson": "True love for Torah means being ready to give up comfort, and even more, to learn; we prepare to receive the Torah by improving our midos.",
+  "keywords": [
+   "Hillel",
+   "skylight",
+   "snowstorm",
+   "firewood",
+   "Pirkei Avos",
+   "Four Questions",
+   "Lag BaOmer parade",
+   "carnival",
+   "summer camp",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 425,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-05-01",
+   "hebrew": "6 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Estimate was 22 Nissan. Audio: 'Pesach is over', Lag BaOmer 'Sunday, May the 13th' (1990), candles 7:37, Shabbos ends 8:47 (fits Fri 4 May 1990)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Hillel is found motionless under the snow and the townspeople fear he has frozen; he revives.",
+    "at_sec": 950
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest gives his full name and age on air.",
+    "at_sec": 359
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "hillel",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the townspeople",
+   "the student who sweeps the skylight"
+  ],
+  "topics": [
+   "sages",
+   "torah_study",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "hasmadah",
+   "mesiras_nefesh",
+   "emes"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "sefiras_haomer",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "note": "Why Pirkei Avos is learned each Shabbos between Pesach and Shavuos."
+   },
+   {
+    "work": "zohar",
+    "note": "Named as the work of Rabbi Shimon bar Yochai in the Lag BaOmer announcement."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 23,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 23,
+   "end_sec": 336,
+   "type": "talk",
+   "title": "Sefirah and Pirkei Avos: Getting Ready for the Torah",
+   "summary": "Counting toward Shavuos like a prisoner awaiting freedom, and learning Pirkei Avos because good midos come before Torah.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "14881c364e"
+   ]
+  },
+  {
+   "start_sec": 336,
+   "end_sec": 531,
+   "type": "shema_guest",
+   "title": "Shema with a nine-year-old yeshiva student"
+  },
+  {
+   "start_sec": 531,
+   "end_sec": 566,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 566,
+   "end_sec": 1162,
+   "type": "story",
+   "title": "Hillel on the Roof",
+   "summary": "Hillel lies on the shul's skylight in a blizzard to hear the Torah lesson, is found frozen, revives, and is freed from bringing firewood.",
+   "people": [
+    "hillel"
+   ],
+   "linked_items": [
+    "cb3698c502"
+   ]
+  },
+  {
+   "start_sec": 1162,
+   "end_sec": 1515,
+   "type": "song",
+   "title": "The Four Questions to an Old-World Tune",
+   "summary": "A third-grade girls' class that visited Studio 604 sings the Four Questions to a niggun from the old country."
+  },
+  {
+   "start_sec": 1515,
+   "end_sec": 1695,
+   "type": "announcement",
+   "title": "Lag BaOmer: Rabbi Shimon bar Yochai and the Parade",
+   "summary": "What Lag BaOmer is and an invitation to the Tzivos Hashem parade and carnival on Sunday, May 13.",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ],
+   "linked_items": [
+    "d2dde6a581"
+   ]
+  },
+  {
+   "start_sec": 1695,
+   "end_sec": 1755,
+   "type": "announcement",
+   "title": "Choosing a Torah-True Summer Camp"
+  },
+  {
+   "start_sec": 1755,
+   "end_sec": 1782,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1782,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "14881c364e",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Pirkei Avos-Sfiras Haomer 425' = 23-291 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "cb3698c502",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'Hillel on the Roof 425' = 566-1162 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "d2dde6a581",
+   "evidence": "text_overlap",
+   "confidence": 0.77,
+   "note": "'Lag Ba'Omer 425' = 1550-1619 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Sefirah talk and the Hillel story also aired in episode 375 (May 1989), so this show reuses that material with new 1990 announcements. A short spoken fragment ('From all your children and grandchildren...') follows the song at 24:50, possibly a splice. Parade, camp line and candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yitzchak Gartner (also heard as Gartenhaus)",
+    "role": "shema_guest",
+    "group": "yeshiva at 555 Ocean Parkway (name unclear in ASR); age 9",
+    "start_sec": 336,
+    "end_sec": 531
+   },
+   {
+    "name": "Morah Lazar",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Gimmel (class singing the Four Questions)",
+    "start_sec": 1162,
+    "end_sec": 1264
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Shema guest's yeshiva, 555 Ocean Parkway; learning Chumash Shemos and Mishnayos Brachos.",
+    "start_sec": 388,
+    "end_sec": 415
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Episode reuses the talk and story of episode 375; the Shema guest may also date from 1989."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20425%20-%20Hillel%20on%20the%20Roof%20%28Sefiras%20HaOmer%29%20%281990-05-01%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 425 - Hillel on the Roof (Sefiras HaOmer) (1990-05-01).mp3",
+  "size_bytes": 21831792,
+  "mime_type": "audio/mpeg"
+ }
+}

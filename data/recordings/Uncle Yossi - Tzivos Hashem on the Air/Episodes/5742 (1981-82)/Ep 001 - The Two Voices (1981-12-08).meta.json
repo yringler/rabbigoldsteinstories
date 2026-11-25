@@ -1,0 +1,236 @@
+{
+ "id": "953c616177",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "1",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 001 - The Two Voices (1981-12-08).mp3",
+  "duration_sec": 1746.89,
+  "filename_facts": {
+   "episode_number": 1,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 1,
+   "story": "The Two Voices",
+   "topic": "Achdus",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 1: The Two Voices",
+  "title_basis": "master_catalog",
+  "summary_short": "The very first Tzivos Hashem on the Air: Uncle Yossi introduces the new show and its theme of achdus, leads the Shema, and tells \"The Two Voices\", a story about a dime on Shabbos.",
+  "summary_long": "The premiere broadcast. Uncle Yossi welcomes children to their new radio program, promising stories, songs, marches, contests and prizes, and asks them to write in with requests. He explains that the show's main purpose is achdus, unity and togetherness, and that the first step is to do something together right now: everyone says the first lines of the Shema, in Hebrew and then in English. Story time brings \"The Two Voices\". On Shabbos afternoon little Sarah sees a dime on the road and hears two voices, the yetzer hara urging her to pick it up because it is \"only a little sin\" and the yetzer tov telling her not to. Her father explains with a parable about a rich man's heavy chandelier, held up by a chain tied in the attic, and a beggar who cut \"just a little piece of rope\". After a sponsor message, Uncle Yossi invites children to get a letter in the new children's Sefer Torah, to join the Tzivos Hashem club for a free wallet, ID card and Moshiach Times magazine, and to call the Dial-a-Jewish-Story line.",
+  "lesson": "There is no such thing as a little sin: what looks small to us can be very big in Hashem's eyes, so listen to the yetzer tov.",
+  "keywords": [
+   "dime",
+   "yetzer hara",
+   "yetzer tov",
+   "chandelier",
+   "beggar",
+   "rope",
+   "children's Sefer Torah",
+   "Moshiach Times",
+   "membership card",
+   "first broadcast"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction",
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1981-12-08",
+   "hebrew": "12 Kislev 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "First show; says 'tune in next week... next Tuesday'. One week before ep 2 (19 Kislev 5742 stated on air). Extrapolated, not bracketed."
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 1,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Sarah",
+   "Sarah's father",
+   "the rich man",
+   "the butler",
+   "the beggar"
+  ],
+  "topics": [
+   "tzivos_hashem",
+   "kindness_and_community",
+   "shabbos",
+   "character"
+  ],
+  "midos": [
+   "achdus",
+   "self_control",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shema",
+   "shabbos",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 149,
+   "type": "opening",
+   "title": "Welcome to a new radio program",
+   "summary": "Uncle Yossi introduces Tzivos Hashem on the Air and asks children to write in with their requests."
+  },
+  {
+   "start_sec": 149,
+   "end_sec": 350,
+   "type": "talk",
+   "title": "The secret word is achdus",
+   "summary": "The show's purpose is unity and togetherness, and the first step is to do something together.",
+   "linked_items": [
+    "4e41b6a442"
+   ]
+  },
+  {
+   "start_sec": 350,
+   "end_sec": 479,
+   "type": "shema_guest",
+   "title": "Saying the Shema together",
+   "summary": "Listeners repeat the first lines of the Shema after Uncle Yossi, in Hebrew and then in English."
+  },
+  {
+   "start_sec": 479,
+   "end_sec": 1178,
+   "type": "story",
+   "title": "The Two Voices",
+   "summary": "Sarah resists picking up a dime on Shabbos, and her father explains with the parable of the chandelier and the little piece of rope."
+  },
+  {
+   "start_sec": 1178,
+   "end_sec": 1208,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1208,
+   "end_sec": 1581,
+   "type": "announcement",
+   "title": "Children's Sefer Torah, the Tzivos Hashem club and Dial-a-Jewish-Story",
+   "summary": "How to get a letter in the children's Sefer Torah, join Tzivos Hashem for a free wallet, ID card and magazine, and call the story line."
+  },
+  {
+   "start_sec": 1581,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "4e41b6a442",
+   "evidence": "text_overlap",
+   "confidence": 0.5,
+   "note": "'Achdus 1' = 245-317 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3d001f2478",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 517: The Two Voices' (episode 517, 16:28-27:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "995045d616",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 202: The Two Voices (Chanukah)' (episode 202, 17:30-28:57), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a958284081",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 430: The Two Voices (After Shavuos)' (episode 430, 12:10-24:31), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Premiere episode. The ASR skipped 04:05-04:58 (covered by the clip 'Achdus 1'). Sponsor, mailing address offers and the Dial-a-Jewish-Story number are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:49:47Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20001%20-%20The%20Two%20Voices%20%281981-12-08%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 001 - The Two Voices (1981-12-08).mp3",
+  "size_bytes": 20963793,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "batch_id": "b039",
+ "done": [
+  "45db0c2fb5",
+  "0cf923266c",
+  "c1108114ba",
+  "cb7b450fa0",
+  "0affcab8ab",
+  "13f4c1401c",
+  "e93c716ec7",
+  "58c67265de",
+  "bb5a45e023",
+  "653c681319",
+  "276c6bf981",
+  "14e201cef4",
+  "c69b013e95",
+  "7f5a576d4d",
+  "01b074a545"
+ ],
+ "failed": [],
+ "notes": [
+  "Run resumed: 13 items were already DONE. 7f5a576d4d was INVALID only because its date note exceeded 200 characters; the note was shortened and nothing else changed. 01b074a545 was filled in this run.",
+  "Episodes 479-489 have no dated neighbours after 408; all are dated from on-air cues as consecutive Tuesdays, 14 May - 23 Jul 1991 (5751). Ep. 483 states its own program number and ten-year run, which supports the dating.",
+  "Clip 'Tu B'Av 489' (01b074a545) says 'this Friday will be Tu B'Av', which fits 5751 (ep. 489); ep. 390 (df1f475816) has a near-identical version of the talk and the same Island of Treasures story recording.",
+  "Clip '12 Tammuz 485' (653c681319): filename says 12 Tammuz, but the talk says 'today is Yud-Gimmel Tammuz'.",
+  "Many segments are re-used recordings: ep. 480 story = ep. 312; ep. 481 Shema segment and story = ep. 394; ep. 482 story = eps. 240 and 452; ep. 486 middle block appears in several episodes; ep. 488 mostly re-used.",
+  "ASR issues: ep. 488 (c69b013e95) has a repetition loop over the Eicha chant (about 26:45); Shema-guest surnames in eps. 479, 481, 482 and 484 are uncertain ASR spellings (recorded as heard in hidden)."
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "id": "56f6bec26d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Mice To The Rescue",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Mice to the Rescue - The Tzemach Tzedek's Blessing.mp3",
+  "duration_sec": 936.751,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mice to the Rescue: The Tzemach Tzedek's Blessing",
+  "title_basis": "filename",
+  "summary_short": "An honest Jewish innkeeper is falsely accused by a drunken Jew-hater. The Tzemach Tzedek tells him that even mice have a purpose, and in court the mice save him.",
+  "summary_long": "Hilke, a Jewish innkeeper in a Russian village, is loved by his non-Jewish customers for his honesty, but Stepan, a drunkard and open Jew-hater, swears revenge when Hilke refuses to serve him. Stepan and his friends falsely testify that Hilke sells liquor without paying taxes, and an antisemitic prosecutor pushes the case for a whole year. Hilke's wife, the daughter of a Lubavitcher Chassid, urges him to go to the Tzemach Tzedek, and though he has never visited a Rebbe, he finally goes. Weeping, he tells his story, and the Rebbe answers: do not worry, nothing in the world was created without a purpose; even mice can be useful. At the trial Stepan gets confused, and none of his four witnesses can come. The prosecutor asks for their written testimony to be read instead, but the clerk returns empty-handed: mice have chewed up every paper in that one drawer and touched nothing else. The case is dismissed, the couple finally understand the Rebbe's words, and Hilke becomes a Chassid of the Tzemach Tzedek.",
+  "lesson": "Everything Hashem created has a purpose, and with a tzaddik's blessing and trust in Hashem, help can come from the most unexpected places.",
+  "keywords": [
+   "innkeeper",
+   "mice",
+   "false witnesses",
+   "trial",
+   "prosecutor",
+   "court papers",
+   "liquor tax"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hater and an antisemitic prosecutor try to have an innocent Jew punished; he is acquitted."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The villain is a drunkard."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Hilke the innkeeper",
+   "his wife, Devorah Leah",
+   "Stepan",
+   "the prosecutor",
+   "the judge",
+   "the Rebbe's gabbai"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "emes"
+  ],
+  "mitzvos": [
+   "tehillim",
+   "honest_business"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia",
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "type": "story",
+   "title": "Mice to the Rescue",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "f2f2509078",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Every Step Is Perfectly Planned: The Innkeeper and the Mice' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the 'I believe in Hashem' song. ASR writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:21:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Mice%20to%20the%20Rescue%20-%20The%20Tzemach%20Tzedek%27s%20Blessing.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Mice to the Rescue - The Tzemach Tzedek's Blessing.mp3",
+  "size_bytes": 11241778,
+  "mime_type": "audio/mpeg"
+ }
+}

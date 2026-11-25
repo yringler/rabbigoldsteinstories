@@ -1,0 +1,290 @@
+{
+ "id": "85fd6a2f32",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "friendship circle",
+  "audio_path": "audio/Other Stories/A Yud-Tes Kislev Farbrengen with a Puppet Friend - The Alter Rebbe and the Nickel.mp3",
+  "duration_sec": 1226.664,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel",
+  "title_basis": "content",
+  "summary_short": "At a lively pre-Yud-Tes Kislev gathering, Rabbi Goldstein and a cheeky puppet sing, say pesukim and tell how a 'thank you' for one nickel freed a jailed groom.",
+  "summary_long": "Recorded at a gathering for older boys on Yud-Daled Kislev, a few days before Yud-Tes Kislev, Rabbi Goldstein is joined by a playful puppet who keeps getting things mixed up: is it Chanukah? Purim? They sing together, including 'I Believe in Hashem', and Rabbi Goldstein explains that Hashem holds our hand and watches us every moment, so we never need to be afraid. The puppet is reminded to say Modeh Ani, the group repeats the pasuk 'Torah tziva' together as a Hakhel gathering, and everyone sings 'We Want Moshiach Now'. Then comes a bedtime story: when a police chief jails a groom before his wedding, the Alter Rebbe collects 1,500 rubles to free him, starting with a rich man known for giving only a nickel. The Alter Rebbe thanks him warmly, and the man, delighted that someone finally accepted his gift, gives more and more until he gives the whole sum. At the wedding the cruel police chief's end is announced, and the groom later finds the money in a lost wallet. The puppet thanks everyone and asks to be invited again.",
+  "lesson": "When you appreciate even a small thing someone does, they want to do more and more; and Hashem is always holding our hand.",
+  "keywords": [
+   "puppet",
+   "farbrengen",
+   "nickel",
+   "groom",
+   "wedding",
+   "police chief",
+   "rubles",
+   "wallet",
+   "bedtime story",
+   "smiling"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "14 Kislev, in a Hakhel year",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'Now is Yud-Daled Kislev... Yud-Tes Kislev is next Tuesday... tomorrow's Friday'; Hakhel mentioned, so 5769, 5776 or 5783 (14 Kislev falls on Thursday in each)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The cruel police chief falls off his horse and dies; the townspeople are relieved."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "A groom is jailed before his wedding until he is ransomed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the puppet",
+   "the police chief",
+   "the groom",
+   "Moshe, the rich man who gave a nickel"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "emunah_bitachon",
+   "calendar"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "generosity",
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_kallah",
+   "pidyon_shvuyim",
+   "modeh_ani",
+   "twelve_pesukim",
+   "hashavas_aveidah"
+  ],
+  "calendar": [
+   "yud_tes_kislev",
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 87,
+   "type": "opening",
+   "title": "The puppet arrives: it's Yud-Daled Kislev"
+  },
+  {
+   "start_sec": 87,
+   "end_sec": 210,
+   "type": "song",
+   "title": "A song and a brachah for everyone"
+  },
+  {
+   "start_sec": 210,
+   "end_sec": 300,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 300,
+   "end_sec": 480,
+   "type": "qa",
+   "title": "Modeh Ani, Torah Tziva and Hakhel"
+  },
+  {
+   "start_sec": 480,
+   "end_sec": 545,
+   "type": "song",
+   "title": "We Want Moshiach Now"
+  },
+  {
+   "start_sec": 545,
+   "end_sec": 640,
+   "type": "talk",
+   "title": "Yud-Tes Kislev and the Alter Rebbe"
+  },
+  {
+   "start_sec": 640,
+   "end_sec": 1040,
+   "type": "story",
+   "title": "The Alter Rebbe and the nickel",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1040,
+   "end_sec": 1110,
+   "type": "song",
+   "title": "Closing song"
+  },
+  {
+   "start_sec": 1110,
+   "type": "closing",
+   "title": "The puppet says goodbye"
+  }
+ ],
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Live puppet show; the puppet introduces itself by a made-up name. ASR repeats 'We want Moshiach now' many times and misses a song around 17:20-18:30. Filename 'friendship circle' suggests a Friendship Circle event."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Year unknown (Hakhel year: 5769, 5776 or 5783).",
+   "Pass 2: host re-attributed to R' Chaim Levi Goldstein (high); basis: host 'Rabbi Goldstein' is asked to sing again and sings 'I Believe in Hashem' (~3:04-4:04), his song"
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:11Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/A%20Yud-Tes%20Kislev%20Farbrengen%20with%20a%20Puppet%20Friend%20-%20The%20Alter%20Rebbe%20and%20the%20Nickel.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/A Yud-Tes Kislev Farbrengen with a Puppet Friend - The Alter Rebbe and the Nickel.mp3",
+  "size_bytes": 14720973,
+  "mime_type": "audio/mpeg"
+ }
+}

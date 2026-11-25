@@ -1,0 +1,237 @@
+{
+ "id": "71743d402a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Im Yirtze Hashem",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Im Yirtzeh Hashem - The Chassid Who Was Sent to Siberia (other version).mp3",
+  "duration_sec": 1621.891,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Im Yirtzeh Hashem: The Chassid Who Was Sent to Siberia",
+  "title_basis": "filename",
+  "summary_short": "A lesson from the spies in Parshas Shelach about trusting Hashem, and a story of the Alter Rebbe's Chassid who learned the hard way to always say \"Im Yirtzeh Hashem.\"",
+  "summary_long": "The storyteller asks why the Torah tells us about the spies in Parshas Shelach. Their mistake was thinking the giants of Canaan were stronger than Hashem, and the Torah tells it so that we learn to trust Hashem. Mistakes can become treasures when we learn from them, like a boy who gets his shoe wet at the pond and is more careful next time. That is why Yidden say \"Im Yirtzeh Hashem\" or \"b'ezras Hashem\" about every plan. Then comes the story: in the days of the Alter Rebbe, a Chassid named Reb Moshe, with the Rebbe's approval, borrows a thousand rubles from friends to lend a poritz who wants to become an officer in Petersburg. When Reb Moshe comes to collect, the new officer has him arrested and sent to Siberia. A window shut in his face turns out to save him, when the Tsarina frees everyone still waiting in line. She makes the officer pay and dismisses him. The Alter Rebbe explains why Reb Moshe suffered: he had promised his friends repayment without saying \"Im Yirtzeh Hashem.\"",
+  "lesson": "Nothing happens without Hashem wanting it, so always say \"Im Yirtzeh Hashem\" and trust Him; even what looks bad can be for our good, and we can learn from mistakes.",
+  "keywords": [
+   "spies",
+   "Im Yirtzeh Hashem",
+   "poritz",
+   "officer",
+   "Petersburg",
+   "Siberia",
+   "Tsarina",
+   "loan",
+   "interest",
+   "contract"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Shelach",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "\"We come to this week's parsha, Shlach\"; no year given."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "An innocent Chassid is jailed and sent toward Siberia with criminals; he is freed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, a Chassid",
+   "the poritz who became an officer",
+   "the Tsarina",
+   "the secretary",
+   "Reb Moshe's lenders",
+   "Mendy and Miriam (example)"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hashgacha_pratis",
+   "chabad_rebbeim",
+   "parsha"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "honest_business"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "shelach"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "note": "Rashi on \"ki chazak hu mimenu\": stronger than Hashem, as the spies thought."
+   },
+   {
+    "work": "tehillim",
+    "note": "Dovid HaMelech: the One who made the eye can see, the One who made the ear can hear."
+   }
+  ],
+  "places": [
+   "Petersburg",
+   "Siberia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 418,
+   "type": "talk",
+   "title": "The spies, mistakes and saying Im Yirtzeh Hashem"
+  },
+  {
+   "start_sec": 418,
+   "end_sec": 1595,
+   "type": "story",
+   "title": "The Chassid sent to Siberia",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1595,
+   "type": "talk",
+   "title": "Lesson: always say Im Yirtzeh Hashem"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "50a1238473",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.96,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "50a1238473",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "The other copy is the same recording with the opening song 'I Believe in Hashem' included; this copy starts at the talk."
+  },
+  {
+   "type": "same_story",
+   "target_id": "150ca1badb",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Im Yirtze Hashem - Of Course': same story told again by the same narrator with a different intro."
+  },
+  {
+   "type": "same_story",
+   "target_id": "175a930717",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Im Yirtze Hashem ADHZ': same story told again for Yud Shevat; the Chassid is called Yankele there."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 50a1238473 ('Im Yirtze Hashem'), the preferred copy: same recording without the opening song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said; the same recording as 50a1238473, which opens with 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:13Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Im%20Yirtzeh%20Hashem%20-%20The%20Chassid%20Who%20Was%20Sent%20to%20Siberia%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Im Yirtzeh Hashem - The Chassid Who Was Sent to Siberia (other version).mp3",
+  "size_bytes": 19463451,
+  "mime_type": "audio/mpeg"
+ }
+}

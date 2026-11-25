@@ -1,0 +1,40 @@
+{
+ "batch_id": "b019",
+ "done": [
+  "3073859dbb",
+  "5e93a80f9a",
+  "7b12e4e282",
+  "d35fdf3dc9",
+  "b53fd47844",
+  "34fa0cd369",
+  "a281e5503b",
+  "41d518f4f6",
+  "528b031b11",
+  "578d853efd",
+  "d8b676e7bd",
+  "6ad4603cff",
+  "7bb07aa4f3",
+  "47ab2fc67b",
+  "3f5a4d35cb",
+  "6341e96d6e",
+  "4d54f86128",
+  "d8bd0302fb",
+  "29ba549f21",
+  "37367b27fe"
+ ],
+ "failed": [],
+ "notes": [
+  "3073859dbb (ep. 295): a guest from the Shpoler Zeide Family Society reads the society's street address (640 Empire Blvd) and an evening phone number. Both are recorded in hidden with home_address/phone_number flags because they may be a private home; a human should decide.",
+  "7b12e4e282: the story introduction is heard twice at the start (0:00-0:54), an editing artifact (splice_glitch).",
+  "41d518f4f6 ('The King and the Shabbos Candles 298') and bc6b1c6167 ('The King and the Shabbos Candles 383') are the same narration (same_recording added); keep one on the site. Episode 298's hint also suggests aired_again_in with bc6b1c6167, which is a clip, not an episode, so it was not added there.",
+  "4d54f86128 ('Zos Chanukah 307') and 4b73fb52c9 ('Chanukah 458') are the same talk (same_recording added). The 307 cut has a gap in the transcript at about 0:57-1:22, so the 458 copy may be more complete.",
+  "37367b27fe ('Asarah B'Teves 308') and 64dc417cdd ('Asarah B'Teves 355') are the same talk (same_recording added). Required relations say it also aired in episode 260 (672ff77943), but 'this Thursday is Asarah B'Teves' fits only 5748 (ep. 308). Check whether episode 260's number or date is wrong, or whether the line was re-recorded. Lower text matches also exist in episodes 410 (7e9d4fa376) and 555 (393f61d950).",
+  "578d853efd (ep. 302) is the final chapter of the serial 'A Blessing From a Tzaddik'. Earlier chapters (episode 301 or before) are not in this batch, and catalog row 301 is blank. The ASR misnames the hero (Reb Boruch) as 'Rebbe Rashab' and 'Rabbi Akiva'.",
+  "6ad4603cff (303, 'redo') and 47ab2fc67b (304) are chapters 1-2 of 'The Golden Staff' (on air in 303 it is called 'The Golden Rod'); a continues relation was added on 304.",
+  "Catalog row 309 repeats 'The Flickering Flame' (the story in 307); 309 may re-air it.",
+  "d8b676e7bd (Modeh Ani 302): a weak text match (0.2) with episode 339 (3018dcdff0) suggests a partial re-air; not added.",
+  "6341e96d6e (ep. 307): only adults are named on air (a first-grade teacher and her school's dean), so the flag used is identifiable_living_people.",
+  "d8bd0302fb (ep. 308): the Shema guests share the host's surname (Goldstein, from Ann Arbor), possibly family. Recorded only in hidden.",
+  "Proposed new terms: works 'kesuvim' (Mishlei/Koheles quoted in 34fa0cd369, 528b031b11, d8bd0302fb, 37367b27fe; neviim used instead) and people 'rabbi_yisrael_salanter' (6341e96d6e)."
+ ]
+}

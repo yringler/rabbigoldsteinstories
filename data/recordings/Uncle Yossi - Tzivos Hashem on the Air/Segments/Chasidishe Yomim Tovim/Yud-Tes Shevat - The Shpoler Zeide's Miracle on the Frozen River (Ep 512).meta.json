@@ -1,0 +1,163 @@
+{
+ "id": "6dbe8bcabf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "19 Shvat -Shpoller Zeide 512",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Shevat - The Shpoler Zeide's Miracle on the Frozen River (Ep 512).mp3",
+  "duration_sec": 278.469,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 512,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 512,
+   "story": "The dancing bear",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud-Tes Shevat: The Shpoler Zeide's Miracle on the Frozen River",
+  "title_basis": "content",
+  "summary_short": "Why the Shpoler Zeide's family celebrates the 19th of Shevat: the ice broke beneath his sleigh, and his devoted gabbai gave his life in his place.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired just before the 19th of Shevat. Uncle Yossi explains why the followers and descendants of the Shpoler Zeide, Rabbi Aryeh Leib of Shpola, hold a festive meal of thanksgiving on this day. On his way to serve as sandek at a bris, the tzaddik crossed a partly frozen river by sleigh, and the ice gave way. He called out that whoever would take his place would be promised Olam Haba, and his devoted gabbai, Yolik, gave his life to save his Rebbe. That Friday night the Shpoler Zeide waited to begin Kabbalas Shabbos until he saw Yolik arrive in Gan Eden. He then told his children and grandchildren to mark the day every year with a joyous meal, songs and good resolutions, so that he can be proud of us as we learn more Torah and do more mitzvos.",
+  "lesson": "Thank Hashem for His miracles with joy, and live so that the tzaddikim can be proud of us.",
+  "keywords": [
+   "frozen river",
+   "sleigh",
+   "gabbai",
+   "bris",
+   "sandek",
+   "Gan Eden",
+   "thanksgiving meal",
+   "seudah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 512,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-01-21",
+   "hebrew": "16 Shevat 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'Right before Yud-Tes Shevat'; aired in episode 512 (week of Parshas Yisro 5752)."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The gabbai drowns in an icy river, giving his life in place of the tzaddik.",
+    "at_sec": 89
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Yolik the gabbai"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "miracles"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "hakaras_hatov",
+   "simcha"
+  ],
+  "mitzvos": [
+   "bris"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "e212bff400",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "offset_sec": 48,
+   "note": "Episode 512 (filename number); clip = 48-326 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Tes%20Shevat%20-%20The%20Shpoler%20Zeide%27s%20Miracle%20on%20the%20Frozen%20River%20%28Ep%20512%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Shevat - The Shpoler Zeide's Miracle on the Frozen River (Ep 512).mp3",
+  "size_bytes": 3342730,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "id": "f2f2509078",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Every Step Is Perfectly Planned",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Every Step Is Perfectly Planned - The Innkeeper and the Mice.mp3",
+  "duration_sec": 1721.259,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-016' stripped"
+  ]
+ },
+ "display": {
+  "title": "Every Step Is Perfectly Planned: The Innkeeper and the Mice",
+  "title_basis": "filename",
+  "summary_short": "Everything Hashem creates has a purpose: an innkeeper falsely accused by a drunken neighbor is told by the Tzemach Tzedek that even mice can help a Jew.",
+  "summary_long": "After the song 'I Believe in Hashem', the storyteller explains that everything in the world follows Hashem's perfect plan, except our free choice in Torah and mitzvos, so we need not worry. From this week's Parshas Shemos he shows the power of bitachon: Moshe Rabbeinu feared that his deed was known, and the Midrash says that because he feared, Pharaoh heard. The Tzemach Tzedek taught, 'Think good and it will be good.' The story follows Hilke, an honest Jewish innkeeper loved by his customers, except for Stepan, a drunken Jew-hater who is refused drinks on credit. For revenge, Stepan and four crooked witnesses falsely report that Hilke sells untaxed vodka. Hilke's wife, the daughter of a Lubavitcher Chassid, convinces him to go to the Tzemach Tzedek, who tells him to strengthen his bitachon and adds that everything Hashem created has a purpose, even mice. At the trial Stepan contradicts himself, none of his witnesses can come, and the signed police report turns out to have been eaten by mice, while every other drawer is untouched. The case is dismissed. The storyteller closes with the Rebbe's promise that Moshiach is coming, and Torah, tefillah and tzedakah for the Hakhel year.",
+  "lesson": "Everything Hashem creates has a purpose and every step is planned for our good, so trust Hashem, think good, and rely on the words of a tzaddik.",
+  "keywords": [
+   "innkeeper",
+   "mice",
+   "false accusation",
+   "vodka",
+   "taxes",
+   "witnesses",
+   "courtroom",
+   "judge",
+   "police report",
+   "Lubavitch",
+   "drawer"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Shemos, a Hakhel year",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'This week's Parsha' (Moshe and the Egyptian) and 'this is Hakhel' suggest Shemos 5776 or 5783; confirm."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The accuser is a frequent drunk who wants drinks on credit."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hater falsely accuses an innkeeper; the prosecutor and judge are hostile to Jews."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The false witnesses are injured, one drowns, and two beat each other up (reported briefly)."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Hilke (Hillel), the innkeeper",
+   "Devorah Leah, his wife",
+   "Stepan, the accuser",
+   "the four false witnesses",
+   "the prosecutor",
+   "the judge",
+   "the gabbai"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "chabad_rebbeim",
+   "hiskashrus",
+   "parsha"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "emes"
+  ],
+  "mitzvos": [
+   "honest_business",
+   "tzedakah"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [
+   "shemos"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 2:11-15",
+    "note": "Moshe and the Egyptian; 'the matter is known'."
+   },
+   {
+    "work": "midrash",
+    "note": "Had Moshe not feared, Pharaoh would not have heard."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek: 'Think good and it will be good', said to a father of a sick child."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Get ready, Moshiach is coming any moment."
+   }
+  ],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 39,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 39,
+   "end_sec": 305,
+   "type": "talk",
+   "title": "Every step is perfectly planned",
+   "summary": "Everything follows Hashem's perfect plan except our free choice, so we need not worry."
+  },
+  {
+   "start_sec": 305,
+   "end_sec": 565,
+   "type": "talk",
+   "title": "Parshas Shemos: think good and it will be good",
+   "summary": "Moshe's fear and the Tzemach Tzedek's teaching on positive thinking.",
+   "people": [
+    "moshe_rabbeinu",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 565,
+   "end_sec": 1650,
+   "type": "story",
+   "title": "The innkeeper and the mice",
+   "summary": "A falsely accused innkeeper is saved when mice eat the evidence, as the Tzemach Tzedek hinted.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 1650,
+   "type": "closing",
+   "title": "Lesson, Torah, tefillah and tzedakah"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "56f6bec26d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Mice to the Rescue: The Tzemach Tzedek's Blessing' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same title as 6a8170d97f, but a different story (the hinted audio match is not a same_story). ASR writes 'Moshiach' for Moshe and 'pirates' for poritz. Signs off 'Zeit gezunt un a gutten Shabbos'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:38:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording year (Hakhel 5776 or 5783?)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Every%20Step%20Is%20Perfectly%20Planned%20-%20The%20Innkeeper%20and%20the%20Mice.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Every Step Is Perfectly Planned - The Innkeeper and the Mice.mp3",
+  "size_bytes": 20655916,
+  "mime_type": "audio/mpeg"
+ }
+}

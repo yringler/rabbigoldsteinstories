@@ -1,0 +1,168 @@
+{
+ "id": "0789359167",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mevorchim Elul 542",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shabbos Mevarchim Elul - The New Moon and the Wonders of Hashem (Ep 542).mp3",
+  "duration_sec": 342.029,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 542,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 542,
+   "story": "Reb Asher the Melamed #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Mevarchim Elul: The New Moon and the Wonders of Hashem",
+  "title_basis": "content",
+  "summary_short": "Before Rosh Chodesh Elul, Uncle Yossi explains the molad, how the moon waxes and wanes, and how the heavens tell of Hashem's glory.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, cut from episode 542, broadcast before Shabbos Mevarchim Elul. Uncle Yossi explains that Elul is the last month of the year, and since 'all's well that ends well', it is the time to daven better, say brachos carefully, learn more Torah, improve our midos and give more tzedakah. He asks children to listen in shul on Shabbos when the chazan announces the molad, the exact time of the new moon, down to fractions of a minute. The Hebrew word 'chodesh' comes from 'chadash', new: the moon starts as a thin line, grows full by the fifteenth, then shrinks away. Hashem arranges the stars and planets with perfect precision, as we say in Maariv and as Dovid HaMelech says, 'The heavens tell of Hashem's glory'. A grain of sand and the planet Jupiter are the same to Him. The talk ends with a prayer for a month of good things and the Geulah.",
+  "lesson": "Look at the sky and see Hashem's greatness, and end the year well by doing more in Elul.",
+  "keywords": [
+   "new moon",
+   "molad",
+   "chazan",
+   "full moon",
+   "stars",
+   "Jupiter",
+   "chodesh"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 542,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-08-18",
+   "hebrew": "19 Av 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 542 ('right before Shabbos Mevarchim Rosh Chodesh Elul')."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "hashem_in_nature",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "davening",
+   "brachos",
+   "torah_study",
+   "tzedakah"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "elul",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "19:2",
+    "note": "'HaShamayim mesaprim kevod Keil'."
+   },
+   {
+    "work": "siddur",
+    "ref": "Maariv",
+    "note": "'U'mesader es hakochavim'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d55facca63",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 44,
+   "note": "Episode 542 (filename number); clip = 44-386 s of the episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:47Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shabbos%20Mevarchim%20Elul%20-%20The%20New%20Moon%20and%20the%20Wonders%20of%20Hashem%20%28Ep%20542%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shabbos Mevarchim Elul - The New Moon and the Wonders of Hashem (Ep 542).mp3",
+  "size_bytes": 4105380,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "batch_id": "b017",
+ "done": [
+  "585fe67e3e", "125311ff4f", "1d9341de33", "c4a8374db1", "6ad37ebe02", "bda93bf549", "2a6ad8add6",
+  "d0a966e65b", "c138f0dfd8", "cbefd2fcab", "ca4315c1e9", "49efe58654", "9416033b17", "6df3c7a3ab",
+  "48ff49376e", "fbe6825c15", "a526e22840", "43ccf7c7b6", "542cf9e061"
+ ],
+ "failed": [],
+ "notes": [
+  "All seven episodes (271, 272, 273, 276, 277, 279, 280) have filename dates confirmed by on-air cues (Rosh Chodesh Nissan, one week before Pesach, Rosh Chodesh Iyar, mid-Sefirah/Pirkei Avos ch. 5, one week before Erev Shavuos, right after Shavuos). Episode 272 announces a two-week Pesach break, which explains the gap to 273 (04-28-87).",
+  "Serial 'Judge for a Day': ch. 1 = 276 (d0a966e65b), ch. 2 = 277 (49efe58654); the final chapter is promised for episode 278, which is not in this batch (catalog row 278 is blank).",
+  "Serial 'Torah, the Best Thing of All': ch. 1 = 280 (fbe6825c15) and the Heritage clip 43ccf7c7b6 ('Akiva Torah ship 11m 23s' folder, '01 ... -1 280'). Part 2 should be in the same Heritage folder and in episode 281 (catalog '#2'); link them in pass 2. The story is told of Rabbi Akiva here; the classic version usually names an unnamed sage.",
+  "Mitzvah Time Havdalah series: 'Havdalah 276' (cbefd2fcab) -> phone-quiz review in 277 (not clipped) -> 'Havdalah-2 280' (542cf9e061). Linked cbefd2fcab and 542cf9e061 with part_of_set/continues (content evidence).",
+  "Episode 273 story 'The Flickering Flame' features 'a great tzaddik called Rabbi Yisrael' and a shoemaker ('as long as the candle burns, one can still repair'); this tale is usually told of Rabbi Yisrael Salanter, who is not in the people vocabulary. Not named on air, so left as a character.",
+  "Episode 271 and 280 both teach the song 'Ad Mosai' (271 introduces it, 280 repeats it by request); ASR renders the sung chorus as long 'ai ai ai' loops in both.",
+  "Episode 272 includes a taped thank-you message from a teacher in Sydney after a refuah shleimah request (health_info in hidden); she is the teacher of the 271 Shema guest.",
+  "Unverified candidates not added: 2a6ad8add6 audio-fingerprint candidate eb89723366 ('126', 0.5) and text matches to episodes 377/475 (0.69); 9416033b17 text matches to episodes 380 (3fa3f0c8c9) and 428 (be032f3167) at 0.77; c4a8374db1 also matches 8fa0b3541e (episode 374, 0.75), a possible second copy of episode 374 alongside cab583e2b7.",
+  "Proposed new mitzvos term 'aseres_hadibros' (hearing the Ten Commandments on Shavuos) on 49efe58654 and 9416033b17.",
+  "Episode 273 transcript has a gap where the candle-lighting time should be (about 27:20-27:50); 279 and its clip 48ff49376e have an untranscribed stretch at about 4:45-5:24."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "batch_id": "b076",
+ "done": [
+  "4bd06e794b",
+  "555e88ce75",
+  "26b3996f18"
+ ],
+ "failed": [],
+ "notes": [
+  "4bd06e794b ('story in yiddish') holds two stories: the Brill glasses story (0:00-25:55, the same audio as 555e88ce75) and a blood libel story set in France with a visiting Turkish ambassador. That second story is cut off mid-sentence at the end of the file (truncated_end). Its continuation may be in another Yiddish file; it may also exist as an English telling.",
+  "555e88ce75 is a clean excerpt that is only the Brill story. The text matches 4bd06e794b line for line.",
+  "26b3996f18: identity clues for the Yiddish narrator and possibly for the weekly storyteller. In the informal chat at the end (about 10:37-12:35), one speaker says in English 'You know my song, I Believe in Hashem ... translate into Yiddish', says it was originally written in Yiddish (a composer named Wachsmann is mentioned), and points listeners to chinuchtime.com ('in a blue tab ... stories, Yiddish, English'). The 'I Believe in Hashem' song opens the weekly_story_i_believe series, so this may link the Yiddish narrator to that series or to chinuchtime.com. The same chat mentions the surname Kleiman in a family context (kept in hidden). Pass 2 should look at this alongside the storyteller_i_believe guesses.",
+  "26b3996f18 is dated by audio to Yud-Aleph Shevat (year not stated). It is tagged yud_shevat because the vocabulary has no separate 11 Shevat entry."
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "id": "63f2625291",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Crust of bread and water",
+  "audio_path": "audio/Other Stories/A Crust of Bread and Water - The King Lost in the Forest.mp3",
+  "duration_sec": 863.53,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "A Crust of Bread and Water: The King Lost in the Forest",
+  "title_basis": "filename",
+  "summary_short": "Before Pesach, a parable of a lost king rewarded for a poor man's dry bread and water teaches how precious even a small extra mitzvah is to Hashem in the time of golus.",
+  "summary_long": "Getting ready for Pesach, the storyteller asks the children for the two most important words of the holiday, Yetzias Mitzrayim, and explains that Mitzrayim also means a limit: each of us goes out of our own Mitzrayim by doing a little more than yesterday. Then comes a parable. A king out hunting gets lost in a freezing forest at night, hears wolves, and finds the hut of a poor Jew named Reb Chaim, who gives him all he has: stale bread, a glass of water and a bed of straw. Days later Reb Chaim is invited to the palace, where the king thanks him for saving his life and sends him home with a sack of gold. Reb Chaim gives tzedakah first and makes a party for the poor. His neighbor Shmerel brings the king a box of dry bread, water and straw, expecting the same reward. The king kindly explains, without embarrassing him, that those gifts meant everything only when he was desperate. So too, in golus Hashem is like the king knocking at our door, and even five extra minutes of helping at home is precious to Him.",
+  "lesson": "In golus, every small extra mitzvah is precious to Hashem; before Pesach, go out of your own Mitzrayim by doing a little more than you did yesterday.",
+  "keywords": [
+   "king",
+   "hunting",
+   "lost in the forest",
+   "wolves",
+   "hut",
+   "dry bread",
+   "glass of water",
+   "straw bed",
+   "palace",
+   "sack of gold",
+   "Yetzias Mitzrayim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the king",
+   "Reb Chaim, a poor man",
+   "Shmerel, his neighbor",
+   "Gittel, Shmerel's wife"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "zerizus",
+   "dan_lkaf_zchus"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "note": "'B'chol dor vador': every generation must see itself as leaving Mitzrayim."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 125,
+   "type": "talk",
+   "title": "Going out of our own Mitzrayim",
+   "summary": "Mitzrayim also means a limit, and Hashem loves when we go one step further."
+  },
+  {
+   "start_sec": 125,
+   "end_sec": 685,
+   "type": "story",
+   "title": "The king lost in the forest",
+   "summary": "A poor man's bread, water and straw save a king, and a neighbor tries to copy him."
+  },
+  {
+   "start_sec": 685,
+   "type": "talk",
+   "title": "The lesson for Pesach",
+   "summary": "In golus even a small extra mitzvah is precious to Hashem."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "6a1de77edd",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'A Gimmel Tammuz Gift for the Rebbe: The King in the Forest' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d9c03b5a9d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Greatest Gift (Gimmel Tammuz)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told to a live group of children (questions and answers); no theme song. Ends mid-thought about Moshiach and the Beis HaMikdash, apparently the natural end."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:21:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator attribution from style only (no theme song or name)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/A%20Crust%20of%20Bread%20and%20Water%20-%20The%20King%20Lost%20in%20the%20Forest.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/A Crust of Bread and Water - The King Lost in the Forest.mp3",
+  "size_bytes": 10363129,
+  "mime_type": "audio/mpeg"
+ }
+}

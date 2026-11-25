@@ -1,0 +1,286 @@
+{
+ "id": "4b03cc2ca5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "36",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 036 - Three Lost on an Island, Chapter 1 (1982-08-10).mp3",
+  "duration_sec": 1670.6,
+  "filename_facts": {
+   "episode_number": 36,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 36,
+   "story": "Three Lost On An Island #1",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 36: Three Lost on an Island, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "Practicing the great march out of golus, and the first chapter of a parable: a doctor, a scientist and an engineer shipwrecked on a deserted island.",
+  "summary_long": "Uncle Yossi recalls the great marches of Jewish history: leaving Egypt through the sea, crossing the Jordan with Yehoshua, and going up to the Beis HaMikdash three times a year. One more grand parade is coming soon, when Moshiach leads everyone out of golus, so Tzivos Hashem's soldiers practice with a lively march. Story time begins an unusual story with a lesson for life: three survivors of a shipwreck reach a deserted island. A returning guest in Studio 604 talks about fighting the yetzer hara with Torah and mitzvos before leading the Shema. Back on the island, the doctor finds a rare apple that cures any illness, the scientist builds a telescope, and the engineer repairs an abandoned airplane. As they prepare to leave, the scientist sees something astonishing through his telescope, to be continued next week. In the mailbox, a boy sends a joke about a bar mitzvah boy and four drawings of mitzvos, and the show closes with an invitation to buy a letter in the new children's Sefer Torah, which unites all Jews.",
+  "lesson": "Practice now for the great march with Moshiach by fighting the yetzer hara with Torah and mitzvos.",
+  "keywords": [
+   "shipwreck",
+   "deserted island",
+   "doctor",
+   "scientist",
+   "engineer",
+   "telescope",
+   "apple",
+   "airplane",
+   "march",
+   "children's Sefer Torah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 36,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1982-08-10",
+   "hebrew": "21 Av 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Weekly sequence: 1 wk after ep 35 (3 Aug 1982), 2 wk before ep 38 (24 Aug 1982); no gap between them. No date cue of its own."
+  },
+  "serial": {
+   "story_key": "three-lost-on-an-island",
+   "story_title": "Three Lost on an Island",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm; three survivors are stranded on an island.",
+    "at_sec": 506
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and a letter writer named in full.",
+    "at_sec": 690
+   },
+   {
+    "flag": "home_address",
+    "note": "Letter writer's street read on air (no house number).",
+    "at_sec": 1242
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yehoshua_bin_nun",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the doctor",
+   "the scientist",
+   "the engineer"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "tzivos_hashem",
+   "character"
+  ],
+  "midos": [
+   "self_control",
+   "achdus"
+  ],
+  "mitzvos": [
+   "shema",
+   "torah_study",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 53,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 53,
+   "end_sec": 215,
+   "type": "talk",
+   "title": "Marches of Jewish history and the grand parade with Moshiach",
+   "summary": "From the Exodus and the Jordan crossing to the pilgrimages, and the coming march out of golus."
+  },
+  {
+   "start_sec": 215,
+   "end_sec": 465,
+   "type": "song",
+   "title": "March"
+  },
+  {
+   "start_sec": 465,
+   "end_sec": 506,
+   "type": "story_intro",
+   "title": "Story time: an unusual story"
+  },
+  {
+   "start_sec": 506,
+   "end_sec": 673,
+   "type": "story_chapter",
+   "title": "Three Lost on an Island, Chapter 1 (beginning)",
+   "summary": "Three shipwreck survivors reach a deserted island and search for a way home.",
+   "story_key": "three-lost-on-an-island",
+   "chapter": 1
+  },
+  {
+   "start_sec": 673,
+   "end_sec": 890,
+   "type": "shema_guest",
+   "title": "Shema with a returning guest: fighting the yetzer hara"
+  },
+  {
+   "start_sec": 890,
+   "end_sec": 1188,
+   "type": "story_chapter",
+   "title": "Three Lost on an Island, Chapter 1 (continued)",
+   "summary": "The doctor finds a healing apple, the scientist builds a telescope, the engineer fixes an airplane, and the telescope reveals a surprise.",
+   "story_key": "three-lost-on-an-island",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1188,
+   "end_sec": 1537,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a joke and four drawings",
+   "summary": "A boy's joke about a bar mitzvah boy and his drawings of hachnasas orchim, a Shabbos table, friends dancing and a sukkah."
+  },
+  {
+   "start_sec": 1537,
+   "end_sec": 1635,
+   "type": "announcement",
+   "title": "A letter in the children's Sefer Torah"
+  },
+  {
+   "start_sec": 1635,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "8fe3be8300",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 36 = 'Three Lost On An Island #1', 37 = '#2'; episode 37 recaps this chapter."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sefer Torah campaign mailing address is a period piece (organizational). March not transcribed (about 3:40-7:50)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehudah Zavdi",
+    "role": "shema_guest",
+    "start_sec": 673,
+    "end_sec": 890,
+    "note": "Returning guest; talks about fighting the yetzer hara."
+   },
+   {
+    "name": "Benzion Reichberg",
+    "role": "mailbox_letter",
+    "group": "Brooklyn, New York",
+    "start_sec": 1231,
+    "end_sec": 1500
+   }
+  ],
+  "addresses": [
+   {
+    "text": "46th Street, Brooklyn, New York",
+    "start_sec": 1242,
+    "end_sec": 1250
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:54:48Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20036%20-%20Three%20Lost%20on%20an%20Island%2C%20Chapter%201%20%281982-08-10%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 036 - Three Lost on an Island, Chapter 1 (1982-08-10).mp3",
+  "size_bytes": 20048150,
+  "mime_type": "audio/mpeg"
+ }
+}

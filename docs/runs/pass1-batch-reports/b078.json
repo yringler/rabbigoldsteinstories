@@ -1,0 +1,13 @@
+{
+ "batch_id": "b078",
+ "done": ["be2d85680e", "1afde74e08", "2a60e245df", "78d629608b"],
+ "failed": [],
+ "notes": [
+  "Haggada 1, 2 and 3 are consecutive parts of one Yiddish Haggadah class for children (Haggada 1 ends at Avadim Hayinu, 2 starts there and ends at Dam Va'esh, 3 starts there and ends at Shfoch Chamascha / Keli Ata). Set part 1-3 of 3 with continues/part_of_set.",
+  "hg1a (933079e352, 3.9 h) is a master holding the whole series: Haggada 1 text appears in it at about 33:00-74:30 (with about 6 extra minutes in hg1a, so Haggada 1 is a shorter edit; added clip_of offset 1978, confidence 0.8). hg1a also ends at Shfoch Chamascha, so Haggada 3 is not truncated.",
+  "hg1b (64ecbd1960) overlaps the second half of Haggada 1 (from the Havdalah blessing) and the first ~14 min of Haggada 2 (to Rabbi Elazar ben Azariah). Partial overlap of another edit; not added as a relation, for pass 2.",
+  "hg2a (78d629608b) is Haggada 2 from about 14:20 to 60:30 with its own 30-second lead-in; added clip_of + superseded_by to 1afde74e08 and publish_recommendation review.",
+  "Teacher unidentified in all four (no name or credit); speaks of 'der Rebbe shlita', so recorded before 1994. Possibly Rabbi Yosef Goldstein (same archive, children's Yiddish teaching style), but no evidence heard; identity guess left null.",
+  "Proposed people term rabbi_elazar_ben_azariah (in 1afde74e08)."
+ ]
+}

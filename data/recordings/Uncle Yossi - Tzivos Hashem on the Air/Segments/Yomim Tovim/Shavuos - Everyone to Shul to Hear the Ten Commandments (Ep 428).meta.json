@@ -1,0 +1,164 @@
+{
+ "id": "3abbb046a6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 428",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shavuos - Everyone to Shul to Hear the Ten Commandments (Ep 428).mp3",
+  "duration_sec": 453.202,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 428,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 428,
+   "story": "Judge for a day #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shavuos: Everyone to Shul to Hear the Ten Commandments",
+  "title_basis": "content",
+  "summary_short": "Why every Jew, young and old, even babies, should be in shul on Shavuos to hear the Ten Commandments, just as we all stood at Har Sinai.",
+  "summary_long": "A Shavuos talk from the Tzivos Hashem radio show. Uncle Yossi explains that Shavuos celebrates the greatest gift ever given, the Torah. In shul, when the Ten Commandments are about to be read, everyone falls silent and stands facing the reader, listening to every word that Hashem Himself spoke at Har Sinai. Just as we stood then in awe, every year we stand again in awe, strengthen our faith in Hashem and His Torah, and say once more 'Naaseh v'nishma', we will do and we will listen. When Hashem sees all the Jewish people gathered in unity like one person with one heart, He blesses us. Because every single Jew was at Har Sinai, everyone should come to hear the Ten Commandments, even little ones brought in a carriage. Children, especially soldiers of Tzivos Hashem, are asked to politely invite relatives and friends, to fill out their Shavuos mitzvah charts, and to find out in advance when the reading will take place so no one misses it.",
+  "lesson": "Be in shul on Shavuos to hear the Ten Commandments, and bring your family and friends along.",
+  "keywords": [
+   "Ten Commandments",
+   "Har Sinai",
+   "shul",
+   "Torah reading",
+   "babies",
+   "mitzvah chart",
+   "Naaseh v'nishma"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 428,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-05-22",
+   "hebrew": "27 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 428 (candle times fit Friday 25 May 1990, the week before Shavuos). The talk also aired in episodes 277 and 380."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kavod_shul",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "3fa3f0c8c9",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 380."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "49efe58654",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "Also aired in episode 277."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "be032f3167",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 10,
+   "note": "Episode 428 (filename number); clip = 10-464 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the Shavuos talk."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shavuos%20-%20Everyone%20to%20Shul%20to%20Hear%20the%20Ten%20Commandments%20%28Ep%20428%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shavuos - Everyone to Shul to Hear the Ten Commandments (Ep 428).mp3",
+  "size_bytes": 5439498,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "id": "7eb8b9517c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "45 P33",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 45 - Chapter 33, the Joy of Faith in Hashem's Unity (Lag BaOmer).mp3",
+  "duration_sec": 3255.197,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 45: Chapter 33, the Joy of Faith in Hashem's Unity (Lag BaOmer)",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya class given on Lag BaOmer, after the Rebbe's talk at the parade: why the Shechinah rests only where there is joy, and how thinking about Hashem's unity brings true joy.",
+  "summary_long": "Shiur 45 in Rabbi Yosef Goldstein's Yiddish Tanya series was given on the night of Lag BaOmer, when the class was asked to study chapter 33 because the Rebbe had spoken about it that day at the Lag BaOmer parade. The rabbi explains that the Shechinah rests only where there is joy, and shows this through Yaakov Avinu, who wished to reveal the time of Moshiach's coming before his passing and lost the Shechinah as soon as he thought of a time of unworthiness. Even teshuvah must be done with joy, as the Rambam teaches. He tells how Reb Hillel of Paritch learned from the Alter Rebbe that the body, refined like polished glass, becomes a lens through which one sees G-dliness. The class then studies the chapter: meditating on Hashem's oneness, the parable of the sun's rays, why the Alter Rebbe wrote the Tanya as a private audience for every Jew, the king who moves into a villager's home, 'Ashreinu', the inheritance of faith, and Chavakuk founding all mitzvos on emunah. It ends with the joy of giving Hashem pleasure by turning darkness into light, especially in exile.",
+  "lesson": "A Jew who thinks deeply about how Hashem fills every place will serve Him with real joy, and that joy breaks through every obstacle and makes the world a home for Hashem.",
+  "keywords": [
+   "Lag BaOmer parade",
+   "Yaakov Avinu's blessing",
+   "end of days",
+   "magnifying glass",
+   "sun and its rays",
+   "drop in the ocean",
+   "private audience",
+   "king visits a villager",
+   "Ashreinu",
+   "inheritance",
+   "Chavakuk",
+   "darkness into light"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "tanach_midrash",
+   "chassidic",
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1978-05-25",
+   "hebrew": "18 Iyar 5738",
+   "hebrew_year": 5738,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Given on Lag BaOmer, the day of the Rebbe's parade talk. ASR reads the year as 5736; sibling shiurim 44 and 48 point to 5738."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "33",
+    "to": "33",
+    "lecture_number": 45,
+    "note": "Chapter 33 studied at the request following the Rebbe's Lag BaOmer talk."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ],
+  "series": "tanya_yiddish_goldstein"
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_hillel_of_paritch",
+    "role": "appears"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the twelve tribes",
+   "a king and a simple villager"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "emunah_bitachon",
+   "moshiach_geulah",
+   "chassidim"
+  ],
+  "midos": [
+   "simcha",
+   "emunah"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "torah_study"
+  ],
+  "calendar": [
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 20-21; ch. 33; Hakdamah"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Lag BaOmer parade talk"
+   },
+   {
+    "work": "midrash",
+    "ref": "Yaakov sought to reveal the End; Nisaveh lihyos lo dirah betachtonim"
+   },
+   {
+    "work": "gemara",
+    "ref": "Makkos 24a (Chavakuk); Sanhedrin (the sun's ray)"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "on joy in mitzvos"
+   },
+   {
+    "work": "likkutei_dibburim",
+    "ref": "Reb Hillel of Paritch"
+   },
+   {
+    "work": "siddur",
+    "ref": "Ashreinu mah tov chelkeinu"
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 71,
+   "type": "talk",
+   "title": "Why chapter 33 today: the Rebbe's Lag BaOmer talk",
+   "summary": "The class studies chapter 33 because the Rebbe spoke about it at the Lag BaOmer parade.",
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 71,
+   "end_sec": 787,
+   "type": "talk",
+   "title": "The Shechinah rests only where there is joy",
+   "summary": "Even teshuvah needs joy, since joy is what lets the Shechinah rest on a person."
+  },
+  {
+   "start_sec": 103,
+   "end_sec": 673,
+   "type": "story",
+   "title": "Yaakov Avinu and the hidden time of Moshiach",
+   "summary": "Yaakov wished to reveal when Moshiach would come, and the Shechinah left him as soon as sadness entered his thoughts.",
+   "people": [
+    "yaakov_avinu"
+   ]
+  },
+  {
+   "start_sec": 807,
+   "end_sec": 1088,
+   "type": "story",
+   "title": "Reb Hillel of Paritch and the polished glass",
+   "summary": "The Alter Rebbe taught Reb Hillel that a refined body is like a magnifying lens through which one sees G-dliness.",
+   "people": [
+    "rabbi_hillel_of_paritch",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1088,
+   "end_sec": 2183,
+   "type": "text_study",
+   "title": "Tanya chapter 33: meditating on Hashem's unity",
+   "summary": "The world is nullified before Hashem like letters in the soul and a ray within the sun."
+  },
+  {
+   "start_sec": 1780,
+   "end_sec": 1950,
+   "type": "talk",
+   "title": "The Tanya as a private audience with the Alter Rebbe",
+   "summary": "The Alter Rebbe wrote the Tanya so every Jew could find the answer he would seek in a private meeting.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2183,
+   "end_sec": 3252,
+   "type": "text_study",
+   "title": "The king's dwelling, Ashreinu, and faith as the one mitzvah",
+   "summary": "The parable of the king in the villager's home, the inheritance of the Avos, Chavakuk's single principle of faith, and the joy of turning darkness into light."
+  },
+  {
+   "start_sec": 2183,
+   "end_sec": 2250,
+   "type": "sichah",
+   "title": "From the Rebbe's Lag BaOmer talk: 'this is the whole person'",
+   "summary": "The Rebbe quoted the chapter's words that this faith is the purpose of man and of all the worlds.",
+   "people": [
+    "the_rebbe"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "b41bd58798",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "Shiur 44 holds the two preceding classes on chapter 33; here the chapter is studied again after the Rebbe's Lag BaOmer talk."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "yi"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete class ending with 'good night'. Loshn-koydesh quotations garbled by ASR; a short garbled stretch near 9:30."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:44Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Lag BaOmer is certain but the year is not: ASR says 5736, sibling shiurim suggest 5738.",
+   "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2045%20-%20Chapter%2033%2C%20the%20Joy%20of%20Faith%20in%20Hashem%27s%20Unity%20%28Lag%20BaOmer%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 45 - Chapter 33, the Joy of Faith in Hashem's Unity (Lag BaOmer).mp3",
+  "size_bytes": 39063204,
+  "mime_type": "audio/mpeg"
+ }
+}

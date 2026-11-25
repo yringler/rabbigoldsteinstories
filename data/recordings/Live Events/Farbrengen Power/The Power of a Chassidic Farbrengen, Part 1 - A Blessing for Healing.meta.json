@@ -1,0 +1,258 @@
+{
+ "id": "66e941c420",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Farbrengen-Power audio",
+  "filename_title": "Farbrengen part one 17 min",
+  "audio_path": "audio/Live Events/Farbrengen Power/The Power of a Chassidic Farbrengen, Part 1 - A Blessing for Healing.mp3",
+  "duration_sec": 1023.061,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part one",
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "same audio also appeared as 'Stories/Story Videos/Farbrengen Power /Farbrengen Power part 1.mp4' (different title)"
+  ]
+ },
+ "display": {
+  "title": "The Power of a Chassidic Farbrengen, Part 1: A Blessing for Healing",
+  "title_basis": "content",
+  "summary_short": "For the month of Kislev, a story from the Frierdiker Rebbe: Chassidim at a farbrengen bless a gravely ill friend, and he lives forty more years. Then the history of the Alter Rebbe's portrait.",
+  "summary_long": "The storyteller explains why the Rebbe asks for many Chassidic farbrengens in the month of Kislev, and shares the first of two stories told by the Frierdiker Rebbe. In the years when the Alter Rebbe still traveled to learn from Rabbi Menachem Mendel of Horodok, the students sat together at a farbrengen. A Chassid whom the doctors had given up on stood up in tears and begged his friends for a blessing. Some laughed that simple people cannot bless, and a nigun did not calm him. Then the Alter Rebbe reminded them of the note from Heaven: what a Chassidic farbrengen can accomplish, even the angel Michael cannot. Together, with love for one another, they blessed him, and he lived more than forty years longer. The Alter Rebbe explained with a parable of a father whose quarrelsome children learn to love each other, so that he grants all their wishes. Along the way the storyteller teaches that a doctor's job is to heal, not to predict how long someone will live. The piece ends with the story of the Alter Rebbe's portrait, drawn while he was in prison, studied by the Tzemach Tzedek and later printed by his great-great-grandson, setting up the second story.",
+  "lesson": "When Yidden gather with love and care for one another, Hashem grants their requests; to receive Hashem's blessings, help others.",
+  "keywords": [
+   "farbrengen",
+   "blessing",
+   "sick Chassid",
+   "doctors",
+   "angel Michael",
+   "nigun",
+   "parable",
+   "father and children",
+   "portrait",
+   "Alter Rebbe's picture",
+   "Petersburg"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "farbrengen_power",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "farbrengen",
+   "part_number": 1,
+   "of": 2
+  },
+  "collections": [
+   "Farbrengen-Power audio"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A Chassid is gravely ill and the doctors have given up on him; he recovers."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Alter Rebbe's imprisonment is mentioned in passing."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_menachem_mendel_of_horodok",
+    "role": "appears"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "appears"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "A gravely ill Chassid",
+   "The students of the Maggid of Mezritch",
+   "Rabbi Shmaryahu Schneersohn, great-great-grandson of the Alter Rebbe"
+  ],
+  "topics": [
+   "chassidim",
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "hiskashrus"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "emunah"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "yud_tes_kislev",
+   "kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "Two stories heard from the Frierdiker Rebbe."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe, in the name of the Frierdiker Rebbe: a doctor's job is to heal, not to say how long a person will live."
+   }
+  ],
+  "places": [
+   "Horodok",
+   "Petersburg",
+   "Eretz Yisroel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 78,
+   "type": "talk",
+   "title": "Farbrengens in the month of Kislev",
+   "summary": "The Rebbe asks for many Chassidic farbrengens in Kislev, and two stories from the Frierdiker Rebbe show why."
+  },
+  {
+   "start_sec": 78,
+   "end_sec": 520,
+   "type": "story",
+   "title": "The blessing at the farbrengen",
+   "summary": "The Alter Rebbe reminds his friends of the power of a farbrengen, and their blessing heals a gravely ill Chassid.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_menachem_mendel_of_horodok"
+   ]
+  },
+  {
+   "start_sec": 520,
+   "end_sec": 785,
+   "type": "talk",
+   "title": "The Alter Rebbe's parable of the father and his children",
+   "summary": "When Hashem sees His children caring for each other, He grants their requests, like a father delighted by his children's good midos.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 785,
+   "type": "talk",
+   "title": "The story of the Alter Rebbe's portrait",
+   "summary": "The portrait drawn during the Alter Rebbe's imprisonment, studied by the Tzemach Tzedek and later printed by a descendant.",
+   "people": [
+    "alter_rebbe",
+    "tzemach_tzedek",
+    "rebbe_maharash"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "f23035fd23",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'Farbrengen part two 15 min 2'."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The portrait section refers to a picture shown on screen (from the video version). Ends right after a short closing sentence; may be cut slightly short."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Live%20Events/Farbrengen%20Power/The%20Power%20of%20a%20Chassidic%20Farbrengen%2C%20Part%201%20-%20A%20Blessing%20for%20Healing.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Live Events/Farbrengen Power/The Power of a Chassidic Farbrengen, Part 1 - A Blessing for Healing.mp3",
+  "size_bytes": 12277825,
+  "mime_type": "audio/mpeg"
+ }
+}

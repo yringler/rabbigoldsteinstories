@@ -1,0 +1,394 @@
+{
+ "id": "8707992670",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "43 P33",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 43 - Joy in True Faith, Tanya Chapter 33 (Lag BaOmer).mp3",
+  "duration_sec": 3760.614,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 43: Joy in True Faith, Tanya Chapter 33 (Lag BaOmer)",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya shiur on chapter 33: faith that nothing exists apart from Hashem, the double joy of making Him a home in this world, and a Lag BaOmer talk.",
+  "summary_long": "Shiur 43 in Rabbi Yosef Goldstein's Yiddish Tanya series holds two sessions on chapter 33. The first, joined partway through, explains the true unity of Hashem: the world is nothing apart from Him, a faith inherited from Avraham Avinu. The prophet Chavakuk built all the mitzvos on faith, and joy is the sign that a person truly believes. The second session goes on: 'the tzaddik lives by his faith' makes every mitzvah alive. The Arizal prayed to do mitzvos as simply as a plain Jew, and the luz bone, fed by the Melave Malka meal, shows how faith revives like the resurrection of the dead. The joy is double: we rejoice that the King lives with us, and Hashem rejoices in His home below; the Tzemach Tzedek would give his whole Olam Haba for one pair of tzitzis. He explains the difference between restraining the yetzer hara and transforming it, with a memory of the Rebbe Rashab's talks being brought to the Frierdiker Rebbe; nature as hidden miracles; and the Frierdiker Rebbe's call to make America a place of Torah. He closes with 'Yismach Yisroel b'osav', one of the Rebbe's Twelve Pesukim, and the joy of Lag BaOmer that week.",
+  "lesson": "Living with the faith that Hashem is everywhere makes every mitzvah alive and fills a Jew with joy, and his mitzvos in turn give joy to Hashem.",
+  "keywords": [
+   "true unity",
+   "dirah b'tachtonim",
+   "joy",
+   "luz bone",
+   "tzitzis",
+   "yetzer hara",
+   "nature and miracles",
+   "America",
+   "Rashbi",
+   "Twelve Pesukim"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "rishonim_acharonim"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "33",
+    "to": "33",
+    "lecture_number": 43,
+    "note": "Two sessions: the end of one on the opening of ch. 33, then a session from 'b'emunaso yichyeh' to the end of the chapter; the next is announced as ch. 34."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ],
+  "date": {
+   "gregorian": "1978-05",
+   "hebrew": "Iyar 5738",
+   "hebrew_year": 5738,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "Second session: 'this week is Lag BaOmer, on Thursday'. Lag BaOmer fell on Thursday in 5738 (also 5745, 5748); 5738 best fits the series after shiur 29 in Elul 5736."
+  }
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "appears"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shmuel_levitin",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Shmuel Levitin",
+   "Rabbi Kazarnovsky"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "emunah_bitachon",
+   "hashem_in_nature",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "simcha",
+   "self_control",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "melave_malka"
+  ],
+  "calendar": [
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 33; Iggeres HaKodesh (a tzaddik after his passing)"
+   },
+   {
+    "work": "gemara",
+    "ref": "Makkos 24a (Chavakuk based the mitzvos on one)"
+   },
+   {
+    "work": "neviim",
+    "ref": "Chavakuk 2:4"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 21:33 ('Keil olam')"
+   },
+   {
+    "work": "tehillim",
+    "ref": "16:8; 90:10; 149:2"
+   },
+   {
+    "work": "midrash",
+    "ref": "Hashem desired a dwelling in the lower worlds"
+   },
+   {
+    "work": "zohar",
+    "ref": "Rashbi on his day of joy"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "the luz bone and the Melave Malka meal"
+   },
+   {
+    "work": "sefer_hasichos",
+    "ref": "Toras Shalom (talks of the Rebbe Rashab)"
+   },
+   {
+    "work": "siddur",
+    "ref": "Birchos HaShachar; Modim"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "the Twelve Pesukim; the darkness of galus"
+   }
+  ],
+  "places": [
+   "America",
+   "Eretz Yisroel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 6,
+   "end_sec": 932,
+   "type": "text_study",
+   "title": "Tanya 33: the true unity and faith",
+   "summary": "First session (joined partway): nothing exists apart from Hashem, all mitzvos rest on faith, and joy is its proof."
+  },
+  {
+   "start_sec": 427,
+   "end_sec": 520,
+   "type": "talk",
+   "title": "Shema written on parchment",
+   "summary": "The highest words are written on the lowliest material, a mitzvah done purely because Hashem commanded it."
+  },
+  {
+   "start_sec": 895,
+   "end_sec": 932,
+   "type": "closing",
+   "title": "End of the first session",
+   "summary": "Chapter 33 will continue next week."
+  },
+  {
+   "start_sec": 932,
+   "end_sec": 3647,
+   "type": "text_study",
+   "title": "Tanya 33: the tzaddik lives by his faith",
+   "summary": "Second session: faith gives life to every mitzvah and brings a double joy, ours and Hashem's."
+  },
+  {
+   "start_sec": 1056,
+   "end_sec": 1185,
+   "type": "story",
+   "title": "The Arizal's prayer",
+   "summary": "Though he knew every secret of the mitzvos, the Arizal prayed to do them simply because Hashem commanded.",
+   "people": [
+    "arizal"
+   ]
+  },
+  {
+   "start_sec": 1239,
+   "end_sec": 1414,
+   "type": "talk",
+   "title": "The luz bone and Melave Malka",
+   "summary": "One bone, nourished only by the Melave Malka meal, survives for the resurrection, a picture of faith reviving a person."
+  },
+  {
+   "start_sec": 1530,
+   "end_sec": 1969,
+   "type": "text_study",
+   "title": "A double joy",
+   "summary": "We rejoice that the King lives with us, and Hashem rejoices in His home in this lowest world."
+  },
+  {
+   "start_sec": 1969,
+   "end_sec": 2030,
+   "type": "story",
+   "title": "The Tzemach Tzedek and the tzitzis",
+   "summary": "He would give his whole Olam Haba for one pair of tzitzis.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 2030,
+   "end_sec": 2680,
+   "type": "text_study",
+   "title": "Restraining and transforming the yetzer hara",
+   "summary": "Turning darkness into light; restraining the yetzer hara every day versus transforming it."
+  },
+  {
+   "start_sec": 2384,
+   "end_sec": 2530,
+   "type": "story",
+   "title": "The Rebbe Rashab's talks and the Frierdiker Rebbe",
+   "summary": "A memory of the first printing being brought to the Frierdiker Rebbe, who said one could live seventy years on that book; not doing is certain, not wanting may be self-deception.",
+   "people": [
+    "rebbe_rashab",
+    "frierdiker_rebbe",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2680,
+   "end_sec": 3147,
+   "type": "talk",
+   "title": "Kelipos, nature and hidden miracles",
+   "summary": "The kelipos hide G-dliness until the end of galus; nature is only miracles we have grown used to, which is why we thank Hashem every morning."
+  },
+  {
+   "start_sec": 3147,
+   "end_sec": 3353,
+   "type": "talk",
+   "title": "Eretz Yisroel, the Diaspora and America",
+   "summary": "Light drawn from the darkest places gives Hashem the greatest joy, as the Frierdiker Rebbe said America too must become a place of Torah.",
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 3353,
+   "end_sec": 3647,
+   "type": "text_study",
+   "title": "Yismach Yisroel b'osav: one of the Twelve Pesukim",
+   "summary": "The passage the Rebbe chose for the Twelve Pesukim, and how mitzvos turn this divided world into a dwelling for His unity.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 3647,
+   "end_sec": 3737,
+   "type": "talk",
+   "title": "Lag BaOmer, Rashbi's day of joy",
+   "summary": "Why the day a tzaddik passed away is a day of joy and light.",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 3737,
+   "type": "closing",
+   "title": "Closing",
+   "summary": "Chapter 34 next week."
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "47ece14b5e",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains '43 end P33' (audio fingerprint)."
+  },
+  {
+   "type": "continues",
+   "target_id": "7f12daa2fe",
+   "evidence": "filename",
+   "confidence": 0.6,
+   "note": "Shiur 42 finishes chapter 32; this file opens partway into chapter 33, so a session may be missing between them."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "truncated_start",
+   "multiple_programs"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two sessions on one tape (second starts at about 15:32); the first is joined partway. ASR loops near 26:30, 42:45, 55:25 and 57:55. '43 end P33' is the last ~31 minutes of this file (from about 30:58)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:26Z",
+  "confidence": {
+   "title": "high",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Year inferred from a Thursday Lag BaOmer (5738 assumed; 5745 or 5748 possible).",
+   "The first 15 minutes may belong to a separate shiur (between 42 and 43).",
+   "Speaker taken from the folder name."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2043%20-%20Joy%20in%20True%20Faith%2C%20Tanya%20Chapter%2033%20%28Lag%20BaOmer%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 43 - Joy in True Faith, Tanya Chapter 33 (Lag BaOmer).mp3",
+  "size_bytes": 45128210,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "2fca5cb02e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Learning Chumash 213",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Learning the Weekly Parsha Every Day (Ep 213).mp3",
+  "duration_sec": 193.736,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 213,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 213,
+   "story": "The ten wedding gifts #4",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Learning the Weekly Parsha Every Day",
+  "title_basis": "content",
+  "summary_short": "In the week of Tetzaveh, Uncle Yossi explains why we learn a portion of the weekly sedra with Rashi each day, so the Torah fills every day of our lives.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given in the week of Parshas Tetzaveh. Uncle Yossi explains that each Shabbos we read a new sedra, but we do not wait for Shabbos to learn it: starting on Sunday we study it every day, together with Rashi's explanations, so we are ready by Shabbos. He introduces Rashi, Rabbi Shlomo ben Yitzchak, and explains that the sedra is divided into seven parts, one for each day: Sunday from the beginning until Sheni, Monday from Sheni until Shlishi, and so on until Shabbos completes it. We learn Torah every single day to show Hashem how much we love His Torah, and because the Torah is our very life, as we say each evening in davening: 'ki hem chayeinu', the words of Torah are our life and the length of our days.",
+  "lesson": "Learn a part of the weekly parsha with Rashi every day; a day should never pass without Torah.",
+  "keywords": [
+   "weekly sedra",
+   "Rashi",
+   "seven parts",
+   "daily study",
+   "Tetzaveh"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-02-18",
+   "hebrew": "9 Adar 1 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Here we are right in the week of Tetzaveh'; from episode 213, which also says 'today is Tuesday'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 213,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rashi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "torah_study",
+   "parsha"
+  ],
+  "midos": [
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "chitas",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "tetzaveh"
+  ],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Maariv, Ahavas Olam",
+    "note": "'Ki hem chayeinu v'orech yameinu.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "3ee5407420",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 37,
+   "note": "Episode 213 (filename number); clip = 37-230 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-greeting ('...Torah Hashem. Here we are...')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:33Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Learning%20the%20Weekly%20Parsha%20Every%20Day%20%28Ep%20213%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Learning the Weekly Parsha Every Day (Ep 213).mp3",
+  "size_bytes": 2325820,
+  "mime_type": "audio/mpeg"
+ }
+}

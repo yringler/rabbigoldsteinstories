@@ -1,0 +1,221 @@
+{
+ "id": "6ae3a00c97",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Reb Gavriel and The Pirates",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Gavriel and the Pirates.mp3",
+  "duration_sec": 2308.714,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Gavriel and the Pirates",
+  "title_basis": "filename",
+  "summary_short": "Shipwrecked on an island, Reb Gavriel stumbles into a pirates' hideout, and his trust in Hashem turns a death sentence into a long-lost student's return.",
+  "summary_long": "Reb Gavriel keeps learning Torah while a storm wrecks his ship, holding on to the Tzemach Tzedek's words, 'Think good and it will be good.' He floats on a plank to an island, washes negel vasser (with a lesson on washing after a daytime nap), and follows smoke to a hidden house under the ground, full of food. He eats only fruit he knows is kosher, after making brachos, and the storyteller explains why eating without a brachah is like taking from the Beis HaMikdash. He falls asleep on a couch, and a band of pirates returns to its hideout and finds him. Their captain threatens him with a sword and gives him five minutes for a last prayer, while Reb Gavriel wonders, with the Baal Shem Tov's teaching on hashgachah pratis, why Hashem brought him there. Then the captain looks into his eyes and goes pale: he is Moshe, a Jewish boy Reb Gavriel once taught in Smolensk, who drifted away. In tears he asks how he can do teshuvah. That night they escape with the stolen money to a Rav, the robbers are arrested, and Moshe returns to Torah and becomes a talmid chacham.",
+  "lesson": "Trust in Hashem and think good, even in danger; everything happens for a reason, and it is never too late to do teshuvah.",
+  "keywords": [
+   "shipwreck",
+   "storm",
+   "island",
+   "pirates",
+   "hideout",
+   "swords",
+   "captain",
+   "teacher",
+   "plank"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A shipwreck in a storm; pirates threaten to kill Reb Gavriel with a sword and give him five minutes to pray."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Reb Gavriel is held by pirates; resolved happily."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The pirates drink and fall asleep drunk."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Gavriel",
+   "the ship's captain",
+   "the pirate captain (Moshe, his former student)",
+   "the pirates",
+   "the Rav"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hashgacha_pratis",
+   "teshuvah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "courage",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "negel_vasser",
+   "brachos",
+   "kashrus",
+   "teshuvah",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Smolensk"
+  ],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek's saying 'Tracht gut vet zain gut' (think good and it will be good)."
+   },
+   {
+    "work": "gemara",
+    "note": "'Our Chachamim tell us' that eating without a brachah is like taking from hekdesh."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 420,
+   "type": "story",
+   "title": "The storm and the shipwreck",
+   "summary": "Reb Gavriel keeps learning through a storm and is saved on a floating plank."
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 530,
+   "type": "halachah",
+   "title": "Negel vasser after a nap",
+   "summary": "Washing negel vasser after daytime sleep, and keeping the water by the bed at night."
+  },
+  {
+   "start_sec": 530,
+   "end_sec": 895,
+   "type": "story",
+   "title": "The hidden house on the island",
+   "summary": "Reb Gavriel finds an underground house full of food and eats only what he knows is kosher."
+  },
+  {
+   "start_sec": 895,
+   "end_sec": 1020,
+   "type": "halachah",
+   "title": "Why we make a brachah",
+   "summary": "Eating without a brachah is like taking from the Beis HaMikdash."
+  },
+  {
+   "start_sec": 1020,
+   "type": "story",
+   "title": "The pirates' captain",
+   "summary": "Pirates capture Reb Gavriel, and their captain turns out to be his long-lost student, who does teshuvah."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Dramatized telling with character voices and pauses. No opening song or sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:30:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "No opening song; series and narrator assigned from style (dramatized voices, 'Kindelach' asides, the Tzemach Tzedek's 'tracht gut' refrain), matching 21a742a4c5. Confirm."
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No song or series name; same dramatized style and 'tracht gut' refrain as 'Shlomo h' (21a742a4c5), whose other copy opens with the 'I believe' song.",
+   "at_sec": 0
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Reb%20Gavriel%20and%20the%20Pirates.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Gavriel and the Pirates.mp3",
+  "size_bytes": 27705512,
+  "mime_type": "audio/mpeg"
+ }
+}

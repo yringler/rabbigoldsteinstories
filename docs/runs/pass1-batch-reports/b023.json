@@ -1,0 +1,16 @@
+{
+ "batch_id": "b023",
+ "done": ["b088ce6ac1", "c196337601", "4312b85cb2", "5883b47d62", "c857948984", "e4290bb182", "deeb616357", "6c85a42c28", "bf55594028", "3793de478c", "7159699bdb", "18a5d3d2b2", "9ba0d1a6a7", "230e82ccab", "b69e250698", "f72441c6af", "378f6dd25e", "7203ee178e", "5ec266a540", "7f23a52931", "db9712388b"],
+ "failed": [],
+ "notes": [
+  "Episodes 345-346 (Sep-Oct 1988) are chapters 6 and 7 of 'The Storyteller' (catalog 'The storyteller #1-#7'); chapters 1-5 should be episodes 340-344, which were not in this batch. Other items use the same story_key 'the-storyteller' for the 1987 (264, 267) and 1989 (407-409) tellings. Pass 2 should check whether 345/346 are rebroadcasts of earlier recordings.",
+  "Duplicate pairs: c857948984 / e4290bb182 (Tishrei 346; c857948984 preferred), b69e250698 / f72441c6af (Rosh Chodesh Kislev 350; b69e250698 preferred), 7f23a52931 / db9712388b (Kiddush Levana 352; the '(2)' file 7f23a52931 preferred). Each is a cut of the same recording; the preferred copy starts a word or two earlier.",
+  "Pipeline flags: 'Teshuvah 345' also existed as 'Yomim Tovim/Rosh Hashana 345' (it is really an Erev Yom Kippur talk about Tashlich and teshuvah); 'Parshas Vayeitzei 351' also existed as 'Parsha of the Week/Vayetze 351'.",
+  "'Little Avraham' (catalog rows 348 and 351) is the same story recording in both episodes 348 and 351; same_story relations added both ways.",
+  "Episode 352 starts 'The Blessing of a Tzaddik' and repeats chapter 1 of episode 127 (0a9df2758e) and 371 (4691bcb442). Existing items use two different story keys for this serial: 'a-blessing-from-a-tzaddik' (127) and 'the-blessing-of-a-tzaddik' (371, and now 352, from the catalog title). Pass 2 should make them the same.",
+  "3793de478c (Heritage Series 2, 'Radatz Rayatz Alef Bais 347') re-aired in episodes 375 and 474. The teacher in the story is 'the Radatz' (heard as Reb Chaim Dovid Tzvi Chein); the spelling needs checking.",
+  "deeb616357 ('Moshiach 346'): speech ends at 98 s, but the rest of the file is the song 'Uvnei Yerushalayim' by the host's late father, so no trim was set. It is a personal memoir by Uncle Yossi about his parents.",
+  "Proposed new terms: people 'rabbi_yisrael_salanter' (episode 349, the cobbler and the lamp); mitzvos 'kiddush_levanah' (352 items).",
+  "Process note: the shared scratchpad has a 'build.py' that belongs to another agent. My first heredoc may have collided with it briefly, but its current contents are the other agent's. My builder is in scratchpad/b023/build.py."
+ ]
+}

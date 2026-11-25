@@ -1,0 +1,154 @@
+{
+ "id": "83acbfb2e0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Yud Tes Kislev 2",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Kislev - The Alter Rebbe's Miracle (Ep 002).mp3",
+  "duration_sec": 225.202,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 2,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 2,
+   "story": "The Search- Little Avraham",
+   "topic": "Yud Tes Kislev",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud-Tes Kislev: The Alter Rebbe's Miracle",
+  "title_basis": "content",
+  "summary_short": "Why the 19th of Kislev is a date to remember: the Alter Rebbe, jailed for teaching Torah, was saved by a miracle from Hashem.",
+  "summary_long": "A short talk broadcast on Yud-Tes Kislev 5742. Uncle Yossi explains that it helps to know the Hebrew month and date, because then you know when there is a special day. We are in Kislev, the third month after Tishrei and Cheshvan, and today is the 19th. On this day Jews around the world celebrate a great miracle: Rabbi Schneur Zalman of Liadi, the Alter Rebbe and author of the Tanya, lived where practicing Judaism was forbidden and was put in jail for teaching Torah and mitzvos, and Hashem saved him. He is a living example for all generations of how to stay firm and strong against anyone who tries to stop us from learning Torah and keeping mitzvos. Next time the calendar says Yud-Tes Kislev, it will have \"a special tingle\".",
+  "lesson": "Stand firm and strong in learning Torah and keeping mitzvos, like the Alter Rebbe, whatever tries to stop you.",
+  "keywords": [
+   "Hebrew calendar",
+   "Kislev",
+   "Liadi",
+   "jail",
+   "miracle",
+   "Tanya"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1981-12-15",
+   "hebrew": "19 Kislev 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 2, which says 'today is the 19th day of the month of Kislev'."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 2,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Alter Rebbe was jailed for teaching Torah and his life was in danger.",
+    "at_sec": 90
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar"
+  ],
+  "midos": [
+   "courage",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "beeb398177",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 500,
+   "note": "Episode 2 (filename number); clip = 500-725 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins mid-sentence ('Let's take today, for instance') but makes sense on its own."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:41:45Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Tes%20Kislev%20-%20The%20Alter%20Rebbe%27s%20Miracle%20%28Ep%20002%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Kislev - The Alter Rebbe's Miracle (Ep 002).mp3",
+  "size_bytes": 2703240,
+  "mime_type": "audio/mpeg"
+ }
+}

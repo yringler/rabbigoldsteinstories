@@ -1,0 +1,260 @@
+{
+ "id": "e2cf00d09c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Shmiras HaZman 126",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Every Day Counts - Sefirah, Time, and Miriam's Lost Dime (Ep 126) (other version).mp3",
+  "duration_sec": 398.686,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 126,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 126,
+   "story": "The whispering droplets",
+   "topic": "ספירה",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Every Day Counts: Sefirah, Time, and Miriam's Lost Dime",
+  "title_basis": "content",
+  "summary_short": "Why we count the days of Sefirah: time is a precious gift from Hashem. A funny story about a girl who keeps crying over a lost dime shows why we should not waste what we have now.",
+  "summary_long": "A talk from the Tzivos Hashem radio show during Sefiras HaOmer, on the midah of guarding time (shmiras hazman). Uncle Yossi points out that during Sefirah all we do is count days, and even make a brachah on it, because every day matters and each day should be one step higher than the day before. Time cannot be bought, stopped or slowed, and time that is lost never comes back. He tells of little Miriam, who lost a dime and kept crying even after her mother gave her more, because she was still thinking of the one she lost; her mother laughs that no amount will help until she stops mourning the lost dime and takes care of the ones she has. Like a person who loves to count his jewels, we count our days and fill them with Torah and mitzvos, and Hashem rewards us with long life, as the second paragraph of the Shema says.",
+  "lesson": "Time is a precious gift from Hashem: do not waste it or cry over what is lost, but fill each new day with Torah and mitzvos and make it better than the one before.",
+  "keywords": [
+   "counting days",
+   "time",
+   "lost dime",
+   "Miriam",
+   "jewels",
+   "long life"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 126,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-05",
+   "hebrew": "Iyar 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 126 ('in the middle of the days of Sefirah'); weekly spacing gives 29 May 1984. The same talk also aired in other years."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Miriam",
+   "Miriam's mother"
+  ],
+  "topics": [
+   "calendar",
+   "character"
+  ],
+  "midos": [
+   "zerizus",
+   "hasmadah",
+   "contentment",
+   "valuing_time"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'L'maan yirbu yemeichem', from the second paragraph of the Shema."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "03bfbdd2c3",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 24."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4c22e88ed2",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 324."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6ad37ebe02",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 273."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "82672b0336",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 426."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b83f53e345",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 530."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "eb89723366",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 29,
+   "note": "Episode 126 (filename number); clip = 29-428 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "2a6ad8add6",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.75,
+   "note": "Audio contained in the clip 'Sefira 273', cut from a re-airing of this talk in episode 273."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "27e4be78a2",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Preferred version: the same Sefirah 'lost dime' talk re-aired in episode 126, word for word; the episode-24 cut is the first airing."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "27e4be78a2",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Same recording (other transfer/cut)."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "f71ee91642",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "Same recording (other transfer/cut)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 15:28-18:02), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ea3bc56c0e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Precious Gift of Time: The Boy Who Lost His Dollar' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "7226693357",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Making Every Day Count (Zalman and the Lost Nickel)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8fa0b3541e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:17-25:47), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cab583e2b7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:27-25:56), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 27e4be78a2 ('Sefira-3 24'), the preferred copy: the same Sefirah 'lost dime' talk re-aired in episode 126, word for word; the episode-24 cut is the first airing. Self-contained talk. Filename 'Shmiras HaZman' = guarding time."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:54:56Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Every%20Day%20Counts%20-%20Sefirah%2C%20Time%2C%20and%20Miriam%27s%20Lost%20Dime%20%28Ep%20126%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Every Day Counts - Sefirah, Time, and Miriam's Lost Dime (Ep 126) (other version).mp3",
+  "size_bytes": 4785295,
+  "mime_type": "audio/mpeg"
+ }
+}

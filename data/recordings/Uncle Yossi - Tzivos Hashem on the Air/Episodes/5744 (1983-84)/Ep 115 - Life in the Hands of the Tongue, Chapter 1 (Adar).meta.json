@@ -1,0 +1,342 @@
+{
+ "id": "29dc93d7ca",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "115",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 115 - Life in the Hands of the Tongue, Chapter 1 (Adar).mp3",
+  "duration_sec": 1825.002,
+  "filename_facts": {
+   "episode_number": 115,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 115,
+   "story": "Life in the hands of the tongue #1",
+   "topic": "חפץ חיים",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 115: Life in the Hands of the Tongue, Chapter 1 (Adar)",
+  "title_basis": "master_catalog",
+  "summary_short": "The Chofetz Chaim's lesson that words are like arrows, and the first chapter of the story of a hunter, a lion's milk and a dream in which the tongue claims to be king.",
+  "summary_long": "Broadcast in Adar I 5744, a leap year with two months of Adar to grow in simchah before Purim. After the Hakochainik march and a sponsor, a young guest leads the Shema in Studio 604. Story time opens with the Chofetz Chaim and his teaching of shmiras halashon: a person's life depends on his tongue. Like an arrow on a bowstring, words can still be chosen before we speak but cannot be called back once spoken, which is why Hashem guarded the tongue behind teeth and lips. The story: a beloved king falls gravely ill and can be cured only by lion's milk. A brave hunter takes ten goats, feeds the lion one each day until it trusts him, and fills a bucket with its milk. Resting on the way back, he dreams that his feet, hands, brain, eyes and ears each claim the reward, and when the tongue claims it too, they all laugh at it. The angry tongue vows to prove it is king of the body, to be continued. The mailbox brings a birthday request and a boy's wish that the show aired later. Uncle Yossi shares that most of his stories came from his late mother, whose yahrzeit is in Adar.",
+  "lesson": "Think before you speak: once words leave your mouth you cannot call them back, so guard your tongue.",
+  "keywords": [
+   "bow and arrow",
+   "tongue",
+   "lion's milk",
+   "hunter",
+   "ten goats",
+   "sick king",
+   "dream",
+   "body parts",
+   "Purim",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 115,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash",
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1984-02",
+   "hebrew": "Adar I 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'This year we have two Adars' and Purim is approaching (5744 was a leap year); a yahrzeit 'Beis Adar' is mentioned. Likely late Feb 1984."
+  },
+  "serial": {
+   "story_key": "life-in-the-hands-of-the-tongue",
+   "story_title": "Life in the Hands of the Tongue",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A king is gravely ill and no doctor can cure him.",
+    "at_sec": 781
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest, two letter writers and a birthday child named in full.",
+    "at_sec": 355
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the hunter",
+   "the lion",
+   "the feet, hands, brain, eyes, ears and tongue"
+  ],
+  "topics": [
+   "character",
+   "great_rabbis",
+   "calendar"
+  ],
+  "midos": [
+   "shemiras_halashon",
+   "simcha",
+   "courage"
+  ],
+  "mitzvos": [
+   "shemiras_halashon",
+   "shema"
+  ],
+  "calendar": [
+   "adar",
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: learn how to serve Hashem from everything you see or hear."
+   },
+   {
+    "work": "gemara",
+    "ref": "Arachin 15b",
+    "note": "'Our Sages tell us' Hashem guarded the tongue with two walls, the teeth and the lips."
+   },
+   {
+    "work": "midrash",
+    "note": "The story of the lion's milk and the quarreling limbs is 'told by our Sages' (no reference given)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 78,
+   "type": "opening",
+   "title": "Greeting: two months of Adar before Purim",
+   "calendar": [
+    "adar",
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 78,
+   "end_sec": 200,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 200,
+   "end_sec": 320,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 320,
+   "end_sec": 449,
+   "type": "shema_guest",
+   "title": "Shema with a guest in Studio 604"
+  },
+  {
+   "start_sec": 449,
+   "end_sec": 530,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 530,
+   "end_sec": 781,
+   "type": "story_intro",
+   "title": "The Chofetz Chaim and the bow and arrow",
+   "summary": "Words are like arrows: before we speak we control them, after we speak we cannot take them back.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "linked_items": [
+    "03f01eb654",
+    "212c1a5998"
+   ]
+  },
+  {
+   "start_sec": 781,
+   "end_sec": 1347,
+   "type": "story_chapter",
+   "title": "Life in the Hands of the Tongue, Chapter 1",
+   "summary": "A hunter brings lion's milk for a sick king, then dreams that his limbs quarrel and laugh at the tongue's claim to be king.",
+   "story_key": "life-in-the-hands-of-the-tongue",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1347,
+   "end_sec": 1640,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a birthday and a later time slot",
+   "summary": "A girl asks for birthday wishes, and her brother hopes the show will air later; Uncle Yossi suggests taping it."
+  },
+  {
+   "start_sec": 1640,
+   "end_sec": 1690,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1690,
+   "end_sec": 1782,
+   "type": "announcement",
+   "title": "Birthday greeting and a yahrzeit"
+  },
+  {
+   "start_sec": 1782,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "03f01eb654",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'chofetz chaim 115' = 549-621 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "212c1a5998",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Shmiras Halashon 115' = 550-781 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "77cf0ad617",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Life in the Hands of the Tongue' (1984): ep 115 ch. 1 and ep 116 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sponsor messages are period pieces (the clothing-store ad repeats from episode 114 with a 'till February 15' sale). The host mentions his late mother's yahrzeit (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Mutchkin",
+    "role": "shema_guest",
+    "start_sec": 354,
+    "end_sec": 449
+   },
+   {
+    "name": "Bracha Heinemann",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1430,
+    "end_sec": 1640,
+    "note": "Asked for birthday wishes; also heard as 'Heinerman'."
+   },
+   {
+    "name": "Yosef Heinemann",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1430,
+    "end_sec": 1640,
+    "note": "Going into fifth grade; asked for a later air time."
+   },
+   {
+    "name": "Naftali Friedman",
+    "role": "birthday",
+    "start_sec": 1691,
+    "end_sec": 1720,
+    "note": "Eighth birthday."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The host says his late mother, Chaya Malka bas Dina, told him most of the program's stories; her yahrzeit is 2 Adar.",
+    "start_sec": 1720,
+    "end_sec": 1782
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:35Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20115%20-%20Life%20in%20the%20Hands%20of%20the%20Tongue%2C%20Chapter%201%20%28Adar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 115 - Life in the Hands of the Tongue, Chapter 1 (Adar).mp3",
+  "size_bytes": 21901069,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "id": "0b07a8778f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "499",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 499 - Reb Ariel and the Lion (Parshas Vayeira) (1991-10-22).mp3",
+  "duration_sec": 1825.421,
+  "filename_facts": {
+   "episode_number": 499,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 499,
+   "story": "Reb Ariel and the lion",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 499: Reb Ariel and the Lion (Parshas Vayeira)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's Vayeira show: Avraham Avinu's tent of kindness, Shema with a young guest, and the story of Reb Ariel, who kept Shabbos alone in the wilderness and was guarded by a lion.",
+  "summary_long": "Broadcast in the week of Parshas Vayeira. Uncle Yossi explains the Alter Rebbe's teaching to 'live with the times', which the Mitteler Rebbe explained as living with the weekly sedra. In Vayeira, Avraham Avinu sets up his tent by the highway, feeds weary travelers and teaches them to thank Hashem instead of him, and children can do the same by helping a friend learn about Hashem. After the Hakochainik march, an eight-year-old girl from a Brooklyn girls' school leads the Shema and everyone gives tzedakah. Story time: on Friday afternoon little Devorah helps her mother prepare for Shabbos and retells a story she heard at her class Shabbos party. Reb Ariel joins a caravan on condition that it rests on Shabbos, but the travelers break their word and leave him alone in the wilderness. A huge lion appears and guards him all Shabbos, then carries him on its back after Havdalah to the caravan, which had been attacked by wild animals. The travelers beg forgiveness and make him their teacher. The show closes with a listener's letter, how to write in, and candle-lighting times.",
+  "lesson": "Whoever guards Shabbos is guarded by Shabbos; and like Avraham Avinu, use kindness to bring others closer to Hashem.",
+  "keywords": [
+   "lion",
+   "caravan",
+   "wilderness",
+   "Avraham's tent",
+   "travelers",
+   "Shabbos party",
+   "Shabbos table",
+   "Havdalah",
+   "Studio 604",
+   "mailbox",
+   "candle lighting"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 499,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-10-22",
+   "hebrew": "14 Cheshvan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'The week of Vayeira'; candles 5:45, Shabbos ends 6:44: late Oct 1991 before the clock change. Fits the weekly run to episode 504 (Yud-Tes Kislev 5752)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A rabbi is left alone in a wilderness with wild animals; a huge lion approaches (it protects him); the caravan is attacked by wild beasts.",
+    "at_sec": 1180
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest and a mailbox letter writer are named in full on air.",
+    "at_sec": 696
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Ariel",
+   "the caravan leader",
+   "Devorah",
+   "Devorah's mother",
+   "the lion"
+  ],
+  "topics": [
+   "parsha",
+   "shabbos",
+   "miracles",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "chesed",
+   "ahavas_yisroel",
+   "bitachon",
+   "courage",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "hachnasas_orchim",
+   "brachos",
+   "shema",
+   "tzedakah",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeira"
+  ],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "'Live with the times' (the Alter Rebbe)",
+    "note": "Explained by the Mitteler Rebbe as living with the weekly sedra."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 53,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 53,
+   "end_sec": 459,
+   "type": "talk",
+   "title": "Vayeira: Avraham Avinu's Tent of Kindness",
+   "summary": "Living with the weekly sedra: Avraham feeds travelers and teaches them to thank Hashem, and children can bring friends closer to Hashem too.",
+   "people": [
+    "avraham_avinu",
+    "alter_rebbe",
+    "mitteler_rebbe"
+   ],
+   "linked_items": [
+    "de2e1dfc33"
+   ]
+  },
+  {
+   "start_sec": 459,
+   "end_sec": 670,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 845,
+   "type": "shema_guest",
+   "title": "Shema with a young guest from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 845,
+   "end_sec": 880,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 880,
+   "end_sec": 1586,
+   "type": "story",
+   "title": "Reb Ariel and the Lion",
+   "summary": "Devorah retells her teacher's story: Reb Ariel, abandoned in the wilderness for keeping Shabbos, is guarded and carried by a lion sent by Hashem."
+  },
+  {
+   "start_sec": 1586,
+   "end_sec": 1690,
+   "type": "mailbox",
+   "title": "A listener's letter and how to write in"
+  },
+  {
+   "start_sec": 1690,
+   "end_sec": 1718,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1718,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "de2e1dfc33",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Vayera 499' = 55-453 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "db6ee5b364",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Rabbi Meir Baal HaNess and the Lion in the Desert' (Stories), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 19:25-32:00), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content",
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Brief dropout or splice at about 21:05-21:44 in the story (ASR fills it with 'Rabbi Akiva'). Candle times and Dial-a-Jewish-Story number are period pieces. ASR spells the hero 'Gabriel', 'Riel', 'Real'."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Bracha Malka Kladni",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Brooklyn; age 8",
+    "start_sec": 696,
+    "end_sec": 845
+   },
+   {
+    "name": "Morah Chaya",
+    "role": "other",
+    "group": "Teacher of the Shema guest, Beis Yaakov of Brooklyn",
+    "start_sec": 723,
+    "end_sec": 740
+   },
+   {
+    "name": "Miriam Fine",
+    "role": "mailbox_letter",
+    "group": "Newark, New Jersey",
+    "start_sec": 1586,
+    "end_sec": 1670
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:17:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20499%20-%20Reb%20Ariel%20and%20the%20Lion%20%28Parshas%20Vayeira%29%20%281991-10-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 499 - Reb Ariel and the Lion (Parshas Vayeira) (1991-10-22).mp3",
+  "size_bytes": 21906084,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "id": "c64683724a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2",
+  "filename_title": "Shema Beni 2",
+  "audio_path": "audio/Uncle Yossi - Shema B'ni/Shabbos Chazon - A Glimpse of the Third Beis HaMikdash.mp3",
+  "duration_sec": 776.072,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Chazon: A Glimpse of the Third Beis HaMikdash",
+  "title_basis": "content",
+  "summary_short": "Why the Shabbos before Tisha B'Av is called Shabbos Chazon, and Rabbi Levi Yitzchak of Berditchev's parable of a father who sewed three garments for his son.",
+  "summary_long": "Rabbi Goldstein welcomes listeners back to Shema B'ni and thanks them for their letters. This coming Shabbos is special: we begin Devarim, the fifth book of the Chumash, and it is Shabbos Chazon, named for the haftorah 'Chazon Yeshayahu', which warns of what happens when the Jewish people forsake the Torah, a fitting theme for the Nine Days and for Tisha B'Av, which falls on Shabbos that year. Then comes a deeper reason. The third Beis HaMikdash is already built and waiting in Heaven, and our Torah, davening and mitzvos, especially Shabbos, can bring it down sooner. Rabbi Hillel of Paritch taught in the name of Rabbi Levi Yitzchak of Berditchev that on Shabbos Chazon Hashem shows every Jew a vision of it from afar. He compared it to a father who sewed a precious garment for his son, saw it torn, sewed a second that was torn too, and then locked the third away, showing it to the boy only at set times until he learned to take care of it. Children are encouraged to learn, daven, keep Shabbos and give tzedakah, so that they may feel something special this Shabbos.",
+  "lesson": "Hashem has the third Beis HaMikdash ready and waiting; through Torah, davening, Shabbos and tzedakah we show we deserve it and bring it sooner.",
+  "keywords": [
+   "third Beis HaMikdash",
+   "haftorah",
+   "vision",
+   "garment",
+   "parable",
+   "father and son",
+   "Sefer Devarim",
+   "letters"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "shema_beni",
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable",
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week before Shabbos Chazon, Parshas Devarim, in a year when Tisha B'Av fell on Shabbos",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "9 Av on Shabbos: e.g. 5731, 5738, 5745, 5748 or 5751; year not stated."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Mentions the destruction of the first and second Beis HaMikdash, in a hopeful frame."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_hillel_of_paritch",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yeshayahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the father in the parable",
+   "his son"
+  ],
+  "topics": [
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah",
+   "parsha",
+   "teshuvah"
+  ],
+  "midos": [
+   "responsibility",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "shabbos",
+   "tzedakah",
+   "teshuvah"
+  ],
+  "calendar": [
+   "shabbos_chazon",
+   "three_weeks",
+   "nine_days",
+   "tisha_bav"
+  ],
+  "parshiyos": [
+   "devarim"
+  ],
+  "sources_cited": [
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 1:1",
+    "note": "The haftorah 'Chazon Yeshayahu' read on Shabbos Chazon."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Rabbi Hillel of Paritch in the name of Rabbi Levi Yitzchak of Berditchev: the vision of the third Beis HaMikdash on Shabbos Chazon."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 31,
+   "type": "opening",
+   "title": "Welcome to Shema B'ni",
+   "summary": "Rabbi Goldstein greets the children and thanks them for their letters."
+  },
+  {
+   "start_sec": 31,
+   "end_sec": 185,
+   "type": "talk",
+   "title": "Sefer Devarim and the haftorah of Chazon",
+   "summary": "This Shabbos begins the fifth book of the Chumash and is called Shabbos Chazon after its haftorah.",
+   "calendar": [
+    "shabbos_chazon",
+    "nine_days"
+   ]
+  },
+  {
+   "start_sec": 185,
+   "end_sec": 438,
+   "type": "talk",
+   "title": "The third Beis HaMikdash waiting in Heaven",
+   "summary": "The third Beis HaMikdash is already built in Heaven, and on Shabbos Chazon those who are worthy are shown it."
+  },
+  {
+   "start_sec": 438,
+   "end_sec": 686,
+   "type": "story",
+   "title": "The father and the three garments",
+   "summary": "Rabbi Levi Yitzchak of Berditchev's parable of a father who keeps the third garment locked away until his son learns to care for it.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev",
+    "rabbi_hillel_of_paritch"
+   ]
+  },
+  {
+   "start_sec": 686,
+   "end_sec": 745,
+   "type": "talk",
+   "title": "Learning, davening and tzedakah bring it closer",
+   "summary": "Children are encouraged to learn, daven, keep Shabbos and give tzedakah so they feel something special this Shabbos."
+  },
+  {
+   "start_sec": 745,
+   "type": "closing",
+   "title": "Good wishes and good night",
+   "summary": "Rabbi Goldstein wishes the children success in Torah and mitzvos."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Shabbos' and Tisha B'Av on Shabbos that year. ASR garbles Beis HaMikdash, Berditchev and Paritch."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Year unknown: Tisha B'Av fell on Shabbos (5731, 5738, 5745, ...); likely the same summer as Shema B'ni 1 (46049ff3d0)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Shema%20B%27ni/Shabbos%20Chazon%20-%20A%20Glimpse%20of%20the%20Third%20Beis%20HaMikdash.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Shema B'ni/Shabbos Chazon - A Glimpse of the Third Beis HaMikdash.mp3",
+  "size_bytes": 9313654,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,316 @@
+{
+ "id": "ab6f22d096",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "550",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 550 - The Rebbe of Chortkov and the Missing Tzedakah Purse (1992-11-29).mp3",
+  "duration_sec": 1835.035,
+  "filename_facts": {
+   "episode_number": 550,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 550,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 550: The Rebbe of Chortkov and the Missing Tzedakah Purse",
+  "title_basis": "content",
+  "summary_short": "Ahavas Yisroel in body and soul, Shema with a brother and sister, and the story of a faithful servant who claimed he took his Rebbe's tzedakah money so the poor would not go without.",
+  "summary_long": "Uncle Yossi explains what Tzivos Hashem is about: Ahavas Yisroel as the Baal Shem Tov taught it, helping others both in body (food, clothing, tzedakah) and in soul (Torah and mitzvos). As the Alter Rebbe said, nothing pleases parents more than seeing their children love one another, and so it is with Hashem. After the Hakochainik march and an advertisement, a brother and sister lead the Shema, and Uncle Yossi shares how the boy climbed up to get his pushka ready before the show. Story time: the Rebbe of Chortkov discovers before Pesach that a purse of 500 gold coins set aside for the poor has vanished. His trusted servant Meir Anshel says he borrowed it and repays it all. Then a nobleman returns the real purse, which a maid had stolen. Meir Anshel admits he gave his own money so the poor would have food for Pesach. The Rebbe blesses him with wealth, and Uncle Yossi says his family became the famous Rothschild bankers, known for their tzedakah. The show ends with Tehillim for the Rebbe's recovery.",
+  "lesson": "Love and help every Jew, in body and in soul; a person who gives with his whole heart is blessed by Hashem.",
+  "keywords": [
+   "gold coins",
+   "purse",
+   "servant",
+   "maid",
+   "nobleman",
+   "Rothschild",
+   "Pesach",
+   "pushka",
+   "bankers"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 550,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1992-11-29",
+   "hebrew": "4 Kislev 5753",
+   "hebrew_year": 5753,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Weekly sequence: 1 wk after ep 549 (22 Nov 1992), 2 wk before ep 552 (13 Dec 1992); no gap between them. No date cue of its own."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two child guests named in full, with their schools and teachers.",
+    "at_sec": 545
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Rebbe of Chortkov",
+   "Meir Anshel (Rothschild), the Rebbe's servant",
+   "Graf Potocki, a Polish nobleman",
+   "the maid"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "generosity",
+   "dan_lkaf_zchus",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "ahavas_yisroel_mitzvah",
+   "shema",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "The Alter Rebbe: a parent's greatest pleasure is seeing his children love each other",
+    "note": "Applied to Hashem and the Jewish people."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 20",
+    "note": "Recited together for the Rebbe's recovery."
+   }
+  ],
+  "places": [
+   "Chortkov",
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 52,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 52,
+   "end_sec": 238,
+   "type": "talk",
+   "title": "Ahavas Yisroel in Body and Soul",
+   "summary": "Tzivos Hashem's purpose: helping others physically and spiritually, as the Baal Shem Tov and the Alter Rebbe taught.",
+   "people": [
+    "baal_shem_tov",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 238,
+   "end_sec": 427,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 427,
+   "end_sec": 516,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 516,
+   "end_sec": 692,
+   "type": "shema_guest",
+   "title": "Shema with a brother and sister"
+  },
+  {
+   "start_sec": 692,
+   "end_sec": 807,
+   "type": "tzedakah",
+   "title": "Tzedakah: a guest who got his pushka ready"
+  },
+  {
+   "start_sec": 807,
+   "end_sec": 1606,
+   "type": "story",
+   "title": "The Rebbe of Chortkov and the Missing Tzedakah Purse",
+   "summary": "A servant takes the blame for missing tzedakah money and repays it from his own pocket so the poor can have Pesach, and is blessed with great wealth."
+  },
+  {
+   "start_sec": 1606,
+   "end_sec": 1737,
+   "type": "other",
+   "title": "Tehillim for the Rebbe's recovery"
+  },
+  {
+   "start_sec": 1737,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "32e12e850b",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The Chortkov Rebbe and Meir Anshel story is told nearly word for word in episode 231."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Jewelry advertisement with phone number. Child guests, their teachers and father named on air (see hidden). The Rothschild link is told as legend."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Nosson Cohen",
+    "role": "shema_guest",
+    "group": "Ohalei Torah; Rebbe: Rabbi Gurevich",
+    "start_sec": 545,
+    "end_sec": 692
+   },
+   {
+    "name": "Chani Cohen",
+    "role": "shema_guest",
+    "group": "Beis Rivkah; teachers Mrs. Katzman and Mrs. Gitlin",
+    "start_sec": 545,
+    "end_sec": 692
+   },
+   {
+    "name": "Rabbi Gurevich",
+    "role": "other",
+    "group": "Ohalei Torah (teacher)",
+    "start_sec": 662,
+    "end_sec": 672
+   },
+   {
+    "name": "Mrs. Katzman",
+    "role": "other",
+    "group": "Beis Rivkah (teacher)",
+    "start_sec": 662,
+    "end_sec": 692
+   },
+   {
+    "name": "Mrs. Gitlin",
+    "role": "other",
+    "group": "Beis Rivkah (teacher)",
+    "start_sec": 662,
+    "end_sec": 692
+   },
+   {
+    "name": "Mr. Cohen",
+    "role": "other",
+    "group": "father of the Shema guests",
+    "start_sec": 707,
+    "end_sec": 775
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Father described his son climbing a chair at home to get the pushka ready for the radio show.",
+    "start_sec": 707,
+    "end_sec": 775
+   },
+   {
+    "kind": "school",
+    "text": "Guests' schools and teachers: Ohalei Torah (Rabbi Gurevich), Beis Rivkah (Mrs. Katzman, Mrs. Gitlin).",
+    "start_sec": 662,
+    "end_sec": 692
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5753%20%281992-93%29/Ep%20550%20-%20The%20Rebbe%20of%20Chortkov%20and%20the%20Missing%20Tzedakah%20Purse%20%281992-11-29%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 550 - The Rebbe of Chortkov and the Missing Tzedakah Purse (1992-11-29).mp3",
+  "size_bytes": 22021441,
+  "mime_type": "audio/mpeg"
+ }
+}

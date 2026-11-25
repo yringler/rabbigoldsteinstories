@@ -1,0 +1,175 @@
+{
+ "id": "e5445b520a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Pirkei Avos Alef 122",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Pirkei Avos, Chapter 1 - What Moshe Learned from Mount Sinai (Ep 122).mp3",
+  "duration_sec": 160.82,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 122,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 122,
+   "story": "",
+   "topic": "ספירה, עקיבא נט\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Pirkei Avos, Chapter 1: What Moshe Learned from Mount Sinai",
+  "title_basis": "content",
+  "summary_short": "Why the Mishnah says Moshe received the Torah 'from Sinai': he learned humility from the lowest mountain, the key to Ahavas Yisroel and achdus.",
+  "summary_long": "A short Sefirah talk from the Tzivos Hashem radio show. Uncle Yossi explains the custom of learning a chapter of Pirkei Avos each week between Pesach and Shavuos, and looks back at the first Mishnah of chapter 1: Moshe received the Torah from Sinai. The Mishnah says 'from Sinai' rather than 'on Sinai' because Moshe also learned something from the mountain itself. Hashem chose Har Sinai because it was the lowest mountain, a sign of humility. To serve Hashem truly we must be humble, see ourselves as lower than others and notice the good qualities in everyone, and follow them. Humility brings real Ahavas Yisroel and achdus, and then Hashem will turn the sad days of Sefirah into days of joy.",
+  "lesson": "Be humble like Har Sinai and look for the good in every person; humility leads to Ahavas Yisroel and achdus.",
+  "keywords": [
+   "Mount Sinai",
+   "lowest mountain",
+   "humility",
+   "Mishnah",
+   "Ethics of the Fathers"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 122,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-05-01",
+   "hebrew": "29 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 122 (Sefirah 5744): chapter 1 was learned 'last week'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "character",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "anavah",
+   "ahavas_yisroel",
+   "achdus",
+   "dan_lkaf_zchus"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1",
+    "note": "'Moshe received the Torah from Sinai'."
+   }
+  ],
+  "places": [
+   "Har Sinai"
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "Also aired in episode 224."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 1452,
+   "note": "Episode 122 (filename number); clip = 1452-1612 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "711aac43fe",
+   "evidence": "text_overlap",
+   "confidence": 0.52,
+   "note": "Partial text match in episode 528 (1538-1699 s)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Pairs with 'Pirkei Avos Beis 123' (829d973741), the next week's talk on chapter 2."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Pirkei%20Avos%2C%20Chapter%201%20-%20What%20Moshe%20Learned%20from%20Mount%20Sinai%20%28Ep%20122%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Pirkei Avos, Chapter 1 - What Moshe Learned from Mount Sinai (Ep 122).mp3",
+  "size_bytes": 1930849,
+  "mime_type": "audio/mpeg"
+ }
+}

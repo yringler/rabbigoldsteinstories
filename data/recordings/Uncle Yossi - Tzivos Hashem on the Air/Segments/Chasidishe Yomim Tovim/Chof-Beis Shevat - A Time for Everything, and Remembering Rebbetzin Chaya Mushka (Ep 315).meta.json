@@ -1,0 +1,217 @@
+{
+ "id": "89c906b5c6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Chof Beis Shevat 315",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Chof-Beis Shevat - A Time for Everything, and Remembering Rebbetzin Chaya Mushka (Ep 315).mp3",
+  "duration_sec": 818.35,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 315,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 315,
+   "story": "The Island of Treasures / Feeling For Others",
+   "topic": "לכ' חי' מושקא כב שבט מ\"ח / Chof Beis Shevat",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chof-Beis Shevat: A Time for Everything, and Remembering Rebbetzin Chaya Mushka",
+  "title_basis": "content",
+  "summary_short": "Days after Rebbetzin Chaya Mushka's passing, Uncle Yossi teaches what sadness can teach us and honors the Rebbetzin as a true mother in Israel.",
+  "summary_long": "A talk from the Tzivos Hashem radio show the week after 22 Shevat 5748. Uncle Yossi opens with Shlomo HaMelech's words, 'there is a time for everything'. Sometimes Hashem lets us taste sadness so we can feel what the poor and the sick feel and become warmer and more generous. He tells of a rabbi collecting for a freezing, penniless family who made a wealthy friend come out into a winter night to feel the cold himself; the rich man understood and gave all that was needed. Then he explains why: this past Tuesday night, Rebbetzin Chaya Mushka, the Rebbe's wife and daughter of the Frierdiker Rebbe, passed away. He shares a recent story about a Chassid's birthday cake and letter, describes her lifelong devotion to the Rebbe, and prays for the Rebbe's health and for Moshiach, when the dead will rise and there will be no more tears.",
+  "lesson": "Even sad moments carry a lesson: they help us feel for others and become more sensitive and generous.",
+  "keywords": [
+   "sadness",
+   "cold winter night",
+   "rich man",
+   "poor family",
+   "birthday cake",
+   "mother in Israel",
+   "resurrection of the dead"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction",
+   "contemporary"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 315,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-02-16",
+   "hebrew": "28 Shevat 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This past Tuesday night' the Rebbetzin passed away (22 Shevat 5748); matches source episode 315 (filename 315 02-16-88)."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Speaks about the recent passing of Rebbetzin Chaya Mushka and about mourning.",
+    "at_sec": 465
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a rabbi collecting tzedakah",
+   "the wealthy man",
+   "the butler"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "the_rebbe",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "generosity",
+   "mesiras_nefesh",
+   "emunah"
+  ],
+  "mitzvos": [
+   "tzedakah"
+  ],
+  "calendar": [
+   "chof_beis_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1, 'Eis lakol'",
+    "note": "Cited as Shlomo HaMelech's teaching: a time for everything."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 181,
+   "type": "talk",
+   "title": "A time for everything: feeling for others"
+  },
+  {
+   "start_sec": 181,
+   "end_sec": 426,
+   "type": "story",
+   "title": "The Rabbi Who Waited in the Cold"
+  },
+  {
+   "start_sec": 426,
+   "end_sec": 465,
+   "type": "talk",
+   "title": "The lesson of sadness"
+  },
+  {
+   "start_sec": 465,
+   "type": "sichah",
+   "title": "Remembering Rebbetzin Chaya Mushka",
+   "calendar": [
+    "chof_beis_shevat"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "fda6ea4878",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 13,
+   "note": "Episode 315 (filename number); clip = 13-831 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Overlaps 'Feeling For Others 315' (6d4efcd318), which is the story portion of this clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Chof-Beis%20Shevat%20-%20A%20Time%20for%20Everything%2C%20and%20Remembering%20Rebbetzin%20Chaya%20Mushka%20%28Ep%20315%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Chof-Beis Shevat - A Time for Everything, and Remembering Rebbetzin Chaya Mushka (Ep 315).mp3",
+  "size_bytes": 9821193,
+  "mime_type": "audio/mpeg"
+ }
+}

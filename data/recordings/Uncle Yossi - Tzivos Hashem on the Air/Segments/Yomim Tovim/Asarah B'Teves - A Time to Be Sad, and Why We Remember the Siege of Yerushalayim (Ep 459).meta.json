@@ -1,0 +1,235 @@
+{
+ "id": "f363c33395",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Asarah B'Teves 459",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Be Sad, and Why We Remember the Siege of Yerushalayim (Ep 459).mp3",
+  "duration_sec": 492.663,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 459,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 459,
+   "story": "Little Zalmy and spooky house #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Asarah B'Teves: A Time to Be Sad, and Why We Remember the Siege of Yerushalayim",
+  "title_basis": "content",
+  "summary_short": "Why the tenth of Teves is a fast day: the siege of Yerushalayim that led to the destruction of the Beis HaMikdash, and how remembering sad days helps us serve Hashem better.",
+  "summary_long": "A talk for the fast of Asarah B'Teves from the Tzivos Hashem radio show. Uncle Yossi begins with Shlomo HaMelech's words that there is a time for everything: a time to be happy and serve Hashem with joy, and once in a while a time to be sad, not to stay sad, but to learn from the past and improve ourselves. On the tenth of Teves the armies of Nevuchadnetzar, King of Bavel, surrounded Yerushalayim and sealed its gates, so that no food could come in and the people grew weak from hunger. After two and a half years the walls were broken through on the seventeenth of Tammuz, and three weeks later, on Tisha B'Av, the Beis HaMikdash was destroyed. We remember these days to ask what caused them and how to keep them from happening again. The answer: as long as we learn Hashem's Torah and keep His mitzvos, no power on earth can harm us, because, as Dovid HaMelech wrote in Tehillim, the Guardian of Israel never slumbers or sleeps.",
+  "lesson": "We remember the sad days of Jewish history in order to improve ourselves; learning Torah and keeping mitzvos keeps us under Hashem's protection.",
+  "keywords": [
+   "fast day",
+   "tenth of Teves",
+   "siege",
+   "Yerushalayim",
+   "Bavel",
+   "a time for everything",
+   "Shomer Yisroel"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 459,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-12-25",
+   "hebrew": "8 Teves 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Aired in episode 459: 'this coming Thursday is Asarah B'Teves' (27 Dec 1990). The talk is a re-used recording."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim, hunger in the city, and the destruction of the Beis HaMikdash are explained gently.",
+    "at_sec": 175
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "beis_hamikdash_eretz_yisroel",
+   "teshuvah"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "torah_study",
+   "teshuvah"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'He does not slumber nor sleep, the Guardian of Israel', cited as written by Dovid HaMelech."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 100:2",
+    "note": "'Serve Hashem with joy'."
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "2502f04235",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 355."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "38d83b32ce",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "Also aired in episode 157."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "393f61d950",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 555."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "672ff77943",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 260."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7e9d4fa376",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 410."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d8bd0302fb",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "Also aired in episode 308."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "efb72976ab",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "Also aired in episode 5."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "bfcb743595",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 1028,
+   "note": "Episode 459 (filename number); clip = 1028-1520 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Says 'this coming Thursday'; best offered before Asarah B'Teves. Clip stops before the episode's closing words about the fast days becoming Yomim Tovim (about 1520-1662 s of episode 459)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T15:10:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Asarah%20B%27Teves%20-%20A%20Time%20to%20Be%20Sad%2C%20and%20Why%20We%20Remember%20the%20Siege%20of%20Yerushalayim%20%28Ep%20459%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Be Sad, and Why We Remember the Siege of Yerushalayim (Ep 459).mp3",
+  "size_bytes": 5912844,
+  "mime_type": "audio/mpeg"
+ }
+}

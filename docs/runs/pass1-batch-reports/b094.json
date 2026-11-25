@@ -1,0 +1,19 @@
+{
+ "batch_id": "b094",
+ "done": [
+  "d640b2306b",
+  "c85ce18cdf",
+  "f7e962da1e",
+  "4d94d313c3",
+  "c465a14448"
+ ],
+ "failed": [],
+ "notes": [
+  "d640b2306b ('49 P36b'): Tanya ch. 36. The file starts mid-lesson, holds the end of one weekly session (sign-off at about 17:40) and the start of the next, and breaks off mid-sentence at 30:05. The continuation may be in another file (a '49'/'50' sibling not in this batch).",
+  "c85ce18cdf ('50 perek 33'): two weekly sessions on Tanya ch. 33 joined in one file (sign-off at about 43:00). Lecture numbering in the folder does not follow chapter order (49 = ch. 36, 50 = ch. 33, 51 = ch. 32, 56 = ch. 23).",
+  "4d94d313c3 (Hebrew-titled ch. 32 file) is the full shiur; f7e962da1e ('51b') is its second half from about 23:25 (offset about 1405 s). Lecture number 51 for 4d94d313c3 is inferred from the clip's filename.",
+  "c465a14448 ('56 P23') and 241ca67725 ('56 tanya T23a Y', not in this batch) are the same recording (same opening and closing words, 55:00 vs 55:32). I added a same_recording relation in place of the hinted aired_again_in candidate. Pass 2 should choose the better copy.",
+  "c465a14448's second half is a talk on the Rebbe's Kuntres Ahavas Yisroel. It could date the shiur (likely late 1970s), but no year is stated, so no date was set.",
+  "c85ce18cdf mentions that the Rebbe chose lines from Tanya ch. 33 for children at a Lag BaOmer parade 'a few years ago'. This is a possible dating clue."
+ ]
+}

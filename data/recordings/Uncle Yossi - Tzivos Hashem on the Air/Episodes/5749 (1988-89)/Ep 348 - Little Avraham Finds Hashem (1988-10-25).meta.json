@@ -1,0 +1,288 @@
+{
+ "id": "7159699bdb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "348 10-25-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 348 - Little Avraham Finds Hashem (1988-10-25).mp3",
+  "duration_sec": 1778.809,
+  "filename_facts": {
+   "episode_number": 348,
+   "date_in_filename": "1988-10-25",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 348,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 348: Little Avraham Finds Hashem",
+  "title_basis": "master_catalog",
+  "summary_short": "Letters pour in about houses turned into a mitzvah, two sisters lead the Shema, little Avraham searches for the Creator, and the hidden secrets of the word Echad.",
+  "summary_long": "Broadcast in the week of Parshas Lech Lecha 5749. Uncle Yossi's mailbox is full of letters about last week's project of fixing a tzedakah pushka to the wall, and he reads one from a girl in Far Rockaway who nailed the pushka up with her parents and now feels Hashem is a welcome guest in her home; she wins a gift certificate. After the Hakochainik march, two sisters from Beis Rivkah lead the Shema. Story time tells of little Avraham, only three years old, walking by the sea and wondering who made the world. He thinks the sun might be God until it sets, then the moon, then the stars, until he understands that the one God, unseen and everywhere, created them all, and he grows up to teach the world about Hashem. Uncle Yossi then reveals the secrets of the word Echad: Aleph for Hashem, the Master of the world; Ches, eight, for the seven heavens and the earth; and Daled for the four directions. Everyone sings 'Hashem is here, Hashem is there', and the show ends with Shabbos candle time.",
+  "lesson": "Hashem is one, unseen but everywhere, and when we say 'Echad' in the Shema we remember that He fills the heavens, the earth and all four corners of the world.",
+  "keywords": [
+   "seashore",
+   "sun",
+   "moon",
+   "stars",
+   "Creator",
+   "Echad",
+   "seven heavens",
+   "four directions",
+   "tzedakah pushka",
+   "Studio 604",
+   "mailbox"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 348,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-10-25",
+   "hebrew": "14 Cheshvan 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Shabbos candles on Friday 28 October; the Avraham story suits the week of Parshas Lech Lecha."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A letter writer and two Shema guests are named on air.",
+    "at_sec": 155
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "little Avraham, age three"
+  ],
+  "topics": [
+   "tanach",
+   "emunah_bitachon",
+   "hashem_in_nature",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "emunah",
+   "hasmadah",
+   "generosity"
+  ],
+  "mitzvos": [
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "ref": "Bereishis Rabbah 38",
+    "note": "Avraham recognizes his Creator; told as a story, no source named."
+   },
+   {
+    "work": "gemara",
+    "ref": "Brachos 13b",
+    "note": "The Aleph, Ches and Daled of 'Echad'; cited as 'the Gemara Brachos'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 376,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a house that became a mitzvah",
+   "summary": "A girl writes how she and her parents nailed their tzedakah pushka to the wall, and wins a gift certificate."
+  },
+  {
+   "start_sec": 376,
+   "end_sec": 620,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 620,
+   "end_sec": 750,
+   "type": "shema_guest",
+   "title": "Shema with two sisters from Beis Rivkah"
+  },
+  {
+   "start_sec": 750,
+   "end_sec": 1253,
+   "type": "story",
+   "title": "Little Avraham Finds Hashem",
+   "summary": "Three-year-old Avraham rejects the sun, moon and stars and discovers the one unseen Creator.",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1253,
+   "end_sec": 1555,
+   "type": "talk",
+   "title": "The Hidden Secrets of Echad",
+   "summary": "Aleph, Ches and Daled: Hashem, the seven heavens and earth, and the four corners of the world.",
+   "linked_items": [
+    "18a5d3d2b2"
+   ]
+  },
+  {
+   "start_sec": 1555,
+   "end_sec": 1688,
+   "type": "song",
+   "title": "Hashem Is Here, Hashem Is There",
+   "linked_items": [
+    "18a5d3d2b2"
+   ]
+  },
+  {
+   "start_sec": 1688,
+   "end_sec": 1713,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1713,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mailbox names a child and her town; two Shema guests are named (see hidden). Gift-certificate offer and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Estee (Esther) Goldman",
+    "role": "mailbox_letter",
+    "group": "Far Rockaway",
+    "start_sec": 155,
+    "end_sec": 376,
+    "note": "Nailed the tzedakah pushka to the wall with her parents; won a gift certificate."
+   },
+   {
+    "name": "Mindy Pekarsky",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 637,
+    "end_sec": 750
+   },
+   {
+    "name": "Chana Bracha Pekarsky",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 637,
+    "end_sec": 750
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:00Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "18a5d3d2b2",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Hashem is Everywhere 348' = 1270-1691 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "798eaeecfd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer at Home, Part 1: Shavuos, the Sefiros and Getting Ready for an Upsherin' (Stories, 18:26-23:45), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "beeb398177",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 2: The Search, Little Avraham (Yud-Tes Kislev)' (episode 2, 15:15-21:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20348%20-%20Little%20Avraham%20Finds%20Hashem%20%281988-10-25%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 348 - Little Avraham Finds Hashem (1988-10-25).mp3",
+  "size_bytes": 21346864,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "id": "a05fbdecf2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Aguna Is Saved part 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Agunah Is Saved, Part 2.mp3",
+  "duration_sec": 991.53,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Agunah Is Saved, Part 2",
+  "title_basis": "filename",
+  "summary_short": "The Alter Rebbe's mysterious instruction comes true in Vilna, and Reb Meir Refoels learns what a single mitzvah is worth when he pays a fortune for one tzitzis string.",
+  "summary_long": "After the song, the storyteller recaps how the Alter Rebbe sent a woman whose husband had vanished three years earlier to Reb Meir Refoels, the head of the Vilna community and a strong opponent of the Chassidim, and how she refused to leave. He explains why many Jews were wary of Chassidus at first and how those who looked into it found more joy and love in serving Hashem. Then the police chief calls Reb Meir about Jewish prisoners passing through on the way to Siberia. One prisoner has the missing husband's name; the woman identifies him, and Reb Meir arranges his release in exchange for a get, freeing her to remarry. Amazed at the Alter Rebbe's foresight, Reb Meir begins to respect the Chassidim and later becomes a Chassid himself. A second story follows: on a business trip Reb Meir's tzitzis becomes unfit, and he pays a passing peddler all the money he has for one string. When he later visits the Alter Rebbe, the Rebbe returns the money and reveals that the peddler was Eliyahu HaNavi, sent to test him.",
+  "lesson": "A tzaddik sees what others cannot, and a mitzvah is worth more than all the money in the world; whatever we give for Hashem comes back with blessings.",
+  "keywords": [
+   "Vilna",
+   "missing husband",
+   "get",
+   "prisoners",
+   "police chief",
+   "Siberia",
+   "tzitzis string",
+   "peddler",
+   "wagon driver"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "the-aguna-is-saved",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A woman is left an agunah after her husband abandons her; he refuses to return and gives her a get."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Jewish prisoners are being sent to Siberia for lacking residence permits."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the agunah",
+   "her missing husband",
+   "the chief of police",
+   "the wagon driver",
+   "the peddler"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidim",
+   "miracles",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "hasmadah",
+   "emunah",
+   "mesiras_nefesh",
+   "generosity"
+  ],
+  "mitzvos": [
+   "tzitzis",
+   "pidyon_shvuyim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Vilna",
+   "Liozna",
+   "Siberia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 180,
+   "type": "story_intro",
+   "title": "Recap: the agunah comes to Vilna",
+   "summary": "The storyteller recalls the Alter Rebbe's instruction and the woman's stubborn wait in Vilna."
+  },
+  {
+   "start_sec": 180,
+   "end_sec": 300,
+   "type": "talk",
+   "title": "Why some opposed Chassidus at first",
+   "summary": "Those who investigated Chassidus found it brought more joy and love of Hashem, the Torah and every Jew."
+  },
+  {
+   "start_sec": 300,
+   "end_sec": 706,
+   "type": "story_chapter",
+   "title": "The Agunah Is Saved, Part 2",
+   "summary": "The missing husband turns up among prisoners in Vilna and gives his wife a get.",
+   "story_key": "the-aguna-is-saved",
+   "chapter": 2,
+   "people": [
+    "rabbi_meir_refoels",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 706,
+   "end_sec": 960,
+   "type": "story",
+   "title": "The tzitzis string and the peddler",
+   "summary": "Reb Meir pays a fortune for one tzitzis string and learns the peddler was Eliyahu HaNavi.",
+   "people": [
+    "rabbi_meir_refoels",
+    "alter_rebbe",
+    "eliyahu_hanavi"
+   ]
+  },
+  {
+   "start_sec": 960,
+   "type": "closing",
+   "title": "Lesson: Hashem's tests make us stronger"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "5e786ca354",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'The Agunah Is Saved part 1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "5e786ca354",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Opens with a recap of part 1 and continues at the police station."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "ce28d1962a",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "'R Meir rafaels - Aguna' is a single-file edit that reuses this story's audio (prisoners, get, Reb Meir's change of heart) with a new intro and without the tzitzis story."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5385843036",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "The tzitzis-string story here (from about 11:46) is told on its own, by the same narrator, in 'The Best Deal'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6e0946d4ee",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh: The Agunah Sent to Vilna' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db7fffffe3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Reb Meir Refoels and the Agunah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles Reb Meir Refoels ('Rafael', 'Files', 'Mayer')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Agunah%20Is%20Saved%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Agunah Is Saved, Part 2.mp3",
+  "size_bytes": 11899130,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "id": "870d0298c2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "motel chein מהרש-משנכנס-אט-דער",
+  "audio_path": "audio/Other Stories/The Young Rebbe Maharash and Mishenichnas Adar (Fragment).mp3",
+  "duration_sec": 89.7,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "retranscribed: auto-detect picked English",
+   "redone locally with the Yiddish model",
+   "mixed Hebrew/Latin name"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "The Young Rebbe Maharash and Mishenichnas Adar (Fragment)",
+  "title_he": "מהרש-משנכנס-אט-דער",
+  "title_translit": "Maharash - Mishenichnas Ader",
+  "title_basis": "filename",
+  "summary_short": "A short informal Yiddish recording of the witty saying of the young Rebbe Maharash about 'when Adar comes in', followed by private conversation.",
+  "summary_long": "Told in Yiddish, apparently recorded informally. The speaker retells a short anecdote about the Rebbe Maharash as a lively young boy: when his father, the Tzemach Tzedek, came into the room to check on him, he played on the words 'Mishenichnas Adar', when Adar comes in, joy increases, with a pun on 'Adar' and 'the father'. The recording is only about a minute and a half long, the transcript is partly garbled, and after the anecdote the speakers move on to private family conversation and good wishes.",
+  "lesson": null,
+  "keywords": [
+   "Mishenichnas Adar",
+   "pun",
+   "young boy",
+   "simcha"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "fragment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "fragment"
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "Private family news and a family name mentioned in conversation."
+   },
+   {
+    "flag": "private_family",
+    "note": "Informal home recording that ends in a private family conversation; listed as a family recording in DECISIONS 2.",
+    "at_sec": 62
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "3342eced38",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "'Miteler Rebbe simcha kozaken' tells the same Rebbe Maharash 'Mishenichnas Adar' anecdote in English (306-376 s)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "16727d2e9e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories, 4:57-8:05), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "1b994d468f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories, 5:11-8:19), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "1d8cd14fa3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Fourth Night of Sukkos: The Mitteler Rebbe's Simcha' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "c4c5e3319c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Keep On Dancing: The Mitteler Rebbe and the Power of Simcha (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "fair",
+  "transcript": "poor",
+  "issues": [
+   "asr_loop",
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Informal 90-second recording; starts mid-conversation, ASR repetition loop at 0:30-1:02, ends with private family chat."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rubinson",
+    "role": "other",
+    "start_sec": 62,
+    "end_sec": 85,
+    "note": "Family name in a private conversation about a new grandchild (as transcribed; spelling uncertain)."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Mazel tov wishes on a new grandchild; a son-in-law and a grandson at a Lubavitch yeshiva mentioned.",
+    "start_sec": 62,
+    "end_sec": 85
+   }
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": "Motel Chein",
+   "confidence": "low",
+   "evidence_quote": "Filename begins 'motel chein'; no name is said in the recording.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:32:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "low",
+   "people": "medium",
+   "calendar": "medium",
+   "audience": "low"
+  },
+  "needs_human_review": [
+   "Garbled informal fragment with private conversation; decide whether to publish.",
+   "Filename names 'Motel Chein' (speaker or source?)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Young%20Rebbe%20Maharash%20and%20Mishenichnas%20Adar%20%28Fragment%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Young Rebbe Maharash and Mishenichnas Adar (Fragment).mp3",
+  "size_bytes": 1077264,
+  "mime_type": "audio/mpeg"
+ }
+}

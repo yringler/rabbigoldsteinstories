@@ -1,0 +1,298 @@
+{
+ "id": "e5af19b792",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "358 01-03-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 358 - The Return of Yehudah, Chapter 3 (1989-01-03).mp3",
+  "duration_sec": 1687.924,
+  "filename_facts": {
+   "episode_number": 358,
+   "date_in_filename": "1989-01-03",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 358,
+   "story": "The return of Yehudah #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 358: The Return of Yehudah, Chapter 3",
+  "title_basis": "master_catalog",
+  "summary_short": "The new Shiviti Club, a listener's homemade Shiviti sign, and a stormy night of escape in The Return of Yehudah, ending with baby Yehudah left behind in the pit.",
+  "summary_long": "Uncle Yossi celebrates the mail pouring in for the new Shiviti Club and replays the Shiviti song sung by a class of girls. In the mailbox, a boy from New Jersey describes the Shiviti sign he made and looks at every morning, even before Modeh Ani, to remember that Hashem is with him; Uncle Yossi invites everyone to send in their own sign. After the Hakochainik march, a nine-year-old guest in Studio 604 leads the Shema. Story time continues The Return of Yehudah: Reb Moshe, Sarah and little Yehudah are held in a pit by a cruel poritz for unpaid rent. In a fierce storm a kind neighbor, Beryl, pulls them out while the guard sleeps and sends them off in a wagon, but in the dark Sarah grabbed the wrong blanket, and Yehudah is still in the pit. The show ends with the next steps of the morning routine, Modeh Ani and negel vasser, and Friday's candle-lighting time.",
+  "lesson": "Remember the moment you wake up that Hashem is right there with you, then thank Him with Modeh Ani and wash negel vasser.",
+  "keywords": [
+   "Shiviti sign",
+   "Shiviti Club",
+   "pit",
+   "storm",
+   "blanket",
+   "Studio 604",
+   "Modeh Ani"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "collections": [
+   "Radio episodes"
+  ],
+  "episode": {
+   "number": 358,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-01-03",
+   "hebrew": "26 Teves 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: candle lighting 'this coming Friday, January 6th'."
+  },
+  "serial": {
+   "story_key": "the-return-of-yehudah",
+   "story_title": "The Return of Yehudah",
+   "chapter": 3
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A family is held in a pit by a cruel poritz; the chapter ends with the baby accidentally left alone in the pit.",
+    "at_sec": 948
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A cruel poritz punishes a Jewish family for unpaid rent."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Letter writer and Shema guest named in full; see hidden.on_air_people."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Reb Moshe",
+   "Sarah",
+   "little Yehudah",
+   "Beryl, the neighbor",
+   "the poritz"
+  ],
+  "topics": [
+   "morning_routine",
+   "emunah_bitachon",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "bitachon",
+   "chesed"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "negel_vasser",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 108,
+   "type": "opening",
+   "title": "Greeting: the new Shiviti Club"
+  },
+  {
+   "start_sec": 108,
+   "end_sec": 180,
+   "type": "song",
+   "title": "The Shiviti song, sung by a class of girls"
+  },
+  {
+   "start_sec": 180,
+   "end_sec": 494,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a homemade Shiviti sign",
+   "summary": "A listener's letter about the Shiviti sign he looks at every morning; how to join the Shiviti Club."
+  },
+  {
+   "start_sec": 494,
+   "end_sec": 715,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 715,
+   "end_sec": 773,
+   "type": "story_intro",
+   "title": "Story time: where we left off",
+   "story_key": "the-return-of-yehudah",
+   "chapter": 3
+  },
+  {
+   "start_sec": 773,
+   "end_sec": 948,
+   "type": "shema_guest",
+   "title": "Shema with a guest from Beis Rivka"
+  },
+  {
+   "start_sec": 948,
+   "end_sec": 1316,
+   "type": "story_chapter",
+   "title": "The Return of Yehudah, Chapter 3",
+   "summary": "A neighbor rescues the family from the pit during a storm, but baby Yehudah is left behind.",
+   "story_key": "the-return-of-yehudah",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1316,
+   "end_sec": 1602,
+   "type": "talk",
+   "title": "Waking up: Modeh Ani and negel vasser",
+   "summary": "After remembering Hashem is present, say Modeh Ani and wash negel vasser, like the Kohen at the kiyor before entering the Mishkan.",
+   "linked_items": [
+    "45b8ad173e"
+   ]
+  },
+  {
+   "start_sec": 1602,
+   "end_sec": 1641,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1641,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "45b8ad173e",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Morning Routine-1 358' = 1319-1606 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "4f76af6486",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Episode 357 = 'The return of Yehudah #2'."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "4f76af6486",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Return of Yehudah' (1988-89): ep 357 ch. 2 and ep 358 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a815fbd757",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Return of Yehudah' (1988-89): ep 358 ch. 3 and ep 359 ch. 4 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "asr_loop",
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Hebrew Shema (about 14:18) became a 'Shabbat Shabbat' loop in the ASR; mask that line if the transcript is shown."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Lazar",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Gimmel (sang the Shiviti song)",
+    "start_sec": 80,
+    "end_sec": 180
+   },
+   {
+    "name": "Avraham Glick",
+    "role": "mailbox_letter",
+    "group": "New Jersey",
+    "start_sec": 241,
+    "end_sec": 420
+   },
+   {
+    "name": "Maryasha Shem Tov",
+    "role": "shema_guest",
+    "group": "Beis Rivka, Kitah Dalet, Morah Karp; age 9",
+    "start_sec": 773,
+    "end_sec": 948
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5 (dry run)",
+  "filled_at": "2026-11-25T13:35:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20358%20-%20The%20Return%20of%20Yehudah%2C%20Chapter%203%20%281989-01-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 358 - The Return of Yehudah, Chapter 3 (1989-01-03).mp3",
+  "size_bytes": 20255990,
+  "mime_type": "audio/mpeg"
+ }
+}

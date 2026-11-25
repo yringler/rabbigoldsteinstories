@@ -1,0 +1,329 @@
+{
+ "id": "d8110e6dc7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "422",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 422 - The Mystery of Dayeinu (Rosh Chodesh Nissan) (1990-03-27).mp3",
+  "duration_sec": 1844.914,
+  "filename_facts": {
+   "episode_number": 422,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 422,
+   "story": "The mystery of Dayeinu",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 422: The Mystery of Dayeinu (Rosh Chodesh Nissan)",
+  "title_basis": "master_catalog",
+  "summary_short": "Rosh Chodesh Nissan, the month of miracles; saying the Shema at bedtime to begin the day the night before; and the Pesach story of Reb Sholom and Dayeinu.",
+  "summary_long": "Broadcast on Rosh Chodesh Nissan 5750. Uncle Yossi explains that Nissan is a month of miracles, and shares the Rebbe's teaching that the letters of the year 5750 stand for 'a year of miracles', with a prayer that the final redemption come in Nissan. The Hakochainik march is sung to the tune of Mi Mitzrayim Ge'altanu. Mitzvah Time teaches that a Jewish day begins the night before, as the Torah says 'it was evening and it was morning', so the Shema at bedtime starts our day; Hashem protects us through the night and gives us pleasant sleep. Children who cannot read Hebrew may say it in any language, and a transliterated Shema sheet is offered by mail. A seventh-grade girl answers a phone quiz on stretching the word Echad and leads the Shema, and everyone gives tzedakah. Story time tells of Reb Sholom, a poor man famous for hachnasas orchim, who prayed for help before Pesach; through the king's lost ring and the song Dayeinu at his Seder, Hashem sent him a great reward. The show ends with an invitation to a Tzivos Hashem Chol HaMoed event.",
+  "lesson": "Begin each day with the Shema the night before, and trust that Hashem helps those who devote themselves to hachnasas orchim.",
+  "keywords": [
+   "Nissan",
+   "miracles",
+   "bedtime Shema",
+   "evening and morning",
+   "transliteration sheet",
+   "lost ring",
+   "king",
+   "Dayeinu",
+   "Seder",
+   "guests",
+   "gold coins"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 422,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-03-27",
+   "hebrew": "1 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Rosh Chodesh Nissan'; 1 Nissan 5750 was Tuesday 27 March 1990, matching the weekly estimate."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A seventh-grade caller is named in full with her school and teacher.",
+    "at_sec": 792
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Sholom",
+   "the king",
+   "the queen",
+   "Dayeinu, the king's servant"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "prayer_and_brachos",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "chesed",
+   "bitachon",
+   "generosity"
+  ],
+  "mitzvos": [
+   "shema",
+   "hachnasas_orchim",
+   "tzedakah",
+   "seder",
+   "tehillim"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "nissan",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750 (Tav-Shin-Nun) = 'Tehei Shnas Nissim', a year of miracles"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:5, 'Vayehi erev vayehi voker'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 55,
+   "type": "opening",
+   "title": "Opening theme and Rosh Chodesh greeting"
+  },
+  {
+   "start_sec": 55,
+   "end_sec": 168,
+   "type": "sichah",
+   "title": "Nissan, the Month of Miracles",
+   "summary": "Nissan is a month of miracles, and the Rebbe called 5750 a year of miracles; we pray for the redemption in Nissan.",
+   "people": [
+    "the_rebbe"
+   ],
+   "calendar": [
+    "rosh_chodesh",
+    "nissan"
+   ],
+   "linked_items": [
+    "3f1b99b89b"
+   ]
+  },
+  {
+   "start_sec": 168,
+   "end_sec": 346,
+   "type": "song",
+   "title": "Hakochainik March to Mi Mitzrayim Ge'altanu"
+  },
+  {
+   "start_sec": 346,
+   "end_sec": 443,
+   "type": "announcement",
+   "title": "How to be called on Mitzvah Time"
+  },
+  {
+   "start_sec": 443,
+   "end_sec": 733,
+   "type": "talk",
+   "title": "Mitzvah Time: Start the Day the Night Before",
+   "summary": "A Jewish day begins in the evening, so the bedtime Shema starts our day; Hashem protects us and gives us pleasant sleep.",
+   "linked_items": [
+    "66bca5ffd7"
+   ]
+  },
+  {
+   "start_sec": 733,
+   "end_sec": 792,
+   "type": "announcement",
+   "title": "Free transliterated Shema sheet"
+  },
+  {
+   "start_sec": 792,
+   "end_sec": 990,
+   "type": "quiz",
+   "title": "Telephone quiz on stretching Echad",
+   "summary": "A young listener explains how stretching the word Echad brings long life."
+  },
+  {
+   "start_sec": 990,
+   "end_sec": 1137,
+   "type": "shema_guest",
+   "title": "Shema led by the telephone guest"
+  },
+  {
+   "start_sec": 1137,
+   "end_sec": 1187,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1187,
+   "end_sec": 1755,
+   "type": "story",
+   "title": "The Mystery of Dayeinu",
+   "summary": "Reb Sholom prays for help feeding his many Pesach guests, and the king's lost ring is found through the song Dayeinu at his Seder.",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1755,
+   "end_sec": 1785,
+   "type": "announcement",
+   "title": "Tzivos Hashem Pesach event on Chol HaMoed"
+  },
+  {
+   "start_sec": 1785,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3f1b99b89b",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "'Rosh Chodesh Nissan 422' = 55-177 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "66bca5ffd7",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Shema 422' = 472-736 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "6164b3359f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Dayeinu: The Old Man, the King's Lost Ring and the Pesach Seder' (Stories), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Chol HaMoed 1990 event announcement and Tzivos Hashem office number are period pieces. Caller's school and teacher named (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Dina Davidowitz",
+    "role": "shema_guest",
+    "group": "seventh grade (Kitah Zayin), Beis Yaakov of Boro Park (school name heard unclearly); teacher Morah Horowitz",
+    "start_sec": 792,
+    "end_sec": 1137,
+    "note": "Answered the telephone quiz and led the Shema by phone."
+   },
+   {
+    "name": "Morah Horowitz",
+    "role": "other",
+    "start_sec": 1054,
+    "end_sec": 1075,
+    "note": "The caller's teacher, named on air."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Caller is in seventh grade at a Boro Park girls' school; teacher Morah Horowitz.",
+    "start_sec": 1054,
+    "end_sec": 1107
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20422%20-%20The%20Mystery%20of%20Dayeinu%20%28Rosh%20Chodesh%20Nissan%29%20%281990-03-27%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 422 - The Mystery of Dayeinu (Rosh Chodesh Nissan) (1990-03-27).mp3",
+  "size_bytes": 22139932,
+  "mime_type": "audio/mpeg"
+ }
+}

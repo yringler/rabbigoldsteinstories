@@ -1,0 +1,154 @@
+{
+ "id": "e37b6ef834",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 176",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Yom HaShishi - The World Was Created for Matan Torah (Shabbos Mevarchim Sivan) (Ep 176).mp3",
+  "duration_sec": 378.898,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 176,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 176,
+   "story": "Reb Boruch. The Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yom HaShishi: The World Was Created for Matan Torah (Shabbos Mevarchim Sivan)",
+  "title_basis": "content",
+  "summary_short": "Why does the Torah say 'Yom HaShishi' only for the sixth day of creation? Uncle Yossi explains that it hints at the sixth of Sivan, when the five books of the Torah were given.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded a few days before Shabbos Mevarchim Sivan. Uncle Yossi points listeners to the first chapter of Bereishis. Each day of creation is written 'Yom Echad', 'Yom Sheini' and so on, but the sixth day alone is called 'Yom HaShishi', with the letter Hei. Following Rashi, he explains that Hei equals five, for the five books of the Torah, and that 'the sixth' hints at the sixth of Sivan, the day of Matan Torah. The whole world was created so that the Jewish people would learn Torah and keep its mitzvos. He closes by urging children to be in shul on Shabbos Mevarchim to bless the new month of Sivan.",
+  "lesson": "The whole world was created for the Torah, so learning Torah and doing mitzvos is what gives the world its purpose.",
+  "keywords": [
+   "Yom HaShishi",
+   "letter Hei",
+   "five books of the Torah",
+   "creation",
+   "Birkas HaChodesh",
+   "sixth of Sivan"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 176,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-05-14",
+   "hebrew": "23 Iyar 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 176: 'a few days before Shabbos Mevarchim Sivan', one week before episode 177 (Rosh Chodesh Sivan 5745)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 1:31",
+    "note": "The Hei of 'HaShishi' stands for the five books of the Torah and the sixth of Sivan."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Shabbos' (Shabbos Mevarchim Sivan); fine as a seasonal piece."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:54:44Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2e01110aab",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 22,
+   "note": "Episode 176 (filename number); clip = 22-401 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Yom%20HaShishi%20-%20The%20World%20Was%20Created%20for%20Matan%20Torah%20%28Shabbos%20Mevarchim%20Sivan%29%20%28Ep%20176%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Yom HaShishi - The World Was Created for Matan Torah (Shabbos Mevarchim Sivan) (Ep 176).mp3",
+  "size_bytes": 4547678,
+  "mime_type": "audio/mpeg"
+ }
+}

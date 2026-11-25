@@ -1,0 +1,269 @@
+{
+ "id": "99501986ed",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "312 01-26-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 312 - A Diamond From Heaven (1988-01-26).mp3",
+  "duration_sec": 1805.879,
+  "filename_facts": {
+   "episode_number": 312,
+   "date_in_filename": "1988-01-26",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 312,
+   "story": "A Diamond From Heaven",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 312: A Diamond From Heaven",
+  "title_basis": "master_catalog",
+  "summary_short": "A pre-1A class celebrates finishing the parshiyos of Sefer Bereishis, and Rashi's father gives up a priceless diamond rather than let it adorn an idol.",
+  "summary_long": "Uncle Yossi reminds listeners that the tzedakah-box drawing contest closes on Yud Shevat, and that every entry wins a Moshiach Times magazine. Before the Hakochainik march he teaches that a smile is catching and that Hashem loves to see His children happy. Next, he visits a pre-1A class at Beis Yaakov of Boro Park whose teacher taught them a song with the names of all the parshiyos of Sefer Bereishis; the children sing it, say 'Chazak chazak v'nischazek' and recite the Shema, and Uncle Yossi explains how precious holy words are when little children say them. Story time: Rabbi Yitzchak, a Torah scholar and diamond dealer in France, buys a rare diamond, then learns the governor wants it for an idol. After pouring out his heart in Tehillim, he takes the stone to the governor's seaside porch and lets it fall into the sea, sacrificing his fortune for Kiddush Hashem. A heavenly voice promises him a son who will light up the world with Torah: Rashi.",
+  "lesson": "Honoring Hashem is worth more than any fortune; teach children holy words from the youngest age.",
+  "keywords": [
+   "diamond",
+   "governor",
+   "idol",
+   "sea",
+   "France",
+   "parshiyos song",
+   "siyum",
+   "smile",
+   "drawing contest",
+   "tzedakah box"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 312,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-01-26",
+   "hebrew": "7 Shevat 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: contest closes 'Yud Shevat, the 10th day of this month'."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "Visiting class's teacher named on air (first name); no children named.",
+    "at_sec": 524
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_yitzchak_father_of_rashi",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yitzchak's wife",
+   "the governor",
+   "the governor's officer"
+  ],
+  "topics": [
+   "mesiras_nefesh_kiddush_hashem",
+   "great_rabbis",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "simcha",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "tehillim",
+   "torah_study",
+   "chinuch",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "France"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 49,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 49,
+   "end_sec": 188,
+   "type": "announcement",
+   "title": "Tzedakah-box drawing contest closes Yud Shevat"
+  },
+  {
+   "start_sec": 188,
+   "end_sec": 290,
+   "type": "talk",
+   "title": "Smiling Is Catching",
+   "summary": "Hashem loves to see His children happy, and a smile spreads to everyone nearby."
+  },
+  {
+   "start_sec": 290,
+   "end_sec": 470,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 470,
+   "end_sec": 760,
+   "type": "shema_guest",
+   "title": "A pre-1A class from Beis Yaakov of Boro Park celebrates Sefer Bereishis",
+   "summary": "Uncle Yossi explains why the holy names of the parshiyos are precious when little children say them."
+  },
+  {
+   "start_sec": 760,
+   "end_sec": 830,
+   "type": "song",
+   "title": "The parshiyos song"
+  },
+  {
+   "start_sec": 830,
+   "end_sec": 977,
+   "type": "shema_guest",
+   "title": "Chazak chazak and Shema with the pre-1A class"
+  },
+  {
+   "start_sec": 977,
+   "end_sec": 1769,
+   "type": "story",
+   "title": "A Diamond From Heaven",
+   "summary": "Rashi's father lets a priceless diamond fall into the sea rather than have it set in an idol, and is promised a son who will light up the world.",
+   "people": [
+    "rabbi_yitzchak_father_of_rashi",
+    "rashi"
+   ]
+  },
+  {
+   "start_sec": 1769,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "5e3346ab8e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Rashi's Father and the Precious Diamond' (Stories), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "a06fb5b0d9",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby Chaya Malka's Yiddish Stories, Part 1' (Stories, 7:58-14:42), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 12:15-19:25), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Contest deadline is a period piece. The host twice slips on the name of Rashi's father ('Rabbi Shlomo', 'Rabbi Akiva'); public text uses Rabbi Yitzchak. No candle time this week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Esti",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Pre-1A, classroom C2",
+    "start_sec": 470,
+    "end_sec": 977
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20312%20-%20A%20Diamond%20From%20Heaven%20%281988-01-26%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 312 - A Diamond From Heaven (1988-01-26).mp3",
+  "size_bytes": 21671618,
+  "mime_type": "audio/mpeg"
+ }
+}

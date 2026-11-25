@@ -1,0 +1,153 @@
+{
+ "id": "deeb616357",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Moshiach 346",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Uncle Yossi's Parents and His Father's Song, Uvnei Yerushalayim (Ep 346).mp3",
+  "duration_sec": 262.549,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 346,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 346,
+   "story": "The storyteller #7 (climax)",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Uncle Yossi's Parents and His Father's Song, Uvnei Yerushalayim",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi remembers how his parents taught him to believe in Moshiach and love Eretz Yisroel, then plays the song his father sang to 'Uvnei Yerushalayim'.",
+  "summary_long": "A short personal piece from the Tzivos Hashem radio show. Uncle Yossi recalls that when he was very young his parents taught him to believe in the coming of Moshiach and to pray for it every day. The emunah they planted gave him the strength to keep learning Torah and doing mitzvos and to overcome hardships with mesiras nefesh, as they did in their time. His parents spent their last years in Eretz Yisroel, which they dearly loved, and his father sang a special melody to the words 'Uvnei Yerushalayim ir hakodesh bimheirah v'yameinu', a prayer that Hashem rebuild the holy city of Yerushalayim speedily in our days. The rest of the clip is the song itself.",
+  "lesson": "Faith planted in a child by loving parents gives strength for a whole lifetime; we pray every day for Moshiach and the rebuilding of Yerushalayim.",
+  "keywords": [
+   "parents",
+   "Yerushalayim",
+   "song",
+   "melody",
+   "Eretz Yisroel",
+   "faith"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 346,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "family_memoir"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-10-11",
+   "hebrew": "30 Tishrei 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 346 (filename date 11 Oct 1988, Rosh Chodesh Cheshvan)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Uncle Yossi's parents"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel",
+   "family_heritage"
+  ],
+  "midos": [
+   "emunah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "loving_eretz_yisroel",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Speech ends at about 98 s; the remaining 2:45 is the song 'Uvnei Yerushalayim' composed by the host's father, so no trim is suggested."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Confirm that the music after 98 s is the father's 'Uvnei Yerushalayim' song (not transcribed)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:06:34Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "5883b47d62",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 1356,
+   "note": "Episode 346 (filename number); clip = 1356-1618 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Uncle%20Yossi%27s%20Parents%20and%20His%20Father%27s%20Song%2C%20Uvnei%20Yerushalayim%20%28Ep%20346%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Uncle Yossi's Parents and His Father's Song, Uvnei Yerushalayim (Ep 346).mp3",
+  "size_bytes": 3151490,
+  "mime_type": "audio/mpeg"
+ }
+}

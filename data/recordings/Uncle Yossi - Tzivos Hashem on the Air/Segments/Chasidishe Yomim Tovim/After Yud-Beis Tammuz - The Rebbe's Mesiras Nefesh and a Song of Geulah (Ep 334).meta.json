@@ -1,0 +1,169 @@
+{
+ "id": "59d09779c7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "12 Tammuz 334",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/After Yud-Beis Tammuz - The Rebbe's Mesiras Nefesh and a Song of Geulah (Ep 334).mp3",
+  "duration_sec": 183.494,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 334,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 334,
+   "story": "The Rambam’s Grave",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "After Yud-Beis Tammuz: The Rebbe's Mesiras Nefesh and a Song of Geulah",
+  "title_basis": "content",
+  "summary_short": "The day after Yud-Beis Tammuz, Uncle Yossi recalls the Frierdiker Rebbe's readiness to give his life for children's Torah learning and introduces a song of Geulah.",
+  "summary_long": "A Yud-Beis Tammuz talk from the Tzivos Hashem radio show, given the day after the holiday. Uncle Yossi recalls how the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, was freed from prison on Yud-Beis Tammuz when his life was in danger, and how we thank Hashem for those miracles and pray for miracles in our time that will end the golus. The Rebbe set an example for all generations: his love of Torah was so great that he was ready to give his life so Torah could be learned freely everywhere, especially by young children, with true yiras Shamayim. In honor of the day, Uncle Yossi introduces a song of Geulah, 'Ki v'simchah seitzei'u', which we will sing when Moshiach comes, and explains the prophet Daniel's words that heavenly clouds will carry the Jewish people swiftly to Eretz Yisroel. The march itself is not included.",
+  "lesson": "The Frierdiker Rebbe was ready to give his life so that children would learn Torah; we look forward with joy to the final Geulah.",
+  "keywords": [
+   "prison",
+   "liberation",
+   "heavenly clouds",
+   "song of redemption",
+   "children's Torah learning"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 334,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-06-28",
+   "hebrew": "13 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Yesterday was Yud-Beis Tammuz'; cut from episode 334 (filename date 1988-06-28)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "'With the clouds of heaven'; cited as the prophet Daniel."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "845dab4795",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 22,
+   "note": "Episode 334 (filename number); clip = 22-206 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "fe70f6bcaf",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'Yud Beis Tammuz 334' is a shorter cut of the same opening (22-126 s of episode 334), ending before the song of Geulah."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with the introduction of a march that is not in the clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/After%20Yud-Beis%20Tammuz%20-%20The%20Rebbe%27s%20Mesiras%20Nefesh%20and%20a%20Song%20of%20Geulah%20%28Ep%20334%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/After Yud-Beis Tammuz - The Rebbe's Mesiras Nefesh and a Song of Geulah (Ep 334).mp3",
+  "size_bytes": 2202940,
+  "mime_type": "audio/mpeg"
+ }
+}

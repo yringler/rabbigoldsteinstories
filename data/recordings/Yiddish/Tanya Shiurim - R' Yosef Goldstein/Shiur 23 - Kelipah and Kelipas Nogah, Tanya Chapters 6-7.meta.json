@@ -1,0 +1,438 @@
+{
+ "id": "eb0459de7a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "23 P6-7",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 23 - Kelipah and Kelipas Nogah, Tanya Chapters 6-7.mp3",
+  "duration_sec": 6247.288,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "7",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 23: Kelipah and Kelipas Nogah, Tanya Chapters 6-7",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya shiur on chapters 6 and 7: why whatever is not batel to Hashem is kelipah, the three impure kelipos and kelipas nogah, and how eating for the sake of Heaven elevates the world.",
+  "summary_long": "Shiur 23 in Rabbi Yosef Goldstein's Yiddish Tanya series, recorded in 5736; the file appears to hold two consecutive sessions. It opens with answers to listeners' questions on the beinoni and on angels. Tanya chapter 6 follows: the Shechinah rests only where there is bittul, while one who feels himself a separate 'yesh' is cut off and receives life only from the 'back', through countless contractions. Along the way come the Mitteler Rebbe's parable of the talking bird brought to the king, the Baal Shem Tov's teaching that we learn from everything (Rabbi Akiva and the dripping water), a hand-grenade parable for pushing away a stray thought at once, the Tzemach Tzedek's love for a bundle of tzitzis, tzimtzum explained through a teacher and student, and stories of tzaddikim above nature, including the Baal Shem Tov's letter to his brother-in-law. The second session begins with the Rebbe's sichah of Shabbos Kedoshim 5736 on 'Ashreinu' and why the mivtzoim begin with doing good. It studies the note on 'the whole world is full of His glory', the three impure kelipos and free choice, and then chapter 7: kelipas nogah, the animal soul, eating permitted food for the sake of Heaven, and Yaakov's ladder as a picture of prayer.",
+  "lesson": "Bittul to Hashem draws His light; every mitzvah, every good word and even ordinary eating done for the sake of Heaven raises the world, while a forbidden act opens a channel to kelipah, so a Jew must choose life.",
+  "keywords": [
+   "kelipas nogah",
+   "three impure kelipos",
+   "bittul",
+   "tzimtzum",
+   "animal soul",
+   "talking bird",
+   "hand grenade",
+   "Yaakov's ladder",
+   "domem tzomeach chai medaber",
+   "Ashreinu",
+   "free choice",
+   "eating for the sake of Heaven"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "mashal_parable",
+   "talmudic",
+   "tanach_midrash"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976",
+   "hebrew": "5736",
+   "hebrew_year": 5736,
+   "precision": "year",
+   "basis": "stated_in_audio",
+   "note": "Second session cites the Rebbe's sichah of Shabbos Kedoshim 'this year' 5736 (22 Iyar 5736) after a Yom Tov break, so Iyar-Sivan 5736."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "6",
+    "to": "7",
+    "lecture_number": 23,
+    "note": "End of chapter 6 with the note on 'melo chol haaretz kevodo' (daf 11a), and the first part of chapter 7 (kelipas nogah)."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "Brief mention of a soul reincarnated into an animal (gilgul) in a study context."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_gershon_kitover",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Gershon Kitover, the Baal Shem Tov's brother-in-law",
+   "a man who taught a bird to speak for the king",
+   "a tzaddik who sweetened his coffee by holding sugar"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "baal_shem_tov_and_students",
+   "hiskashrus",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "anavah",
+   "self_control",
+   "yiras_shamayim",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "kashrus",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 6 with hagahah; ch. 7; ch. 1, 4-5"
+   },
+   {
+    "work": "zohar",
+    "ref": "iskafya sitra achra; the ladder as prayer"
+   },
+   {
+    "work": "gemara",
+    "ref": "Kesubos 111b (cleaving to a talmid chacham)"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1 (ha'amidu talmidim harbeh)"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 28 (Yaakov's dream)"
+   },
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 6:3; 40:5"
+   },
+   {
+    "work": "maamarim",
+    "ref": "Basi L'Gani (Yud Shevat)"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Shabbos Parshas Kedoshim 5736"
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 120,
+   "type": "qa",
+   "title": "Questions: the beinoni and the angels",
+   "summary": "Answers to listeners' questions on why the beinoni is likened to a rasha and on the levels of angels."
+  },
+  {
+   "start_sec": 120,
+   "end_sec": 3675,
+   "type": "text_study",
+   "title": "Tanya chapter 6: bittul and kelipah",
+   "summary": "Whatever is not batel to Hashem is a separate 'yesh' and receives life only through many contractions."
+  },
+  {
+   "start_sec": 845,
+   "end_sec": 955,
+   "type": "story",
+   "title": "The Mitteler Rebbe's parable of the talking bird",
+   "summary": "A gift that is new and unusual delights the king, like turning darkness into light.",
+   "people": [
+    "mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1168,
+   "end_sec": 1260,
+   "type": "story",
+   "title": "Learning from everything: Rabbi Akiva and the stone",
+   "summary": "The Baal Shem Tov's teaching that everything we see holds a lesson, and how Rabbi Akiva learned from dripping water.",
+   "people": [
+    "baal_shem_tov",
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1260,
+   "end_sec": 1440,
+   "type": "talk",
+   "title": "The hand-grenade parable",
+   "summary": "A stray improper thought must be thrown away at once, before it can do harm."
+  },
+  {
+   "start_sec": 1570,
+   "end_sec": 1690,
+   "type": "sichah",
+   "title": "Basi L'Gani: the world as Hashem's garden",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1782,
+   "end_sec": 1842,
+   "type": "story",
+   "title": "The Tzemach Tzedek and a bundle of tzitzis",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 2185,
+   "end_sec": 2800,
+   "type": "talk",
+   "title": "Tzimtzum: the teacher and the student",
+   "summary": "A good teacher holds back his understanding so the student can receive it, a picture of Hashem's tzimtzum."
+  },
+  {
+   "start_sec": 2888,
+   "end_sec": 3113,
+   "type": "story",
+   "title": "Tzaddikim above nature: the coffee and the plate",
+   "summary": "Two stories of tzaddikim who showed they stand above the limits of the physical world."
+  },
+  {
+   "start_sec": 3144,
+   "end_sec": 3307,
+   "type": "story",
+   "title": "The Baal Shem Tov's letter of comfort",
+   "summary": "The Baal Shem Tov writes to his brother-in-law about a tzaddik still alive, having seen the future in an ascent of the soul.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 3307,
+   "end_sec": 3367,
+   "type": "talk",
+   "title": "Cleaving to a tzaddik",
+   "summary": "Connecting to a talmid chacham, the Rebbe, is like cleaving to the Shechinah.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 3367,
+   "end_sec": 3675,
+   "type": "text_study",
+   "title": "The three impure kelipos",
+   "summary": "The two levels of kelipah and the three wholly impure kelipos of Yechezkel's vision."
+  },
+  {
+   "start_sec": 3675,
+   "end_sec": 4009,
+   "type": "sichah",
+   "title": "Ashreinu, and why the mivtzoim start with doing good",
+   "summary": "The Rebbe's sichah of Shabbos Kedoshim 5736: the Chabad way begins with 'do good', and avoiding evil follows.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 4009,
+   "end_sec": 4372,
+   "type": "text_study",
+   "title": "The note on 'the whole world is full of His glory'",
+   "summary": "Even this lowest world holds hidden within it the sefiros of all the higher worlds and the Infinite Light."
+  },
+  {
+   "start_sec": 4372,
+   "end_sec": 5111,
+   "type": "text_study",
+   "title": "Chapter 6 continued: impure kelipos and free choice",
+   "summary": "What draws life from the three impure kelipos, the choosing of the Jewish people, and the power of a person's choice."
+  },
+  {
+   "start_sec": 5111,
+   "end_sec": 6241,
+   "type": "text_study",
+   "title": "Tanya chapter 7: kelipas nogah",
+   "summary": "The animal soul and permitted things come from kelipas nogah and are elevated when used for the sake of Heaven."
+  },
+  {
+   "start_sec": 5685,
+   "end_sec": 5920,
+   "type": "talk",
+   "title": "Domem, tzomeach, chai, medaber",
+   "summary": "Each level of creation is absorbed into the one above it, and all are raised through man."
+  },
+  {
+   "start_sec": 5920,
+   "end_sec": 6155,
+   "type": "story",
+   "title": "Yaakov's ladder: prayer joins earth and heaven",
+   "summary": "Yaakov's dream of the ladder, explained as prayer, with angels going up before coming down.",
+   "people": [
+    "yaakov_avinu"
+   ]
+  },
+  {
+   "start_sec": 6241,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "03bfbdd2c3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 24: The Whispering Droplets (Sefiras HaOmer)' (episode 24, 11:30-20:43), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "8e97b7f750",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 424: The Whispering Droplets (Sefiras HaOmer)' (episode 424, 19:42-29:45), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "ac0c610c3a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 378: The Whispering Droplets and the Silver Mirror (Lag BaOmer)' (episode 378, 17:58-27:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "b83f53e345",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 530: Never Too Late, Rabbi Akiva and the Whispering Droplets' (episode 530, 10:25-19:36), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "eb89723366",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 126: The Whispering Droplets (Sefiras HaOmer)' (episode 126, 10:17-19:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "multiple_programs",
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two sessions appear joined at about 61:15 (a sign-off, then a new session after a Yom Tov break that re-reads the end of chapter 6). Opens mid-answer to a question. Loshn-koydesh quotations garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:46Z",
+  "confidence": {
+   "title": "high",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File seems to contain two shiur sessions (split near 61:15); decide whether to keep as one item.",
+   "Story boundaries and the identity of the tzaddik in the plate story (from Toras Shalom) are approximate (Yiddish ASR).",
+   "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2023%20-%20Kelipah%20and%20Kelipas%20Nogah%2C%20Tanya%20Chapters%206-7.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 23 - Kelipah and Kelipas Nogah, Tanya Chapters 6-7.mp3",
+  "size_bytes": 74968302,
+  "mime_type": "audio/mpeg"
+ }
+}

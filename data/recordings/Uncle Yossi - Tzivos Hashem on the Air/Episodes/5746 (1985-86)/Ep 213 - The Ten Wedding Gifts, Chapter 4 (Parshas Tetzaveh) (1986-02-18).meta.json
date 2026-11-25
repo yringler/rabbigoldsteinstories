@@ -1,0 +1,367 @@
+{
+ "id": "3ee5407420",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "213",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 213 - The Ten Wedding Gifts, Chapter 4 (Parshas Tetzaveh) (1986-02-18).mp3",
+  "duration_sec": 1811.396,
+  "filename_facts": {
+   "episode_number": 213,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 213,
+   "story": "The ten wedding gifts #4",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 213: The Ten Wedding Gifts, Chapter 4 (Parshas Tetzaveh)",
+  "title_basis": "master_catalog",
+  "summary_short": "The golden bells of Aharon's robe teach children to say brachos out loud; the Baal Shem Tov's ten gifts come true in 'The Ten Wedding Gifts'; and Mitzvah Time explains shemos.",
+  "summary_long": "Broadcast in the week of Parshas Tetzaveh 5746. Uncle Yossi explains why we learn a part of the weekly sedra with Rashi every day, so we are ready by Shabbos and show that the Torah is our life. From Tuesday's portion he describes the golden bells on Aharon HaKohen's robe, whose sound was heard as he entered the holy place: there is a time for children to be quiet and not interrupt, but when saying a brachah, davening or benching, our voices should be heard, like sweet music to Hashem. After the Hakochainik march for Adar, a young member who recruits friends to Tzivos Hashem leads the Shema. 'The Ten Wedding Gifts' concludes: the boy Avraham and Sarah sheltered is the only son of a poritz. Avraham refuses a reward, saying he only did what the Torah teaches, but the poritz holds a banquet and gives them the town park, another poritz gives the lumberyard, and so on until all ten gifts promised by the Baal Shem Tov's students are fulfilled. In Mitzvah Time, Uncle Yossi explains shemos: worn-out holy books and pages go into a shemos box and are buried, never thrown out or burned.",
+  "lesson": "Let your voice be heard when you talk to Hashem; and Hashem rewards kindness in full, just as the tzaddik promised.",
+  "keywords": [
+   "golden bells",
+   "pomegranates",
+   "Kohen Gadol's robe",
+   "daily Chumash",
+   "poritz",
+   "banquet",
+   "park",
+   "lumberyard",
+   "shemos box",
+   "worn-out sefarim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1986-02-18",
+   "hebrew": "9 Adar 1 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'We are right in the week of Tetzaveh'; 'today is Tuesday, so we learn from Shlishi until Revi'i'; month of Adar. Tetzaveh 5746 was read on 22 Feb 1986."
+  },
+  "serial": {
+   "story_key": "the-ten-wedding-gifts",
+   "story_title": "The Ten Wedding Gifts",
+   "chapter": 4
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 213,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest is named on air.",
+    "at_sec": 905
+   },
+   {
+    "flag": "home_address",
+    "note": "The Shema guest gives his street address on air.",
+    "at_sec": 930
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Avraham",
+   "Sarah",
+   "the poritz",
+   "the poritz's son",
+   "the other poritzim"
+  ],
+  "topics": [
+   "parsha",
+   "prayer_and_brachos",
+   "torah_study",
+   "baal_shem_tov_and_students",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "kibbud",
+   "chesed",
+   "ahavas_yisroel",
+   "anavah"
+  ],
+  "mitzvos": [
+   "chitas",
+   "torah_study",
+   "brachos",
+   "davening",
+   "kavod_shul",
+   "ahavas_yisroel_mitzvah",
+   "shema"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [
+   "tetzaveh"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 28:35",
+    "note": "'Its sound shall be heard when he enters the holy place.'"
+   },
+   {
+    "work": "siddur",
+    "ref": "Maariv, Ahavas Olam",
+    "note": "'Ki hem chayeinu': the Torah is our life."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 11,
+   "end_sec": 41,
+   "type": "opening",
+   "title": "Opening: the week of Tetzaveh"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 216,
+   "type": "talk",
+   "title": "Learning the Sedra Every Day",
+   "summary": "Why we learn a part of the weekly parsha with Rashi each day of the week.",
+   "linked_items": [
+    "2fca5cb02e"
+   ]
+  },
+  {
+   "start_sec": 216,
+   "end_sec": 490,
+   "type": "talk",
+   "title": "The Golden Bells: Let Your Voice Be Heard",
+   "summary": "Like the bells on Aharon's robe, our voices should be heard when we say brachos and daven.",
+   "linked_items": [
+    "2fca5cb02e",
+    "2536a126b2"
+   ]
+  },
+  {
+   "start_sec": 490,
+   "end_sec": 735,
+   "type": "song",
+   "title": "Hakochainik March for Adar"
+  },
+  {
+   "start_sec": 735,
+   "end_sec": 876,
+   "type": "story_intro",
+   "title": "Recap: The Ten Wedding Gifts"
+  },
+  {
+   "start_sec": 876,
+   "end_sec": 1045,
+   "type": "shema_guest",
+   "title": "Shema with a young recruiter"
+  },
+  {
+   "start_sec": 1045,
+   "end_sec": 1422,
+   "type": "story_chapter",
+   "title": "The Ten Wedding Gifts, Chapter 4",
+   "summary": "The grateful poritz and his friends present Avraham and Sarah with all ten promised gifts.",
+   "story_key": "the-ten-wedding-gifts",
+   "chapter": 4
+  },
+  {
+   "start_sec": 1422,
+   "end_sec": 1615,
+   "type": "halachah",
+   "title": "Mitzvah Time: Shemos",
+   "summary": "Worn-out holy books are kept in a shemos box and buried, never thrown out or burned.",
+   "linked_items": [
+    "a73fe4a608"
+   ]
+  },
+  {
+   "start_sec": 1615,
+   "end_sec": 1666,
+   "type": "announcement",
+   "title": "Earn rank by recruiting friends"
+  },
+  {
+   "start_sec": 1666,
+   "end_sec": 1707,
+   "type": "closing",
+   "title": "Closing, sponsor and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "2536a126b2",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Speak to Hashem 213' = 216-485 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "2fca5cb02e",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "'Learning Chumash 213' = 37-230 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "a73fe4a608",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Sifrei Kodesh 213' = 1478-1615 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "25fd6b1098",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "The Ten Wedding Gifts, chapter 4 follows chapter 3 in episode 212 (recap on air; catalog #4)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "25fd6b1098",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1986): ep 212 ch. 3 and ep 213 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1d4dfc4fa3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'True to His Word' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "23955aba9c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Baal Shem Tov and the Ten Wedding Gifts, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cc93c1f1cf",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Baal Shem Tov and the Ten Wedding Gifts, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "aa45d30a33",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 35: Chapter 24 and a Child's Brachah on Water (After Shavuos)' (Stories, 29:43-38:16), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content",
+   "trailing_silence"
+  ],
+  "trim": {
+   "content_end_sec": 1707,
+   "note": "Speech ends at about 28:27; the remaining ~1:44 of the 30:11 file has no speech."
+  },
+  "publish_recommendation": "publish",
+  "notes": "Shema guest's home address read on air (see hidden). Sponsor and addresses are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shmuli Chitrik",
+    "role": "shema_guest",
+    "group": "Brooklyn",
+    "start_sec": 905,
+    "end_sec": 1045
+   }
+  ],
+  "addresses": [
+   {
+    "text": "605 Empire Boulevard, Brooklyn, NY",
+    "start_sec": 930,
+    "end_sec": 937
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20213%20-%20The%20Ten%20Wedding%20Gifts%2C%20Chapter%204%20%28Parshas%20Tetzaveh%29%20%281986-02-18%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 213 - The Ten Wedding Gifts, Chapter 4 (Parshas Tetzaveh) (1986-02-18).mp3",
+  "size_bytes": 21737751,
+  "mime_type": "audio/mpeg"
+ }
+}

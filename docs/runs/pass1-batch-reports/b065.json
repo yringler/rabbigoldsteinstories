@@ -1,0 +1,27 @@
+{
+ "batch_id": "b065",
+ "done": [
+  "90fe828dae",
+  "b97b61289f",
+  "5ae5c959ac",
+  "637adf8fdb",
+  "4f8cac370b",
+  "bbb62fc7b5",
+  "0c6e446f61",
+  "ab3187c74c",
+  "087ea9cc6e",
+  "0ab028b9b9"
+ ],
+ "failed": [],
+ "notes": [
+  "The vocabulary changed mid-run: storyteller_i_believe is now confirmed (R' Chaim Levi Goldstein), so it has no identity_guesses entry. Only the weekly_story_i_believe series guess remains.",
+  "ab3187c74c 'The Rebbe Rashab and The Amazing Dream' is the same recording, word for word, as 65cc95fe2e 'The Doctors Dream'; this copy is a few seconds longer and has the 'Guten Shabbos' sign-off. Added a same_recording relation. The hint candidate aired_again_in was not used. The worked example ccedcd76fb ('Besht to the Rescue') says 'last week I told you how the Rebbe Rashab came to a doctor in a dream', which points to this story and may help order the series.",
+  "0ab028b9b9 'The Runaway' (91 min): about 46:21-50:13 has no transcribed speech, and the robbery/prison passage (41:37-46:21) then repeats at 50:13-54:55. Splice glitch; marked publish_with_note. There is no theme song and the narrator is unidentified (set to unknown).",
+  "5ae5c959ac 'The Plot That Boomeranged' (a Purim story) has no theme song or intro talk. It is attributed to storyteller_i_believe by voice/style only, at low confidence, with series null.",
+  "4f8cac370b and bbb62fc7b5 both have 'The Rashbi and the Alter Rebbe' in their titles but are different programs (Lag BaOmer vs Yud-Tes Kislev), not a part set.",
+  "Identity clue in 4f8cac370b: the narrator heard a story from 'my father who was there' at the Rebbe's 1946 children's rally at 770, and played in the 770 backyard as a child. This fits Uncle Yossi's son.",
+  "Dates: 4f8cac370b is shortly before Lag BaOmer 5784 (May 2024), from '101 years ago' about 5683. 087ea9cc6e is Erev Yud-Tes Kislev on a Friday (5781 or 5784?). 0c6e446f61 is in Nissan (it explains the Yehi Ratzon after the daily Nasi). 637adf8fdb is in Elul before Rosh Hashanah.",
+  "Living people named in Rebbe anecdotes: 90fe828dae names a Chassid's son at his first haircut, and 0c6e446f61 names a living Borough Park rabbi. Both are kept out of public text and in hidden, with the identifiable_living_people flag.",
+  "Proposed terms: people rabbi_aharon_of_karlin; mitzvos payos; works sippurim_noraim."
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "d2dde6a581",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Lag Ba'Omer 425",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Lag BaOmer - The Day of Rabbi Shimon bar Yochai's Joy (Ep 425).mp3",
+  "duration_sec": 68.69,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 425,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 425,
+   "story": "Hillel on the roof",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-35.0 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Lag BaOmer: The Day of Rabbi Shimon bar Yochai's Joy",
+  "title_basis": "content",
+  "summary_short": "A one-minute explanation of Lag BaOmer, the yahrzeit of Rabbi Shimon bar Yochai, author of the Zohar, who asked that the day be celebrated with joy.",
+  "summary_long": "A very short Lag BaOmer piece from the Tzivos Hashem radio show. Uncle Yossi explains that Lag BaOmer is the 33rd day of the Omer and the yahrzeit of Rabbi Shimon bar Yochai, the great Tanna of the Talmud and one of the greatest tzaddikim in Jewish history. He is famous for the Zohar, the book that explains the hidden secrets of the Torah. On this day his neshamah returned to Hashem, and before his passing he told his students that Lag BaOmer should be a day of simcha and celebration, which he called 'Yom Simchaso', the day of his joy. In the full broadcast this leads into an invitation to a Tzivos Hashem Lag BaOmer parade, which is not part of this clip.",
+  "lesson": "Lag BaOmer is a day of joy in honor of Rabbi Shimon bar Yochai.",
+  "keywords": [
+   "33rd day of the Omer",
+   "yahrzeit",
+   "Zohar",
+   "secrets of the Torah",
+   "celebration"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 425,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-05-01",
+   "hebrew": "6 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 425: Lag BaOmer announced for 'Sunday, May 13' (18 Iyar 5750); candle times fit Friday 4 May 1990."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "sages"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "82672b0336",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "Also aired in episode 426."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "5871477c4a",
+   "evidence": "text_overlap",
+   "confidence": 0.77,
+   "offset_sec": 1550,
+   "note": "Episode 425 (filename number); clip = 1550-1619 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short; cut from the middle of the Lag BaOmer parade announcement. Quiet source, normalize volume."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Lag%20BaOmer%20-%20The%20Day%20of%20Rabbi%20Shimon%20bar%20Yochai%27s%20Joy%20%28Ep%20425%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Lag BaOmer - The Day of Rabbi Shimon bar Yochai's Joy (Ep 425).mp3",
+  "size_bytes": 825233,
+  "mime_type": "audio/mpeg"
+ }
+}

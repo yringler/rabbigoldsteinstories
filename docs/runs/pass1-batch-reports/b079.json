@@ -1,0 +1,15 @@
+{
+ "batch_id": "b079",
+ "done": ["64ecbd1960", "8871031f73", "40e6c74122", "edf3b051d2", "3ac64b6c15", "326ab9f203", "4673f6eb79"],
+ "failed": [],
+ "notes": [
+  "The teacher of the Yiddish Haggadah series never names himself; tagged yiddish_narrator_unconfirmed (guess null). Possibly Rabbi Yosef Goldstein (same archive, same children's style); hg1a (933079e352) mentions 'the Rebbe shlita', so it was recorded before 1994.",
+  "hg1a (933079e352, 3.9 h) appears to be a full compilation of the whole series. By transcript text it also contains intro (offset 0), hg1b (about 46:33) and hg2b (about 2:15:20), though the fingerprint only matched hg3a, hg2a, Haggada 2 and Haggada 3. I added text_overlap clip_of relations for intro, hg1b and hg2b; pass 2 should confirm them.",
+  "hg1b (64ecbd1960) and 'Haggada 1' (be2d85680e) overlap: Haggada 1 at about 34:35 has the same words as hg1b at about 27:39 (Avadim Hayinu). They are two edits of one recording with partial overlap; no relation added.",
+  "'rest of preparations of erev pesach' (4673f6eb79) is a shorter edit of the erev Pesach talk in hg1a (about 23:55-32:30). The hg1a version also mentions resting about three hours and the Rebbe's matzah sent through a Kollel shliach. Added alternate_take (0.6).",
+  "326ab9f203 is the same audio as 4673f6eb79 without the first minute. Added superseded_by and set publish_recommendation review.",
+  "Sequence: intro -> (burning chametz, da784bf1d1) -> 4673f6eb79 -> ... -> hg1b -> [four sons etc., likely hg2a 78d629608b] -> hg2b -> hg3a -> hg3b. hg3a continues hg2b and hg3b continues hg3a (content relations added).",
+  "hg3b ends during the nigun at the door, before Shefoch Chamascha; hg1a runs to the same point, so the series may stop there.",
+  "Proposed new people term rabbi_elazar_ben_azaryah."
+ ]
+}

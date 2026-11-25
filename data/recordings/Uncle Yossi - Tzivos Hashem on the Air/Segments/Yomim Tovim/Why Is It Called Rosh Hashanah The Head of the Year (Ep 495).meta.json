@@ -1,0 +1,180 @@
+{
+ "id": "0681aadab1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Rosh Hashana 495",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Why Is It Called Rosh Hashanah The Head of the Year (Ep 495).mp3",
+  "duration_sec": 430.422,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 495,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 495,
+   "story": "The secret of the empty fireplace",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Why Is It Called Rosh Hashanah? The Head of the Year",
+  "title_basis": "content",
+  "summary_short": "Days before Rosh Hashanah, Uncle Yossi explains from the Mitteler Rebbe's Ateres Rosh why the day is the 'head' of the year, and why how we act on it shapes the whole year.",
+  "summary_long": "A Rosh Hashanah teaching from the Tzivos Hashem radio show, recorded a few days before the holiday. Uncle Yossi reminds children that on the two days of Rosh Hashanah we are judged for the whole year, and that they should find out when the shofar will be blown in their shul. Then he asks why the day is called Rosh Hashanah, the head of the year, and not simply the beginning of the year. The answer comes from Ateres Rosh by the Mitteler Rebbe, son of the Alter Rebbe: just as the head is the source of life for the whole body, these two days are the head of the coming year, and every blessing for the year is sent on them. So we must be especially careful how we behave, daven and do mitzvos on Rosh Hashanah. He also describes the week's Selichos, with resolutions such as more respect for parents and better behavior in school, and closes with the blessing of a good and sweet year from Hashem, who is close to us like a king in the field.",
+  "lesson": "Rosh Hashanah is the head of the whole year: how we behave, daven and do mitzvos on these two days shapes every day that follows.",
+  "keywords": [
+   "head of the year",
+   "judgment",
+   "Book of Life",
+   "resolutions",
+   "good and sweet year"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 495,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-09-03",
+   "hebrew": "24 Elul 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Date of episode 495, from which the clip is cut: 'This coming Sunday is Erev Rosh Hashanah' (5752)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "davening"
+  ],
+  "calendar": [
+   "rosh_hashanah",
+   "selichos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "ateres_rosh",
+    "note": "Why the day is called Rosh Hashanah, 'the head of the year', and not just its beginning."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Sunday' and 'Monday and Tuesday' (Rosh Hashanah 5752). Partial text overlap with episodes 143 and 193 (an earlier version of the same talk)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "02833b6c12",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 49,
+   "note": "Episode 495 (filename number); clip = 49-480 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "fa812d9395",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text containment 0.70 with episode 143 (0-430 s): likely an earlier airing or reworking of the same talk."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "0954183636",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text containment 0.68 with episode 193 (0-430 s); also a partial audio-fingerprint candidate."
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:01Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Why%20Is%20It%20Called%20Rosh%20Hashanah%20The%20Head%20of%20the%20Year%20%28Ep%20495%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Why Is It Called Rosh Hashanah The Head of the Year (Ep 495).mp3",
+  "size_bytes": 5166158,
+  "mime_type": "audio/mpeg"
+ }
+}

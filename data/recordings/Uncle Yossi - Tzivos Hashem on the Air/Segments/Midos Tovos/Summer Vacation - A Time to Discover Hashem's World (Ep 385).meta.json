@@ -1,0 +1,166 @@
+{
+ "id": "0951d227a9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Vacation 385",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Summer Vacation - A Time to Discover Hashem's World (Ep 385).mp3",
+  "duration_sec": 261.156,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 385,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 385,
+   "story": "Torah, the best thing of all #2",
+   "topic": "י\"ב תמוז",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Summer Vacation: A Time to Discover Hashem's World",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains how summer vacation, spent outdoors among Hashem's wonders, can bring us closer to Hashem, and how Torah, davening and tzedakah every day bring a safe summer.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show as summer vacation begins. Uncle Yossi says vacation is a time to rest from the daily routine, but also a chance to get to know Hashem better. All year we are mostly indoors, in shul, at school and at home; in summer we visit parks, botanical gardens and zoos and see the tall trees, colorful flowers and blooming fields painted by the greatest artist of all, Hashem. Vacation should not be wasted but used as a stairway to climb closer to Hashem. To earn Hashem's blessing for a safe and healthy summer, children should do three things every day: learn Torah, daven, and put coins in the tzedakah pushka. He then recommends choosing a camp that keeps Shabbos and kashrus and sets time for davening and Torah study, with God-fearing counselors.",
+  "lesson": "Use vacation wisely: see Hashem's wonders, and keep up Torah, davening and tzedakah every day.",
+  "keywords": [
+   "summer vacation",
+   "parks",
+   "zoo",
+   "botanical gardens",
+   "nature",
+   "camp",
+   "pushka"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 385,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-07-11",
+   "hebrew": "8 Tammuz 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 385 (07-11-89). Also aired in episodes 281 and 440."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "hashem_in_nature",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "kashrus",
+   "shabbos"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends just before the camp phone number is read. Mentions 'as mentioned last week' about the camp line."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:08:57Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4ede6df733",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 281."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b446975e89",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 440."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "c7e1d15aed",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 24,
+   "note": "Episode 385 (filename number); clip = 24-285 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Summer%20Vacation%20-%20A%20Time%20to%20Discover%20Hashem%27s%20World%20%28Ep%20385%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Summer Vacation - A Time to Discover Hashem's World (Ep 385).mp3",
+  "size_bytes": 3134872,
+  "mime_type": "audio/mpeg"
+ }
+}

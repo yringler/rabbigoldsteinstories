@@ -1,0 +1,164 @@
+{
+ "id": "4ab57db8c9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chol Hamoed Pesach 525",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Chol HaMoed Pesach - The Great Miracles of Moshiach (Ep 525).mp3",
+  "duration_sec": 284.808,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 525,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 525,
+   "story": "The vanishing bottle of wine",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Chol HaMoed Pesach: The Great Miracles of Moshiach",
+  "title_basis": "content",
+  "summary_short": "On Chol HaMoed Pesach, Uncle Yossi recalls the Seder and Eliyahu HaNavi's blessing, and describes the even greater miracles, like the heavenly clouds, that will come with Moshiach.",
+  "summary_long": "A short Chol HaMoed Pesach talk from the Tzivos Hashem radio show. Uncle Yossi recalls the Seder nights: the Four Questions, the four cups, the shmurah matzah and maror, the Haggadah and the cup of Eliyahu HaNavi, who visits every Jewish home and blesses us with 'next year in Yerushalayim'. Pesach strengthens our belief in Hashem as a G-d of miracles, and the miracles of Moshiach's coming will be even greater than those of the Exodus. The prophet Daniel says heavenly clouds will carry everyone to Eretz Yisroel in the blink of an eye, and every shul and school will be flown there too. Young children, he says, will be the first to march out of golus. The talk closes with a call to stir up real Yom Tov joy in honor of Pesach.",
+  "lesson": "Pesach strengthens our trust that Hashem will bring Moshiach with miracles even greater than those of the Exodus.",
+  "keywords": [
+   "Seder",
+   "four cups",
+   "Kos shel Eliyahu",
+   "heavenly clouds",
+   "miracles",
+   "Exodus",
+   "shul",
+   "golus"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 525,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-04-21",
+   "hebrew": "18 Nissan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 525, aired on Chol HaMoed Pesach 5752 (the Tuesday after episode 524 on 11 Nissan)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "miracles",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "seder",
+   "matzah"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "The prophet Daniel: heavenly clouds will carry us to Eretz Yisroel when Moshiach comes."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with the lead-in to the Hakochainik march, which is not in the clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:05Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2629d0ceeb",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 49,
+   "note": "Episode 525 (filename number); clip = 49-334 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Chol%20HaMoed%20Pesach%20-%20The%20Great%20Miracles%20of%20Moshiach%20%28Ep%20525%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Chol HaMoed Pesach - The Great Miracles of Moshiach (Ep 525).mp3",
+  "size_bytes": 3418572,
+  "mime_type": "audio/mpeg"
+ }
+}

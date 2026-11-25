@@ -1,0 +1,180 @@
+{
+ "id": "cb3698c502",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "Hillel on the Roof 425",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Hillel on the Roof (Ep 425).mp3",
+  "duration_sec": 595.84,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 425,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 425,
+   "story": "Hillel on the roof",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-35.4 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Hillel on the Roof",
+  "title_basis": "filename",
+  "summary_short": "Young Hillel loves Torah so much that he lies on the shul's snowy skylight in a blizzard to hear the lesson below, and is found nearly frozen.",
+  "summary_long": "Uncle Yossi tells of the great Hillel when he was a young scholar. Long ago, before radiators, homes and shuls were heated with wood from the forest. In one town, a large shul was full of Torah scholars learning day and night, and in winter everyone brought a few logs of firewood as a kind of entrance fee. Hillel learned all day, supported by kind people, and could not bear to take time away from learning to chop wood, yet he was too honest to come in without it. On a freezing morning in a blizzard, he climbed onto the roof and lay on the glass skylight so he could hear the lesson. When a student went up to sweep away the snow, he found Hillel lying motionless under a blanket of snow. They carried him inside and warmed him by the fire, and he opened his eyes and apologized for the trouble. The townspeople asked his forgiveness and freed him from bringing wood. Hillel grew up to be the famous Hillel of the Mishnah and Pirkei Avos, the head of Beis Hillel.",
+  "lesson": "Love Torah so much that you are ready to give up your comfort to learn more.",
+  "keywords": [
+   "skylight",
+   "snowstorm",
+   "blizzard",
+   "firewood",
+   "shul",
+   "Beis Hillel",
+   "fireplace"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 425,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-05-01",
+   "hebrew": "6 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 425 (Lag BaOmer 'Sunday, May 13' and candle times). The same story first aired in episode 375 (2 May 1989)."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Hillel is found motionless under the snow and the townspeople fear he has frozen; he revives.",
+    "at_sec": 384
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "hillel",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the townspeople",
+   "the student who sweeps the skylight"
+  ],
+  "topics": [
+   "sages",
+   "torah_study"
+  ],
+  "midos": [
+   "hasmadah",
+   "mesiras_nefesh",
+   "emes"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "de9bba59ed",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "Also aired in episode 474."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e537998c07",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 375."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "5871477c4a",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 566,
+   "note": "Episode 425 (filename number); clip = 566-1162 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete story; very quiet source, normalize volume. The story is the well-known account of Hillel on the roof (Yoma 35b), retold for children."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/Hillel%20on%20the%20Roof%20%28Ep%20425%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Hillel on the Roof (Ep 425).mp3",
+  "size_bytes": 7151048,
+  "mime_type": "audio/mpeg"
+ }
+}

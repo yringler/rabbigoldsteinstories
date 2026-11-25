@@ -1,0 +1,322 @@
+{
+ "id": "de9bba59ed",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "474",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 474 - Hillel on the Roof (Sefiras HaOmer) (1991-04-09).mp3",
+  "duration_sec": 1779.715,
+  "filename_facts": {
+   "episode_number": 474,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 474,
+   "story": "Hillel on the roof",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 474: Hillel on the Roof (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "During Sefirah: why we learn Pirkei Avos, the young Hillel who lay on a snowy skylight to hear Torah, and the hunt for the 'missing aleph' with the Radatz's lesson about brachos.",
+  "summary_long": "Broadcast in the days of Sefirah, 5751. Uncle Yossi explains that the counting between Pesach and Shavuos expresses our love for the Torah, and that we learn a chapter of Pirkei Avos each Shabbos because good character must come before Torah. A yeshiva boy recites the Shema and everyone gives tzedakah. Story time tells of Hillel, who studied day and night and could not spare time to chop firewood for the shul. On a freezing, snowy day he lay on the roof skylight to hear the lesson below and was found buried in snow; he was revived, and the townspeople freed him from bringing wood. That Hillel became the great sage of the Mishnah. Next comes a hunt for the 'missing aleph': the Torah and every brachah begin with a beis, because the hidden aleph stands for Hashem, the One. The Radatz taught the young Yosef Yitzchak, later the Frierdiker Rebbe, the Tzemach Tzedek's advice to pause before each brachah and think about Whom we are blessing. The show closes with a reminder to write in about hagbah and the Shabbos candle-lighting time.",
+  "lesson": "Love Torah so much that you will give anything to learn it; and before every brachah, stop and remember that you are speaking to Hashem.",
+  "keywords": [
+   "Pirkei Avos",
+   "firewood",
+   "skylight",
+   "snowstorm",
+   "Beis Hillel",
+   "missing aleph",
+   "Baruch Atah",
+   "brachah",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 474,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic",
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-09",
+   "hebrew": "25 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Days of Sefirah; refers back to last week's hagbah request (episode 473); Shabbos candles 7:14 fits Friday 12 April 1991 in New York."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Hillel is found unconscious under the snow and it is unclear for a moment whether he is alive.",
+    "at_sec": 936
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The yeshiva boy reciting the Shema is named in full with his school.",
+    "at_sec": 344
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "hillel",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "radatz",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Hillel as a young scholar",
+   "the student who sweeps the roof",
+   "the townspeople",
+   "the Radatz, the Frierdiker Rebbe's teacher"
+  ],
+  "topics": [
+   "sages",
+   "torah_study",
+   "prayer_and_brachos",
+   "chabad_rebbeim",
+   "calendar"
+  ],
+  "midos": [
+   "hasmadah",
+   "mesiras_nefesh",
+   "emes",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "brachos",
+   "sefiras_haomer",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "note": "Studied each Shabbos between Pesach and Shavuos; Hillel is often quoted there."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 315,
+   "type": "talk",
+   "title": "Sefirah: Love of Torah and Learning Pirkei Avos",
+   "summary": "Counting toward Matan Torah, and why good character, learned in Pirkei Avos, comes before Torah.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "dcbd13ef16"
+   ]
+  },
+  {
+   "start_sec": 315,
+   "end_sec": 478,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student"
+  },
+  {
+   "start_sec": 478,
+   "end_sec": 528,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 528,
+   "end_sec": 1134,
+   "type": "story",
+   "title": "Hillel on the Roof",
+   "summary": "The young Hillel lies on a snowy skylight to hear Torah and is rescued from the cold.",
+   "people": [
+    "hillel"
+   ]
+  },
+  {
+   "start_sec": 1134,
+   "end_sec": 1715,
+   "type": "talk",
+   "title": "The Missing Aleph",
+   "summary": "Why the Torah and every brachah begin with a beis: the hidden aleph stands for Hashem, the One.",
+   "linked_items": [
+    "c6250a3b05"
+   ]
+  },
+  {
+   "start_sec": 1455,
+   "end_sec": 1690,
+   "type": "story",
+   "title": "The Radatz and the Pause Before a Brachah",
+   "summary": "The Frierdiker Rebbe as a boy learns why his teacher pauses before each brachah.",
+   "people": [
+    "frierdiker_rebbe",
+    "tzemach_tzedek"
+   ],
+   "linked_items": [
+    "c6250a3b05"
+   ]
+  },
+  {
+   "start_sec": 1715,
+   "end_sec": 1773,
+   "type": "announcement",
+   "title": "Hagbah letters and Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1773,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Largely re-uses material from episodes 375 and 425; the closing (hagbah letters, candle time 7:14) is new. No march (Sefirah)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yitzchak Gartenhaus",
+    "role": "shema_guest",
+    "group": "Yeshiva Torah Temimah, Ocean Parkway",
+    "start_sec": 344,
+    "end_sec": 478
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:46Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "c6250a3b05",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Radatz 474' = 1134-1715 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "dcbd13ef16",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Sefiras Haomer 474' = 29-301 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5871477c4a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Episode 425 has the same Sefirah talk, the same Shema guest and the Hillel story; 474 is a re-edit with a new closing."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "cb3698c502",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'Hillel on the Roof 425' is the same story recording."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e537998c07",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Episode 375 opens with the same Sefirah talk and contains the Missing Aleph segment."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20474%20-%20Hillel%20on%20the%20Roof%20%28Sefiras%20HaOmer%29%20%281991-04-09%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 474 - Hillel on the Roof (Sefiras HaOmer) (1991-04-09).mp3",
+  "size_bytes": 21357513,
+  "mime_type": "audio/mpeg"
+ }
+}

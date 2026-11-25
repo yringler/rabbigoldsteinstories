@@ -1,0 +1,188 @@
+{
+ "id": "cad84e0aaf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Mayerke",
+  "audio_path": "audio/Other Stories/Mayerke - A Boy Who Would Not Eat Treif.mp3",
+  "duration_sec": 2129.429,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mayerke: A Boy Who Would Not Eat Treif",
+  "title_basis": "filename",
+  "summary_short": "Hidden with a Russian family during the war, ten-year-old Mayerke refuses all non-kosher food through hunger and beatings, until he and his mother find each other again.",
+  "summary_long": "As the German army advances on their Russian city, Mrs. Levin leaves her ten-year-old son Mayerke with a kind non-Jewish childhood friend, Nastya, and flees into hiding. Her last words to him: remember you are a Jew, eat only kosher, and keep Shabbos. Renamed Misha Sedov, Mayerke lives on fruit and vegetables and will not touch the family's soup. Nastya's husband Fedya, a drunkard, declares war on the stubborn boy, beating him and trying to force-feed him, yet Mayerke holds firm until even Fedya is afraid of his strength. When the fighting returns, the family flees to crowded Sverdlovsk, where Mayerke refuses even a precious glass of milk because it is not chalav Yisroel. After the war his mother searches the ruins of her street and asks the tzaddik Reb Wolf for a blessing; he promises she will find her son quickly if he has kept himself from treif. Mayerke sets off alone to find her just as she arrives in Sverdlovsk, and a group of war orphans' teasing song about a boy who eats only cucumbers leads her straight to him.",
+  "lesson": "Keeping kosher is a deep bond between a Jew and Hashem; if a child could keep it with such mesiras nefesh, we who live in peace can surely learn Torah and do mitzvos with joy.",
+  "keywords": [
+   "World War II",
+   "hiding",
+   "Russian family",
+   "kosher food",
+   "chalav Yisroel",
+   "soup",
+   "milk",
+   "Sverdlovsk",
+   "train station",
+   "war orphans"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "moderate",
+    "note": "Set during the German invasion of Russia in World War II: bombing, shooting, people killed, war orphans."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A drunk man beats a ten-year-old and tries to force non-kosher food into his mouth."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "moderate",
+    "note": "The foster uncle comes home drunk every week and rages."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A fatherless boy separated from his mother for the whole war, hungry and alone; happy reunion."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Mayerke (Meir) Levin",
+   "his mother, Mrs. Levin",
+   "Aunt Nastya",
+   "Uncle Fedya",
+   "the tzaddik Reb Wolf",
+   "a group of war orphans"
+  ],
+  "topics": [
+   "mesiras_nefesh_kiddush_hashem",
+   "kashrus",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage",
+   "bitachon",
+   "self_control",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "kashrus",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "'As the Rebbe shlita has told us many times': today we are asked only to learn Torah and do mitzvos in peace."
+   }
+  ],
+  "places": [
+   "Russia",
+   "Sverdlovsk",
+   "Moscow"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 2055,
+   "type": "story",
+   "title": "Mayerke and the kosher food",
+   "summary": "A Jewish boy hidden with a Russian family during the war refuses all treif and is reunited with his mother."
+  },
+  {
+   "start_sec": 2055,
+   "type": "closing",
+   "title": "Mesiras nefesh in our times",
+   "summary": "The storyteller explains that today all we are asked is to learn Torah and do mitzvos in peace."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No intro song. ASR varies the spellings of Mayer and Nastya; 'Chalavakum' = chalav akum."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unidentified (refers to 'the Rebbe shlita'; no intro song)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Mayerke%20-%20A%20Boy%20Who%20Would%20Not%20Eat%20Treif.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Mayerke - A Boy Who Would Not Eat Treif.mp3",
+  "size_bytes": 25554152,
+  "mime_type": "audio/mpeg"
+ }
+}

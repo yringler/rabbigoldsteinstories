@@ -1,0 +1,174 @@
+{
+ "id": "380cd387f3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "Bedikas Chametz",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Bedikas Chametz - Searching the House for Chametz.mp3",
+  "duration_sec": 791.588,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Bedikas Chametz: Searching the House for Chametz",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish lesson for children on Bedikas Chametz: cleaning ahead of time, hiding ten pieces, the brachah, searching every corner with a candle and saying Kol Chamira.",
+  "summary_long": "Told in Yiddish for children, following the Seder Hanhagos shel Pesach page of the Haggadah. Before Pesach all chametz must leave the house. Cleaning starts weeks earlier: chametz is eaten only in the kitchen or dining room, sefarim are kept off the chametz table, and toys are checked for crumbs, since cookies turn up under pillows and in pockets. On the night before Erev Pesach one takes a feather, a wooden spoon, a candle and a bag, and first hides ten hard pieces of chametz around the house, like a game of hide and seek. After the brachah Al Biur Chametz one may not talk about other things until the search is done. The whole family searches every room and corner by candlelight, finds all ten pieces, ties up the bag and puts it somewhere safe from little children and mice. The chametz for breakfast should also be put away, so that a missing tenth piece does not mean searching all over again. Finally one says Kol Chamira, declaring any unseen chametz ownerless, like the dust of the earth, and goes to sleep early to be ready for Erev Pesach.",
+  "lesson": "We search for chametz carefully and completely, and nullify whatever we could not find, so that no chametz is ours on Pesach.",
+  "keywords": [
+   "candle",
+   "feather",
+   "wooden spoon",
+   "ten pieces of bread",
+   "Kol Chamira",
+   "cleaning",
+   "toys",
+   "cookies",
+   "mice",
+   "bag"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "talk",
+  "story_type": [],
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "933079e352",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Same teaching appears in 'hg1a' at about 2:40-16:40; this file is a tighter edit of that recording."
+  }
+ ],
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "calendar"
+  ],
+  "midos": [
+   "responsibility",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "chametz"
+  ],
+  "calendar": [
+   "erev_pesach",
+   "pesach",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Seder Hanhagos shel Pesach; brachah Al Biur Chametz; Kol Chamira"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 255,
+   "type": "halachah",
+   "title": "Cleaning the house before Pesach",
+   "summary": "Why the house is cleaned weeks ahead, where chametz may be eaten, and checking sefarim and toys for crumbs."
+  },
+  {
+   "start_sec": 255,
+   "end_sec": 320,
+   "type": "halachah",
+   "title": "Hiding the ten pieces",
+   "summary": "Ten hard pieces of chametz are hidden around the house before the search."
+  },
+  {
+   "start_sec": 320,
+   "end_sec": 625,
+   "type": "halachah",
+   "title": "The brachah and the search",
+   "summary": "The brachah, not talking during the search, finding all ten pieces and putting the bag away safely."
+  },
+  {
+   "start_sec": 625,
+   "end_sec": 791,
+   "type": "halachah",
+   "title": "Kol Chamira",
+   "summary": "Declaring all unseen chametz ownerless, like the dust of the earth."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins with 'then we turn to page three' of the Haggadah, as an excerpt of a longer Haggadah series. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Speaker not named in the recording."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Bedikas%20Chametz%20-%20Searching%20the%20House%20for%20Chametz.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Bedikas Chametz - Searching the House for Chametz.mp3",
+  "size_bytes": 9499887,
+  "mime_type": "audio/mpeg"
+ }
+}

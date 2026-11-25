@@ -1,0 +1,320 @@
+{
+ "id": "1dc37ae04f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Sefiras Haomer - Kids",
+  "filename_title": "sefiras ha'omer SZ 2",
+  "audio_path": "audio/Other Stories/Sefiras HaOmer at Home, Part 2 - Rabbi Akiva, Lag BaOmer and Matan Torah.mp3",
+  "duration_sec": 2185.796,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Sefiras HaOmer at Home, Part 2: Rabbi Akiva, Lag BaOmer and Matan Torah",
+  "title_basis": "content",
+  "summary_short": "A father in Yiddish tells his young son about Rabbi Akiva's students, Rabbi Shimon bar Yochai and Lag BaOmer, the days of Sefirah and the giving of the Torah at Har Sinai.",
+  "summary_long": "The second Yiddish home recording of a father with his son, about to turn three, during Sefiras HaOmer. First he tells of Rabbi Akiva and his twenty-four thousand students, who were punished because they lacked Ahavas Yisroel until Lag BaOmer, and they sing 'V'ahavta l'reacha kamocha', Rabbi Akiva's great rule of the Torah. Next comes Rabbi Shimon bar Yochai, who hid from the Romans in a cave with his son for twelve years, living on a carob tree and a spring of water and learning Torah; he passed away on Lag BaOmer, which is why children go out with bows and arrows. The father then describes the Jews' journey from Mitzrayim, growing better each day by listening to the yetzer tov and not the yetzer hara, until they reach Har Sinai on Rosh Chodesh Sivan. He paints Matan Torah: fire, smoke, thunder, the shofar, and Hashem's first word, Anochi, while the whole world falls silent. He explains why we eat dairy on Shavuos, plays the niggun Atah Hareisa, and the recording ends with 'We Want Moshiach Now'.",
+  "lesson": "Love every Jew, listen to the yetzer tov, and prepare each day of Sefirah to receive the Torah.",
+  "keywords": [
+   "24,000 students",
+   "cave",
+   "carob tree",
+   "bow and arrow",
+   "rainbow",
+   "Har Sinai",
+   "Ten Commandments",
+   "shofar",
+   "blintzes",
+   "yetzer tov",
+   "Atah Hareisa",
+   "We Want Moshiach Now"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "family_recording",
+  "story_type": [
+   "talmudic",
+   "tanach_midrash"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "sefiras-ha-omer-sz",
+   "part_number": 2,
+   "of": 2
+  },
+  "date": {
+   "gregorian": "1981-05",
+   "hebrew": "Iyar 5741",
+   "hebrew_year": 5741,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "Same session as part 1, which places the recording during Sefiras HaOmer 5741 (upsherin on Daled Tammuz 5741)."
+  },
+  "collections": [
+   "Yiddish",
+   "Sefiras HaOmer - Kids"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students die in a plague; the passing of Rabbi Shimon bar Yochai is mentioned."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Romans try to stop Rabbi Shimon bar Yochai from teaching Torah and he hides in a cave."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Home recording of a father with his young son."
+   },
+   {
+    "flag": "minor_named",
+    "note": "The child is named throughout.",
+    "at_sec": 0
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Akiva's students",
+   "Rabbi Elazar, son of Rabbi Shimon bar Yochai",
+   "the Romans",
+   "a Jew choosing between the yetzer tov and the yetzer hara"
+  ],
+  "topics": [
+   "sages",
+   "calendar",
+   "kindness_and_community",
+   "torah_study",
+   "family_and_home"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "self_control",
+   "hasmadah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "ahavas_yisroel_mitzvah",
+   "torah_study",
+   "kashrus"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Har Sinai",
+   "Mitzrayim"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 329.5,
+   "type": "story",
+   "title": "Rabbi Akiva's students and Ahavas Yisroel",
+   "summary": "Rabbi Akiva's twenty-four thousand students lacked Ahavas Yisroel and were punished until Lag BaOmer.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 329.5,
+   "end_sec": 357.6,
+   "type": "song",
+   "title": "V'ahavta l'reacha kamocha",
+   "summary": "Father and son sing Rabbi Akiva's great rule of the Torah."
+  },
+  {
+   "start_sec": 357.6,
+   "end_sec": 424.4,
+   "type": "qa",
+   "title": "Being kind to your brothers",
+   "summary": "The father talks with the boy about being nice to his brothers and saying pesukim at a rally."
+  },
+  {
+   "start_sec": 424.4,
+   "end_sec": 823.1,
+   "type": "story",
+   "title": "Rabbi Shimon bar Yochai in the cave and Lag BaOmer",
+   "summary": "Rabbi Shimon bar Yochai hides from the Romans for years in a cave, and his passing on Lag BaOmer is celebrated with bows and arrows.",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 823.1,
+   "end_sec": 1042.3,
+   "type": "talk",
+   "title": "Counting the days and the yetzer tov",
+   "summary": "Leaving Mitzrayim, the Jews grew better each day by listening to the yetzer tov instead of the yetzer hara."
+  },
+  {
+   "start_sec": 1042.3,
+   "end_sec": 1453.2,
+   "type": "story",
+   "title": "Matan Torah at Har Sinai",
+   "summary": "The Jews camp at Har Sinai on Rosh Chodesh Sivan and hear Hashem give the Ten Commandments amid fire, smoke and the shofar.",
+   "people": [
+    "moshe_rabbeinu"
+   ]
+  },
+  {
+   "start_sec": 1453.2,
+   "end_sec": 1734.7,
+   "type": "talk",
+   "title": "Shavuos in shul, dairy foods and a silent world",
+   "summary": "Why we hear the Aseres HaDibros in shul and eat dairy on Shavuos, and how all creatures fell silent at Matan Torah.",
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 1734.7,
+   "end_sec": 2043.0,
+   "type": "song",
+   "title": "The niggun Atah Hareisa",
+   "summary": "The father plays a niggun the Rebbe taught, sung on Yom Tov."
+  },
+  {
+   "start_sec": 2043.0,
+   "end_sec": 2185.8,
+   "type": "song",
+   "title": "We Want Moshiach Now",
+   "summary": "Father and son sing together to close the recording."
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "798eaeecfd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'sefiras ha'omer SZ 1': same father and son, same Sefirah/Shavuos theme."
+  },
+  {
+   "type": "continues",
+   "target_id": "798eaeecfd",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "Picks up the same home session; order follows the filename numbers."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he",
+   "en"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "music_untranscribed",
+   "mixed_language"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Home recording with a toddler; the niggun Atah Hareisa (about 29:30-34:00) is not transcribed and ASR loops appear near 27:12 and 35:46."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shneur Zalman",
+    "role": "family_member",
+    "group": "the son, turning three",
+    "start_sec": 0,
+    "end_sec": 2185.8
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The boy will say pesukim on the microphone at a rally and is about to start yeshivah/cheder.",
+    "start_sec": 357.6,
+    "end_sec": 424.4
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Family recording: father not identified; 'SZ' in the filename matches the child's initials."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Sefiras%20HaOmer%20at%20Home%2C%20Part%202%20-%20Rabbi%20Akiva%2C%20Lag%20BaOmer%20and%20Matan%20Torah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Sefiras HaOmer at Home, Part 2 - Rabbi Akiva, Lag BaOmer and Matan Torah.mp3",
+  "size_bytes": 26230385,
+  "mime_type": "audio/mpeg"
+ }
+}

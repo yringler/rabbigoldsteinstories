@@ -1,0 +1,364 @@
+{
+ "id": "456522bfcc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "02 Logs and Alter Rebbe - Rosh Hashana",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah).mp3",
+  "duration_sec": 1470.3,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah)",
+  "title_basis": "filename",
+  "summary_short": "Why Rosh Hashanah falls on the day Adam was created, why we must never waste time, and how listening to the Alter Rebbe saved an honest Chassid's life.",
+  "summary_long": "After a recap of the honest Chassid framed for stealing logs, the storyteller asks his class why Rosh Hashanah marks the creation of Adam and not the first day of creation: the world was made so that people could serve Hashem, just as a Jew's true age counts only the years he serves Hashem. Hashem created Adam last, like a guest invited only when the meal is ready, which teaches us never to waste time; a funny story about a boy who lost a dime shows that a lost hour cannot be made up. Every Jew must feel that the world was created for him. Back in the story, the Alter Rebbe tells Reb Baruch to go to the minister now. The minister greets him warmly: an officer had been waiting the week before to shoot him on sight, and since then witnesses revealed that Alex planted the logs. The storyteller connects this to trusting the Rebbe in our own times, including during the COVID pandemic, and to the Rebbe's promise that Moshiach is about to come.",
+  "lesson": "Use every moment Hashem gives you, and when you follow a tzaddik's instructions with bitachon, only good comes of it.",
+  "keywords": [
+   "logs",
+   "minister",
+   "officer",
+   "witnesses",
+   "Adam",
+   "dime",
+   "wasting time",
+   "COVID"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "the-alter-rebbe-and-the-stolen-logs",
+   "part_number": 2,
+   "of": 2
+  },
+  "date": {
+   "gregorian": "2020-09",
+   "hebrew": "Late Elul 5780",
+   "hebrew_year": 5780,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "The week after Chai Elul; hopes for the Geulah 'before Rosh Hashanah comes'; COVID talk fits 5780."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "An officer was sent to shoot the Chassid on sight; he is saved."
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The storyteller mentions COVID and his own recovery from it."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Baruch, the honest Chassid",
+   "Reb Baruch's wife",
+   "the minister",
+   "Alex",
+   "a boy who lost a dime"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "emunah_bitachon",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "hasmadah",
+   "zerizus",
+   "valuing_time"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "rosh_hashanah",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 26:5",
+    "note": "'Eikev asher shama Avraham': Avraham served Hashem 172 of his 175 years."
+   },
+   {
+    "work": "midrash",
+    "note": "A guest is invited only when the meal is ready."
+   },
+   {
+    "work": "mishnah",
+    "ref": "Sanhedrin 4:5",
+    "note": "'The world was created for me.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "story_intro",
+   "title": "Recap: the plot against Reb Baruch",
+   "end_sec": 180
+  },
+  {
+   "start_sec": 180,
+   "type": "talk",
+   "title": "Why Rosh Hashanah is the day Adam was created",
+   "end_sec": 550,
+   "summary": "Questions to the class and a Jew's true age."
+  },
+  {
+   "start_sec": 550,
+   "type": "talk",
+   "title": "Don't waste time: the lost dime",
+   "end_sec": 733
+  },
+  {
+   "start_sec": 733,
+   "type": "talk",
+   "title": "The world was created for me",
+   "end_sec": 854
+  },
+  {
+   "start_sec": 854,
+   "type": "story_chapter",
+   "title": "The stolen logs, Part 2",
+   "end_sec": 1265,
+   "summary": "The Alter Rebbe's advice saves Reb Baruch's life.",
+   "story_key": "the-alter-rebbe-and-the-stolen-logs",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1265,
+   "type": "talk",
+   "title": "Trusting the Rebbe: Moshiach is around the corner"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Class recording with children answering. COVID references date it to 2020."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; no theme song here, but the same narrator (family details, accent, class format) as the 'I believe in Hashem' items in this batch.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Storyteller mentions his own COVID illness (unnamed here); check before publishing if he is later identified."
+  ]
+ },
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.97,
+   "note": "Opens with a recap of part 1 ('01. Logs and alter rebbe 18 elul') and finishes the story."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.97,
+   "note": "Part 1 of the stolen-logs story."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0d0dca3950",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 144: Saved by a Miracle, Chapter 1 (Aseres Yemei Teshuvah)' (episode 144, 15:56-26:20), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3bb176e5dc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6144d5e2ae",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8446e61564",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 548: Reb Boruch and the Alter Rebbe's Blessing, Chapter 1 (Parshas Chayei Sarah)' (episode 548, 15:11-28:10), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "853da317f6",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 470: Saved by a Miracle, Chapter 2 (Before Pesach)' (episode 470), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9e76795fbd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 469: Saved by a Miracle, Chapter 1' (episode 469, 15:45-29:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a6d365fb27",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 232: Saved by Miracle, Chapter 1' (episode 232, 12:36-26:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c3c1431fbb",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 190: Saved by a Miracle, Chapter 1 (Elul)' (episode 190, 12:50-26:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c7ad731703",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 27: Saved by a Miracle, Chapter 2' (episode 27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d4bce1f21a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 26: Saved by a Miracle, Chapter 1' (episode 26, 15:55-26:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "da4e994561",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 145: Saved by a Miracle, Chapter 2 (Erev Sukkos)' (episode 145), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e1f0dfdd1d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 233: Saved by Miracle, Chapter 2 (Rosh Chodesh Tammuz)' (episode 233), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f19c7a126f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 290: Saved by a Miracle, Chapter 2 (Rosh Chodesh Elul)' (episode 290), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f748313861",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 509: Saved by a Miracle (Chof-Daled Teves)' (episode 509, 10:20-29:22), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Alter%20Rebbe%20and%20the%20Stolen%20Logs%2C%20Part%202%20%28Rosh%20Hashanah%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah).mp3",
+  "size_bytes": 17644410,
+  "mime_type": "audio/mpeg"
+ }
+}

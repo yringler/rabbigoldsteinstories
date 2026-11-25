@@ -1,0 +1,299 @@
+{
+ "id": "45db0c2fb5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "479",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 479 - The Big Barrel of Wine (Rosh Chodesh Sivan) (1991-05-14).mp3",
+  "duration_sec": 1814.886,
+  "filename_facts": {
+   "episode_number": 479,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 479,
+   "story": "The big barrel of wine",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 479: The Big Barrel of Wine (Rosh Chodesh Sivan)",
+  "title_basis": "master_catalog",
+  "summary_short": "On Rosh Chodesh Sivan, Uncle Yossi explains why the whole world was created for the sixth of Sivan, and tells the story of the townspeople who each poured water instead of wine.",
+  "summary_long": "Broadcast on Rosh Chodesh Sivan, a few days before Shavuos. Uncle Yossi explains Rashi's teaching on 'Yom HaShishi': the extra letter hei points to the sixth of Sivan, the day the Torah was given, for which the whole world was created. To prepare, we resolve to learn more Torah and to do mitzvos with yiras Shamayim, carefully and exactly as Hashem commanded, like checking that every letter of a mezuzah is perfect, and to accept the Torah with joy. After the Hakochainik march, two sisters from a Brooklyn girls' school say the Shema and one of the Twelve Pesukim, and everyone gives tzedakah. Story time tells of the merry winemakers of a town famous for its wine. To welcome the king, each family is to pour a gallon of wine into a giant barrel, but one by one everyone thinks 'my water won't be noticed', and the king's golden cup fills with plain water. The show ends with a reminder that everyone, young and old, should come to shul on Shavuos to hear the Aseres HaDibros.",
+  "lesson": "Never say 'let someone else do it': do your own share of every good thing and set an example for others.",
+  "keywords": [
+   "barrel of wine",
+   "winemakers",
+   "king's visit",
+   "golden faucet",
+   "water",
+   "mezuzah",
+   "Yom HaShishi",
+   "Aseres HaDibros",
+   "Matan Torah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 479,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1991-05-14",
+   "hebrew": "1 Sivan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the first day of the new month... Sivan'; Shavuos 'this coming Sunday' fits 6 Sivan 5751 = Sunday 19 May 1991. A Tuesday."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests named in full.",
+    "at_sec": 695
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the merry winemakers",
+   "the king",
+   "the royal messenger",
+   "the governor",
+   "Getzel the barber",
+   "Berel the butcher",
+   "Chaim the tailor",
+   "Hershel the shoemaker"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "character",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "responsibility",
+   "yiras_shamayim",
+   "kabbalas_ol",
+   "emes",
+   "generosity"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "mezuzah",
+   "shema",
+   "twelve_pesukim",
+   "tzedakah",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 1:31, 'Yom HaShishi'",
+    "note": "The extra hei refers to the sixth of Sivan, the giving of the Torah."
+   },
+   {
+    "work": "midrash",
+    "note": "Hashem made a condition with creation: the world exists only if Bnei Yisroel accept the Torah."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Kabbalas HaTorah b'simchah uvipnimiyus",
+    "note": "The Rebbe's Shavuos blessing."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 471,
+   "type": "talk",
+   "title": "Rosh Chodesh Sivan: The World Was Created for the Sixth of Sivan",
+   "summary": "Rashi on 'Yom HaShishi', preparing for Matan Torah with more Torah study, mitzvos done with yiras Shamayim, and accepting the Torah with joy.",
+   "people": [
+    "rashi",
+    "the_rebbe"
+   ],
+   "calendar": [
+    "rosh_chodesh",
+    "shavuos"
+   ],
+   "linked_items": [
+    "0cf923266c"
+   ]
+  },
+  {
+   "start_sec": 471,
+   "end_sec": 638,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 638,
+   "end_sec": 667,
+   "type": "story_intro",
+   "title": "Story time is coming"
+  },
+  {
+   "start_sec": 667,
+   "end_sec": 925,
+   "type": "shema_guest",
+   "title": "Shema and the Twelve Pesukim with two sisters from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 925,
+   "end_sec": 962,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 962,
+   "end_sec": 1668,
+   "type": "story",
+   "title": "The Big Barrel of Wine",
+   "summary": "Every townsperson secretly pours water instead of wine into the barrel prepared for the king, and the king's cup fills with plain water."
+  },
+  {
+   "start_sec": 1668,
+   "end_sec": 1736,
+   "type": "announcement",
+   "title": "Come to shul on Shavuos to hear the Aseres HaDibros",
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 1736,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0cf923266c",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Shavuos 479' = 46-471 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "4fa6f295a0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Grape Town: The King's Barrel of Wine' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guests named on air (see hidden). Catalog story title matches the story told."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Nechama Dina Brad",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 695,
+    "end_sec": 925
+   },
+   {
+    "name": "Devorah Leah Brad",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 695,
+    "end_sec": 925
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Surname of the Shema guests is as heard by ASR ('Brad')."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20479%20-%20The%20Big%20Barrel%20of%20Wine%20%28Rosh%20Chodesh%20Sivan%29%20%281991-05-14%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 479 - The Big Barrel of Wine (Rosh Chodesh Sivan) (1991-05-14).mp3",
+  "size_bytes": 21779756,
+  "mime_type": "audio/mpeg"
+ }
+}

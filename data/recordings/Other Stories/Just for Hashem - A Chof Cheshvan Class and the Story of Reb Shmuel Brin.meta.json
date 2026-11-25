@@ -1,0 +1,322 @@
+{
+ "id": "6bdf3b9e45",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "mayin yovoy ezri",
+  "audio_path": "audio/Other Stories/Just for Hashem - A Chof Cheshvan Class and the Story of Reb Shmuel Brin.mp3",
+  "duration_sec": 1516.867,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "no/unknown extension",
+   "detected format mov,mp4,m4a,3gp,3g2,mj2 / aac"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Just for Hashem: A Chof Cheshvan Class and the Story of Reb Shmuel Brin",
+  "title_basis": "content",
+  "summary_short": "On the Rebbe Rashab's birthday, a teacher tells a class about children who did mitzvos only for Hashem, then begins the story of Reb Shmuel Brin and the Rebbe Maharash.",
+  "summary_long": "Recorded live in a boys' classroom on Chof Cheshvan, the birthday of the Rebbe Rashab. The teacher recalls collecting for pidyon shvuyim while Sholom Mordechai Rubashkin was in prison: one boy gave thirty dollars of his own money, and another said many chapters of Tehillim and refused a prize because he did it for Hashem. This reminds him of a Jew in Tzfas who would not reveal the special deed of his bar mitzvah even to Eliyahu HaNavi, because it was only for Hashem; that soul returned as the Baal Shem Tov. He adds the Rebbe Rashab's childhood wish to see Hashem like Avraham Avinu, and a mashal: asking for a lollipop to learn Torah is like refusing a million dollars unless a penny comes with it. Then comes story time: Reb Shmuel Brin, a Chassid of the Rebbe Maharash, is falsely accused when a worker steals from his vodka factory's government-metered tank, and he goes to the Rebbe for help. What the Rebbe advised is saved for next story time.",
+  "lesson": "Do mitzvos and learn Torah for Hashem, not for prizes; Torah itself is the greatest reward.",
+  "keywords": [
+   "classroom",
+   "mitzvah notes",
+   "prizes",
+   "bar mitzvah secret",
+   "million dollars",
+   "vodka factory",
+   "tax meter",
+   "false accusation"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "20 Cheshvan (Chof Cheshvan)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'Today is the birthday of the Rebbe Rashab'. Rubashkin's release (Kislev 5778, Dec 2017) is 'a couple of years ago', suggesting about 5780-5782; year not stated."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Mentions a Jew imprisoned and the arrest of the story's hero; no harm described."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two boys in the class named by first name; two teachers named."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a Jew of Tzfas visited by Eliyahu HaNavi",
+   "Reb Shmuel Brin, a Chassid of the Rebbe Maharash",
+   "two dishonest factory workers",
+   "the Rebbe Maharash's gabbai",
+   "boys in the class"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "torah_study",
+   "baal_shem_tov_and_students",
+   "calendar"
+  ],
+  "midos": [
+   "anavah",
+   "generosity",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "tzedakah",
+   "tehillim",
+   "torah_study"
+  ],
+  "calendar": [
+   "chof_cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "'The Rebbe says' the Rebbe Rashab teaches that the best thing is Hashem and Torah itself is the reward."
+   }
+  ],
+  "places": [
+   "Tzfas",
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 209,
+   "type": "talk",
+   "title": "Pidyon shvuyim and the mitzvah notes",
+   "summary": "Boys in the class give tzedakah and say Tehillim and refuse a prize because they did it for Hashem."
+  },
+  {
+   "start_sec": 209,
+   "end_sec": 391,
+   "type": "story",
+   "title": "Eliyahu HaNavi and the secret of the bar mitzvah",
+   "summary": "A Jew of Tzfas will not reveal his special deed even to Eliyahu HaNavi, and his soul returns as the Baal Shem Tov.",
+   "people": [
+    "eliyahu_hanavi",
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 391,
+   "end_sec": 460,
+   "type": "qa",
+   "title": "Would you tell Eliyahu HaNavi?",
+   "summary": "The teacher asks the boys whether they would reveal their mitzvos for a reward."
+  },
+  {
+   "start_sec": 460,
+   "end_sec": 535,
+   "type": "story",
+   "title": "The Rebbe Rashab wants to see Hashem",
+   "summary": "As a small boy the Rebbe Rashab cries to his grandfather the Tzemach Tzedek that he wants to see Hashem like Avraham Avinu.",
+   "people": [
+    "rebbe_rashab",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 535,
+   "end_sec": 822,
+   "type": "talk",
+   "title": "Torah is the best reward",
+   "summary": "Classroom examples and the million-dollar mashal show why learning Torah needs no prize."
+  },
+  {
+   "start_sec": 822,
+   "end_sec": 1471,
+   "type": "story_chapter",
+   "title": "The Rebbe Maharash and Reb Shmuel Brin, beginning",
+   "summary": "A worker steals from Reb Shmuel's factory tank and blames him, and Reb Shmuel goes to the Rebbe Maharash for help.",
+   "people": [
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 1471,
+   "type": "closing",
+   "title": "To be continued next story time"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "2300e71fce",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'Maharash Mayin yovoy ezri': the complete Reb Shmuel Brin story, including the Rebbe Maharash's advice and the trial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5e372c37c6",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Knows How to Help You, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db30dda6bf",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Knows How to Help You, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bdbaa10fa4",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Torah Is the Best Merchandise; Me'ayin Yavo Ezri, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Live classroom recording with children's interjections. The story stops before the Rebbe's advice; the full story is in 2300e71fce."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Beryl",
+    "role": "other",
+    "group": "the teacher's class",
+    "start_sec": 132,
+    "end_sec": 164
+   },
+   {
+    "name": "Mendi",
+    "role": "other",
+    "group": "the teacher's class",
+    "start_sec": 164,
+    "end_sec": 209
+   },
+   {
+    "name": "Rabbi Lipschitz",
+    "role": "other",
+    "group": "teacher at the yeshiva",
+    "start_sec": 535,
+    "end_sec": 822
+   },
+   {
+    "name": "Rabbi Simpson",
+    "role": "other",
+    "group": "teacher at the yeshiva",
+    "start_sec": 703,
+    "end_sec": 737
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Teacher unidentified; he mentions visiting many classes, possibly Rabbi Yosef Goldstein. Confirm speaker.",
+   "Content type chosen as live_event (class recorded live); lesson_with_story would also fit.",
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: teacher telling his class (~1:34 'I was in class, I was teaching'); recorded after the Rubashkin release (Dec 2017), when Uncle Yossi..."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Just%20for%20Hashem%20-%20A%20Chof%20Cheshvan%20Class%20and%20the%20Story%20of%20Reb%20Shmuel%20Brin.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Just for Hashem - A Chof Cheshvan Class and the Story of Reb Shmuel Brin.mp3",
+  "size_bytes": 18203304,
+  "mime_type": "audio/mpeg"
+ }
+}

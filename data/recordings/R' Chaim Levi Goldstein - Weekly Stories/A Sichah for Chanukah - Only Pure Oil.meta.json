@@ -1,0 +1,214 @@
+{
+ "id": "a049e430cc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Sicha Chanuka",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/A Sichah for Chanukah - Only Pure Oil.mp3",
+  "duration_sec": 1497.731,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "A Sichah for Chanukah: Only Pure Oil",
+  "title_basis": "filename",
+  "summary_short": "A Chanukah sichah the Rebbe spoke to the children of Tzivos Hashem, read and explained: the Jews wanted only pure oil, and we too should want only what is fully kosher.",
+  "summary_long": "As Chanukah begins, the storyteller studies a sichah the Rebbe spoke to children at a Tzivos Hashem Chanukah rally, reading the Rebbe's Yiddish words and explaining them in English. When the Jews returned to the defiled Beis HaMikdash, they found only impure oil. Halachah would have let them use it, but they refused, determined to light the Menorah only with pure olive oil. Because they wanted it so sincerely, Hashem let them find one sealed jar and made it burn for eight days until new oil arrived. The Rebbe's lesson for children: when you light up your life, use only 'pure oil.' Eat food that is surely kosher, wear clothes that are kosher and free of shatnez, check your mezuzos and keep only kosher things in your home. The storyteller adds memories of the Rebbe in 770 and a relative whose checked mezuzah brought a blessing for children, and suggests asking, 'Would the Rebbe be happy with this?' The sichah ends with the Rebbe's brachah: every Jewish home becomes a small Beis HaMikdash, and Hashem will help, even with miracles, until we see the great Beis HaMikdash.",
+  "lesson": "When you truly want to do a mitzvah in the best way, Hashem helps you, even with a miracle; keep your food, clothes and home fully kosher, like the pure oil of Chanukah.",
+  "keywords": [
+   "pure olive oil",
+   "menorah",
+   "Chanukah rally",
+   "kosher food",
+   "shatnez",
+   "mezuzah check",
+   "kosher home",
+   "770",
+   "Greeks"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "talk",
+  "story_type": [],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "the_rebbe",
+   "kashrus",
+   "family_and_home",
+   "calendar"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "self_control",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "kashrus",
+   "mezuzah"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "A sichah the Rebbe spoke to children at a Tzivos Hashem Chanukah rally, read from the text in Yiddish."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 7,
+   "end_sec": 71,
+   "type": "talk",
+   "title": "A sichah the Rebbe spoke to children",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 71,
+   "end_sec": 687,
+   "type": "sichah",
+   "title": "The miracle: only pure oil",
+   "people": [
+    "the_rebbe",
+    "chashmonaim"
+   ]
+  },
+  {
+   "start_sec": 687,
+   "end_sec": 1161,
+   "type": "sichah",
+   "title": "The lesson: kosher food, clothes and home",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1069,
+   "end_sec": 1110,
+   "type": "story",
+   "title": "The mezuzah that was missing a word",
+   "summary": "A couple with no children check their mezuzos, find a missing word and are blessed after fixing it."
+  },
+  {
+   "start_sec": 1161,
+   "end_sec": 1464,
+   "type": "sichah",
+   "title": "The Rebbe's brachah: every home a small Beis HaMikdash",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1464,
+   "type": "closing",
+   "title": "Summary and farewell"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "5168b9a533",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'Sicha Chanuka 2': the same sichah explained again by the same speaker, live in a classroom, with the same mezuzah anecdote."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "mixed_language"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Rebbe's Yiddish text is read aloud and translated; the English ASR garbles the Yiddish passages. First 7 s untranscribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "Since we're entering Chanukah, we're going to learn a sicha from the Rebbe about Chanukah.",
+   "at_sec": 7
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:15:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "No opening song; series and narrator assigned from voice style and 'Guten Tag' sign-off. Confirm.",
+   "Which Chanukah rally sichah is read is not stated."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/A%20Sichah%20for%20Chanukah%20-%20Only%20Pure%20Oil.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/A Sichah for Chanukah - Only Pure Oil.mp3",
+  "size_bytes": 17973528,
+  "mime_type": "audio/mpeg"
+ }
+}

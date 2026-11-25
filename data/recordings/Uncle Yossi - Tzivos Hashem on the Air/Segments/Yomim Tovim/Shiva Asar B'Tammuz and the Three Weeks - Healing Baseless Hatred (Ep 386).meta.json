@@ -1,0 +1,160 @@
+{
+ "id": "bbf8c78d2a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "17 Tammuz 386",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz and the Three Weeks - Healing Baseless Hatred (Ep 386).mp3",
+  "duration_sec": 155.627,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 386,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 386,
+   "story": "The big barrel of wine",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shiva Asar B'Tammuz and the Three Weeks: Healing Baseless Hatred",
+  "title_basis": "content",
+  "summary_short": "Why we fast on the 17th of Tammuz, what the Three Weeks mean, and how Ahavas Yisroel can turn these sad days into Yomim Tovim.",
+  "summary_long": "A short holiday talk from the Tzivos Hashem radio show, given the week of Shiva Asar B'Tammuz. Uncle Yossi explains that on this Thursday those who are of age, boys over thirteen and girls over twelve, fast in memory of the sad events that led to the destruction of the Beis HaMikdash. The day begins the Three Weeks, ending with Tisha B'Av, when we show Hashem how sorry we are to still be in golus. On the fast we come to shul, say Selichos and pray for Moshiach. Our Sages teach that a main cause of the Churban was baseless hatred, so we repair it with Ahavas Yisroel, truly loving one another, and Hashem will turn these days into days of joy.",
+  "lesson": "Repair baseless hatred by truly loving every Jew.",
+  "keywords": [
+   "fast",
+   "17th of Tammuz",
+   "Three Weeks",
+   "Selichos",
+   "baseless hatred",
+   "golus"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 386,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-07-18",
+   "hebrew": "15 Tammuz 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 386 (07-18-89); 'this Thursday' = 17 Tammuz 5749, 20 July 1989."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Describes the destruction of the Beis HaMikdash and the mourning of the Three Weeks."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "ahavas_yisroel_mitzvah",
+   "davening"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Yoma 9b",
+    "note": "The Second Beis HaMikdash was destroyed because of baseless hatred (cited as 'our Chachamim')."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The month name after 'the ninth day of the month of' is not heard."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:01Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6f9edbf8da",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 1449,
+   "note": "Episode 386 (filename number); clip = 1449-1605 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shiva%20Asar%20B%27Tammuz%20and%20the%20Three%20Weeks%20-%20Healing%20Baseless%20Hatred%20%28Ep%20386%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz and the Three Weeks - Healing Baseless Hatred (Ep 386).mp3",
+  "size_bytes": 1868457,
+  "mime_type": "audio/mpeg"
+ }
+}

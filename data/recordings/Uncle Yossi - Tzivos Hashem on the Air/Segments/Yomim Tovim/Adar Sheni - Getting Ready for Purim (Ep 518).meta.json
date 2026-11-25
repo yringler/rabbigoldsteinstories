@@ -1,0 +1,160 @@
+{
+ "id": "aa20abae80",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Adar Beis 518",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Adar Sheni - Getting Ready for Purim (Ep 518).mp3",
+  "duration_sec": 177.654,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 518,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 518,
+   "story": "The island of treasures",
+   "topic": "יארצייט חי' מלכה ב אדר",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Adar Sheni: Getting Ready for Purim",
+  "title_basis": "content",
+  "summary_short": "As the second Adar of a leap year begins, Uncle Yossi explains why Purim was celebrated all over the world and reviews its four mitzvos.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded just before Rosh Chodesh Adar Sheni in a leap year. Uncle Yossi explains that the first Adar is ending and the second Adar brings Purim, the most joyful holiday of the year. Haman's decree threatened Jews in all 127 lands of King Achashverosh, so when it was overturned they celebrated everywhere. He reviews how we celebrate today: hearing the Megillah twice, at night and in the morning; the festive Purim seudah; mishloach manos of at least two kinds of food to show our unity; and matanos la'evyonim, extra tzedakah for the poor. He ends with a prayer that Hashem bring the miracles of 'those days' again in our time by sending Moshiach.",
+  "lesson": "Celebrate Purim with all its mitzvos and pray that Hashem will again work miracles and send Moshiach.",
+  "keywords": [
+   "Megillah",
+   "mishloach manos",
+   "Purim seudah",
+   "leap year",
+   "127 countries",
+   "Achashverosh"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 518,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-03-03",
+   "hebrew": "28 Adar I 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 518, which says 'tomorrow night is Rosh Chodesh Adar Sheni' (Tuesday 3 March 1992)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "simcha",
+   "achdus"
+  ],
+  "mitzvos": [
+   "megillah",
+   "mishloach_manos",
+   "matanos_levyonim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "adar",
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "megillas_esther",
+    "ref": "127 provinces",
+    "note": "'As we read in the Megillah.'"
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends on 'Moshiach now', before the march intro."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:17:22Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a94d6c505a",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 52,
+   "note": "Episode 518 (filename number); clip = 52-229 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Adar%20Sheni%20-%20Getting%20Ready%20for%20Purim%20%28Ep%20518%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Adar Sheni - Getting Ready for Purim (Ep 518).mp3",
+  "size_bytes": 2132712,
+  "mime_type": "audio/mpeg"
+ }
+}

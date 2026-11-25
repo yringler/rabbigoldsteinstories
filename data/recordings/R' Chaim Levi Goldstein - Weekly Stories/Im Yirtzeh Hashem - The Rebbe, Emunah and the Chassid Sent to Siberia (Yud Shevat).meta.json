@@ -1,0 +1,253 @@
+{
+ "id": "175a930717",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Im Yirtze Hashem ADHZ",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Im Yirtzeh Hashem - The Rebbe, Emunah and the Chassid Sent to Siberia (Yud Shevat).mp3",
+  "duration_sec": 1374.45,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Im Yirtzeh Hashem: The Rebbe, Emunah and the Chassid Sent to Siberia (Yud Shevat)",
+  "title_basis": "filename",
+  "summary_short": "For Yud Shevat, the storyteller explains how a Rebbe strengthens our emunah, then tells how a Chassid of the Alter Rebbe learned to always say \"Im Yirtzeh Hashem.\"",
+  "summary_long": "For Yud Shevat, seventy years since the Rebbe became the leader of the Jewish people, the storyteller explains what a Nasi is: in every generation Hashem gives us a leader like Moshe Rabbeinu, and the main thing a Rebbe gives us is strong emunah. The hidden word \"vadai\" (for sure) in the pasuk \"Vayevarech Dovid es Hashem\" shows how a leader makes our faith certain. He encourages everyone to take on a small good resolution for Yud Shevat. Then he explains why Jews say \"Im Yirtzeh Hashem\" even when something seems certain, and tells a story. Yankele, a Chassid of the Alter Rebbe, borrows money from friends, with the Rebbe's blessing, to lend a poritz who wants to become an officer in Petersburg. When Yankele comes to collect, the officer has him arrested and sent to Siberia. A window closed in his face turns out to save him: the Tsarina frees everyone still waiting in line, hears his story and makes the officer pay. The Alter Rebbe explains why Yankele suffered: he promised his friends their money without saying \"Im Yirtzeh Hashem.\"",
+  "lesson": "A Rebbe strengthens our emunah that Hashem runs everything, so we invite Hashem into every plan by saying \"Im Yirtzeh Hashem\"; what seems bad may really be for our good.",
+  "keywords": [
+   "Im Yirtzeh Hashem",
+   "Nasi",
+   "vadai",
+   "resolution",
+   "poritz",
+   "officer",
+   "Petersburg",
+   "Siberia",
+   "Tsarina",
+   "loan",
+   "contract"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-02-05",
+   "hebrew": "Week of Yud Shevat 5780",
+   "hebrew_year": 5780,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Told for Yud Shevat; 'this year marks 70 years' since 10 Shevat 5710, so 5780."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "An innocent Chassid is handcuffed, jailed and sent to a Siberian labor camp with criminals; he is freed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Yankele, a Chassid",
+   "Potocki, the poritz who became an officer",
+   "the Tsarina",
+   "the secretary",
+   "Yankele's lenders"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "hiskashrus",
+   "the_rebbe",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "savlanus"
+  ],
+  "mitzvos": [
+   "honest_business",
+   "gemilus_chasadim"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "note": "\"They believed in Hashem and in Moshe His servant\" (before the Song at the Sea)."
+   },
+   {
+    "work": "siddur",
+    "note": "\"Vayevarech Dovid es Hashem\": a pasuk said in davening, hinting at the word vadai."
+   },
+   {
+    "work": "midrash",
+    "note": "\"The Chachamim say\": Yaakov's children were all tzaddikim (mitaso shleimah)."
+   }
+  ],
+  "places": [
+   "Petersburg",
+   "Siberia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 470,
+   "type": "talk",
+   "title": "Yud Shevat: what a Rebbe gives us",
+   "people": [
+    "the_rebbe",
+    "moshe_rabbeinu",
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 470,
+   "end_sec": 529,
+   "type": "talk",
+   "title": "Why we say Im Yirtzeh Hashem"
+  },
+  {
+   "start_sec": 529,
+   "type": "story",
+   "title": "Yankele and the poritz's loan",
+   "people": [
+    "alter_rebbe"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "150ca1badb",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Im Yirtze Hashem - Of Course': same story by the same narrator with an 'every step is planned' intro."
+  },
+  {
+   "type": "same_story",
+   "target_id": "50a1238473",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Im Yirtze Hashem': same story by the same narrator with a Parshas Shelach intro."
+  },
+  {
+   "type": "same_story",
+   "target_id": "71743d402a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Im Yirtzeh Hashem: The Chassid Who Was Sent to Siberia' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; starts directly with the Yud Shevat talk. ASR writes 'pirates'/'parrots' for poritz and 'Rabbi Akiva' once for Yankele."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No song or series name; same narrator and story as 'Im Yirtze Hashem - Of Course', which opens with 'I Believe in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Filename code 'ADHZ' unexplained.",
+   "Year 5780 inferred from '70 years' since Yud Shevat 5710."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Im%20Yirtzeh%20Hashem%20-%20The%20Rebbe%2C%20Emunah%20and%20the%20Chassid%20Sent%20to%20Siberia%20%28Yud%20Shevat%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Im Yirtzeh Hashem - The Rebbe, Emunah and the Chassid Sent to Siberia (Yud Shevat).mp3",
+  "size_bytes": 16494274,
+  "mime_type": "audio/mpeg"
+ }
+}

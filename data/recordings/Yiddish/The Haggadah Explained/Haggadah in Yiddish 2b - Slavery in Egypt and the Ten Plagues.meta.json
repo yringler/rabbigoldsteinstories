@@ -1,0 +1,262 @@
+{
+ "id": "8871031f73",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "hg2b",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Haggadah in Yiddish 2b - Slavery in Egypt and the Ten Plagues.mp3",
+  "duration_sec": 1423.24,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Haggadah in Yiddish 2b: Slavery in Egypt and the Ten Plagues",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Haggadah class for children on how the Jews grew into a great nation in Egypt, were enslaved, cried out to Hashem, and were taken out by Hashem Himself.",
+  "summary_long": "Told in Yiddish to children, this class continues Maggid with the pesukim the Haggadah expounds. The Jews in Egypt grew into a great and mighty nation, as many as the grass of the field, and before leaving received two mitzvos connected with blood, the Korban Pesach and bris milah. Then the Egyptians made them suffer: Pharaoh feared they would side with enemies, set taskmasters over them, and made their lives bitter with mortar and bricks. The Jews cried out, and Hashem heard them, remembered His covenant with Avraham, Yitzchak and Yaakov, and saw their suffering, including the decree to throw the baby boys into the Nile. Hashem Himself, not an angel, a seraph or a messenger, took them out. The teacher explains the five expressions: a strong hand, an outstretched arm, great awe, signs and wonders. He shows how to spill a little wine onto a broken plate at 'blood, fire and pillars of smoke', at each of the ten plagues, and at Rabbi Yehudah's signs, Detzach Adash Be'achav.",
+  "lesson": "Hashem hears the cry of the Jewish people, and He Himself, not an angel, redeemed us from Egypt.",
+  "keywords": [
+   "ten plagues",
+   "Pharaoh",
+   "taskmasters",
+   "bricks",
+   "Nile",
+   "spilling wine",
+   "broken plate",
+   "Detzach Adash Be'achav",
+   "angel",
+   "staff"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "shiur",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "needs_context",
+  "study_text": [
+   {
+    "work": "haggadah",
+    "unit": "section",
+    "from": "Vayehi sham legoy gadol",
+    "to": "Detzach Adash Be'achav",
+    "lecture_number": null,
+    "note": "Filename 'hg2b'; the midrash on Arami oved avi through the ten plagues."
+   }
+  ]
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "Slavery in Egypt and Pharaoh's decree to throw Jewish baby boys into the Nile."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The plague of the firstborn and the death of the animals are described."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "pharaoh",
+    "role": "appears"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Egyptian taskmasters",
+   "Rabbi Yehudah"
+  ],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "miracles"
+  ],
+  "midos": [
+   "emunah",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "seder",
+   "bris"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Mitzrayim (Egypt)",
+   "the Nile"
+  ],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Vayehi sham legoy gadol through Detzach Adash Be'achav"
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 26:5-8"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 177,
+   "type": "text_study",
+   "title": "A great nation in Egypt",
+   "summary": "The Jews multiplied in Egypt and received two mitzvos of blood, the Korban Pesach and bris milah."
+  },
+  {
+   "start_sec": 177,
+   "end_sec": 425,
+   "type": "text_study",
+   "title": "The Egyptians made us suffer",
+   "summary": "Pharaoh's fears, the taskmasters and the bitter labor with mortar and bricks."
+  },
+  {
+   "start_sec": 425,
+   "end_sec": 665,
+   "type": "text_study",
+   "title": "We cried out to Hashem",
+   "summary": "Hashem heard, remembered the covenant with the Avos and saw the decree against the baby boys."
+  },
+  {
+   "start_sec": 665,
+   "end_sec": 872,
+   "type": "text_study",
+   "title": "Not through an angel",
+   "summary": "Hashem Himself, not an angel, seraph or messenger, brought the plagues and took us out."
+  },
+  {
+   "start_sec": 872,
+   "end_sec": 1171,
+   "type": "text_study",
+   "title": "Five expressions of the Exodus",
+   "summary": "A strong hand, an outstretched arm, great awe, signs and wonders, each explained."
+  },
+  {
+   "start_sec": 1171,
+   "type": "halachah",
+   "title": "Spilling wine for the ten plagues",
+   "summary": "How and why we spill wine onto a broken plate for blood, fire and smoke, the ten plagues and Rabbi Yehudah's signs."
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "933079e352",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "offset_sec": 8118,
+   "note": "Same wording as 'hg1a' from about 2:15:20 (Vayehi sham legoy gadol) to the ten plagues; not flagged by the fingerprint match, so check."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "64ecbd1960",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "Same Yiddish Haggadah class for children ('hg1b')."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins mid-Maggid ('there they became a great nation'). Short gap around 5:15-5:33."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No name, sign-off or credit in the recording; the teacher addresses 'kinderlach' throughout.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Teacher not named; possibly Rabbi Yosef Goldstein (same archive), unconfirmed.",
+   "Appears inside 'hg1a' (933079e352) by text; 'hg2a' (78d629608b) may hold the preceding section."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Haggadah%20in%20Yiddish%202b%20-%20Slavery%20in%20Egypt%20and%20the%20Ten%20Plagues.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Haggadah in Yiddish 2b - Slavery in Egypt and the Ten Plagues.mp3",
+  "size_bytes": 17079880,
+  "mime_type": "audio/mpeg"
+ }
+}

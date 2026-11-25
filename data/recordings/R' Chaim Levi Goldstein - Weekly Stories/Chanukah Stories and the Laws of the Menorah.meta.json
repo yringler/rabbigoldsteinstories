@@ -1,0 +1,261 @@
+{
+ "id": "d5805ff768",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chanukah Stories",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chanukah Stories and the Laws of the Menorah.mp3",
+  "duration_sec": 4790.23,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chanukah Stories and the Laws of the Menorah",
+  "title_basis": "content",
+  "summary_short": "Two true Chanukah miracle stories, a hospital visit through a hurricane and a young man who turns down a job for Shabbos, followed by a full lesson on the laws of Chanukah.",
+  "summary_long": "After the song 'I Believe in Hashem', the storyteller tells of a Chanukah night when a neighbor's eight-year-old boy, who loved watching the family light the menorah, lay critically ill in a hospital at the far end of Long Island. With a hurricane approaching, the narrator and his wife drive two hours to light the menorah at his bedside, and the boy rallies. On the dark road home the car stops, for no clear reason, just before a sharp bend above a deep creek. In the second story, a father tells his children how, as a young college graduate, he was offered a top job that would have meant working on Friday afternoons. His old cheder teacher urged him to keep Shabbos, and a year later, on Chanukah, the company's collapse made front-page news. The second half teaches the laws and customs of Chanukah: the miracle of the oil, the meaning of the name, publicizing miracles, mehadrin min hamehadrin, oil and wicks, where and when to light, the brachos, the shamash, lighting in shul, and Chanukah on Erev Shabbos and Motzaei Shabbos. The recording stops mid-sentence while explaining Al HaNissim.",
+  "lesson": "Hashem does miracles for us all the time; thank Him and tell others about them. Doing what Hashem wants, even when it is hard, brings true success.",
+  "keywords": [
+   "hurricane",
+   "hospital",
+   "menorah",
+   "Long Island",
+   "car",
+   "job offer",
+   "college",
+   "cheder teacher",
+   "latkes",
+   "dreidel",
+   "olive oil",
+   "wicks"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A young boy is critically ill with pneumonia; he recovers."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A drive through an approaching hurricane and a near-accident at a dark bend; Yehudis's defeat of the enemy general is described briefly."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Greek decrees against the Jews in the time of the Chashmonaim."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   },
+   {
+    "id": "yehudis",
+    "role": "mentioned"
+   },
+   {
+    "id": "chizkiyahu_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the narrator",
+   "Rachmiel (Ronnie), the neighbors' boy",
+   "Jack, Ronnie's father",
+   "Daniel and Miriam",
+   "Moshe, their father",
+   "Rabbi Yankel, the cheder teacher"
+  ],
+  "topics": [
+   "miracles",
+   "halachah",
+   "calendar",
+   "shabbos"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "bitachon",
+   "chesed",
+   "self_control"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "shabbos",
+   "brachos",
+   "bikur_cholim",
+   "davening"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Shabbos 21b",
+    "note": "'Mai Chanukah': the story of the oil; also Chizkiyahu and publicizing miracles."
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "Order of Chanukah and Shabbos lights; menorah of metal or silver."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Chanukah farbrengens to tell of miracles; lighting in a doorway rather than a window."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "'We must listen to what the Chanukah lights tell us', attributed on air to the Rebbe Maharash."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 28,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 28,
+   "end_sec": 1102,
+   "type": "story",
+   "title": "An Eventful Chanukah Night",
+   "summary": "A drive through a hurricane to light the menorah for a critically ill boy, and a near-accident on the way home."
+  },
+  {
+   "start_sec": 1102,
+   "end_sec": 2194,
+   "type": "story",
+   "title": "A Chanukah Miracle: The Job Offer",
+   "summary": "A father tells his children how keeping Shabbos saved him from a company that collapsed in scandal."
+  },
+  {
+   "start_sec": 2194,
+   "end_sec": 2840,
+   "type": "talk",
+   "title": "What Is Chanukah?",
+   "summary": "The miracle of the oil, the meaning of the name Chanukah, and why we publicize miracles."
+  },
+  {
+   "start_sec": 2840,
+   "end_sec": 4576,
+   "type": "halachah",
+   "title": "How to Light the Menorah",
+   "summary": "Who lights, oil and wicks, where and when to light, the brachos, the shamash and lighting in shul."
+  },
+  {
+   "start_sec": 4576,
+   "type": "halachah",
+   "title": "Chanukah on Shabbos and Al HaNissim",
+   "summary": "Lighting on Erev Shabbos and Motzaei Shabbos, and saying Al HaNissim; the recording ends mid-sentence."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_end",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Ends mid-sentence at 79:50 while explaining Al HaNissim; the promised Yehudis story and the HaNeiros Halalu song never come. Chanted brachos (about 66:00-67:15) untranscribed. ASR writes 'Moshiach' for the name Moshe."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:04Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Recording is cut off at the end; a continuation (Yehudis story, HaNeiros Halalu) may exist in another file.",
+   "'The Rebbe Maharaj said, we have to listen to the lights' - the saying is usually attributed to the Alter Rebbe; tagged rebbe_maharash per the ASR glossary."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chanukah%20Stories%20and%20the%20Laws%20of%20the%20Menorah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chanukah Stories and the Laws of the Menorah.mp3",
+  "size_bytes": 57483526,
+  "mime_type": "audio/mpeg"
+ }
+}

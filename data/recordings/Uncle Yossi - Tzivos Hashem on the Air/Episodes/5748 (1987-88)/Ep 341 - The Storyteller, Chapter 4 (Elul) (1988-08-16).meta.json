@@ -1,0 +1,469 @@
+{
+ "id": "82715ff045",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "341 08-16-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 341 - The Storyteller, Chapter 4 (Elul) (1988-08-16).mp3",
+  "duration_sec": 1812.32,
+  "filename_facts": {
+   "episode_number": 341,
+   "date_in_filename": "1988-08-16",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 341,
+   "story": "The storyteller #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 341: The Storyteller, Chapter 4 (Elul)",
+  "title_basis": "content",
+  "summary_short": "341 weeks on the air and the children's parade to greet Moshiach, the Hakochainik march, Shema with a first-grade class, and Rabbi Yehuda forgets every story at the rich man's table.",
+  "summary_long": "Broadcast the week after Rosh Chodesh Elul 5748. Marking 341 weeks on the air, Uncle Yossi promises the show will continue even after Moshiach comes, broadcasting from Yerushalayim, and describes the great parade out of golus led by Jewish children, just as the children were first to recognize Hashem at the Exodus. After the Hakochainik march, the story resumes: Rabbi Yehuda reaches the rich merchant's guarded mansion, where the guards eagerly usher him in. A first-grade class from a Boro Park girls' school recites the Shema. Reb Yitzchak offers a thousand gold pieces for every Baal Shem Tov story he has not heard, locks the door and lights a candle, but Rabbi Yehuda finds he cannot remember a single story and breaks down in tears; the merchant calmly gives him a meal and a room, leaving Rabbi Yehuda puzzled. Uncle Yossi then recalls the first shofar of Elul, invites letters about it, and explains that the shofar is an alarm to prepare for the Yomim Nora'im. Candle-lighting time, a 'ksivah vachasimah tovah' wish and the Dial-a-Jewish-Story line close the show.",
+  "lesson": "Keep hoping for Moshiach every day, and use the shofar of Elul as a wake-up call to come close to Hashem.",
+  "keywords": [
+   "parade",
+   "Yerushalayim",
+   "storyteller",
+   "mansion",
+   "armed guards",
+   "gold pieces",
+   "forgotten stories",
+   "shofar",
+   "alarm",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 341,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-08-16",
+   "hebrew": "3 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'this past Shabbos and Sunday were Rosh Chodesh Elul'; '341 weeks' on the air."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 4
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A class of Shema guests introduce themselves by full name.",
+    "at_sec": 923
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Reb Yitzchak, the wealthy merchant",
+   "the guards"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "baal_shem_tov_and_students",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "savlanus",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shofar",
+   "shema",
+   "davening",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "'Ot ot kumt Moshiach'",
+    "note": "Quoted as the Rebbe shlita's words."
+   },
+   {
+    "work": "midrash",
+    "note": "Cited as 'our Chachamim': the children were first to recognize Hashem at the Exodus."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 338,
+   "type": "talk",
+   "title": "341 Weeks and the Parade to Greet Moshiach",
+   "summary": "The show will broadcast from Yerushalayim after Moshiach comes, and Jewish children will lead the parade out of golus.",
+   "people": [
+    "the_rebbe"
+   ],
+   "linked_items": [
+    "d7fe4cf227",
+    "1b70a1949c"
+   ]
+  },
+  {
+   "start_sec": 338,
+   "end_sec": 560,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 560,
+   "end_sec": 626,
+   "type": "story_intro",
+   "title": "Story recap"
+  },
+  {
+   "start_sec": 626,
+   "end_sec": 719,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 4 (first part)",
+   "summary": "Rabbi Yehuda arrives at the guarded mansion and is eagerly ushered in.",
+   "story_key": "the-storyteller",
+   "chapter": 4
+  },
+  {
+   "start_sec": 719,
+   "end_sec": 960,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 960,
+   "end_sec": 1497,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 4 (continued)",
+   "summary": "Offered a fortune for each new story, Rabbi Yehuda cannot remember even one.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 4
+  },
+  {
+   "start_sec": 1497,
+   "end_sec": 1685,
+   "type": "talk",
+   "title": "The Shofar of Elul: A Wake-Up Alarm",
+   "summary": "Recalling the first shofar of Elul, inviting letters about it, and preparing for the Yomim Nora'im.",
+   "calendar": [
+    "elul",
+    "rosh_chodesh"
+   ],
+   "linked_items": [
+    "22b21f20ae"
+   ]
+  },
+  {
+   "start_sec": 1685,
+   "end_sec": 1712,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1712,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "1b70a1949c",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Moshiach 341' = 49-338 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "22b21f20ae",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "'Chodesh Elul 341' = 1498-1684 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "d7fe4cf227",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Moshiach 341' = 48-338 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b55afe2c6b",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 340 ch. 3 and ep 341 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "b55afe2c6b",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "ep 341 ch. 4 continues 'The Storyteller' (1988): ep 340 ch. 3."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "2673cb25a1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 341 ch. 4 and ep 342 ch. 5 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Candle time (7:31) and phone line are period details. The Moshiach talk exists as two identical clips (d7fe4cf227, 1b70a1949c)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Diener (also heard 'Morah Dina')",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 777,
+    "end_sec": 900
+   },
+   {
+    "name": "Morah I.D. (as heard)",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (mentioned)",
+    "start_sec": 777,
+    "end_sec": 790
+   },
+   {
+    "name": "Morah Luba",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (mentioned)",
+    "start_sec": 777,
+    "end_sec": 790
+   },
+   {
+    "name": "Mindy Neumann",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Leah Gottman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Libby Weigman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Heidi DeHelper (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Rosie Kellner",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Shandy Kanda (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Leah Weintraub",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Esti Badman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Devorah Musk",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Sivie Bright",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Sivie Fesha (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Malky Lips",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Leah Frieden",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Yehudis Lefkowitz",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Henny Hartstein",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Miami Likwag (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Bracha Fesha (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   },
+   {
+    "name": "Devorah Brown (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 923,
+    "end_sec": 956
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Shema guest names are ASR approximations."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:08:51Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20341%20-%20The%20Storyteller%2C%20Chapter%204%20%28Elul%29%20%281988-08-16%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 341 - The Storyteller, Chapter 4 (Elul) (1988-08-16).mp3",
+  "size_bytes": 21748732,
+  "mime_type": "audio/mpeg"
+ }
+}

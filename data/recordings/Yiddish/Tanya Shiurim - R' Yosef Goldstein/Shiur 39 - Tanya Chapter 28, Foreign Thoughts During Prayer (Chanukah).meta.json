@@ -1,0 +1,302 @@
+{
+ "id": "54ac221b10",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "39 P28 needs editing in wavelab",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 39 - Tanya Chapter 28, Foreign Thoughts During Prayer (Chanukah).mp3",
+  "duration_sec": 3687.367,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "needs_editing"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 39: Tanya Chapter 28, Foreign Thoughts During Prayer (Chanukah)",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur on Tanya chapter 28: what to do when stray thoughts come during davening and learning, with a story of Rabbi Meir of Premishlan and a Chanukah talk.",
+  "summary_long": "Shiur 39 in Rabbi Yosef Goldstein's Yiddish Tanya series, recorded during Chanukah. It studies Tanya chapter 28. From the outside a beinoni and a tzaddik look the same, since both learn and daven and never sin, but the beinoni still has an animal soul that sends foreign thoughts, especially while he davens or learns. The Alter Rebbe teaches not to be troubled by them: push them away at once, and do not try to 'elevate' them, which belongs only to tzaddikim. The story of Rabbi Meir of Premishlan, who walked up an icy mountain to the mikvah without slipping because he was 'tied above', shows the point, as told by the Frierdiker Rebbe. The shiur continues: the thoughts come because two souls are wrestling, so they are a sign of real prayer, not a reason for sadness; serve Hashem with great joy; ignore the yetzer hara like a heckler you do not answer; and when it is hard, ask Hashem for mercy like a father for his child. A closing talk retells a teaching of the Rebbe from Chanukah and Yud-Tes Kislev: after his release, the Alter Rebbe drank a glass of tea in the home of an opponent rather than give offense.",
+  "lesson": "Stray thoughts during davening are no reason for sadness: push them away at once, strengthen yourself with joy, and ask Hashem for help.",
+  "keywords": [
+   "beinoni",
+   "foreign thoughts",
+   "machshavos zaros",
+   "Premishlan",
+   "icy mountain",
+   "mikvah",
+   "two souls",
+   "wrestling",
+   "glass of tea",
+   "misnagdim"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-12",
+   "hebrew": "Chanukah 5737",
+   "hebrew_year": 5737,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "Speaker mentions the Rebbe's talks of Chanukah and Yud-Tes Kislev and 'today' at the candle lighting; year inferred from shiur 28 dated 29 Av 5736."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "28",
+    "to": "28",
+    "lecture_number": 39
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "In the story, two scoffers slip on an icy slope and are badly hurt.",
+    "at_sec": 1410
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_meir_of_premishlan",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_shmaryahu_gurary",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "two scoffing misnagdim",
+   "the misnaged host"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "prayer_and_brachos",
+   "chassidic_masters",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "self_control",
+   "simcha",
+   "ahavas_yisroel",
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "chanukah",
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 28; ch. 1; ch. 2; Igeres HaKodesh 2"
+   },
+   {
+    "work": "neviim",
+    "ref": "Shmuel I 16:7"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Talks of Chanukah and Yud-Tes Kislev"
+   }
+  ],
+  "places": [
+   "Premishlan"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 93,
+   "type": "other",
+   "title": "Opening (recorded twice)",
+   "summary": "The introduction to chapter 28 starts, breaks off, and begins again."
+  },
+  {
+   "start_sec": 93,
+   "end_sec": 1222,
+   "type": "text_study",
+   "title": "Tanya chapter 28: the beinoni and foreign thoughts",
+   "summary": "A beinoni looks like a tzaddik from outside; stray thoughts during prayer must be pushed away at once, and elevating them is only for tzaddikim."
+  },
+  {
+   "start_sec": 1222,
+   "end_sec": 1541,
+   "type": "story",
+   "title": "Rabbi Meir of Premishlan and the icy mountain",
+   "summary": "Rabbi Meir walks straight up an icy slope to the mikvah; two scoffers who try to copy him slip, and learn that one who is tied above does not fall.",
+   "people": [
+    "rabbi_meir_of_premishlan",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1541,
+   "end_sec": 3331,
+   "type": "text_study",
+   "title": "Serving with joy while the two souls wrestle",
+   "summary": "Foreign thoughts are a sign of the battle between the two souls, not of bad prayer; ignore them like a heckler and ask Hashem for mercy when it is hard."
+  },
+  {
+   "start_sec": 2070,
+   "end_sec": 2250,
+   "type": "other",
+   "title": "Repeated passage",
+   "summary": "A stretch of the previous few minutes is heard a second time (unedited recording)."
+  },
+  {
+   "start_sec": 3331,
+   "type": "sichah",
+   "title": "The Rebbe's Chanukah talk: the Alter Rebbe and the glass of tea",
+   "summary": "Brought by mistake to an opponent's home after his release, the Alter Rebbe still drank the tea he was offered, teaching not to wound another Jew even with a word.",
+   "people": [
+    "alter_rebbe",
+    "the_rebbe"
+   ],
+   "calendar": [
+    "chanukah",
+    "yud_tes_kislev"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "5d9138a16d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 448: The Mountain of Ice (Sukkos and Simchas Torah)' (episode 448, 15:58-27:20), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "9332083630",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 511: The Mountain of Ice (Yud Shevat)' (episode 511, 13:10-24:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "c572eb01d4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 313: The Mountain of Ice (Tu B'Shvat)' (episode 313, 16:44-28:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "d90fcf6d04",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 392: The Mountain of Ice (Rosh Chodesh Elul)' (episode 392, 13:17-25:37), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "fc0719805f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 28: The Mountain of Ice' (episode 28, 5:48-11:48), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Filename says 'needs editing': the opening is recorded twice (0:00-1:33) and a passage around 34:00-37:30 repeats earlier material. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:39Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Unedited: repeated opening and a repeated passage; consider an edited copy.",
+   "Year 5737 inferred from series sequence; only Chanukah is stated."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2039%20-%20Tanya%20Chapter%2028%2C%20Foreign%20Thoughts%20During%20Prayer%20%28Chanukah%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 39 - Tanya Chapter 28, Foreign Thoughts During Prayer (Chanukah).mp3",
+  "size_bytes": 44249267,
+  "mime_type": "audio/mpeg"
+ }
+}

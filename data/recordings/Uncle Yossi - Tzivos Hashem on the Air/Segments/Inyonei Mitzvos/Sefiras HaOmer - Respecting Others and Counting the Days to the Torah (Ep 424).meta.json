@@ -1,0 +1,221 @@
+{
+ "id": "3575b7812c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sfiras Haomer 424",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefiras HaOmer - Respecting Others and Counting the Days to the Torah (Ep 424).mp3",
+  "duration_sec": 878.789,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 424,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 424,
+   "story": "The whispering droplets",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-36.6 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Sefiras HaOmer: Respecting Others and Counting the Days to the Torah",
+  "title_basis": "content",
+  "summary_short": "Why we hold back music during Sefirah and how to respect one another, why Pesach never 'passes over', and why we count the Omer like a prisoner awaiting freedom.",
+  "summary_long": "A set of Sefirah teachings from the Tzivos Hashem radio show, given after Pesach. Uncle Yossi explains that we play no music between Pesach and Shavuos in memory of Rabbi Akiva's students, who died in a plague because they did not respect one another. The lesson for us: never embarrass or insult anyone, give compliments, and encourage a classmate who is working hard, because, as Rabbi Akiva taught, loving your fellow as yourself is a great rule of the Torah. Next, Pesach does not really 'pass over': the matzah gives us faith for the soul and health for the body all year. Finally, he explains the mitzvah of counting the Omer. Like a prisoner who scratches a mark on the wall each day until his release, the Jews who left Egypt counted the days eagerly until they would receive the Torah at Har Sinai, the true freedom of the soul, while the manna made their bodies strong. We too count with excitement toward Shavuos, and toward freedom from golus and from the yetzer hara.",
+  "lesson": "Respect and encourage every friend, and count the days of the Omer eagerly as we prepare to receive the Torah.",
+  "keywords": [
+   "no music",
+   "Rabbi Akiva's students",
+   "respect",
+   "compliments",
+   "matzah",
+   "counting",
+   "prisoner",
+   "Har Sinai",
+   "manna",
+   "yetzer hara"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 424,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-04-24",
+   "hebrew": "29 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Inherits the air date of episode 424 (8e97b7f750). Episode: First show after Pesach (Sefirah begun, Pesach over). 10 and 17 Apr 1990 were Yom Tov Tuesdays, so the week before ep 425 (1 May 1990)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Explains that thousands of Rabbi Akiva's students died in a plague as a punishment.",
+    "at_sec": 0
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Akiva's students"
+  ],
+  "topics": [
+   "calendar",
+   "character",
+   "torah_study",
+   "sages"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel",
+   "shalom",
+   "self_control"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "ahavas_yisroel_mitzvah",
+   "twelve_pesukim",
+   "matzah"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 287,
+   "type": "talk",
+   "title": "Sefirah: Respecting One Another",
+   "summary": "Why there is no music during Sefirah, and how to honor and encourage others.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 287,
+   "end_sec": 402,
+   "type": "talk",
+   "title": "Pesach Doesn't Pass Over",
+   "summary": "The matzah's gift of faith and health stays with us all year.",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 402,
+   "type": "talk",
+   "title": "Why We Count the Omer",
+   "summary": "Like a prisoner counting the days to freedom, the Jews counted toward receiving the Torah.",
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8e97b7f750",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 30,
+   "note": "Episode 424 (filename number); clip = 30-908 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very quiet source (-36.6 LUFS); normalize on playback. Begins mid-sentence ('Because the days between Pesach and Shavuos...')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Air date uncertain (after Pesach 5750; the weekly estimate falls on Pesach)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Sefiras%20HaOmer%20-%20Respecting%20Others%20and%20Counting%20the%20Days%20to%20the%20Torah%20%28Ep%20424%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefiras HaOmer - Respecting Others and Counting the Days to the Torah (Ep 424).mp3",
+  "size_bytes": 10546552,
+  "mime_type": "audio/mpeg"
+ }
+}

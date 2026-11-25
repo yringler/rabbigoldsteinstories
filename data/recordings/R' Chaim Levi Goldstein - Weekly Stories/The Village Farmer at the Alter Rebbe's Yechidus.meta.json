@@ -1,0 +1,223 @@
+{
+ "id": "3bc728ac3c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "yeshuvnik",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Village Farmer at the Alter Rebbe's Yechidus.mp3",
+  "duration_sec": 1133.275,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Village Farmer at the Alter Rebbe's Yechidus",
+  "title_basis": "content",
+  "summary_short": "After Tishrei we 'unpack' its gifts. Then a village farmer joins his children's tutor on a trip to the Alter Rebbe and is shocked that the Rebbe seems to know all his sins.",
+  "summary_long": "Right after Simchas Torah, the storyteller explains the Lubavitch custom of announcing 'v'Yaakov halach l'darko': like Yaakov Avinu leaving for Charan with Hashem's promises, we go out of Tishrei into everyday life. The Frierdiker Rebbe taught that now is the time to 'unpack' what we gathered: accepting Hashem as King, teshuvah, simcha and achdus. Simcha breaks through limits and gives strength to do more each day. The Tzemach Tzedek said that how we behave on Shabbos Bereishis sets the tone for the whole year, so take on something a little extra, such as more Tehillim or going to shul on Shabbos morning, as the Rebbe urged children. He notes that this year few could travel to the Rebbe for Tishrei, yet all who followed the guidance to stay home received the same brachos. The story: Reb Moshe, a Chassid of the Alter Rebbe, tutors the children of a simple village farmer. When he leaves for Rosh Hashanah with the Alter Rebbe, the farmer comes along and joins the line for yechidus. The Alter Rebbe lists sins a Jew might commit unknowingly, and the farmer storms out, sure the tutor gossiped about him, and fires him. The Alter Rebbe calmly points out that he never said the farmer did them. The farmer breaks down, asks how to do teshuvah, rehires the tutor, and becomes a devoted Chassid.",
+  "lesson": "Take the strength of Tishrei into the whole year and add a little extra on Shabbos Bereishis; the Rebbe knows and cares about each Chassid more than we know ourselves.",
+  "keywords": [
+   "village farmer",
+   "tutor",
+   "yechidus",
+   "unpacking Tishrei",
+   "Shabbos Bereishis",
+   "Simchas Torah",
+   "horse and wagon",
+   "lashon hara"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-10",
+   "hebrew": "Between Simchas Torah and Shabbos Bereishis 5781",
+   "hebrew_year": 5781,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Recorded after Simchas Torah, before Shabbos Bereishis; few could travel to the Rebbe that Tishrei and listeners were told to follow the doctors (pandemic year, 23-29 Tishrei 5781)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, a Chassid and private tutor",
+   "a simple village farmer"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "simcha",
+   "dan_lkaf_zchus",
+   "shemiras_halashon",
+   "anavah"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "chinuch",
+   "davening"
+  ],
+  "calendar": [
+   "shabbos_bereishis"
+  ],
+  "parshiyos": [
+   "bereishis"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 29:1",
+    "note": "Yaakov's feet felt light after hearing Hashem's promises."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "After Tishrei, 'unpack' what we gathered."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek: Shabbos Bereishis sets the tone for the whole year."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe at a children's rally on the yetzer hara's trick of keeping children home from shul."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 560,
+   "type": "talk",
+   "title": "Unpacking Tishrei",
+   "summary": "Taking the gifts of Tishrei into the year, simcha that breaks limits, and Shabbos Bereishis."
+  },
+  {
+   "start_sec": 560,
+   "end_sec": 1085,
+   "type": "story",
+   "title": "The farmer at the Alter Rebbe's yechidus",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1085,
+   "type": "closing",
+   "title": "The Rebbe knows each Chassid"
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; series inferred from narrator style and 'A gutten tag, kinderlach, zei gezunt' sign-off. Mentions the pandemic-year Tishrei."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No opening song or series name; same narrator style and sign-off as the series.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series attributed from style and sign-off only (no opening song).",
+   "Date inferred as Tishrei 5781 from the pandemic remarks; confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:01Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Village%20Farmer%20at%20the%20Alter%20Rebbe%27s%20Yechidus.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Village Farmer at the Alter Rebbe's Yechidus.mp3",
+  "size_bytes": 13600312,
+  "mime_type": "audio/mpeg"
+ }
+}

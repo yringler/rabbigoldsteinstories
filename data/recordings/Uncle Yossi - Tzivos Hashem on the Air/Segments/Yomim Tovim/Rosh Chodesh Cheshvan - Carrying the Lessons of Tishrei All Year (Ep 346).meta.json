@@ -1,0 +1,161 @@
+{
+ "id": "c857948984",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tishrei 346",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh Cheshvan - Carrying the Lessons of Tishrei All Year (Ep 346).mp3",
+  "duration_sec": 393.51,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 346,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 346,
+   "story": "The storyteller #7 (climax)",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rosh Chodesh Cheshvan: Carrying the Lessons of Tishrei All Year",
+  "title_basis": "content",
+  "summary_short": "On Rosh Chodesh Cheshvan, Uncle Yossi recalls how the shofar crowns Hashem as King and how Simchas Torah's joy should carry us through the whole year.",
+  "summary_long": "A holiday talk from the Tzivos Hashem radio show, broadcast on Rosh Chodesh Cheshvan, the first new month after Tishrei. Uncle Yossi recalls the hush in shul as the shofar was blown on Rosh Hashanah: at that moment we crown Hashem as King of the world, just as people gather and call out 'Long live the king!' Hashem's crown is studded with diamonds made by the angels from our words of prayer and Tehillim, and we accept the yoke of Heaven by promising more Torah and mitzvos. On Simchas Torah we dance with the Torah, thankful to be written in the Book of Life. Hashem is the source of every blessing, and Torah and mitzvos are the vessel to receive them. The month of Tishrei must be remembered all year long, and Cheshvan is the first chance to show Hashem what Tishrei meant to us. Uncle Yossi ends with a blessing for a happy Rosh Chodesh.",
+  "lesson": "The closeness to Hashem we felt in Tishrei should give us strength to serve Him with joy all year.",
+  "keywords": [
+   "shofar",
+   "crown",
+   "king",
+   "diamonds",
+   "angels",
+   "Simchas Torah",
+   "Book of Life",
+   "new month"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 346,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-10-11",
+   "hebrew": "30 Tishrei 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 346 (filename date 11 Oct 1988); 'Today is Rosh Chodesh Cheshvan'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "simcha",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "shofar",
+   "davening",
+   "torah_study"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "rosh_hashanah",
+   "shemini_atzeres_simchas_torah",
+   "cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Duplicate of 'Tishrei recap 346' (e4290bb182); this copy starts one word earlier and is the preferred one."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:06:34Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "5883b47d62",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 48,
+   "note": "Episode 346 (filename number); clip = 48-442 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "e4290bb182",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Rosh%20Chodesh%20Cheshvan%20-%20Carrying%20the%20Lessons%20of%20Tishrei%20All%20Year%20%28Ep%20346%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh Cheshvan - Carrying the Lessons of Tishrei All Year (Ep 346).mp3",
+  "size_bytes": 4723221,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "634648f604",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Havdalah 385",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Havdalah - The Besamim Cheer Us Up (Review) (Ep 385).mp3",
+  "duration_sec": 78.149,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 385,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 385,
+   "story": "Torah, the best thing of all #2",
+   "topic": "י\"ב תמוז",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Havdalah: The Besamim Cheer Us Up (Review)",
+  "title_basis": "content",
+  "summary_short": "A quick review: we smell besamim at Havdalah to cheer ourselves up as the extra Shabbos soul returns to Hashem until next Friday.",
+  "summary_long": "A short mitzvah-time review from the Tzivos Hashem radio show, part of a series on Havdalah. Uncle Yossi reminds listeners that we make the brachah borei minei besamim over fragrant spices at Havdalah. As taught the week before, Hashem gives each Jew a special extra soul, the neshamah yeseirah, for the whole day of Shabbos, making us feel holy and happy. When Shabbos ends we must return this heavenly gift and feel sad to say goodbye, so we smell the besamim to lift our spirits and encourage us to wait patiently until it comes back next Friday evening.",
+  "lesson": "The besamim at Havdalah help us carry the joy of Shabbos into the week.",
+  "keywords": [
+   "Havdalah",
+   "besamim",
+   "spices",
+   "neshamah yeseirah",
+   "review"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 385,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1989-07-11",
+   "hebrew": "8 Tammuz 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 385 (07-11-89). Also aired in episodes 281 and 440."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "halachah"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "havdalah",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short review that refers to the previous week's lesson (Havdalah 384). The phone quiz that followed on air is not included."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:01Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4ede6df733",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 281."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b446975e89",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 440."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "c7e1d15aed",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 1173,
+   "note": "Episode 385 (filename number); clip = 1173-1251 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Havdalah%20-%20The%20Besamim%20Cheer%20Us%20Up%20%28Review%29%20%28Ep%20385%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Havdalah - The Besamim Cheer Us Up (Review) (Ep 385).mp3",
+  "size_bytes": 938710,
+  "mime_type": "audio/mpeg"
+ }
+}

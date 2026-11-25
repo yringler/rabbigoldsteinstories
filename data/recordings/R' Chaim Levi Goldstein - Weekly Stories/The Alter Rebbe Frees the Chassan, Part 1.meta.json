@@ -1,0 +1,305 @@
+{
+ "id": "5a39862ac0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Alter Rebbe Frees the Chassan part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 1.mp3",
+  "duration_sec": 1157.303,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Alter Rebbe Frees the Chassan, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Why the builders of the Tower of Bavel were spared, and how a town's joyful wedding for two orphans turns to sorrow when a cruel official arrests the chassan.",
+  "summary_long": "After the song, the storyteller introduces a story about the Alter Rebbe's Ahavas Yisroel: love every Jew and look for the good in him. From Parshas Noach he asks why the generation of the Flood was destroyed while the builders of the Tower, whose sin was worse, were only scattered, and answers with Rashi: they had achdus. In the story, the Alter Rebbe arranges a match between two orphans, and the whole town joyfully shares the work of the l'chaim, the wedding and the new home, except for Moshe, the richest man in town, who never gives more than a nickel, so no one asks him. On the wedding morning the town's Jew-hating official, who fines Jews for any excuse, arrests the chassan and announces he will be drafted into the army for 25 years, threatening the community leaders with Siberia. The town turns to Tehillim, and at noon the Alter Rebbe's wagon pulls up at the shul. The storyteller adds that the Rebbe taught that looking at a tzaddik's picture brings encouragement and connection. To be continued.",
+  "lesson": "Love every Jew, see the good in others and include everyone; achdus protects the Jewish people.",
+  "keywords": [
+   "Tower of Bavel",
+   "Flood",
+   "orphans",
+   "wedding",
+   "chassan and kallah",
+   "rich miser",
+   "nickel",
+   "army draft",
+   "police station",
+   "Rebbe's picture"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "the-alter-rebbe-frees-the-chassan",
+   "part_number": 1,
+   "of": 2
+  },
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Lech Lecha",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Parshas Noach that we finished reading last week'; year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A Jew-hating official arrests a chassan on his wedding day to draft him for 25 years and threatens the community leaders with Siberia."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "noach",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the orphan chassan",
+   "the orphan kallah",
+   "Moshe, the rich miser",
+   "the nachalnik (town official)",
+   "the chassan's escort",
+   "the townspeople"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "parsha",
+   "kindness_and_community",
+   "character"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "dan_lkaf_zchus",
+   "chesed"
+  ],
+  "mitzvos": [
+   "hachnasas_kallah",
+   "ahavas_yisroel_mitzvah",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "noach"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 11",
+    "note": "The Tower's builders were spared because they had achdus."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe told a woman to look at the Frierdiker Rebbe's picture for strength (as told)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 42,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 42,
+   "end_sec": 94,
+   "type": "talk",
+   "title": "Love every Jew unconditionally"
+  },
+  {
+   "start_sec": 94,
+   "end_sec": 449,
+   "type": "talk",
+   "title": "Parshas Noach: the Flood, the Tower and achdus",
+   "summary": "Rashi explains that the Tower's builders were spared because they stayed united.",
+   "people": [
+    "rashi"
+   ]
+  },
+  {
+   "start_sec": 449,
+   "end_sec": 1106,
+   "type": "story_chapter",
+   "title": "The Alter Rebbe Frees the Chassan, Part 1",
+   "summary": "A town prepares a wedding for two orphans until a cruel official arrests the chassan, and the Alter Rebbe arrives.",
+   "story_key": "the-alter-rebbe-frees-the-chassan",
+   "chapter": 1,
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1106,
+   "type": "talk",
+   "title": "Strength from a tzaddik's picture",
+   "summary": "Looking at the Rebbe's picture brings encouragement; the story continues next week.",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "d87365af6a",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'The Alter Rebbe Frees the Chassan part 2'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles Noach ('Noyach'), achdus ('achtos') and nachalnik."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Alter%20Rebbe%20Frees%20the%20Chassan%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 1.mp3",
+  "size_bytes": 13888422,
+  "mime_type": "audio/mpeg"
+ }
+}

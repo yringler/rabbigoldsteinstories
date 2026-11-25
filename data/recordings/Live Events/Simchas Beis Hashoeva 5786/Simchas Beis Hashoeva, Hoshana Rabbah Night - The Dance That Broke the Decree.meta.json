@@ -1,0 +1,267 @@
+{
+ "id": "cc16e78758",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Simchas bhs 7th day",
+  "audio_path": "audio/Live Events/Simchas Beis Hashoeva 5786/Simchas Beis Hashoeva, Hoshana Rabbah Night - The Dance That Broke the Decree.mp3",
+  "duration_sec": 842.652,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Simchas Beis Hashoeva, Hoshana Rabbah Night: The Dance That Broke the Decree",
+  "title_basis": "content",
+  "summary_short": "On Hoshana Rabbah night, Rabbi Goldstein teaches that today we serve Hashem with simcha, and tells how a Chassid's dancing saved his sick son in the days of the Tzemach Tzedek.",
+  "summary_long": "Recorded live at a Simchas Beis Hashoeva rally for children on the night of Hoshana Rabbah. Rabbi Goldstein wishes everyone a good and sweet year and explains that tonight's Ushpizin, Dovid HaMelech and the Rebbe Rashab, are both connected to Moshiach. A child character arrives with a Tehillim and a Chumash, ready for the Hoshana Rabbah custom of reading Sefer Devarim and saying Tehillim, and asks whether to say it with tears as in the olden days. Rabbi Goldstein explains that the Rebbe taught our generation to serve Hashem with simcha and bitachon, and tells a story: in the time of the Tzemach Tzedek, a Chassid whose son was gravely ill traveled to Lubavitch and received only 'Hashem should help you'. He spent Hoshana Rabbah crying over Tehillim, then decided to dance with all his might through Shemini Atzeres and Simchas Torah. Before he left, the Tzemach Tzedek told him that his joy had broken a Heavenly decree and his son would recover. Rabbi Goldstein closes with the Zohar's teaching that Heaven gives according to the joy on our faces, and the Rebbe's call to grab another Jew while dancing and bring Moshiach. The emcee then begins the Twelve Pesukim.",
+  "lesson": "Serve Hashem with simcha and trust; true joy can break even a harsh decree and brings blessing from Above.",
+  "keywords": [
+   "dancing",
+   "Hakafos",
+   "Tehillim",
+   "sick boy",
+   "Ushpizin",
+   "lekach",
+   "honey cake",
+   "decree",
+   "rally"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "simchas_beis_hashoeva_5786",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2025-10-12",
+   "hebrew": "Night of 21 Tishrei 5786 (Hoshana Rabbah)",
+   "hebrew_year": 5786,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Filename '7th day' and 'tonight the Ushpizin are Dovid HaMelech and the Rebbe Rashab' = night of Hoshana Rabbah; 'the year coming is a leap year' fits 5787, so Sukkos 5786 (evening of 12 Oct 2025)."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A young boy is gravely ill and doctors cannot help; he recovers through his father's joy."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Chassid",
+   "his sick son",
+   "the gabbai",
+   "a child with a Tehillim"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "moshiach_geulah",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "tehillim"
+  ],
+  "calendar": [
+   "simchas_beis_hashoeva",
+   "hoshana_rabbah",
+   "sukkos",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "note": "Before giving from Above, Heaven looks at the joy on a person's face (page reference given on air, partly unclear)."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "In our generation we serve Hashem with simcha rather than tears; 'grab another Jew' while dancing to bring Moshiach; Shanah Tovah Umesukah includes every blessing."
+   }
+  ],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 16,
+   "end_sec": 150,
+   "type": "talk",
+   "title": "A good and sweet year; tonight's Ushpizin",
+   "summary": "Shanah tovah umesukah, and how Dovid HaMelech and the Rebbe Rashab both connect to Moshiach.",
+   "people": [
+    "the_rebbe",
+    "david_hamelech",
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 150,
+   "end_sec": 315,
+   "type": "talk",
+   "title": "Tehillim with tears or with simcha?",
+   "summary": "A child arrives with a Tehillim and Chumash, and learns that today we serve Hashem with joy."
+  },
+  {
+   "start_sec": 315,
+   "end_sec": 704,
+   "type": "story",
+   "title": "The Tzemach Tzedek and the dancing father",
+   "summary": "A Chassid's dancing on Hoshana Rabbah and Simchas Torah breaks a decree against his sick son.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 704,
+   "end_sec": 811,
+   "type": "talk",
+   "title": "Heaven looks at your face",
+   "summary": "The Zohar's teaching on joy, and the Rebbe's call to dance with another Jew and bring Moshiach."
+  },
+  {
+   "start_sec": 811,
+   "type": "announcement",
+   "title": "On to the Twelve Pesukim",
+   "summary": "The emcee thanks Rabbi Goldstein and introduces the children's Twelve Pesukim."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "16727d2e9e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1b994d468f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3b05d42392",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Hoshana Rabbah Night: Dancing That Broke a Decree' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "80b558554d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simcha Power: The Chassid Who Danced on Simchas Torah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f18c947f46",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'What's Your Wish? The Power of Joy' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "truncated_end",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Live rally; first 16 s untranscribed. Ends as the emcee starts the Twelve Pesukim. ASR garbles Hebrew (Hoshana Rabbah, Ushpizin, Tehillim)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Assigned to the 5786 Simchas Beis Hashoeva series from content (file is in the Stories root, not the 5786 folder); year from 'the coming year is a leap year'.",
+   "The child character in the dialogue may be Simcha Engel; speaker left as unknown.",
+   "Pass 2: host re-attributed to R' Chaim Levi Goldstein (medium); basis: Hoshana Rabbah 5786 rally host thanked as 'Rabbi Goldstein'; same rally series as 770aa7cebf and the 5785 rallies"
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Live%20Events/Simchas%20Beis%20Hashoeva%205786/Simchas%20Beis%20Hashoeva%2C%20Hoshana%20Rabbah%20Night%20-%20The%20Dance%20That%20Broke%20the%20Decree.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Live Events/Simchas Beis Hashoeva 5786/Simchas Beis Hashoeva, Hoshana Rabbah Night - The Dance That Broke the Decree.mp3",
+  "size_bytes": 10112662,
+  "mime_type": "audio/mpeg"
+ }
+}

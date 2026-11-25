@@ -1,0 +1,212 @@
+{
+ "id": "9587146bd8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Shpoler zeida",
+  "filename_title": "The Shpoler Zeida 178",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Shpoler Zeide's Dance - How Eliyahu HaNavi Taught Him to Free a Prisoner (Ep 178).mp3",
+  "duration_sec": 489.045,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 178,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 178,
+   "story": "The Shpoler Zeide",
+   "topic": "אחר שבועות",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Shpoler Zeide's Dance: How Eliyahu HaNavi Taught Him to Free a Prisoner",
+  "title_basis": "content",
+  "summary_short": "Who taught the Shpoler Zeide to dance? Eliyahu HaNavi, so he could take a prisoner's place and outdance a cruel poritz.",
+  "summary_long": "Every Friday night after Kabbalas Shabbos, the Shpoler Zeide danced before his congregation with amazing speed. One Shabbos his guest, Rabbi Avraham HaMalach, son of the Mezritcher Maggid, asks who taught him. 'Eliyahu HaNavi,' he answers, and tells the story. While traveling to help fellow Jews, he heard of a wicked poritz who jailed tenants who could not pay. He would dress a prisoner in a bearskin and challenge him to a dance: if the prisoner lost, he was thrown to the hungry dogs. Sent by Eliyahu HaNavi, the Shpoler Zeide gave the guard whiskey until he fell asleep, unlocked the dungeon, exchanged clothes with the prisoner and sent him home. The next morning, chained and dressed as a bear, he danced so fast that the poritz fell on his face and gave up, and the Shpoler Zeide walked out free. Rabbi Avraham HaMalach replies that in Hashem's eyes such dancing may be even higher than his own prayers.",
+  "lesson": "Every talent can be used to help another Jew, and serving Hashem with joy and self-sacrifice is precious in His eyes.",
+  "keywords": [
+   "dancing",
+   "bearskin",
+   "dungeon",
+   "hungry dogs",
+   "whiskey",
+   "guard",
+   "keys",
+   "Kabbalas Shabbos"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 178,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-05-28",
+   "hebrew": "8 Sivan 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 178 (Isru Chag Shavuos 5745)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A cruel poritz jails Jews who cannot pay and humiliates them.",
+    "at_sec": 177
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Prisoners who lose the dance are thrown to hungry dogs; the hero escapes unharmed.",
+    "at_sec": 207
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The hero gives a guard whiskey so he falls asleep.",
+    "at_sec": 268
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_avraham_hamalach",
+    "role": "appears"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the cruel poritz",
+   "the Jewish prisoner",
+   "the guard"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "ahavas_yisroel",
+   "courage",
+   "simcha"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'as you remember, last week we told you a story about the Shpoler Zeide' (that story aired in episode 176). Filename's '87m 9s' label does not match the 8-minute file."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:44Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "a59131e21d",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 294."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e212bff400",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "Also aired in episode 512."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "4cff2ffa7d",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 834,
+   "note": "Episode 178 (filename number); clip = 834-1323 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9017964f32",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Dancing Bear' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/The%20Shpoler%20Zeide%27s%20Dance%20-%20How%20Eliyahu%20HaNavi%20Taught%20Him%20to%20Free%20a%20Prisoner%20%28Ep%20178%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The Shpoler Zeide's Dance - How Eliyahu HaNavi Taught Him to Free a Prisoner (Ep 178).mp3",
+  "size_bytes": 5869588,
+  "mime_type": "audio/mpeg"
+ }
+}

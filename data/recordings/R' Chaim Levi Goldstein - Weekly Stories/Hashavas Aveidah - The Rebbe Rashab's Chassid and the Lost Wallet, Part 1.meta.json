@@ -1,0 +1,252 @@
+{
+ "id": "56c2eaabb2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "rashab hashavas aveida 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashavas Aveidah - The Rebbe Rashab's Chassid and the Lost Wallet, Part 1.mp3",
+  "duration_sec": 1455.9,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashavas Aveidah: The Rebbe Rashab's Chassid and the Lost Wallet, Part 1",
+  "title_basis": "filename",
+  "summary_short": "What the seven species of Tu B'Shvat teach us, then part 1 of the story of a poor Chassid of the Rebbe Rashab who finds a rich man's wallet just before Shabbos.",
+  "summary_long": "In the week of Tu B'Shvat, the storyteller explains, as the Rebbe taught, that a Jew is like a tree and that each of the seven species carries a lesson: wheat and barley for serving Hashem with both the good and the animal soul, the grape for simcha, the fig for the three garments of the soul (thought, speech and action), the pomegranate for being full of mitzvos, the olive for the strength Jews show in golus, and the date for the sweetness of Chassidus, now ready after seventy years since Yud Shevat. Then the story begins: Yeshua Binyamin, a poor Chassid of the Rebbe Rashab, is always happy even as his debts pile up and a fire damages his home. An hour before Shabbos he finds a wallet stuffed with rubles, checks and property deeds, and wrestles with his yetzer hara. In shul he cheers up the gloomy rich man Pinchas Leib, learns the wallet is his, returns it after Shabbos and refuses any reward. Penniless, he sets out to see the Rebbe Rashab in Lubavitch. To be continued.",
+  "lesson": "Return what you find even when you badly need it, never sell a mitzvah for money, and stay b'simcha in hard times.",
+  "keywords": [
+   "seven species",
+   "wallet",
+   "rubles",
+   "property deeds",
+   "fire",
+   "grocer",
+   "rent",
+   "rich man",
+   "date palm",
+   "Lubavitch"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "2020-02-10",
+   "hebrew": "Week of 15 Shevat 5780",
+   "hebrew_year": 5780,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Tu B'Shvat 'this week' and 'we just celebrated 70 years of Yud Shevat' (5710 + 70 = 5780)."
+  },
+  "part": {
+   "set_key": "rashab-hashavas-aveida",
+   "part_number": 1,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor family faces debts, possible eviction and a house fire; no one is hurt."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Yeshua Binyamin, a poor Chassid",
+   "Pinchas Leib, the rich man",
+   "the grocer",
+   "the poritz (landlord)"
+  ],
+  "topics": [
+   "chassidim",
+   "calendar",
+   "character"
+  ],
+  "midos": [
+   "emes",
+   "simcha",
+   "bitachon",
+   "self_control"
+  ],
+  "mitzvos": [
+   "hashavas_aveidah"
+  ],
+  "calendar": [
+   "tu_bshvat"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Lubavitch"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "'The Rebbe told us in a sichah' that the seven species hint at our service of Hashem."
+   },
+   {
+    "work": "maamarim",
+    "note": "The maamar Basi LeGani: the world is Hashem's garden and Jews are its trees."
+   },
+   {
+    "work": "zohar",
+    "note": "When a Jew is b'simcha, Hashem smiles at him and gives him what he needs."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 3,
+   "end_sec": 625,
+   "type": "talk",
+   "title": "Tu B'Shvat: lessons from the seven species",
+   "summary": "A Jew is like a tree, and wheat, barley, grapes, figs, pomegranates, olives and dates each teach a way to serve Hashem.",
+   "calendar": [
+    "tu_bshvat"
+   ]
+  },
+  {
+   "start_sec": 625,
+   "end_sec": 723,
+   "type": "talk",
+   "title": "Why say Chamisha Asar B'Shvat",
+   "summary": "Some playful guesses why the Rebbe preferred the name Chamisha Asar B'Shvat."
+  },
+  {
+   "start_sec": 723,
+   "type": "story_chapter",
+   "title": "The lost wallet, Part 1",
+   "summary": "A poor Chassid finds a rich man's wallet before Shabbos, returns it, refuses a reward and sets out for the Rebbe Rashab.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "73edd7e5fc",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Another telling of the same Tu B'Shvat talk and part 1 of the story, same week and narrator, different wording."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b56d1794b6",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 2 ('rashab hashavas aveida 2'), a week later, recaps this part and continues the story."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e1c8ec3388",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Ten Times As Much' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Recorded with children answering questions. ASR writes 'pirates' for poritz and garbles Hebrew terms. One of two tellings of part 1."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "This week, we had a very special day, which as the Rebbe tells us, has a special message for us",
+   "at_sec": 3
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:34Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "No 'I believe' opening song; series and narrator assigned from the weekly format (seasonal talk, serial story, 'next week'). Confirm.",
+   "Two recordings of part 1 (this and 73edd7e5fc); pick the one to feature."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashavas%20Aveidah%20-%20The%20Rebbe%20Rashab%27s%20Chassid%20and%20the%20Lost%20Wallet%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashavas Aveidah - The Rebbe Rashab's Chassid and the Lost Wallet, Part 1.mp3",
+  "size_bytes": 17471674,
+  "mime_type": "audio/mpeg"
+ }
+}

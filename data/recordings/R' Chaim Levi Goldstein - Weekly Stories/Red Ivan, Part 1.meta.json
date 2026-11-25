@@ -1,0 +1,193 @@
+{
+ "id": "addf1aed4d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Red Ivan-part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Red Ivan, Part 1.mp3",
+  "duration_sec": 1456.118,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Red Ivan, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Beryl the merchant loves his money and asks a tzaddik for a blessing for a long journey. He is told to daven three times a day and to send regards to a red-bearded man named Ivan.",
+  "summary_long": "The storyteller opens with a lesson from Bereishis: Hashem creates the world anew every second, like a stretched rubber band that would snap back if released, so Hashem is always with us and we can trust Him. In every generation He also gives us tzaddikim who see further than we do. Beryl, a merchant who keeps mitzvos but hates giving tzedakah, asks the holy Reb Shmuel for a blessing before a long trip. Reb Shmuel tells him to daven three times a day and, oddly, to send regards to a red-haired, red-bearded man called Ivan if he meets him. On the way home Beryl pays to stop the wagon so he can daven Mincha in a forest, and is left behind. He reaches an inn and learns that robbers attacked the wagon he had been on. When the robbers' red-bearded leader, Ivan, walks in, Beryl must decide whether to follow the tzaddik's strange instruction. To be continued.",
+  "lesson": "Trust in Hashem, daven even when it is hard, and follow a tzaddik's instructions.",
+  "keywords": [
+   "merchant",
+   "robbers",
+   "forest",
+   "inn",
+   "red beard",
+   "gold coins",
+   "rubber band"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "red-ivan",
+   "part_number": 1,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers boast of robbing and killing the wagon passengers (reported, not described)."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The other passengers are killed off-scene."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Beryl the merchant",
+   "Reb Shmuel",
+   "Ivan, the robbers' leader"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "prayer_and_brachos",
+   "hiskashrus"
+  ],
+  "midos": [
+   "bitachon",
+   "generosity",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "bereishis"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "'As the Rebbe explained': maaser, the tenth part is not yours."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 60,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 335,
+   "type": "talk",
+   "title": "Hashem creates the world every second"
+  },
+  {
+   "start_sec": 335,
+   "type": "story_chapter",
+   "title": "Red Ivan, Part 1",
+   "story_key": "red-ivan",
+   "chapter": 1
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "62f0b4603b",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'Red Ivan -Part 2'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "35dc2fd877",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Mitzvos Over Money, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "filled_at": "2026-11-25T16:45:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "model": "claude-opus-5-5"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Red%20Ivan%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Red Ivan, Part 1.mp3",
+  "size_bytes": 17474173,
+  "mime_type": "audio/mpeg"
+ }
+}

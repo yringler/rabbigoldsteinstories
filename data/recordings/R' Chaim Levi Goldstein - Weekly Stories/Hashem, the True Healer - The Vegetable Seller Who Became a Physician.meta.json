@@ -1,0 +1,183 @@
+{
+ "id": "12a3e65ec2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem - The True Healer",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem, the True Healer - The Vegetable Seller Who Became a Physician.mp3",
+  "duration_sec": 1164.536,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashem, the True Healer: The Vegetable Seller Who Became a Physician",
+  "title_basis": "filename",
+  "summary_short": "To test the Jews' fortune, a caliph orders a poor, honest vegetable seller in Baghdad to become a doctor. His patients all recover, because Hashem is the true healer.",
+  "summary_long": "The storyteller explains the opening song: Hashem plans every step, and only our choice to keep Torah and mitzvos is left to us. We eat well and see doctors because Hashem wants us to act naturally, but healing comes from Hashem alone. In Baghdad lives Avraham, a poor vegetable seller who never overcharges, always smiles, gives tzedakah and serves Hashem. His good deeds create angels who plead in Heaven that he be made rich. That night the caliph sees a shooting star, and his astrologer, an enemy of the Jews, claims it means the Jews' luck has ended and they must be expelled. The caliph demands proof, and they agree on a test: the poorest, most G-d-fearing Jew in the market will be given a job he knows nothing about. Avraham is ordered to become a physician within thirty days. He opens an office, gives simple advice and colored water, and every patient is cured; he grows rich but stays devoted to Torah and secretly sends vegetables to the poor. When the caliph chokes on a fishbone, the sight of 'Avraham the Physician' makes him laugh until the bone flies out. The astrologer begs for mercy, and Avraham spares him on condition that he never speak against the Jews again.",
+  "lesson": "Doctors and medicine are only messengers; Hashem is the true healer, and whoever trusts in Hashem will always be helped.",
+  "keywords": [
+   "Baghdad",
+   "caliph",
+   "astrologer",
+   "shooting star",
+   "vegetable seller",
+   "physician",
+   "fishbone",
+   "angels",
+   "medicine",
+   "test"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "An astrologer urges the caliph to expel all the Jews; the plan fails."
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The caliph chokes on a fishbone and is near death, then recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Avraham the vegetable seller",
+   "his wife",
+   "the caliph",
+   "the astrologer",
+   "the palace guard"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hashgacha_pratis",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "emes",
+   "simcha",
+   "generosity"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "honest_business"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "4:11",
+    "note": "Every good deed creates a defending angel (as cited)."
+   }
+  ],
+  "places": [
+   "Baghdad, Iraq"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 21,
+   "type": "song",
+   "title": "I Believe in Hashem (untranscribed)"
+  },
+  {
+   "start_sec": 21,
+   "end_sec": 205,
+   "type": "talk",
+   "title": "Hashem is the true healer"
+  },
+  {
+   "start_sec": 205,
+   "type": "story",
+   "title": "Avraham the physician of Baghdad"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "First 21 s untranscribed (opening song, referred to as 'this song'). Ends right after the lesson."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "One of the main things that we get from this song, to remember that we're never alone.",
+   "at_sec": 21
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:46Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%2C%20the%20True%20Healer%20-%20The%20Vegetable%20Seller%20Who%20Became%20a%20Physician.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem, the True Healer - The Vegetable Seller Who Became a Physician.mp3",
+  "size_bytes": 13975237,
+  "mime_type": "audio/mpeg"
+ }
+}

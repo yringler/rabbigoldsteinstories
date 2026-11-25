@@ -1,0 +1,307 @@
+{
+ "id": "bdbaa10fa4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "torah the best merchendise - מאין יבוא עזרי 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Torah Is the Best Merchandise; Me'ayin Yavo Ezri, Part 1.mp3",
+  "duration_sec": 1995.883,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-018' stripped",
+   "mixed Hebrew/Latin name"
+  ]
+ },
+ "display": {
+  "title": "Torah Is the Best Merchandise; Me'ayin Yavo Ezri, Part 1",
+  "title_basis": "filename",
+  "title_he": "מאין יבוא עזרי",
+  "title_translit": "Me'ayin Yavo Ezri",
+  "summary_short": "Learning Torah just for Hashem, shown by a classroom experiment and the story of the Baal Shem Tov's soul, then part 1 of a Chassid's desperate trip to the Rebbe Maharash.",
+  "summary_long": "Just after the Rebbe Rashab's birthday, the storyteller retells how the young Rebbe Rashab cried to his grandfather, the Tzemach Tzedek, because Hashem appeared to Avraham and not to him, and the Rebbe's lesson: we can learn Torah and do mitzvos just for Hashem, without prizes. Speaking as a teacher of young boys, he describes trying this in his class, with a million dollars and a lollipop, children who turned down ice cream, and mothers' notes about quiet good deeds. He then tells of a simple Jew in Tzfas who refused to tell Eliyahu HaNavi what good deed he had done at his bar mitzvah, even in exchange for Torah secrets; a hundred years later that soul came down as the Baal Shem Tov. Story time follows: Reb Shmuel Brin, a devoted Chassid who owns a vodka factory, arrives in Lubavitch weeping. A worker stole from the taxed vat and blamed him, the police locked his factory, and he faces trial and possible exile to Siberia. The Rebbe Maharash gives him instructions, which will be told next week.",
+  "lesson": "Learn Torah and do mitzvos just for Hashem; that connection is the greatest reward. Following a tzaddik's instructions exactly keeps a person safe.",
+  "keywords": [
+   "lollipop",
+   "million dollars",
+   "mitzvah notes",
+   "classroom",
+   "ice cream",
+   "Tzfas",
+   "vodka factory",
+   "tax meter",
+   "Siberia",
+   "yechidus"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Shortly after Chof Cheshvan (the Rebbe Rashab's birthday)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'We have just celebrated the very special birthday of the Rebbe Rashab'; year not stated."
+  },
+  "part": {
+   "set_key": "meayin-yavo-ezri",
+   "part_number": 1,
+   "of": null
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Chassid is falsely accused, arrested and fears antisemitic judges."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "He is jailed until bail is paid and faces exile to Siberia."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the teacher and his class",
+   "the principal",
+   "a simple Jew of Tzfas",
+   "Reb Shmuel Brin, a Chassid and factory owner",
+   "the gabbai",
+   "the thieving workers",
+   "the police"
+  ],
+  "topics": [
+   "torah_study",
+   "chabad_rebbeim",
+   "hiskashrus",
+   "chassidim"
+  ],
+  "midos": [
+   "anavah",
+   "kabbalas_ol",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "tzedakah",
+   "tehillim"
+  ],
+  "calendar": [
+   "chof_cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's explanation of the Rebbe Rashab's childhood question to the Tzemach Tzedek."
+   }
+  ],
+  "places": [
+   "Lubavitch",
+   "Tzfas"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 300,
+   "type": "sichah",
+   "title": "The young Rebbe Rashab's birthday tears",
+   "summary": "Why the Rebbe Rashab cried to the Tzemach Tzedek, and the Rebbe's lesson about serving Hashem without rewards.",
+   "people": [
+    "rebbe_rashab",
+    "tzemach_tzedek",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 300,
+   "end_sec": 745,
+   "type": "talk",
+   "title": "Torah is the best merchandise: a classroom experiment",
+   "summary": "A teacher's class learns to learn Torah just for Hashem and turns down prizes."
+  },
+  {
+   "start_sec": 745,
+   "end_sec": 1011,
+   "type": "story",
+   "title": "The Jew of Tzfas and Eliyahu HaNavi",
+   "summary": "A simple Jew keeps his good deed secret even from Eliyahu HaNavi, and his soul later becomes the Baal Shem Tov.",
+   "people": [
+    "eliyahu_hanavi",
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1011,
+   "end_sec": 1177,
+   "type": "talk",
+   "title": "Back in the classroom",
+   "summary": "Two boys refuse to reveal their quiet mitzvos, just like the Jew of Tzfas."
+  },
+  {
+   "start_sec": 1177,
+   "type": "story_chapter",
+   "title": "Me'ayin Yavo Ezri, Part 1",
+   "summary": "A Chassid falsely accused of tax fraud comes to the Rebbe Maharash for help.",
+   "people": [
+    "rebbe_maharash"
+   ],
+   "story_key": "meayin-yavo-ezri",
+   "chapter": 1
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "2300e71fce",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Rebbe Maharash and Me'ayin Yavo Ezri: Help From Nowhere' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5e372c37c6",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Knows How to Help You, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db30dda6bf",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Knows How to Help You, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6bdf3b9e45",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Just for Hashem: A Chof Cheshvan Class and the Story of Reb Shmuel Brin' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Hebrew part of the filename is the serial story's title; part 2 is not in this batch. ASR writes 'Maharaj' for Maharash."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "That we will hear in part two of this special story next week.",
+   "at_sec": 1971
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Part 2 of 'Me'ayin Yavo Ezri' not in this batch; link the set in pass 2.",
+   "Narrator says he teaches a class of five- and six-year-old boys: an identity clue."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Torah%20Is%20the%20Best%20Merchandise%3B%20Me%27ayin%20Yavo%20Ezri%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Torah Is the Best Merchandise; Me'ayin Yavo Ezri, Part 1.mp3",
+  "size_bytes": 23951482,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "id": "dca475212d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Great Shepherd",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Great Shepherd.mp3",
+  "duration_sec": 1163.761,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Great Shepherd",
+  "title_basis": "filename",
+  "summary_short": "Before Rosh Hashanah: why we blow the shofar, and a parable of a king, a loyal shepherd and the flute tune that brought forgiveness.",
+  "summary_long": "On the Shabbos before Rosh Hashanah, the storyteller shares the Baal Shem Tov's teaching that Hashem Himself blesses the month of Tishrei, giving us the strength to bless every other month, and reminds listeners that a few chapters of Tehillim said word by word are worth more than many that are mumbled. Why do we blow the shofar? The Rambam says it is a wake-up call to teshuvah, returning to Hashem and doing better, and Rav Saadia Gaon gives ten reasons, among them that it recalls the shofar at Matan Torah. Then comes a parable. A king who loves honor goes out in disguise and finds that no one in his land cares about him, until he hears a shepherd playing his flute in the king's honor, calling the king a great shepherd for his people. The king brings the shepherd to live in the palace as his friend forever. One day the shepherd offends the king, and before his judgment he asks only to play his flute once more. Hearing the old tune, the king remembers and forgives. So too, the shofar reminds Hashem that we alone said \"Naaseh v'nishma\", and He grants us a good and sweet year.",
+  "lesson": "The shofar wakes us to teshuvah and reminds Hashem of our love at Matan Torah, so He forgives us and grants a good and sweet year.",
+  "keywords": [
+   "shofar",
+   "king",
+   "shepherd",
+   "flute",
+   "disguise",
+   "palace",
+   "Matan Torah",
+   "Tehillim",
+   "new year"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Shabbos before Rosh Hashanah (Shabbos Mevarchim Tishrei)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'This Shabbos' is the last Shabbos of the year; year not given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rav_saadia_gaon",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the shepherd"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "torah_study"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "forgiveness",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "tehillim"
+  ],
+  "calendar": [
+   "rosh_hashanah",
+   "shabbos_mevarchim",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 29:1",
+    "note": "'Yom teruah yihyeh lachem.'"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4",
+    "note": "The shofar as a call to wake up and do teshuvah."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Rav Saadia Gaon's ten reasons for the shofar, including Matan Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 166,
+   "type": "talk",
+   "title": "Shabbos Mevarchim and saying Tehillim carefully",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 166,
+   "end_sec": 380,
+   "type": "talk",
+   "title": "Why we blow the shofar",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 380,
+   "end_sec": 1022,
+   "type": "story",
+   "title": "The king and the shepherd's flute"
+  },
+  {
+   "start_sec": 1022,
+   "type": "talk",
+   "title": "The shofar reminds Hashem of Matan Torah"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends right after the closing blessing, with no usual sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem. There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "8e94797760",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Shofar and Matan Torah: The King and the Shepherd's Flute' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Great%20Shepherd.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Great Shepherd.mp3",
+  "size_bytes": 13966140,
+  "mime_type": "audio/mpeg"
+ }
+}

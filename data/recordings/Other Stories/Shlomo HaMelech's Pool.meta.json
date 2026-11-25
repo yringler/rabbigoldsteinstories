@@ -1,0 +1,249 @@
+{
+ "id": "b9cf46cd8d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Shlomo Hamelech's Pool",
+  "audio_path": "audio/Other Stories/Shlomo HaMelech's Pool.mp3",
+  "duration_sec": 4536.111,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shlomo HaMelech's Pool",
+  "title_basis": "filename",
+  "summary_short": "A wicked advisor tricks the king of Spain into ordering Rabbi Yehuda to build a copy of Shlomo HaMelech's pool, but Hashem's help turns every plot around.",
+  "summary_long": "In a faraway city in Spain, the great scholar Rabbi Yehuda is the king's trusted chief advisor. The jealous advisor Ivan, who hates the Jews, persuades the king to have Rabbi Yehuda build a pool like Shlomo HaMelech's. After saying Tehillim, Rabbi Yehuda and his wife Sarah find the plans in her late father's chest, hidden deep beneath their house. The pool is built, but the gold paint keeps floating off, so Rabbi Yehuda cleverly hands the painting to Ivan, who secretly knows the trick. Ivan then has the king demand an oath that nothing was taken from the treasury. Rabbi Yehuda will not swear to what he cannot know for sure, and he is thrown into the river. A Jewish doctor, Rabbi Yitzchak, rescues him and hides him in his home. When the king loses his royal ring in the river, Ivan has him decree that the Jews must find it within 30 days or be expelled. The community fasts and says Tehillim, Rabbi Yehuda catches a fish with the ring inside, and a clever plan at the riverbank brings Rabbi Yehuda back to the palace and ends Ivan's schemes for good.",
+  "lesson": "Hashem watches over the Jewish people at every moment; when trouble comes, daven and say Tehillim, never swear to something you are not sure of, and thank Hashem for what He gives us.",
+  "keywords": [
+   "swimming pool",
+   "king's advisor",
+   "gold paint",
+   "blueprints",
+   "secret basement",
+   "oath",
+   "river",
+   "fishing",
+   "king's ring",
+   "fish",
+   "decree",
+   "Spain"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "historical",
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Rabbi Yehuda is sentenced to death, tied up and thrown into a river; a doctor rescues and revives him."
+   },
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The king decrees that all the Jews will be expelled if they cannot find his lost ring."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "At the end the villain is thrown into the river and does not come back."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the king's chief advisor",
+   "Sarah, his wife",
+   "Ivan, the wicked advisor",
+   "the king of Spain",
+   "Rabbi Yitzchak, the Jewish doctor",
+   "Rabbi Yitzchak's wife",
+   "Rabbi Shmuel, the Rav of the community"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "jewish_history",
+   "prayer_and_brachos",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "emes",
+   "hakaras_hatov",
+   "chesed"
+  ],
+  "mitzvos": [
+   "tehillim",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Spain"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 590,
+   "type": "story",
+   "title": "Ivan's plan: build Shlomo HaMelech's pool"
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 1270,
+   "type": "story",
+   "title": "Tehillim and the secret chest of plans"
+  },
+  {
+   "start_sec": 1270,
+   "end_sec": 1990,
+   "type": "story",
+   "title": "Building the pool and the gold paint"
+  },
+  {
+   "start_sec": 1990,
+   "end_sec": 2310,
+   "type": "story",
+   "title": "The oath Rabbi Yehuda would not take"
+  },
+  {
+   "start_sec": 2310,
+   "end_sec": 2960,
+   "type": "story",
+   "title": "Rescued from the river and hidden away"
+  },
+  {
+   "start_sec": 2960,
+   "end_sec": 3549,
+   "type": "story",
+   "title": "The lost ring and the cruel decree"
+  },
+  {
+   "start_sec": 3549,
+   "end_sec": 4088,
+   "type": "story",
+   "title": "The ring in the fish"
+  },
+  {
+   "start_sec": 4088,
+   "end_sec": 4536,
+   "type": "story",
+   "title": "A visitor from the river"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "ad8eb4387b",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'Shlomo Hamelech's Pool 01' (audio fingerprint)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "21a742a4c5",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Always Helps: A Copy of Shlomo HaMelech's Golden Pool, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b3a7eb29c2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Hashem Always Helps, Part 2: The King's Ring' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete telling. The same recording is split into 'Pool 01' (first half) and 'Pool 02' (second half plus unrelated songs). ASR writes 'pull'/'pole' for pool."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:27Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator not identified (no opening song or sign-off); possibly the weekly storyteller or Uncle Yossi."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Shlomo%20HaMelech%27s%20Pool.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Shlomo HaMelech's Pool.mp3",
+  "size_bytes": 54434102,
+  "mime_type": "audio/mpeg"
+ }
+}

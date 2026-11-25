@@ -1,0 +1,173 @@
+{
+ "id": "ca0235a8ba",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "Grease the wheel during prayer 533",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Rabbi Levi Yitzchak of Berditchev and the Coachman Greasing His Wheels (Ep 533).mp3",
+  "duration_sec": 216.606,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 533,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 533,
+   "story": "Grease the wheel during prayer",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Rabbi Levi Yitzchak of Berditchev and the Coachman Greasing His Wheels",
+  "title_basis": "content",
+  "summary_short": "A crowd is shocked to see a coachman greasing his wagon in tallis and tefillin, but Rabbi Levi Yitzchak of Berditchev sees only how much the man loves Hashem.",
+  "summary_long": "A short story from the Tzivos Hashem radio show. Uncle Yossi introduces Rabbi Levi Yitzchak of Berditchev, a tzaddik famous for his love of Hashem, Torah and mitzvos, and above all for his love of every Jew. He had a \"good eye\" and saw only the good in other people, just as the Mishnah teaches us to judge everyone favorably. One day, arriving at shul to daven, he finds a crowd gathered around a coachman who is wearing tallis and tefillin while smearing grease on the axles of his wagon. \"How awful, how shameful!\" they cry. Rabbi Levi Yitzchak walks over, smiles and praises the coachman: he loves Hashem and His mitzvos so much that even while greasing his wheels he wears tallis and tefillin. Uncle Yossi connects the story to the mitzvah of loving your fellow as yourself: just as we look at ourselves with a kind eye, we should look at others the same way, and then Hashem will judge us favorably too.",
+  "lesson": "Judge everyone favorably and look for the good in others; then Hashem will judge you favorably as well.",
+  "keywords": [
+   "coachman",
+   "wagon wheels",
+   "grease",
+   "axle",
+   "tallis and tefillin",
+   "good eye",
+   "crowd"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 533,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-06-16",
+   "hebrew": "15 Sivan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Aired in episode 533, the week of Parshas Behaaloscha 5752."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the coachman",
+   "the crowd outside the shul"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "character"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "tefillin"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:6",
+    "note": "\"Judge every person favorably\", cited as a Mishnah."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "Love your fellow as yourself."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "729ed8fc5d",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 1168,
+   "note": "Episode 533 (filename number); clip = 1168-1385 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c086cd94b1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 463: Three Lost on an Island, Chapter 1' (episode 463, 22:20-26:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:38Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/Rabbi%20Levi%20Yitzchak%20of%20Berditchev%20and%20the%20Coachman%20Greasing%20His%20Wheels%20%28Ep%20533%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Rabbi Levi Yitzchak of Berditchev and the Coachman Greasing His Wheels (Ep 533).mp3",
+  "size_bytes": 2600112,
+  "mime_type": "audio/mpeg"
+ }
+}

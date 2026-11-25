@@ -1,0 +1,166 @@
+{
+ "id": "b905d4bf33",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Yud Shevat 9",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud Shevat - Remembering the Frierdiker Rebbe (Ep 009).mp3",
+  "duration_sec": 377.847,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 9,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 9,
+   "story": "The Ten Wedding Gifts #3",
+   "topic": "Yud Shevat",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud Shevat: Remembering the Frierdiker Rebbe",
+  "title_basis": "content",
+  "summary_short": "On the eve of Yud Shevat, Uncle Yossi tells how the Frierdiker Rebbe taught Torah to children in hiding, was sentenced to death and saved by a miracle, and what we learn from him.",
+  "summary_long": "A talk from the eve of Yud Shevat 5742. Going through the Hebrew months, Uncle Yossi arrives at Shevat: today is the ninth, and tomorrow is Yud Shevat, the day the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, passed away 32 years earlier, in 5710. He founded many schools where children learned Torah and mitzvos in hiding, in a country where it was forbidden, and reassured teachers and children that Hashem was on their side. He was arrested and sentenced to death, and by a miracle was freed on his 48th birthday, Yud-Beis Tammuz 5687 (1927). Mentioning a tzaddik's name with \"zichrono livracha\" brings blessing, which is why Jews everywhere gather on Yud Shevat to retell his story. We thank Hashem for the freedom to keep mitzvos, and children of Tzivos Hashem make resolutions to learn more Torah and do more mitzvos, hastening Moshiach.",
+  "lesson": "Learn from the Frierdiker Rebbe's courage: spread Torah and mitzvos, and be grateful for the freedom to keep them.",
+  "keywords": [
+   "Hebrew calendar",
+   "Shevat",
+   "secret schools",
+   "arrest",
+   "birthday",
+   "zichrono livracha",
+   "resolutions"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1982-02-02",
+   "hebrew": "9 Shevat 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Which day of Shevat is today? The ninth of Shevat'; 'now it's 5742'. Cut from episode 9."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 9,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The Frierdiker Rebbe was arrested and sentenced to death for teaching Torah to children, then saved by a miracle.",
+    "at_sec": 153
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "mesiras_nefesh_kiddush_hashem"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Kiddushin 31b",
+    "note": "Adding 'zichrono livracha' after the name of a tzaddik who passed away, cited as a teaching of the Sages."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "28d65320a3",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 411,
+   "note": "Episode 9 (filename number); clip = 411-788 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence in the calendar recap; ASR writes 'Shabbat' for Shevat."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:47:35Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud%20Shevat%20-%20Remembering%20the%20Frierdiker%20Rebbe%20%28Ep%20009%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud Shevat - Remembering the Frierdiker Rebbe (Ep 009).mp3",
+  "size_bytes": 4535151,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,302 @@
+{
+ "generated_from": "items/*.json (pass 1), 2026-11-25",
+ "note": "hours = sum of file durations of all items in the series, including clips, duplicates and alternate takes, so it overstates unique audio (above all for the radio series, where clips repeat episode audio). Descriptions are public text: no unconfirmed guesses.",
+ "series": [
+  {
+   "series_id": "uy_tzivos_hashem_on_the_air",
+   "label": "Uncle Yossi - Tzivos Hashem on the Air",
+   "label_unconfirmed": false,
+   "description": "Uncle Yossi's weekly radio program for children, hosted by Rabbi Yosef Goldstein and broadcast on Tuesday nights from late 1981 into the early 1990s. Each half-hour show opens with a greeting and invites children to the microphone to say Shema. It answers letters from the mailbox and teaches about the coming Yom Tov, the parsha and the mitzvah campaigns of Tzivos Hashem. At the center of every show is a serial story, told chapter by chapter from week to week, with songs and marches between the segments. The archive holds full episodes numbered from 1 to 555 and hundreds of shorter clips sorted by topic, including the stories that were later re-edited as the Heritage Series. Some episodes are still missing, and we would be glad to hear from anyone who has a recording of one.",
+   "description_words": 136,
+   "counts": {
+    "items": 832,
+    "hours": 247.2,
+    "minutes": 14830,
+    "by_content_type": {
+     "radio_episode": 414,
+     "radio_segment": 413,
+     "promo": 2,
+     "fragment": 2,
+     "song": 1
+    },
+    "by_language": {
+     "en": 832
+    }
+   },
+   "date_range": {
+    "earliest": "1981-12",
+    "latest": "1993-01-03",
+    "hebrew_years": [
+     5742,
+     5753
+    ],
+    "dated_items": 829,
+    "items_by_year": {
+     "1981": 7,
+     "1982": 59,
+     "1984": 64,
+     "1985": 69,
+     "1986": 71,
+     "1987": 70,
+     "1988": 95,
+     "1989": 114,
+     "1990": 114,
+     "1991": 87,
+     "1992": 78,
+     "1993": 1
+    },
+    "note": "Dates are mostly exact air dates from the weekly sequence; some clips carry their source episode's date."
+   },
+   "episodes": {
+    "distinct_episode_numbers": 412,
+    "min": 1,
+    "max": 555
+   }
+  },
+  {
+   "series_id": "shema_beni",
+   "label": "Shema B'ni",
+   "label_unconfirmed": false,
+   "description": "Shema B'ni was an earlier nightly program from Rabbi Yosef Goldstein (Uncle Yossi), who addresses his young listeners as \"tayere kinderlach\". Two recordings from it are in the archive. Both are kept with the Heritage Series segments and both were made for the Three Weeks. The first brings together several nightly programs: the five calamities of Shiva Asar B'Tammuz, a king's painting contest, the Western Wall, and the young Baal Shem Tov teaching a coachman Who is always watching. The second explains why the Shabbos before Tisha B'Av is called Shabbos Chazon, through Rabbi Levi Yitzchak of Berditchev's parable of the three garments a father sewed for his son.",
+   "description_words": 109,
+   "counts": {
+    "items": 2,
+    "hours": 0.8,
+    "minutes": 46,
+    "by_content_type": {
+     "story_collection": 1,
+     "lesson_with_story": 1
+    },
+    "by_language": {
+     "en": 2
+    }
+   },
+   "date_range": {
+    "earliest": null,
+    "latest": null,
+    "hebrew_years": null,
+    "dated_items": 0,
+    "items_by_year": {}
+   }
+  },
+  {
+   "series_id": "weekly_story_i_believe",
+   "label": "Weekly Story (working title)",
+   "label_unconfirmed": true,
+   "description": "A weekly story program with Rabbi Chaim Levi Goldstein, the son of Uncle Yossi. Most recordings open with his song \"I Believe in Hashem, I Trust in Hashem\". A short teaching tied to the week comes next: the parsha, a Yom Tov, a Chassidic date or one of the Rebbe's campaigns. Then comes the story itself. The stories come from the Baal Shem Tov and his students, the Chabad Rebbeim, the Rebbe and Chassidim of every generation, and many of the longer ones run over several weeks as a serial. Each story ends with a lesson that children can take into their own day. Almost all of the recordings with a known date were made between 2020 and 2025.",
+   "description_words": 119,
+   "counts": {
+    "items": 190,
+    "hours": 68.6,
+    "minutes": 4119,
+    "by_content_type": {
+     "lesson_with_story": 84,
+     "story_chapter": 52,
+     "story": 44,
+     "story_collection": 5,
+     "talk": 4,
+     "song": 1
+    },
+    "by_language": {
+     "en": 190
+    }
+   },
+   "date_range": {
+    "earliest": "1989-10",
+    "latest": "2025-12-04",
+    "hebrew_years": [
+     5750,
+     5786
+    ],
+    "dated_items": 20,
+    "items_by_year": {
+     "1989": 1,
+     "2020": 10,
+     "2021": 1,
+     "2022": 1,
+     "2023": 1,
+     "2024": 2,
+     "2025": 4
+    },
+    "note": "One dated item (32ef7d25e6, \"Succos unedited 5750\", 1989) is the same recording as Maaseh Rav item fa63d3c763 but is filed under this series; without it, the dated items run from 2020 to 2025."
+   }
+  },
+  {
+   "series_id": "simchas_beis_hashoeva_5786",
+   "label": "Simchas Beis Hashoeva Rallies 5786",
+   "label_unconfirmed": false,
+   "description": "Live recordings of the children's Simchas Beis Hashoeva rallies held on the nights of Sukkos 5786 (October 2025). Each night is dedicated to that evening's Ushpizin and to the Chabad Rebbe paired with them. The children say the Twelve Pesukim, sing and dance, and hear a story about the Rebbe of that night. The Alter Rebbe accepts a rich man's single nickel, the Rebbe Maharash saves an innkeeper who was falsely accused, and on Hoshana Rabbah night a Chassid's dancing saves his sick son in the days of the Tzemach Tzedek. The message of the rallies is that on Sukkos we serve Hashem with joy, and the recordings carry the noise and excitement of a real crowd.",
+   "description_words": 117,
+   "counts": {
+    "items": 3,
+    "hours": 1.1,
+    "minutes": 68,
+    "by_content_type": {
+     "live_event": 3
+    },
+    "by_language": {
+     "en": 3
+    }
+   },
+   "date_range": {
+    "earliest": "2025-10-08",
+    "latest": "2025-10-12",
+    "hebrew_years": [
+     5786,
+     5786
+    ],
+    "dated_items": 3,
+    "items_by_year": {
+     "2025": 3
+    }
+   }
+  },
+  {
+   "series_id": "farbrengen_power",
+   "label": "Farbrengen Power",
+   "label_unconfirmed": false,
+   "description": "Two stories about the power of a Chassidic farbrengen, told by Rabbi Chaim Levi Goldstein and first recorded for video. The first is told for the month of Kislev. In a story of the Frierdiker Rebbe, Chassidim at a farbrengen bless a friend who is gravely ill, and he lives for forty more years. A short history of the Alter Rebbe's portrait follows. In the second, a wealthy businessman in Petersburg who had left Yiddishkeit walks into a Yud-Tes Kislev farbrengen. The warmth he finds there and the memories of his childhood bring him back to teshuvah. Together the two stories show how much a single farbrengen can do.",
+   "description_words": 109,
+   "counts": {
+    "items": 2,
+    "hours": 0.5,
+    "minutes": 32,
+    "by_content_type": {
+     "lesson_with_story": 1,
+     "story": 1
+    },
+    "by_language": {
+     "en": 2
+    }
+   },
+   "date_range": {
+    "earliest": null,
+    "latest": null,
+    "hebrew_years": null,
+    "dated_items": 0,
+    "items_by_year": {}
+   }
+  },
+  {
+   "series_id": "maaseh_rav",
+   "label": "Maaseh Rav",
+   "label_unconfirmed": false,
+   "description": "Short stories told by the Rebbe about the Chabad Rebbeim and other tzaddikim, each with an explanation of what it teaches. The Alter Rebbe hears a baby crying that the Mitteler Rebbe, deep in his learning, did not hear. The Rebbe Rashab gives his young son a handwritten maamar as \"a Chassidishe kiss\", and later a silver-topped cane. The young Frierdiker Rebbe spends a Shabbos in a tavern full of drinkers while he works to stop a harsh decree. The young Ruzhiner has no question on Yaakov's dream. A rich man in New York finds his brother from the shtetl quietly davening Mincha on the roof. The collection also includes a lively class for children about Sukkos.",
+   "description_words": 117,
+   "counts": {
+    "items": 7,
+    "hours": 1.6,
+    "minutes": 98,
+    "by_content_type": {
+     "story": 6,
+     "lesson_with_story": 1
+    },
+    "by_language": {
+     "en": 7
+    }
+   },
+   "date_range": {
+    "earliest": "1989-10",
+    "latest": "1989-10",
+    "hebrew_years": [
+     5750,
+     5750
+    ],
+    "dated_items": 1,
+    "items_by_year": {
+     "1989": 1
+    }
+   }
+  },
+  {
+   "series_id": "tanya_yiddish_goldstein",
+   "label": "Tanya Shiur in Yiddish - Rabbi Yosef Goldstein",
+   "label_unconfirmed": false,
+   "description": "A weekly class in Tanya, given in Yiddish by Rabbi Yosef Goldstein (Uncle Yossi). The numbered classes were recorded from 5736 to 5738 (1976-1978) and work through Likkutei Amarim chapter by chapter. Among the topics are the beinoni, the struggle between the two souls, joy in serving Hashem, ahavas Yisroel, and the purpose of creation as it will be revealed in the days of Moshiach. Many of the classes also take up the time of year, with laws from the Shulchan Aruch HaRav before Rosh Hashanah, Yom Kippur and Sukkos, and talks for Elul, Yud Kislev and the weeks before Purim. The classes are meant for adults and older students. The automatic Yiddish transcripts are used for search only and are not shown on the site.",
+   "description_words": 126,
+   "counts": {
+    "items": 43,
+    "hours": 46.9,
+    "minutes": 2816,
+    "by_content_type": {
+     "shiur": 43
+    },
+    "by_language": {
+     "yi": 42,
+     "en": 1
+    }
+   },
+   "date_range": {
+    "earliest": "1976",
+    "latest": "1978-08-29",
+    "hebrew_years": [
+     5736,
+     5738
+    ],
+    "dated_items": 29,
+    "items_by_year": {
+     "1976": 15,
+     "1977": 5,
+     "1978": 9
+    }
+   }
+  },
+  {
+   "series_id": "haggadah_yiddish",
+   "label": "The Haggadah Explained (Yiddish)",
+   "label_unconfirmed": false,
+   "description": "A class in Yiddish for children that covers Erev Pesach and the whole Haggadah. The teacher begins with the title page of the Haggadah, the search for chametz and burning it, and the order of Erev Pesach. He then goes through the Seder step by step: Kadesh, Karpas and Yachatz, Mah Nishtanah, Avadim Hayinu, the Four Sons, the Ten Plagues and Dayeinu, Rabban Gamliel's three things, and on to opening the door for Eliyahu HaNavi. Questions, stories and songs keep the children involved the whole way through. The collection has one long master recording of almost four hours, along with shorter parts and excerpts cut from it. The teacher is not named in the recordings. The automatic Yiddish transcripts are used for search only.",
+   "description_words": 124,
+   "counts": {
+    "items": 15,
+    "hours": 10.8,
+    "minutes": 649,
+    "by_content_type": {
+     "shiur": 9,
+     "talk": 6
+    },
+    "by_language": {
+     "yi": 15
+    }
+   },
+   "date_range": {
+    "earliest": null,
+    "latest": null,
+    "hebrew_years": null,
+    "dated_items": 0,
+    "items_by_year": {},
+    "note": "No dates. \"The Rebbe shlita\" is mentioned, so the recordings are from before 1994."
+   }
+  },
+  {
+   "series_id": "bubby_zaidy_stories",
+   "label": "Bubby and Zaidy Stories",
+   "label_unconfirmed": false,
+   "description": "Home recordings that grandparents made for their grandchildren. Bubby Chaya Malka tells classic stories in Yiddish and in English: the young Baal Shem Tov and the bear, Rashi's father and the precious diamond, Rabbi Meir Baal HaNess and the lion, Eliyahu HaNavi's cup, and more, several of them Pesach stories. In one recording a grandfather sings Shabbos and Yom Tov songs. Zaidy Moshe Yehuda tells the story of his life, from a frum boyhood in Providence, Rhode Island, to raising a Torah family in Borough Park, and explains why he moved to Eretz Yisroel. A grandfather also teaches his grandchildren in Yiddish about the value of learning Torah. These are private family recordings, warm and informal, and the sound quality varies.",
+   "description_words": 121,
+   "counts": {
+    "items": 15,
+    "hours": 7.5,
+    "minutes": 452,
+    "by_content_type": {
+     "story": 8,
+     "family_recording": 7
+    },
+    "by_language": {
+     "yi": 12,
+     "en": 3
+    }
+   },
+   "date_range": {
+    "earliest": "1967",
+    "latest": "1967",
+    "hebrew_years": null,
+    "dated_items": 1,
+    "items_by_year": {
+     "1967": 1
+    },
+    "note": "Only the memoir (badd162691) has a date (1967). The Bubby recordings must be from before 2 Adar 5739 (1979) if the Bubby is Uncle Yossi's mother."
+   }
+  }
+ ]
+}

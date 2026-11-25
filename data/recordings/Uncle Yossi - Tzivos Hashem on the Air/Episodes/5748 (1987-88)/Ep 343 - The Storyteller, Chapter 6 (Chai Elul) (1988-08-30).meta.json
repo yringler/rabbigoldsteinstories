@@ -1,0 +1,415 @@
+{
+ "id": "28f877b59d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "343",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 343 - The Storyteller, Chapter 6 (Chai Elul) (1988-08-30).mp3",
+  "duration_sec": 1841.131,
+  "filename_facts": {
+   "episode_number": 343,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 343,
+   "story": "The storyteller #4",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 343: The Storyteller, Chapter 6 (Chai Elul)",
+  "title_basis": "content",
+  "summary_short": "On Chai Elul: the Hakochainik march, Rabbi Yehuda's one remembered story begins, Shema with a first-grade class, a listener's letter, and the boyhood of the Baal Shem Tov.",
+  "summary_long": "Broadcast on the evening of Chai Elul 5748. Uncle Yossi recalls that in Elul Hashem, the King in the field, smiles at everyone, so Tzivos Hashem soldiers answer with simcha and the Hakochainik march. In the story, Rabbi Yehuda begins the one story he remembers: the Baal Shem Tov once took him to a city ruled by a feared official who issued harsh decrees against the Jews, and sent him straight to that official's office to demand a meeting. As Rabbi Yehuda knocks on the door, the chapter breaks off. A first-grade class from a Boro Park girls' school recites the Shema, and in the mailbox a young listener who wrote the whole Shema from memory is signed up for Tzivos Hashem. After a sponsor message, Uncle Yossi marks the Baal Shem Tov's birthday with a story from his childhood: orphaned at five, little Yisroelik remembers his father's last words, 'Fear nothing but Hashem alone', studies alone in a forest cave, and tells a radiant old stranger he is never alone, because Hashem is with him; the stranger becomes his teacher.",
+  "lesson": "Fear nothing and no one but Hashem; one who knows Hashem is with him is never alone.",
+  "keywords": [
+   "storyteller",
+   "government official",
+   "decrees",
+   "tailor",
+   "cave",
+   "forest",
+   "orphan",
+   "old stranger",
+   "mailbox",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 343,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1988-08-30",
+   "hebrew": "17 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight is Chai Elul' on a Tuesday night: the eve of 18 Elul, Tuesday 30 August 1988; matches the weekly estimate."
+  },
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 6
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The young Baal Shem Tov is orphaned and recalls his father's deathbed words.",
+    "at_sec": 1170
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A feared government official issues harsh decrees against the Jews.",
+    "at_sec": 383
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A class of Shema guests and a letter writer are named on air.",
+    "at_sec": 793
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Reb Yitzchak, the wealthy merchant",
+   "Alex, the feared official",
+   "Reb Shimon the tailor",
+   "little Yisroelik",
+   "the old stranger in the cave"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "calendar",
+   "emunah_bitachon",
+   "torah_study"
+  ],
+  "midos": [
+   "courage",
+   "yiras_shamayim",
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [
+   "chai_elul",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 100,
+   "type": "talk",
+   "title": "Elul: Hashem Smiles at Everyone",
+   "summary": "Since the King in the field smiles at us, we answer with simcha.",
+   "calendar": [
+    "elul"
+   ]
+  },
+  {
+   "start_sec": 100,
+   "end_sec": 240,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 240,
+   "end_sec": 590,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 6",
+   "summary": "Rabbi Yehuda's story: the Baal Shem Tov sends him to demand a meeting with a feared official.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 6
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 858,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 858,
+   "end_sec": 1015,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A young listener writes the Shema from memory and asks to join Tzivos Hashem."
+  },
+  {
+   "start_sec": 1015,
+   "end_sec": 1110,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1110,
+   "end_sec": 1765,
+   "type": "story",
+   "title": "Chai Elul: Little Yisroelik in the Cave",
+   "summary": "The orphaned young Baal Shem Tov, who fears only Hashem, finds a holy teacher in a forest cave.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "calendar": [
+    "chai_elul"
+   ]
+  },
+  {
+   "start_sec": 1765,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "2673cb25a1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 342 ch. 5 and ep 343 ch. 6 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "2673cb25a1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "ep 343 ch. 6 continues 'The Storyteller' (1988): ep 342 ch. 5."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "9888017ef7",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 343 ch. 6 and ep 344 ch. 7 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "46049ff3d0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Three Weeks: The Three Empty Walls, the Western Wall and 'He Is Watching'' (Stories, 21:27-27:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "b41bd58798",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 44: Chapter 33, Hashem Is Everywhere and the Joy of Being Near Him' (Stories, 2:00-5:06), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sponsor ad gives a store's address and hours (period piece). No candle time this week. The Chai Elul story of the young Baal Shem Tov is complete and could be clipped on its own."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Lenczewski",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 623,
+    "end_sec": 830
+   },
+   {
+    "name": "Morah I.D., Morah Luba, Morah Dina, Morah Nechama (earlier classes, mentioned)",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 593,
+    "end_sec": 623
+   },
+   {
+    "name": "Miriam Klein",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Neshi Rosen",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Malky Schwarzberg (as heard 'Eftemalki')",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Chumy Lieber",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Chani Zilberberg",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Ita Temi (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Sara Klar (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Goldy Friedman (as heard 'Rymgoldi')",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Chani Warnstock (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Tova Dalman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Chavi Klaus",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Pumas (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Chani Malkarangowitz (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 793,
+    "end_sec": 821
+   },
+   {
+    "name": "Chani Teitelbaum",
+    "role": "mailbox_letter",
+    "group": "Brooklyn, New York",
+    "start_sec": 898,
+    "end_sec": 1015,
+    "note": "Wrote the Shema from memory; asked to join Tzivos Hashem."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Shema guest names are ASR approximations."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:20Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20343%20-%20The%20Storyteller%2C%20Chapter%206%20%28Chai%20Elul%29%20%281988-08-30%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 343 - The Storyteller, Chapter 6 (Chai Elul) (1988-08-30).mp3",
+  "size_bytes": 22094479,
+  "mime_type": "audio/mpeg"
+ }
+}

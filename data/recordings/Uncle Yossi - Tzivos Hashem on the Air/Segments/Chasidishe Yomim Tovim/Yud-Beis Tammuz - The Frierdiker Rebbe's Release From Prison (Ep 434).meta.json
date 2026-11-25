@@ -1,0 +1,166 @@
+{
+ "id": "9b749b36fd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "12 Tammuz 434",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Release From Prison (Ep 434).mp3",
+  "duration_sec": 115.564,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 434,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 434,
+   "story": "Hashem is good",
+   "topic": "3 weeks",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yud-Beis Tammuz: The Frierdiker Rebbe's Release From Prison",
+  "title_basis": "content",
+  "summary_short": "A short explanation of Yud-Beis Tammuz: in 1927 the Frierdiker Rebbe, sentenced to death for teaching Torah, was miraculously freed from prison on his birthday.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, broadcast two days before Yud-Beis Tammuz. Uncle Yossi explains that on the twelfth of Tammuz in 5687 (1927), the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, was miraculously freed from prison in Russia. He had been arrested and faced a death sentence for the 'crime' of running underground classes that taught Torah to Jewish children. After many miracles his life was spared on 12 Tammuz, which was also his birthday. As a direct result of his release, a worldwide network of yeshivos was founded where tens of thousands of students receive a Torah education. Yud-Beis Tammuz is celebrated every year with a farbrengen, where the stories of the release are told, thanks are given to Hashem, and everyone makes strong resolutions to add in learning Torah and keeping mitzvos. Uncle Yossi closes with a prayer that the merit of the tzaddik protect us and bring every blessing.",
+  "lesson": "Yud-Beis Tammuz is a day to thank Hashem for His miracles and to resolve to learn more Torah and keep more mitzvos.",
+  "keywords": [
+   "Chag HaGeulah",
+   "prison",
+   "underground classes",
+   "birthday",
+   "farbrengen",
+   "yeshivos",
+   "1927"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 434,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-07-03",
+   "hebrew": "10 Tammuz 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'This coming Thursday is Yud-Beis Tammuz': 12 Tammuz 5750 = Thu 1990-07-05 (episode 434)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe was imprisoned and faced a death sentence for teaching Torah to children.",
+    "at_sec": 1
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Soviet Russia"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "cf0dca7956",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 1585,
+   "note": "Episode 434 (filename number); clip = 1585-1701 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Thursday'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Beis%20Tammuz%20-%20The%20Frierdiker%20Rebbe%27s%20Release%20From%20Prison%20%28Ep%20434%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Release From Prison (Ep 434).mp3",
+  "size_bytes": 1387606,
+  "mime_type": "audio/mpeg"
+ }
+}

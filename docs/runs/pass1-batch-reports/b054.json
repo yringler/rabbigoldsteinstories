@@ -1,0 +1,18 @@
+{
+ "batch_id": "b054",
+ "done": ["03fe816538", "e8344bd6f4", "d4f821d23f", "d1fc7f253f", "e20bb7f477", "85fd6a2f32", "b5634c78e7", "8a7660b8a3", "a78808ef52", "2647489fa0", "4fa6f295a0", "12a3e65ec2", "d89bdb8bdc", "b3a7eb29c2", "f9544de2aa"],
+ "failed": [],
+ "notes": [
+  "Identity clue: in 85fd6a2f32 ('friendship circle', a live puppet farbrengen) the speaker is addressed as 'Rabbi Goldstein' and is asked to sing 'I Believe in Hashem' again ('Remember you sang a different song last time?'). This suggests storyteller_i_believe may be Rabbi Yosef Goldstein; tagged rabbi_yosef_goldstein there only.",
+  "Identity clue: in b5634c78e7 the weekly storyteller says 'My father told me, when he was a bochur learning at 770, in the times of the Frierdiker Rebbe' (about 9:56).",
+  "Possible duplicate: d89bdb8bdc ('Hashem Always Helps part 1') and 21a742a4c5 ('Shlomo h') are nearly word-for-word the same telling (different first line, no song in 'Shlomo h'). Added alternate_take (text_overlap, 0.8) instead of the suggested aired_again_in; pick the best copy in pass 2.",
+  "Same story pairs: e8344bd6f4 / d4f821d23f (flax merchant, same narrator, different intros) and a78808ef52 / 2647489fa0 (Gittel and the Shabbos candles, different narrators). Linked as same_story.",
+  "Two narrators in this batch: the weekly 'I believe in Hashem' storyteller, and a second read-aloud narrator ('kinderlach') in 03fe816538, 8a7660b8a3 and 2647489fa0, tagged unknown. The latter may be one person worth naming.",
+  "Series weekly_story_i_believe set by narrator and format, with no opening song, for e8344bd6f4, a78808ef52 and f9544de2aa; d4f821d23f (a class with children) left with series null.",
+  "8a7660b8a3 ('Gilgul in Wheat') has an editing leftover: an earlier passage repeats after the closing lesson (about 35:35 to end). Set trim content_end_sec 2135 and publish_with_note.",
+  "d4f821d23f: a child in the class is thanked by first name ('Kuti'); recorded in hidden with minor_named.",
+  "b5634c78e7: a 12-13-year-old boy from an English family is named by first name in a yechidus story; recorded in hidden with identifiable_living_people.",
+  "Proposed new terms: people 'Rabbi Moshe Galanti' (03fe816538), people 'Chozeh of Lublin' (f9544de2aa), calendar 'Month of Cheshvan' (e8344bd6f4).",
+  "b5634c78e7 refers to last week's talk on the Alter Rebbe's parable of the King in the field; an earlier Elul item from the same series may exist."
+ ]
+}

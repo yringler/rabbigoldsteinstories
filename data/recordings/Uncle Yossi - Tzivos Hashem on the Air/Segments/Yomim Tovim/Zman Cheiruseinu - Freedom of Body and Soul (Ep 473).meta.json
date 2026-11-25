@@ -1,0 +1,164 @@
+{
+ "id": "32e631c050",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Zman Cheiruseinu 473",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zman Cheiruseinu - Freedom of Body and Soul (Ep 473).mp3",
+  "duration_sec": 128.355,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 473,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 473,
+   "story": "The cup of Eliyahu Hanovie",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Zman Cheiruseinu: Freedom of Body and Soul",
+  "title_basis": "content",
+  "summary_short": "A Chol HaMoed Pesach thought: leaving Egypt freed our bodies, but only receiving the Torah freed our souls, and we pray for a complete redemption of both.",
+  "summary_long": "A short Chol HaMoed Pesach talk from the Tzivos Hashem radio show. Uncle Yossi explains that when Hashem took the Jewish people out of Egypt, it freed their bodies from slavery, but the freedom was complete only 49 days later, when they received the Torah at Har Sinai and their souls were freed as well. In the same way today, as we celebrate Pesach, we ask Hashem to show His outstretched arm once more and free us from this final exile. By dedicating ourselves to learning Torah, we merit a spiritual redemption too, so that the Geulah will be complete for body and soul. The talk ends with the words said at the close of the Seder: next year in Yerushalayim.",
+  "lesson": "True freedom means freedom for the soul as well as the body, and it comes through the Torah.",
+  "keywords": [
+   "freedom",
+   "Egypt",
+   "Har Sinai",
+   "body and soul",
+   "exile",
+   "Next Year in Yerushalayim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 473,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-02",
+   "hebrew": "18 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Filed as from episode 473 (Chol HaMoed Pesach 5751); the same talk also aired in episodes 272 and 374 in earlier years."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "torah_study"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Text matches episode 374 slightly better than 473; it may have been cut from the earlier airing."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:19:04Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "1d9341de33",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "Also aired in episode 272."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8fa0b3541e",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 374."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "cab583e2b7",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 374."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "f891b04599",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 46,
+   "note": "Episode 473 (filename number); clip = 46-174 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Zman%20Cheiruseinu%20-%20Freedom%20of%20Body%20and%20Soul%20%28Ep%20473%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zman Cheiruseinu - Freedom of Body and Soul (Ep 473).mp3",
+  "size_bytes": 1541202,
+  "mime_type": "audio/mpeg"
+ }
+}

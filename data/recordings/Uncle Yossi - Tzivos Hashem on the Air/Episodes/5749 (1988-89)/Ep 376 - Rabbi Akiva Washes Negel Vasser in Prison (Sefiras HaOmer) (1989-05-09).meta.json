@@ -1,0 +1,294 @@
+{
+ "id": "23e24d9359",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "376 05-09-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 376 - Rabbi Akiva Washes Negel Vasser in Prison (Sefiras HaOmer) (1989-05-09).mp3",
+  "duration_sec": 1715.476,
+  "filename_facts": {
+   "episode_number": 376,
+   "date_in_filename": "1989-05-09",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 376,
+   "story": "",
+   "topic": "עקיבא נט\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 376: Rabbi Akiva Washes Negel Vasser in Prison (Sefiras HaOmer)",
+  "title_basis": "content",
+  "summary_short": "A Sefiras HaOmer show on achdus: why there is no music during Sefirah, why water is a precious gift, and how Rabbi Akiva's negel vasser in prison won his freedom.",
+  "summary_long": "Broadcast on 4 Iyar 5749, during Sefiras HaOmer. Uncle Yossi invites children to join Tzivos Hashem and explains that Torah and mitzvos are the secret weapons that defeat the yetzer hara. He explains why the show has no music during Sefirah: Rabbi Akiva's students died in a plague because they did not respect one another, so these days call for achdus and Ahavas Yisroel. A boy from Staten Island leads the Shema. Before the story, a short talk explains how Hashem placed the sun at just the right distance so water neither boils nor freezes, and how water purifies, which is why we wash negel vasser each morning. In the story, Rabbi Akiva is jailed for teaching Torah and left without water for three days; when a jug finally comes, he uses it to wash his hands and make a brachah. The amazed ruler frees him and makes him an advisor. Uncle Yossi closes with Rabbi Akiva's teaching that loving your fellow Jew is a great rule of the Torah and leads to loving Hashem, and an invitation to write to the mailbox.",
+  "lesson": "Keep Hashem's mitzvos with full faith even when it is hard, and strengthen achdus by loving every Jew, because Ahavas Yisroel leads to Ahavas Hashem.",
+  "keywords": [
+   "Rabbi Akiva's students",
+   "plague",
+   "prison",
+   "jug of water",
+   "ruler",
+   "sun",
+   "water",
+   "ID card",
+   "Studio 604",
+   "mailbox"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 376,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-05-09",
+   "hebrew": "4 Iyar 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Sefiras HaOmer, no music played; 'every Tuesday night'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Mentions that 24,000 students of Rabbi Akiva died in a plague.",
+    "at_sec": 317
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Torah study is outlawed and Rabbi Akiva is repeatedly arrested for teaching.",
+    "at_sec": 524
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Rabbi Akiva is held in a crowded cell without food or water for three days.",
+    "at_sec": 1158
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with his town.",
+    "at_sec": 770
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "the prison wardens",
+   "the other prisoners"
+  ],
+  "topics": [
+   "sages",
+   "kindness_and_community",
+   "morning_routine",
+   "tzivos_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "mesiras_nefesh",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "ahavas_yisroel_mitzvah",
+   "brachos",
+   "shema",
+   "torah_study",
+   "sefiras_haomer"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "'Love your fellow as yourself', which Rabbi Akiva calls a great rule of the Torah."
+   },
+   {
+    "work": "gemara",
+    "note": "Cited for Rabbi Akiva's sayings and the reason his students died."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 260,
+   "type": "opening",
+   "title": "Greeting and how to join Tzivos Hashem",
+   "summary": "Children are invited to join Hashem's army and win the battle against the yetzer hara with Torah and mitzvos."
+  },
+  {
+   "start_sec": 260,
+   "end_sec": 524,
+   "type": "talk",
+   "title": "No Music During Sefirah: The Lesson of Rabbi Akiva's Students",
+   "summary": "Why the show has no music during Sefirah, and the call for achdus and Ahavas Yisroel.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 524,
+   "end_sec": 664,
+   "type": "story_intro",
+   "title": "Introducing a story about Rabbi Akiva"
+  },
+  {
+   "start_sec": 664,
+   "end_sec": 927,
+   "type": "shema_guest",
+   "title": "Shema with a boy from Staten Island"
+  },
+  {
+   "start_sec": 927,
+   "end_sec": 1130,
+   "type": "talk",
+   "title": "Water, Hashem's Precious Gift, and Negel Vasser",
+   "summary": "The sun's perfect distance keeps water from boiling or freezing, and water's power of purity is why we wash negel vasser."
+  },
+  {
+   "start_sec": 1130,
+   "end_sec": 1393,
+   "type": "story",
+   "title": "Rabbi Akiva's Negel Vasser in Prison",
+   "summary": "Given water after three days, Rabbi Akiva washes his hands instead of drinking, and the amazed ruler frees him.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1393,
+   "end_sec": 1601,
+   "type": "talk",
+   "title": "Love Your Fellow as Yourself",
+   "summary": "Rabbi Akiva's great rule of the Torah, and the Alter Rebbe's teaching that Ahavas Yisroel leads to Ahavas Hashem.",
+   "people": [
+    "rabbi_akiva",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1601,
+   "end_sec": 1686,
+   "type": "announcement",
+   "title": "Write to Uncle Yossi's mailbox"
+  },
+  {
+   "start_sec": 1686,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "09074ce59f",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.7,
+   "note": "Candidate shared segment with 'Rabbi Akiva negel vasser'; matches the story at about 1130-1393 s."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music this week (Sefirah), as stated on air. Membership offer and old addresses are period pieces. Shema guest named on air (see hidden). The water/negel vasser talk is also known as a separate Inyonei Mitzvos clip ('Netilas Yodayim')."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Rosenberg",
+    "role": "shema_guest",
+    "group": "Staten Island",
+    "start_sec": 770,
+    "end_sec": 925
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:32Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20376%20-%20Rabbi%20Akiva%20Washes%20Negel%20Vasser%20in%20Prison%20%28Sefiras%20HaOmer%29%20%281989-05-09%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 376 - Rabbi Akiva Washes Negel Vasser in Prison (Sefiras HaOmer) (1989-05-09).mp3",
+  "size_bytes": 20586701,
+  "mime_type": "audio/mpeg"
+ }
+}

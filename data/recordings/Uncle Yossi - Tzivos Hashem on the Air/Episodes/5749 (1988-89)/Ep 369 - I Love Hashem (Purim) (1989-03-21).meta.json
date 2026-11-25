@@ -1,0 +1,321 @@
+{
+ "id": "c1bc5d8609",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "369 03-21-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 369 - I Love Hashem (Purim) (1989-03-21).mp3",
+  "duration_sec": 1818.2,
+  "filename_facts": {
+   "episode_number": 369,
+   "date_in_filename": "1989-03-21",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 369,
+   "story": "I love Hashem",
+   "topic": "פורים song",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 369: I Love Hashem (Purim)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's Purim show: a helicopter full of little soldiers, Purim songs with graggers, and Beryl's lesson from a mirror with the song 'I Love Hashem'.",
+  "summary_long": "Broadcast on Purim 5749. Uncle Yossi keeps trying to open the show, but strange noises and laughter interrupt him, until a helicopter lands in Studio 604 and hundreds of little Tzivos Hashem soldiers march out singing, because on Purim it is a mitzvah to be happy. Out come the graggers for a sing-along of Purim songs with a guest singer. Before story time, Uncle Yossi recalls how Mordechai gathered thousands of Jewish children to learn Torah, and a girl from a Brooklyn girls' school leads the Shema. The story: Beryl comes home from school and asks his mother for a large mirror. His Rebbe taught, in the spirit of the Baal Shem Tov, that we can learn from everything we see: show the mirror a happy face and it smiles back, and when we serve Hashem with joy, Hashem shines back on us. We are happy because we have a neshamah, because we have the Torah and mitzvos, and because they bring us close to Hashem. Beryl then teaches the song 'I Love Hashem'. The show ends with the Shiviti Club winner in the newsletter, a listener's letter, and Purim wishes.",
+  "lesson": "Serve Hashem with joy: show a happy face and Hashem shines back on you. Love Hashem, His Torah and every Jew.",
+  "keywords": [
+   "helicopter",
+   "little soldiers",
+   "gragger",
+   "mirror",
+   "happy face",
+   "I Love Hashem song",
+   "Shiviti sign",
+   "newsletter",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "note": "Aired on Purim day (14 Adar II); the show wishes everyone a happy Purim.",
+   "gregorian": "1989-03-21",
+   "hebrew": "14 Adar 2 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename"
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 369,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest, guest singer, contest winner and letter writer named on air.",
+    "at_sec": 578
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Beryl",
+   "Beryl's mother",
+   "Beryl's Rebbe"
+  ],
+  "topics": [
+   "calendar",
+   "character",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shema",
+   "ahavas_yisroel_mitzvah",
+   "torah_study"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 100:2",
+    "note": "'Ivdu es Hashem b'simchah': serve Hashem with joy."
+   },
+   {
+    "work": "megillas_esther",
+    "note": "Cited for Mordechai gathering the children to learn Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 192,
+   "type": "opening",
+   "title": "Opening: strange noises interrupt Uncle Yossi"
+  },
+  {
+   "start_sec": 192,
+   "end_sec": 270,
+   "type": "other",
+   "title": "A helicopter of little soldiers lands in Studio 604",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 270,
+   "end_sec": 543,
+   "type": "song",
+   "title": "The soldiers' Purim song",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 543,
+   "end_sec": 861,
+   "type": "song",
+   "title": "Purim songs with graggers",
+   "summary": "Children practise with their graggers and join a guest singer for 'Chag Purim' and a second Purim song.",
+   "calendar": [
+    "purim"
+   ],
+   "linked_items": [
+    "7dcee8e50f"
+   ]
+  },
+  {
+   "start_sec": 861,
+   "end_sec": 1060,
+   "type": "shema_guest",
+   "title": "Shema with a guest from a Brooklyn girls' school",
+   "summary": "Like the children Mordechai gathered, everyone joins in calling out the Shema."
+  },
+  {
+   "start_sec": 1060,
+   "end_sec": 1597,
+   "type": "story",
+   "title": "Beryl and the Mirror",
+   "summary": "Beryl shows his mother what his Rebbe taught with a mirror: a happy face is answered with happiness, so serve Hashem with joy.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1409,
+   "end_sec": 1597,
+   "type": "song",
+   "title": "I Love Hashem"
+  },
+  {
+   "start_sec": 1597,
+   "end_sec": 1765,
+   "type": "mailbox",
+   "title": "Newsletter news: the Shiviti Club and a listener's letter"
+  },
+  {
+   "start_sec": 1765,
+   "type": "closing",
+   "title": "Closing and Purim wishes",
+   "calendar": [
+    "purim"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "7dcee8e50f",
+   "evidence": "text_overlap",
+   "confidence": 0.67,
+   "note": "'Purim Song 369' = 658-841 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5bcc2b3a95",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Helicopter skit and gragger sing-along also in episode 14 (Purim)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5120830d37",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Episode 218 has the same helicopter skit, gragger sing-along and the Beryl mirror story with 'I Love Hashem'."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "1658b83955",
+   "evidence": "text_overlap",
+   "confidence": 0.65,
+   "note": "Helicopter skit and gragger sing-along also in episode 166."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Much of the show is music and sound effects. Purim segments are re-used from earlier Purim broadcasts (episodes 14, 166, 218)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Elchanan Fogelman",
+    "role": "visitor",
+    "group": "guest singer in Studio 604",
+    "start_sec": 578,
+    "end_sec": 861
+   },
+   {
+    "name": "Nechama Dina Sperling",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 939,
+    "end_sec": 1060
+   },
+   {
+    "name": "Chani Blyer",
+    "role": "contest_winner",
+    "group": "Shiviti Club sign printed in the newsletter",
+    "start_sec": 1659,
+    "end_sec": 1708
+   },
+   {
+    "name": "Chaim Mordechai Rose",
+    "role": "mailbox_letter",
+    "group": "Bobover Yeshiva",
+    "start_sec": 1708,
+    "end_sec": 1765,
+    "note": "Asked to say the Shema on air and for a story about the Sanzer Rav, his namesake."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Guest singer's age not stated; treated as a private individual."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:08:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20369%20-%20I%20Love%20Hashem%20%28Purim%29%20%281989-03-21%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 369 - I Love Hashem (Purim) (1989-03-21).mp3",
+  "size_bytes": 21819262,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "21d1625809",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Hakhel 309",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Hakhel - A Chumash, Siddur and Tehillim With Your Own Name (Ep 309).mp3",
+  "duration_sec": 229.067,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 309,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 309,
+   "story": "The Flickering Flame",
+   "topic": "Hakhel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hakhel: A Chumash, Siddur and Tehillim With Your Own Name",
+  "title_basis": "content",
+  "summary_short": "In the Hakhel year, Uncle Yossi asks children to gather friends for mitzvos and to write their own name in their own Chumash, Siddur and Tehillim.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show in the Hakhel year 5748. Uncle Yossi explains that Hakhel means gathering together to do good things: inviting friends into your own Tzivos Hashem room to sing, tell stories, learn Chumash, say Tehillim and give tzedakah. Since Torah is our life, as we say in the evening prayers, it matters that each child has sefarim of their own. He shows how to mark them: write 'B\"H' in the corner, then the verse 'LaHashem ha'aretz umelo'ah', the whole world belongs to Hashem, and then your own name in big letters. A child who owns a sefer loves it more and takes better care of it.",
+  "lesson": "Own your sefarim: write your name in your own Chumash, Siddur and Tehillim, and gather friends to do mitzvos together.",
+  "keywords": [
+   "Chumash",
+   "Siddur",
+   "Tehillim",
+   "name in a sefer",
+   "Tzivos Hashem room",
+   "tzedakah box",
+   "gathering"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 309,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-01-05",
+   "hebrew": "15 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Date of the source episode 309 (filename 309 01-05-88)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "tzivos_hashem",
+   "torah_study",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "achdus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tehillim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Maariv: 'Ki heim chayeinu v'orech yameinu'",
+    "note": "Torah is our life and the length of our days."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8ef0e7ba46",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 50,
+   "note": "Episode 309 (filename number); clip = 50-279 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('You see, being that...'); content is self-contained."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Hakhel%20-%20A%20Chumash%2C%20Siddur%20and%20Tehillim%20With%20Your%20Own%20Name%20%28Ep%20309%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Hakhel - A Chumash, Siddur and Tehillim With Your Own Name (Ep 309).mp3",
+  "size_bytes": 2749621,
+  "mime_type": "audio/mpeg"
+ }
+}

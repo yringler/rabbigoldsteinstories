@@ -1,0 +1,280 @@
+{
+ "id": "97c9b37c1d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Treasure Island",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Treasure Island - A Mashal About Freedom and Mitzvos.mp3",
+  "duration_sec": 1111.979,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-027' stripped"
+  ]
+ },
+ "display": {
+  "title": "Treasure Island: A Mashal About Freedom and Mitzvos",
+  "title_basis": "filename",
+  "summary_short": "What true freedom means after Pesach, why we count the Omer, and a parable of a shipwrecked man made king of an island who forgets to send its treasures home.",
+  "summary_long": "Coming from Pesach, the time of our freedom, the storyteller asks what freedom really is. A flower is free when it stays rooted, a cow when it can roam, a pianist when he can play; a Jew is free when he can do the mitzvos he was created for. That is why the Exodus leads to Matan Torah, and why the Jews counted the days, climbing out of the impurity of Egypt one level at a time, as we do in Sefiras HaOmer, now in the week of Gevurah. He then tells a mashal he heard from his father: Yisroel, the only survivor of a shipwreck, is crowned king of an island and spends its treasures on towers, parks and paved streets. One day another castaway arrives, Yisroel is sent home in his old rags, and the guard will not let him near the treasury. He realizes he should have sent the riches home while he could. The lesson: this world is the treasure island, and every mitzvah, even eating and sleeping for the sake of Heaven, is treasure stored up for the days of Moshiach.",
+  "lesson": "Use every moment in this world to gather mitzvos and Torah, because they are the treasures we keep forever. True freedom is doing what Hashem created us for.",
+  "keywords": [
+   "island",
+   "shipwreck",
+   "king",
+   "crown",
+   "treasure",
+   "rags",
+   "flower",
+   "cow",
+   "freedom",
+   "counting the Omer"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Second week of Sefiras HaOmer (week of Gevurah), after Pesach",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'We're coming now from Pesach'; 'last week was the week of Chesed, this is the week of Gevurah' (about 23-29 Nissan). Year not stated."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Yisroel, the shipwrecked traveler",
+   "the islanders",
+   "the treasury guard"
+  ],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "torah_study",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "zerizus",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study",
+   "brachos",
+   "modeh_ani",
+   "negel_vasser"
+  ],
+  "calendar": [
+   "pesach",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "6:2",
+    "note": "'No one is truly free except one who is occupied with Torah' (cited as 'our Chachamim say')."
+   },
+   {
+    "work": "midrash",
+    "note": "The Jews counted the days to Matan Torah after leaving Egypt."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 503,
+   "type": "talk",
+   "title": "What is freedom? From Pesach to Shavuos",
+   "summary": "Freedom means doing what we were made for, which is why we count the Omer toward Matan Torah."
+  },
+  {
+   "start_sec": 503,
+   "end_sec": 930,
+   "type": "story",
+   "title": "Treasure Island",
+   "summary": "A shipwrecked man is made king of an island and spends its treasure there instead of sending it home."
+  },
+  {
+   "start_sec": 930,
+   "type": "talk",
+   "title": "The lesson: storing up mitzvos",
+   "summary": "This world is the island; mitzvos are the treasure we keep when Moshiach comes."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "02cbc56a2d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 181: The Island of Treasures (Erev Rosh Chodesh Tammuz)' (episode 181, 13:56-24:45), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "2c9fe91954",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 141: The Island of Treasures (Month of Elul)' (episode 141, 13:13-19:42), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "342600f363",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 283: The Island of Treasures (Yud-Beis Tammuz)' (episode 283, 18:20-27:46), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "36638e1583",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 234: The Island of Treasures' (episode 234, 15:18-23:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "7f5a576d4d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 489: The Island of Treasures (Tu B'Av)' (episode 489, 15:30-24:17), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a8cc7367fb",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 432: The Island of Treasures (Rosh Chodesh Tammuz)' (episode 432, 18:51-28:13), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a94d6c505a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 518: The Island of Treasures (Rosh Chodesh Adar Sheni)' (episode 518, 17:00-24:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "df1f475816",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 390: The Island of Treasures (Tu B'Av)' (episode 390, 15:54-24:45), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ec81364f6e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 333: The Island of Treasures (Yud-Beis Tammuz)' (episode 333, 16:58-26:31), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "fda6ea4878",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 315: The Island of Treasures (After Chof-Beis Shevat)' (episode 315, 16:07-25:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Speech runs to the very end of the file and stops mid-closing, without the usual sign-off; the lesson itself is complete."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Treasure%20Island%20-%20A%20Mashal%20About%20Freedom%20and%20Mitzvos.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Treasure Island - A Mashal About Freedom and Mitzvos.mp3",
+  "size_bytes": 13344540,
+  "mime_type": "audio/mpeg"
+ }
+}

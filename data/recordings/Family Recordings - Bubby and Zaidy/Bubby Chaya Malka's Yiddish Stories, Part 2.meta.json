@@ -1,0 +1,271 @@
+{
+ "id": "048cba0e8e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Yiddish stories/Bubby Chaya Malka etc",
+  "filename_title": "Bubby Chaya Malka 2",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Bubby Chaya Malka's Yiddish Stories, Part 2.mp3",
+  "duration_sec": 1453.949,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Bubby Chaya Malka's Yiddish Stories, Part 2",
+  "title_basis": "filename",
+  "summary_short": "The grandmother's stories continue in Yiddish: Shmuel HaNavi hears Hashem's call, Eliyahu HaNavi's blessed coin, and the family cup that brought Eliyahu to a poor family's Seder.",
+  "summary_long": "Second half of Bubby Chaya Malka's home recording of Yiddish stories for her grandchildren before Pesach. It opens in the middle of the story of Shmuel HaNavi: the boy serves Eli HaKohen in the Beis HaMikdash, hears his name called three times at night, and learns to answer 'Hineni', becoming a navi who will anoint the next king. Next, Eliyahu HaNavi offers an honest field worker seven good years. His wise wife chooses to have them now, records every mitzvah she does with the blessed coin in a big book, and when Eliyahu returns he lets them keep the coin. The last story tells of a once-rich family with nothing for Pesach. The wife refuses to sell the precious cup handed down in her family for generations. An old man visits, gives her two dollars, and the money keeps coming back to her pocket until the house is ready for Yom Tov. At the Seder Eliyahu HaNavi comes, and he blesses the home because the mother protected his cup.",
+  "lesson": "Use Hashem's blessings for mitzvos, trust that He will provide, and treasure what is holy rather than giving it up.",
+  "keywords": [
+   "grandmother",
+   "Eli HaKohen",
+   "voice at night",
+   "seven good years",
+   "blessed coin",
+   "book of mitzvos",
+   "Eliyahu's cup",
+   "two dollars",
+   "Pesach Seder",
+   "heirloom"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Yiddish stories",
+   "Bubby Chaya Malka"
+  ],
+  "content_type": "family_recording",
+  "story_type": [
+   "tanach_midrash",
+   "moral_fiction"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "bubby-chaya-malka",
+   "part_number": 2,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A family loses everything and has nothing for Pesach; the father storms out in despair before Eliyahu HaNavi helps them.",
+    "at_sec": 485
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "A grandmother's home recording for her grandchildren."
+   },
+   {
+    "flag": "minor_named",
+    "note": "The grandmother addresses two grandchildren by first name."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shmuel_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "hillel",
+    "role": "mentioned"
+   },
+   {
+    "id": "eli_hakohen",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Eli HaKohen",
+   "an honest field worker and his wise wife",
+   "a poor family and their children",
+   "an old man"
+  ],
+  "topics": [
+   "tanach",
+   "emunah_bitachon",
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "generosity",
+   "emunah",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "seder",
+   "torah_study",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 160,
+   "type": "story",
+   "title": "Shmuel HaNavi hears Hashem's call (conclusion)",
+   "summary": "Young Shmuel serves Eli HaKohen, hears his name called at night, answers 'Hineni', and becomes a navi.",
+   "people": [
+    "shmuel_hanavi"
+   ],
+   "linked_items": [
+    "65cc733f61"
+   ]
+  },
+  {
+   "start_sec": 160,
+   "end_sec": 478,
+   "type": "story",
+   "title": "Eliyahu HaNavi and the seven good years",
+   "summary": "A field worker's wife chooses seven good years now and writes down every mitzvah done with Eliyahu's blessed coin, so they may keep it.",
+   "people": [
+    "eliyahu_hanavi"
+   ],
+   "linked_items": [
+    "a690295602"
+   ]
+  },
+  {
+   "start_sec": 478,
+   "end_sec": 1446,
+   "type": "story",
+   "title": "Eliyahu HaNavi's cup",
+   "summary": "A poor mother will not sell her family's heirloom cup; an old man's two dollars keep returning until the house is ready, and Eliyahu blesses the home at the Seder.",
+   "people": [
+    "eliyahu_hanavi"
+   ],
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "f9f2974567"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'Bubby Chaya Malka yiddish stories' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "a690295602",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Contains 'Eliyohu Hanovie and the Coin' (audio fingerprint)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a06fb5b0d9",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 1 ('Bubby Chaya Malka 1') breaks off mid-sentence in the Shmuel HaNavi story that this file continues."
+  },
+  {
+   "type": "continues",
+   "target_id": "a06fb5b0d9",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Starts mid-sentence where Part 1 ends."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Starts mid-sentence in the Shmuel HaNavi story begun in Part 1. The same audio is joined with Part 1 in 6b6fec027a, so a human should decide which versions to publish."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Dvoirele",
+    "role": "family_member",
+    "start_sec": 155,
+    "note": "Granddaughter asked if she liked the story (ASR garbles the name)."
+   },
+   {
+    "name": "Rochele",
+    "role": "family_member",
+    "start_sec": 478,
+    "note": "Granddaughter asked if she liked the story (ASR garbles the name)."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Decide whether to publish this half, the joined recording 6b6fec027a, or both.",
+   "Grandchildren's names are in hidden; family recording to double-check."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:00Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Bubby%20Chaya%20Malka%27s%20Yiddish%20Stories%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Bubby Chaya Malka's Yiddish Stories, Part 2.mp3",
+  "size_bytes": 17448257,
+  "mime_type": "audio/mpeg"
+ }
+}

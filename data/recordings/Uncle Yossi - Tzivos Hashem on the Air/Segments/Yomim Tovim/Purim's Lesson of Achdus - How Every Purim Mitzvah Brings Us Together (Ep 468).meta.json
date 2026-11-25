@@ -1,0 +1,163 @@
+{
+ "id": "e910723c4a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Purim 468",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Purim's Lesson of Achdus - How Every Purim Mitzvah Brings Us Together (Ep 468).mp3",
+  "duration_sec": 361.378,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 468,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 468,
+   "story": "The napkins and toothpicks #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Purim's Lesson of Achdus: How Every Purim Mitzvah Brings Us Together",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi shows how the Megillah in shul, mishloach manos, gifts to the poor and the Purim seudah all teach the power of unity.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given just before Purim. Uncle Yossi asks what lesson we should take from Purim, and answers with the Sages' teaching: the power of achdus, unity. Each Purim mitzvah shows it. We hear the Megillah together with the whole congregation, in a shul that is called a Beis HaKnesses, a house of gathering, because Hashem loves to see His children together. Mishloach manos and matanos la'evyonim join us to friends and to the poor, and at the Purim seudah we eat, sing and retell the miracles together, inviting as many friends and relatives as we can. Uncle Yossi urges children to avoid quarrels and pursue peace like Aharon HaKohen, since we are one nation with one Torah from the One Hashem. Just as the first Purim's miracles came when the Jews were united, unity today will bring Moshiach.",
+  "lesson": "Purim teaches the power of unity: be together, share, and pursue peace, and Hashem will send Moshiach.",
+  "keywords": [
+   "unity",
+   "Megillah",
+   "shul",
+   "house of gathering",
+   "Purim seudah",
+   "gifts to the poor",
+   "peace"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 468,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-02-26",
+   "hebrew": "12 Adar 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Same as episode 468 ('tomorrow, Wednesday 27 February, is Taanis Esther')."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "aharon_hakohen",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "kindness_and_community",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "shalom"
+  ],
+  "mitzvos": [
+   "megillah",
+   "mishloach_manos",
+   "matanos_levyonim",
+   "ahavas_yisroel_mitzvah",
+   "kavod_shul"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:12",
+    "note": "Aharon loved peace and pursued peace."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "54ec7dddd9",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 1400,
+   "note": "Episode 468 (filename number); clip = 1400-1761 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Purim%27s%20Lesson%20of%20Achdus%20-%20How%20Every%20Purim%20Mitzvah%20Brings%20Us%20Together%20%28Ep%20468%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Purim's Lesson of Achdus - How Every Purim Mitzvah Brings Us Together (Ep 468).mp3",
+  "size_bytes": 4337338,
+  "mime_type": "audio/mpeg"
+ }
+}

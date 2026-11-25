@@ -1,0 +1,222 @@
+{
+ "id": "4ab732d2b6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Slavita printer B",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Slavita Printer, Part 2.mp3",
+  "duration_sec": 811.7,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "B",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Slavita Printer, Part 2",
+  "title_basis": "filename",
+  "summary_short": "The minister turns out to be an orphan whom the kind melamed once freed from a cage of shame. He grants the printing permit, and the press later prints the first Tanya.",
+  "summary_long": "After the song 'I believe in Hashem', the storyteller recaps part one: the Alter Rebbe sent Rabbi Moshe to bring Reb Yisrael the melamed to Vilna for a printing permit, and a minister in the park asked to meet Reb Yisrael. At the hotel the minister greets him warmly, knows he was born in Shklov, and tells a story. Over twenty years earlier an orphan boy in Shklov fell in with bad company and was locked in the 'cage of shame' by the shul, where people mocked him. A kind man secretly opened the cage. The boy fled to Petersburg, left Judaism, studied and rose to become Minister of Education. That kind man was Reb Yisrael. The minister calls their meeting a coincidence; Reb Yisrael explains that it is hashgachah pratis and tells him how the Rebbe sent him to Vilna. Amazed at the Rebbe, the minister promises the permit and says his hatred of Jews has vanished. Reb Yisrael turns down a government job in Petersburg, preferring to teach children, but accepts a check for 2,000 rubles. The friends celebrate the miracle. Years later the Alter Rebbe printed the first Tanya in that Slavita press.",
+  "lesson": "There are no coincidences: every step is planned by Hashem. Following the Rebbe's instructions brings miracles, and one act of kindness can change a life.",
+  "keywords": [
+   "printing permit",
+   "minister",
+   "cage of shame",
+   "orphan",
+   "hotel",
+   "check",
+   "rubles",
+   "melamed",
+   "Tanya"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "slavita-printer",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "forced_conversion",
+    "severity": "mild",
+    "note": "An orphan boy who ran away is persuaded by a priest to convert; told briefly."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "An orphan is publicly shamed in a cage and spat at before being freed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Yisrael the melamed",
+   "Rabbi Moshe of Slavita",
+   "the Minister of Education",
+   "the orphan boy of Shklov"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "hiskashrus",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "chesed",
+   "kabbalas_ol",
+   "contentment",
+   "emunah"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Shklov",
+   "Mogilev",
+   "Vilna",
+   "Petersburg",
+   "Slavita"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 160,
+   "type": "story_intro",
+   "title": "Recap of part one"
+  },
+  {
+   "start_sec": 160,
+   "end_sec": 790,
+   "type": "story_chapter",
+   "title": "The Slavita Printer, Part 2",
+   "summary": "The minister reveals he is the boy Reb Yisrael once freed, and grants the printing permit.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "the-slavita-printer",
+   "chapter": 2
+  },
+  {
+   "start_sec": 790,
+   "type": "other",
+   "title": "After the story",
+   "summary": "Brief chatter with listeners after the class."
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "21a6215892",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Continues 'Slavita printer a' (part 1), which it recaps."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "21a6215892",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 1: 'Slavita printer a'."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "5567ce3c30",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "Alternate take / cut of the same material."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told to a live class; a few seconds of chatter at the end. Cleaner than the other telling of part 2 ('Slavita printer 2'), which has interruptions."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:18:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Slavita%20Printer%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Slavita Printer, Part 2.mp3",
+  "size_bytes": 9741199,
+  "mime_type": "audio/mpeg"
+ }
+}

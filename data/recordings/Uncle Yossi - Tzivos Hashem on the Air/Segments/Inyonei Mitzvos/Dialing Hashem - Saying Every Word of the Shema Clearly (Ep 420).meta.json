@@ -1,0 +1,156 @@
+{
+ "id": "9009cfad88",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Shema 420",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Dialing Hashem - Saying Every Word of the Shema Clearly (Ep 420).mp3",
+  "duration_sec": 296.864,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 420,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 420,
+   "story": "The mystery of Toras Emes #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Dialing Hashem: Saying Every Word of the Shema Clearly",
+  "title_basis": "content",
+  "summary_short": "Davening is like a telephone call: say each word of the Shema clearly to 'dial the right number', and Hashem always answers.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, continuing a series on reciting the Shema. Uncle Yossi reviews last week's words, Kabbalas ol malchus Shamayim: accepting Hashem as our King and taking on the yoke of Torah and mitzvos, like the yoke on a horse that lets it pull a wagon. Then he teaches a new rule, in the spirit of the Baal Shem Tov's teaching that we can learn how to serve Hashem from everything we see and hear. Davening is like using a telephone. Holding the phone is not enough; you have to speak, and you have to dial the correct number, or you reach the wrong person. In the same way, when we say the Shema we must pronounce every word carefully and clearly. Then our tefillah reaches Hashem, whose line is never busy, because He listens to everyone's prayer, and His brachah reaches us in full.",
+  "lesson": "Say every word of the Shema and your tefillos clearly and carefully, and Hashem always listens.",
+  "keywords": [
+   "telephone",
+   "wrong number",
+   "busy signal",
+   "pronunciation",
+   "yoke",
+   "Shema",
+   "tefillah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 420,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-03-13",
+   "hebrew": "16 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "From the full episode 420, aired the Tuesday right after Purim 5750."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "shema",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "The Baal Shem Tov: learn a lesson in serving Hashem from everything you see and hear"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b70ca9e7ce",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 604,
+   "note": "Episode 420 (filename number); clip = 604-901 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins mid-sentence ('...Krias Shema, the recital of the Shema')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Dialing%20Hashem%20-%20Saying%20Every%20Word%20of%20the%20Shema%20Clearly%20%28Ep%20420%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Dialing Hashem - Saying Every Word of the Shema Clearly (Ep 420).mp3",
+  "size_bytes": 3563386,
+  "mime_type": "audio/mpeg"
+ }
+}

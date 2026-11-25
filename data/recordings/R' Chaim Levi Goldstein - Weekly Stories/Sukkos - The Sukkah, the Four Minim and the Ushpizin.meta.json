@@ -1,0 +1,336 @@
+{
+ "id": "32ef7d25e6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Succos unedited 5750",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Sukkos - The Sukkah, the Four Minim and the Ushpizin.mp3",
+  "duration_sec": 2704.98,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "unedited"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Sukkos: The Sukkah, the Four Minim and the Ushpizin",
+  "title_basis": "content",
+  "summary_short": "A lively class for children on Sukkos: why we sit in the sukkah, how to build a kosher one, how to choose and bind the four minim, and who the Ushpizin are.",
+  "summary_long": "After the song 'I believe in Hashem', a class for children preparing for Sukkos. The teacher explains that the sukkah recalls the seven Clouds of Glory that surrounded the Jewish people in the desert, and why the mitzvah comes in Tishrei rather than at Pesach time: so everyone can see we do it only because Hashem commanded it. He goes through the laws of a kosher sukkah: under the open sky, at least three walls, the right height, schach from things that grow and were never used for something else, the table inside, and only on your own property. Instead of decorations, the Chabad custom is to beautify the sukkah with good behavior, since it is the one mitzvah that surrounds the whole body, together with the mikveh, as the children guess. Turning to the four minim, he explains the verse and tells how Rabban Gamliel, who paid a thousand zuz for his set, gave it as a gift to each sage in turn on a boat. The esrog, lulav, hadassim and aravos stand for four kinds of Jews united together. He shows what makes each kosher, how to bind the lulav, the first-night brachos in the sukkah, and introduces the Ushpizin and the Chassidic Ushpizin. The recording ends mid-explanation.",
+  "lesson": "We sit in the sukkah only because Hashem commanded it; the four minim teach that every kind of Jew belongs together, and the best decoration for a sukkah is behaving well inside it.",
+  "keywords": [
+   "sukkah",
+   "schach",
+   "Clouds of Glory",
+   "esrog",
+   "lulav",
+   "hadassim",
+   "aravos",
+   "boat",
+   "thousand zuz",
+   "Ushpizin",
+   "sukkah walls",
+   "mikveh"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-10",
+   "hebrew": "Tishrei 5750, before Sukkos",
+   "hebrew_year": 5750,
+   "precision": "month",
+   "basis": "filename",
+   "note": "'5750' in the filename; taught as preparation for Sukkos (Sukkos 5750 began 14 Oct 1989)."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabban_gamliel",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_yehoshua_ben_chanania",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "appears"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yosef_hatzaddik",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Elazar ben Azaryah"
+  ],
+  "topics": [
+   "halachah",
+   "calendar",
+   "sages"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "sukkah",
+   "arba_minim",
+   "brachos",
+   "kiddush"
+  ],
+  "calendar": [
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 23:40-43",
+    "note": "'Basukkos teishvu shivas yamim' and the verse of the four minim."
+   },
+   {
+    "work": "gemara",
+    "note": "Rabban Gamliel's thousand-zuz esrog and the lulav given as a gift on the boat."
+   },
+   {
+    "work": "midrash",
+    "note": "'Our Sages tell us' the four minim are like four kinds of Jews."
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "A table outside the sukkah counts as eating outside."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Why Lubavitch does not decorate the sukkah; the Rebbe's custom of looking at the schach during the brachah."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The Frierdiker Rebbe's talk listing the Chassidic Ushpizin (as cited by the Rebbe)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 370,
+   "type": "talk",
+   "title": "Why we sit in the sukkah: the Clouds of Glory",
+   "summary": "Seven clouds protected the Jewish people in the desert, and the sukkah recalls them."
+  },
+  {
+   "start_sec": 370,
+   "end_sec": 505,
+   "type": "talk",
+   "title": "Why Sukkos is in Tishrei",
+   "summary": "In the chilly autumn everyone can see we sit in the sukkah only for the mitzvah."
+  },
+  {
+   "start_sec": 505,
+   "end_sec": 1168,
+   "type": "halachah",
+   "title": "How to build a kosher sukkah",
+   "summary": "Open sky, walls, height, kosher schach, the table inside and building on your own property."
+  },
+  {
+   "start_sec": 1168,
+   "end_sec": 1380,
+   "type": "qa",
+   "title": "A mitzvah that surrounds you",
+   "summary": "Why Lubavitch does not decorate the sukkah, and the children guess the other mitzvah that covers the whole body."
+  },
+  {
+   "start_sec": 1380,
+   "end_sec": 1575,
+   "type": "halachah",
+   "title": "The four minim in the Torah",
+   "summary": "How the verse points to the esrog, lulav, hadassim and aravos."
+  },
+  {
+   "start_sec": 1575,
+   "end_sec": 1745,
+   "type": "story",
+   "title": "Rabban Gamliel's lulav on the boat",
+   "summary": "The sages pass one precious set of four minim to each other as a gift so each can own it.",
+   "people": [
+    "rabban_gamliel",
+    "rabbi_yehoshua_ben_chanania",
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1745,
+   "end_sec": 2085,
+   "type": "talk",
+   "title": "Four kinds of Jews",
+   "summary": "Taste and smell stand for Torah and good deeds, and all Jews are bound together."
+  },
+  {
+   "start_sec": 2085,
+   "end_sec": 2370,
+   "type": "halachah",
+   "title": "Checking the four minim",
+   "summary": "What makes an esrog, lulav, hadassim and aravos kosher."
+  },
+  {
+   "start_sec": 2370,
+   "end_sec": 2570,
+   "type": "halachah",
+   "title": "Binding the lulav and the first night in the sukkah",
+   "summary": "The lulav rings, extra hadassim, Kiddush, Leishev BaSukkah and Shehecheyanu."
+  },
+  {
+   "start_sec": 2570,
+   "type": "talk",
+   "title": "The Ushpizin",
+   "summary": "The seven guests and the Chassidic Ushpizin who visit the sukkah each night."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "fa63d3c763",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.97,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Unedited class; the teacher refers to pictures the children are looking at. Fuller copy than fa63d3c763 (has the opening song and the full Ushpizin list). Ends mid-explanation of the Ushpizin."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:40:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "The phrase 'the Rebbe Melech HaMoshiach' is more typical of years after 5750; confirm the year."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Sukkos%20-%20The%20Sukkah%2C%20the%20Four%20Minim%20and%20the%20Ushpizin.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Sukkos - The Sukkah, the Four Minim and the Ushpizin.mp3",
+  "size_bytes": 32460523,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "id": "a690295602",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש",
+  "filename_title": "Eliyohu Hanovie and the Coin",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Eliyahu HaNavi and the Blessed Coin - Seven Good Years.mp3",
+  "duration_sec": 306.422,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Eliyahu HaNavi and the Blessed Coin: Seven Good Years",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish story told by a grandmother: Eliyahu HaNavi offers an honest field worker seven good years, and his wise wife uses the blessed coin for mitzvos and writes each one down.",
+  "summary_long": "Told in Yiddish by a grandmother to her grandchildren. Eliyahu HaNavi comes to an honest Jew working in the field and tells him he is to have seven good years: does he want them now or at the end of his life? The man will not decide without his wife, and she chooses to have them now. Eliyahu gives him a blessed coin, and with it the family keeps buying and growing richer. The wife, clever and good, buys a big book and writes down every mitzvah she does with the money. When the seven years are over Eliyahu returns for the coin. The husband again will not act without his wife, who sends the coin back together with the book, saying that if Eliyahu can find someone who will do more mitzvos with it, he should give it to them. Eliyahu reads of all the tzedakah she gave to yeshivos, shuls, poor children and brides, and declares that no one will do more good with it, so the blessed coin stays with them until Moshiach comes.",
+  "lesson": "Wealth is a gift from Hashem to be used for mitzvos; when we share it, Hashem keeps blessing us.",
+  "keywords": [
+   "seven good years",
+   "blessed coin",
+   "field worker",
+   "wise wife",
+   "book of mitzvos",
+   "yeshivos",
+   "poor children",
+   "brides"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Excerpt of a grandmother's home recording for her grandchildren; no names in this excerpt."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "eliyahu_hanavi",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "an honest field worker",
+   "his wise wife"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "generosity",
+   "shalom",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_kallah",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "048cba0e8e",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Excerpt of 'Bubby Chaya Malka 2' (audio fingerprint)."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Excerpt of 'Bubby Chaya Malka yiddish stories' (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "A few seconds near the end (about 4:25-4:55) are not transcribed, so part of the list of the wife's mitzvos may be lost; the ending is intact."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:15Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Eliyahu%20HaNavi%20and%20the%20Blessed%20Coin%20-%20Seven%20Good%20Years.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Eliyahu HaNavi and the Blessed Coin - Seven Good Years.mp3",
+  "size_bytes": 3678107,
+  "mime_type": "audio/mpeg"
+ }
+}

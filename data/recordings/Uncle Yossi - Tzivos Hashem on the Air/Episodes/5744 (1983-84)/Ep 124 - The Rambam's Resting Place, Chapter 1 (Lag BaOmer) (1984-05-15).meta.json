@@ -1,0 +1,317 @@
+{
+ "id": "f963e9286e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "124",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 124 - The Rambam's Resting Place, Chapter 1 (Lag BaOmer) (1984-05-15).mp3",
+  "duration_sec": 1761.06,
+  "filename_facts": {
+   "episode_number": 124,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 124,
+   "story": "The Rambam’s resting place #1",
+   "topic": "לפני ל\"ג בעומר",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 124: The Rambam's Resting Place, Chapter 1 (Lag BaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "The show before Lag BaOmer: a twelve pesukim contest, Shema with a kindergartener, the life of the Rambam and the mystery of where he would be buried, and the day of Rashbi's joy.",
+  "summary_long": "Broadcast the Tuesday before Lag BaOmer 5744. Uncle Yossi reminds listeners of the Lag BaOmer parade and the twelve pesukim signs on Eastern Parkway, and announces a contest: write in with the best time to say the twelve pesukim, such as waiting for the school bus, to win his new tape. He introduces the Rambam, explaining his name and the saying 'from Moshe to Moshe there arose none like Moshe'. A kindergartener recites the Shema. The story traces the Rambam's life: born in Cordova on Erev Pesach, forced to flee as a boy, wandering for years, saved from a storm at sea on the way to Eretz Yisroel, praying at the Kosel and in Chevron, and finally settling in Egypt, where he wrote his famous works. Before he passed away he asked to be buried in Eretz Yisroel without saying where, and the people of Yerushalayim, Chevron and Meron each claimed the honor. The chapter ends as a mysterious sign is about to reveal the answer. A listener's letter, a talk on Rabbi Shimon bar Yochai and Lag BaOmer, parade bus details and the new tape close the show.",
+  "lesson": "The Rambam held on to Torah and mitzvos through years of wandering; the answer to where he would rest comes next week.",
+  "keywords": [
+   "Rambam",
+   "Cordova",
+   "storm at sea",
+   "Akko",
+   "Egypt",
+   "burial place",
+   "twelve pesukim contest",
+   "Lag BaOmer parade",
+   "Meron",
+   "Rashbi"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 124,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1984-05-15",
+   "hebrew": "13 Iyar 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'May the 20th, this coming Sunday' is Lag BaOmer 5744; the Tuesday before."
+  },
+  "serial": {
+   "story_key": "the-rambams-resting-place",
+   "story_title": "The Rambam's Resting Place",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Rambam's family must flee Cordova and wander for years because they were not allowed to live as Jews.",
+    "at_sec": 640
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The Rambam's passing and the question of his burial.",
+    "at_sec": 870
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest (age and school) and a letter writer named in full.",
+    "at_sec": 419
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "appears"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Rambam's students",
+   "representatives of Yerushalayim, Chevron and Meron"
+  ],
+  "topics": [
+   "great_rabbis",
+   "jewish_history",
+   "beis_hamikdash_eretz_yisroel",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "shema",
+   "loving_eretz_yisroel"
+  ],
+  "calendar": [
+   "lag_baomer",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Cordova",
+   "Morocco",
+   "Akko",
+   "Yerushalayim",
+   "Chevron",
+   "Alexandria",
+   "Cairo",
+   "Meron"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 26,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 26,
+   "end_sec": 299,
+   "type": "announcement",
+   "title": "The twelve pesukim contest and the Lag BaOmer parade",
+   "summary": "Say the twelve pesukim often, such as while waiting for the bus; write in with the best time to say them and win a tape."
+  },
+  {
+   "start_sec": 299,
+   "end_sec": 390,
+   "type": "story_intro",
+   "title": "Who was the Rambam?",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 390,
+   "end_sec": 585,
+   "type": "shema_guest",
+   "title": "Shema with a kindergartener"
+  },
+  {
+   "start_sec": 585,
+   "end_sec": 1080,
+   "type": "story_chapter",
+   "title": "The Rambam's Resting Place, Chapter 1",
+   "summary": "The Rambam's life of wandering, his works, and the dispute over where in Eretz Yisroel he should be buried.",
+   "people": [
+    "rambam"
+   ],
+   "story_key": "the-rambams-resting-place",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1080,
+   "end_sec": 1345,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: how to join Tzivos Hashem"
+  },
+  {
+   "start_sec": 1345,
+   "end_sec": 1430,
+   "type": "talk",
+   "title": "Lag BaOmer: the day of Rabbi Shimon bar Yochai's joy",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ],
+   "linked_items": [
+    "ac377dc16d"
+   ]
+  },
+  {
+   "start_sec": 1430,
+   "end_sec": 1665,
+   "type": "announcement",
+   "title": "Lag BaOmer parade buses",
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 1665,
+   "end_sec": 1725,
+   "type": "announcement",
+   "title": "New Story Time with Uncle Yossi tape"
+  },
+  {
+   "start_sec": 1725,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "ac377dc16d",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Lag B'Omer 124' = 1346-1429 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "5af071df38",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Rambam's Resting Place' (1984): ep 124 ch. 1 and ep 125 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music or sponsors (Sefirah). Long 1984 list of bus pick-up points and phone numbers for the parade, plus a contest and tape offer."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Eliezer Zalmanov",
+    "role": "shema_guest",
+    "group": "Ohalei Torah kindergarten; age 4 1/2",
+    "start_sec": 419,
+    "end_sec": 585
+   },
+   {
+    "name": "Malky Janklowitz",
+    "role": "mailbox_letter",
+    "group": "Brooklyn",
+    "start_sec": 1144,
+    "end_sec": 1345,
+    "note": "Asked how to join Tzivos Hashem; included her phone number in the letter (not read on air)."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:34Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20124%20-%20The%20Rambam%27s%20Resting%20Place%2C%20Chapter%201%20%28Lag%20BaOmer%29%20%281984-05-15%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 124 - The Rambam's Resting Place, Chapter 1 (Lag BaOmer) (1984-05-15).mp3",
+  "size_bytes": 21133696,
+  "mime_type": "audio/mpeg"
+ }
+}

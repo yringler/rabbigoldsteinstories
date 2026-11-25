@@ -1,0 +1,370 @@
+{
+ "id": "845dab4795",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "334 06-28-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 334 - The Rambam's Grave (Yud-Gimmel Tammuz) (1988-06-28).mp3",
+  "duration_sec": 1822.996,
+  "filename_facts": {
+   "episode_number": 334,
+   "date_in_filename": "1988-06-28",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 334,
+   "story": "The Rambam’s Grave",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 334: The Rambam's Grave (Yud-Gimmel Tammuz)",
+  "title_basis": "master_catalog",
+  "summary_short": "The day after Yud-Beis Tammuz: the Frierdiker Rebbe's mesiras nefesh for children, a Geulah march, a first-grade class in Studio 604, and how a camel led the way to the Rambam's resting place.",
+  "summary_long": "Broadcast on 13 Tammuz 5748, the day after Yud-Beis Tammuz. Uncle Yossi recalls the Frierdiker Rebbe's release from prison and his readiness to give his life so that Jewish children could learn Torah. The Hakochainik march is a song of Geulah, 'Ki v'simchah seitzei'u', with Daniel's prophecy that heavenly clouds will carry the Jewish people to Eretz Yisroel. Story time begins: the Rambam passed away in Egypt asking to be buried in Eretz Yisroel without saying where, and the people of Yerushalayim, Chevron and Meron each claim the honor. In the desert, robbers attack the funeral caravan. A first-grade class from a Brooklyn yeshiva then says the Shema, reads the opening verses of Bereishis, and answers why the generation of the Tower of Bavel was punished less than the generation of the Flood: they had achdus. The story concludes: robbers who approach the coffin fall lifeless, the rest flee, and the camel, as if led by an unseen hand, walks to Teveria and kneels at the spot where the Rambam is buried. The show ends with a note that Shiva Asar B'Tammuz begins the Three Weeks and that this year both fasts are postponed to Sunday.",
+  "lesson": "Hashem, the Guardian of Israel, guides and protects His tzaddikim; and Hashem loves achdus, unity among Jews.",
+  "keywords": [
+   "Rambam",
+   "camel",
+   "coffin",
+   "caravan",
+   "robbers",
+   "desert",
+   "Teveria",
+   "Tower of Bavel",
+   "heavenly clouds",
+   "Studio 604",
+   "Three Weeks"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 334,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-06-28",
+   "hebrew": "13 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'yesterday was Yud-Beis Tammuz'; Shiva Asar B'Tammuz 'this coming Shabbos'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Armed robbers attack a funeral caravan in the desert; the people flee.",
+    "at_sec": 600
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story begins with the Rambam's passing; two robbers who approach his coffin fall dead.",
+    "at_sec": 1325
+   },
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Briefly explains that the Three Weeks recall the fall of Yerushalayim and the destruction of the Beis HaMikdash.",
+    "at_sec": 1700
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A first-grade pupil is named in full in the Shema segment.",
+    "at_sec": 1247
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "noach",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Rambam's students",
+   "the representatives of Yerushalayim, Chevron and Meron",
+   "the robbers and their leader",
+   "the camel"
+  ],
+  "topics": [
+   "great_rabbis",
+   "miracles",
+   "chabad_rebbeim",
+   "moshiach_geulah",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "mesiras_nefesh",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "shema",
+   "torah_study",
+   "fast_days",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "yud_beis_tammuz",
+   "shiva_asar_btammuz",
+   "three_weeks",
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "'With the clouds of heaven'; cited as the prophet Daniel."
+   },
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+   },
+   {
+    "work": "midrash",
+    "ref": "Generation of the Dispersion vs. the Flood",
+    "note": "Cited as 'our Chachamim': the Tower of Bavel builders were spared destruction because they had achdus."
+   }
+  ],
+  "places": [
+   "Mitzrayim",
+   "Yerushalayim",
+   "Har HaZeisim",
+   "Chevron",
+   "Meron",
+   "Teveria"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 22,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 22,
+   "end_sec": 130,
+   "type": "talk",
+   "title": "The Day After Yud-Beis Tammuz",
+   "summary": "The Frierdiker Rebbe's release, and his readiness to give his life so children could learn Torah.",
+   "people": [
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "yud_beis_tammuz"
+   ],
+   "linked_items": [
+    "fe70f6bcaf",
+    "59d09779c7"
+   ]
+  },
+  {
+   "start_sec": 130,
+   "end_sec": 206,
+   "type": "talk",
+   "title": "A Song of Geulah: Clouds to Eretz Yisroel",
+   "people": [
+    "daniel"
+   ],
+   "linked_items": [
+    "59d09779c7"
+   ]
+  },
+  {
+   "start_sec": 206,
+   "end_sec": 355,
+   "type": "song",
+   "title": "Hakochainik March: Ki V'simchah Seitzei'u"
+  },
+  {
+   "start_sec": 355,
+   "end_sec": 770,
+   "type": "story",
+   "title": "The Rambam's Grave: The Journey Begins",
+   "summary": "The Rambam passes away in Egypt; cities argue over where to bury him, and robbers attack the caravan in the desert.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 770,
+   "end_sec": 1295,
+   "type": "shema_guest",
+   "title": "Shema and Chumash with a first-grade class"
+  },
+  {
+   "start_sec": 1080,
+   "end_sec": 1277,
+   "type": "qa",
+   "title": "Why was the Tower of Bavel generation spared?",
+   "summary": "A pupil answers that they had achdus, and Uncle Yossi draws the lesson of Ahavas Yisroel."
+  },
+  {
+   "start_sec": 1295,
+   "end_sec": 1700,
+   "type": "story",
+   "title": "The Rambam's Grave: The Camel Leads the Way",
+   "summary": "Robbers who approach the coffin fall lifeless, and the camel walks on its own to the Rambam's resting place in Teveria.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 1700,
+   "end_sec": 1772,
+   "type": "talk",
+   "title": "Shiva Asar B'Tammuz and the Three Weeks",
+   "calendar": [
+    "shiva_asar_btammuz",
+    "three_weeks"
+   ],
+   "linked_items": [
+    "f6e34b6dff"
+   ]
+  },
+  {
+   "start_sec": 1772,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The march and the class's Chumash reading are untranscribed. Fast-day postponement note is specific to 5748."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rabbi Levi Goldstein",
+    "role": "visitor",
+    "group": "Yeshiva Ohalei Torah, Kitah Aleph (teacher of the visiting class)",
+    "start_sec": 798,
+    "end_sec": 1295,
+    "note": "Introduced as an educator and author of the Chumash primer 'Ben Chamesh LaMikra'."
+   },
+   {
+    "name": "Moshe Menachem Mendel Lieblich",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah, Kitah Aleph",
+    "start_sec": 1247,
+    "end_sec": 1277
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "The visiting class's teacher is introduced as a well-known published educator; decide whether his name needs to stay private."
+  ]
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "fe70f6bcaf",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "note": "'Yud Beis Tammuz 334' = 22-126 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "f6e34b6dff",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "note": "'Three Weeks 334' = 1683-1762 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "59d09779c7",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "'12 Tammuz 334' = 22-206 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20334%20-%20The%20Rambam%27s%20Grave%20%28Yud-Gimmel%20Tammuz%29%20%281988-06-28%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 334 - The Rambam's Grave (Yud-Gimmel Tammuz) (1988-06-28).mp3",
+  "size_bytes": 21876941,
+  "mime_type": "audio/mpeg"
+ }
+}

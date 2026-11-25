@@ -1,0 +1,157 @@
+{
+ "id": "410f43c6c5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Hilchos Purim 13",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/How to Celebrate Purim - The Four Mitzvos of the Day (Ep 013).mp3",
+  "duration_sec": 84.457,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 13,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 13,
+   "story": "The Lost Letter #3",
+   "topic": "Hilchos Purim",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "How to Celebrate Purim: The Four Mitzvos of the Day",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi's quick guide to keeping Purim properly: hearing the Megillah twice, the festive Purim meal, mishloach manos and gifts to the poor.",
+  "summary_long": "A short Purim halachah clip from the Tzivos Hashem radio show. Uncle Yossi tells children exactly what to do to celebrate Purim correctly. First, come to shul with the whole family to hear the Megillah, which is read twice, at night and again the next morning; ask your local rabbi for the times, and bring a grager for every mention of Haman. Second, take part in the Purim seudah, a festive meal in honor of the holiday. Third, send mishloach manos, gifts to one another that include at least two foods ready to eat, like cake or fruit. Fourth, give matanos la'evyonim: a few coins to at least two poor people, or into a tzedakah pushka. The clip begins mid-sentence and mentions the calendar dates for Purim 5742.",
+  "lesson": "Celebrate Purim fully: hear the Megillah twice, enjoy the Purim meal, send mishloach manos and give to the poor.",
+  "keywords": [
+   "Megillah reading",
+   "grager",
+   "Purim meal",
+   "seudah",
+   "gifts of food",
+   "cake",
+   "fruit",
+   "pushka"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 13,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-03-02",
+   "hebrew": "7 Adar 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 13; Megillah 'Monday evening, March the 8th' and 'Tuesday morning, March the 9th' = Purim 5742, the week after broadcast."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "calendar"
+  ],
+  "midos": [
+   "generosity"
+  ],
+  "mitzvos": [
+   "megillah",
+   "mishloach_manos",
+   "matanos_levyonim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "e39943b482",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 1619,
+   "note": "Episode 13 (filename number); clip = 1619-1704 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('In order to celebrate Purim correctly'). Mentions the 1982 calendar dates (March 8 and 9)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:40:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/How%20to%20Celebrate%20Purim%20-%20The%20Four%20Mitzvos%20of%20the%20Day%20%28Ep%20013%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/How to Celebrate Purim - The Four Mitzvos of the Day (Ep 013).mp3",
+  "size_bytes": 1014569,
+  "mime_type": "audio/mpeg"
+ }
+}

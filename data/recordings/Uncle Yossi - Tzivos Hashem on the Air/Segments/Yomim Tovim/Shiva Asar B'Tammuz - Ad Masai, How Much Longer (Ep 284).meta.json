@@ -1,0 +1,176 @@
+{
+ "id": "9fab00623c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shiva-asar B'Tammuz 284",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - Ad Masai, How Much Longer (Ep 284).mp3",
+  "duration_sec": 288.788,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 284,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 284,
+   "story": "The Rambam’s Grave",
+   "topic": "Shiva-asar B’Tammuz",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shiva Asar B'Tammuz: Ad Masai, How Much Longer?",
+  "title_basis": "content",
+  "summary_short": "Why Shiva Asar B'Tammuz begins the Three Weeks, and why, while we ask Hashem 'how much longer?', Hashem is also waiting for us to be ready for Moshiach.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, given on Shiva Asar B'Tammuz itself. Uncle Yossi explains why the program began without its usual drums and singing: today starts the Three Weeks, the days 'between the straits'. He links the three sad dates: on Asarah B'Teves the enemy besieged Yerushalayim and cut off its food and water; on the seventeenth of Tammuz they broke through its walls; and on Tisha B'Av they destroyed the Beis HaMikdash. On these days we fast and cry out to Hashem, 'Ad Masai, how much longer until the Beis HaMikdash is rebuilt?' But, he teaches, we must also ask ourselves that question, because Hashem is waiting for every Jew to be ready to welcome Moshiach wholeheartedly. By learning more Torah, doing more mitzvos and encouraging relatives and friends to do the same, we bring the day when Hashem will end the galus and rebuild the third Beis HaMikdash.",
+  "lesson": "Hashem is waiting for us too: more Torah and mitzvos make us ready for Moshiach and the rebuilt Beis HaMikdash.",
+  "keywords": [
+   "Three Weeks",
+   "fast day",
+   "Ad Masai",
+   "walls of Yerushalayim",
+   "siege",
+   "third Beis HaMikdash"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 284,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1987-07-14",
+   "hebrew": "17 Tammuz 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Shiva Asar B'Tammuz'; aired in episode 284 (filename 284 07-14-87)."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim and the destruction of the Beis HaMikdash, explained simply.",
+    "at_sec": 29
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks",
+   "asarah_bteves",
+   "tisha_bav"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "148c93c242",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "Also aired in episode 435."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "7aea3038aa",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 9,
+   "note": "Episode 284 (filename number); clip = 9-298 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "6ab892a712",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8b73ee8d02",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Text match (containment 0.76) at 10-299 s of episode 538."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens by referring to the program's usual drum-roll opening; ends before the Rambam-study announcement."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:36Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shiva%20Asar%20B%27Tammuz%20-%20Ad%20Masai%2C%20How%20Much%20Longer%20%28Ep%20284%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - Ad Masai, How Much Longer (Ep 284).mp3",
+  "size_bytes": 3466534,
+  "mime_type": "audio/mpeg"
+ }
+}

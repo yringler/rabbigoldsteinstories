@@ -1,0 +1,251 @@
+{
+ "id": "a512619974",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Rashbi and Techias Hamaysim פשיסחא",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Rabbi Shimon bar Yochai and the Child Brought Back to Life - Two Lag BaOmer Stories.mp3",
+  "duration_sec": 1078.037,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-024' stripped",
+   "mixed Hebrew/Latin name"
+  ]
+ },
+ "display": {
+  "title": "Rabbi Shimon bar Yochai and the Child Brought Back to Life: Two Lag BaOmer Stories",
+  "title_basis": "filename",
+  "summary_short": "For Lag BaOmer: why prayers at a tzaddik's resting place are special, from a story of Rabbi Simcha Bunim of Pshischa, and a child revived at Rabbi Shimon bar Yochai's tomb in Meron in 1923.",
+  "summary_long": "Before Lag BaOmer, the storyteller explains why the day is so joyous: Rabbi Shimon bar Yochai asked that his yahrzeit be a day of simcha, the Rebbe said he joins children who gather to sing and dance, and the Mitteler Rebbe celebrated it outdoors, when many childless couples were blessed. Two stories about tzaddikim's resting places follow. A teacher bringing a group of Chassidic boys to the Rebbe's Ohel tells them of a childless Chassid whose Rebbe could not bless him with children. When his wife finally expected a baby, the Rebbe learned that the Chassid had davened Mincha in a forest at the very spot where Rabbi Simcha Bunim of Pshischa once davened. So too, the teacher says, the Rebbe davened at the Ohel for forty years. The second story was recorded by an eyewitness in Meron on Lag BaOmer 1923. A mother who had brought her only son for his upsherin found him lifeless on Shabbos, and the doctors ordered a quarantine. She laid him by Rabbi Shimon's tomb and pleaded, and moments later he called out for water. Everyone said the brachah 'mechayeh meisim'.",
+  "lesson": "Lag BaOmer is a day of joy and great blessing, and a place where a tzaddik davened or is buried is a special place to pray.",
+  "keywords": [
+   "Meron",
+   "upsherin",
+   "Ohel",
+   "quarantine",
+   "childless couple",
+   "forest",
+   "Mincha",
+   "revival",
+   "1923"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_collection",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2022-05",
+   "hebrew": "Week before Lag BaOmer 5782",
+   "hebrew_year": 5782,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "1923 was '99 years ago' and 'this year Lag BaOmer comes on Thursday': 18 Iyar 5782 = Thursday 2022-05-19."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A three-year-old suddenly falls ill and stops breathing; he is miraculously brought back to life."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_simcha_bunim_of_pshischa",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Simcha Bunim of Pshischa",
+   "his student, a Rebbe (called Rabbi Moshe)",
+   "the childless Chassid and his wife",
+   "a teacher from a Ger yeshiva",
+   "Rabbi Shaya Margolies, the eyewitness",
+   "the mother and her three-year-old son"
+  ],
+  "topics": [
+   "sages",
+   "miracles",
+   "chassidic_masters",
+   "hiskashrus",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [
+   "davening",
+   "upsherin"
+  ],
+  "calendar": [
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Rabbi Shimon joins children singing and dancing on Lag BaOmer."
+   },
+   {
+    "work": "gemara",
+    "note": "Rabbi Shimon can free the whole world from judgment (Sukkah 45b, as cited)."
+   }
+  ],
+  "places": [
+   "Meron",
+   "the Ohel",
+   "Pshischa"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 196,
+   "type": "talk",
+   "title": "Why Lag BaOmer is so joyous",
+   "people": [
+    "rabbi_shimon_bar_yochai",
+    "mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 196,
+   "end_sec": 522,
+   "type": "story",
+   "title": "The prayer in the forest",
+   "summary": "A childless Chassid is blessed after davening where Rabbi Simcha Bunim of Pshischa once davened."
+  },
+  {
+   "start_sec": 522,
+   "end_sec": 1023,
+   "type": "story",
+   "title": "The child revived in Meron",
+   "summary": "On Lag BaOmer 1923 a lifeless boy is brought back to life at Rabbi Shimon bar Yochai's tomb.",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ]
+  },
+  {
+   "start_sec": 1023,
+   "type": "closing",
+   "title": "The power of Rabbi Shimon and the coming Geulah"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "4f8cac370b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rashbi and the Alter Rebbe at the Parade' (Stories, 0:50-9:35), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b97b61289f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Ohel Miracle' (Stories, 5:30-10:42), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename includes Hebrew 'פשיסחא' (Pshischa). ASR writes 'oil/Oihel' for Ohel and 'Lach Boimer' for Lag BaOmer."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Rabbi%20Shimon%20bar%20Yochai%20and%20the%20Child%20Brought%20Back%20to%20Life%20-%20Two%20Lag%20BaOmer%20Stories.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Rabbi Shimon bar Yochai and the Child Brought Back to Life - Two Lag BaOmer Stories.mp3",
+  "size_bytes": 12937400,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "id": "5cb9026466",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Yud Shvat 511",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud Shevat - The Frierdiker Rebbe and His Yeshivos (Ep 511).mp3",
+  "duration_sec": 300.332,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 511,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 511,
+   "story": "The mountain of ice",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud Shevat: The Frierdiker Rebbe and His Yeshivos",
+  "title_basis": "content",
+  "summary_short": "On the eve of Yud Shevat, Uncle Yossi tells how the Frierdiker Rebbe risked his life to teach Torah to children in Russia and then spread yeshivos across America.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired on the eve of Yud Shevat. Uncle Yossi explains that this is the yahrzeit of the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneersohn, when his Chassidim gather to retell his stories and teachings and resolve to grow in Torah and mitzvos and help others do the same. In Soviet Russia, teaching Torah to children was dangerous, yet the Rebbe built a network of underground yeshivos. In 1927 he was arrested and sentenced to death, and through miracles he was freed. He continued his work in Europe until World War II and in 1940 arrived in New York, where he immediately founded a yeshiva in Brooklyn and sent scholars across the United States to open more. He passed away on Yud Shevat 1950. Uncle Yossi closes with a prayer that his blessings reach us and that we soon see the revival of the dead with the coming of Moshiach.",
+  "lesson": "On Yud Shevat, resolve to learn more Torah, do more mitzvos, give more tzedakah, and help others do the same.",
+  "keywords": [
+   "yahrzeit",
+   "underground yeshivos",
+   "Soviet Russia",
+   "arrest",
+   "1927",
+   "New York",
+   "resolutions",
+   "techiyas hameisim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 511,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-01-14",
+   "hebrew": "9 Shevat 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'The evening right before Yud Shevat'; aired in episode 511 (Tuesday, 9 Shevat 5752)."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe was arrested and sentenced to death in Soviet Russia for teaching Torah; he was saved.",
+    "at_sec": 100
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch",
+   "tzedakah"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia",
+   "New York"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9332083630",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 56,
+   "note": "Episode 511 (filename number); clip = 56-356 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud%20Shevat%20-%20The%20Frierdiker%20Rebbe%20and%20His%20Yeshivos%20%28Ep%20511%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud Shevat - The Frierdiker Rebbe and His Yeshivos (Ep 511).mp3",
+  "size_bytes": 3605089,
+  "mime_type": "audio/mpeg"
+ }
+}

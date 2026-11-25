@@ -1,0 +1,189 @@
+{
+ "id": "c941c66592",
+ "schema_version": "0.3",
+ "display": {
+  "title": "Mishenichnas Adar: Adding Joy with Every Mitzvah",
+  "title_basis": "content",
+  "summary_short": "We serve Hashem with joy all year, so what does 'when Adar enters, increase in joy' add? Uncle Yossi explains that the secret of real happiness is in the mitzvos.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show for the month of Adar. Uncle Yossi explains that the Sages' words 'when Adar enters, we increase in joy' do not mean that now is the time to start being happy: it is a mitzvah to serve Hashem with joy all year long. In Adar we must add even more. How? Dovid HaMelech says in Tehillim that the commandments of Hashem gladden the heart. Imagine a great and famous king visiting your home and asking you to do something for him; how honored and happy you would be. So much more so when Hashem, the King of all kings, asks us to have a mezuzah, wear tzitzis, eat kosher, put on tefillin, keep Shabbos and give tzedakah. That is simchah shel mitzvah, the joy that comes from the mitzvah itself, and in Adar it should be greater than ever.",
+  "lesson": "Real happiness comes from doing Hashem's mitzvos, and in Adar we add even more joy.",
+  "keywords": [
+   "joy",
+   "king's visit",
+   "mezuzah",
+   "tzitzis",
+   "tefillin",
+   "happiness"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 364,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-02-14",
+   "hebrew": "9 Adar 1 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Clip of episode 364 (dated 02-14-89), in Adar I 5749."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "mitzvos_in_daily_life",
+   "character"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "mezuzah",
+   "tzitzis",
+   "tefillin",
+   "shabbos",
+   "kashrus",
+   "tzedakah"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Taanis 29a",
+    "note": "'When Adar enters, we increase in joy.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "100:2",
+    "note": "'Serve Hashem with joy.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "19:9",
+    "note": "'The commandments of Hashem are upright, gladdening the heart.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "445b45e05b",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "e0a3b2e938",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 36,
+   "note": "Episode 364 (filename number); clip = 36-311 s of the episode."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "445b45e05b",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.8,
+   "note": "Preferred version: same recording without the opening 'And Baruch Hashem'."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 445b45e05b ('Simchas Adar 364'), the preferred copy: same recording without the opening 'And Baruch Hashem'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:11Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mishenichnas Adar 364",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Mishenichnas Adar - Adding Joy with Every Mitzvah (Ep 364) (other version).mp3",
+  "duration_sec": 274.289,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 364,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 364,
+   "story": "The return of Yehudah #9",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Mishenichnas%20Adar%20-%20Adding%20Joy%20with%20Every%20Mitzvah%20%28Ep%20364%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Mishenichnas Adar - Adding Joy with Every Mitzvah (Ep 364) (other version).mp3",
+  "size_bytes": 3292557,
+  "mime_type": "audio/mpeg"
+ }
+}

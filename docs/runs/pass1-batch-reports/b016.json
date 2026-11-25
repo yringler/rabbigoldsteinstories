@@ -1,0 +1,23 @@
+{
+ "batch_id": "b016",
+ "done": [
+  "261ddfd063", "b69c6d9251", "62cd3335ee", "6f4d381b92", "ff7778afcc", "6b44697042", "ae64241bdd",
+  "35b2d7e621", "1fe3e3a5c7", "b914a3d639", "672ff77943", "48d68b1ed7", "ef5394bb72", "89da57355d",
+  "72e01acc61", "abdf1b1e62", "b75d20d44d", "11afe89ace", "fee786776a", "e182e3baf0", "1a39be3c88"
+ ],
+ "failed": [],
+ "notes": [
+  "Undated episodes dated from audio cues: 246 = 7 Oct 1986 (Aseres Yemei Teshuvah), 254 = 2 Dec 1986, 256 = 16 Dec 1986, 257 = 23 Dec 1986, 258 = 30 Dec 1986 (Chanukah), 260 = 13 Jan 1987 (two days after Asarah B'Teves). Each matches weekly Tuesday spacing apart from the gaps below.",
+  "Episode 254 promises 'the climax and final chapter' of The Return of Yehudah next week, but 256 (two weeks later) starts Little Zalmy, and its Neshek lesson says 'last week' about 254's lesson. Catalog row 255 is empty. 255 may never have aired, may be lost, or the numbering may skip.",
+  "Episode 246's chapter number (4) is inferred: its recap picks up where chapter 3 ends in the 1989 rerun (episode 358, e5af19b792). The 1986 run (246, 254) and the 1989 run are the same story: possible same_story / aired_again_in links for pass 2.",
+  "The 'Reb Yehudah' serial in 264, 267 and 270 (catalog 'Reb Yehudah #?' / '(climax)') is the Baal Shem Tov storyteller story that was retold in 1989 as 'The Storyteller' (episodes 407-409, e.g. 019e1942d3). I used story_key 'the-storyteller' for both. Chapter-level same_story links can be made in pass 2.",
+  "Episode 259 is missing from this batch. It had a Kitah Aleph class (Morah Linchevsky) and probably the Neshek lessons on the words between 'Asher Kiddeshanu' and 'lehadlik'. Episodes 261-263, 265-266 and 268-269 are also absent.",
+  "Episode 258 names the guest singer Eli Lipsker in public text, as a public performer. Please confirm. Speaker is 'unknown' because there is no vocabulary id for him.",
+  "Episode 258 misstates the year on air ('January the 2nd, 1986'); the year meant is 1987.",
+  "Goldstein-family children appear as Shema guests in 258 (three siblings) and 260 (two siblings from Ann Arbor). They are probably the host's own family. They are recorded in hidden like other guests.",
+  "Very long lists of children's names: 257 (newsletter drawings), 260 (about 70 runners-up) and 267 (16 girls). All are in hidden. Spellings follow the ASR and many are uncertain.",
+  "Clip relations to check: Tashlich 246 matches 29-436 s of episode 144 (0d0dca3950, 0.75). 'Asarah B'Teves 355' (64dc417cdd) is probably a duplicate cut of the 48d68b1ed7 talk. Tu B'Shvat 264 also matches episode 209 (b35e60b8a2, 0.77), and 'Tu B'Shvat 209' (a199630f7e) is likely the same talk.",
+  "Proposed a calendar term 'shabbos_shirah' (used in 89da57355d and abdf1b1e62, tagged parsha beshalach instead).",
+  "Process note: the shared scratchpad's build.py was overwritten by another agent partway through. Later b016 items were built with b016_build.py. Every b016 item validates."
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "id": "c138f0dfd8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Tikkun HaMidos 276",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Improving Our Midos Before Shavuos - Hashem Creates the World Every Moment (Ep 276).mp3",
+  "duration_sec": 609.054,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 276,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 276,
+   "story": "Judge For A Day #1",
+   "topic": "Tikkun HaMidos, / Havdalah, Achdus",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Improving Our Midos Before Shavuos: Hashem Creates the World Every Moment",
+  "title_basis": "content",
+  "summary_short": "Preparing for Shavuos with Pirkei Avos 5:1: Hashem created the world with ten sayings and keeps creating it from nothing every moment, so we thank Him by learning Torah and improving our midos.",
+  "summary_long": "A talk from the Tzivos Hashem radio show during Sefirah, as Shavuos approaches. To be worthy of receiving the Torah, we work on our midos, and our Sages instruct us to learn Pirkei Avos between Pesach and Shavuos. Uncle Yossi teaches the first Mishnah of chapter 5: the world was created with ten sayings, just as the Torah begins, 'Let there be light, and there was light'. A carpenter only shapes wood that already exists into a chair, and the chair stands after he leaves. Hashem, the Creator, makes something from nothing, so He must keep creating the world every second, just as a light bulb shines only while the electric current flows. Realizing that our very life comes from Hashem at every moment, we show our thanks through Torah, the Torah of life: by learning more, doing more mitzvos, and behaving better at home, in school and with others, ready to say 'Naaseh v'nishma' again on Shavuos.",
+  "lesson": "Hashem keeps creating the world and giving us life every moment; we thank Him with Torah, mitzvos and better midos.",
+  "keywords": [
+   "ten sayings",
+   "Creation",
+   "something from nothing",
+   "carpenter",
+   "chair",
+   "light bulb",
+   "electricity",
+   "Naaseh v'nishma"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 276,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-05-19",
+   "hebrew": "20 Iyar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 276 (05-19-87); 'right in the middle of Sefirah', Pirkei Avos chapter 5 this week. Also re-aired in episodes 379 and 427."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "emunah_bitachon",
+   "chassidus_tanya",
+   "character",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "hakaras_hatov",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "5:1",
+    "note": "'With ten sayings the world was created.'"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:1-3",
+    "note": "'In the beginning... Let there be light.'"
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Explains the Chassidic idea of continuous creation (yesh me'ayin) in simple terms."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:01Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "09dddba098",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 427."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3f74202549",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 379."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "d0a966e65b",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 9,
+   "note": "Episode 276 (filename number); clip = 9-618 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Improving%20Our%20Midos%20Before%20Shavuos%20-%20Hashem%20Creates%20the%20World%20Every%20Moment%20%28Ep%20276%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Improving Our Midos Before Shavuos - Hashem Creates the World Every Moment (Ep 276).mp3",
+  "size_bytes": 7309664,
+  "mime_type": "audio/mpeg"
+ }
+}

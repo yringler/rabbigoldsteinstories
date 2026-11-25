@@ -1,0 +1,175 @@
+{
+ "id": "6e00e2fa4a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Pirkei Avos 527",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Pirkei Avos Chapter 2 - The Eye That Sees, the Ear That Hears (Ep 527).mp3",
+  "duration_sec": 309.863,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 527,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 527,
+   "story": "King David’s grave",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-35.5 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Pirkei Avos Chapter 2: The Eye That Sees, the Ear That Hears",
+  "title_basis": "content",
+  "summary_short": "Why we learn Pirkei Avos between Pesach and Shavuos, and the Mishnah's three things that keep us humble: an eye that sees, an ear that hears, and a book where all our deeds are written.",
+  "summary_long": "A short Sefirah-time talk from the Tzivos Hashem radio show. Uncle Yossi explains that in the days between Pesach and Shavuos we work on improving our character so we will be ready to receive the Torah, and that is why we learn a chapter of Pirkei Avos each week. He recalls last week's lesson: Moshe Rabbeinu, the greatest of all people, stayed humble, a lesson he learned from Har Sinai, the lowest mountain. Then he turns to chapter 2, which teaches the secret of humility: remember three things. There is an eye that sees everything you do, an ear that hears everything you say, so you will never use bad language or tell a lie, and a book, always open before Hashem, where everything you think, say and do is written. Remembering these keeps us doing only what is good in Hashem's eyes.",
+  "lesson": "Remember that Hashem sees what you do, hears what you say and writes it all down, and you will stay humble and do only what is right.",
+  "keywords": [
+   "eye that sees",
+   "ear that hears",
+   "book of deeds",
+   "Har Sinai",
+   "humility",
+   "bad language"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 527,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-05-05",
+   "hebrew": "2 Iyar 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of the episode 527 airing; the same talk first aired in episode 123."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "character",
+   "calendar"
+  ],
+  "midos": [
+   "anavah",
+   "yiras_shamayim",
+   "shemiras_halashon",
+   "emes"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shemiras_halashon"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "2:1",
+    "note": "An eye that sees, an ear that hears, and all your deeds are written in a book."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1",
+    "note": "Moshe received the Torah 'from Sinai', the lowest mountain."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "67bbe1e780",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 123."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "551d0cc521",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 277,
+   "note": "Episode 527 (filename number); clip = 277-586 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very quiet source (about -35 LUFS); normalize loudness for the website."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:16:28Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Pirkei%20Avos%20Chapter%202%20-%20The%20Eye%20That%20Sees%2C%20the%20Ear%20That%20Hears%20%28Ep%20527%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Pirkei Avos Chapter 2 - The Eye That Sees, the Ear That Hears (Ep 527).mp3",
+  "size_bytes": 3719182,
+  "mime_type": "audio/mpeg"
+ }
+}

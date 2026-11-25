@@ -1,0 +1,179 @@
+{
+ "id": "72e01acc61",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tu B'Shvat 264",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tu B'Shvat - Rosh Hashanah for the Trees and the Fruits of Our Good Deeds (Ep 264).mp3",
+  "duration_sec": 349.348,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 264,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 264,
+   "story": "Reb Yehudah #?",
+   "topic": "Tu B’Shvat, / Shabbos Shira, / Neshek #?",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Tu B'Shvat: Rosh Hashanah for the Trees and the Fruits of Our Good Deeds",
+  "title_basis": "content",
+  "summary_short": "Why Tu B'Shvat is the Rosh Hashanah for the trees, which fruits we eat and which brachos we say, and how our good deeds are our own fruits.",
+  "summary_long": "A Tu B'Shvat talk from the Tzivos Hashem radio show, broadcast a few days before the fifteenth of Shevat 5747. Uncle Yossi asks how Rosh Hashanah can be coming when it was only five months ago, and explains from the Mishnah that the year has several 'new years', including Rosh Hashanah for the trees on the fifteenth of Shevat, when the trees in Eretz Yisroel begin to blossom. We celebrate by eating the fruits the Torah praises the land for (Devarim 8:8): wheat, barley, grapes, figs, pomegranates, olives and dates. We say Borei Pri Ha'etz and, over a new fruit, Shehecheyanu; some save carob or pomegranate all year for this. The Torah compares a person to a tree of the field, and just as a tree is praised for its fruit, our fruits are our good deeds, so Tu B'Shvat is a time for resolutions to learn more Torah and do more mitzvos. The talk ends with the hope to celebrate next year in Eretz Yisroel with Moshiach.",
+  "lesson": "A person is like a tree: our fruits are our good deeds, so Tu B'Shvat is the time to resolve to grow in Torah and mitzvos.",
+  "keywords": [
+   "Rosh Hashanah for the trees",
+   "seven species",
+   "fruit",
+   "carob",
+   "pomegranate",
+   "Shehecheyanu",
+   "Borei Pri Ha'etz"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 264,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-02-10",
+   "hebrew": "11 Shevat 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 264 (filename date 10 Feb 1987); 'this coming Shabbos is Chamishah Asar B'Shvat'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "brachos",
+   "loving_eretz_yisroel"
+  ],
+  "calendar": [
+   "tu_bshvat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Rosh Hashanah 1:1",
+    "note": "The several 'Rosh Hashanahs' of the year."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 8:8",
+    "note": "The fruits Eretz Yisroel is praised for."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 20:19",
+    "note": "'Ki ha'adam etz hasadeh'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "89da57355d",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 46,
+   "note": "Episode 264 (filename number); clip = 46-395 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b35e60b8a2",
+   "evidence": "text_overlap",
+   "confidence": 0.77,
+   "note": "The same Tu B'Shvat talk matches 44-393 s of episode 209 (one year earlier)."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "a199630f7e",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.85,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'just a few days before Rosh Hashanah' and names 'this coming Shabbos' as Tu B'Shvat (5747); the Hebrew verse is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Tu%20B%27Shvat%20-%20Rosh%20Hashanah%20for%20the%20Trees%20and%20the%20Fruits%20of%20Our%20Good%20Deeds%20%28Ep%20264%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tu B'Shvat - Rosh Hashanah for the Trees and the Fruits of Our Good Deeds (Ep 264).mp3",
+  "size_bytes": 4193147,
+  "mime_type": "audio/mpeg"
+ }
+}

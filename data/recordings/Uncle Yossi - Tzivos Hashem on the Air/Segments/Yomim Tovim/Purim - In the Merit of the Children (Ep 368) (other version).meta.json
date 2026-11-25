@@ -1,0 +1,178 @@
+{
+ "id": "b625a28e6c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Purim 368",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Purim - In the Merit of the Children (Ep 368) (other version).mp3",
+  "duration_sec": 254.508,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 368,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 368,
+   "story": "The return of Yehudah #13",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Purim: In the Merit of the Children",
+  "title_basis": "content",
+  "summary_short": "Why the Purim miracle happened in the merit of small children, and how children who learn Torah together today are the Jewish people's strongest weapon.",
+  "summary_long": "A short pre-Purim talk from the Tzivos Hashem radio show. Uncle Yossi explains that, as the Midrash teaches, the miracle of Purim came about in the merit of the very small children. When Haman's evil decree became known, Mordechai the tzaddik gathered 22,000 children into a large hall and taught them Torah, including the mitzvah of the Omer, strengthening their faith in Moshiach and the rebuilding of the Beis HaMikdash. The voice of Torah from pure young children is the ultimate weapon of the Jewish people. In the same way today, Tzivos Hashem gathers as many children as possible to learn Torah, give tzedakah, say the Twelve Pesukim and build good midos. Just as the Purim miracle came through children, the final Geulah will come in their merit, so they should keep up the good work and bring their friends along.",
+  "lesson": "Gather together and learn Torah: the pure voices of children learning Torah bring miracles and the Geulah.",
+  "keywords": [
+   "22,000 children",
+   "Mordechai",
+   "voice of Torah",
+   "Omer",
+   "Haman's decree",
+   "Twelve Pesukim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-03-14",
+   "hebrew": "7 Adar 2 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 368, dated 14 March 1989 in its filename; the talk says Purim is very close."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 368,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "appears"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "achdus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "twelve_pesukim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "purim",
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "Mordechai gathered 22,000 children and taught them Torah after Haman's decree."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2a05164ba3",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 61,
+   "note": "Episode 368 (filename number); clip = 61-316 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "0b8f27e227",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "0b8f27e227",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.6,
+   "note": "Preferred version: identical copy, the '(2)' file."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 0b8f27e227 ('Purim 368'), the preferred copy: identical copy, the '(2)' file."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:50Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Purim%20-%20In%20the%20Merit%20of%20the%20Children%20%28Ep%20368%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Purim - In the Merit of the Children (Ep 368) (other version).mp3",
+  "size_bytes": 3054935,
+  "mime_type": "audio/mpeg"
+ }
+}

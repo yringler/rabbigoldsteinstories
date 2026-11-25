@@ -1,0 +1,307 @@
+{
+ "id": "0e6a0febbc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "3",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 003 - The Tall Chanukah Candles (Chanukah) (1981-12-22).mp3",
+  "duration_sec": 2669.142,
+  "filename_facts": {
+   "episode_number": 3,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 3,
+   "story": "The Tall Chanukah Candles",
+   "topic": "/ Mitzvahחנוכה",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 3: The Tall Chanukah Candles (Chanukah)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's Chanukah show: what the word mitzvah really means, Chanukah songs with a studio guest, and the story of a Chassid saved from robbers by three-foot-tall Chanukah candles.",
+  "summary_long": "Broadcast during Chanukah 5742. Uncle Yossi answers a listener's letter asking what \"mitzvah\" means: a mitzvah is a commandment from Hashem, our Commander-in-Chief, and that is what Chanukah is about, since the Greeks were happy for Jews to do \"good deeds\" but not to call them G-d's commandments. Each Chanukah light also kindles a spark in our soul to fight the yetzer hara. A studio guest then leads Chanukah songs in Hebrew, English and Yiddish, including Maoz Tzur and \"I Have a Little Dreidel\". After the sponsor and the Shema, story time tells of Naftali, a joyful Chassid whom the Rebbe Rashab told to buy Chanukah candles three feet tall. Stranded in a blizzard and caught by robbers, he lights them on top of his wagon; firemen in a distant watchtower see the flames, ride to the spot and the robbers flee. That is why Naftali dances on Chanukah. The show closes with Dial-a-Jewish-Story and the children's Sefer Torah.",
+  "lesson": "We do mitzvos because Hashem commanded them, and following a tzaddik's instructions with joy brings Hashem's miracles.",
+  "keywords": [
+   "commandment",
+   "Maccabees",
+   "menorah",
+   "Maoz Tzur",
+   "dreidel",
+   "tall candles",
+   "robbers",
+   "blizzard",
+   "firemen",
+   "watchtower"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1981-12-22",
+   "hebrew": "26 Kislev 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "A Chanukah program wishing listeners a happy Chanukah; episode 2 (19 Kislev) promised a Chanukah show next week. Weekly estimate falls on the third day of Chanukah."
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 3,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers order Naftali to say his last prayers before he is rescued.",
+    "at_sec": 1294
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Child letter writer named in full; studio guest singer named.",
+    "at_sec": 133
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Naftali the Chassid",
+   "the robbers",
+   "the firemen"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "chabad_rebbeim",
+   "hiskashrus"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "simcha",
+   "hakaras_hatov",
+   "emunah"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "shema"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 81,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 81,
+   "end_sec": 211,
+   "type": "mailbox",
+   "title": "A listener asks: what is a mitzvah?"
+  },
+  {
+   "start_sec": 211,
+   "end_sec": 447,
+   "type": "talk",
+   "title": "Mitzvos are commandments: the lesson of Chanukah",
+   "summary": "The Greeks allowed good deeds but not commandments; each Chanukah light gives us strength against the yetzer hara.",
+   "people": [
+    "chashmonaim"
+   ],
+   "calendar": [
+    "chanukah"
+   ],
+   "linked_items": [
+    "22c247eae5"
+   ]
+  },
+  {
+   "start_sec": 447,
+   "end_sec": 607,
+   "type": "song",
+   "title": "Maoz Tzur with a studio guest"
+  },
+  {
+   "start_sec": 607,
+   "end_sec": 744,
+   "type": "song",
+   "title": "I Have a Little Dreidel"
+  },
+  {
+   "start_sec": 744,
+   "end_sec": 833,
+   "type": "song",
+   "title": "Chanukah, Chanukah (in Hebrew)"
+  },
+  {
+   "start_sec": 833,
+   "end_sec": 885,
+   "type": "song",
+   "title": "A Yiddish Chanukah song"
+  },
+  {
+   "start_sec": 885,
+   "end_sec": 915,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 915,
+   "end_sec": 1037,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 1037,
+   "end_sec": 1114,
+   "type": "shema_guest",
+   "title": "Saying the Shema together"
+  },
+  {
+   "start_sec": 1114,
+   "end_sec": 1482,
+   "type": "story",
+   "title": "The Tall Chanukah Candles",
+   "summary": "Following the Rebbe Rashab's odd instruction, Naftali's three-foot candles bring rescuers when robbers catch him on the road.",
+   "people": [
+    "rebbe_rashab"
+   ],
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1482,
+   "end_sec": 1604,
+   "type": "announcement",
+   "title": "Dial-a-Jewish-Story and the children's Sefer Torah"
+  },
+  {
+   "start_sec": 1604,
+   "end_sec": 1654,
+   "type": "closing",
+   "title": "Closing and sponsor thanks"
+  },
+  {
+   "start_sec": 1654,
+   "type": "silence",
+   "title": "Blank tape"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "22c247eae5",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Mitzvos 3' = 211-448 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "trailing_silence",
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": {
+   "content_end_sec": 1654,
+   "note": "Speech ends at 27:34; the remaining ~17 minutes of the 44:29 file are blank or not program content."
+  },
+  "publish_recommendation": "publish",
+  "notes": "Child letter writer named in full and a named studio guest singer (see hidden). Song timings are approximate; the songs themselves are not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "William Bernstein",
+    "role": "mailbox_letter",
+    "start_sec": 81,
+    "end_sec": 447,
+    "note": "Asked what the word mitzvah means; family listens at the supper table."
+   },
+   {
+    "name": "Chaim Elchanan Fogelman",
+    "role": "visitor",
+    "group": "Studio guest who sings the Chanukah songs",
+    "start_sec": 497,
+    "end_sec": 885
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:42:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20003%20-%20The%20Tall%20Chanukah%20Candles%20%28Chanukah%29%20%281981-12-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 003 - The Tall Chanukah Candles (Chanukah) (1981-12-22).mp3",
+  "size_bytes": 32030830,
+  "mime_type": "audio/mpeg"
+ }
+}

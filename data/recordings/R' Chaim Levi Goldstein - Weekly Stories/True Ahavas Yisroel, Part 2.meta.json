@@ -1,0 +1,276 @@
+{
+ "id": "a1317d8c93",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "True Ahavas Yisroel - Part 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/True Ahavas Yisroel, Part 2.mp3",
+  "duration_sec": 1697.067,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "Part 2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-019' stripped"
+  ]
+ },
+ "display": {
+  "title": "True Ahavas Yisroel, Part 2",
+  "title_basis": "filename",
+  "summary_short": "Why Cheshvan is called Mar Cheshvan and Bul, then two more stories Rabbi Levi Yitzchak of Berditchev told about the secret generosity of David, the 'stingy' rich man.",
+  "summary_long": "In the month of Cheshvan of a Hakhel year, the storyteller explains the month's names: Mar Cheshvan for its first raindrops, or for its bitterness at having no Yom Tov, and Bul, the month when Shlomo HaMelech finished the Beis HaMikdash. Because its dedication waited until Tishrei, Hashem promised that the third Beis HaMikdash will be celebrated in Cheshvan. After a short recap of last week, Rabbi Levi Yitzchak of Berditchev tells his second story. Chaim, a poor man, wants to travel to seek his fortune and tricks his wife into agreeing by claiming that David will pay her his wages every Thursday. When she comes, David quietly tells his secretary to pay her every week. Chaim returns rich and tries to repay, but David refuses: it was his own tzedakah. In the third story, a factory owner borrows a thousand rubles and names Hashem as his guarantor. When he comes a few weeks late to repay, David says his guarantor has already paid. Each time Rabbi Levi Yitzchak rules for David, showing that every Jew may be a hidden tzaddik.",
+  "lesson": "Look at every Jew with a good eye; you never know how great he really is. Loving one another brings the Geulah closer.",
+  "keywords": [
+   "Mar Cheshvan",
+   "Bul",
+   "first rain",
+   "checks",
+   "secretary",
+   "loan",
+   "guarantor",
+   "factory fire",
+   "1,000 rubles",
+   "interest-free loan"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Cheshvan of a Hakhel year",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Today's Hakhel is very special because it is in the month of Cheshvan'. Hakhel years: 5776 or 5783 likely."
+  },
+  "part": {
+   "set_key": "true-ahavas-yisroel",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor father leaves home for months after deceiving his wife; the family is cared for."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "David, the rich man thought to be a miser",
+   "Chaim, the poor man",
+   "Chaim's wife",
+   "David's secretary",
+   "Moshe, the factory owner"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "chassidic_masters",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "generosity",
+   "emes",
+   "bitachon",
+   "anavah"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "gemilus_chasadim",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "hakhel_year",
+   "cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "neviim",
+    "ref": "Melachim I 6",
+    "note": "Shlomo HaMelech finished the Beis HaMikdash in the month of Bul."
+   }
+  ],
+  "places": [
+   "Berditchev"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 372,
+   "type": "talk",
+   "title": "Mar Cheshvan and the month of Bul",
+   "summary": "The names of Cheshvan and the promise that the third Beis HaMikdash will be dedicated in it.",
+   "people": [
+    "shlomo_hamelech"
+   ]
+  },
+  {
+   "start_sec": 372,
+   "end_sec": 513,
+   "type": "story_intro",
+   "title": "Recap of Part 1",
+   "summary": "David's secret gift of 5,000 rubles and his refusal to take it back."
+  },
+  {
+   "start_sec": 513,
+   "end_sec": 1294,
+   "type": "story",
+   "title": "The Thursday checks",
+   "summary": "David quietly supports the family of a poor man who used his name in a trick, then refuses repayment.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 1294,
+   "end_sec": 1650,
+   "type": "story",
+   "title": "Hashem the guarantor",
+   "summary": "A borrower names Hashem as guarantor, and David says the loan has already been paid.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 1650,
+   "type": "closing",
+   "title": "Lesson: every Jew is a tzaddik"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "f044a3eccb",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'True Ahavas Yisroel - Part 1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "f044a3eccb",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Opens with a recap of 'last week's' first story and tells the two promised stories."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "407fcad3a4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Three Din Torahs: The Hidden Tzaddik of Berditchev' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5891cd1abb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Judge Every Yid Favorably: Rabbi Levi Yitzchak and the Secret Giver of Berditchev' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "803a210c72",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Rabbi Levi Yitzchak of Berditchev and the Three Din Torahs' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording year (a Hakhel year, 5776 or 5783?)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/True%20Ahavas%20Yisroel%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/True Ahavas Yisroel, Part 2.mp3",
+  "size_bytes": 20365641,
+  "mime_type": "audio/mpeg"
+ }
+}

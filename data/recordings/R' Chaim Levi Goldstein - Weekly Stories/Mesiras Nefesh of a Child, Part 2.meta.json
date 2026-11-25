@@ -1,0 +1,294 @@
+{
+ "id": "8dc2821114",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Mesiras Nefesh of a Child - part 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Mesiras Nefesh of a Child, Part 2.mp3",
+  "duration_sec": 1352.533,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-020' stripped"
+  ]
+ },
+ "display": {
+  "title": "Mesiras Nefesh of a Child, Part 2",
+  "title_basis": "filename",
+  "summary_short": "The young Frierdiker Rebbe is freed from jail, the crooked policeman is exposed, and the Rebbe Rashab draws three lessons. Then the end of the discourse Se'u Yedeichem Kodesh.",
+  "summary_long": "In the days after the Frierdiker Rebbe's release in 5687, the storyteller recalls the discourses he said on his return and finishes last week's story, again in the Frierdiker Rebbe's words. In the dark cell, a match from his friend shows that the frightening noises come from a calf tied up with a muzzle. Before he finishes reviewing Mishnayos, the officer who struck him lets him out, apologizing once he learns the boy's uncle is the respected Raza, and begs him to keep the slap a secret. The storyteller pauses for an important lesson: if anyone hurts you or makes you uncomfortable and says not to tell, tell a parent or teacher. At the police chief's office, witnesses defend Reb Dovid, and the hidden calf proves that the policeman and his brother stole it to frame him. The policeman is punished and dismissed. The Rebbe Rashab praises his son and gives three lessons: honor every Jew, stand up for a Jew even at risk, and always know some Torah by heart. The storyteller closes with the end of the discourse Se'u Yedeichem Kodesh, on turning bad traits into good, and its niggun.",
+  "lesson": "Honor every Jew, stand up for another Jew even at a risk, and always carry Torah by heart. If someone hurts you and says to keep it secret, tell a trusted adult.",
+  "keywords": [
+   "jail",
+   "calf",
+   "matches",
+   "policeman",
+   "police chief",
+   "witnesses",
+   "free-loan fund",
+   "Mishnayos by heart",
+   "keeping secrets"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Between 13 and 15 Tammuz",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'The days when the Frierdiker Rebbe returned home'; continues the Yud-Beis Tammuz part. A Rebbe farbrengen 'about 35 years ago' is mentioned; no year given."
+  },
+  "collections": [
+   "Story Videos"
+  ],
+  "part": {
+   "set_key": "mesiras-nefesh-of-a-child",
+   "part_number": 2,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Recalls a policeman slapping a child and a man; the boy is frightened in a dark cell."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The boy is held in a jail room until he is freed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Dovid the butcher",
+   "Shimon, his friend",
+   "the policeman (uradnik)",
+   "the police chief (pristav)",
+   "Raza (Reb Zalman Aharon), the boy's uncle",
+   "Mr. Zilberbard, the uncle's assistant",
+   "Meir the butcher",
+   "Reb Yoel the smith",
+   "Reb Shaul the wagon driver"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "torah_study",
+   "character",
+   "calendar"
+  ],
+  "midos": [
+   "courage",
+   "ahavas_yisroel",
+   "mesiras_nefesh",
+   "emes",
+   "self_control"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "twelve_pesukim",
+   "gemilus_chasadim",
+   "ahavas_yisroel_mitzvah",
+   "tzedakah"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The story is told in the Frierdiker Rebbe's own words."
+   },
+   {
+    "work": "maamarim",
+    "note": "The Frierdiker Rebbe's discourse Se'u Yedeichem Kodesh (Shabbos 15 Tammuz 5687), its closing lines on refining the midos."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "At a 15 Tammuz farbrengen the Rebbe urged learning the end of Se'u Yedeichem Kodesh by heart."
+   },
+   {
+    "work": "pirkei_avos",
+    "note": "Even one person learning Torah brings blessing (from part 1)."
+   }
+  ],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 88,
+   "type": "talk",
+   "title": "The Frierdiker Rebbe comes home"
+  },
+  {
+   "start_sec": 88,
+   "end_sec": 182,
+   "type": "story_intro",
+   "title": "Recap of part 1"
+  },
+  {
+   "start_sec": 182,
+   "end_sec": 1030,
+   "type": "story_chapter",
+   "title": "Mesiras Nefesh of a Child, Part 2",
+   "summary": "The boy is freed, the policeman's theft is exposed, and the Rebbe Rashab teaches three lessons.",
+   "story_key": "mesiras-nefesh-of-a-child",
+   "chapter": 2,
+   "people": [
+    "frierdiker_rebbe",
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 397,
+   "end_sec": 458,
+   "type": "talk",
+   "title": "If someone says 'don't tell', tell a trusted adult"
+  },
+  {
+   "start_sec": 1030,
+   "end_sec": 1086,
+   "type": "talk",
+   "title": "Torah by heart and the Twelve Pesukim"
+  },
+  {
+   "start_sec": 1086,
+   "end_sec": 1274,
+   "type": "sichah",
+   "title": "The end of Se'u Yedeichem Kodesh",
+   "summary": "Turning a bad trait into a good one, as the discourse teaches."
+  },
+  {
+   "start_sec": 1274,
+   "end_sec": 1332,
+   "type": "song",
+   "title": "Niggun to the closing words of the discourse"
+  },
+  {
+   "start_sec": 1332,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "5135fe8f4d",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'Mesiras Nefesh of a Child - part 1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "5135fe8f4d",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'I would like to continue and finish the story that we began on Yud-Beis Tammuz.'"
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The niggun at about 21:14-22:12 is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Mesiras%20Nefesh%20of%20a%20Child%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Mesiras Nefesh of a Child, Part 2.mp3",
+  "size_bytes": 16231299,
+  "mime_type": "audio/mpeg"
+ }
+}

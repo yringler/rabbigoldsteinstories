@@ -1,0 +1,414 @@
+{
+ "id": "59eebafc60",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "228 06-03-86",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 228 - King David's Grave (Before Shavuos) (1986-06-03).mp3",
+  "duration_sec": 1742.022,
+  "filename_facts": {
+   "episode_number": 228,
+   "date_in_filename": "1986-06-03",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 228,
+   "story": "King David’s Grave",
+   "topic": "Shavuos",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 228: King David's Grave (Before Shavuos)",
+  "title_basis": "master_catalog",
+  "summary_short": "The week before Shavuos: the mitzvah of Shavuos is the whole Torah, a yeshiva boy says the Shema, and a rabbi retrieves a king's sword from the sealed cave of Dovid HaMelech.",
+  "summary_long": "Broadcast the week before Shavuos 5746, which fell on Friday and Shabbos. Uncle Yossi asks which mitzvah belongs to Shavuos, and answers that Shavuos stands for all 613 mitzvos: it celebrates Matan Torah, so its mitzvah is the Torah itself. We renew 'Naaseh v'nishma' with resolutions to learn more, stay up on Shavuos night with Tikkun Leil Shavuos, and receive the Torah with joy. A yeshiva boy says the Shema in Studio 604, followed by a sponsor message. The story: a visiting king wants to see the burial cave of Dovid HaMelech in Yerushalayim, which is sealed because no one who went in came out alive. When his precious royal sword slips through the bars, two servants sent down do not return. The king turns to the local rabbi, who gathers the community to say Tehillim, goes down, and comes up with the sword, telling of a bright light below. The king grants the Jews freedom to keep the Torah. The show ends with the names of children in the running in the Sefer Torah contest and an invitation to buy a letter in the children's Sefer Torah.",
+  "lesson": "On Shavuos we receive the Torah anew: resolve to learn more Torah and do more mitzvos, with joy.",
+  "keywords": [
+   "Shavuos",
+   "Matan Torah",
+   "Naaseh v'nishma",
+   "Tikkun Leil Shavuos",
+   "cave",
+   "royal sword",
+   "Tehillim",
+   "bright light",
+   "Sefer Torah letters",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 228,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1986-06-03",
+   "hebrew": "25 Iyar 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Shavuos is 'next week, Friday and Shabbos' (6-7 Sivan 5746 = 13-14 June 1986)."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical",
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "People who enter the sealed cave, including two servants sent by the king, do not come out alive.",
+    "at_sec": 810
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A rabbi is lowered into the dangerous cave while the community prays.",
+    "at_sec": 1220
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and many contest entrants named in full.",
+    "at_sec": 400
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the visiting king",
+   "the king's general",
+   "the guard of the cave",
+   "the king's servants",
+   "the head rabbi of the city"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "beis_hamikdash_eretz_yisroel",
+   "miracles"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "courage",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "tehillim",
+   "shema"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 24:7",
+    "note": "'Naaseh v'nishma.'"
+   },
+   {
+    "work": "gemara",
+    "ref": "Rosh Hashanah 25a",
+    "note": "'Dovid Melech Yisroel chai v'kayam.'"
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "the tomb of Dovid HaMelech"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 27,
+   "type": "opening",
+   "title": "Greeting"
+  },
+  {
+   "start_sec": 27,
+   "end_sec": 374,
+   "type": "talk",
+   "title": "The mitzvah of Shavuos is the Torah itself",
+   "summary": "Shavuos stands for all 613 mitzvos; we renew Naaseh v'nishma, stay up on Shavuos night and receive the Torah with joy.",
+   "calendar": [
+    "shavuos"
+   ],
+   "linked_items": [
+    "1a6b27f138"
+   ]
+  },
+  {
+   "start_sec": 374,
+   "end_sec": 521,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student"
+  },
+  {
+   "start_sec": 521,
+   "end_sec": 610,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 610,
+   "end_sec": 1399,
+   "type": "story",
+   "title": "King David's Grave",
+   "summary": "A rabbi, strengthened by the community's Tehillim, safely retrieves a king's sword from the sealed burial cave of Dovid HaMelech.",
+   "people": [
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 1399,
+   "end_sec": 1563,
+   "type": "announcement",
+   "title": "Sefer Torah contest: who may win next"
+  },
+  {
+   "start_sec": 1563,
+   "end_sec": 1693,
+   "type": "announcement",
+   "title": "A letter in the children's Sefer Torah"
+  },
+  {
+   "start_sec": 1693,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "1a6b27f138",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Shavuos 228' = 27-386 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "387570c950",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The King David's grave story (about 610-1399 s) also aired in episode 32, with near-identical wording."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Gap in the timestamps at about 10:20-10:51 at the start of the story (lead-in about Dovid HaMelech and Shavuos); check the audio. Contest list and campaign address are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Schneur Zalman Wilhelm",
+    "role": "shema_guest",
+    "group": "yeshiva student",
+    "start_sec": 404,
+    "end_sec": 521
+   },
+   {
+    "name": "Chanoch Mordechai Korman",
+    "role": "contest_winner",
+    "note": "Named again as an earlier winner.",
+    "start_sec": 1399,
+    "end_sec": 1410
+   },
+   {
+    "name": "Rivka Rachel Shor",
+    "role": "contest_winner",
+    "note": "Named again as an earlier winner.",
+    "start_sec": 1399,
+    "end_sec": 1410
+   },
+   {
+    "name": "Akiva Brody",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Tziporah Kalman Summers",
+    "role": "contest_winner",
+    "group": "contest finalist list (name unclear)",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Yisroel Levavitz",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Mindy Elkan",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Chana and Dov Ber Taylor",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Dovid Stroh",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Boruch Katz",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Bella Frankel",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Shmuel Zalmanoff",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Avraham Chaim Posner",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Yehoshua Kalaziner",
+    "role": "contest_winner",
+    "group": "contest finalist list (spelling unclear)",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Leah Margolis",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Eliyahu Simpson",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Feigi Mendel Rothman",
+    "role": "contest_winner",
+    "group": "contest finalist list (name unclear)",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Yisroel Ephraim Shurpin",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Nechi and Mutti (surname unclear)",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1457,
+    "end_sec": 1541
+   },
+   {
+    "name": "Shira Waxer",
+    "role": "contest_winner",
+    "group": "contest finalist list; signs as 'Sergeant'",
+    "start_sec": 1457,
+    "end_sec": 1541
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20228%20-%20King%20David%27s%20Grave%20%28Before%20Shavuos%29%20%281986-06-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 228 - King David's Grave (Before Shavuos) (1986-06-03).mp3",
+  "size_bytes": 20905186,
+  "mime_type": "audio/mpeg"
+ }
+}

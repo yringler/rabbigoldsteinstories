@@ -1,0 +1,180 @@
+{
+ "id": "6ab892a712",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "17 Tammuz 435",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - Asking Hashem 'Until When' (Ep 435) (other version).mp3",
+  "duration_sec": 267.278,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 435,
+   "part_marker": null,
+   "production_notes": [
+    "copy"
+   ]
+  },
+  "master_catalog": {
+   "episode": 435,
+   "story": "The Rambam’s grave",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shiva Asar B'Tammuz: Asking Hashem 'Until When?'",
+  "title_basis": "content",
+  "summary_short": "On Shiva Asar B'Tammuz, Uncle Yossi explains how the walls of Yerushalayim were breached, why the Three Weeks are sad, and how our Torah and mitzvos can bring the Geulah.",
+  "summary_long": "A talk from the Tzivos Hashem radio show broadcast on Shiva Asar B'Tammuz, the first day of the Three Weeks (Bein HaMetzarim). Uncle Yossi reminds children of Asarah B'Teves, when the enemy surrounded Yerushalayim and for two years let no food or water in. That siege led to the seventeenth of Tammuz, when the enemy broke through the city walls, and then to the saddest day in Jewish history, Tisha B'Av, when the Beis HaMikdash was destroyed. It is important to know these dates, because each year on them we fast and cry out to Hashem, 'Ad masai, until when?' But Hashem is also asking 'until when?', waiting for every Jew to be ready to welcome Moshiach. So we must learn more Torah, do more mitzvos and encourage our relatives and friends to do the same, and then Hashem will answer our cry, end the golus and rebuild the third Beis HaMikdash.",
+  "lesson": "Hashem is waiting for us too: learn more Torah, do more mitzvos and help others do the same to end the golus.",
+  "keywords": [
+   "Three Weeks",
+   "Bein HaMetzarim",
+   "siege",
+   "walls of Yerushalayim",
+   "fast day",
+   "Ad Masai",
+   "third Beis HaMikdash"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 435,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-07-10",
+   "hebrew": "17 Tammuz 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Clip from episode 435, which aired on 17 Tammuz 5750; the same talk aired in episode 284 (17 Tammuz 5747)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Explains the siege of Yerushalayim and the destruction of the Beis HaMikdash."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah",
+   "jewish_history"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks",
+   "asarah_bteves",
+   "tisha_bav"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "7aea3038aa",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Also aired in episode 284."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "148c93c242",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 29,
+   "note": "Episode 435 (filename number); clip = 29-296 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "9fab00623c",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "9fab00623c",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.75,
+   "note": "Preferred version: the same 17 Tammuz talk re-aired in episode 435 with a new opening line ('copy' file); episode 284 is the first airing."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 9fab00623c ('Shiva-asar B'Tammuz 284'), the preferred copy: the same 17 Tammuz talk re-aired in episode 435 with a new opening line ('copy' file); episode 284 is the first airing."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shiva%20Asar%20B%27Tammuz%20-%20Asking%20Hashem%20%27Until%20When%27%20%28Ep%20435%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - Asking Hashem 'Until When' (Ep 435) (other version).mp3",
+  "size_bytes": 3208225,
+  "mime_type": "audio/mpeg"
+ }
+}

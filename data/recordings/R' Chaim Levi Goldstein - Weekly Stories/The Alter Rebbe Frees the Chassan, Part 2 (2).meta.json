@@ -1,0 +1,274 @@
+{
+ "id": "d87365af6a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Alter Rebbe Frees the Chassan part 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 2 (2).mp3",
+  "duration_sec": 1363.566,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Alter Rebbe Frees the Chassan, Part 2",
+  "title_basis": "filename",
+  "summary_short": "A blank page with one black dot teaches us to notice the good, and the Alter Rebbe's thank-you for a rusty nickel opens a miser's heart and frees the chassan.",
+  "summary_long": "After the song, the storyteller tells of a teacher who handed out blank sheets with one black dot: everyone saw the dot and no one mentioned all the white. We notice what is missing, he explains, but we should thank Hashem for the good, like the word 'ashir', rich, which stands for eyes, teeth, hands and feet, and Tehillim's 'Mizmor l'sodah' that comes before 'Serve Hashem with joy'. The story continues: the Alter Rebbe goes with the town's Rav to the cruel official, who freezes at the Rebbe's gaze and demands a thousand rubles to release the chassan. The town can raise barely a hundred, so the Alter Rebbe puts Moshe the miser at the top of the list. When Moshe offers his usual rusty nickel, the Alter Rebbe accepts it warmly and blesses him. Moshe keeps calling them back with more, then tearfully explains how a beggar once threw his last nickel in his face, and gives the full thousand. The wedding is joyous, the official dies in an accident, and the lost money is found and given to the couple. Moshe becomes a changed man.",
+  "lesson": "Notice the good in every Jew and say so; when you focus on the good, the good grows and the light chases away the darkness.",
+  "keywords": [
+   "black dot",
+   "blank paper",
+   "rusty nickel",
+   "rich miser",
+   "thousand rubles",
+   "wedding",
+   "chassan",
+   "town official",
+   "bridge",
+   "lost money"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "the-alter-rebbe-frees-the-chassan",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "An antisemitic official holds the chassan and demands a ransom."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The cruel official dies falling from his horse, and the wedding guests celebrate."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Moshe, the rich miser",
+   "the Rav of the town",
+   "the nachalnik (town official)",
+   "the chassan and kallah",
+   "the angry beggar",
+   "a teacher and his class"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "character",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "hakaras_hatov",
+   "generosity",
+   "simcha"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_kallah",
+   "pidyon_shvuyim",
+   "hashavas_aveidah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 100",
+    "note": "'Mizmor l'sodah' comes before 'Ivdu es Hashem b'simcha': thank Hashem and you will be joyful."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 396,
+   "type": "talk",
+   "title": "The black dot: notice the good",
+   "summary": "A teacher's blank-page experiment shows that we should notice and thank Hashem for all the good."
+  },
+  {
+   "start_sec": 396,
+   "end_sec": 1333,
+   "type": "story_chapter",
+   "title": "The Alter Rebbe Frees the Chassan, Part 2",
+   "summary": "The Alter Rebbe thanks a miser for his nickel, raises the ransom and the wedding goes ahead.",
+   "story_key": "the-alter-rebbe-frees-the-chassan",
+   "chapter": 2,
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1333,
+   "type": "closing",
+   "title": "Lesson: focus on the good"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "5a39862ac0",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'The Alter Rebbe Frees the Chassan part 1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Picks up as the Alter Rebbe steps out of the wagon, where part 1 ended."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles nachalnik ('Natsalnik', 'Natchalnik') and Moshe ('Meisha', 'Maisha')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Alter%20Rebbe%20Frees%20the%20Chassan%2C%20Part%202%20%282%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 2 (2).mp3",
+  "size_bytes": 16363576,
+  "mime_type": "audio/mpeg"
+ }
+}

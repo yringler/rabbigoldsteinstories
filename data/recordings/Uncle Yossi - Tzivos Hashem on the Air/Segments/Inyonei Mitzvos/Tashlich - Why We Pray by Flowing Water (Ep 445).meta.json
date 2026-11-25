@@ -1,0 +1,150 @@
+{
+ "id": "e32dd9e11b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Tashlich 445",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Tashlich - Why We Pray by Flowing Water (Ep 445).mp3",
+  "duration_sec": 145.799,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 445,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 445,
+   "story": "The strange beggar #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Tashlich: Why We Pray by Flowing Water",
+  "title_basis": "content",
+  "summary_short": "Why we say Tashlich on Rosh Hashanah beside a river, lake or ocean, explained with a piece of paper carried away by the water.",
+  "summary_long": "A short Rosh Hashanah teaching from the Tzivos Hashem radio show. Uncle Yossi explains that Tashlich is one of the highlights of Rosh Hashanah: we go to a body of living, flowing water such as an ocean, river or lake, and say prayers telling Hashem we are sorry for the mistakes of the past year, promising not to repeat them, and asking Him to cast our sins into the depths of the sea. Why flowing water? If you drop or throw away a piece of paper, you can always go and pick it up again, but paper thrown into moving water is carried so far away that you can never get it back. In the same way, Tashlich shows Hashem that we truly want to be rid of our aveiros for good, and Hashem in His mercy forgives us and blesses us with a good and sweet year.",
+  "lesson": "Teshuvah means leaving a wrong behind for good, like paper carried away by the river.",
+  "keywords": [
+   "river",
+   "ocean",
+   "lake",
+   "flowing water",
+   "piece of paper",
+   "forgiveness"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 445,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-09-18",
+   "hebrew": "28 Elul 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Date of episode 445, which says 'tomorrow is Erev Rosh Hashanah'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "teshuvah",
+   "calendar",
+   "halachah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "tashlich",
+   "teshuvah"
+  ],
+  "calendar": [
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "neviim",
+    "ref": "Michah 7:19",
+    "note": "'Vesashlich bimetzulos yam kol chatosam.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "1ede044c5a",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 1571,
+   "note": "Episode 445 (filename number); clip = 1571-1716 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Tashlich%20-%20Why%20We%20Pray%20by%20Flowing%20Water%20%28Ep%20445%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Tashlich - Why We Pray by Flowing Water (Ep 445).mp3",
+  "size_bytes": 1750596,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "id": "46a223a493",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefira-Lag B'Omer 21",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Time for Everything - Sefirah and Lag BaOmer (Ep 021).mp3",
+  "duration_sec": 256.984,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 21,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 21,
+   "story": "The Drunken Father",
+   "topic": "ספירה, ל\"ג בעומר",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "A Time for Everything: Sefirah and Lag BaOmer",
+  "title_basis": "content",
+  "summary_short": "Why we don't listen to music between Pesach and Shavuos: the story of Rabbi Akiva's students, working on respect for one another, and the joy of Lag BaOmer.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi quotes Shlomo HaMelech, 'there is a time for everything', and explains that there is a time when we do not listen to music: the days of Sefirah between Pesach and Shavuos. These are sad days in Jewish history, because thousands of Rabbi Akiva's students died in a plague, which our Sages say came because they did not show proper respect to one another. So these are days to improve ourselves, especially in respecting others, and to prepare for receiving the Torah on Shavuos. In the middle of Sefirah comes Lag BaOmer, a festive day of parades and picnics, in memory of Rabbi Shimon bar Yochai, Rabbi Akiva's student. Uncle Yossi explains that this is why the program has had no music, marches or mailbox splashdowns, and promises they will return after Sefirah.",
+  "lesson": "During Sefirah, work on showing respect to one another as we prepare to receive the Torah.",
+  "keywords": [
+   "music",
+   "plague",
+   "students",
+   "respect",
+   "parades",
+   "picnics",
+   "Shavuos"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 21,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-04-27",
+   "hebrew": "4 Iyar 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 21, which states 'April 27th... today is Dalet Iyar'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Thousands of Rabbi Akiva's students die in a plague.",
+    "at_sec": 62
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "sages",
+   "character"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "sefiras_haomer"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'There is a time for everything'."
+   },
+   {
+    "work": "gemara",
+    "ref": "Yevamos 62b",
+    "note": "Rabbi Akiva's students died because they did not show respect to one another."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2ed007c078",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 1358,
+   "note": "Episode 21 (filename number); clip = 1358-1615 s of the episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b7ad069e28",
+   "evidence": "filename",
+   "confidence": 0.7,
+   "note": "'Sefira-2 22' from the next episode continues the Sefirah theme."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short gap around 2:58-3:16 (the yahrzeit sentence about Rabbi Shimon bar Yochai is partly missing). Ends with a note about the program's music, a period piece."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:40:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/A%20Time%20for%20Everything%20-%20Sefirah%20and%20Lag%20BaOmer%20%28Ep%20021%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Time for Everything - Sefirah and Lag BaOmer (Ep 021).mp3",
+  "size_bytes": 3084729,
+  "mime_type": "audio/mpeg"
+ }
+}

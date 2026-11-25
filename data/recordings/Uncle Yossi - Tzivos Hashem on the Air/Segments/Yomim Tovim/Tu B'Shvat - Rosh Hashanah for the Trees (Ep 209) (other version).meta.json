@@ -1,0 +1,187 @@
+{
+ "id": "a199630f7e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tu B'Shvat 209",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tu B'Shvat - Rosh Hashanah for the Trees (Ep 209) (other version).mp3",
+  "duration_sec": 315.724,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 209,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 209,
+   "story": "The lost letter #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Tu B'Shvat: Rosh Hashanah for the Trees",
+  "title_basis": "content",
+  "summary_short": "Why Tu B'Shvat is the New Year for trees, which fruits we eat and which brachos we say, and how our good deeds are our own fruits.",
+  "summary_long": "A short Tu B'Shvat talk from the Tzivos Hashem radio show. Uncle Yossi asks how Rosh Hashanah can be only five months after Tishrei, and explains that the Mishnah lists several new years, among them the Rosh Hashanah for trees on the fifteenth of Shevat, when the trees in Eretz Yisroel begin to blossom. We celebrate by eating the fruits for which the Torah praises Eretz Yisroel: wheat, barley, grapes, figs, pomegranates, olives and dates. We say Borei Pri Ha'etz, and Shehecheyanu on a fruit eaten for the first time that year; some save carob or pomegranates all year for this. The Torah compares a person to a tree of the field: just as a tree is praised for its fruit, our fruits are our mitzvos and good deeds, so Tu B'Shvat is a time for resolutions to learn more Torah and do more mitzvos. He ends with a prayer to celebrate next Tu B'Shvat in Eretz Yisroel with Moshiach.",
+  "lesson": "A person is like a tree: our good deeds are our fruits, so make resolutions to grow in Torah and mitzvos.",
+  "keywords": [
+   "fruit trees",
+   "seven species",
+   "carob",
+   "pomegranates",
+   "Shehecheyanu",
+   "Borei Pri Ha'etz",
+   "New Year for trees"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-01-21",
+   "hebrew": "11 Shevat 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "First aired in episode 209, the week of Tu B'Shvat 5746; the clip says Tu B'Shvat is 'a few days' away. Re-aired in episode 264."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 209,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "character"
+  ],
+  "midos": [
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "brachos",
+   "loving_eretz_yisroel",
+   "torah_study"
+  ],
+  "calendar": [
+   "tu_bshvat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Rosh Hashanah 1:1",
+    "note": "Several days called Rosh Hashanah, including one for trees."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 8:8",
+    "note": "The fruits for which Eretz Yisroel is praised."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 20:19",
+    "note": "'Man is a tree of the field.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "89da57355d",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "Also aired in episode 264."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "b35e60b8a2",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 44,
+   "note": "Episode 209 (filename number); clip = 44-360 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "72e01acc61",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.85,
+   "note": "Audio contained in clip 'Tu B'Shvat 264', cut from the re-airing in episode 264."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "72e01acc61",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.7,
+   "note": "Preferred version: the same Tu B'Shvat talk; the episode-264 cut is longer and also contains this one."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 72e01acc61 ('Tu B'Shvat 264'), the preferred copy: the same Tu B'Shvat talk; the episode-264 cut is longer and also contains this one. Opens mid-sentence ('And Baruch Hashem, here we are...') right after the show greeting."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:45Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Tu%20B%27Shvat%20-%20Rosh%20Hashanah%20for%20the%20Trees%20%28Ep%20209%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tu B'Shvat - Rosh Hashanah for the Trees (Ep 209) (other version).mp3",
+  "size_bytes": 3789712,
+  "mime_type": "audio/mpeg"
+ }
+}

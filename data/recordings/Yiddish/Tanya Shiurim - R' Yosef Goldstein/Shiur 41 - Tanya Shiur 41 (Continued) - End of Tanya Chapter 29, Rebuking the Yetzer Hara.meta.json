@@ -1,0 +1,385 @@
+{
+ "id": "ac3847e263",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "41 end P29",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 41 - Tanya Shiur 41 (Continued) - End of Tanya Chapter 29, Rebuking the Yetzer Hara.mp3",
+  "duration_sec": 2874.253,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 41 (Continued): End of Tanya Chapter 29, Rebuking the Yetzer Hara",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur finishing Tanya chapter 29: shout down the yetzer hara, never make peace with it, and remember that every Jew is a believer, with a story from the Baal Shem Tov's time.",
+  "summary_long": "The next shiur in Rabbi Yosef Goldstein's Yiddish Tanya series, completing Tanya chapter 29. The soul's light must shine through the body and the world. Chassidus does not torment the body as some mussar paths do; it refines it, so one eats, drinks and sleeps as a Jew should. Against the yetzer hara, though, the Alter Rebbe's advice is to rouse oneself and rebuke it sharply, the way an animal runs from a person who shouts. A parable of a father and son stranded on an island teaches not to grow used to galus, and there can be no peace between the yetzer tov and the yetzer hara, just as Yaakov and Esav struggled. Moshe's sharp rebuke of the spies stripped away the tarnish and revealed their faith, like gold under rust. A story from the Baal Shem Tov's time tells of a poor melamed threatened with molten lead unless he bowed to an idol; he stood firm, and the official turned out to be an orphan he had once raised, giving him a chance at mesiras nefesh. Overcoming any hard mitzvah is also mesiras nefesh. The yetzer hara itself has no doubts and really wants to be refused, like the harlot in the Zohar's parable. The shiur closes by introducing chapter 30: be humble before every person.",
+  "lesson": "Do not make peace with the yetzer hara: rebuke it firmly, because a Jew at his core is a believer and is ready even for mesiras nefesh.",
+  "keywords": [
+   "yetzer hara",
+   "rebuke",
+   "desert island",
+   "galus",
+   "spies",
+   "gold cup",
+   "melamed",
+   "molten lead",
+   "mesiras nefesh",
+   "harlot and the prince",
+   "humility"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "mashal_parable",
+   "tanach_midrash"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1977-01",
+   "hebrew": "Teves 5737",
+   "hebrew_year": 5737,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "Follows '41 P29', two to three shiurim after shiur 39 (Chanukah 5737); no date stated in this recording."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "29",
+    "to": "30",
+    "lecture_number": 41,
+    "note": "End of chapter 29 and the opening line of chapter 30; filename numbers it 41, but it is the session after '41 P29'."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "A melamed is ordered to bow to an idol and threatened with being made to drink molten lead; it turns out to be honey.",
+    "at_sec": 1739
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A cruel poritz beats his wife and children; an orphaned child is taken in by a melamed.",
+    "at_sec": 2098
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "A child is ashamed of his father's drinking.",
+    "at_sec": 2582
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a poor melamed",
+   "the official, once an orphan in the melamed's care",
+   "the priest",
+   "a father and son on a desert island",
+   "the spies",
+   "the harlot and the king's son"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "mesiras_nefesh_kiddush_hashem",
+   "emunah_bitachon",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "self_control",
+   "emunah",
+   "mesiras_nefesh",
+   "courage",
+   "anavah"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "tehillim",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 29; ch. 30"
+   },
+   {
+    "work": "zohar",
+    "note": "The soul's light; the parable of the harlot and the king's son"
+   },
+   {
+    "work": "gemara",
+    "ref": "Berachos 5a; Kiddushin 30b"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 9:2; Bereishis 25:22; Bamidbar 14"
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 23:8"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:10"
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Story from the time of the Baal Shem Tov"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 621,
+   "type": "text_study",
+   "title": "End of Tanya chapter 29: rebuking the yetzer hara",
+   "summary": "Chassidus refines the body rather than tormenting it, but the yetzer hara must be shouted down, as an animal flees from a person."
+  },
+  {
+   "start_sec": 621,
+   "end_sec": 917,
+   "type": "story",
+   "title": "The father and son on the desert island",
+   "summary": "A father grieves when his son finally gets used to eating grass like the animals, a parable for growing used to galus."
+  },
+  {
+   "start_sec": 917,
+   "end_sec": 1739,
+   "type": "text_study",
+   "title": "The spies and the gold under the rust",
+   "summary": "Moshe's rebuke broke the spies' kelipah and revealed their faith, like scraping rust off a gold cup."
+  },
+  {
+   "start_sec": 1739,
+   "end_sec": 2252,
+   "type": "story",
+   "title": "The Baal Shem Tov's messenger and the molten lead",
+   "summary": "A poor melamed sent to plead for his town refuses to bow to an idol even under threat, and learns the official was an orphan he once raised.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 2252,
+   "end_sec": 2373,
+   "type": "talk",
+   "title": "Mesiras nefesh in everyday mitzvos",
+   "summary": "Pushing past reluctance, for example to say all of Tehillim on Shabbos Mevarchim, is also a kind of mesiras nefesh."
+  },
+  {
+   "start_sec": 2373,
+   "end_sec": 2819,
+   "type": "text_study",
+   "title": "The yetzer hara wants to be refused",
+   "summary": "The sitra achra has no doubts in Hashem; like the harlot in the Zohar's parable, it tempts only so that a person will refuse and earn reward."
+  },
+  {
+   "start_sec": 2582,
+   "end_sec": 2670,
+   "type": "story",
+   "title": "The child and his father who drank",
+   "summary": "A boy shows his father a drunk lying in the street to warn him, but the father only asks where the drunk got his liquor."
+  },
+  {
+   "start_sec": 2819,
+   "type": "text_study",
+   "title": "Introducing Tanya chapter 30: humble before every person",
+   "summary": "The next chapter asks for lowliness of spirit before everyone, to be studied the following week."
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "5d3657a190",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'41 P29' ends with the spies and announces that chapter 29 will be finished next week; this recording finishes it, recapping the spies."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "192b60591a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 543: Reb Asher the Melamed, Chapter 3 (Elul)' (episode 543, 14:10-25:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "d55facca63",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 542: Reb Asher the Melamed, Chapter 2 (Shabbos Mevarchim Elul)' (episode 542, 15:12-22:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "09074ce59f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Rabbi Akiva's Negel Vasser, Ahavas Yisroel and the Drunken Father' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "276c6bf981",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 486: Rabbi Akiva's Negel Vasser and the Drunken Father (The Three Weeks)' (episode 486, 16:20-23:03), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "28133bf24a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 539: Rabbi Akiva's Negel Vasser and the Drunken Father (The Three Weeks)' (episode 539, 16:27-23:13), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "4d19621b73",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 135: Rabbi Akiva in Prison and The Drunken Father (The Three Weeks)' (episode 135, 19:06-26:14), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "59ebaba0bf",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Drunken Father (The Three Weeks)' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "86349c08d6",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Drunken Father' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "8ae1d03037",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 436: Rabbi Akiva's Negel Vasser and the Drunken Father (The Three Weeks)' (episode 436, 18:43-26:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "bc5773ec17",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 236: The Drunken Father (The Three Weeks)' (episode 236, 17:00-23:42), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 387: Rabbi Akiva's Negel Vasser and the Drunken Father (The Three Weeks)' (episode 387, 17:05-26:25), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR repetition loop at about 9:23. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:39Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Filename numbers it 41 like '41 P29', but it is the following session; check numbering.",
+   "Date estimated from the series sequence only."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2041%20-%20Tanya%20Shiur%2041%20%28Continued%29%20-%20End%20of%20Tanya%20Chapter%2029%2C%20Rebuking%20the%20Yetzer%20Hara.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 41 - Tanya Shiur 41 (Continued) - End of Tanya Chapter 29, Rebuking the Yetzer Hara.mp3",
+  "size_bytes": 34491884,
+  "mime_type": "audio/mpeg"
+ }
+}

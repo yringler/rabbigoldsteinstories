@@ -1,0 +1,219 @@
+{
+ "id": "23222842bb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The mysterious mission",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Mysterious Mission.mp3",
+  "duration_sec": 1171.725,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Mysterious Mission",
+  "title_basis": "filename",
+  "summary_short": "The Baal Shem Tov takes his students to an empty field just to daven Mincha and say brachos, then reveals the story of the hidden Jew buried there.",
+  "summary_long": "After the song \"I Believe in Hashem\", the storyteller describes the Baal Shem Tov's wondrous wagon, whose horses find their own way while the driver sleeps. One day it stops in an empty field. The Baal Shem Tov and his students daven Mincha, eat, say brachos, and pour a little mashkeh into the ground with a \"L'chaim\", then turn to go home. Seeing his students puzzled, the Baal Shem Tov tells the story behind the trip. A Torah scholar, Reb Yaakov, supported by his wife's store, is befriended by a scheming priest, who invites him to recover from an illness at his country home and bribes the cook to put non-kosher meat in his food. His spirit weakened, Reb Yaakov is drawn away from his people and marries the priest's daughter. Years later he finds his old watchman weeping: the man is a secret Jew, a Marrano, crying out on Yom Kippur. Reb Yaakov breaks down, flees to another land and does teshuvah; his wife, moved, later converts. The old watchman sets out on foot to do teshuvah too, but dies on the way, in that very field. The students' davening and brachos at his grave lift his neshamah to Gan Eden.",
+  "lesson": "Kosher food guards a Jew's neshamah, and every Jew can return to Hashem. Davening and brachos said with care can help another neshamah.",
+  "keywords": [
+   "wagon driver",
+   "empty field",
+   "Mincha",
+   "l'chaim",
+   "priest",
+   "non-kosher meat",
+   "Marrano",
+   "Yom Kippur",
+   "grave",
+   "Gan Eden"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "A priest tricks a Torah scholar into eating non-kosher food and leaving his people; he later returns."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Marranos had to hide that they were Jews."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "An old man dies on his journey to do teshuvah."
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "Angels debate whether a neshamah may enter Gan Eden."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A husband abandons his wife and lives among non-Jews."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Alexei the wagon driver",
+   "Reb Dovid the merchant",
+   "his daughter Esther",
+   "Reb Yaakov the scholar",
+   "the priest",
+   "the cook",
+   "the priest's daughter",
+   "the old watchman, a Marrano"
+  ],
+  "topics": [
+   "teshuvah",
+   "baal_shem_tov_and_students",
+   "kashrus",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "self_control"
+  ],
+  "mitzvos": [
+   "kashrus",
+   "teshuvah",
+   "brachos",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Spain"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 46,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 258,
+   "type": "story",
+   "title": "The trip to an empty field",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 258,
+   "type": "story",
+   "title": "The Baal Shem Tov's story: the scholar, the priest and the watchman",
+   "people": [
+    "baal_shem_tov"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends when the story ends, no sign-off. Contains an aside on converts that a reviewer may want to check."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem. There never is a moment when that I am alone.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "180fa300d7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 22: Chapters 5 and 6, Torah as Food for the Soul and Zeh L'umas Zeh' (Stories, 45:14-55:24), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cff49c519a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Baal Shem Tov's L'chaim in the Forest' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Mysterious%20Mission.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Mysterious Mission.mp3",
+  "size_bytes": 14061752,
+  "mime_type": "audio/mpeg"
+ }
+}

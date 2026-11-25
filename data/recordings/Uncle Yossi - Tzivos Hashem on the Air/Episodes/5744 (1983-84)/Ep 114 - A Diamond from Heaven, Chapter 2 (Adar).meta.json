@@ -1,0 +1,319 @@
+{
+ "id": "5a4ae6ea03",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "114",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 114 - A Diamond from Heaven, Chapter 2 (Adar).mp3",
+  "duration_sec": 1848.333,
+  "filename_facts": {
+   "episode_number": 114,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 114,
+   "story": "A diamond from heaven #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 114: A Diamond from Heaven, Chapter 2 (Adar)",
+  "title_basis": "master_catalog",
+  "summary_short": "Rashi's father lets a priceless diamond fall into the sea rather than adorn an idol, and is blessed with a son who lights up the world. Plus a visit to a shmurah matzah flour mill.",
+  "summary_long": "Broadcast in Adar I 5744. After the Hakochainik march and a sponsor, a young girl leads the Shema in Studio 604. Story time continues 'A Diamond from Heaven' with the Baal Shem Tov's teaching that every Jew holds hidden treasures, which come out through mitzvos and through passing Hashem's tests. Rabbi Yitzchak, offered a fortune by the governor for a diamond meant to adorn an idol, decides he would rather stay poor and return the stone to Hashem. On the governor's porch over the sea, he offers to show its colors in the sunlight and lets it slip into the waves. The next day in shul a heavenly voice tells him he will be rewarded with a son who will light up the world with Torah; a year later Rashi is born. After a sponsor, a guest rabbi describes a water-powered mill in Newburgh, New York, where wheat for shmurah matzah is guarded and ground, and a film about the process that schools can arrange to see. The show ends with another sponsor and Dial-a-Jewish-Story.",
+  "lesson": "Giving up something precious for Hashem's honor brings a reward greater than any diamond.",
+  "keywords": [
+   "diamond",
+   "governor",
+   "idol",
+   "sea",
+   "heavenly voice",
+   "birth of Rashi",
+   "shmurah matzah",
+   "flour mill",
+   "Newburgh",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 114,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-02",
+   "hebrew": "Adar I 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'Right in the middle of Chodesh Adar'; a sponsor sale runs 'till February 15'; episode 115 confirms a leap year (5744). Likely Feb 1984."
+  },
+  "serial": {
+   "story_key": "a-diamond-from-heaven",
+   "story_title": "A Diamond from Heaven",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew risks a governor's anger rather than let his diamond adorn an idol.",
+    "at_sec": 910
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 354
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_yitzchak_father_of_rashi",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the governor",
+   "the governor's messengers"
+  ],
+  "topics": [
+   "mesiras_nefesh_kiddush_hashem",
+   "great_rabbis",
+   "calendar"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "emunah",
+   "bitachon",
+   "courage"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "tehillim",
+   "matzah",
+   "shema"
+  ],
+  "calendar": [
+   "adar",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: every Jew is 'eretz chefetz', a land full of hidden treasures."
+   },
+   {
+    "work": "siddur",
+    "note": "'Asher kideshanu b'mitzvosav' in the brachah before a mitzvah."
+   }
+  ],
+  "places": [
+   "Newburgh, New York"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 80,
+   "type": "opening",
+   "title": "Greeting in the month of Adar",
+   "calendar": [
+    "adar"
+   ]
+  },
+  {
+   "start_sec": 80,
+   "end_sec": 200,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 200,
+   "end_sec": 324,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 324,
+   "end_sec": 465,
+   "type": "shema_guest",
+   "title": "Shema with a guest in Studio 604"
+  },
+  {
+   "start_sec": 465,
+   "end_sec": 1240,
+   "type": "story_chapter",
+   "title": "A Diamond from Heaven, Chapter 2",
+   "summary": "Rabbi Yitzchak drops the diamond into the sea rather than adorn an idol, and is blessed with a son, Rashi.",
+   "people": [
+    "rabbi_yitzchak_father_of_rashi",
+    "rashi",
+    "baal_shem_tov"
+   ],
+   "story_key": "a-diamond-from-heaven",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1240,
+   "end_sec": 1335,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1335,
+   "end_sec": 1660,
+   "type": "talk",
+   "title": "A visit to a shmurah matzah flour mill",
+   "summary": "A guest rabbi describes how wheat for shmurah matzah is guarded and ground at a water-powered mill, and a film of the process.",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1660,
+   "end_sec": 1746,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1746,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "9f2e683d65",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 113 = 'A diamond from heaven #1', 114 = '#2'; recaps the governor's request."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "9f2e683d65",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Two-chapter serial, episodes 113-114."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "5e3346ab8e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Rashi's Father and the Precious Diamond' (Stories), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "a06fb5b0d9",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby Chaya Malka's Yiddish Stories, Part 1' (Stories, 7:58-14:42), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 12:15-19:25), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Four sponsor messages (cheese, pizza, children's clothing) and a film offer are period pieces. The Shema guest's self-introduction is not transcribed. Guest rabbi interviewed about the matzah mill."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rachel Minkowitz",
+    "role": "shema_guest",
+    "start_sec": 354,
+    "end_sec": 465
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:37Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20114%20-%20A%20Diamond%20from%20Heaven%2C%20Chapter%202%20%28Adar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 114 - A Diamond from Heaven, Chapter 2 (Adar).mp3",
+  "size_bytes": 22180997,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "id": "65cc733f61",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "shmuel hanovie",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Chana's Prayer and Shmuel HaNavi.mp3",
+  "duration_sec": 417.959,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "duplicate copy 432c8aa752 was filed under 'Stories/אידיש/Yiddish stories/Bubby Chaya Malka etc' (language guess there: yiddish)"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Chana's Prayer and Shmuel HaNavi",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish story told by a grandmother: Chana prays for a child, brings little Shmuel to Eli HaKohen in the Beis HaMikdash, and Shmuel hears Hashem calling him at night.",
+  "summary_long": "Told in Yiddish by a grandmother to her grandchildren. Chana, a deeply religious woman in Eretz Yisroel, has no children and comes again and again to the Beis HaMikdash to pray. One day she prays silently, and old Eli HaKohen, who cannot see well, thinks she is drunk. She explains that she is not drunk from wine but from her troubles, and Eli blesses her that within the year she will have a son. Chana promises to bring the boy to the Beis HaMikdash to learn Torah and serve Hashem. She has a son, Shmuel, and raises him to do mitzvos, keep Shabbos carefully, eat only kosher food and obey his parents. At three she brings him to Eli, and he learns and serves there. When Shmuel is older, he hears his name called at night, washes negel vasser, and runs to Eli, who says he did not call. The third time Eli tells him it is Hashem's voice and to answer 'Hineni'. Hashem tells Shmuel that he is a navi and will anoint the next king of Israel.",
+  "lesson": "Hashem hears heartfelt prayer; a child raised with Torah and mitzvos can grow into a great tzaddik.",
+  "keywords": [
+   "Chana",
+   "Eli HaKohen",
+   "prayer",
+   "baby",
+   "voice at night",
+   "Hineni",
+   "navi",
+   "anointing a king"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Excerpt of a grandmother's home recording for her grandchildren; no names in this excerpt."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "chana_mother_of_shmuel",
+    "role": "central"
+   },
+   {
+    "id": "shmuel_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "eli_hakohen",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Eli HaKohen"
+  ],
+  "topics": [
+   "tanach",
+   "prayer_and_brachos",
+   "family_and_home"
+  ],
+  "midos": [
+   "emunah",
+   "kibbud",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study",
+   "chinuch",
+   "negel_vasser",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "the Beis HaMikdash"
+  ],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'Bubby Chaya Malka yiddish stories' (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete story. In the source recordings it spans the break between 'Bubby Chaya Malka 1' and '2'. The grandmother says Beis HaMikdash for the Mishkan in Shiloh."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:05Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Chana%27s%20Prayer%20and%20Shmuel%20HaNavi.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Chana's Prayer and Shmuel HaNavi.mp3",
+  "size_bytes": 5016272,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "id": "cb18bbc23d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Tikkun Layl Shavuos",
+  "audio_path": "audio/Other Stories/Matzliach's Tikkun Leil Shavuos.mp3",
+  "duration_sec": 1404.131,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Matzliach's Tikkun Leil Shavuos",
+  "title_basis": "content",
+  "summary_short": "A generous antique dealer in Tunis, now penniless before Shavuos, gives away his wife's pawned jewelry money for pidyon shvuyim, and the king himself provides for his Yom Tov.",
+  "summary_long": "Matzliach, an antique dealer in Tunis, loves the Torah and honors Torah scholars. Every first night of Shavuos he hosts ten poor talmidei chachamim who learn the Tikkun all night at his table, with sweets so no one thinks of sleeping. The story explains why we stay up that night: to make up for the Jews sleeping before Matan Torah. One year his business fails, and with no money for Yom Tov his devoted wife gives him her jewelry to pawn. On the way home with the money he meets the Rav, Rabbi Yitzchak Tayeb, who is collecting to free a prisoner, and Matzliach gives him every coin. As he stands wondering what to tell his wife, a royal minister asks him to find an antique coffee set fit for the king. Matzliach finds one, the delighted king pays three times its price and sends flour, oil and two lambs for the holiday. Matzliach pays his debts, redeems the jewelry, gives the Rav double, and the family celebrates their happiest Shavuos with even more guests.",
+  "lesson": "Love the Torah and give generously even when it is hard; Hashem repays a mitzvah done with self-sacrifice many times over.",
+  "keywords": [
+   "antique dealer",
+   "Tikkun",
+   "staying up all night",
+   "pawn shop",
+   "jewelry",
+   "coffee set",
+   "king",
+   "Tunis",
+   "Torah scholars",
+   "freeing a prisoner"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "The family loses its money before Yom Tov; resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Matzliach the antique dealer",
+   "Mazal, his wife",
+   "Rabbi Yitzchak Tayeb",
+   "Suleiman the minister",
+   "the king of Tunis"
+  ],
+  "topics": [
+   "torah_study",
+   "kindness_and_community",
+   "hashgacha_pratis",
+   "calendar"
+  ],
+  "midos": [
+   "generosity",
+   "mesiras_nefesh",
+   "bitachon",
+   "simcha",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "tzedakah",
+   "hachnasas_orchim",
+   "torah_study"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Tunis"
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song or sign-off; starts directly with the story. Filename is the holiday name, not the story title."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator not identified: no theme song, name or sign-off; style resembles the scripted radio stories. Series left null."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:54Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Matzliach%27s%20Tikkun%20Leil%20Shavuos.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Matzliach's Tikkun Leil Shavuos.mp3",
+  "size_bytes": 16850373,
+  "mime_type": "audio/mpeg"
+ }
+}

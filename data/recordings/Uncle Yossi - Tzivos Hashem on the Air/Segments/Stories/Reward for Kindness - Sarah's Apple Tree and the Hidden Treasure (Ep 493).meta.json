@@ -1,0 +1,170 @@
+{
+ "id": "4ae3b5e23e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "Reward for Kindness 493",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Reward for Kindness - Sarah's Apple Tree and the Hidden Treasure (Ep 493).mp3",
+  "duration_sec": 562.894,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 493,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 493,
+   "story": "The hidden treasure",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reward for Kindness: Sarah's Apple Tree and the Hidden Treasure",
+  "title_basis": "filename",
+  "summary_short": "Sarah shares her pennies and her apple tree's fruit with the poor. When a storm knocks the tree down, she learns that whatever Hashem does is for the good.",
+  "summary_long": "A story about tzedakah from the Tzivos Hashem radio show. Uncle Yossi explains that of all 613 mitzvos, tzedakah is so treasured that the Geulah will come in its merit. Sarah is a kind girl whose father works hard and barely supports the family, yet gives her a few pennies each day. She puts them in her pushka or gives them to beggars with a blessing. When the apples on the tall tree behind her house ripen, she fills a yellow basket and brings them to poor families, teaching them to say the brachah and to thank Hashem rather than her. One night a fierce storm blows the tree down, and Sarah cries that she has nothing left to give. Her father reminds her that whatever Hashem does is good. When she goes out to gather any apples left on the ground, they discover a hidden treasure of gold and jewels in the hole torn open by the roots, and Sarah's first thought is that now she can give more tzedakah than ever.",
+  "lesson": "Give tzedakah gladly, even when you have little; whatever Hashem does is for the good, and He repays kindness many times over.",
+  "keywords": [
+   "apple tree",
+   "storm",
+   "hidden treasure",
+   "yellow basket",
+   "pennies",
+   "pushka",
+   "beggars"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 493,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-08-20",
+   "hebrew": "10 Elul 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 493, from which the clip is cut (Elul 5751). The same story also aired in episodes 140 and 403."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Sarah",
+   "Sarah's father",
+   "the poor families"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "hashgacha_pratis",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "generosity",
+   "chesed",
+   "bitachon",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins on the word 'Storytime' (clip cut just after the lead-in)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "3c9dede9f4",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 403."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "58a54533f7",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 140."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "73969d53dd",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 580,
+   "note": "Episode 493 (filename number); clip = 580-1143 s of the episode."
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:10Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/Reward%20for%20Kindness%20-%20Sarah%27s%20Apple%20Tree%20and%20the%20Hidden%20Treasure%20%28Ep%20493%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Reward for Kindness - Sarah's Apple Tree and the Hidden Treasure (Ep 493).mp3",
+  "size_bytes": 6755764,
+  "mime_type": "audio/mpeg"
+ }
+}

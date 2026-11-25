@@ -1,0 +1,286 @@
+{
+ "id": "3c9dede9f4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "403",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 403 - The Hidden Treasure (Parshas Vayeira) (1989-11-14).mp3",
+  "duration_sec": 1810.806,
+  "filename_facts": {
+   "episode_number": 403,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 403,
+   "story": "The hidden treasure",
+   "topic": "צדקה, וירא",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 403: The Hidden Treasure (Parshas Vayeira)",
+  "title_basis": "master_catalog",
+  "summary_short": "Avraham Avinu's love of kindness in Parshas Vayeira, and the story of Sarah, a girl who shared apples with the poor and found a treasure when her apple tree fell.",
+  "summary_long": "Broadcast on 16 Cheshvan 5750, the week of Parshas Vayeira. Uncle Yossi explains why it matters to know the week's sedra and its lesson. Avraham Avinu was a man of chesed who set up a tent by the road to feed travelers and teach them to thank Hashem. On the hot day after his bris, when no guests came, missing the mitzvah pained him more than the bris itself, so Hashem sent three angels dressed as travelers. As Avraham's children, we can do kindness at home, with siblings and in school. Then come the Hakochainik march and the Shema with a yeshivah student. The story: Sarah, from a poor family, gives her pennies to tzedakah and shares the apples from her backyard tree with hungry neighbors, teaching them the brachah. A storm uproots the tree and she is heartbroken, but her father reminds her that whatever Hashem does is good, and in the hole left by the roots they find a chest of treasure. Uncle Yossi recalls the Rebbe's blessing that 5750 be a year of miracles, everyone gives a coin to the pushka, and the mailbox brings a request for a brachah before a Chumash test.",
+  "lesson": "Be a child of Avraham: look for chances to do kindness and give tzedakah, and trust that whatever Hashem does is for the good.",
+  "keywords": [
+   "apple tree",
+   "storm",
+   "hidden treasure",
+   "yellow basket",
+   "tent by the road",
+   "three angels",
+   "pushka",
+   "year of miracles",
+   "Chumash test"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 403,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-11-14",
+   "hebrew": "16 Cheshvan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tuesday... November 14th... the 16th of Cheshvan', week of Parshas Vayeira."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and a letter writer named in full.",
+    "at_sec": 735
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Sarah (Sarala)",
+   "Sarah's father"
+  ],
+  "topics": [
+   "parsha",
+   "kindness_and_community",
+   "emunah_bitachon",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_orchim",
+   "gemilus_chasadim",
+   "brachos",
+   "kibbud_av_vaem",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeira"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 18 and 21:2-5",
+    "note": "Avraham at the door of his tent; the birth of Yitzchak."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750 as 'a year of miracles'",
+    "note": "The letters of the year read as 'it will be a year of miracles'."
+   },
+   {
+    "work": "gemara",
+    "note": "'Yisroel will be redeemed only through tzedakah', quoted as a saying of the Sages."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 15,
+   "end_sec": 40,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 505,
+   "type": "talk",
+   "title": "Vayeira: Avraham Avinu, the Man of Kindness",
+   "summary": "Knowing the week's sedra; Avraham's tent for travelers, the angels after his bris, and how children can do chesed today.",
+   "people": [
+    "avraham_avinu"
+   ],
+   "linked_items": [
+    "b61eb257d3"
+   ]
+  },
+  {
+   "start_sec": 505,
+   "end_sec": 677,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 706,
+   "end_sec": 875,
+   "type": "shema_guest",
+   "title": "Shema with a yeshivah student"
+  },
+  {
+   "start_sec": 875,
+   "end_sec": 1480,
+   "type": "story",
+   "title": "The Hidden Treasure",
+   "summary": "Sarah shares her apples and pennies with the poor; when a storm fells her tree, a treasure is found beneath it.",
+   "story_key": "the-hidden-treasure"
+  },
+  {
+   "start_sec": 1480,
+   "end_sec": 1575,
+   "type": "tzedakah",
+   "title": "A Year of Miracles: Coins in the Pushka",
+   "summary": "The Rebbe's blessing that 5750 be a year of miracles, and everyone gives tzedakah together.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1575,
+   "end_sec": 1692,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A listener asks for a brachah before her Chumash test."
+  },
+  {
+   "start_sec": 1692,
+   "end_sec": 1720,
+   "type": "announcement",
+   "title": "Shabbos times"
+  },
+  {
+   "start_sec": 1720,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "b61eb257d3",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "'Vayera 403' = 47-508 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guest and letter writer named on air (see hidden). Candle-lighting time is not transcribed (gap at 28:12-28:28); only the Shabbos-ends time is."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Ben Zion Korf",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah",
+    "start_sec": 735,
+    "end_sec": 875
+   },
+   {
+    "name": "Sheila Greenstein",
+    "role": "mailbox_letter",
+    "group": "Forest Hills, Queens",
+    "start_sec": 1622,
+    "end_sec": 1692,
+    "note": "Asked for a brachah for her Chumash test."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20403%20-%20The%20Hidden%20Treasure%20%28Parshas%20Vayeira%29%20%281989-11-14%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 403 - The Hidden Treasure (Parshas Vayeira) (1989-11-14).mp3",
+  "size_bytes": 21730541,
+  "mime_type": "audio/mpeg"
+ }
+}

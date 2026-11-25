@@ -1,0 +1,152 @@
+{
+ "id": "6d8a16d892",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Lag Ba'Omer 529",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Lag BaOmer - The Day of Rabbi Shimon bar Yochai's Joy (Ep 529).mp3",
+  "duration_sec": 155.833,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 529,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 529,
+   "story": "The Rambam’s grave #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Lag BaOmer: The Day of Rabbi Shimon bar Yochai's Joy",
+  "title_basis": "content",
+  "summary_short": "Why Lag BaOmer, the yahrzeit of Rabbi Shimon bar Yochai, is a day of happiness, and how thousands celebrate at his resting place in Meron.",
+  "summary_long": "A short Lag BaOmer talk from the Tzivos Hashem radio show, recorded the week of the holiday. Uncle Yossi explains that the 33rd day of the Omer is the yahrzeit of the great Tanna Rabbi Shimon bar Yochai, the Rashbi. The Rashbi himself asked that the day be spent in joy and called it the day of his simcha, so it is a special merit to be happy on Lag BaOmer, rejoicing together with the Rashbi and all the tzaddikim. In Eretz Yisroel, thousands of Jews from all over the world come to his resting place in Meron, where they pray, sing and dance, and ask Hashem to bring the Rashbi back to life with the coming of Moshiach. His son, Rabbi Elazar, is buried there too.",
+  "lesson": "Lag BaOmer is a day to be truly happy, together with the Rashbi.",
+  "keywords": [
+   "Rashbi",
+   "Meron",
+   "33rd day of the Omer",
+   "yahrzeit",
+   "dancing",
+   "joy"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 529,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-05-19",
+   "hebrew": "16 Iyar 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Episode 529 gives Lag BaOmer as 'this coming Thursday, May 21st'."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "sages",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "lag_baomer",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Meron"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "070e12f2ca",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "offset_sec": 29,
+   "note": "Episode 529 (filename number); clip = 29-185 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Says 'this coming Thursday'; label as recorded the week of Lag BaOmer 5752."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:16:28Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Lag%20BaOmer%20-%20The%20Day%20of%20Rabbi%20Shimon%20bar%20Yochai%27s%20Joy%20%28Ep%20529%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Lag BaOmer - The Day of Rabbi Shimon bar Yochai's Joy (Ep 529).mp3",
+  "size_bytes": 1870967,
+  "mime_type": "audio/mpeg"
+ }
+}

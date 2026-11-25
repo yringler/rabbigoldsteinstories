@@ -1,0 +1,195 @@
+{
+ "id": "7dcee8e50f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Purim Song 369",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Extras/Purim Songs with Graggers.mp3",
+  "duration_sec": 183.188,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 369,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 369,
+   "story": "I love Hashem",
+   "topic": "פורים song",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "little_speech_maybe_song"
+  ]
+ },
+ "display": {
+  "title": "Purim Songs with Graggers",
+  "title_basis": "content",
+  "summary_short": "A Purim sing-along from Uncle Yossi's show: everyone spins their graggers to 'Chag Purim', followed by a second Purim song from a guest singer.",
+  "summary_long": "A short musical clip from the Purim broadcast of Tzivos Hashem on the Air. It opens in the middle of the sing-along of 'Chag Purim', with Uncle Yossi calling on all the listeners to spin their graggers together at the words 'rash, rash, rash'. Because everyone did so well, he treats them to another song, and a guest singer in Studio 604 sings a lively song in honor of Purim. The clip is almost entirely music, so the automatic transcript holds only Uncle Yossi's few words between the songs. It is a cheerful way for young children to feel the simchah of Purim, when it is a mitzvah to be happy.",
+  "lesson": null,
+  "keywords": [
+   "gragger",
+   "Chag Purim song",
+   "sing-along",
+   "Purim songs",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "song",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-03-21",
+   "hebrew": "14 Adar 2 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 369, dated 21 March 1989 (Purim) in its filename; the songs were also used in earlier Purim shows."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 369,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Guest singer named on air.",
+    "at_sec": 95
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "c1bc5d8609",
+   "evidence": "text_overlap",
+   "confidence": 0.67,
+   "offset_sec": 658,
+   "note": "Episode 369 (filename number); clip = 658-841 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5120830d37",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "The same gragger sing-along with the same guest singer is in episode 218."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "1658b83955",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "The same gragger sing-along is in episode 166."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "964b1d68cc",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "The same gragger sing-along is in episode 419."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e39943b482",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "The same gragger sing-along is in episode 13."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5bcc2b3a95",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "The same gragger sing-along is in episode 14."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "poor",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mostly singing; starts mid-song. Transcript has only the spoken link between songs."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Elchanan Fogelman",
+    "role": "visitor",
+    "group": "guest singer in Studio 604",
+    "start_sec": 95,
+    "end_sec": 183
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Song titles inferred from the episode; the second song is not named clearly."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:08:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Extras/Purim%20Songs%20with%20Graggers.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Extras/Purim Songs with Graggers.mp3",
+  "size_bytes": 2199168,
+  "mime_type": "audio/mpeg"
+ }
+}

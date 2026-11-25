@@ -1,0 +1,201 @@
+{
+ "id": "4c6faa00d3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Water Carrier",
+  "audio_path": "audio/Other Stories/The Water Carrier.mp3",
+  "duration_sec": 1588.656,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Water Carrier",
+  "title_basis": "filename",
+  "summary_short": "A simple, sincere water carrier in Tarnow gives up his best customers to bring water to the shuls for free, and Hashem rewards him with two sons who become great tzaddikim.",
+  "summary_long": "Eliezer Lipa, an orphan from near Tarnow in Galicia, grows up with little learning but davens and says Tehillim with all his heart. He works with his hands, and after many years he and his wife have two sons who are weak and struggle in their studies. One day in the marketplace a humble stranger tells the Midrash of a poor man whose few greens, given with a full heart, were dearer to Hashem than a rich man's offering. Inspired, Eliezer Lipa trades his four best-paying customers to the other water carrier for the four shuls, which he supplies for free, and his wife joins in the sacrifice. Their sons go off to yeshiva and succeed, and the couple take in two yeshiva students. When he finds a precious gem in a fish for Shabbos, and later a jar of gold coins, they fear a test, remember the story of the Tanna's golden table leg, ask the Rav, and give the money to tzedakah. In old age they inherit an uncle's farm and house Torah scholars there. The stranger was the Baal Shem Tov, and their sons were Rabbi Elimelech of Lizhensk and Rabbi Zusha of Anipoli.",
+  "lesson": "Hashem treasures sincere, wholehearted service from every Jew, and parents who sacrifice for mitzvos are blessed with children who grow in Torah.",
+  "keywords": [
+   "water carrier",
+   "four shuls",
+   "horse and cart",
+   "fish",
+   "precious stone",
+   "gold coins",
+   "golden table leg",
+   "poor man's greens",
+   "Tarnow"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "The hero is orphaned as a baby, and the family lives in poverty for many years."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_elimelech_of_lizhensk",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Eliezer Lipa, the water carrier",
+   "his wife",
+   "Zalman Dov, the other water carrier",
+   "Rabbi Gedalia the melamed",
+   "the Rav of Tarnow",
+   "two yeshiva students"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "kindness_and_community",
+   "family_and_home"
+  ],
+  "midos": [
+   "anavah",
+   "mesiras_nefesh",
+   "emes",
+   "contentment",
+   "generosity"
+  ],
+  "mitzvos": [
+   "kavod_shul",
+   "tzedakah",
+   "chinuch",
+   "torah_study",
+   "tehillim",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Tarnow",
+   "Galicia"
+  ],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "The poor man's greens that led the rich man's bull to the Beis HaMikdash."
+   },
+   {
+    "work": "gemara",
+    "note": "The poor Tanna and the golden table leg (told without naming the source)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 285,
+   "type": "story",
+   "title": "An orphan who loved to daven",
+   "summary": "Eliezer Lipa grows up simple and sincere, works with his hands and has two sons."
+  },
+  {
+   "start_sec": 285,
+   "end_sec": 785,
+   "type": "story",
+   "title": "The stranger in the marketplace",
+   "summary": "A stranger's Midrash inspires Eliezer Lipa to bring water to the shuls for free."
+  },
+  {
+   "start_sec": 785,
+   "end_sec": 1290,
+   "type": "story",
+   "title": "The gem in the fish",
+   "summary": "A precious stone found in a Shabbos fish, and the story of the golden table leg."
+  },
+  {
+   "start_sec": 1290,
+   "type": "story",
+   "title": "The reward",
+   "summary": "The couple give their wealth to tzedakah, and their sons become great tzaddikim."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud style; no opening song or sign-off. A few words lost around 2:29 and 13:11."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator not identified; reads a written version of the story."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Water%20Carrier.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Water Carrier.mp3",
+  "size_bytes": 19064715,
+  "mime_type": "audio/mpeg"
+ }
+}

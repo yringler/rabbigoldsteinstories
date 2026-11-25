@@ -1,0 +1,284 @@
+{
+ "id": "b56d1794b6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "rashab hashavas aveida 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashavas Aveidah - The Rebbe Rashab's Chassid and the Lost Wallet, Part 2.mp3",
+  "duration_sec": 1238.65,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashavas Aveidah: The Rebbe Rashab's Chassid and the Lost Wallet, Part 2",
+  "title_basis": "filename",
+  "summary_short": "For Chof-Beis Shevat, Rebbetzin Chaya Mushka's sensitivity to others; then the Rebbe Rashab promises a Chassid ten times the reward he refused, and the blessing comes true.",
+  "summary_long": "In the week of Chof-Beis Shevat, the yahrzeit of Rebbetzin Chaya Mushka, the storyteller explains the Rebbe's words that the living should take it to heart: this world is like a marketplace, and only here, with a body, can we do mitzvos. He shares a story heard from a friend about how the Rebbetzin served a shy young guest ice cream herself, so he would get enough, and teaches the children to be sensitive to other people's feelings. Then the story continues from last week. Yeshua Binyamin tells the Rebbe Rashab of his troubles and, when asked, about the wallet he returned. The Rebbe Rashab says that because he refused payment for the mitzvah, Hashem will give him ten times as much, hands him a coin for blessing, and tells him to accept if he is offered a job as a chazzan. Leaders of a nearby community soon ask him to lead the davening for Rosh Hashanah and Yom Kippur. On the way home he visits a dying old wagon driver who mistakes him for his servant and reveals a wallet he once stole and hid under a rock. Inside are exactly three thousand rubles, with no way to find the owner.",
+  "lesson": "Be sensitive to other people's feelings, and a mitzvah done without wanting a reward brings Hashem's blessing many times over.",
+  "keywords": [
+   "ice cream",
+   "marketplace",
+   "chazzan",
+   "Rosh Hashanah",
+   "wagon driver",
+   "black dog",
+   "hidden wallet",
+   "three thousand rubles",
+   "coin"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "2020-02-17",
+   "hebrew": "Week of 22 Shevat 5780",
+   "hebrew_year": 5780,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'This week we celebrated Chof-Beis Shevat', Rebbetzin Chaya Mushka's passing in 5748 '32 years ago' (5780)."
+  },
+  "part": {
+   "set_key": "rashab-hashavas-aveida",
+   "part_number": 2,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A talk on passing away and the soul's return to Hashem; an old man near death in the story."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor family with no money for food, rent or tuition (recap)."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The old wagon driver says he spent all his money on vodka."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "The narrator names a friend in a true story about the Rebbetzin.",
+    "at_sec": 331
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Yeshua Binyamin, a poor Chassid",
+   "Pinchas Leib, the rich man",
+   "the community leaders",
+   "the old wagon driver",
+   "Vladik, his servant"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidim",
+   "character",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "emes",
+   "kabbalas_ol",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "hashavas_aveidah",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "chof_beis_shevat"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Lubavitch"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe repeated 'the living should take it to heart' after the Rebbetzin's passing."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 250,
+   "type": "talk",
+   "title": "Chof-Beis Shevat: the world is a marketplace",
+   "summary": "On Rebbetzin Chaya Mushka's yahrzeit: only in this world, with a body, can we do mitzvos.",
+   "people": [
+    "rebbetzin_chaya_mushka",
+    "the_rebbe"
+   ],
+   "calendar": [
+    "chof_beis_shevat"
+   ]
+  },
+  {
+   "start_sec": 250,
+   "end_sec": 489,
+   "type": "story",
+   "title": "The Rebbetzin and the ice cream",
+   "summary": "How Rebbetzin Chaya Mushka served a shy young guest herself, and why we should be sensitive to others' feelings.",
+   "people": [
+    "rebbetzin_chaya_mushka"
+   ]
+  },
+  {
+   "start_sec": 489,
+   "end_sec": 592,
+   "type": "story_intro",
+   "title": "Recap of part 1",
+   "summary": "The poor Chassid who returned a rich man's wallet and refused a reward."
+  },
+  {
+   "start_sec": 592,
+   "type": "story_chapter",
+   "title": "The lost wallet, Part 2",
+   "summary": "The Rebbe Rashab's blessing of ten times the reward comes true through a chazzan's job and a hidden wallet.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "56c2eaabb2",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 1 (24 min telling); this part recaps it and continues the story a week later."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "73edd7e5fc",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 1 (21 min telling); this part recaps it and continues the story a week later."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e1c8ec3388",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Ten Times As Much' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 0:30-4:53), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Story ends right after the three thousand rubles are counted; no separate closing. ASR writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Noach Holzman",
+    "role": "other",
+    "group": "the narrator's friend, whose family was close to the Rebbetzin",
+    "start_sec": 331,
+    "end_sec": 420
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "Now let's go to story time. Last week we told the story about Yeshua Binyamin",
+   "at_sec": 489
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:34Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "No 'I believe' opening song; series and narrator assigned from the weekly format. Confirm.",
+   "The narrator's friend is named in the Rebbetzin story (see hidden)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashavas%20Aveidah%20-%20The%20Rebbe%20Rashab%27s%20Chassid%20and%20the%20Lost%20Wallet%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashavas Aveidah - The Rebbe Rashab's Chassid and the Lost Wallet, Part 2.mp3",
+  "size_bytes": 14864863,
+  "mime_type": "audio/mpeg"
+ }
+}

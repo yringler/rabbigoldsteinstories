@@ -1,0 +1,169 @@
+{
+ "id": "b0deaef41d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "A Tzaddik Sees 16 years in The Future",
+  "audio_path": "audio/Other Stories/A Tzaddik Sees 16 Years into the Future - The Baal Shem Tov's Letter.mp3",
+  "duration_sec": 1046.57,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Tzaddik Sees 16 Years into the Future: The Baal Shem Tov's Letter",
+  "title_basis": "filename",
+  "summary_short": "A proud merchant who never says 'Baruch Hashem' forgets to deliver the Baal Shem Tov's letter for sixteen years, and finds it arrives exactly when it should.",
+  "summary_long": "Avigdor, a wealthy merchant from Brody, brings the Baal Shem Tov a large sum for tzedakah but wants no blessing: he credits his success to his own cleverness and never once says 'Baruch Hashem'. The Baal Shem Tov explains that Hashem waits to hear Jews praise Him in everyday conversation, and that 'Baruch Hashem' is more precious to Him than the praises of the angels. He then asks Avigdor to deliver a sealed letter to the head of the Brody community. Avigdor forgets both the lesson and the letter, left in the pocket of an old suit. Sixteen years later, after fire, shipwreck and unpaid debts have made him poor, he finds the letter while preparing to sell the suit, and regrets his pride. It is addressed to a modest tailor who always answered 'Thank G-d, I'm making a living', grew rich, and was elected head of the community that very morning. The letter asks him to help its bearer, and gives two signs, both fulfilled that day. The new leader welcomes Avigdor as a partner, and Avigdor says 'Baruch Hashem'.",
+  "lesson": "Every success comes from Hashem, so thank Him and say 'Baruch Hashem' often. A tzaddik sees far beyond what we can see.",
+  "keywords": [
+   "merchant",
+   "sealed letter",
+   "Baruch Hashem",
+   "old suit",
+   "tailor",
+   "community president",
+   "baby boy",
+   "Brody",
+   "rafts",
+   "trade fair"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A rich merchant loses everything and sells his household goods to feed his family; resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Avigdor, the merchant from Brody",
+   "the tailor who becomes head of the community",
+   "a townsman",
+   "the shammes"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "hashgacha_pratis",
+   "miracles",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "anavah",
+   "emunah",
+   "generosity"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "22:4",
+    "note": "Hashem is enthroned upon the praises of Israel (cited by the Baal Shem Tov; also said in davening)."
+   }
+  ],
+  "places": [
+   "Brody"
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "12f90c653d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Special Letter of the Baal Shem Tov' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c5008bca39",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Baal Shem Tov's Letter, Delivered Sixteen Years Late' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; begins straight into the story. ASR writes 'Brad' for Brody and 'pirates' for poritzim. The community head's name is unclear in the ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:20:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator attributed to the weekly storyteller from style only (no opening song); series left null."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/A%20Tzaddik%20Sees%2016%20Years%20into%20the%20Future%20-%20The%20Baal%20Shem%20Tov%27s%20Letter.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/A Tzaddik Sees 16 Years into the Future - The Baal Shem Tov's Letter.mp3",
+  "size_bytes": 12559622,
+  "mime_type": "audio/mpeg"
+ }
+}

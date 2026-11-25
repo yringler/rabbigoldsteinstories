@@ -1,0 +1,161 @@
+{
+ "id": "d4461c9ced",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mevorchim Nissan 119",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shabbos Mevarchim Nissan - A Jumbo Brachah for the Month of Redemption (Ep 119).mp3",
+  "duration_sec": 264.748,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 119,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 119,
+   "story": "The needles and toothpicks #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "same audio also appeared as 'Uncle Yossi - Tzivos Hashem Radio Program/Yomim Tovim/Shabbos Mevorchim Nissan 119.mp3' (different title)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Mevarchim Nissan: A Jumbo Brachah for the Month of Redemption",
+  "title_basis": "content",
+  "summary_short": "Why Shabbos Mevarchim brings a brachah for a whole month, and why the blessing of Nissan is extra special: the month of redemption from Egypt and of Moshiach.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired before Shabbos Mevarchim Nissan. Uncle Yossi explains that Hashem gives blessings of different sizes: a brachah for an hour, one for a day as we daven each morning, one for a whole week on Shabbos, and a giant 'jumbo' brachah for the whole month on Shabbos Mevarchim, when the new month is blessed in shul. Nissan is especially important, because the Sages teach that our fathers were redeemed from Egypt in Nissan and that the final redemption with Moshiach will also come in Nissan. He urges children to be in shul for the blessing of the new month and to answer Amen together, and everyone practices answering Amen to the words asking that the month bring redemption.",
+  "lesson": "Be in shul on Shabbos Mevarchim to receive the month's blessing, and answer Amen with all your heart, hoping for the Geulah.",
+  "keywords": [
+   "blessing the new month",
+   "jumbo brachah",
+   "Amen",
+   "Yetzias Mitzrayim",
+   "redemption",
+   "shul"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 119,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-03-27",
+   "hebrew": "23 Adar II 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 119, aired the Tuesday before Shabbos Mevarchim Nissan 5744."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Rosh Hashanah 11a",
+    "note": "'In Nissan they were redeemed, and in Nissan they will be redeemed' (cited as the Talmud)."
+   },
+   {
+    "work": "siddur",
+    "ref": "Blessing of the new month",
+    "note": "Answering Amen to the prayer for redemption."
+   }
+  ],
+  "places": []
+ },
+ "segments": [],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "08d7e6a3d5",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 50,
+   "note": "Episode 119 (filename number); clip = 50-315 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends right after the practice Amen. Fits any year's Shabbos Mevarchim Nissan."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:13Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shabbos%20Mevarchim%20Nissan%20-%20A%20Jumbo%20Brachah%20for%20the%20Month%20of%20Redemption%20%28Ep%20119%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shabbos Mevarchim Nissan - A Jumbo Brachah for the Month of Redemption (Ep 119).mp3",
+  "size_bytes": 3177826,
+  "mime_type": "audio/mpeg"
+ }
+}

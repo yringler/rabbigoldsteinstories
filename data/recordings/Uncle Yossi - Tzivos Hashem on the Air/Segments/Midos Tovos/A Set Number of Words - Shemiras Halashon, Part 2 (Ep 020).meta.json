@@ -1,0 +1,173 @@
+{
+ "id": "828b6c6fa8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Shmiras HaLashon-2 20",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/A Set Number of Words - Shemiras Halashon, Part 2 (Ep 020).mp3",
+  "duration_sec": 139.889,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 20,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 20,
+   "story": "Life in the hand of the tongue #2",
+   "topic": "שמירת הלשון",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "A Set Number of Words: Shemiras Halashon, Part 2",
+  "title_basis": "content",
+  "summary_short": "Each person is given a set number of words for a lifetime, so do not waste them; words of Torah, prayer and brachos are never deducted and even add years to our life.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, based on the teachings of the Chofetz Chaim about shemiras halashon, being careful never to say anything evil. Uncle Yossi explains that, as our Sages teach, every person is allotted a set number of words for a whole lifetime, and each word spoken is deducted from that amount, so it would be foolish to waste this precious gift on empty or silly talk. Words of prayer, brachos and Torah study work the opposite way: they are not deducted at all, and Hashem adds more words, and more years of life, so that we have time to say them. This is what we say in the evening prayers: the words of Torah 'are our life and the length of our days'.",
+  "lesson": "Don't waste words on nonsense; fill your speech with Torah, prayer and brachos, which add years to life.",
+  "keywords": [
+   "words",
+   "lifespan",
+   "nonsense talk",
+   "evening prayers",
+   "Chofetz Chaim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 20,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-04-20",
+   "hebrew": "27 Nissan 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 20, the week after Pesach 5742."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Chofetz Chaim"
+  ],
+  "topics": [
+   "character",
+   "torah_study",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "shemiras_halashon",
+   "torah_study",
+   "brachos",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Maariv: 'ki heim chayeinu v'orech yameinu'",
+    "note": "Words of Torah are our life and the length of our days."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "8876a93979",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 477."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "96b0e06c39",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 683,
+   "note": "Episode 20 (filename number); clip = 683-823 s of the episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "74ae981cd2",
+   "evidence": "filename",
+   "confidence": 0.8,
+   "note": "'Shmiras HaLashon-1 19' from episode 19 is part 1 of this shemiras halashon pair."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'This story is based upon...'; the story itself is in episodes 19-20."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:40:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/A%20Set%20Number%20of%20Words%20-%20Shemiras%20Halashon%2C%20Part%202%20%28Ep%20020%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/A Set Number of Words - Shemiras Halashon, Part 2 (Ep 020).mp3",
+  "size_bytes": 1679757,
+  "mime_type": "audio/mpeg"
+ }
+}

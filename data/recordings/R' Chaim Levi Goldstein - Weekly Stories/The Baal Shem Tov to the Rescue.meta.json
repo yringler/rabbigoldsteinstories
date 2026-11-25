@@ -1,0 +1,209 @@
+{
+ "id": "ccedcd76fb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Besht to the Rescue",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Baal Shem Tov to the Rescue.mp3",
+  "duration_sec": 1244.474,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Baal Shem Tov to the Rescue",
+  "title_basis": "filename",
+  "summary_short": "Years after the Baal Shem Tov's passing, a boy born through his blessing is kidnapped, and a mysterious 'bishop' brings him home.",
+  "summary_long": "A childless Chassid receives the Baal Shem Tov's blessing for a son, on condition that the boy is always watched. Three years after the Baal Shem Tov passes away, the babysitter steps out for a moment to see a dancing bear, and five-year-old Moshele disappears. The father turns to Adel, the Baal Shem Tov's daughter, who asks her father at his resting place and returns with instructions: ask at every inn. At last an innkeeper reveals that a local poritz has taken the boy to raise him as a non-Jew, and is waiting for the bishop to arrive. The father stops a bishop's carriage on the road; the 'bishop' convinces the poritz that a Jewish child will always run to a fellow Jew, and the boy runs straight into his father's arms. Then the real bishop arrives late. Adel tells the father that he gave her father a hard job and must be more careful.",
+  "lesson": "A Rebbe continues to care for his Chassidim after his passing, and a Jewish child always stays connected to his people. A tzaddik's instructions must be followed carefully.",
+  "keywords": [
+   "kidnapped boy",
+   "dancing bear",
+   "bishop",
+   "inn",
+   "Ohel",
+   "babysitter"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A five-year-old is kidnapped; resolved happily."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "The poritz plans to convert the boy."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "adel_daughter_of_besht",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Moshele",
+   "his father",
+   "the babysitter",
+   "the innkeeper",
+   "the poritz",
+   "the bishop"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "hiskashrus",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "responsibility",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 24,
+   "type": "song",
+   "title": "Opening song (untranscribed)"
+  },
+  {
+   "start_sec": 24,
+   "end_sec": 60,
+   "type": "story_intro",
+   "title": "Last week's story and today's"
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 1231,
+   "type": "story",
+   "title": "The kidnapped boy and the mysterious bishop",
+   "people": [
+    "baal_shem_tov",
+    "adel_daughter_of_besht"
+   ]
+  },
+  {
+   "start_sec": 1231,
+   "type": "closing",
+   "title": "Who was the first bishop?"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "1f7ce74bc7",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Story Videos 'The Besht to the Rescue': the same story told again by the same narrator, with the theme song and a different ending lesson."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "First 24 s untranscribed (probably the theme song). ASR writes 'pirates' for poritz throughout."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; same narrator and sign-off as the 'I believe in Hashem' recordings.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "filled_at": "2026-11-25T14:22:26Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium",
+   "segments": "high"
+  },
+  "needs_human_review": [
+   "Opens with 'last week I told you how the Rebbe Rashab came to a doctor in a dream' - probably 'The Doctors Dream' (65cc95fe2e); a series order may be recoverable.",
+   "Series attribution from narrator style; confirm.",
+   "Item is also the pass-1 worked example; fields follow the human-filled example."
+  ],
+  "model": "claude-opus-5-5"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Baal%20Shem%20Tov%20to%20the%20Rescue.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Baal Shem Tov to the Rescue.mp3",
+  "size_bytes": 14934448,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "6a1de77edd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "A Gimmel-Tammuz Gift For The Rebbe",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/A Gimmel Tammuz Gift for the Rebbe - The King in the Forest.mp3",
+  "duration_sec": 1402.41,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Gimmel Tammuz Gift for the Rebbe: The King in the Forest",
+  "title_basis": "filename",
+  "summary_short": "Why a small hachlata is a great gift for the Rebbe, told through a boy's birthday letter and a parable of a lost king, a poor man's hut and a box of stale bread.",
+  "summary_long": "The storyteller begins with a story from the Rebbe's room on Yud-Aleph Nissan: of all the reports of new Chabad houses and shuls, the letter that made the Rebbe smile came from a young boy who resolved to wake up five minutes earlier to say the morning brachos from a siddur. He suggests other small hachlatos, such as thinking for a moment before each brachah, or the five things to do before going to sleep: Shema, preparing negel vasser, kissing the mezuzah, and sleeping with a yarmulke and kosher tzitzis. Then, telling listeners it is a parable, he relates how a king lost in a freezing forest is taken in by poor Chaim, who gives him all he has: stale bread, warm water and a sack of straw. The grateful king rewards him with gold, and Chaim builds a house for guests. A neighbor brings the king the same bread, water and straw in a box, and the king gently explains why it is not the same. The lesson: in the darkness of golus, every small mitzvah is precious to Hashem.",
+  "lesson": "Even a small good resolution is a great gift. In the darkness of golus, every brachah said with care and every small mitzvah is precious to Hashem, and brings Moshiach.",
+  "keywords": [
+   "hachlata",
+   "birthday letter",
+   "five things before sleep",
+   "king",
+   "hunting",
+   "forest",
+   "hut",
+   "stale bread",
+   "sack of straw",
+   "sack of gold",
+   "guest rooms"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "a young boy who writes to the Rebbe",
+   "the king",
+   "Chaim, the poor man in the forest",
+   "Rivkah, Chaim's wife",
+   "Yankel, the neighbor"
+  ],
+  "topics": [
+   "hiskashrus",
+   "prayer_and_brachos",
+   "mitzvos_in_daily_life",
+   "moshiach_geulah",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "zerizus",
+   "chesed",
+   "generosity",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "brachos",
+   "shema",
+   "negel_vasser",
+   "mezuzah",
+   "yarmulke",
+   "tzitzis",
+   "hachnasas_orchim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "gimmel_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "Letters of the Rebbe encouraging boys to sleep with kosher tzitzis (cited generally)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 215,
+   "type": "story",
+   "title": "The letter that made the Rebbe smile",
+   "summary": "On Yud-Aleph Nissan, a young boy's small resolution gives the Rebbe great nachas.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 215,
+   "end_sec": 450,
+   "type": "talk",
+   "title": "Small hachlatos, big gifts",
+   "summary": "Saying brachos with care and the five things to do before going to sleep."
+  },
+  {
+   "start_sec": 450,
+   "end_sec": 1335,
+   "type": "story",
+   "title": "The king in the forest",
+   "summary": "A parable of a lost king, a poor man's hospitality and a neighbor who copies it."
+  },
+  {
+   "start_sec": 1335,
+   "type": "talk",
+   "title": "Letting Hashem in during golus",
+   "summary": "Every small mitzvah in golus is like the poor man's gift, and Hashem answers with Moshiach."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "dc093bdc5d",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.96,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "63f2625291",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'A Crust of Bread and Water: The King Lost in the Forest' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d9c03b5a9d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Greatest Gift (Gimmel Tammuz)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same recording as dc093bdc5d; both copies complete. The talk refers to Yud-Aleph Nissan; Gimmel Tammuz comes only from the filename."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Gimmel Tammuz tag is from the filename only; the talk speaks of Yud-Aleph Nissan."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/A%20Gimmel%20Tammuz%20Gift%20for%20the%20Rebbe%20-%20The%20King%20in%20the%20Forest.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/A Gimmel Tammuz Gift for the Rebbe - The King in the Forest.mp3",
+  "size_bytes": 16829699,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "batch_id": "b038",
+ "done": [
+  "853da317f6", "ca27a9865a", "577e0215fd", "4bb9391f0f", "796a534305", "ae155cc007",
+  "f891b04599", "32e631c050", "a9ed11bf3b", "de9bba59ed", "dcbd13ef16", "c6250a3b05",
+  "57b4f27b82", "a890e4740d", "c6d51ee045", "8876a93979", "08d9060dab", "d96bb32d47",
+  "13e6bf0836", "cf5838a73e"
+ ],
+ "failed": [],
+ "notes": [
+  "Resumed run: 15 items were already DONE; this run filled 8876a93979, 08d9060dab, d96bb32d47, 13e6bf0836, cf5838a73e. All 20 validate.",
+  "Episode 477 (8876a93979) concludes 'Life in the hands of the tongue' (chapter 2); added a 'continues' relation to episode 476 (a890e4740d).",
+  "Dates: 477 = Tue 30 April 1991 (16 Iyar 5751, week precision, between 476 and 478); 478 = Tue 7 May 1991 (23 Iyar 5751, day precision: just after Lag BaOmer, 'year of wonders', candles 7:43 / Shabbos ends 8:48 fit Fri 10 May 1991).",
+  "'Pesach recap 477' (08d9060dab) also aired in episode 20 (96b0e06c39), per required relation; the Pesach opening of 477 is a rebroadcast.",
+  "Mishlei 18:21 cited in 477 was tagged with works 'neviim' (closest); the works vocabulary has no Kesuvim/Mishlei entry.",
+  "The Shema guest surname in 478 is uncertain in ASR ('Chadaitov' / 'Hadaitov'); recorded only in hidden.",
+  "478 has about 100 s of trailing silence/tail after the closing; trim.content_end_sec set to 1739.",
+  "The Chofetz Chaim is again cited in 477 (already proposed as a new people term in a890e4740d)."
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "id": "b5634c78e7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Getting To Meet The King - The Yeshuvnik",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Getting to Meet the King - The Alter Rebbe and the Yishuvnik.mp3",
+  "duration_sec": 1327.81,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Getting to Meet the King: The Alter Rebbe and the Yishuvnik",
+  "title_basis": "filename",
+  "summary_short": "How we meet the King in Elul through every brachah, why Rosh Hashanah is the 'head' of the year, and the village Jew who learned in yechidus with the Alter Rebbe that the Rebbe needed no informer.",
+  "summary_long": "Continuing the Alter Rebbe's parable of the King in the field during Elul, the storyteller asks what it means to actually meet the King. He explains yechidus, with the story of a top student of the Rebbe Rashab who was told, 'As well as you know yourself, I know you better.' In a yechidus with the Rebbe, a boy from England is asked whether he has met the King yet; the Rebbe explains that every brachah, 'Baruch Atah', speaks to Hashem face to face, so we must say brachos slowly and sincerely, never with 'fake money'. Rosh Hashanah is called the head of the year because, as the Mitteler Rebbe teaches, it directs every day of the year, so free moments should be filled with Tehillim, as the Frierdiker Rebbe once urged the yeshivah students. Finally, a melamed sent by the Alter Rebbe brings the village Jew he teaches to the Alter Rebbe for Rosh Hashanah. In yechidus the Alter Rebbe gently lists mistakes a Jew can make, and the man storms out, sure the melamed informed on him, until the Alter Rebbe explains that he named no one. Moved, the man does teshuvah, apologizes, and becomes a devoted Chassid.",
+  "lesson": "Every brachah is a meeting with the King, so say it carefully; use Rosh Hashanah well, since it sets the tone for the whole year.",
+  "keywords": [
+   "king in the field",
+   "yechidus",
+   "brachah",
+   "village Jew",
+   "melamed",
+   "Tehillim",
+   "fake money",
+   "770",
+   "head of the year"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Elul, before Rosh Hashanah",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Continues 'last week' on the King in the field of Elul and prepares for Rosh Hashanah; no year given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "A boy from a named family's yechidus is mentioned by first name."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the melamed",
+   "the yishuvnik (village Jew)",
+   "a top yeshivah student",
+   "a boy from England"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "prayer_and_brachos",
+   "hiskashrus",
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "dan_lkaf_zchus",
+   "controlling_anger",
+   "anavah"
+  ],
+  "mitzvos": [
+   "brachos",
+   "tehillim",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "The Alter Rebbe's parable of the King in the field (Elul)."
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "Eating or drinking without a brachah is like stealing from Hashem (as cited)."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Mitteler Rebbe on why Rosh Hashanah is the 'head' of the year; the Frierdiker Rebbe's call to fill Rosh Hashanah with Tehillim."
+   }
+  ],
+  "places": [
+   "England",
+   "770 Eastern Parkway"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 140,
+   "type": "talk",
+   "title": "The King in the field"
+  },
+  {
+   "start_sec": 140,
+   "end_sec": 325,
+   "type": "story",
+   "title": "'I know you better': the Rebbe Rashab's yechidus",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 325,
+   "end_sec": 495,
+   "type": "story",
+   "title": "Have you met the King? A brachah is a meeting",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 495,
+   "end_sec": 805,
+   "type": "talk",
+   "title": "Rosh Hashanah, head of the year, and Tehillim",
+   "people": [
+    "mitteler_rebbe",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 805,
+   "type": "story",
+   "title": "The Alter Rebbe and the yishuvnik",
+   "people": [
+    "alter_rebbe"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends abruptly after the story with no sign-off. ASR writes 'Reish Hashanah' for Rosh Hashanah."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yankee",
+    "role": "other",
+    "group": "a family from England, yechidus with the Rebbe",
+    "start_sec": 328,
+    "end_sec": 400
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem' and refers to 'last week'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator's father studied at 770 in the Frierdiker Rebbe's time: identity clue.",
+   "Refers to last week's talk on the King in the field; an earlier Elul item may exist."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:11Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Getting%20to%20Meet%20the%20King%20-%20The%20Alter%20Rebbe%20and%20the%20Yishuvnik.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Getting to Meet the King - The Alter Rebbe and the Yishuvnik.mp3",
+  "size_bytes": 15934750,
+  "mime_type": "audio/mpeg"
+ }
+}

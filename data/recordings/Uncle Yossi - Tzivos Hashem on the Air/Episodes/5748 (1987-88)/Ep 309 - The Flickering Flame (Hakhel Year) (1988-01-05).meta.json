@@ -1,0 +1,390 @@
+{
+ "id": "8ef0e7ba46",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "309 01-05-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 309 - The Flickering Flame (Hakhel Year) (1988-01-05).mp3",
+  "duration_sec": 1871.759,
+  "filename_facts": {
+   "episode_number": 309,
+   "date_in_filename": "1988-01-05",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 309,
+   "story": "The Flickering Flame",
+   "topic": "Hakhel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 309: The Flickering Flame (Hakhel Year)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's Hakhel-year show: putting your name in your own Chumash and Siddur, a first-grade class celebrating their first siddur, and Rabbi Yisroel Salanter's lesson from a cobbler's lamp.",
+  "summary_long": "Broadcast in the Hakhel year 5748. Uncle Yossi explains that Hakhel means gathering together to do good things, like inviting friends into your own Tzivos Hashem room to learn, sing and give tzedakah. He asks every child to own a Chumash, Siddur and Tehillim and to write their name in it under the words 'LaHashem ha'aretz umelo'ah'. A listener's letter describes her own mitzvah room. After the Hakochainik march, a first-grade class from Beis Yaakov of Boro Park, who just finished learning the Aleph-Beis, celebrate receiving their first siddur, sing a song and recite the Shema; Uncle Yossi teaches that a siddur is like a telephone to Hashem. Story time: the Baal Shem Tov taught that we can learn from everything we see. Rabbi Yisroel of Salant, collecting tzedakah late at night, finds a cobbler still working by a lamp he overfilled. The cobbler's rule, 'as long as the candle burns, one can still mend', becomes a lesson: while the soul's candle is lit, we can still do teshuvah and improve. The show ends with Shabbos candle time.",
+  "lesson": "As long as the candle burns, we can still fix and improve: treasure every moment of life for Torah, mitzvos and teshuvah.",
+  "keywords": [
+   "cobbler",
+   "oil lamp",
+   "flickering flame",
+   "first siddur",
+   "Chumash",
+   "name in a sefer",
+   "Tzivos Hashem room",
+   "telephone to Hashem",
+   "Studio 604",
+   "mailbox"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 309,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-01-05",
+   "hebrew": "15 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'the year of Hakhel' and Shabbos candles on Friday, January 8."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Letter writer named in full in the mailbox segment.",
+    "at_sec": 373
+   },
+   {
+    "flag": "home_address",
+    "note": "Street address of the letter writer read on air.",
+    "at_sec": 380
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisroel Salanter",
+   "Reb Nosson the cobbler"
+  ],
+  "topics": [
+   "tzivos_hashem",
+   "teshuvah",
+   "great_rabbis",
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [
+   "hasmadah",
+   "zerizus",
+   "chesed"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "shema",
+   "tzedakah",
+   "teshuvah",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Maariv: 'Ki heim chayeinu v'orech yameinu'",
+    "note": "Torah is our life and the length of our days."
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "The Baal Shem Tov: learn a lesson in serving Hashem from everything you see and hear",
+    "note": "Frames the story."
+   }
+  ],
+  "places": [
+   "Salant"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 49,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 49,
+   "end_sec": 336,
+   "type": "talk",
+   "title": "Hakhel: Your Own Chumash, Siddur and Tehillim",
+   "summary": "Hakhel means doing good things together; write your name in your own sefarim under 'LaHashem ha'aretz umelo'ah'.",
+   "calendar": [
+    "hakhel_year"
+   ],
+   "linked_items": [
+    "21d1625809"
+   ]
+  },
+  {
+   "start_sec": 336,
+   "end_sec": 546,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A fourth-grade girl writes about the sefarim and tzedakah box in her mitzvah room."
+  },
+  {
+   "start_sec": 546,
+   "end_sec": 725,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 725,
+   "end_sec": 886,
+   "type": "shema_guest",
+   "title": "A first-grade class from Beis Yaakov of Boro Park celebrates their first siddur",
+   "summary": "The class, who just finished learning the Aleph-Beis, visits Studio 604 with their teacher."
+  },
+  {
+   "start_sec": 886,
+   "end_sec": 980,
+   "type": "song",
+   "title": "The first graders' siddur song"
+  },
+  {
+   "start_sec": 980,
+   "end_sec": 1107,
+   "type": "shema_guest",
+   "title": "Shema with the first graders",
+   "summary": "The class says the first twelve words of the Shema, then Uncle Yossi says them in English."
+  },
+  {
+   "start_sec": 1107,
+   "end_sec": 1185,
+   "type": "talk",
+   "title": "A Siddur Is a Telephone to Hashem",
+   "summary": "When you open the siddur and daven, Hashem is right there listening."
+  },
+  {
+   "start_sec": 1185,
+   "end_sec": 1224,
+   "type": "story_intro",
+   "title": "Story time: learning from everything we see",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1224,
+   "end_sec": 1775,
+   "type": "story",
+   "title": "The Flickering Flame",
+   "summary": "Rabbi Yisroel of Salant learns from a cobbler that as long as the candle burns, one can still mend and do teshuvah."
+  },
+  {
+   "start_sec": 1775,
+   "end_sec": 1795,
+   "type": "announcement",
+   "title": "Shabbos candle time"
+  },
+  {
+   "start_sec": 1795,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "21d1625809",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Hakhel 309' = 50-279 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 19:42-28:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "38d83b32ce",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 157: The Flickering Flame, Chapter 2 (Asarah B'Teves)' (episode 157, 14:12-18:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 156: The Flickering Flame, Chapter 1 (Zos Chanukah)' (episode 156, 21:50-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "40d280cb23",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 377: The Flickering Flame (Sefiras HaOmer)' (episode 377, 13:10-19:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "4c22e88ed2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 324: The Flickering Flame (Sefiras HaOmer)' (episode 324, 16:52-23:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "57b4f27b82",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 475: The Flickering Flame (Sefiras HaOmer)' (episode 475, 13:05-19:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6ad37ebe02",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 273: The Flickering Flame (Rosh Chodesh Iyar)' (episode 273, 20:37-26:57), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bc10ca2c5f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Flickering Flame' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Mailbox reads a child's full name and street address (see hidden; audio is not edited). Candle time and gift-shop offer are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Hindi Weinberger",
+    "role": "mailbox_letter",
+    "group": "Bais Yaakov of Brooklyn, 4th grade",
+    "start_sec": 373,
+    "end_sec": 546
+   },
+   {
+    "name": "Morah Lieberman",
+    "role": "other",
+    "group": "Teacher of the letter writer, Bais Yaakov of Brooklyn",
+    "start_sec": 461,
+    "end_sec": 530
+   },
+   {
+    "name": "Mrs. Marcus",
+    "role": "other",
+    "group": "Teacher of the letter writer, Bais Yaakov of Brooklyn",
+    "start_sec": 461,
+    "end_sec": 530
+   },
+   {
+    "name": "Morah Lanchefsky",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Alef (class reciting the Shema)",
+    "start_sec": 779,
+    "end_sec": 1185
+   }
+  ],
+  "addresses": [
+   {
+    "text": "1455 54th Street, Brooklyn, New York",
+    "start_sec": 380,
+    "end_sec": 390
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Letter writer attends Bais Yaakov of Brooklyn (Rabbi Balkany), fourth grade.",
+    "start_sec": 461,
+    "end_sec": 480
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20309%20-%20The%20Flickering%20Flame%20%28Hakhel%20Year%29%20%281988-01-05%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 309 - The Flickering Flame (Hakhel Year) (1988-01-05).mp3",
+  "size_bytes": 22462188,
+  "mime_type": "audio/mpeg"
+ }
+}

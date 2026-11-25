@@ -1,0 +1,226 @@
+{
+ "id": "21a6215892",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Slavita printer a",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Slavita Printer, Part 1.mp3",
+  "duration_sec": 885.981,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "a",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Slavita Printer, Part 1",
+  "title_basis": "filename",
+  "summary_short": "On the Alter Rebbe's yahrzeit: a Chassid who needs a printing permit is sent by the Alter Rebbe to fetch a humble teacher and travel to Vilna, where a mysterious official notices them.",
+  "summary_long": "Told on the night of Chof-Daled Teves, the yahrzeit of the Alter Rebbe, after the song 'I believe in Hashem'. Rabbi Moshe, son of the tzaddik Rabbi Pinchas of Koretz, wants to open a printing press because sefarim are scarce in Russia. The storyteller explains the obstacles: government censorship (with an example from Birkas HaMazon and the Rebbe's reply about it), a permit from a minister in Petersburg who hates Jews, and heavy fees. The Alter Rebbe tells him to go to Mogilev, bring along Reb Yisrael, the town's melamed, and travel with him to Vilna. Neither man understands why, but they obey. In Vilna they stay with Reb Meir Refoels, now a devoted Chassid, who knows that the Rebbe's words must be followed exactly. While the three discuss Chassidus on a park bench, an elegantly dressed stranger stops to stare at Reb Yisrael and invites him to his hotel the next morning. Reb Meir recognizes the name on the pass: it is the Minister of Education himself. To be continued next week.",
+  "lesson": "When the Rebbe gives an instruction, follow it exactly even when it does not make sense to us.",
+  "keywords": [
+   "printing press",
+   "sefarim",
+   "censorship",
+   "permit",
+   "minister",
+   "park bench",
+   "hotel",
+   "melamed",
+   "Tanya"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Night of 24 Teves (year not stated)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'Tonight is Chof-Daled Teves, the yahrzeit of the Alter Rebbe'; no year given."
+  },
+  "part": {
+   "set_key": "slavita-printer",
+   "part_number": 1,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_pinchas_of_koretz",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Moshe of Slavita",
+   "Reb Yisrael the melamed",
+   "the Minister of Education"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "emunah"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "chof_daled_teves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The HaRachaman in Birkas HaMazon about the yoke of golus, and the alternative wording printed in many siddurim."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's written reply agreeing about the original wording of that HaRachaman (as retold)."
+   }
+  ],
+  "places": [
+   "Slavita",
+   "Mogilev",
+   "Vilna",
+   "Petersburg"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "song",
+   "title": "I Believe in Hashem",
+   "summary": "Introduction for the Alter Rebbe's yahrzeit and the opening song."
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 293,
+   "type": "story_intro",
+   "title": "Why printing sefarim was hard in Russia",
+   "summary": "Censorship, a hostile minister and heavy fees stand in the way of a printing permit."
+  },
+  {
+   "start_sec": 293,
+   "type": "story_chapter",
+   "title": "The Slavita Printer, Part 1",
+   "summary": "The Alter Rebbe sends Rabbi Moshe and Reb Yisrael to Vilna, where the minister notices them in the park.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_meir_refoels"
+   ],
+   "story_key": "the-slavita-printer",
+   "chapter": 1
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "4ab732d2b6",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2 ('Slavita printer B'): recaps this part and tells the meeting with the minister."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "5567ce3c30",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2, another telling ('Slavita printer 2'): recaps this part and tells the meeting with the minister."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told to a live class. ASR writes 'Chavdala Tevis' for Chof-Daled Teves and 'Rafals' for Refoels."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:15:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Refers to 'the last two weeks' of stories about how Reb Meir Refoels became a Chassid; those parts may be elsewhere in the archive."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Slavita%20Printer%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Slavita Printer, Part 1.mp3",
+  "size_bytes": 10632706,
+  "mime_type": "audio/mpeg"
+ }
+}

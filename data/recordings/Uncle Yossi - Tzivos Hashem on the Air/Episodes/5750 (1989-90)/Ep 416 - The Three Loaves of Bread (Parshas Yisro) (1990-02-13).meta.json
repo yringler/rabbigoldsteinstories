@@ -1,0 +1,307 @@
+{
+ "id": "ac13894ea5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "416",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 416 - The Three Loaves of Bread (Parshas Yisro) (1990-02-13).mp3",
+  "duration_sec": 1853.114,
+  "filename_facts": {
+   "episode_number": 416,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 416,
+   "story": "The three loaves of bread",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 416: The Three Loaves of Bread (Parshas Yisro)",
+  "title_basis": "master_catalog",
+  "summary_short": "Reliving Matan Torah when the Ten Commandments are read in shul, Shema with two sisters, Shlomo HaMelech and the three loaves of bread, and Mitzvah Time on the Shema.",
+  "summary_long": "Broadcast the week of Parshas Yisro 5750. Uncle Yossi works out with listeners that Matan Torah took place 3,302 years ago, then explains the Alter Rebbe's teaching to 'live with the times': this Shabbos the Ten Commandments are read, so everyone should come to shul, stand facing the Torah, and feel as if receiving the Torah again at Har Sinai. After the Hakochainik march, two sisters from a Brooklyn girls' school say the Shema, and everyone gives tzedakah. The story, a lesson in tzedakah, tells of an old woman who gave two of her three fresh loaves to starving beggars and lost the third to the wind. She asks Shlomo HaMelech why; he tells her to trust Hashem. Then a foreign king arrives: his ship was sinking until a loaf of bread plugged the hole, and he had vowed half his wealth to charity. Shlomo HaMelech has the woman bake a matching loaf, and the fortune goes to her. Mitzvah Time reviews the kavanah of Echad and teaches why the Shema is said at night and in the morning. The show ends with an invitation to a Yud-Tes Shevat thanksgiving feast for the Shpoler Zeide.",
+  "lesson": "Give tzedakah gladly and trust Hashem: everything He does is for the good, even when we cannot yet see why.",
+  "keywords": [
+   "Ten Commandments",
+   "Har Sinai",
+   "arithmetic",
+   "three loaves",
+   "beggars",
+   "wind",
+   "sinking ship",
+   "old woman",
+   "Shlomo HaMelech",
+   "Mitzvah Time"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 416,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-02-13",
+   "hebrew": "18 Shevat 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight, Yud-Tes Shevat' (the evening of Tuesday 18 Shevat begins 19 Shevat); Parshas Yisro this coming Shabbos; 'this year is 5750'."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two sisters named in full as Shema guests, with their school.",
+    "at_sec": 828
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shpoler_zeide",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the old woman",
+   "two hungry beggars",
+   "a foreign king",
+   "the ship's captain"
+  ],
+  "topics": [
+   "parsha",
+   "kindness_and_community",
+   "hashgacha_pratis",
+   "halachah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "generosity",
+   "chesed",
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kavod_shul",
+   "tzedakah",
+   "hachnasas_orchim",
+   "shema",
+   "aseres_hadibros"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "yisro"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 6:7, 11:19",
+    "note": "'When you lie down and when you rise up', in the first and second paragraphs of the Shema."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 560,
+   "type": "talk",
+   "title": "Matan Torah Again: The Ten Commandments in Shul",
+   "summary": "Living with Parshas Yisro: come to shul, stand for the Ten Commandments and receive the Torah anew.",
+   "people": [
+    "alter_rebbe",
+    "mitteler_rebbe"
+   ],
+   "linked_items": [
+    "265e6ceeb7"
+   ]
+  },
+  {
+   "start_sec": 560,
+   "end_sec": 798,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 798,
+   "end_sec": 945,
+   "type": "shema_guest",
+   "title": "Shema with two sisters from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 945,
+   "end_sec": 1004,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1004,
+   "end_sec": 1588,
+   "type": "story",
+   "title": "The Three Loaves of Bread",
+   "summary": "A generous old woman's lost loaf saves a king's ship, and Shlomo HaMelech awards her the king's vowed fortune.",
+   "people": [
+    "shlomo_hamelech"
+   ]
+  },
+  {
+   "start_sec": 1588,
+   "end_sec": 1730,
+   "type": "halachah",
+   "title": "Mitzvah Time: Why We Say the Shema Twice a Day",
+   "summary": "Review of the kavanah of Echad, and the source for saying the Shema at night and in the morning.",
+   "linked_items": [
+    "129637fdeb"
+   ]
+  },
+  {
+   "start_sec": 1730,
+   "end_sec": 1770,
+   "type": "announcement",
+   "title": "Send in a Mitzvah Time composition"
+  },
+  {
+   "start_sec": 1770,
+   "end_sec": 1812,
+   "type": "announcement",
+   "title": "Yud-Tes Shevat: the Shpoler Zeide's thanksgiving feast"
+  },
+  {
+   "start_sec": 1812,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "129637fdeb",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Shema 416' = 1610-1720 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "265e6ceeb7",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Matan Torah 416' = 48-559 s of this episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "c7d705e31a",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'416 new' is a 5-minute alternate take of this episode's opening and Matan Torah talk (slightly different wording), cut off mid-sentence."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Event announcement (Young Israel of Eastern Parkway, 7 pm) is a period piece. No sponsor this week. Speech starts at 0:00 with no theme lead-in, unlike the '416 new' take."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Mindy Pikarski (Pekarski)",
+    "role": "shema_guest",
+    "group": "Bais Rivkah School for Girls",
+    "start_sec": 828,
+    "end_sec": 945
+   },
+   {
+    "name": "Chana Bracha Pikarski (Pekarski)",
+    "role": "shema_guest",
+    "group": "Bais Rivkah School for Girls",
+    "start_sec": 828,
+    "end_sec": 945
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:50:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20416%20-%20The%20Three%20Loaves%20of%20Bread%20%28Parshas%20Yisro%29%20%281990-02-13%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 416 - The Three Loaves of Bread (Parshas Yisro) (1990-02-13).mp3",
+  "size_bytes": 22238362,
+  "mime_type": "audio/mpeg"
+ }
+}

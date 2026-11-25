@@ -1,0 +1,394 @@
+{
+ "id": "38d83b32ce",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "157",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 157 - The Flickering Flame, Chapter 2 (Asarah B'Teves) (1985-01-01).mp3",
+  "duration_sec": 1837.418,
+  "filename_facts": {
+   "episode_number": 157,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 157,
+   "story": "The flickering flame",
+   "topic": "כיבוד או\"א י' בטבת",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-35.7 LUFS)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 157: The Flickering Flame, Chapter 2 (Asarah B'Teves)",
+  "title_basis": "master_catalog",
+  "summary_short": "A cobbler's words teach Rabbi Yisrael Salanter that 'as long as the lamp burns, one can still repair', and Uncle Yossi explains the fast of Asarah B'Teves and its promised future as a Yom Tov.",
+  "summary_long": "Broadcast in the week of Asarah B'Teves. Uncle Yossi opens with the old riddle 'black and white and red all over' to introduce the new Tzivos Hashem newsletter, and after a march in which the whole family joins in, he reads from it about the Wonderful World of Shabbos exhibition. At Mitzvah Time a girl wins by listing ways to welcome Tati home from work, and a boy leads the Shema. The story concludes: the cobbler tells Rabbi Yisrael Salanter that he keeps working as long as his lamp is lit, because 'as long as the lamp burns, one can still repair.' Rabbi Yisrael hears a message from Heaven: the neshamah is Hashem's lamp, and as long as we are alive we can repair our mistakes through teshuvah, so we must never put off learning Torah and doing mitzvos. Uncle Yossi then explains Asarah B'Teves: the siege of Yerushalayim by Nevuchadnetzar that led to the breach of the walls on the Seventeenth of Tammuz and the destruction of the Beis HaMikdash on Tisha B'Av. We remember in order to improve ourselves, and Hashem has promised that with Moshiach these sad days will become days of joy.",
+  "lesson": "As long as the lamp of life burns we can still repair through teshuvah; never put off a mitzvah until tomorrow.",
+  "keywords": [
+   "cobbler",
+   "oil lamp",
+   "newsletter",
+   "riddle",
+   "siege",
+   "Yerushalayim",
+   "fast day",
+   "Shabbos exhibition",
+   "telephone contest"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 157,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1985-01-01",
+   "hebrew": "8 Teves 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Thursday is the tenth day of Teves' (Thu 1985-01-03); Tuesday show. Exhibition 'January 6-7' still upcoming."
+  },
+  "serial": {
+   "story_key": "the-flickering-flame",
+   "story_title": "The Flickering Flame",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Explains the siege of Yerushalayim, hunger in the city and the destruction of the Beis HaMikdash.",
+    "at_sec": 1240
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Phone-in winner and Shema guest named in full.",
+    "at_sec": 590
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisrael Salanter",
+   "the cobbler"
+  ],
+  "topics": [
+   "great_rabbis",
+   "teshuvah",
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "zerizus",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "fast_days",
+   "kibbud_av_vaem",
+   "shema",
+   "torah_study"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps', quoted as written by Dovid HaMelech."
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 8,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 125,
+   "type": "announcement",
+   "title": "Black and white and red all over: the new newsletter"
+  },
+  {
+   "start_sec": 125,
+   "end_sec": 301,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 301,
+   "end_sec": 475,
+   "type": "announcement",
+   "title": "The Wonderful World of Shabbos exhibition"
+  },
+  {
+   "start_sec": 475,
+   "end_sec": 566,
+   "type": "announcement",
+   "title": "Mitzvah Time contest reminder"
+  },
+  {
+   "start_sec": 566,
+   "end_sec": 700,
+   "type": "quiz",
+   "title": "Mitzvah Time call: welcoming Tati home"
+  },
+  {
+   "start_sec": 700,
+   "end_sec": 729,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 729,
+   "end_sec": 852,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student"
+  },
+  {
+   "start_sec": 852,
+   "end_sec": 1112,
+   "type": "story_chapter",
+   "title": "The Flickering Flame, Chapter 2",
+   "summary": "The cobbler's words teach Rabbi Yisrael Salanter that while life lasts we can always repair through teshuvah.",
+   "story_key": "the-flickering-flame",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1112,
+   "end_sec": 1766,
+   "type": "talk",
+   "title": "Asarah B'Teves: Why We Remember",
+   "summary": "The siege of Yerushalayim, the road to the Churban, and Hashem's promise to turn these days into Yomim Tovim.",
+   "people": [
+    "nevuchadnetzar"
+   ],
+   "calendar": [
+    "asarah_bteves"
+   ]
+  },
+  {
+   "start_sec": 1766,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume",
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very quiet source (about -36 LUFS); normalize on publish. Gap in speech around 21:24-22:31, probably music. Children named on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Saradina Wickler",
+    "role": "contest_winner",
+    "start_sec": 590,
+    "end_sec": 700
+   },
+   {
+    "name": "Yehoshua Kivman",
+    "role": "shema_guest",
+    "start_sec": 729,
+    "end_sec": 852
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:58Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Picks up the Rabbi Yisrael Salanter story where ep 156 stopped; catalog row 157 = 'The flickering flame'."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "48d68b1ed7",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.6,
+   "note": "Fingerprint candidate 'Asarah B'Teves 260'; probably the Asarah B'Teves talk (about 1112-1766 s) re-aired."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6bb7db50e1",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.6,
+   "note": "Fingerprint candidate 'Asarah B'Teves 410'; probably the Asarah B'Teves talk re-aired."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "64dc417cdd",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.6,
+   "note": "Fingerprint candidate 'Asarah B'Teves 355'; probably the Asarah B'Teves talk re-aired."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Flickering Flame' (1984-85): ep 156 ch. 1 and ep 157 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 19:42-28:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "40d280cb23",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 377: The Flickering Flame (Sefiras HaOmer)' (episode 377, 13:10-19:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "4c22e88ed2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 324: The Flickering Flame (Sefiras HaOmer)' (episode 324, 16:52-23:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "57b4f27b82",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 475: The Flickering Flame (Sefiras HaOmer)' (episode 475, 13:05-19:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6ad37ebe02",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 273: The Flickering Flame (Rosh Chodesh Iyar)' (episode 273, 20:37-26:57), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bc10ca2c5f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Flickering Flame' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6341e96d6e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 307: The Flickering Flame (Zos Chanukah)' (episode 307, 17:20-27:55), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8ef0e7ba46",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 309: The Flickering Flame (Hakhel Year)' (episode 309, 20:24-29:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9ba0d1a6a7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 349: The Flickering Flame and I Love Hashem' (episode 349, 9:40-19:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20157%20-%20The%20Flickering%20Flame%2C%20Chapter%202%20%28Asarah%20B%27Teves%29%20%281985-01-01%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 157 - The Flickering Flame, Chapter 2 (Asarah B'Teves) (1985-01-01).mp3",
+  "size_bytes": 22049967,
+  "mime_type": "audio/mpeg"
+ }
+}

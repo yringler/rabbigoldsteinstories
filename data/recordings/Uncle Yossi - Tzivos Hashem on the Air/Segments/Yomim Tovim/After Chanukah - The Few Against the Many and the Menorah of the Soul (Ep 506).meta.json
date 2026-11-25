@@ -1,0 +1,167 @@
+{
+ "id": "bc96287330",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chanukah 506",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Chanukah - The Few Against the Many and the Menorah of the Soul (Ep 506).mp3",
+  "duration_sec": 255.41,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 506,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 506,
+   "story": "The miraculous Menorah",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "After Chanukah: The Few Against the Many and the Menorah of the Soul",
+  "title_basis": "content",
+  "summary_short": "Right after Chanukah, Uncle Yossi explains why the few defeat the many when they come in Hashem's name, and how every child's neshamah is a little menorah kept lit by mitzvos.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, given right after Chanukah. Uncle Yossi recalls the words of the Chanukah prayers: Hashem delivered the many into the hands of the few. Throughout history the Jewish people have been outnumbered by those who wished them harm, and still they survive. The secret is in Dovid HaMelech's words in Tehillim: our enemies come with chariots and horses, but we come in the name of Hashem, and with the Creator on our side we are always the winners. Remembering the miracles of those days reminds us that Hashem is on our side today too, but we must make sure that we are on Hashem's side, by learning Torah and keeping the mitzvos, as every Tzivos Hashem soldier knows. Every Jewish child has a little menorah, the neshamah, and each mitzvah adds fuel to keep it burning all year, bringing warmth and the strength to serve Hashem with joy. The talk ends with a prayer to see the golden menorah lit in the rebuilt Beis HaMikdash next Chanukah, together with Moshiach.",
+  "lesson": "Hashem is on our side when we are on His side; keep the menorah of your neshamah lit all year with Torah and mitzvos.",
+  "keywords": [
+   "menorah",
+   "neshamah",
+   "chariots and horses",
+   "the few and the many",
+   "victory",
+   "golden menorah",
+   "Beis HaMikdash"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 506,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-12-10",
+   "hebrew": "3 Teves 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Right after Chanukah'; cut from episode 506, which aired Tuesday 3 Teves 5752, the day after Chanukah ended."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "jewish_history",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "torah_study"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 20:8",
+    "note": "'These with chariots and those with horses, but we in the name of Hashem.'"
+   },
+   {
+    "work": "siddur",
+    "ref": "Al HaNissim",
+    "note": "'Rabbim b'yad me'atim', the many in the hands of the few."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening talk of episode 506."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:14:00Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "053e0722d6",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 49,
+   "note": "Episode 506 (filename number); clip = 49-305 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/After%20Chanukah%20-%20The%20Few%20Against%20the%20Many%20and%20the%20Menorah%20of%20the%20Soul%20%28Ep%20506%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Chanukah - The Few Against the Many and the Menorah of the Soul (Ep 506).mp3",
+  "size_bytes": 3065909,
+  "mime_type": "audio/mpeg"
+ }
+}

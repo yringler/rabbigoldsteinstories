@@ -1,0 +1,144 @@
+{
+ "id": "ff7778afcc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Neshek 254",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Baruch Atah Hashem Elokeinu, the First Words of the Brachah (Ep 254).mp3",
+  "duration_sec": 383.023,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 254,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 254,
+   "story": "The return of Yehudah",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shabbos Candles: Baruch Atah Hashem Elokeinu, the First Words of the Brachah",
+  "title_basis": "content",
+  "summary_short": "Mitzvah time on Shabbos candles: why we light them, the time to light, and what the first four words of the brachah mean when we speak directly to Hashem.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, part of a series on Neshek, the lighting of Shabbos candles. Uncle Yossi reviews that the candles bring light into this world, Hashem's chosen dwelling place, and that they are lit no later than 18 minutes before sunset on Friday. He then teaches that before every mitzvah we say a brachah, so we do not act out of habit but remember that Hashem Himself commanded us, and that a mitzvah brings Hashem delight. He explains the first words of the candle brachah: 'Baruch Atah', blessed are You, spoken directly to Hashem; and 'Hashem Elokeinu', Hashem our G-d. He also explains why Hashem's name is said in full only in a brachah, in davening or when reading a whole posuk, and why we call Him 'our' G-d. The rest of the brachah is promised for the next lesson.",
+  "lesson": "A brachah reminds us that we do a mitzvah because Hashem commanded it, and that we are speaking directly to Him.",
+  "keywords": [
+   "Shabbos candles",
+   "candle-lighting time",
+   "sunset",
+   "Baruch Atah",
+   "Hashem's name",
+   "Elokeinu"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "episode": {
+   "number": 254,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-12-02",
+   "hebrew": "30 Cheshvan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Episode 254 gives candle lighting for Friday, December 5, 1986."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "prayer_and_brachos",
+   "halachah"
+  ],
+  "midos": [
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6f4d381b92",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 1248,
+   "note": "Episode 254 (filename number); clip = 1248-1631 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "One lesson in a running Neshek series (continues in 256, 258, 264, 267); opens with 'we are right in the middle of learning'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Shabbos%20Candles%20-%20Baruch%20Atah%20Hashem%20Elokeinu%2C%20the%20First%20Words%20of%20the%20Brachah%20%28Ep%20254%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Baruch Atah Hashem Elokeinu, the First Words of the Brachah (Ep 254).mp3",
+  "size_bytes": 4597209,
+  "mime_type": "audio/mpeg"
+ }
+}

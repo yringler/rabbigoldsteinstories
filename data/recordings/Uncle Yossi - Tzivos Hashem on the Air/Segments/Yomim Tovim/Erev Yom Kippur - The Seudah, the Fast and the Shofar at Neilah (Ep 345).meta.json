@@ -1,0 +1,162 @@
+{
+ "id": "4312b85cb2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Yom Kippur 345",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Yom Kippur - The Seudah, the Fast and the Shofar at Neilah (Ep 345).mp3",
+  "duration_sec": 250.7,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 345,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 345,
+   "story": "The storyteller #6",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Erev Yom Kippur: The Seudah, the Fast and the Shofar at Neilah",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains the special meal of Erev Yom Kippur, who fasts and how, the yahrzeit lamp, and the Shema and shofar that close Yom Kippur.",
+  "summary_long": "A short holiday talk from the Tzivos Hashem radio show, broadcast on Erev Yom Kippur. Our Sages teach that eating the festive meal before Yom Kippur is rewarded as if we fasted two days, and it gives us strength for the fast. Hashem set aside the tenth of Tishrei as a fast day, and unlike other fasts it begins at sunset the evening before. Boys after bar mitzvah and girls after bas mitzvah fast the whole day; younger children fast only as their parents decide is safe. On Yom Kippur we do not wear leather shoes, though cloth, plastic or rubber ones are fine. Besides the Yom Tov candles, a yahrzeit lamp is lit, because a person's soul is compared to a flame. At the end of Neilah everyone calls out the Shema, the shofar is blown and we say 'Next year in Yerushalayim', praying for the great shofar of Moshiach. Uncle Yossi ends with a blessing for a Gmar Chasimah Tovah.",
+  "lesson": "We prepare for Yom Kippur with a festive meal and keep the fast with care, praying that Hashem seal us all for a good year.",
+  "keywords": [
+   "seudah",
+   "fast",
+   "leather shoes",
+   "yahrzeit lamp",
+   "Neilah",
+   "shofar",
+   "bar mitzvah",
+   "Book of Life"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 345,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-09-20",
+   "hebrew": "9 Tishrei 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 345 (filename date 20 Sep 1988, Erev Yom Kippur); 'Yom Kippur is just about here'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "shabbos_candles",
+   "shofar",
+   "shema",
+   "teshuvah"
+  ],
+  "calendar": [
+   "yom_kippur"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Yoma 81b",
+    "note": "Eating on Erev Yom Kippur counts as if one fasted two days; cited as 'our Chachamim'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 23:27",
+    "note": "The tenth day of Tishrei set aside as a fast."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clip ends just before the show's sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:13Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b088ce6ac1",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 1554,
+   "note": "Episode 345 (filename number); clip = 1554-1805 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Erev%20Yom%20Kippur%20-%20The%20Seudah%2C%20the%20Fast%20and%20the%20Shofar%20at%20Neilah%20%28Ep%20345%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Yom Kippur - The Seudah, the Fast and the Shofar at Neilah (Ep 345).mp3",
+  "size_bytes": 3009487,
+  "mime_type": "audio/mpeg"
+ }
+}

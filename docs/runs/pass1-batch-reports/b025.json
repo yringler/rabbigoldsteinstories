@@ -1,0 +1,34 @@
+{
+ "batch_id": "b025",
+ "done": [
+  "b4e30d4905",
+  "c338cdf4f3",
+  "0a959b496c",
+  "a3aba3f78a",
+  "8ae8b2f333",
+  "f9b2e381c7",
+  "6c2a5d6a75",
+  "7def6f6a43",
+  "934315e5eb",
+  "e0a3b2e938",
+  "445b45e05b",
+  "c941c66592",
+  "eb05b90af0",
+  "2235fd69e3",
+  "258d5e35ae",
+  "9c22ce4e9b",
+  "777afc34b1",
+  "681b318628",
+  "27f962744b"
+ ],
+ "failed": [],
+ "notes": [
+  "The 1989 run of 'The Return of Yehudah' (episodes 360-367, catalog #5-#12) re-airs the 1986 serial. Episode 360's Shema guest and story chapter are the same recording as episode 246 (item 261ddfd063, chapter 4 there). Earlier items 2ef8dfd816 (245), 261ddfd063 (246), 6f4d381b92 (254) and e5af19b792 (358) belong to the same serial. Pass 2 should add aired_again_in links and reconcile the chapter numbers.",
+  "Episode 360 has no continues relation: the id for episode 359 ('The return of Yehudah #4') was not in this batch's facts.",
+  "Duplicate clips in two folders (same_recording, given as required relations): 445b45e05b/c941c66592 (Adar joy, ep. 364), 2235fd69e3/258d5e35ae (Ki Sisa, ep. 365), 777afc34b1/681b318628 (Shekalim, ep. 366).",
+  "8ae8b2f333 'Shpole Zeide's Yahrtzeit 361': the audio calls 19 Shevat a day when the Shpoler Zeide's descendants gather, but never a yahrzeit. Check the filename's claim.",
+  "934315e5eb / 7def6f6a43 (Beis Adar 363): Uncle Yossi tells a childhood story about his late mother, Chaya Malka bas Dina (yahrzeit 2 Adar). She may be the vocabulary speaker 'Bubby Chaya Malka', an identity clue. She and her father are treated as story characters, not hidden people.",
+  "eb05b90af0 (365): the transcript has gaps inside the story at about 24:53-25:46 and 26:23-27:14, and the old man's sign is missing. 9c22ce4e9b (366): the gap at 27:10-28:09 loses the candle-lighting time. Check whether the audio is missing or only untranscribed.",
+  "Episodes 360-362 open with the same Jewish Children's Expo announcement (Javits Center, February 6-13, 1989)."
+ ]
+}

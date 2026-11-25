@@ -1,0 +1,212 @@
+{
+ "id": "6603ee17f1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tisha B'Av 287",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tisha B'Av - The Song of Exile and the Customs of the Day (Ep 287).mp3",
+  "duration_sec": 482.112,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 287,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 287,
+   "story": "The Dike",
+   "topic": "Torah, Avodah, Gemilus Chasadim / Tisha B’Av",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Tisha B'Av: The Song of Exile and the Customs of the Day",
+  "title_basis": "content",
+  "summary_short": "Why the sad, hopeful tune of Eichah may be sung even in the Three Weeks, followed by the chant of 'Hashiveinu' and the customs of Tisha B'Av.",
+  "summary_long": "A Tisha B'Av segment from the Tzivos Hashem radio show. Uncle Yossi describes music as one of Hashem's greatest gifts, able to lift us up or bring us down. The Levi'im sang in the Beis HaMikdash, and our Sages read 'Az Yashir' as a song Moshe and the Jewish people will sing again when Moshiach comes. Though we have not listened to music during the Three Weeks, there is one melody we sing even on Tisha B'Av: the chant of Eichah, the song of a nation in exile, full of hope and trust that Hashem will end the galus. He explains the words of 'Hashiveinu', which is then chanted in that tune. Finally he describes the day: the curtain is removed from the Aron Kodesh, we wear no leather shoes, do not eat or drink, sit on the floor like mourners and read Eichah, and we pray that Hashem turn Tisha B'Av into a Yom Tov.",
+  "lesson": "Even in mourning, a Jew's song is full of hope: we cry out to Hashem to bring Moshiach and rebuild the Beis HaMikdash.",
+  "keywords": [
+   "Eichah",
+   "Lamentations",
+   "music",
+   "melody",
+   "Levi'im",
+   "Az Yashir",
+   "Hashiveinu",
+   "leather shoes",
+   "fast day",
+   "parochess"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 287,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1987-08-04",
+   "hebrew": "9 Av 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Tisha B'Av'; aired in episode 287 (filename 287 08-04-87)."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Mourning the destruction of the Beis HaMikdash on Tisha B'Av.",
+    "at_sec": 382
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "teshuvah"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:1",
+    "note": "'Az Yashir': the Sages read 'yashir' as 'will sing', when Moshiach comes."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 33,
+   "type": "song",
+   "title": "Musical lead-in"
+  },
+  {
+   "start_sec": 33,
+   "end_sec": 345,
+   "type": "talk",
+   "title": "Music, a gift from Hashem, and the song of Eichah"
+  },
+  {
+   "start_sec": 345,
+   "end_sec": 382,
+   "type": "song",
+   "title": "Hashiveinu, chanted in the tune of Eichah"
+  },
+  {
+   "start_sec": 382,
+   "type": "halachah",
+   "title": "The customs of Tisha B'Av"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "9cef1efc9e",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 238."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6c110183df",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 1207,
+   "note": "Episode 287 (filename number); clip = 1207-1689 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "0d4dd89383",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Text match (containment 0.79) at 1187-1669 s of episode 337."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The first line ('Shabbat Shalom') is an ASR error over the musical lead-in; the chanted Hebrew is only partly transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:36Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Tisha%20B%27Av%20-%20The%20Song%20of%20Exile%20and%20the%20Customs%20of%20the%20Day%20%28Ep%20287%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tisha B'Av - The Song of Exile and the Customs of the Day (Ep 287).mp3",
+  "size_bytes": 5786199,
+  "mime_type": "audio/mpeg"
+ }
+}

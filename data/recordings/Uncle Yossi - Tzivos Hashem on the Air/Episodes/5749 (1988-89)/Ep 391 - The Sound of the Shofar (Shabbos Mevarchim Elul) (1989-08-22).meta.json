@@ -1,0 +1,287 @@
+{
+ "id": "d593b7ba79",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "391",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 391 - The Sound of the Shofar (Shabbos Mevarchim Elul) (1989-08-22).mp3",
+  "duration_sec": 1821.986,
+  "filename_facts": {
+   "episode_number": 391,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 391,
+   "story": "The sound of the Shofar",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 391: The Sound of the Shofar (Shabbos Mevarchim Elul)",
+  "title_basis": "master_catalog",
+  "summary_short": "Before Elul, Uncle Yossi explains the King in the Field, and tells of a village boy who thought a fire bugle puts out fires: the shofar is a call to action.",
+  "summary_long": "Broadcast the week of Shabbos Mevarchim Elul 5749. Uncle Yossi prepares listeners to welcome the greatest King: he teaches two words, 'Melech BaSadeh', and retells the Alter Rebbe's parable from Likkutei Torah of a king returning to his city, who greets everyone in the fields with a radiant face and grants their requests, unlike in his palace, where few may enter. So it is in Elul, when Hashem is close to every Jew. Children should make a long list of requests, with Moshiach at the top, since the Rebbe said the coming year 5750 stands for 'a year of miracles'. After a lively Hakochainik march, a yeshiva boy recites the Shema. Since the shofar is blown every weekday in Elul, the story tells of a village plagued by fires that sends a farm boy to the city to learn what is done there. He sees the fire chief blow a bugle from a tower and brings one home, but when fire breaks out his loud blowing does nothing. The chief explains that the bugle only alarms people to fetch water. So too, the shofar wakes us to act with teshuvah, tefillah and tzedakah. The show ends with the sponsor and candle-lighting time.",
+  "lesson": "The shofar is an alarm, not the solution: it calls us to do teshuvah, tefillah and tzedakah.",
+  "keywords": [
+   "King in the Field",
+   "Elul",
+   "royal coach",
+   "list of requests",
+   "year of miracles",
+   "fire",
+   "bugle",
+   "fire chief",
+   "tower",
+   "shofar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 391,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-08-22",
+   "hebrew": "21 Av 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos is Shabbos Mevarchim Elul' (26 Aug 1989, Re'eh); candle time 7:19; weekly after 390 (15 Aug)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Fires repeatedly burn down homes in a village, leaving people homeless.",
+    "at_sec": 1140
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full with his yeshiva.",
+    "at_sec": 995
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the farm boy",
+   "the fire chief",
+   "the villagers",
+   "the king in the parable"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "prayer_and_brachos",
+   "chassidus_tanya",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "zerizus",
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "davening",
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [
+   "reeh"
+  ],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Re'eh 32b",
+    "note": "The parable of the King in the Field (Melech BaSadeh) for the month of Elul."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750: 'Tihyeh Shnas Nissim'",
+    "note": "The letters of the year 5750 stand for 'it will be a year of miracles'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 33,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 33,
+   "end_sec": 697,
+   "type": "sichah",
+   "title": "Melech BaSadeh: the King in the Field",
+   "summary": "The Alter Rebbe's parable: in Elul Hashem is like a king in the field who greets everyone and grants their requests.",
+   "people": [
+    "alter_rebbe",
+    "the_rebbe"
+   ],
+   "calendar": [
+    "shabbos_mevarchim",
+    "elul"
+   ],
+   "linked_items": [
+    "535544617f"
+   ]
+  },
+  {
+   "start_sec": 697,
+   "end_sec": 970,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 970,
+   "end_sec": 1114,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva boy"
+  },
+  {
+   "start_sec": 1114,
+   "end_sec": 1720,
+   "type": "story",
+   "title": "The Sound of the Shofar",
+   "summary": "A farm boy learns that a fire bugle only sounds the alarm; the shofar likewise calls us to act.",
+   "calendar": [
+    "elul",
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 1720,
+   "end_sec": 1755,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1755,
+   "end_sec": 1775,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1775,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename has no date; dated from on-air cues. Candle times (7:19 / 8:28) and sponsor are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Shmuel Binyamin Heller",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah",
+    "start_sec": 995,
+    "end_sec": 1114
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:01Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "535544617f",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Mevorchim Elul 391' = 33-697 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7901aa302d",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The Melech BaSadeh talk (clip 'Mevorchim Elul 391') also aired in episode 490."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20391%20-%20The%20Sound%20of%20the%20Shofar%20%28Shabbos%20Mevarchim%20Elul%29%20%281989-08-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 391 - The Sound of the Shofar (Shabbos Mevarchim Elul) (1989-08-22).mp3",
+  "size_bytes": 21864706,
+  "mime_type": "audio/mpeg"
+ }
+}

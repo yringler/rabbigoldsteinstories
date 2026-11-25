@@ -1,0 +1,307 @@
+{
+ "id": "fda6ea4878",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "315 02-16-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 315 - The Island of Treasures (After Chof-Beis Shevat) (1988-02-16).mp3",
+  "duration_sec": 1804.54,
+  "filename_facts": {
+   "episode_number": 315,
+   "date_in_filename": "1988-02-16",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 315,
+   "story": "The Island of Treasures / Feeling For Others",
+   "topic": "לכ' חי' מושקא כב שבט מ\"ח / Chof Beis Shevat",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 315: The Island of Treasures (After Chof-Beis Shevat)",
+  "title_basis": "master_catalog",
+  "summary_short": "In the week after Rebbetzin Chaya Mushka's passing, Uncle Yossi teaches what sadness can teach us, honors the Rebbetzin, and tells the parable of the Island of Treasures.",
+  "summary_long": "Broadcast the week after Rebbetzin Chaya Mushka, the Rebbe's wife, passed away on 22 Shevat 5748; this week there is no march. Uncle Yossi begins with Shlomo HaMelech's words, 'there is a time for everything': sometimes Hashem lets us taste sadness so we can feel what the poor and the sick feel. A rabbi collecting for a freezing, penniless family makes a wealthy friend come out into a winter night, so he feels the cold himself and gives generously. Uncle Yossi then speaks of the Rebbetzin, a true mother in Israel who devoted her life to the Rebbe, shares a recent story about a Chassid's birthday cake and letter, and prays for the Rebbe's health and for Moshiach and the resurrection of the dead. Everyone says the Shema in her honor. The story: a shipwrecked man is crowned king of an island, spends its whole treasury beautifying it, and learns too late that he must leave with nothing. The island is this world, and Torah and mitzvos are the treasures we send ahead to the World to Come. The show ends with the Jewish Children's Expo and Shabbos candle time.",
+  "lesson": "Sad moments can make us more sensitive to others; and this world is the place to 'send ahead' treasures of Torah and mitzvos for the World to Come.",
+  "keywords": [
+   "island",
+   "shipwreck",
+   "king",
+   "treasury",
+   "rags",
+   "cold winter night",
+   "rich man",
+   "birthday cake",
+   "World to Come",
+   "Jewish Children's Expo"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "moral_fiction",
+   "contemporary"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 315,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-02-16",
+   "hebrew": "28 Shevat 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'this past Tuesday night' was the Rebbetzin's passing (22 Shevat 5748); Shabbos candles Friday, February 19."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Speaks about the recent passing of Rebbetzin Chaya Mushka and about mourning.",
+    "at_sec": 485
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm; one man survives.",
+    "at_sec": 967
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a rabbi collecting tzedakah",
+   "the wealthy man",
+   "the butler",
+   "Yisroel, the shipwrecked king",
+   "the islanders"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "the_rebbe",
+   "calendar",
+   "torah_study",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "generosity",
+   "mesiras_nefesh",
+   "zerizus",
+   "emunah"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [
+   "chof_beis_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1, 'Eis lakol'",
+    "note": "Cited as Shlomo HaMelech's teaching: a time for everything."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:16",
+    "note": "This world is like a corridor before the banquet hall of the World to Come."
+   },
+   {
+    "work": "gemara",
+    "ref": "Shabbos 119b",
+    "note": "Cited as 'our Chachamim': children's prayers, breath without sin, rise highest."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 13,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 13,
+   "end_sec": 485,
+   "type": "talk",
+   "title": "A Time for Everything: Feeling for Others",
+   "summary": "Tasting sadness can make us more sensitive to the poor and the sick.",
+   "linked_items": [
+    "89c906b5c6",
+    "6d4efcd318"
+   ]
+  },
+  {
+   "start_sec": 194,
+   "end_sec": 433,
+   "type": "story",
+   "title": "The Rabbi Who Waited in the Cold",
+   "summary": "A rabbi makes a wealthy friend step out into a freezing night so he feels what the poor feel, and he gives generously.",
+   "linked_items": [
+    "6d4efcd318",
+    "89c906b5c6"
+   ]
+  },
+  {
+   "start_sec": 485,
+   "end_sec": 840,
+   "type": "talk",
+   "title": "Remembering Rebbetzin Chaya Mushka",
+   "summary": "Her devotion to the Rebbe, a story of a Chassid's birthday cake, and prayers for the Rebbe's health and for Moshiach.",
+   "people": [
+    "rebbetzin_chaya_mushka",
+    "the_rebbe"
+   ],
+   "calendar": [
+    "chof_beis_shevat"
+   ],
+   "linked_items": [
+    "89c906b5c6"
+   ]
+  },
+  {
+   "start_sec": 840,
+   "end_sec": 967,
+   "type": "shema_guest",
+   "title": "Shema together in the Rebbetzin's honor"
+  },
+  {
+   "start_sec": 967,
+   "end_sec": 1532,
+   "type": "story",
+   "title": "The Island of Treasures",
+   "summary": "A shipwrecked man made king spends the island's treasure and must leave with nothing; the lesson of this world and the next."
+  },
+  {
+   "start_sec": 1532,
+   "end_sec": 1764,
+   "type": "announcement",
+   "title": "The Jewish Children's Expo"
+  },
+  {
+   "start_sec": 1764,
+   "end_sec": 1795,
+   "type": "announcement",
+   "title": "Shabbos candle time"
+  },
+  {
+   "start_sec": 1795,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "6d4efcd318",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'Feeling For Others 315' = 194-433 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "89c906b5c6",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Chof Beis Shevat 315' = 13-831 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97c9b37c1d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Treasure Island: A Mashal About Freedom and Mitzvos' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No Hakochainik march or guests this week (mourning). Expo dates and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20315%20-%20The%20Island%20of%20Treasures%20%28After%20Chof-Beis%20Shevat%29%20%281988-02-16%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 315 - The Island of Treasures (After Chof-Beis Shevat) (1988-02-16).mp3",
+  "size_bytes": 21655631,
+  "mime_type": "audio/mpeg"
+ }
+}

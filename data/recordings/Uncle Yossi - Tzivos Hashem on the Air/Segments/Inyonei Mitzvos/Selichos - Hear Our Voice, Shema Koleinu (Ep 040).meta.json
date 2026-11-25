@@ -1,0 +1,158 @@
+{
+ "id": "1da9f1737c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Selichos-Shema Koleinu 40",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Selichos - Hear Our Voice, Shema Koleinu (Ep 040).mp3",
+  "duration_sec": 273.67,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 40,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 40,
+   "story": "The Return of Yisrolik",
+   "topic": "Selichos-Shemah Koleinu",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Selichos: Hear Our Voice, Shema Koleinu",
+  "title_basis": "content",
+  "summary_short": "Why we say Selichos before Rosh Hashanah, and why the Aron Kodesh is opened for Shema Koleinu: our deeds may be soiled, but Hashem knows the true voice of His children.",
+  "summary_long": "A short Selichos talk from the Tzivos Hashem radio show, following the story of a prince who returned home in rags and was recognized by his voice. With Rosh Hashanah near, Uncle Yossi explains, we say Selichos, prayers for forgiveness, asking our Father and King for another chance and promising to do better. Our wrongdoings spoil our appearance before Hashem like the prince's dirty clothes, yet we can say: Hashem, I am Your child returning to You, and my voice is still genuine and pure. That is why, at Shema Koleinu, 'hear our voice', the Aron Kodesh is opened and the parochet drawn aside, to show how important this prayer is. He urges children to come to shul on Saturday night, when the whole congregation says the first Selichos together, confident that Hashem will inscribe us in the Book of Life for a good and sweet year.",
+  "lesson": "When we sincerely return to Hashem, He listens to our voice and gives us another chance.",
+  "keywords": [
+   "Selichos",
+   "Shema Koleinu",
+   "Aron Kodesh",
+   "parochet",
+   "Avinu Malkeinu",
+   "Book of Life",
+   "prince"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 40,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1982-09-07",
+   "hebrew": "19 Elul 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Selichos 'this coming Saturday night' = 11 Sept 1982; cut from episode 40."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "teshuvah",
+   "prayer_and_brachos",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "kavod_shul"
+  ],
+  "calendar": [
+   "selichos",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Selichos: Shema Koleinu",
+    "note": "The Aron Kodesh is opened when Shema Koleinu is said."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "df73f5aad1",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 1351,
+   "note": "Episode 40 (filename number); clip = 1351-1625 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens by referring to 'this unusual story' (The Return of Yisrolik, told earlier in episode 40) and mentions 'this coming Saturday night'. Weak text match (0.50) with episode 494 (be5c373bf4)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:18Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Selichos%20-%20Hear%20Our%20Voice%2C%20Shema%20Koleinu%20%28Ep%20040%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Selichos - Hear Our Voice, Shema Koleinu (Ep 040).mp3",
+  "size_bytes": 3285041,
+  "mime_type": "audio/mpeg"
+ }
+}

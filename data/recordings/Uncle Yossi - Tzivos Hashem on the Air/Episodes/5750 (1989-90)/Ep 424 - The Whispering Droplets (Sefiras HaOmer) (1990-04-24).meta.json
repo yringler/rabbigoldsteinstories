@@ -1,0 +1,300 @@
+{
+ "id": "8e97b7f750",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "424",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 424 - The Whispering Droplets (Sefiras HaOmer) (1990-04-24).mp3",
+  "duration_sec": 1806.756,
+  "filename_facts": {
+   "episode_number": 424,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 424,
+   "story": "The whispering droplets",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-36.4 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Episode 424: The Whispering Droplets (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Sefirah show without music: respecting one another, the lasting spirit of Pesach, why we count the Omer, and how dripping water inspired Rabbi Akiva to learn Torah at forty.",
+  "summary_long": "Broadcast after Pesach 5750, during Sefiras HaOmer, and opened without music. Uncle Yossi explains that we hold back from music in these weeks in memory of Rabbi Akiva's students, who died in a plague because they did not show each other respect, and teaches how to honor others: never embarrass anyone, give compliments, and encourage a classmate, as Rabbi Akiva taught 'love your fellow as yourself'. He shows how Pesach does not 'pass over' but stays with us all year, as the matzah strengthens both soul and body. Then he explains counting the Omer: like a prisoner marking off the days to his release, the Jews leaving Egypt counted eagerly toward receiving the Torah, the true freedom of the soul. A young visitor from out of town leads the Shema and tells how the Rebbe gave him a dollar for tzedakah, and everyone gives tzedakah. Story time tells how Rabbi Akiva, a forty-year-old who could not read, saw drops of water wear a hole in a rock and, encouraged by his wife Rachel, went to learn Torah and became a great sage.",
+  "lesson": "Show respect and love to every friend, count the days to the Torah eagerly, and remember that steady learning, like dripping water, wins in the end.",
+  "keywords": [
+   "no music",
+   "Rabbi Akiva's students",
+   "respect",
+   "compliments",
+   "counting",
+   "prisoner",
+   "manna",
+   "dripping water",
+   "rock",
+   "Rebbe's dollar",
+   "forty years old"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 424,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-04-24",
+   "hebrew": "29 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "First show after Pesach (Sefirah begun, Pesach over). 10 and 17 Apr 1990 were Yom Tov Tuesdays, so the week before ep 425 (1 May 1990)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Explains that thousands of Rabbi Akiva's students died in a plague as a punishment.",
+    "at_sec": 28
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A visiting boy is named in full with his home town.",
+    "at_sec": 950
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rachel, wife of Rabbi Akiva",
+   "Rabbi Akiva's students"
+  ],
+  "topics": [
+   "calendar",
+   "sages",
+   "torah_study",
+   "character"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel",
+   "hasmadah",
+   "shalom"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study",
+   "ahavas_yisroel_mitzvah",
+   "twelve_pesukim",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 28,
+   "type": "opening",
+   "title": "Greeting (without music for Sefirah)"
+  },
+  {
+   "start_sec": 28,
+   "end_sec": 317,
+   "type": "talk",
+   "title": "Sefirah: Respecting One Another",
+   "summary": "Why there is no music during Sefirah, and how to honor and encourage others, unlike Rabbi Akiva's students.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "3575b7812c"
+   ]
+  },
+  {
+   "start_sec": 317,
+   "end_sec": 432,
+   "type": "talk",
+   "title": "Pesach Doesn't Pass Over",
+   "summary": "The matzah's gift of faith and health stays with us all year.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "3575b7812c"
+   ]
+  },
+  {
+   "start_sec": 432,
+   "end_sec": 907,
+   "type": "talk",
+   "title": "Why We Count the Omer",
+   "summary": "Like a prisoner counting the days to freedom, the Jews counted toward receiving the Torah, the freedom of the soul.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "3575b7812c"
+   ]
+  },
+  {
+   "start_sec": 907,
+   "end_sec": 1150,
+   "type": "shema_guest",
+   "title": "Shema with a young visitor from out of town",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1150,
+   "end_sec": 1182,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1182,
+   "end_sec": 1785,
+   "type": "story",
+   "title": "The Whispering Droplets",
+   "summary": "Encouraged by his wife Rachel, forty-year-old Akiva sees water wear through a rock and sets out to learn Torah.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1785,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3575b7812c",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Sfiras Haomer 424' = 30-908 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "eb0459de7a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 23: Kelipah and Kelipas Nogah, Tanya Chapters 6-7' (Stories, 19:28-21:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume",
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very quiet source (-36.4 LUFS); normalize on playback. Story begins abruptly ('Everyone admired him...') right after 'here comes story time'; its opening lines may have been cut. No march this week because of Sefirah."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Alter Yehoshua Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan",
+    "start_sec": 950,
+    "end_sec": 1150,
+    "note": "Visiting boy; said the Rebbe gave him a dollar."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Air date uncertain: weekly estimate falls on Pesach; content places it after Pesach (17 or 24 April 1990)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20424%20-%20The%20Whispering%20Droplets%20%28Sefiras%20HaOmer%29%20%281990-04-24%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 424 - The Whispering Droplets (Sefiras HaOmer) (1990-04-24).mp3",
+  "size_bytes": 21681954,
+  "mime_type": "audio/mpeg"
+ }
+}

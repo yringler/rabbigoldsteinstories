@@ -1,0 +1,170 @@
+{
+ "id": "cd32aa7e6a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Chesed-Purim 420",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Chesed After Purim - Avraham Avinu's Tent and a Year of Kindness and Joy (Ep 420).mp3",
+  "duration_sec": 346.13,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 420,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 420,
+   "story": "The mystery of Toras Emes #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chesed After Purim: Avraham Avinu's Tent and a Year of Kindness and Joy",
+  "title_basis": "content",
+  "summary_short": "The kindness of Purim should last all year: chesed is our inheritance from Avraham and Sarah, who fed travelers and taught them about Hashem.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given right after Purim. Uncle Yossi explains that the mitzvos of Purim, like mishloach manos and matanos la'evyonim, are not only for Purim: the good feeling of giving and helping others should stay with us all year. This midah of chesed comes down to us from Avraham Avinu. He and Sarah Imeinu set up a tent in the desert and prepared delicious food for hungry travelers. When the guests thanked them, Avraham explained that the food really came from Hashem, and little by little people threw away their idols and began to pray to the one Creator. Avraham did not want to keep his belief to himself. As soldiers in Hashem's army we continue his chesed, and Hashem, who is always kind, blesses us with everything good. The joy of Purim, too, should last all year: be happy because we are Jews, because we have the Torah, and because we pray to Hashem.",
+  "lesson": "Keep doing chesed and keep the simcha of Purim every day of the year, just like Avraham Avinu.",
+  "keywords": [
+   "Avraham's tent",
+   "travelers",
+   "food",
+   "idols",
+   "kindness",
+   "happiness",
+   "mishloach manos"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 420,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-03-13",
+   "hebrew": "16 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Right after Purim' (Purim 5750 = Sunday 11 March 1990); episode 420 aired the following Tuesday."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "hungry travelers"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "tanach",
+   "calendar"
+  ],
+  "midos": [
+   "chesed",
+   "simcha",
+   "generosity"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "mishloach_manos",
+   "matanos_levyonim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "100:2, 'Ivdu es Hashem b'simcha'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b70ca9e7ce",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 59,
+   "note": "Episode 420 (filename number); clip = 59-405 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Chesed%20After%20Purim%20-%20Avraham%20Avinu%27s%20Tent%20and%20a%20Year%20of%20Kindness%20and%20Joy%20%28Ep%20420%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Chesed After Purim - Avraham Avinu's Tent and a Year of Kindness and Joy (Ep 420).mp3",
+  "size_bytes": 4154592,
+  "mime_type": "audio/mpeg"
+ }
+}

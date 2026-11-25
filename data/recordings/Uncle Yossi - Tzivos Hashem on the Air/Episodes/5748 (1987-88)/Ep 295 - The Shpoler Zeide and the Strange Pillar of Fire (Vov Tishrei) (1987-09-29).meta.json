@@ -1,0 +1,336 @@
+{
+ "id": "3073859dbb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "295 09-29-87",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 295 - The Shpoler Zeide and the Strange Pillar of Fire (Vov Tishrei) (1987-09-29).mp3",
+  "duration_sec": 1814.771,
+  "filename_facts": {
+   "episode_number": 295,
+   "date_in_filename": "1987-09-29",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 295,
+   "story": "Shpole Zeide Pillar of Fire",
+   "topic": "The Shpole Zeide",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 295: The Shpoler Zeide and the Strange Pillar of Fire (Vov Tishrei)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Vov Tishrei show for the yahrzeit of the Shpoler Zeide: his own march, Shema with two Beis Rivkah girls, the story of the strange pillar of fire, and a talk with one of his descendants.",
+  "summary_long": "Broadcast on Vov Tishrei 5748, the yahrzeit of Rabbi Aryeh Leib of Shpola, the Shpoler Zeide. Uncle Yossi wishes everyone a good and sweet year and explains how the Shpoler Zeide's descendants mark the day by retelling his stories and following his example. The weekly march is the Hopkozak, a tune composed by the Shpoler Zeide himself. Two girls from the Beis Rivkah school lead the Shema. Story time brings 'The Strange Pillar of Fire': on a visit to the Alter Rebbe, the Shpoler Zeide reads a holy manuscript, the 'Book for the Righteous', and begs that it be returned to Heaven, saying it will rise in a pillar of fire and wishing that his own soul would rise the same way. Years later a fire breaks out in the Alter Rebbe's house, a pillar of fire rises to the sky, and at that very moment the Shpoler Zeide passes away. A descendant of the Shpoler Zeide then describes the family society that collects his stories and traces his descendants. The show closes with a request for letters about Rosh Hashanah and an invitation to a Sukkos event.",
+  "lesson": "Remember the tzaddikim on their yahrzeit by retelling their stories and following their example of Ahavas Yisroel.",
+  "keywords": [
+   "yahrzeit",
+   "pillar of fire",
+   "holy book",
+   "fire",
+   "Hopkozak march",
+   "descendants",
+   "family tree",
+   "Studio 604",
+   "Sukkos event"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 295,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-09-29",
+   "hebrew": "6 Tishrei 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'today is Vav Tishrei'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story ends with the passing of the Shpoler Zeide; the town is found in mourning.",
+    "at_sec": 1150
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests named in full.",
+    "at_sec": 472
+   },
+   {
+    "flag": "home_address",
+    "note": "Mailing address of the family society read on air; may be a private home.",
+    "at_sec": 1554
+   },
+   {
+    "flag": "phone_number",
+    "note": "Evening phone number for the family society read on air; may be a private line.",
+    "at_sec": 1560
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Chassidim of Liadi",
+   "the messengers to Shpola"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "chabad_rebbeim",
+   "miracles",
+   "family_heritage",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "shema"
+  ],
+  "calendar": [
+   "vav_tishrei",
+   "aseres_yemei_teshuvah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Liadi",
+   "Shpola"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 46,
+   "type": "opening",
+   "title": "Opening and New Year wishes"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 158,
+   "type": "talk",
+   "title": "Vov Tishrei: the Shpoler Zeide's yahrzeit",
+   "summary": "How the Shpoler Zeide's descendants mark his yahrzeit by retelling his stories and following his example.",
+   "people": [
+    "shpoler_zeide"
+   ],
+   "calendar": [
+    "vav_tishrei"
+   ],
+   "linked_items": [
+    "5e93a80f9a"
+   ]
+  },
+  {
+   "start_sec": 158,
+   "end_sec": 405,
+   "type": "song",
+   "title": "The Hopkozak March of the Shpoler Zeide"
+  },
+  {
+   "start_sec": 405,
+   "end_sec": 443,
+   "type": "story_intro",
+   "title": "Story time introduction",
+   "linked_items": [
+    "7b12e4e282"
+   ]
+  },
+  {
+   "start_sec": 443,
+   "end_sec": 581,
+   "type": "shema_guest",
+   "title": "Shema with two girls from Beis Rivkah",
+   "linked_items": [
+    "7b12e4e282"
+   ]
+  },
+  {
+   "start_sec": 581,
+   "end_sec": 1235,
+   "type": "story",
+   "title": "The Strange Pillar of Fire",
+   "summary": "The Shpoler Zeide asks that the Alter Rebbe's holy manuscript return to Heaven in a pillar of fire, and his own soul departs in the same way.",
+   "people": [
+    "shpoler_zeide",
+    "alter_rebbe"
+   ],
+   "linked_items": [
+    "7b12e4e282"
+   ]
+  },
+  {
+   "start_sec": 1235,
+   "end_sec": 1586,
+   "type": "other",
+   "title": "A descendant of the Shpoler Zeide visits Studio 604",
+   "summary": "A guest describes the family society that publishes the Shpoler Zeide's stories, holds a yearly seudah and traces his descendants."
+  },
+  {
+   "start_sec": 1586,
+   "end_sec": 1674,
+   "type": "announcement",
+   "title": "Write to Uncle Yossi about Rosh Hashanah"
+  },
+  {
+   "start_sec": 1674,
+   "end_sec": 1715,
+   "type": "announcement",
+   "title": "The Sukkos Experience invitation",
+   "calendar": [
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 1715,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Guest interview reads a family-society address and phone number (see hidden). Sukkos event and phone lines are period pieces. ASR spells the tzaddik 'Shpola Zeda'."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Mindy Piekarski",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 472,
+    "end_sec": 581
+   },
+   {
+    "name": "Chana Bracha Piekarski",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 472,
+    "end_sec": 581
+   },
+   {
+    "name": "Rabbi Mordechai Kalmanson",
+    "role": "visitor",
+    "group": "Shpoler Zeide Family Society",
+    "start_sec": 1235,
+    "end_sec": 1586
+   }
+  ],
+  "addresses": [
+   {
+    "text": "640 Empire Boulevard, Brooklyn, NY 11213 (Shpoler Zeide Family Society)",
+    "start_sec": 1554,
+    "end_sec": 1560
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "phone_number",
+    "text": "718-773-3030 (evenings; Shpoler Zeide Family Society)",
+    "start_sec": 1560,
+    "end_sec": 1566
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Decide whether the family society's address and phone (possibly a private home) need to be treated as private."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:47Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "5e93a80f9a",
+   "evidence": "text_overlap",
+   "confidence": 0.64,
+   "note": "'The Sphole Zeide 295' = 34-155 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "7b12e4e282",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Shpole Zeide Pillar of Fire 295' = 529-1247 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20295%20-%20The%20Shpoler%20Zeide%20and%20the%20Strange%20Pillar%20of%20Fire%20%28Vov%20Tishrei%29%20%281987-09-29%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 295 - The Shpoler Zeide and the Strange Pillar of Fire (Vov Tishrei) (1987-09-29).mp3",
+  "size_bytes": 21778198,
+  "mime_type": "audio/mpeg"
+ }
+}

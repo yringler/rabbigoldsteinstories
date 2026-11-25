@@ -1,0 +1,153 @@
+{
+ "id": "fb80479822",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Shofar Enroll in Yeshiva Elul 394",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Shofar of Elul - Helping a Friend Whose Soul Is Hungry (Ep 394).mp3",
+  "duration_sec": 530.373,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 394,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 394,
+   "story": "The two brothers",
+   "topic": "March enroll yeshivah",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Shofar of Elul: Helping a Friend Whose Soul Is Hungry",
+  "title_basis": "content",
+  "summary_short": "The Elul shofar is a call to attention. Uncle Yossi explains that someone without Torah and mitzvos is truly poor, and asks children to help a friend join a yeshiva.",
+  "summary_long": "A talk from the Tzivos Hashem radio show in Elul. Uncle Yossi explains why the shofar is blown every weekday morning in Elul: like an army bugle, it calls the soldiers of Tzivos Hashem to attention to get ready for Rosh Hashanah. We all have a long list of wishes for the new year, so we must show Hashem we deserve them by behaving well, especially through Ahavas Yisroel. He poses a riddle: how can a rich person with plenty of food, clothing and shelter be very poor? The answer is that the soul also needs food, which is Torah, and clothing and shelter, which are mitzvos. Someone who does not learn Torah or do mitzvos is starving inside and deserves our help. The best way to help is to convince a friend or relative to join a yeshiva, boys or girls, and Tzivos Hashem offers to help them enroll for the new term.",
+  "lesson": "A person without Torah and mitzvos is truly poor; real Ahavas Yisroel means helping others feed their souls.",
+  "keywords": [
+   "shofar",
+   "bugle",
+   "riddle",
+   "food for the soul",
+   "clothing and shelter",
+   "yeshiva enrollment",
+   "new year wishes"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 394,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-09-12",
+   "hebrew": "12 Elul 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Clip of episode 394; the full show says Chai Elul is 'next Monday, the 18th of September'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "kindness_and_community",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shofar",
+   "ahavas_yisroel_mitzvah",
+   "chinuch",
+   "torah_study"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0b2ff37d4b",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 39,
+   "note": "Episode 394 (filename number); clip = 39-569 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The yeshiva enrollment offer refers to the 1989 school term."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:33Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Shofar%20of%20Elul%20-%20Helping%20a%20Friend%20Whose%20Soul%20Is%20Hungry%20%28Ep%20394%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Shofar of Elul - Helping a Friend Whose Soul Is Hungry (Ep 394).mp3",
+  "size_bytes": 6365513,
+  "mime_type": "audio/mpeg"
+ }
+}

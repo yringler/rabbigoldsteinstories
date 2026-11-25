@@ -1,0 +1,15 @@
+{
+ "batch_id": "b088",
+ "done": [
+  "13f49636bc",
+  "be7585abf5",
+  "3d11644d1d"
+ ],
+ "failed": [],
+ "notes": [
+  "13f49636bc ('32 seems like tanya double'): possibly mislabeled. It is spoken mostly in English, not Yiddish, and transcribed with the Yiddish model (English partly in Hebrew letters, loops). The text studied is a discourse on chassid/ani and tzedakah (pages 236-238 named on air), not Tanya chapters 14-16. The speaker refers to 'the other day's Tanya' class as a separate class. It is set in Elul ('the King in the field'; Rosh Hashanah falls on Shabbos that year), but the year is unknown; a $900 pair of tefillin hints at a later decade than 5736-5737. Recommend review, re-transcription in English and a decision on its series/collection. Adult class participants named by first name are in hidden.other_personal: the validator rejects hidden.on_air_people without a minor/health/family flag.",
+  "be7585abf5 (33a) is dated Rosh Chodesh Kislev 5737 (1976-11-23), stated on air. 3d11644d1d (33b) continues it a week later (week of Yud Kislev 5737); I linked them with part_of_set and continues relations.",
+  "This dates the series: shiur 29 is in Elul 5736 and shiur 33 is in Kislev 5737, so shiurim 30-31 (Tanya 14-16) fall between them.",
+  "3d11644d1d ends mid-sentence in the opening of Tanya ch. 18; the next shiur probably continues ch. 18."
+ ]
+}

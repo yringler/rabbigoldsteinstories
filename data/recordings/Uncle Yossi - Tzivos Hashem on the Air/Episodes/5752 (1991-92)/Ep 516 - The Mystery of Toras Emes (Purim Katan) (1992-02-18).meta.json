@@ -1,0 +1,302 @@
+{
+ "id": "70f8ca0fa2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "516",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 516 - The Mystery of Toras Emes (Purim Katan) (1992-02-18).mp3",
+  "duration_sec": 1794.17,
+  "filename_facts": {
+   "episode_number": 516,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 516,
+   "story": "The mystery of Toras Emes",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 516: The Mystery of Toras Emes (Purim Katan)",
+  "title_basis": "master_catalog",
+  "summary_short": "On Purim Katan, Uncle Yossi teaches how to start the day with 'Shivisi Hashem' and Modeh Ani, then tells how a rabbi's dream foiled a plot to greet the king with an empty Sefer Torah.",
+  "summary_long": "Broadcast on Purim Katan, the 14th of Adar Rishon in a leap year. Uncle Yossi explains Purim Katan and prays that by Purim we will celebrate a 'big Purim' with Moshiach. Returning to the Shulchan Aruch, he teaches that the first thought each morning is 'Shivisi Hashem', to picture Hashem before us, since Hashem guards us all night and never sleeps. We think those words but do not say them, because Hashem's name may not be said before washing our hands; then we say Modeh Ani, which has no Divine name. Starting the day this way fills us with joy. After the Hakochainik march, a young Tzivos Hashem member says the Shema and everyone gives tzedakah. Story time: the Jews of a kind king's city greet him each year with a Sefer Torah. A jealous officer persuades the shul's shammes to use a beautiful but empty 'Torah' instead, then tells the king he is being mocked. Three times in a dream a voice tells the rabbi 'Toras Emes, a true Torah', and he quietly swaps in a real one. Like Haman, the plotter is punished. The show ends with candle-lighting times and Purim Katan wishes.",
+  "lesson": "Hashem never sleeps and always guards the Jewish people; begin each day remembering He is before you, and serve Him with joy.",
+  "keywords": [
+   "Purim Katan",
+   "Modeh Ani",
+   "Shivisi Hashem",
+   "Sefer Torah",
+   "empty Torah",
+   "shammes",
+   "dream",
+   "jealous officer",
+   "king's visit",
+   "Haman"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 516,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1992-02-18",
+   "hebrew": "14 Adar I 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight it's Purim Katan' in a leap year; Tuesday 14 Adar I 5752. Candle time 5:18."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A jealous officer plots to turn the king against the Jews; the king threatens severe punishment.",
+    "at_sec": 1037
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 780
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "esther_hamalkah",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the kind king",
+   "Ivan, the jealous officer",
+   "Chaim the shammes",
+   "the rabbi"
+  ],
+  "topics": [
+   "morning_routine",
+   "hashgacha_pratis",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "simcha",
+   "emes",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "negel_vasser",
+   "kavod_shul",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "purim_katan",
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 1:1",
+    "note": "Opens with 'Shivisi Hashem lenegdi samid'."
+   },
+   {
+    "work": "siddur",
+    "ref": "'Utzu eitzah vesufar'",
+    "note": "'They may make a plan, but it will be foiled', from the daily prayers."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 51,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 51,
+   "end_sec": 473,
+   "type": "talk",
+   "title": "Purim Katan; Starting the Day with Shivisi Hashem and Modeh Ani",
+   "summary": "Purim Katan in a leap year; the first thought each morning is that Hashem is before us, then we say Modeh Ani.",
+   "calendar": [
+    "purim_katan"
+   ],
+   "linked_items": [
+    "72ed5747fb"
+   ]
+  },
+  {
+   "start_sec": 473,
+   "end_sec": 722,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 722,
+   "end_sec": 878,
+   "type": "shema_guest",
+   "title": "Shema with a young guest"
+  },
+  {
+   "start_sec": 878,
+   "end_sec": 935,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 935,
+   "end_sec": 1660,
+   "type": "story",
+   "title": "The Mystery of Toras Emes",
+   "summary": "A rabbi's dream reveals that the Torah prepared to greet the king is empty, foiling a jealous officer's plot."
+  },
+  {
+   "start_sec": 1660,
+   "end_sec": 1705,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1705,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "72ed5747fb",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Shivisi Hashem-Purim Koton 516' = 56-473 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1658b83955",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 166: The Mystery of Toras Emes, Chapter 1 (Purim)' (episode 166, 9:53-13:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "25f7b4e626",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 15: The Miracle of Toras Emes, Chapter 2' (episode 15, 10:04-18:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5bcc2b3a95",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 14: The Miracle of Toras Emes, Chapter 1 (Purim)' (episode 14, 9:35-12:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Candle times are a period piece. Child named on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Basya Shem Tov",
+    "role": "shema_guest",
+    "start_sec": 778,
+    "end_sec": 878
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20516%20-%20The%20Mystery%20of%20Toras%20Emes%20%28Purim%20Katan%29%20%281992-02-18%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 516 - The Mystery of Toras Emes (Purim Katan) (1992-02-18).mp3",
+  "size_bytes": 21531175,
+  "mime_type": "audio/mpeg"
+ }
+}

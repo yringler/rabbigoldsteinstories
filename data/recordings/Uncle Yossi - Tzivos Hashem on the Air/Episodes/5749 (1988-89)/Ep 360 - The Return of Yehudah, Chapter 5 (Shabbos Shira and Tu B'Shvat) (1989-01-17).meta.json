@@ -1,0 +1,354 @@
+{
+ "id": "b4e30d4905",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "360 01-17-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 360 - The Return of Yehudah, Chapter 5 (Shabbos Shira and Tu B'Shvat) (1989-01-17).mp3",
+  "duration_sec": 1766.958,
+  "filename_facts": {
+   "episode_number": 360,
+   "date_in_filename": "1989-01-17",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 360,
+   "story": "The return of Yehudah #5",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 360: The Return of Yehudah, Chapter 5 (Shabbos Shira and Tu B'Shvat)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi announces the Jewish Children's Expo, a young yeshiva boy leads the Shema, and Reb Moshe and Sarah must go on without little Yehudah. Plus tidying your room, and Tu B'Shvat.",
+  "summary_long": "Broadcast in the week of Shabbos Shira and Tu B'Shvat 5749. Uncle Yossi opens with big news: Tzivos Hashem's Jewish Children's Expo returns to the Javits Center in New York in early Adar, with hours for schools and for the public. After the Hakochainik march, a six-and-a-half-year-old boy from the Lubavitcher Yeshiva leads the Shema in Studio 604. Story time continues The Return of Yehudah: Reb Moshe and Sarah, unable to go back to the pit for little Yehudah without being caught by the cruel poritz, say Tehillim, put their trust in Hashem with Rabbi Akiva's words 'all that Hashem does is for the good', and settle in a village where Reb Moshe becomes the melamed, never forgetting their son. A boy's letter from Monsey and his homemade Shiviti sign lead to a Shiviti sign contest. The morning-routine lesson continues: after negel vasser, make your bed and tidy your room to help Mommy. The show ends with candle-lighting time, Shabbos Shira, and the meaning of Tu B'Shvat: a person is like a tree, and our fruits are Torah and mitzvos.",
+  "lesson": "Trust Hashem even when you cannot understand what is happening, and help at home by keeping your own room neat.",
+  "keywords": [
+   "Jewish Children's Expo",
+   "Javits Center",
+   "pit",
+   "melamed",
+   "village",
+   "Shiviti sign",
+   "making the bed",
+   "Az Yashir",
+   "fruit trees",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 360,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-01-17",
+   "hebrew": "11 Shevat 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: candle lighting Friday January 20; 'this Shabbos is Shabbos Shira' and Tu B'Shvat."
+  },
+  "serial": {
+   "story_key": "the-return-of-yehudah",
+   "story_title": "The Return of Yehudah",
+   "chapter": 5
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Parents who escaped a cruel poritz cannot go back for their young son left behind in a pit.",
+    "at_sec": 472
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A cruel poritz would put the escaped Jewish family to death if they returned.",
+    "at_sec": 472
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and a letter writer named in full on air.",
+    "at_sec": 537
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Moshe",
+   "Sarah, his wife",
+   "little Yehudah",
+   "the poritz",
+   "the villagers"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "family_and_home",
+   "tzivos_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "shema",
+   "kibbud_av_vaem",
+   "brachos",
+   "tehillim"
+  ],
+  "calendar": [
+   "tu_bshvat",
+   "shabbos_shirah"
+  ],
+  "parshiyos": [
+   "beshalach"
+  ],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Berachos 60b",
+    "note": "Rabbi Akiva: 'All that the Merciful One does is for the good.'"
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 20:19",
+    "note": "'A person is like a tree of the field', as explained by the Sages."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 310,
+   "type": "announcement",
+   "title": "The Jewish Children's Expo at the Javits Center",
+   "summary": "Dates, public hours and how to reserve for Tzivos Hashem's second Jewish Children's Expo in February 1989."
+  },
+  {
+   "start_sec": 310,
+   "end_sec": 472,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 472,
+   "end_sec": 501,
+   "type": "story_intro",
+   "title": "Story time: where we left off",
+   "story_key": "the-return-of-yehudah",
+   "chapter": 5
+  },
+  {
+   "start_sec": 501,
+   "end_sec": 786,
+   "type": "shema_guest",
+   "title": "Shema with a young boy from the Lubavitcher Yeshiva",
+   "summary": "A six-and-a-half-year-old boy leads the Shema, and Uncle Yossi recommends his teacher's new book for beginning Chumash."
+  },
+  {
+   "start_sec": 786,
+   "end_sec": 1065,
+   "type": "story_chapter",
+   "title": "The Return of Yehudah, Chapter 5",
+   "summary": "Reb Moshe and Sarah trust in Hashem, travel on without Yehudah, and settle in a village where Reb Moshe becomes the melamed.",
+   "story_key": "the-return-of-yehudah",
+   "chapter": 5
+  },
+  {
+   "start_sec": 1065,
+   "end_sec": 1403,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a Shiviti sign from Monsey",
+   "summary": "A boy's letter and homemade Shiviti sign, and an invitation to send in Shiviti signs for the newsletter."
+  },
+  {
+   "start_sec": 1403,
+   "end_sec": 1550,
+   "type": "talk",
+   "title": "Starting the Day Right: Tidy Your Room",
+   "summary": "After negel vasser and getting dressed, make your bed and put away your things to help Mommy, part of honoring parents.",
+   "linked_items": [
+    "c338cdf4f3"
+   ]
+  },
+  {
+   "start_sec": 1550,
+   "end_sec": 1584,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1584,
+   "end_sec": 1679,
+   "type": "talk",
+   "title": "Shabbos Shira and Tu B'Shvat",
+   "summary": "The Song at the Sea is read this Shabbos, and on Tu B'Shvat we remember that our fruits are Torah and good deeds.",
+   "calendar": [
+    "tu_bshvat"
+   ],
+   "linked_items": [
+    "0a959b496c"
+   ]
+  },
+  {
+   "start_sec": 1679,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0a959b496c",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Shabbos Shira-Tu Bishvat 360' = 1584-1679 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "c338cdf4f3",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Morning Routine-3 360' = 1403-1550 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a815fbd757",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Return of Yehudah' (1988-89): ep 359 ch. 4 and ep 360 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "a815fbd757",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "ep 360 ch. 5 continues 'The Return of Yehudah' (1988-89): ep 359 ch. 4."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a3aba3f78a",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Return of Yehudah' (1988-89): ep 360 ch. 5 and ep 361 ch. 6 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Shema guest and story chapter are the same recording as in episode 246 (5747); the 1989 run re-airs the serial. Expo dates, phone numbers and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehoshua Menachem Mendel Yaakov HaLevi Shiner",
+    "role": "shema_guest",
+    "group": "Lubavitcher Yeshiva, age six and a half",
+    "start_sec": 537,
+    "end_sec": 786
+   },
+   {
+    "name": "Rabbi Levi Goldstein",
+    "role": "other",
+    "group": "Teacher of the Shema guest at the Lubavitcher Yeshiva; author of a beginner's Chumash book",
+    "start_sec": 590,
+    "end_sec": 670
+   },
+   {
+    "name": "Baruch Weinstein",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1125,
+    "end_sec": 1350,
+    "note": "Asked to come to the studio to say the Shema; sent in a Shiviti sign."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:11Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Shema guest and story chapter re-aired from episode 246; the 1986 item calls the same chapter 4, the catalog calls this one #5."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20360%20-%20The%20Return%20of%20Yehudah%2C%20Chapter%205%20%28Shabbos%20Shira%20and%20Tu%20B%27Shvat%29%20%281989-01-17%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 360 - The Return of Yehudah, Chapter 5 (Shabbos Shira and Tu B'Shvat) (1989-01-17).mp3",
+  "size_bytes": 21204549,
+  "mime_type": "audio/mpeg"
+ }
+}

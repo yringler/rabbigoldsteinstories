@@ -1,0 +1,213 @@
+{
+ "id": "0f82bdc6fb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "kesser tefila 1",
+  "audio_path": "audio/Other Stories/Kesser Tefillah, Part 1 - Meir's Dream of Hashem's Crown.mp3",
+  "duration_sec": 1785.787,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Kesser Tefillah, Part 1: Meir's Dream of Hashem's Crown",
+  "title_basis": "filename",
+  "summary_short": "Meir rushes through his davening and swallows letters, until an angel shows him in a dream how every carefully said letter becomes a diamond in Hashem's crown.",
+  "summary_long": "Meir is a fine boy who is careful in every mitzvah except one: he davens and says brachos so quickly that letters get lost, like the double lamed in \"al levavecha.\" One night he dreams that a wind lifts him above the clouds, where a friendly malach shows him an enormous shining crown. Every diamond in it is a letter or vowel said in davening, with the names of the Jews who said them, arranged by city. Meir finds his own name, but many of his diamonds are missing. He wakes up saying Modeh Ani slowly and carefully, tells his mother at breakfast, and hurries to yeshiva. There, before davening, his teacher tells a story from the sefer Matteh Yehudah: after Rabbi Azaria passed away, he was shown in the Heavenly court all the letters and vowels he had skipped or said wrongly, and had to return to fix them. The whole class davens beautifully. That night, after a careful bedtime routine, Meir dreams again and sees his part of the crown shining.",
+  "lesson": "Say every word of davening and brachos clearly and carefully, letter by letter; each one becomes a jewel in Hashem's crown, and others will learn from your example.",
+  "keywords": [
+   "crown",
+   "diamonds",
+   "dream",
+   "angel",
+   "letters",
+   "vowels",
+   "siddur",
+   "Modeh Ani",
+   "bedtime Shema",
+   "yeshiva class"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction",
+   "rishonim_acharonim"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "kesser-tefillah",
+   "part_number": 1,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A departed man is shown his mistakes in the Heavenly court and sent back to the world to repair them."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Meir",
+   "the malach",
+   "Meir's mother",
+   "Meir's teacher",
+   "Rabbi Azaria",
+   "Rabbi Gedalia"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "responsibility",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "davening",
+   "brachos",
+   "modeh_ani",
+   "shema",
+   "negel_vasser",
+   "tzitzis",
+   "yarmulke",
+   "mezuzah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "Story from the sefer Matteh Yehudah by Rabbi Leib Oppenheim, about Rabbi Azaria in the Heavenly court."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "\"Like the Rebbe told us\": sleep with a yarmulke and tzitzis, kiss the mezuzah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 200,
+   "type": "story",
+   "title": "Meir rushes his words"
+  },
+  {
+   "start_sec": 200,
+   "end_sec": 735,
+   "type": "story",
+   "title": "The dream: Hashem's crown"
+  },
+  {
+   "start_sec": 735,
+   "end_sec": 984,
+   "type": "story",
+   "title": "A careful morning"
+  },
+  {
+   "start_sec": 984,
+   "end_sec": 1296,
+   "type": "story",
+   "title": "The teacher's story: Rabbi Azaria and the Heavenly court"
+  },
+  {
+   "start_sec": 1296,
+   "type": "story",
+   "title": "The class davens and Meir's second dream"
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "27799e2e4b",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 13,
+   "note": "'Tefilah - Kesser' (59.7 min) holds this story in its first half, followed by the telephone lesson."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "0dab3223a8",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "'kesser tel lesson': the telephone lesson on davening that follows this story in the combined 'Tefilah - Kesser' file."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Dramatized story with voices. ASR writes 'Mayor' for Meir; a short repetition at 14:53."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unknown (no opening song); possibly the weekly storyteller.",
+   "Part numbering inferred from the combined 'Tefilah - Kesser' file."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Kesser%20Tefillah%2C%20Part%201%20-%20Meir%27s%20Dream%20of%20Hashem%27s%20Crown.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Kesser Tefillah, Part 1 - Meir's Dream of Hashem's Crown.mp3",
+  "size_bytes": 21430470,
+  "mime_type": "audio/mpeg"
+ }
+}

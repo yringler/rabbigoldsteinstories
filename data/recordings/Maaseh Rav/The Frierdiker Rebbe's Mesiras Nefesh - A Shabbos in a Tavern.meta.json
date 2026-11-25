@@ -1,0 +1,161 @@
+{
+ "id": "4289ef2683",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Maaseh Rav",
+  "filename_title": "רייצ מסנ",
+  "audio_path": "audio/Maaseh Rav/The Frierdiker Rebbe's Mesiras Nefesh - A Shabbos in a Tavern.mp3",
+  "duration_sec": 677.277,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language guessed from Hebrew-script name (could be Hebrew)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Frierdiker Rebbe's Mesiras Nefesh: A Shabbos in a Tavern",
+  "title_he": "רייצ מסנ",
+  "title_translit": "Rayatz Mesiras Nefesh",
+  "title_basis": "filename",
+  "summary_short": "To stop a harsh decree, the young Frierdiker Rebbe meets a Russian general on Friday night outside Petersburg and must spend Shabbos in a tavern full of drinkers.",
+  "summary_long": "In the days of the Rebbe Rashab, Russia's prime minister Stolypin was a Jew-hater who issued harsh decrees. His teacher and adviser, General Pobedonostsev, was no friend of the Jews, but he respected religious leaders, so Jews sometimes turned to him to get decrees cancelled. When the Jews of Petersburg could not stop a new decree, the Rebbe Rashab sent his son, the Frierdiker Rebbe, to deal with it. The only time the general would meet him was Friday night after supper, at his home outside the city, where no Jews lived and there was not even a hotel. In the bitter winter cold, with Shabbos starting before four o'clock, the only place to stay was a tavern where Russians drank vodka. To avoid being teased or harmed, the Frierdiker Rebbe bought a glass of whiskey and pretended to sip it for hours. He went to the meeting, succeeded in persuading the general to stop the decree, and returned to the tavern until after Havdalah. The lesson: he thought only that Jews needed help, and with mesiras nefesh Hashem gives success. We too should be ready to give up our own comfort to help a friend, a neighbor or someone in our family.",
+  "lesson": "Put your own comfort aside to help another Jew; when you go with mesiras nefesh because Hashem wants it, Hashem helps you succeed.",
+  "keywords": [
+   "decree",
+   "prime minister",
+   "general",
+   "tavern",
+   "vodka",
+   "Friday night meeting",
+   "winter cold",
+   "Petersburg",
+   "Havdalah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Maaseh Rav"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "maaseh_rav",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "An antisemitic prime minister plans harsh decrees against Jews; the decree is stopped."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The Rebbe spends Shabbos in a tavern among drinking, hostile men and pretends to sip whiskey."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Stolypin, the Russian prime minister",
+   "General Pobedonostsev",
+   "the Jews of Petersburg",
+   "the tavern drinkers"
+  ],
+  "topics": [
+   "mesiras_nefesh_kiddush_hashem",
+   "chabad_rebbeim",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "ahavas_yisroel",
+   "courage",
+   "chesed"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "St. Petersburg",
+   "Lubavitch"
+  ],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Spoken in English despite the Hebrew filename (abbreviation of Rayatz + mesiras nefesh). A sentence about the capital city seems cut at about 1:58 (gap in timestamps)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Historical framing as told: Pobedonostsev is described as Stolypin's teacher and adviser; historians may question this pairing.",
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song"
+  ]
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Maaseh%20Rav/The%20Frierdiker%20Rebbe%27s%20Mesiras%20Nefesh%20-%20A%20Shabbos%20in%20a%20Tavern.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Maaseh Rav/The Frierdiker Rebbe's Mesiras Nefesh - A Shabbos in a Tavern.mp3",
+  "size_bytes": 8128098,
+  "mime_type": "audio/mpeg"
+ }
+}

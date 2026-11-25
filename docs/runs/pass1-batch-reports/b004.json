@@ -1,0 +1,22 @@
+{
+ "batch_id": "b004",
+ "done": [
+  "3d8a6f67a3", "edeae1fcd9", "423f5bbe7a", "a411297215", "4b03cc2ca5", "8fe3be8300",
+  "61cf19835a", "3b5aee7f24", "c77d5adc20", "df73f5aad1", "1da9f1737c", "46d718e3d2",
+  "9f2e683d65", "5a4ae6ea03", "29dc93d7ca", "03f01eb654", "212c1a5998"
+ ],
+ "failed": [],
+ "notes": [
+  "Episode 41 (46d718e3d2) is possibly misnumbered or a re-aired early show. The host says the program has been on the air 'only a few weeks', presents the Sefer Torah as new and never mentions Rosh Hashanah, although the weekly estimate puts it the week before Rosh Hashanah 5743. The catalog story and visitors match, so only the date is in doubt; it was left at year precision.",
+  "Dates 34-40 are confirmed by cues: 34 is 7 Av 5742 ('tomorrow is Erev Tisha B'Av'), 38 is the first week of Elul, 39 is mid-Elul and 40 is the week before Selichos (11 Sept 1982).",
+  "113-115 fall in Adar I 5744: 115 says 'this year we have two Adars'. 114 and 115 both repeat a clothing-store ad for a sale 'till February 15', so that ad is not a reliable date cue.",
+  "113 (9f2e683d65) is filed as 'bad recording' but its transcript is clean. It starts mid-sentence. Audio needs a listen.",
+  "Identity clue: in episode 115 (29dc93d7ca, about 28:45) Uncle Yossi says most of his stories came from his late mother, Chaya Malka bas Dina (yahrzeit 2 Adar). Check how this relates to the speaker id bubby_chaya_malka. The detail is kept in hidden.other_personal.",
+  "Tisha B'Av 34 (423f5bbe7a) is an edited clip. It joins the story intro (episode ~8:43) directly to the post-story lesson (~19:41) and skips the Shema and the Two Brothers story, so the facts span 1121-1669 is approximate.",
+  "'chofetz chaim 115' (03f01eb654) is a 70-second subset of 'Shmiras Halashon 115' (212c1a5998). It is marked superseded_by/alternate_take and set to review.",
+  "Possible rebroadcasts added at moderate confidence from text matches: episode 34 material in 136 (f33fa1ac66), 186 (17d9dca041) and 488 (c69b013e95); the Chofetz Chaim intro in 476 (a890e4740d). There are weaker matches (0.50-0.57) not added: 337 (0d4dd89383), 438 (b325e66419) and the Selichos clip in 494 (be5c373bf4).",
+  "Serials: Three Lost on an Island is episodes 36-37 and The Missing Wallet is episodes 38-39. Both are 2-chapter sets linked with continues/part_of_set. A Diamond from Heaven is 113-114. Life in the Hands of the Tongue #2 is episode 116, which is not in this batch.",
+  "Episode 40 gives a 212-771-9888 number for ordering Uncle Yossi's records. It was treated as the program's business line and not as a private number. Please confirm.",
+  "Proposed terms: people 'chofetz_chaim' and works 'kesuvim' (Mishlei/Eichah quoted; neviim used instead)."
+ ]
+}

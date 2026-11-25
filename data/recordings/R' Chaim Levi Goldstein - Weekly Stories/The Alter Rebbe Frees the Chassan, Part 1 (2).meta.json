@@ -1,0 +1,301 @@
+{
+ "id": "e7cf24915f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Alter Rebbe frees Chasan 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 1 (2).mp3",
+  "duration_sec": 926.732,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Alter Rebbe Frees the Chassan, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Why Hillel taught Ahavas Yisroel as 'don't do', and how a cruel police chief seized an orphan chassan on his wedding day, until the Alter Rebbe arrived.",
+  "summary_long": "Coming from Yud Shevat in the week of Tu B'Shvat, the storyteller asks a class of children a question about Ahavas Yisroel, the first of the Rebbe's mitzvah campaigns: why did Hillel tell the convert what not to do, instead of what to do? He gives the Tzemach Tzedek's answer: we overlook our own faults because we love ourselves, so we should overlook other people's faults too and see only their good. Then the story begins. In a town near Liozna, two orphans raised by kind families are engaged, and the Alter Rebbe himself helped make the shidduch. The whole town helps with the wedding except the richest man, who only ever gives one rusty coin. On the wedding day the Jew-hating police chief seizes the chassan for the Czar's army and threatens to send anyone who pleads for him to Siberia. At noon the Alter Rebbe arrives and sets out for the police station with the town's Rav. Before continuing, the storyteller shares the Maharal's custom for Shabbos Shirah of letting children feed the birds. To be continued.",
+  "lesson": "Love every Jew the way you love yourself: overlook their faults just as you overlook your own, and look only at their good.",
+  "keywords": [
+   "orphans",
+   "wedding",
+   "police chief",
+   "Russian army",
+   "rusty coin",
+   "rich man",
+   "Siberia",
+   "birds",
+   "kasha"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Tu B'Shvat (before Shabbos Shirah)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Said on air: 'we're in Chamisha Asar B'Shvat', and 'this Shabbos' is Shabbos Shirah. Part 2 was recorded on Chof-Beis Shevat. Year unknown."
+  },
+  "part": {
+   "set_key": "alter-rebbe-frees-chasan",
+   "part_number": 1,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A police chief seizes the chassan on his wedding day to send him to the army; unresolved in this part."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hating police chief threatens to send anyone who pleads to Siberia."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "hillel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "maharal",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the orphan chassan",
+   "the orphan kallah",
+   "the rich man",
+   "the police chief (nachalnik)",
+   "the town Rav",
+   "Czar Alexander I"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "dan_lkaf_zchus"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "hachnasas_kallah",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "tu_bshvat",
+   "yud_shevat"
+  ],
+  "parshiyos": [
+   "beshalach"
+  ],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Hillel and the convert who asked to learn the whole Torah on one foot (Shabbos 31a, not cited by page on air), with the Tzemach Tzedek's explanation."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe on the Maharal's Shabbos Shirah custom of children feeding the birds."
+   }
+  ],
+  "places": [
+   "Liozna",
+   "Russia",
+   "Siberia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 1.7,
+   "end_sec": 393,
+   "type": "talk",
+   "title": "Ahavas Yisroel: why Hillel said 'don't do'",
+   "summary": "A question for the class, answered with the Tzemach Tzedek's explanation: overlook others' faults as you overlook your own.",
+   "people": [
+    "hillel",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 805,
+   "type": "story_chapter",
+   "title": "The orphans' wedding and the cruel police chief",
+   "summary": "The police chief seizes the orphan chassan on his wedding day, and the Alter Rebbe arrives and sets out to free him.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "alter-rebbe-frees-chasan",
+   "chapter": 1
+  },
+  {
+   "start_sec": 805,
+   "type": "talk",
+   "title": "The Maharal's Shabbos Shirah custom",
+   "summary": "Children fed the birds to remember how the birds sang with the Jewish people at the sea; continued next week.",
+   "people": [
+    "maharal"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2 'Alter Rebbe frees Chasan 2' recaps this part and finishes the story the following week."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told to a class of children who answer questions. No opening song in this file. ASR garbles Ahavas Yisroel and nachalnik."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; same narrator and format as part 2, which opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Alter%20Rebbe%20Frees%20the%20Chassan%2C%20Part%201%20%282%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 1 (2).mp3",
+  "size_bytes": 11121727,
+  "mime_type": "audio/mpeg"
+ }
+}

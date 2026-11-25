@@ -1,0 +1,339 @@
+{
+ "id": "4f9d7f0c70",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "134",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 134 - The Stone for the Beis HaMikdash (Shabbos Mevarchim Av) (1984-07-24).mp3",
+  "duration_sec": 1743.626,
+  "filename_facts": {
+   "episode_number": 134,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 134,
+   "story": "The stone for the Beis Hamikdosh",
+   "topic": "3 weeks",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 134: The Stone for the Beis HaMikdash (Shabbos Mevarchim Av)",
+  "title_basis": "master_catalog",
+  "summary_short": "Poor Rabbi Chanina ben Dosa finds a perfect stone for the Beis HaMikdash, and angels carry it once he lifts a finger. Also: Rosh Chodesh Av and Ahavas Yisroel.",
+  "summary_long": "A summer program during the Three Weeks. Uncle Yossi thanks listeners for their letters, even the scribbles of little ones who cannot write yet. Story time tells of Rabbi Chanina ben Dosa, too poor to bring a gift for building the Beis HaMikdash. Praying by the roadside, he realizes the stone he is sitting on is a perfect cube, fit for a cornerstone, but he cannot budge it. After a young guest leads the Shema, five strangers, really angels, offer to carry it, but the stone only floats toward Yerushalayim once Rabbi Chanina puts his little finger under it. The lessons: every mitzvah adds a stone to the third Beis HaMikdash, and 'you try your best, and Hashem will do the rest'. Uncle Yossi then explains that Rosh Chodesh, Av this coming Monday, is the 'head' of the month, from which the whole month draws its blessings, and describes the prayer of Shabbos Mevarchim. A letter from two girls includes a drawing of Har Sinai. The show ends with a call for Ahavas Yisroel: Hashem, like a parent, delights most when His children love one another.",
+  "lesson": "Try your best and Hashem will do the rest; every mitzvah adds a stone to the third Beis HaMikdash, and loving one another undoes the baseless hatred that destroyed it.",
+  "keywords": [
+   "cornerstone",
+   "stone",
+   "angels",
+   "little finger",
+   "Rosh Chodesh",
+   "head of the month",
+   "drawing of Har Sinai",
+   "scribbled letters",
+   "summer vacation"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 134,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-07-24",
+   "hebrew": "24 Tammuz 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Monday... Rosh Chodesh Av' and 'this coming Shabbos Mevarchim': 1 Av 5744 was Monday 30 July 1984. Most of the show repeats episode 33 (5742)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and two letter writers named in full.",
+    "at_sec": 348
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_chanina_ben_dosa",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "five angels disguised as travelers"
+  ],
+  "topics": [
+   "sages",
+   "beis_hamikdash_eretz_yisroel",
+   "miracles",
+   "calendar",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "hasmadah",
+   "simcha",
+   "ahavas_yisroel",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "shema",
+   "davening",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "three_weeks",
+   "rosh_chodesh",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Yerushalayim"
+  ],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "The story is introduced as 'told by our Chachamim'."
+   },
+   {
+    "work": "siddur",
+    "ref": "Birchas HaChodesh",
+    "note": "The Shabbos Mevarchim prayer for a month of life, peace, joy and redemption."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 14:1",
+    "note": "'Banim atem laShem Elokeichem.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 112,
+   "type": "opening",
+   "title": "Opening: summer letters and scribbles"
+  },
+  {
+   "start_sec": 112,
+   "end_sec": 290,
+   "type": "story",
+   "title": "The Stone for the Beis HaMikdash (part 1)",
+   "summary": "Rabbi Chanina ben Dosa, too poor to give a gift, prays by the roadside.",
+   "people": [
+    "rabbi_chanina_ben_dosa"
+   ]
+  },
+  {
+   "start_sec": 290,
+   "end_sec": 458,
+   "type": "shema_guest",
+   "title": "Shema with a Tzivos Hashem member in the studio"
+  },
+  {
+   "start_sec": 458,
+   "end_sec": 780,
+   "type": "story",
+   "title": "The Stone for the Beis HaMikdash (part 2)",
+   "summary": "Angels carry the perfect stone to Yerushalayim once Rabbi Chanina lifts a finger to help.",
+   "people": [
+    "rabbi_chanina_ben_dosa"
+   ]
+  },
+  {
+   "start_sec": 780,
+   "end_sec": 924,
+   "type": "talk",
+   "title": "Lessons: your stone in the third Beis HaMikdash; try your best"
+  },
+  {
+   "start_sec": 924,
+   "end_sec": 1215,
+   "type": "talk",
+   "title": "Rosh Chodesh Av: the head of the month",
+   "summary": "Why Rosh Chodesh is the 'head' of the month, visiting tzaddikim's resting places, and the Shabbos Mevarchim prayer.",
+   "calendar": [
+    "rosh_chodesh",
+    "shabbos_mevarchim"
+   ],
+   "linked_items": [
+    "3151808f9e"
+   ]
+  },
+  {
+   "start_sec": 1215,
+   "end_sec": 1517,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a drawing of Har Sinai"
+  },
+  {
+   "start_sec": 1517,
+   "end_sec": 1716,
+   "type": "talk",
+   "title": "The month of Av and Ahavas Yisroel",
+   "summary": "Baseless hatred caused the destruction; Hashem delights most when His children love one another.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "three_weeks"
+   ],
+   "linked_items": [
+    "6b1a0231ff"
+   ]
+  },
+  {
+   "start_sec": 1716,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3151808f9e",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Rosh Chodesh Av 134' = 924-1222 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "6b1a0231ff",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Ahavas Yisroel 134' = 1517-1716 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a9c42df651",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Largely a rebroadcast of episode 33 (5742): same story, Shema guest and letter; the Rosh Chodesh line was re-recorded."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "33258ba2e2",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Episode 237 repeats the story, Shema guest and letter (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "12f2454f7d",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Episode 388 repeats the story and the letter (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e69b5cd4d9",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Episode 437 repeats the story, Shema guest and letter (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "14e201cef4",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Episode 487 repeats the story and Shema guest (checked in its transcript)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music (Three Weeks). Mostly a rerun of episode 33 with a new calendar line for 1984."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Muchkin",
+    "role": "shema_guest",
+    "start_sec": 348,
+    "end_sec": 458
+   },
+   {
+    "name": "Perel (heard 'Parala') Newhouse",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of Boro Park",
+    "start_sec": 1265,
+    "end_sec": 1517
+   },
+   {
+    "name": "Ricky Herzog",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of Boro Park",
+    "start_sec": 1265,
+    "end_sec": 1517
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:30Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20134%20-%20The%20Stone%20for%20the%20Beis%20HaMikdash%20%28Shabbos%20Mevarchim%20Av%29%20%281984-07-24%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 134 - The Stone for the Beis HaMikdash (Shabbos Mevarchim Av) (1984-07-24).mp3",
+  "size_bytes": 20924612,
+  "mime_type": "audio/mpeg"
+ }
+}

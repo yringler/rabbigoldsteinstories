@@ -1,0 +1,310 @@
+{
+ "id": "525312872b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "147",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 147 - The Lost Letter, Chapter 2 (1984-10-23).mp3",
+  "duration_sec": 1789.022,
+  "filename_facts": {
+   "episode_number": 147,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 147,
+   "story": "The lost letter #2",
+   "topic": "תקציר חודש אלול ותשרי",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 147: The Lost Letter, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "After Tishrei, Uncle Yossi keeps the joy going and reads the new year 5745 as 'the year of Moshiach'; in the story, Reb Leibel loses his fortune, until the lost letter turns up.",
+  "summary_long": "Right after the holidays, Uncle Yossi looks back on Elul and Tishrei, from the first shofar on Rosh Chodesh Elul to the last blast after Ne'ilah and the joy of Hakafos, and reminds listeners that a happy face is part of every Tzivos Hashem soldier's uniform. He explains that the letters of the new year 5745 can stand for 'This year will be the year of Melech HaMoshiach.' After the Hakochainik march and a sponsor message comes a recap of 'The Lost Letter.' The Shema guest is a six-year-old boy who carried an enormous drawing for the Shofar Gadol contest into the studio with his mother; Uncle Yossi says the judges are still deciding and every entrant will get a gift. Story time: one after another, messengers bring Reb Leibel bad news: a factory burns down, lightning sets his forest on fire, and over ten years his whole fortune disappears. His wife Miriam comforts him, but he wonders what he did wrong. Forced to sell his furniture for food, he has the movers carry out the cedar closet, and there on the floor lies the Baal Shem Tov's sealed letter. To be continued.",
+  "lesson": "A blessing from a tzaddik opens a channel for Hashem's goodness, so never think you have no need of one; and a soldier of Hashem always wears a happy face.",
+  "keywords": [
+   "lost letter",
+   "factory fire",
+   "forest fire",
+   "telegram",
+   "cedar closet",
+   "lost fortune",
+   "5745",
+   "happy face",
+   "shofar drawing",
+   "Dial-a-Jewish-Story"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 147,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1984-10-23",
+   "hebrew": "27 Tishrei 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'Right after' Elul, Rosh Hashanah, Yom Kippur and Sukkos; the new year is 5745; the contest 'extended till after Sukkos' is still being judged. Episode 146 set the contest end as Tuesday 23 Oct 1984."
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A rich man loses his fortune over ten years and must sell his belongings to feed his family.",
+    "at_sec": 1131
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with school and teacher.",
+    "at_sec": 925
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Leibel, a wealthy student of the Baal Shem Tov",
+   "Miriam, Reb Leibel's wife",
+   "the messengers",
+   "the movers"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "moshiach_geulah",
+   "calendar",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "simcha",
+   "emunah",
+   "anavah"
+  ],
+  "mitzvos": [
+   "shema",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah",
+   "yom_kippur",
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 20,
+   "end_sec": 51,
+   "type": "opening",
+   "title": "Opening: right after the holidays"
+  },
+  {
+   "start_sec": 51,
+   "end_sec": 230,
+   "type": "review",
+   "title": "Memories of Elul and Tishrei",
+   "summary": "From the first shofar of Elul to Ne'ilah and Hakafos, and why a happy face is part of the uniform.",
+   "calendar": [
+    "elul",
+    "rosh_hashanah",
+    "yom_kippur",
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 230,
+   "end_sec": 337,
+   "type": "talk",
+   "title": "5745: The Year of Moshiach",
+   "summary": "The letters of the new year read as 'This year will be the year of Melech HaMoshiach.'"
+  },
+  {
+   "start_sec": 337,
+   "end_sec": 561,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 561,
+   "end_sec": 644,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 644,
+   "end_sec": 796,
+   "type": "story_intro",
+   "title": "Recap of The Lost Letter, Chapter 1",
+   "linked_items": []
+  },
+  {
+   "start_sec": 796,
+   "end_sec": 925,
+   "type": "announcement",
+   "title": "Shofar Gadol contest: judging, and a gift for every entrant"
+  },
+  {
+   "start_sec": 925,
+   "end_sec": 1131,
+   "type": "shema_guest",
+   "title": "Shema with a six-year-old contest entrant"
+  },
+  {
+   "start_sec": 1131,
+   "end_sec": 1655,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 2",
+   "summary": "Misfortune after misfortune strips Reb Leibel of his wealth, until the lost letter reappears under the closet.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1655,
+   "end_sec": 1728,
+   "type": "announcement",
+   "title": "How to be a Shema guest"
+  },
+  {
+   "start_sec": 1728,
+   "end_sec": 1770,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "ba89efe781",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 146 = 'The lost letter #1', 147 = '#2'; the episode recaps chapter 1."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "70655704ec",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Episode 208 reruns the recap, the Shema guest and chapter 2 (about 644-1660 s here) nearly word for word, without the contest talk."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "ba89efe781",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1984): ep 146 ch. 1 and ep 147 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "25a669862e",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1984): ep 147 ch. 2 and ep 148 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Story names the letter's recipient 'Reb Shimon' (chapter 1 said 'Reb Sholom'). Contest, sponsor, area-code change (212 to 718) are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Zev Avraham Frimmerman",
+    "role": "shema_guest",
+    "group": "Oholei Torah, Kitah Alef, age 6; came with his mother and a contest entry",
+    "start_sec": 925,
+    "end_sec": 1131
+   },
+   {
+    "name": "Rabbi Levi Goldstein",
+    "role": "other",
+    "group": "The Shema guest's teacher at Oholei Torah (named only)",
+    "start_sec": 961,
+    "end_sec": 990
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:46Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20147%20-%20The%20Lost%20Letter%2C%20Chapter%202%20%281984-10-23%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 147 - The Lost Letter, Chapter 2 (1984-10-23).mp3",
+  "size_bytes": 21469108,
+  "mime_type": "audio/mpeg"
+ }
+}

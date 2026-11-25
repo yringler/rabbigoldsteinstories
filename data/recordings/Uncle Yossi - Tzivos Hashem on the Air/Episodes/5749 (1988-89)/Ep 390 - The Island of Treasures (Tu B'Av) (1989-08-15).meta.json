@@ -1,0 +1,304 @@
+{
+ "id": "df1f475816",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "390 08-15-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 390 - The Island of Treasures (Tu B'Av) (1989-08-15).mp3",
+  "duration_sec": 1769.729,
+  "filename_facts": {
+   "episode_number": 390,
+   "date_in_filename": "1989-08-15",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 390,
+   "story": "The island of treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 390: The Island of Treasures (Tu B'Av)",
+  "title_basis": "master_catalog",
+  "summary_short": "On Tu B'Av, Uncle Yossi urges adding Torah study; a shipwrecked man made king of an island spends its treasures there, a parable for using this world to prepare for the next.",
+  "summary_long": "Broadcast on the night of Chamisha Asar B'Av 5749. Uncle Yossi explains, from the Mishnah, that Israel had no days as joyous as the fifteenth of Av, and that the custom from this day on is to add more time to Torah learning, by day and especially at night, and to encourage friends to do the same. After the Hakochainik march and the sponsor, a ten-year-old girl recites the Shema and tells of receiving a dollar and a blessing from the Rebbe. Introducing Pirkei Avos chapter 4, read that Shabbos, he teaches that this world is a hallway before the banquet hall of the World to Come. The story: Yisrael, sole survivor of a shipwreck, is crowned king of an island and spends its whole treasury beautifying it, only to learn that each king must leave in rags when the next castaway arrives; too late, he wishes he had sent treasures home. The island is this world, the treasures are mitzvos, and the Torah is the key. The show closes with an invitation to send in essays and poems, a call to sign up friends for Tzivos Hashem during the summer, and the Shabbos candle-lighting time.",
+  "lesson": "This world is a hallway to the next; send ahead treasures of Torah and mitzvos while you can.",
+  "keywords": [
+   "Chamisha Asar B'Av",
+   "shipwreck",
+   "island",
+   "king",
+   "royal treasury",
+   "rags",
+   "hallway",
+   "banquet hall",
+   "Rebbe's dollar",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 390,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-08-15",
+   "hebrew": "14 Av 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename"
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm and only one passenger survives.",
+    "at_sec": 954
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with her school and grade.",
+    "at_sec": 625
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Yisrael, the shipwrecked king",
+   "the island's people",
+   "the servant with the rags"
+  ],
+  "topics": [
+   "torah_study",
+   "calendar",
+   "mitzvos_in_daily_life",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "zerizus",
+   "hasmadah",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema",
+   "ahavas_yisroel_mitzvah",
+   "shabbos_candles",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "tu_bav",
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Taanis 4:8",
+    "note": "'There were no festive days for Israel like the fifteenth of Av.'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:16",
+    "note": "This world is like a hallway before the World to Come."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 232,
+   "type": "talk",
+   "title": "Chamisha Asar B'Av: add time for Torah",
+   "calendar": [
+    "tu_bav"
+   ],
+   "linked_items": [
+    "21b12ad6c2"
+   ]
+  },
+  {
+   "start_sec": 232,
+   "end_sec": 520,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 520,
+   "end_sec": 581,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 581,
+   "end_sec": 834,
+   "type": "shema_guest",
+   "title": "Shema with a sixth-grade girl",
+   "summary": "The guest recites the Shema and tells of receiving a dollar and blessing from the Rebbe.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 834,
+   "end_sec": 954,
+   "type": "talk",
+   "title": "Pirkei Avos chapter 4: this world is a hallway"
+  },
+  {
+   "start_sec": 954,
+   "end_sec": 1485,
+   "type": "story",
+   "title": "The Island of Treasures",
+   "summary": "A castaway made king spends the island's treasures there, then must leave with nothing; the island is this world."
+  },
+  {
+   "start_sec": 1485,
+   "end_sec": 1543,
+   "type": "announcement",
+   "title": "Send in your essays and poems"
+  },
+  {
+   "start_sec": 1543,
+   "end_sec": 1658,
+   "type": "talk",
+   "title": "Summer: help friends join Tzivos Hashem",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1658,
+   "end_sec": 1683,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1683,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Speech ends at about 28:25; the last minute is probably closing music. Candle times (7:30 / 8:39), sponsor and mailing address offers are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Gila Yarmish",
+    "role": "shema_guest",
+    "group": "Bnos Yisroel School (East 15th St. near Kings Highway), 6th grade; age 10",
+    "start_sec": 625,
+    "end_sec": 834,
+    "note": "Visited 770 that day and received a dollar and blessing from the Rebbe."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:16Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "21b12ad6c2",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Tu B'Av 390' = 43-230 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7f5a576d4d",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "The Tu B'Av talk (clip 'Tu B'Av 390') also aired in episode 489."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97c9b37c1d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Treasure Island: A Mashal About Freedom and Mitzvos' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20390%20-%20The%20Island%20of%20Treasures%20%28Tu%20B%27Av%29%20%281989-08-15%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 390 - The Island of Treasures (Tu B'Av) (1989-08-15).mp3",
+  "size_bytes": 21237777,
+  "mime_type": "audio/mpeg"
+ }
+}

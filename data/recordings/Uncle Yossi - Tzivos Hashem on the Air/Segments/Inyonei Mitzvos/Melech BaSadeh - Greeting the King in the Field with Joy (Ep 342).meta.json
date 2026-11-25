@@ -1,0 +1,154 @@
+{
+ "id": "b32aebb0a1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Melech Basadeh 342",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Melech BaSadeh - Greeting the King in the Field with Joy (Ep 342).mp3",
+  "duration_sec": 63.619,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 342,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 342,
+   "story": "The sound of the Shofar",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Melech BaSadeh: Greeting the King in the Field with Joy",
+  "title_basis": "filename",
+  "summary_short": "A one-minute Elul thought: Hashem, like a king in the field, greets us with a shining face, so we should greet Him with simcha.",
+  "summary_long": "A very short opening thought from the Tzivos Hashem radio show in Elul, the month of mercy. Uncle Yossi reminds listeners of the Alter Rebbe's teaching that in Elul Hashem is like a king who has come out to the field: closer than all year, waiting for us to come and greet Him, ready to accept our prayers and grant our wishes, and welcoming everyone with a bright and happy face. In return, he says, we too should show a happy face, glowing with joy and simcha. The clip ends just before the Hakochainik march it introduces.",
+  "lesson": "In Elul Hashem greets us with a shining face, so we should come to Him with joy.",
+  "keywords": [
+   "king in the field",
+   "month of mercy",
+   "happy face",
+   "joy"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 342,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1988-08-23",
+   "hebrew": "10 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Date of episode 342; 'here we are in the month of Elul' agrees."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "chassidus_tanya"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "The Alter Rebbe's 'king in the field' (named by teacher, not by work)."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2673cb25a1",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "offset_sec": 48,
+   "note": "Episode 342 (filename number); clip = 48-111 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Only about one minute; it assumes the fuller King in the Field talk (see 'Elul 340', a91e103f11)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:18Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Melech%20BaSadeh%20-%20Greeting%20the%20King%20in%20the%20Field%20with%20Joy%20%28Ep%20342%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Melech BaSadeh - Greeting the King in the Field with Joy (Ep 342).mp3",
+  "size_bytes": 764427,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "run_at": "2026-11-25T16:39:30Z",
+ "base": "pass2\\backup\\items",
+ "tasks": {
+  "vocab": {
+   "patches": 379,
+   "applied": 379,
+   "no_change": 0,
+   "skipped": 0,
+   "failed": 0,
+   "items": 234
+  },
+  "versions_speakers": {
+   "patches": 305,
+   "applied": 305,
+   "no_change": 0,
+   "skipped": 0,
+   "failed": 0,
+   "items": 121
+  },
+  "dates": {
+   "patches": 63,
+   "applied": 63,
+   "no_change": 0,
+   "skipped": 0,
+   "failed": 0,
+   "items": 63
+  },
+  "serials": {
+   "patches": 348,
+   "applied": 348,
+   "no_change": 0,
+   "skipped": 0,
+   "failed": 0,
+   "items": 157
+  },
+  "same_story": {
+   "patches": 1083,
+   "applied": 1083,
+   "no_change": 0,
+   "skipped": 0,
+   "failed": 0,
+   "items": 351
+  },
+  "deliverables": {
+   "patches": 1,
+   "applied": 1,
+   "no_change": 0,
+   "skipped": 0,
+   "failed": 0,
+   "items": 1
+  }
+ },
+ "conflicts": [
+  {
+   "kind": "same_recording_and_same_story",
+   "pair": [
+    "3fecbf9b28",
+    "ee84a13b26"
+   ],
+   "resolution": "same-recording link kept; same_story links removed both ways"
+  },
+  {
+   "kind": "same_recording_and_same_story",
+   "pair": [
+    "4ab732d2b6",
+    "5567ce3c30"
+   ],
+   "resolution": "same-recording link kept; same_story links removed both ways"
+  },
+  {
+   "kind": "same_recording_and_same_story",
+   "pair": [
+    "b1a205211a",
+    "cce7163480"
+   ],
+   "resolution": "same-recording link kept; same_story links removed both ways"
+  }
+ ],
+ "errors": [],
+ "post_checks": [
+  "added missing reverse part_of_set 998600af34 -> 09bc4fa30c",
+  "added missing reverse part_of_set 09bc4fa30c -> 129637fdeb",
+  "added missing reverse part_of_set 998600af34 -> 129637fdeb",
+  "added missing reverse part_of_set 45b8ad173e -> 1916360509",
+  "added missing reverse part_of_set edf3b051d2 -> 40e6c74122",
+  "added missing reverse part_of_set 1ff3abfa6a -> 603890b365",
+  "added missing reverse part_of_set fd147bb5a5 -> 790b67e4cc",
+  "added missing reverse part_of_set 3d11644d1d -> be7585abf5",
+  "added missing reverse part_of_set 542cf9e061 -> cbefd2fcab",
+  "added missing reverse part_of_set 129637fdeb -> e9e5aa5a3f",
+  "added missing reverse part_of_set 09bc4fa30c -> e9e5aa5a3f"
+ ],
+ "vocab": {
+  "added": [
+   "people:chofetz_chaim",
+   "people:chida",
+   "people:maggid_of_dubno",
+   "people:rav_saadia_gaon",
+   "people:rabbeinu_bachya_ibn_paquda",
+   "people:maharam_of_rottenburg",
+   "people:rabbi_moshe_galanti",
+   "people:tosfos_yom_tov",
+   "people:shaagas_aryeh",
+   "people:rabbi_yisroel_salanter",
+   "people:eli_hakohen",
+   "people:shaul_hamelech",
+   "people:rabbi_elazar_ben_azariah",
+   "people:rabbi_yehoshua_ben_ilem",
+   "people:yosef_mokir_shabbos",
+   "people:chozeh_of_lublin",
+   "people:maggid_of_koznitz",
+   "people:rabbi_aharon_of_karlin",
+   "people:rabbi_gershon_kitover",
+   "people:rabbi_leib_sarahs",
+   "people:rabbi_michel_of_zlotchov",
+   "people:rabbi_nochum_of_chernobyl",
+   "people:rabbi_simcha_bunim_of_pshischa",
+   "people:rabbi_wolf_kitzes",
+   "people:rabbi_yissachar_ber_of_lubavitch",
+   "people:klausenburger_rebbe",
+   "people:rebbetzin_devorah_leah",
+   "people:rabbi_zalman_zezmer",
+   "people:rabbi_yaakov_kaidaner",
+   "people:radatz",
+   "people:rabbi_shmuel_levitin",
+   "people:rabbi_leibel_groner",
+   "calendar:cheshvan",
+   "calendar:kislev",
+   "calendar:yud_daled_kislev",
+   "calendar:chof_teves",
+   "calendar:zayin_adar",
+   "calendar:chof_zayin_adar",
+   "calendar:yud_gimmel_nissan",
+   "calendar:chof_hei_elul",
+   "calendar:yud_gimmel_tishrei",
+   "calendar:shabbos_bereishis",
+   "calendar:shabbos_shirah",
+   "calendar:shabbos_shekalim",
+   "works:kesuvim",
+   "works:chovos_halevavos",
+   "works:sippurim_noraim",
+   "mitzvos:aseres_hadibros",
+   "mitzvos:kiddush_levanah",
+   "mitzvos:parshas_zachor",
+   "mitzvos:payos",
+   "midos:resisting_bad_influence",
+   "midos:valuing_time",
+   "series:simchas_beis_hashoeva_5785"
+  ],
+  "already_present": [],
+  "compact_hand_edits_carried": [
+   "rabbi_chaim_levi_goldstein",
+   "bubby_chaya_malka"
+  ]
+ },
+ "summary": {
+  "items_changed_vs_base": 698,
+  "touched_by_task": {
+   "versions_speakers": 121,
+   "vocab": 234,
+   "serials": 157,
+   "same_story": 351,
+   "post_checks": 15,
+   "dates": 63,
+   "deliverables": 1
+  }
+ }
+}

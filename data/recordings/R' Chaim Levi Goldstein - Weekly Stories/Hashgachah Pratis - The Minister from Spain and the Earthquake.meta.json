@@ -1,0 +1,203 @@
+{
+ "id": "aeae91b4cd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashgacha Protis",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashgachah Pratis - The Minister from Spain and the Earthquake.mp3",
+  "duration_sec": 1224.96,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hashgachah Pratis: The Minister from Spain and the Earthquake",
+  "title_basis": "filename",
+  "summary_short": "A secret Jew in Spain is saved from the Inquisition by an earthquake, and a student of the Baal Shem Tov shows him that the miracle was planned just for him.",
+  "summary_long": "The storyteller explains the words of the song, \"every step is perfectly planned\": hashgachah pratis means Hashem watches over every detail, even where a falling leaf lands, so we can trust Him. He describes the Spanish Inquisition, when Jews had to convert or leave, and some secretly kept mitzvos in their cellars; a Jewish soul can never stop being Jewish. A minister, called Yehudah in the story, is the king's best friend and is discovered to be Jewish. The king wins delays of a year, a month, a week and a day before his public execution, and moments before it an earthquake strikes the marketplace and he escapes. Free outside Spain, he wonders whether the earthquake was really meant for him, or would have happened anyway, and the scholars he asks cannot settle it. He travels to the Baal Shem Tov, who greets him as the minister from Spain and sends him to his student, Reb Wolf Kitzes. Reb Wolf points out that the delays set his execution for the exact time and place of the earthquake, a miracle surely meant for him. The minister returns openly to Judaism and becomes a student of the Baal Shem Tov.",
+  "lesson": "Every step is perfectly planned: Hashem watches over each of us individually, and the more we trust Him, the more good we see.",
+  "keywords": [
+   "Spanish Inquisition",
+   "secret Jews",
+   "minister",
+   "king",
+   "earthquake",
+   "marketplace",
+   "falling leaf",
+   "Mezhibuzh"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The Spanish Inquisition; secret Jews were publicly burned alive. A minister is sentenced to this death."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "Jews in Spain had to convert or leave."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A planned execution; an earthquake kills and injures thousands in the crowd."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_wolf_kitzes",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Yehudah, the minister",
+   "the king of Spain",
+   "the Inquisition",
+   "Reb Wolf Kitzes",
+   "the scholars of Germany"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "baal_shem_tov_and_students",
+   "jewish_history",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "hayom_yom",
+    "note": "Nothing can exist unless Hashem watches over it every second."
+   }
+  ],
+  "places": [
+   "Spain",
+   "Mezhibuzh"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 224,
+   "type": "talk",
+   "title": "Every step is perfectly planned"
+  },
+  {
+   "start_sec": 224,
+   "end_sec": 1191,
+   "type": "story",
+   "title": "The minister from Spain and the earthquake"
+  },
+  {
+   "start_sec": 1191,
+   "type": "talk",
+   "title": "Hashgachah pratis and bitachon"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "6a8170d97f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Every Step Is Perfectly Planned: The Minister and the Earthquake' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:28:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashgachah%20Pratis%20-%20The%20Minister%20from%20Spain%20and%20the%20Earthquake.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashgachah Pratis - The Minister from Spain and the Earthquake.mp3",
+  "size_bytes": 14700283,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "batch_id": "b020",
+ "done": [
+  "8ef0e7ba46",
+  "21d1625809",
+  "937180b0f3",
+  "408d5f35d3",
+  "99501986ed",
+  "c572eb01d4",
+  "1fa1a0d893",
+  "732c5af358",
+  "0ece09874d",
+  "fda6ea4878",
+  "89c906b5c6",
+  "6d4efcd318",
+  "8b1b5cf557",
+  "f639703e3b",
+  "2838d2da96",
+  "65ccd75a82",
+  "022b1b45c2"
+ ],
+ "failed": [],
+ "notes": [
+  "Episodes 311 and 317 are missing from this batch and from the catalog rows (null); the series jumps 310 -> 312 and 316 -> 318.",
+  "Episode 315 (fda6ea4878) aired the week after Rebbetzin Chaya Mushka's passing (22 Shevat 5748). It has no march and no guests, and it opens with a mourning talk. Its clips 89c906b5c6 (13-831 s) and 6d4efcd318 (194-433 s) overlap each other: the 'Feeling For Others' story lies inside the 'Chof Beis Shevat' clip.",
+  "Unverified candidate: 408d5f35d3 ('Why We Shake During Prayer 310') vs 07c3d8ea78 ('Why we shake during davening 531'), probably the same segment cut from episode 531 (f8e399e249). Not linked; pass 2 should check whether this is alternate_take or same_recording.",
+  "Unverified candidate: episode 312 (99501986ed) partly overlaps episode 480 (c1108114ba) by audio fingerprint (0.5); possibly the Rashi's-father diamond story re-aired. Not linked.",
+  "The 'V'Yishalcha Bincha' Pesach talk in episode 318 is reused from episode 219 (1c626f60bf). I added aired_again_in from episode 318 to 219.",
+  "Episode 316 (8b1b5cf557): the fingerprint candidate 'aired_again_in' between the episode and its own clip f639703e3b is just the clip_of relationship, so I did not add it. Speech ends about 70 s before the end of the file, probably closing music. Trim left null.",
+  "Episode 312: the host twice misnames Rashi's father ('Rabbi Shlomo', 'Rabbi Akiva'); public text uses Rabbi Yitzchak.",
+  "Proposed new terms: people rabbi_yisroel_salanter (309); calendar shabbos_shekalim (314), zayin_adar (316); mitzvos parshas_zachor (316 clip).",
+  "Teachers of visiting classes are in hidden; for 312 (teacher only, no children named) I used the identifiable_living_people flag to satisfy the validator.",
+  "Contest/Expo/enrollment phone 718-467-6630 is Tzivos Hashem's own line and was treated as public."
+ ]
+}

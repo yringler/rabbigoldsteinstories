@@ -1,0 +1,250 @@
+{
+ "id": "c2af062efa",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chaf cheshvon Rebbe on station",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe Rashab at the Train Station (Chof Cheshvan).mp3",
+  "duration_sec": 1249.625,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Rebbe Rashab at the Train Station (Chof Cheshvan)",
+  "title_basis": "filename",
+  "summary_short": "For Chof Cheshvan, two stories of the Rebbe Rashab: a four-year-old who wept over embarrassing a tailor, and a mysterious rabbi who met a desperate woman at the Warsaw station.",
+  "summary_long": "For Chof Cheshvan, the birthday of the Rebbe Rashab, the storyteller recalls the Hayom Yom story of how, as a small boy, he cried that Hashem appeared to Avraham and not to him. Then two stories. At four, little Sholom DovBer tugged at a scrap of cloth in a tailor's pocket and embarrassed him. When his mother explained what had happened, he wept bitterly, and weeks later asked his father, the Rebbe Maharash, how one repairs embarrassing a Jew, but would not say who it was, so as not to speak lashon hara. The Rebbe drew the lesson that every one of us can care this much about another Jew's feelings. In the second story, during World War I in Rostov, a woman whose husband had vanished years earlier writes to the Rebbe Rashab and is told to go to Warsaw. Alone and lost at the station, she is helped by a rabbi with a red beard who tells her exactly where her husband works. When she returns to thank the Rebbe and sees him, she faints: he was the man at the station. The gabbai recalls that at that very hour the Rebbe had stood at his window, gazing into the distance. A Rebbe is not limited to one place.",
+  "lesson": "Care deeply about another Jew's feelings and never speak lashon hara; a Rebbe is with his Chassidim wherever they are.",
+  "keywords": [
+   "tailor",
+   "scrap of cloth",
+   "embarrassment",
+   "lashon hara",
+   "agunah",
+   "Warsaw train station",
+   "red beard",
+   "flour mill",
+   "gabbai",
+   "window"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_collection",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Around Chof Cheshvan",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Told for Chof Cheshvan, the Rebbe Rashab's birthday; refers to 'Hayom Yom last week'. Year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A woman's husband has disappeared and she has searched for him for years (an agunah); they reunite."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "rebbetzin_rivkah",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the tailor",
+   "the agunah",
+   "her husband",
+   "the gabbai",
+   "the flour mill manager"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "miracles",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "shemiras_halashon",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "chof_cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "hayom_yom",
+    "note": "The young Rebbe Rashab crying that Hashem appeared to Avraham and not to him."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe retold the tailor story, heard from the Frierdiker Rebbe, and drew its lesson."
+   }
+  ],
+  "places": [
+   "Rostov",
+   "Warsaw",
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 1,
+   "end_sec": 69,
+   "type": "talk",
+   "title": "Chof Cheshvan, the Rebbe Rashab's birthday",
+   "calendar": [
+    "chof_cheshvan"
+   ],
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 69,
+   "end_sec": 490,
+   "type": "story",
+   "title": "The four-year-old and the tailor",
+   "people": [
+    "rebbe_rashab",
+    "rebbetzin_rivkah",
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 490,
+   "end_sec": 1240,
+   "type": "story",
+   "title": "The rabbi at the Warsaw station",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 1240,
+   "end_sec": 1249,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "9c835f86c7",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Where Is the Rebbe? The Rebbe Rashab at the Warsaw Station' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song. Ends with a stray remark after the sign-off. ASR writes 'Rebbe Zemrivka' for Rebbetzin Rivkah."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "And as I told you many times, even if you heard a story once, we can hear it again.",
+   "at_sec": 1
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "No opening song; series and narrator assigned from voice, sign-off and format. Confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:55Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Rebbe%20Rashab%20at%20the%20Train%20Station%20%28Chof%20Cheshvan%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe Rashab at the Train Station (Chof Cheshvan).mp3",
+  "size_bytes": 14996526,
+  "mime_type": "audio/mpeg"
+ }
+}

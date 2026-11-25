@@ -1,0 +1,141 @@
+{
+ "id": "ceb0a9ea50",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Three Weeks 32",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Three Weeks - Why There Is No Music (Ep 032).mp3",
+  "duration_sec": 48.245,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 32,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 32,
+   "story": "King David’s Grave",
+   "topic": "3 weeks",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Three Weeks: Why There Is No Music",
+  "title_basis": "content",
+  "summary_short": "A brief reminder that the Three Weeks run from the 17th of Tammuz to Tisha B'Av, and that we do not listen to music during this sad time.",
+  "summary_long": "A very short announcement from the Tzivos Hashem radio show, made the week after the 17th of Tammuz. Uncle Yossi reminds children that the Three Weeks began the previous Thursday with the fast of the 17th of Tammuz and end with Tisha B'Av, the saddest day of the Jewish calendar. He points out that no music is played on the program during this time, because music makes us happy and the Three Weeks are a time of mourning for the Beis HaMikdash.",
+  "lesson": "During the Three Weeks we refrain from music and remember the destruction of the Beis HaMikdash.",
+  "keywords": [
+   "no music",
+   "fast day",
+   "mourning"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 32,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-07-13",
+   "hebrew": "22 Tammuz 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Beginning last Thursday the Three Weeks have begun' (17 Tammuz 5742 was Thursday 8 July); source episode 32."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "fast_days"
+  ],
+  "calendar": [
+   "three_weeks",
+   "shiva_asar_btammuz",
+   "tisha_bav"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "387570c950",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 175,
+   "note": "Episode 32 (filename number); clip = 175-223 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short (48 s); refers to 'today's program' and 'last Thursday'. Says 'ninth day of Tammuz' for Tisha B'Av (slip or ASR; Av is meant)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:52:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Three%20Weeks%20-%20Why%20There%20Is%20No%20Music%20%28Ep%20032%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Three Weeks - Why There Is No Music (Ep 032).mp3",
+  "size_bytes": 579785,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "id": "7e3acdb52e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "37 end P26",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 37 - End of Chapter 26, Joy and the Hidden Good.mp3",
+  "duration_sec": 3456.705,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 37: End of Chapter 26, Joy and the Hidden Good",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya shiur on the end of chapter 26: why a Jew should not be sad over worldly troubles, when bitterness over spiritual failings has its place, and the joy of knowing Hashem forgives.",
+  "summary_long": "Shiur 37 in Rabbi Yosef Goldstein's Yiddish Tanya series concludes chapter 26. The Alter Rebbe gives a time-honored counsel, received from the Maggid and the Baal Shem Tov, for driving away worry and sadness about worldly matters: we bless Hashem for the bad as for the good, because everything He does is good, sometimes in a hidden way. The story of Rabbi Akiva, turned away from a town at night and losing his rooster, donkey and lamp, shows how 'all that Hashem does is for the good'. The shiur explains the Frierdiker Rebbe's reading of 'open for us Your good treasure', the hidden and revealed worlds, and why those who accept suffering with love will shine 'like the sun in its might' when Moshiach comes. The second half teaches that sadness over spiritual shortcomings must not intrude during the day, at work or during davening, since that is a ploy of the yetzer hara; it belongs to set times at night, and should quickly turn into true joy, with full faith that Hashem forgives. The shiur closes by noting that chapter 26 matches the numerical value of Hashem's name.",
+  "lesson": "Everything Hashem does is good, even when the good is hidden, so a Jew should serve Him with joy and keep soul-searching for its proper time.",
+  "keywords": [
+   "sadness",
+   "worry",
+   "hidden good",
+   "gam zu l'tovah",
+   "rooster",
+   "donkey",
+   "lamp",
+   "suffering",
+   "golus",
+   "cheshbon hanefesh",
+   "yetzer hara",
+   "forgiveness"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "26",
+    "to": "26",
+    "lecture_number": 37,
+    "note": "Concluding part of chapter 26 (from 'Vehinei eitzah hayeutzah', daf 33)."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidus_tanya",
+   "emunah_bitachon",
+   "teshuvah",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "emunah",
+   "self_control"
+  ],
+  "mitzvos": [
+   "brachos",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 26"
+   },
+   {
+    "work": "gemara",
+    "ref": "Berachos 60b; Shabbos 88b"
+   },
+   {
+    "work": "tehillim",
+    "ref": "94:12; 63:4; 118:1-2"
+   },
+   {
+    "work": "neviim",
+    "ref": "Shoftim 5:31"
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 18:1"
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "ref": "On 'Es otzarcha hatov lanu tiftach'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 2314,
+   "type": "text_study",
+   "title": "Tanya 26: no sadness over worldly troubles",
+   "summary": "The Alter Rebbe's counsel to accept hardship with joy, since everything Hashem does is good, even when the good is hidden."
+  },
+  {
+   "start_sec": 597,
+   "end_sec": 835,
+   "type": "story",
+   "title": "Rabbi Akiva: all that Hashem does is for the good",
+   "summary": "Turned away from a town at night, Rabbi Akiva loses his rooster, donkey and lamp, and in the morning learns that these losses saved him from robbers.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 835,
+   "end_sec": 1115,
+   "type": "talk",
+   "title": "'Good kindnesses' and the Frierdiker Rebbe on Hashem's good treasure",
+   "summary": "Why we ask for kindness that is good in our own eyes too, and the Frierdiker Rebbe's reading of 'open for us Your good treasure'.",
+   "people": [
+    "frierdiker_rebbe",
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 1115,
+   "end_sec": 1884,
+   "type": "text_study",
+   "title": "The hidden world and the revealed world",
+   "summary": "Hidden good comes from a higher source; those who accept suffering with love will shine like the sun in its might when Moshiach comes."
+  },
+  {
+   "start_sec": 1884,
+   "end_sec": 2010,
+   "type": "talk",
+   "title": "Why the long golus: from Mitzrayim to Matan Torah",
+   "summary": "As the hard years in Egypt led to the giving of the Torah, the length and bitterness of this golus point to a great revelation to come."
+  },
+  {
+   "start_sec": 2314,
+   "end_sec": 3134,
+   "type": "text_study",
+   "title": "Tanya 26: sadness over spiritual failings and its proper time",
+   "summary": "Brokenness over one's service of Hashem must not intrude during the day; it is a ploy of the yetzer hara and belongs to set times at night."
+  },
+  {
+   "start_sec": 3134,
+   "end_sec": 3429,
+   "type": "text_study",
+   "title": "True joy after teshuvah",
+   "summary": "Bitterness should turn quickly to joy, with full faith that Hashem forgives, as the daily blessing 'who forgives abundantly' shows."
+  },
+  {
+   "start_sec": 3429,
+   "end_sec": 3456,
+   "type": "closing",
+   "title": "Closing blessing",
+   "summary": "A wish for true joy and the coming of Moshiach."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts directly in the text with no opening; loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:17Z",
+  "confidence": {
+   "title": "high",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Segment boundaries are approximate (Yiddish ASR).",
+   "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2037%20-%20End%20of%20Chapter%2026%2C%20Joy%20and%20the%20Hidden%20Good.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 37 - End of Chapter 26, Joy and the Hidden Good.mp3",
+  "size_bytes": 41481311,
+  "mime_type": "audio/mpeg"
+ }
+}

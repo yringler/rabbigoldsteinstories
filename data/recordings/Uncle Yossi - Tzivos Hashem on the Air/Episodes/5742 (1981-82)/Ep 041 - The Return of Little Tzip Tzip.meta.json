@@ -1,0 +1,296 @@
+{
+ "id": "46d718e3d2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "41",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 041 - The Return of Little Tzip Tzip.mp3",
+  "duration_sec": 1767.401,
+  "filename_facts": {
+   "episode_number": 41,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 41,
+   "story": "The Return of Little Tzip Tzip",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 41: The Return of Little Tzip Tzip",
+  "title_basis": "master_catalog",
+  "summary_short": "A little bird finds a bad smell in every direction until her mother wipes her nose: a gentle story about looking at others with a good eye and fixing our own faults first.",
+  "summary_long": "Uncle Yossi opens by marveling at the mail pouring in and explains that it is a mitzvah to be happy, as Dovid HaMelech says, 'Serve Hashem with joy', before a happy march. Two young Tzivos Hashem members in the studio say they love the stories, especially the mysteries, and everyone says the Shema together. Story time: Tzip Tzip, a very little bird, learns to fly, and her mother sends her out to discover a world full of good things. But in the east, the west, the north and the south, everything smells bad, and she keeps flying home, until her mother finds a speck of dirt on the tip of her nose and wipes it clean. Uncle Yossi explains the lesson: to love a fellow Jew we must look at him with an ayin tovah, a good eye; the Baal Shem Tov taught that a fault we see in others is like a mirror of our own, and the Sages say to correct ourselves first. After a sponsor message, he speaks about Jewish unity through Torah and invites every child to get a letter in the new children's Sefer Torah and to share the mitzvah with family and friends.",
+  "lesson": "Look at others with a good eye; the faults we notice in others are often our own, so correct yourself first.",
+  "keywords": [
+   "little bird",
+   "nest",
+   "bad smell",
+   "dirty nose",
+   "mirror",
+   "good eye",
+   "march",
+   "children's Sefer Torah",
+   "sponsor"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 41,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "5742",
+   "hebrew_year": 5742,
+   "precision": "year",
+   "basis": "sequence_interpolation",
+   "note": "Weekly estimate is 14 Sept 1982 (26 Elul 5742), but the show never mentions Rosh Hashanah and says 'it's only a few weeks that we're on the air'; possibly an early show re-aired or misnumbered."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two young studio guests named by first name.",
+    "at_sec": 389
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Tzip Tzip, a little bird",
+   "Tzip Tzip's mother"
+  ],
+  "topics": [
+   "character",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "ahavas_yisroel",
+   "anavah",
+   "simcha",
+   "achdus"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "shema",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 100:2",
+    "note": "'Ivdu es Hashem b'simchah', serve Hashem with joy."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "Love your fellow as yourself."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: a fault you see in another is like a mirror of your own."
+   },
+   {
+    "work": "gemara",
+    "ref": "Bava Metzia 107b",
+    "note": "'Correct yourself first, then correct others.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 58,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 58,
+   "end_sec": 150,
+   "type": "talk",
+   "title": "A mitzvah to be happy",
+   "summary": "Mail pours in, and Uncle Yossi explains that Hashem wants us to serve Him with joy.",
+   "people": [
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 150,
+   "end_sec": 359,
+   "type": "song",
+   "title": "Happy march"
+  },
+  {
+   "start_sec": 359,
+   "end_sec": 436,
+   "type": "qa",
+   "title": "Two young guests who love the stories"
+  },
+  {
+   "start_sec": 436,
+   "end_sec": 491,
+   "type": "story_intro",
+   "title": "Who is Tzip Tzip?"
+  },
+  {
+   "start_sec": 491,
+   "end_sec": 585,
+   "type": "shema_guest",
+   "title": "Saying the Shema together"
+  },
+  {
+   "start_sec": 585,
+   "end_sec": 1076,
+   "type": "story",
+   "title": "The Return of Little Tzip Tzip",
+   "summary": "A little bird finds a bad smell everywhere she flies, until her mother wipes a speck of dirt off her nose."
+  },
+  {
+   "start_sec": 1076,
+   "end_sec": 1236,
+   "type": "talk",
+   "title": "Ayin tovah: correct your own faults first",
+   "summary": "Love others by noticing their good qualities; the Baal Shem Tov's mirror and the Sages' advice to correct ourselves first.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1236,
+   "end_sec": 1300,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1300,
+   "end_sec": 1447,
+   "type": "talk",
+   "title": "Unity through Torah",
+   "summary": "Since Sinai the Torah has made the Jewish people one, and we need that unity now."
+  },
+  {
+   "start_sec": 1447,
+   "end_sec": 1710,
+   "type": "announcement",
+   "title": "Get a letter in the children's Sefer Torah",
+   "summary": "How to reserve a letter in the new Sefer Torah and share the mitzvah with family and friends."
+  },
+  {
+   "start_sec": 1710,
+   "end_sec": 1742,
+   "type": "sponsor",
+   "title": "Sponsor thanks"
+  },
+  {
+   "start_sec": 1742,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sponsor (a Brooklyn juvenile furniture store) and Sefer Torah mailing address are period pieces. Content suggests an early show ('only a few weeks on the air', the Sefer Torah introduced as new, no mention of Rosh Hashanah), despite the number 41."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Zalman",
+    "role": "visitor",
+    "start_sec": 383,
+    "end_sec": 436,
+    "note": "Studio guest; loves the stories."
+   },
+   {
+    "name": "Avraham",
+    "role": "visitor",
+    "start_sec": 389,
+    "end_sec": 436,
+    "note": "Studio guest; loves the mysteries."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Date unclear: host says the show is 'only a few weeks' on the air; may be an early show re-aired as 41."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:14Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20041%20-%20The%20Return%20of%20Little%20Tzip%20Tzip.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 041 - The Return of Little Tzip Tzip.mp3",
+  "size_bytes": 21209868,
+  "mime_type": "audio/mpeg"
+ }
+}

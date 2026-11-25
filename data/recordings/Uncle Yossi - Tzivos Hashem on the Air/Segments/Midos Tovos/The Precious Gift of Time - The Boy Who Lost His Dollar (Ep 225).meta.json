@@ -1,0 +1,220 @@
+{
+ "id": "ea3bc56c0e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Shmiras HaZman 225",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/The Precious Gift of Time - The Boy Who Lost His Dollar (Ep 225).mp3",
+  "duration_sec": 357.962,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 225,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 225,
+   "story": "The Flickering Flame",
+   "topic": "Sefira, / Shmiras HaZman",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Precious Gift of Time: The Boy Who Lost His Dollar",
+  "title_basis": "content",
+  "summary_short": "We cannot control time, only what we fill it with. A boy who keeps wishing for the dollar he lost shows why wasted time never comes back.",
+  "summary_long": "A talk from the Tzivos Hashem radio show during Sefiras HaOmer. Counting the Omer means counting time, one of Hashem's most precious gifts. Uncle Yossi asks why we count something we cannot control: we cannot slow time down, speed it up or stop it, but we can choose what we put into it, wisely or foolishly, and time that is lost never comes back. He tells of a boy named Avraham who loses the birthday dollar his father gave him. His father kindly gives him another, then another, but each time the boy says that with the first dollar he would have one more, until his father explains that he must forget what is lost and take good care of what he has. So too with time: set aside time each day to daven, learn Torah, help your parents and help your friends, and Hashem will bless you with long and good years.",
+  "lesson": "Time is a precious gift from Hashem; use every day wisely for davening, Torah and helping others, because lost time never comes back.",
+  "keywords": [
+   "time",
+   "counting the Omer",
+   "lost dollar",
+   "birthday",
+   "father and son",
+   "wasting time"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 225,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-05-13",
+   "hebrew": "4 Iyar 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 225 (1986-05-13), during Sefirah."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Avraham, a boy who lost his dollar",
+   "Avraham's father"
+  ],
+  "topics": [
+   "character",
+   "calendar"
+  ],
+  "midos": [
+   "zerizus",
+   "responsibility",
+   "hakaras_hatov",
+   "valuing_time"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "davening",
+   "torah_study",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "15211a2565",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 812,
+   "note": "Episode 225 (filename number); clip = 812-1170 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "27e4be78a2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Counting the Omer: Every Day Is Precious (The Lost Dime)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "39959e8c5c",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Counting the Omer: The Precious Gift of Time' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6ad37ebe02",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 273: The Flickering Flame (Rosh Chodesh Iyar)' (episode 273, 12:20-14:52), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "86a44f3dba",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Respect for Each Other and the Gift of Time' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e2cf00d09c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Every Day Counts: Sefirah, Time, and Miriam's Lost Dime' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f71ee91642",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Counting Days and the Lost Dime' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "7226693357",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Making Every Day Count (Zalman and the Lost Nickel)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8fa0b3541e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:17-25:47), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cab583e2b7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:27-25:56), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('...counting time')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/The%20Precious%20Gift%20of%20Time%20-%20The%20Boy%20Who%20Lost%20His%20Dollar%20%28Ep%20225%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/The Precious Gift of Time - The Boy Who Lost His Dollar (Ep 225).mp3",
+  "size_bytes": 4296596,
+  "mime_type": "audio/mpeg"
+ }
+}

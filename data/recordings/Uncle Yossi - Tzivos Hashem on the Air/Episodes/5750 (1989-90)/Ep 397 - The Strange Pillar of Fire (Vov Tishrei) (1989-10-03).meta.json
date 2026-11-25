@@ -1,0 +1,339 @@
+{
+ "id": "084989493e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "397",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 397 - The Strange Pillar of Fire (Vov Tishrei) (1989-10-03).mp3",
+  "duration_sec": 1820.157,
+  "filename_facts": {
+   "episode_number": 397,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 397,
+   "story": "The pillar of fire. Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 397: The Strange Pillar of Fire (Vov Tishrei)",
+  "title_basis": "on_air",
+  "summary_short": "A show for the yahrzeit of the Shpoler Zeide: his own Hop Kozak march, Shema and the Twelve Pesukim with two young guests, the mystery of the pillar of fire, and a listener's letter.",
+  "summary_long": "Broadcast a few days after Rosh Hashanah 5750, just before Vov Tishrei. Uncle Yossi explains that Vov Tishrei is the yahrzeit of the Shpoler Zeide, Rabbi Aryeh Leib ben Boruch, when his many descendants gather to tell his stories and follow his example. The weekly march is the Hop Kozak, a tune composed by the Shpoler Zeide himself. Two girls, one visiting from a shlichus family in Madrid and her pen pal from Brooklyn, lead the Shema and each recites one of the Twelve Pesukim. The story, 'The Strange Pillar of Fire', opens with a fire at the home of the Alter Rebbe and a mysterious spiral of flame rising to the sky. It goes back to the day the Shpoler Zeide read a holy manuscript the Alter Rebbe was writing, the 'Sefer shel Tzaddikim', and begged that it be returned to Heaven because the world was not ready; he wished that his own soul would rise in such a pillar of fire. The book burned in the fire at the very moment the Shpoler Zeide passed away. A mailbox splashdown brings a letter and a tzedakah box drawing from a girl in Williamsburg, and the show closes with candle times for Shabbos Shuvah.",
+  "lesson": "Remember the tzaddikim on their yahrzeit and try to follow their example of Torah and Ahavas Yisroel.",
+  "keywords": [
+   "pillar of fire",
+   "manuscript",
+   "fire",
+   "Hop Kozak",
+   "yahrzeit",
+   "descendants",
+   "Twelve Pesukim",
+   "tzedakah box drawing",
+   "mailbox",
+   "Shabbos Shuvah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 397,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-10-03",
+   "hebrew": "4 Tishrei 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'A few days after Rosh Hashanah'; 'this coming Thursday is Vov Tishrei' and 'this coming Shabbos, Shabbos Shuvah' fit Tuesday 4 Tishrei 5750 (3 Oct 1989)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story ends with the Shpoler Zeide's passing and his town in mourning.",
+    "at_sec": 1320
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests and a letter writer are named in full.",
+    "at_sec": 539
+   },
+   {
+    "flag": "home_address",
+    "note": "Street address of the letter writer read on air.",
+    "at_sec": 1481
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Chassidim of the Alter Rebbe's town",
+   "the Alter Rebbe's messengers"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "chabad_rebbeim",
+   "calendar",
+   "miracles"
+  ],
+  "midos": [
+   "anavah",
+   "kibbud",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "shema",
+   "twelve_pesukim",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "vav_tishrei",
+   "aseres_yemei_teshuvah",
+   "shabbos_shuva"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "The Sefer shel Tzaddikim and the pillar of fire",
+    "note": "Chassidic story of the Alter Rebbe's manuscript burned in the fire, dated on air to Vov Tishrei 5573 (1812)."
+   }
+  ],
+  "places": [
+   "Shpola"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening theme and New Year greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 180,
+   "type": "talk",
+   "title": "Vov Tishrei: The Yahrzeit of the Shpoler Zeide",
+   "summary": "Vov Tishrei is the yahrzeit of the Shpoler Zeide, when his descendants gather to retell his stories and follow his example.",
+   "people": [
+    "shpoler_zeide"
+   ],
+   "calendar": [
+    "vav_tishrei"
+   ],
+   "linked_items": [
+    "5650f2336c"
+   ]
+  },
+  {
+   "start_sec": 180,
+   "end_sec": 410,
+   "type": "song",
+   "title": "The Hop Kozak March, composed by the Shpoler Zeide",
+   "people": [
+    "shpoler_zeide"
+   ]
+  },
+  {
+   "start_sec": 410,
+   "end_sec": 452,
+   "type": "story_intro",
+   "title": "Story time announced"
+  },
+  {
+   "start_sec": 452,
+   "end_sec": 736,
+   "type": "shema_guest",
+   "title": "Shema and the Twelve Pesukim with two young guests"
+  },
+  {
+   "start_sec": 736,
+   "end_sec": 1405,
+   "type": "story",
+   "title": "The Strange Pillar of Fire",
+   "summary": "The Shpoler Zeide asks the Alter Rebbe to return a holy manuscript to Heaven; it burns in a fire and rises as a pillar of flame at the moment of his passing.",
+   "people": [
+    "shpoler_zeide",
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "vav_tishrei"
+   ]
+  },
+  {
+   "start_sec": 1405,
+   "end_sec": 1740,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox"
+  },
+  {
+   "start_sec": 1740,
+   "end_sec": 1765,
+   "type": "announcement",
+   "title": "Candle time for Shabbos Shuvah",
+   "calendar": [
+    "shabbos_shuva"
+   ]
+  },
+  {
+   "start_sec": 1765,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "5650f2336c",
+   "evidence": "text_overlap",
+   "confidence": 0.5,
+   "note": "'Shpoller Zeide 397' = 75-193 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3073859dbb",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 295 has the same Vov Tishrei opening talk, Hop Kozak march and 'Pillar of Fire' story, nearly word for word."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8bbf7a6519",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 446 has the same Vov Tishrei opening talk, Hop Kozak march and 'Pillar of Fire' story."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two Shema guests (one is the host's granddaughter) and a letter writer with her street address are heard on air (see hidden). The opening talk and story are reused from episode 295; the ASR skips about 50 s at 01:45-02:36 and part of the story's start at 15:19."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menucha Rochel Goldstein",
+    "role": "shema_guest",
+    "group": "Madrid, Spain (family on shlichus); calls the host 'Zaidy'",
+    "start_sec": 509,
+    "end_sec": 736
+   },
+   {
+    "name": "Liba Devorah Kramer",
+    "role": "shema_guest",
+    "group": "Brooklyn, New York; pen pal of the other guest",
+    "start_sec": 565,
+    "end_sec": 736
+   },
+   {
+    "name": "Chavi Weiss",
+    "role": "mailbox_letter",
+    "group": "Williamsburg, Brooklyn",
+    "start_sec": 1481,
+    "end_sec": 1740,
+    "note": "Sent a photo of herself from a school seder play and a drawing of a tzedakah box for the newsletter."
+   }
+  ],
+  "addresses": [
+   {
+    "text": "255 Rutledge Street, Williamsburg, Brooklyn",
+    "start_sec": 1481,
+    "end_sec": 1500
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "One Shema guest is the host's granddaughter; her parents are shluchim of the Rebbe in Madrid, Spain.",
+    "start_sec": 509
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:33Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20397%20-%20The%20Strange%20Pillar%20of%20Fire%20%28Vov%20Tishrei%29%20%281989-10-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 397 - The Strange Pillar of Fire (Vov Tishrei) (1989-10-03).mp3",
+  "size_bytes": 21842763,
+  "mime_type": "audio/mpeg"
+ }
+}

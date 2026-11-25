@@ -1,0 +1,142 @@
+{
+ "id": "8bce6b241e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Tzedakah 355",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Mitzvah as Big as Your House - Put Up a Tzedakah Pushka (Ep 355).mp3",
+  "duration_sec": 165.059,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 355,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 355,
+   "story": "",
+   "topic": "י' טבת",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "A Mitzvah as Big as Your House: Put Up a Tzedakah Pushka",
+  "title_basis": "content",
+  "summary_short": "Mitzvos come in all sizes, from a mezuzah to a sukkah, but nailing a tzedakah pushka to the wall turns your whole house into one giant mitzvah.",
+  "summary_long": "A short, playful mitzvah talk from the Tzivos Hashem radio show. Uncle Yossi explains that every mitzvah is great in Hashem's eyes, but mitzvos come in different sizes: a mezuzah, tefillin or a Shabbos candle are small; a menorah, a lulav or a Sefer Torah are bigger; and a sukkah is almost the biggest of all. Then he shares a way to do a mitzvah as big as your entire house: attach a tzedakah pushka to any wall, and the mitzvah becomes part of the house, and the house becomes part of the mitzvah. Tzedakah is a very special mitzvah that brings Moshiach sooner, and Hashem will protect the house and everyone in it.",
+  "lesson": "Put a tzedakah pushka on your wall so your whole home becomes part of a mitzvah.",
+  "keywords": [
+   "pushka",
+   "tzedakah box",
+   "house",
+   "mezuzah",
+   "sukkah",
+   "mitzvah sizes"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "episode": {
+   "number": 355,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-12-13",
+   "hebrew": "5 Teves 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 355 (2502f04235). Episode: Consistent with the audio: 'Chanukah is over'; 'this coming Sunday will be Asarah B'Teves' (18 Dec 1988)."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "mitzvos_in_daily_life",
+   "family_and_home"
+  ],
+  "midos": [
+   "generosity"
+  ],
+  "mitzvos": [
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2502f04235",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 1596,
+   "note": "Episode 355 (filename number); clip = 1596-1761 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'up some in box' for tefillin (likely 'or tefillin')."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/A%20Mitzvah%20as%20Big%20as%20Your%20House%20-%20Put%20Up%20a%20Tzedakah%20Pushka%20%28Ep%20355%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Mitzvah as Big as Your House - Put Up a Tzedakah Pushka (Ep 355).mp3",
+  "size_bytes": 1981623,
+  "mime_type": "audio/mpeg"
+ }
+}

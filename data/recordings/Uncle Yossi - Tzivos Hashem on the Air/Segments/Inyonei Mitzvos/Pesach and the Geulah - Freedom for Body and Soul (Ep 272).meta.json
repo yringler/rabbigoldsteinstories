@@ -1,0 +1,166 @@
+{
+ "id": "c4a8374db1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Geulah 272",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Pesach and the Geulah - Freedom for Body and Soul (Ep 272).mp3",
+  "duration_sec": 127.008,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 272,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 272,
+   "story": "The Vanishing Bottle of Wine",
+   "topic": "Geulah",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Pesach and the Geulah: Freedom for Body and Soul",
+  "title_basis": "content",
+  "summary_short": "One week before Pesach: leaving Egypt freed our bodies, receiving the Torah freed our souls, and we pray for a final Geulah that frees both.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, broadcast one week before Pesach. Uncle Yossi explains that Pesach, the time of our freedom, marks the day Hashem freed the Jewish people from slavery in Egypt, a freedom of the body. The freedom became complete only forty-nine days later, when we received the Torah at Har Sinai, a freedom of the soul. So too today, as we celebrate Pesach we ask Hashem to show His outstretched arm once more and free us from this final exile. Through dedicating ourselves to Torah study, the coming Geulah will be complete, for body and soul, and as we say at the end of the Seder, next year we will all be together in Yerushalayim.",
+  "lesson": "True freedom comes through the Torah; by learning it we prepare for a complete Geulah of body and soul.",
+  "keywords": [
+   "freedom",
+   "Exodus",
+   "Har Sinai",
+   "forty-nine days",
+   "exile",
+   "next year in Yerushalayim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 272,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-04-07",
+   "hebrew": "8 Nissan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 272 (04-07-87): 'exactly one week before Pesach'. Also re-aired in episodes 374 and 473."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "torah_study"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "seder"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "L'shanah haba'ah b'Yerushalayim",
+    "note": "Said at the close of the Seder."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short seasonal clip (about 2 minutes)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:25Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "cab583e2b7",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "Also aired in episode 374."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f891b04599",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "Also aired in episode 473."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "1d9341de33",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 31,
+   "note": "Episode 272 (filename number); clip = 31-158 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Pesach%20and%20the%20Geulah%20-%20Freedom%20for%20Body%20and%20Soul%20%28Ep%20272%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Pesach and the Geulah - Freedom for Body and Soul (Ep 272).mp3",
+  "size_bytes": 1525209,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "id": "74ef583ca6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "It was no mistake",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/It Was No Mistake - The Tzemach Tzedek's Letter to the Other Moshe.mp3",
+  "duration_sec": 1039.441,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "It Was No Mistake: The Tzemach Tzedek's Letter to the Other Moshe",
+  "title_basis": "filename",
+  "summary_short": "An innkeeper thrown out by the poritz is sent by the Tzemach Tzedek to the \"wrong\" Moshe, and learns that the Rebbe never makes a mistake.",
+  "summary_long": "In the days of the Tzemach Tzedek, David the innkeeper falls behind on his rent after a stormy winter, and the poritz throws him and his family out. The Tzemach Tzedek tells him to trust in Hashem and gives him a letter to Moshe Ratner in his town. David is crushed: he expected the letter to go to the other Moshe, the rich community leader with connections to the poritzim. Along the way the storyteller tells how that rich man's father, Shimshon, was once saved from the gallows when Nachum the melamed fought to put the noose on his own neck, until a cry of \"the Cossacks are coming!\" scattered the soldiers. The Tzemach Tzedek's sons assure David that their father never makes a mistake. Moshe Ratner, a simple storekeeper, has no idea how to help, but takes David in for the night. While David says Tehillim by candlelight in the attic, a poritz's wagon breaks down outside, and the only light on the street brings him to Moshe's door. Moved by Moshe's hospitality, the poritz gives David the inn as a gift.",
+  "lesson": "Trust a tzaddik's instructions even when they seem strange; the Rebbe never makes a mistake. A Jew should be ready to give everything, even his life, for another Jew.",
+  "keywords": [
+   "innkeeper",
+   "letter",
+   "envelope",
+   "two Moshes",
+   "gallows",
+   "Cossacks",
+   "attic",
+   "candle",
+   "broken wagon",
+   "hospitality",
+   "inn"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Soldiers prepare to hang a Jewish leader in the marketplace and a teacher wrestles for the noose; both survive."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Invading soldiers terrorize the town's Jews and falsely accuse a leader of spying."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A family is evicted from their inn for unpaid rent; resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "David the innkeeper",
+   "Moshe Ratner, the storekeeper",
+   "Moshe the short, the rich community leader",
+   "Shimshon, his father",
+   "Nachum the melamed",
+   "the poritz",
+   "the poritz's daughter",
+   "the coachman",
+   "the Tzemach Tzedek's sons"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis",
+   "mesiras_nefesh_kiddush_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "mesiras_nefesh",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Lubavitch",
+   "Kamin"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 270,
+   "type": "story",
+   "title": "David the innkeeper and the Rebbe's letter",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 270,
+   "end_sec": 577,
+   "type": "story",
+   "title": "Nachum the melamed saves Shimshon from the gallows"
+  },
+  {
+   "start_sec": 577,
+   "type": "story",
+   "title": "The Rebbe never makes a mistake",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "1f6a9072a1",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Trust the Rebbe' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9134a62649",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Trust the Rebbe's Words' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song. Ends abruptly with 'Sukkos. All the best', possibly a seasonal greeting. ASR writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No song or series name; same narrator style as the other items (e.g. 'The Tzemach Tzedek had seven sons and two daughters').",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series attribution from narrator style (no opening song); confirm.",
+   "Closing words 'Sukkos. All the best' may mean it was told before Sukkos."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/It%20Was%20No%20Mistake%20-%20The%20Tzemach%20Tzedek%27s%20Letter%20to%20the%20Other%20Moshe.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/It Was No Mistake - The Tzemach Tzedek's Letter to the Other Moshe.mp3",
+  "size_bytes": 12474338,
+  "mime_type": "audio/mpeg"
+ }
+}

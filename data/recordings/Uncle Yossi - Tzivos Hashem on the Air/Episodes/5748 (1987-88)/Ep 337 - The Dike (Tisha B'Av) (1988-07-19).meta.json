@@ -1,0 +1,345 @@
+{
+ "id": "0d4dd89383",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "337 07-19-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 337 - The Dike (Tisha B'Av) (1988-07-19).mp3",
+  "duration_sec": 1728.638,
+  "filename_facts": {
+   "episode_number": 337,
+   "date_in_filename": "1988-07-19",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 337,
+   "story": "The Dike",
+   "topic": "איכה. ט' אב",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 337: The Dike (Tisha B'Av)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's show for the week of Tisha B'Av: Torah, Avodah and Gemilus Chasadim, Shema with a first-grader, the story of the Dike, and the ancient tune of Eicha.",
+  "summary_long": "Broadcast the week of Tisha B'Av 5748. Uncle Yossi opens with the teaching of the Sages that the world stands on three things: learning Torah, davening to Hashem, and acts of kindness, especially tzedakah, the best 'diet' for a healthy neshamah. A first-grade yeshivah boy then leads the Shema in Studio 604. Story time is 'The Dike': when the dike breaks in a Dutch seaside town, little Gittel falls behind the fleeing crowd and is taken in by a harsh old woman who works her hard and makes her forget her family and her Yiddishkeit. Years later, Shabbos candles glowing in a window bring back her memories and lead her home to her parents and sister. Next, Uncle Yossi speaks about music as a gift from Hashem and introduces the age-old tune of Eicha, a song of hope sung throughout the golus. He explains why this year's fast is postponed from Shabbos to Sunday, how Tisha B'Av begins right after Shabbos, and prays that it become a Yom Tov. The show ends with the Shabbos candle-lighting time.",
+  "lesson": "Torah, davening and kindness keep the neshamah strong; and the light of Shabbos candles can bring a lost Jewish child back home.",
+  "keywords": [
+   "dike",
+   "flood",
+   "Holland",
+   "Shabbos candles",
+   "sisters",
+   "Eicha",
+   "music",
+   "fast day",
+   "Studio 604",
+   "three pillars"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 337,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-07-19",
+   "hebrew": "5 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'this coming Shabbos is Tisha B'Av', fast postponed to Sunday; candle time given for Friday, July 22nd."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A lost girl is kept for three years by a cruel woman who forbids her to mention her family and works her hard.",
+    "at_sec": 715
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A dike breaks and a town flees the flood; a child is threatened with a beating.",
+    "at_sec": 624
+   },
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Tisha B'Av and the destruction of the Beis HaMikdash, explained gently.",
+    "at_sec": 1571
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 346
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Gittel",
+   "Leah, her older sister",
+   "the cruel old woman"
+  ],
+  "topics": [
+   "shabbos",
+   "kindness_and_community",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "gemilus_chasadim",
+   "shema",
+   "shabbos_candles",
+   "fast_days"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "three_weeks",
+   "nine_days"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:2",
+    "note": "Cited as 'our Chachamim tell us': the world stands on Torah, Avodah and Gemilus Chasadim."
+   },
+   {
+    "work": "gemara",
+    "ref": "Sanhedrin 91b",
+    "note": "Cited as 'our Chachamim': 'Az Yashir' in the future tense hints at the song of the Geulah."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "Cited loosely as the Rambam: turn only to Hashem for whatever you need."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 24,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 24,
+   "end_sec": 330,
+   "type": "talk",
+   "title": "Torah, Avodah and Gemilus Chasadim",
+   "summary": "The world stands on three things; learning, davening and kindness, especially tzedakah, are the best diet for the soul.",
+   "people": [
+    "rambam"
+   ],
+   "linked_items": [
+    "03fd5128f2"
+   ]
+  },
+  {
+   "start_sec": 330,
+   "end_sec": 484,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade yeshivah boy"
+  },
+  {
+   "start_sec": 484,
+   "end_sec": 1188,
+   "type": "story",
+   "title": "The Dike",
+   "summary": "A girl lost in a flood forgets her family and Yiddishkeit until Shabbos candles in a window lead her home."
+  },
+  {
+   "start_sec": 1188,
+   "end_sec": 1227,
+   "type": "song",
+   "title": "The tune of Eicha",
+   "linked_items": [
+    "09ded4ae6f"
+   ]
+  },
+  {
+   "start_sec": 1227,
+   "end_sec": 1535,
+   "type": "talk",
+   "title": "Music, a Gift from Hashem, and the Song of Eicha",
+   "summary": "Music lifts the soul; the age-old tune of Eicha is a song of hope sung throughout the golus.",
+   "calendar": [
+    "tisha_bav",
+    "three_weeks"
+   ],
+   "linked_items": [
+    "09ded4ae6f"
+   ]
+  },
+  {
+   "start_sec": 1535,
+   "end_sec": 1571,
+   "type": "song",
+   "title": "Eicha chant",
+   "linked_items": [
+    "09ded4ae6f"
+   ]
+  },
+  {
+   "start_sec": 1571,
+   "end_sec": 1690,
+   "type": "halachah",
+   "title": "Tisha B'Av Postponed to Sunday",
+   "summary": "Why the fast moves from Shabbos to Sunday, and how it begins right after Shabbos with Maariv and Eicha.",
+   "calendar": [
+    "tisha_bav"
+   ],
+   "linked_items": [
+    "09ded4ae6f"
+   ]
+  },
+  {
+   "start_sec": 1690,
+   "end_sec": 1712,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1712,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "03fd5128f2",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "'Torah, Avodah, Gemilus Chasadim 337' = 24-339 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "09ded4ae6f",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Tisha B'Av 337' = 1187-1695 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c8f2c07973",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "The Torah, Avodah, Gemilus Chasadim talk (24-339 s) also aired in episode 389 (per clip 03fd5128f2's text matches); fingerprint candidate 0.5."
+  },
+  {
+   "type": "same_story",
+   "target_id": "2647489fa0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Gittel and the Candles: The Lost Sister' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a78808ef52",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Gittel and the Shabbos Candles: A Chanukah Story' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Eicha chanting is garbled in the transcript. Candle time is for July 22, 1988. No Hakochainik march or mailbox in this episode."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Boruch Ezriel Tzvi Hirsh Shafran",
+    "role": "shema_guest",
+    "group": "Kitah Aleph, yeshivah",
+    "start_sec": 346,
+    "end_sec": 484
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:02Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20337%20-%20The%20Dike%20%28Tisha%20B%27Av%29%20%281988-07-19%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 337 - The Dike (Tisha B'Av) (1988-07-19).mp3",
+  "size_bytes": 20744689,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "id": "9f2e683d65",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "113 bad recording",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 113 - A Diamond from Heaven, Chapter 1 (Adar).mp3",
+  "duration_sec": 1840.266,
+  "filename_facts": {
+   "episode_number": 113,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "bad_recording"
+   ]
+  },
+  "master_catalog": {
+   "episode": 113,
+   "story": "A diamond from heaven #1",
+   "topic": "משנכנס אדר",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 113: A Diamond from Heaven, Chapter 1 (Adar)",
+  "title_basis": "master_catalog",
+  "summary_short": "In the joyful month of Adar, Uncle Yossi explains why we treasure the Chumash and Rashi, and begins the story of Rashi's father and a priceless diamond.",
+  "summary_long": "Broadcast in the middle of Adar I 5744. Uncle Yossi opens with 'Mishenichnas Adar marbim b'simchah' and the Hakochainik march, followed by a sponsor. In a guessing game he reveals the sefer in his hand: Chumash Bereishis, the book Hashem Himself wrote, which we cover, never let fall and kiss. He explains how Rashi wrote his commentary so simply that a five-year-old can understand it, yet so deeply that great scholars find endless wisdom in it. A fourth-grade girl leads the Shema in Studio 604. Story time begins 'A Diamond from Heaven': Rabbi Yitzchak of France, a great scholar who supports his family as a diamond dealer, buys a magnificent diamond at a bargain. The governor's messenger offers full price, but Rabbi Yitzchak learns the stone is meant to adorn an idol. Fearing the governor's anger, he stalls for a day and pours out his heart in Tehillim, to be continued next week. The show ends with birthday greetings, a request to pray for a sick child, and Dial-a-Jewish-Story.",
+  "lesson": "Treasure and honor the Chumash, and stand firm when faith in Hashem is tested.",
+  "keywords": [
+   "Chumash Bereishis",
+   "Rashi's commentary",
+   "kissing the Chumash",
+   "diamond",
+   "diamond dealer",
+   "governor",
+   "idol",
+   "France",
+   "Tehillim",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 113,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1984-02",
+   "hebrew": "Adar I 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'Smack in the middle of Chodesh Adar'; episode 115 says 'this year we have two Adars' (5744). Likely 14 Feb 1984 (11 Adar I)."
+  },
+  "serial": {
+   "story_key": "a-diamond-from-heaven",
+   "story_title": "A Diamond from Heaven",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A governor wants a Jew's diamond for an idol; refusing could bring severe punishment.",
+    "at_sec": 1235
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest, birthday children and a sick child named in full.",
+    "at_sec": 665
+   },
+   {
+    "flag": "health_info",
+    "note": "A named six-year-old is said to be very sick.",
+    "at_sec": 1613
+   },
+   {
+    "flag": "home_address",
+    "note": "The sick child's home address read on air.",
+    "at_sec": 1645
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_yitzchak_father_of_rashi",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "appears"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the governor",
+   "the governor's messenger",
+   "Rabbi Yitzchak's wife",
+   "the diamond merchant"
+  ],
+  "topics": [
+   "great_rabbis",
+   "torah_study",
+   "mesiras_nefesh_kiddush_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "kibbud",
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kavod_shul",
+   "tehillim",
+   "shema"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "Avos 5:21",
+    "note": "'Ben chamesh l'Mikra': Rashi wrote so a five-year-old can understand."
+   },
+   {
+    "work": "rashi_on_chumash",
+    "note": "Rashi's commentary described and praised."
+   }
+  ],
+  "places": [
+   "France"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 60,
+   "type": "opening",
+   "title": "Greeting: the joyful month of Adar",
+   "calendar": [
+    "adar"
+   ]
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 180,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 180,
+   "end_sec": 260,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 260,
+   "end_sec": 652,
+   "type": "talk",
+   "title": "The Chumash, written by Hashem, and the holy Rashi",
+   "summary": "A guessing game about Chumash Bereishis, how we honor it, and why Rashi's commentary suits both children and scholars.",
+   "people": [
+    "rashi"
+   ]
+  },
+  {
+   "start_sec": 652,
+   "end_sec": 785,
+   "type": "shema_guest",
+   "title": "Shema with a fourth-grader from Beis Rivkah"
+  },
+  {
+   "start_sec": 785,
+   "end_sec": 880,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 880,
+   "end_sec": 1384,
+   "type": "story_chapter",
+   "title": "A Diamond from Heaven, Chapter 1",
+   "summary": "Rashi's father buys a rare diamond, then learns the governor wants it for an idol, and prays for guidance.",
+   "people": [
+    "rabbi_yitzchak_father_of_rashi"
+   ],
+   "story_key": "a-diamond-from-heaven",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1384,
+   "end_sec": 1524,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1524,
+   "end_sec": 1613,
+   "type": "announcement",
+   "title": "Birthday greetings"
+  },
+  {
+   "start_sec": 1613,
+   "end_sec": 1680,
+   "type": "announcement",
+   "title": "Refuah shleimah for a sick child"
+  },
+  {
+   "start_sec": 1680,
+   "end_sec": 1800,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1800,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "5a4ae6ea03",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 113 = 'A diamond from heaven #1', 114 = '#2'."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "5e3346ab8e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Rashi's Father and the Precious Diamond' (Stories), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "a06fb5b0d9",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby Chaya Malka's Yiddish Stories, Part 1' (Stories, 7:58-14:42), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 12:15-19:25), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "truncated_start",
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Filename marked 'bad recording', though the transcript is clean; needs a listen. Starts mid-sentence. Several sponsor breaks untranscribed. A sick child's name and home address are read on air (see hidden). Stray words after the closing at 30:30."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Miriam Tova Shagalov",
+    "role": "shema_guest",
+    "group": "Beis Rivkah, Kitah Daled",
+    "start_sec": 660,
+    "end_sec": 785,
+    "note": "Age 9."
+   },
+   {
+    "name": "Honey Seeger",
+    "role": "birthday",
+    "start_sec": 1524,
+    "end_sec": 1552,
+    "note": "Ninth birthday; possibly 'Chani'."
+   },
+   {
+    "name": "Devorah Anger",
+    "role": "birthday",
+    "start_sec": 1524,
+    "end_sec": 1552,
+    "note": "Ninth birthday."
+   },
+   {
+    "name": "Bracha Hindy Tenenbaum",
+    "role": "birthday",
+    "start_sec": 1524,
+    "end_sec": 1552,
+    "note": "Ninth birthday."
+   },
+   {
+    "name": "Shneur Zalman Kovacs (Shneur Zalman ben Rachel Sarah)",
+    "role": "refuah_list",
+    "group": "Baltimore, Maryland",
+    "start_sec": 1613,
+    "end_sec": 1680,
+    "note": "Age 6; listeners asked to write to him."
+   }
+  ],
+  "addresses": [
+   {
+    "text": "6005 Baywood Avenue, Baltimore, Maryland 21209",
+    "start_sec": 1645,
+    "end_sec": 1680
+   }
+  ],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Six-year-old Shneur Zalman is very sick and needs a refuah shleimah.",
+    "start_sec": 1613,
+    "end_sec": 1645
+   },
+   {
+    "kind": "school",
+    "text": "Shema guest attends Beis Rivkah, fourth grade.",
+    "start_sec": 660,
+    "end_sec": 690
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Filename says 'bad recording': listen to judge the audio quality."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:36Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20113%20-%20A%20Diamond%20from%20Heaven%2C%20Chapter%201%20%28Adar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 113 - A Diamond from Heaven, Chapter 1 (Adar).mp3",
+  "size_bytes": 22084149,
+  "mime_type": "audio/mpeg"
+ }
+}

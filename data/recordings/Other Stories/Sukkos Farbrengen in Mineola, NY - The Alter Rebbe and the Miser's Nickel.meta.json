@@ -1,0 +1,265 @@
+{
+ "id": "d867ec591e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Sukkos Farbrengen in Miniola NY",
+  "audio_path": "audio/Other Stories/Sukkos Farbrengen in Mineola, NY - The Alter Rebbe and the Miser's Nickel.mp3",
+  "duration_sec": 1192.698,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel",
+  "title_basis": "filename",
+  "summary_short": "At a Sukkos farbrengen on the day of Moshe Rabbeinu, a guest speaker teaches the power of seeing the good, with the story of the Alter Rebbe, a captured groom and a miser's rusty nickel.",
+  "summary_long": "A guest speaker at a community Sukkos farbrengen in Mineola, New York, greets the crowd and his old yeshiva study partner, the host rabbi. Today's Ushpiz is Moshe Rabbeinu, and he tells how Moshe proved himself a leader as a shepherd by gently carrying a runaway lamb back to the flock. He explains that 'negative' is 'neged tov', the opposite of good, and that we should focus on the good. Then comes the story: on the wedding day of two orphans, an antisemitic police chief seizes the groom for 25 years in the army and demands 1,500 rubles. The Alter Rebbe arrives, collects from a poor community, and insists on going first to 'Moshe the miser', who for years has given only one rusty nickel. The Alter Rebbe accepts the nickel with a heartfelt blessing, and Moshe, moved to tears, explains how a beggar once threw that nickel back at him, then gives the whole sum. The groom is freed and the wedding goes on; that night the police chief is killed in a riding accident, and the groom finds the ransom money, which the rabbi gives to the couple. The speaker urges everyone to see the good in themselves and others, make peace, and build the unity that brings Moshiach.",
+  "lesson": "Look for the good in every person, including yourself; accepting even a small good deed warmly brings out much more, and unity brings Moshiach.",
+  "keywords": [
+   "farbrengen",
+   "shepherd",
+   "lamb",
+   "wedding",
+   "orphans",
+   "police chief",
+   "ransom",
+   "miser",
+   "rusty nickel",
+   "rubles",
+   "wallet"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "An antisemitic police chief seizes a groom on his wedding day to draft him for 25 years and threatens the townspeople with Siberia."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The police chief falls from his horse and dies (reported briefly)."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the orphan groom and bride",
+   "the police chief (nachalnik)",
+   "Moshe 'the miser'",
+   "the beggar",
+   "the town's rabbis"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "achdus",
+   "generosity",
+   "ahavas_yisroel",
+   "shalom"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_kallah",
+   "pidyon_shvuyim",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "'Our sages tell us' how Moshe was tested as a shepherd with the runaway lamb."
+   },
+   {
+    "work": "tanya",
+    "note": "The Alter Rebbe: every Jew has a spark of Moshe."
+   }
+  ],
+  "places": [
+   "Mineola, New York"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 63,
+   "type": "opening",
+   "title": "Greetings",
+   "summary": "Holiday greetings and a word about the host rabbi, the speaker's old study partner."
+  },
+  {
+   "start_sec": 63,
+   "end_sec": 195,
+   "type": "talk",
+   "title": "Moshe Rabbeinu the shepherd",
+   "summary": "Today's Ushpiz proved himself a leader by caring for a runaway lamb; focus on the positive.",
+   "people": [
+    "moshe_rabbeinu"
+   ]
+  },
+  {
+   "start_sec": 195,
+   "end_sec": 960,
+   "type": "story",
+   "title": "The Alter Rebbe and the miser's nickel",
+   "summary": "The Alter Rebbe's warm acceptance of a single nickel frees a captured groom.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 960,
+   "type": "talk",
+   "title": "See the good and build unity",
+   "summary": "Seeing the good in ourselves and others leads to peace, unity and Moshiach."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename spells the town 'Miniola' (Mineola). Today's Ushpiz is Moshe Rabbeinu, so a day of Chol HaMoed; year not stated (mentions feeling for soldiers)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:45:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Speaker not named (a guest who studied in yeshiva with the host, Rabbi Pearl); possibly Rabbi Yosef Goldstein, unconfirmed."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Sukkos%20Farbrengen%20in%20Mineola%2C%20NY%20-%20The%20Alter%20Rebbe%20and%20the%20Miser%27s%20Nickel.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Sukkos Farbrengen in Mineola, NY - The Alter Rebbe and the Miser's Nickel.mp3",
+  "size_bytes": 14313164,
+  "mime_type": "audio/mpeg"
+ }
+}

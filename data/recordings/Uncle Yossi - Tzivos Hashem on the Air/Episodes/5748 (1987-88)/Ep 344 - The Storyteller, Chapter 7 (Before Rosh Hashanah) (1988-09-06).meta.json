@@ -1,0 +1,504 @@
+{
+ "id": "9888017ef7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "344 09-06-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 344 - The Storyteller, Chapter 7 (Before Rosh Hashanah) (1988-09-06).mp3",
+  "duration_sec": 1773.882,
+  "filename_facts": {
+   "episode_number": 344,
+   "date_in_filename": "1988-09-06",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 344,
+   "story": "The storyteller #5",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 344: The Storyteller, Chapter 7 (Before Rosh Hashanah)",
+  "title_basis": "content",
+  "summary_short": "Chof-Hey Elul and the creation of the world, the Hakochainik march, the Baal Shem Tov summons a feared official, Shema with a first-grade class, and the blessing of the last Shabbos of the year.",
+  "summary_long": "Broadcast on 24 Elul 5748, days before Rosh Hashanah. Uncle Yossi explains that the world was created on the 25th of Elul, so Rosh Hashanah marks the sixth day, when Adam and Chavah were created to serve Hashem through the 613 mitzvos; as the Rebbe said, now is the time for simcha, which will bring Moshiach. After the Hakochainik march to 'Ki Imanu Keil', the story continues: the feared official Alex, surprisingly friendly, promises to visit the Baal Shem Tov that evening, but the Baal Shem Tov insists he come immediately, even if Rabbi Yehuda must lead him by the hand. A first-grade class from a Boro Park girls' school recites the Shema. Alex comes, and alone by candlelight the Baal Shem Tov tells him, 'Listen, my child, listen carefully.' After a sponsor message, Uncle Yossi explains the Selichos days and why the last Shabbos of the year brings a blessing for the whole year, so everyone says Tehillim early that morning. He reminds listeners of Rosh Hashanah's dates, the shofar and Tashlich, announces the next show on Erev Yom Kippur, and wishes all a good and sweet year.",
+  "lesson": "We were created to serve Hashem with Torah and mitzvos; prepare for the new year with teshuvah, Tehillim and simcha.",
+  "keywords": [
+   "creation of the world",
+   "Adam and Chavah",
+   "613 mitzvos",
+   "Selichos",
+   "Tashlich",
+   "storyteller",
+   "official",
+   "tailor",
+   "Tehillim",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 344,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-09-06",
+   "hebrew": "24 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Confirmed in the audio: 'today is Chof-Daled Elul'; Rosh Hashanah on the following Monday and Tuesday."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 7
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A harsh official feared by the Jews of his town is summoned by the Baal Shem Tov.",
+    "at_sec": 595
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A class of Shema guests introduce themselves by full name.",
+    "at_sec": 979
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Alex, the feared official",
+   "Reb Shimon the tailor"
+  ],
+  "topics": [
+   "calendar",
+   "baal_shem_tov_and_students",
+   "teshuvah",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "simcha",
+   "courage",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "shofar",
+   "tashlich",
+   "tehillim",
+   "teshuvah",
+   "shema"
+  ],
+  "calendar": [
+   "elul",
+   "selichos",
+   "shabbos_mevarchim",
+   "rosh_hashanah",
+   "chof_hei_elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 2:15 ('l'ovdah ul'shomrah')",
+    "note": "Explained as the 248 positive and 365 negative mitzvos."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "'Now is the time to be b'simcha', which will bring Moshiach."
+   },
+   {
+    "work": "zohar",
+    "ref": "'Mineih misbarchin kulhu yomin'",
+    "note": "Shabbos is the source of blessing for the days that follow."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov's teaching that Hashem Himself blesses the month on the Shabbos before Rosh Hashanah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 421,
+   "type": "talk",
+   "title": "Chof-Hey Elul: The World Was Created for You",
+   "summary": "Creation began on 25 Elul; Rosh Hashanah recalls the creation of man, made to serve Hashem with 613 mitzvos.",
+   "people": [
+    "adam_harishon",
+    "the_rebbe"
+   ],
+   "calendar": [
+    "elul",
+    "rosh_hashanah"
+   ],
+   "linked_items": [
+    "afddab9ffe",
+    "5b6b690fa8"
+   ]
+  },
+  {
+   "start_sec": 421,
+   "end_sec": 595,
+   "type": "song",
+   "title": "Hakochainik March: Ki Imanu Keil"
+  },
+  {
+   "start_sec": 595,
+   "end_sec": 836,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 7 (first part)",
+   "summary": "The Baal Shem Tov insists that the feared official come at once, even if led by the hand.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 7
+  },
+  {
+   "start_sec": 836,
+   "end_sec": 1035,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 1035,
+   "end_sec": 1160,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 7 (continued)",
+   "summary": "Alone by candlelight, the Baal Shem Tov begins to speak to the official.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 7
+  },
+  {
+   "start_sec": 1160,
+   "end_sec": 1273,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1273,
+   "end_sec": 1586,
+   "type": "talk",
+   "title": "The Last Shabbos of the Year",
+   "summary": "Selichos, and the blessing for the whole year given on the Shabbos before Rosh Hashanah.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "calendar": [
+    "selichos",
+    "shabbos_mevarchim"
+   ],
+   "linked_items": [
+    "5d3579125b"
+   ]
+  },
+  {
+   "start_sec": 1586,
+   "end_sec": 1705,
+   "type": "announcement",
+   "title": "Rosh Hashanah reminders: shofar and Tashlich",
+   "calendar": [
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 1705,
+   "type": "closing",
+   "title": "Closing and New Year wishes"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "5b6b690fa8",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Rosh Hashana 344' = 48-434 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "5d3579125b",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Shabbos Mevorchim Tishrei 344' = 1273-1586 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "afddab9ffe",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "'Chof Hey Elul 344' = 43-432 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "28f877b59d",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 343 ch. 6 and ep 344 ch. 7 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "28f877b59d",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "ep 344 ch. 7 continues 'The Storyteller' (1988): ep 343 ch. 6."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b088ce6ac1",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 344 ch. 7 and ep 345 ch. 8 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Sponsor ad with store address and hours; next show announced for Tuesday, September 20 (Erev Yom Kippur)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Amsel",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 836,
+    "end_sec": 1035
+   },
+   {
+    "name": "Toby Williger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Chavi Lieber",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Rivki Strasser",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Leah Rochel Wilson (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Feigy Hayen (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Feigy Wagon (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Faidy Friedman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Faidy Ledera (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Feigy Fisher",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Chavi Fasimbal (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Faidy Shandy (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Goldie Fishbein",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Shandy Krieger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Basya Khan (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Malky Werner",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Faidy Gross",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Haralasa (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Feigy Schwartz",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 979,
+    "end_sec": 1012
+   },
+   {
+    "name": "Miriam Perel Klein",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 1010,
+    "end_sec": 1015
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Shema guest names are ASR approximations."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:52Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20344%20-%20The%20Storyteller%2C%20Chapter%207%20%28Before%20Rosh%20Hashanah%29%20%281988-09-06%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 344 - The Storyteller, Chapter 7 (Before Rosh Hashanah) (1988-09-06).mp3",
+  "size_bytes": 21287618,
+  "mime_type": "audio/mpeg"
+ }
+}

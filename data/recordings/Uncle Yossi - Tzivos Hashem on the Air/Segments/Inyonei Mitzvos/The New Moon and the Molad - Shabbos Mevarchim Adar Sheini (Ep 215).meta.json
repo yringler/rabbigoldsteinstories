@@ -1,0 +1,161 @@
+{
+ "id": "4a16840812",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Moon Leapyear 215",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The New Moon and the Molad - Shabbos Mevarchim Adar Sheini (Ep 215).mp3",
+  "duration_sec": 429.84,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 215,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 215,
+   "story": "The secret of Toras Emes#2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The New Moon and the Molad: Shabbos Mevarchim Adar Sheini",
+  "title_basis": "content",
+  "summary_short": "Before Shabbos Mevarchim Adar Sheini, Uncle Yossi explains how the moon grows each month, how the molad is calculated, and why a leap year brings a double portion of joy.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, given the week of Shabbos Mevarchim for Adar Sheini. Uncle Yossi reminds children how the moon wanes to nothing at the end of the month and then reappears as a thin line that grows until the fifteenth. Our Sages, with their G-dly wisdom, set up a calendar that tells in advance the exact day, hour, minute and second of the molad, the birth of the new moon, which will be announced in shul that Shabbos. No clock on earth is as precise as the heavenly bodies; as Dovid HaMelech wrote in Tehillim, 'the heavens tell the glory of Hashem', and studying them fills us with yiras Shamayim. Since it is a leap year with two months of Adar, we get a double portion of joy, and he prays for the greatest joy of all, leaving golus with Moshiach.",
+  "lesson": "The precise motion of the heavens shows Hashem's greatness and brings us to yiras Shamayim.",
+  "keywords": [
+   "moon",
+   "new moon",
+   "molad",
+   "leap year",
+   "Adar Sheini",
+   "heavens",
+   "calendar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 215,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-03-04",
+   "hebrew": "23 Adar I 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Clip of episode 215: 'right before Shabbos Mevarchim Chodesh Adar Sheini'; molad 'next Tuesday, March the 11th'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "hashem_in_nature",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "shabbos_mevarchim",
+   "adar",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "19:2",
+    "note": "'The heavens tell the glory of Hashem.'"
+   }
+  ]
+ },
+ "segments": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Gives the molad time for Adar II 5746 (Tuesday 11 March 1986, 1:07 am) and refers back to 'last week' (the Moon 214 talk)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:53:42Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b412d5961c",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 43,
+   "note": "Episode 215 (filename number); clip = 43-473 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20New%20Moon%20and%20the%20Molad%20-%20Shabbos%20Mevarchim%20Adar%20Sheini%20%28Ep%20215%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The New Moon and the Molad - Shabbos Mevarchim Adar Sheini (Ep 215).mp3",
+  "size_bytes": 5158953,
+  "mime_type": "audio/mpeg"
+ }
+}

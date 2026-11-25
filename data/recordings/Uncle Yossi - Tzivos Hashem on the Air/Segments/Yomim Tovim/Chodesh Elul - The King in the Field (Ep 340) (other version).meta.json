@@ -1,0 +1,180 @@
+{
+ "id": "3ec5471714",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chodesh Elul 340",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Chodesh Elul - The King in the Field (Ep 340) (other version).mp3",
+  "duration_sec": 558.327,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 340,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 340,
+   "story": "The storyteller #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Chodesh Elul: The King in the Field",
+  "title_basis": "content",
+  "summary_short": "Why Elul makes us cry 'Oy gevald!': the Alter Rebbe's parable of the king who comes out to the fields, and the one request at the top of everyone's list.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, a few days before Rosh Chodesh Elul. Uncle Yossi says the very thought of Elul should send a chill down our spine, because something happens only in this month. Hashem is always close to the Jewish people, but the Alter Rebbe in Likkutei Torah gives a parable: a king usually sits in his guarded palace and can be reached only through ministers, but on his way home from a journey he passes through the fields, where everyone may come out to greet him; he is in a happy mood and grants every request. In Elul, before Rosh Hashanah, Hashem is like that king in the field, and every child, as a soldier in Tzivos Hashem, can approach Him. Of all our needs, the request at the top of the list is Moshiach, and like a loving father moved by his child's cry, Hashem will surely answer.",
+  "lesson": "In Elul Hashem is especially close, so turn to Him and ask, above all, for Moshiach.",
+  "keywords": [
+   "king in the field",
+   "palace",
+   "parable",
+   "Rosh Chodesh",
+   "requests",
+   "father and child"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 340,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-08-09",
+   "hebrew": "26 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Date of episode 340, which this clip was cut from; 'a few days to Rosh Chodesh Elul' agrees."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "chassidus_tanya",
+   "moshiach_geulah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "davening",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Parshas Re'eh",
+    "note": "The Alter Rebbe's parable of the king in the field."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b55afe2c6b",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 49,
+   "note": "Episode 340 (filename number); clip = 49-608 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "a91e103f11",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "a91e103f11",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "Same recording; the other copy starts cleanly at 0:00 and is a second longer. Either could serve."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of a91e103f11 ('Elul 340'), the preferred copy: near-identical copy offset by about a second."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:15Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Chodesh%20Elul%20-%20The%20King%20in%20the%20Field%20%28Ep%20340%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Chodesh Elul - The King in the Field (Ep 340) (other version).mp3",
+  "size_bytes": 6700904,
+  "mime_type": "audio/mpeg"
+ }
+}

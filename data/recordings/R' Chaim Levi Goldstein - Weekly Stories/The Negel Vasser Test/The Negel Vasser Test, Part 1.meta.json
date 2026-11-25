@@ -1,0 +1,221 @@
+{
+ "id": "c2fbdf730a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Negel-Vasser Test 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Negel Vasser Test/The Negel Vasser Test, Part 1.mp3",
+  "duration_sec": 1147.6,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Negel Vasser Test, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Why we wash negel vasser each morning, and how Matzliach of Baghdad, who promised to cherish this mitzvah above all, faces a water shortage in the desert.",
+  "summary_long": "After the song \"I Believe in Hashem\", the storyteller explains the order of thought, speech and action at bedtime and on waking: Shiviti Hashem, then Modeh Ani, then negel vasser. As the Alter Rebbe explains from the Zohar, part of the neshamah goes up to be recharged at night and impurity rests on the body; in the morning it leaves all but the hands, so we must not touch anything or walk four amos before washing, and the water must be prepared by the bed. Then the story begins. Matzliach, a young Torah scholar in Baghdad, is supported by his father, a wealthy spice merchant. Before passing away, his father asks him to choose one mitzvah to cherish with mesiras nefesh, and Matzliach chooses negel vasser, never going to sleep without it. When he must cross the desert with a caravan to buy spices, a three-day sandstorm leaves the group short of water, and the captain collects everyone's water to hand out a daily ration under armed guard. Matzliach asks for his bottle at night, but by morning it is all used for negel vasser, and he spends the hot day with nothing to drink. To be continued.",
+  "lesson": "Prepare negel vasser by your bed every night and wash carefully each morning; choose a mitzvah to cherish above all.",
+  "keywords": [
+   "Baghdad",
+   "spice merchant",
+   "desert",
+   "caravan",
+   "sandstorm",
+   "water ration",
+   "camel",
+   "bedside water"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "the-negel-vasser-test",
+   "part_number": 1,
+   "of": 3
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Dangers of the desert; the captain warns that anyone hiding water will be shot."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Matzliach",
+   "his father, a spice merchant",
+   "the caravan captain"
+  ],
+  "topics": [
+   "morning_routine",
+   "halachah",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "responsibility",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "modeh_ani",
+   "shema",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "note": "Shiviti Hashem l'negdi samid; not touching anything or walking four amos before washing."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "note": "The Alter Rebbe explains why we wash negel vasser."
+   },
+   {
+    "work": "zohar",
+    "note": "Impurity rests on the hands on waking."
+   }
+  ],
+  "places": [
+   "Baghdad",
+   "Iraq"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 34,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 34,
+   "end_sec": 355,
+   "type": "halachah",
+   "title": "Why we wash negel vasser"
+  },
+  {
+   "start_sec": 355,
+   "type": "story_chapter",
+   "title": "The Negel Vasser Test, Part 1",
+   "story_key": "the-negel-vasser-test",
+   "chapter": 1
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'Desire' for 'the Shulchan Aruch' and garbles negel vasser."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem, there never is a moment that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "f34861c52d",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Part 2: picks up the next morning with the request for a second bottle of water."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "efcdc98ed0",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Part 3: the robbers' cave and the ending."
+  },
+  {
+   "type": "same_story",
+   "target_id": "234db79ac9",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Matzliach and the Mitzvah of Negel Vasser, Part 1' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bae411ef9d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Matzliach and the Mitzvah of Negel Vasser, Part 2' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Negel%20Vasser%20Test/The%20Negel%20Vasser%20Test%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Negel Vasser Test/The Negel Vasser Test, Part 1.mp3",
+  "size_bytes": 13772108,
+  "mime_type": "audio/mpeg"
+ }
+}

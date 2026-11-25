@@ -1,0 +1,186 @@
+{
+ "id": "12f90c653d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "The Special Letter of the Besht",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Special Letter of the Baal Shem Tov.mp3",
+  "duration_sec": 900.139,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Special Letter of the Baal Shem Tov",
+  "title_basis": "filename",
+  "summary_short": "A proud merchant forgets to deliver a letter from the Baal Shem Tov. Sixteen years later, penniless, he finds it, and the letter turns out to be about him.",
+  "summary_long": "Avigdor, a wealthy merchant from Brody, gives the Baal Shem Tov a large donation but boasts of his own cleverness and never once says \"Baruch Hashem.\" The Baal Shem Tov asks him to carry a sealed letter to Reb Tzaddik, the head of the community in Brody. Busy with business, Avigdor forgets the letter in the pocket of an old suit. Sixteen years later his fortune is gone: his forest burns, his ships sink and his debtors do not pay. Selling his last suit, he finds the letter and goes to deliver it. A passerby tells him that Reb Tzaddik, a poor tailor who always said \"Baruch Hashem\" and later grew rich, was chosen as the community's leader that very morning. In the letter the Baal Shem Tov asks Reb Tzaddik to help the penniless bearer, and gives two signs: it will arrive the day he becomes leader, and the day his wife gives birth to a son. Just then the news of the baby arrives, and Reb Tzaddik promises to help Avigdor.",
+  "lesson": "Always say \"Baruch Hashem\" and remember that everything, even our success and our cleverness, comes from Hashem.",
+  "keywords": [
+   "letter",
+   "merchant",
+   "Baruch Hashem",
+   "tailor",
+   "old suit",
+   "Brody",
+   "community leader",
+   "baby boy"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A rich man loses everything and must sell his furniture; he is helped in the end."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Avigdor the merchant",
+   "Reb Tzaddik, the tailor and community leader",
+   "a passerby in Brody",
+   "the poritz"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "emunah_bitachon",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "emunah",
+   "anavah",
+   "responsibility"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Brody"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 838,
+   "type": "story",
+   "title": "The Special Letter of the Baal Shem Tov",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 838,
+   "type": "closing",
+   "title": "Lesson: always say Baruch Hashem"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "b0deaef41d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'A Tzaddik Sees 16 Years into the Future: The Baal Shem Tov's Letter' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c5008bca39",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Baal Shem Tov's Letter, Delivered Sixteen Years Late' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirate' for poritz and 'Brad' for Brody."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Special%20Letter%20of%20the%20Baal%20Shem%20Tov.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Special Letter of the Baal Shem Tov.mp3",
+  "size_bytes": 10802633,
+  "mime_type": "audio/mpeg"
+ }
+}

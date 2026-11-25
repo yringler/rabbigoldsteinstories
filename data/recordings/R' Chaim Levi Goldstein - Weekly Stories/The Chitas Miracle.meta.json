@@ -1,0 +1,272 @@
+{
+ "id": "7abf00d146",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "The Chitas Miracle",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Chitas Miracle.mp3",
+  "duration_sec": 1497.28,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-028' stripped"
+  ]
+ },
+ "display": {
+  "title": "The Chitas Miracle",
+  "title_basis": "filename",
+  "summary_short": "For the Rebbe Maharash's yahrzeit, two stories of the power of Chitas: the Rebbe Maharash defeats a decree in Petersburg, and a Jerusalem rosh yeshiva's legs are saved.",
+  "summary_long": "In honor of the Rebbe Maharash's yahrzeit, the storyteller tells two miracles of learning Chitas. In 1857 the Tzemach Tzedek sent his son, the Rebbe Maharash, to Petersburg to stop the Maskilim from forcing their books on the yeshivos. He shared what he had learned years earlier at the resting place of his mother, the Alter Rebbe's daughter: the Baal Shem Tov had told her that one who knows Chumash, Tehillim and Tanya by heart can break any decree, hinted in the word 'chitas' in the Torah. The Rebbe Maharash said Chitas in every office, and the decree collapsed. The second story was told at a wedding in Jerusalem around 1954 by a rosh yeshiva whose legs were so ill that doctors planned to amputate. As a yeshiva student in Europe, he and his friends delayed helping a Jew whose horse was choking, and mocked Itche, a man everyone took for a drunkard, who warned them. Itche turned out to be a hidden tzaddik who foretold his own passing and was buried by a miracle beside a tzaddik. A guest wrote to the Rebbe, who advised the rosh yeshiva and his students to learn Chitas daily, and his legs began to heal.",
+  "lesson": "Learning Chitas every day, Chumash, Tehillim and Tanya, brings great protection and blessing. Never delay helping someone in need, and never mock anyone.",
+  "keywords": [
+   "Chitas",
+   "Petersburg",
+   "Maskilim",
+   "decree",
+   "hidden tzaddik",
+   "horse and wagon",
+   "wedding",
+   "amputation",
+   "letter from the Rebbe"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_collection",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of 13 Tishrei (the Rebbe Maharash's yahrzeit)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'This week we have the yom hilula of the Rebbe Maharash'; 1857 'almost 170 years ago' and 1954 'close to 70 years ago' suggest the 2020s."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Decrees and pogroms in Czarist Russia; the Tzemach Tzedek's dangerous mission and arrests."
+   },
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A rosh yeshiva is bedridden and doctors plan to amputate his legs; he recovers."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A horse chokes to death; a hidden tzaddik foretells and meets his own passing."
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "The rosh yeshiva's illness is understood as the result of mocking a hidden tzaddik."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbetzin_devorah_leah",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rebbetzin Devorah Leah, the Tzemach Tzedek's mother",
+   "the Maskilim",
+   "Rabbi Chaim Chaikel, rosh yeshiva in Jerusalem",
+   "Itche, a hidden tzaddik thought to be a drunkard",
+   "the wagon driver",
+   "Rabbi Aryeh Leib Friedman"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "torah_study",
+   "hiskashrus"
+  ],
+  "midos": [
+   "chesed",
+   "dan_lkaf_zchus",
+   "anavah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "chitas",
+   "torah_study",
+   "tehillim",
+   "tzaar_baalei_chaim",
+   "gemilus_chasadim"
+  ],
+  "calendar": [
+   "yud_gimmel_tishrei"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 35:5",
+    "note": "'Vayehi chitas Elokim', read by the Baal Shem Tov as Chumash, Tehillim, Tanya."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's letter advising the rosh yeshiva to learn Chitas daily, following the Frierdiker Rebbe's takanah."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek's account to the Rebbe Maharash of his mother's message."
+   }
+  ],
+  "places": [
+   "Petersburg",
+   "Liozna",
+   "Jerusalem",
+   "Stutchin"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 33,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 33,
+   "end_sec": 577,
+   "type": "story",
+   "title": "The Rebbe Maharash in Petersburg",
+   "summary": "Saying Chitas in every government office defeats the Maskilim's decree.",
+   "people": [
+    "rebbe_maharash",
+    "tzemach_tzedek",
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 577,
+   "type": "story",
+   "title": "The rosh yeshiva's legs and the hidden tzaddik",
+   "summary": "A rosh yeshiva's story of a hidden tzaddik, and his healing after the Rebbe advised daily Chitas.",
+   "people": [
+    "the_rebbe"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "08c856f89f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Chitas: The Best Cure' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends right after the second story with no sign-off. ASR writes 'Maharaj' for Maharash."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Chitas%20Miracle.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Chitas Miracle.mp3",
+  "size_bytes": 17968217,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "id": "cf278c8acb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Town Named After The Besht 59",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Town Named After the Baal Shem Tov.mp3",
+  "duration_sec": 1108.402,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Town Named After the Baal Shem Tov",
+  "title_basis": "filename",
+  "summary_short": "A Sefiras HaOmer lesson on loving and respecting every Jew, then the Ruzhiner Rebbe learns from a hundred-year-old shepherd how a village came to be named after a holy Jew on the mountain.",
+  "summary_long": "During Sefiras HaOmer, the storyteller shares teachings of the Rebbe: the Jews leaving Egypt counted the days toward Matan Torah on their own, and each counted day is a chance to ask what we improved. He explains the mourning customs of the Omer for Rabbi Akiva's students and the Rebbe's answer to how they could have Ahavas Yisroel yet not respect each other: each was sure his own way was the only right one. Just as no two faces are alike, people may differ, and true love for a fellow Jew includes respecting his customs. Then a story: Rabbi Yisroel of Ruzhin, after being freed from a Russian prison, crosses into Austria and passes a village with a Jewish-sounding name. An old shepherd, brought to him by sled, tells how as a boy he was saved from a wolf by a Jew who studied on the mountaintop and stopped the wolf dead without touching it. The villagers honored this holy man, built a fence around the well he used as a mikveh, and the town that grew around its healing waters was named after him. The Ruzhiner reveals that the man was the Baal Shem Tov.",
+  "lesson": "Love every Jew and respect him, even when his customs or opinions differ from yours.",
+  "keywords": [
+   "shepherd",
+   "wolf",
+   "mountaintop",
+   "holy well",
+   "wolf-skin sweater",
+   "sled",
+   "Rabbi Akiva's students",
+   "village name",
+   "Austria"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A wolf attacks a shepherd's flock and is stopped by the tzaddik."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Ruzhiner Rebbe was jailed by the czar on a false charge (mentioned briefly)."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students' passing is explained; the old shepherd dies peacefully after telling his story."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_yisroel_of_ruzhin",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the old shepherd",
+   "the villagers"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "chassidic_masters",
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kibbud",
+   "achdus"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "sefiras_haomer"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Why Rabbi Akiva's students, who had Ahavas Yisroel, did not respect each other."
+   }
+  ],
+  "places": [
+   "Ruzhin",
+   "Sadigura",
+   "Austria"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 520,
+   "type": "sichah",
+   "title": "Sefiras HaOmer and respecting each other",
+   "summary": "Why Rabbi Akiva's students failed, and why Ahavas Yisroel includes respecting other ways."
+  },
+  {
+   "start_sec": 520,
+   "type": "story",
+   "title": "The holy man on the mountain",
+   "summary": "An old shepherd tells the Ruzhiner Rebbe how a village got its name from a tzaddik who saved him from a wolf."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename number 59 may be a program number. Village name garbled by ASR; ends right after the reveal, no sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:04:39Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Town%20Named%20After%20the%20Baal%20Shem%20Tov.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Town Named After the Baal Shem Tov.mp3",
+  "size_bytes": 13301600,
+  "mime_type": "audio/mpeg"
+ }
+}

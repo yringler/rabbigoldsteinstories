@@ -1,0 +1,214 @@
+{
+ "id": "2647489fa0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Gittel and the Candles",
+  "audio_path": "audio/Other Stories/Gittel and the Candles - The Lost Sister.mp3",
+  "duration_sec": 1085.632,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Gittel and the Candles: The Lost Sister",
+  "title_basis": "filename",
+  "summary_short": "Swept away in a flood and kept for three years by a cruel old woman, little Gittel forgets her home, until Shabbos candles in a window lead her back to her family.",
+  "summary_long": "In a little town in Holland by the sea live two devoted sisters, quiet Layla and lively seven-year-old Gittel. When Gittel hurts her leg on the ice, Layla stays at her bedside for days. One morning a terrified boy bursts into the classroom: the dike has broken, and everyone must run to the mountain. Gittel's old wound opens, she falls behind, and she sinks to the ground asleep. She wakes in the cottage of a hard-eyed old woman who claims she carried her to safety, tells her she has no family left, and works her from dawn to night. With no Shabbos candles, brachos or Shabbos, Gittel slowly forgets that she is Jewish. After three years she is sent to sell butter and cheese at the market in a distant town. Hurrying back at nightfall, she sees candles glowing through a window and suddenly remembers lighting Shabbos candles with her mother. She hears familiar Shabbos songs, knocks, and is welcomed in, to find her own sister Layla and her parents, who thought she had drowned. The Shabbos candles brought her home.",
+  "lesson": "The light of the Shabbos candles stays in a Jewish heart and can lead a lost child back home.",
+  "keywords": [
+   "Shabbos candles",
+   "flood",
+   "dike",
+   "Holland",
+   "sisters",
+   "cruel old woman",
+   "cottage",
+   "market",
+   "cows",
+   "reunion"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A dike breaks and a little girl nearly drowns in the flood; she is threatened with a beating."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A cruel old woman keeps the girl as a worker for three years and tells her she has no family."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "Her family believes she drowned; happy reunion."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Gittel",
+   "Layla, her older sister",
+   "the old woman",
+   "Gittel's parents",
+   "the teacher"
+  ],
+  "topics": [
+   "shabbos",
+   "family_and_home"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "achdus"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Holland"
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud style; announces the title 'The Lost Sister' at the start. Shabbos songs at about 15:20 are not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unidentified; same read-aloud style as 'Fear of Hashem's Name' and 'Gilgul in Wheat'."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:12Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "a78808ef52",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Gittel - shabbos candles': the same story told by the weekly storyteller with a Chanukah introduction."
+  },
+  {
+   "type": "same_story",
+   "target_id": "049ac80f7b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Dike: Led Home by the Shabbos Candles' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0d4dd89383",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 337: The Dike (Tisha B'Av)' (episode 337, 8:04-19:48), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "17d9dca041",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 186: The Dike and the Shabbos Candles (Tisha B'Av)' (episode 186, 9:39-21:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9cef1efc9e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 238: The Dike (Tisha B'Av)' (episode 238, 8:14-20:19), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b325e66419",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 438: The Dike (Tisha B'Av)' (episode 438, 9:15-21:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c69b013e95",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 488: The Dike (Tisha B'Av)' (episode 488, 8:55-21:05), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c8f2c07973",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 389: The Dike (Tisha B'Av)' (episode 389, 8:08-20:06), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f33fa1ac66",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 136: The Dike (Tisha B'Av)' (episode 136, 9:48-22:15), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Gittel%20and%20the%20Candles%20-%20The%20Lost%20Sister.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Gittel and the Candles - The Lost Sister.mp3",
+  "size_bytes": 13028557,
+  "mime_type": "audio/mpeg"
+ }
+}

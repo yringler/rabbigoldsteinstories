@@ -1,0 +1,189 @@
+{
+ "id": "7f45016228",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Geulah 370",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/From Purim to Pesach - One Geulah to the Next (Ep 370) (other version).mp3",
+  "duration_sec": 320.559,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 370,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 370,
+   "story": "The return of Yehudah #14",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "From Purim to Pesach: One Geulah to the Next",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi links the miracles of Purim and Pesach and teaches that the final Geulah, in the month of Nissan, can come as fast as the blink of an eye.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, broadcast between Purim and Pesach. Our Sages teach that it is good to connect one redemption with another, and Uncle Yossi links the Geulah of Purim with the Geulah of Pesach. In both, Hashem saved the Jewish people with great miracles: at the splitting of the Yam Suf the nations trembled, as we say every day in Az Yashir, and in the days of Purim many people joined the Jews out of awe. So too Hashem will free us from this final galus with miracles even greater than the Exodus, as the Navi foretells. In Nissan we were redeemed and in Nissan we will be redeemed again, and as the Rebbe teaches, this complete redemption will never be followed by another galus. Looking ahead to Shabbos Mevarchim Nissan, the month of redemption, Uncle Yossi explains that Hashem's salvation can come as quickly as the blink of an eye. This cut ends there, before the closing call to be in shul.",
+  "lesson": "Hashem's redemption can come in the blink of an eye; hope and pray for it.",
+  "keywords": [
+   "redemption",
+   "Yam Suf",
+   "Az Yashir",
+   "blink of an eye",
+   "final galus",
+   "Nissan"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-03-28",
+   "hebrew": "21 Adar 2 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 370, dated 28 March 1989 in its filename; mentions Purim just past and Shabbos Mevarchim Nissan this week."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 370,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "calendar",
+   "miracles"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "purim",
+   "pesach",
+   "nissan",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:14",
+    "note": "Az Yashir: the nations heard and trembled."
+   },
+   {
+    "work": "megillas_esther",
+    "ref": "Esther 8:17",
+    "note": "Many of the nations joined the Jews, for fear of the Jews fell upon them."
+   },
+   {
+    "work": "neviim",
+    "note": "The Navi: the final redemption will outshine the Exodus."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "A complete redemption that will not be followed by another galus."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "50483b7a60",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "offset_sec": 47,
+   "note": "Episode 370 (filename number); clip = 47-368 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "a682ecebd1",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.92,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "a682ecebd1",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'Pesach 370' is the same talk with its ending (call to be in shul, Amen); this cut stops about 30 s earlier."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end",
+   "time_bound_content",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of a682ecebd1 ('Pesach 370'), the preferred copy: shorter cut that stops before the closing sentences."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:09:46Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/From%20Purim%20to%20Pesach%20-%20One%20Geulah%20to%20the%20Next%20%28Ep%20370%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/From Purim to Pesach - One Geulah to the Next (Ep 370) (other version).mp3",
+  "size_bytes": 3847704,
+  "mime_type": "audio/mpeg"
+ }
+}

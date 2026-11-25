@@ -1,0 +1,9 @@
+# CLAUDE.md: tools/
+
+- These scripts are snapshots. On the owner's PC the live copies are in `C:\Users\ybrin\Downloads\{_pipeline,_transcribe,_metadata\scripts,_r2}`. Edit the live copy, then run `tools/export_repo.py`, so the two don't drift.
+- Run Python with `-X utf8` (Hebrew and Yiddish paths and text everywhere). Use `-I` when a script reads untrusted downloaded files, but note that `-I` hides user-installed packages.
+- Credentials are read from local files: `creds.txt` (Kaggle and Hugging Face tokens) and `_r2/r2.env` (R2 S3 keys and the Cloudflare API token). Never print them, pass them on the command line, or commit them.
+- Long jobs are resumable on purpose: normalize (state.db), the Kaggle kernel (skips finished ids), R2 upload (skips same-size keys) and the pass-1 agents (skip valid items). Rerun rather than starting over.
+- Destructive steps verify first. Normalization deleted a source only after checking its output; the reorganization logs every move in `moves.csv`. Keep that pattern, and back up before bulk edits.
+- Kaggle gotchas: a dataset holds at most 1,000 files; a kernel slug can't match a dataset slug (409 Conflict); the CLI's resumable upload breaks on `-p` paths containing a slash, so run it from the parent folder.
+- The public media host (`storiesmedia.torahlearningtools.com`) is behind Cloudflare, which returns 403 to Python's default `urllib` user agent. Send a normal `User-Agent` header in link-check scripts. Browsers, `<audio>` and curl are fine.

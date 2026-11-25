@@ -1,0 +1,171 @@
+{
+ "id": "0ece09874d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Parshas Mishpatim-Shkalim 314",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Mishpatim, Shekalim and Mevarchim Adar (Ep 314).mp3",
+  "duration_sec": 459.326,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 314,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 314,
+   "story": "The Three Loaves of Bread",
+   "topic": "Parshas Mishpatim-Shkalim",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shabbos Mishpatim, Shekalim and Mevarchim Adar",
+  "title_basis": "content",
+  "summary_short": "Three treats in one Shabbos: Parshas Mishpatim, the half-shekel of Parshas Shekalim, and blessing the happy month of Adar.",
+  "summary_long": "A talk from the Tzivos Hashem radio show for the Shabbos of Parshas Mishpatim in 5748. Uncle Yossi explains that Mishpatim, the first parsha after Mattan Torah, teaches that every mitzvah is done because Hashem Himself commanded it, as we say in each brachah: 'asher kideshanu b'mitzvosav v'tzivanu'. It is also Shabbos Shekalim, when we read about the half-shekel every adult gave for the Mishkan and later for the communal offerings in the Beis HaMikdash. Today we remember it by giving tzedakah to yeshivos and shuls, and by sharing what we have with others. Finally, it is Shabbos Mevarchim for Adar, the month when we increase in joy, so every child should come to shul to receive the blessing for the new month. Uncle Yossi ends with a prayer for Moshiach and the rebuilding of the Beis HaMikdash.",
+  "lesson": "We do every mitzvah because Hashem commanded it, and we share our blessings with others through tzedakah.",
+  "keywords": [
+   "half-shekel",
+   "Mishkan",
+   "Beis HaMikdash",
+   "laws",
+   "new month",
+   "shul",
+   "joy"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 314,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-02-09",
+   "hebrew": "21 Shevat 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos' is Mishpatim-Shekalim, Mevarchim Adar (27 Shevat 5748); matches source episode 314 (filename 314 02-09-88)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "calendar",
+   "kindness_and_community",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "generosity",
+   "simcha"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "brachos"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "adar",
+   "shabbos_shekalim"
+  ],
+  "parshiyos": [
+   "mishpatim"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 21:1, 'V'eileh hamishpatim'",
+    "note": "These are Hashem's laws."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 30:16",
+    "note": "The half-shekel given for the service of the Ohel Moed."
+   },
+   {
+    "work": "siddur",
+    "ref": "Brachah before a mitzvah: 'asher kideshanu b'mitzvosav v'tzivanu'",
+    "note": "Hashem Himself commands every mitzvah."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "732c5af358",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 64,
+   "note": "Episode 314 (filename number); clip = 64-524 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Shabbos%20Mishpatim%2C%20Shekalim%20and%20Mevarchim%20Adar%20%28Ep%20314%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Mishpatim, Shekalim and Mevarchim Adar (Ep 314).mp3",
+  "size_bytes": 5512872,
+  "mime_type": "audio/mpeg"
+ }
+}

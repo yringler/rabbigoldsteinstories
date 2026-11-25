@@ -1,0 +1,147 @@
+{
+ "id": "edf6c63f62",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Isru Chag Shavuos 178",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Isru Chag Shavuos - Tying the Yom Tov to Every Day (Ep 178).mp3",
+  "duration_sec": 324.271,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 178,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 178,
+   "story": "The Shpoler Zeide",
+   "topic": "אחר שבועות",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Isru Chag Shavuos: Tying the Yom Tov to Every Day",
+  "title_basis": "content",
+  "summary_short": "The day after Shavuos, Uncle Yossi recalls the Yom Tov's highlights and explains how Isru Chag 'ties' the festival's spirit and resolutions to the rest of the year.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded the day after Shavuos. Uncle Yossi looks back at the Yom Tov: hearing the Aseres HaDibros read in shul, where the children were the special guests; flowers in shul and at home in memory of the green slopes of Har Sinai; staying up to read the Tikkun on Shavuos night; and cheesecake and blintzes. He gives two reasons for eating dairy: after Matan Torah the Jewish people did not yet know how to prepare meat according to the new laws of kashrus, and Har Sinai is called Har Gavnunim, like 'gevinah', cheese. Isru Chag means 'tying' another day to the festival, a time to review the davening and Torah learned and to put the Yom Tov resolutions into practice all year.",
+  "lesson": "Don't let Yom Tov slip away: carry its resolutions to learn more Torah, do more mitzvos and improve your midos into every day.",
+  "keywords": [
+   "Isru Chag",
+   "cheesecake",
+   "blintzes",
+   "dairy foods",
+   "flowers",
+   "Har Sinai",
+   "Tikkun",
+   "Ten Commandments"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 178,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-05-28",
+   "hebrew": "8 Sivan 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 178: 'Isru Chag, which is today', the day after Shavuos 5745."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kashrus"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Seasonal piece for Isru Chag Shavuos."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:43Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "4cff2ffa7d",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 46,
+   "note": "Episode 178 (filename number); clip = 46-370 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Isru%20Chag%20Shavuos%20-%20Tying%20the%20Yom%20Tov%20to%20Every%20Day%20%28Ep%20178%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Isru Chag Shavuos - Tying the Yom Tov to Every Day (Ep 178).mp3",
+  "size_bytes": 3892223,
+  "mime_type": "audio/mpeg"
+ }
+}

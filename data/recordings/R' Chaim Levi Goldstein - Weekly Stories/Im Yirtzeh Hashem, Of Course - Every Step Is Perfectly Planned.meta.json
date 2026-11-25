@@ -1,0 +1,213 @@
+{
+ "id": "150ca1badb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Im Yirtze Hashem - Of Course",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Im Yirtzeh Hashem, Of Course - Every Step Is Perfectly Planned.mp3",
+  "duration_sec": 1310.465,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Im Yirtzeh Hashem, Of Course: Every Step Is Perfectly Planned",
+  "title_basis": "filename",
+  "summary_short": "Everything is in Hashem's hands, so we invite Him into our plans by saying \"Im Yirtzeh Hashem.\" A Chassid of the Alter Rebbe learns this the hard way, on the road to Siberia.",
+  "summary_long": "After singing \"I Believe in Hashem,\" the storyteller explains its words \"every step is perfectly planned\": Hashem alone runs the whole world, from the galaxies to the smallest worm, and only our choice to do mitzvos is left up to us. Saying \"Im Yirtzeh Hashem\" or \"b'ezras Hashem\" invites Hashem into what we do, like plugging a good machine into the wall. Then the story: a Chassid of the Alter Rebbe, Reb Moshe, asks the Rebbe and then borrows a thousand rubles from friends to lend a poritz, who promises fifteen percent interest; the storyteller explains why interest is forbidden between Jews but allowed from a non-Jew. The poritz becomes an officer in Petersburg, and when Reb Moshe comes to collect, he has him arrested and sent to Siberia. A window closed in his face turns out to save him when the Tsarina frees everyone still waiting in line. She forces the officer to pay and throws him out. The Alter Rebbe tells Reb Moshe why he suffered: he promised his friends without saying \"Im Yirtzeh Hashem.\"",
+  "lesson": "Every step is planned by Hashem, so invite Him into every plan by saying \"Im Yirtzeh Hashem\"; what we do not get right away may be for our good.",
+  "keywords": [
+   "Im Yirtzeh Hashem",
+   "poritz",
+   "officer",
+   "Petersburg",
+   "Siberia",
+   "Tsarina",
+   "loan",
+   "interest",
+   "contract",
+   "badge"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "An innocent Chassid is handcuffed, jailed and sent toward Siberia with criminals; he is freed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, a Chassid",
+   "Potocki, the poritz who became an officer",
+   "the Tsarina",
+   "the secretary",
+   "Reb Moshe's lenders"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "emunah_bitachon",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "honest_business"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "\"The Chachamim say\": everything is in the hands of Heaven except the fear of Heaven."
+   },
+   {
+    "work": "chumash",
+    "note": "\"Lanochri tashich\": taking interest from a non-Jew."
+   }
+  ],
+  "places": [
+   "Petersburg",
+   "Siberia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 37,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 37,
+   "end_sec": 250,
+   "type": "talk",
+   "title": "Every step is perfectly planned"
+  },
+  {
+   "start_sec": 250,
+   "end_sec": 1255,
+   "type": "story",
+   "title": "The Chassid sent to Siberia",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1255,
+   "type": "talk",
+   "title": "Lesson: always say Im Yirtzeh Hashem"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "50a1238473",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Im Yirtze Hashem': same story told by the same narrator, with a Parshas Shelach intro."
+  },
+  {
+   "type": "same_story",
+   "target_id": "175a930717",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Im Yirtze Hashem ADHZ': same story told again for Yud Shevat; the Chassid is called Yankele there."
+  },
+  {
+   "type": "same_story",
+   "target_id": "71743d402a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Im Yirtzeh Hashem: The Chassid Who Was Sent to Siberia' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Third telling of the Im Yirtzeh Hashem story in this batch (see 50a1238473, 175a930717). ASR writes 'pirates' for poritz."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:13Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Im%20Yirtzeh%20Hashem%2C%20Of%20Course%20-%20Every%20Step%20Is%20Perfectly%20Planned.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Im Yirtzeh Hashem, Of Course - Every Step Is Perfectly Planned.mp3",
+  "size_bytes": 15726594,
+  "mime_type": "audio/mpeg"
+ }
+}

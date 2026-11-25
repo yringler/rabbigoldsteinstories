@@ -1,0 +1,343 @@
+{
+ "id": "8719f5bf30",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "169",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 169 - The Rambam's Resting Place, Chapter 1 (Before Pesach) (1985-03-26).mp3",
+  "duration_sec": 1866.186,
+  "filename_facts": {
+   "episode_number": 169,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 169,
+   "story": "The Rambam’s resting place #1",
+   "topic": "חמץ מצה ערב פסח",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 169: The Rambam's Resting Place, Chapter 1 (Before Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "Ten days before Pesach, Uncle Yossi explains bedikas and mechiras chametz and eating matzah, then begins the life of the Rambam and the mystery of where he would be buried.",
+  "summary_long": "Uncle Yossi's pre-Pesach show. He explains the preparations: cleaning out the chametz, searching for it on the night before Erev Pesach, selling the rest through the local rav, and the obligation to eat matzah on both Seder nights; helping Mommy and Tatty prepare earns Tzivos Hashem points, done with simchah. After a Pesach Hakochainik march and a sponsor message, story time turns to the Rambam, whose 850th birthday falls on this Erev Pesach. Uncle Yossi explains his name and the saying 'from Moshe to Moshe there arose none like Moshe'. A kindergarten boy leads the Shema. The story traces the Rambam's life: born in Cordoba, forced to flee persecution at fourteen, years of wandering, a storm at sea calmed by his prayer, a visit to the Kosel and the Me'aras HaMachpelah, and finally Egypt, where he wrote the Mishneh Torah, the Moreh Nevuchim and the Thirteen Principles of Faith. Before he passed away he asked to be buried in Eretz Yisroel without saying where, and Yerushalayim, Chevron and Meron each claim the honor; next week brings the surprise. The show ends with birthday wishes, a half-price sale of Uncle Yossi's story records, and an invitation to a children's Siyum HaRambam on Chol HaMoed.",
+  "lesson": "Prepare for Pesach properly and joyfully, and help your parents; the Rambam held on to Torah and mitzvos through years of wandering and hardship.",
+  "keywords": [
+   "bedikas chametz",
+   "selling chametz",
+   "matzah",
+   "Seder",
+   "Rambam's birthday",
+   "Cordoba",
+   "Mishneh Torah",
+   "Thirteen Principles of Faith",
+   "storm at sea",
+   "burial",
+   "story records",
+   "Siyum HaRambam"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 169,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1985-03-26",
+   "hebrew": "4 Nissan 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Pesach 'begins next Friday night'; Erev Pesach is Friday 5 April; bedikas chametz 'next Thursday night, the 4th of April'. Ep. 170 is the following Tuesday (2 April)."
+  },
+  "serial": {
+   "story_key": "the-rambams-resting-place",
+   "story_title": "The Rambam's Resting Place",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The young Rambam and his family flee cruel rulers who will not let Jews live by the Torah, and wander for years.",
+    "at_sec": 945
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The Rambam's passing and his students' wish to bury him in Eretz Yisroel.",
+    "at_sec": 1165
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest, birthday children and a letter writer are named in full.",
+    "at_sec": 709
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Maimon, the Rambam's father",
+   "the Rambam's students",
+   "representatives of Yerushalayim, Chevron and Meron"
+  ],
+  "topics": [
+   "calendar",
+   "great_rabbis",
+   "halachah",
+   "jewish_history"
+  ],
+  "midos": [
+   "simcha",
+   "kibbud",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "chametz",
+   "matzah",
+   "seder",
+   "kibbud_av_vaem",
+   "shema",
+   "rambam_daily"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 60,
+   "type": "opening",
+   "title": "Opening: getting ready for Pesach"
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 358,
+   "type": "halachah",
+   "title": "Getting Ready for Pesach: Chametz and Matzah",
+   "summary": "Searching for and selling chametz, the obligation to eat matzah both Seder nights, and helping parents prepare with joy.",
+   "calendar": [
+    "pesach",
+    "erev_pesach"
+   ],
+   "linked_items": [
+    "4f45cd6331"
+   ]
+  },
+  {
+   "start_sec": 358,
+   "end_sec": 501,
+   "type": "song",
+   "title": "Hakochainik March in honor of Pesach"
+  },
+  {
+   "start_sec": 501,
+   "end_sec": 585,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 585,
+   "end_sec": 670,
+   "type": "story_intro",
+   "title": "Who was the Rambam?",
+   "people": [
+    "rambam",
+    "moshe_rabbeinu"
+   ]
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 872,
+   "type": "shema_guest",
+   "title": "Shema with a kindergarten boy"
+  },
+  {
+   "start_sec": 872,
+   "end_sec": 1399,
+   "type": "story_chapter",
+   "title": "The Rambam's Resting Place, Chapter 1",
+   "summary": "The Rambam's life from Cordoba to Egypt, his great works, and the dispute over where in Eretz Yisroel he should be buried.",
+   "people": [
+    "rambam"
+   ],
+   "story_key": "the-rambams-resting-place",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1399,
+   "end_sec": 1512,
+   "type": "announcement",
+   "title": "Birthdays and a thank-you for a letter"
+  },
+  {
+   "start_sec": 1512,
+   "end_sec": 1617,
+   "type": "announcement",
+   "title": "Uncle Yossi's story records on sale"
+  },
+  {
+   "start_sec": 1617,
+   "end_sec": 1770,
+   "type": "announcement",
+   "title": "The Rambam's 850th birthday and the children's Siyum on Chol HaMoed"
+  },
+  {
+   "start_sec": 1770,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Dated content: 1985 Pesach dates, record sale with store addresses and prices, event tickets. On air the Rambam is said to have fled at 14 and passed away on 20 Teves at 69."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Eliezer Zalmanov",
+    "role": "shema_guest",
+    "group": "Oholei Torah (heard 'Alay Taira'), highest kindergarten class",
+    "start_sec": 699,
+    "end_sec": 872,
+    "note": "Age four and a half."
+   },
+   {
+    "name": "Chaim Meir Rappaport",
+    "role": "birthday",
+    "start_sec": 1411,
+    "end_sec": 1427,
+    "note": "9th birthday."
+   },
+   {
+    "name": "Shneur Zalman Lipsker",
+    "role": "birthday",
+    "start_sec": 1427,
+    "end_sec": 1433,
+    "note": "8th birthday; heard as 'Lipska'."
+   },
+   {
+    "name": "Yechezkel Leib Edelstein",
+    "role": "birthday",
+    "start_sec": 1433,
+    "end_sec": 1456,
+    "note": "11th birthday."
+   },
+   {
+    "name": "Sarah Malka Edelstein",
+    "role": "mailbox_letter",
+    "start_sec": 1456,
+    "end_sec": 1505,
+    "note": "Sister of Yechezkel Leib, age 12; wrote about Moshiach Times and sent a picture."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:07Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "4f45cd6331",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Pesach 169' = 60-358 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "460a27675c",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapters 1 and 2 of 'The Rambam's Resting Place' (catalog 169 #1, 170 #2)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20169%20-%20The%20Rambam%27s%20Resting%20Place%2C%20Chapter%201%20%28Before%20Pesach%29%20%281985-03-26%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 169 - The Rambam's Resting Place, Chapter 1 (Before Pesach) (1985-03-26).mp3",
+  "size_bytes": 22395097,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "id": "e97506b9f6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Magic Mirror",
+  "audio_path": "audio/Other Stories/The Magic Mirror.mp3",
+  "duration_sec": 424.37,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Magic Mirror",
+  "title_basis": "filename",
+  "summary_short": "Amitai skips school to play in the woods and dreams of a gathering of forest animals, where an old crow hands the young ones a magic mirror of wisdom.",
+  "summary_long": "Amitai thinks school is a waste of time when there is so much adventure outside, so one hot afternoon he plays hooky and spends the day in the woods gathering berries, climbing trees and chasing butterflies. Tired out, he falls asleep on the grass and dreams that he is at a great gathering of forest animals and can understand every word they say. An old crow presents each young creature with a package holding the history of its parents and grandparents. Hidden in its pages are hundreds of little pieces of a magic mirror; alone they mean nothing, but fitted together they light up and give wisdom and advice drawn from the generations before. When Amitai wakes he understands the dream: the lessons of school and cheder are the pieces of that mirror. From that day he becomes a fine student, because he has found the way to learn Torah.",
+  "lesson": "Learning in school and cheder is not a waste of time: piece by piece, Torah and the experience of past generations give us wisdom for life.",
+  "keywords": [
+   "magic mirror",
+   "playing hooky",
+   "forest animals",
+   "old crow",
+   "dream",
+   "school",
+   "cheder"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Amitai",
+   "the old crow",
+   "the forest animals"
+  ],
+  "topics": [
+   "torah_study",
+   "character"
+  ],
+  "midos": [
+   "hasmadah",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short read-aloud story with no intro song or sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:28Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator not identified; does not open with the 'I believe in Hashem' song."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Magic%20Mirror.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Magic Mirror.mp3",
+  "size_bytes": 5093383,
+  "mime_type": "audio/mpeg"
+ }
+}

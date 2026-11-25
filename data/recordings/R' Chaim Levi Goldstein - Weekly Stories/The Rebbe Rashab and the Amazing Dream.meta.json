@@ -1,0 +1,229 @@
+{
+ "id": "ab3187c74c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Rebbe Rashab and The Amazing Dream",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe Rashab and the Amazing Dream.mp3",
+  "duration_sec": 1062.522,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Rebbe Rashab and the Amazing Dream",
+  "title_basis": "filename",
+  "summary_short": "A Shabbos-observant doctor in Vitebsk dreams of a red-bearded tzaddik telling him to travel to save a life, then meets the Rebbe Rashab and recognizes him.",
+  "summary_long": "The storyteller opens with the Rebbe's words that in the past the Rebbeim gave brachos to those who asked, but now they give without being asked; we only need to receive them by following the Rebbe's instructions. A Rebbe also reminds us that a doctor is Hashem's messenger, and Hashem is the true Healer. The Rebbe Rashab would often send the sick to Dr. Lieberman in Vitebsk, a G-d-fearing doctor who taught Ein Yaakov and avoided traveling on Shabbos. One Shabbos afternoon he dreams of a man with deep eyes and a red beard who tells him that to save a life one must travel even on Shabbos. He wakes, washes negel vasser (the storyteller explains the halachah for a daytime nap), and finds a farmer begging him to come to his critically ill daughter. He goes, and with Hashem's help she recovers. Later, called to a patient in Lubavitch, he visits the Rebbe Rashab and freezes: the Rebbe is the man from his dream. The Rebbe Rashab says only that he had sent the farmer to him weeks before. The doctor becomes a devoted Chassid.",
+  "lesson": "The Rebbeim give brachos even without being asked; we receive them by following their instructions. Also: wash negel vasser after any sleep, by the bed at night and at the sink after a daytime nap.",
+  "keywords": [
+   "doctor",
+   "dream",
+   "red beard",
+   "farmer",
+   "sick girl",
+   "Vitebsk",
+   "Lubavitch",
+   "pikuach nefesh",
+   "telegram",
+   "Ein Yaakov"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A farmer's daughter is critically ill; she recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Dr. Lieberman of Vitebsk",
+   "his servant",
+   "the farmer",
+   "the farmer's daughter"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "shabbos",
+   "halachah"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "shabbos",
+   "bikur_cholim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "'Rofei chol basar umafli laasos' from the blessing Asher Yatzar."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "note": "The Alter Rebbe on washing negel vasser next to the bed."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Rebbe's remark to a secretary that the Rebbeim now give brachos without being asked."
+   }
+  ],
+  "places": [
+   "Vitebsk",
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 42,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 42,
+   "end_sec": 254,
+   "type": "talk",
+   "title": "Receiving the Rebbe's brachos",
+   "summary": "The Rebbeim give brachos without being asked, and Hashem is the true Healer.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 254,
+   "end_sec": 1057,
+   "type": "story",
+   "title": "The doctor's dream",
+   "summary": "A doctor is told in a dream to travel on Shabbos to save a life, and later recognizes the Rebbe Rashab.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 528,
+   "end_sec": 610,
+   "type": "halachah",
+   "title": "Negel vasser after a nap",
+   "summary": "Why we wash after any sleep, and where.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1057,
+   "type": "closing",
+   "title": "Good Shabbos"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "65cc95fe2e",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'The Doctors Dream': same recording word for word; that copy ends without 'Guten Shabbos'."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Song gap to 0:42. Same recording as 'The Doctors Dream' (65cc95fe2e); this copy is slightly longer and includes the sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:21Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Rebbe%20Rashab%20and%20the%20Amazing%20Dream.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe Rashab and the Amazing Dream.mp3",
+  "size_bytes": 12751153,
+  "mime_type": "audio/mpeg"
+ }
+}

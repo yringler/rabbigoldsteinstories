@@ -1,0 +1,275 @@
+{
+ "id": "1ff3abfa6a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "4 chochmas",
+  "filename_title": "4 ch final",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 4 (Chanukah).mp3",
+  "duration_sec": 1096.65,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "final"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos, Part 4 (Chanukah)",
+  "title_basis": "content",
+  "summary_short": "Chanukah gelt is for giving more tzedakah; then the last two chochmos save Reb Yankel from a murder charge and keep Rabbi Yehuda calm at home, where a surprise awaits.",
+  "summary_long": "The storyteller passes on the Rebbe's wish that children know Chanukah gelt is meant for giving more tzedakah. The tenth given to tzedakah was never really ours; Hashem made rich and poor so that people can do kindness, and tzedakah is the one mitzvah where Hashem says, 'Test Me.' In the story, the friends stop at an inn. When a galach is given the spare bed, Rabbi Yehuda leaves, but Reb Yankel is too tired to move. Watching from a tree, Rabbi Yehuda sees the chief galach climb in at midnight, kill the sleeping galach and leave the knife on Reb Yankel's bed. In the struggle that follows, the chief galach loses his little finger, which Rabbi Yehuda wraps in the cloth that once held his four coins. In court he defends his friend; the finger fits, the chief galach confesses, and a grateful Reb Yankel gives him half his wagons. Arriving home, Rabbi Yehuda sees strangers in his house and almost loses his temper, but remembers the fourth chochmah and waits: they are talmidei chachamim staying in his guest room. Four gold coins and a note fall out of the challah, revealing who Avram and Sarah really were, and he builds a guest house.",
+  "lesson": "Give tzedakah generously because it was never really ours, follow a tzaddik's advice, and hold back anger; Hashem rewards hachnasas orchim many times over.",
+  "keywords": [
+   "Chanukah gelt",
+   "maaser",
+   "inn",
+   "priest",
+   "tree",
+   "knife",
+   "pinky",
+   "courtroom",
+   "lawyer",
+   "challah",
+   "gold coins",
+   "guest house"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "4 chochmas"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Around Chanukah",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Talk on Chanukah gelt; last part of a Kislev serial; year not stated."
+  },
+  "part": {
+   "set_key": "the-four-chochmos",
+   "part_number": 4,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A priest is murdered in his sleep at an inn (told briefly)."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A struggle with the killer in which his finger is cut off; an innocent man is framed and arrested."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The killer approaches pretending to be drunk."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda",
+   "Reb Yankel",
+   "the innkeeper",
+   "the galach",
+   "the chief galach",
+   "the judge",
+   "Rabbi Yehuda's wife",
+   "talmidei chachamim collecting tzedakah"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "hiskashrus",
+   "character",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "controlling_anger",
+   "kabbalas_ol",
+   "generosity",
+   "courage",
+   "savlanus"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's wish that children be told Chanukah gelt is for giving extra tzedakah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 225,
+   "type": "talk",
+   "title": "Chanukah gelt and the tenth that is not ours",
+   "calendar": [
+    "chanukah"
+   ],
+   "people": [
+    "the_rebbe",
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 225,
+   "end_sec": 960,
+   "type": "story_chapter",
+   "title": "The third chochmah: the galach at the inn",
+   "story_key": "the-four-chochmos",
+   "chapter": 4,
+   "summary": "Leaving the inn lets Rabbi Yehuda catch the real killer and clear Reb Yankel in court."
+  },
+  {
+   "start_sec": 960,
+   "type": "story_chapter",
+   "title": "The fourth chochmah: guests at home",
+   "story_key": "the-four-chochmos",
+   "chapter": 4,
+   "summary": "Holding back his anger, Rabbi Yehuda finds guests in his house and learns who sold him the chochmos."
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "420e35767f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Resumes after the governor's inn and the sack of gold, where Part 3 ends."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 1."
+  },
+  {
+   "type": "same_story",
+   "target_id": "008f627970",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Four Chochmos: Rabbi Yehudah's Four Pieces of Wisdom' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85733bc4b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Chochmos 3 and 4: The Hotel, the Trial and the Gift in the Challah' (Stories, from 17:46), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "603890b365",
+   "evidence": "filename",
+   "confidence": 0.6,
+   "note": "Same short filename style ('4 choch a' / '4 ch final'); possibly a separate run of the serial."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Marked final. ASR garbles Hebrew terms (Galach/Galech, Chachmes). Ends 'A gutten tag'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "Now let's get to our story.",
+   "at_sec": 225
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from format (calendar talk, weekly serial, 'a gutten tag' sign-off); does not open with the 'I Believe' song. Confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos/The%20Four%20Chochmos%2C%20Part%204%20%28Chanukah%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 4 (Chanukah).mp3",
+  "size_bytes": 13160840,
+  "mime_type": "audio/mpeg"
+ }
+}

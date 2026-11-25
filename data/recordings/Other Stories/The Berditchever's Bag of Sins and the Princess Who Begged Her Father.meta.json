@@ -1,0 +1,254 @@
+{
+ "id": "5d0376fc7a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "bardichever etc",
+  "audio_path": "audio/Other Stories/The Berditchever's Bag of Sins and the Princess Who Begged Her Father.mp3",
+  "duration_sec": 1454.177,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Berditchever's Bag of Sins and the Princess Who Begged Her Father",
+  "title_basis": "content",
+  "summary_short": "Two Yomim Noraim pieces: Rabbi Levi Yitzchak of Berditchev empties the Satan's bag of sins, and the Maggid of Dubno's mashal of a princess explains 'L'shanah haba'ah b'Yerushalayim'.",
+  "summary_long": "The recording begins in the middle of a story of Rabbi Levi Yitzchak of Berditchev (named in the filename) leading the Yomim Noraim davening. At the words 'He acquires His servants in judgment' he suddenly stops, pale and lost in thought, while the whole shul trembles. Later he explains: he saw the Satan's sack of sins left unattended and looked at each sin, and since nearly all had been done by mistake or out of the hardship of golus, they melted away. The furious Satan demanded that he be sold as a slave for theft, but Hashem Himself bought him, as He promised to carry and save His people. Next comes a teaching about the end of Yom Kippur: the shofar after Neilah and the cry 'Next year in Yerushalayim'. The Maggid of Dubno's mashal tells of a king's daughter married to a simple villager. When the king visits, everyone honors her, but she begs him not to leave her behind, and her husband asks the king to raise him to a worthy estate. The storyteller explains: the princess is the Torah, the villagers are the nations, and we ask Hashem to take us out of golus so we can honor His Torah as it deserves.",
+  "lesson": "No Jew is truly bad; most wrongdoing comes from mistakes and hardship, and Hashem redeems His servants. After Yom Kippur we ask Hashem to take us out of golus so we can give the Torah the honor it deserves.",
+  "keywords": [
+   "Satan",
+   "bag of sins",
+   "Heavenly court",
+   "slave",
+   "Neilah",
+   "shofar",
+   "princess",
+   "king",
+   "village",
+   "Next year in Yerushalayim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_collection",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A vision of the Heavenly court, the Satan's bag of sins and a threat to make the tzaddik a slave; resolved by Hashem."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "In the mashal, a princess is mistreated and mocked by her husband's villagers."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "Brief mention that a suitor drinks too much wine, and of Noach's drunkenness."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "noach",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_dubno",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Satan",
+   "the elder Chassid who asks the Rebbe",
+   "the Maggid of Dubno (teller of the mashal)",
+   "the king",
+   "the princess",
+   "the simple villager she married"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "teshuvah",
+   "calendar",
+   "torah_study",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "ahavas_yisroel",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "torah_study",
+   "shofar"
+  ],
+  "calendar": [
+   "rosh_hashanah",
+   "yom_kippur",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The Yomim Noraim prayer line 'He acquires His servants in judgment'."
+   },
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 46:4",
+    "note": "'Even to your old age I am the same... I will carry and save', quoted as Hashem's answer."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "6:2",
+    "note": "Every day a Heavenly voice cries out over the shaming of the Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 589,
+   "type": "story",
+   "title": "The Berditchever and the Satan's bag of sins",
+   "summary": "Joined mid-story: the tzaddik looks into the Satan's sack, the sins melt away, and Hashem redeems him from the Satan.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ],
+   "calendar": [
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 589,
+   "end_sec": 750,
+   "type": "talk",
+   "title": "The shofar after Neilah",
+   "summary": "Why the shofar ends Yom Kippur and why we then say 'Next year in Yerushalayim'.",
+   "calendar": [
+    "yom_kippur"
+   ]
+  },
+  {
+   "start_sec": 750,
+   "end_sec": 1159,
+   "type": "story",
+   "title": "The Maggid of Dubno's mashal: the princess and the villager",
+   "summary": "A princess married to a simple villager begs her visiting father not to leave her behind."
+  },
+  {
+   "start_sec": 1159,
+   "type": "talk",
+   "title": "The nimshal: the Torah, the Yidden and the Geulah",
+   "summary": "The princess is the Torah, and after Yom Kippur we ask Hashem to bring us home so we can honor it.",
+   "calendar": [
+    "yom_kippur",
+    "elul"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0cc47ed234",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Pre-Sukkos Farbrengen: After Yom Kippur, Now We Do Teshuvah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5819f48712",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Ne'ilah: Bring Us Home! The Princess and the Peasant' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Starts mid-story; the tzaddik is never named on air (identified from the filename). Narration sounds read from a book. ASR garbles Kisei HaKavod and Beis Din shel Maaleh."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:22:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Recording starts mid-story; an earlier part (or a fuller copy) may exist.",
+   "The Berditchever is identified only from the filename.",
+   "Narrator unidentified; placeholder speaker used, series left null."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Berditchever%27s%20Bag%20of%20Sins%20and%20the%20Princess%20Who%20Begged%20Her%20Father.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Berditchever's Bag of Sins and the Princess Who Begged Her Father.mp3",
+  "size_bytes": 17450976,
+  "mime_type": "audio/mpeg"
+ }
+}

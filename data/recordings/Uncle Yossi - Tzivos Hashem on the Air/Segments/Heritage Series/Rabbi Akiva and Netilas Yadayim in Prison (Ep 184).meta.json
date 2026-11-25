@@ -1,0 +1,220 @@
+{
+ "id": "90086c4a4c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Rebi Akiva - negel vasser",
+  "filename_title": "Rabbi Akiva and Netilas Yodayim 184",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Rabbi Akiva and Netilas Yadayim in Prison (Ep 184).mp3",
+  "duration_sec": 274.6,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 184,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 184,
+   "story": "",
+   "topic": "נט\"י עקיבא",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rabbi Akiva and Netilas Yadayim in Prison",
+  "title_basis": "filename",
+  "summary_short": "Jailed for teaching Torah and given no water for three days, Rabbi Akiva uses his jug of water to wash negel vasser, and the astonished ruler sets him free.",
+  "summary_long": "Despite the danger, Rabbi Akiva kept teaching Torah in public, and he was thrown into a crowded cell with criminals. The cruel wardens gave the prisoners no food or water for three long days. When jugs of water were finally brought in, the ruler happened to pass by and watched the prisoners gulp it down. Only Rabbi Akiva did not drink: he poured the precious water over his fingers to wash negel vasser and made a brachah. Amazed, the ruler had him given another jug of water, released from the cell and brought to the palace. While the other prisoners were punished, Rabbi Akiva was freed, and the ruler soon made him an advisor. Uncle Yossi draws the lesson: Rabbi Akiva served Hashem with all his heart and soul, and when we keep mitzvos with firm belief, Hashem blesses us with success.",
+  "lesson": "Keep the mitzvos with firm belief even when it is hard, and Hashem will bless you with success.",
+  "keywords": [
+   "prison",
+   "jug of water",
+   "thirst",
+   "ruler",
+   "advisor",
+   "brachah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 184,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-07-09",
+   "hebrew": "20 Tammuz 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 184 (45e5fe6378). Episode: 'In the middle of the Three Weeks'; the week after episode 183 (13 Tammuz 5745). Most of the content repeats episode 135 (Three Weeks 5744)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Rabbi Akiva is jailed for teaching Torah and left without food or water for three days.",
+    "at_sec": 30
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "the wardens"
+  ],
+  "topics": [
+   "sages",
+   "morning_routine"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "emunah"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean story cut with its lesson."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:50Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 526."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "23e24d9359",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "Also aired in episode 376."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "276c6bf981",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 486."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "28133bf24a",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 539."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8ae1d03037",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 436."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bc5773ec17",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 236."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 387."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "45e5fe6378",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 497,
+   "note": "Episode 184 (filename number); clip = 497-772 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "09074ce59f",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The longer 'Rabbi Akiva negel vasser' cut begins with this same story and continues with the Ahavas Yisroel talk and the drunkard story."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Rabbi%20Akiva%20and%20Netilas%20Yadayim%20in%20Prison%20%28Ep%20184%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Rabbi Akiva and Netilas Yadayim in Prison (Ep 184).mp3",
+  "size_bytes": 3296344,
+  "mime_type": "audio/mpeg"
+ }
+}

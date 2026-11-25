@@ -1,0 +1,474 @@
+{
+ "id": "a06fb5b0d9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Yiddish stories/Bubby Chaya Malka etc",
+  "filename_title": "Bubby Chaya Malka 1",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Bubby Chaya Malka's Yiddish Stories, Part 1.mp3",
+  "duration_sec": 4208.718,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Bubby Chaya Malka's Yiddish Stories, Part 1",
+  "title_basis": "filename",
+  "summary_short": "A grandmother tells her grandchildren Yiddish stories before Pesach: the Baal Shem Tov and the bear, Rashi's father's diamond, Dayeinu, the boy judge, Rabbi Meir and the lion, and the start of Shmuel HaNavi.",
+  "summary_long": "First half of a home recording in which Bubby Chaya Malka tells her grandchildren stories in Yiddish, in the weeks before Pesach. She begins with the young Baal Shem Tov, who fears only Hashem and chases off a cruel man dressed as a bear so the cheder children can keep singing on their way to shul. Next, Rashi's poor father throws a precious diamond into the sea rather than let it decorate an idol, and an angel promises him a son who will light up the world with Torah. After a warm word to the grandchildren about being good and helping at home, she tells of a diamond found inside a big fish bought for Shabbos; of an old man who raises money for the poor for Pesach by promising to find the king's ring, which is found when the guests at his Seder sing 'Dayeinu'; and of a cheder boy whose game of 'trial' saves a falsely accused Jew. Then Rabbi Meir Baal HaNess keeps Shabbos alone in the desert and a lion guards him. The recording breaks off in the story of Chana and Shmuel HaNavi, which continues in Part 2.",
+  "lesson": "Trust Hashem and fear nothing else; honor Shabbos and Yom Tov, help the poor, and be good children who make their parents happy.",
+  "keywords": [
+   "grandmother",
+   "bear",
+   "diamond",
+   "idol",
+   "big fish",
+   "king's ring",
+   "Dayeinu",
+   "Pesach Seder",
+   "false accusation",
+   "lion",
+   "desert caravan"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Yiddish stories",
+   "Bubby Chaya Malka"
+  ],
+  "content_type": "family_recording",
+  "story_type": [
+   "chassidic",
+   "rishonim_acharonim",
+   "talmudic",
+   "moral_fiction",
+   "historical",
+   "tanach_midrash"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "bubby-chaya-malka",
+   "part_number": 1,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A Jew is falsely accused and jailed, and a mob comes to the trial with axes and torches ready to attack the Jews; a wicked minister urges harsh decrees.",
+    "at_sec": 2256
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A man dressed as a bear frightens children and is beaten off; Rabbi Meir is left alone in a desert where a lion approaches him.",
+    "at_sec": 0
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "Poor families with nothing for Yom Tov; a man loses all his money.",
+    "at_sec": 478
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "A grandmother's home recording for her grandchildren."
+   },
+   {
+    "flag": "minor_named",
+    "note": "The grandmother names her grandchildren (first names only)."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_yitzchak_father_of_rashi",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_meir_baal_haness",
+    "role": "central"
+   },
+   {
+    "id": "daniel",
+    "role": "mentioned"
+   },
+   {
+    "id": "chana_mother_of_shmuel",
+    "role": "central"
+   },
+   {
+    "id": "shmuel_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "eli_hakohen",
+    "role": "appears"
+   },
+   {
+    "id": "yosef_mokir_shabbos",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "a cruel man disguised as a bear",
+   "the poritz who wants a diamond for an idol",
+   "Yosef who honored Shabbos",
+   "the old man who helped the poor",
+   "the king and queen",
+   "Yena, the wicked minister",
+   "the Jewish storekeeper and the butcher",
+   "the judge and a cheder boy named Gurary",
+   "the caravan captain",
+   "the lion",
+   "Eli HaKohen"
+  ],
+  "topics": [
+   "tzaddikim_stories",
+   "emunah_bitachon",
+   "kindness_and_community",
+   "shabbos",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "courage",
+   "generosity",
+   "emes",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "tzedakah",
+   "seder",
+   "kibbud_av_vaem",
+   "chinuch",
+   "tehillim"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Eretz Yisroel",
+   "Mitzrayim (Egypt)"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 478,
+   "type": "story",
+   "title": "The Baal Shem Tov and the bear",
+   "summary": "The young Baal Shem Tov, who fears only Hashem, drives off a cruel man dressed as a bear so the cheder children can keep singing on the way to shul.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "linked_items": [
+    "a70d104e90"
+   ]
+  },
+  {
+   "start_sec": 478,
+   "end_sec": 882,
+   "type": "story",
+   "title": "Rashi's father and the diamond",
+   "summary": "Rashi's poor father throws a precious diamond into the sea rather than sell it to decorate an idol, and is promised a son who will light up the world with Torah.",
+   "people": [
+    "rabbi_yitzchak_father_of_rashi",
+    "rashi"
+   ]
+  },
+  {
+   "start_sec": 882,
+   "end_sec": 960,
+   "type": "talk",
+   "title": "Be good children",
+   "summary": "The grandmother tells the children that obeying parents and helping at home makes the family happy, praising each grandchild."
+  },
+  {
+   "start_sec": 960,
+   "end_sec": 1225,
+   "type": "story",
+   "title": "The diamond in the fish",
+   "summary": "A rich man hides his fortune in a diamond in his hat; a fish swallows it, and Yosef, who always buys the best fish for Shabbos, finds it."
+  },
+  {
+   "start_sec": 1225,
+   "end_sec": 2256,
+   "type": "story",
+   "title": "Dayeinu: the old man and the king's ring",
+   "summary": "An old man who provides Pesach for the poor promises to find the king's lost ring; at his Seder the king hears 'Dayeinu' and finds the thief.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "6164b3359f"
+   ]
+  },
+  {
+   "start_sec": 2256,
+   "end_sec": 2995,
+   "type": "story",
+   "title": "The butcher, the storekeeper and the boy judge",
+   "summary": "A Jewish storekeeper is falsely accused of theft, and a cheder boy's test with hot water proves the truth.",
+   "linked_items": [
+    "aae4e91c38"
+   ]
+  },
+  {
+   "start_sec": 2995,
+   "end_sec": 3945,
+   "type": "story",
+   "title": "Rabbi Meir Baal HaNess and the lion",
+   "summary": "Left alone in the desert because he will not travel on Shabbos, Rabbi Meir is guarded by a lion that carries him back to the caravan.",
+   "people": [
+    "rabbi_meir_baal_haness"
+   ],
+   "linked_items": [
+    "db6ee5b364"
+   ]
+  },
+  {
+   "start_sec": 3945,
+   "end_sec": 4208,
+   "type": "story",
+   "title": "Chana and Shmuel HaNavi (beginning)",
+   "summary": "Chana prays for a child, Eli HaKohen blesses her, and she brings little Shmuel to the Beis HaMikdash; the story continues in Part 2.",
+   "people": [
+    "chana_mother_of_shmuel",
+    "shmuel_hanavi"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.97,
+   "note": "Excerpt of 'Bubby Chaya Malka yiddish stories' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "6164b3359f",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'dayeinu' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "a70d104e90",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.93,
+   "note": "Contains 'Besht and the Bear' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "aae4e91c38",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.91,
+   "note": "Contains 'Butcher and the Tailor' (audio fingerprint)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "048cba0e8e",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2 ('Bubby Chaya Malka 2') resumes mid-sentence in the Shmuel HaNavi story where this file breaks off."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "5a4ae6ea03",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 114: A Diamond from Heaven, Chapter 2 (Adar)' (episode 114, 7:45-20:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "602df7aae5",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 520: A Diamond from Heaven (Purim)' (episode 520, 11:01-24:21), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "8a1af814fc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 400: The Diamond from Heaven (Shabbos Bereishis)' (episode 400, 14:08-29:15), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "99501986ed",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 312: A Diamond From Heaven' (episode 312, 16:17-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "9f2e683d65",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 113: A Diamond from Heaven, Chapter 1 (Adar)' (episode 113, 14:40-23:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "c1108114ba",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 480: A Diamond from Heaven' (episode 480, 11:52-27:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 12:15-19:25), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "01bf11df00",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 452: Reb Yosef Mokir Shabbos' (episode 452, 14:05-27:02), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "0affcab8ab",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 482: Reb Yosef Mokir Shabbos (Shabbos Mevarchim Tammuz)' (episode 482, 14:50-28:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "7753ff611a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 201: Yosef Mokir Shabbos' (episode 201, 15:26-28:44), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "b997afa367",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 240: Reb Yosef Mokir Shabbos (Shabbos Mevarchim Elul)' (episode 240, 12:17-24:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Ends mid-story (Shmuel HaNavi); Part 2 continues it. The same audio is joined with Part 2 in 6b6fec027a, so a human should decide whether to publish the halves, the joined file, or both. American Yiddish with English loanwords."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rochele",
+    "role": "family_member",
+    "start_sec": 908,
+    "note": "Grandchild; praised for tidying the house."
+   },
+   {
+    "name": "Chezkele",
+    "role": "family_member",
+    "start_sec": 912,
+    "note": "Grandchild; comes home from cheder and repeats what he learned."
+   },
+   {
+    "name": "Dvoirele (also Dvorah)",
+    "role": "family_member",
+    "start_sec": 918,
+    "note": "Granddaughter; also addressed at about 2975-2995 (ASR garbles the name)."
+   },
+   {
+    "name": "Kalmele (Kalmi)",
+    "role": "family_member",
+    "start_sec": 922,
+    "note": "Young grandchild who picks things up from the floor."
+   },
+   {
+    "name": "Shimi",
+    "role": "family_member",
+    "start_sec": 928,
+    "note": "Grandchild; a good brother to the baby."
+   },
+   {
+    "name": "Toibele (Toibi)",
+    "role": "family_member",
+    "start_sec": 936,
+    "note": "Baby grandchild lying in her crib."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Decide whether to publish this half, the joined recording 6b6fec027a, or both.",
+   "Grandchildren's names are in hidden; family recording to double-check."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:33Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Bubby%20Chaya%20Malka%27s%20Yiddish%20Stories%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Bubby Chaya Malka's Yiddish Stories, Part 1.mp3",
+  "size_bytes": 50505485,
+  "mime_type": "audio/mpeg"
+ }
+}

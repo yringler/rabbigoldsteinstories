@@ -1,0 +1,1159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/story-archive/metadata.schema.json",
+  "title": "Story Archive item metadata (v0.2, pass 1)",
+  "description": "Metadata for one archive item (one converted audio file, keyed by catalog id). Locked fields come from facts/<id>.json (pass 0) and must be copied unchanged. Vocabulary ids are checked against vocabularies.json by scripts/validate_items.py. NEVER PUBLISHED (DECISIONS 1): hidden, source, quality, provenance, proposed_new_terms, identity_guesses, audience.privacy. The website build and search index must exclude them, and must mask transcript lines that overlap any hidden.* time span.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schema_version",
+    "source",
+    "display",
+    "classification",
+    "audience",
+    "subjects",
+    "language",
+    "quality",
+    "provenance",
+    "hidden"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{10}$",
+      "description": "[deterministic] catalog.csv id."
+    },
+    "schema_version": {
+      "const": "0.3"
+    },
+    "source": {
+      "description": "[deterministic] Facts from catalog.csv, transcripts_index.csv, the filename and the producer's master tape catalog.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "collection",
+        "folder",
+        "filename_title",
+        "audio_path",
+        "duration_sec"
+      ],
+      "properties": {
+        "collection": {
+          "type": "string"
+        },
+        "folder": {
+          "type": "string"
+        },
+        "filename_title": {
+          "type": "string",
+          "description": "title_guess as found (never displayed as-is)."
+        },
+        "audio_path": {
+          "type": "string"
+        },
+        "duration_sec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "filename_facts": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "episode_number": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 999
+            },
+            "date_in_filename": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            },
+            "trailing_number": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "Number at the end of a radio-clip / Heritage filename = episode it was cut from (verified: 384/385 radio clips)."
+            },
+            "part_marker": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "e.g. 'part 1', '-2', 'B', '01'."
+            },
+            "production_notes": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/vocabId"
+              },
+              "uniqueItems": true,
+              "description": "vocab: production_notes (redo, unedited, good, needs_splicing...)."
+            }
+          }
+        },
+        "master_catalog": {
+          "description": "Row N of 'TZH Catalouge updated.docx' = radio episode N. Only for radio episodes and their clips.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "episode": {
+              "type": "integer"
+            },
+            "story": {
+              "type": "string"
+            },
+            "topic": {
+              "type": "string"
+            },
+            "has_visitor_names": {
+              "type": "boolean",
+              "description": "Names themselves are kept out of public metadata."
+            }
+          }
+        },
+        "pipeline_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "title_basis",
+        "summary_short",
+        "summary_long",
+        "transcript_display"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 90,
+          "description": "Public English title, Chabad transliteration, Title Case. Radio episodes: 'Episode 408: The Storyteller, Chapter 2 (Chanukah)'."
+        },
+        "title_he": {
+          "type": "string",
+          "maxLength": 120,
+          "description": "Hebrew-script title if the item has one (Yiddish/Hebrew items)."
+        },
+        "title_translit": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "title_basis": {
+          "enum": [
+            "filename",
+            "master_catalog",
+            "on_air",
+            "content"
+          ]
+        },
+        "summary_short": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 220,
+          "description": "One or two sentences for cards, search results and meta description (SEO)."
+        },
+        "summary_long": {
+          "type": "string",
+          "minLength": 80,
+          "maxLength": 1400,
+          "description": "80-220 words: what happens / what is taught, without giving away every twist. Always English, also for Yiddish items."
+        },
+        "lesson": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 300,
+          "description": "The takeaway as stated or clearly implied; null for items with no lesson (e.g. songs)."
+        },
+        "keywords": {
+          "type": "array",
+          "maxItems": 12,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "maxLength": 40
+          },
+          "description": "Concrete searchable nouns not covered by vocabularies (dancing bear, robbers, diamond, menorah)."
+        },
+        "transcript_display": {
+          "enum": [
+            "show_with_label",
+            "search_only",
+            "none"
+          ],
+          "description": "[locked] DECISIONS 8: English = show_with_label ('automatic transcript, may contain errors'); Yiddish = search_only; hidden items = none. Lines overlapping hidden.* spans are masked either way."
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "content_type",
+        "series",
+        "standalone"
+      ],
+      "properties": {
+        "content_type": {
+          "$ref": "#/$defs/vocabId",
+          "description": "vocab: content_type"
+        },
+        "story_type": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          },
+          "description": "vocab: story_type (empty if no story)."
+        },
+        "series": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/vocabId"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "vocab: series. Never a deprecated id. Heritage Series items = uy_tzivos_hashem_on_the_air (DECISIONS 12)."
+        },
+        "speakers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          },
+          "description": "vocab: speakers. Unconfirmed placeholders are allowed here; put your evidence in identity_guesses."
+        },
+        "standalone": {
+          "enum": [
+            "standalone",
+            "needs_context",
+            "cliffhanger",
+            "teaser",
+            "fragment"
+          ],
+          "description": "Can a listener play this by itself? cliffhanger = ends 'next week...'."
+        },
+        "episode": {
+          "description": "Radio series only: the broadcast number (clips carry the number of the episode they were cut from).",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "number"
+          ],
+          "properties": {
+            "number": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "is_clip": {
+              "type": "boolean"
+            }
+          }
+        },
+        "date": {
+          "description": "When it was broadcast/recorded. Omit if nothing is known.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "precision",
+            "basis"
+          ],
+          "properties": {
+            "gregorian": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+              "description": "YYYY, YYYY-MM or YYYY-MM-DD."
+            },
+            "hebrew": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "e.g. '4 Iyar 5742', 'Elul 5736'."
+            },
+            "hebrew_year": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 5700,
+              "maximum": 5800
+            },
+            "precision": {
+              "enum": [
+                "day",
+                "week",
+                "month",
+                "year",
+                "decade",
+                "unknown"
+              ]
+            },
+            "basis": {
+              "enum": [
+                "filename",
+                "stated_in_audio",
+                "calendar_cues",
+                "sequence_interpolation",
+                "folder_or_sibling",
+                "unknown"
+              ]
+            },
+            "note": {
+              "type": "string",
+              "maxLength": 200
+            }
+          }
+        },
+        "serial": {
+          "description": "For serial stories: the story this chapter belongs to.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "story_title"
+          ],
+          "properties": {
+            "story_key": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$",
+              "description": "Assigned/merged in pass 2."
+            },
+            "story_title": {
+              "type": "string"
+            },
+            "chapter": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            }
+          }
+        },
+        "part": {
+          "description": "Multi-file sets outside the radio series (part 1/part 2, -1/-2, A/B).",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "part_number"
+          ],
+          "properties": {
+            "set_key": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            },
+            "part_number": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "of": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            }
+          }
+        },
+        "study_text": {
+          "description": "For shiurim: which text and which section is studied.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "work"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "#/$defs/vocabId",
+                "description": "vocab: works"
+              },
+              "unit": {
+                "$ref": "#/$defs/vocabId",
+                "description": "vocab: study_units"
+              },
+              "from": {
+                "type": "string"
+              },
+              "to": {
+                "type": "string"
+              },
+              "lecture_number": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "collections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "[locked] Collection tags from the folder (e.g. 'Heritage Series 2', 'Inyonei Mitzvos', 'Story Videos'). Browse tags, not series."
+        }
+      }
+    },
+    "audience": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "age_min",
+        "advisories",
+        "privacy"
+      ],
+      "properties": {
+        "level": {
+          "$ref": "#/$defs/vocabId",
+          "description": "vocab: audience_level"
+        },
+        "age_min": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 18
+        },
+        "advisories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "flag",
+              "severity",
+              "note"
+            ],
+            "properties": {
+              "flag": {
+                "$ref": "#/$defs/vocabId",
+                "description": "vocab: content_advisory"
+              },
+              "severity": {
+                "enum": [
+                  "mild",
+                  "moderate",
+                  "strong"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "at_sec": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "privacy": {
+          "description": "Internal markers (never displayed) that point into the hidden block: minor_named/health_info -> hidden.on_air_people, home_address -> hidden.addresses, phone_number -> hidden.other_personal. private_family = family recording (DECISIONS 2).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "flag"
+            ],
+            "properties": {
+              "flag": {
+                "$ref": "#/$defs/vocabId",
+                "description": "vocab: privacy_flag"
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 200,
+                "description": "Describe, do not repeat the personal data."
+              },
+              "at_sec": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "subjects": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "people",
+        "topics",
+        "midos",
+        "mitzvos",
+        "calendar"
+      ],
+      "properties": {
+        "people": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "role"
+            ],
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/vocabId",
+                "description": "vocab: people"
+              },
+              "role": {
+                "enum": [
+                  "central",
+                  "appears",
+                  "mentioned",
+                  "teaching_cited"
+                ]
+              }
+            }
+          }
+        },
+        "characters": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {
+            "type": "string"
+          },
+          "description": "Other named characters (Naftali, Beryl the merchant, Moshele)."
+        },
+        "topics": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          },
+          "description": "vocab: topics"
+        },
+        "midos": {
+          "type": "array",
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          }
+        },
+        "mitzvos": {
+          "type": "array",
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          }
+        },
+        "calendar": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          },
+          "description": "vocab: calendar. Only when the item is tied to the date (said so, or obviously about it)."
+        },
+        "parshiyos": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          }
+        },
+        "places": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources_cited": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "work"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "#/$defs/vocabId",
+                "description": "vocab: works"
+              },
+              "ref": {
+                "type": "string",
+                "description": "e.g. 'Vayikra 18:3', 'Tanya ch. 13', 'Kiddushin 31a'."
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 200
+              }
+            }
+          }
+        }
+      }
+    },
+    "segments": {
+      "description": "Core for radio episodes and any item > 15 min with several parts; optional otherwise. Times in seconds from file start.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "start_sec",
+          "type",
+          "title"
+        ],
+        "properties": {
+          "start_sec": {
+            "type": "number",
+            "minimum": 0
+          },
+          "end_sec": {
+            "type": "number",
+            "minimum": 0
+          },
+          "type": {
+            "$ref": "#/$defs/vocabId",
+            "description": "vocab: segment_type"
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "summary": {
+            "type": "string",
+            "maxLength": 400
+          },
+          "people": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/vocabId"
+            }
+          },
+          "calendar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/vocabId"
+            }
+          },
+          "story_key": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "chapter": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "linked_items": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{10}$"
+            },
+            "description": "Clips that cover this segment."
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "target_id",
+          "evidence",
+          "confidence"
+        ],
+        "properties": {
+          "type": {
+            "$ref": "#/$defs/vocabId",
+            "description": "vocab: relation_type"
+          },
+          "target_id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{10}$"
+          },
+          "evidence": {
+            "enum": [
+              "audio_fingerprint",
+              "text_overlap",
+              "filename",
+              "master_catalog",
+              "content"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "offset_sec": {
+            "type": "number",
+            "description": "Where this item starts inside the target (clip_of)."
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "language": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "spoken",
+        "transcript_language",
+        "transcript_language_ok"
+      ],
+      "properties": {
+        "primary": {
+          "enum": [
+            "en",
+            "yi",
+            "he"
+          ]
+        },
+        "spoken": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "en",
+              "yi",
+              "he"
+            ]
+          }
+        },
+        "transcript_language": {
+          "enum": [
+            "en",
+            "yi"
+          ],
+          "description": "[deterministic] model used."
+        },
+        "transcript_language_ok": {
+          "type": "boolean",
+          "description": "false = transcribed with the wrong model; re-run ASR."
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "audio",
+        "transcript",
+        "issues",
+        "publish_recommendation"
+      ],
+      "properties": {
+        "audio": {
+          "enum": [
+            "good",
+            "fair",
+            "poor",
+            "unusable"
+          ]
+        },
+        "transcript": {
+          "enum": [
+            "good",
+            "usable",
+            "poor",
+            "unusable"
+          ],
+          "description": "As a basis for search; Yiddish ASR is usually 'usable' at best."
+        },
+        "issues": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/vocabId"
+          },
+          "description": "vocab: quality_issue"
+        },
+        "trim": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "description": "Audio is NEVER edited (DECISIONS 1, 11). Marks where the content starts/ends so the player or page can note 'content ends at 30:12'. null when the whole file is content.",
+          "properties": {
+            "content_start_sec": {
+              "type": "number",
+              "minimum": 0
+            },
+            "content_end_sec": {
+              "type": "number",
+              "minimum": 0
+            },
+            "note": {
+              "type": "string",
+              "maxLength": 200
+            }
+          }
+        },
+        "publish_recommendation": {
+          "enum": [
+            "publish",
+            "publish_with_note",
+            "review",
+            "hide"
+          ],
+          "description": "hide = keep in the catalog, not on the site (defective item, empty fragment). review = a human should look before publishing."
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 400
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "confidence"
+      ],
+      "properties": {
+        "method": {
+          "enum": [
+            "deterministic",
+            "llm",
+            "llm+human",
+            "human"
+          ]
+        },
+        "model": {
+          "type": "string"
+        },
+        "filled_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "confidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "title": {
+              "$ref": "#/$defs/conf"
+            },
+            "summary": {
+              "$ref": "#/$defs/conf"
+            },
+            "people": {
+              "$ref": "#/$defs/conf"
+            },
+            "calendar": {
+              "$ref": "#/$defs/conf"
+            },
+            "segments": {
+              "$ref": "#/$defs/conf"
+            },
+            "date": {
+              "$ref": "#/$defs/conf"
+            },
+            "audience": {
+              "$ref": "#/$defs/conf"
+            }
+          }
+        },
+        "needs_human_review": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "proposed_new_terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "vocabulary",
+          "label",
+          "reason"
+        ],
+        "properties": {
+          "vocabulary": {
+            "enum": [
+              "people",
+              "topics",
+              "midos",
+              "mitzvos",
+              "calendar",
+              "works",
+              "series",
+              "speakers",
+              "content_advisory",
+              "quality_issue",
+              "privacy_flag"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "suggested_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "used_instead": {
+            "type": "string",
+            "description": "The existing id the item was tagged with meanwhile, if any."
+          },
+          "reason": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "hidden": {
+      "description": "NEVER PUBLISHED (DECISIONS 1). Personal details heard on air, captured as heard (spelling corrected only from the master catalog visitor list or obvious context). Audio is never edited. Use [] when there is nothing.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "on_air_people",
+        "addresses",
+        "other_personal"
+      ],
+      "properties": {
+        "on_air_people": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "role",
+              "start_sec"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "As heard, e.g. 'Estee Pressman'. First name only if that is all that is said."
+              },
+              "role": {
+                "enum": [
+                  "shema_guest",
+                  "birthday",
+                  "mailbox_letter",
+                  "refuah_list",
+                  "contest_winner",
+                  "visitor",
+                  "family_member",
+                  "other"
+                ]
+              },
+              "group": {
+                "type": "string",
+                "description": "School, class, teacher or town if given (e.g. 'Beis Yaakov of Boro Park, 3rd grade, Morah Lazar')."
+              },
+              "start_sec": {
+                "type": "number",
+                "minimum": 0
+              },
+              "end_sec": {
+                "type": "number",
+                "minimum": 0
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 200
+              }
+            }
+          }
+        },
+        "addresses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text",
+              "start_sec"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "start_sec": {
+                "type": "number",
+                "minimum": 0
+              },
+              "end_sec": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "other_personal": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "text",
+              "start_sec"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "phone_number",
+                  "family_detail",
+                  "health",
+                  "school",
+                  "other"
+                ]
+              },
+              "text": {
+                "type": "string",
+                "maxLength": 300
+              },
+              "start_sec": {
+                "type": "number",
+                "minimum": 0
+              },
+              "end_sec": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "identity_guesses": {
+      "description": "NEVER PUBLISHED (DECISIONS 3). Evidence for unconfirmed placeholder ids (vocab entries with unconfirmed: true) used in this item. One entry per placeholder used; guess may be null when there is no clue.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "placeholder_id",
+          "guess",
+          "confidence"
+        ],
+        "properties": {
+          "placeholder_id": {
+            "$ref": "#/$defs/vocabId"
+          },
+          "guess": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          },
+          "confidence": {
+            "enum": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "evidence_quote": {
+            "type": "string",
+            "maxLength": 300,
+            "description": "Exact words from the transcript."
+          },
+          "at_sec": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "media": {
+      "description": "[deterministic] Where the audio lives. url is the public, playable address: https://<public_host>/ + percent-encoded r2_key (keep '/').",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "public_host",
+        "r2_bucket",
+        "r2_key",
+        "mime_type"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "public_host": {
+          "type": "string"
+        },
+        "r2_bucket": {
+          "type": "string"
+        },
+        "r2_key": {
+          "type": "string"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mime_type": {
+          "const": "audio/mpeg"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "vocabId": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "conf": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+ "id": "6e0946d4ee",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "27th Adar and story of aguna",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh - The Agunah Sent to Vilna.mp3",
+  "duration_sec": 1186.447,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh: The Agunah Sent to Vilna",
+  "title_basis": "filename",
+  "summary_short": "Using our mouth for holy words, then how the Alter Rebbe sent an agunah to a leading opponent of Chassidus in Vilna, who found her missing husband.",
+  "summary_long": "The storyteller recalls how the Rebbe explained his big Yud-Aleph Nissan farbrengens: people come not for him personally but for Chabad. Weeks before Chof-Zayin Adar, the Rebbe said that when a Rebbe cannot speak, Chassidim should speak words of Torah in his place, which showed his Ruach HaKodesh. The lesson: our mouth is like an Aron Kodesh, so only holy, kind words should come out of it. The story: an agunah whose husband vanished three years earlier comes to the Alter Rebbe, who sends her to Vilna, to Reb Meir Refoels, a leader of the opponents of Chassidus. Reb Meir's wife calls it nonsense, but the woman refuses to leave until he promises to help. Days later the police chief tells Reb Meir that a wagon of Jewish prisoners is passing through, and one name matches. The woman recognizes her husband, who agrees to give a get in exchange for his freedom. Reb Meir is astonished at the Alter Rebbe's Ruach HaKodesh and stops speaking against him.",
+  "lesson": "A tzaddik sees what others cannot, so follow his words and do not give up; and use your mouth only for holy, kind words.",
+  "keywords": [
+   "agunah",
+   "missing husband",
+   "get",
+   "prisoners",
+   "police chief",
+   "wagon",
+   "Vilna",
+   "Aron Kodesh"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "An agunah's husband has abandoned her; he gives a get to go free."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Jewish prisoners are being taken to Siberia."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Jews are banned from living in the big cities."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the agunah",
+   "her missing husband",
+   "Reb Meir's wife",
+   "the police chief"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "the_rebbe",
+   "miracles",
+   "character"
+  ],
+  "midos": [
+   "shemiras_halashon",
+   "anavah",
+   "hasmadah",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "shemiras_halashon",
+   "pidyon_shvuyim"
+  ],
+  "calendar": [
+   "adar",
+   "chof_zayin_adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Yud-Aleph Nissan farbrengen, and a sichah weeks before Chof-Zayin Adar on speaking Torah in the Rebbe's place."
+   }
+  ],
+  "places": [
+   "Vilna"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "song",
+   "title": "I Believe in Hashem",
+   "end_sec": 60
+  },
+  {
+   "start_sec": 60,
+   "type": "sichah",
+   "title": "Why the Rebbe made a farbrengen on his birthday",
+   "end_sec": 200
+  },
+  {
+   "start_sec": 200,
+   "type": "talk",
+   "title": "Chof-Zayin Adar: our mouth is an Aron Kodesh",
+   "end_sec": 335
+  },
+  {
+   "start_sec": 335,
+   "type": "story",
+   "title": "The agunah sent to Vilna",
+   "end_sec": 1160,
+   "people": [
+    "alter_rebbe",
+    "rabbi_meir_refoels"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends 'Exactly 20 minutes', a timed class session."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Story ends noting a second story that made Reb Meir a Chassid; possibly told in another item."
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "5e786ca354",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Agunah Is Saved, Part 1' (Stories, from 11:47), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a05fbdecf2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Agunah Is Saved, Part 2' (Stories, 5:00-11:46), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "ce28d1962a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Reb Meir Refoels and the Agunah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db7fffffe3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Reb Meir Refoels and the Agunah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chof-Zayin%20Adar%20and%20the%20Alter%20Rebbe%27s%20Ruach%20HaKodesh%20-%20The%20Agunah%20Sent%20to%20Vilna.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh - The Agunah Sent to Vilna.mp3",
+  "size_bytes": 14238242,
+  "mime_type": "audio/mpeg"
+ }
+}

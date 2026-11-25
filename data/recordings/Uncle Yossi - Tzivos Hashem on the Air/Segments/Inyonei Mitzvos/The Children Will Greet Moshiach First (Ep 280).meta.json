@@ -1,0 +1,171 @@
+{
+ "id": "a526e22840",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Moshiach 280",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Children Will Greet Moshiach First (Ep 280).mp3",
+  "duration_sec": 162.271,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 280,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 280,
+   "story": "Torah The Best Thing of All #1",
+   "topic": "Havdalah, Moshiach",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Children Will Greet Moshiach First",
+  "title_basis": "content",
+  "summary_short": "Moshiach is on his way, and the Jewish children will lead the parade out of exile, riding heavenly clouds to Eretz Yisroel. Are you ready to greet him?",
+  "summary_long": "A short, joyful talk from the Tzivos Hashem radio show. Uncle Yossi tells the children that Moshiach is about to come, and the very first to welcome him will be the young Jewish schoolchildren, who will march at the head of the parade out of exile. To be ready, a child should be able to tell Moshiach proudly how impatiently he waited, and how he learns Torah and does mitzvos with joy; perhaps he even rose from private to general in Tzivos Hashem with all the points on his mitzvah charts and mission cards. Quoting the prophet Daniel, Uncle Yossi describes heavenly clouds that Hashem will lower from the sky; all one has to do is step in, and before you know it you are carried to Eretz Yisroel. He ends with the hope that it will happen very soon: 'We want Moshiach now.'",
+  "lesson": "Get ready for Moshiach now by learning Torah and doing mitzvos with joy; the children will be the first to greet him.",
+  "keywords": [
+   "parade",
+   "heavenly clouds",
+   "ranks",
+   "mitzvah charts",
+   "mission cards",
+   "We want Moshiach now"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 280,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-06-16",
+   "hebrew": "19 Sivan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 280 (06-16-87). Also re-aired in episodes 384 and 439."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "tzivos_hashem",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "simcha",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "Moshiach coming with the clouds of heaven."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short (under 3 minutes); evergreen."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:09:30Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "11adf87746",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "Also aired in episode 384."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d7c2af64da",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 439."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "fbe6825c15",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 159,
+   "note": "Episode 280 (filename number); clip = 159-321 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Children%20Will%20Greet%20Moshiach%20First%20%28Ep%20280%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Children Will Greet Moshiach First (Ep 280).mp3",
+  "size_bytes": 1948081,
+  "mime_type": "audio/mpeg"
+ }
+}

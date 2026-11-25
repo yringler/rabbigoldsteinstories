@@ -1,0 +1,167 @@
+{
+ "id": "d8b676e7bd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Modeh Ani 302",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Good Morning, Hashem - Modeh Ani and the First Thank You of the Day (Ep 302).mp3",
+  "duration_sec": 482.053,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 302,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 302,
+   "story": "A Blessing From A Tzaddik",
+   "topic": "Modeh Ani",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Good Morning, Hashem: Modeh Ani and the First Thank You of the Day",
+  "title_basis": "content",
+  "summary_short": "Hashem watches over us all night and returns our neshamah fresh each morning, so the first thing we say is Modeh Ani, with a new Modeh Ani song.",
+  "summary_long": "A talk from the Tzivos Hashem radio show. Uncle Yossi explains that Hashem is at our bedside all night long, welcomed into our room by the mezuzah on the doorpost, which never sleeps and guards us like a faithful soldier. When we wake up, Hashem is waiting for us to say good morning, and we do it with the twelve words of Modeh Ani. Each night we hand Hashem a tired neshamah, and each morning He gives it back fully charged and brand new, ready for davening, tzedakah, Torah and mitzvos. Uncle Yossi translates the words one by one, then plays a new song set to Modeh Ani. He ends with a lesson: Modeh Ani is the first thank you of the day, with many more to follow, so whenever someone does something for you, remember to say thank you.",
+  "lesson": "Start the day by thanking Hashem with Modeh Ani, and get into the habit of saying thank you to everyone.",
+  "keywords": [
+   "Modeh Ani song",
+   "neshamah",
+   "mezuzah",
+   "bedroom",
+   "thank you",
+   "good manners",
+   "morning"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 302,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-11-17",
+   "hebrew": "25 Cheshvan 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 302 (578d853efd). Episode: Consistent with the audio: Shabbos candles 'this coming Friday, November the 20th' at 4:17."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "morning_routine",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "emunah"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "mezuzah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 289,
+   "type": "talk",
+   "title": "Saying good morning to Hashem"
+  },
+  {
+   "start_sec": 289,
+   "end_sec": 392,
+   "type": "song",
+   "title": "A new Modeh Ani song"
+  },
+  {
+   "start_sec": 392,
+   "type": "talk",
+   "title": "The first thank you of the day"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Includes the Modeh Ani song (about 4:50-6:30), not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:06:10Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "578d853efd",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 50,
+   "note": "Episode 302 (filename number); clip = 50-532 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Good%20Morning%2C%20Hashem%20-%20Modeh%20Ani%20and%20the%20First%20Thank%20You%20of%20the%20Day%20%28Ep%20302%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Good Morning, Hashem - Modeh Ani and the First Thank You of the Day (Ep 302).mp3",
+  "size_bytes": 5785575,
+  "mime_type": "audio/mpeg"
+ }
+}

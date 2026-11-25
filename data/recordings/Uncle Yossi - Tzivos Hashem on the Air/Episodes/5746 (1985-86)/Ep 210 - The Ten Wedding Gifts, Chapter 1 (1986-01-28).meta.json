@@ -1,0 +1,322 @@
+{
+ "id": "a18c8f842e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "210",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 210 - The Ten Wedding Gifts, Chapter 1 (1986-01-28).mp3",
+  "duration_sec": 1821.979,
+  "filename_facts": {
+   "episode_number": 210,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 210,
+   "story": "The ten wedding gifts #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 210: The Ten Wedding Gifts, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "A listener who signed up 25 new Tzivos Hashem members, Shema with a Beis Rivkah student, and the start of a story about an orphaned bride and groom who give away their wedding money to free a captive.",
+  "summary_long": "Uncle Yossi recalls 'maaseh avos siman labanim': like Avraham Avinu, who shared his blessings, we too should do chesed. He reads a listener's letter about a girl who explained Tzivos Hashem to her relatives and friends and signed up 25 new members, and encourages everyone to follow her example. After the Hakochainik march, a nine-year-old student from Beis Rivkah leads the Shema. Story time begins 'The Ten Wedding Gifts', a story connected with the Baal Shem Tov. Reuven, a kind innkeeper who charges guests only what they can afford, raises two orphans, Avraham and Sarah, as his own. When they agree to marry, he gives them a purse of 600 gold coins to buy wedding clothes at the fair. On the road they meet an old man in chains, crying for help beside a cruel officer, who demands exactly 600 gold coins to free him. With Sarah's nod, Avraham pays the whole sum, and the couple head home penniless, wondering what Reuven will say. In Mitzvah Time a listener answers phone questions about Tanach and stacking holy books, and Uncle Yossi thanks a listener in Connecticut who rebroadcasts the show to many states.",
+  "lesson": "Like Avraham Avinu, share what you have with others; freeing a captive is one of the greatest mitzvos.",
+  "keywords": [
+   "inn",
+   "orphans",
+   "wedding clothes",
+   "600 gold coins",
+   "fair",
+   "old man in chains",
+   "officer",
+   "new members",
+   "Tanach",
+   "rebroadcast"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1986-01-28",
+   "hebrew": "18 Shevat 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Weekly sequence: 1 wk after ep 209 (21 Jan 1986), 1 wk before ep 211 (4 Feb 1986); no gap between them. No date cue of its own."
+  },
+  "serial": {
+   "story_key": "the-ten-wedding-gifts",
+   "story_title": "The Ten Wedding Gifts",
+   "chapter": 1
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 210,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "An old man is held in chains by a cruel officer until he is ransomed.",
+    "at_sec": 1170
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The officer threatens the couple if they do not leave.",
+    "at_sec": 1200
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The letter writer, Shema guest and quiz caller are named on air.",
+    "at_sec": 132
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reuven the innkeeper",
+   "Avraham the orphan",
+   "Sarah the orphan",
+   "the old man",
+   "the cruel officer"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "baal_shem_tov_and_students",
+   "tzivos_hashem",
+   "torah_study"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "courage"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "hachnasas_kallah",
+   "hachnasas_orchim",
+   "tzedakah",
+   "shema",
+   "kavod_shul"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 14,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 115,
+   "type": "talk",
+   "title": "Follow Avraham Avinu: Share Your Blessings"
+  },
+  {
+   "start_sec": 115,
+   "end_sec": 400,
+   "type": "mailbox",
+   "title": "A listener signs up 25 new members",
+   "summary": "A girl's letter tells how she brought 25 relatives and friends into Tzivos Hashem."
+  },
+  {
+   "start_sec": 400,
+   "end_sec": 588,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 588,
+   "end_sec": 675,
+   "type": "story_intro",
+   "title": "Story time: a new Baal Shem Tov story"
+  },
+  {
+   "start_sec": 675,
+   "end_sec": 862,
+   "type": "shema_guest",
+   "title": "Shema with a Beis Rivkah student"
+  },
+  {
+   "start_sec": 862,
+   "end_sec": 1505,
+   "type": "story_chapter",
+   "title": "The Ten Wedding Gifts, Chapter 1",
+   "summary": "An orphaned bride and groom spend their 600 gold wedding coins to ransom an old man in chains.",
+   "story_key": "the-ten-wedding-gifts",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1505,
+   "end_sec": 1693,
+   "type": "quiz",
+   "title": "Mitzvah Time phone quiz: Tanach and stacking holy books"
+  },
+  {
+   "start_sec": 1693,
+   "end_sec": 1770,
+   "type": "announcement",
+   "title": "A listener rebroadcasts the show to many states"
+  },
+  {
+   "start_sec": 1770,
+   "type": "closing",
+   "title": "Sponsor and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "9bc8ca94cc",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1986): ep 210 ch. 1 and ep 211 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Small gaps at 1:17-2:00 and 3:10-3:48 (possible edits). Gift shop prize, address and sponsor are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Pessy Rosenfeld",
+    "role": "mailbox_letter",
+    "group": "recruited 25 new members",
+    "start_sec": 120,
+    "end_sec": 400
+   },
+   {
+    "name": "The Weinberger, Bruel and Rosenfeld families",
+    "role": "other",
+    "group": "New members recruited by the letter writer; Brooklyn, Spring Valley and Monsey",
+    "start_sec": 190,
+    "end_sec": 230
+   },
+   {
+    "name": "Rivki Karasik",
+    "role": "shema_guest",
+    "group": "Beis Rivkah, Kitah Dalet, age 9",
+    "start_sec": 704,
+    "end_sec": 862
+   },
+   {
+    "name": "Morah Lazarov",
+    "role": "other",
+    "group": "Teacher of the Shema guest, Beis Rivkah Kitah Dalet",
+    "start_sec": 725,
+    "end_sec": 740
+   },
+   {
+    "name": "Miriam Steinitz",
+    "role": "contest_winner",
+    "group": "Mitzvah Time phone quiz",
+    "start_sec": 1525,
+    "end_sec": 1693
+   },
+   {
+    "name": "Rabbi Yosef Yitzchak Stock",
+    "role": "other",
+    "group": "Bridgeport, Connecticut; rebroadcasts the program",
+    "start_sec": 1693,
+    "end_sec": 1770
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Recruited children attend the Satmar yeshiva, Beis Yaakov and other schools.",
+    "start_sec": 190,
+    "end_sec": 235
+   },
+   {
+    "kind": "school",
+    "text": "Shema guest: Beis Rivkah, Kitah Dalet, teacher Morah Lazarov.",
+    "start_sec": 704,
+    "end_sec": 745
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:25Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20210%20-%20The%20Ten%20Wedding%20Gifts%2C%20Chapter%201%20%281986-01-28%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 210 - The Ten Wedding Gifts, Chapter 1 (1986-01-28).mp3",
+  "size_bytes": 21864706,
+  "mime_type": "audio/mpeg"
+ }
+}

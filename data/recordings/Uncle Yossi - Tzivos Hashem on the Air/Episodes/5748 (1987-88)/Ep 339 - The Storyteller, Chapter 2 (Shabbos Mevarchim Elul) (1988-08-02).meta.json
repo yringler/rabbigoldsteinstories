@@ -1,0 +1,425 @@
+{
+ "id": "3018dcdff0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "339 08-02-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 339 - The Storyteller, Chapter 2 (Shabbos Mevarchim Elul) (1988-08-02).mp3",
+  "duration_sec": 1810.094,
+  "filename_facts": {
+   "episode_number": 339,
+   "date_in_filename": "1988-08-02",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 339,
+   "story": "The storyteller #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 339: The Storyteller, Chapter 2 (Shabbos Mevarchim Elul)",
+  "title_basis": "content",
+  "summary_short": "A listener's poems from the mailbox, the Hakochainik march, a first-grade class says Shema, the Baal Shem Tov's shamash sets out as a storyteller, and a lesson on Modeh Ani.",
+  "summary_long": "Broadcast the week of Shabbos Mevarchim Elul 5748. Uncle Yossi dives into his overflowing mailbox and reads a young listener's three poems about Torah, Avodah and tzedakah, the three things the world stands on. After the Hakochainik march, story time begins 'The Storyteller': at the Baal Shem Tov's bedside, his faithful shamash Rabbi Yehuda is told to travel and tell stories, and promised that this will make him rich. A first-grade class from a Boro Park girls' school then recites the Shema in Studio 604. Back in the story, Rabbi Yehuda sets out, and his first listener, a hotel owner, pays him only three kopecks; disappointed but trusting, he resolves not to give up. Uncle Yossi announces Shabbos Mevarchim for Elul, the last month of the year, and teaches hakaras hatov through Modeh Ani, the first thank-you of the day, with a song to sing it to. The show closes with candle-lighting time and the Dial-a-Jewish-Story line.",
+  "lesson": "Never give up and trust in Hashem; and start every day, and every kindness you receive, with a thank-you.",
+  "keywords": [
+   "storyteller",
+   "shamash",
+   "kopecks",
+   "hotel owner",
+   "poems",
+   "mailbox",
+   "Modeh Ani",
+   "thank you",
+   "alarm clock",
+   "rooster"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 339,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-08-02",
+   "hebrew": "19 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'this coming Shabbos is Shabbos Mevarchim Chodesh Elul'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story opens at the Baal Shem Tov's deathbed as he gives final instructions.",
+    "at_sec": 565
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A letter writer and a whole class of Shema guests are named on air.",
+    "at_sec": 143
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Rabbi Yehuda's wife",
+   "the hotel owner"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "morning_routine",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "hasmadah",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "shema",
+   "torah_study",
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 395,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: Poems on Torah, Avodah and Tzedakah",
+   "summary": "A young listener's three poems about the three things the world stands on."
+  },
+  {
+   "start_sec": 395,
+   "end_sec": 560,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 560,
+   "end_sec": 736,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 2 (first part)",
+   "summary": "At the Baal Shem Tov's bedside, Rabbi Yehuda is told to become a storyteller and is promised riches.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 2
+  },
+  {
+   "start_sec": 736,
+   "end_sec": 905,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 905,
+   "end_sec": 1235,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 2 (continued)",
+   "summary": "Rabbi Yehuda's first customer pays only three kopecks, but he resolves not to give up.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1235,
+   "end_sec": 1290,
+   "type": "announcement",
+   "title": "Shabbos Mevarchim Elul",
+   "summary": "Elul is the last month of the year; end it well with more Torah, mitzvos and good midos.",
+   "calendar": [
+    "shabbos_mevarchim",
+    "elul"
+   ]
+  },
+  {
+   "start_sec": 1290,
+   "end_sec": 1726,
+   "type": "talk",
+   "title": "Modeh Ani: The First Thank-You of the Day",
+   "summary": "Hakaras hatov begins each morning with Modeh Ani, taught with a song.",
+   "linked_items": [
+    "eb81c40bed"
+   ]
+  },
+  {
+   "start_sec": 1726,
+   "type": "closing",
+   "title": "Closing, candle-lighting time and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "eb81c40bed",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Modeh Ani 339' = 1296-1723 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b55afe2c6b",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 339 ch. 2 and ep 340 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Catalog lists this as 'The storyteller #1', but the recap says 'as you remember, in last week's chapter'. Candle time (7:49) and phone line are period details."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Idy Rosenberg",
+    "role": "mailbox_letter",
+    "group": "Borough Park",
+    "start_sec": 143,
+    "end_sec": 365,
+    "note": "Sent poems on Torah, Avodah and tzedakah."
+   },
+   {
+    "name": "Morah I.D. (as heard)",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph (teacher)",
+    "start_sec": 763,
+    "end_sec": 770
+   },
+   {
+    "name": "Toby Bick",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Rifki Risman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Henny Fidin",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Sarah Kramer",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Zahava Wines (as heard)",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Miriam Eisen",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Shashi Lerner",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Dini Bidler",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Sarah Wookie",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Aviva Chaya",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Tara Geddy",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Rivky Stern",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Gita Naskun",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Toby Williger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Miriam Arda",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Krasi Bell",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Rivky Bell",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Chani Klein",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   },
+   {
+    "name": "Feigy Gluck",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph",
+    "start_sec": 871,
+    "end_sec": 900
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Chapter number: catalog says #1, but the on-air recap refers to 'last week's chapter'; the plot here matches what episode 408 presents as chapter 2.",
+   "Shema guest names are ASR approximations."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:52Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20339%20-%20The%20Storyteller%2C%20Chapter%202%20%28Shabbos%20Mevarchim%20Elul%29%20%281988-08-02%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 339 - The Storyteller, Chapter 2 (Shabbos Mevarchim Elul) (1988-08-02).mp3",
+  "size_bytes": 21722087,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,351 @@
+{
+ "id": "6aa8d7ae63",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "429",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 429 - A Judge for a Day, Chapter 3 (Erev Shavuos) (1990-05-29).mp3",
+  "duration_sec": 1805.843,
+  "filename_facts": {
+   "episode_number": 429,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 429,
+   "story": "Judge for a day #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-36.4 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Episode 429: A Judge for a Day, Chapter 3 (Erev Shavuos)",
+  "title_basis": "master_catalog",
+  "summary_short": "An Erev Shavuos show: we were all at Har Sinai, the final chapter of 'A Judge for a Day', why children are the Torah's guarantors, and what we do even before Modeh Ani.",
+  "summary_long": "Broadcast on Erev Shavuos, less than two hours before candle lighting. Uncle Yossi explains that the souls of every Jew of every generation stood at Har Sinai, so tomorrow in shul we relive hearing the Ten Commandments and say 'Naaseh v'nishma'; everyone in the family should come. A seven-year-old yeshiva student leads the Shema, and everyone gives tzedakah. 'A Judge for a Day' concludes: the real judge invites Leibel and his friends to act out their play in court. Leibel drops the 365 gold coins into hot water, bubbles of grease rise to the top, the tailor confesses, and the town carries the little judge on their shoulders. Uncle Yossi reveals that Leibel grew up to be the great Shaagas Aryeh. Next, children are the heroes of Shavuos: Hashem gave the Torah only when Moshe offered the young children who learn the Aleph-Beis as guarantors. Mitzvah time teaches that before Modeh Ani we first remember that Hashem is right beside us. The show closes with the Yom Tov candle time and brachos, an invitation to write in about hearing the Ten Commandments, and a prayer for Moshiach's shofar.",
+  "lesson": "Every Jew stood at Har Sinai, and children who learn Torah are the guarantee that it will last forever.",
+  "keywords": [
+   "Ten Commandments",
+   "Har Sinai",
+   "gold coins",
+   "hot water",
+   "courtroom",
+   "Shaagas Aryeh",
+   "guarantors",
+   "Aleph-Beis",
+   "Modeh Ani",
+   "Yom Tov candles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "moral_fiction",
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 429,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-05-29",
+   "hebrew": "5 Sivan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'A happy Erev Shavuos... in less than two hours we light the Yom Tov candles' (8:00 pm); Erev Shavuos 5750 was Tuesday 29 May 1990."
+  },
+  "serial": {
+   "story_key": "judge-for-a-day",
+   "story_title": "Judge for a Day",
+   "chapter": 3
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest gives his full name, age and yeshiva on air.",
+    "at_sec": 360
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   },
+   {
+    "id": "shaagas_aryeh",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Leibel, later the Shaagas Aryeh",
+   "Berel the butcher",
+   "Ivan the tailor",
+   "the judge"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "great_rabbis",
+   "morning_routine"
+  ],
+  "midos": [
+   "emes",
+   "chesed",
+   "emunah",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "modeh_ani",
+   "shabbos_candles",
+   "shema",
+   "tzedakah",
+   "chinuch",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:1",
+    "note": "'And Hashem spoke all these words, saying (leimor)': to teach them to future generations."
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 1:1",
+    "note": "'Shivisi Hashem l'negdi tamid' comes in the first paragraph, before Modeh Ani."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Kabbalas HaTorah b'simcha u'bpnimiyus",
+    "note": "'As the Rebbe shlita says', receive the Torah with joy and inwardly."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 28,
+   "type": "opening",
+   "title": "Erev Shavuos greeting"
+  },
+  {
+   "start_sec": 28,
+   "end_sec": 305,
+   "type": "talk",
+   "title": "Erev Shavuos: We Were All at Har Sinai",
+   "summary": "The souls of all generations stood at Har Sinai, so tomorrow we relive the Ten Commandments in shul and bring the whole family.",
+   "calendar": [
+    "shavuos"
+   ],
+   "linked_items": [
+    "0946eedba1"
+   ]
+  },
+  {
+   "start_sec": 305,
+   "end_sec": 550,
+   "type": "shema_guest",
+   "title": "Shema with a seven-year-old yeshiva student"
+  },
+  {
+   "start_sec": 550,
+   "end_sec": 572,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 572,
+   "end_sec": 1201,
+   "type": "story_chapter",
+   "title": "A Judge for a Day, Chapter 3",
+   "summary": "Appointed judge for a day, Leibel drops the coins into hot water, grease rises, the tailor confesses, and Leibel grows up to be the Shaagas Aryeh.",
+   "story_key": "judge-for-a-day",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1201,
+   "end_sec": 1534,
+   "type": "talk",
+   "title": "Children: The Guarantors of the Torah",
+   "summary": "Hashem gave the Torah only when Moshe offered the young children learning the Aleph-Beis as guarantors.",
+   "people": [
+    "moshe_rabbeinu"
+   ],
+   "calendar": [
+    "shavuos"
+   ],
+   "linked_items": [
+    "d73915551b"
+   ]
+  },
+  {
+   "start_sec": 1534,
+   "end_sec": 1680,
+   "type": "halachah",
+   "title": "Mitzvah Time: Before Modeh Ani",
+   "summary": "The Shulchan Aruch begins with remembering that Hashem is beside us, even before we say Modeh Ani.",
+   "linked_items": [
+    "b23d7ffa7e"
+   ]
+  },
+  {
+   "start_sec": 1680,
+   "end_sec": 1708,
+   "type": "announcement",
+   "title": "Yom Tov candle time and brachos",
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 1708,
+   "end_sec": 1765,
+   "type": "announcement",
+   "title": "Write in about hearing the Ten Commandments"
+  },
+  {
+   "start_sec": 1765,
+   "type": "closing",
+   "title": "Good Yom Tov and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0946eedba1",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Shavuos 429' = 2-285 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "b23d7ffa7e",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Modeh Ani 429' = 1564-1675 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "d73915551b",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Shavuos -2 429' = 1206-1534 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "be032f3167",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 428 = 'Judge for a day #2', 429 = '#3'; the recap matches chapter 2."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "be032f3167",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Judge for a Day' (1990): ep 428 ch. 2 and ep 429 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Quiet source. Yom Tov candle time, phone quiz and mail-in address are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shimon Boruch Garbos",
+    "role": "shema_guest",
+    "group": "Oholei Torah; age 7",
+    "start_sec": 360,
+    "end_sec": 550
+   },
+   {
+    "name": "Rabbi Burstein",
+    "role": "other",
+    "group": "the Shema guest's teacher at Oholei Torah (named, not present)",
+    "start_sec": 390,
+    "end_sec": 400
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Shema guest learns in Oholei Torah with Rabbi Burstein: Chumash, the Seder and Rambam.",
+    "start_sec": 375,
+    "end_sec": 420
+   }
+  ]
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20429%20-%20A%20Judge%20for%20a%20Day%2C%20Chapter%203%20%28Erev%20Shavuos%29%20%281990-05-29%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 429 - A Judge for a Day, Chapter 3 (Erev Shavuos) (1990-05-29).mp3",
+  "size_bytes": 21670982,
+  "mime_type": "audio/mpeg"
+ }
+}

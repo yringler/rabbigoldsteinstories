@@ -1,0 +1,199 @@
+{
+ "id": "e865266194",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Czar And The Yid",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Czar and the Yid.mp3",
+  "duration_sec": 1212.778,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Czar and the Yid",
+  "title_basis": "filename",
+  "summary_short": "A clever Jewish soldier in the Czar's army rises to become the Czar's friend, and when he is pressed to convert, his mesiras nefesh leads the Czar to end the decree against Jewish children.",
+  "summary_long": "After the song 'I believe in Hashem', the storyteller explains the cruel decree of the Cantonists in the time of the Tzemach Tzedek: Jewish boys were taken from their families, raised among non-Jews and drafted into Czar Nikolai's army for twenty-five years, and many gave up their lives rather than live as non-Jews. The story follows one such soldier. The Czar, walking about in disguise, shares a bottle of vodka with him in a tavern and sees him pawn his sword. At a surprise inspection the next day, the Czar orders the soldier to behead an innocent comrade. The soldier, holding a wooden sword, prays aloud that if the man is innocent his sword should turn to wood, and draws it. Impressed by his cleverness, the Czar promotes him again and again until he becomes the Czar's close friend. When the Czar learns he is Jewish and presses him to convert, the soldier pretends to agree, but on the way to the ceremony he cannot go through with it. His brave choice moves the Czar to end the decree.",
+  "lesson": "A Jew never gives up his Yiddishkeit, not even for riches and honor; one person's mesiras nefesh can save many.",
+  "keywords": [
+   "Cantonists",
+   "Czar Nikolai",
+   "soldier",
+   "wooden sword",
+   "tavern",
+   "vodka",
+   "inspection",
+   "bridge",
+   "river"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The Cantonist decree: Jewish children taken from their families for the Czar's army."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "The soldier is pressed to convert in exchange for wealth and rank."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The soldier says Shema and leaps from a bridge into a river rather than convert; many children died rather than abandon Judaism."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The disguised Czar and the soldier get drunk together in a tavern."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The Czar orders a soldier to behead an innocent comrade; no one is hurt."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Jewish soldier",
+   "Czar Nikolai",
+   "the Czarina",
+   "the tavern keeper"
+  ],
+  "topics": [
+   "mesiras_nefesh_kiddush_hashem",
+   "jewish_history"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage",
+   "emunah"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Russia",
+   "Kiev"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 190,
+   "type": "talk",
+   "title": "The Cantonist decree",
+   "summary": "How Jewish children were taken for the Czar's army, and why the end of the decree was a happy day.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 190,
+   "end_sec": 1212,
+   "type": "story",
+   "title": "The soldier with the wooden sword",
+   "summary": "A Jewish soldier outwits the Czar, becomes his friend, and refuses to give up his faith."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Says the decree ended 'about 169 years ago' (1856), which would put the recording around 2025."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem. There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "'About 169 years ago' suggests a recording year near 2025 (5785/5786); date left out."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Czar%20and%20the%20Yid.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Czar and the Yid.mp3",
+  "size_bytes": 14554211,
+  "mime_type": "audio/mpeg"
+ }
+}

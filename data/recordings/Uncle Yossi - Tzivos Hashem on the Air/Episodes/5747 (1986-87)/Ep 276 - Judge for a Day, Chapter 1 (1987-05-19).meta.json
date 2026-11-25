@@ -1,0 +1,322 @@
+{
+ "id": "d0a966e65b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "276 05-19-87",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 276 - Judge for a Day, Chapter 1 (1987-05-19).mp3",
+  "duration_sec": 1801.521,
+  "filename_facts": {
+   "episode_number": 276,
+   "date_in_filename": "1987-05-19",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 276,
+   "story": "Judge For A Day #1",
+   "topic": "Tikkun HaMidos, / Havdalah, Achdus",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 276: Judge for a Day, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "Preparing for Shavuos: Hashem creates the world anew every moment, two sisters recite the Shema, an honest butcher is accused of theft, and Mitzvah Time begins learning about Havdalah.",
+  "summary_long": "Broadcast in the middle of Sefirah 5747, as listeners prepare for Shavuos by improving their midos. Uncle Yossi teaches the first Mishnah of Pirkei Avos, chapter 5: the world was created with ten sayings. Unlike a carpenter who only shapes wood, Hashem creates something from nothing, and must keep creating it every moment, just as a bulb shines only while the current flows; so we owe Him our very life and should thank Him with Torah and better behavior. Two sisters from a Brooklyn girls' school recite the Shema and one of the Twelve Pesukim. Story time begins 'Judge for a Day': bright, kind Leibel hears that Berel the butcher, known to all as honest, is accused by sly Ivan the tailor of stealing 365 gold coins, found wrapped in a red handkerchief under Berel's floorboard. Berel says Tehillim, and Leibel prays for a way to help. On Mitzvah Time, Uncle Yossi begins the laws of Havdalah: its meaning, its time after the stars come out, and the Havdalah kit, with a phone-quiz prize offered. He closes with the unity of the Jewish people at Har Sinai.",
+  "lesson": "Hashem keeps the whole world in existence every moment; we show our thanks by learning Torah and improving our midos.",
+  "keywords": [
+   "Pirkei Avos",
+   "ten sayings",
+   "carpenter",
+   "light bulb",
+   "butcher",
+   "tailor",
+   "red handkerchief",
+   "gold coins",
+   "Havdalah kit",
+   "Har Sinai"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 276,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-05-19",
+   "hebrew": "20 Iyar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'right in the middle of Sefirah'; Pirkei Avos chapter 5 this week; candles Friday, May 22, 1987."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "judge-for-a-day",
+   "story_title": "Judge for a Day",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests are named in full.",
+    "at_sec": 680
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Leibel (Yehudah Leib)",
+   "Berel the butcher",
+   "Ivan the tailor",
+   "Leibel's father",
+   "the police officer"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "character",
+   "calendar",
+   "halachah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "hakaras_hatov",
+   "emes",
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "havdalah",
+   "torah_study",
+   "shema",
+   "twelve_pesukim",
+   "tehillim"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "5:1",
+    "note": "'With ten sayings the world was created.'"
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:1-3",
+    "note": "'Let there be light.'"
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Shemos 19:2",
+    "note": "'Vayichan' in the singular: like one person with one heart."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 20,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 20,
+   "end_sec": 620,
+   "type": "talk",
+   "title": "Pirkei Avos 5:1: Hashem creates the world every moment",
+   "summary": "Preparing for Shavuos by improving our midos, and the lesson that Hashem constantly creates the world from nothing.",
+   "calendar": [
+    "sefiras_haomer",
+    "shavuos"
+   ],
+   "linked_items": [
+    "c138f0dfd8"
+   ]
+  },
+  {
+   "start_sec": 620,
+   "end_sec": 858,
+   "type": "shema_guest",
+   "title": "Shema and one of the Twelve Pesukim with two sisters"
+  },
+  {
+   "start_sec": 858,
+   "end_sec": 1409,
+   "type": "story_chapter",
+   "title": "Judge for a Day, Chapter 1",
+   "summary": "An honest butcher is accused of stealing a tailor's gold coins, and young Leibel prays for a way to help.",
+   "story_key": "judge-for-a-day",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1409,
+   "end_sec": 1654,
+   "type": "halachah",
+   "title": "Mitzvah Time: Havdalah",
+   "summary": "What Havdalah means, when it is said, and what goes into a Havdalah kit.",
+   "linked_items": [
+    "cbefd2fcab"
+   ]
+  },
+  {
+   "start_sec": 1654,
+   "end_sec": 1696,
+   "type": "announcement",
+   "title": "Mitzvah Time phone quiz"
+  },
+  {
+   "start_sec": 1696,
+   "end_sec": 1766,
+   "type": "talk",
+   "title": "United at Har Sinai",
+   "summary": "The Jewish people received the Torah united like one person with one heart.",
+   "linked_items": [
+    "ca4315c1e9"
+   ]
+  },
+  {
+   "start_sec": 1766,
+   "type": "closing",
+   "title": "Closing: help a friend join Tzivos Hashem"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music (Sefirah). Candle and Havdalah times for May 22, 1987 and the quiz mail-in are period pieces. Story continues in episode 277."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Nechama Dina Brod",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 680,
+    "end_sec": 858
+   },
+   {
+    "name": "Devorah Leah Brod",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 687,
+    "end_sec": 858
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:06:25Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "c138f0dfd8",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Tikkun HaMidos 276' = 9-618 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "ca4315c1e9",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Achdus 276' = 1696-1766 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "cbefd2fcab",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'Havdalah 276' = 1409-1654 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "49efe58654",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 276 = 'Judge For A Day #1', 277 = '#2'; same story continues next week."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "aae4e91c38",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'The Butcher, the Storekeeper and the Boy Judge' (Stories), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 32:00-42:20), told by Bubby Chaya Malka."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5747%20%281986-87%29/Ep%20276%20-%20Judge%20for%20a%20Day%2C%20Chapter%201%20%281987-05-19%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 276 - Judge for a Day, Chapter 1 (1987-05-19).mp3",
+  "size_bytes": 21619269,
+  "mime_type": "audio/mpeg"
+ }
+}

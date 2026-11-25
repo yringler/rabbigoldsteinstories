@@ -1,0 +1,352 @@
+{
+ "id": "6787db0918",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "423",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 423 - Skippy and Crawly (Erev Pesach) (1990-04-03).mp3",
+  "duration_sec": 1840.157,
+  "filename_facts": {
+   "episode_number": 423,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 423,
+   "story": "Skippy and crawly",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 423: Skippy and Crawly (Erev Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "Right before Pesach: why children are at the center of Pesach and the Seder, a phone quiz on when the Jewish day begins, and the fable of Skippy the grasshopper and Crawly the ant.",
+  "summary_long": "Broadcast the week before Pesach 5750. Uncle Yossi explains that Pesach is centered on children: Pharaoh's decree targeted Jewish babies, whom Hashem miraculously saved, and at the Red Sea the children were first to recognize Hashem and say 'This is my G-d'. The Seder is built around children's questions, from Mah Nishtanah to the karpas, because a person who is too shy to ask will never learn; and when Moshiach comes, Tzivos Hashem will lead the parade out of golus. After the Hakochainik march, Mitzvah Time reviews that a Jewish day begins at night, and a girl answers a phone quiz about the three times we say the Shema. A six-year-old visiting Studio 604 with his parents leads the Shema, and his mother thanks the program. After tzedakah, a father tells his son why his sister earns better marks: the story of Skippy the carefree grasshopper, who laughed at Crawly the hard-working ant storing food and was left out in the winter cold. Only hard work brings success. The show ends with an invitation to a Tzivos Hashem Chol HaMoed event and a Pesach greeting.",
+  "lesson": "Children are at the heart of Pesach, so ask questions at the Seder; and in learning, hard work and preparation bring success.",
+  "keywords": [
+   "Seder",
+   "Mah Nishtanah",
+   "four questions",
+   "karpas",
+   "Nile",
+   "Red Sea",
+   "grasshopper",
+   "ant",
+   "winter",
+   "school marks",
+   "hard work"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 423,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-04-03",
+   "hebrew": "8 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Right before Pesach' and a closing Pesach greeting; follows episode 422 (Rosh Chodesh Nissan, 27 March 1990); Chol HaMoed event on Thursday April 12. Matches the weekly estimate."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Pharaoh's decree to throw Jewish baby boys into the Nile; the babies are saved by angels.",
+    "at_sec": 50
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "In the fable the lazy grasshopper is left outside in the cold with nothing to eat.",
+    "at_sec": 1600
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A phone-quiz girl and a six-year-old studio guest are named in full, with schools and teachers.",
+    "at_sec": 653
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Skippy the grasshopper",
+   "Crawly the ant",
+   "David",
+   "Miriam",
+   "their father"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "prayer_and_brachos",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "hasmadah",
+   "zerizus",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "seder",
+   "shema",
+   "torah_study",
+   "tzedakah"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Mah Nishtanah; 'V'higadeta l'vincha'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "2:5, 'Lo habayshan lamed'",
+    "note": "Cited as 'our Chachamim tell us'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:5, 'Vayehi erev vayehi voker'"
+   },
+   {
+    "work": "gemara",
+    "ref": "Megillah 6b, 'Yagata u'matzasa'",
+    "note": "Introduced on air as 'the Mishnah says'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 392,
+   "type": "talk",
+   "title": "Children at the Center of Pesach",
+   "summary": "The babies saved in Egypt, the children at the Red Sea, the Seder built around children's questions, and Tzivos Hashem leading the way to Moshiach.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "f783cbfe0c"
+   ]
+  },
+  {
+   "start_sec": 392,
+   "end_sec": 590,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 653,
+   "type": "review",
+   "title": "Mitzvah Time review: the day begins the night before"
+  },
+  {
+   "start_sec": 653,
+   "end_sec": 976,
+   "type": "quiz",
+   "title": "Telephone quiz on when we say the Shema",
+   "summary": "A young listener explains when the Jewish day begins and the three times we say the Shema."
+  },
+  {
+   "start_sec": 976,
+   "end_sec": 1020,
+   "type": "announcement",
+   "title": "How to be called on Mitzvah Time"
+  },
+  {
+   "start_sec": 1020,
+   "end_sec": 1215,
+   "type": "shema_guest",
+   "title": "Shema with a six-year-old guest in Studio 604"
+  },
+  {
+   "start_sec": 1215,
+   "end_sec": 1330,
+   "type": "other",
+   "title": "A guest's mother thanks the program"
+  },
+  {
+   "start_sec": 1330,
+   "end_sec": 1365,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1365,
+   "end_sec": 1750,
+   "type": "story",
+   "title": "Skippy and Crawly",
+   "summary": "A father tells his son the fable of the carefree grasshopper and the hard-working ant to show that effort brings success."
+  },
+  {
+   "start_sec": 1750,
+   "end_sec": 1795,
+   "type": "announcement",
+   "title": "Tzivos Hashem Pesach event on Chol HaMoed"
+  },
+  {
+   "start_sec": 1795,
+   "type": "closing",
+   "title": "Pesach greeting and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "f783cbfe0c",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Pesach 423' = 40-392 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Chol HaMoed 1990 event announcement is a period piece. Children's names, schools and teachers heard on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Gila Yarmush",
+    "role": "other",
+    "group": "Bnos Yisroel school, Brooklyn; teacher Morah Yurikanski (as heard)",
+    "start_sec": 653,
+    "end_sec": 976,
+    "note": "Answered the telephone quiz."
+   },
+   {
+    "name": "Morah Yurikanski",
+    "role": "other",
+    "start_sec": 918,
+    "end_sec": 930,
+    "note": "Phone-quiz child's teacher, name as heard."
+   },
+   {
+    "name": "Yisrael Simcha Novik",
+    "role": "shema_guest",
+    "group": "Lubavitch yeshiva; teacher Rabbi Chadekof (as heard)",
+    "start_sec": 1046,
+    "end_sec": 1330,
+    "note": "Six years old; led the Shema in the studio."
+   },
+   {
+    "name": "Rabbi Chadekof",
+    "role": "other",
+    "start_sec": 1094,
+    "end_sec": 1100,
+    "note": "Studio guest's teacher, name as heard."
+   },
+   {
+    "name": "Mr. and Mrs. Novik",
+    "role": "visitor",
+    "start_sec": 1215,
+    "end_sec": 1330,
+    "note": "Parents of the studio guest; the mother spoke on air."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Phone-quiz girl attends Bnos Yisroel on East 15th Street near Kings Highway; teacher named.",
+    "start_sec": 885,
+    "end_sec": 930
+   },
+   {
+    "kind": "school",
+    "text": "Studio guest is six, learns at the Lubavitch yeshiva; teacher named.",
+    "start_sec": 1066,
+    "end_sec": 1110
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20423%20-%20Skippy%20and%20Crawly%20%28Erev%20Pesach%29%20%281990-04-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 423 - Skippy and Crawly (Erev Pesach) (1990-04-03).mp3",
+  "size_bytes": 22082881,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "id": "ad5377a39d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "552",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 552 - The King Saved by a Shabbos Candle, Chapter 1 (1992-12-13).mp3",
+  "duration_sec": 1803.643,
+  "filename_facts": {
+   "episode_number": 552,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 552,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 552: The King Saved by a Shabbos Candle, Chapter 1",
+  "title_basis": "content",
+  "summary_short": "A first-grade siddur party, the 'tock-tick clock' trip back to the first day of Creation and the gift of light, and the start of a story about a king who banned all candles.",
+  "summary_long": "Broadcast the week before Chanukah 5753. After the Hakochainik march and Tehillim for the Rebbe's recovery, Uncle Yossi visits a first-grade class at a Brooklyn girls' school celebrating their first siddur. The girls kiss their new siddurim and sing a thank-you song to the Aleph-Beis, and Uncle Yossi explains that the siddur is like a telephone to Hashem, whose line is never busy. The class leads the Shema and everyone gives tzedakah. Then a 'tock-tick' clock that runs backwards takes listeners to the first day of Creation, when Hashem said 'Let there be light'. Closing and opening our eyes shows what a gift sight is, which is why we thank Hashem each morning with the brachah Pokeach Ivrim. Story time begins: a king whose newly decorated study burned when a candle tipped over forbids all candles in his city, leaving the Jews without Shabbos candles. Their rabbi gathers them to say Tehillim and urges every woman and girl to light Shabbos candles. The show ends with a reminder that the first Chanukah light is this Motzaei Shabbos, after Havdalah.",
+  "lesson": "Thank Hashem for the gift of light and sight, and add honor to the mitzvah of Shabbos candles, lit by every girl too.",
+  "keywords": [
+   "siddur party",
+   "Aleph-Beis",
+   "telephone to Hashem",
+   "clock",
+   "first day of Creation",
+   "light",
+   "king",
+   "fire",
+   "decree",
+   "candles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 552,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1992-12-13",
+   "hebrew": "18 Kislev 5753",
+   "hebrew_year": 5753,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos night, the 19th of December, is the first night of Chanukah'; the show aired Sunday evenings."
+  },
+  "serial": {
+   "story_key": "the-king-saved-by-a-shabbos-candle",
+   "story_title": "The King Saved by a Shabbos Candle",
+   "chapter": 1
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A king's decree bans all candles, so Jews cannot light Shabbos candles.",
+    "at_sec": 1440
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Visiting class identified by school, room and teachers' names; no child named individually.",
+    "at_sec": 520
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the town crier",
+   "the rabbi of the city"
+  ],
+  "topics": [
+   "shabbos",
+   "prayer_and_brachos",
+   "hashem_in_nature"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "davening",
+   "brachos",
+   "shema",
+   "tzedakah",
+   "tehillim",
+   "chanukah_lights",
+   "havdalah"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:1-5",
+    "note": "Creation and 'Let there be light'."
+   },
+   {
+    "work": "siddur",
+    "ref": "Morning brachah 'Pokeach Ivrim'",
+    "note": "Thanking Hashem for sight."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 20",
+    "note": "Recited together for the Rebbe's recovery."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 290,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 290,
+   "end_sec": 420,
+   "type": "other",
+   "title": "Tehillim for the Rebbe's recovery"
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 520,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 520,
+   "end_sec": 840,
+   "type": "shema_guest",
+   "title": "A first-grade siddur party and Shema",
+   "summary": "A first-grade class celebrates receiving their first siddurim, sings a song, and leads the Shema."
+  },
+  {
+   "start_sec": 840,
+   "end_sec": 875,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 875,
+   "end_sec": 961,
+   "type": "sponsor",
+   "title": "Advertisement"
+  },
+  {
+   "start_sec": 961,
+   "end_sec": 1375,
+   "type": "talk",
+   "title": "The Tock-Tick Clock: Light on the First Day",
+   "summary": "A clock running backwards takes us to the first day of Creation, the gift of light and sight, and the brachah Pokeach Ivrim."
+  },
+  {
+   "start_sec": 1375,
+   "end_sec": 1690,
+   "type": "story_chapter",
+   "title": "The King Saved by a Shabbos Candle, Chapter 1",
+   "summary": "After a fire, a king bans all candles; the Jews pray and resolve that every woman and girl will light Shabbos candles.",
+   "story_key": "the-king-saved-by-a-shabbos-candle",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1690,
+   "end_sec": 1755,
+   "type": "announcement",
+   "title": "Advertising; first night of Chanukah after Havdalah",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1755,
+   "type": "closing",
+   "title": "Chanukah wishes and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "7152bb742c",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The King Saved by a Shabbos Candle' (1992): ep 552 ch. 1 and ep 553 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Recorded on location in a classroom; teachers named (see hidden). Two advertisements with phone numbers; Havdalah time for 19 Dec 1992."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Marilyn Shefsky (ASR also 'Chepsky')",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph, room 202",
+    "start_sec": 520,
+    "end_sec": 830
+   },
+   {
+    "name": "Morah Langevsky",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph",
+    "start_sec": 690,
+    "end_sec": 720
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Serial title chosen from the on-air description in ep. 553."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5753%20%281992-93%29/Ep%20552%20-%20The%20King%20Saved%20by%20a%20Shabbos%20Candle%2C%20Chapter%201%20%281992-12-13%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5753 (1992-93)/Ep 552 - The King Saved by a Shabbos Candle, Chapter 1 (1992-12-13).mp3",
+  "size_bytes": 21644651,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "id": "35dc2fd877",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Mitzvos Over Money - 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Mitzvos Over Money, Part 1.mp3",
+  "duration_sec": 892.389,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mitzvos Over Money, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Beryl, a rich man who hates giving tzedakah, is told by a tzaddik to daven three times a day on his journey and to send regards to a red-bearded man named Ivan.",
+  "summary_long": "Beryl is a wealthy businessman who keeps the mitzvos, except that he turns every poor person away from his door. Before a long business trip he asks the tzaddik Reb Shmuel for a blessing. Reb Shmuel tells him that money cannot come along to the next world, only mitzvos, and advises him to be careful to daven Shacharis, Mincha and Maariv every day, because tefillah can cancel a harsh decree. As Beryl leaves, Reb Shmuel adds a strange request: if he meets a red-haired, red-bearded man named Ivan, he should give him regards. The trip makes Beryl a fortune, though he forgets about tzedakah, even maaser. Travelling home with non-Jewish passengers, he pays them in gold to stop in a dark forest so he can daven Mincha, and they drive off without him. Lost and freezing, he asks why Hashem repays a mitzvah this way, and the storyteller explains that everything Hashem does is good, even when we cannot yet see it. At last Beryl finds a lit house but fears it may be a robbers' hideout. To be continued.",
+  "lesson": "Use money for mitzvos, daven every day, and trust that everything Hashem does is for the good, even when it does not look that way.",
+  "keywords": [
+   "businessman",
+   "money bag",
+   "checks",
+   "wagon",
+   "forest",
+   "Mincha",
+   "red beard",
+   "lit house"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "part": {
+   "set_key": "mitzvos-over-money",
+   "part_number": 1,
+   "of": 2
+  },
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A man is abandoned in a dark, freezing forest and fears robbers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Beryl the businessman",
+   "Reb Shmuel the tzaddik",
+   "the wagon driver and passengers"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "prayer_and_brachos",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "generosity",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Everything is in the hands of Heaven except Torah and mitzvos, which are our free choice (as paraphrased)."
+   },
+   {
+    "work": "tanya",
+    "note": "Iggeres HaKodesh: by believing that everything is from Hashem and good, we come to see the good."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 54,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 54,
+   "type": "story_chapter",
+   "title": "Mitzvos Over Money, Part 1",
+   "story_key": "mitzvos-over-money",
+   "chapter": 1
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "aced8f2be2",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'Mitzvos Over Money - 2'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "addf1aed4d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'Red Ivan-part 1': the same story (Beryl, Reb Shmuel, Mincha in the forest, regards to Ivan) by the same narrator, with a Bereishis introduction."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the 'I believe in Hashem' song. Another telling of the Red Ivan story."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:28:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Same story as the 'Red Ivan' parts (addf1aed4d, 62f0b4603b); decide whether both tellings should be published."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Mitzvos%20Over%20Money%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Mitzvos Over Money, Part 1.mp3",
+  "size_bytes": 10709511,
+  "mime_type": "audio/mpeg"
+ }
+}

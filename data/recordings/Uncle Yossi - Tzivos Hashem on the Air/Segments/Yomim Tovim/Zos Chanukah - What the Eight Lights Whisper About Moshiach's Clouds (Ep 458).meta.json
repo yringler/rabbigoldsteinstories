@@ -1,0 +1,209 @@
+{
+ "id": "4b73fb52c9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chanukah 458",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zos Chanukah - What the Eight Lights Whisper About Moshiach's Clouds (Ep 458).mp3",
+  "duration_sec": 361.585,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 458,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 458,
+   "story": "The tall Chanukah candles",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Zos Chanukah: What the Eight Lights Whisper About Moshiach's Clouds",
+  "title_basis": "content",
+  "summary_short": "On the night all eight Chanukah candles are lit, Uncle Yossi teaches that the menorah whispers a message of faith: Hashem will soon send Moshiach and heavenly clouds to bring us home.",
+  "summary_long": "A Zos Chanukah talk from the Tzivos Hashem radio show. With all eight candles of the menorah shining, Uncle Yossi recalls the Rebbe's teaching, in the name of the Frierdiker Rebbe, that we must listen carefully to what the Chanukah lights tell us. Their message is emunah and bitachon: Hashem is the King of miracles and wonders, as we say in Al HaNissim, and He will soon do even greater miracles. Daniel HaNavi foretells that when Moshiach comes, Hashem will send 'clouds of heaven', like airplanes with no wings, engines or propellers, the safest flight ever, to carry the Jewish people from the four corners of the world back to Eretz Yisroel, the land promised to Avraham, Yitzchak and Yaakov. On the other nights only some candles were lit, but tonight all eight shine together, a sign of all Jews gathered in unity. So the children call out to Hashem, 'Ad masai? How much longer?' and ask to step into the clouds and see the third Beis HaMikdash rebuilt and its menorah lit again.",
+  "lesson": "Listen to the message of the Chanukah lights: trust in Hashem, the King of miracles, who will soon send Moshiach and gather all the Jewish people together.",
+  "keywords": [
+   "menorah",
+   "eight candles",
+   "clouds of heaven",
+   "airplanes",
+   "Al HaNissim",
+   "third Beis HaMikdash",
+   "Ad Masai"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 458,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-12-18",
+   "hebrew": "1 Teves 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight is Zos Chanukah' as aired in episode 458 (Tuesday, eighth light of Chanukah 5751). The talk itself is the same recording first heard in episode 307."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "emunah_bitachon",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "achdus"
+  ],
+  "mitzvos": [
+   "chanukah_lights"
+  ],
+  "calendar": [
+   "chanukah",
+   "zos_chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "'Listen to what the candles are telling us'",
+    "note": "Cited as the Rebbe's words in the name of the Frierdiker Rebbe."
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "'With the clouds of heaven': clouds that will bring the Jewish people to Eretz Yisroel."
+   },
+   {
+    "work": "siddur",
+    "ref": "Al HaNissim",
+    "note": "Thanking Hashem for the miracles and wonders."
+   }
+  ],
+  "places": [
+   "Eretz Yisroel"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0a7586beb7",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 48,
+   "note": "Episode 458 (filename number); clip = 48-410 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6341e96d6e",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The same Zos Chanukah talk is heard in episode 307 (about 27-388 s)."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "4d54f86128",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same recording as the Zos Chanukah talk in episode 307, re-aired in 458. Says 'tonight is Zos Chanukah', so best offered during Chanukah."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T15:00:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Zos%20Chanukah%20-%20What%20the%20Eight%20Lights%20Whisper%20About%20Moshiach%27s%20Clouds%20%28Ep%20458%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zos Chanukah - What the Eight Lights Whisper About Moshiach's Clouds (Ep 458).mp3",
+  "size_bytes": 4339849,
+  "mime_type": "audio/mpeg"
+ }
+}

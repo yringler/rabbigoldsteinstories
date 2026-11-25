@@ -1,0 +1,15 @@
+{
+  "batch_id": "b070",
+  "done": [
+    "66e941c420",
+    "f23035fd23"
+  ],
+  "failed": [],
+  "notes": [
+    "Both parts open with the song 'I believe in Hashem, I trust in Hashem' and use the same narrator and format as the weekly story series; series kept as farbrengen_power per hint, speaker tagged storyteller_i_believe. The narrator never says his name.",
+    "Possible duplicates: pipeline flags say the same audio exists as 'Stories/Story Videos/Farbrengen Power /Farbrengen Power part 1.mp4' and 'part 2.mp4'. Pass 2 should link them as same_recording.",
+    "66e941c420 ends with the history of the Alter Rebbe's portrait and says 'here it is', which refers to a picture shown in the video version. It sets up the story in part 2. Speech runs to the very end of the file, so the ending may be cut slightly short.",
+    "f23035fd23 has an added 'continues' relation pointing to 66e941c420.",
+    "Proposed a new calendar term 'Month of Kislev' (kislev) for 66e941c420; yud_tes_kislev was used in its place."
+  ]
+}

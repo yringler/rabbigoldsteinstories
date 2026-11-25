@@ -1,0 +1,175 @@
+{
+ "id": "d4aa9de077",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Chai Elul 441",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Elul, Month of Mercy - Hashem Is Close and the Shofar Wakes Us Up (Ep 441).mp3",
+  "duration_sec": 350.817,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 441,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 441,
+   "story": "The sly fox and the cheese",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Elul, Month of Mercy: Hashem Is Close and the Shofar Wakes Us Up",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains why Hashem is especially close in Elul, the month of the Baal Shem Tov's birthday, and why we hear the shofar every weekday morning.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, broadcast on Rosh Chodesh Elul. Uncle Yossi recalls that the Baal Shem Tov, whose birthday falls in Elul, taught hashgachah pratis: Hashem knows every creature and keeps it alive every second, like a devoted father. In Elul Hashem comes even closer, and His Thirteen Attributes of Mercy shine brightly all month. As the last month of the year, Elul is the time to show we deserve a good and sweet year through teshuvah, more heartfelt tefillah, and extra tzedakah every day. The shofar blown after davening every weekday of Elul is like a heavenly alarm calling us to improve in thought, speech and action before Rosh Hashanah.",
+  "lesson": "In Elul Hashem is especially close; listen to the shofar and improve through teshuvah, tefillah and tzedakah.",
+  "keywords": [
+   "shofar",
+   "Elul",
+   "Thirteen Attributes of Mercy",
+   "birthday of the Baal Shem Tov",
+   "alarm",
+   "new year"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 441,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-08-21",
+   "hebrew": "30 Av 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 441, which says 'today is Rosh Chodesh Elul' with the shofar 'tomorrow morning'."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [
+   "elul",
+   "chai_elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 60,
+   "type": "talk",
+   "title": "The Baal Shem Tov and hashgachah pratis"
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 200,
+   "type": "talk",
+   "title": "Elul and the Thirteen Attributes of Mercy"
+  },
+  {
+   "start_sec": 200,
+   "type": "talk",
+   "title": "Why we blow the shofar all month"
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a1fccff69a",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 1379,
+   "note": "Episode 441 (filename number); clip = 1379-1730 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filed as 'Chai Elul' because it mentions the Baal Shem Tov's birthday; the talk is about the whole month of Elul."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Elul%2C%20Month%20of%20Mercy%20-%20Hashem%20Is%20Close%20and%20the%20Shofar%20Wakes%20Us%20Up%20%28Ep%20441%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Elul, Month of Mercy - Hashem Is Close and the Shofar Wakes Us Up (Ep 441).mp3",
+  "size_bytes": 4210711,
+  "mime_type": "audio/mpeg"
+ }
+}

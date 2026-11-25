@@ -1,0 +1,135 @@
+{
+ "id": "1cf1b1479e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "the esrog baby",
+  "audio_path": "audio/Other Stories/The Esrog Baby.mp3",
+  "duration_sec": 586.079,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Esrog Baby",
+  "title_basis": "filename",
+  "summary_short": "A rabbi who loves the mitzvah of esrog receives a perfect one on one condition: that he bless its childless owner with a son. Years later the 'esrog baby' comes to learn in his yeshivah.",
+  "summary_long": "A great rabbi in a small town loves the mitzvah of the four kinds above all, and every year sends a messenger to buy him the most perfect esrog at any price. One year the messenger comes back empty-handed, and the whole poor community, which shares the rabbi's esrog, is upset. Hearing of a rich Jew near the border who owns a flawless esrog, two of the rabbi's friends travel five days to buy it. The owner refuses any amount of money, then makes an offer: he and his wife are childless and no longer young, and he will give the esrog as a gift if the rabbi blesses them with a child by next year. If not, the gift will not count, and the rabbi will not have fulfilled the mitzvah with his own esrog. The messengers hesitate, then accept. The rabbi leaves the matter in Hashem's hands and gives the blessing. Shortly before the next Sukkos a message arrives, and years later a fine boy brings the esrog himself and introduces himself as the 'esrog baby'.",
+  "lesson": "Love for a mitzvah and trust in Hashem bring blessing; a tzaddik's brachah, given with faith, is fulfilled.",
+  "keywords": [
+   "esrog",
+   "lulav",
+   "silver esrog box",
+   "messengers",
+   "childless couple",
+   "blessing",
+   "baby boy",
+   "yeshivah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the rabbi",
+   "the two messengers",
+   "the rich man near the border",
+   "the esrog baby"
+  ],
+  "topics": [
+   "mitzvos_in_daily_life",
+   "calendar",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "bitachon",
+   "simcha",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "arba_minim",
+   "torah_study"
+  ],
+  "calendar": [
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read aloud; title read at the start, no theme song. About 35 s are repeated (1:01-1:36 repeats 0:30-1:01), probably a re-read left in. ASR writes 'asterisk' for esrog; the boy's name is heard as 'Masha' (probably Moshe)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator attributed to the weekly storyteller by style only; series left null.",
+   "Repeated passage near 1:01 may be an editing slip."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Esrog%20Baby.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Esrog Baby.mp3",
+  "size_bytes": 7033761,
+  "mime_type": "audio/mpeg"
+ }
+}

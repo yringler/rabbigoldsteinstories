@@ -1,0 +1,286 @@
+{
+ "id": "1b994d468f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Tz tz rikudim saves",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Tzemach Tzedek and the Dancing That Saved a Child (Adar).mp3",
+  "duration_sec": 1121.129,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Tzemach Tzedek and the Dancing That Saved a Child (Adar)",
+  "title_basis": "content",
+  "summary_short": "For the month of Adar: why simcha should keep doubling, the young Rebbe Maharash's clever giggle, and a Chassid whose dancing on Simchas Torah broke a harsh decree.",
+  "summary_long": "After a short greeting, the storyteller opens with the song \"I believe in Hashem\" and celebrates the month of Adar. Quoting the Zohar, he explains that when a Jew smiles, Hashem smiles back, and that marbin b'simcha means doubling one's joy every day, illustrated with a riddle: a penny doubled for thirty days beats a thousand dollars. A short story follows: the young Rebbe Maharash giggles whenever his teacher enters, and tells his father, the Tzemach Tzedek, that he is following the Gemara's words about Adar and Av with a Yiddish twist. The main story: a Chassid's son is gravely ill, and the father reaches Lubavitch on Hoshana Rabbah. The Tzemach Tzedek gives only a vague brachah, and the father weeps over Tehillim. When the hakafos begin on Shemini Atzeres, he realizes Hashem wants him to rejoice, and he forces himself to dance with all his strength through Simchas Torah. Before he leaves, the Tzemach Tzedek tells him there had been a decree that no brachah could change, but his simcha broke it. He comes home to a healthy son. The listeners are urged to bring music and dancing into their homes all Adar.",
+  "lesson": "Simcha breaks through decrees and brings brachos; even when you are worried, act joyful and real joy will follow. In Adar we keep increasing our simcha.",
+  "keywords": [
+   "sick son",
+   "hakafos",
+   "dancing",
+   "Tehillim",
+   "pidyon nefesh",
+   "doubling pennies",
+   "riddle",
+   "giggling in cheder",
+   "Lubavitch"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A child is gravely ill and the doctors give up hope; he recovers completely."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a Chassid of the Tzemach Tzedek",
+   "his sick son",
+   "the gabbai",
+   "the young Maharash's teacher"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "miracles"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "tehillim"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Lubavitch"
+  ],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "note": "When a Jew is joyful, Hashem shines joy back to him (as cited)."
+   },
+   {
+    "work": "gemara",
+    "ref": "Taanis 29a",
+    "note": "Mishenichnas Adar marbin b'simcha; mishenichnas Av mematin b'simcha."
+   },
+   {
+    "work": "maamarim",
+    "note": "A maamar of the Rebbe from 5746: in our generation we serve Hashem with simcha rather than tears."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 14,
+   "type": "opening",
+   "title": "Greeting"
+  },
+  {
+   "start_sec": 14,
+   "end_sec": 54,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 54,
+   "end_sec": 311,
+   "type": "talk",
+   "title": "Doubling our simcha in Adar",
+   "summary": "Why Adar brings brachos, and a riddle about a penny doubled every day."
+  },
+  {
+   "start_sec": 311,
+   "end_sec": 499,
+   "type": "story",
+   "title": "The young Maharash giggles in cheder",
+   "summary": "The young Rebbe Maharash explains to his father why he laughs when his teacher walks in.",
+   "people": [
+    "rebbe_maharash",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 499,
+   "end_sec": 1027,
+   "type": "story",
+   "title": "Dancing on Simchas Torah",
+   "summary": "A worried father dances with all his might and his joy breaks a decree against his sick son.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 1027,
+   "type": "closing",
+   "title": "Thirty days of simcha",
+   "summary": "Bring music and dancing home this Adar and bring brachos to all."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "16727d2e9e",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.97,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3b05d42392",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Hoshana Rabbah Night: Dancing That Broke a Decree' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "80b558554d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simcha Power: The Chassid Who Danced on Simchas Torah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cc16e78758",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva, Hoshana Rabbah Night: The Dance That Broke the Decree' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f18c947f46",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'What's Your Wish? The Power of Joy' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1d8cd14fa3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Rally, Fourth Night of Sukkos: The Mitteler Rebbe's Simcha' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3342eced38",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Mitteler Rebbe's Cossacks: Simcha Breaks a Decree (Adar)' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "870d0298c2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Young Rebbe Maharash and Mishenichnas Adar (Fragment)' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c4c5e3319c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Keep On Dancing: The Mitteler Rebbe and the Power of Simcha (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same recording as 16727d2e9e, plus a 14-second greeting; this is the more complete copy."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "So let's start with the niggin. I believe in Hashem. I trust in Hashem.",
+   "at_sec": 14
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:04:08Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Tzemach%20Tzedek%20and%20the%20Dancing%20That%20Saved%20a%20Child%20%28Adar%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Tzemach Tzedek and the Dancing That Saved a Child (Adar).mp3",
+  "size_bytes": 13454559,
+  "mime_type": "audio/mpeg"
+ }
+}

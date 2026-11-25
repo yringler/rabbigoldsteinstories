@@ -1,0 +1,170 @@
+{
+ "id": "72ed5747fb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Shivisi Hashem-Purim Koton 516",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Shivisi Hashem - The First Thought of the Day (Purim Katan) (Ep 516).mp3",
+  "duration_sec": 417.66,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 516,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 516,
+   "story": "The mystery of Toras Emes",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shivisi Hashem: The First Thought of the Day (Purim Katan)",
+  "title_basis": "filename",
+  "summary_short": "On Purim Katan, Uncle Yossi teaches that the first thought each morning is that Hashem is before us, followed by Modeh Ani, so we start the day with joy.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired on Purim Katan in a leap year. Uncle Yossi explains that Purim Katan falls in Adar Rishon, a month before Purim, and prays that we celebrate a 'big Purim' with Moshiach. He then returns to the opening line of the Shulchan Aruch, 'Shivisi Hashem lenegdi samid', and explains that it comes first because it is the first thing to do each morning: picture Hashem standing before you. Hashem stayed at your bedside all night, as Dovid HaMelech wrote that the Guardian of Israel never slumbers or sleeps. We only think the words of Shivisi, because Hashem's name may not be said before washing our hands, and then we say Modeh Ani, which has no Divine name, to thank Hashem for returning our soul. Knowing we are in Hashem's presence fills us with joy, and Hashem helps a child who starts the day happily stay happy all day, especially in Adar.",
+  "lesson": "Begin each day by remembering that Hashem is before you, thank Him with Modeh Ani, and serve Him with joy.",
+  "keywords": [
+   "morning",
+   "first thought",
+   "Shulchan Aruch",
+   "Modeh Ani",
+   "washing hands",
+   "Hashem never sleeps",
+   "leap year"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 516,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-02-18",
+   "hebrew": "14 Adar I 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight it's Purim Katan'; aired in episode 516 (14 Adar I 5752)."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "morning_routine",
+   "calendar"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "simcha",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "negel_vasser",
+   "shema"
+  ],
+  "calendar": [
+   "purim_katan",
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 1:1",
+    "note": "Opens with 'Shivisi Hashem lenegdi samid'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "70f8ca0fa2",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 56,
+   "note": "Episode 516 (filename number); clip = 56-473 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers back to 'last week' (the Shulchan Aruch talk in episode 513/515), but stands on its own."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Shivisi%20Hashem%20-%20The%20First%20Thought%20of%20the%20Day%20%28Purim%20Katan%29%20%28Ep%20516%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Shivisi Hashem - The First Thought of the Day (Purim Katan) (Ep 516).mp3",
+  "size_bytes": 5012886,
+  "mime_type": "audio/mpeg"
+ }
+}

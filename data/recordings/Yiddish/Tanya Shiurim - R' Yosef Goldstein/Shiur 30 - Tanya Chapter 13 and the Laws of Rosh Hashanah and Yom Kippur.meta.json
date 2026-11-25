@@ -1,0 +1,314 @@
+{
+ "id": "332f976b78",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "30 P 13",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 30 - Tanya Chapter 13 and the Laws of Rosh Hashanah and Yom Kippur.mp3",
+  "duration_sec": 7346.782,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 30: Tanya Chapter 13 and the Laws of Rosh Hashanah and Yom Kippur",
+  "title_basis": "content",
+  "summary_short": "Two Yiddish classes on one recording: Tanya chapter 13 on the beinoni and the tzaddik, with the laws of Rosh Hashanah before the holiday and the laws of Yom Kippur during the Ten Days of Teshuvah.",
+  "summary_long": "Shiur 30 in Rabbi Yosef Goldstein's Yiddish Tanya series. The file holds two classes. The first, given just before Rosh Hashanah, continues Tanya chapter 13: even a beinoni who learns Torah day and night for its own sake has not uprooted his evil; it is only locked away, like a prisoner who waits to break out, while the tzaddik has transformed it. A parable about two kinds of prison, which the Rebbe once spoke of, makes the point. It explains why the siddur describes the seraphim and holy chayos before Shema, and then teaches the laws of Rosh Hashanah from the Alter Rebbe's Shulchan Aruch: HaMelech HaKadosh, HaMelech HaMishpat, Zachreinu, bowing, greetings and why Rosh Hashanah comes before Yom Kippur. The second class, during the Ten Days of Teshuvah, studies Rabbah's words 'such as I am a beinoni', the beinoni compared to a sleeper whose evil wakes after davening, and whether a tzaddik still has free choice. It closes with the laws of Yom Kippur: taking stock, steps of teshuvah, kaparos, eating on Erev Yom Kippur and asking forgiveness, and ends with a story of Rabbi Levi Yitzchak of Berditchev.",
+  "lesson": "The beinoni keeps his evil locked away through Torah and prayer; in the Days of Awe one crowns Hashem as King, takes an honest accounting and sets things right with others.",
+  "keywords": [
+   "beinoni",
+   "tzaddik",
+   "prison parable",
+   "seraphim",
+   "HaMelech HaKadosh",
+   "Zachreinu",
+   "kaparos",
+   "Erev Yom Kippur",
+   "asking forgiveness",
+   "free choice",
+   "apple"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-09",
+   "hebrew": "Elul 5736 - Tishrei 5737",
+   "hebrew_year": 5737,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "First class just before Rosh Hashanah 5737 (teaches its laws); second during the Ten Days of Teshuvah (about 21-28 Sept 1976). Closing blessing hints at 5737."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "13",
+    "to": "13",
+    "lecture_number": 30,
+    "note": "Two classes: daf 18a and 18b (Rabbah 'kegon ana beinoni', the sleeper parable)."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "unit": "siman",
+    "from": "582",
+    "to": "582",
+    "lecture_number": 30,
+    "note": "Hilchos Rosh Hashanah (OC 582)"
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "unit": "siman",
+    "from": "603",
+    "to": "606",
+    "lecture_number": 30,
+    "note": "Laws of the Ten Days of Teshuvah and Erev Yom Kippur (OC 603-606)"
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "ramban",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "appears"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbah (the Amora)",
+   "a father and his clever child"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "halachah",
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "self_control",
+   "yiras_shamayim",
+   "kabbalas_ol",
+   "forgiveness"
+  ],
+  "mitzvos": [
+   "davening",
+   "teshuvah",
+   "brachos",
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah",
+   "aseres_yemei_teshuvah",
+   "yom_kippur"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 13"
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "ref": "OC 582; OC 603-606"
+   },
+   {
+    "work": "gemara",
+    "ref": "Berachos 61b (Rabbah: 'such as I am a beinoni'); Berachos 21a"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah"
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 30:15, 19; Vayikra 23:32"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "3:1"
+   },
+   {
+    "work": "tehillim",
+    "ref": "109:22"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "on two kinds of prison"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 2317,
+   "type": "text_study",
+   "title": "Tanya chapter 13: the beinoni's evil is locked away",
+   "summary": "Even a beinoni who learns all day is not a tzaddik; his evil is restrained, while the tzaddik has transformed his."
+  },
+  {
+   "start_sec": 549,
+   "end_sec": 697,
+   "type": "sichah",
+   "title": "Two kinds of prison",
+   "summary": "A parable the Rebbe used: one prison reforms the thief, the other only holds him until he can steal again.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1844,
+   "end_sec": 2140,
+   "type": "talk",
+   "title": "Why the siddur speaks of the seraphim and chayos",
+   "summary": "Reminding the animal soul of its lofty root, as one reminds a person of his fine ancestry, to bring it to love of Hashem."
+  },
+  {
+   "start_sec": 2317,
+   "end_sec": 3824,
+   "type": "halachah",
+   "title": "Laws of Rosh Hashanah",
+   "summary": "HaMelech HaKadosh and HaMelech HaMishpat, bowing, Zachreinu and the other additions, greetings, and why Rosh Hashanah precedes Yom Kippur.",
+   "calendar": [
+    "rosh_hashanah",
+    "aseres_yemei_teshuvah"
+   ]
+  },
+  {
+   "start_sec": 3824,
+   "end_sec": 5728,
+   "type": "text_study",
+   "title": "Tanya chapter 13: Rabbah, the sleeper and the tzaddik's free choice",
+   "summary": "A second class: the beinoni is like a sleeper whose evil wakes after davening, and the question of how a tzaddik still has free choice."
+  },
+  {
+   "start_sec": 5728,
+   "end_sec": 7346,
+   "type": "halachah",
+   "title": "Laws of the Ten Days of Teshuvah and Yom Kippur",
+   "summary": "Taking stock, steps of teshuvah, sins done unknowingly, Ne'ilah, kaparos, eating on Erev Yom Kippur and asking forgiveness of others.",
+   "calendar": [
+    "aseres_yemei_teshuvah",
+    "yom_kippur"
+   ]
+  },
+  {
+   "start_sec": 7198,
+   "end_sec": 7281,
+   "type": "story",
+   "title": "Rabbi Levi Yitzchak of Berditchev: the child and the apple",
+   "summary": "A clever child makes a brachah on an apple so his father must give it to him, just as Jews say 'Blessed are You, Who forgives' on Yom Kippur.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "multiple_programs"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two weekly classes joined in one file; the second starts at about 63:44. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:41Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File holds two classes (before Rosh Hashanah and during the Ten Days of Teshuvah); boundary at about 63:44.",
+   "Ramban as the Pirkei Avos commentator is inferred from garbled ASR."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2030%20-%20Tanya%20Chapter%2013%20and%20the%20Laws%20of%20Rosh%20Hashanah%20and%20Yom%20Kippur.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 30 - Tanya Chapter 13 and the Laws of Rosh Hashanah and Yom Kippur.mp3",
+  "size_bytes": 88162229,
+  "mime_type": "audio/mpeg"
+ }
+}

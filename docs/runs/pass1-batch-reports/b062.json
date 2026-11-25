@@ -1,0 +1,24 @@
+{
+ "batch_id": "b062",
+ "done": [
+  "a05fbdecf2",
+  "5e786ca354",
+  "92ce45332c",
+  "5a39862ac0",
+  "d87365af6a",
+  "e351e6a1a6",
+  "5385843036",
+  "1cd7878c66",
+  "9330d2b440"
+ ],
+ "failed": [],
+ "notes": [
+  "IDENTITY: in 5e786ca354 (at about 1:34) the weekly 'I believe in Hashem' storyteller says 'my father, who's called Uncle Yossi, was studying as a Bachar in 770' and calls Uncle Yossi's father 'my Zayda' with a Borough Park printing press. So storyteller_i_believe is very likely a son of Rabbi Yosef Goldstein. Recorded in identity_guesses (medium) for 5e786ca354 and a05fbdecf2.",
+  "ce28d1962a ('R Meir rafaels - Aguna') is an edit that reuses the agunah story audio from 5e786ca354 (from 11:47) and a05fbdecf2 with a new intro. Added alternate_take relations from both parts; pass 2 should decide which version is preferred.",
+  "The tzitzis-string story of Reb Meir Refoels (Eliyahu HaNavi as the peddler) appears both in a05fbdecf2 (11:46 onward) and as 'The Best Deal' (5385843036); linked with same_story.",
+  "The 'black dot on white paper' experiment is used in both d87365af6a and 9330d2b440 (same narrator); not linked as a relation because it is only an illustration in each.",
+  "92ce45332c (The Agunah, Tzemach Tzedek), e351e6a1a6 (ban on shalach manos) and 1cd7878c66 (Buried Treasure) share a read-aloud style with the title read at the start and no song. The narrator is unidentified (speakers: unknown, series: null), possibly read from a printed story collection. 92ce45332c is a different agunah story from the Alter Rebbe/Reb Meir Refoels set.",
+  "9330d2b440 (The Calculator) seems cut off at the end of the file ('We need Geula'). It is dated to Elul of a leap year (5782 or 5784?). 5a39862ac0 is dated to the week of Parshas Lech Lecha, year unknown.",
+  "In the two-part sets, both 5e786ca354 and 5a39862ac0 end with 'to be continued next week', which fits a weekly series order."
+ ]
+}

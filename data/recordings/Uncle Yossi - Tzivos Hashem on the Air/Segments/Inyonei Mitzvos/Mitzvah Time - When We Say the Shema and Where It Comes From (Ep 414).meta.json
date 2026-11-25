@@ -1,0 +1,160 @@
+{
+ "id": "998600af34",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Shema 414",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Mitzvah Time - When We Say the Shema and Where It Comes From (Ep 414).mp3",
+  "duration_sec": 150.601,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 414,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 414,
+   "story": "The storyteller #9 (climax)",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Mitzvah Time: When We Say the Shema and Where It Comes From",
+  "title_basis": "content",
+  "summary_short": "We say the Shema twice a day, at night and in the morning; its words come from Devarim chapter 6, and we add 'Baruch Shem' after the first verse.",
+  "summary_long": "A short Mitzvah Time lesson from the Tzivos Hashem radio show. Uncle Yossi teaches that the mitzvah of Shema Yisroel is said twice a day, in the evening and in the morning, 'when you lie down and when you rise up', so children should say it before going to sleep. He names the five books of the Chumash and shows that the first paragraph of the Shema is in Devarim, chapter 6, verses 4 through 9. He then reminds listeners that after the first verse, before 'V'ahavta', we add the words 'Baruch Shem Kevod Malchuso L'olam Va'ed', just as everyone does on the radio show each week.",
+  "lesson": "Say the Shema every night and every morning, and remember to add 'Baruch Shem' after the first verse.",
+  "keywords": [
+   "Shema",
+   "bedtime",
+   "morning",
+   "five books of the Torah",
+   "Devarim",
+   "Baruch Shem"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 414,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-01-30",
+   "hebrew": "4 Shevat 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 414 (candle-time sequence)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "prayer_and_brachos"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 6:4-9",
+    "note": "The first paragraph of the Shema."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "e6879ae744",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 1491,
+   "note": "Episode 414 (filename number); clip = 1491-1641 s of the episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "09bc4fa30c",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Consecutive Mitzvah Time lessons on the Shema (414: when and where; 415: kavanah of Echad)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "129637fdeb",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Consecutive Mitzvah Time lessons on the Shema (414: when and where)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('And this mitzvah is...'), but the meaning is clear. First lesson of a Mitzvah Time series on the Shema (continued in 415-417)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:41:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Mitzvah%20Time%20-%20When%20We%20Say%20the%20Shema%20and%20Where%20It%20Comes%20From%20%28Ep%20414%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Mitzvah Time - When We Say the Shema and Where It Comes From (Ep 414).mp3",
+  "size_bytes": 1808271,
+  "mime_type": "audio/mpeg"
+ }
+}

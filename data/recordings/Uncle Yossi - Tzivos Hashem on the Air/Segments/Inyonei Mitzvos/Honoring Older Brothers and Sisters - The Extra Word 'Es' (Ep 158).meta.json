@@ -1,0 +1,149 @@
+{
+ "id": "0fc136be34",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Kibbud Av V'Eim 158",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Honoring Older Brothers and Sisters - The Extra Word 'Es' (Ep 158).mp3",
+  "duration_sec": 270.063,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 158,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 158,
+   "story": "The three loaves of bread",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Honoring Older Brothers and Sisters: The Extra Word 'Es'",
+  "title_basis": "content",
+  "summary_short": "Why does the Torah say 'es' in the mitzvah to honor father and mother? The Sages learn that we must also honor an older brother or sister, and anyone older than us.",
+  "summary_long": "A Mitzvah Time talk from the Tzivos Hashem radio show. Uncle Yossi asks why the Torah writes 'kabed es avicha v'es imecha' with the little word 'es' twice, when it could have said simply 'honor your father and mother'. Every word and letter of the Torah is holy and teaches something; the very word Torah means teaching. The Sages explain that 'es' comes to include an older brother, and so we must show honor and respect to older brothers and sisters, uncles and aunts, and anyone older than us. Uncle Yossi gives practical examples of derech eretz: let an older brother or sister go into a room first, and let them begin eating first at the table. The clip ends as he introduces the week's phone-in question about honoring Tati, which is not included.",
+  "lesson": "Show respect to your older brothers and sisters, and to everyone older than you: let them go first.",
+  "keywords": [
+   "older brother",
+   "older sister",
+   "the word es",
+   "Ten Commandments",
+   "derech eretz",
+   "going first"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 158,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-01-08",
+   "hebrew": "15 Teves 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 158 (week after Asarah B'Teves 5745)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "family_and_home",
+   "character"
+  ],
+  "midos": [
+   "kibbud"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem",
+   "kibbud_zekeinim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:12",
+    "note": "The extra 'es' includes an older brother (as taught by the Sages)."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with the lead-in to the phone-in question about honoring Tati; the call itself is not in the clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:52Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "edb070d876",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 363,
+   "note": "Episode 158 (filename number); clip = 363-633 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Honoring%20Older%20Brothers%20and%20Sisters%20-%20The%20Extra%20Word%20%27Es%27%20%28Ep%20158%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Honoring Older Brothers and Sisters - The Extra Word 'Es' (Ep 158).mp3",
+  "size_bytes": 3241776,
+  "mime_type": "audio/mpeg"
+ }
+}

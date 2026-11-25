@@ -1,0 +1,207 @@
+{
+ "id": "ef5394bb72",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Asarah B'Teves Happy 260",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/When the Fast Days Become Yomim Tovim - Asarah B'Teves and Moshiach (Ep 260).mp3",
+  "duration_sec": 173.899,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 260,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 260,
+   "story": "",
+   "topic": "עשרה בטבת",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "When the Fast Days Become Yomim Tovim: Asarah B'Teves and Moshiach",
+  "title_basis": "content",
+  "summary_short": "Hashem promised that Asarah B'Teves, Shiva Asar B'Tammuz and Tisha B'Av will become days of joy when Moshiach gathers us to Eretz Yisroel and the third Beis HaMikdash.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, following the explanation of Asarah B'Teves. Uncle Yossi tells children that Hashem has promised to turn the sad fast days, Asarah B'Teves, Shiva Asar B'Tammuz and Tisha B'Av, into Yomim Tovim of happiness. This will happen very soon, at the end of golus, when Moshiach gathers all Jews from the four corners of the world back to Eretz Yisroel and we see the third Beis HaMikdash, built by Hashem Himself. He prays that by next year Asarah B'Teves will already be celebrated as a new holiday, when Israel rejoices in Hashem and Hashem rejoices in Israel.",
+  "lesson": "The sad days of the Jewish calendar will become days of joy with the coming of Moshiach, so we pray for it to happen speedily.",
+  "keywords": [
+   "fast days",
+   "golus",
+   "third Beis HaMikdash",
+   "ingathering of exiles",
+   "new holiday"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 260,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1987-01-13",
+   "hebrew": "12 Teves 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 260, two days after Asarah B'Teves 5747; the same piece also aired in episodes 5, 157, 355, 410, 459, 507 and 555."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "calendar",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "fast_days"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "149:2 / 104:31",
+    "note": "'Yismach Yisrael b'osav' and 'Yismach Hashem b'maasav'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "2502f04235",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 355."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "38d83b32ce",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "Also aired in episode 157."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "393f61d950",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 555."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7e9d4fa376",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "Also aired in episode 410."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b8577c47e9",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 507."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bfcb743595",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "Also aired in episode 459."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "efb72976ab",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 5."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "672ff77943",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 1431,
+   "note": "Episode 260 (filename number); clip = 1431-1605 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "48d68b1ed7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Follows directly after 'Asarah B'Teves 260' in episode 260 (889-1422 s, then 1431-1605 s)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'all of these sad days', referring back to the Asarah B'Teves talk."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:13Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/When%20the%20Fast%20Days%20Become%20Yomim%20Tovim%20-%20Asarah%20B%27Teves%20and%20Moshiach%20%28Ep%20260%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/When the Fast Days Become Yomim Tovim - Asarah B'Teves and Moshiach (Ep 260).mp3",
+  "size_bytes": 2087897,
+  "mime_type": "audio/mpeg"
+ }
+}

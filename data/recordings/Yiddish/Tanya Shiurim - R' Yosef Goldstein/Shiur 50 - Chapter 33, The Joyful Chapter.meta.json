@@ -1,0 +1,304 @@
+{
+ "id": "c85ce18cdf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "50 perek 33",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 50 - Chapter 33, The Joyful Chapter.mp3",
+  "duration_sec": 3642.07,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 50: Chapter 33, The Joyful Chapter",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Tanya shiur on chapter 33: serving Hashem with joy, the difference between bitterness and sadness, and the true unity of Hashem as the key to simcha.",
+  "summary_long": "Shiur 50 in Rabbi Yosef Goldstein's Yiddish Tanya series, on Tanya chapter 33, 'the joyful chapter'. It asks how the Torah can command 'serve Hashem with joy', and answers that true joy comes only from something true and lasting: Torah and mitzvos. Tanya chapter 1 shows that sadness is the most dangerous state, and the class reviews the difference between healthy bitterness, which leads to action, and sadness, which must be driven away. The Rebbe once chose lines from this chapter for children to recite at the Lag BaOmer parade. The class then studies the chapter's meditation on Hashem's true unity: the 'lower' and 'higher' ways of seeing the world, illustrated by the vastness of the heavens measured in light-years, and by a story of the Mitteler Rebbe, who refused to admit a mysterious visitor. The world before and after Creation is the same before Hashem, and dwelling on this brings deep joy. After a sign-off, the next session recaps, contrasts plain unity with true unity, and explains through the mashal of speech, thought and the heart's desire how the world, created by Hashem's word, is completely nullified to Him, with a story of the Arizal's hour-long vision.",
+  "lesson": "Real, lasting joy comes from contemplating that nothing exists apart from Hashem; such joy drives away sadness and fills one's service of Hashem.",
+  "keywords": [
+   "simcha",
+   "sadness",
+   "bitterness",
+   "light-years",
+   "stars",
+   "yesh me'ayin",
+   "letters of thought",
+   "Lag BaOmer parade",
+   "robbers' town",
+   "true unity"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "rishonim_acharonim"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "33",
+    "to": "33",
+    "lecture_number": 50,
+    "note": "Two sessions on chapter 33; the first signs off at about 43:00 and the second resumes at daf 42."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A story mentions a town of robbers who raided Jewish villages and was destroyed by fire."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "arizal",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "chana_mother_of_shmuel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a mysterious visitor (the heavenly minister of a robbers' town)",
+   "the Mitteler Rebbe's gabbai",
+   "the Arizal's students"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "hashem_in_nature"
+  ],
+  "midos": [
+   "simcha",
+   "emunah",
+   "anavah"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 1; ch. 20-21; ch. 31; ch. 33"
+   },
+   {
+    "work": "tehillim",
+    "ref": "100:2"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "2:13"
+   },
+   {
+    "work": "gemara",
+    "ref": "Niddah 30b"
+   },
+   {
+    "work": "neviim",
+    "ref": "Shmuel I 2:3"
+   },
+   {
+    "work": "midrash",
+    "ref": "Every blade of grass has a mazal above"
+   },
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Story of the Arizal"
+   },
+   {
+    "work": "siddur",
+    "ref": "Atah hu ad shelo nivra ha'olam"
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "Saying of the elder Chassidim on sadness"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 180,
+   "type": "text_study",
+   "title": "The joyful chapter: how can joy be commanded?",
+   "summary": "Serving Hashem with joy is a command because Torah and mitzvos are a true reason for joy."
+  },
+  {
+   "start_sec": 180,
+   "end_sec": 660,
+   "type": "review",
+   "title": "Sadness versus bitterness",
+   "summary": "Tanya chapters 1 and 31: sadness is the root of failure, while bitterness that leads to action is welcome."
+  },
+  {
+   "start_sec": 660,
+   "end_sec": 720,
+   "type": "talk",
+   "title": "Chapter 33 at the Lag BaOmer parade",
+   "summary": "The Rebbe chose lines from this chapter for children to recite at the parade.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 720,
+   "end_sec": 1045,
+   "type": "text_study",
+   "title": "Joy through contemplation",
+   "summary": "A person's power to picture ideas deeply in the mind brings feelings into the heart."
+  },
+  {
+   "start_sec": 1045,
+   "end_sec": 1625,
+   "type": "text_study",
+   "title": "Hashem's true unity and the size of the heavens",
+   "summary": "The lower and higher views of unity, and the vastness of the universe measured in light-years."
+  },
+  {
+   "start_sec": 1625,
+   "end_sec": 2025,
+   "type": "story",
+   "title": "The Mitteler Rebbe and the mysterious visitor",
+   "summary": "Every blade of grass has a mazal above; the Mitteler Rebbe refused to admit a stranger, for reasons revealed later.",
+   "people": [
+    "mitteler_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2025,
+   "end_sec": 2560,
+   "type": "text_study",
+   "title": "Before and after Creation, and the recipe for joy",
+   "summary": "Before Hashem the world is as nothing, as before Creation, and contemplating this brings joy."
+  },
+  {
+   "start_sec": 2560,
+   "end_sec": 2588,
+   "type": "closing",
+   "title": "Until next week",
+   "summary": "The first session signs off."
+  },
+  {
+   "start_sec": 2588,
+   "end_sec": 3140,
+   "type": "text_study",
+   "title": "Plain unity and true unity",
+   "summary": "The next session recaps, then contrasts setting aside one's will before the Creator with seeing that nothing exists apart from Him."
+  },
+  {
+   "start_sec": 3140,
+   "end_sec": 3440,
+   "type": "text_study",
+   "title": "The mashal of speech, thought and the heart",
+   "summary": "Letters of speech are nullified to letters of thought, and those to the heart's desire."
+  },
+  {
+   "start_sec": 3440,
+   "end_sec": 3570,
+   "type": "story",
+   "title": "The Arizal's hour-long vision",
+   "summary": "What the Arizal saw in an hour would take eighty or ninety years to tell.",
+   "people": [
+    "arizal"
+   ]
+  },
+  {
+   "start_sec": 3570,
+   "end_sec": 3642,
+   "type": "text_study",
+   "title": "Creation by Hashem's word is nullified to Him",
+   "summary": "The world, made with Hashem's letters, has no existence apart from Him."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two weekly sessions on chapter 33 in one file (sign-off at about 43:00). ASR repetition loop at about 50:53. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:45Z",
+  "confidence": {
+   "title": "high",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Segment boundaries are approximate (Yiddish ASR)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2050%20-%20Chapter%2033%2C%20The%20Joyful%20Chapter.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 50 - Chapter 33, The Joyful Chapter.mp3",
+  "size_bytes": 43705691,
+  "mime_type": "audio/mpeg"
+ }
+}

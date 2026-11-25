@@ -1,0 +1,301 @@
+{
+ "id": "9332083630",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "511",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 511 - The Mountain of Ice (Yud Shevat) (1992-01-14).mp3",
+  "duration_sec": 1743.856,
+  "filename_facts": {
+   "episode_number": 511,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 511,
+   "story": "The mountain of ice",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 511: The Mountain of Ice (Yud Shevat)",
+  "title_basis": "master_catalog",
+  "summary_short": "On the eve of Yud Shevat, Uncle Yossi tells of the Frierdiker Rebbe's mesiras nefesh for Torah, then the story of Reb Meir of Premishlan, who walked down an icy mountain without slipping.",
+  "summary_long": "Broadcast on the eve of Yud Shevat. Uncle Yossi explains that this is the yahrzeit of the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneersohn, who built a network of underground yeshivos in Soviet Russia, was arrested and sentenced to death in 1927, was saved by miracles, and in 1940 came to New York and sent scholars across America to found yeshivos. On this day we resolve to learn more Torah, do more mitzvos and give more tzedakah. After the Hakochainik march, two young siblings say the Shema in Studio 604, and everyone gives tzedakah. Story time: in Premishlan a mikvah stood atop a steep mountain whose steps froze over in winter, yet Reb Meir walked up and down them daily without slipping. Two visiting businessmen mocked the sight, tried it themselves and tumbled down. After recovering they asked his forgiveness and his secret: 'One who is tied above does not fall below.' Through Torah and mitzvos we bind ourselves to Hashem. The show ends with a listener's letter about giving tzedakah and Shabbos candle-lighting times.",
+  "lesson": "When we tie ourselves to Hashem through Torah and mitzvos, we do not fall.",
+  "keywords": [
+   "icy steps",
+   "mountain",
+   "mikvah",
+   "Premishlan",
+   "underground yeshivos",
+   "arrest",
+   "yahrzeit",
+   "businessmen",
+   "mailbox",
+   "Shabbos candles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 511,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1992-01-14",
+   "hebrew": "9 Shevat 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'The evening right before Yud Shevat'; 9 Shevat 5752 was a Tuesday. Candle time 4:36 fits."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe was arrested and sentenced to death in Soviet Russia for teaching Torah; he was saved.",
+    "at_sec": 150
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two young Shema guests and a letter writer named in full.",
+    "at_sec": 682
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_of_premishlan",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "two visiting businessmen",
+   "the people of Premishlan"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidic_masters",
+   "mesiras_nefesh_kiddush_hashem",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "anavah",
+   "kibbud",
+   "mesiras_nefesh",
+   "forgiveness"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch",
+   "tzedakah",
+   "shema",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 4:4",
+    "note": "'You who cleave to Hashem your G-d are all alive today.'"
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "Reb Meir of Premishlan: 'Whoever is tied above does not fall below'",
+    "note": "Quoted in Yiddish."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 47,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 47,
+   "end_sec": 356,
+   "type": "talk",
+   "title": "Yud Shevat: The Frierdiker Rebbe and the Underground Yeshivos",
+   "summary": "The Frierdiker Rebbe's yahrzeit: his mesiras nefesh for Torah in Russia, his arrest and rescue, and his yeshivos in America.",
+   "people": [
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "yud_shevat"
+   ],
+   "linked_items": [
+    "5cb9026466"
+   ]
+  },
+  {
+   "start_sec": 356,
+   "end_sec": 532,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 532,
+   "end_sec": 741,
+   "type": "shema_guest",
+   "title": "Shema with two young guests"
+  },
+  {
+   "start_sec": 741,
+   "end_sec": 790,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 790,
+   "end_sec": 1480,
+   "type": "story",
+   "title": "The Mountain of Ice",
+   "summary": "Reb Meir of Premishlan walks down icy steps without slipping, and teaches two mocking visitors that one tied to Hashem does not fall.",
+   "people": [
+    "rabbi_meir_of_premishlan"
+   ]
+  },
+  {
+   "start_sec": 1480,
+   "end_sec": 1612,
+   "type": "mailbox",
+   "title": "A listener's letter"
+  },
+  {
+   "start_sec": 1612,
+   "end_sec": 1655,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1655,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "5cb9026466",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Yud Shvat 511' = 56-356 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "54ac221b10",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 39: Tanya Chapter 28, Foreign Thoughts During Prayer (Chanukah)' (Stories, 20:22-25:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Children named on air (see hidden). Candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Raizy Kazin",
+    "role": "shema_guest",
+    "group": "age 5",
+    "start_sec": 590,
+    "end_sec": 741
+   },
+   {
+    "name": "Michoel Kazin",
+    "role": "shema_guest",
+    "group": "age 3",
+    "start_sec": 590,
+    "end_sec": 741
+   },
+   {
+    "name": "Esther Mindy Leifer",
+    "role": "mailbox_letter",
+    "start_sec": 1474,
+    "end_sec": 1600
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Spelling of the Shema guests' family name (heard as 'Kazin') is uncertain."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20511%20-%20The%20Mountain%20of%20Ice%20%28Yud%20Shevat%29%20%281992-01-14%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 511 - The Mountain of Ice (Yud Shevat) (1992-01-14).mp3",
+  "size_bytes": 20927119,
+  "mime_type": "audio/mpeg"
+ }
+}

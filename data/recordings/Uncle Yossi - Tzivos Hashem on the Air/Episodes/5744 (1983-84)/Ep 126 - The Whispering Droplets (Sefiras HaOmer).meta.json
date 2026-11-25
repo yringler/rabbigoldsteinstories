@@ -1,0 +1,298 @@
+{
+ "id": "eb89723366",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "126",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 126 - The Whispering Droplets (Sefiras HaOmer).mp3",
+  "duration_sec": 1731.598,
+  "filename_facts": {
+   "episode_number": 126,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 126,
+   "story": "The whispering droplets",
+   "topic": "ספירה",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 126: The Whispering Droplets (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "Counting the Omer teaches how precious time is; then the story of Akiva, who began learning Torah at forty after water droplets wore a hole in a rock.",
+  "summary_long": "Uncle Yossi's Sefirah program. He explains that during Sefiras HaOmer we simply count days, because every day is precious and each one should be better than the one before. Time is a gift from Hashem that can never be bought back, as the funny story of Miriam and her lost dime shows: crying over what is gone only wastes what we have now. After a nine-year-old guest leads the Shema in Studio 604, story time tells 'Never Too Late'. Akiva, forty years old and unlearned, is begged by his devoted wife Rachel to learn Torah. Unsure, he sits by a river and notices that soft drops of water have bored a hole through a hard rock, and he realizes the words of Torah can do the same to his heart. He becomes the great Rabbi Akiva with thousands of students, and gives the credit to Rachel. The mailbox brings a poem about Moshiach and letters about when children say the Twelve Pesukim, followed by a tape offer, a birthday wish, and, before Shavuos, a reminder to grown-ups about Torah classes by telephone.",
+  "lesson": "Time is a precious gift from Hashem, so use every day well; and it is never too late to begin learning Torah, which softens even a heart of stone.",
+  "keywords": [
+   "counting days",
+   "lost dime",
+   "water droplets",
+   "rock",
+   "Rachel",
+   "never too late",
+   "Moshiach poem",
+   "Twelve Pesukim",
+   "Story Time tape",
+   "Torah by telephone"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 126,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-05",
+   "hebrew": "Iyar 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'In the middle of the days of Sefirah... right before Shavuos'; weekly spacing back from 127 (Erev Shavuos, 5 June 1984) gives 29 May 1984."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest, letter writers and a birthday child named on air.",
+    "at_sec": 469
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rachel, Rabbi Akiva's wife",
+   "Miriam, the girl who lost a dime",
+   "Miriam's mother"
+  ],
+  "topics": [
+   "sages",
+   "torah_study",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "hasmadah",
+   "zerizus",
+   "hakaras_hatov",
+   "anavah"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study",
+   "shema",
+   "twelve_pesukim"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'So that your days be lengthened', from the second paragraph of the Shema."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 413,
+   "type": "talk",
+   "title": "Counting the Omer: every day counts",
+   "summary": "Why we count days during Sefirah, and the story of Miriam's lost dime about not wasting precious time.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "e2cf00d09c"
+   ]
+  },
+  {
+   "start_sec": 413,
+   "end_sec": 442,
+   "type": "story_intro",
+   "title": "Tonight's story: Never Too Late"
+  },
+  {
+   "start_sec": 442,
+   "end_sec": 617,
+   "type": "shema_guest",
+   "title": "Shema with a nine-year-old guest in Studio 604"
+  },
+  {
+   "start_sec": 617,
+   "end_sec": 1181,
+   "type": "story",
+   "title": "Never Too Late: Rabbi Akiva and the Whispering Droplets",
+   "summary": "At forty, Akiva sees water droplets wear through a rock and begins learning Torah, becoming the great Rabbi Akiva.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1181,
+   "end_sec": 1480,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a Moshiach poem and Twelve Pesukim letters"
+  },
+  {
+   "start_sec": 1480,
+   "end_sec": 1532,
+   "type": "announcement",
+   "title": "Story Time with Uncle Yossi tape offer"
+  },
+  {
+   "start_sec": 1532,
+   "end_sec": 1646,
+   "type": "announcement",
+   "title": "Birthday wishes"
+  },
+  {
+   "start_sec": 1646,
+   "end_sec": 1704,
+   "type": "announcement",
+   "title": "Before Shavuos: Torah classes by telephone",
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 1704,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "e2cf00d09c",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "'Shmiras HaZman 126' = 29-428 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "eb0459de7a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 23: Kelipah and Kelipas Nogah, Tanya Chapters 6-7' (Stories, 19:28-21:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Tape price, addresses and Torah phone lines are period pieces. Short pause around 14:00-14:35 in the story. Catalog title 'The whispering droplets'; on air the story is called 'Never Too Late'."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehuda Leib Korf",
+    "role": "shema_guest",
+    "group": "age 9; yeshiva heard as 'all later' (probably Oholei Torah)",
+    "start_sec": 469,
+    "end_sec": 617
+   },
+   {
+    "name": "Leah Weiss",
+    "role": "mailbox_letter",
+    "group": "Union City, New Jersey",
+    "start_sec": 1242,
+    "end_sec": 1313
+   },
+   {
+    "name": "Malki, Rifki and Chaim Halpern",
+    "role": "contest_winner",
+    "group": "Brooklyn, New York",
+    "note": "Won the Story Time tape for their Twelve Pesukim letter.",
+    "start_sec": 1333,
+    "end_sec": 1480
+   },
+   {
+    "name": "Chana Mittel",
+    "role": "birthday",
+    "note": "Birthday on Yud Iyar.",
+    "start_sec": 1532,
+    "end_sec": 1590
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Air date: weekly spacing gives 29 May 1984, which is the week episode 125's Bamidbar cue points to."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:54:56Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20126%20-%20The%20Whispering%20Droplets%20%28Sefiras%20HaOmer%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 126 - The Whispering Droplets (Sefiras HaOmer).mp3",
+  "size_bytes": 20780102,
+  "mime_type": "audio/mpeg"
+ }
+}

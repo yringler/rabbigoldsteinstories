@@ -1,0 +1,221 @@
+{
+ "id": "19ca38b078",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "Saved by Negel Vasser 25",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Saved by Negel Vasser - Rabbi Akiva in Prison (Ep 025).mp3",
+  "duration_sec": 364.772,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 25,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 25,
+   "story": "Saved by Negel Vasser",
+   "topic": "Ahavas Yisroel, Shavuos",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Saved by Negel Vasser: Rabbi Akiva in Prison",
+  "title_basis": "filename",
+  "summary_short": "Rabbi Akiva, jailed for teaching Torah, uses his only jug of water to wash his hands and make a brachah, and the amazed ruler frees him and makes him his advisor.",
+  "summary_long": "A story from the Tzivos Hashem radio show. In Rabbi Akiva's time, learning and teaching Torah was forbidden, yet he trusted in Hashem and kept teaching in public. He is thrown into a crowded cell with criminals, and the wardens give the prisoners no food or water for three days. When jugs of water are finally brought in, the ruler happens to pass by. The other prisoners gulp the water down, but Rabbi Akiva pours his over his fingers and makes the brachah for washing negel vasser. Astonished that a thirsty prisoner would use his water for a mitzvah, the ruler has him released and brought to the palace, soon recognizes his wisdom, and makes him his advisor, while the other prisoners are punished. Uncle Yossi draws the lessons: Rabbi Akiva served Hashem with all his heart and soul, and when we keep mitzvos with firm faith, Hashem blesses us with success.",
+  "lesson": "Cherish every mitzvah even when it is hard; when we keep Hashem's mitzvos with firm faith, Hashem blesses us with success.",
+  "keywords": [
+   "prison",
+   "jug of water",
+   "thirst",
+   "ruler",
+   "advisor",
+   "palace",
+   "wardens"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 25,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-05-25",
+   "hebrew": "3 Sivan 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of the source episode 25, fixed by its Erev Shavuos cues."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Rabbi Akiva is imprisoned and left three days without food or water.",
+    "at_sec": 120
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Teaching Torah was forbidden and punished.",
+    "at_sec": 5
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "the prison wardens",
+   "the other prisoners"
+  ],
+  "topics": [
+   "sages",
+   "morning_routine",
+   "mesiras_nefesh_kiddush_hashem"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "bitachon",
+   "self_control"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 119,
+   "type": "story_intro",
+   "title": "Story preview"
+  },
+  {
+   "start_sec": 119,
+   "end_sec": 323,
+   "type": "story",
+   "title": "Rabbi Akiva washes his hands in prison"
+  },
+  {
+   "start_sec": 323,
+   "type": "talk",
+   "title": "The lessons of the story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 526."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "23e24d9359",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 376."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 122."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 224."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "afb5e4a1c3",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 590,
+   "note": "Episode 25 (filename number); clip = 590-955 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Edited clip: the story preview (episode 95-221 s) is joined directly to the story (episode about 709-948 s), skipping the Shema and water talk; at the join (about 1:59) the narration restarts the scene. The required clip_of offset (590) is therefore approximate."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/Saved%20by%20Negel%20Vasser%20-%20Rabbi%20Akiva%20in%20Prison%20%28Ep%20025%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Saved by Negel Vasser - Rabbi Akiva in Prison (Ep 025).mp3",
+  "size_bytes": 4378100,
+  "mime_type": "audio/mpeg"
+ }
+}

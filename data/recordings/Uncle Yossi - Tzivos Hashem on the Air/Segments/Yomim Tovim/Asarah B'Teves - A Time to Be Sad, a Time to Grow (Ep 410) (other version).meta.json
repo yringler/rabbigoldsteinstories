@@ -1,0 +1,243 @@
+{
+ "id": "6bb7db50e1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Asarah B'Teves 410",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Be Sad, a Time to Grow (Ep 410) (other version).mp3",
+  "duration_sec": 502.687,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 410,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 410,
+   "story": "The storyteller #4",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Asarah B'Teves: A Time to Be Sad, a Time to Grow",
+  "title_basis": "content",
+  "summary_short": "Why we fast on Asarah B'Teves: the siege of Yerushalayim that led to the destruction of the Beis HaMikdash, and how remembering sad days helps us grow.",
+  "summary_long": "A talk for the fast of Asarah B'Teves from the Tzivos Hashem radio show. Uncle Yossi begins with Shlomo HaMelech's teaching that there is a time for everything: a time to be joyful and, once in a while, a time to be sad, not to stay sad but to become better. On the tenth of Teves the armies of Nevuchadnetzar, king of Bavel, surrounded Yerushalayim and sealed its gates, and the people inside grew weak from hunger. After two and a half years the walls were breached on the seventeenth of Tammuz, and three weeks later, on Tisha B'Av, the Beis HaMikdash was destroyed. We remember these days to ask what caused them and to make sure they never happen again. As long as we learn Torah and keep its mitzvos, no power can harm us, for, as Dovid HaMelech wrote in Tehillim, the Guardian of Israel neither slumbers nor sleeps.",
+  "lesson": "We remember sad days to learn from them and improve; learning Torah and keeping mitzvos keeps us under Hashem's protection.",
+  "keywords": [
+   "fast day",
+   "siege",
+   "Yerushalayim",
+   "Bavel",
+   "city walls",
+   "hunger",
+   "Beis HaMikdash",
+   "time for everything"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 410,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-01-02",
+   "hebrew": "5 Teves 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Sunday, January the 7th, is Asarah B'Teves': only 5750 fits (10 Teves = 1990-01-07). Date of episode 410."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim, hunger in the city and the destruction of the Beis HaMikdash, told gently.",
+    "at_sec": 210
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'Hashem does not slumber nor sleep, the Guardian of Israel.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "2502f04235",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 355."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "38d83b32ce",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "Also aired in episode 157."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "393f61d950",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 555."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "672ff77943",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 260."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bfcb743595",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 459."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d8bd0302fb",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 308."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "efb72976ab",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "Also aired in episode 5."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "7e9d4fa376",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 1184,
+   "note": "Episode 410 (filename number); clip = 1184-1686 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "48d68b1ed7",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.8,
+   "note": "Hint: this audio is contained in 'Asarah B'Teves 260', which matches the same span length in episode 260; likely the same talk cut from another airing."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "48d68b1ed7",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.7,
+   "note": "Preferred version: the same Asarah B'Teves talk with a re-recorded 5750 opening (episode 410); episode 260 is the earlier, fuller cut."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 48d68b1ed7 ('Asarah B'Teves 260'), the preferred copy: the same Asarah B'Teves talk with a re-recorded 5750 opening (episode 410); episode 260 is the earlier, fuller cut. Opens with 'this coming Sunday, January the 7th' (5750). The full episode continues past the clip with the promise that the fasts will become Yomim Tovim."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Also aired in episode 5 (about 5742) and others, yet the opening names Sunday, January 7th, which fits only 5750: the other airings may use a different intro, or this file's source may differ."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Asarah%20B%27Teves%20-%20A%20Time%20to%20Be%20Sad%2C%20a%20Time%20to%20Grow%20%28Ep%20410%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Be Sad, a Time to Grow (Ep 410) (other version).mp3",
+  "size_bytes": 6033216,
+  "mime_type": "audio/mpeg"
+ }
+}

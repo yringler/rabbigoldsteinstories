@@ -1,0 +1,142 @@
+{
+ "id": "7f95606df1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "12 Psukim 453",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Twelve Pesukim - Asking for Hashem's Protection Every Day (Ep 453).mp3",
+  "duration_sec": 101.408,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 453,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 453,
+   "story": "Reb Ariel and the lion",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Twelve Pesukim: Asking for Hashem's Protection Every Day",
+  "title_basis": "content",
+  "summary_short": "Why every child should learn the Twelve Pesukim by heart and say them every day: they show Hashem we are thinking of Him and bring His protection.",
+  "summary_long": "A short message from the Tzivos Hashem radio show. Uncle Yossi tells children, especially soldiers in Tzivos Hashem, that it is more important than ever to learn the specially selected Twelve Pesukim by heart and to say them at least once every day. Until they know them by heart, they can keep a printed copy handy and study it in their spare time. We always need Hashem's care, at home, on the way to school and at play, and saying these verses, which teach the greatness of Hashem, of Torah and mitzvos, and of being Jewish, shows Hashem that we are thinking of Him and turning to Him for blessing and protection.",
+  "lesson": "Say the Twelve Pesukim every day to show Hashem you are thinking of Him and to ask for His protection.",
+  "keywords": [
+   "twelve sentences",
+   "memorizing",
+   "protection",
+   "printed copy"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 453,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-11-13",
+   "hebrew": "25 Cheshvan 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 453 (candle time 4:19 in the full episode)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "tzivos_hashem",
+   "torah_study",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7a687e3fba",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 1546,
+   "note": "Episode 453 (filename number); clip = 1546-1648 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clip stops before the 'order of the day' and the free-copy offer heard in the full episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Twelve%20Pesukim%20-%20Asking%20for%20Hashem%27s%20Protection%20Every%20Day%20%28Ep%20453%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Twelve Pesukim - Asking for Hashem's Protection Every Day (Ep 453).mp3",
+  "size_bytes": 1218012,
+  "mime_type": "audio/mpeg"
+ }
+}

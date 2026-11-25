@@ -1,0 +1,36 @@
+{
+ "batch_id": "b018",
+ "done": [
+  "4ede6df733",
+  "6d206e85c0",
+  "02f03f1392",
+  "342600f363",
+  "56e69c4059",
+  "7aea3038aa",
+  "9fab00623c",
+  "6c110183df",
+  "282125462c",
+  "049ac80f7b",
+  "6603ee17f1",
+  "f19c7a126f",
+  "378bd4a7bb",
+  "68db0e9e77",
+  "d2b1059d0e",
+  "c35031d788",
+  "d4f5aa3d59",
+  "a59131e21d",
+  "27d3359406",
+  "cfe005f018"
+ ],
+ "failed": [],
+ "notes": [
+  "6c110183df (ep 287, Tisha B'Av 5747) is a same_recording audio-fingerprint match (0.93) with 9cef1efc9e, labeled episode 238, and all three 287 clips also match 238. The content (today is Tisha B'Av, candle time Friday Aug 7) fits 1987, so the file labeled 238 may be a mislabeled copy of 287. Marked 'review'.",
+  "02f03f1392 and cfe005f018 are edited clips: the story recap or intro is joined straight to the story, with the Shema guest cut out. The required-relation offsets (921 s, 848 s) are approximate.",
+  "Story 'Torah The Best Thing of All' ch. 2 (ep 281) also aired in ep 152; chapter 1 (ep 280) and the Heritage file '01 ...' in 'Akiva Torah ship 11m 23s' were not in this batch, so no continues/part_of_set relation was added.",
+  "Ep 290 tells 'Saved by a Miracle #2' (catalog title); on air it is called 'Through the Eyes of a Tzaddik'. Chapter 1 (ep 289) is not in the catalog. The ASR writes 'Rabbi Akiva' for the hero, Reb Boruch.",
+  "Ep 294: the march intro is duplicated on the tape (splice glitch). The Sukkos fair date said on air (Sunday Oct 18) does not fit Chol HaMoed 5748. The show refers to the Shpoler Zeide story 'last week' (ep 293 is missing).",
+  "A visiting teacher (Rabbi Levi Goldstein) is named in eps 290 and 291. Flag identifiable_living_people was used in 290 because no children are named there.",
+  "Unchecked fingerprint candidates: ep 284 with 221/125/529/334; ep 287 with 186 and 'Torah Avoda Ge'mach 186' (e0f067ddc8); ep 290 with 233/191; ep 291 with 544.",
+  "Ep 292's story is a multi-voice radio drama; the voice actors are unidentified (speaker 'unknown')."
+ ]
+}

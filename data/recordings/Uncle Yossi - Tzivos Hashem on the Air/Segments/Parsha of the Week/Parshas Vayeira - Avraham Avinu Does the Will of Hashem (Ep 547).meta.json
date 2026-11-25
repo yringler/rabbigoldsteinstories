@@ -1,0 +1,165 @@
+{
+ "id": "a066ac086e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Vayera 547",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Vayeira - Avraham Avinu Does the Will of Hashem (Ep 547).mp3",
+  "duration_sec": 323.827,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 547,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 547,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Parshas Vayeira: Avraham Avinu Does the Will of Hashem",
+  "title_basis": "content",
+  "summary_short": "At the Akeidah, Avraham Avinu rose early to do exactly what Hashem asked. We do mitzvos for the same reason: because they are Hashem's will.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show for the week of Parshas Vayeira. Uncle Yossi explains that the main reason we do any mitzvah is that it is Hashem's will, and we learn Torah to find out what that will is. This feeling was handed down from Avraham Avinu, the first Jew to recognize Hashem. He tells how Hashem commanded Avraham, who had his son Yitzchak at the age of one hundred, to bring him as an offering; Avraham rose early without hesitation, and Yitzchak was willing too. It was only a test: an angel stopped him and a ram was offered instead, and Hashem blessed Avraham. Just as we are proud of Avraham, we should make him proud of us by learning more Torah, doing more mitzvos, and listening to the Torah reading in shul on Shabbos.",
+  "lesson": "We do mitzvos because they are Hashem's will, and we learn Torah to know what He wants, just as Avraham Avinu did.",
+  "keywords": [
+   "Akeidah",
+   "altar",
+   "ram",
+   "angel",
+   "test",
+   "Torah reading"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 547,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-11-01",
+   "hebrew": "5 Cheshvan 5753",
+   "hebrew_year": 5753,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Week of Parshas Vayeira 5753; the full episode says the show now airs Sunday evenings."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the angel"
+  ],
+  "topics": [
+   "parsha",
+   "tanach"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "kabbalas_ol",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeira"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 22",
+    "note": "The Akeidah, read in this week's parsha."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d25c7f9c63",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 50,
+   "note": "Episode 547 (filename number); clip = 50-374 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Parshas%20Vayeira%20-%20Avraham%20Avinu%20Does%20the%20Will%20of%20Hashem%20%28Ep%20547%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Vayeira - Avraham Avinu Does the Will of Hashem (Ep 547).mp3",
+  "size_bytes": 3886890,
+  "mime_type": "audio/mpeg"
+ }
+}

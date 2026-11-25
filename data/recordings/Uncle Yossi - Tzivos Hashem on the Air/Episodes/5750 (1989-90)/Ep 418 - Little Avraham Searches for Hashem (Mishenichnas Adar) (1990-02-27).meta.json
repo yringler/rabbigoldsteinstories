@@ -1,0 +1,308 @@
+{
+ "id": "26ea9a56c1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "418",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 418 - Little Avraham Searches for Hashem (Mishenichnas Adar) (1990-02-27).mp3",
+  "duration_sec": 1856.3,
+  "filename_facts": {
+   "episode_number": 418,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 418,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 418: Little Avraham Searches for Hashem (Mishenichnas Adar)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi welcomes the month of Adar with extra simcha, teaches what to think when saying the Shema, and tells how young Avraham discovered the one Creator.",
+  "summary_long": "Broadcast on 2 Adar 5750. Uncle Yossi opens with the teaching that when Adar arrives we increase our simcha, serving Hashem with joy and getting a head start toward Purim, and the greatest simcha of all, the coming of Moshiach. After the Hakochainik march, a yeshiva student in Studio 604 leads the Shema. Mitzvah Time explains the meaning of the Shema's words: Shema means both listen and understand, Elokeinu means our God and also our strength and life, and the letters of Echad show that Hashem rules over the heavens, the earth and all four directions. A young listener answers questions about the Shema in a recorded phone call, and everyone gives tzedakah together. Story time tells how little Avraham, at three years old, looked at the sun, the moon and the stars and realized that none of them could be G-d, until he understood that there is one invisible Creator of everything. The show closes with a yahrzeit dedication, Shabbos candle-lighting time and a farewell.",
+  "lesson": "Serve Hashem with extra joy in Adar, and when you say the Shema, think that Hashem is our God, our strength and our life, the one Creator of everything.",
+  "keywords": [
+   "Adar",
+   "simcha",
+   "Shema",
+   "Echad",
+   "Avraham",
+   "sun",
+   "moon",
+   "stars",
+   "Creator",
+   "telephone quiz",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 418,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-02-27",
+   "hebrew": "2 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Dedication says the yahrzeit is 'today, Beis Adar'; 2 Adar 5750 was Tuesday 27 Feb 1990, matching the weekly estimate."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and a child on the telephone quiz named in full.",
+    "at_sec": 493
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "little Avraham"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "tanach",
+   "emunah_bitachon",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "100:2, 'Ivdu es Hashem b'simcha'",
+    "note": "Cited as Dovid HaMelech's teaching."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 255,
+   "type": "talk",
+   "title": "When Adar Arrives, Add Simcha",
+   "summary": "Why we increase our joy from the start of Adar, as a head start toward Purim and the great simcha of Moshiach.",
+   "calendar": [
+    "adar"
+   ],
+   "linked_items": [
+    "d763b291e6"
+   ]
+  },
+  {
+   "start_sec": 255,
+   "end_sec": 464,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 464,
+   "end_sec": 608,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student in Studio 604"
+  },
+  {
+   "start_sec": 608,
+   "end_sec": 989,
+   "type": "talk",
+   "title": "Mitzvah Time: What to Think When Saying the Shema",
+   "summary": "The meaning of Shema, Elokeinu and Echad: Hashem is our God, our strength and our life, and rules over everything.",
+   "linked_items": [
+    "42bbcb8057"
+   ]
+  },
+  {
+   "start_sec": 989,
+   "end_sec": 1128,
+   "type": "quiz",
+   "title": "Telephone quiz on the Shema",
+   "summary": "A young listener explains why we cover our eyes for the Shema and what the letters of Echad mean."
+  },
+  {
+   "start_sec": 1128,
+   "end_sec": 1188,
+   "type": "announcement",
+   "title": "How to join the telephone quiz"
+  },
+  {
+   "start_sec": 1188,
+   "end_sec": 1222,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1222,
+   "end_sec": 1741,
+   "type": "story",
+   "title": "Little Avraham Searches for Hashem",
+   "summary": "Three-year-old Avraham sees the sun, moon and stars come and go, and realizes there is one unseen Creator of everything.",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1741,
+   "end_sec": 1800,
+   "type": "announcement",
+   "title": "Yahrzeit dedication"
+  },
+  {
+   "start_sec": 1800,
+   "end_sec": 1813,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1813,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "42bbcb8057",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Shema 418' = 610-989 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "d763b291e6",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Mishenichnas Adar 418' = 50-255 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "798eaeecfd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer at Home, Part 1: Shavuos, the Sefiros and Getting Ready for an Upsherin' (Stories, 18:26-23:45), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "beeb398177",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 2: The Search, Little Avraham (Yud-Tes Kislev)' (episode 2, 15:15-21:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Candle times are for Friday 2 March 1990. Shema guest and phone-quiz child are named on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Reutblatt",
+    "role": "shema_guest",
+    "group": "yeshiva bachur",
+    "start_sec": 493,
+    "end_sec": 600
+   },
+   {
+    "name": "Schneur Zalman Goldstein",
+    "role": "other",
+    "start_sec": 1017,
+    "end_sec": 1127,
+    "note": "Child answering the telephone quiz on the Shema."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20418%20-%20Little%20Avraham%20Searches%20for%20Hashem%20%28Mishenichnas%20Adar%29%20%281990-02-27%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 418 - Little Avraham Searches for Hashem (Mishenichnas Adar) (1990-02-27).mp3",
+  "size_bytes": 22276605,
+  "mime_type": "audio/mpeg"
+ }
+}

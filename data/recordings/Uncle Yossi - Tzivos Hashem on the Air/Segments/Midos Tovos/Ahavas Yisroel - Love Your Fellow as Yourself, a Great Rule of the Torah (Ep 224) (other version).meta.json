@@ -1,0 +1,227 @@
+{
+ "id": "61dd385c6d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Ahavas Yisroel 224",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Ahavas Yisroel - Love Your Fellow as Yourself, a Great Rule of the Torah (Ep 224) (other version).mp3",
+  "duration_sec": 163.922,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 224,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 224,
+   "story": "Saved by Negel Vasser",
+   "topic": "Sefira, Ahavas Yisroel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Ahavas Yisroel: Love Your Fellow as Yourself, a Great Rule of the Torah",
+  "title_basis": "content",
+  "summary_short": "Rabbi Akiva called loving your fellow as yourself a great rule of the Torah. Uncle Yossi explains why loving every Jew leads to loving Hashem.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. The Torah commands us to love our fellow as much as we love ourselves, and Rabbi Akiva taught that this is not just one more rule but a great rule of the whole Torah. When we truly love one another, we are able to love Hashem and keep all the other mitzvos. As the Alter Rebbe said, Ahavas Yisroel leads to Ahavas Hashem. Uncle Yossi gives a simple example: if you love a friend, you show it by loving the friends he loves too. Hashem says He loves every single Jew, so to show our love for Hashem we must openly love everyone whom Hashem loves.",
+  "lesson": "To show that you love Hashem, love every Jew, because Hashem loves each one of them.",
+  "keywords": [
+   "love your fellow",
+   "great rule",
+   "friendship",
+   "loving Hashem"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 224,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-05-06",
+   "hebrew": "27 Nissan 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 224 (1986-05-06); the same talk aired in several earlier and later episodes."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "character"
+  ],
+  "midos": [
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "'You are to love your fellow man as much as you love yourself.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Audio also found in episode 526."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "23e24d9359",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 376."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "276c6bf981",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 486."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "45e5fe6378",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 184."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4d19621b73",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 135."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 122."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "afb5e4a1c3",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 25."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 387."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 1310,
+   "note": "Episode 224 (filename number); clip = 1310-1474 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "a5f42127fc",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "'Ahavas Yisroel 122' is a clip of the same talk cut from episode 122."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "a5f42127fc",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Preferred version: a shorter cut of the same Ahavas Yisroel talk (episode 224 re-aired episode 122)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of a5f42127fc ('Ahavas Yisroel 122'), the preferred copy: a shorter cut of the same Ahavas Yisroel talk (episode 224 re-aired episode 122)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:02:51Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Ahavas%20Yisroel%20-%20Love%20Your%20Fellow%20as%20Yourself%2C%20a%20Great%20Rule%20of%20the%20Torah%20%28Ep%20224%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Ahavas Yisroel - Love Your Fellow as Yourself, a Great Rule of the Torah (Ep 224) (other version).mp3",
+  "size_bytes": 1968145,
+  "mime_type": "audio/mpeg"
+ }
+}

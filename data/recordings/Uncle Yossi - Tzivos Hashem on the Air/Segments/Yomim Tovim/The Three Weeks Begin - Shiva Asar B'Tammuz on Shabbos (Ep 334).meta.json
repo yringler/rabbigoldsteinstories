@@ -1,0 +1,153 @@
+{
+ "id": "f6e34b6dff",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Three Weeks 334",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Three Weeks Begin - Shiva Asar B'Tammuz on Shabbos (Ep 334).mp3",
+  "duration_sec": 78.718,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 334,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 334,
+   "story": "The Rambam’s Grave",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Three Weeks Begin: Shiva Asar B'Tammuz on Shabbos",
+  "title_basis": "content",
+  "summary_short": "A brief note that Shiva Asar B'Tammuz begins the Three Weeks until Tisha B'Av, and that this year both fasts fall on Shabbos and move to Sunday.",
+  "summary_long": "A short calendar announcement from the Tzivos Hashem radio show. Uncle Yossi explains that this coming Shabbos is Shiva Asar B'Tammuz, the 17th of Tammuz, which begins the Three Weeks, bein hametzarim, ending on Tisha B'Av, the ninth of Av. Both are fast days that remind us of the fall of Yerushalayim to its enemies and the destruction of the Beis HaMikdash. Normally we fast on them, but this year, a Hakhel year, both fall on Shabbos, so the fasts are postponed to Sunday. He closes with a prayer that Hashem postpone these fast days forever by sending Moshiach and bringing everyone back to Eretz Yisroel.",
+  "lesson": null,
+  "keywords": [
+   "17 Tammuz",
+   "Tisha B'Av",
+   "fast days",
+   "postponed fast",
+   "Yerushalayim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 334,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-06-28",
+   "hebrew": "13 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 334 (filename date 1988-06-28); 'this coming Shabbos is Shiva Asar B'Tammuz' fits 5748."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Mentions the fall of Yerushalayim and the destruction of the Beis HaMikdash.",
+    "at_sec": 30
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "fast_days"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks",
+   "tisha_bav",
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The postponed-fast detail applies only to 5748."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "845dab4795",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "offset_sec": 1683,
+   "note": "Episode 334 (filename number); clip = 1683-1762 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Three%20Weeks%20Begin%20-%20Shiva%20Asar%20B%27Tammuz%20on%20Shabbos%20%28Ep%20334%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Three Weeks Begin - Shiva Asar B'Tammuz on Shabbos (Ep 334).mp3",
+  "size_bytes": 945605,
+  "mime_type": "audio/mpeg"
+ }
+}

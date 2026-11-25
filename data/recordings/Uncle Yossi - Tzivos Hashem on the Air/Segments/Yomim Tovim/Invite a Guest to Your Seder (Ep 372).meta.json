@@ -1,0 +1,156 @@
+{
+ "id": "880e95af38",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Pesach Guests 372",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Invite a Guest to Your Seder (Ep 372).mp3",
+  "duration_sec": 91.009,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 372,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 372,
+   "story": "The blessing of a Tzaddik #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Invite a Guest to Your Seder",
+  "title_basis": "content",
+  "summary_short": "Ahavas Yisroel before Pesach: Uncle Yossi asks children to invite relatives or friends who have no Seder of their own, and to invite them early.",
+  "summary_long": "A short reminder from the Tzivos Hashem radio show, broadcast the week before Pesach. Uncle Yossi tells the children, especially the members of Tzivos Hashem, that now is the time for the great mitzvah of Ahavas Yisroel. They can show love for another Jew by inviting a relative or friend who has no Seder of their own to come to theirs on both nights of Pesach, so that the guests can also feel the freedom of 'zman cheiruseinu', make Kiddush and eat matzah just like everyone else. Hashem will bless them for it in body and soul. He also reminds them not to wait for the last minute: call now, so the guests have time to make arrangements. In the merit of this Ahavas Yisroel, may we all be in Yerushalayim next year.",
+  "lesson": "Share your Seder: invite someone who has no Seder of their own, and invite them early.",
+  "keywords": [
+   "Seder guests",
+   "invitation",
+   "matzah",
+   "Kiddush",
+   "freedom",
+   "Yerushalayim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-04-11",
+   "hebrew": "6 Nissan 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 372, dated 11 April 1989 in its filename."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 372,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "seder",
+   "ahavas_yisroel_mitzvah",
+   "matzah"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "f35ed7194d",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Also aired in episode 372."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "c454f1dd5b",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 406,
+   "note": "Episode 372 (filename number); clip = 406-497 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short; a natural pairing with 'Shabbos HaGadol and Pesach Preps 372'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:25Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Invite%20a%20Guest%20to%20Your%20Seder%20%28Ep%20372%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Invite a Guest to Your Seder (Ep 372).mp3",
+  "size_bytes": 1092938,
+  "mime_type": "audio/mpeg"
+ }
+}

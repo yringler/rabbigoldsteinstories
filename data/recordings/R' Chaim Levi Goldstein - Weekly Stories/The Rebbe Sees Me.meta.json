@@ -1,0 +1,241 @@
+{
+ "id": "087ea9cc6e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Rebbe Sees Me",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe Sees Me.mp3",
+  "duration_sec": 1441.704,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Rebbe Sees Me",
+  "title_basis": "filename",
+  "summary_short": "A double story for Yud-Tes Kislev: the Rebbe knew the exact moment a sick woman overseas turned for the better, and the Alter Rebbe sent a mute boy to a hidden tzaddik in faraway Metz.",
+  "summary_long": "On the eve of Yud-Tes Kislev the storyteller explains the words 'and I trust in You' from the kapitel of Tehillim with 'Padah b'shalom', which the Alter Rebbe said on his release, and promises a double story to share at farbrengens, showing that the Rebbeim see what is happening everywhere. First, as told by the Rebbe's secretary Rabbi Groner: on Motzaei Shabbos a shliach overseas calls for a brachah for a woman who collapsed before candle lighting. The Rebbe answers that early that morning, between five and five-thirty, she took a turn for the better because he thought about her, 'so that he should know no one hides from me'; the family confirms the exact time. Second, a father brings his eleven-year-old son, who stopped speaking after a fright, to the Alter Rebbe, who sends them to a lumber merchant at the foot of a hill in Metz. The kind host Naftali tells how his night watchman's hut seemed to glow with fire, revealing a hidden tzaddik who later married his daughter. The tzaddik, seeing he cannot hide from the Alter Rebbe, greets the boy with 'Shalom Aleichem', and the boy answers and cries for joy.",
+  "lesson": "The Rebbe sees and cares for every Jew everywhere, so we should act like proud soldiers in Hashem's army, knowing the Rebbe is watching.",
+  "keywords": [
+   "secretary",
+   "phone call",
+   "hospital",
+   "mute boy",
+   "lumber merchant",
+   "hidden tzaddik",
+   "glowing hut",
+   "night watchman",
+   "Shalom Aleichem",
+   "farbrengen"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_collection",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Erev Yud-Tes Kislev (a Friday)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Yud-Tes Kislev is coming tonight' and a 'Gutten Shabbos' sign-off: Yud-Tes Kislev on Shabbos, e.g. 5781 or 5784; year not stated."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A woman collapses and is critically ill in hospital; a boy cannot speak for years after a fright. Both recover."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_leibel_groner",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Groner, the Rebbe's secretary",
+   "a shliach overseas",
+   "a father and his mute son",
+   "Naftali the lumber merchant",
+   "Naftali's wife Rivkah",
+   "Esther, Naftali's daughter",
+   "the hidden tzaddik"
+  ],
+  "topics": [
+   "hiskashrus",
+   "chabad_rebbeim",
+   "miracles",
+   "calendar"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "chesed",
+   "anavah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "55",
+    "note": "The kapitel with 'Padah b'shalom', said by the Alter Rebbe on his release; 'and I trust in You'."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Story told by Rabbi Groner, the Rebbe's secretary, on video."
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway",
+   "Metz"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 38,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 38,
+   "end_sec": 156,
+   "type": "talk",
+   "title": "The Rebbe is watching",
+   "summary": "Before Yud-Tes Kislev: the Rebbeim see what every Jew is doing.",
+   "calendar": [
+    "yud_tes_kislev"
+   ]
+  },
+  {
+   "start_sec": 156,
+   "end_sec": 455,
+   "type": "story",
+   "title": "Between five and five-thirty",
+   "summary": "The Rebbe knows the exact moment a sick woman overseas began to recover.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 455,
+   "end_sec": 1405,
+   "type": "story",
+   "title": "The hidden tzaddik of Metz",
+   "summary": "The Alter Rebbe sends a mute boy to a hidden tzaddik, who restores his speech.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1405,
+   "type": "closing",
+   "title": "Share the stories at your farbrengen",
+   "calendar": [
+    "yud_tes_kislev"
+   ]
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Recorded for Erev Yud-Tes Kislev; mentions 'you are here in yeshiva'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording year (Yud-Tes Kislev on Shabbos: 5781 or 5784?)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:55Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Rebbe%20Sees%20Me.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe Sees Me.mp3",
+  "size_bytes": 17301453,
+  "mime_type": "audio/mpeg"
+ }
+}

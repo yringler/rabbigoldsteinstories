@@ -1,0 +1,154 @@
+{
+ "id": "e71ce96b12",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Learning in the Summer 333",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Summer Vacation - Torah, Davening and Tzedakah Every Day (Ep 333).mp3",
+  "duration_sec": 153.355,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 333,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 333,
+   "story": "The Island of Treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Summer Vacation: Torah, Davening and Tzedakah Every Day",
+  "title_basis": "content",
+  "summary_short": "Before summer vacation, Uncle Yossi reminds children to learn Torah, daven and give tzedakah every day, and to pack a siddur, Chumash and pushka.",
+  "summary_long": "A short summer talk from the Tzivos Hashem radio show. As children prepare for summer vacation, Uncle Yossi asks them to set aside time every day for three important things: learning Torah, davening and giving tzedakah, Torah, avodah and gemilus chasadim. The Sages teach in Pirkei Avos that the existence of the whole world depends on these three. By doing them every day, even putting a few coins into a tzedakah box, we do our share in keeping the world going, and Hashem will bless us with a pleasant and safe vacation, good health and happiness for the whole family. He reminds them to pack a siddur, a Chumash and other holy books such as Tanach, Tehillim and Shulchan Aruch, and a tzedakah pushka so they can give every day while away.",
+  "lesson": "Even on vacation, learn Torah, daven and give tzedakah every day: the world stands on these three things.",
+  "keywords": [
+   "summer vacation",
+   "packing",
+   "siddur",
+   "Chumash",
+   "pushka",
+   "tzedakah box"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 333,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-06-21",
+   "hebrew": "6 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 333 (filename date 1988-06-21)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "mitzvos_in_daily_life",
+   "torah_study",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "generosity",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:2",
+    "note": "The world stands on Torah, avodah and gemilus chasadim."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Possible short gap or untranscribed passage around 1:03-1:33."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "ec81364f6e",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 1591,
+   "note": "Episode 333 (filename number); clip = 1591-1745 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Summer%20Vacation%20-%20Torah%2C%20Davening%20and%20Tzedakah%20Every%20Day%20%28Ep%20333%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Summer Vacation - Torah, Davening and Tzedakah Every Day (Ep 333).mp3",
+  "size_bytes": 1841202,
+  "mime_type": "audio/mpeg"
+ }
+}

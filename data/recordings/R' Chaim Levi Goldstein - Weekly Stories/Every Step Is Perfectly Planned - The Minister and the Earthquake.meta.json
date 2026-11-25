@@ -1,0 +1,259 @@
+{
+ "id": "6a8170d97f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Every Step Is Perfectly Planned",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Every Step Is Perfectly Planned - The Minister and the Earthquake.mp3",
+  "duration_sec": 1176.927,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Every Step Is Perfectly Planned: The Minister and the Earthquake",
+  "title_basis": "filename",
+  "summary_short": "Hashem plans every step with perfect love. A secret Jew saved from the Inquisition by an earthquake asks the Baal Shem Tov whether it was really a miracle.",
+  "summary_long": "After the song 'I Believe in Hashem', the storyteller explains its words 'every step is perfectly planned': Hashem's love for every Jew is greater than that of elderly parents for an only child, and His hashgachah pratis means we are never alone. He cites the pasuk from the Twelve Pesukim, 'V'hinei Hashem nitzav alav', and the Rebbe's advice to worried people to learn the opening of Tanya chapter 41. The story is set in the time of the Spanish Inquisition. A secret Jew who serves as the king's minister is sentenced to be burned in public. The king wins him a year's delay, then a month, a week and a day, but on the day of the execution an earthquake strikes the marketplace and he escapes. Unsure whether the earthquake was a miracle or just nature, he asks the sages of Germany, then travels to the Baal Shem Tov, planning to tell the story as if it happened to someone else. After a short aside about a Chassid who tried the same trick with the Rebbe Maharash, the Baal Shem Tov greets him by his title and sends him to his student Reb Wolf Kitzes, who explains that the timing and place of his execution were the miracle. He returns to open Jewish life and becomes a Chassid.",
+  "lesson": "Every step in our lives is planned by Hashem with perfect love, so we have nothing to fear or worry about.",
+  "keywords": [
+   "Spanish Inquisition",
+   "Marranos",
+   "king's minister",
+   "earthquake",
+   "execution",
+   "Mezhibuzh",
+   "horses",
+   "falling leaf",
+   "worry"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The Spanish Inquisition forces Jews to convert or leave and executes those caught keeping mitzvos."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "Public burnings are described; the minister is saved from his execution."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "mild",
+    "note": "Jews who pretended to be Christians (Marranos) are mentioned."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_wolf_kitzes",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the minister from Spain",
+   "the king of Spain",
+   "Reb Wolf Kitzes, the Baal Shem Tov's student",
+   "a Chassid seeking a tikkun"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "baal_shem_tov_and_students",
+   "jewish_history",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "Chapter 41",
+    "note": "The Rebbe's advice to worried people to learn its opening lines, 'V'hinei Hashem nitzav alav'."
+   },
+   {
+    "work": "tehillim",
+    "ref": "131:2",
+    "note": "Dovid HaMelech: like a weaned child with its mother."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: Hashem's love exceeds that of elderly parents for an only child; even a falling leaf is directed by Hashem."
+   }
+  ],
+  "places": [
+   "Spain",
+   "Germany",
+   "Mezhibuzh"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 295,
+   "type": "talk",
+   "title": "Every step is perfectly planned",
+   "summary": "Hashem's love and hashgachah pratis, the Twelve Pesukim and Tanya chapter 41."
+  },
+  {
+   "start_sec": 295,
+   "end_sec": 882,
+   "type": "story",
+   "title": "The minister and the Inquisition",
+   "summary": "A secret Jew sentenced to death escapes when an earthquake strikes."
+  },
+  {
+   "start_sec": 882,
+   "end_sec": 990,
+   "type": "story",
+   "title": "You cannot fool a Rebbe",
+   "summary": "A Chassid asks the Rebbe Maharash for a tikkun 'for a friend'.",
+   "people": [
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 990,
+   "end_sec": 1125,
+   "type": "story",
+   "title": "The Baal Shem Tov's answer",
+   "summary": "Reb Wolf Kitzes explains why the timing of the earthquake was the miracle.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1125,
+   "type": "closing",
+   "title": "Even a falling leaf"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "aeae91b4cd",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashgachah Pratis: The Minister from Spain and the Earthquake' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same title as the Story Videos item f2f2509078, but a different story. ASR writes 'Maharaj' for Maharash."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:34:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Every%20Step%20Is%20Perfectly%20Planned%20-%20The%20Minister%20and%20the%20Earthquake.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Every Step Is Perfectly Planned - The Minister and the Earthquake.mp3",
+  "size_bytes": 14124142,
+  "mime_type": "audio/mpeg"
+ }
+}

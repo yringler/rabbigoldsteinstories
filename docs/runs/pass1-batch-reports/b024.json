@@ -1,0 +1,20 @@
+{
+ "batch_id": "b024",
+ "done": [
+  "9e1be60351", "7517022d79", "b45fe5bf64", "5ecadf26f2", "538a84153e", "1b6ee2018e",
+  "2502f04235", "1cc1af0b25", "64dc417cdd", "8bce6b241e", "7d0d2d59d7", "037dde292b",
+  "bfa83834c1", "1916360509", "4f76af6486", "5a8bd9829c", "45b8ad173e", "a815fbd757", "a04a4cbaa0"
+ ],
+ "skipped_already_done": ["e5af19b792"],
+ "failed": [],
+ "notes": [
+  "Episode 353 (9e1be60351) concludes 'The Blessing of a Tzaddik' (#2); chapter 1 is episode 352, not in this batch, so no continues relation was added. The ASR gives the hero's name wrongly as 'Rebbe Rashab' and 'Rabbi Akiva'; on air he is Reb Boruch.",
+  "Chanukah 353 (7517022d79, the '(2)' file) and Chanukah 353 (b45fe5bf64) are the same cut. 7517022d79 starts about 2 s earlier; either copy can be kept.",
+  "Shabbos Chazak 356: 037dde292b (Yomim Tovim) is the longer cut and includes the children practicing 'Chazak chazak'; bfa83834c1 (Parsha of the Week) stops just before that.",
+  "The master catalog calls episode 354's story 'The miraculous Menorah'; on air it is titled 'The Secret Tunnel' (538a84153e). The same story also aired in episodes 155 (cf97f15688) and 506. Episode 354 also has an unchecked fingerprint candidate in episode 457 (3394fd4624), possibly the Chanukah songs; I did not add it.",
+  "The Asarah B'Teves talk (64dc417cdd) was rebroadcast: it also aired in episodes 260 and 308, and its text weakly matches 410 (7e9d4fa376) and 555 (393f61d950) at about 0.65. Those two were not added.",
+  "Morning-routine set: Shivisi Hashem 356 (1916360509), then Morning Routine-1 358 (45b8ad173e), then Morning Routine-2 359 (a04a4cbaa0). I linked them with continues and part_of_set. a04a4cbaa0 also matches episode 517 (3d001f2478) at 0.71, so I added aired_again_in at 0.65.",
+  "Episode 357 (4f76af6486): listeners bless a sick child whose name is spoken on air (about 24:47-25:23) but missing from the transcript. hidden has a placeholder entry, and the item is flagged for human review.",
+  "Episode 355 (2502f04235) has no story. Its Shema guests share the surname Goldstein; it is unknown whether they are related to the host, so I recorded no identity link."
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "id": "a94d9e51d5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chanukah 554",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zos Chanukah - Every Mitzvah Is a Light, Done with Warmth (Ep 554).mp3",
+  "duration_sec": 298.541,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 554,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 554,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Zos Chanukah: Every Mitzvah Is a Light, Done with Warmth",
+  "title_basis": "content",
+  "summary_short": "On the eighth day of Chanukah, Uncle Yossi teaches that every mitzvah is a candle that lights up the world, and that the dancing flames show us to do mitzvos with warmth and joy.",
+  "summary_long": "A holiday talk from the Tzivos Hashem radio show, aired on Zos Chanukah, the eighth day of Chanukah. Uncle Yossi explains that without Torah and mitzvos the world is dark and cold even at noon, because 'a mitzvah is a candle and Torah is light'. Just as Hashem's first words in Creation were 'Let there be light', our first task wherever we are is to bring light, and every mitzvah does so. Learning Torah brings an especially strong light, and the Chanukah menorah lets us see that light right away, most of all on Zos Chanukah, when all eight candles burn. Many Tzivos Hashem missions are about bringing light and warmth to others. Finally, the flames that flicker up and down remind us to daven, learn and give tzedakah with liveliness and feeling, so that our own neshamah is lit with new power all year.",
+  "lesson": "Bring light wherever you are through mitzvos, and do every mitzvah with warmth and joy.",
+  "keywords": [
+   "eighth day",
+   "menorah",
+   "flames",
+   "light",
+   "darkness",
+   "streetlights",
+   "mitzvah missions"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 554,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-12-27",
+   "hebrew": "3 Teves 5753",
+   "hebrew_year": 5753,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Here we are enjoying the eighth day of Chanukah'; Zos Chanukah 5753 = Sunday 27 Dec 1992."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "mitzvos_in_daily_life",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "torah_study",
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [
+   "chanukah",
+   "zos_chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Mishlei 6:23",
+    "note": "'A mitzvah is a candle and Torah is light'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:3",
+    "note": "'Let there be light.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7d1316b235",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 34,
+   "note": "Episode 554 (filename number); clip = 34-333 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Zos%20Chanukah%20-%20Every%20Mitzvah%20Is%20a%20Light%2C%20Done%20with%20Warmth%20%28Ep%20554%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Zos Chanukah - Every Mitzvah Is a Light, Done with Warmth (Ep 554).mp3",
+  "size_bytes": 3583447,
+  "mime_type": "audio/mpeg"
+ }
+}

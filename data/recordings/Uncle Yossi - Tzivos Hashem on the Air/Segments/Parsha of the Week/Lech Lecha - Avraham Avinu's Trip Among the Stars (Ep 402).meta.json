@@ -1,0 +1,168 @@
+{
+ "id": "018b62765f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Lecha 402",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Lech Lecha - Avraham Avinu's Trip Among the Stars (Ep 402).mp3",
+  "duration_sec": 409.897,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 402,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 402,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Lech Lecha: Avraham Avinu's Trip Among the Stars",
+  "title_basis": "content",
+  "summary_short": "Hashem took Avraham Avinu above the heavens to see all the stars at once. Like stars, every Jewish child brings light to a dark world.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show for Parshas Lech Lecha. Hashem promised Avraham Avinu that his children would be as many as the stars in heaven. To show him, Hashem took him, as Rashi explains, above the space of the world, where he could see all the stars at once: the first trip into 'outer space', with no spacesuit or spaceship, since Hashem who created nature controls it and protected him by miracles. Uncle Yossi tells children to feel proud to be Avraham's children and to follow his way of serving Hashem with mesiras nefesh. Our Sages compare us to stars because without them the night would be dark: every soldier of Tzivos Hashem lights up the world with Torah and mitzvos. We keep spreading that light until Moshiach comes and a new light shines from Tzion over the whole world.",
+  "lesson": "Each of us is like a star: we bring light into a dark world by learning Torah and doing mitzvos, until Moshiach comes.",
+  "keywords": [
+   "stars",
+   "outer space",
+   "astronaut",
+   "light",
+   "darkness",
+   "Moshiach now"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Parsha of the Week"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 402,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-11-07",
+   "hebrew": "9 Cheshvan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 402, which gives candle time for Friday, November 10 (1989), Parshas Lech Lecha."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "tanach",
+   "miracles",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "lech_lecha"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 15:5"
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 15:5",
+    "note": "Hashem took Avraham above the space of the world."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "1824a0591f",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 46,
+   "note": "Episode 402 (filename number); clip = 46-456 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Lech%20Lecha%20-%20Avraham%20Avinu%27s%20Trip%20Among%20the%20Stars%20%28Ep%20402%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Lech Lecha - Avraham Avinu's Trip Among the Stars (Ep 402).mp3",
+  "size_bytes": 4919771,
+  "mime_type": "audio/mpeg"
+ }
+}

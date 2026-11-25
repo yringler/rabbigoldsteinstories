@@ -1,0 +1,240 @@
+{
+ "id": "27799e2e4b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Tefilah - Kesser",
+  "audio_path": "audio/Other Stories/Tefillah - Meir's Dream of Hashem's Crown and the Telephone Lesson.mp3",
+  "duration_sec": 3584.396,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Tefillah: Meir's Dream of Hashem's Crown and the Telephone Lesson",
+  "title_basis": "filename",
+  "summary_short": "A boy who rushes his davening dreams that every letter he says becomes a diamond in Hashem's crown; then a comic telephone story teaches how to daven aloud, word by word.",
+  "summary_long": "Meir is a fine student who says his brachos and davening too fast, swallowing letters. One night an angel flies him up to a gigantic crown for Hashem made of diamonds, each one a letter or vowel from Jews' prayers, and shows him that his own part has missing stones. He wakes up and starts saying every word carefully. That morning his teacher tells the class a story from an old sefer: after Rabbi Azaria passed away, the Heavenly court showed him all the letters and vowels he had skipped, which demanded their place in Hashem's crown. Meir shares his dream, prepares for sleep with negel vasser, Krias Shema, tzitzis, a yarmulke and thoughts of Torah, and that night sees his part of the crown shining. The second half is a humorous tale of Gershon, who buys telephone after telephone without understanding lines, dial tones or dialing the right number in order. Each step becomes a lesson in tefillah: to be connected we must open the siddur and say the words, with our voice, not in a whisper, exactly as the Men of the Great Assembly arranged them. Hashem always hears us, anywhere, like a cellphone, and we ask Him to bring Moshiach.",
+  "lesson": "Say every word and letter of davening clearly, aloud and from the siddur; every word goes up to Hashem, who always listens.",
+  "keywords": [
+   "crown",
+   "diamonds",
+   "angel",
+   "dream",
+   "letters",
+   "vowels",
+   "telephone",
+   "dial tone",
+   "phone book",
+   "cellphone",
+   "siddur",
+   "bedtime Shema"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "moral_fiction",
+   "rishonim_acharonim",
+   "mashal_parable"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A sage who has passed away is shown before the Heavenly court the letters he skipped in prayer; he is protected by his good deeds."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Meir",
+   "the angel",
+   "Meir's mother",
+   "Meir's teacher",
+   "Rabbi Azaria son of Rabbi Yedidyah",
+   "Rabbi Gedalyah",
+   "Gershon, the telephone buyer",
+   "the telephone salesman"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "morning_routine"
+  ],
+  "midos": [
+   "responsibility",
+   "yiras_shamayim",
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening",
+   "brachos",
+   "shema",
+   "modeh_ani",
+   "negel_vasser",
+   "tzitzis",
+   "yarmulke",
+   "mezuzah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov's teaching that everything a Jew sees or hears teaches a lesson in serving Hashem."
+   },
+   {
+    "work": "siddur",
+    "note": "Examples of words to say carefully (Shema, Modeh Ani, Elokai Neshamah, Es Tzemach Dovid)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 13,
+   "end_sec": 998,
+   "type": "story",
+   "title": "Meir's dream of Hashem's crown",
+   "summary": "An angel shows a boy who rushes his davening the crown made of every letter Jews say."
+  },
+  {
+   "start_sec": 998,
+   "end_sec": 1300,
+   "type": "story",
+   "title": "The teacher's story of Rabbi Azaria",
+   "summary": "In a dream, a departed sage tells how the letters he skipped stood before the Heavenly court."
+  },
+  {
+   "start_sec": 1300,
+   "end_sec": 1786,
+   "type": "story",
+   "title": "Meir's second dream",
+   "summary": "After a careful bedtime Shema routine, Meir sees his part of the crown shining."
+  },
+  {
+   "start_sec": 1786,
+   "end_sec": 2431,
+   "type": "story",
+   "title": "The telephone that would not work",
+   "summary": "Gershon keeps returning telephones until he learns he needs a line."
+  },
+  {
+   "start_sec": 2431,
+   "end_sec": 2522,
+   "type": "talk",
+   "title": "Connected to Hashem",
+   "summary": "Opening the siddur and saying the words connects us; Hashem listens to everyone at once."
+  },
+  {
+   "start_sec": 2522,
+   "end_sec": 2885,
+   "type": "talk",
+   "title": "The dial tone: davening with your voice",
+   "summary": "Why we daven aloud and not in a whisper, and why Hashem's line is never busy."
+  },
+  {
+   "start_sec": 2885,
+   "end_sec": 3154,
+   "type": "story",
+   "title": "Dialing the right number",
+   "summary": "Gershon learns to dial the right number, in order, pressing each button."
+  },
+  {
+   "start_sec": 3154,
+   "end_sec": 3401,
+   "type": "talk",
+   "title": "The words of the siddur",
+   "summary": "Say the exact words from the siddur, as the Men of the Great Assembly arranged them."
+  },
+  {
+   "start_sec": 3401,
+   "type": "closing",
+   "title": "Like a cellphone",
+   "summary": "We can daven to Hashem anytime and anywhere, and ask Him to bring Moshiach."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "splice_glitch",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Dramatized with several voices. First 13 s untranscribed. ASR loop at about 15:06 ('Baruch Atah'). A passage on davening aloud repeats at about 45:42 and 46:29 (possible edit glitch). The teacher's story is cited from 'Mateh Yehudah' by Rabbi Leib Oppenheim. A seven-digit phone number is read in the comic skit (a character's number)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:55:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unidentified; possibly the same voice as other 'kinderlach' stories in the archive.",
+   "Repeated passage near 45:42-46:58; check whether the audio repeats or only the transcript.",
+   "The skit reads out a phone number (774-7766) for a character; check that it is not a real private number."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Tefillah%20-%20Meir%27s%20Dream%20of%20Hashem%27s%20Crown%20and%20the%20Telephone%20Lesson.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Tefillah - Meir's Dream of Hashem's Crown and the Telephone Lesson.mp3",
+  "size_bytes": 43013779,
+  "mime_type": "audio/mpeg"
+ }
+}

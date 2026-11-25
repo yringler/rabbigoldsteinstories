@@ -1,0 +1,143 @@
+{
+ "id": "9e846835ee",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mevorchim Tammuz 181",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Rosh Chodesh Tammuz - Blessing the New Month (Ep 181).mp3",
+  "duration_sec": 92.356,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 181,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 181,
+   "story": "The island of treasures",
+   "topic": "מצוה time",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Erev Rosh Chodesh Tammuz: Blessing the New Month",
+  "title_basis": "content",
+  "summary_short": "On the eve of Rosh Chodesh Tammuz, Uncle Yossi recalls the Shabbos Mevarchim prayer for a month of life, peace and joy, ending with the prayer for Moshiach.",
+  "summary_long": "A very short seasonal piece from the Tzivos Hashem radio show, recorded on Erev Rosh Chodesh Tammuz. Uncle Yossi reminds children that on the past Shabbos, Shabbos Mevarchim, everyone in shul said a special prayer asking Hashem to bless the coming month with life and peace, joy and happiness. The prayer ends by asking Hashem to bring us out of golus and console us with the coming of Moshiach, to which everyone answers Amen. In the full broadcast, this introduction leads into the Hakochainik march.",
+  "lesson": "We ask Hashem to bless each new month and to bring Moshiach.",
+  "keywords": [
+   "Birkas HaChodesh",
+   "new month",
+   "Tammuz",
+   "blessing",
+   "golus"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 181,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-06-18",
+   "hebrew": "29 Sivan 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 181: 'Erev Rosh Chodesh Tammuz... tonight is Rosh Chodesh Tammuz'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos",
+   "moshiach_geulah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short (1.5 min) seasonal clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:43Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "02cbc56a2d",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 51,
+   "note": "Episode 181 (filename number); clip = 51-143 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Erev%20Rosh%20Chodesh%20Tammuz%20-%20Blessing%20the%20New%20Month%20%28Ep%20181%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Erev Rosh Chodesh Tammuz - Blessing the New Month (Ep 181).mp3",
+  "size_bytes": 1109241,
+  "mime_type": "audio/mpeg"
+ }
+}

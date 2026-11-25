@@ -1,0 +1,314 @@
+{
+ "id": "be96b8e66a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "433",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 433 - The King and the Shabbos Candles (Summer Vacation) (1990-06-26).mp3",
+  "duration_sec": 1867.4,
+  "filename_facts": {
+   "episode_number": 433,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 433,
+   "story": "The king and the Shabbos candles",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 433: The King and the Shabbos Candles (Summer Vacation)",
+  "title_basis": "master_catalog",
+  "summary_short": "At the start of summer vacation, Uncle Yossi asks children to help new friends come closer to Torah, then tells how a Shabbos candle saved a king's life and invites girls to light their own Shabbos candles.",
+  "summary_long": "Broadcast at the very start of summer vacation in 5750. Uncle Yossi explains that by Divine providence Hashem arranges in advance which new friends you will meet in camp or at home, so that you can help them come closer to Torah and mitzvos; he invites listeners to write in and tell how they did it. After the Hakochainik march, two sisters, students at Beis Rivkah, recite the Shema in Studio 604, everyone gives tzedakah, and listeners say a prayer for the recovery of a sick three-year-old child. Story time tells of a king who banned candles after one set fire to his new study, leaving the Jews without Shabbos candles. The rabbi gathers the community to say Tehillim and urges every mother and daughter to light. Lost in a Friday snowstorm, the king is guided to safety by a Shabbos candle and lifts his decree. Uncle Yossi then speaks about bringing nachas to parents through kibbud av va'em, explains why Torah and mitzvos are compared to light, and asks every girl to light her own Shabbos candle beside her mother. The show ends with candle-lighting times.",
+  "lesson": "Help every new friend come closer to Hashem, and bring light and nachas home: girls, light your own Shabbos candle beside Mommy.",
+  "keywords": [
+   "summer vacation",
+   "camp",
+   "new friends",
+   "king",
+   "candle decree",
+   "snowstorm",
+   "Shabbos table",
+   "nachas",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 433,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-06-26",
+   "hebrew": "3 Tammuz 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Start of summer vacation; candle time 8:13 PM fits late June 1990; follows episode 432 (week of Rosh Chodesh Tammuz 5750)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A king's angry decree bans candles, leaving the Jews without Shabbos candles.",
+    "at_sec": 950
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "Listeners are asked to pray for a sick young child.",
+    "at_sec": 794
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two sisters named in full as Shema guests.",
+    "at_sec": 614
+   },
+   {
+    "flag": "health_info",
+    "note": "A sick child named for a refuah shleimah prayer.",
+    "at_sec": 794
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the rabbi",
+   "the Jewish family in the cabin"
+  ],
+  "topics": [
+   "shabbos",
+   "hashgacha_pratis",
+   "kindness_and_community",
+   "family_and_home",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kibbud",
+   "controlling_anger"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "kibbud_av_vaem",
+   "ahavas_yisroel_mitzvah",
+   "tehillim",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:12",
+    "note": "'Honor your father and your mother', from the Ten Commandments."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 375,
+   "type": "talk",
+   "title": "Summer Vacation: Why Hashem Sends You New Friends",
+   "summary": "Hashem arranges which new friends you meet over the summer so you can help them come closer to Torah and mitzvos; write to Uncle Yossi and tell how you did it.",
+   "calendar": [
+    "summer_vacation"
+   ],
+   "linked_items": [
+    "0d2eb40572"
+   ]
+  },
+  {
+   "start_sec": 375,
+   "end_sec": 614,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 614,
+   "end_sec": 741,
+   "type": "shema_guest",
+   "title": "Shema with two sisters from Beis Rivkah"
+  },
+  {
+   "start_sec": 741,
+   "end_sec": 794,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 794,
+   "end_sec": 856,
+   "type": "announcement",
+   "title": "A prayer for a sick child's recovery"
+  },
+  {
+   "start_sec": 856,
+   "end_sec": 1336,
+   "type": "story",
+   "title": "The King and the Shabbos Candles",
+   "summary": "A king bans candles after a fire, but when he is lost in a Friday snowstorm a Shabbos candle leads him to safety and he lifts the decree.",
+   "people": [
+    "david_hamelech"
+   ],
+   "linked_items": [
+    "35d18b019a"
+   ]
+  },
+  {
+   "start_sec": 1336,
+   "end_sec": 1769,
+   "type": "talk",
+   "title": "Bringing Nachas: Girls Light Their Own Shabbos Candles",
+   "summary": "We repay our parents with nachas through kibbud av va'em; Torah and mitzvos are light, and every girl can light her own Shabbos candle beside her mother."
+  },
+  {
+   "start_sec": 1769,
+   "end_sec": 1799,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1799,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0d2eb40572",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Vacation 433' = 36-375 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "35d18b019a",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'The King and the Shabbos Candles 433' = 856-1336 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guests named in full and a refuah shleimah name read on air (see hidden). Story is a rebroadcast (also in episodes 298 and 383). Candle time identical to episode 432."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Sara Chana Astrov",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 614,
+    "end_sec": 741
+   },
+   {
+    "name": "Bracha Astrov",
+    "role": "shema_guest",
+    "group": "sister of the Shema guest",
+    "start_sec": 644,
+    "end_sec": 741
+   },
+   {
+    "name": "Refael Yehuda ben Bracha Rochel",
+    "role": "refuah_list",
+    "start_sec": 794,
+    "end_sec": 850,
+    "note": "Three-year-old child needing a refuah shleimah."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Refael Yehuda ben Bracha Rochel, a three-year-old, needs a refuah shleimah.",
+    "start_sec": 794
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20433%20-%20The%20King%20and%20the%20Shabbos%20Candles%20%28Summer%20Vacation%29%20%281990-06-26%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 433 - The King and the Shabbos Candles (Summer Vacation) (1990-06-26).mp3",
+  "size_bytes": 22409830,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,336 @@
+{
+ "id": "f19c7a126f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "290 08-25-87",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 290 - Saved by a Miracle, Chapter 2 (Rosh Chodesh Elul) (1987-08-25).mp3",
+  "duration_sec": 1806.029,
+  "filename_facts": {
+   "episode_number": 290,
+   "date_in_filename": "1987-08-25",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 290,
+   "story": "Saved By A Miracle #2",
+   "topic": "Chodesh Elul, / Tekias Shofar",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 290: Saved by a Miracle, Chapter 2 (Rosh Chodesh Elul)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Rosh Chodesh Elul show: Hashem as the King in the field, a class sings about the Rambam's Mishneh Torah, the Alter Rebbe's puzzling advice saves Reb Boruch, and why we blow shofar all Elul.",
+  "summary_long": "Broadcast on Rosh Chodesh Elul 5747. Uncle Yossi explains that Elul closes the year and prepares for the next, so we daven more carefully, learn more and give more tzedakah, and he shares the Alter Rebbe's parable from Likkutei Torah of the King in the field, who greets everyone warmly and grants their wishes. After the Hakochainik march, a first-grade class from a Brooklyn yeshiva says the Shema and, led by their rebbe, sings a song naming the fourteen books of the Rambam's Mishneh Torah. Story time concludes 'Saved by a Miracle' (called on air 'Through the Eyes of a Tzaddik'): Reb Boruch, framed by the jealous Alex for stealing logs, had been told by the Alter Rebbe to skip his summons to the minister. When he finally goes, he learns that an officer had been waiting that very Tuesday to shoot him, and that witnesses have since proved his innocence. The show ends with the Elul shofar: why it is blown without a brachah, and the Rambam's call, 'Wake up, sleepers!'",
+  "lesson": "In Elul Hashem is close like a king in the field; and a tzaddik sees what we cannot, so we trust his guidance even when it seems strange.",
+  "keywords": [
+   "King in the field",
+   "Mishneh Torah",
+   "lumberyard",
+   "logs",
+   "minister",
+   "framed",
+   "shofar",
+   "wake up",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 290,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-08-25",
+   "hebrew": "30 Av 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Confirmed in the audio: 'today is Rosh Chodesh Elul'; shofar blowing starts 'tomorrow morning'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "serial": {
+   "story_key": "saved-by-a-miracle",
+   "story_title": "Saved by a Miracle",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A man is framed for theft and an officer is ordered to shoot him on sight; he is saved.",
+    "at_sec": 1306
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "A visiting class's teacher is named on air; no children are named.",
+    "at_sec": 552
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Boruch",
+   "Reb Boruch's wife",
+   "Alex, the jealous worker",
+   "the minister",
+   "the guard"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "teshuvah",
+   "calendar",
+   "miracles"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "kabbalas_ol",
+   "no_jealousy"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "davening",
+   "brachos",
+   "torah_study",
+   "tzedakah",
+   "tehillim",
+   "shema"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Parshas Re'eh",
+    "note": "The Alter Rebbe's parable of the King in the field during Elul."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4",
+    "note": "The shofar says 'Uru yesheinim', wake up, sleepers."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The class's song lists the fourteen books of the Mishneh Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "opening",
+   "title": "Greeting: a happy Rosh Chodesh"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 331,
+   "type": "talk",
+   "title": "Elul: The King Is in the Field",
+   "summary": "Elul ends the year and prepares for the next; the Alter Rebbe's parable of the King who greets His people in the field.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "378bd4a7bb"
+   ]
+  },
+  {
+   "start_sec": 331,
+   "end_sec": 490,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 490,
+   "end_sec": 690,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from Yeshiva Ohalei Torah"
+  },
+  {
+   "start_sec": 690,
+   "end_sec": 838,
+   "type": "song",
+   "title": "The class sings 'Rabbeinu Moshe ben Maimon'",
+   "summary": "A song naming the fourteen books of the Rambam's Mishneh Torah.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 838,
+   "end_sec": 997,
+   "type": "story_intro",
+   "title": "Recap: Reb Boruch is framed"
+  },
+  {
+   "start_sec": 997,
+   "end_sec": 1415,
+   "type": "story_chapter",
+   "title": "Saved by a Miracle, Chapter 2",
+   "summary": "Following the Alter Rebbe's advice, Reb Boruch misses the day he was to be shot, and his innocence is proven.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "saved-by-a-miracle",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1415,
+   "end_sec": 1755,
+   "type": "halachah",
+   "title": "The Shofar of Elul: Wake Up, Sleepers!",
+   "summary": "Why shofar is blown every morning of Elul without a brachah, and the Rambam's explanation of its wake-up call.",
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "68db0e9e77"
+   ]
+  },
+  {
+   "start_sec": 1755,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "378bd4a7bb",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Chodesh Elul 290' = 40-343 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "68db0e9e77",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Tekias Shofar 290' = 1433-1765 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "456522bfcc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6144d5e2ae",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR often writes 'Rabbi Akiva' for the story's hero, Reb Boruch. The class's song is not transcribed. The visiting teacher is named on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rabbi Levi Goldstein",
+    "role": "visitor",
+    "group": "Yeshiva Ohalei Torah, Kitah Aleph (class reciting the Shema and singing)",
+    "start_sec": 552,
+    "end_sec": 838
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:36Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5747%20%281986-87%29/Ep%20290%20-%20Saved%20by%20a%20Miracle%2C%20Chapter%202%20%28Rosh%20Chodesh%20Elul%29%20%281987-08-25%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 290 - Saved by a Miracle, Chapter 2 (Rosh Chodesh Elul) (1987-08-25).mp3",
+  "size_bytes": 21673499,
+  "mime_type": "audio/mpeg"
+ }
+}

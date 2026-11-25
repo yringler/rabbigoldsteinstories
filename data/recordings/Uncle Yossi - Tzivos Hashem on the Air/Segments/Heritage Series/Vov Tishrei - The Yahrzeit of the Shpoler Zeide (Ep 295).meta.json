@@ -1,0 +1,154 @@
+{
+ "id": "5e93a80f9a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Shpoler zeida",
+  "filename_title": "The Sphole Zeide 295",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Vov Tishrei - The Yahrzeit of the Shpoler Zeide (Ep 295).mp3",
+  "duration_sec": 121.474,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 295,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 295,
+   "story": "Shpole Zeide Pillar of Fire",
+   "topic": "The Shpole Zeide",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Vov Tishrei: The Yahrzeit of the Shpoler Zeide",
+  "title_basis": "content",
+  "summary_short": "A short introduction for Vov Tishrei, the yahrzeit of the Shpoler Zeide, and how his descendants around the world mark the day.",
+  "summary_long": "A short clip from the Tzivos Hashem radio show, recorded a few days after Rosh Hashanah. Uncle Yossi wishes everyone a good and sweet year and explains that the sixth day of Tishrei, Vov Tishrei, is the yahrzeit of the great tzaddik Rabbi Aryeh Leib of Shpola, known as the Shpoler Zeide. All over the world his descendants gather on this day to retell his stories and make good resolutions to follow his noble character and pious deeds. More and more families discover each year that they too descend from him. The clip ends by promising to explain later in the program how listeners can find out whether they are his descendants; that part is not included.",
+  "lesson": "On a tzaddik's yahrzeit we retell his stories and resolve to follow his example.",
+  "keywords": [
+   "yahrzeit",
+   "descendants",
+   "family gatherings",
+   "New Year wishes",
+   "resolutions"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 295,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1987-09-29",
+   "hebrew": "6 Tishrei 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Vav Tishrei'; clip of episode 295 dated 1987-09-29 in its filename."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidic_masters",
+   "family_heritage",
+   "calendar"
+  ],
+  "midos": [],
+  "mitzvos": [],
+  "calendar": [
+   "vav_tishrei"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with a pointer to a later part of the program (how to find out if you are a descendant) that is not in the clip; the story itself is in 7b12e4e282."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:19Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "8bbf7a6519",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "Also aired in episode 446."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "3073859dbb",
+   "evidence": "text_overlap",
+   "confidence": 0.64,
+   "offset_sec": 34,
+   "note": "Episode 295 (filename number); clip = 34-155 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Vov%20Tishrei%20-%20The%20Yahrzeit%20of%20the%20Shpoler%20Zeide%20%28Ep%20295%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Vov Tishrei - The Yahrzeit of the Shpoler Zeide (Ep 295).mp3",
+  "size_bytes": 1458760,
+  "mime_type": "audio/mpeg"
+ }
+}

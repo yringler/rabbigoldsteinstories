@@ -1,0 +1,364 @@
+{
+ "id": "3d8a6f67a3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "34",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 034 - The Two Brothers (Erev Tisha B'Av) (1982-07-27).mp3",
+  "duration_sec": 1697.473,
+  "filename_facts": {
+   "episode_number": 34,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 34,
+   "story": "The Two Brothers",
+   "topic": "תשעה באב / Torah, Avodah & Gemilus Chasadim",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 34: The Two Brothers (Erev Tisha B'Av)",
+  "title_basis": "master_catalog",
+  "summary_short": "On the eve of Tisha B'Av, Uncle Yossi teaches the soul's 'diet' of Torah, Avodah and Gemilus Chasadim and tells why Hashem chose the mountain of two loving brothers for the Beis HaMikdash.",
+  "summary_long": "A summer show broadcast two days before Tisha B'Av 5742. Uncle Yossi explains that just as the body needs a healthy diet, the neshama needs three things: Torah, which is light and shows us right from wrong; Avodah, davening to Hashem, who alone can grant every request; and Gemilus Chasadim, acts of kindness, above all tzedakah, which refines the giver. A young guest in Studio 604 leads the Shema. Story time tells of two brothers, Reuven and Shimon, who each secretly carry wheat over the mountain at night to help the other, meet at the top and embrace; Hashem chooses that very mountain, Har HaMoriah, for the Beis HaMikdash. Uncle Yossi explains that the Beis HaMikdash was destroyed because of baseless hatred and will be rebuilt through Ahavas Yisroel. He then speaks about the power of music, from the Levi'im in the Beis HaMikdash to the song we will sing when Moshiach comes, and introduces the ancient tune of Eicha, closing with the verse Hashiveinu.",
+  "lesson": "Feed your soul with Torah, davening and kindness, and love every Jew like a brother: Ahavas Yisroel is what will rebuild the Beis HaMikdash.",
+  "keywords": [
+   "two brothers",
+   "wheat",
+   "barn",
+   "Har HaMoriah",
+   "healthy soul",
+   "Eicha",
+   "Hashiveinu",
+   "music",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 34,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1982-07-27",
+   "hebrew": "7 Av 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Tomorrow is Erev Tisha B'Av'; Tisha B'Av 5742 fell on Thursday 29 July, so this Tuesday show is 7 Av. Matches the weekly estimate."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Tisha B'Av and the destruction of the Beis HaMikdash, explained gently with hope for the Geulah.",
+    "at_sec": 523
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 700
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reuven",
+   "Shimon"
+  ],
+  "topics": [
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community",
+   "torah_study",
+   "prayer_and_brachos",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "chesed",
+   "generosity"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "gemilus_chasadim",
+   "tzedakah",
+   "ahavas_yisroel_mitzvah",
+   "shema",
+   "fast_days"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The Rambam: whatever you need, turn only to Hashem (no exact reference given)."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel.'"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:1",
+    "note": "'Az yashir Moshe': the future song of the Geulah."
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Eichah 5:21",
+    "note": "'Hashiveinu Hashem eilecha...'."
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "Har HaMoriah"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 28,
+   "type": "opening",
+   "title": "Opening and summer greeting"
+  },
+  {
+   "start_sec": 28,
+   "end_sec": 505,
+   "type": "talk",
+   "title": "A healthy diet for the soul: Torah, Avodah and Gemilus Chasadim",
+   "summary": "Torah is light, davening means turning only to Hashem, and kindness and tzedakah refine the giver.",
+   "people": [
+    "rambam"
+   ],
+   "linked_items": [
+    "edeae1fcd9"
+   ]
+  },
+  {
+   "start_sec": 505,
+   "end_sec": 670,
+   "type": "story_intro",
+   "title": "Erev Tisha B'Av and the mountain of the Beis HaMikdash",
+   "summary": "Tisha B'Av is the day the Beis HaMikdash was destroyed; the story will explain why Hashem chose Har HaMoriah.",
+   "calendar": [
+    "tisha_bav"
+   ]
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 830,
+   "type": "shema_guest",
+   "title": "Shema with a young guest in Studio 604"
+  },
+  {
+   "start_sec": 830,
+   "end_sec": 1181,
+   "type": "story",
+   "title": "The Two Brothers",
+   "summary": "Two brothers secretly bring each other wheat at night, meet on the mountaintop and embrace, and Hashem chooses that place for the Beis HaMikdash."
+  },
+  {
+   "start_sec": 1181,
+   "end_sec": 1260,
+   "type": "talk",
+   "title": "Ahavas Yisroel will rebuild the Beis HaMikdash",
+   "summary": "The Beis HaMikdash was destroyed through baseless hatred and will be rebuilt through love for every Jew.",
+   "calendar": [
+    "tisha_bav"
+   ],
+   "linked_items": [
+    "423f5bbe7a"
+   ]
+  },
+  {
+   "start_sec": 1260,
+   "end_sec": 1291,
+   "type": "song",
+   "title": "Musical interlude"
+  },
+  {
+   "start_sec": 1291,
+   "end_sec": 1592,
+   "type": "talk",
+   "title": "The power of music and the tune of Eicha",
+   "summary": "Music in the Beis HaMikdash and at the Geulah, and the ancient tune of Eicha that is sung even on Tisha B'Av.",
+   "calendar": [
+    "tisha_bav",
+    "three_weeks"
+   ],
+   "linked_items": [
+    "423f5bbe7a"
+   ]
+  },
+  {
+   "start_sec": 1592,
+   "end_sec": 1633,
+   "type": "song",
+   "title": "Hashiveinu, sung to the tune of Eicha",
+   "linked_items": [
+    "423f5bbe7a"
+   ]
+  },
+  {
+   "start_sec": 1633,
+   "end_sec": 1670,
+   "type": "talk",
+   "title": "Saying Hashiveinu together",
+   "linked_items": [
+    "423f5bbe7a"
+   ]
+  },
+  {
+   "start_sec": 1670,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "423f5bbe7a",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Tisha B'Av 34' = 1121-1669 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "edeae1fcd9",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "'Torah, Avodah, Gemilus Chasadim 34' = 28-508 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f33fa1ac66",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Both clips of this episode match episode 136 (containment 0.71 and 0.63); likely a rebroadcast of the same material. Unverified."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0b2ff37d4b",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 394: The Two Brothers (Elul)' (episode 394, 18:20-27:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "275560992e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 183: The Two Brothers on Har HaMoriah (Shiva Asar B'Tammuz)' (episode 183, 13:29-23:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9658bf3781",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 235: The Two Brothers (Shiva Asar B'Tammuz)' (episode 235, 15:35-25:42), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cb7b450fa0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 481: The Two Brothers' (episode 481, 15:40-24:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Early summer show without the march or sponsor. The Eicha tune around 25:30-27:10 is only partly transcribed. The 'Shabbos Shalom' line at 21:00 is a brief musical interlude."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Eliezer Shamai Kievman",
+    "role": "shema_guest",
+    "start_sec": 670,
+    "end_sec": 830,
+    "note": "Heard as 'Eliezer Shammai Kivman'; a Tzivos Hashem member who knows the Twelve Pesukim."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:52:08Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20034%20-%20The%20Two%20Brothers%20%28Erev%20Tisha%20B%27Av%29%20%281982-07-27%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 034 - The Two Brothers (Erev Tisha B'Av) (1982-07-27).mp3",
+  "size_bytes": 20370710,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "id": "577e0215fd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "471",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 471 - The Lost Letter, Chapter 1 (Before Pesach) (1991-03-19).mp3",
+  "duration_sec": 1894.549,
+  "filename_facts": {
+   "episode_number": 471,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 471,
+   "story": "The lost letter #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 471: The Lost Letter, Chapter 1 (Before Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "Burn your own 'chametz', the yetzer hara, before Pesach; Shema with a young guest; and the first chapter of The Lost Letter, about a wealthy Chassid who did not ask the Baal Shem Tov for a blessing.",
+  "summary_long": "Broadcast in the last days before Pesach 5751. Uncle Yossi teaches that when we burn the chametz we should ask Hashem to help us get rid of our own 'chametz', the yetzer hara, so we can feel the true freedom of Zman Cheiruseinu; when Moshiach comes, all evil will disappear. The order of the day: tell the yetzer hara its time is up. After the Hakochainik march, a young guest recites the Shema in Studio 604 and everyone gives tzedakah. Story time begins The Lost Letter: on his last day, the Baal Shem Tov blesses his students, but Reb Leib, the richest man in town, feels he needs nothing. The Baal Shem Tov instead gives him a sealed letter to deliver to Reb Sholom. Coming home in a storm, Reb Leib drops it unnoticed under a heavy closet and forgets it, and over the following years one disaster after another strips away his fortune. To be continued. The program ends with the Shabbos candle-lighting time.",
+  "lesson": "Never think you have no need for a blessing: good fortune can turn, and a tzaddik's brachah opens new channels of blessing. Before Pesach, ask Hashem to help you burn your own 'chametz', the yetzer hara.",
+  "keywords": [
+   "yetzer hara",
+   "burning chametz",
+   "sealed letter",
+   "wealthy merchant",
+   "factory fire",
+   "forest fire",
+   "closet",
+   "blessing",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 471,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1991-03-19",
+   "hebrew": "4 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'So very close to Pesach'; Shabbos candles 5:52 fits Friday 22 March 1991 in New York; one week before episode 472, which states Yud-Aleph Nissan."
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story opens as the Baal Shem Tov blesses his students before his passing.",
+    "at_sec": 998
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A wealthy man loses his fortune through a series of fires and disasters.",
+    "at_sec": 1440
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The child reciting the Shema is named in full.",
+    "at_sec": 709
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Leib, a wealthy Chassid",
+   "Miriam, his wife",
+   "Reb Sholom"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "hiskashrus",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "self_control",
+   "anavah",
+   "emunah"
+  ],
+  "mitzvos": [
+   "chametz",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Shemoneh Esrei",
+    "note": "The prayer said three times a day that all evil be removed."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 52,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 52,
+   "end_sec": 440,
+   "type": "talk",
+   "title": "Burning Our Own Chametz: Freedom from the Yetzer Hara",
+   "summary": "As we burn the chametz, we ask Hashem to help us get rid of the yetzer hara; when Moshiach comes, all evil will be removed.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "4bb9391f0f"
+   ]
+  },
+  {
+   "start_sec": 440,
+   "end_sec": 670,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 866,
+   "type": "shema_guest",
+   "title": "Shema with a young guest"
+  },
+  {
+   "start_sec": 866,
+   "end_sec": 920,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 920,
+   "end_sec": 1764,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 1",
+   "summary": "Reb Leib declines a blessing from the dying Baal Shem Tov, loses the letter he was asked to deliver, and watches his fortune slip away.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1764,
+   "end_sec": 1794,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1794,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Candle-lighting times are period pieces. Speech begins about 17 seconds in."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Schneur Zalman Goldstein",
+    "role": "shema_guest",
+    "start_sec": 709,
+    "end_sec": 866
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:17:09Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "4bb9391f0f",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Chomet-Yetzer Hara 471' = 59-428 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "796a534305",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1991b): ep 471 ch. 1 and ep 472 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20471%20-%20The%20Lost%20Letter%2C%20Chapter%201%20%28Before%20Pesach%29%20%281991-03-19%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 471 - The Lost Letter, Chapter 1 (Before Pesach) (1991-03-19).mp3",
+  "size_bytes": 22735524,
+  "mime_type": "audio/mpeg"
+ }
+}

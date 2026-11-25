@@ -1,0 +1,355 @@
+{
+ "id": "da4e994561",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "145",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 145 - Saved by a Miracle, Chapter 2 (Erev Sukkos) (1984-10-09).mp3",
+  "duration_sec": 1760.025,
+  "filename_facts": {
+   "episode_number": 145,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 145,
+   "story": "Saved by a miracle #2",
+   "topic": "ערב סוכות מ' ניסים מדבר",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 145: Saved by a Miracle, Chapter 2 (Erev Sukkos)",
+  "title_basis": "master_catalog",
+  "summary_short": "Before Sukkos, Uncle Yossi describes the miracles of the Clouds of Glory in the desert, and the story ends: the Alter Rebbe's strange advice to wait a week saves Reb Boruch's life.",
+  "summary_long": "Broadcast the day before Erev Sukkos. Uncle Yossi explains that the s'chach of the sukkah recalls the Clouds of Glory that protected the Bnei Yisroel for forty years in the desert: shade by day and a pillar of fire by night, a soft path over sharp stones, mountains flattened, clothes and shoes that were cleaned and grew with their owners, manna from heaven that tasted like anything you wished, and a rock that gave water and followed them. The s'chach teaches us to trust that Hashem feeds and supports everyone. After the Hakochainik march and a recap of last week's chapter, two brothers who bought letters in the children's Sefer Torah lead the Shema. The story concludes: the Alter Rebbe now tells Reb Boruch to go to the minister, who greets him with joy. Officials had ordered that he be shot when he arrived the week before, but because he did not come, witnesses had time to reveal that Alex framed him. Reb Boruch gets his job back with a raise. The show ends with the Shofar Gadol contest, the Great Sukkah Experience, reminders to eat in the sukkah, bentch on the four kinds and share them with others, and a refuah shleimah update.",
+  "lesson": "Things that look puzzling to us are clear through the eyes of a tzaddik; trust Hashem, who protects and provides for us as He did in the desert.",
+  "keywords": [
+   "s'chach",
+   "Clouds of Glory",
+   "pillar of fire",
+   "manna",
+   "well of water",
+   "desert",
+   "minister",
+   "false accusation",
+   "Sefer Torah letters",
+   "Great Sukkah Experience"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 145,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1984-10-09",
+   "hebrew": "13 Tishrei 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "On air: 'a day before Erev Sukkos'; eat in the sukkah 'tomorrow night and Thursday night'; Chol HaMoed Sunday is 14 October. Tuesday 13 Tishrei 5745 = 9 Oct 1984."
+  },
+  "serial": {
+   "story_key": "saved-by-a-miracle",
+   "story_title": "Saved by a Miracle",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The minister reveals that officials had ordered the falsely accused Jew to be shot on arrival; he is saved.",
+    "at_sec": 1311
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two brothers named in full as Shema guests.",
+    "at_sec": 864
+   },
+   {
+    "flag": "health_info",
+    "note": "Refuah shleimah update for a named person.",
+    "at_sec": 1635
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Boruch, an honest Chassid",
+   "Reb Boruch's wife",
+   "Alex, a jealous and cruel man",
+   "the Russian minister",
+   "the guard"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "hiskashrus",
+   "chabad_rebbeim",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "kabbalas_ol",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "sukkah",
+   "arba_minim",
+   "hachnasas_orchim",
+   "brachos",
+   "tehillim",
+   "mivtzoim",
+   "shema"
+  ],
+  "calendar": [
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "ref": "Miracles of the Clouds of Glory",
+    "note": "Cited as 'our Sages tell us': clothes cleaned and growing with the wearer, a soft path, mountains flattened."
+   }
+  ],
+  "places": [
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 18,
+   "end_sec": 51,
+   "type": "opening",
+   "title": "Opening: a day before Erev Sukkos"
+  },
+  {
+   "start_sec": 51,
+   "end_sec": 485,
+   "type": "talk",
+   "title": "The S'chach and the Clouds of Glory",
+   "summary": "The miracles of the forty years in the desert, and the lesson of trust in Hashem.",
+   "calendar": [
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 485,
+   "end_sec": 514,
+   "type": "talk",
+   "title": "Rejoicing on Yom Tov"
+  },
+  {
+   "start_sec": 514,
+   "end_sec": 700,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 700,
+   "end_sec": 857,
+   "type": "story_intro",
+   "title": "Recap of Chapter 1"
+  },
+  {
+   "start_sec": 857,
+   "end_sec": 1030,
+   "type": "shema_guest",
+   "title": "Shema with two brothers"
+  },
+  {
+   "start_sec": 1030,
+   "end_sec": 1440,
+   "type": "story_chapter",
+   "title": "Saved by a Miracle, Chapter 2",
+   "summary": "Following the Alter Rebbe's advice, Reb Boruch arrives a week late and learns the delay saved his life.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "saved-by-a-miracle",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1440,
+   "end_sec": 1519,
+   "type": "announcement",
+   "title": "Shofar Gadol contest: final stages"
+  },
+  {
+   "start_sec": 1519,
+   "end_sec": 1576,
+   "type": "announcement",
+   "title": "The Great Sukkah Experience"
+  },
+  {
+   "start_sec": 1576,
+   "end_sec": 1635,
+   "type": "talk",
+   "title": "Share the Sukkah and the Four Kinds",
+   "calendar": [
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 1635,
+   "end_sec": 1680,
+   "type": "announcement",
+   "title": "Refuah shleimah update"
+  },
+  {
+   "start_sec": 1680,
+   "end_sec": 1695,
+   "type": "closing",
+   "title": "Closing: Chag Sameach"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "0d0dca3950",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 144 = 'Saved by a miracle #1', 145 = '#2'; the episode recaps chapter 1."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "0d0dca3950",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Saved by a Miracle' (1984): ep 144 ch. 1 and ep 145 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "456522bfcc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6144d5e2ae",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content",
+   "dead_air"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "About a minute with no transcribed speech at 23:20-24:20, between the story and the contest announcement (possibly music or a gap). ASR often renders 'Reb Boruch' as 'Rabbi Akiva'. Contest and Sukkos event are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Abraham Brickman",
+    "role": "shema_guest",
+    "group": "Age 11",
+    "start_sec": 864,
+    "end_sec": 1030
+   },
+   {
+    "name": "Mendel Brickman",
+    "role": "shema_guest",
+    "group": "Age 9",
+    "start_sec": 864,
+    "end_sec": 1030
+   },
+   {
+    "name": "Yosef ben Chaya Malka",
+    "role": "refuah_list",
+    "start_sec": 1635,
+    "end_sec": 1680
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Yosef ben Chaya Malka reported to be feeling better; listeners asked to keep wishing him a complete recovery.",
+    "start_sec": 1635,
+    "end_sec": 1680
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:46Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20145%20-%20Saved%20by%20a%20Miracle%2C%20Chapter%202%20%28Erev%20Sukkos%29%20%281984-10-09%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 145 - Saved by a Miracle, Chapter 2 (Erev Sukkos) (1984-10-09).mp3",
+  "size_bytes": 21121157,
+  "mime_type": "audio/mpeg"
+ }
+}

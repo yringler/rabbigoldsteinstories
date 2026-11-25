@@ -1,0 +1,270 @@
+{
+ "id": "a78808ef52",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Gittel - shabbos candles",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Gittel and the Shabbos Candles - A Chanukah Story.mp3",
+  "duration_sec": 1062.545,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Gittel and the Shabbos Candles: A Chanukah Story",
+  "title_basis": "filename",
+  "summary_short": "For Chanukah, why Shabbos candles come first, and the story of Gittel, swept away from her family by a flood, who finds her way home years later by the light of Shabbos candles.",
+  "summary_long": "Choosing a Chanukah story about light, the storyteller asks: if you can afford only one candle, should it be for Shabbos or Chanukah? Shabbos, says the Rambam, because Shabbos light brings peace to the home. Then the story. In a Dutch town protected by a dam live two loving sisters, Miriam and Gittel. Gittel breaks her leg on the ice and is in the hospital when the dam bursts and the whole town flees to the mountain. Struggling in her cast, she collapses on a bench and wakes in the cottage of an old woman who says she carried her to safety and asks Gittel to repay her by helping on the farm. Weeks become years; Gittel keeps away from non-kosher food but slowly forgets her Yiddishkeit. Sent each Friday to sell butter and cheese at the market in a nearby town, she finally decides to look for her family. Walking through empty streets on Friday night, she sees candles glowing in a window, remembers lighting Shabbos candles, hears 'Shalom Aleichem' through the door, and walks in to find her own family. The Shabbos candles brought her home.",
+  "lesson": "Shabbos candles bring peace and light into a Jewish home, and their light can bring a lost Jewish child back home.",
+  "keywords": [
+   "Shabbos candles",
+   "flood",
+   "dam",
+   "Holland",
+   "sisters",
+   "broken leg",
+   "farm",
+   "cottage",
+   "market",
+   "Shalom Aleichem"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Chanukah",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'I know at Chanukah we have to talk about lights'; closes with a Chanukah greeting. No year given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A dam bursts and the town flees a flood; an injured girl collapses on the way."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "An old woman keeps the girl working on her farm for years, away from her family."
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A child is separated from her family for about three years; happy reunion."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Gittel",
+   "Miriam, her sister",
+   "Mary, the old woman",
+   "the nurse",
+   "Gittel's parents"
+  ],
+  "topics": [
+   "shabbos",
+   "family_and_home",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "shalom",
+   "hakaras_hatov",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "shabbos",
+   "chanukah_lights",
+   "kashrus"
+  ],
+  "calendar": [
+   "chanukah",
+   "shabbos_weekly"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "If one can afford only one candle, Shabbos candles come before Chanukah lights, for shalom bayis (as cited)."
+   }
+  ],
+  "places": [
+   "Holland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 105,
+   "type": "halachah",
+   "title": "Shabbos candles or Chanukah lights?"
+  },
+  {
+   "start_sec": 105,
+   "end_sec": 1050,
+   "type": "story",
+   "title": "Gittel and the Shabbos candles"
+  },
+  {
+   "start_sec": 1050,
+   "type": "closing",
+   "title": "A Chanukah greeting"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told for Chanukah; no opening song on the file. Closing greeting partly garbled in the ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name or opening song; same narrator, talk-then-story format and sign-off as the 'I believe in Hashem' recordings.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attribution from style only (no opening song)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:12Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "2647489fa0",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Gittel and the Candles' ('The Lost Sister'): the same story read by a different narrator, without the Chanukah introduction."
+  },
+  {
+   "type": "same_story",
+   "target_id": "049ac80f7b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Dike: Led Home by the Shabbos Candles' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0d4dd89383",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 337: The Dike (Tisha B'Av)' (episode 337, 8:04-19:48), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "17d9dca041",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 186: The Dike and the Shabbos Candles (Tisha B'Av)' (episode 186, 9:39-21:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9cef1efc9e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 238: The Dike (Tisha B'Av)' (episode 238, 8:14-20:19), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b325e66419",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 438: The Dike (Tisha B'Av)' (episode 438, 9:15-21:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c69b013e95",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 488: The Dike (Tisha B'Av)' (episode 488, 8:55-21:05), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c8f2c07973",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 389: The Dike (Tisha B'Av)' (episode 389, 8:08-20:06), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f33fa1ac66",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 136: The Dike (Tisha B'Av)' (episode 136, 9:48-22:15), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Gittel%20and%20the%20Shabbos%20Candles%20-%20A%20Chanukah%20Story.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Gittel and the Shabbos Candles - A Chanukah Story.mp3",
+  "size_bytes": 12751452,
+  "mime_type": "audio/mpeg"
+ }
+}

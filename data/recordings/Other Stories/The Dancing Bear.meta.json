@@ -1,0 +1,184 @@
+{
+ "id": "9017964f32",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "the dancing bear",
+  "audio_path": "audio/Other Stories/The Dancing Bear.mp3",
+  "duration_sec": 1340.349,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Dancing Bear",
+  "title_basis": "filename",
+  "summary_short": "The young Shpoler Zeide takes the place of an imprisoned Jewish innkeeper and, dressed in a bear skin, dances at the cruel poritz's birthday party to win the innkeeper's freedom.",
+  "summary_long": "Before he became famous, Rabbi Aryeh Leib, the Shpoler Zeide, spent seven years wandering from village to village, sharing the hardships of poor Jews and helping them in secret. In one village he finds the inn shut: the poritz has thrown the Jewish innkeeper into a pit prison for late rent and turned his wife and children out. Staying with another Jewish villager, Shmuel, and teaching his children Torah, the tzaddik learns of the poritz's birthday custom: a Jew is sewn into a bear skin and must match a guest's every dance step, winning gifts if he succeeds and lashes if he fails. For several nights Shmuel hears violin music and dancing feet from the guest's room. On the night of the party the two lower a rope into the pit, the tzaddik changes clothes with the innkeeper, and the innkeeper escapes. Then the 'bear' is led into the hall to dance the kazatske, the polka and the mazurka against the best dancer among the nobles, with the innkeeper's freedom and his family's future at stake.",
+  "lesson": "A true tzaddik feels another Jew's pain and is ready to put himself in danger to free a captive.",
+  "keywords": [
+   "dancing bear",
+   "bear skin",
+   "poritz",
+   "innkeeper",
+   "birthday party",
+   "pit prison",
+   "rope",
+   "kazatske",
+   "polka",
+   "mazurka",
+   "violin"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hating poritz imprisons the innkeeper for late rent and humiliates Jews for entertainment."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The innkeeper is held hungry in an underground pit."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The 'bear' is threatened with twenty lashes and the dogs if he loses."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "Drunken guests at the poritz's party."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Shmuel the villager",
+   "the Jewish innkeeper",
+   "the poritz",
+   "the young nobleman dancer"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "ahavas_yisroel",
+   "chesed",
+   "courage",
+   "anavah"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "hachnasas_orchim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "721b693d18",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Dancing Bear: How the Shpoler Zeide Learned to Dance' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9587146bd8",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Shpoler Zeide's Dance: How Eliyahu HaNavi Taught Him to Free a Prisoner' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cfe005f018",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Shpoler Zeide and the Dancing Bear' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Narrator reads the title at the start; no theme song. ASR loop ('ay-yay-yay') at 17:27, probably where the dance tune is sung. ASR writes 'beer' for bear and 'pirates/parrots' for poritz, and garbles the tzaddik's name (Rabbi Eliyahu/Akiva)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator attributed to the weekly storyteller by style only (read-aloud style, no theme song); series left null."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Dancing%20Bear.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Dancing Bear.mp3",
+  "size_bytes": 16085191,
+  "mime_type": "audio/mpeg"
+ }
+}

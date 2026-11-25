@@ -1,0 +1,320 @@
+{
+ "id": "04226e5cc2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "31a end P13",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 31 - The Beinoni's Truth (Chapters 13-14) and Hilchos Sukkah.mp3",
+  "duration_sec": 3391.112,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Tanya Shiur 31a: The Beinoni's Truth (Chapters 13-14) and Hilchos Sukkah",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur between Yom Kippur and Sukkos: the end of Tanya chapter 13 on truth, the start of chapter 14, and the laws and meaning of the sukkah.",
+  "summary_long": "Shiur 31a in Rabbi Yosef Goldstein's Yiddish Tanya series, given in the days between Yom Kippur and Sukkos. It closes Tanya chapter 13: truth (emes) must be consistent from beginning to end, like a river that never runs dry, yet the beinoni's love of Hashem during davening is also called truth at his own level. A string threaded through many different gems, Yaakov Avinu's attribute of truth, the middle bar of the Mishkan and the links of a chain show how truth runs through every level of every Jew. Chapter 14 begins: the beinoni is the measure every person can reach, and the tzaddik also has a hard choice, holding back his soul's longing to leave the world in order to make a dwelling for Hashem below. A seasonal part explains the four days before Sukkos, the sukkah as a reminder of the Clouds of Glory, the Ushpizin, and how children accept miracles with simple faith, with stories of the Frierdiker Rebbe and the Rebbe. Halachos from the Alter Rebbe's Shulchan Aruch on living in the sukkah follow, then a talk on peace, the Rebbe's blessing for Eretz Yisroel, and the true joy of Simchas Torah.",
+  "lesson": "Every Jew can serve Hashem with truth at his own level, and the sukkah teaches us to live with Hashem's protection and joy.",
+  "keywords": [
+   "beinoni",
+   "emes",
+   "Clouds of Glory",
+   "Ushpizin",
+   "Hilchos Sukkah",
+   "string of gems",
+   "chain links",
+   "Mishkan bar",
+   "Lebanon",
+   "peace",
+   "miracles"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-10",
+   "hebrew": "11-14 Tishrei 5737",
+   "hebrew_year": 5737,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Given between Yom Kippur and Sukkos; year from the series sequence (shiur 29 in Elul 5736) and 'Shnas HaChinuch' in shiur 32."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "13",
+    "to": "14",
+    "lecture_number": 31,
+    "note": "End of chapter 13; beginning of chapter 14."
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "unit": "siman",
+    "from": "625",
+    "to": "639",
+    "lecture_number": 31,
+    "note": "Hilchos Sukkah: the reason for the sukkah and living in it (approximate range)."
+   }
+  ]
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A story mentions a predicted war and thousands killed in Lebanon."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a melamed",
+   "a mekubal who found yearly hints in the pesukim"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "calendar",
+   "halachah"
+  ],
+  "midos": [
+   "emes",
+   "bitachon",
+   "simcha",
+   "shalom"
+  ],
+  "mitzvos": [
+   "sukkah",
+   "torah_study",
+   "davening"
+  ],
+  "calendar": [
+   "sukkos",
+   "yom_kippur",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 13-14; ch. 19"
+   },
+   {
+    "work": "shulchan_aruch_harav",
+    "ref": "Hilchos Sukkah"
+   },
+   {
+    "work": "gemara",
+    "ref": "rivers that fail (nehoros hamechazvim)"
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 23:43"
+   },
+   {
+    "work": "zohar"
+   },
+   {
+    "work": "sichos_of_the_rebbe"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 1186,
+   "type": "text_study",
+   "title": "Tanya chapter 13: truth must be consistent",
+   "summary": "Why the beinoni's love during davening is still called truth, with the mashal of a string through many gems and Yaakov's attribute of truth."
+  },
+  {
+   "start_sec": 779,
+   "end_sec": 866,
+   "type": "story",
+   "title": "The Baal Shem Tov and the simple Jews' 'Baruch Hashem'",
+   "summary": "The Baal Shem Tov would ask simple Jews how they were, to hear them thank Hashem.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1186,
+   "end_sec": 1999,
+   "type": "text_study",
+   "title": "Tanya chapter 14 begins: the beinoni and the tzaddik's choice",
+   "summary": "The beinoni is the measure of every person; the tzaddik chooses to stay in the world to make a dwelling for Hashem."
+  },
+  {
+   "start_sec": 1999,
+   "end_sec": 2490,
+   "type": "talk",
+   "title": "Between Yom Kippur and Sukkos: the sukkah and the Clouds of Glory",
+   "summary": "The four days before Sukkos, the sukkah as a reminder of the Clouds of Glory in the desert, and the Ushpizin.",
+   "calendar": [
+    "sukkos",
+    "yom_kippur"
+   ]
+  },
+  {
+   "start_sec": 2490,
+   "end_sec": 2655,
+   "type": "story",
+   "title": "Children and miracles: the Frierdiker Rebbe and the Rebbe",
+   "summary": "The Frierdiker Rebbe tells a melamed not to skip the miracles, since children accept them with simple faith; the Rebbe and children at Neilah.",
+   "people": [
+    "frierdiker_rebbe",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2655,
+   "end_sec": 3049,
+   "type": "halachah",
+   "title": "Hilchos Sukkah: living in the sukkah like at home",
+   "summary": "Eating, learning and spending time in the sukkah, keeping it clean and dignified, and why Chabad does not stress decorations."
+  },
+  {
+   "start_sec": 3049,
+   "end_sec": 3357,
+   "type": "talk",
+   "title": "Peace: the final blessing and the Rebbe's blessing for Eretz Yisroel",
+   "summary": "Shalom as the vessel for all blessings, and the Rebbe's efforts for peace in Eretz Yisroel."
+  },
+  {
+   "start_sec": 3108,
+   "end_sec": 3357,
+   "type": "story",
+   "title": "The mekubal's prediction and the war moved to Lebanon",
+   "summary": "A mekubal foresaw a hard war in Eretz Yisroel; he later said a tzaddik in New York had turned it away through the mivtzoim."
+  },
+  {
+   "start_sec": 3357,
+   "type": "closing",
+   "title": "True joy: Simchas Torah",
+   "calendar": [
+    "shemini_atzeres_simchas_torah"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations are garbled by ASR. Starts directly in the topic (part 'a' of shiur 31)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:11:02Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Segment boundaries are approximate (Yiddish ASR).",
+   "Year 5737 inferred from series sequence; the mekubal story's year is garbled in the transcript.",
+   "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "23f4f1434c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 195: The Baal Shem Tov and 'Baruch Hashem' (Rosh Chodesh Cheshvan)' (episode 195, 21:50-24:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "76303b6292",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Tanya Shiur 20: Chapters 15 and 16, Serving Hashem Beyond Habit' (Stories, 41:39-43:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2031%20-%20The%20Beinoni%27s%20Truth%20%28Chapters%2013-14%29%20and%20Hilchos%20Sukkah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 31 - The Beinoni's Truth (Chapters 13-14) and Hilchos Sukkah.mp3",
+  "size_bytes": 40694191,
+  "mime_type": "audio/mpeg"
+ }
+}

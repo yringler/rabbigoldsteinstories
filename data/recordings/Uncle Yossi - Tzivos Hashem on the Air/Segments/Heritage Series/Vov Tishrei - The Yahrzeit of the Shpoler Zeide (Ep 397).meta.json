@@ -1,0 +1,165 @@
+{
+ "id": "5650f2336c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Shpoler zeida",
+  "filename_title": "Shpoller Zeide 397",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Vov Tishrei - The Yahrzeit of the Shpoler Zeide (Ep 397).mp3",
+  "duration_sec": 117.766,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 397,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 397,
+   "story": "The pillar of fire. Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Vov Tishrei: The Yahrzeit of the Shpoler Zeide",
+  "title_basis": "content",
+  "summary_short": "A short introduction to Vov Tishrei, the yahrzeit of the Shpoler Zeide, when his descendants gather to retell his stories and follow his example.",
+  "summary_long": "A two-minute introduction from the Tzivos Hashem radio show. Uncle Yossi explains that Vov Tishrei, the sixth of Tishrei, is the yahrzeit of the Shpoler Zeide, Rabbi Aryeh Leib ben Boruch. All over the world his many descendants hold gatherings on this day, retell his stories and make resolutions to follow his teachings, and each year more families discover that they are his descendants. Uncle Yossi says that later in the program he will explain how to find out whether you are a descendant, and announces a story that took place on Vov Tishrei 1812, the day the Shpoler Zeide passed away. The clip ends there, before the story and the family information.",
+  "lesson": "On a tzaddik's yahrzeit we retell his stories and try to follow his example.",
+  "keywords": [
+   "yahrzeit",
+   "descendants",
+   "family gatherings",
+   "1812",
+   "Shpola"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "teaser",
+  "episode": {
+   "number": 397,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-10-03",
+   "hebrew": "4 Tishrei 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 397 (the week of Vov Tishrei 5750). The same introduction also aired in episodes 295 and 446, so the clip may come from one of those."
+  },
+  "collections": [
+   "Heritage Series 2"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidic_masters",
+   "calendar",
+   "family_heritage"
+  ],
+  "midos": [],
+  "mitzvos": [],
+  "calendar": [
+   "vav_tishrei"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "084989493e",
+   "evidence": "text_overlap",
+   "confidence": 0.5,
+   "offset_sec": 75,
+   "note": "Episode 397 (filename number); clip = 75-193 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8bbf7a6519",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Same introduction in episode 446 (containment 0.67), including the line about finding out whether you are a descendant."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3073859dbb",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Same introduction in episode 295, which also has the promised segment on the Shpoler Zeide Family Society."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Introduction only: it promises a story and information about descendants that are not in the clip. Best published next to the full episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:33Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Source episode uncertain: text matches 446 (0.67), 295 (0.51) and 397 (0.50); the filename says 397."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Vov%20Tishrei%20-%20The%20Yahrzeit%20of%20the%20Shpoler%20Zeide%20%28Ep%20397%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Vov Tishrei - The Yahrzeit of the Shpoler Zeide (Ep 397).mp3",
+  "size_bytes": 1414245,
+  "mime_type": "audio/mpeg"
+ }
+}

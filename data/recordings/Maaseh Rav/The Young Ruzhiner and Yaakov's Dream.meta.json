@@ -1,0 +1,164 @@
+{
+ "id": "eec487ad64",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Maaseh Rav",
+  "filename_title": "ruzhiner",
+  "audio_path": "audio/Maaseh Rav/The Young Ruzhiner and Yaakov's Dream.mp3",
+  "duration_sec": 597.447,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Young Ruzhiner and Yaakov's Dream",
+  "title_basis": "filename",
+  "summary_short": "Young Yisroel of Ruzhin always asked Rashi's questions before learning Rashi, but on Yaakov's ladder he had none. His answer: in a dream, anything can happen.",
+  "summary_long": "The Frierdiker Rebbe told this story about the tzaddik Rabbi Yisroel of Ruzhin when he was a little boy just starting Chumash. He understood the pesukim so well that he would ask his teacher exactly the questions Rashi asks, even before he had learned Rashi. Learning Parshas Vayeitzei, the class reached Yaakov's dream of a ladder reaching to Heaven, with angels going up and coming down. The storyteller explains Rashi's question: angels live in Heaven, so why does the pasuk say they went up first? Rashi answers that the angels who guarded Yaakov in Eretz Yisroel went back up, and a new group came down to guard him outside the land. The teacher waited for little Yisroel to ask, but he was silent, and finally said the question did not bother him at all, because it was a dream, and in a dream anything can happen. The lesson draws on the Zohar: the ladder is like our davening. Angels carry our words up to Hashem and bring down brachos, so we should open the siddur as if knocking on the King's door and say each word slowly and carefully.",
+  "lesson": "Our davening is a ladder to Hashem: say each word slowly and with kavanah, because Hashem is listening, and the angels bring down His brachos in return.",
+  "keywords": [
+   "ladder",
+   "angels",
+   "Yaakov's dream",
+   "Rashi's question",
+   "Chumash",
+   "cheder",
+   "siddur",
+   "crown",
+   "king's door"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Maaseh Rav"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "maaseh_rav",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_yisroel_of_ruzhin",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "young Yisroel's teacher"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeitzei"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 28:12",
+    "note": "Why the angels go up before coming down."
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 28:10-12",
+    "note": "Yaakov leaves Be'er Sheva; the dream of the ladder."
+   },
+   {
+    "work": "zohar",
+    "note": "The ladder is like davening (as cited)."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The Frierdiker Rebbe told the story."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song"
+  ]
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Maaseh%20Rav/The%20Young%20Ruzhiner%20and%20Yaakov%27s%20Dream.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Maaseh Rav/The Young Ruzhiner and Yaakov's Dream.mp3",
+  "size_bytes": 7170125,
+  "mime_type": "audio/mpeg"
+ }
+}

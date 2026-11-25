@@ -1,0 +1,177 @@
+{
+ "id": "7517022d79",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chanukah 353",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/What the Chanukah Lights Whisper - Be on Hashem's Side (Ep 353).mp3",
+  "duration_sec": 406.584,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 353,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 353,
+   "story": "The blessing of a Tzaddik #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "What the Chanukah Lights Whisper: Be on Hashem's Side",
+  "title_basis": "content",
+  "summary_short": "Before Chanukah, Uncle Yossi shares the Rebbe's teaching to listen to the Chanukah lights: they whisper faith in Hashem's miracles and call us to grow brighter every day.",
+  "summary_long": "A pre-Chanukah talk from the Tzivos Hashem radio show, recorded the week before the first candle. Uncle Yossi explains why children must be present when the menorah is lit, and that although we may not use its light, the Rebbe taught that we must listen to what the lights tell us. They whisper a message of faith: the brachah 'in those days, at this time' means that Hashem, who made miracles for our ancestors, will make miracles today, the greatest being Moshiach and the rebuilt Beis HaMikdash with its golden menorah. Like Yehudah HaMaccabi's call, 'Whoever is for Hashem, come to me', the few win when they stand on Hashem's side, which means learning more Torah and doing more mitzvos. And just as a candle is added each night, every soldier of Tzivos Hashem should grow brighter from day to day and bring friends along.",
+  "lesson": "Join Hashem's side by learning more Torah and doing more mitzvos, and keep growing brighter each day like the Chanukah lights.",
+  "keywords": [
+   "menorah",
+   "Chanukah lights",
+   "Maccabees",
+   "miracles",
+   "golden menorah",
+   "soldiers"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "episode": {
+   "number": 353,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-11-29",
+   "hebrew": "20 Kislev 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 353 (dated 11-29-88); 'this coming Saturday night is the first night of Chanukah' agrees."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "courage"
+  ],
+  "mitzvos": [
+   "chanukah_lights",
+   "torah_study"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "'Listen carefully to what the candles are telling us'",
+    "note": "Quoted in Yiddish as the Rebbe's words."
+   },
+   {
+    "work": "siddur",
+    "ref": "Bayamim hahem bazman hazeh",
+    "note": "The Chanukah brachah, explained."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9e1be60351",
+   "evidence": "text_overlap",
+   "confidence": 0.78,
+   "offset_sec": 46,
+   "note": "Episode 353 (filename number); clip = 46-453 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "b45fe5bf64",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two seconds longer at the start than 'Chanukah 353' (b45fe5bf64), which is otherwise the same cut."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/What%20the%20Chanukah%20Lights%20Whisper%20-%20Be%20on%20Hashem%27s%20Side%20%28Ep%20353%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/What the Chanukah Lights Whisper - Be on Hashem's Side (Ep 353).mp3",
+  "size_bytes": 4879957,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "id": "7e61328794",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Elul 240",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul - The King in the Field (Ep 240).mp3",
+  "duration_sec": 244.339,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 240,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 240,
+   "story": "Reb Yosef Mokir Shabbos",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Elul: The King in the Field",
+  "title_basis": "content",
+  "summary_short": "Before the month of Elul, Uncle Yossi explains the Alter Rebbe's parable: in Elul, Hashem is like a king in the field, easy to reach and welcoming everyone with a smile.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given the week of Shabbos Mevarchim Elul, Parshas Re'eh. Uncle Yossi explains that on this Shabbos the coming month is blessed, and that Elul, the last month of the year, prepares us for the new year, when we wish each other a good inscription in the Book of Life. In Elul Hashem makes Himself easier to reach than all year long. He brings the Alter Rebbe's parable from Likkutei Torah on this week's parsha: all year a king sits in his palace, where it is hard to see him, but when he returns from a journey he passes through the fields, and everyone can go out to greet him. He welcomes them all with a smile and a shining face and grants their requests. So too in Elul, Hashem is waiting for us. Uncle Yossi asks children to listen in shul to the blessing of the new month, and to ask for the greatest wish of all, Moshiach now.",
+  "lesson": "In Elul Hashem is close and welcoming, like a king in the field; go out to greet Him with prayer and good deeds.",
+  "keywords": [
+   "king",
+   "palace",
+   "field",
+   "new month",
+   "Book of Life",
+   "new year"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 240,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-08-26",
+   "hebrew": "21 Av 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos is Shabbos Mevarchim Elul, Parshas Re'eh' (25 Av 5746 = 1986-08-30)."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "chassidus_tanya",
+   "teshuvah"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "davening",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [
+   "reeh"
+  ],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Re'eh 32a",
+    "note": "The Alter Rebbe's parable of the King in the field."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b997afa367",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 38,
+   "note": "Episode 240 (filename number); clip = 38-282 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('...that this coming Shabbos'); the opening 'Children, I would like you to know' is in the full episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Elul%20-%20The%20King%20in%20the%20Field%20%28Ep%20240%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul - The King in the Field (Ep 240).mp3",
+  "size_bytes": 2932994,
+  "mime_type": "audio/mpeg"
+ }
+}

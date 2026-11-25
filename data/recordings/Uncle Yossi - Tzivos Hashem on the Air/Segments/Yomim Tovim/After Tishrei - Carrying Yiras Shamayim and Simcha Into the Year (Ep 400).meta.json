@@ -1,0 +1,162 @@
+{
+ "id": "a7f6fa797c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tishrei recap in Cheshvan 400",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Tishrei - Carrying Yiras Shamayim and Simcha Into the Year (Ep 400).mp3",
+  "duration_sec": 376.878,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 400,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 400,
+   "story": "The diamond from heaven",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "After Tishrei: Carrying Yiras Shamayim and Simcha Into the Year",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi looks back on the Tishrei holidays: the awe of Rosh Hashanah and Yom Kippur and the joy of Sukkos and Simchas Torah should stay with us all year.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, aired just after the Tishrei holidays. Uncle Yossi explains that Yomim Tovim are not only reminders of the past but sources of new strength. Rosh Hashanah and Yom Kippur give us yiras Shamayim: the worry that we might not be doing a mitzvah exactly as Hashem wants. A mezuzah with even one faulty letter is as if there were no mezuzah at all, and the same is true of tefillin, so we must learn the Shulchan Aruch to know how to do each mitzvah properly. Sukkos and Simchas Torah, 'the time of our joy', are when we 'shop' for a whole year's simcha shel mitzvah, since every mitzvah is Hashem's will. The Alter Rebbe teaches that 'asher kideshanu' in every brachah hints at 'ashrei', how fortunate we are to be made holy through the mitzvos. The order of the day for every soldier in Tzivos Hashem: do every mitzvah with joy.",
+  "lesson": "Keep the awe of the Yomim Noraim and the joy of Sukkos all year: learn how to do each mitzvah properly, and do it happily.",
+  "keywords": [
+   "mezuzah",
+   "tefillin",
+   "Shulchan Aruch",
+   "happiness",
+   "Yomim Noraim",
+   "order of the day"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 400,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-10-24",
+   "hebrew": "25 Tishrei 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 400, which says 'this coming Shabbos is Shabbos Bereishis'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "mitzvos_in_daily_life",
+   "halachah"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "simcha"
+  ],
+  "mitzvos": [
+   "mezuzah",
+   "tefillin",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [
+   "rosh_hashanah",
+   "yom_kippur",
+   "sukkos",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "note": "Recommended as the book that teaches how to do each mitzvah."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8a1af814fc",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 52,
+   "note": "Episode 400 (filename number); clip = 52-429 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/After%20Tishrei%20-%20Carrying%20Yiras%20Shamayim%20and%20Simcha%20Into%20the%20Year%20%28Ep%20400%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Tishrei - Carrying Yiras Shamayim and Simcha Into the Year (Ep 400).mp3",
+  "size_bytes": 4523559,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "id": "64ecbd1960",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "hg1b",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Haggadah in Yiddish 1b - Karpas, Yachatz, Ma Nishtana and the Sages of Bnei Brak.mp3",
+  "duration_sec": 2576.969,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Haggadah in Yiddish 1b: Karpas, Yachatz, Ma Nishtana and the Sages of Bnei Brak",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Haggadah class for children, from the end of Kiddush through Urchatz, Karpas, Yachatz, Ha Lachma Anya, Ma Nishtana and Avadim Hayinu.",
+  "summary_long": "Told in Yiddish to children, this class walks through the opening steps of the Seder. It begins with the Havdalah said in Kiddush when Yom Tov falls on Motzaei Shabbos, Shehecheyanu, and drinking the first cup while leaning to the left. Urchatz is explained through the halachah of washing, without a brachah, before eating a wet food, and Karpas through dipping a vegetable in salt water and having the maror in mind with the brachah. At Yachatz the middle matzah, the Levi, is broken and the larger half is set aside for the afikoman. Maggid opens with Ha Lachma Anya: matzah is a poor man's bread of only flour and water. The teacher explains why the child asks the Four Questions, goes through each one, and has the children say Ma Nishtana twice. Avadim Hayinu answers them: had Hashem not taken us out, we would still be slaves, so even the wise must tell the story. The class ends with the sages who spoke all night in Bnei Brak, and Rabbi Elazar ben Azaryah, who looked seventy at eighteen, and Ben Zoma's teaching on remembering the Exodus every night.",
+  "lesson": "Even if we already know the story, it is a mitzvah to tell about the Exodus from Egypt, and the more we tell, the better.",
+  "keywords": [
+   "Four Questions",
+   "afikoman",
+   "salt water",
+   "middle matzah",
+   "poor man's bread",
+   "Bnei Brak",
+   "white hairs",
+   "leaning",
+   "Havdalah",
+   "first cup"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "shiur",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "needs_context",
+  "study_text": [
+   {
+    "work": "haggadah",
+    "unit": "section",
+    "from": "Kadesh (Yaknehaz)",
+    "to": "Rabbi Elazar ben Azaryah (Ben Zoma)",
+    "lecture_number": null,
+    "note": "Filename 'hg1b'; continues from the start of Kiddush."
+   }
+  ]
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_tarfon",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_eliezer_ben_hurkenos",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_yehoshua_ben_chanania",
+    "role": "appears"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Elazar ben Azaryah",
+   "Ben Zoma",
+   "the students of the sages",
+   "a father and his child at the Seder"
+  ],
+  "topics": [
+   "calendar",
+   "halachah",
+   "sages"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "emunah"
+  ],
+  "mitzvos": [
+   "seder",
+   "matzah",
+   "kiddush",
+   "havdalah",
+   "brachos"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Bnei Brak",
+   "Mitzrayim (Egypt)"
+  ],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Kadesh through Rabbi Elazar ben Azaryah"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "washing before a wet food"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 13:8; Devarim 16:3"
+   },
+   {
+    "work": "mishnah",
+    "ref": "Berachos 1:5"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 205,
+   "type": "halachah",
+   "title": "Kadesh: Havdalah on Motzaei Shabbos and the first cup",
+   "summary": "The special Havdalah when Yom Tov follows Shabbos, Shehecheyanu, and drinking the first cup while leaning."
+  },
+  {
+   "start_sec": 205,
+   "end_sec": 372,
+   "type": "halachah",
+   "title": "Urchatz: washing before a wet food",
+   "summary": "Why we wash three times on each hand without a brachah before eating something wet."
+  },
+  {
+   "start_sec": 372,
+   "end_sec": 598,
+   "type": "text_study",
+   "title": "Karpas and its brachah",
+   "summary": "Dipping a vegetable in salt water and saying borei pri ha'adamah with the maror in mind."
+  },
+  {
+   "start_sec": 598,
+   "end_sec": 730,
+   "type": "halachah",
+   "title": "Yachatz: breaking the middle matzah",
+   "summary": "The Levi matzah is broken; the larger half, in five pieces, is hidden for the afikoman."
+  },
+  {
+   "start_sec": 730,
+   "end_sec": 980,
+   "type": "text_study",
+   "title": "Ha Lachma Anya: the poor man's bread",
+   "summary": "Uncovering the matzos, why matzah is poor man's bread, the invitation and the prayer for next year in Eretz Yisroel."
+  },
+  {
+   "start_sec": 980,
+   "end_sec": 1659,
+   "type": "text_study",
+   "title": "Ma Nishtana: the Four Questions",
+   "summary": "Why the child asks, each of the four questions explained, and the children say Ma Nishtana twice."
+  },
+  {
+   "start_sec": 1659,
+   "end_sec": 2039,
+   "type": "text_study",
+   "title": "Avadim Hayinu: we were slaves",
+   "summary": "Had Hashem not taken us out we would still be slaves, so even the wise must tell the story."
+  },
+  {
+   "start_sec": 2039,
+   "end_sec": 2186,
+   "type": "story",
+   "title": "The sages in Bnei Brak",
+   "summary": "Five great sages told of the Exodus all night until their students came to call them for the morning Shema.",
+   "people": [
+    "rabbi_akiva",
+    "rabbi_tarfon",
+    "rabbi_eliezer_ben_hurkenos",
+    "rabbi_yehoshua_ben_chanania"
+   ]
+  },
+  {
+   "start_sec": 2186,
+   "type": "text_study",
+   "title": "Remembering the Exodus every night",
+   "summary": "Rabbi Elazar ben Azaryah and Ben Zoma on mentioning the Exodus at night and in the days of Moshiach."
+  },
+  {
+   "start_sec": 2216,
+   "end_sec": 2312,
+   "type": "story",
+   "title": "Eighteen white hairs",
+   "summary": "The eighteen-year-old Rabbi Elazar ben Azaryah is chosen to lead, and a miracle makes him look like an elder."
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "933079e352",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "offset_sec": 2793,
+   "note": "Same wording and pacing as 'hg1a' from about 46:33 (Havdalah) to about 89:30; not flagged by the fingerprint match, so check."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "8871031f73",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "Same Yiddish Haggadah class for children; 'hg2b' covers the slavery and the ten plagues later in Maggid."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts in the middle of Kiddush (Havdalah). Haggadah quotations are garbled by the ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No name, sign-off or credit in the recording; the teacher addresses 'kinderlach' throughout.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Teacher not named; possibly Rabbi Yosef Goldstein (same archive), unconfirmed.",
+   "Overlaps 'Haggada 1' (be2d85680e) and appears inside 'hg1a' (933079e352); decide which copy to publish."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Haggadah%20in%20Yiddish%201b%20-%20Karpas%2C%20Yachatz%2C%20Ma%20Nishtana%20and%20the%20Sages%20of%20Bnei%20Brak.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Haggadah in Yiddish 1b - Karpas, Yachatz, Ma Nishtana and the Sages of Bnei Brak.mp3",
+  "size_bytes": 30924569,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "id": "5ae5c959ac",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Plot That boomeranged",
+  "audio_path": "audio/Other Stories/The Plot That Boomeranged (2).mp3",
+  "duration_sec": 1331.133,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Plot That Boomeranged",
+  "title_basis": "filename",
+  "summary_short": "A wicked prime minister plots to poison the king with the Jews' Purim gift and blame the wise Jewish leader, but his scheme turns back on him.",
+  "summary_long": "In a land near Persia, the foolish King Hakim cares only for his horses and his dog, and leaves the country to his cruel prime minister Zureik, who hates the Jews. The Jewish leader, the wise and kind Chacham Bashi Abu Tzaddik, is also a doctor. When Zureik refuses to judge fairly between two men arguing over a camel, Abu Tzaddik tells a fable about a dog who 'divides' cheese for two cats until nothing is left, and people start bringing their cases to him instead. When a plague of locusts threatens the land, Abu Tzaddik prepares a powder that stops it and tells everyone to thank Hashem, and the king makes him his adviser. Jealous, Zureik and his wife plan to poison the hamantash the Jews send the king for Purim and blame Abu Tzaddik. But Zureik feeds a slice to the king's dog, which goes wild and bites him, and in terror he confesses everything. Abu Tzaddik heals the dog, Zureik is punished, and the king makes Abu Tzaddik prime minister, wishing his Jewish people a happy Purim.",
+  "lesson": "Hashem turns the plans of those who plot against the Jews back on their own heads, as in the Purim story; honesty and kindness win respect.",
+  "keywords": [
+   "king",
+   "prime minister",
+   "camel",
+   "cats and cheese",
+   "locusts",
+   "poison",
+   "hamantash",
+   "dog",
+   "Chacham Bashi"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "historical",
+   "mashal_parable"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A prime minister threatens to hang the Jewish leader and expel the Jews, and frames him for poisoning the king."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A poisoned dog goes wild and bites the villain."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The villain is led away to be hanged."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "King Hakim",
+   "Zureik, the prime minister",
+   "Zureik's wife",
+   "Abu Tzaddik, the Chacham Bashi",
+   "Ika, the king's dog",
+   "two men with a camel"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "jewish_history",
+   "calendar"
+  ],
+  "midos": [
+   "anavah",
+   "chesed",
+   "emes"
+  ],
+  "mitzvos": [
+   "mishloach_manos"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Persia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 409,
+   "type": "story",
+   "title": "The king, the prime minister and the camel",
+   "summary": "Zureik judges unfairly, and Abu Tzaddik's fable of the cats and the cheese wins the people's trust."
+  },
+  {
+   "start_sec": 409,
+   "end_sec": 860,
+   "type": "story",
+   "title": "The plague of locusts",
+   "summary": "Abu Tzaddik stops the locusts and becomes the king's adviser."
+  },
+  {
+   "start_sec": 860,
+   "type": "story",
+   "title": "The poisoned hamantash",
+   "summary": "Zureik's Purim plot turns back on him."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song or intro teaching; starts straight with the story and ends without a sign-off. Name spelled variously by ASR (Zureik/Zurek/Zarek)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator attribution uncertain: no theme song or intro; voice style resembles the weekly storyteller."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:20Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Plot%20That%20Boomeranged%20%282%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Plot That Boomeranged (2).mp3",
+  "size_bytes": 15974546,
+  "mime_type": "audio/mpeg"
+ }
+}

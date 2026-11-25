@@ -1,0 +1,329 @@
+{
+ "id": "d7c2af64da",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "439",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 439 - Torah, the Best Thing of All, Chapter 1 (1990-08-07).mp3",
+  "duration_sec": 1845.029,
+  "filename_facts": {
+   "episode_number": 439,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 439,
+   "story": "Torah, the best thing of all #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 439: Torah, the Best Thing of All, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "Children will lead the parade to greet Moshiach, the new song Ad Mosai, a young guest from Ann Arbor, Rabbi Akiva among boastful merchants at sea, and why we smell spices at Havdalah.",
+  "summary_long": "Uncle Yossi opens by telling listeners about the Tzivos Hashem summer newsletter and how to join, and asks them to sign up their friends too. Jewish children will be first to greet Moshiach, proudly reporting how high they have risen in rank, and, as the prophet Daniel foretold, Hashem will send clouds to carry everyone to Eretz Yisroel. He teaches the words of the song 'Ad Mosai' line by line, plays it slowly on his keyboard, and then turns it into the Hakochainik march. An eleven-year-old visitor from Ann Arbor, Michigan recites the Shema and tells about receiving a dollar from the Rebbe for tzedakah. Story time begins with Dovid HaMelech's words that Torah is better than thousands of gold and silver pieces: on a ship full of merchants boasting of gold, silver and diamonds, Rabbi Akiva says his merchandise is worth more than all of it, cannot be stolen and goes wherever he goes. The merchants laugh, and the chapter ends there. Mitzvah time explains why we smell besamim at Havdalah: to comfort us when the extra Shabbos neshamah leaves. A listener's letter about giving tzedakah together leads into the pushka, a sponsor and candle-lighting times.",
+  "lesson": "Torah is the one treasure no one can take away from you; it goes with you wherever you go.",
+  "keywords": [
+   "newsletter",
+   "heavenly clouds",
+   "Ad Mosai song",
+   "keyboard",
+   "Rebbe's dollar",
+   "ship",
+   "merchants",
+   "diamonds",
+   "besamim",
+   "neshamah yeseirah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 439,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1990-08-07",
+   "hebrew": "16 Av 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Candle time 7:43 PM fits Fri 10 Aug 1990; music resumes after Tisha B'Av (ep. 438). Body is a rebroadcast of episode 280 (1987)."
+  },
+  "serial": {
+   "story_key": "torah-the-best-thing-of-all",
+   "story_title": "Torah, the Best Thing of All",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest and a letter writer are named in full, with their towns.",
+    "at_sec": 853
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the merchants on the ship"
+  ],
+  "topics": [
+   "torah_study",
+   "sages",
+   "moshiach_geulah",
+   "tzivos_hashem",
+   "shabbos"
+  ],
+  "midos": [
+   "contentment",
+   "anavah",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "havdalah",
+   "tzedakah",
+   "shema",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "119:72",
+    "note": "'The Torah of Your mouth is better to me than thousands of gold and silver.'"
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "Moshiach comes with the clouds of heaven (cited as the prophet Daniel)."
+   },
+   {
+    "work": "siddur",
+    "ref": "Havdalah",
+    "note": "'Behold, G-d is my salvation; I will trust and not fear.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 47,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 47,
+   "end_sec": 345,
+   "type": "talk",
+   "title": "Join Tzivos Hashem and Greet Moshiach on the Clouds",
+   "summary": "The summer newsletter and how to join; children will lead the parade out of golus and ride Hashem's clouds to Eretz Yisroel.",
+   "people": [
+    "daniel"
+   ],
+   "linked_items": [
+    "a526e22840"
+   ]
+  },
+  {
+   "start_sec": 345,
+   "end_sec": 678,
+   "type": "song",
+   "title": "Learning the Song 'Ad Mosai'"
+  },
+  {
+   "start_sec": 678,
+   "end_sec": 803,
+   "type": "song",
+   "title": "Hakochainik March: Ad Mosai"
+  },
+  {
+   "start_sec": 803,
+   "end_sec": 1047,
+   "type": "shema_guest",
+   "title": "Shema with a young visitor from Ann Arbor, Michigan"
+  },
+  {
+   "start_sec": 1047,
+   "end_sec": 1373,
+   "type": "story_chapter",
+   "title": "Torah, the Best Thing of All, Chapter 1",
+   "summary": "On a ship of boasting merchants, Rabbi Akiva says his merchandise is worth more than all their gold and diamonds and can never be stolen.",
+   "people": [
+    "rabbi_akiva",
+    "david_hamelech"
+   ],
+   "story_key": "torah-the-best-thing-of-all",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1373,
+   "end_sec": 1586,
+   "type": "halachah",
+   "title": "Mitzvah Time: Why We Smell Besamim at Havdalah",
+   "summary": "The spices comfort us when the extra Shabbos neshamah leaves, and Hashem promises to be with us all week."
+  },
+  {
+   "start_sec": 1586,
+   "end_sec": 1720,
+   "type": "mailbox",
+   "title": "A listener's letter about giving tzedakah together"
+  },
+  {
+   "start_sec": 1720,
+   "end_sec": 1752,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1752,
+   "end_sec": 1781,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1781,
+   "end_sec": 1798,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1798,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "fbe6825c15",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Episode 280 has the same newsletter talk, Ad Mosai song, Shema guest, story chapter and Havdalah lesson; this is a rebroadcast."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "11adf87746",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Episode 384 is another rebroadcast of the same program."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b446975e89",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Torah, the Best Thing of All' (1990): ep 439 ch. 1 and ep 440 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Rebroadcast of episode 280 with a new 1990 ending (sponsor, candle times). ASR loops on 'ay, ay, ay' during the song at about 10:26. Guest and letter writer named (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Alter Yehoshua Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan",
+    "start_sec": 853,
+    "end_sec": 1047,
+    "note": "Age 11 1/2; received a dollar from the Rebbe on his visit to New York."
+   },
+   {
+    "name": "Esther Lieberman",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1605,
+    "end_sec": 1720,
+    "note": "Wrote about giving tzedakah together with the radio listeners."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Rebroadcast of episode 280: decide whether both copies are published."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:48Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20439%20-%20Torah%2C%20the%20Best%20Thing%20of%20All%2C%20Chapter%201%20%281990-08-07%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 439 - Torah, the Best Thing of All, Chapter 1 (1990-08-07).mp3",
+  "size_bytes": 22141186,
+  "mime_type": "audio/mpeg"
+ }
+}

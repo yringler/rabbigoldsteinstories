@@ -1,0 +1,279 @@
+{
+ "id": "a45eaaa6e3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "198",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 198 - Nachum Ish Gamzu and the Strange Gift (1985-11-05).mp3",
+  "duration_sec": 1816.025,
+  "filename_facts": {
+   "episode_number": 198,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 198,
+   "story": "The strange gift",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 198: Nachum Ish Gamzu and the Strange Gift",
+  "title_basis": "content",
+  "summary_short": "How a mezuzah is made, a phone quiz, Shema with a first-grade class, and a bedtime story of Nachum Ish Gamzu's box of sand: 'this too is for the good'.",
+  "summary_long": "The show opens straight into the Hakochainik march and a sponsor message. Mitzvah Time teaches how a mezuzah is made: it must be written on parchment from the skin of a kosher animal, never on paper, with a quill from a kosher bird and specially prepared black ink. A listener from a Boro Park girls' school then answers a phone quiz on last week's lesson about Shin-Dalet-Yud. A first-grade class from Beis Yaakov of Boro Park leads the Shema. Story time is a bedtime scene: little Yehoshua tells his father how Hashem turned Avraham Avinu's dust and straw into arrows and swords, and his father answers with a similar story. Nachum Ish Gamzu, who always said 'gam zu l'tovah', this too is for the good, sets out to ask a king to let the Jews keep the Torah, carrying a golden box of diamonds. At an inn the diamonds are stolen and replaced with sand. The furious king condemns him, but Eliyahu HaNavi, disguised as an officer, suggests trying the 'miracle sand' in battle, and the war is won. The thieving innkeeper brings wagonloads of sand and is punished when it proves to be ordinary. The show ends with the 'My Mezuzah' contest reminder.",
+  "lesson": "Everything Hashem does is for the good: gam zu l'tovah.",
+  "keywords": [
+   "gam zu l'tovah",
+   "golden box",
+   "diamonds",
+   "sand",
+   "inn",
+   "king",
+   "battle",
+   "bedtime story",
+   "parchment",
+   "quill"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 198,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic",
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-11-05",
+   "hebrew": "21 Cheshvan 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Three weeks after 195 (Rosh Chodesh Cheshvan, 1985-10-15); the quiz reviews 196's lesson; contest runs until Chanukah. Matches the count back from 211."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A king forbids Torah study; Nachum Ish Gamzu is jailed and sentenced to death before being saved.",
+    "at_sec": 1265
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The thieving innkeeper is put to death by the king.",
+    "at_sec": 1636
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Phone-quiz winner gives her first name and school; a class teacher is named.",
+    "at_sec": 722
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nachum_ish_gamzu",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "little Yehoshua",
+   "Yehoshua's father",
+   "the king",
+   "the thieving innkeeper"
+  ],
+  "topics": [
+   "sages",
+   "emunah_bitachon",
+   "mitzvos_in_daily_life",
+   "halachah"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "emes"
+  ],
+  "mitzvos": [
+   "mezuzah",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 354,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 354,
+   "end_sec": 382,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 382,
+   "end_sec": 613,
+   "type": "halachah",
+   "title": "Mitzvah Time: How a Mezuzah Is Made",
+   "summary": "Parchment from a kosher animal, a quill from a kosher bird, and special black ink.",
+   "linked_items": [
+    "0f534f42b1"
+   ]
+  },
+  {
+   "start_sec": 613,
+   "end_sec": 921,
+   "type": "quiz",
+   "title": "Mitzvah Time phone quiz"
+  },
+  {
+   "start_sec": 921,
+   "end_sec": 1068,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 1068,
+   "end_sec": 1228,
+   "type": "story_intro",
+   "title": "Bedtime: Avraham Avinu's dust and straw",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1228,
+   "end_sec": 1703,
+   "type": "story",
+   "title": "Nachum Ish Gamzu and the Strange Gift",
+   "summary": "Nachum Ish Gamzu's stolen diamonds become miracle sand that wins a king's war and freedom for the Jews to keep the Torah.",
+   "people": [
+    "nachum_ish_gamzu",
+    "eliyahu_hanavi"
+   ]
+  },
+  {
+   "start_sec": 1703,
+   "type": "closing",
+   "title": "'My Mezuzah' contest reminder and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0f534f42b1",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'Mezuzah 198' = 412-613 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The phone-quiz call (about 12:30-14:30) is broken up in the transcript, likely a weak phone line. ASR writes 'Rabbi Akiva' for Nachum Ish Gamzu once. Children and teacher named (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rifki",
+    "role": "contest_winner",
+    "group": "Beis Yaakov of Boro Park",
+    "start_sec": 722,
+    "end_sec": 900,
+    "note": "Mitzvah Time phone-quiz winner; first name only."
+   },
+   {
+    "name": "Morah Amsel",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 921,
+    "end_sec": 1068
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:13Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20198%20-%20Nachum%20Ish%20Gamzu%20and%20the%20Strange%20Gift%20%281985-11-05%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 198 - Nachum Ish Gamzu and the Strange Gift (1985-11-05).mp3",
+  "size_bytes": 21793235,
+  "mime_type": "audio/mpeg"
+ }
+}

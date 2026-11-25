@@ -1,0 +1,363 @@
+{
+ "id": "ec81364f6e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "333 06-21-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 333 - The Island of Treasures (Yud-Beis Tammuz) (1988-06-21).mp3",
+  "duration_sec": 1746.033,
+  "filename_facts": {
+   "episode_number": 333,
+   "date_in_filename": "1988-06-21",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 333,
+   "story": "The Island of Treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 333: The Island of Treasures (Yud-Beis Tammuz)",
+  "title_basis": "master_catalog",
+  "summary_short": "Six days before Yud-Beis Tammuz, Uncle Yossi tells of the Frierdiker Rebbe's imprisonment and release, a family visits Studio 604, and a shipwrecked man becomes king of an island of treasures.",
+  "summary_long": "Broadcast on 6 Tammuz 5748, six days before Yud-Beis Tammuz. Uncle Yossi tells how in 1927 the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, was imprisoned in Russia for teaching Torah to children and was freed on his birthday, the 12th of Tammuz, and how his mesiras nefesh led to yeshivos around the world and to Tzivos Hashem itself, since the Jewish child was always at the top of his list. After the Hakochainik march, a family of young siblings comes to Studio 604 to say the Shema and the Twelve Pesukim in memory of their grandfather. Story time, based on the Mishnah that this world is a hallway before the World to Come, tells of Yisroel, the lone survivor of a shipwreck, whom the people of an island crown king. He spends the whole royal treasury beautifying the island, only to learn that he must leave in rags when the next castaway arrives. The island is this world, the treasures are mitzvos, and we must send them ahead. The show ends with advice for summer vacation: learn Torah, daven and give tzedakah every day, and pack a siddur, Chumash and pushka.",
+  "lesson": "This world is a hallway to the World to Come: use your time here to store up Torah and mitzvos, the treasures you will take with you.",
+  "keywords": [
+   "prison",
+   "Russia",
+   "shipwreck",
+   "island",
+   "king",
+   "royal treasury",
+   "rags",
+   "summer vacation",
+   "pushka",
+   "siddur",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 333,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-06-21",
+   "hebrew": "6 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'today is Vav Tammuz', Yud-Beis Tammuz 'this coming Monday'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe is jailed in Soviet Russia for teaching Torah, and his life is in danger.",
+    "at_sec": 66
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm; only one passenger survives.",
+    "at_sec": 1018
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Siblings named with their ages, preschool and teachers in the Shema segment.",
+    "at_sec": 677
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Yisroel, the shipwrecked man",
+   "the people of the island",
+   "the servant"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "torah_study",
+   "tzivos_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "hasmadah",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah",
+   "twelve_pesukim",
+   "shema",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz",
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "4:16",
+    "note": "Rabbi Yaakov: this world is like a hallway before the World to Come."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:2",
+    "note": "The world stands on Torah, avodah and gemilus chasadim."
+   }
+  ],
+  "places": [
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 14,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 14,
+   "end_sec": 410,
+   "type": "talk",
+   "title": "Yud-Beis Tammuz: The Frierdiker Rebbe's Liberation",
+   "summary": "The Frierdiker Rebbe's imprisonment in 1927 for teaching Torah, his release on his birthday, and what it means for Tzivos Hashem.",
+   "people": [
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "yud_beis_tammuz"
+   ],
+   "linked_items": [
+    "db1f84ef9e",
+    "3b2eabf95b"
+   ]
+  },
+  {
+   "start_sec": 410,
+   "end_sec": 630,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 630,
+   "end_sec": 677,
+   "type": "story_intro",
+   "title": "Story time ahead"
+  },
+  {
+   "start_sec": 677,
+   "end_sec": 960,
+   "type": "shema_guest",
+   "title": "Shema and the Twelve Pesukim with a visiting family"
+  },
+  {
+   "start_sec": 960,
+   "end_sec": 1018,
+   "type": "story_intro",
+   "title": "This world is a hallway"
+  },
+  {
+   "start_sec": 1018,
+   "end_sec": 1591,
+   "type": "story",
+   "title": "The Island of Treasures",
+   "summary": "A castaway made king spends the island's treasury on the island itself, then must leave in rags; the island is this world and the treasures are mitzvos."
+  },
+  {
+   "start_sec": 1591,
+   "end_sec": 1733,
+   "type": "talk",
+   "title": "Torah, Davening and Tzedakah on Summer Vacation",
+   "calendar": [
+    "summer_vacation"
+   ],
+   "linked_items": [
+    "e71ce96b12"
+   ]
+  },
+  {
+   "start_sec": 1733,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "e71ce96b12",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Learning in the Summer 333' = 1591-1745 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "db1f84ef9e",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Yud Beis Tammuz 333' = 14-402 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "3b2eabf95b",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'12 Tammuz 333' = 39-377 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "342600f363",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The Yud-Beis Tammuz talk (clip '12 Tammuz 333') also aired in episode 283."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97c9b37c1d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Treasure Island: A Mashal About Freedom and Mitzvos' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The march is untranscribed (about 7:20-10:30). The guests' Pesukim are not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chani Laufer",
+    "role": "shema_guest",
+    "group": "Laufer family, age 9",
+    "start_sec": 677,
+    "end_sec": 960
+   },
+   {
+    "name": "Nechama Laufer",
+    "role": "shema_guest",
+    "group": "Laufer family",
+    "start_sec": 677,
+    "end_sec": 960
+   },
+   {
+    "name": "Devorah Leah Laufer",
+    "role": "shema_guest",
+    "group": "Laufer family",
+    "start_sec": 677,
+    "end_sec": 960
+   },
+   {
+    "name": "Zalmi Laufer",
+    "role": "shema_guest",
+    "group": "Laufer family, age 4",
+    "start_sec": 677,
+    "end_sec": 960
+   },
+   {
+    "name": "Morah Chani and Morah Rivki",
+    "role": "other",
+    "group": "Teachers of the youngest guest",
+    "start_sec": 750,
+    "end_sec": 765
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The family's grandfather, Reb Aryeh Leib ben Pesach Hillel, passed away a month earlier; the children came in his memory.",
+    "start_sec": 677,
+    "end_sec": 710
+   },
+   {
+    "kind": "school",
+    "text": "The youngest guest names his preschool and teachers.",
+    "start_sec": 745,
+    "end_sec": 770
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20333%20-%20The%20Island%20of%20Treasures%20%28Yud-Beis%20Tammuz%29%20%281988-06-21%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 333 - The Island of Treasures (Yud-Beis Tammuz) (1988-06-21).mp3",
+  "size_bytes": 20953460,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "id": "28d65320a3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "9",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 009 - The Ten Wedding Gifts, Chapter 3 (Yud Shevat) (1982-02-02).mp3",
+  "duration_sec": 1720.459,
+  "filename_facts": {
+   "episode_number": 9,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 9,
+   "story": "The Ten Wedding Gifts #3",
+   "topic": "Yud Shevat",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 9: The Ten Wedding Gifts, Chapter 3 (Yud Shevat)",
+  "title_basis": "master_catalog",
+  "summary_short": "On the eve of Yud Shevat, Uncle Yossi tells of the Frierdiker Rebbe's dangerous work teaching Torah to children, and in chapter 3 a lost child knocks on the newlyweds' door in a blizzard.",
+  "summary_long": "Broadcast on the ninth of Shevat 5742. After a clap-along niggun, Uncle Yossi opens the Hebrew calendar: tomorrow is Yud Shevat, the day the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, passed away 32 years earlier, in 5710. He founded schools where children learned Torah in hiding in a land where it was forbidden, was arrested and sentenced to death, and was saved by a miracle, freed on his birthday, Yud-Beis Tammuz 5687. Mentioning a tzaddik's name brings blessing; we should be inspired to spread Torah and thank Hashem for the freedom to keep mitzvos. A young club member leads the Shema. In chapter 3 of \"The Ten Wedding Gifts\", Avraham and Sarah are settled in their own cottage, still puzzled by the gifts, when on a stormy winter night a lost, freezing boy knocks at the door. They warm him by the fire and put him to bed, planning to take him home to his worried parents when the storm ends. What happens there is saved for next week. In the mailbox, a mother asks whether her little daughter may talk to Uncle Yossi on the phone.",
+  "lesson": "Learn from the lives of tzaddikim to spread Torah and mitzvos, and be kind to anyone in need; Hashem arranges events to reward kindness.",
+  "keywords": [
+   "Hebrew calendar",
+   "Shevat",
+   "secret schools",
+   "arrest",
+   "zichrono livracha",
+   "blizzard",
+   "lost boy",
+   "fireplace",
+   "cottage",
+   "telephone"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1982-02-02",
+   "hebrew": "9 Shevat 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Which day of Shevat is today? The ninth of Shevat... the day right before Yud Shevat'; 'now it's 5742'."
+  },
+  "serial": {
+   "story_key": "the-ten-wedding-gifts",
+   "story_title": "The Ten Wedding Gifts",
+   "chapter": 3
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 9,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The Frierdiker Rebbe was arrested and sentenced to death for teaching Torah to children, then saved by a miracle.",
+    "at_sec": 564
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child Shema guest and a listener's young daughter named by first name; the mother is named in full.",
+    "at_sec": 888
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Avraham",
+   "Sarah",
+   "Reuven the innkeeper",
+   "the lost boy"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "baal_shem_tov_and_students",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "mesiras_nefesh",
+   "courage",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch",
+   "hachnasas_orchim",
+   "shema"
+  ],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Kiddushin 31b",
+    "note": "Adding 'zichrono livracha' after the name of a tzaddik who passed away, cited as a teaching of the Sages."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 80,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 80,
+   "end_sec": 335,
+   "type": "song",
+   "title": "Clap-along niggun"
+  },
+  {
+   "start_sec": 335,
+   "end_sec": 772,
+   "type": "talk",
+   "title": "Yud Shevat and the Frierdiker Rebbe",
+   "summary": "Tomorrow is Yud Shevat: the Frierdiker Rebbe's secret schools, arrest and miraculous release, and what we learn from him.",
+   "people": [
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "yud_shevat"
+   ],
+   "linked_items": [
+    "b905d4bf33"
+   ]
+  },
+  {
+   "start_sec": 772,
+   "end_sec": 888,
+   "type": "story_intro",
+   "title": "Recap of chapter 2"
+  },
+  {
+   "start_sec": 888,
+   "end_sec": 978,
+   "type": "shema_guest",
+   "title": "A young club member leads the Shema"
+  },
+  {
+   "start_sec": 978,
+   "end_sec": 1400,
+   "type": "story_chapter",
+   "title": "The Ten Wedding Gifts, Chapter 3",
+   "summary": "On a stormy night the couple take in a lost, freezing boy and plan to bring him home when the storm passes.",
+   "story_key": "the-ten-wedding-gifts",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1400,
+   "end_sec": 1626,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A mother asks if her little daughter may talk to Uncle Yossi on the phone; listeners are invited to send phone numbers."
+  },
+  {
+   "start_sec": 1626,
+   "type": "closing",
+   "title": "Closing and sponsor thanks"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "b905d4bf33",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "'Yud Shevat 9' = 411-788 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "01e89fcc30",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 8 = 'The Ten Wedding Gifts #2', 9 = '#3'; recap on air."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "01e89fcc30",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1982): ep 8 ch. 2 and ep 9 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "2ce3043f24",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1982): ep 9 ch. 3 and ep 10 ch. 4 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'Shabbat' for Shevat in places. The lost boy's name is unclear in the ASR. Listener names in hidden."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Schneur Zalman",
+    "role": "shema_guest",
+    "group": "Tzivos Hashem club member",
+    "start_sec": 888,
+    "end_sec": 978
+   },
+   {
+    "name": "Mrs. Toby Brenner",
+    "role": "mailbox_letter",
+    "start_sec": 1445,
+    "end_sec": 1560,
+    "note": "Parent writing for her daughter."
+   },
+   {
+    "name": "Leah",
+    "role": "mailbox_letter",
+    "start_sec": 1445,
+    "end_sec": 1500,
+    "note": "Young daughter of the letter writer; wants to talk to Uncle Yossi on the phone."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:47:35Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20009%20-%20The%20Ten%20Wedding%20Gifts%2C%20Chapter%203%20%28Yud%20Shevat%29%20%281982-02-02%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 009 - The Ten Wedding Gifts, Chapter 3 (Yud Shevat) (1982-02-02).mp3",
+  "size_bytes": 20646562,
+  "mime_type": "audio/mpeg"
+ }
+}

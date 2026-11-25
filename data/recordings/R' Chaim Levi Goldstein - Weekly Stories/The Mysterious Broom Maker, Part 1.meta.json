@@ -1,0 +1,252 @@
+{
+ "id": "fc369dd53b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The mysterious broom maker 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Mysterious Broom Maker, Part 1.mp3",
+  "duration_sec": 1206.375,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Mysterious Broom Maker, Part 1",
+  "title_basis": "filename",
+  "summary_short": "A Parshas Toldos lesson: a Jew is always a precious diamond. Then Reb Leib Sarah's tries to save the Jews of Kobrin from a poritz who demands years of rent.",
+  "summary_long": "The storyteller opens with Parshas Toldos. Why was Rivkah calmed when told she was carrying twins? As Rashi explains, she had felt the child pulled both toward the beis midrash and toward idol worship, and was relieved to learn these were two separate children, Yaakov and Esav. So too, when the yetzer hara tells us we are bad, we must remember that a Jew is always good, like a diamond that only got muddy. Even Esav had great potential, and the Sages tell that his head was buried in the Cave of Machpelah. Like a baby learning to walk, we get up and keep going. The story then begins: Reb Leib Sarah's, born through the Baal Shem Tov's blessing, meets Reb Binyomin of Kobrin in the Berditchev marketplace. The new poritz demands years of back rent his father never asked for and threatens to expel the Jews. Reb Leib urges trust in Hashem and visits the poritz, who offers to cancel the debt if the Jews secretly join a Polish uprising against the Czar. Reb Leib refuses, since the Torah teaches loyalty to the government, and is thrown out. He tells Reb Binyomin they must turn to \"plan B\". To be continued.",
+  "lesson": "A Jew is always good and precious to Hashem, even after a mistake; get up and keep going. Hashem alone is in charge, so strengthen your bitachon.",
+  "keywords": [
+   "twins",
+   "diamond in the mud",
+   "yetzer hara",
+   "baby learning to walk",
+   "Cave of Machpelah",
+   "poritz",
+   "back rent",
+   "Polish uprising",
+   "Czar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "tanach_midrash"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "the-mysterious-broom-maker",
+   "part_number": 1,
+   "of": 2
+  },
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Toldos",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'This week's parasha' is Toldos; year not given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A hostile poritz threatens to expel the Jews of a town; left unresolved in this part."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A Midrash retold: Esav's head is struck off at Yaakov's burial."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rivkah_imeinu",
+    "role": "central"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Esav",
+   "Shem",
+   "Chushim",
+   "Reb Leib Sarah's",
+   "Reb Binyomin of Kobrin",
+   "the young poritz"
+  ],
+  "topics": [
+   "parsha",
+   "teshuvah",
+   "emunah_bitachon",
+   "baal_shem_tov_and_students"
+  ],
+  "midos": [
+   "self_control",
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [
+   "toldos"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 25:22",
+    "note": "Rivkah felt the baby pulled toward the beis midrash and toward idol worship."
+   },
+   {
+    "work": "gemara",
+    "ref": "Sotah 13a",
+    "note": "Chushim and the burial of Esav's head in the Cave of Machpelah (as 'the Chachamim tell us')."
+   }
+  ],
+  "places": [
+   "Berditchev",
+   "Kobrin",
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 588,
+   "type": "talk",
+   "title": "Parshas Toldos: a Jew is always a diamond"
+  },
+  {
+   "start_sec": 588,
+   "type": "story_chapter",
+   "title": "The Mysterious Broom Maker, Part 1",
+   "story_key": "the-mysterious-broom-maker",
+   "chapter": 1
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No theme song; begins directly with the parsha talk. Part 2 is probably 'Broommaker 2' (not in this batch)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "there's something amazing that we can learn from this week's parasha about it before I start the story",
+   "at_sec": 2
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series assigned from narrator and weekly format (no theme song in this file).",
+   "Part 2 is likely 'Broommaker 2' in Stories; link it in pass 2."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "054944bbf2",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Story Videos 'The Mysterious Broom Maker': the whole story in one telling; this file is its first half."
+  },
+  {
+   "type": "same_story",
+   "target_id": "fec54397e2",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Story Videos 'The Mysterious Broommaker' (same recording as 054944bbf2)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "620c312981",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Mysterious Broommaker(1)': complete read-aloud telling of the same story."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Mysterious%20Broom%20Maker%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Mysterious Broom Maker, Part 1.mp3",
+  "size_bytes": 14477419,
+  "mime_type": "audio/mpeg"
+ }
+}

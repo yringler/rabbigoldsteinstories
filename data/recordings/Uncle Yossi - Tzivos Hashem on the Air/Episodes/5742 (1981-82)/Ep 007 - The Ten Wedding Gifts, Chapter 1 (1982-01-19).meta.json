@@ -1,0 +1,278 @@
+{
+ "id": "94d2197a4f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "7 1-19-82",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 007 - The Ten Wedding Gifts, Chapter 1 (1982-01-19).mp3",
+  "duration_sec": 1664.202,
+  "filename_facts": {
+   "episode_number": 7,
+   "date_in_filename": "1982-01-19",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 7,
+   "story": "The Ten Wedding Gifts #1",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 7: The Ten Wedding Gifts, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "Another pot-cover march, a young listener leads the Shema, and chapter 1 of \"The Ten Wedding Gifts\": an orphan couple spends their wedding money to free a chained old man.",
+  "summary_long": "Uncle Yossi thanks parents for letters describing how families hush for the show every Tuesday at six, and reminds listeners that its goal is achdus. Everyone, studio staff included, marches again with spoon-and-pot-cover drums. A girl who wrote in last week, having learned the Shema from the program, comes to the studio and leads the Shema word by word. Story time begins \"The Ten Wedding Gifts\". Reuven, a kind innkeeper, raises two orphans, Avraham and Sarah, as his helpers; when they grow up he suggests they marry, and gives them a purse of 600 gold coins to buy their wedding clothes at the fair. On the way they meet an old man in chains, led away by a cruel officer and begging for help. The officer's price is exactly 600 gold coins, and with Sarah's nod Avraham pays it and frees the man. Penniless, they head home to Reuven, and what happens next waits for chapter 2. The mailbox has letters about the theme song \"We Want Moshiach Now\" and the story \"The Two Voices\".",
+  "lesson": "Kindness and freeing captives are worth more than anything we own.",
+  "keywords": [
+   "pot cover drum",
+   "march",
+   "innkeeper",
+   "orphans",
+   "wedding",
+   "600 gold coins",
+   "fair",
+   "chained old man",
+   "cruel officer",
+   "We Want Moshiach Now"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "note": "Date from the filename; Chof-Daled Teves is not mentioned on air.",
+   "gregorian": "1982-01-19",
+   "hebrew": "24 Teves 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "filename"
+  },
+  "serial": {
+   "story_key": "the-ten-wedding-gifts",
+   "story_title": "The Ten Wedding Gifts",
+   "chapter": 1
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 7,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "An old man in chains is being led away by a cruel officer who threatens the couple.",
+    "at_sec": 1026
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Child guest and child letter writers named on air, two in full.",
+    "at_sec": 590
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Reuven the innkeeper",
+   "Avraham",
+   "Sarah",
+   "the old man in chains",
+   "the cruel officer"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "courage",
+   "achdus"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "hachnasas_kallah",
+   "hachnasas_orchim",
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 38,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 38,
+   "end_sec": 75,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 75,
+   "end_sec": 218,
+   "type": "mailbox",
+   "title": "Letters from parents",
+   "summary": "Families describe getting ready for the show every Tuesday night; the show's goal of achdus."
+  },
+  {
+   "start_sec": 218,
+   "end_sec": 476,
+   "type": "song",
+   "title": "Pot-cover march"
+  },
+  {
+   "start_sec": 476,
+   "end_sec": 532,
+   "type": "story_intro",
+   "title": "Story time: two kind-hearted people"
+  },
+  {
+   "start_sec": 532,
+   "end_sec": 737,
+   "type": "shema_guest",
+   "title": "A young listener leads the Shema"
+  },
+  {
+   "start_sec": 737,
+   "end_sec": 1365,
+   "type": "story_chapter",
+   "title": "The Ten Wedding Gifts, Chapter 1",
+   "summary": "An orphan couple gives their 600 gold coins to free a chained old man and must return home penniless.",
+   "story_key": "the-ten-wedding-gifts",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1365,
+   "end_sec": 1533,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "Letters about the theme song and about the story 'The Two Voices'."
+  },
+  {
+   "start_sec": 1533,
+   "end_sec": 1562,
+   "type": "announcement",
+   "title": "Keep writing to Uncle Yossi"
+  },
+  {
+   "start_sec": 1562,
+   "type": "closing",
+   "title": "Closing and sponsor thanks"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "01e89fcc30",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1982): ep 7 ch. 1 and ep 8 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Children named on air (see hidden). Chapter 2 is episode 8."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Miriam",
+    "role": "mailbox_letter",
+    "start_sec": 122,
+    "end_sec": 150,
+    "note": "Child mentioned in a parent's letter."
+   },
+   {
+    "name": "Shterna Sara",
+    "role": "shema_guest",
+    "start_sec": 590,
+    "end_sec": 737,
+    "note": "Wrote in the week before; leads the Shema."
+   },
+   {
+    "name": "Rachel Heights (ASR spelling)",
+    "role": "mailbox_letter",
+    "group": "Brooklyn",
+    "start_sec": 1383,
+    "end_sec": 1440
+   },
+   {
+    "name": "Moshe Weinberg",
+    "role": "mailbox_letter",
+    "group": "Brooklyn",
+    "start_sec": 1440,
+    "end_sec": 1533
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:46:39Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20007%20-%20The%20Ten%20Wedding%20Gifts%2C%20Chapter%201%20%281982-01-19%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 007 - The Ten Wedding Gifts, Chapter 1 (1982-01-19).mp3",
+  "size_bytes": 19971357,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "id": "420e35767f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "4 chochmas",
+  "filename_title": "4 chochmos c",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 3.mp3",
+  "duration_sec": 1037.4,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "c",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos, Part 3",
+  "title_basis": "content",
+  "summary_short": "For Yud-Tes Kislev, how it became the Rosh Hashanah of Chassidus; then Rabbi Yehuda's strange advice saves his friend from robbers and frees a governor's daughter from a curse.",
+  "summary_long": "The storyteller explains that Yud-Tes and Chof Kislev form one long Yom Tov, and how it came to be called the Rosh Hashanah of Chassidus. In 5662 the Rebbe Rashab traveled to Moscow and St. Petersburg to free Jews jailed for no reason, staying away from Lubavitch even over Yud-Tes Kislev. In a letter to his son, the Frierdiker Rebbe, he revealed that on this day Hashem gives the light of Chassidus for the whole year. Everyone should take a good resolution to receive its brachos. In the story, Reb Yankel will not take the bumpy road, so the two friends race: Rabbi Yehuda's wagons struggle over rocks and holes, but Reb Yankel never arrives. Riding back, Rabbi Yehuda finds robbers fleeing and his friend tied to a tree; hearing a horse, the robbers thought the police were coming. Grateful, Reb Yankel gives him the wagons. At the governor's inn, a crowd gapes at a girl who croaks like a frog. Remembering the second chochmah, Rabbi Yehuda laughs, 'It's nothing!', a fog fills the room, and the governor's daughter is freed from a witch's curse. The governor rewards him with a sack of gold. To be continued.",
+  "lesson": "Yud-Tes Kislev is a day to take on a good resolution, and a tzaddik's advice is worth following even when it does not make sense to us.",
+  "keywords": [
+   "Rosh Hashanah of Chassidus",
+   "Moscow",
+   "letter",
+   "fork in the road",
+   "race",
+   "robbers",
+   "tree",
+   "governor",
+   "frog",
+   "witch",
+   "sack of gold"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "4 chochmas"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Around Yud-Tes Kislev",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Talk on Yud-Tes Kislev ('beginning from this Yud-Tes Kislev'); follows Part 2 of 17 Kislev; year not stated."
+  },
+  "part": {
+   "set_key": "the-four-chochmos",
+   "part_number": 3,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers attack the wagons, tie a man to a tree and threaten to kill him; he is rescued."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Jews in Russia jailed for no reason; the Rebbe Rashab works to free them."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda",
+   "Reb Yankel",
+   "the wagon drivers",
+   "the robbers",
+   "the governor",
+   "the governor's daughter",
+   "a witch"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidus_tanya",
+   "hiskashrus",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "bitachon",
+   "chesed",
+   "courage"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe Rashab's letter to his son before Yud-Tes Kislev 5662, calling it the Rosh Hashanah of Chassidus."
+   }
+  ],
+  "places": [
+   "Moscow",
+   "St. Petersburg",
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 432,
+   "type": "talk",
+   "title": "Yud-Tes Kislev, the Rosh Hashanah of Chassidus",
+   "calendar": [
+    "yud_tes_kislev"
+   ],
+   "people": [
+    "rebbe_rashab",
+    "frierdiker_rebbe",
+    "alter_rebbe",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 101,
+   "end_sec": 385,
+   "type": "story",
+   "title": "The Rebbe Rashab's mission to free prisoners (5662)",
+   "people": [
+    "rebbe_rashab",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 432,
+   "type": "story_chapter",
+   "title": "The Four Chochmos, Part 3",
+   "story_key": "the-four-chochmos",
+   "chapter": 3,
+   "summary": "The long road saves Reb Yankel from robbers, and laughing 'it's nothing' frees the governor's daughter."
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "8a7b5b2912",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Resumes at the fork in the road where Part 2 ends."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 1."
+  },
+  {
+   "type": "same_story",
+   "target_id": "008f627970",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Four Chochmos: Rabbi Yehudah's Four Pieces of Wisdom' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85733bc4b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Chochmos 3 and 4: The Hotel, the Trial and the Gift in the Challah' (Stories, from 17:46), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles Hebrew terms (Yutas Kislev, Reish Hashanah Lachsidus)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "Now we can get back to our story.",
+   "at_sec": 432
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:56Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from format (calendar talk, weekly serial, 'a gutten tag' sign-off); does not open with the 'I Believe' song. Confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos/The%20Four%20Chochmos%2C%20Part%203.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 3.mp3",
+  "size_bytes": 12449580,
+  "mime_type": "audio/mpeg"
+ }
+}

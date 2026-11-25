@@ -1,0 +1,181 @@
+{
+ "id": "24edcb5508",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Noach- Mabul 449",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Noach - Living Lessons from the Flood (Ep 449).mp3",
+  "duration_sec": 683.585,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 449,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 449,
+   "story": "Skippy and crawly",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Parshas Noach: Living Lessons from the Flood",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi retells the story of Noach and the flood, and explains its living lessons: Hashem runs the world, protects the righteous and blesses those who keep His Torah.",
+  "summary_long": "A Parsha of the Week talk from the Tzivos Hashem radio show, for Shabbos Parshas Noach. Uncle Yossi tells how the people of Noach's generation stole and did cruel things, so Hashem decided to wash the earth clean with a great flood. Only Noach the tzaddik, who tried to teach others and was laughed at, was saved with his wife, his three sons and their wives, eight people in all, together with pairs of every animal and seven of each kosher kind, in the ark Hashem told him to build. Because Torah means teaching, the story is a living lesson: Hashem created and controls the world, He loves and protects the righteous and provides for them, as the second paragraph of the Shema promises, and turning away from the Torah brings destruction. Uncle Yossi encourages children to read Parshas Noach in their own Chumash and to be in shul to hear it read.",
+  "lesson": "The Torah is a living teaching: follow Hashem's ways and He will protect you and provide for you.",
+  "keywords": [
+   "flood",
+   "ark",
+   "animals two by two",
+   "stealing",
+   "rain",
+   "Chumash"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 449,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-10-16",
+   "hebrew": "27 Tishrei 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 449: the week of Parshas Noach 5751, with Rosh Chodesh Cheshvan on Shabbos."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The flood destroys the wicked people of Noach's generation.",
+    "at_sec": 20
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "noach",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Naamah, Noach's wife",
+   "Shem, Cham and Yefes"
+  ],
+  "topics": [
+   "parsha",
+   "tanach",
+   "emunah_bitachon",
+   "torah_study"
+  ],
+  "midos": [
+   "emes",
+   "emunah",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "noach"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 6-8",
+    "note": "The flood and Noach's ark."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:13-21",
+    "note": "Second paragraph of the Shema: blessing for following the Torah."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2dbb259164",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 57,
+   "note": "Episode 449 (filename number); clip = 57-741 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Parshas%20Noach%20-%20Living%20Lessons%20from%20the%20Flood%20%28Ep%20449%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Noach - Living Lessons from the Flood (Ep 449).mp3",
+  "size_bytes": 8203997,
+  "mime_type": "audio/mpeg"
+ }
+}

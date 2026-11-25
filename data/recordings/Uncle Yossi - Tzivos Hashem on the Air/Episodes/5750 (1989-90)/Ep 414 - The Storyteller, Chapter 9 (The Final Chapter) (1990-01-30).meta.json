@@ -1,0 +1,318 @@
+{
+ "id": "e6879ae744",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "414",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 414 - The Storyteller, Chapter 9 (The Final Chapter) (1990-01-30).mp3",
+  "duration_sec": 1853.043,
+  "filename_facts": {
+   "episode_number": 414,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 414,
+   "story": "The storyteller #9 (climax)",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 414: The Storyteller, Chapter 9 (The Final Chapter)",
+  "title_basis": "master_catalog",
+  "summary_short": "A family's Hakochainik letter, the final chapter of The Storyteller, Shema with a seven-year-old yeshiva boy, and Mitzvah Time on when and where we say the Shema.",
+  "summary_long": "Broadcast in early Shevat 5750. The mailbox brings a letter from a girl in Far Rockaway whose whole family marches around the supper table with spoons and teapots during the Hakochainik march, and Uncle Yossi notes the show has been on the air for eight years; then everyone joins the march. Story time brings the final chapter of The Storyteller. Before finishing, a seven-year-old yeshiva boy who loves saying the Twelve Pesukim says the Shema in Studio 604. Then the answers arrive: the Baal Shem Tov had told Yitzchak that the day someone came and told him this very story would be the day his past was forgiven. The wealthy merchant reveals that he is that Yitzchak, thanks Hashem in tears, and shares his wealth with Rabbi Yehuda, fulfilling the Baal Shem Tov's blessing; Rabbi Yehuda and his wife resolve to give tzedakah generously. After tzedakah, Uncle Yossi launches a phone quiz and teaches Mitzvah Time: the Shema is said evening and morning, comes from Devarim chapter 6, and is followed by 'Baruch Shem.' The show ends with the Tzivos Hashem Children's Expo and candle time.",
+  "lesson": "Hashem's ways are wondrous: help comes at the right moment, and it is never too late to return to Him.",
+  "keywords": [
+   "mailbox",
+   "Hakochainik march",
+   "wealthy merchant",
+   "sign",
+   "forgiveness",
+   "riches",
+   "phone quiz",
+   "Mitzvah Time",
+   "Children's Expo",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 414,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-01-30",
+   "hebrew": "4 Shevat 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Candle lighting 4:56 continues the weekly sequence (4:30, 4:40, 4:47 in episodes 411-413); the Expo of February 7-13 is still upcoming. No Hebrew date stated."
+  },
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 9
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A letter writer (with town) and a seven-year-old Shema guest named in full.",
+    "at_sec": 147
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Rabbi Yitzchak, the wealthy merchant (once called Alex)",
+   "Rabbi Yehuda's wife"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "teshuvah",
+   "hashgacha_pratis",
+   "halachah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "savlanus",
+   "bitachon",
+   "hakaras_hatov",
+   "generosity"
+  ],
+  "mitzvos": [
+   "shema",
+   "teshuvah",
+   "tzedakah",
+   "twelve_pesukim",
+   "torah_study",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 6:4-9",
+    "note": "Where the first paragraph of the Shema is found."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 4,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 424,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: A Family Hakochainik March",
+   "summary": "A listener describes her whole family marching around the supper table during the show."
+  },
+  {
+   "start_sec": 424,
+   "end_sec": 587,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 587,
+   "end_sec": 773,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 9: The Sign",
+   "summary": "Recap of how the Baal Shem Tov helped two people at once, and the promise of a sign of forgiveness.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 9
+  },
+  {
+   "start_sec": 773,
+   "end_sec": 1000,
+   "type": "shema_guest",
+   "title": "Shema with a seven-year-old yeshiva boy"
+  },
+  {
+   "start_sec": 1000,
+   "end_sec": 1280,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 9: The Day Has Come",
+   "summary": "The merchant reveals he is the man in the story, and the Baal Shem Tov's blessings to both men come true.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 9
+  },
+  {
+   "start_sec": 1280,
+   "end_sec": 1335,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1335,
+   "end_sec": 1462,
+   "type": "announcement",
+   "title": "Be on the air: the Mitzvah Time phone quiz"
+  },
+  {
+   "start_sec": 1462,
+   "end_sec": 1665,
+   "type": "halachah",
+   "title": "Mitzvah Time: Saying the Shema",
+   "summary": "The Shema is said evening and morning, comes from Devarim chapter 6, and is followed by Baruch Shem.",
+   "linked_items": [
+    "998600af34"
+   ]
+  },
+  {
+   "start_sec": 1665,
+   "end_sec": 1785,
+   "type": "announcement",
+   "title": "Tzivos Hashem Children's Expo"
+  },
+  {
+   "start_sec": 1785,
+   "end_sec": 1818,
+   "type": "announcement",
+   "title": "Shabbos candle time"
+  },
+  {
+   "start_sec": 1818,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "998600af34",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "'Shema 414' = 1491-1641 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "4517c187b2",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 413 = 'The storyteller #8', 414 = '#9 (climax)'."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "4517c187b2",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 413 ch. 8 and ep 414 ch. 9 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Final chapter of the nine-part serial (episodes 407-414). Phone-quiz call for listeners' numbers, Expo dates and candle times are period pieces. No sponsor this week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Esther Weiss (also heard as 'Sarah Weiss')",
+    "role": "mailbox_letter",
+    "group": "Far Rockaway, New York",
+    "start_sec": 118,
+    "end_sec": 424,
+    "note": "Family marches around the table during the show; her father photographed them."
+   },
+   {
+    "name": "Alter Benzion Korf",
+    "role": "shema_guest",
+    "group": "yeshiva student",
+    "start_sec": 800,
+    "end_sec": 1000,
+    "note": "Age 7; learns Chumash and Mishnayos; likes saying the Twelve Pesukim."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Letter writer's family listens together at supper; her father took a photo of them marching.",
+    "start_sec": 202,
+    "end_sec": 300
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:40:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20414%20-%20The%20Storyteller%2C%20Chapter%209%20%28The%20Final%20Chapter%29%20%281990-01-30%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 414 - The Storyteller, Chapter 9 (The Final Chapter) (1990-01-30).mp3",
+  "size_bytes": 22237421,
+  "mime_type": "audio/mpeg"
+ }
+}

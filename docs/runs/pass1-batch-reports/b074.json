@@ -1,0 +1,23 @@
+{
+ "batch_id": "b074",
+ "done": [
+  "ebbc632f9f",
+  "66223bdaef",
+  "12f90c653d",
+  "bdbaa10fa4",
+  "97c9b37c1d",
+  "f044a3eccb",
+  "a1317d8c93",
+  "9134a62649"
+ ],
+ "failed": [],
+ "notes": [
+  "ebbc632f9f and 66223bdaef are the same recording (fingerprint). 66223bdaef is slightly longer, includes the full closing ('Zayt gezunt'), and is probably the better copy to publish; consider superseded_by ebbc632f9f -> 66223bdaef after a listen.",
+  "ebbc632f9f is also a worked example; its item was rebuilt with method 'llm' and matches the example's substance.",
+  "Several Story Videos items mention a Hakhel year: Melave Malka pair (Rosh Chodesh Shevat), True Ahavas Yisroel 1-2 (Part 2 in Cheshvan), Trust the Rebbe's Words. Probably one season (5776 or 5783); the weekly order could fix the dates.",
+  "bdbaa10fa4 is Part 1 of the serial 'Me'ayin Yavo Ezri' (Rebbe Maharash and Reb Shmuel Brin); Part 2 is not in this batch. Pass 2 should look for it in Story Videos and add part_of_set / continues.",
+  "Identity clue in bdbaa10fa4 (~318 s): the narrator says he teaches a class of five- and six-year-old boys. In 97c9b37c1d (~503 s) he says he heard the mashal from his father and always tells true stories.",
+  "97c9b37c1d (Treasure Island) stops at the end of the file mid-closing, without the usual sign-off; flagged truncated_end.",
+  "Same narrator and 'I believe in Hashem' opening in all 8 items."
+ ]
+}

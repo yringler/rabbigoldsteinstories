@@ -1,0 +1,165 @@
+{
+ "id": "de06368210",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Purim Pesach 421",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/From Purim to Pesach - Mesiras Nefesh, Emunah and the Seder Matzah (Ep 421).mp3",
+  "duration_sec": 267.753,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 421,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 421,
+   "story": "The mystery of Toras Emes #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "From Purim to Pesach: Mesiras Nefesh, Emunah and the Seder Matzah",
+  "title_basis": "content",
+  "summary_short": "Purim gives us mesiras nefesh and Pesach gives us emunah: the Seder matzah is the food of faith and the food of healing for the whole year.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given between Purim and Pesach. Uncle Yossi explains that each Yom Tov is not only a memory of what happened long ago but a source of strength for serving Hashem today through Torah, davening and acts of kindness. Purim strengthens our mesiras nefesh: Mordechai and Esther risked their lives to cancel the evil decree, and Hashem answered with miracles and a real redemption. Pesach gives us a full year's supply of firm emunah, which enters us when we eat matzah on the two Seder nights. As the Arizal teaches, the matzah is called the food of faith and also the food of healing, strengthening both the soul and the body all year long. The clip ends as Uncle Yossi begins to invite children to visit a matzah bakery to see how shmurah matzah is made.",
+  "lesson": "Each Yom Tov gives strength for the whole year; eating matzah at the Seder fills us with emunah and health.",
+  "keywords": [
+   "matzah",
+   "Seder",
+   "Mordechai",
+   "Esther",
+   "food of faith",
+   "food of healing",
+   "matzah bakery",
+   "shmurah matzah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 421,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-03-20",
+   "hebrew": "23 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Seder nights stated as April 9 and 10 (Pesach 5750); the full episode 421 mentions Shabbos Mevarchim Nissan this coming Shabbos."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "esther_hamalkah",
+    "role": "mentioned"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "matzah",
+   "seder"
+  ],
+  "calendar": [
+   "purim",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "dfed566766",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 29,
+   "note": "Episode 421 (filename number); clip = 29-297 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Seder dates (April 9-10) are for 1990. Ends mid-announcement about matzah-bakery visits."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/From%20Purim%20to%20Pesach%20-%20Mesiras%20Nefesh%2C%20Emunah%20and%20the%20Seder%20Matzah%20%28Ep%20421%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/From Purim to Pesach - Mesiras Nefesh, Emunah and the Seder Matzah (Ep 421).mp3",
+  "size_bytes": 3213871,
+  "mime_type": "audio/mpeg"
+ }
+}

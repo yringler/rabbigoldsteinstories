@@ -1,0 +1,185 @@
+{
+ "id": "f783cbfe0c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Pesach 423",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Pesach Is All About Children - From the Nile to the Seder to Moshiach (Ep 423).mp3",
+  "duration_sec": 352.04,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 423,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 423,
+   "story": "Skippy and crawly",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Pesach Is All About Children: From the Nile to the Seder to Moshiach",
+  "title_basis": "content",
+  "summary_short": "Why children play the leading role in Pesach: the babies Hashem saved in Egypt, the children at the Red Sea, the Seder's questions, and the march to Moshiach.",
+  "summary_long": "A short Pesach talk from the Tzivos Hashem radio show, given right before Pesach. Uncle Yossi explains that Pesach is different from every other Yom Tov because it centers on children. Pharaoh tried to destroy the Jewish nation by throwing its baby boys into the Nile, but Hashem sent angels to catch them and fed them with milk and honey from the rocks. At the splitting of the Red Sea, the children were the first to recognize Hashem and call out 'This is my G-d, and I will glorify Him'. So the Seder is built for children: the four questions of Mah Nishtanah, and the karpas dipped in salt water to make them curious, because a person who is too shy to ask will never learn. And when Moshiach comes, Tzivos Hashem will lead the great parade out of golus, as the clouds of heaven carry everyone to Yerushalayim.",
+  "lesson": "Children have a special place on Pesach: ask questions at the Seder and help lead the way to Moshiach.",
+  "keywords": [
+   "Seder",
+   "Mah Nishtanah",
+   "karpas",
+   "four questions",
+   "Nile",
+   "angels",
+   "Red Sea",
+   "parade",
+   "Yerushalayim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 423,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-04-03",
+   "hebrew": "8 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Right before Pesach'; first aired in episode 423, the week after Rosh Chodesh Nissan 5750. Also re-aired in episode 472."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Pharaoh's decree to throw Jewish baby boys into the Nile; the babies are saved by angels.",
+    "at_sec": 10
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "miracles",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "seder",
+   "chinuch"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Mah Nishtanah; 'V'higadeta l'vincha'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "2:5, 'Lo habayshan lamed'",
+    "note": "Cited as 'our Chachamim tell us'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "796a534305",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 472."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6787db0918",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 40,
+   "note": "Episode 423 (filename number); clip = 40-392 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Pesach%20Is%20All%20About%20Children%20-%20From%20the%20Nile%20to%20the%20Seder%20to%20Moshiach%20%28Ep%20423%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Pesach Is All About Children - From the Nile to the Seder to Moshiach (Ep 423).mp3",
+  "size_bytes": 4225430,
+  "mime_type": "audio/mpeg"
+ }
+}

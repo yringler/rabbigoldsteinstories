@@ -1,0 +1,146 @@
+{
+ "id": "1ebee98ea9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Doing Mitzvos 232",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Where Do You Think You're Going Mitzvos Bring Us Closer to Hashem (Ep 232).mp3",
+  "duration_sec": 364.932,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 232,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 232,
+   "story": "Saved by miracle #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Where Do You Think You're Going? Mitzvos Bring Us Closer to Hashem",
+  "title_basis": "content",
+  "summary_short": "We are always traveling, either toward Hashem or away from Him. Uncle Yossi explains how every mitzvah connects us to Hashem and every averah pulls us away.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show. Uncle Yossi starts with a car ride that gets pulled over: 'Where do you think you're going?' That, he says, is a question to ask ourselves every day, because we are always traveling, either toward Hashem or away from Him. Every mitzvah, like respecting parents, being honest and davening, brings us closer to Hashem. The word mitzvah means a commandment, and it also means connection: a mitzvah joins us to Hashem. The word averah means crossing over to the other side, turning us away. Just a few weeks after Shavuos, he reminds listeners that the Aseres HaDibros contain do's and don'ts, and that learning more Torah and doing more mitzvos is the way forward. As soon as Hashem sees a child heading in His direction, He turns toward the child and welcomes him with great joy.",
+  "lesson": "Ask yourself every day which way you are going: every mitzvah connects you to Hashem, and every averah pulls you away.",
+  "keywords": [
+   "car ride",
+   "traveling",
+   "right way",
+   "wrong way",
+   "Ten Commandments",
+   "connection"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 232,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-07-01",
+   "hebrew": "24 Sivan 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "From the full episode 232: 'this Shabbos is Shabbos Mevarchim Chodesh Tammuz'. The clip itself says 'a few weeks since Shavuos'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "mitzvos_in_daily_life",
+   "teshuvah",
+   "torah_study"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "self_control"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a6d365fb27",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 43,
+   "note": "Episode 232 (filename number); clip = 43-408 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends on the lead-in to the march ('with this feeling of simcha'), trimmed cleanly before it."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:52Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Where%20Do%20You%20Think%20You%27re%20Going%20Mitzvos%20Bring%20Us%20Closer%20to%20Hashem%20%28Ep%20232%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Where Do You Think You're Going Mitzvos Bring Us Closer to Hashem (Ep 232).mp3",
+  "size_bytes": 4380295,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "id": "770aa7cebf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Simchas Beis Hashoeva 5786",
+  "filename_title": "Simchas Beis Hashoeva 6",
+  "audio_path": "audio/Live Events/Simchas Beis Hashoeva 5786/Simchas Beis Hashoeva Night 6 - The Rebbe Maharash and the Innkeeper's Trial.mp3",
+  "duration_sec": 1535.739,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "6",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Simchas Beis Hashoeva Night 6: The Rebbe Maharash and the Innkeeper's Trial",
+  "title_basis": "content",
+  "summary_short": "On the night of the Rebbe Maharash, a live Sukkos rally teaches Lechatchila Ariber and tells how the Rebbe's puzzling delay saved a falsely accused innkeeper.",
+  "summary_long": "Recorded live at a Simchas Beis Hashoeva rally for children during Chol HaMoed Sukkos 5786, on the night of the Rebbe Maharash and his motto 'Lechatchila Ariber'. Simcha Engel turns up with a shoe missing: he danced so hard he lost it, after hearing the Rebbe's teaching that joyful dancing now can make up for whatever was missed earlier in the season. Rabbi Goldstein lists the Ushpizin and explains that tonight's guests, Yosef HaTzaddik and the Rebbe Maharash, teach that a Jew can leap straight to the greatest heights, just as Yosef went from prison to ruler at once. He then begins a story of a Jewish innkeeper whose village priest wants to drive him out of business. The story pauses while groups of children recite the Twelve Pesukim and Al Tira. When it resumes, the priest pretends to make peace, swaps in a poisoned bottle, and blames the innkeeper when a customer dies. The Rebbe Maharash puts off seeing him for two days, then sends him straight home on a first-class train ticket, where he unknowingly pours out his heart to the very judges of his case. They uncover the priest's plot and the innkeeper goes free.",
+  "lesson": "Listen to the Rebbe even when we do not understand; the Rebbe's words are true. And a Jew can leap to great heights at once, Lechatchila Ariber.",
+  "keywords": [
+   "innkeeper",
+   "priest",
+   "poison",
+   "false accusation",
+   "train",
+   "first-class ticket",
+   "judges",
+   "court case",
+   "lost shoe",
+   "Ushpizin",
+   "Lechatchila Ariber",
+   "rally"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "simchas_beis_hashoeva_5786",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "simcha_engel",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2025-10-11",
+   "hebrew": "Night of 20 Tishrei 5786",
+   "hebrew_year": 5786,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Tonight the leader is Yosef HaTzaddik and the Rebbe Maharash' = sixth night of Sukkos (Motzaei Shabbos, 11 Oct 2025); year from the 5786 series."
+  },
+  "collections": [
+   "Simchas Beis Hashoeva 5786"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A customer drinks poisoned liquor and dies as part of the priest's plot."
+   },
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A priest schemes against a Jewish innkeeper and has him falsely accused of murder; he is cleared."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The story is set in an inn; the priest gets drunk and reveals his plot."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   },
+   {
+    "id": "yosef_hatzaddik",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Jewish innkeeper",
+   "the village priest",
+   "the Rebbe Maharash's gabbai",
+   "the judges on the train",
+   "the inn's customers"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "kabbalas_ol",
+   "simcha",
+   "emes"
+  ],
+  "mitzvos": [
+   "twelve_pesukim"
+  ],
+  "calendar": [
+   "sukkos",
+   "simchas_beis_hashoeva"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's teaching that dancing on Simchas Beis Hashoeva makes up for what was missed earlier (retold)."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Rebbe Maharash's motto 'Lechatchila Ariber'."
+   }
+  ],
+  "places": [
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 182,
+   "type": "opening",
+   "title": "Gut Moed and the lost shoe",
+   "summary": "Simcha Engel arrives with a shoe missing after dancing, and shares the Rebbe's teaching about the power of dancing now."
+  },
+  {
+   "start_sec": 182,
+   "end_sec": 290,
+   "type": "talk",
+   "title": "Yosef HaTzaddik, the Rebbe Maharash and Lechatchila Ariber",
+   "summary": "Tonight's Ushpizin teach that a Jew can leap straight to the greatest heights.",
+   "people": [
+    "yosef_hatzaddik",
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 290,
+   "end_sec": 430,
+   "type": "story",
+   "title": "The innkeeper and the priest, part one",
+   "summary": "A village priest, jealous of the honest Jewish innkeeper, plots to drive him out.",
+   "people": [
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 430,
+   "end_sec": 1118,
+   "type": "other",
+   "title": "The Twelve Pesukim",
+   "summary": "Groups of children lead the crowd in the Twelve Pesukim, followed by Al Tira and singing."
+  },
+  {
+   "start_sec": 1118,
+   "end_sec": 1509,
+   "type": "story",
+   "title": "The innkeeper and the priest, part two",
+   "summary": "Sent by the Rebbe Maharash on a first-class train, the accused innkeeper meets his judges, who expose the priest's plot.",
+   "people": [
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 1509,
+   "type": "closing",
+   "title": "Lesson and blessing",
+   "summary": "The Rebbe's words are true even when we do not understand them, with a wish to dance into the Geulah."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "d1fc7f253f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Following the Rebbe's Advice: The Innkeeper and the Train' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "noisy_audio",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Live rally with loud drums. ASR repetition loops at about 7:02 and 17:57. The innkeeper's name is garbled (Akiva / Yechiel / Yankel). 'Maharaj' = Maharash."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:35Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Filename '6' read as the sixth night of the rallies (Ushpizin Yosef HaTzaddik and the Rebbe Maharash), not a part number.",
+   "Innkeeper's name unclear in the recording (ASR gives Akiva, Yechiel and Yankel).",
+   "Pass 2: host re-attributed to R' Chaim Levi Goldstein (medium); basis: Sukkos 5786 rally; host 'Rabbi Goldstein' with Simcha Engel, same format as the 5785 rallies (3b05d42392, host sings 'I Believe')"
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Live%20Events/Simchas%20Beis%20Hashoeva%205786/Simchas%20Beis%20Hashoeva%20Night%206%20-%20The%20Rebbe%20Maharash%20and%20the%20Innkeeper%27s%20Trial.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Live Events/Simchas Beis Hashoeva 5786/Simchas Beis Hashoeva Night 6 - The Rebbe Maharash and the Innkeeper's Trial.mp3",
+  "size_bytes": 18429663,
+  "mime_type": "audio/mpeg"
+ }
+}

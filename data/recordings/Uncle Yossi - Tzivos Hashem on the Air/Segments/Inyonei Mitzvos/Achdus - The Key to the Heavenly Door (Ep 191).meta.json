@@ -1,0 +1,149 @@
+{
+ "id": "332cc4f38c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Achdus- key to Heavenly door",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Achdus - The Key to the Heavenly Door (Ep 191).mp3",
+  "duration_sec": 168.564,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "copy"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Achdus: The Key to the Heavenly Door",
+  "title_basis": "filename",
+  "summary_short": "Without a key a door stays locked: achdus, unity through one Torah, is the key that opens Heaven's door to Hashem's blessings for the new year.",
+  "summary_long": "A short pre-Rosh Hashanah talk from the Tzivos Hashem radio show. Uncle Yossi asks whether you have ever turned a doorknob only to find the door will not open because you forgot the key. Hashem's blessings for a kesivah vachasimah tovah are the same: we need to bring the key. One key is achdus, unity, all of us together as one, which is the best guarantee for 'Barcheinu Avinu', Hashem's blessing. A pleasant way to bring achdus is through Torah: one Torah, given by one G-d, to one people. That is why Jews all over the world have joined in having a letter written for them in a new Sefer Torah. Uncle Yossi urges members of Tzivos Hashem who have not yet signed up, and their friends and relatives, to do so now, as the perfect key for Hashem's blessings, including the blessing that includes all others: Moshiach now.",
+  "lesson": "Unity among Jews, especially through Torah, is the key that opens Heaven's door to Hashem's blessings.",
+  "keywords": [
+   "key",
+   "locked door",
+   "unity",
+   "Sefer Torah",
+   "letter in a Sefer Torah",
+   "new year blessings",
+   "Moshiach"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 191,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1985-08-27",
+   "hebrew": "10 Elul 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 191 (text match); Elul, one week before episode 192, which states 17 Elul 5745."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "tzivos_hashem",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "mivtzoim",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9ad0681eb7",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 1503,
+   "note": "Episode 191 (text match; no number in filename)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filename is a '- Copy'; the original may exist elsewhere. Call to sign up for a Sefer Torah letter is a 1985 campaign."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:57Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Achdus%20-%20The%20Key%20to%20the%20Heavenly%20Door%20%28Ep%20191%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Achdus - The Key to the Heavenly Door (Ep 191).mp3",
+  "size_bytes": 2023643,
+  "mime_type": "audio/mpeg"
+ }
+}

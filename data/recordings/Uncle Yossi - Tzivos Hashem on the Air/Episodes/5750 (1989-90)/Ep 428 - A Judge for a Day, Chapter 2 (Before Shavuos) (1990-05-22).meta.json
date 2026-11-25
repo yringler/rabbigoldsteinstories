@@ -1,0 +1,278 @@
+{
+ "id": "be032f3167",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "428",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 428 - A Judge for a Day, Chapter 2 (Before Shavuos) (1990-05-22).mp3",
+  "duration_sec": 1808.643,
+  "filename_facts": {
+   "episode_number": 428,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 428,
+   "story": "Judge for a day #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 428: A Judge for a Day, Chapter 2 (Before Shavuos)",
+  "title_basis": "master_catalog",
+  "summary_short": "Before Shavuos: bring everyone to shul to hear the Ten Commandments, a Havdalah phone quiz, Shema with a Beis Yaakov class, and chapter 2 of 'A Judge for a Day'.",
+  "summary_long": "With Shavuos approaching, Uncle Yossi describes the hush in shul when the Ten Commandments are read: we stand in awe as at Har Sinai and say again 'Naaseh v'nishma'. Every Jew, even babies in carriages, should be there, so children are urged to find out the time in their shul and invite relatives and friends. Mitzvah time reviews Havdalah, and a young listener wins a braided Havdalah candle by answering questions on the phone. A class from Beis Yaakov of Boro Park leads the Shema, and everyone gives tzedakah. 'A Judge for a Day' continues: visiting Berel's butcher shop, Leibel spots wood shavings and a hole in the thin wall shared with the tailor's shop, showing how the tailor spied on Berel's money. Meanwhile the worried judge, strolling in the park, secretly watches children acting out the case. Their make-believe judge asks about the butcher's greasy hands and the tailor's clean ones and prepares to drop the coins into warm water. The real judge leaps for joy, and the final chapter is promised for next week. The show closes with a reminder to choose a Torah-true summer camp and Shabbos candle times.",
+  "lesson": "Come to shul on Shavuos to hear the Ten Commandments, and bring others along, just as every Jew stood at Har Sinai.",
+  "keywords": [
+   "Ten Commandments",
+   "Har Sinai",
+   "shul",
+   "Havdalah candle",
+   "phone quiz",
+   "butcher",
+   "tailor",
+   "hole in the wall",
+   "make-believe court",
+   "gold coins"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 428,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-05-22",
+   "hebrew": "27 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Estimate was 13 Iyar. Candles 7:57, Shabbos ends 9:07 fit Friday 25 May 1990; 'getting so much closer to Shavuos' (30 May 1990)."
+  },
+  "serial": {
+   "story_key": "judge-for-a-day",
+   "story_title": "Judge for a Day",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The phone-quiz winner is named in full on air.",
+    "at_sec": 712
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Leibel",
+   "Berel the butcher",
+   "Ivan the tailor",
+   "the judge",
+   "the children's make-believe judge"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "halachah",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah",
+   "achdus",
+   "emes",
+   "chesed"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "havdalah",
+   "tehillim",
+   "shema",
+   "tzedakah",
+   "shabbos_candles",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 10,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 10,
+   "end_sec": 465,
+   "type": "talk",
+   "title": "Shavuos: Everyone to Shul for the Ten Commandments",
+   "summary": "We hear the Ten Commandments in awe as at Har Sinai, and every Jew, young and old, should be in shul to hear them.",
+   "calendar": [
+    "shavuos"
+   ],
+   "linked_items": [
+    "3abbb046a6"
+   ]
+  },
+  {
+   "start_sec": 465,
+   "end_sec": 726,
+   "type": "quiz",
+   "title": "Mitzvah Time: Havdalah Review and Phone Quiz",
+   "summary": "A review of when to make Havdalah and what is in a Havdalah kit, then a listener answers on the phone and wins a Havdalah candle."
+  },
+  {
+   "start_sec": 726,
+   "end_sec": 878,
+   "type": "shema_guest",
+   "title": "Shema with a class from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 878,
+   "end_sec": 915,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 915,
+   "end_sec": 1676,
+   "type": "story_chapter",
+   "title": "A Judge for a Day, Chapter 2",
+   "summary": "Leibel finds a spy-hole in the shop wall, and the judge secretly watches children act out the case with a clever test for the coins.",
+   "story_key": "judge-for-a-day",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1676,
+   "end_sec": 1753,
+   "type": "announcement",
+   "title": "Choosing a Torah-True Summer Camp"
+  },
+  {
+   "start_sec": 1753,
+   "end_sec": 1800,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1800,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3abbb046a6",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Shavuos 428' = 10-464 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "09dddba098",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 427 = 'Judge for a day #1', 428 = '#2'; the recap matches chapter 1."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "09dddba098",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Judge for a Day' (1990): ep 427 ch. 1 and ep 428 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "6aa8d7ae63",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Judge for a Day' (1990): ep 428 ch. 2 and ep 429 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Shavuos talk also aired in episodes 277 and 380. The class's Shema is not transcribed. Phone quiz, camp line and candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Leah Fleischman",
+    "role": "contest_winner",
+    "group": "Havdalah phone quiz",
+    "start_sec": 570,
+    "end_sec": 726
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20428%20-%20A%20Judge%20for%20a%20Day%2C%20Chapter%202%20%28Before%20Shavuos%29%20%281990-05-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 428 - A Judge for a Day, Chapter 2 (Before Shavuos) (1990-05-22).mp3",
+  "size_bytes": 21704837,
+  "mime_type": "audio/mpeg"
+ }
+}

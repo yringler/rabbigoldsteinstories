@@ -1,0 +1,223 @@
+{
+ "id": "5819f48712",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Ne'ila - Bring Us Home!!!",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Ne'ilah - Bring Us Home! The Princess and the Peasant.mp3",
+  "duration_sec": 933.976,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Ne'ilah: Bring Us Home! The Princess and the Peasant",
+  "title_basis": "filename",
+  "summary_short": "Why do we cry out 'L'shanah haba'ah b'Yerushalayim' after the shofar at the end of Ne'ilah? The Dubno Maggid's parable of a princess married to a poor peasant explains.",
+  "summary_long": "Between Rosh Hashanah and Yom Kippur, the storyteller looks at the prayer 'Shema Koleinu' and its plea 'Hashiveinu', bring us back to You, which he explains as asking Hashem to bring us home to the Beis HaMikdash, where we will serve Him properly. The same idea, he says, is behind the shout of 'L'shanah haba'ah b'Yerushalayim' after the final shofar blast of Ne'ilah. He tells the Dubno Maggid's parable: a choosy princess is married to a simple peasant, who makes her scrub floors and wash laundry in his town. When the king announces a visit, everything is polished, but she begs her father to take her home, because it will all go back to the way it was. Her husband explains he cannot give her what she deserves, and asks the king to bring them both to the palace. The Torah is Hashem's princess, given to the Jewish people. On Yom Kippur we are like angels, but the Torah fears what happens afterwards, so we ask Hashem to bring us to His palace, the Beis HaMikdash, with the Geulah.",
+  "lesson": "We truly want to keep the Torah properly; we ask Hashem to bring the Geulah and take us home to the Beis HaMikdash, where we can.",
+  "keywords": [
+   "Ne'ilah",
+   "shofar",
+   "princess",
+   "peasant",
+   "king's visit",
+   "Shema Koleinu",
+   "Hashiveinu",
+   "Next year in Yerushalayim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2023-09",
+   "hebrew": "Aseres Yemei Teshuvah 5784",
+   "hebrew_year": 5784,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Recorded after Rosh Hashanah and before Yom Kippur; closes with a wish that 5784 become the year of the Geulah."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "noach",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_dubno",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the princess",
+   "the peasant husband",
+   "the townspeople"
+  ],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "teshuvah",
+   "torah_study"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "shofar",
+   "fast_days"
+  ],
+  "calendar": [
+   "aseres_yemei_teshuvah",
+   "yom_kippur"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "A mashal of the Dubno Maggid."
+   },
+   {
+    "work": "siddur",
+    "note": "Shema Koleinu and Hashiveinu from the Selichos and High Holiday prayers."
+   }
+  ]
+ },
+ "proposed_new_terms": [],
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 180,
+   "type": "talk",
+   "title": "Shema Koleinu and Hashiveinu",
+   "summary": "The plea 'bring us back' asks Hashem to bring us home to the Beis HaMikdash.",
+   "calendar": [
+    "aseres_yemei_teshuvah"
+   ]
+  },
+  {
+   "start_sec": 180,
+   "end_sec": 638,
+   "type": "story",
+   "title": "The Dubno Maggid's parable: the princess and the peasant"
+  },
+  {
+   "start_sec": 638,
+   "type": "talk",
+   "title": "The meaning: the Torah, Yom Kippur and the Geulah",
+   "summary": "After Ne'ilah the Torah fears we will slip back, so we ask Hashem to take us to His palace.",
+   "calendar": [
+    "yom_kippur"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0cc47ed234",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Pre-Sukkos Farbrengen: After Yom Kippur, Now We Do Teshuvah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5d0376fc7a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Berditchever's Bag of Sins and the Princess Who Begged Her Father' (Stories, 12:30-19:19), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the 'I believe in Hashem' song. Closing blessing names the year 5784."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:35:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Ne%27ilah%20-%20Bring%20Us%20Home%21%20The%20Princess%20and%20the%20Peasant.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Ne'ilah - Bring Us Home! The Princess and the Peasant.mp3",
+  "size_bytes": 11208557,
+  "mime_type": "audio/mpeg"
+ }
+}

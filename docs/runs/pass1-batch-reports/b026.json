@@ -1,0 +1,16 @@
+{
+ "batch_id": "b026",
+ "done": ["2a05164ba3", "0b8f27e227", "b625a28e6c", "c1bc5d8609", "7dcee8e50f", "50483b7a60", "a682ecebd1", "7f45016228", "4691bcb442", "3415a81e0a", "fd5d08758f", "7cb8c31ef3", "f35ed7194d", "904fd74707", "c454f1dd5b", "880e95af38", "0f6f2dc878", "c3857a3b34", "cab583e2b7", "8fa0b3541e"],
+ "failed": [],
+ "notes": [
+  "Duplicate full broadcasts: 372 (f35ed7194d undated / c454f1dd5b dated), 373 (0f6f2dc878 / c3857a3b34), 374 (cab583e2b7 / 8fa0b3541e). Linked as same_recording. Best copies: 374 -> 8fa0b3541e (complete). 373 -> 0f6f2dc878 has a clean story but very low volume and a clipped greeting; c3857a3b34 has a splice glitch (repeated line and gap) at about 18:10-19:06. 372 -> f35ed7194d keeps more of the class roll call but clips the first word.",
+  "Episode 368 (2a05164ba3) reuses the story recap, the Shema with Morah Chaya Resmowitz's pre-1A class (Yiddish candle poem) and the chuppah chapter of The Return of Yehudah from 1986 episode 254 (6f4d381b92, not in this batch). The whole 1989 run of this serial (358, 368, 370) looks like a rebroadcast of the 1986 serial; pass 2 may want aired_again_in links.",
+  "Episode 369 (Purim) reuses the helicopter skit and gragger sing-along from earlier Purim shows (episodes 13, 14, 166, 218, 419), and the Beryl mirror story and 'I Love Hashem' song also appear in episode 218 (5120830d37).",
+  "The 'A Tzaddik's Brachah' introduction in 371 also aired in episodes 127 and 352 (required relations), so 'The Blessing of a Tzaddik' (371-372) is probably a rerun of an earlier serial.",
+  "Episode 374's Chol HaMoed opening talk matches the clip 'Zman Cheiruseinu 473' (32e631c050); check whether 473 re-aired it or the clip is mislabeled.",
+  "'Geulah 370' (7f45016228) is a shorter cut of 'Pesach 370' (a682ecebd1); marked superseded_by. 'Purim 368' and 'Purim 368 (2)', and 'Chodesh Nissan 371' and 'Nissan 371', are identical copies.",
+  "The Return of Yehudah: in 370 the ASR names the rav's daughter Esther, and the note is signed 'Eliyahu' (tagged eliyahu_hanavi). ASR often turns 'Reb Boruch' into 'Rabbi Akiva' or 'Rebbe Rashab' in 371/372, and 'Reb Arele' into 'Rabbi Akiva' in 374. None of these were tagged as people.",
+  "Guest singer Chaim Elchanan Fogelman (369 and its clip) is treated as a private individual with the minor_named flag; his age is not stated.",
+  "Proposed calendar term yud_gimmel_nissan (yahrzeit of the Tzemach Tzedek) on the 373 items."
+ ]
+}

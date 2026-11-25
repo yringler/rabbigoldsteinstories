@@ -1,0 +1,149 @@
+{
+ "id": "598e0dbaa4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "A Good Heart For Hashem",
+  "audio_path": "audio/Other Stories/A Good Heart for Hashem.mp3",
+  "duration_sec": 1192.159,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Good Heart for Hashem",
+  "title_basis": "filename",
+  "summary_short": "A simple porter hears that Hashem loves a good heart, so every Friday he places a roasted heart in the Aron Kodesh, until the Rav finds out and the Arizal sends a surprising message.",
+  "summary_long": "Shimon, a poor porter who never had the chance to learn, davens slowly from his siddur and is always happy. One Thursday he finally understands the Rav's talk: Hashem loves it when we serve Him with a good heart. Taking it literally, he asks his wife Feigi to buy a cow's heart from the butcher, roast it with spices, and every Friday he quietly places it in the Aron Kodesh with a heartfelt prayer. The shammes, whose family is very poor, finds it and takes it home, and when Shimon sees it gone he rejoices that Hashem has accepted his gift. One week the Rav catches him, scolds him for his foolishness, exposes the shammes, and Shimon leaves in tears. Then a messenger arrives from the Arizal with frightening news for the Rav. The Arizal explains that since the Beis HaMikdash was destroyed, Shimon's joyful offering had given Hashem pleasure like the korbanos, and the Rav had stopped it. The Rav does teshuvah, asks Shimon's forgiveness and teaches him Torah, and Shimon becomes a talmid chacham.",
+  "lesson": "Hashem treasures a mitzvah done with simcha and a sincere heart, even by someone who knows little. Be careful not to embarrass a person who means well.",
+  "keywords": [
+   "porter",
+   "butcher",
+   "roasted heart",
+   "Aron Kodesh",
+   "shammes",
+   "Friday",
+   "korbanos",
+   "messenger"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "rishonim_acharonim",
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "The Arizal sends word that the Rav is decreed to pass away the next day for stopping Shimon's offering; the Rav does teshuvah."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "arizal",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Shimon the porter",
+   "Feigi, his wife",
+   "the butcher",
+   "the shammes",
+   "the Rav of the shul",
+   "the Arizal's messenger"
+  ],
+  "topics": [
+   "great_rabbis",
+   "prayer_and_brachos",
+   "beis_hamikdash_eretz_yisroel",
+   "teshuvah",
+   "torah_study"
+  ],
+  "midos": [
+   "simcha",
+   "anavah",
+   "dan_lkaf_zchus",
+   "forgiveness"
+  ],
+  "mitzvos": [
+   "davening",
+   "kavod_shul",
+   "teshuvah",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; narrator and storytelling style match the 'I believe in Hashem' storyteller, but not confirmed. Story set 'in a little town in Russia' in the days of the Arizal."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator attributed to the weekly storyteller from style only (no opening song); series left null."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/A%20Good%20Heart%20for%20Hashem.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/A Good Heart for Hashem.mp3",
+  "size_bytes": 14306886,
+  "mime_type": "audio/mpeg"
+ }
+}

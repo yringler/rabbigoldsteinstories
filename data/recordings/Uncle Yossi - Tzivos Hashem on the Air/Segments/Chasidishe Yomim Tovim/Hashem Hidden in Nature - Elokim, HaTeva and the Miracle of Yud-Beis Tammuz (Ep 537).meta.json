@@ -1,0 +1,171 @@
+{
+ "id": "98622bbac7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "12 Tammuz -Hashem in Nature 537",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Hashem Hidden in Nature - Elokim, HaTeva and the Miracle of Yud-Beis Tammuz (Ep 537).mp3",
+  "duration_sec": 329.271,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 537,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 537,
+   "story": "The ten wedding gifts #4",
+   "topic": "י\"ב תמוז",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashem Hidden in Nature: Elokim, HaTeva and the Miracle of Yud-Beis Tammuz",
+  "title_basis": "content",
+  "summary_short": "Why 'Elokim' and 'HaTeva' (nature) share the number 86, how miracles lift nature's veil, and the miracle of the Frierdiker Rebbe's release celebrated on Yud-Beis and Yud-Gimmel Tammuz.",
+  "summary_long": "A five-minute talk from the Tzivos Hashem radio show, cut from episode 537 and broadcast on Yud-Gimmel Tammuz. Uncle Yossi starts from the first verse of the Torah, 'Bereishis bara Elokim'. The name Elokim describes Hashem's power, and when you add up its letters (aleph, lamed, hei, yud, mem) you get 86, the same number as 'HaTeva', nature. This is no coincidence: in creating the world, Hashem hid Himself inside nature, and the more we study nature's wonders, the more we see that only Hashem made them. At special times Hashem removes the veil and performs open miracles, as at the Exodus from Egypt. Yud-Beis and Yud-Gimmel Tammuz are days of thanksgiving for such a miracle: the Frierdiker Rebbe, imprisoned and sentenced to death for teaching Jewish children Torah, was saved. Each year we thank Hashem and pray for the greatest miracle, the coming of Moshiach.",
+  "lesson": "Hashem is hidden inside nature and is always in control; on Yud-Beis Tammuz we thank Him for His miracles and pray for the Geulah.",
+  "keywords": [
+   "gematria",
+   "Elokim",
+   "nature",
+   "86",
+   "miracles",
+   "Exodus",
+   "prison",
+   "thanksgiving"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 537,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-07-14",
+   "hebrew": "13 Tammuz 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Yud-Gimmel Tammuz'; date of episode 537."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe was imprisoned and sentenced to death for teaching Torah, and was saved.",
+    "at_sec": 225
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "hashem_in_nature",
+   "chabad_rebbeim",
+   "miracles"
+  ],
+  "midos": [
+   "emunah",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:1",
+    "note": "'Bereishis bara Elokim'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0b62e44a6e",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 1216,
+   "note": "Episode 537 (filename number); clip = 1216-1545 s of the episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:47Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Hashem%20Hidden%20in%20Nature%20-%20Elokim%2C%20HaTeva%20and%20the%20Miracle%20of%20Yud-Beis%20Tammuz%20%28Ep%20537%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Hashem Hidden in Nature - Elokim, HaTeva and the Miracle of Yud-Beis Tammuz (Ep 537).mp3",
+  "size_bytes": 3952117,
+  "mime_type": "audio/mpeg"
+ }
+}

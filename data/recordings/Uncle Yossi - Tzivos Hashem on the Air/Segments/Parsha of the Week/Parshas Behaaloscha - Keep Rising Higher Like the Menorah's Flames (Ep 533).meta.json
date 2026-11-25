@@ -1,0 +1,175 @@
+{
+ "id": "2c098c1183",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Behaalosecha 533",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Behaaloscha - Keep Rising Higher Like the Menorah's Flames (Ep 533).mp3",
+  "duration_sec": 546.659,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 533,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 533,
+   "story": "Grease the wheel during prayer",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Parshas Behaaloscha: Keep Rising Higher Like the Menorah's Flames",
+  "title_basis": "content",
+  "summary_short": "Living with the weekly parsha: the menorah's flames always rose upward, and so every Jewish soul must keep growing higher in Torah and mitzvos and help others shine too.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show for the week of Parshas Behaaloscha. Uncle Yossi explains that the weekly parsha is learned day by day, one portion each day with Rashi, and that the Alter Rebbe taught us to \"live with the times\", which the Mitteler Rebbe explained means living with the parsha of the week. At the start of Behaaloscha, Aharon is told to kindle the golden menorah, but the Torah uses a word that means \"raise up\". Every neshamah is like a candle sent to light up the world with Torah and mitzvos, and that light must keep rising: today better than yesterday, tomorrow better than today. For a soldier of Tzivos Hashem, that means always reaching for a higher rank, however many points are already earned. And since the Kohen lit all seven lamps, it is not enough to shine ourselves; we must help relatives and friends shine as well, bringing closer the day when Moshiach will bring the greatest light of all.",
+  "lesson": "Keep rising higher in Torah and mitzvos every day, like the menorah's flames, and help others bring light into the world too.",
+  "keywords": [
+   "menorah",
+   "golden menorah",
+   "seven lamps",
+   "candle",
+   "neshamah",
+   "light",
+   "Mishkan",
+   "points and ranks"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 533,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-06-16",
+   "hebrew": "15 Sivan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Week of Parshas Behaaloscha 5752; aired in episode 533, one week after episode 532 (1992-06-09)."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "torah_study",
+   "tzivos_hashem",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "zerizus",
+   "hasmadah",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "behaaloscha"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 8:2",
+    "note": "\"Behaaloscha es haneiros\": when you raise up the lights."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "729ed8fc5d",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 56,
+   "note": "Episode 533 (filename number); clip = 56-603 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence at 'This coming Shabbos...'; the episode's opening greeting is not included."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:38Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Parshas%20Behaaloscha%20-%20Keep%20Rising%20Higher%20Like%20the%20Menorah%27s%20Flames%20%28Ep%20533%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Parshas Behaaloscha - Keep Rising Higher Like the Menorah's Flames (Ep 533).mp3",
+  "size_bytes": 6560790,
+  "mime_type": "audio/mpeg"
+ }
+}

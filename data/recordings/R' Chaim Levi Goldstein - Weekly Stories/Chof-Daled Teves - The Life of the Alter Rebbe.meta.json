@@ -1,0 +1,228 @@
+{
+ "id": "e796be2c9d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "24 teves story",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chof-Daled Teves - The Life of the Alter Rebbe.mp3",
+  "duration_sec": 1429.786,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Chof-Daled Teves: The Life of the Alter Rebbe",
+  "title_basis": "content",
+  "summary_short": "For the Alter Rebbe's yahrzeit, his life from the Baal Shem Tov's joy at his birth to his passing on 24 Teves while fleeing Napoleon.",
+  "summary_long": "For Chof-Daled Teves, the storyteller tells the life of the Alter Rebbe. The Baal Shem Tov knew that a new soul was coming down and blessed the childless Reb Baruch and his wife Rivkah with a son. On Chai Elul 5505 the Baal Shem Tov celebrated like a Yom Tov. At age three the boy's upsherin was done by the Baal Shem Tov, the only time they met. As a child he loved every Jew; after his marriage in Vitebsk he gave away his dowry to help Jews become farmers. His uncle taught him the ways of Chassidus, and at about nineteen he went to the Maggid of Mezritch, who asked him to write a Shulchan Aruch everyone could understand. He founded his yeshiva in Liozna, tried with Reb Menachem Mendel of Horodok to meet the Vilna Gaon, stayed in Russia to spread Chassidus, printed the Tanya, and was arrested and freed on Yud-Tes Kislev. In 1812 he fled Napoleon in the bitter winter and passed away in Piena on Motzaei Shabbos, 24 Teves, blessing Chassidim in every generation.",
+  "lesson": "The Alter Rebbe's blessing stays with Chassidim in every place and every generation.",
+  "keywords": [
+   "new soul",
+   "upsherin",
+   "farmers",
+   "dowry",
+   "yeshiva",
+   "Napoleon",
+   "winter journey",
+   "Tanya"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Alter Rebbe is arrested twice after informers slander him."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The Alter Rebbe's passing during the flight from Napoleon."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_menachem_mendel_of_horodok",
+    "role": "appears"
+   },
+   {
+    "id": "vilna_gaon",
+    "role": "appears"
+   },
+   {
+    "id": "beis_yosef",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Baruch, the Alter Rebbe's father",
+   "Rivkah, his mother",
+   "his uncle Reb Yosef Yitzchak",
+   "Rebbetzin Sterna",
+   "Napoleon"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "baal_shem_tov_and_students",
+   "jewish_history"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "mesiras_nefesh",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "upsherin",
+   "torah_study",
+   "tzedakah"
+  ],
+  "calendar": [
+   "chof_daled_teves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Mezhibuzh",
+   "Vitebsk",
+   "Mezritch",
+   "Liozna",
+   "Vilna",
+   "Petersburg",
+   "Piena",
+   "Haditch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "story",
+   "title": "A new soul: the Alter Rebbe's birth",
+   "end_sec": 455
+  },
+  {
+   "start_sec": 455,
+   "type": "story",
+   "title": "Upsherin by the Baal Shem Tov",
+   "end_sec": 610
+  },
+  {
+   "start_sec": 610,
+   "type": "story",
+   "title": "Youth, marriage and learning Chassidus",
+   "end_sec": 930
+  },
+  {
+   "start_sec": 930,
+   "type": "story",
+   "title": "The Maggid, the Shulchan Aruch and the yeshiva in Liozna",
+   "end_sec": 1145
+  },
+  {
+   "start_sec": 1145,
+   "type": "story",
+   "title": "The Tanya, arrests and Yud-Tes Kislev",
+   "end_sec": 1293
+  },
+  {
+   "start_sec": 1293,
+   "type": "story",
+   "title": "Fleeing Napoleon and passing on 24 Teves"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud biography; ASR garbles many Hebrew years and names."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; no theme song here, but the same narrator (family details, accent, class format) as the 'I believe in Hashem' items in this batch.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:41Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Speaker/series attribution by voice style only; reading format differs from the class talks."
+  ]
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chof-Daled%20Teves%20-%20The%20Life%20of%20the%20Alter%20Rebbe.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chof-Daled Teves - The Life of the Alter Rebbe.mp3",
+  "size_bytes": 17158195,
+  "mime_type": "audio/mpeg"
+ }
+}

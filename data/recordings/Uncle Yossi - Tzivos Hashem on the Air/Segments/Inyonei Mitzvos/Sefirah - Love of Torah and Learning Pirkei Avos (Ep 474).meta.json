@@ -1,0 +1,166 @@
+{
+ "id": "dcbd13ef16",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefiras Haomer 474",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefirah - Love of Torah and Learning Pirkei Avos (Ep 474).mp3",
+  "duration_sec": 271.72,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 474,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 474,
+   "story": "Hillel on the roof",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Sefirah: Love of Torah and Learning Pirkei Avos",
+  "title_basis": "content",
+  "summary_short": "The days of Sefirah express our love for the Torah, and we learn Pirkei Avos each Shabbos because good character must come before Torah.",
+  "summary_long": "A short Sefirah talk from the Tzivos Hashem radio show. Uncle Yossi explains that the Jewish people who had just left Egypt counted the days to the giving of the Torah like a prisoner counting the days to his release: their bodies were already free, but they longed for the freedom of their souls through the Torah. That love for Torah is reawakened every year during Sefirah. One way we show it is by learning a chapter of Pirkei Avos every Shabbos after Minchah, finishing all six chapters before Shavuos. Pirkei Avos was chosen because good manners and good character come before Torah: behaving nicely prepares us to understand more Torah and do the mitzvos in the finest way. For soldiers in Tzivos Hashem, that means filling up their mitzvah charts and showing Hashem they deserve to receive the Torah again on Shavuos.",
+  "lesson": "Prepare for Shavuos by working on good character; derech eretz comes before Torah.",
+  "keywords": [
+   "Pirkei Avos",
+   "counting the Omer",
+   "good manners",
+   "derech eretz",
+   "mitzvah charts",
+   "Matan Torah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 474,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-09",
+   "hebrew": "25 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Filed as from episode 474 (Sefirah 5751); the same talk also aired in episodes 375 and 425 in earlier years."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "character",
+   "torah_study"
+  ],
+  "midos": [
+   "kibbud"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "note": "Studied each Shabbos between Pesach and Shavuos."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Text matches episode 375 slightly better than 474."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:47Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "5871477c4a",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 425."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e537998c07",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 375."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "de9bba59ed",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 29,
+   "note": "Episode 474 (filename number); clip = 29-301 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Sefirah%20-%20Love%20of%20Torah%20and%20Learning%20Pirkei%20Avos%20%28Ep%20474%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefirah - Love of Torah and Learning Pirkei Avos (Ep 474).mp3",
+  "size_bytes": 3261524,
+  "mime_type": "audio/mpeg"
+ }
+}

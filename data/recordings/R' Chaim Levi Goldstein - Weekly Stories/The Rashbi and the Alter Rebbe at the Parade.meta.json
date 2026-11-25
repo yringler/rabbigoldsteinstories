@@ -1,0 +1,276 @@
+{
+ "id": "4f8cac370b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Rashbi And The Alter Rebbe At The Parade",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Rashbi and the Alter Rebbe at the Parade.mp3",
+  "duration_sec": 1241.385,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Rashbi and the Alter Rebbe at the Parade",
+  "title_basis": "filename",
+  "summary_short": "For Lag BaOmer: a boy revived at the Rashbi's resting place in Meron, and why the Rashbi and even the Alter Rebbe come to a children's rally.",
+  "summary_long": "The storyteller tells of a miracle on Lag BaOmer 5683 in Meron, witnessed by Rabbi Shaya Margulies. A mother who had prayed for a child in the merit of Rabbi Shimon bar Yochai brings her son for his upsherin, as she promised. On Shabbos the boy suddenly falls ill and passes away, and doctors quarantine the area. The mother carries him to the Rashbi's kever and begs the tzaddik not to send her away empty-handed. Everyone is sent out, and moments later the boy is heard calling for water, alive and healthy, and all bless Hashem who revives the dead. The storyteller then shares the Rebbe's words that the Rashbi is present at the Lag BaOmer parade, so it makes no sense to leave early, and tells a story he heard from his father: at a 1946 rally the Rebbe held in the backyard of 770, the Frierdiker Rebbe watched from a window and later told the Rebbe that the Alter Rebbe had come too. Finally he explains how the Alter Rebbe and Rabbi Levi Yitzchak of Berditchev settled differences over V'shamru and the Al HaMichyah blessing with a friendly compromise.",
+  "lesson": "At a Lag BaOmer parade we stand in the presence of tzaddikim, so we should stay, take part and ask for brachos; and making peace through compromise is always good.",
+  "keywords": [
+   "Meron",
+   "upsherin",
+   "quarantine",
+   "kever",
+   "Lag BaOmer parade",
+   "children's rally",
+   "770",
+   "window",
+   "V'shamru",
+   "Al HaMichyah",
+   "compromise"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_collection",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2024-05",
+   "hebrew": "Iyar 5784, a few days before Lag BaOmer",
+   "hebrew_year": 5784,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Says the Meron miracle of Lag BaOmer 5683 was '101 years ago' and the parade is 'in a few days'; Lag BaOmer 5784 = 26 May 2024."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A three-year-old boy dies suddenly and is brought back to life at the Rashbi's resting place."
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "Doctors fear a contagious disease and quarantine the area."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "appears"
+   },
+   {
+    "id": "arizal",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Shaya Margulies",
+   "a mother from Jerusalem",
+   "her three-year-old son",
+   "the doctors",
+   "the storyteller's father"
+  ],
+  "topics": [
+   "sages",
+   "miracles",
+   "hiskashrus",
+   "tzivos_hashem",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "shalom"
+  ],
+  "mitzvos": [
+   "upsherin",
+   "brachos",
+   "davening"
+  ],
+  "calendar": [
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "At a farbrengen after Lag BaOmer, the Rebbe said the Rashbi is present at the parade."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The Frierdiker Rebbe's story to the Rebbe about the Alter Rebbe and Rabbi Levi Yitzchak's 'yarid'."
+   },
+   {
+    "work": "siddur",
+    "note": "The Alter Rebbe's siddur: V'shamru on Friday night and the end of Al HaMichyah."
+   }
+  ],
+  "places": [
+   "Meron",
+   "770 Eastern Parkway"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 575,
+   "type": "story",
+   "title": "The miracle in Meron",
+   "summary": "A boy who died on Lag BaOmer is revived at the Rashbi's resting place.",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 575,
+   "end_sec": 690,
+   "type": "sichah",
+   "title": "The Rashbi is at the parade",
+   "summary": "The Rebbe's words about leaving the Lag BaOmer parade early.",
+   "people": [
+    "the_rebbe",
+    "rabbi_shimon_bar_yochai"
+   ]
+  },
+  {
+   "start_sec": 690,
+   "end_sec": 1050,
+   "type": "story",
+   "title": "Who came to the rally at 770",
+   "summary": "The Frierdiker Rebbe tells the Rebbe that the Alter Rebbe attended his children's rally.",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe",
+    "alter_rebbe",
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 1050,
+   "type": "talk",
+   "title": "A friendly compromise",
+   "summary": "How the Alter Rebbe and Rabbi Levi Yitzchak settled differences over V'shamru and Al HaMichyah.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "a512619974",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Rabbi Shimon bar Yochai and the Child Brought Back to Life: Two Lag BaOmer Stories' (Stories, 8:42-17:03), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content",
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song only partly transcribed (gap to 1:06). Refers to the coming Lag BaOmer parade 'in a few days'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem, there never.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator's father attended the Rebbe's 1946 children's rally at 770, and the narrator played in the 770 backyard as a child: an identity clue."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:20Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Rashbi%20and%20the%20Alter%20Rebbe%20at%20the%20Parade.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Rashbi and the Alter Rebbe at the Parade.mp3",
+  "size_bytes": 14897484,
+  "mime_type": "audio/mpeg"
+ }
+}

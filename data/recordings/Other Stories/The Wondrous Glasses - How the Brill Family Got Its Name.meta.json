@@ -1,0 +1,176 @@
+{
+ "id": "555e88ce75",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש",
+  "filename_title": "story in Yiddish about BRILLIN",
+  "audio_path": "audio/Other Stories/The Wondrous Glasses - How the Brill Family Got Its Name.mp3",
+  "duration_sec": 1543.889,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "The Wondrous Glasses: How the Brill Family Got Its Name",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish story. A boy born blind in Lemberg finds a pair of glasses inside an old sefer, and suddenly he can see. That is how the Brill family got its name.",
+  "summary_long": "Told in Yiddish. About two hundred years ago in Lemberg, a respected family celebrates the birth of a baby boy, Michoel, but the doctors find he was born blind. His parents love him dearly and thank Hashem for him. Michoel learns everything by heart: the whole siddur, Mishnayos and more. He knows every corner of his home, recognizes people by their voices, and loves to hold and kiss sefarim. One day his younger brother takes him to the big beis midrash. When everyone has left, Michoel takes down a large, dusty sefer and finds a small case of glasses between its pages. He puts them on, and the darkness disappears. At first he keeps the secret, then tells his family, learns to read and becomes a fine talmid chacham. People call him 'Michoel Brillen' because he keeps asking whose glasses they were, and the name stays with the family. He marries, does well in business and gives generously to tzedakah. After he passes away, his children argue over the glasses until they fall and shatter. The narrator ends by teaching that we thank Hashem every morning for our sight and should use it for Torah, davening and helping others.",
+  "lesson": "Our eyesight is a gift from Hashem: thank Him for it every morning and use it to learn Torah, daven and help other Jews.",
+  "keywords": [
+   "blind boy",
+   "glasses",
+   "Brill family",
+   "Lemberg",
+   "beis midrash",
+   "old sefer",
+   "family name",
+   "inheritance",
+   "morning brachos"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Yiddish"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The hero passes away in old age, and his children argue over his glasses."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Michoel Brill",
+   "Michoel's younger brother",
+   "Michoel's parents",
+   "Michoel's children"
+  ],
+  "topics": [
+   "miracles",
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "hasmadah",
+   "simcha",
+   "generosity"
+  ],
+  "mitzvos": [
+   "brachos",
+   "torah_study",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Lemberg"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 1485,
+   "type": "story",
+   "title": "The blind boy and the wondrous glasses",
+   "summary": "A boy born blind finds glasses in an old sefer that let him see, and his family becomes known as Brill."
+  },
+  {
+   "start_sec": 1485,
+   "type": "talk",
+   "title": "Thanking Hashem for our sight",
+   "summary": "Each morning we bless Hashem who gives sight to the blind, and we should use our eyes for Torah, davening and helping others."
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "4bd06e794b",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'story in yiddish' (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The first story of 4bd06e794b on its own; the text matches it line for line."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No name or sign-off in the recording.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unknown (see identity_guesses)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Wondrous%20Glasses%20-%20How%20the%20Brill%20Family%20Got%20Its%20Name.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Wondrous Glasses - How the Brill Family Got Its Name.mp3",
+  "size_bytes": 18527467,
+  "mime_type": "audio/mpeg"
+ }
+}

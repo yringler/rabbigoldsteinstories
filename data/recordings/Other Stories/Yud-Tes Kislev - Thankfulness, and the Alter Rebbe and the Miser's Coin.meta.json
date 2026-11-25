@@ -1,0 +1,332 @@
+{
+ "id": "6600523917",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "19 Kislev - Thakfulness",
+  "audio_path": "audio/Other Stories/Yud-Tes Kislev - Thankfulness, and the Alter Rebbe and the Miser's Coin.mp3",
+  "duration_sec": 1864.803,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin",
+  "title_basis": "filename",
+  "summary_short": "On Yud-Tes Kislev a guest storyteller shares how thankfulness brings joy, and tells how the Alter Rebbe's thank-you for a tiny coin freed a captured groom.",
+  "summary_long": "Visiting a group on Yud-Tes Kislev, the storyteller opens with a l'chaim and tells how, after a month in a coma with COVID, his family added a new name meaning life, and how he now thanks Hashem twice every morning. Thankfulness, he teaches, is the secret to always being happy: Tehillim 100 begins with thanks before 'serve Hashem with joy'; a man kept a list of everything he was grateful for; and whoever has eyes, teeth, hands and feet is truly rich. He explains that the Alter Rebbe was freed after answering the last question with a smile, and passes on the Rebbe's advice not to speak negatively even about yourself. The story: a Jew-hating official seizes an orphan groom on his wedding day for 25 years in the army and demands a thousand rubles. The Alter Rebbe visits the town's rich 'miser', accepts his tiny coin with a warm thank-you, and the man, deeply moved, explains why he stopped giving and pays the whole ransom. The wedding goes ahead, and the official's lost money ends up as the couple's gift.",
+  "lesson": "Thankfulness brings joy, and accepting even a small gift with a warm thank-you can open a person's heart.",
+  "keywords": [
+   "coma",
+   "new name",
+   "l'chaim",
+   "gratitude list",
+   "smile",
+   "orphans",
+   "wedding",
+   "army",
+   "coin",
+   "ransom",
+   "wallet"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2025-12-09",
+   "hebrew": "19 Kislev 5786",
+   "hebrew_year": 5786,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Yud-Tes Kislev'; year from 'almost six years ago' after Purim 2020."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "The storyteller describes his month-long coma; his family was told to prepare for the worst."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hating official seizes a groom for 25 years in the army."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The groom is held until a ransom is paid."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The cruel official dies in a fall from his horse."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "health_info",
+    "note": "The speaker, who names himself, describes his own serious illness.",
+    "at_sec": 106
+   },
+   {
+    "flag": "identifiable_living_people",
+    "note": "An organizer is thanked by first name.",
+    "at_sec": 238
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_schneerson",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Moshe, the town's rich 'miser'",
+   "the orphan groom and bride",
+   "the town rabbi",
+   "the Jew-hating official",
+   "a man with a gratitude list"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "character",
+   "kindness_and_community",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "simcha",
+   "generosity",
+   "bitachon",
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "pidyon_shvuyim",
+   "hachnasas_kallah",
+   "modeh_ani"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Psalm 100",
+    "note": "'Mizmor l'sodah' comes before 'Ivdu es Hashem b'simchah'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "talk",
+   "title": "Yud-Tes Kislev l'chaim",
+   "end_sec": 71
+  },
+  {
+   "start_sec": 71,
+   "type": "talk",
+   "title": "A new name and a life saved",
+   "end_sec": 409,
+   "summary": "The storyteller's recovery and his daily thanks to Hashem."
+  },
+  {
+   "start_sec": 409,
+   "type": "talk",
+   "title": "Thankfulness is the key to joy",
+   "end_sec": 722,
+   "summary": "Tehillim 100, a gratitude list, and who is truly rich."
+  },
+  {
+   "start_sec": 722,
+   "type": "story",
+   "title": "How a smile freed the Alter Rebbe",
+   "end_sec": 1008,
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1008,
+   "type": "talk",
+   "title": "Don't speak badly about yourself",
+   "end_sec": 1102
+  },
+  {
+   "start_sec": 1102,
+   "type": "story",
+   "title": "The Alter Rebbe and the miser's coin",
+   "people": [
+    "alter_rebbe"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR loop at about 28:41-29:13 hides part of the ending (the official's fall). Guest appearance before a live group."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rivka",
+    "role": "other",
+    "start_sec": 238,
+    "end_sec": 270,
+    "note": "Organizer thanked for arranging the visit."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Speaker (named on air as Levi, later Chaim Levi) was the first Crown Heights COVID hospital patient, after Purim 2020; a month in a coma, feeding and breathing tubes.",
+    "start_sec": 106,
+    "end_sec": 722
+   },
+   {
+    "kind": "family_detail",
+    "text": "Speaker's father was a teacher and principal who spoke to the Rebbe about feeling inadequate.",
+    "start_sec": 1033
+   }
+  ]
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Guest talk, not the class format: series left empty; speaker likely the weekly storyteller (COVID recovery matches part 2 of the logs story).",
+   "The whole talk centres on the speaker's own illness; check it is fine to publish."
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Yud-Tes%20Kislev%20-%20Thankfulness%2C%20and%20the%20Alter%20Rebbe%20and%20the%20Miser%27s%20Coin.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Yud-Tes Kislev - Thankfulness, and the Alter Rebbe and the Miser's Coin.mp3",
+  "size_bytes": 22378410,
+  "mime_type": "audio/mpeg"
+ }
+}

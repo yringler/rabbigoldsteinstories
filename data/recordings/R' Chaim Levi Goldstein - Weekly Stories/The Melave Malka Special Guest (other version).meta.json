@@ -1,0 +1,265 @@
+{
+ "id": "ebbc632f9f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "The Melave Malka Special Guest",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Melave Malka Special Guest (other version).mp3",
+  "duration_sec": 1649.28,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-014' stripped"
+  ]
+ },
+ "display": {
+  "title": "The Melave Malka Special Guest",
+  "title_basis": "filename",
+  "summary_short": "How the Alter Rebbe's script began on Rosh Chodesh Shevat, and how a hidden tzaddik's Melave Malka guest turned out to be Eliyahu HaNavi.",
+  "summary_long": "For the week of Rosh Chodesh Shevat, the storyteller explains its anniversary: the Maggid of Mezritch asked the Alter Rebbe to design letters for sifrei Torah, tefillin and mezuzos that satisfy every opinion, and the new script was first used on Rosh Chodesh Shevat. Rabbi Zusha of Anipoli, told of it from Heaven, had the scribe Reb Moshe Sofer write his tefillin in it too. The story then follows that scribe when he was still a hidden tzaddik, working as the supervisor in Reb Yankel's whiskey factory. Every Motzaei Shabbos the two shared Melave Malka and spoke only words of Torah. Along the way the storyteller explains why Melave Malka matters: the Gemara's teaching, a warm dish, Miriam's well, Dovid HaMelech's thanksgiving meal and the luz bone. One week Reb Yankel is too busy, goes to find Moshe late at night, and sees a radiant old man at his table. Moshe admits it was Eliyahu HaNavi, who told him to reveal himself and become a teacher, and children announce the new Rebbe when he arrives.",
+  "lesson": "Make Melave Malka every week, even a small bite, and go out of your way to help someone who needs it.",
+  "keywords": [
+   "Alter Rebbe's script",
+   "Ksav Admur HaZaken",
+   "scribe",
+   "whiskey factory",
+   "hidden tzaddik",
+   "luz bone",
+   "Miriam's well",
+   "supervisor"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Rosh Chodesh Shevat, a Hakhel year",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'This week was Rosh Chodesh Shevat' and 'this is Hakhel' suggest Shevat 5776 or 5783; confirm with the producer."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_moshe_sofer_of_pshevorsk",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "miriam_haneviah",
+    "role": "mentioned"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Yankel, the factory owner",
+   "Moshe, the new supervisor"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "shabbos",
+   "calendar"
+  ],
+  "midos": [
+   "anavah",
+   "chesed"
+  ],
+  "mitzvos": [
+   "melave_malka",
+   "tefillin",
+   "mezuzah",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "rosh_chodesh_shevat",
+   "shabbos_weekly"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Rabbi Chanina on the fourth meal after Shabbos (as cited)."
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "Cited generally for Melave Malka."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 544,
+   "type": "talk",
+   "title": "Rosh Chodesh Shevat and the Alter Rebbe's script",
+   "summary": "The Alter Rebbe designs a new script for the Maggid, and Rabbi Zusha has Reb Moshe Sofer write it for his tefillin.",
+   "people": [
+    "alter_rebbe",
+    "maggid_of_mezritch",
+    "rabbi_zusha_of_anipoli"
+   ]
+  },
+  {
+   "start_sec": 544,
+   "end_sec": 834,
+   "type": "story",
+   "title": "The hidden tzaddik in Reb Yankel's factory",
+   "summary": "A stranger named Moshe becomes the factory supervisor and shares Melave Malka with his employer each week.",
+   "people": [
+    "rabbi_moshe_sofer_of_pshevorsk"
+   ]
+  },
+  {
+   "start_sec": 834,
+   "end_sec": 1239,
+   "type": "halachah",
+   "title": "Why Melave Malka matters",
+   "summary": "The Gemara, a warm dish, Miriam's well, Dovid HaMelech's thanksgiving meal and the luz bone."
+  },
+  {
+   "start_sec": 1239,
+   "end_sec": 1598,
+   "type": "story",
+   "title": "The guest revealed: Eliyahu HaNavi",
+   "summary": "Reb Yankel sees a radiant guest at Moshe's table, and Moshe reveals himself as a tzaddik.",
+   "people": [
+    "rabbi_moshe_sofer_of_pshevorsk",
+    "eliyahu_hanavi"
+   ]
+  },
+  {
+   "start_sec": 1598,
+   "type": "closing",
+   "title": "Lesson, tzedakah and 'We want Moshiach now'"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "66223bdaef",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.98,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "66223bdaef",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.8,
+   "note": "Preferred version: slightly shorter transfer without the final sign-off."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 66223bdaef ('מלוה מלכה'), the preferred copy: slightly shorter transfer without the final sign-off. Slightly shorter transfer than 66223bdaef; the ending stops at 'We want Moshiach now' without the final sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording year (Hakhel 5776 or 5783?)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Melave%20Malka%20Special%20Guest%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Melave Malka Special Guest (other version).mp3",
+  "size_bytes": 19792307,
+  "mime_type": "audio/mpeg"
+ }
+}

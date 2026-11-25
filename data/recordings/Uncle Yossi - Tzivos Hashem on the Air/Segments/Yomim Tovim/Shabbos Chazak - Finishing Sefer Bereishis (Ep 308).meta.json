@@ -1,0 +1,148 @@
+{
+ "id": "29ba549f21",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shabbos Chazak 308",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shabbos Chazak - Finishing Sefer Bereishis (Ep 308).mp3",
+  "duration_sec": 245.929,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 308,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 308,
+   "story": "",
+   "topic": "י' טבת / Shabbos Chazak",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Chazak: Finishing Sefer Bereishis",
+  "title_basis": "content",
+  "summary_short": "This Shabbos, Parshas Vayechi, we finish Sefer Bereishis and call out 'Chazak, chazak, v'nischazek'. Uncle Yossi explains what it means and invites everyone to shul.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded the week of Parshas Vayechi. Uncle Yossi explains what makes this Shabbos special: after last week's Parshas Vayigash comes Vayechi, the last parsha of Sefer Bereishis. Just as on Simchas Torah, when the last words of the Torah are read and the whole shul calls out 'Chazak, chazak, v'nischazek', we say the same words when finishing a book of the Chumash. They are a request to Hashem for strength to learn the Torah again from beginning to end, and to keep the mitzvos with love for Hashem, for His Torah and for every Jew. He urges children, especially soldiers of Tzivos Hashem, to be in shul to join the joy, and explains that Sefer Shemos begins at Minchah that same afternoon.",
+  "lesson": "When we finish a book of the Torah we ask Hashem for strength to learn more; be in shul to share the joy.",
+  "keywords": [
+   "Chazak chazak v'nischazek",
+   "Sefer Bereishis",
+   "Sefer Shemos",
+   "shul",
+   "Torah reading",
+   "Minchah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 308,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-12-29",
+   "hebrew": "8 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This Shabbos we read Parshas Vayechi' (Shabbos 2 Jan 1988); clip of episode 308 dated 1987-12-29."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "torah_study"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kavod_shul"
+  ],
+  "calendar": [
+   "shabbos_chazak"
+  ],
+  "parshiyos": [
+   "vayechi"
+  ],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Specific to the week of Vayechi; applies to any Shabbos Chazak with small changes."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:56Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d8bd0302fb",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "offset_sec": 43,
+   "note": "Episode 308 (filename number); clip = 43-289 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shabbos%20Chazak%20-%20Finishing%20Sefer%20Bereishis%20%28Ep%20308%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shabbos Chazak - Finishing Sefer Bereishis (Ep 308).mp3",
+  "size_bytes": 2952126,
+  "mime_type": "audio/mpeg"
+ }
+}

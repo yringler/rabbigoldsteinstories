@@ -1,0 +1,349 @@
+{
+ "id": "9ad0681eb7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "191",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 191 - Saved by a Miracle, Chapter 2 (Elul) (1985-08-27).mp3",
+  "duration_sec": 1803.257,
+  "filename_facts": {
+   "episode_number": 191,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 191,
+   "story": "Saved by a miracle #2 Unkelus",
+   "topic": "ח\"י אלול מצוה time",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 191: Saved by a Miracle, Chapter 2 (Elul)",
+  "title_basis": "master_catalog",
+  "summary_short": "An Elul show: Onkelos and the mezuzah, Shema with two sisters, the miraculous end of the story of Reb Baruch and the Alter Rebbe, and achdus as the key to Hashem's blessings.",
+  "summary_long": "Broadcast in Elul 5745, with Rosh Hashanah around the corner. Uncle Yossi reminds listeners that Elul is for ending the year well, then continues Mitzvah Time on the mezuzah, with a phone quiz for listeners who send in a postcard. He tells the Gemara's story of Onkelos, the convert whose translation is printed in every Chumash: the Roman soldiers sent to arrest him saw him touch the mezuzah and heard him explain that our King guards His servants from outside, and they too became Jews. After the Hakochainik march and a sponsor message, two sisters from a Brooklyn girls' school lead the Shema. Story time concludes 'Through the Eyes of a Tzaddik' (catalogued as 'Saved by a Miracle'): after waiting a week as the Alter Rebbe told him, Reb Baruch goes to the minister and learns that skipping the first appointment saved his life. Uncle Yossi then explains that achdus, unity through Torah, is the key that opens the heavenly door, and urges children to sign up friends for a letter in the children's Sefer Torah.",
+  "lesson": "Follow the guidance of a tzaddik with full trust in Hashem, and remember that achdus through Torah is the key to Hashem's blessings.",
+  "keywords": [
+   "Onkelos",
+   "mezuzah",
+   "Roman soldiers",
+   "convert",
+   "lumberyard",
+   "minister",
+   "miracle",
+   "key",
+   "Sefer Torah letter",
+   "phone quiz"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 191,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1985-08-27",
+   "hebrew": "10 Elul 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Elul with Rosh Hashanah 'around the corner'; the next show (192) states 17 Elul 5745 (1985-09-03)."
+  },
+  "serial": {
+   "story_key": "saved-by-a-miracle",
+   "story_title": "Saved by a Miracle",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The minister reveals that Reb Baruch would have been shot had he come on the first date; soldiers come to arrest Onkelos.",
+    "at_sec": 1395
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests give their full names.",
+    "at_sec": 811
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "onkelos",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Baruch",
+   "Reb Baruch's wife",
+   "the government minister",
+   "Alex",
+   "the Roman emperor's soldiers"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "sages",
+   "mitzvos_in_daily_life",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "achdus",
+   "courage",
+   "emunah"
+  ],
+  "mitzvos": [
+   "mezuzah",
+   "tefillin",
+   "shema",
+   "tehillim",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Avodah Zarah 11a",
+    "note": "Onkelos and the mezuzah; the tractate is named on air."
+   }
+  ],
+  "places": [
+   "Rome"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 54,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 54,
+   "end_sec": 140,
+   "type": "talk",
+   "title": "Elul: Ending the Year the Right Way",
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "e11b61d083"
+   ]
+  },
+  {
+   "start_sec": 140,
+   "end_sec": 204,
+   "type": "announcement",
+   "title": "Mitzvah Time phone quiz: send in your number"
+  },
+  {
+   "start_sec": 204,
+   "end_sec": 476,
+   "type": "story",
+   "title": "Onkelos and the Mezuzah",
+   "summary": "The Gemara's story of Onkelos, whose words about the mezuzah won over the Roman soldiers sent to arrest him.",
+   "people": [
+    "onkelos"
+   ],
+   "linked_items": [
+    "1472194b46"
+   ]
+  },
+  {
+   "start_sec": 476,
+   "end_sec": 695,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 695,
+   "end_sec": 782,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 782,
+   "end_sec": 937,
+   "type": "shema_guest",
+   "title": "Shema with two sisters from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 937,
+   "end_sec": 1048,
+   "type": "story_intro",
+   "title": "Recap of chapter 1"
+  },
+  {
+   "start_sec": 1048,
+   "end_sec": 1486,
+   "type": "story_chapter",
+   "title": "Saved by a Miracle, Chapter 2",
+   "summary": "Reb Baruch finally goes to the minister and discovers how the Alter Rebbe's strange advice saved his life.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "saved-by-a-miracle",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1486,
+   "end_sec": 1698,
+   "type": "talk",
+   "title": "Achdus: The Key to the Heavenly Door",
+   "summary": "Unity through Torah opens the door to Hashem's blessings; sign up friends for a letter in the new Sefer Torah.",
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "332cc4f38c"
+   ]
+  },
+  {
+   "start_sec": 1698,
+   "type": "closing",
+   "title": "Join Tzivos Hashem, Dial-a-Jewish-Story and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "1472194b46",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Onkelus 191' = 206-475 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "332cc4f38c",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Achdus- key to Heavenly door' = 1503-1672 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "e11b61d083",
+   "evidence": "text_overlap",
+   "confidence": 0.68,
+   "note": "'Elul 191' = 54-119 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "c3c1431fbb",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 190 = 'Saved by a miracle #1', 191 = '#2'; the story recap on air matches chapter 1."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "c3c1431fbb",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Saved by a Miracle' (1985): ep 190 ch. 1 and ep 191 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guests named on air (see hidden). Phone-quiz offer, gift-shop prizes, Sefer Torah sign-up and ads are period pieces. ASR writes 'Rabbi Akiva' for Reb Baruch and garbles Onkelos."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Mindy Pekarski",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 811,
+    "end_sec": 937
+   },
+   {
+    "name": "Hannah Bracha Pekarski",
+    "role": "shema_guest",
+    "group": "Beis Rivkah School for Girls",
+    "start_sec": 811,
+    "end_sec": 937
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:15Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20191%20-%20Saved%20by%20a%20Miracle%2C%20Chapter%202%20%28Elul%29%20%281985-08-27%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 191 - Saved by a Miracle, Chapter 2 (Elul) (1985-08-27).mp3",
+  "size_bytes": 21639949,
+  "mime_type": "audio/mpeg"
+ }
+}

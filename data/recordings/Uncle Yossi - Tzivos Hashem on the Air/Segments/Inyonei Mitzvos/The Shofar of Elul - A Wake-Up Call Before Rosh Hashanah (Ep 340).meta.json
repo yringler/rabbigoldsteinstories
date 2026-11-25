@@ -1,0 +1,151 @@
+{
+ "id": "a49091ffd9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Tekias Shofar 340",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Shofar of Elul - A Wake-Up Call Before Rosh Hashanah (Ep 340).mp3",
+  "duration_sec": 110.411,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 340,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 340,
+   "story": "The storyteller #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Shofar of Elul: A Wake-Up Call Before Rosh Hashanah",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi invites children to shul to hear the first shofar blowing of Elul, which continues every weekday morning until before Rosh Hashanah.",
+  "summary_long": "A short announcement-style talk from the Tzivos Hashem radio show at the start of Elul. Uncle Yossi tells children they are in for a treat: this Sunday morning, at the end of davening, the shofar will be heard in shul for the first time this year. The shofar will be blown every morning except Shabbos until the day before Erev Rosh Hashanah, to remind and prepare us for the real mitzvah of shofar on the two days of Rosh Hashanah. As we listen, we pray that Hashem Himself will sound the great shofar to announce that the golus is over and Moshiach has come.",
+  "lesson": "The shofar of Elul wakes us up to prepare for Rosh Hashanah and reminds us to pray for the great shofar of Moshiach.",
+  "keywords": [
+   "shofar",
+   "shul",
+   "Sunday morning",
+   "great shofar",
+   "preparation"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 340,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-08-09",
+   "hebrew": "26 Av 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Date of episode 340; 'this coming Sunday' is 2 Elul 5748, the first weekday of Elul."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "shofar",
+   "davening"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Shemoneh Esrei: 'Teka b'shofar gadol'",
+    "note": "Quoted as the prayer for the great shofar of the Geulah."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b55afe2c6b",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 1556,
+   "note": "Episode 340 (filename number); clip = 1556-1666 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Sunday' as the first shofar day (true only in years when 1 Elul is Shabbos)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:32Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Shofar%20of%20Elul%20-%20A%20Wake-Up%20Call%20Before%20Rosh%20Hashanah%20%28Ep%20340%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Shofar of Elul - A Wake-Up Call Before Rosh Hashanah (Ep 340).mp3",
+  "size_bytes": 1325850,
+  "mime_type": "audio/mpeg"
+ }
+}

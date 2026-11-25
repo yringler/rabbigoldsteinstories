@@ -1,0 +1,188 @@
+{
+ "id": "a42cb33445",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Disappearing sleeve",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Disappearing Sleeve.mp3",
+  "duration_sec": 860.191,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Disappearing Sleeve",
+  "title_basis": "filename",
+  "summary_short": "An agunah asks the Koznitzer Maggid to find her missing husband. He shows him to her in a basin of water, and she pulls out the very sleeve he is pressing.",
+  "summary_long": "The storyteller begins with video calls: a hundred years ago nobody would have believed you could see someone thousands of miles away, and it would sound even less possible to pass an object through a phone. Yet over two hundred years ago a tzaddik did something like it with ruach hakodesh. The story, from a book of stories the Frierdiker Rebbe gave to the Rebbe, is about the Koznitzer Maggid, a student of the Mezritcher Maggid. An agunah, whose husband vanished years ago and who cannot remarry without a get, comes with her brother for help. The Maggid has her look into a basin of water, where she sees a city, a marketplace and her husband among the tailors, pressing a sleeve. At the Maggid's word she reaches in and pulls out the sleeve, still warm. Trusting the tzaddik, the two set out without knowing where to go, find themselves left in a forest, and walk into the very city she saw. With the help of the local Rav and the sleeve, the husband can no longer deny who she is.",
+  "lesson": "Tzaddikim can see and help with ruach hakodesh, and when we trust a tzaddik's words, Hashem leads us the right way.",
+  "keywords": [
+   "sleeve",
+   "basin of water",
+   "tailor",
+   "agunah",
+   "get",
+   "wagon driver",
+   "forest",
+   "video call",
+   "iron"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A woman left an agunah for years; her husband had remarried in another town."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_koznitz",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the Koznitzer Maggid",
+   "the agunah",
+   "her brother",
+   "the tailor husband",
+   "the local Rav",
+   "the wagon driver"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "miracles",
+   "hiskashrus"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sippurim_noraim",
+    "note": "The story is 'written in a sefer called Sippurim Noraim', which the Frierdiker Rebbe gave the Rebbe as reliable."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 140,
+   "type": "talk",
+   "title": "From video calls to ruach hakodesh",
+   "summary": "Today's technology helps us imagine what a tzaddik could do long ago."
+  },
+  {
+   "start_sec": 140,
+   "end_sec": 860,
+   "type": "story",
+   "title": "The Koznitzer Maggid and the sleeve",
+   "summary": "An agunah pulls her husband's sleeve out of a basin of water and finds him in a faraway city."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Source named on air: the sefer 'Sippurim Noraim' (no works id). ASR garbles Koznitz (Kajnitz, Koshnitz)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem. There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Disappearing%20Sleeve.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Disappearing Sleeve.mp3",
+  "size_bytes": 10323317,
+  "mime_type": "audio/mpeg"
+ }
+}

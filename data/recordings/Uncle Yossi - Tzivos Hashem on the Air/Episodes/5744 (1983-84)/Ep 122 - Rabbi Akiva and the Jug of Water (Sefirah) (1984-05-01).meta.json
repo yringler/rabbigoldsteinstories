@@ -1,0 +1,381 @@
+{
+ "id": "5f2fe46249",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "122",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 122 - Rabbi Akiva and the Jug of Water (Sefirah) (1984-05-01).mp3",
+  "duration_sec": 1729.676,
+  "filename_facts": {
+   "episode_number": 122,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 122,
+   "story": "",
+   "topic": "ספירה, עקיבא נט\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 122: Rabbi Akiva and the Jug of Water (Sefirah)",
+  "title_basis": "content",
+  "summary_short": "A Sefirah show without music: why these are days of mourning, why water and negel vasser are so precious, and how Rabbi Akiva's washing in prison won him his freedom.",
+  "summary_long": "Broadcast during Sefiras HaOmer 5744, the week after Pirkei Avos chapter 1 was learned. The show opens without music, and Uncle Yossi explains why: there is a time for joy and a time for sadness, and during Sefirah we hold back from celebrations because Rabbi Akiva's students, who did not show each other respect, died in a plague that ended on Lag BaOmer. We should check that we honor others and build Ahavas Yisroel and achdus. An eleven-year-old guest recites the Shema. Uncle Yossi then speaks about water, Hashem's precious gift, and its power of purity, the reason we wash negel vasser every morning. The story follows: Rabbi Akiva, jailed for teaching Torah and given no water for three days, uses his jug to wash his hands with a brachah instead of drinking. The amazed ruler frees him and makes him an advisor. Uncle Yossi then teaches Rabbi Akiva's great rule, love your fellow as yourself, and from Pirkei Avos chapter 1, the humility Moshe learned from Mount Sinai. The show ends with the Lag BaOmer parade announcement.",
+  "lesson": "Show respect and love to every Jew, and treasure every mitzvah, even at great cost, as Rabbi Akiva did.",
+  "keywords": [
+   "Rabbi Akiva's students",
+   "plague",
+   "water",
+   "prison",
+   "jug of water",
+   "ruler",
+   "Mount Sinai",
+   "humility",
+   "Lag BaOmer parade",
+   "Staten Island"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 122,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-05-01",
+   "hebrew": "29 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Sefirah; Pirkei Avos chapter 1 learned 'last week'; Lag BaOmer (20 May) announced; episode 123 says 20 May is 12 days away."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Thousands of Rabbi Akiva's students died in a plague (explained briefly).",
+    "at_sec": 196
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Teaching Torah was forbidden; Rabbi Akiva is jailed and left without water for three days.",
+    "at_sec": 1006
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full with age and town.",
+    "at_sec": 623
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "the prison warden",
+   "the other prisoners"
+  ],
+  "topics": [
+   "sages",
+   "calendar",
+   "morning_routine",
+   "kindness_and_community",
+   "hashem_in_nature"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kibbud",
+   "achdus",
+   "anavah",
+   "mesiras_nefesh",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "negel_vasser",
+   "ahavas_yisroel_mitzvah",
+   "torah_study",
+   "brachos",
+   "shema"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'A time for everything' (Shlomo HaMelech)."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "'Love your fellow as yourself', called by Rabbi Akiva a great rule of the Torah (cited from the Gemara)."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1",
+    "note": "'Moshe received the Torah from Sinai': humility learned from the lowest mountain."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 55,
+   "type": "opening",
+   "title": "Opening without music",
+   "summary": "Uncle Yossi explains why the show opens without the usual music."
+  },
+  {
+   "start_sec": 55,
+   "end_sec": 374,
+   "type": "talk",
+   "title": "Sefirah: a time to be sad",
+   "summary": "Rabbi Akiva's students did not respect each other; we hold back from celebrations and work on Ahavas Yisroel and achdus.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "777566ae04"
+   ]
+  },
+  {
+   "start_sec": 374,
+   "end_sec": 511,
+   "type": "story_intro",
+   "title": "A mitzvah that saved Rabbi Akiva's life",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 511,
+   "end_sec": 774,
+   "type": "shema_guest",
+   "title": "Shema with an eleven-year-old guest",
+   "summary": "Children's pure voices saying Torah together bring achdus."
+  },
+  {
+   "start_sec": 774,
+   "end_sec": 1006,
+   "type": "talk",
+   "title": "Water, Hashem's precious gift, and negel vasser",
+   "summary": "Water gives life and purity, which is why we wash our hands every morning.",
+   "linked_items": [
+    "f760feafed"
+   ]
+  },
+  {
+   "start_sec": 1006,
+   "end_sec": 1244,
+   "type": "story",
+   "title": "Rabbi Akiva and the Jug of Water",
+   "summary": "In prison, Rabbi Akiva washes his hands with his only water; the amazed ruler frees him and makes him an advisor.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1244,
+   "end_sec": 1452,
+   "type": "talk",
+   "title": "Love your fellow as yourself",
+   "summary": "Rabbi Akiva's great rule; Ahavas Yisroel leads to love of Hashem, like loving a friend's friends.",
+   "people": [
+    "rabbi_akiva",
+    "alter_rebbe"
+   ],
+   "linked_items": [
+    "a5f42127fc"
+   ]
+  },
+  {
+   "start_sec": 1452,
+   "end_sec": 1619,
+   "type": "talk",
+   "title": "Pirkei Avos chapter 1: humility from Mount Sinai",
+   "summary": "Moshe learned humility from the lowest mountain; seeing the good in others brings achdus.",
+   "people": [
+    "moshe_rabbeinu"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "e5445b520a"
+   ]
+  },
+  {
+   "start_sec": 1619,
+   "end_sec": 1708,
+   "type": "announcement",
+   "title": "The Lag BaOmer parade",
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 1708,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "777566ae04",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Sefira 122' = 55-393 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "a5f42127fc",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Ahavas Yisroel 122' = 1244-1467 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "e5445b520a",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Pirkei Avos Alef 122' = 1452-1612 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "f760feafed",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Netilas Yodayim 122' = 800-1029 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The Sefirah, negel vasser and Pirkei Avos talks all re-aired at matching offsets in episode 224 (05-06-86); possibly a near-full rebroadcast."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Sefirah, negel vasser and Ahavas Yisroel talks re-aired in episode 526."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4d19621b73",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Negel vasser and Ahavas Yisroel talks re-aired in episode 135."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music or sponsors (Sefirah). Lag BaOmer parade announcement is dated 1984."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Rosenberg",
+    "role": "shema_guest",
+    "group": "Staten Island; age 11",
+    "start_sec": 623,
+    "end_sec": 774
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:01Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20122%20-%20Rabbi%20Akiva%20and%20the%20Jug%20of%20Water%20%28Sefirah%29%20%281984-05-01%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 122 - Rabbi Akiva and the Jug of Water (Sefirah) (1984-05-01).mp3",
+  "size_bytes": 20757219,
+  "mime_type": "audio/mpeg"
+ }
+}

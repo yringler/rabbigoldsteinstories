@@ -1,0 +1,157 @@
+{
+ "id": "c7645f9f33",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Elul Tishrei recap in Cheshvan 195",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Holding On to Elul and Tishrei - A Look Back on Rosh Chodesh Cheshvan (Ep 195).mp3",
+  "duration_sec": 335.248,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 195,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 195,
+   "story": "",
+   "topic": "ר\"ח חשון ברוך ה' בעש\"ט",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Holding On to Elul and Tishrei: A Look Back on Rosh Chodesh Cheshvan",
+  "title_basis": "content",
+  "summary_short": "On Rosh Chodesh Cheshvan, Uncle Yossi recalls the highlights of Elul and Tishrei and asks children to keep their inspiration alive all year.",
+  "summary_long": "A Rosh Chodesh Cheshvan talk from the Tzivos Hashem radio show. Now that Tishrei has passed, Uncle Yossi says, its memories should not fade but keep inspiring us to learn more Torah and do more mitzvos. He recalls Elul, when Hashem was close like a king in the field and it was a time to bring Him our requests, and to give Him His: more Torah and mitzvos with joy. Then came Tishrei: Rosh Hashanah and the hush in shul before the shofar, when Hashem rose from the throne of judgment to the throne of mercy and inscribed us in the Book of Life; Tashlich; the Ten Days of Teshuvah; Yom Kippur, the fast of confession and forgiveness; the joyful days of Sukkos, the time of our joy; and the dancing of Simchas Torah, when we resolve to learn more this year. Hashem has given us another year to do better than ever, so let these two months stay deep in our minds and hearts so we can serve Hashem in truth, and Hashem will grant our greatest wish, Moshiach now.",
+  "lesson": "Don't let the inspiration of Elul and Tishrei fade; carry it into the whole year.",
+  "keywords": [
+   "Tishrei memories",
+   "shofar",
+   "throne of mercy",
+   "Book of Life",
+   "Tashlich",
+   "Simchas Torah",
+   "dancing",
+   "new month"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 195,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-10-15",
+   "hebrew": "30 Tishrei 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Date of episode 195, broadcast on Rosh Chodesh Cheshvan 5746."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "simcha",
+   "emes"
+  ],
+  "mitzvos": [
+   "shofar",
+   "tashlich",
+   "teshuvah",
+   "sukkah"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "elul",
+   "rosh_hashanah",
+   "aseres_yemei_teshuvah",
+   "yom_kippur",
+   "sukkos",
+   "shemini_atzeres_simchas_torah",
+   "cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "23f4f1434c",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 50,
+   "note": "Episode 195 (filename number); clip = 50-385 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-greeting ('A good Chodesh to all of you'). Clean cut from episode 195."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:34Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Holding%20On%20to%20Elul%20and%20Tishrei%20-%20A%20Look%20Back%20on%20Rosh%20Chodesh%20Cheshvan%20%28Ep%20195%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Holding On to Elul and Tishrei - A Look Back on Rosh Chodesh Cheshvan (Ep 195).mp3",
+  "size_bytes": 4023894,
+  "mime_type": "audio/mpeg"
+ }
+}

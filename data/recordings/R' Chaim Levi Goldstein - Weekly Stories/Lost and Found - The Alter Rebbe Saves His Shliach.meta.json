@@ -1,0 +1,203 @@
+{
+ "id": "ca1ed29b8b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Lost and Found",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Lost and Found - The Alter Rebbe Saves His Shliach.mp3",
+  "duration_sec": 1381.378,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Lost and Found: The Alter Rebbe Saves His Shliach",
+  "title_basis": "filename",
+  "summary_short": "The Alter Rebbe warns his collector Reb Zalman Zezmer never to sleep in a house whose door faces east. Lost in a forest, he ends up in a robbers' den.",
+  "summary_long": "In the week the Rebbe's shluchim gather in Crown Heights, the storyteller explains that every child can be a shliach of the Rebbe, and that the Rebbe looks after his shluchim, just as the Alter Rebbe did. The Alter Rebbe founded Kollel Chabad to support poor families in Russia and Eretz Yisroel, and he sends the Chassid Reb Zalman Zezmer to collect funds, with one strange warning: never spend the night in a house whose door faces Mizrach. On the way home the wagon driver dozes off and the horses wander into a dark forest. A lit house appears, and an elderly Jew lets them in, but when Reb Zalman learns the door faces east, it is too late: the old man locks them in and a band of robbers arrives. All night Reb Zalman davens and calls out to his Rebbe, until the old man secretly lets them escape and hands them a check for the Alter Rebbe. Back home the Alter Rebbe says he was kept up all night by their calls, and explains that sometimes Hashem lets a Jew get lost in order to find another lost Jew. Months later the old man arrives as a penitent beggar.",
+  "lesson": "A Rebbe cares for every shliach who does his mission; follow a tzaddik's instructions, trust in Hashem, and know that even getting lost can be hashgachah pratis that brings another Jew back.",
+  "keywords": [
+   "shluchim",
+   "Kollel Chabad pushka",
+   "forest",
+   "robbers",
+   "wagon driver",
+   "door facing east",
+   "check",
+   "beggar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of the Kinus HaShluchim (late Cheshvan)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'This week thousands of the Rebbe's shluchim came to Crown Heights' points to the international Kinus HaShluchim; year not stated."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "Two travelers are locked in a house by robbers overnight; they escape unharmed."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Threatening, drunken robbers; no one is hurt."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The robbers are heard drinking."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_meir_baal_haness",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_zalman_zezmer",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Zalman Zezmer, the Alter Rebbe's collector",
+   "Reuven the wagon driver",
+   "Moshe, the old man in the forest house",
+   "the robbers",
+   "a Chassid of the Rebbe Rashab"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis",
+   "teshuvah"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "bitachon",
+   "courage"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "davening",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Crown Heights",
+   "Russia",
+   "Eretz Yisroel"
+  ]
+ },
+ "proposed_new_terms": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the 'I believe in Hashem' song. ASR garbles Zezmer and Kollel Chabad."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:33Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "06304e8858",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'No One Gets Lost: Reb Zalman Zezmer and the House in the Forest' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Lost%20and%20Found%20-%20The%20Alter%20Rebbe%20Saves%20His%20Shliach.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Lost and Found - The Alter Rebbe Saves His Shliach.mp3",
+  "size_bytes": 16577336,
+  "mime_type": "audio/mpeg"
+ }
+}

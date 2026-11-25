@@ -1,0 +1,33 @@
+{
+ "batch_id": "b073",
+ "done": [
+  "23955aba9c",
+  "cc93c1f1cf",
+  "4ad523a84f",
+  "3fecbf9b28",
+  "f1c56fd994",
+  "a45cd82288",
+  "5135fe8f4d",
+  "8dc2821114",
+  "ee84a13b26",
+  "a512619974",
+  "249769e4fd",
+  "eed6c84205",
+  "aeb148800a",
+  "1f7ce74bc7",
+  "7abf00d146",
+  "7515df930a"
+ ],
+ "failed": [],
+ "notes": [
+  "IDENTITY CLUE (storyteller_i_believe): in 'chanuka - my miracle' (3fecbf9b28) and 'My Miracle' (ee84a13b26) the speaker says 'Chaim Levi Goldstein here', and in 'Simcha Shel Mitzva' (eed6c84205) he says 'go notify Rabbi Goldstein's wife'. He sings the 'I Believe in Hashem' theme in 3fecbf9b28 (says he learned it from a singer heard as 'Rabbi Freyam Waxman'), teaches in a yeshiva, and grew up in the Rebbe's building on President St. Probably the same Rabbi Levi Goldstein who appears as a teacher/shofar guest in the radio episodes (reports b007, b011, b018, b033), possibly the host's son. Placeholders kept everywhere; the name is only in hidden and identity_guesses.",
+  "Dating clues for the Story Videos: a512619974 is the week before Lag BaOmer 5782 (May 2022, stated as '99 years' after 1923 and 'Lag BaOmer on Thursday'); eed6c84205 is 26 Adar II 5782 (two years after his COVID crisis in Adar 5780); 7515df930a mentions a Hakhel year (5783?). The 10 gifts set (before Shavuos), 'Hashem Chose ME' (just after Shavuos) and the Mesiras Nefesh set (Yud-Beis to 15 Tammuz) may form one weekly run in 5782; 8dc2821114 cites a Rebbe farbrengen 'about 35 years ago'.",
+  "1f7ce74bc7 'The Besht to the Rescue' (Story Videos) is the same story as the Stories-folder 'Besht to the Rescue' (ccedcd76fb, the worked example). Not added as a relation since that id is not in my facts or batch; pass 2 should link them (same_story).",
+  "3fecbf9b28 and ee84a13b26 are two Chanukah tellings of the same COVID recovery (linked same_story). ee84a13b26 stops abruptly at 5:29 and is probably an early or cut take; 3fecbf9b28 is the full version.",
+  "eed6c84205 'Simcha Shel Mitzva' is a live class with students (Hayom Yom 8 Cheshvan plus a sichah from a simchah booklet), not a story program; classified as shiur. Check that it belongs in Story Videos.",
+  "4ad523a84f is a 26-second clip of the brachah Shehecheyanu labeled 9 Shevat 5730 (eve of Yud Shevat 5730). Speaker and occasion unknown; marked review.",
+  "a45cd82288 is a standalone copy of the weekly-story theme song.",
+  "Several speakers' health and family details (COVID illness, childhood home) were recorded in hidden with health_info and identifiable_living_people flags.",
+  "Proposed new terms: mitzvos 'payos'; people 'Rabbi Simcha Bunim of Pshischa', 'Rabbi Aharon of Karlin', 'Rebbetzin Devorah Leah' (twice); calendar 'Yud-Gimmel Tishrei'."
+ ]
+}

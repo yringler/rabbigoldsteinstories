@@ -1,0 +1,11 @@
+# metadata validation and Hebrew dates (tools/3-metadata)
+jsonschema
+pyluach
+# local transcription (tools/2-transcribe); the Kaggle kernel installs its own copy
+faster-whisper
+numpy
+# Kaggle CLI (also needs `six`) and R2 uploads
+kaggle
+six
+boto3
+# also needed on PATH: ffmpeg / ffprobe

@@ -1,0 +1,198 @@
+{
+ "id": "f9f2974567",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Eliyohu Hanovie's Cup",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Eliyahu HaNavi's Cup.mp3",
+  "duration_sec": 958.938,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "duplicate copy 19a020abf8 was filed under 'Stories/אידיש/Yiddish stories/Bubby Chaya Malka etc' (language guess there: yiddish)"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Eliyahu HaNavi's Cup",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish Pesach story told by a grandmother: a poor mother refuses to sell her family's precious Kos shel Eliyahu, and an old man's two dollars that keep coming back bring the family a beautiful Seder.",
+  "summary_long": "Told in Yiddish by a grandmother to her grandchildren. A once-wealthy family has lost everything, and Pesach is coming. The father wants to sell the one treasure left, a diamond-studded cup of Eliyahu HaNavi handed down in the mother's family for generations, but she refuses: Hashem will help. In despair he leaves for the shul. On a cold, rainy day, two days before Pesach, the children invite in a soaked old man. He asks to join their Seder and gives the mother two dollars for matzah and wine. Each time she spends them, two dollars are back in her pocket, so she buys food, clothes, curtains, a new kapote and hat for her husband, and fixes the roof and stove. The father comes home to a shining house and his wife explains. That night the father falls asleep just before the door is opened for Eliyahu, who comes in, tells the children of all the Sedarim he visits, and promises to return. The next night the same happens: Eliyahu says the father may not see him because he wanted to sell the cup, but the mother's home will be blessed until Moshiach comes.",
+  "lesson": "Treasure what is holy and trust Hashem even when things look hopeless; Eliyahu HaNavi comes to every Jewish child's Seder.",
+  "keywords": [
+   "Kos shel Eliyahu",
+   "heirloom cup",
+   "diamonds",
+   "two dollars",
+   "old man",
+   "matzah and wine",
+   "Seder",
+   "opening the door",
+   "four questions"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A family loses everything and has nothing for Pesach; the father storms out in despair."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Excerpt of a grandmother's home recording for her grandchildren; no names in this excerpt."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "eliyahu_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "hillel",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a poor mother and father",
+   "their children",
+   "an old man",
+   "the wine and matzah seller"
+  ],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "chesed"
+  ],
+  "mitzvos": [
+   "seder",
+   "matzah",
+   "hachnasas_orchim",
+   "kiddush"
+  ],
+  "calendar": [
+   "pesach",
+   "erev_pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'Bubby Chaya Malka yiddish stories' (audio fingerprint)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "1c626f60bf",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 219: The Golden Cup of Eliyahu HaNavi (Shabbos Mevarchim Nissan)' (episode 219, 15:35-24:15), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "65ccd75a82",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 318: The Golden Cup of Eliyahu HaNavi (Shabbos Mevarchim Nissan)' (episode 318, 14:05-21:55), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f891b04599",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 473: The Cup of Eliyahu HaNavi (Chol HaMoed Pesach)' (episode 473, 9:41-21:36), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f9d5303d06",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 524: The Cup of Eliyahu HaNavi (Yud-Aleph Nissan)' (episode 524, 18:50-26:55), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "9e71140e43",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Eliyahu HaNavi's Surprise Visit' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "American Yiddish with English loanwords (curtains, steps, windows, lady). Describes Seder customs: kittel, washing, Mah Nishtanah, Hillel's sandwich."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:34Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Eliyahu%20HaNavi%27s%20Cup.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Eliyahu HaNavi's Cup.mp3",
+  "size_bytes": 11508230,
+  "mime_type": "audio/mpeg"
+ }
+}

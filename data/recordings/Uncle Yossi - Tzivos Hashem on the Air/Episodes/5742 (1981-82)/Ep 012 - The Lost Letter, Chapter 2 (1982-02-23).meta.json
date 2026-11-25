@@ -1,0 +1,306 @@
+{
+ "id": "94351be6b8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "12",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 012 - The Lost Letter, Chapter 2 (1982-02-23).mp3",
+  "duration_sec": 1704.413,
+  "filename_facts": {
+   "episode_number": 12,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 12,
+   "story": "The Lost Letter #2",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 12: The Lost Letter, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "Practicing for the grand parade with Moshiach, a phone call about the Shema, and chapter 2 of \"The Lost Letter\": Reb Leibel's fortune slips away until the forgotten letter turns up.",
+  "summary_long": "Uncle Yossi recalls the great marches of Jewish history: leaving Egypt through the sea, crossing the Jordan with Yehoshua, and going up to the Beis HaMikdash three times a year. Soon there will be one more grand parade, when Moshiach leads us out of exile, so the soldiers of Tzivos Hashem practice with their homemade drums. After a recap, a young club member leads the Shema and tells how he is getting friends to buy letters in the children's Sefer Torah. In chapter 2 of \"The Lost Letter\", messengers bring Reb Leibel news that a factory has burned down, then a forest, and then more; over ten years his whole fortune disappears, because he refused the Baal Shem Tov's blessing, which would have opened a channel for good. Forced to sell his furniture, he has a big cedar closet carried out, and there on the floor lies the sealed letter. A child phones in to ask why we say the Shema, and learns it is said morning and night and comes from Devarim 6:4. The mailbox has a family's thanks and two riddles, and the contest is announced again.",
+  "lesson": "A blessing from a tzaddik opens a channel for good; never think you have no need of a bracha.",
+  "keywords": [
+   "grand parade",
+   "Red Sea",
+   "Jordan River",
+   "factory fire",
+   "forest fire",
+   "telegram",
+   "cedar closet",
+   "lost letter",
+   "telephone call",
+   "riddles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1982-02-23",
+   "hebrew": "30 Shevat 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Weekly sequence: 1 wk after ep 11 (16 Feb 1982), 1 wk before ep 13 (2 Mar 1982); no gap between them. No date cue of its own."
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 12,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A wealthy man loses his fortune over ten years and must sell his belongings to feed his family.",
+    "at_sec": 1000
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child Shema guest, a child caller and a child letter writer are named on air.",
+    "at_sec": 587
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "yehoshua_bin_nun",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Leibel",
+   "Miriam, Reb Leibel's wife",
+   "the messengers"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "prayer_and_brachos",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "anavah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "shema",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 6:4",
+    "note": "Where the words of the Shema are written, explained in the phone call."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening (start cut off)"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 160,
+   "type": "talk",
+   "title": "Marches of victory and the grand parade with Moshiach",
+   "summary": "From the Exodus to the parade out of exile led by Moshiach, so we practice our march."
+  },
+  {
+   "start_sec": 160,
+   "end_sec": 410,
+   "type": "song",
+   "title": "Practice march out of golus"
+  },
+  {
+   "start_sec": 410,
+   "end_sec": 552,
+   "type": "story_intro",
+   "title": "Recap of chapter 1"
+  },
+  {
+   "start_sec": 552,
+   "end_sec": 705,
+   "type": "shema_guest",
+   "title": "A young club member leads the Shema"
+  },
+  {
+   "start_sec": 705,
+   "end_sec": 1225,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 2",
+   "summary": "Reb Leibel loses his fortune over ten years, until the forgotten letter is found under a cedar closet.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1225,
+   "end_sec": 1238,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1238,
+   "end_sec": 1374,
+   "type": "qa",
+   "title": "A phone call: why we say the Shema",
+   "summary": "A child calls in; the Shema is said morning and night and comes from Devarim 6:4."
+  },
+  {
+   "start_sec": 1374,
+   "end_sec": 1555,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox and riddles"
+  },
+  {
+   "start_sec": 1555,
+   "end_sec": 1665,
+   "type": "announcement",
+   "title": "Contest reminder"
+  },
+  {
+   "start_sec": 1665,
+   "type": "closing",
+   "title": "Closing and sponsor thanks"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "1548d130c1",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 11 = 'The Lost Letter #1', 12 = '#2'; recap on air."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1548d130c1",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1982): ep 11 ch. 1 and ep 12 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "e39943b482",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1982): ep 12 ch. 2 and ep 13 ch. 3 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start",
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence; the theme and greeting are missing. The recap names the letter's recipient 'Rabbi Shimon', where chapter 1 said 'Reb Sholom'. Children named on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yosef Yitzchak Levi",
+    "role": "shema_guest",
+    "group": "Tzivos Hashem club member",
+    "start_sec": 587,
+    "end_sec": 675
+   },
+   {
+    "name": "Schneur Zalman",
+    "role": "other",
+    "group": "Child who phones in",
+    "start_sec": 1238,
+    "end_sec": 1374
+   },
+   {
+    "name": "Faigy Gutman (ASR 'Faggy')",
+    "role": "mailbox_letter",
+    "group": "Borough Park",
+    "start_sec": 1419,
+    "end_sec": 1520,
+    "note": "Sent two riddles; asked to talk on the phone."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:49:39Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20012%20-%20The%20Lost%20Letter%2C%20Chapter%202%20%281982-02-23%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 012 - The Lost Letter, Chapter 2 (1982-02-23).mp3",
+  "size_bytes": 20454093,
+  "mime_type": "audio/mpeg"
+ }
+}

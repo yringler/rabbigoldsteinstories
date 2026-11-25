@@ -1,0 +1,29 @@
+{
+ "batch_id": "b053",
+ "done": [
+  "cdd9f50dce",
+  "08c856f89f",
+  "4ffb659bb2",
+  "72693dbf7c",
+  "8774508349",
+  "63f2625291",
+  "28664b56ac",
+  "6a8926ccff",
+  "9e71140e43",
+  "6a8170d97f",
+  "f2f2509078"
+ ],
+ "skipped_already_done": [
+  "d5805ff768"
+ ],
+ "failed": [],
+ "notes": [
+  "Candidate same_story 6a8170d97f <-> f2f2509078 (both 'Every Step Is Perfectly Planned') rejected: same theme song and opening talk, but different stories (the Spanish minister and the earthquake vs. the innkeeper and the mice). No relation added.",
+  "4ffb659bb2 ('chupa rlvyitz') and 72693dbf7c ('Chuppah At Midnight') are the same story of Rabbi Levi Yitzchak's secret wedding; same_story added both ways.",
+  "Identity clue: in 4ffb659bb2, a live children's Chof Av farbrengen, the storyteller says he was named Levi after the Rebbe's father, has an older brother Yitzchak, and 'this year' was given the added name Chaim (Chaim Levi). Recorded as a low-confidence guess for storyteller_i_believe; not confirmed to be the weekly storyteller.",
+  "Identity clue: in 72693dbf7c the narrator grew up in Crown Heights and, at about eight, held open Rebbetzin Chana's building door at 1418 President Street with his brothers.",
+  "72693dbf7c dated to the week of 28 Teves 5785 (2025-01-28) from 'she turned 145' (Rebbetzin Chana born 28 Teves 5640).",
+  "Items without the theme song but attributed to storyteller_i_believe by style: 4ffb659bb2, 72693dbf7c, 63f2625291, 6a8926ccff (series set only for 72693dbf7c, from its weekly framing). cdd9f50dce (a short Purim joke story) left as speaker unknown.",
+  "f2f2509078 is a Hakhel-year recording for Parshas Shemos (5776 or 5783)."
+ ]
+}

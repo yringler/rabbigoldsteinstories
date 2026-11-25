@@ -1,0 +1,362 @@
+{
+ "id": "798eaeecfd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Sefiras Haomer - Kids",
+  "filename_title": "sefiras ha'omer SZ 1",
+  "audio_path": "audio/Other Stories/Sefiras HaOmer at Home, Part 1 - Shavuos, the Sefiros and Getting Ready for an Upsherin.mp3",
+  "duration_sec": 2393.208,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Sefiras HaOmer at Home, Part 1: Shavuos, the Sefiros and Getting Ready for an Upsherin",
+  "title_basis": "content",
+  "summary_short": "A father in Yiddish teaches his young son about Shavuos and Sefiras HaOmer, sings with him, and helps him practice what to say at his upcoming upsherin.",
+  "summary_long": "A warm Yiddish home recording made during Sefiras HaOmer, as a father talks, sings and learns with his son, who is about to turn three. They begin with what the boy learned that day: the Beis HaMikdash and its korbanos, and buying letters in a Sefer Torah. The father tells a short tale of children who love learning Torah, then explains Shavuos: before giving the Torah, Hashem asked for guarantors, and only when the Jewish people offered their children was He satisfied. He teaches a new niggun about receiving the Torah with joy. Next he explains that the Jews counted the days from Mitzrayim to Har Sinai and sings the names of the ten sefiros. He tells how Avraham Avinu recognized Hashem at the age of three, and the boy rehearses a short declaration for his upsherin about following Hashem and starting to learn Torah in cheder. The recording ends with the Rebbe's niggun Tzama Lecha Nafshi and the song 'We Want Moshiach Now'.",
+  "lesson": "The Torah was given because Jewish children promised to learn it; like Avraham Avinu at three, a child can recognize Hashem and begin learning Torah with joy.",
+  "keywords": [
+   "upsherin",
+   "Matan Torah",
+   "guarantors",
+   "children",
+   "ten sefiros",
+   "Sefer Torah letters",
+   "payos",
+   "cheder",
+   "niggun",
+   "We Want Moshiach Now",
+   "Tzama Lecha Nafshi"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "family_recording",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "sefiras-ha-omer-sz",
+   "part_number": 1,
+   "of": 2
+  },
+  "date": {
+   "gregorian": "1981-05",
+   "hebrew": "Iyar 5741",
+   "hebrew_year": 5741,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "Recorded during Sefiras HaOmer before Shavuos; the upsherin is said to be on Daled Tammuz 5741, the Hakhel year (6 July 1981)."
+  },
+  "collections": [
+   "Yiddish",
+   "Sefiras HaOmer - Kids"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Home recording of a father with his young son."
+   },
+   {
+    "flag": "minor_named",
+    "note": "The child and his brothers are named throughout.",
+    "at_sec": 0
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a father",
+   "his young son",
+   "children who learn Torah"
+  ],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "family_and_home",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "simcha",
+   "kabbalas_ol",
+   "emunah",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "torah_study",
+   "upsherin",
+   "chinuch"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 116.8,
+   "type": "qa",
+   "title": "What did you learn today?",
+   "summary": "Father and son talk about the Beis HaMikdash, korbanos and buying letters in a Sefer Torah."
+  },
+  {
+   "start_sec": 116.8,
+   "end_sec": 307.8,
+   "type": "story",
+   "title": "Children who love to learn Torah",
+   "summary": "A short tale of children learning Torah and growing into Chassidim, with encouragement for the boy."
+  },
+  {
+   "start_sec": 307.8,
+   "end_sec": 643.1,
+   "type": "talk",
+   "title": "Shavuos: our children are our guarantors",
+   "summary": "Hashem gives the Torah only after the Jewish people offer their children as guarantors."
+  },
+  {
+   "start_sec": 643.1,
+   "end_sec": 903.0,
+   "type": "song",
+   "title": "A new niggun about receiving the Torah",
+   "summary": "The father teaches and sings a niggun about receiving the Torah with joy."
+  },
+  {
+   "start_sec": 903.0,
+   "end_sec": 1106.8,
+   "type": "talk",
+   "title": "Counting the Omer and the ten sefiros",
+   "summary": "The Jews counted the days until Matan Torah; the father sings the names of the ten sefiros."
+  },
+  {
+   "start_sec": 1106.8,
+   "end_sec": 1425.0,
+   "type": "story",
+   "title": "Avraham Avinu at three",
+   "summary": "Looking ahead to the upsherin, the father tells how Avraham Avinu recognized the Creator at the age of three."
+  },
+  {
+   "start_sec": 1425.0,
+   "end_sec": 1737.4,
+   "type": "other",
+   "title": "Practicing the upsherin declaration",
+   "summary": "The boy rehearses a short speech about following Hashem and starting to learn Torah in cheder."
+  },
+  {
+   "start_sec": 1737.4,
+   "end_sec": 2167.4,
+   "type": "song",
+   "title": "The Rebbe's niggunim: Tzama Lecha Nafshi",
+   "summary": "They listen to and sing along with niggunim the Rebbe sang, then hear 'We Want Moshiach Now'."
+  },
+  {
+   "start_sec": 2167.4,
+   "end_sec": 2367.8,
+   "type": "other",
+   "title": "The upsherin declaration again",
+   "summary": "Father and son say the declaration together once more."
+  },
+  {
+   "start_sec": 2367.8,
+   "end_sec": 2393.2,
+   "type": "song",
+   "title": "We Want Moshiach Now",
+   "summary": "A closing song."
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "1dc37ae04f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'sefiras ha'omer SZ 2': same father and son, same Sefirah/Shavuos theme, continuing the session (likely the other side of the tape)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "1824a0591f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 402: Little Avraham (Parshas Lech Lecha)' (episode 402, 15:08-24:34), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "26ea9a56c1",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 418: Little Avraham Searches for Hashem (Mishenichnas Adar)' (episode 418, 20:22-29:01), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "378f6dd25e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 351: Yaakov's Ladder and Little Avraham (Parshas Vayeitzei)' (episode 351, 21:30-29:05), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "7159699bdb",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 348: Little Avraham Finds Hashem' (episode 348, 12:30-20:53), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "859d86662d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 204: Little Avraham' (episode 204, 20:14-28:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "8b1b5cf557",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 316: Little Avraham (Zayin Adar and Parshas Zachor)' (episode 316, 18:45-26:46), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "933326aa43",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 500: Little Avraham Searches for Hashem' (episode 500, 14:20-22:34), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "beeb398177",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 2: The Search, Little Avraham (Yud-Tes Kislev)' (episode 2, 15:15-21:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he",
+   "en"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "music_untranscribed",
+   "mixed_language"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Home recording with a toddler; the Rebbe's niggun (about 29:30-33:15) is not transcribed and a sung passage produced an ASR loop near 34:06."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shneur Zalman (Shneur Zalmanke)",
+    "role": "family_member",
+    "group": "the son, turning three",
+    "start_sec": 0,
+    "end_sec": 2393.2
+   },
+   {
+    "name": "Menachem Mendel",
+    "role": "family_member",
+    "group": "brother (as heard, garbled)",
+    "start_sec": 276.2
+   },
+   {
+    "name": "Yehoshua'le",
+    "role": "family_member",
+    "group": "brother (as heard, garbled)",
+    "start_sec": 276.2
+   },
+   {
+    "name": "Yechiel",
+    "role": "family_member",
+    "group": "brother (as heard, garbled)",
+    "start_sec": 276.2
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The boy turns three and has his upsherin on Daled Tammuz 5741 (Hakhel year).",
+    "start_sec": 1106.8,
+    "end_sec": 1194.7
+   },
+   {
+    "kind": "family_detail",
+    "text": "The boy bought letters in a Sefer Torah for one dollar each; he is about to start cheder.",
+    "start_sec": 63.1,
+    "end_sec": 116.8
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Family recording: father not identified; 'SZ' in the filename matches the child's initials.",
+   "Brothers' names are garbled by the Yiddish ASR."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Sefiras%20HaOmer%20at%20Home%2C%20Part%201%20-%20Shavuos%2C%20the%20Sefiros%20and%20Getting%20Ready%20for%20an%20Upsherin.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Sefiras HaOmer at Home, Part 1 - Shavuos, the Sefiros and Getting Ready for an Upsherin.mp3",
+  "size_bytes": 28719331,
+  "mime_type": "audio/mpeg"
+ }
+}

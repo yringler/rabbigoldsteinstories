@@ -1,0 +1,194 @@
+{
+ "id": "9c6c7e754e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Bitachon for ALL",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Bitachon for Everyone - Why Yaakov Was Afraid.mp3",
+  "duration_sec": 520.568,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Bitachon for Everyone: Why Yaakov Was Afraid",
+  "title_basis": "filename",
+  "summary_short": "From Parshas Vayishlach: if even Yaakov Avinu feared he might not deserve Hashem's protection, how can we trust? Because Hashem helps everyone, deserving or not.",
+  "summary_long": "A short teaching for Parshas Vayishlach. When Yaakov Avinu hears that Esav is coming with 400 men, he is very afraid, even though Hashem promised to protect him. Some Sages say this shows his humility: he worried that a sin might have made him unworthy of the promise. Others say the Torah tells us this so that we should act differently and not worry. But if a tzaddik like Yaakov feared, how can we, who never received a direct promise, be so sure? The answer comes from Shaar HaBitachon by Rabbeinu Bachya: Hashem is so kind that He protects those who deserve it and those who do not. The Tzemach Tzedek's words 'Think good and it will be good' teach that bitachon itself invites Hashem's help, like plugging a machine into the wall. The recording ends just as the storyteller begins a story about a Jew named Hillel, whom his Russian neighbours called Hilka.",
+  "lesson": "Trust Hashem fully, because He helps everyone whether or not they deserve it, and bitachon itself brings His help.",
+  "keywords": [
+   "Esav",
+   "400 men",
+   "promise",
+   "Shaar HaBitachon",
+   "glass of water",
+   "plug in the wall",
+   "Hilka"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "talk",
+  "story_type": [],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "fragment",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Vayishlach",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "Teaching on 'something very interesting about Parshas Vayishlach'; year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yaakov_avinu",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbeinu_bachya_ibn_paquda",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Esav",
+   "Hilka (Hillel)"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "parsha",
+   "tanach"
+  ],
+  "midos": [
+   "bitachon",
+   "anavah"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [
+   "vayishlach"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 32:8",
+    "note": "'Vayira Yaakov me'od': Yaakov was very afraid."
+   },
+   {
+    "work": "midrash",
+    "note": "Yaakov feared a sin might cancel Hashem's promise."
+   },
+   {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "By Rabbeinu Bachya: Hashem helps the deserving and the undeserving."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 484,
+   "type": "talk",
+   "title": "Why Yaakov was afraid, and why we need not be",
+   "people": [
+    "yaakov_avinu",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 484,
+   "end_sec": 520,
+   "type": "story_intro",
+   "title": "The story of Hilka begins (cut off)"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "The teaching is complete, but the file ends right as the story of Hillel ('Hilka') begins. No opening song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "There's something very interesting about Parshat Vayishlach.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Cut off at the start of a story about 'Hilka'; the full recording may exist elsewhere.",
+   "No opening song; series and narrator assigned from voice and format. Confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:37Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Bitachon%20for%20Everyone%20-%20Why%20Yaakov%20Was%20Afraid.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Bitachon for Everyone - Why Yaakov Was Afraid.mp3",
+  "size_bytes": 6247581,
+  "mime_type": "audio/mpeg"
+ }
+}

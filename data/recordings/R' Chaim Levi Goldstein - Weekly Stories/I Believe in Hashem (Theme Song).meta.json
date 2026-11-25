@@ -1,0 +1,122 @@
+{
+ "id": "a45cd82288",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "I Belive in Hashem",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/I Believe in Hashem (Theme Song).mp3",
+  "duration_sec": 40.192,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "I Believe in Hashem (Theme Song)",
+  "title_basis": "filename",
+  "summary_short": "The short song 'I believe in Hashem, I trust in Hashem' that opens the weekly story programs.",
+  "summary_long": "This is the short theme song heard at the start of the weekly story programs. Its words: 'I believe in Hashem, I trust in Hashem. There never is a moment that I am alone and on my own. I believe and I trust in Hashem, because I understand that He's holding my hand and every step is perfectly planned. He's holding me tight, so I'll be all right. I believe and I trust in Hashem.' In about forty seconds it sums up emunah and bitachon for young children: Hashem is always with us, guiding every step, so there is nothing to fear. It is a simple song that children can quickly learn and sing along with.",
+  "lesson": "Hashem is always with us and every step is perfectly planned, so we can trust Him.",
+  "keywords": [
+   "theme song",
+   "song",
+   "emunah",
+   "bitachon",
+   "holding my hand"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "song",
+  "story_type": [],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Standalone copy of the theme song that opens the weekly story recordings."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Singer unknown; in 3fecbf9b28 the storyteller says he learned this niggun from another singer."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/I%20Believe%20in%20Hashem%20%28Theme%20Song%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/I Believe in Hashem (Theme Song).mp3",
+  "size_bytes": 483208,
+  "mime_type": "audio/mpeg"
+ }
+}

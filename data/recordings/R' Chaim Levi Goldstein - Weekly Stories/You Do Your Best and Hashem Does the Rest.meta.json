@@ -1,0 +1,267 @@
+{
+ "id": "3c5643fa48",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "You Do Your Best And Hashem Does The Rest",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/You Do Your Best and Hashem Does the Rest.mp3",
+  "duration_sec": 1415.34,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "You Do Your Best and Hashem Does the Rest",
+  "title_basis": "filename",
+  "summary_short": "Lessons in bitachon from Chanukah, and a Chassid who braves a snowstorm to reach the Baal Shem Tov's Melave Malka and is given a ride by a singing wagon driver.",
+  "summary_long": "After the song \"I believe in Hashem\", the storyteller draws the lesson of Chanukah: the few and weak Chashmonaim trusted in Hashem against the many and mighty. He tells how the Rebbe asked a visiting professor to name the greatest miracle in history; the answer is that the Jewish people still exist, thanks to the eternal Torah. Bitachon still means doing our part, like going to a doctor or working for a living, while knowing that the result comes from Hashem. Introducing a story about the Baal Shem Tov's Melave Malka, he explains 'accompanying' a guest, sharing his own childhood memories of watching the Rebbe walk his mother, Rebbetzin Chana, out of 770, and of holding the heavy door of her building open for her. He explains why Melave Malka is Dovid HaMelech's meal. The story: Reb Moshe never misses the Baal Shem Tov's Melave Malka in Mezhibuzh, a short walk through a forest from his town. One Motzaei Shabbos, in a blizzard, he falls into a muddy pit, goes home to change, and sets out again. A pots-and-pans peddler offers him a ride and they sing zemiros together. At the table the Baal Shem Tov asks him to tell everyone what it felt like to sing zemiros with Eliyahu HaNavi.",
+  "lesson": "When you want to do something good and it is hard, try anyway: you do your best, and Hashem does the rest.",
+  "keywords": [
+   "snowstorm",
+   "forest",
+   "muddy pit",
+   "wagon driver",
+   "pots and pans",
+   "zemiros",
+   "greatest miracle",
+   "accompanying a guest",
+   "Mezhibuzh"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Brief mention that Jews were persecuted and driven from country to country throughout history."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rebbetzin_chana",
+    "role": "appears"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "chashmonaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, a Chassid from a nearby town",
+   "a peddler of pots and pans",
+   "a professor from Eretz Yisroel"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "baal_shem_tov_and_students",
+   "shabbos",
+   "the_rebbe"
+  ],
+  "midos": [
+   "bitachon",
+   "hasmadah",
+   "courage",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "melave_malka",
+   "kibbud_av_vaem",
+   "hachnasas_orchim",
+   "chanukah_lights"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Mezhibuzh",
+   "770 Eastern Parkway",
+   "Crown Heights"
+  ],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 20:8",
+    "note": "'Some with chariots, some with horses, but we call in the name of Hashem.'"
+   },
+   {
+    "work": "midrash",
+    "note": "Dovid HaMelech learned Torah all Shabbos and made a thanksgiving meal afterward (Melave Malka)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 390,
+   "type": "talk",
+   "title": "Chanukah and bitachon",
+   "summary": "The Chashmonaim's trust, the Rebbe's riddle about the greatest miracle, and doing our part."
+  },
+  {
+   "start_sec": 390,
+   "end_sec": 470,
+   "type": "story",
+   "title": "The Baal Shem Tov's Melave Malka",
+   "summary": "Reb Moshe never misses the Baal Shem Tov's Melave Malka."
+  },
+  {
+   "start_sec": 470,
+   "end_sec": 930,
+   "type": "talk",
+   "title": "Accompanying: memories of the Rebbe and Rebbetzin Chana",
+   "summary": "What it means to accompany a guest, and why Melave Malka is Dovid HaMelech's meal.",
+   "people": [
+    "the_rebbe",
+    "rebbetzin_chana"
+   ]
+  },
+  {
+   "start_sec": 930,
+   "end_sec": 1350,
+   "type": "story",
+   "title": "The ride through the snowstorm",
+   "people": [
+    "baal_shem_tov",
+    "eliyahu_hanavi"
+   ]
+  },
+  {
+   "start_sec": 1350,
+   "type": "closing",
+   "title": "You do your best and Hashem does the rest"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "8774508349",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Clean Language, and a Blizzard Trip to the Baal Shem Tov's Melave Malka' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a4c62a5281",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Trip to the Baal Shem Tov's Melave Malka' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Narrator shares childhood memories of Crown Heights in Rebbetzin Chana's time (identity clue)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "other",
+    "text": "Two Chassidic women (sisters) named on air as escorting Rebbetzin Chana home from 770: Mrs. Mentlik and Mrs. Katz.",
+    "start_sec": 606
+   },
+   {
+    "kind": "family_detail",
+    "text": "Narrator says he and his brothers took turns holding the door of Rebbetzin Chana's building as children (about age 7-8).",
+    "start_sec": 662
+   }
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator grew up in Crown Heights in the early 1960s or before, with brothers (identity clue for the series narrator).",
+   "Two adult women from the 1960s are named on air (kept in hidden.other_personal; on_air_people would require a minor/health/family flag)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/You%20Do%20Your%20Best%20and%20Hashem%20Does%20the%20Rest.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/You Do Your Best and Hashem Does the Rest.mp3",
+  "size_bytes": 16984873,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "id": "3ca5c29c52",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Self-Control 120",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Learning Leads to Action - Never Lose Your Temper (Ep 120).mp3",
+  "duration_sec": 118.087,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 120,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 120,
+   "story": "The forbidden road #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Learning Leads to Action: Never Lose Your Temper",
+  "title_basis": "content",
+  "summary_short": "A short talk: Torah learning must turn into good deeds and good midos, starting with self-control, because the Sages compare anger to idol worship.",
+  "summary_long": "A two-minute talk from the Tzivos Hashem radio show. Uncle Yossi teaches that although learning Torah is very important, what counts most is action: carrying what we learn into our lives through good character and kindness to others. Quoting the Mishnah that 'not study but action is the main thing', he singles out one of the Sages' most important rules, self-control: always be patient and never lose your temper. The Sages say that a person who becomes angry is like someone who worships idols. In the full broadcast this talk introduced a story about a man whose temper got him into serious trouble.",
+  "lesson": "Turn your learning into action: be patient and never lose your temper.",
+  "keywords": [
+   "anger",
+   "temper",
+   "patience",
+   "good deeds",
+   "idol worship"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 120,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-04-03",
+   "hebrew": "1 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 120 (Rosh Chodesh Nissan 5744); the same talk is also found in episodes 30 and 161."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "character"
+  ],
+  "midos": [
+   "controlling_anger",
+   "savlanus",
+   "self_control"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "1:17",
+    "note": "'Not study but action is the main thing' (quoted)."
+   }
+  ],
+  "places": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "de684a1a44",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "offset_sec": 376,
+   "note": "Episode 120 (filename number); clip = 376-494 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "53cdf327e6",
+   "evidence": "text_overlap",
+   "confidence": 0.77,
+   "note": "Also found in episode 161 (838-956 s)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c17d6b4605",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Also found in episode 30 (494-612 s), aired in 1982."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short; ends just before the story it introduced."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:33Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Learning%20Leads%20to%20Action%20-%20Never%20Lose%20Your%20Temper%20%28Ep%20120%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Learning Leads to Action - Never Lose Your Temper (Ep 120).mp3",
+  "size_bytes": 1418005,
+  "mime_type": "audio/mpeg"
+ }
+}

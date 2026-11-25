@@ -1,0 +1,229 @@
+{
+ "id": "93f9ef4eb9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "chai vekayom",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chai V'Kayam - The Rabbi Who Trusted Only Hashem.mp3",
+  "duration_sec": 1226.762,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chai V'Kayam: The Rabbi Who Trusted Only Hashem",
+  "title_basis": "filename",
+  "summary_short": "For Elul: real teshuvah means trusting that Hashem has erased the past, and a poor rabbi realizes that only Hashem is surely alive, rich and kind.",
+  "summary_long": "In the month of Elul, as Rosh Hashanah approaches, the storyteller explains that teshuvah means returning to our true self, like washing a diamond that never lost its value. The yetzer hara tries to convince us that our teshuvah was not good enough, but when Hashem says a sin is erased, we must trust Him. The Rebbe told a worried young woman to count how many Yom Kippurs had passed, and a car has a huge windshield and only a small mirror for looking back. Then a bitachon story from the time of the Chozeh of Lublin: a poor town rabbi's wife urges him to ask his millionaire brother in Moscow for money to marry off their daughters. He sets out, but returns within moments with three questions: is his brother still alive, still rich, and still generous? Only Hashem is surely all three, so they will trust Him. Two days later a poritz leaves a sack of gold with the rabbi, saying it is his if he does not return in three days. Months later the rabbi asks the Chozeh whether to use it, and the Chozeh greets him with his own words: Hashem lives forever, is always rich and loves to give.",
+  "lesson": "Trust that Hashem forgives completely when we do teshuvah, and rely on Hashem, Who is always alive, always rich and always kind.",
+  "keywords": [
+   "dirty diamond",
+   "windshield",
+   "rearview mirror",
+   "millionaire brother",
+   "Moscow",
+   "three questions",
+   "sack of gold",
+   "poritz",
+   "daughters' weddings",
+   "mezuzah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Month of Elul, before Rosh Hashanah",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'These days in Chodesh Elul, approaching Rosh Hashanah'; year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "chozeh_of_lublin",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the Chozeh of Lublin",
+   "the town rabbi (Reb Yankel)",
+   "Rivkah, his wife",
+   "his brother Dovid in Moscow",
+   "the poritz"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "teshuvah",
+   "chassidic_masters",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "emes"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "mezuzah"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's letter to a young woman worried about her past: so many Yom Kippurs have passed."
+   },
+   {
+    "work": "tehillim",
+    "ref": "51:5",
+    "note": "'V'chatasi negdi samid': my sin is always before me (Dovid HaMelech)."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Teshuvah means returning to one's true self; check mezuzos in Elul."
+   }
+  ],
+  "places": [
+   "Lublin",
+   "Moscow"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 420,
+   "type": "talk",
+   "title": "Teshuvah and trusting Hashem's forgiveness",
+   "calendar": [
+    "elul"
+   ],
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 420,
+   "end_sec": 1223,
+   "type": "story",
+   "title": "The rabbi's three questions"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "569c810057",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem Figures It Out On His Own' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f9544de2aa",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem Chai V'Kayam: The Rav Who Turned Back at the Door' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirate(s)' for poritz and 'Chayze/Kaiser von Lublin' for the Chozeh of Lublin."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "This niggin, I believe and I trust in Hashem, is even more important in these days in Chodesh Elul",
+   "at_sec": 30
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:21Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chai%20V%27Kayam%20-%20The%20Rabbi%20Who%20Trusted%20Only%20Hashem.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chai V'Kayam - The Rabbi Who Trusted Only Hashem.mp3",
+  "size_bytes": 14721909,
+  "mime_type": "audio/mpeg"
+ }
+}

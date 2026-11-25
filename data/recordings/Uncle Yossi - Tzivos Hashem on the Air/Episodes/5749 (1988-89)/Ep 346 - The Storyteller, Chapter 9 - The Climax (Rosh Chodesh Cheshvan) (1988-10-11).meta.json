@@ -1,0 +1,327 @@
+{
+ "id": "5883b47d62",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "346 10-11-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 346 - The Storyteller, Chapter 9 - The Climax (Rosh Chodesh Cheshvan) (1988-10-11).mp3",
+  "duration_sec": 1768.106,
+  "filename_facts": {
+   "episode_number": 346,
+   "date_in_filename": "1988-10-11",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 346,
+   "story": "The storyteller #7 (climax)",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 346: The Storyteller, Chapter 9: The Climax (Rosh Chodesh Cheshvan)",
+  "title_basis": "content",
+  "summary_short": "On Rosh Chodesh Cheshvan, Uncle Yossi recalls the lessons of Tishrei, a seven-year-old leads the Shema, and 'The Storyteller' reaches its surprising final chapter.",
+  "summary_long": "Broadcast on Rosh Chodesh Cheshvan 5749. Uncle Yossi looks back at the month of Tishrei: when the shofar is blown we crown Hashem as King, and the angels turn our words of prayer into diamonds for His crown; on Simchas Torah we dance with the Torah, thankful to be written in the Book of Life. Tishrei's strength must carry us through the whole year with Torah and mitzvos. After the Hakochainik march and a sponsor message comes the final chapter of 'The Storyteller'. The Baal Shem Tov's sign is revealed: the day someone tells Yitzchak the story of how he returned to his people will be the day his teshuvah is complete. The wealthy merchant listening to Rabbi Yehuda turns out to be that very Yitzchak, and the Baal Shem Tov's blessing of wealth for Rabbi Yehuda comes true. In between, a seven-year-old yeshiva boy leads the Shema. Uncle Yossi then shares a memory of his own parents, who taught him to believe in Moshiach and loved Eretz Yisroel, and plays his father's song 'Uvnei Yerushalayim'. The show ends with the new Tzivos Hashem birthday club and Shabbos candle time.",
+  "lesson": "Tishrei's closeness to Hashem should carry us all year, and it is never too late to come back to Hashem, who arranges everything in wondrous ways.",
+  "keywords": [
+   "shofar",
+   "crown",
+   "Simchas Torah",
+   "Book of Life",
+   "storyteller",
+   "wealthy merchant",
+   "sign",
+   "Uvnei Yerushalayim",
+   "birthday club",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 346,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-10-11",
+   "hebrew": "30 Tishrei 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'Today is Rosh Chodesh Cheshvan', and Shabbos candles on 14 October."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 9
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The seven-year-old Shema guest is named in full.",
+    "at_sec": 898
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash and storyteller",
+   "Rabbi Yitzchak, the wealthy merchant",
+   "Rabbi Yehuda's wife"
+  ],
+  "topics": [
+   "calendar",
+   "baal_shem_tov_and_students",
+   "teshuvah",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "simcha",
+   "emunah",
+   "generosity"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "torah_study",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "rosh_hashanah",
+   "shemini_atzeres_simchas_torah",
+   "cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening greeting for Rosh Chodesh Cheshvan"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 442,
+   "type": "talk",
+   "title": "Remembering Tishrei All Year",
+   "summary": "The shofar crowns Hashem as King, Simchas Torah's joy, and carrying Tishrei's strength into the new month.",
+   "calendar": [
+    "rosh_chodesh",
+    "rosh_hashanah",
+    "shemini_atzeres_simchas_torah"
+   ],
+   "linked_items": [
+    "c857948984",
+    "e4290bb182"
+   ]
+  },
+  {
+   "start_sec": 442,
+   "end_sec": 590,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 689,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 689,
+   "end_sec": 869,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 9: The Promised Sign",
+   "summary": "A recap of the story so far, and the Baal Shem Tov prepares to tell Yitzchak his sign.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 9
+  },
+  {
+   "start_sec": 869,
+   "end_sec": 1058,
+   "type": "shema_guest",
+   "title": "Shema with a seven-year-old yeshiva boy in Studio 604"
+  },
+  {
+   "start_sec": 1058,
+   "end_sec": 1350,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 9: The Day Has Come",
+   "summary": "The merchant reveals who he really is, and the Baal Shem Tov's blessings to both men come true.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 9
+  },
+  {
+   "start_sec": 1350,
+   "end_sec": 1454,
+   "type": "talk",
+   "title": "Uncle Yossi Remembers His Parents",
+   "summary": "His parents taught him to believe in Moshiach and loved Eretz Yisroel; his father composed a song to 'Uvnei Yerushalayim'.",
+   "linked_items": [
+    "deeb616357"
+   ]
+  },
+  {
+   "start_sec": 1454,
+   "end_sec": 1618,
+   "type": "song",
+   "title": "Uvnei Yerushalayim",
+   "linked_items": [
+    "deeb616357"
+   ]
+  },
+  {
+   "start_sec": 1618,
+   "end_sec": 1665,
+   "type": "announcement",
+   "title": "Join the Tzivos Hashem Birthday Club"
+  },
+  {
+   "start_sec": 1665,
+   "end_sec": 1690,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1690,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guest named on air (see hidden). Sponsor ad, birthday-club offer and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Alter Ben-Zion Korf",
+    "role": "shema_guest",
+    "group": "yeshiva student, age 7",
+    "start_sec": 869,
+    "end_sec": 1058
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:06:34Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "c857948984",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Tishrei 346' = 48-442 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "deeb616357",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Moshiach 346' = 1356-1618 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "e4290bb182",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Tishrei recap 346' = 50-442 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "b088ce6ac1",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 345 = 'The storyteller #6', 346 = '#7 (climax)'; the recap picks up exactly where episode 345 stopped."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b088ce6ac1",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapters 6 and 7 of 'The Storyteller'."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20346%20-%20The%20Storyteller%2C%20Chapter%209%20-%20The%20Climax%20%28Rosh%20Chodesh%20Cheshvan%29%20%281988-10-11%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 346 - The Storyteller, Chapter 9 - The Climax (Rosh Chodesh Cheshvan) (1988-10-11).mp3",
+  "size_bytes": 21218341,
+  "mime_type": "audio/mpeg"
+ }
+}

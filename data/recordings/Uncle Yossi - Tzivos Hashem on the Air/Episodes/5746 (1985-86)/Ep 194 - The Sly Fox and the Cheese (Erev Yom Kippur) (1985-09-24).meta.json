@@ -1,0 +1,266 @@
+{
+ "id": "1b071e89b1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "194",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 194 - The Sly Fox and the Cheese (Erev Yom Kippur) (1985-09-24).mp3",
+  "duration_sec": 1779.627,
+  "filename_facts": {
+   "episode_number": 194,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 194,
+   "story": "The sly fox and the cheese",
+   "topic": "ערב יום כיפור",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 194: The Sly Fox and the Cheese (Erev Yom Kippur)",
+  "title_basis": "master_catalog",
+  "summary_short": "An Erev Yom Kippur show: candle lighting, the Alter Rebbe's Avinu Malkeinu tune, and the fable of the fox in the well, a lesson in outsmarting the yetzer hara.",
+  "summary_long": "Broadcast on Erev Yom Kippur 5746, just before candle lighting. Uncle Yossi gives the candle time and brachos, explains that on Yom Kippur we turn to Hashem as both our Father and our King, and plays the Alter Rebbe's tune for Avinu Malkeinu. After an announcement of the Tzivos Hashem Sukkos Experience, he tells the fable 'The Hungry Fox and the Barrel of Cheese': a starving fox mistakes the moon's reflection in a well for cheese, lowers himself in a bucket and finds only water, with no way back up. A Beis Rivkah third-grader leads the Shema. Uncle Yossi then teaches that the Torah was given to people, not angels, because we have a yetzer hara that tries to trick us, and that a soldier of Hashem should not argue with it but ignore it. The fable ends as the fox sings happily until a second fox, fooled into thinking there is cheese below, rides down and lifts him out. The yetzer hara is just as sly; our three secret weapons are Torah, davening and tzedakah. The show closes with a note that it will be off for Sukkos and Simchas Torah and back on 15 October.",
+  "lesson": "The yetzer hara is tricky, so don't argue with it; ignore it, and fight it with Torah, davening and tzedakah.",
+  "keywords": [
+   "fox",
+   "well",
+   "bucket",
+   "cheese",
+   "moon reflection",
+   "Avinu Malkeinu",
+   "candle lighting",
+   "yetzer hara",
+   "secret weapons",
+   "angels"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 194,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-09-24",
+   "hebrew": "9 Tishrei 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Erev Yom Kippur'; candle lighting 6:32 in New York; 'back on the air the 15th of October'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Eight-year-old Shema guest named in full, with school and class.",
+    "at_sec": 952
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the hungry fox",
+   "the second fox",
+   "the farmer"
+  ],
+  "topics": [
+   "teshuvah",
+   "calendar",
+   "tzivos_hashem",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "self_control",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "tzedakah",
+   "torah_study",
+   "shabbos_candles",
+   "shema"
+  ],
+  "calendar": [
+   "yom_kippur",
+   "aseres_yemei_teshuvah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 145,
+   "type": "talk",
+   "title": "Erev Yom Kippur: Candle Lighting and Avinu Malkeinu",
+   "summary": "Candle time and brachos, and turning to Hashem as Father and King.",
+   "calendar": [
+    "yom_kippur"
+   ],
+   "linked_items": [
+    "595e996cdf"
+   ]
+  },
+  {
+   "start_sec": 145,
+   "end_sec": 269,
+   "type": "song",
+   "title": "The Alter Rebbe's Avinu Malkeinu tune"
+  },
+  {
+   "start_sec": 269,
+   "end_sec": 448,
+   "type": "announcement",
+   "title": "Tzivos Hashem Sukkos Experience"
+  },
+  {
+   "start_sec": 448,
+   "end_sec": 922,
+   "type": "story",
+   "title": "The Hungry Fox and the Barrel of Cheese, Part 1",
+   "summary": "A starving fox mistakes the moon's reflection for cheese and ends up stuck at the bottom of a well."
+  },
+  {
+   "start_sec": 922,
+   "end_sec": 1117,
+   "type": "shema_guest",
+   "title": "Shema with a third-grader from Beis Rivkah"
+  },
+  {
+   "start_sec": 1117,
+   "end_sec": 1310,
+   "type": "talk",
+   "title": "Why the Torah Was Given to People, Not Angels",
+   "summary": "We have a yetzer hara that tries to trick us; a soldier of Hashem stays alert and ignores it."
+  },
+  {
+   "start_sec": 1310,
+   "end_sec": 1512,
+   "type": "story",
+   "title": "The Hungry Fox and the Barrel of Cheese, Part 2",
+   "summary": "The fox tricks a second fox into the well and escapes."
+  },
+  {
+   "start_sec": 1512,
+   "end_sec": 1716,
+   "type": "talk",
+   "title": "Three Secret Weapons: Torah, Davening and Tzedakah",
+   "summary": "How to weaken the yetzer hara, and putting extra coins in the pushka before Shabbos candles."
+  },
+  {
+   "start_sec": 1716,
+   "end_sec": 1745,
+   "type": "announcement",
+   "title": "Off the air for Sukkos and Simchas Torah"
+  },
+  {
+   "start_sec": 1745,
+   "type": "closing",
+   "title": "Candle time reminder and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "595e996cdf",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Yom Kippur 194' = 4-143 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c56c8ad235",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The yetzer hara teaching (about 1117-1700 s) matches 'Fighting the Yetzer Hara 117' word for word."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No Hakochainik march this week (a niggun instead). Candle time, Sukkos fair and schedule are 1985-specific. Yetzer hara talk appears to be reused from episode 117."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shterna Sarah Shwey",
+    "role": "shema_guest",
+    "group": "Beis Rivkah, Kitah Gimmel; age 8",
+    "start_sec": 952,
+    "end_sec": 1117
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:44Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20194%20-%20The%20Sly%20Fox%20and%20the%20Cheese%20%28Erev%20Yom%20Kippur%29%20%281985-09-24%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 194 - The Sly Fox and the Cheese (Erev Yom Kippur) (1985-09-24).mp3",
+  "size_bytes": 21356572,
+  "mime_type": "audio/mpeg"
+ }
+}

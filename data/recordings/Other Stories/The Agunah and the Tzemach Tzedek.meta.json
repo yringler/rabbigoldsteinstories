@@ -1,0 +1,156 @@
+{
+ "id": "92ce45332c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Agunah",
+  "audio_path": "audio/Other Stories/The Agunah and the Tzemach Tzedek.mp3",
+  "duration_sec": 617.938,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Agunah and the Tzemach Tzedek",
+  "title_basis": "filename",
+  "summary_short": "An agunah in Kherson claims a drowned stranger is her missing husband, and the Tzemach Tzedek's puzzling one-line answer turns out to be exactly right.",
+  "summary_long": "A shochet in Kherson, a Chassid of the Tzemach Tzedek, and his wife give work to a poor neighbor whose husband vanished long ago, leaving her an agunah who cannot remarry. One day she says that a man pulled drowned from the river is her missing husband, and she describes birthmarks that are indeed found on the body. The Rav of Kherson, though not a Chassid, feels the question is too serious to decide alone and asks the shochet, who is going to Lubavitch for Shavuos, to bring it to the Tzemach Tzedek. Through his son, Rabbi Yisroel Noach, the Tzemach Tzedek answers only that she is attaching her husband to a dead soldier. The puzzled Rav waits before ruling. Later the woman falls gravely ill and tearfully confesses to the Rav and the shochet that the soldier was a stranger whose marks she had seen at the river. They reassure her that Hashem forgives sincere teshuvah, the Rav understands the Tzemach Tzedek's Ruach HaKodesh, and the woman recovers and returns to her friends.",
+  "lesson": "A tzaddik sees the truth with Ruach HaKodesh, and honest teshuvah lifts a heavy heart.",
+  "keywords": [
+   "Kherson",
+   "shochet",
+   "drowned soldier",
+   "river",
+   "birthmarks",
+   "Rav",
+   "Lubavitch",
+   "confession",
+   "hospital"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 9,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A poor, lonely woman is an agunah; her husband has disappeared."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A drowned soldier is pulled from the river."
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The woman becomes gravely ill and fears she will die, then recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the agunah",
+   "the shochet of Kherson",
+   "the shochet's wife",
+   "the Rav of Kherson",
+   "Rabbi Yisroel Noach, son of the Tzemach Tzedek"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "teshuvah",
+   "miracles"
+  ],
+  "midos": [
+   "emes",
+   "chesed"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "bikur_cholim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Kherson",
+   "Lubavitch"
+  ]
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; narrator reads the title and goes straight into the story."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator not identified; no opening song. Possibly the weekly storyteller, but not clear enough to assign."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Agunah%20and%20the%20Tzemach%20Tzedek.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Agunah and the Tzemach Tzedek.mp3",
+  "size_bytes": 7416189,
+  "mime_type": "audio/mpeg"
+ }
+}

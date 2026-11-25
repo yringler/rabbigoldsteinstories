@@ -1,0 +1,182 @@
+{
+ "id": "e0589a9a8e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Lecha 450",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Lech Lecha - Avraham Avinu's Army of One (Ep 450).mp3",
+  "duration_sec": 476.937,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 450,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 450,
+   "story": "The strange gift",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Lech Lecha: Avraham Avinu's Army of One",
+  "title_basis": "content",
+  "summary_short": "Avraham Avinu rescues Lot from five powerful kings with only Eliezer at his side. Rashi's secret of the 318 soldiers teaches that with Hashem we need no great army.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show, given at the start of 5751, the year of wonders. Uncle Yossi tells how, in Parshas Lech Lecha, Avraham Avinu heard that his nephew Lot had been captured in the war of the kings and went out to fight five powerful kings with only his faithful servant Eliezer. The Torah speaks of 318 soldiers, but Rashi explains that 318 is the numerical value of the name Eliezer, which means 'my G-d is my help'. As Tehillim says, some trust in chariots and horses, but we mention the name of Hashem. The Torah is a lesson for today: in every generation enemies rise against the Jewish people and Hashem saves us. Children in Tzivos Hashem are encouraged to listen carefully to the parsha in shul this Shabbos, bring friends and relatives along, and look forward to the greatest miracle of all, the coming of Moshiach.",
+  "lesson": "With firm trust in Hashem we do not need to count soldiers or weapons; Hashem is the One who helps us.",
+  "keywords": [
+   "Eliezer",
+   "318 soldiers",
+   "gematria",
+   "war of the kings",
+   "Lot",
+   "chariots and horses",
+   "year of wonders"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 450,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-10-23",
+   "hebrew": "4 Cheshvan 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'This week's sedra, Lech Lecha' at the start of the year Nun Aleph (5751); same date as episode 450."
+  },
+  "collections": [
+   "Parsha of the Week"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Eliezer, Avraham's servant",
+   "Lot"
+  ],
+  "topics": [
+   "parsha",
+   "emunah_bitachon",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "courage"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "lech_lecha"
+  ],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 14:14",
+    "note": "The 318 men are Eliezer, whose name has the numerical value 318."
+   },
+   {
+    "work": "tehillim",
+    "ref": "20:8",
+    "note": "'Some with chariots and some with horses, but we mention the name of Hashem.'"
+   },
+   {
+    "work": "haggadah",
+    "ref": "Vehi She'amdah",
+    "note": "In every generation they rise against us, and Hashem saves us."
+   },
+   {
+    "work": "midrash",
+    "note": "Avraham Avinu's life was spared through many miracles."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8e84116b01",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 50,
+   "note": "Episode 450 (filename number); clip = 50-527 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the parsha talk from episode 450."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Lech%20Lecha%20-%20Avraham%20Avinu%27s%20Army%20of%20One%20%28Ep%20450%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Lech Lecha - Avraham Avinu's Army of One (Ep 450).mp3",
+  "size_bytes": 5724134,
+  "mime_type": "audio/mpeg"
+ }
+}

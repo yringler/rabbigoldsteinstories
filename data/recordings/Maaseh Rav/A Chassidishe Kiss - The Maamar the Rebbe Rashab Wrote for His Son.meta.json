@@ -1,0 +1,179 @@
+{
+ "id": "7666632281",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Maaseh Rav",
+  "filename_title": "נשיקה חסידית",
+  "audio_path": "audio/Maaseh Rav/A Chassidishe Kiss - The Maamar the Rebbe Rashab Wrote for His Son.mp3",
+  "duration_sec": 738.9,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language guessed from Hebrew-script name (could be Hebrew)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Chassidishe Kiss: The Maamar the Rebbe Rashab Wrote for His Son",
+  "title_he": "נשיקה חסידית",
+  "title_translit": "Neshikah Chassidis",
+  "title_basis": "filename",
+  "summary_short": "The Frierdiker Rebbe tells how, at twelve, his father gave him a handwritten maamar as 'a Chassidishe kiss', and the secret of how it came to be written.",
+  "summary_long": "In his own words, the Frierdiker Rebbe recalls a maamar, Mah Rabu Maasecha Hashem, that his father, the Rebbe Rashab, wrote in 5644 (1884), when the boy was about three and a half. Eight years later, at the wedding of his aunt in Elul 5652, the Rebbe Rashab farbrenged and said Chassidus for days. Twelve-year-old Yosef Yitzchak came to every farbrengen and stood all Motzaei Shabbos by the table listening to the maamar Kol HaNehene, even though he did not understand it. Before Mincha on Sunday his father gave him the handwritten maamar, calling it something that comes from 'a Chassidishe kiss', and learned it with him five times between Selichos and Sukkos. Four years later, on a summer walk, his father revealed the secret. During repairs to their home the family had stayed in two rooms at the house of Rebbetzin Rivkah. One winter night, while the Rebbe Rashab learned with Rabbi Yaakov Mordechai of Poltava beside the sleeping child, the Chassid remarked on the child's pure, radiant face. The Rebbe Rashab wanted to kiss him, but instead exchanged the kiss for something lasting, like a gift for the Beis HaMikdash, and wrote him the maamar. The lesson: learning Chassidus is our own 'kiss' from the Rebbe, and it brings closer the time when Hashem reveals the Torah's secrets.",
+  "lesson": "When we learn Chassidus, a maamar, a sichah or a story of the Rebbe, we receive a 'Chassidishe kiss', and learning Chassidus now hastens the Geulah.",
+  "keywords": [
+   "kiss",
+   "maamar",
+   "handwritten gift",
+   "wedding",
+   "farbrengen",
+   "Motzaei Shabbos",
+   "Shir HaShirim",
+   "secrets of the Torah",
+   "grandmother's house"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Maaseh Rav"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "maaseh_rav",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_yaakov_mordechai_of_poltava",
+    "role": "appears"
+   },
+   {
+    "id": "rebbetzin_rivkah",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbetzin_shterna_sarah",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Frierdiker Rebbe's aunt, Rebbetzin Chaya Mushka",
+   "Rabbi Moshe HaKohen Horenstein, the chassan"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidus_tanya",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "hasmadah",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The Frierdiker Rebbe's own account."
+   },
+   {
+    "work": "maamarim",
+    "ref": "Mah Rabu Maasecha Hashem 5644; Kol HaNehene 5652",
+    "note": "The maamarim named in the story."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 104:24",
+    "note": "Source of the maamar's opening words, Mah Rabu Maasecha Hashem."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Spoken in English despite the Hebrew filename. Ends citing Shir HaShirim 1:2 with Rashi (no work id for Shir HaShirim)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: Maaseh Rav narrator (DECISIONS 3); fa63d3c763 in this folder is the same recording as 32ef7d25e6, which opens with his 'I Believe' song"
+  ]
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Maaseh%20Rav/A%20Chassidishe%20Kiss%20-%20The%20Maamar%20the%20Rebbe%20Rashab%20Wrote%20for%20His%20Son.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Maaseh Rav/A Chassidishe Kiss - The Maamar the Rebbe Rashab Wrote for His Son.mp3",
+  "size_bytes": 8867581,
+  "mime_type": "audio/mpeg"
+ }
+}

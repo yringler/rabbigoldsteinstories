@@ -1,0 +1,13 @@
+{
+ "batch_id": "b035",
+ "done": ["a1fccff69a","d4aa9de077","f1f91fc657","dbabe9e10c","c76133006f","c36bb411f3","0477e253d6","a0bfb40767","1ede044c5a","134d36d846","e32dd9e11b","8bbf7a6519","fa4dab2aff","db5b964a5d","e17ac37c8e","7b70f3b3d4","5d9138a16d","9c50adfbc5","2dbb259164","24edcb5508"],
+ "failed": [],
+ "notes": [
+  "Resumed run: 19 items were already DONE; 2dbb259164 was INVALID only because a segment carried a 'parshiyos' key (not allowed in segments). Removed it; item now valid.",
+  "a1fccff69a (ep 441): master catalog story 'The sly fox and the cheese' does not match the story heard (farmer boy and the bugle). Possible catalog row mismatch.",
+  "d4aa9de077 filed as 'Chai Elul' but is about the whole month of Elul; fa4dab2aff filed as 'Vov Tishrei' covers only Rebbetzin Chana, not the Shpoler Zeide story.",
+  "Episodes 443-445 are chapters 1-3 of 'The Strange Beggar' (continues relations set).",
+  "e17ac37c8e (ep 447): story is a rebroadcast from episode 398; 7b70f3b3d4 is the same talk as 'Sukkos 398' (alternate_take 34122f43d5) - pass 2 may pick one copy.",
+  "Episode 449 dated by calendar cues: Parshas Noach with Shabbos Rosh Chodesh Cheshvan 5751, so Tuesday 1990-10-16, two weeks later than the weekly estimate (suggests breaks around the Yomim Tovim)."
+ ]
+}

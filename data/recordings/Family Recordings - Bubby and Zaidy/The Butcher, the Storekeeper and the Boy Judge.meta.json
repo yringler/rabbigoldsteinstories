@@ -1,0 +1,192 @@
+{
+ "id": "aae4e91c38",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Yiddish stories/Bubby Chaya Malka etc",
+  "filename_title": "Butcher and the Tailor",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/The Butcher, the Storekeeper and the Boy Judge.mp3",
+  "duration_sec": 694.439,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "The Butcher, the Storekeeper and the Boy Judge",
+  "title_basis": "content",
+  "summary_short": "A Yiddish story told by a grandmother: a Jewish storekeeper is falsely accused of theft, and a clever schoolboy's test with hot water proves the truth.",
+  "summary_long": "Told in Yiddish by a grandmother to her grandchildren. A hard-working Jewish storekeeper sells tablecloths and handkerchiefs in honor of Shabbos. His non-Jewish neighbor, a butcher, watches him count his money through a crack in the wall, then calls the police and claims the Jew stole it. The Jew is jailed, the whole town talks of the trial, and the Jews say Tehillim. The night before the trial, the judge, who cannot believe the Jew is a thief, walks through the Jewish street in disguise and overhears cheder boys playing 'the trial'. The boy playing the judge asks each side about his trade: a storekeeper's money is clean, a butcher's hands are always greasy. Put the money in hot water and see. In court the judge calls for the boy, the coins are dropped in hot water, and fat floats up. The butcher is exposed as a liar and the Jew goes home free. The boy grew up to be a great rabbi.",
+  "lesson": "Hashem helps the innocent, and even a child's wisdom can bring out the truth.",
+  "keywords": [
+   "false accusation",
+   "trial",
+   "judge in disguise",
+   "hot water",
+   "greasy coins",
+   "cheder boys",
+   "dry goods store"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Yiddish",
+   "Yiddish stories",
+   "Bubby Chaya Malka"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A Jew is falsely accused and jailed; a mob comes to the trial with axes, knives and torches, ready to attack the Jews.",
+    "at_sec": 439
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Excerpt of a grandmother's home recording for her grandchildren; no names in this excerpt."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the Jewish storekeeper",
+   "the butcher",
+   "the judge",
+   "a cheder boy named Gurary"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "jewish_history"
+  ],
+  "midos": [
+   "emes",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.91,
+   "note": "Excerpt of 'Bubby Chaya Malka yiddish stories' (audio fingerprint)."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "a06fb5b0d9",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.91,
+   "note": "Excerpt of 'Bubby Chaya Malka 1' (audio fingerprint)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "09dddba098",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 427: A Judge for a Day, Chapter 1' (episode 427, 14:00-22:46), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "3f74202549",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 379: Judge for a Day, Chapter 1' (episode 379, 14:46-23:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "d0a966e65b",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Same story, another telling: 'Episode 276: Judge for a Day, Chapter 1' (episode 276, 14:18-23:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "d89547e51a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 521: A Judge for a Day, Chapter 1' (episode 521, 14:53-23:45), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 32:00-42:20), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "American Yiddish with English loanwords (judge, trial, dry goods). Ends with a wish for a kosher Pesach, so it was probably told before Pesach. Filename says 'tailor' but the storekeeper sells dry goods."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5 (dry run)",
+  "filled_at": "2026-11-25T13:41:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "The boy 'Gurary' who 'became a great rabbi' is not identified; possibly a Gurary family ancestor."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/The%20Butcher%2C%20the%20Storekeeper%20and%20the%20Boy%20Judge.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/The Butcher, the Storekeeper and the Boy Judge.mp3",
+  "size_bytes": 8334138,
+  "mime_type": "audio/mpeg"
+ }
+}

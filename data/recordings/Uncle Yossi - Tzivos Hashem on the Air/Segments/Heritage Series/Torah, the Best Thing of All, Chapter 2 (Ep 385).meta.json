@@ -1,0 +1,220 @@
+{
+ "id": "baf69ae3d7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Akiva Torah ship 10m 44s",
+  "filename_title": "05 Torah the Best thing of all -3 385",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Torah, the Best Thing of All, Chapter 2 (Ep 385).mp3",
+  "duration_sec": 244.731,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 385,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 385,
+   "story": "Torah, the best thing of all #2",
+   "topic": "י\"ב תמוז",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Torah, the Best Thing of All, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "Pirates attack the ship and seize the merchants' riches, but Rabbi Akiva's treasure, his Torah, cannot be taken; the humbled merchants ask him to be their teacher.",
+  "summary_long": "The second and final chapter of the story. Rabbi Akiva is studying Torah alone in his cabin when the captain cries that the ship is under attack. A band of pirates boards, lines the passengers up on deck under threat, and carries off all the merchants' precious goods while they watch helplessly. Only Rabbi Akiva looks calm. When the pirate leader asks whether it bothers him to be penniless, Rabbi Akiva explains that his possession is not gold or jewels but the Torah he has learned, which Dovid HaMelech called more precious than gold and silver and which can never be stolen. He even offers to share it by teaching the pirate. After the pirates leave, the merchants apologize for laughing at him, and many ask Rabbi Akiva to become their teacher so they too can own the most precious gift of all.",
+  "lesson": "Torah is the most precious possession; it stays with you no matter what.",
+  "keywords": [
+   "pirates",
+   "ship",
+   "merchants",
+   "treasure",
+   "cabin",
+   "teacher"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 385,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1989-07-11",
+   "hebrew": "8 Tammuz 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 385 (07-11-89). Also aired in episodes 152, 281 and 440."
+  },
+  "serial": {
+   "story_key": "torah-the-best-thing-of-all",
+   "story_title": "Torah, the Best Thing of All",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Pirates board the ship and threaten the passengers while looting.",
+    "at_sec": 20
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the merchants",
+   "the pirate leader",
+   "the ship's captain"
+  ],
+  "topics": [
+   "sages",
+   "torah_study"
+  ],
+  "midos": [
+   "bitachon",
+   "contentment",
+   "forgiveness"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "119:72",
+    "note": "Torah is worth more than gold and silver."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts directly in the story; listen after chapter 1 (file 03) or the recap (file 04)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:08:57Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4ede6df733",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "Also aired in episode 281."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b446975e89",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "Also aired in episode 440."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "ddb57dd689",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 152."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "c7e1d15aed",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 936,
+   "note": "Episode 385 (filename number); clip = 936-1180 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "64ad199817",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Catalog 385 = 'Torah, the best thing of all #2'; continues chapter 1 (file 03, episode 384)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "4fb0ef7ea4",
+   "evidence": "filename",
+   "confidence": 0.9,
+   "note": "Same Heritage folder: file 04 is the recap aired just before this chapter."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "64ad199817",
+   "evidence": "filename",
+   "confidence": 0.9,
+   "note": "Reverse of the existing part_of_set from 64ad199817 (symmetric relation)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Torah%2C%20the%20Best%20Thing%20of%20All%2C%20Chapter%202%20%28Ep%20385%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Torah, the Best Thing of All, Chapter 2 (Ep 385).mp3",
+  "size_bytes": 2937736,
+  "mime_type": "audio/mpeg"
+ }
+}

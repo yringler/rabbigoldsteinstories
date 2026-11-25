@@ -1,0 +1,139 @@
+{
+ "id": "d4fdf9e355",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "Erev P morn - Bechorim",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/Erev Pesach Morning - The Fast of the Firstborn and the Siyum.mp3",
+  "duration_sec": 95.876,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Erev Pesach Morning: The Fast of the Firstborn and the Siyum",
+  "title_basis": "content",
+  "summary_short": "A short Yiddish lesson for children on Erev Pesach morning: the fast of the firstborn, a father fasting for a young son, and eating at a siyum in shul.",
+  "summary_long": "Told in Yiddish for children. On Erev Pesach morning one wakes up, says Modeh Ani, washes negel vasser, gets dressed, davens and eats breakfast. Erev Pesach is a fast day for every firstborn. The Shulchan Aruch says that a firstborn boy who is still young does not fast; his father fasts in his place. The custom is to find a seudas mitzvah, a meal in honor of a mitzvah, because whoever takes part in one may eat. On Erev Pesach morning people make a siyum in shul when they finish learning a whole tractate of Gemara, and many firstborns come to hear the final words of the Gemara so that they can then eat. The recording ends abruptly at this point.",
+  "lesson": "Firstborns fast on Erev Pesach, and joining a siyum on a tractate of Gemara lets them take part in a seudas mitzvah.",
+  "keywords": [
+   "firstborn",
+   "fast",
+   "siyum",
+   "Gemara",
+   "shul",
+   "breakfast",
+   "seudas mitzvah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "talk",
+  "story_type": [],
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "933079e352",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Same teaching in 'hg1a' at about 16:50-19:25; that version is fuller (adds why the father may wish to eat), this one is trimmed."
+  }
+ ],
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "calendar"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "erev_pesach",
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "ref": "fast of the firstborn"
+   }
+  ]
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short excerpt; ends right after explaining the siyum, without the closing line heard in the fuller 'hg1a' version."
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:21Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Speaker not named in the recording."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/Erev%20Pesach%20Morning%20-%20The%20Fast%20of%20the%20Firstborn%20and%20the%20Siyum.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/Erev Pesach Morning - The Fast of the Firstborn and the Siyum.mp3",
+  "size_bytes": 1151578,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "cbefd2fcab",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Havdalah 276",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Mitzvah Time - Havdalah, Saying Goodbye to Shabbos (Ep 276).mp3",
+  "duration_sec": 245.249,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 276,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 276,
+   "story": "Judge For A Day #1",
+   "topic": "Tikkun HaMidos, / Havdalah, Achdus",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mitzvah Time: Havdalah, Saying Goodbye to Shabbos",
+  "title_basis": "content",
+  "summary_short": "Mitzvah Time introduces Havdalah: what the word means, when we make it, and the four things in a Havdalah kit.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show. Having learned how we welcome Shabbos by lighting candles, children now learn how we bid Shabbos farewell with Havdalah. The word means separation: Havdalah separates the holy day of Shabbos from the ordinary weekdays. Just as candles are lit no later than eighteen minutes before sunset, Havdalah has its own time, after the stars appear on Saturday night, and a Jewish calendar gives the exact times; Uncle Yossi gives the times for that week as an example. Then he introduces the Havdalah kit: a bottle of wine and a cup, as for Kiddush, a box of fragrant spices (besamim), and a Havdalah candle with several wicks, at least two, unlike a Shabbos candle with one.",
+  "lesson": "We honor Shabbos at its end too, separating it from the week with Havdalah at the right time.",
+  "keywords": [
+   "Havdalah kit",
+   "wine",
+   "cup",
+   "spices",
+   "besamim",
+   "braided candle",
+   "stars",
+   "Jewish calendar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 276,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-05-19",
+   "hebrew": "20 Iyar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cut from episode 276 (05-19-87); gives the times for 'this coming Friday, May 22, 1987'. Also re-aired in episodes 379 and 427."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "halachah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "havdalah",
+   "shabbos",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Gives candle-lighting (7:54) and Havdalah (9:01) times for May 22, 1987 as an example. Part 1 of the Havdalah lessons; continued in 'Havdalah-2 280'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:01Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "09dddba098",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 427."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3f74202549",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 379."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "d0a966e65b",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 1409,
+   "note": "Episode 276 (filename number); clip = 1409-1654 s of the episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "542cf9e061",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Mitzvah Time Havdalah series: this is the first lesson; 'Havdalah-2 280' continues with the besamim."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "7c429e4277",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Mitzvah%20Time%20-%20Havdalah%2C%20Saying%20Goodbye%20to%20Shabbos%20%28Ep%20276%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Mitzvah Time - Havdalah, Saying Goodbye to Shabbos (Ep 276).mp3",
+  "size_bytes": 2943974,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "1cd7878c66",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Burried Treasure",
+  "audio_path": "audio/Other Stories/The Buried Treasure.mp3",
+  "duration_sec": 727.018,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Buried Treasure",
+  "title_basis": "filename",
+  "summary_short": "A clever wandering beggar bets he can become the Shabbos guest of the town's stingiest rich man, and uncovers a treasure hidden in the rich man's own heart.",
+  "summary_long": "A poor wanderer named Shmerl joins the beggars of a small town, who share their collections and set aside maaser for those even poorer. When they skip the grandest house because its owner is the meanest man in town, Shmerl bets that he will be that man's Shabbos guest. He asks his friends to whisper around town that the visiting beggar found a precious jewel buried in a forest. The rumor spreads, the beggars are treated more generously, and just before Shabbos the rich man, hoping to buy the jewel, welcomes Shmerl, dresses him in fine clothes and seats him beside him in shul. Over Shabbos the learned guest speaks of Torah, the good nature of every Jew and the mitzvah of tzedakah, and the rich man feels a warmth he cannot explain and pledges tzedakah to the shul. After Havdalah he asks to see the jewel, and Shmerl explains that the treasure he found was the rich man's own warm Jewish heart. Grateful, the rich man becomes a new person and calls it the best deal he ever made.",
+  "lesson": "Every Jew has a precious treasure of goodness hidden in his heart; it only needs to be uncovered.",
+  "keywords": [
+   "beggars",
+   "rich miser",
+   "diamond",
+   "rumor",
+   "Shabbos guest",
+   "Havdalah",
+   "maaser",
+   "warm heart"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Shmerl, the visiting beggar",
+   "the town's beggars",
+   "the rich man",
+   "the rich man's maid"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "character",
+   "shabbos"
+  ],
+  "midos": [
+   "generosity",
+   "ahavas_yisroel",
+   "dan_lkaf_zchus"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_orchim",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud style; narrator reads the title and begins, no opening song. Filename misspells 'Buried'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator not identified; same read-aloud style as 'The Agunah' (92ce45332c) and 'the ban on shalach manos' (e351e6a1a6)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Buried%20Treasure.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Buried Treasure.mp3",
+  "size_bytes": 8725247,
+  "mime_type": "audio/mpeg"
+ }
+}

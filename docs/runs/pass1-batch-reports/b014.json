@@ -1,0 +1,35 @@
+{
+ "batch_id": "b014",
+ "done": [
+  "6475c5455b",
+  "0f22df3f8d",
+  "61dd385c6d",
+  "15211a2565",
+  "c542fdaf23",
+  "ea3bc56c0e",
+  "dc751c1a80",
+  "59b148e6e8",
+  "08d76faab6",
+  "5224928545",
+  "59eebafc60",
+  "1a6b27f138",
+  "e1ee3b60ec",
+  "5186e42f0d",
+  "db798251a1",
+  "32e12e850b"
+ ],
+ "failed": [],
+ "notes": [
+  "Episode 224 (6475c5455b, dated 1986-05-06) is almost entirely a rebroadcast of episode 122 (5f2fe46249): same opening, talks, story and the same Shema guest, with near-identical timings; only the sponsor and contest update after about 1631 s are new. Relation aired_again_in -> 5f2fe46249 added. Decide whether both copies should be published.",
+  "'Sefira 224' (0f22df3f8d) is an edited clip: episode 224 30-374 s joined to the Pirkei Avos talk at about 1474-1631 s. The required relation note '30-558 s' does not describe the real span; linked_items on the episode point to both parts.",
+  "'Ahavas Yisroel 224' (61dd385c6d) and 'Ahavas Yisroel 122' (a5f42127fc) are the same talk, and since 224 rebroadcasts 122 they may be the same audio; marked alternate_take, pass 2 should pick one.",
+  "Story re-airs: King David's Grave in episode 228 also aired in episode 32 (387570c950); The Stolen Purse in episode 231 also aired in episode 550 (ab6f22d096).",
+  "'Shavuos 229' (5186e42f0d) refers back to the calculator lesson in 'Lag B'Omer 227' (5224928545); worth showing them together.",
+  "Episode 230 filename date 06-16-86 is a Monday, while 224-229 and 264 are Tuesdays; the date may be off by one day.",
+  "Episode 231 has no date in the filename; dated 1986-06-24 (17 Sivan 5746, precision week) from exact weekly spacing between 230 and 264 plus the 'summer vacation is coming' cue.",
+  "Episode 231 catalog row: visitors_PRIVATE 'Fradkin Mangel' does not match the guest heard on air; the topic column 'a- west' seems to hold the guest's surname. Catalog says 229 has no visitor names, but a guest is named on air.",
+  "Episodes 226-231 read long lists of contest entrants' names (all recorded in hidden); the Sefer Torah contest and the children's Sefer Torah letter campaign run through these weeks.",
+  "Timestamp gaps that may be untranscribed music or edits: 227 at about 20:40-23:20 (inside the sponsor message), 229 a repeated passage at about 11:40-12:55, 230 several 30-50 s gaps.",
+  "Resume run: 'Ahavas Yisroel 224' (61dd385c6d) was INVALID because facts were regenerated after it was written (required relations changed: 0615c36a34 now audio_fingerprint 0.99, new aired_again_in -> 276c6bf981 for episode 486). Relations replaced with the current required set; other fields unchanged."
+ ]
+}

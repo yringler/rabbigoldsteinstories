@@ -1,0 +1,161 @@
+{
+ "id": "e9310309cd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "the mystery guest",
+  "audio_path": "audio/Other Stories/The Mystery Guest.mp3",
+  "duration_sec": 908.854,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Mystery Guest",
+  "title_basis": "filename",
+  "summary_short": "A generous host welcomes a poor latecomer to his Seder and tells how robbers once spared him for his tallis and tefillin. After Pesach the guest vanishes, leaving a surprise.",
+  "summary_long": "Baruch, a wealthy and generous Jew in Poland, loves nothing more than a house full of guests for Pesach. One year his sons find two travelers, and just as the Seder begins a poor beggar knocks at the door. Baruch welcomes him warmly, waits while he slowly davens, seats him beside himself and gently shows him how to arrange his Seder plate. After the meal Baruch tells of a miracle from that winter. Lost in a snowstorm in the forest, he and his coachman found shelter in a hut that turned out to be a robbers' den. The robbers tied them up and took his money, gold watch and fur coat, and wanted to throw his tallis and tefillin into the fire, but their chief stopped them. At dawn Baruch begged to put on his tefillin one last time and davened with tears. The chief then freed them and told them to run, and Baruch whispered that for a Jew it is never too late. The beggar stays all Pesach. Afterward he is gone, but in the bag he left behind the family finds Baruch's watch and purse: the beggar was the robber chief, who had done teshuvah.",
+  "lesson": "Welcome every guest with warmth, and remember that for a Jew it is never too late to do teshuvah.",
+  "keywords": [
+   "Seder",
+   "beggar",
+   "guests",
+   "snowstorm",
+   "forest",
+   "robbers' den",
+   "tallis and tefillin",
+   "gold watch",
+   "purse"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "Robbers tie up a traveler and his coachman overnight, unsure of their fate."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Lost in a snowstorm with wolves howling; robbers threaten the captives."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The robbers are drunk."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Baruch, a generous merchant",
+   "his family",
+   "the beggar",
+   "the coachman",
+   "the robbers",
+   "the robber chief"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "savlanus"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "seder",
+   "tefillin",
+   "teshuvah"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "note": "'Whoever tells more of the Exodus is praiseworthy.'"
+   }
+  ],
+  "places": [
+   "Poland"
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud telling with no theme song, intro or sign-off; narrator not identified."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unknown: read-aloud style with no song or sign-off; may be the weekly storyteller."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Mystery%20Guest.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Mystery Guest.mp3",
+  "size_bytes": 10907305,
+  "mime_type": "audio/mpeg"
+ }
+}

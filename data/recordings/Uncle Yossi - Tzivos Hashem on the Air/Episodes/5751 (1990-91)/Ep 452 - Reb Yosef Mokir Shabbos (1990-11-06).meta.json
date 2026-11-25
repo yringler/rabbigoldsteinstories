@@ -1,0 +1,298 @@
+{
+ "id": "01bf11df00",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "452",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 452 - Reb Yosef Mokir Shabbos (1990-11-06).mp3",
+  "duration_sec": 1804.765,
+  "filename_facts": {
+   "episode_number": 452,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 452,
+   "story": "Reb Yosef Mokir Shabbos",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 452: Reb Yosef Mokir Shabbos",
+  "title_basis": "master_catalog",
+  "summary_short": "A listener's letter about turning her house into a mitzvah, Shema with two sisters, and the story of Yosef who honored Shabbos and found a diamond inside his Shabbos fish.",
+  "summary_long": "Uncle Yossi dives into his overflowing mailbox and reads a girl's letter about how her family nailed their tzedakah pushka to the wall, turning their home into a mitzvah, as he suggested on last week's show; she wins a gift certificate, and others are invited to write in. After the Hakochainik march, two sisters from Beis Rivkah recite the Shema and everyone gives tzedakah. Story time opens with Vayechulu and the meaning of Shabbos. Reb Yosef Mokir Shabbos buys the biggest fish in the market every week and shares gefilte fish with the town's poor. A selfish rich man is told by a stargazer that his wealth will pass to Yosef, so he turns it all into one diamond sewn into his hat, which the wind blows into the sea. That Friday a fisherman sells Yosef a giant fish for thirteen gold coins, and inside it is the diamond. As the Sages say, whoever spends for Shabbos is repaid by Shabbos. The show ends with candle-lighting time after the clocks were turned back.",
+  "lesson": "Whatever we spend to honor Shabbos, Hashem repays in full, and riches are meant to be shared with others.",
+  "keywords": [
+   "gefilte fish",
+   "fish market",
+   "diamond",
+   "hat",
+   "ferry boat",
+   "stargazer",
+   "rich miser",
+   "tzedakah box",
+   "mailbox",
+   "Studio 604",
+   "clocks turned back"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 452,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-11-06",
+   "hebrew": "18 Cheshvan 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Candle time 4:25 after the clocks were turned back fits Friday 9 November 1990 in New York; follows episode 450 (Lech Lecha, 23 Oct) and 451. The weekly estimate (23 Oct) was two weeks early."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A letter writer and two Shema guests are named in full.",
+    "at_sec": 160
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Yosef Mokir Shabbos",
+   "Yosef's wife",
+   "the selfish rich man",
+   "the stargazer",
+   "the sailor",
+   "the fisherman"
+  ],
+  "topics": [
+   "shabbos",
+   "kindness_and_community",
+   "sages",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "generosity",
+   "simcha",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "tzedakah",
+   "kiddush",
+   "shema"
+  ],
+  "calendar": [
+   "shabbos_weekly"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 2:1-3",
+    "note": "Vayechulu, recited at the start of the story."
+   },
+   {
+    "work": "gemara",
+    "ref": "Shabbos 119a",
+    "note": "'Whoever spends for Shabbos, Shabbos repays him' (cited as 'our wise men')."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 72,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 72,
+   "end_sec": 399,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a home that became a mitzvah",
+   "summary": "A listener describes nailing the family's tzedakah box to the wall and wins a gift certificate."
+  },
+  {
+   "start_sec": 399,
+   "end_sec": 634,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 634,
+   "end_sec": 690,
+   "type": "story_intro",
+   "title": "Story time is coming"
+  },
+  {
+   "start_sec": 690,
+   "end_sec": 800,
+   "type": "shema_guest",
+   "title": "Shema with two sisters from Beis Rivkah"
+  },
+  {
+   "start_sec": 800,
+   "end_sec": 845,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 845,
+   "end_sec": 1622,
+   "type": "story",
+   "title": "Reb Yosef Mokir Shabbos",
+   "summary": "A rich miser's diamond is lost at sea and found inside the giant fish Yosef buys in honor of Shabbos."
+  },
+  {
+   "start_sec": 1622,
+   "end_sec": 1694,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1694,
+   "end_sec": 1712,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0affcab8ab",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The Reb Yosef Mokir Shabbos story (same wording) also aired in episode 482."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "a06fb5b0d9",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby Chaya Malka's Yiddish Stories, Part 1' (Stories, 16:00-20:25), told by Bubby Chaya Malka."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "ed960138a4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Yosef Mokir Shabbos: The Diamond in the Fish' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 8:15-12:15), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content",
+   "trailing_silence"
+  ],
+  "trim": {
+   "content_end_sec": 1712,
+   "note": "Speech ends at about 28:32; the last 90 seconds carry no speech."
+  },
+  "publish_recommendation": "publish",
+  "notes": "Story includes a sung welcome for Reb Yosef (about 17:40-19:25) that is not transcribed. Gift-certificate contest and candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Esty (Esther) Goldman",
+    "role": "mailbox_letter",
+    "group": "Far Rockaway",
+    "start_sec": 160,
+    "end_sec": 399
+   },
+   {
+    "name": "Chaya Leah Shor",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 690,
+    "end_sec": 800
+   },
+   {
+    "name": "Feigi Shor",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 690,
+    "end_sec": 800,
+    "note": "Sister of Chaya Leah; recited Baruch Shem."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20452%20-%20Reb%20Yosef%20Mokir%20Shabbos%20%281990-11-06%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 452 - Reb Yosef Mokir Shabbos (1990-11-06).mp3",
+  "size_bytes": 21658130,
+  "mime_type": "audio/mpeg"
+ }
+}

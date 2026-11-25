@@ -1,0 +1,364 @@
+{
+ "id": "57b4f27b82",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "475",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 475 - The Flickering Flame (Sefiras HaOmer) (1991-04-16).mp3",
+  "duration_sec": 1777.44,
+  "filename_facts": {
+   "episode_number": 475,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 475,
+   "story": "The flickering flame",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 475: The Flickering Flame (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Sefirah show without music: respect for others, the value of each day, a shoemaker's words 'as long as the candle burns, one can still repair,' and Moshe Rabbeinu's humility before Shavuos.",
+  "summary_long": "Broadcast during Sefirah, 5751, without music. Uncle Yossi explains that we avoid music now because Rabbi Akiva's students died in a plague for not showing respect to one another, so these are days to honor parents, teachers and friends, look for the good in others and pursue peace. Counting the Omer teaches that each day must be better than the one before, and that time is a precious gift never to be wasted. A young yeshiva student recites the Shema and everyone gives tzedakah. Story time tells of Rabbi Yisroel, stranded in a snowstorm, who finds a light in a shoemaker's window late at night. The old man explains he poured too much oil into his lamp, and 'as long as the light still burns, one can still repair.' Rabbi Yisroel hears in this a lesson about teshuvah: as long as a person lives, he can still repair. Before Shavuos, Uncle Yossi teaches that the Torah was given to the humblest of men on the lowest mountain, as the Alter Rebbe explains 'Moshe received the Torah from Sinai.' The show ends with an invitation to sign up friends for Tzivos Hashem and the candle-lighting time.",
+  "lesson": "As long as the candle burns, we can still repair: use every day for Torah, mitzvos and teshuvah, show respect to others, and stay humble like Moshe Rabbeinu.",
+  "keywords": [
+   "no music",
+   "Rabbi Akiva's students",
+   "respect",
+   "value of time",
+   "shoemaker",
+   "oil lamp",
+   "snowstorm",
+   "Har Sinai",
+   "humility",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 475,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-16",
+   "hebrew": "2 Iyar 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Days of Sefirah, before Shavuos; Shabbos candles 7:21 fits Friday 19 April 1991 in New York, one week after episode 474."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Mentions that thousands of Rabbi Akiva's students died in a plague.",
+    "at_sec": 86
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The boy reciting the Shema is named in full with his yeshiva.",
+    "at_sec": 631
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisroel, a great tzaddik",
+   "the old shoemaker",
+   "the coachman"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "character",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "kibbud",
+   "shalom",
+   "zerizus",
+   "anavah",
+   "chesed",
+   "achdus"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "kibbud_av_vaem",
+   "kibbud_zekeinim",
+   "teshuvah",
+   "hachnasas_orchim",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Avos 1:12",
+    "note": "'Love peace and pursue peace.'"
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'So that your days be lengthened', cited from the second part of the Shema."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1",
+    "note": "'Moshe received the Torah from Sinai', as explained by the Alter Rebbe."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 15,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 15,
+   "end_sec": 372,
+   "type": "talk",
+   "title": "Why No Music: Sefirah and Respect for Others",
+   "summary": "Rabbi Akiva's students and the mitzvah of showing respect to parents, teachers and friends.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 372,
+   "end_sec": 605,
+   "type": "talk",
+   "title": "Counting the Days: Time Is a Precious Gift",
+   "summary": "Each day of the count is higher than the last; time is Hashem's gift and must never be wasted.",
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 605,
+   "end_sec": 755,
+   "type": "shema_guest",
+   "title": "Shema with a young yeshiva student"
+  },
+  {
+   "start_sec": 755,
+   "end_sec": 785,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 785,
+   "end_sec": 1172,
+   "type": "story",
+   "title": "The Flickering Flame",
+   "summary": "A shoemaker's overfilled lamp teaches Rabbi Yisroel that as long as we live, we can still repair."
+  },
+  {
+   "start_sec": 1172,
+   "end_sec": 1645,
+   "type": "talk",
+   "title": "Moshe Rabbeinu, Har Sinai and Humility",
+   "summary": "The Torah was given to the humblest man on the lowest mountain; we too must aim higher while staying humble.",
+   "people": [
+    "moshe_rabbeinu",
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 1645,
+   "end_sec": 1746,
+   "type": "announcement",
+   "title": "Chesed: sign up a friend for Tzivos Hashem; candle-lighting time"
+  },
+  {
+   "start_sec": 1746,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No march by design (Sefirah). Re-uses talks and the story from episodes 324 and 426 with a new Shema guest and candle time."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Schneur Zalman Goldstein",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah",
+    "start_sec": 631,
+    "end_sec": 755
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:22:22Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4c22e88ed2",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Episode 324 (1988) has the same no-music Sefirah opening and the Flickering Flame story; Shema guest and closing differ."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "82672b0336",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Episode 426 has the same opening talk and story; Shema guest and candle time differ."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "86a44f3dba",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "'Sefiras Haomer 426' is the same no-music Sefirah talk."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "39959e8c5c",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "'Sefira 324' is the same talk on counting days."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 19:42-28:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "38d83b32ce",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 157: The Flickering Flame, Chapter 2 (Asarah B'Teves)' (episode 157, 14:12-18:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 156: The Flickering Flame, Chapter 1 (Zos Chanukah)' (episode 156, 21:50-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6341e96d6e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 307: The Flickering Flame (Zos Chanukah)' (episode 307, 17:20-27:55), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8ef0e7ba46",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 309: The Flickering Flame (Hakhel Year)' (episode 309, 20:24-29:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9ba0d1a6a7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 349: The Flickering Flame and I Love Hashem' (episode 349, 9:40-19:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20475%20-%20The%20Flickering%20Flame%20%28Sefiras%20HaOmer%29%20%281991-04-16%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 475 - The Flickering Flame (Sefiras HaOmer) (1991-04-16).mp3",
+  "size_bytes": 21330241,
+  "mime_type": "audio/mpeg"
+ }
+}

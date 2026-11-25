@@ -1,0 +1,391 @@
+{
+ "id": "6475c5455b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "224 05-06-86",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 224 - Rabbi Akiva, Saved by Negel Vasser (Sefiras HaOmer) (1986-05-06).mp3",
+  "duration_sec": 1781.039,
+  "filename_facts": {
+   "episode_number": 224,
+   "date_in_filename": "1986-05-06",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 224,
+   "story": "Saved by Negel Vasser",
+   "topic": "Sefira, Ahavas Yisroel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 224: Rabbi Akiva, Saved by Negel Vasser (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Sefirah-time show with no music: why we hold back from celebrations, how washing negel vasser saved Rabbi Akiva in prison, and why loving every Jew is a great rule of the Torah.",
+  "summary_long": "Recorded during Sefiras HaOmer, this show opens without the usual music. Uncle Yossi explains that there is a time to be happy and a time to be sad: during Sefirah we avoid celebrations, new clothes and haircuts in memory of Rabbi Akiva's students, who did not show each other respect and died in a plague that ended on Lag BaOmer. We must check that we honor one another, which brings Ahavas Yisroel, unity and Moshiach. A boy from Staten Island says the Shema in Studio 604. Uncle Yossi then talks about water, Hashem's precious gift that also has the power to make us pure, which is why we wash negel vasser every morning. In the story, Rabbi Akiva is jailed for teaching Torah; after three days without water he uses his small jug to wash his hands and make a brachah, and the amazed ruler frees him and makes him an advisor. Uncle Yossi explains Rabbi Akiva's teaching that loving your fellow as yourself is a great rule of the Torah, and a lesson from Pirkei Avos: Hashem chose humble Har Sinai. The show ends with a sponsor and a contest update.",
+  "lesson": "Show respect and love to every Jew, and treasure the mitzvos even when it is hard, as Rabbi Akiva did.",
+  "keywords": [
+   "Rabbi Akiva's students",
+   "prison",
+   "jug of water",
+   "washing hands",
+   "ruler",
+   "water",
+   "sun",
+   "Har Sinai",
+   "humility",
+   "Studio 604",
+   "contest"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 224,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1986-05-06",
+   "hebrew": "27 Nissan 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio ('Pesach, the one we just celebrated'; contest closed Yud-Gimmel Nissan). Most of the show is a rebroadcast of episode 122 (Sefirah 5744)."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students died in a plague during Sefirah.",
+    "at_sec": 199
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Rabbi Akiva is jailed and left without food or water for teaching Torah.",
+    "at_sec": 1012
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 633
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "the prison wardens",
+   "the other prisoners"
+  ],
+  "topics": [
+   "sages",
+   "calendar",
+   "kindness_and_community",
+   "morning_routine",
+   "hashem_in_nature"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kibbud",
+   "achdus",
+   "anavah",
+   "mesiras_nefesh",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "ahavas_yisroel_mitzvah",
+   "shema",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Rabbi Akiva: 'Love your fellow as yourself is a great rule in the Torah'",
+    "note": "Cited as found in the Gemara; the verse is Vayikra 19:18."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:1",
+    "note": "'Moshe kibel Torah mi-Sinai': Moshe learned humility from Har Sinai, the lowest mountain."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "'You shall love your fellow as yourself.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "opening",
+   "title": "Greeting: a show without music"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 374,
+   "type": "talk",
+   "title": "A time to be sad: the days of Sefirah",
+   "summary": "Why there is no music during Sefirah, the plague among Rabbi Akiva's students, and the call to show respect and love to one another.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "0f22df3f8d"
+   ]
+  },
+  {
+   "start_sec": 374,
+   "end_sec": 517,
+   "type": "story_intro",
+   "title": "Story preview: Rabbi Akiva and the ruler",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 517,
+   "end_sec": 790,
+   "type": "shema_guest",
+   "title": "Shema with a boy from Staten Island"
+  },
+  {
+   "start_sec": 790,
+   "end_sec": 1012,
+   "type": "talk",
+   "title": "Water: Hashem's gift of life and purity",
+   "summary": "How water sustains the world and has the power to make us pure, the reason we wash negel vasser each morning."
+  },
+  {
+   "start_sec": 1012,
+   "end_sec": 1282,
+   "type": "story",
+   "title": "Saved by Negel Vasser",
+   "summary": "Jailed for teaching Torah, Rabbi Akiva uses his only water to wash his hands, and the amazed ruler frees him and makes him an advisor.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 1282,
+   "end_sec": 1474,
+   "type": "talk",
+   "title": "Love your fellow as yourself: a great rule",
+   "summary": "Rabbi Akiva's teaching, and the Alter Rebbe's saying that loving every Jew leads to loving Hashem.",
+   "people": [
+    "rabbi_akiva",
+    "alter_rebbe"
+   ],
+   "linked_items": [
+    "61dd385c6d"
+   ]
+  },
+  {
+   "start_sec": 1474,
+   "end_sec": 1631,
+   "type": "talk",
+   "title": "Pirkei Avos: humble Har Sinai",
+   "summary": "Moshe received the Torah 'from Sinai', learning humility from the lowest mountain.",
+   "people": [
+    "moshe_rabbeinu"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "0f22df3f8d"
+   ]
+  },
+  {
+   "start_sec": 1631,
+   "end_sec": 1712,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1712,
+   "end_sec": 1762,
+   "type": "announcement",
+   "title": "Contest update and Dial-a-Jewish-Story"
+  },
+  {
+   "start_sec": 1762,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0f22df3f8d",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Sefira 224' = 30-558 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "61dd385c6d",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "'Ahavas Yisroel 224' = 1310-1474 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "0-1631 s are a rebroadcast of episode 122 (same Shema guest, same timings); only the sponsor and contest update at the end are new."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f760feafed",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The water and negel vasser talk (about 790-1012 s) is the 'Netilas Yodayim 122' clip."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a5f42127fc",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The 'great rule' talk (about 1282-1474 s) matches 'Ahavas Yisroel 122'."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e5445b520a",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The Pirkei Avos chapter 1 talk (about 1474-1631 s) matches 'Pirkei Avos Alef 122'."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "90086c4a4c",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The Rabbi Akiva prison story matches 'Rabbi Akiva and Netilas Yodayim 184'."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4d19621b73",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Water talk, Rabbi Akiva story and 'great rule' talk also aired in episode 135 (different order)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Water talk, Rabbi Akiva story and 'great rule' talk also aired in episode 526."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Largely a rebroadcast of episode 122 with a new ending. Sponsor ad (with a store address) and contest update are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Rosenberg",
+    "role": "shema_guest",
+    "group": "Staten Island",
+    "start_sec": 630,
+    "end_sec": 790
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Episode is mostly a rebroadcast of episode 122; decide whether both copies should be published."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20224%20-%20Rabbi%20Akiva%2C%20Saved%20by%20Negel%20Vasser%20%28Sefiras%20HaOmer%29%20%281986-05-06%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 224 - Rabbi Akiva, Saved by Negel Vasser (Sefiras HaOmer) (1986-05-06).mp3",
+  "size_bytes": 21373509,
+  "mime_type": "audio/mpeg"
+ }
+}

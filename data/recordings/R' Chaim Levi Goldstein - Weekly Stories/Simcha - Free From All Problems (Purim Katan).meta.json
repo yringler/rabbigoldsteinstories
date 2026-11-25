@@ -1,0 +1,232 @@
+{
+ "id": "03dffd5920",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Simcha - Free From All Problems",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Simcha - Free From All Problems (Purim Katan).mp3",
+  "duration_sec": 1563.507,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Simcha: Free From All Problems (Purim Katan)",
+  "title_basis": "filename",
+  "summary_short": "On Purim Katan: the Zohar teaches that a smiling face opens the gates of blessing, and a Chassid of the Tzemach Tzedek is saved from ruin by forcing himself to be happy.",
+  "summary_long": "On Purim Katan, in a leap year, the storyteller explains why this rare day is precious and teaches from the Zohar on Parshas Tetzaveh that Hashem looks at our face before sending a blessing: a smiling face opens all the gates. The Tzemach Tzedek taught that even if you do not feel happy, acting happy brings real joy, and that thinking good brings good. Then the story: Rabbi Yehuda, a wealthy Chassid of the Tzemach Tzedek, sells seed grain to the poritzim, who insist that it be delivered on an exact day at a roadside inn. One year, two days into the trip, he realizes he left the richest poritz's 25 wagons at home and fears losing his whole business. His helper Shimshon is amazed to see him start singing, clapping and dancing in his seat. At the inn Rabbi Yehuda treats the poritzim to strong punch until they fall asleep; that night a storm soaks and ruins all the seeds, and the poritzim insist on paying him in full. Rabbi Yehuda reveals the Tzemach Tzedek's parting words to him, 'Ki v'simcha seitzei'u', with joy you will go out of trouble. The recording ends with a joyful sing-along of that song.",
+  "lesson": "Always be b'simcha and think good thoughts, especially when there is a problem; joy, even when you have to push yourself into it, brings Hashem's blessings and lifts you out of trouble.",
+  "keywords": [
+   "smile",
+   "seeds",
+   "wheat",
+   "wagons",
+   "inn",
+   "punch",
+   "rainstorm",
+   "business",
+   "Ki v'simcha seitzei'u",
+   "leap year"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2024-02-23",
+   "hebrew": "14 Adar I 5784 (Purim Katan)",
+   "hebrew_year": 5784,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Today Purim Katan', a leap year, and 'this week's Parsha, Tetzaveh': of recent leap years only 5784 has Purim Katan in the week of Tetzaveh."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The hero treats the poritzim to strong drink until they are drunk and fall asleep."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, a wealthy seed merchant",
+   "Shimshon, his business manager",
+   "the rich poritz",
+   "the poritzim"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "emunah_bitachon",
+   "character",
+   "calendar"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "tzedakah"
+  ],
+  "calendar": [
+   "purim_katan"
+  ],
+  "parshiyos": [
+   "tetzaveh"
+  ],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "ref": "Parshas Tetzaveh",
+    "note": "Hashem looks at a person's face before sending blessing; a bright face opens the gates."
+   },
+   {
+    "work": "gemara",
+    "note": "Cited as saying that good thoughts and words create malachim that help a person (as cited)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 44,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 44,
+   "end_sec": 343,
+   "type": "talk",
+   "title": "Purim Katan and the power of a smile",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 343,
+   "end_sec": 1482,
+   "type": "story",
+   "title": "The forgotten wagons of seeds",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 1482,
+   "type": "song",
+   "title": "Ki V'simcha Seitzei'u sing-along"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "81177cd802",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Simcha and the Tzemach Tzedek': the same story by the same narrator (the merchant is called Moshe there), with a different introduction."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3e219c0910",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Ki B'Simcha Teitzei'u: The Tzemach Tzedek's Three Words' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Closing sing-along (about 24:45 to the end) is mostly untranscribed. ASR writes 'pirates'/'Purim' for poritzim."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 1
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:25:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Date inferred as Purim Katan 5784 from 'this week's Parsha Tetzaveh' in a leap year; confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Simcha%20-%20Free%20From%20All%20Problems%20%28Purim%20Katan%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Simcha - Free From All Problems (Purim Katan).mp3",
+  "size_bytes": 18762862,
+  "mime_type": "audio/mpeg"
+ }
+}

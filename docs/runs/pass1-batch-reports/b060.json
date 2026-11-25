@@ -1,0 +1,25 @@
+{
+  "batch_id": "b060",
+  "done": [
+    "8e94797760",
+    "a049e430cc",
+    "5168b9a533",
+    "03dffd5920",
+    "81177cd802",
+    "80b558554d"
+  ],
+  "skipped_already_done": [
+    "b9cf46cd8d",
+    "ad8eb4387b",
+    "3b507e35c4"
+  ],
+  "failed": [],
+  "notes": [
+    "5168b9a533 'Sicha Chanuka 2' is not a part 2: it is a second, live classroom telling of the same sichah as a049e430cc (linked same_story). It ends with the speaker answering a phone call (19:52-20:16); trim suggested.",
+    "a049e430cc has no opening song; series and narrator were assigned from the narrator's voice, style and 'Guten Tag' sign-off. 5168b9a533 was given the narrator placeholder but series null (live class format).",
+    "03dffd5920 and 81177cd802 tell the same seed-merchant story (linked same_story). It is also the story in 3e219c0910 'Tz tz ki besimcha teitzeiu' (not linked: outside this batch).",
+    "80b558554d's Simchas Torah dancing story also appears in 16727d2e9e 'tz tz rikudim', 1b994d468f 'Tz tz rikudim saves', cc16e78758 'Simchas bhs 7th day' and f18c947f46 'What's Your Wish- Power of Joy'. Not linked: outside this batch; pass 2 should add same_story.",
+    "Dates: 80b558554d stated on air as Yud-Daled Kislev, 40 years after Shabbos Vayishlach 5746 = 14 Kislev 5786 (2025-12-04). 03dffd5920 was inferred as Purim Katan 5784 (2024-02-23) from 'this week's Parsha Tetzaveh' in a leap year.",
+    "Proposed new terms: people rabbi_saadia_gaon, rabbi_leibel_groner; calendar yud_daled_kislev."
+  ]
+}

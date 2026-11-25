@@ -1,0 +1,162 @@
+{
+ "id": "930b800248",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Elul 543",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Month of Elul - Teshuvah, Tefillah, Tzedakah and the Shofar's Wake-Up Call (Ep 543).mp3",
+  "duration_sec": 276.052,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 543,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 543,
+   "story": "",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Month of Elul: Teshuvah, Tefillah, Tzedakah and the Shofar's Wake-Up Call",
+  "title_basis": "content",
+  "summary_short": "Elul is the last month of the year: improve your midos, daven and say brachos carefully, give more tzedakah, and let the daily shofar wake you up to teshuvah.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, cut from episode 543. Uncle Yossi explains that Elul is the last month of the year, and 'all's well that ends well'. Children can end the year in the best way by improving their midos and the way they speak and respect parents and elders, by saying each word of brachos and davening clearly and carefully, remembering that Hashem is listening, and by giving a little more tzedakah. Above all comes teshuvah: asking Hashem to forgive us and resolving not to repeat our mistakes. Elul means 'wake up and become better' through teshuvah, tefillah and tzedakah, because Hashem is our Father and our King. Every weekday morning in Elul the shofar is blown in shul, and as the Rambam explains, its blasts are like an alarm clock calling us back to Hashem. Then Hashem will inscribe us in the Book of Life for a good and sweet year, and bring Moshiach.",
+  "lesson": "Use Elul to wake up and improve through teshuvah, tefillah and tzedakah.",
+  "keywords": [
+   "alarm clock",
+   "shofar",
+   "Book of Life",
+   "sweet new year",
+   "good character",
+   "careful davening"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 543,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-09-01",
+   "hebrew": "3 Elul 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 543."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "kibbud",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "shofar",
+   "davening",
+   "brachos",
+   "tzedakah"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4",
+    "note": "The shofar as an alarm that wakes us up."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "192b60591a",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 49,
+   "note": "Episode 543 (filename number); clip = 49-325 s of the episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:47Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Month%20of%20Elul%20-%20Teshuvah%2C%20Tefillah%2C%20Tzedakah%20and%20the%20Shofar%27s%20Wake-Up%20Call%20%28Ep%20543%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Month of Elul - Teshuvah, Tefillah, Tzedakah and the Shofar's Wake-Up Call (Ep 543).mp3",
+  "size_bytes": 3313546,
+  "mime_type": "audio/mpeg"
+ }
+}

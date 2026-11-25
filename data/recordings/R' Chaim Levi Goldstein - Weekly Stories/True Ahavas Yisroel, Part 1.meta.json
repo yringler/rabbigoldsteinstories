@@ -1,0 +1,292 @@
+{
+ "id": "f044a3eccb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "True Ahavas Yisroel - Part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/True Ahavas Yisroel, Part 1.mp3",
+  "duration_sec": 2057.28,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "Part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-026' stripped"
+  ]
+ },
+ "display": {
+  "title": "True Ahavas Yisroel, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Hakhel, Naaseh v'Nishma and Avraham's first command lead into a story: Rabbi Levi Yitzchak of Berditchev honors the funeral of a 'stingy' rich man and reveals his secret kindness.",
+  "summary_long": "In a Hakhel year, the storyteller explains the mitzvah of Hakhel: after each seven-year Shemittah cycle, every Jew, from the oldest to the newborn, gathers in the Beis HaMikdash on Sukkos to hear the king read from the Torah, reliving Matan Torah at Har Sinai. He then speaks about kabbalas ol, doing what Hashem says even without understanding, as in Naaseh v'Nishma. Avraham Avinu's story in the Torah begins only at seventy-five, when he obeyed the command of Lech Lecha without a single question. Ahavas Yisroel works the same way: we love every Jew because Hashem said so, not only those we find special. The story: when David, a rich man of Berditchev known as a miser, passes away, the burial society wants to overcharge his family, but Rabbi Levi Yitzchak forbids it and attends the funeral, and the whole town follows. He then tells how David secretly gave 5,000 rubles of his own to save a wine dealer who lost his money, and later refused to take it back from the man who had really found it. Rabbi Levi Yitzchak promises two more stories, to be told next week.",
+  "lesson": "Never judge another Jew by how he looks; love every Jew because Hashem commanded it, with kabbalas ol.",
+  "keywords": [
+   "Hakhel",
+   "Shemittah",
+   "Har Sinai",
+   "Lech Lecha",
+   "miser",
+   "funeral",
+   "burial society",
+   "wine dealer",
+   "5,000 rubles",
+   "lost money"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "A Hakhel year, probably late Tishrei or early Cheshvan (the week before Part 2, which is in Cheshvan)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'We are now in a very special year, Shnas Hakhel'; Part 2 is a week later in Cheshvan. Hakhel years: 5776 or 5783 likely."
+  },
+  "part": {
+   "set_key": "true-ahavas-yisroel",
+   "part_number": 1,
+   "of": 2
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story opens with a man's passing and funeral."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "David, the rich man thought to be a miser",
+   "Gershon the wine dealer",
+   "the man who found the money",
+   "the burial society",
+   "Nimrod"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "chassidic_masters",
+   "tanach",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "kabbalas_ol",
+   "dan_lkaf_zchus",
+   "generosity",
+   "anavah"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "hashavas_aveidah",
+   "shema"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [
+   "lech_lecha"
+  ],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The purpose of Hakhel is to relive Matan Torah; Avraham's early life (as cited)."
+   },
+   {
+    "work": "midrash",
+    "note": "Avraham recognized Hashem at three, forty, forty-eight and fifty."
+   },
+   {
+    "work": "chumash",
+    "ref": "Bereishis 12:1",
+    "note": "Lech Lecha, Avraham's first command."
+   },
+   {
+    "work": "maamarim",
+    "note": "The Frierdiker Rebbe's Rosh Hashanah maamar: a Jew is one who accepts the yoke of Heaven (as cited)."
+   }
+  ],
+  "places": [
+   "Berditchev"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 499,
+   "type": "talk",
+   "title": "The mitzvah of Hakhel",
+   "summary": "Every seven years all Jews gather to hear the king read the Torah, reliving Matan Torah."
+  },
+  {
+   "start_sec": 499,
+   "end_sec": 1151,
+   "type": "talk",
+   "title": "Naaseh v'Nishma and Avraham's Lech Lecha",
+   "summary": "Kabbalas ol: Avraham became the first Jew when he obeyed Hashem's command without questions.",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1151,
+   "end_sec": 1289,
+   "type": "talk",
+   "title": "Loving every Jew",
+   "summary": "Ahavas Yisroel for every Jew, not only those we find special."
+  },
+  {
+   "start_sec": 1289,
+   "end_sec": 2017,
+   "type": "story_chapter",
+   "title": "True Ahavas Yisroel, Part 1",
+   "summary": "Rabbi Levi Yitzchak honors a 'stingy' man's funeral and tells of his secret 5,000-ruble kindness.",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ],
+   "story_key": "true-ahavas-yisroel",
+   "chapter": 1
+  },
+  {
+   "start_sec": 2017,
+   "type": "closing",
+   "title": "Lesson: never judge a Jew"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "a1317d8c93",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'True Ahavas Yisroel - Part 2'."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "407fcad3a4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Three Din Torahs: The Hidden Tzaddik of Berditchev' (Stories), told by Yiddish storyteller (name unconfirmed)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5891cd1abb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Judge Every Yid Favorably: Rabbi Levi Yitzchak and the Secret Giver of Berditchev' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "803a210c72",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Rabbi Levi Yitzchak of Berditchev and the Three Din Torahs' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:06Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Recording year (a Hakhel year, 5776 or 5783?)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/True%20Ahavas%20Yisroel%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/True Ahavas Yisroel, Part 1.mp3",
+  "size_bytes": 24688384,
+  "mime_type": "audio/mpeg"
+ }
+}

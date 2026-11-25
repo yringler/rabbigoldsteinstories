@@ -1,0 +1,250 @@
+{
+ "id": "8a7b5b2912",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "4 chochmas",
+  "filename_title": "4 chochmos 2 good",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 2.mp3",
+  "duration_sec": 1149.3,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "good"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos, Part 2",
+  "title_basis": "content",
+  "summary_short": "After a story of the young Mitteler Rebbe's thirst for Chassidus, Avram sells Rabbi Yehuda four strange pieces of advice, and the first is soon put to the test.",
+  "summary_long": "Between the Mitteler Rebbe's Chag HaGeulah and Yud-Tes Kislev, the storyteller tells how the young Mitteler Rebbe, always hungry for Chassidus, hid under the table to hear the Alter Rebbe's private lessons to his sister Freida. When he signalled with his gartel so she would ask about the Kohen's belt, he was sent out and barred from the next lesson, and grew so weak that only the Alter Rebbe's teaching revived him. Like a fish in water, a Jew needs Torah all the time. In the story, Avram sells Rabbi Yehuda four chochmos, one gold coin each: at a fork in the road, take the long bumpy way, not the shortcut; when everyone stares in amazement, laugh and say it is nothing; at an inn, if a galach comes into your room, leave the inn; and when you come home and see something that upsets you, do not lose your temper but wait. Anger, he explains, is like forgetting that only Hashem is in control. Avram's wife Sarah gives Rabbi Yehuda a challah, and then the shop vanishes. Riding home with Reb Yankel, they reach a fork, and the driver turns toward the shortcut. To be continued.",
+  "lesson": "Always thirst for more Torah and Chassidus, follow a tzaddik's advice even when it seems strange, and do not lose your temper, because only Hashem is in control.",
+  "keywords": [
+   "gartel",
+   "Kohen Gadol's garments",
+   "fish in water",
+   "fork in the road",
+   "shortcut",
+   "inn",
+   "priest",
+   "challah",
+   "temper",
+   "wagons"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "4 chochmas"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "17 Kislev",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Last Sunday was Chag HaGeulah of the Mitteler Rebbe, tomorrow night is Yud-Tes Kislev': a Sunday; year not stated."
+  },
+  "part": {
+   "set_key": "the-four-chochmos",
+   "part_number": 2,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The young Mitteler Rebbe becomes very weak and bedridden; he recovers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mitteler_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Freida, the Alter Rebbe's daughter",
+   "Rabbi Yehuda",
+   "Avram, the shopkeeper",
+   "Sarah, Avram's wife",
+   "Reb Yankel",
+   "the wagon driver"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidus_tanya",
+   "hiskashrus",
+   "emunah_bitachon",
+   "character"
+  ],
+  "midos": [
+   "controlling_anger",
+   "kabbalas_ol",
+   "emunah",
+   "hasmadah",
+   "contentment"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "yud_kislev",
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 37,
+   "type": "talk",
+   "title": "Between two Yomim Tovim of Kislev",
+   "calendar": [
+    "yud_kislev",
+    "yud_tes_kislev"
+   ]
+  },
+  {
+   "start_sec": 37,
+   "end_sec": 401,
+   "type": "story",
+   "title": "The Mitteler Rebbe under the table",
+   "people": [
+    "mitteler_rebbe",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 401,
+   "end_sec": 488,
+   "type": "talk",
+   "title": "Like a fish in water: always thirsty for Torah"
+  },
+  {
+   "start_sec": 488,
+   "type": "story_chapter",
+   "title": "The Four Chochmos, Part 2",
+   "story_key": "the-four-chochmos",
+   "chapter": 2,
+   "summary": "Avram sells Rabbi Yehuda four chochmos, then vanishes; on the way home the wagons reach a fork in the road."
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Opens with Avram offering the first chochmah, where '4 chochmos a' ends."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 1."
+  },
+  {
+   "type": "same_story",
+   "target_id": "008f627970",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Four Chochmos: Rabbi Yehudah's Four Pieces of Wisdom' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85733bc4b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Chochmos 3 and 4: The Hotel, the Trial and the Gift in the Challah' (Stories, from 17:46), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Says 'since we missed last week' yet resumes the story 'I began last week'. Refers to an earlier story about eggs (another item)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "Now let's get back to the story that I began last week.",
+   "at_sec": 470
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:55Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from format (calendar talk, weekly serial, 'a gutten tag' sign-off); does not open with the 'I Believe' song. Confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos/The%20Four%20Chochmos%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 2.mp3",
+  "size_bytes": 13792488,
+  "mime_type": "audio/mpeg"
+ }
+}

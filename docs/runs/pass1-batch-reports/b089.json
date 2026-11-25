@@ -1,0 +1,12 @@
+{
+ "batch_id": "b089",
+ "done": ["b0d51c0ab5", "aa45d30a33"],
+ "failed": [],
+ "notes": [
+  "b0d51c0ab5 ('34 P21-22') contains two weekly Tanya classes joined in one file: ch. 21 (ends ~58:10 'next week') and ch. 22 (opens 'last week we finished ch. 21'). Flagged multiple_programs.",
+  "Series gap: 33b ends at the start of ch. 18 (3d11644d1d), 34 opens reviewing ch. 20; 34 ends announcing ch. 23 next week, 35 is mid-ch. 24. No continues relations added; shiurim on ch. 19-20 and ch. 23 seem to be missing or are elsewhere (cf. '56 P23' c465a14448, '57 P23' f10a20007e, which look like a later cycle).",
+  "aa45d30a33 opens with 'what the Rebbe said on Shavuos'; dated Sivan 5737 by assumption from shiur 30 (Tishrei 5737). Shiur 34 dated 5737 from neighbours only. Pass 2 may refine if other shiurim give firmer dates.",
+  "Proposed new people term: Rabbi Shmuel Levitin (story in b0d51c0ab5).",
+  "aa45d30a33 transcript has short gaps around 9:00-11:00."
+ ]
+}

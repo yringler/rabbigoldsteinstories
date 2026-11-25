@@ -1,0 +1,329 @@
+{
+ "id": "82672b0336",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "426",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 426 - The Flickering Flame (Sefiras HaOmer) (1990-05-08).mp3",
+  "duration_sec": 1803.629,
+  "filename_facts": {
+   "episode_number": 426,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 426,
+   "story": "The flickering flame",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-35.0 LUFS)"
+  ]
+ },
+ "display": {
+  "title": "Episode 426: The Flickering Flame (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Sefirah show without music: respect for one another, why counting days teaches the value of time, Shema with a young guest, and a shoemaker's lamp that teaches a great tzaddik about teshuvah.",
+  "summary_long": "Uncle Yossi explains why this show begins without music: during Sefirah we remember the students of Rabbi Akiva who died because they did not show each other respect. He lists ways to practice respect for parents, teachers and friends, to look for the good in others and pursue peace, and says that unity and good example are our answer to 'Ad mosai'. Next he teaches that counting the Omer shows how precious each day is, with the story of a girl named Miriam who keeps crying over a lost dime: we cannot get back lost time, only use well the time we have. A boy of almost five leads the Shema, and everyone gives tzedakah. Story time tells of a great tzaddik, Rabbi Yisroel, stranded in a snowstorm, who finds an old shoemaker still at work by a lamp he overfilled with oil. The shoemaker's words, 'as long as the light still burns, one can still repair', become a lesson about teshuvah. The show ends with the Tzivos Hashem Lag BaOmer parade and carnival, choosing a Torah-true summer camp, and Shabbos candle times.",
+  "lesson": "Time is Hashem's precious gift: use every day better than the day before, and as long as the light burns, we can still repair and do teshuvah.",
+  "keywords": [
+   "no music during Sefirah",
+   "Rabbi Akiva's students",
+   "respect",
+   "lost dime",
+   "time",
+   "shoemaker",
+   "oil lamp",
+   "snowstorm",
+   "Lag BaOmer parade",
+   "summer camp"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 426,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-05-08",
+   "hebrew": "13 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Estimate was 29 Nissan. Lag BaOmer 'Sunday, May 13' still ahead; candles 7:44, Shabbos ends 8:54 fit Friday 11 May 1990. One week after episode 425."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students die in a plague as a punishment for not respecting one another.",
+    "at_sec": 84
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest gives his full name, age and school on air.",
+    "at_sec": 840
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisroel",
+   "the old shoemaker",
+   "the coachman",
+   "Miriam and her mother"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "character",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "kibbud",
+   "shalom",
+   "achdus",
+   "zerizus",
+   "dan_lkaf_zchus",
+   "valuing_time"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "teshuvah",
+   "hachnasas_orchim",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Avos 1:12",
+    "note": "'Ohev shalom v'rodef shalom', love peace and pursue it."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'So that your days be lengthened', from the second part of the Shema."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 366,
+   "type": "talk",
+   "title": "Why No Music: Rabbi Akiva's Students and Respect",
+   "summary": "During Sefirah we remember Rabbi Akiva's students and work on respect, peace and unity, setting an example that brings Moshiach.",
+   "people": [
+    "rabbi_akiva"
+   ],
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "86a44f3dba"
+   ]
+  },
+  {
+   "start_sec": 366,
+   "end_sec": 802,
+   "type": "talk",
+   "title": "Counting Days: The Precious Gift of Time",
+   "summary": "Counting the Omer teaches that each day must be better than the last; the parable of Miriam's lost dime shows that lost time cannot be regained.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "86a44f3dba"
+   ]
+  },
+  {
+   "start_sec": 802,
+   "end_sec": 1017,
+   "type": "shema_guest",
+   "title": "Shema with a young yeshiva boy"
+  },
+  {
+   "start_sec": 1017,
+   "end_sec": 1063,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1063,
+   "end_sec": 1455,
+   "type": "story",
+   "title": "The Flickering Flame",
+   "summary": "A shoemaker who overfilled his lamp keeps working late, and his words teach Rabbi Yisroel that while the light burns we can still repair.",
+   "linked_items": [
+    "bc10ca2c5f"
+   ]
+  },
+  {
+   "start_sec": 1455,
+   "end_sec": 1661,
+   "type": "announcement",
+   "title": "Lag BaOmer: Rabbi Shimon bar Yochai and the Parade",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 1661,
+   "end_sec": 1750,
+   "type": "announcement",
+   "title": "Choosing a Torah-True Summer Camp"
+  },
+  {
+   "start_sec": 1750,
+   "end_sec": 1779,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1779,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "86a44f3dba",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Sefiras Haomer 426' = 54-812 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "bc10ca2c5f",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'The Flickering Flame 426' = 1063-1455 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "low_volume",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music by design (Sefirah). The two talks and the story also aired in episodes 273 and 324 (1988); the Lag BaOmer announcement repeats episode 425. Quiet source. Parade, camp line and candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Schneur Zalman Goldstein",
+    "role": "shema_guest",
+    "group": "yeshiva (name unclear in ASR); almost 5 years old",
+    "start_sec": 802,
+    "end_sec": 1017
+   },
+   {
+    "name": "Rabbi Schwartz",
+    "role": "other",
+    "group": "the Shema guest's teacher (named, not present)",
+    "start_sec": 870,
+    "end_sec": 890
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Shema guest's yeshiva and teacher named; learning the Seder, brachos, the parsha and Chumash Bereishis.",
+    "start_sec": 865,
+    "end_sec": 925
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "The tzaddik 'Rabbi Yisroel' is not identified further on air (the story is usually told of Rabbi Yisroel Salanter)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20426%20-%20The%20Flickering%20Flame%20%28Sefiras%20HaOmer%29%20%281990-05-08%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 426 - The Flickering Flame (Sefiras HaOmer) (1990-05-08).mp3",
+  "size_bytes": 21644651,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "id": "89f933a998",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "17",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 017 - The Star Gazer, Chapter 2 (Before Pesach) (1982-03-30).mp3",
+  "duration_sec": 1742.046,
+  "filename_facts": {
+   "episode_number": 17,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 17,
+   "story": "The Star Gazer #2",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 17: The Star Gazer, Chapter 2 (Before Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "A stargazer learns why a young man he expected to die came out of the forest alive: a piece of bread given to a starving man. Plus a Pesach niggun, Shema with a guest from Yerushalayim, and letters.",
+  "summary_long": "Aired the week before Pesach 5742. Uncle Yossi opens with a joyful five-word Yom Tov niggun about being happy on the holiday, then announces a Tzivos Hashem Pesach Experience Fair for Chol HaMoed. Story time continues The Star Gazer: a stargazer had predicted that a young man would not come back alive from the forest, yet he returned happy. Before the chapter, a special guest from Yerushalayim recites the Shema. The stargazer asks the young man what happened, and he recalls a starving old man who begged for food; as he opened his sack to share his bread, a snake leaped out and slithered away. The stargazer explains that his life was spared by a power greater than the stars. Uncle Yossi teaches Shlomo HaMelech's words, 'tzedakah saves from death', and that tzedakah brings Hashem's blessings. The show also promotes a shmurah matzah film narrated by Uncle Yossi, reads a letter with a riddle about 'maasim tovim', and includes a phone call in which Uncle Yossi finds the word Ashrei in a boy's names. It ends with Dial-a-Jewish-Story and a suggestion for an afikoman present.",
+  "lesson": "Tzedakah saves from death: giving to someone in need brings Hashem's protection and blessings.",
+  "keywords": [
+   "stargazer",
+   "stars",
+   "forest",
+   "snake",
+   "bread",
+   "starving old man",
+   "Pesach fair",
+   "shmurah matzah film",
+   "riddle",
+   "afikoman",
+   "Ashrei"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 17,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1982-03-30",
+   "hebrew": "6 Nissan 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'Pesach is just around the corner'; fair on Sunday April 11 in Chol HaMoed Pesach 5742; one week before episode 18 (1982-04-06)."
+  },
+  "serial": {
+   "story_key": "the-star-gazer",
+   "story_title": "The Star Gazer",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A stargazer predicts a young man's death; a snake hidden in his sack is the danger he escapes.",
+    "at_sec": 906
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest, three letter-writing siblings and a boy on a phone call named on air.",
+    "at_sec": 646
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the stargazer",
+   "the young man",
+   "the starving old man"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "generosity",
+   "chesed",
+   "simcha"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Mishlei 10:2",
+    "note": "'Tzedakah tatzil mimaves', tzedakah saves from death."
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 56,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 56,
+   "end_sec": 126,
+   "type": "talk",
+   "title": "Getting into the Pesach mood",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 126,
+   "end_sec": 317,
+   "type": "song",
+   "title": "A Yom Tov niggun"
+  },
+  {
+   "start_sec": 317,
+   "end_sec": 610,
+   "type": "announcement",
+   "title": "The Pesach Experience Fair",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 610,
+   "end_sec": 646,
+   "type": "story_intro",
+   "title": "Story time: recap of The Star Gazer"
+  },
+  {
+   "start_sec": 646,
+   "end_sec": 748,
+   "type": "shema_guest",
+   "title": "Shema with a guest from Yerushalayim"
+  },
+  {
+   "start_sec": 748,
+   "end_sec": 1057,
+   "type": "story_chapter",
+   "title": "The Star Gazer, Chapter 2",
+   "summary": "The young man tells how he shared his bread with a starving man and a snake leaped out of his sack; tzedakah saves from death.",
+   "people": [
+    "shlomo_hamelech"
+   ],
+   "story_key": "the-star-gazer",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1057,
+   "end_sec": 1172,
+   "type": "announcement",
+   "title": "A film about baking shmurah matzah",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1172,
+   "end_sec": 1358,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a riddle about good deeds",
+   "summary": "A letter from three siblings in Connecticut with a riddle about 'maasim tovim'."
+  },
+  {
+   "start_sec": 1358,
+   "end_sec": 1508,
+   "type": "mailbox",
+   "title": "A phone call: Ashrei in a boy's names",
+   "summary": "Uncle Yossi shows a boy that the initials of his names spell Ashrei, how fortunate we are."
+  },
+  {
+   "start_sec": 1508,
+   "end_sec": 1567,
+   "type": "announcement",
+   "title": "Dial-a-Jewish-Story"
+  },
+  {
+   "start_sec": 1567,
+   "end_sec": 1714,
+   "type": "announcement",
+   "title": "An afikoman present: Uncle Yossi's story records",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1714,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "6d98153d65",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Catalog: 16 = 'The Star Gazer #1' (defective file), 17 = '#2'."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "6d98153d65",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Star Gazer' (1982): ep 16 ch. 1 and ep 17 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Fair, film, phone numbers, prices and mailing address are 1982 period pieces (organizational numbers, not private)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yaakov Tzitzuashvili",
+    "role": "shema_guest",
+    "group": "Yerushalayim",
+    "start_sec": 646,
+    "end_sec": 735
+   },
+   {
+    "name": "Yaakov Ephraim Torenheim",
+    "role": "mailbox_letter",
+    "group": "Bridgeport, Connecticut",
+    "start_sec": 1210,
+    "end_sec": 1358
+   },
+   {
+    "name": "Menachem Mendel Torenheim",
+    "role": "mailbox_letter",
+    "group": "Bridgeport, Connecticut",
+    "start_sec": 1210,
+    "end_sec": 1358
+   },
+   {
+    "name": "Chana Henia Torenheim",
+    "role": "mailbox_letter",
+    "group": "Bridgeport, Connecticut",
+    "start_sec": 1210,
+    "end_sec": 1358
+   },
+   {
+    "name": "Shmuel Yitzchak Aharon Ross",
+    "role": "mailbox_letter",
+    "start_sec": 1358,
+    "end_sec": 1508,
+    "note": "Phone call; sent a Shema game."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:40:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20017%20-%20The%20Star%20Gazer%2C%20Chapter%202%20%28Before%20Pesach%29%20%281982-03-30%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 017 - The Star Gazer, Chapter 2 (Before Pesach) (1982-03-30).mp3",
+  "size_bytes": 20905489,
+  "mime_type": "audio/mpeg"
+ }
+}

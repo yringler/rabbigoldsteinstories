@@ -1,0 +1,5010 @@
+{
+ "task": "vocab",
+ "vocab_additions": {
+  "people": [
+   {
+    "id": "chofetz_chaim",
+    "label": "The Chofetz Chaim (Rabbi Yisroel Meir Kagan)",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Chofetz Chaim",
+     "Chafetz Chaim",
+     "Rabbi Yisroel Meir HaKohen",
+     "Rabbi Yisrael Meir Kagan"
+    ]
+   },
+   {
+    "id": "chida",
+    "label": "The Chida (Rabbi Chaim Yosef Dovid Azulai)",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Chida",
+     "Chidah",
+     "Rabbi Chaim Yosef David Azulai"
+    ]
+   },
+   {
+    "id": "maggid_of_dubno",
+    "label": "The Dubno Maggid (Rabbi Yaakov Krantz)",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Maggid of Dubno",
+     "Dubner Maggid",
+     "Dubno Maggid",
+     "Rabbi Yaakov Kranz"
+    ]
+   },
+   {
+    "id": "rav_saadia_gaon",
+    "label": "Rav Saadia Gaon",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Rabbi Saadia Gaon",
+     "Saadia Gaon",
+     "Sadia Gaon"
+    ]
+   },
+   {
+    "id": "rabbeinu_bachya_ibn_paquda",
+    "label": "Rabbeinu Bachya ibn Paquda",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Rabbeinu Bachya",
+     "author of Chovos HaLevavos"
+    ]
+   },
+   {
+    "id": "maharam_of_rottenburg",
+    "label": "Rabbi Meir of Rottenburg (Maharam)",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Maharam of Rothenburg",
+     "Rabbi Meir of Rothenburg",
+     "Maharam"
+    ]
+   },
+   {
+    "id": "rabbi_moshe_galanti",
+    "label": "Rabbi Moshe Galanti",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Rabbi Moshe Galante",
+     "Moshe Galanti"
+    ]
+   },
+   {
+    "id": "tosfos_yom_tov",
+    "label": "The Tosfos Yom Tov (Rabbi Yom Tov Lipmann Heller)",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Tosafos Yom Tov",
+     "Tosfos Yom Tov",
+     "Rabbi Yom Tov Lipman Heller"
+    ]
+   },
+   {
+    "id": "shaagas_aryeh",
+    "label": "The Shaagas Aryeh (Rabbi Aryeh Leib Gunzberg)",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Shaagas Aryeh",
+     "Sha'agat Aryeh",
+     "Rabbi Aryeh Leib Ginzburg"
+    ]
+   },
+   {
+    "id": "rabbi_yisroel_salanter",
+    "label": "Rabbi Yisroel Salanter",
+    "category": "rishonim_acharonim",
+    "aliases": [
+     "Rabbi Yisrael Salanter",
+     "Rabbi Yisrael of Salant",
+     "Rabbi Yisroel of Salant"
+    ]
+   },
+   {
+    "id": "eli_hakohen",
+    "label": "Eli HaKohen",
+    "category": "tanach",
+    "aliases": [
+     "Eli the Kohen Gadol",
+     "Eli Hakohen"
+    ]
+   },
+   {
+    "id": "shaul_hamelech",
+    "label": "Shaul HaMelech",
+    "category": "tanach",
+    "aliases": [
+     "King Shaul",
+     "King Saul"
+    ]
+   },
+   {
+    "id": "rabbi_elazar_ben_azariah",
+    "label": "Rabbi Elazar ben Azariah",
+    "category": "sages",
+    "aliases": [
+     "Rabbi Elazar ben Azaryah",
+     "Rabbi Elazar ben Azarya"
+    ]
+   },
+   {
+    "id": "rabbi_yehoshua_ben_ilem",
+    "label": "Rabbi Yehoshua ben Ilem",
+    "category": "sages",
+    "aliases": [
+     "Rabbi Yehoshua and Nanas the butcher"
+    ]
+   },
+   {
+    "id": "yosef_mokir_shabbos",
+    "label": "Yosef Mokir Shabbos",
+    "category": "sages",
+    "aliases": [
+     "Yosef who honored Shabbos",
+     "Reb Yosef Mokir Shabbos"
+    ]
+   },
+   {
+    "id": "chozeh_of_lublin",
+    "label": "The Chozeh of Lublin (Rabbi Yaakov Yitzchak Horowitz)",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Chozeh of Lublin",
+     "Seer of Lublin",
+     "the Chozeh"
+    ]
+   },
+   {
+    "id": "maggid_of_koznitz",
+    "label": "The Maggid of Koznitz (Rabbi Yisroel Hopstein)",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Koznitzer Maggid",
+     "Kozhnitzer Maggid",
+     "Rabbi Yisroel of Koznitz"
+    ]
+   },
+   {
+    "id": "rabbi_aharon_of_karlin",
+    "label": "Rabbi Aharon of Karlin",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Karliner",
+     "Reb Aharon Karliner"
+    ]
+   },
+   {
+    "id": "rabbi_gershon_kitover",
+    "label": "Rabbi Gershon Kitover",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "the Baal Shem Tov's brother-in-law",
+     "Reb Gershon Kitover"
+    ]
+   },
+   {
+    "id": "rabbi_leib_sarahs",
+    "label": "Reb Leib Sarah's",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Rabbi Leib Sarah's",
+     "Leib Sores"
+    ]
+   },
+   {
+    "id": "rabbi_michel_of_zlotchov",
+    "label": "Rabbi Yechiel Michel of Zlotchov (the Zlotchover Maggid)",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Zlotchover Maggid",
+     "Reb Michel Zlotchover",
+     "Rabbi Michel of Zlotchov"
+    ]
+   },
+   {
+    "id": "rabbi_nochum_of_chernobyl",
+    "label": "Rabbi Menachem Nochum of Chernobyl",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Rabbi Nochum of Chernobyl",
+     "Chernobyler Maggid",
+     "Meor Einayim"
+    ]
+   },
+   {
+    "id": "rabbi_simcha_bunim_of_pshischa",
+    "label": "Rabbi Simcha Bunim of Pshischa",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Reb Simcha Bunim of Peshischa",
+     "Rabbi Simcha Bunem of Peshischa"
+    ]
+   },
+   {
+    "id": "rabbi_wolf_kitzes",
+    "label": "Rabbi Zev Wolf Kitzes",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Reb Wolf Kitzes",
+     "Reb Velvel Kitzes"
+    ]
+   },
+   {
+    "id": "rabbi_yissachar_ber_of_lubavitch",
+    "label": "Rabbi Yissachar Ber of Lubavitch (the Lubavitcher Maggid)",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Lubavitcher Maggid",
+     "the Alter Rebbe's teacher"
+    ]
+   },
+   {
+    "id": "klausenburger_rebbe",
+    "label": "The Klausenburger Rebbe (Rabbi Yekusiel Yehudah Halberstam)",
+    "category": "baal_shem_tov_circle_and_chassidic_masters",
+    "aliases": [
+     "Klausenburger Rebbe",
+     "Sanz-Klausenburg",
+     "Kiryat Sanz"
+    ]
+   },
+   {
+    "id": "rebbetzin_devorah_leah",
+    "label": "Rebbetzin Devorah Leah (mother of the Tzemach Tzedek)",
+    "category": "rebbeim_family",
+    "aliases": [
+     "daughter of the Alter Rebbe",
+     "the Tzemach Tzedek's mother"
+    ]
+   },
+   {
+    "id": "rabbi_zalman_zezmer",
+    "label": "Reb Zalman Zezmer",
+    "category": "chassidim",
+    "aliases": [
+     "Rabbi Zalman Zezmer",
+     "the Alter Rebbe's collector"
+    ]
+   },
+   {
+    "id": "rabbi_yaakov_kaidaner",
+    "label": "Reb Yaakov Kaidaner",
+    "category": "chassidim",
+    "aliases": [
+     "Reb Yankel Kaidaner",
+     "Rabbi Yaakov of Kaidanov",
+     "Rabbi Yaakov Kadaner",
+     "author of Sippurim Noraim"
+    ]
+   },
+   {
+    "id": "radatz",
+    "label": "The Radatz (Rabbi Dovid Tzvi Chein)",
+    "category": "chassidim",
+    "aliases": [
+     "Radatz",
+     "Rabbi Chaim Dovid Tzvi Chein",
+     "Reb Dovid Tzvi Chein",
+     "the Frierdiker Rebbe's teacher"
+    ]
+   },
+   {
+    "id": "rabbi_shmuel_levitin",
+    "label": "Rabbi Shmuel Levitin",
+    "category": "chassidim",
+    "aliases": [
+     "Reb Shmuel Levitin"
+    ]
+   },
+   {
+    "id": "rabbi_leibel_groner",
+    "label": "Rabbi Leibel Groner (the Rebbe's secretary)",
+    "category": "chassidim",
+    "aliases": [
+     "Rabbi Groner",
+     "Rabbi Yehuda Leib Groner"
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "id": "cheshvan",
+    "label": "Month of Cheshvan",
+    "when": "Cheshvan",
+    "aliases": [
+     "Mar Cheshvan",
+     "Bul",
+     "Rosh Chodesh Cheshvan"
+    ]
+   },
+   {
+    "id": "kislev",
+    "label": "Month of Kislev",
+    "when": "Kislev",
+    "aliases": [
+     "Chodesh Kislev",
+     "month of farbrengens"
+    ]
+   },
+   {
+    "id": "yud_daled_kislev",
+    "label": "Yud-Daled Kislev",
+    "when": "14 Kislev",
+    "aliases": [
+     "Wedding anniversary of the Rebbe and Rebbetzin"
+    ]
+   },
+   {
+    "id": "chof_teves",
+    "label": "Chof Teves",
+    "when": "20 Teves",
+    "aliases": [
+     "Yahrzeit of the Rambam"
+    ]
+   },
+   {
+    "id": "zayin_adar",
+    "label": "Zayin Adar",
+    "when": "7 Adar",
+    "aliases": [
+     "Yahrzeit and birthday of Moshe Rabbeinu"
+    ]
+   },
+   {
+    "id": "chof_zayin_adar",
+    "label": "Chof-Zayin Adar",
+    "when": "27 Adar",
+    "aliases": [
+     "27 Adar"
+    ]
+   },
+   {
+    "id": "yud_gimmel_nissan",
+    "label": "Yud-Gimmel Nissan",
+    "when": "13 Nissan",
+    "aliases": [
+     "Yahrzeit of the Tzemach Tzedek"
+    ]
+   },
+   {
+    "id": "chof_hei_elul",
+    "label": "Chof-Hei Elul",
+    "when": "25 Elul",
+    "aliases": [
+     "25 Elul",
+     "first day of Creation"
+    ]
+   },
+   {
+    "id": "yud_gimmel_tishrei",
+    "label": "Yud-Gimmel Tishrei",
+    "when": "13 Tishrei",
+    "aliases": [
+     "Yahrzeit of the Rebbe Maharash"
+    ]
+   },
+   {
+    "id": "shabbos_bereishis",
+    "label": "Shabbos Bereishis",
+    "when": "Shabbos after Simchas Torah"
+   },
+   {
+    "id": "shabbos_shirah",
+    "label": "Shabbos Shirah",
+    "when": "Shabbos Parshas Beshalach",
+    "aliases": [
+     "Shabbos Shira",
+     "Az Yashir"
+    ]
+   },
+   {
+    "id": "shabbos_shekalim",
+    "label": "Shabbos Shekalim",
+    "when": "Shabbos before Rosh Chodesh Adar",
+    "aliases": [
+     "Parshas Shekalim",
+     "half-shekel"
+    ]
+   }
+  ],
+  "works": [
+   {
+    "id": "kesuvim",
+    "label": "Kesuvim (Mishlei, Koheles and the other Writings)",
+    "aliases": [
+     "Mishlei",
+     "Koheles",
+     "Iyov",
+     "Eichah",
+     "Daniel",
+     "Shir HaShirim",
+     "Proverbs",
+     "Ecclesiastes",
+     "Writings"
+    ]
+   },
+   {
+    "id": "chovos_halevavos",
+    "label": "Chovos HaLevavos (Shaar HaBitachon)",
+    "aliases": [
+     "Duties of the Heart",
+     "Shaar HaBitachon",
+     "Gate of Trust"
+    ]
+   },
+   {
+    "id": "sippurim_noraim",
+    "label": "Sippurim Noraim (Reb Yaakov Kaidaner)",
+    "aliases": [
+     "Sipurim Noraim",
+     "Sippurim Nora'im"
+    ]
+   }
+  ],
+  "mitzvos": [
+   {
+    "id": "aseres_hadibros",
+    "label": "Hearing the Aseres HaDibros",
+    "aliases": [
+     "Ten Commandments",
+     "hearing the Ten Commandments on Shavuos",
+     "Matan Torah in shul"
+    ]
+   },
+   {
+    "id": "kiddush_levanah",
+    "label": "Kiddush Levanah",
+    "aliases": [
+     "blessing the new moon",
+     "Kiddush Levana"
+    ]
+   },
+   {
+    "id": "parshas_zachor",
+    "label": "Hearing Parshas Zachor",
+    "aliases": [
+     "remembering Amalek",
+     "Zachor"
+    ]
+   },
+   {
+    "id": "payos",
+    "label": "Payos",
+    "aliases": [
+     "peyos",
+     "side curls"
+    ]
+   }
+  ],
+  "midos": [
+   {
+    "id": "resisting_bad_influence",
+    "label": "Resisting bad influences",
+    "aliases": [
+     "choosing good friends",
+     "bad crowd",
+     "peer pressure",
+     "not copying others"
+    ]
+   },
+   {
+    "id": "valuing_time",
+    "label": "Valuing time",
+    "aliases": [
+     "shmiras hazman",
+     "not wasting time"
+    ]
+   }
+  ],
+  "series": [
+   {
+    "id": "simchas_beis_hashoeva_5785",
+    "label": "Simchas Beis Hashoeva Rallies 5785",
+    "description": "Live children's rallies, Sukkos 5785 (year slogan said on air). Companion of simchas_beis_hashoeva_5786."
+   }
+  ]
+ },
+ "patches": [
+  {
+   "item": "03f01eb654",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role central)."
+  },
+  {
+   "item": "212c1a5998",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role teaching_cited)."
+  },
+  {
+   "item": "29dc93d7ca",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role teaching_cited)."
+  },
+  {
+   "item": "365d039f44",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role mentioned)."
+  },
+  {
+   "item": "74ae981cd2",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role teaching_cited)."
+  },
+  {
+   "item": "77cf0ad617",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role mentioned)."
+  },
+  {
+   "item": "828b6c6fa8",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role teaching_cited)."
+  },
+  {
+   "item": "a890e4740d",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role teaching_cited)."
+  },
+  {
+   "item": "f8713031b8",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chofetz_chaim' (role teaching_cited)."
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chofetz_chaim",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: new term 'chofetz_chaim'; this item names it in its own summary/characters but had no id for it (role teaching_cited)."
+  },
+  {
+   "item": "7357664ac4",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chida",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chida' (role teaching_cited)."
+  },
+  {
+   "item": "5819f48712",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "maggid_of_dubno",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'maggid_of_dubno' (role teaching_cited)."
+  },
+  {
+   "item": "5d0376fc7a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "maggid_of_dubno",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'maggid_of_dubno' (role teaching_cited)."
+  },
+  {
+   "item": "8e94797760",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rav_saadia_gaon",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rav_saadia_gaon' (role teaching_cited)."
+  },
+  {
+   "item": "dca475212d",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rav_saadia_gaon",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rav_saadia_gaon' (role teaching_cited)."
+  },
+  {
+   "item": "45d0fea825",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbeinu_bachya_ibn_paquda",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbeinu_bachya_ibn_paquda' (role teaching_cited)."
+  },
+  {
+   "item": "9c6c7e754e",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbeinu_bachya_ibn_paquda",
+    "role": "teaching_cited"
+   },
+   "reason": "vocab pass 2: new term 'rabbeinu_bachya_ibn_paquda'; this item names it in its own summary/characters but had no id for it (role teaching_cited)."
+  },
+  {
+   "item": "adb8ef20c7",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "maharam_of_rottenburg",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'maharam_of_rottenburg' (role appears)."
+  },
+  {
+   "item": "03fe816538",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role central)."
+  },
+  {
+   "item": "35571dde36",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role central)."
+  },
+  {
+   "item": "b1a205211a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role central)."
+  },
+  {
+   "item": "bad310d608",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role central)."
+  },
+  {
+   "item": "cce7163480",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role central)."
+  },
+  {
+   "item": "b70e1124bd",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role central)."
+  },
+  {
+   "item": "179f246846",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role appears)."
+  },
+  {
+   "item": "6629d7464c",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_moshe_galanti",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_moshe_galanti' (role appears)."
+  },
+  {
+   "item": "3ab5f08f27",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "tosfos_yom_tov",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'tosfos_yom_tov' (role appears)."
+  },
+  {
+   "item": "78283b5e51",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "tosfos_yom_tov",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'tosfos_yom_tov' (role appears)."
+  },
+  {
+   "item": "4ea90aa292",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "tosfos_yom_tov",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'tosfos_yom_tov' (role appears)."
+  },
+  {
+   "item": "87c0db90e5",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "tosfos_yom_tov",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'tosfos_yom_tov' (role appears)."
+  },
+  {
+   "item": "35d1a78d02",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "shaagas_aryeh",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shaagas_aryeh' (role central)."
+  },
+  {
+   "item": "3f112e5df7",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "shaagas_aryeh",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shaagas_aryeh' (role central)."
+  },
+  {
+   "item": "6aa8d7ae63",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "shaagas_aryeh",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shaagas_aryeh' (role central)."
+  },
+  {
+   "item": "38d83b32ce",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yisroel_salanter' (role central)."
+  },
+  {
+   "item": "6341e96d6e",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yisroel_salanter' (role central)."
+  },
+  {
+   "item": "9ba0d1a6a7",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yisroel_salanter' (role central)."
+  },
+  {
+   "item": "a5ddda2685",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yisroel_salanter' (role central)."
+  },
+  {
+   "item": "8ef0e7ba46",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yisroel_salanter",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yisroel_salanter' (role central)."
+  },
+  {
+   "item": "048cba0e8e",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "eli_hakohen",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'eli_hakohen' (role appears)."
+  },
+  {
+   "item": "65cc733f61",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "eli_hakohen",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'eli_hakohen' (role appears)."
+  },
+  {
+   "item": "6b6fec027a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "eli_hakohen",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'eli_hakohen' (role appears)."
+  },
+  {
+   "item": "a06fb5b0d9",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "eli_hakohen",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'eli_hakohen' (role appears)."
+  },
+  {
+   "item": "b8bab9ba09",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "shaul_hamelech",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shaul_hamelech' (role mentioned)."
+  },
+  {
+   "item": "1afde74e08",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_elazar_ben_azariah' (role appears)."
+  },
+  {
+   "item": "933079e352",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_elazar_ben_azariah' (role appears)."
+  },
+  {
+   "item": "64ecbd1960",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_elazar_ben_azariah' (role appears)."
+  },
+  {
+   "item": "32ef7d25e6",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_elazar_ben_azariah'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "fa63d3c763",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_elazar_ben_azariah",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_elazar_ben_azariah'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "42a448f1fc",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yehoshua_ben_ilem",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yehoshua_ben_ilem' (role central)."
+  },
+  {
+   "item": "f826c5f743",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yehoshua_ben_ilem",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yehoshua_ben_ilem' (role appears)."
+  },
+  {
+   "item": "64064de9d3",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yehoshua_ben_ilem",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_yehoshua_ben_ilem'; this item names it in its own summary/characters but had no id for it (role mentioned)."
+  },
+  {
+   "item": "7753ff611a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'yosef_mokir_shabbos' (role central)."
+  },
+  {
+   "item": "01bf11df00",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role central)."
+  },
+  {
+   "item": "0affcab8ab",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role central)."
+  },
+  {
+   "item": "b997afa367",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role central)."
+  },
+  {
+   "item": "ed960138a4",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role central)."
+  },
+  {
+   "item": "f811fa27af",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "6b6fec027a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "a06fb5b0d9",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "yosef_mokir_shabbos",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'yosef_mokir_shabbos'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "569c810057",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chozeh_of_lublin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chozeh_of_lublin' (role appears)."
+  },
+  {
+   "item": "93f9ef4eb9",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chozeh_of_lublin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chozeh_of_lublin' (role appears)."
+  },
+  {
+   "item": "f9544de2aa",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "chozeh_of_lublin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chozeh_of_lublin' (role appears)."
+  },
+  {
+   "item": "a42cb33445",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "maggid_of_koznitz",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'maggid_of_koznitz' (role central)."
+  },
+  {
+   "item": "90fe828dae",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_aharon_of_karlin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_aharon_of_karlin' (role appears)."
+  },
+  {
+   "item": "aeb148800a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_aharon_of_karlin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_aharon_of_karlin' (role appears)."
+  },
+  {
+   "item": "eb0459de7a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_gershon_kitover",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_gershon_kitover' (role appears)."
+  },
+  {
+   "item": "054944bbf2",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_leib_sarahs' (role appears)."
+  },
+  {
+   "item": "4cd46a949c",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_leib_sarahs' (role appears)."
+  },
+  {
+   "item": "620c312981",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_leib_sarahs' (role appears)."
+  },
+  {
+   "item": "fc369dd53b",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_leib_sarahs' (role appears)."
+  },
+  {
+   "item": "fec54397e2",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_leib_sarahs' (role appears)."
+  },
+  {
+   "item": "9187a4035a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_michel_of_zlotchov",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_michel_of_zlotchov' (role mentioned)."
+  },
+  {
+   "item": "cbdb9ab2ea",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_michel_of_zlotchov",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_michel_of_zlotchov' (role mentioned)."
+  },
+  {
+   "item": "285846e5e3",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_nochum_of_chernobyl",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_nochum_of_chernobyl' (role appears)."
+  },
+  {
+   "item": "a512619974",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_simcha_bunim_of_pshischa",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_simcha_bunim_of_pshischa' (role appears)."
+  },
+  {
+   "item": "b97b61289f",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_simcha_bunim_of_pshischa",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_simcha_bunim_of_pshischa'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "aeae91b4cd",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_wolf_kitzes",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_wolf_kitzes' (role appears)."
+  },
+  {
+   "item": "6a8170d97f",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_wolf_kitzes",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_wolf_kitzes'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "f069679286",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yissachar_ber_of_lubavitch",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yissachar_ber_of_lubavitch' (role mentioned)."
+  },
+  {
+   "item": "badd162691",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "klausenburger_rebbe",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'klausenburger_rebbe' (role mentioned)."
+  },
+  {
+   "item": "7abf00d146",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rebbetzin_devorah_leah",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rebbetzin_devorah_leah' (role appears)."
+  },
+  {
+   "item": "aeb148800a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rebbetzin_devorah_leah",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rebbetzin_devorah_leah' (role mentioned)."
+  },
+  {
+   "item": "06304e8858",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_zalman_zezmer",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_zalman_zezmer' (role central)."
+  },
+  {
+   "item": "ca1ed29b8b",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_zalman_zezmer",
+    "role": "central"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_zalman_zezmer' (role central)."
+  },
+  {
+   "item": "15ee14294d",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yaakov_kaidaner",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_yaakov_kaidaner' (role appears)."
+  },
+  {
+   "item": "b97b61289f",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_yaakov_kaidaner",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_yaakov_kaidaner'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "c6250a3b05",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "radatz",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'radatz' (role appears)."
+  },
+  {
+   "item": "de9bba59ed",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "radatz",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'radatz' (role appears)."
+  },
+  {
+   "item": "3793de478c",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "radatz",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'radatz'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "6c85a42c28",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "radatz",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'radatz'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "cff49c519a",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "radatz",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'radatz'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "e537998c07",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "radatz",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'radatz'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "b0d51c0ab5",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_shmuel_levitin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_shmuel_levitin' (role appears)."
+  },
+  {
+   "item": "47ece14b5e",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_shmuel_levitin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_shmuel_levitin'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "8707992670",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_shmuel_levitin",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_shmuel_levitin'; this item names it in its own summary/characters but had no id for it (role appears)."
+  },
+  {
+   "item": "80b558554d",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leibel_groner",
+    "role": "appears"
+   },
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'rabbi_leibel_groner' (role appears)."
+  },
+  {
+   "item": "087ea9cc6e",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leibel_groner",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_leibel_groner'; this item names it in its own summary/characters but had no id for it (role mentioned)."
+  },
+  {
+   "item": "0cc47ed234",
+   "op": "add_to_list",
+   "path": "subjects.people",
+   "value": {
+    "id": "rabbi_leibel_groner",
+    "role": "mentioned"
+   },
+   "reason": "vocab pass 2: new term 'rabbi_leibel_groner'; this item names it in its own summary/characters but had no id for it (role mentioned)."
+  },
+  {
+   "item": "e8344bd6f4",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'cheshvan'."
+  },
+  {
+   "item": "a1317d8c93",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: new term 'cheshvan'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "c857948984",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: new term 'cheshvan'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "e4290bb182",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: new term 'cheshvan'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "c7645f9f33",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: new term 'cheshvan'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "23f4f1434c",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: new term 'cheshvan'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "5883b47d62",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "cheshvan",
+   "reason": "vocab pass 2: new term 'cheshvan'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "66e941c420",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "kislev",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'kislev'."
+  },
+  {
+   "item": "80b558554d",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "yud_daled_kislev",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'yud_daled_kislev'."
+  },
+  {
+   "item": "8b1b5cf557",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "zayin_adar",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'zayin_adar'."
+  },
+  {
+   "item": "f639703e3b",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "zayin_adar",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'zayin_adar'."
+  },
+  {
+   "item": "6e0946d4ee",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "chof_zayin_adar",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chof_zayin_adar'."
+  },
+  {
+   "item": "0f6f2dc878",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "yud_gimmel_nissan",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'yud_gimmel_nissan'."
+  },
+  {
+   "item": "c3857a3b34",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "yud_gimmel_nissan",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'yud_gimmel_nissan'."
+  },
+  {
+   "item": "d6daafbc95",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "yud_gimmel_nissan",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'yud_gimmel_nissan'."
+  },
+  {
+   "item": "5b6b690fa8",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "chof_hei_elul",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chof_hei_elul'."
+  },
+  {
+   "item": "9888017ef7",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "chof_hei_elul",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chof_hei_elul'."
+  },
+  {
+   "item": "afddab9ffe",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "chof_hei_elul",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'chof_hei_elul'."
+  },
+  {
+   "item": "7abf00d146",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "yud_gimmel_tishrei",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'yud_gimmel_tishrei'."
+  },
+  {
+   "item": "38f17a669a",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_bereishis",
+   "reason": "vocab pass 2: new term 'shabbos_bereishis'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "8a1af814fc",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_bereishis",
+   "reason": "vocab pass 2: new term 'shabbos_bereishis'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "89da57355d",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shirah",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shabbos_shirah'."
+  },
+  {
+   "item": "abdf1b1e62",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shirah",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shabbos_shirah'."
+  },
+  {
+   "item": "0a959b496c",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shirah",
+   "reason": "vocab pass 2: new term 'shabbos_shirah'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "aaa67d6941",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shirah",
+   "reason": "vocab pass 2: new term 'shabbos_shirah'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "b4e30d4905",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shirah",
+   "reason": "vocab pass 2: new term 'shabbos_shirah'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "0ece09874d",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shekalim",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shabbos_shekalim'."
+  },
+  {
+   "item": "732c5af358",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shekalim",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'shabbos_shekalim'."
+  },
+  {
+   "item": "681b318628",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shekalim",
+   "reason": "vocab pass 2: new term 'shabbos_shekalim'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "777afc34b1",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shekalim",
+   "reason": "vocab pass 2: new term 'shabbos_shekalim'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "9c22ce4e9b",
+   "op": "add_to_list",
+   "path": "subjects.calendar",
+   "value": "shabbos_shekalim",
+   "reason": "vocab pass 2: new term 'shabbos_shekalim'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "49efe58654",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'aseres_hadibros'."
+  },
+  {
+   "item": "9416033b17",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'aseres_hadibros'."
+  },
+  {
+   "item": "ac13894ea5",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'aseres_hadibros'."
+  },
+  {
+   "item": "0946eedba1",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "0a9df2758e",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "1a39be3c88",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "265e6ceeb7",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "3abbb046a6",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "3e59f5b538",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "3fa3f0c8c9",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "45db0c2fb5",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "92ff816d90",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "adb8ef20c7",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "afb5e4a1c3",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "b8bab9ba09",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "be032f3167",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "cc93c1f1cf",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "e212bff400",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "f8e399e249",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "6aa8d7ae63",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "e1ee3b60ec",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "aseres_hadibros",
+   "reason": "vocab pass 2: new term 'aseres_hadibros'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "5ec266a540",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "kiddush_levanah",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'kiddush_levanah'."
+  },
+  {
+   "item": "7f23a52931",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "kiddush_levanah",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'kiddush_levanah'."
+  },
+  {
+   "item": "db9712388b",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "kiddush_levanah",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'kiddush_levanah'."
+  },
+  {
+   "item": "2881ed4511",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "parshas_zachor",
+   "reason": "vocab pass 2: new term 'parshas_zachor'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "3b7fd42cf1",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "parshas_zachor",
+   "reason": "vocab pass 2: new term 'parshas_zachor'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "7df306633a",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "parshas_zachor",
+   "reason": "vocab pass 2: new term 'parshas_zachor'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "8b1b5cf557",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "parshas_zachor",
+   "reason": "vocab pass 2: new term 'parshas_zachor'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "90fe828dae",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "payos",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'payos'."
+  },
+  {
+   "item": "cc93c1f1cf",
+   "op": "add_to_list",
+   "path": "subjects.mitzvos",
+   "value": "payos",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'payos'."
+  },
+  {
+   "item": "59ebaba0bf",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "resisting_bad_influence",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'resisting_bad_influence'."
+  },
+  {
+   "item": "86349c08d6",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "resisting_bad_influence",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'resisting_bad_influence'."
+  },
+  {
+   "item": "be5c373bf4",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "resisting_bad_influence",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'resisting_bad_influence'."
+  },
+  {
+   "item": "276c6bf981",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "resisting_bad_influence",
+   "reason": "vocab pass 2: new term 'resisting_bad_influence'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "8ae1d03037",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "resisting_bad_influence",
+   "reason": "vocab pass 2: new term 'resisting_bad_influence'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "df73f5aad1",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "resisting_bad_influence",
+   "reason": "vocab pass 2: new term 'resisting_bad_influence'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: proposed_new_terms accepted as 'valuing_time'."
+  },
+  {
+   "item": "9187a4035a",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "cbdb9ab2ea",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "39959e8c5c",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "456522bfcc",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "4c22e88ed2",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "676c0eab8c",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "7226693357",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "82672b0336",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "8fa0b3541e",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "b83f53e345",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "cab583e2b7",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "ea3bc56c0e",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "bc10ca2c5f",
+   "op": "add_to_list",
+   "path": "subjects.midos",
+   "value": "valuing_time",
+   "reason": "vocab pass 2: new term 'valuing_time'; this item names it in its own summary/characters but had no id for it."
+  },
+  {
+   "item": "22732f6818",
+   "op": "set",
+   "path": "subjects.calendar",
+   "value": [
+    "chof_teves"
+   ],
+   "reason": "vocab pass 2: 'chof_daled_teves' was a stand-in noted in proposed_new_terms; replaced by the new term 'chof_teves'."
+  },
+  {
+   "item": "3bc728ac3c",
+   "op": "set",
+   "path": "subjects.calendar",
+   "value": [
+    "shabbos_bereishis"
+   ],
+   "reason": "vocab pass 2: 'shemini_atzeres_simchas_torah' was a stand-in noted in proposed_new_terms; replaced by the new term 'shabbos_bereishis'."
+  },
+  {
+   "item": "2838d2da96",
+   "op": "set",
+   "path": "subjects.mitzvos",
+   "value": [
+    "parshas_zachor"
+   ],
+   "reason": "vocab pass 2: 'kavod_shul' was a stand-in noted in proposed_new_terms; replaced by the new term 'parshas_zachor'."
+  },
+  {
+   "item": "d694753095",
+   "op": "set",
+   "path": "subjects.mitzvos",
+   "value": [
+    "ahavas_yisroel_mitzvah",
+    "parshas_zachor"
+   ],
+   "reason": "vocab pass 2: 'kavod_shul' was a stand-in noted in proposed_new_terms; replaced by the new term 'parshas_zachor'."
+  },
+  {
+   "item": "1d8cd14fa3",
+   "op": "set",
+   "path": "classification.series",
+   "value": "simchas_beis_hashoeva_5785",
+   "reason": "vocab pass 2: series left null for lack of a 5785 series; proposed series accepted (5785 slogan said on air)."
+  },
+  {
+   "item": "3b05d42392",
+   "op": "set",
+   "path": "classification.series",
+   "value": "simchas_beis_hashoeva_5785",
+   "reason": "vocab pass 2: series left null for lack of a 5785 series; proposed series accepted (5785 slogan said on air)."
+  },
+  {
+   "item": "053e0722d6",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 20:8",
+     "note": "'These with chariots and those with horses, but we in the name of Hashem.'"
+    },
+    {
+     "work": "siddur",
+     "ref": "Al HaNissim",
+     "note": "'Rabbim b'yad me'atim', the many in the hands of the few."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'Ki ner mitzvah v'Torah or': mitzvos and Torah are light."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "0615c36a34",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'Eis lakol': there is a time for everything, as Shlomo HaMelech said."
+    },
+    {
+     "work": "gemara",
+     "ref": "Yevamos 62b",
+     "note": "'Our Chachamim tell us' about the plague among Rabbi Akiva's students during Sefirah."
+    },
+    {
+     "work": "chumash",
+     "ref": "Shemos 30:17-21",
+     "note": "The Kohen washing at the basin at the entrance of the Mishkan."
+    },
+    {
+     "work": "gemara",
+     "ref": "Eruvin 21b",
+     "note": "Rabbi Akiva in prison uses his water ration to wash his hands."
+    },
+    {
+     "work": "midrash",
+     "ref": "Sifra, Kedoshim; Vayikra 19:18",
+     "note": "Rabbi Akiva: 'love your fellow as yourself' is a great rule of the Torah."
+    },
+    {
+     "work": "tanya",
+     "ref": "Ahavas Yisroel leads to Ahavas Hashem",
+     "note": "Cited in the name of the Alter Rebbe."
+    },
+    {
+     "work": "gemara",
+     "ref": "Yoma 9b",
+     "note": "The Beis HaMikdash was destroyed because of baseless hatred."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 20",
+     "note": "Recited for the Rebbe's recovery."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "0a7586beb7",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "sichos_of_the_rebbe",
+     "ref": "'Listen to what the candles are telling us'",
+     "note": "Cited as the Rebbe's words in the name of the Frierdiker Rebbe."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'With the clouds of heaven': clouds that will bring the Jewish people to Eretz Yisroel."
+    },
+    {
+     "work": "siddur",
+     "ref": "Al HaNissim",
+     "note": "Thanking Hashem for the miracles and wonders."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "213559b057",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything', cited as said by Shlomo HaMelech."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'He neither slumbers nor sleeps, the Guardian of Israel.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "23e55a5098",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Shemos 20:12",
+     "note": "'Honor your father and your mother.'"
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'Ki ner mitzvah v'Torah or.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "2629d0ceeb",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "The prophet Daniel: heavenly clouds will carry us to Eretz Yisroel when Moshiach comes."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel', as Dovid HaMelech writes."
+    },
+    {
+     "work": "haggadah",
+     "ref": "V'hi she'amdah",
+     "note": "'In every generation they stand against us… and the Holy One saves us from their hands.'"
+    },
+    {
+     "work": "oral_tradition",
+     "ref": "Saying of the Baal Shem Tov",
+     "note": "'A Yid is keinmal nit allein': a Jew is never alone, Hashem is always with him."
+    },
+    {
+     "work": "yerushalmi",
+     "ref": "Rosh Hashanah 3:8",
+     "note": "'Our Chachamim tell us' that on one's birthday one's mazel is stronger."
+    },
+    {
+     "work": "sichos_of_the_rebbe",
+     "ref": "Birthday campaign; Twelve Pesukim",
+     "note": "The Rebbe wants every child to mark his Jewish birthday and to say the Twelve Pesukim."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "2cdc2fb9fd",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "Shlomo HaMelech: 'There is a time for everything.'"
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "2ed007c078",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Vayikra 18:3",
+     "note": "'Like the practice of the land of Egypt... you shall not do.'"
+    },
+    {
+     "work": "oral_tradition",
+     "note": "The Alter Rebbe: 'Men darf leben mit der tzeit', live with the weekly parsha."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "34fa0cd369",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Shemos 20:12",
+     "note": "'Honor your father and mother... so that your days will be lengthened.'"
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'Ki ner mitzvah v'Torah or'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "37367b27fe",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything', said by Shlomo HaMelech."
+    },
+    {
+     "work": "tehillim",
+     "ref": "121:4",
+     "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "393f61d950",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything' (cited as Shlomo HaMelech)."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 20",
+     "note": "Recited together for the Rebbe's recovery."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "3d8a6f67a3",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "rambam_mishneh_torah",
+     "note": "The Rambam: whatever you need, turn only to Hashem (no exact reference given)."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel.'"
+    },
+    {
+     "work": "chumash",
+     "ref": "Shemos 15:1",
+     "note": "'Az yashir Moshe': the future song of the Geulah."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Eichah 5:21",
+     "note": "'Hashiveinu Hashem eilecha...'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "423f5bbe7a",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Shemos 15:1",
+     "note": "'Az yashir Moshe': the future song of the Geulah."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Eichah 5:21",
+     "note": "'Hashiveinu Hashem eilecha...'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "46a223a493",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything'."
+    },
+    {
+     "work": "gemara",
+     "ref": "Yevamos 62b",
+     "note": "Rabbi Akiva's students died because they did not show respect to one another."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "4ab57db8c9",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "The prophet Daniel: heavenly clouds will carry us to Eretz Yisroel when Moshiach comes."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "4b73fb52c9",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "sichos_of_the_rebbe",
+     "ref": "'Listen to what the candles are telling us'",
+     "note": "Cited as the Rebbe's words in the name of the Frierdiker Rebbe."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'With the clouds of heaven': clouds that will bring the Jewish people to Eretz Yisroel."
+    },
+    {
+     "work": "siddur",
+     "ref": "Al HaNissim",
+     "note": "Thanking Hashem for the miracles and wonders."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "4d54f86128",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "sichos_of_the_rebbe",
+     "ref": "'Listen carefully to what the candles are saying'",
+     "note": "Cited as the Rebbe quoting the Frierdiker Rebbe."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'With the clouds of heaven'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "528b031b11",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Shemos 20:12",
+     "note": "'Honor your father and your mother', from the Ten Commandments."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'Ki ner mitzvah v'Torah or'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "52e77319e6",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 10:2",
+     "note": "'Tzedakah saves from death', cited as written by Shlomo HaMelech in Mishlei."
+    },
+    {
+     "work": "oral_tradition",
+     "ref": "'Live with the times'",
+     "note": "The Alter Rebbe's saying about living with the weekly parsha."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "546c4005d4",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'Ki ner mitzvah v'Torah or': mitzvos and Torah are light."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "59d09779c7",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'With the clouds of heaven'; cited as the prophet Daniel."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "5f2fe46249",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'A time for everything' (Shlomo HaMelech)."
+    },
+    {
+     "work": "chumash",
+     "ref": "Vayikra 19:18",
+     "note": "'Love your fellow as yourself', called by Rabbi Akiva a great rule of the Torah (cited from the Gemara)."
+    },
+    {
+     "work": "pirkei_avos",
+     "ref": "1:1",
+     "note": "'Moshe received the Torah from Sinai': humility learned from the lowest mountain."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "6341e96d6e",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "sichos_of_the_rebbe",
+     "ref": "'Listen carefully to what the candles are saying'",
+     "note": "Cited as the Rebbe quoting the Frierdiker Rebbe."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'With the clouds of heaven': the clouds that will bring the Jews home."
+    },
+    {
+     "work": "siddur",
+     "ref": "Al HaNissim",
+     "note": "Thanking Hashem for miracles and wonders."
+    },
+    {
+     "work": "tehillim",
+     "ref": "37:23",
+     "note": "'The steps of a man are established by Hashem', quoted as a teaching of the Baal Shem Tov."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "699d1e84da",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'Our prophets' tell of the clouds of Heaven at Moshiach's coming."
+    },
+    {
+     "work": "chumash",
+     "ref": "Shemos 15:2",
+     "note": "'This is my G-d and I will beautify Him', called out by the children at the Splitting of the Sea."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "777566ae04",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'A time for everything' (Shlomo HaMelech)."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "77cf0ad617",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "midrash",
+     "ref": "Tz'enah U'r'enah",
+     "note": "Uncle Yossi says the story is taken from the sefer Tz'enah U'r'enah; it is a known Midrash about the tongue."
+    },
+    {
+     "work": "megillas_esther",
+     "ref": "Esther 4:16",
+     "note": "'Go and gather all the Jews': the miracle came through achdus."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 18:21",
+     "note": "'Death and life are in the hand of the tongue' (Shlomo HaMelech)."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "796a534305",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "haggadah",
+     "ref": "Ma Nishtanah",
+     "note": "The Seder begins with the children's questions."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "Cited as the prophet Daniel: the clouds of heaven that will carry us to Eretz Yisroel."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "79f1685101",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "pirkei_avos",
+     "ref": "1:2",
+     "note": "'The world stands on three things: Torah, avodah and gemilus chasadim.'"
+    },
+    {
+     "work": "chumash",
+     "ref": "Shemos 20:12",
+     "note": "'Honor your father and your mother.'"
+    },
+    {
+     "work": "kesuvim",
+     "note": "'Ki ner mitzvah v'Torah or' (Mishlei 6:23), mitzvos compared to a candle and Torah to light.",
+     "ref": "Mishlei 6:23"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "7d1316b235",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'A mitzvah is a candle and Torah is light'."
+    },
+    {
+     "work": "chumash",
+     "ref": "Bereishis 1:3",
+     "note": "'Let there be light.'"
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 20",
+     "note": "Recited together for the Rebbe's recovery."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "7e9443fe3a",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chovos_halevavos",
+     "ref": "Shaar HaBitachon",
+     "note": "Recommended by the Rebbe."
+    },
+    {
+     "work": "frierdiker_rebbe_memoirs",
+     "note": "The Cracow story as told by the Frierdiker Rebbe."
+    },
+    {
+     "work": "chumash",
+     "ref": "Vayikra 21:7",
+     "note": "A Kohen may not marry a divorced woman."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "845dab4795",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'With the clouds of heaven'; cited as the prophet Daniel."
+    },
+    {
+     "work": "tehillim",
+     "ref": "121:4",
+     "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+    },
+    {
+     "work": "midrash",
+     "ref": "Generation of the Dispersion vs. the Flood",
+     "note": "Cited as 'our Chachamim': the Tower of Bavel builders were spared destruction because they had achdus."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "8876a93979",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 18:21",
+     "note": "Shlomo HaMelech in Mishlei: death and life are in the hands of the tongue."
+    },
+    {
+     "work": "siddur",
+     "ref": "Maariv, Ahavas Olam",
+     "note": "'Ki hem chayeinu v'orech yameinu': words of Torah are our life and the length of our days."
+    },
+    {
+     "work": "siddur",
+     "ref": "Birchas HaMazon, HaRachaman; Shemoneh Esrei, Teka B'shofar",
+     "note": "Prayers for Eliyahu HaNavi's good news and for the great shofar of Moshiach."
+    },
+    {
+     "work": "rambam_mishneh_torah",
+     "note": "The Rambam's rule to believe in the coming of Moshiach."
+    },
+    {
+     "work": "midrash",
+     "note": "The two horns of Yitzchak's ram: one sounded at Matan Torah, the other to be sounded when Moshiach comes."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "89c906b5c6",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1, 'Eis lakol'",
+     "note": "Cited as Shlomo HaMelech's teaching: a time for everything."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "89f933a998",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 10:2",
+     "note": "'Tzedakah tatzil mimaves', tzedakah saves from death."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 18:21",
+     "note": "'Death and life are in the power of the tongue'."
+    },
+    {
+     "work": "siddur",
+     "ref": "Maariv: 'ki heim chayeinu v'orech yameinu'",
+     "note": "Words of Torah are our life and the length of our days."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "9abb2313ea",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "The Geulah 'with the clouds of heaven'."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "9c6c7e754e",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Bereishis 32:8",
+     "note": "'Vayira Yaakov me'od': Yaakov was very afraid."
+    },
+    {
+     "work": "midrash",
+     "note": "Yaakov feared a sin might cancel Hashem's promise."
+    },
+    {
+     "work": "chovos_halevavos",
+     "ref": "Shaar HaBitachon",
+     "note": "By Rabbeinu Bachya: Hashem helps the deserving and the undeserving."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "a2aba9fdf0",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "chumash",
+     "ref": "Bereishis 28:12",
+     "note": "Angels going up and down the ladder."
+    },
+    {
+     "work": "zohar",
+     "note": "The ladder is prayer."
+    },
+    {
+     "work": "rambam_mishneh_torah",
+     "note": "Turn to Hashem for whatever you need (cited as the Rambam)."
+    },
+    {
+     "work": "tehillim",
+     "ref": "100:2",
+     "note": "'Serve Hashem with joy.'"
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 10:2",
+     "note": "'Tzedakah saves from death.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "a3017f96d7",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "sichos_of_the_rebbe",
+     "ref": "'Listen to what the Chanukah lights are whispering'",
+     "note": "The Rebbe quoting his father-in-law, the Frierdiker Rebbe."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'Ki ner mitzvah v'Torah or': mitzvos and Torah are compared to light."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "a411297215",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 10:2",
+     "note": "Shlomo HaMelech: 'Tzedakah saves from death'."
+    },
+    {
+     "work": "pirkei_avos",
+     "ref": "Avos 1:2",
+     "note": "'The world stands on three things': Torah, davening and tzedakah."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "a526e22840",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "Moshiach coming with the clouds of heaven."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "a94d9e51d5",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 6:23",
+     "note": "'A mitzvah is a candle and Torah is light'."
+    },
+    {
+     "work": "chumash",
+     "ref": "Bereishis 1:3",
+     "note": "'Let there be light.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "ae155cc007",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "haggadah",
+     "ref": "Ma Nishtanah",
+     "note": "The Seder begins with the children's questions."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "Cited as the prophet Daniel: the clouds of heaven that will carry us to Eretz Yisroel."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "b1a458b742",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 10:2",
+     "note": "'Tzedakah saves from death', from Shlomo HaMelech's Mishlei."
+    },
+    {
+     "work": "chumash",
+     "ref": "Devarim 33:4",
+     "note": "'Torah tziva lanu Moshe', the first of the Twelve Pesukim."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "b8577c47e9",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "Shlomo HaMelech: 'There is a time for everything.'"
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel.'"
+    },
+    {
+     "work": "gemara",
+     "ref": "Yoma 9b",
+     "note": "'Our Sages tell us' the Beis HaMikdash was destroyed through baseless hatred."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "b97b61289f",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "igros_kodesh",
+     "note": "The Rebbe's letter explaining why people go to the Ohel."
+    },
+    {
+     "work": "sippurim_noraim",
+     "note": "Story recorded by Reb Yaakov Kaidaner, who witnessed it."
+    },
+    {
+     "work": "zohar",
+     "note": "Tzaddikim are greater after their passing than in their lifetime (as cited)."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "bcdb570c27",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'Eis lakol', there is a time for everything, cited from Shlomo HaMelech."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "c716c81414",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Mishlei 10:2",
+     "note": "'Tzedakah saves from death' (cited as Shlomo HaMelech in Mishlei)."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 20",
+     "note": "Recited together for the Rebbe's recovery."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "cadd238d04",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "The Geulah 'with the clouds of heaven'."
+    },
+    {
+     "work": "gemara",
+     "ref": "Megillah 6b",
+     "note": "'I have toiled and I have found: believe it.'"
+    },
+    {
+     "work": "chumash",
+     "ref": "Bereishis 1:5",
+     "note": "'And it was evening and it was morning, one day.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "d7c2af64da",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "tehillim",
+     "ref": "119:72",
+     "note": "'The Torah of Your mouth is better to me than thousands of gold and silver.'"
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "Moshiach comes with the clouds of heaven (cited as the prophet Daniel)."
+    },
+    {
+     "work": "siddur",
+     "ref": "Havdalah",
+     "note": "'Behold, G-d is my salvation; I will trust and not fear.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "d8bd0302fb",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything', said by Shlomo HaMelech."
+    },
+    {
+     "work": "tehillim",
+     "ref": "121:4",
+     "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "de684a1a44",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "pirkei_avos",
+     "ref": "1:17",
+     "note": "'Not study but action is the main thing' (quoted)."
+    },
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'Our prophets' tell of the clouds of Heaven at Moshiach's coming."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "e1f0dfdd1d",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'Eis lakol', there is a time for everything, cited from Shlomo HaMelech."
+    },
+    {
+     "work": "rambam_mishneh_torah",
+     "note": "The class's song names the fourteen books of the Mishneh Torah."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "e23ba9ec95",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "'Our prophets' tell of the clouds of Heaven at Moshiach's coming."
+    },
+    {
+     "work": "chumash",
+     "ref": "Shemos 15:2",
+     "note": "'This is my G-d and I will beautify Him', called out by the children at the Splitting of the Sea."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "efb72976ab",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'There is a time for everything', cited as said by Shlomo HaMelech."
+    },
+    {
+     "work": "tehillim",
+     "ref": "Tehillim 121:4",
+     "note": "'He neither slumbers nor sleeps, the Guardian of Israel.'"
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "f0cf22911e",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "Moshiach coming with the clouds of heaven."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "f1de486e32",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1",
+     "note": "'Eis lakol': there is a time for everything, as Shlomo HaMelech said."
+    },
+    {
+     "work": "gemara",
+     "ref": "Yevamos 62b",
+     "note": "'Our Chachamim tell us' about the plague among Rabbi Akiva's students during Sefirah."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "fbe6825c15",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Daniel 7:13",
+     "note": "Moshiach coming with the clouds of heaven."
+    },
+    {
+     "work": "tehillim",
+     "ref": "119:72",
+     "note": "'The Torah of Your mouth is better to me than thousands of gold and silver.'"
+    },
+    {
+     "work": "gemara",
+     "ref": "Bava Basra 10a",
+     "note": "Great is tzedakah, for it brings the Geulah closer."
+    },
+    {
+     "work": "gemara",
+     "ref": "Shabbos 118b",
+     "note": "If all Israel kept Shabbos properly, they would be redeemed at once."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "fda6ea4878",
+   "op": "set",
+   "path": "subjects.sources_cited",
+   "value": [
+    {
+     "work": "kesuvim",
+     "ref": "Koheles 3:1, 'Eis lakol'",
+     "note": "Cited as Shlomo HaMelech's teaching: a time for everything."
+    },
+    {
+     "work": "pirkei_avos",
+     "ref": "4:16",
+     "note": "This world is like a corridor before the banquet hall of the World to Come."
+    },
+    {
+     "work": "gemara",
+     "ref": "Shabbos 119b",
+     "note": "Cited as 'our Chachamim': children's prayers, breath without sin, rise highest."
+    }
+   ],
+   "reason": "vocab pass 2: verses from Kesuvim (Mishlei/Koheles/Eichah/Daniel) or a named book had a stand-in work id; switched to the new works term and dropped the stand-in remark from the note."
+  },
+  {
+   "item": "1cc1af0b25",
+   "op": "add_to_list",
+   "path": "subjects.sources_cited",
+   "value": {
+    "work": "kesuvim",
+    "ref": "Mishlei 20:27; 6:23",
+    "note": "'Ner Hashem nishmas adam' and 'Ki ner mitzvah v'Torah or'."
+   },
+   "reason": "vocab pass 2: source named in the item's text now has a works id ('kesuvim')."
+  },
+  {
+   "item": "2502f04235",
+   "op": "add_to_list",
+   "path": "subjects.sources_cited",
+   "value": {
+    "work": "kesuvim",
+    "ref": "Mishlei 20:27; 6:23",
+    "note": "'Ner Hashem nishmas adam' and 'Ki ner mitzvah v'Torah or'."
+   },
+   "reason": "vocab pass 2: source named in the item's text now has a works id ('kesuvim')."
+  },
+  {
+   "item": "45d0fea825",
+   "op": "add_to_list",
+   "path": "subjects.sources_cited",
+   "value": {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Rabbeinu Bachya's seven conditions for trusting someone, which only Hashem fulfils."
+   },
+   "reason": "vocab pass 2: source named in the item's text now has a works id ('chovos_halevavos')."
+  },
+  {
+   "item": "0e6e2614b0",
+   "op": "add_to_list",
+   "path": "subjects.sources_cited",
+   "value": {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Seven conditions for trusting someone, which only Hashem fulfils."
+   },
+   "reason": "vocab pass 2: source named in the item's text now has a works id ('chovos_halevavos')."
+  },
+  {
+   "item": "3bb176e5dc",
+   "op": "add_to_list",
+   "path": "subjects.sources_cited",
+   "value": {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Whoever trusts in Hashem is helped, deserving or not."
+   },
+   "reason": "vocab pass 2: source named in the item's text now has a works id ('chovos_halevavos')."
+  },
+  {
+   "item": "a42cb33445",
+   "op": "add_to_list",
+   "path": "subjects.sources_cited",
+   "value": {
+    "work": "sippurim_noraim",
+    "note": "The story is 'written in a sefer called Sippurim Noraim', which the Frierdiker Rebbe gave the Rebbe as reliable."
+   },
+   "reason": "vocab pass 2: source named in the item's text now has a works id ('sippurim_noraim')."
+  },
+  {
+   "item": "03f01eb654",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "03fe816538",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "048cba0e8e",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:eli_hakohen->accept"
+  },
+  {
+   "item": "054944bbf2",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_leib_sarahs->accept"
+  },
+  {
+   "item": "06304e8858",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_zalman_zezmer->accept"
+  },
+  {
+   "item": "0ece09874d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:shabbos_shekalim->accept"
+  },
+  {
+   "item": "0f6f2dc878",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yud_gimmel_nissan->accept"
+  },
+  {
+   "item": "15ee14294d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yaakov_kaidaner->accept"
+  },
+  {
+   "item": "179f246846",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "1afde74e08",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_elazar_ben_azariah->accept"
+  },
+  {
+   "item": "1cc1af0b25",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:mishlei->merge"
+  },
+  {
+   "item": "1d8cd14fa3",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled series:simchas_beis_hashoeva_5785->accept"
+  },
+  {
+   "item": "212c1a5998",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "213559b057",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "22732f6818",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:chof_teves->accept"
+  },
+  {
+   "item": "2502f04235",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:mishlei->merge"
+  },
+  {
+   "item": "2838d2da96",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:parshas_zachor->accept"
+  },
+  {
+   "item": "285846e5e3",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_nochum_of_chernobyl->accept"
+  },
+  {
+   "item": "29dc93d7ca",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "2ed007c078",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "34fa0cd369",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "35571dde36",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "35d1a78d02",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:shaagas_aryeh->accept"
+  },
+  {
+   "item": "365d039f44",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "36638e1583",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yaakov_tanna->reject"
+  },
+  {
+   "item": "37367b27fe",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "38d83b32ce",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yisrael_salanter->merge"
+  },
+  {
+   "item": "3ab5f08f27",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:tosafos_yom_tov->merge"
+  },
+  {
+   "item": "3b05d42392",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled series:simchas_beis_hashoeva_5785->accept"
+  },
+  {
+   "item": "3bc728ac3c",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:shabbos_bereishis->accept"
+  },
+  {
+   "item": "3f112e5df7",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:shaagas_aryeh->accept"
+  },
+  {
+   "item": "42a448f1fc",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yehoshua_ben_ilem->accept"
+  },
+  {
+   "item": "45d0fea825",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbeinu_bachya_ibn_paquda->accept"
+  },
+  {
+   "item": "46a223a493",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "49efe58654",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:aseres_hadibros->accept"
+  },
+  {
+   "item": "4cd46a949c",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_leib_sarahs->accept"
+  },
+  {
+   "item": "4ea90aa292",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:tosfos_yom_tov->accept"
+  },
+  {
+   "item": "528b031b11",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "569c810057",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chozeh_of_lublin->accept"
+  },
+  {
+   "item": "5819f48712",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:dubno_maggid->merge"
+  },
+  {
+   "item": "59ebaba0bf",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled midos:resisting_bad_influence->accept"
+  },
+  {
+   "item": "5b6b690fa8",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:chof_hei_elul->accept"
+  },
+  {
+   "item": "5d0376fc7a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:maggid_of_dubno->accept"
+  },
+  {
+   "item": "5ec266a540",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:kiddush_levanah->accept"
+  },
+  {
+   "item": "5f2fe46249",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "620c312981",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_leib_sarahs->accept"
+  },
+  {
+   "item": "6341e96d6e",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yisrael_salanter->merge"
+  },
+  {
+   "item": "64ecbd1960",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_elazar_ben_azaryah->merge"
+  },
+  {
+   "item": "65cc733f61",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:eli_hakohen->accept"
+  },
+  {
+   "item": "6629d7464c",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "66e941c420",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:kislev->accept"
+  },
+  {
+   "item": "6aa8d7ae63",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:shaagas_aryeh->accept"
+  },
+  {
+   "item": "6b6fec027a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:eli_hakohen->accept"
+  },
+  {
+   "item": "6dbe8bcabf",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yud_tes_shevat->reject"
+  },
+  {
+   "item": "6e0946d4ee",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:chof_zayin_adar->accept"
+  },
+  {
+   "item": "732c5af358",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:shabbos_shekalim->accept"
+  },
+  {
+   "item": "7357664ac4",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chida->accept; works:chovos_halevavos->accept"
+  },
+  {
+   "item": "74ae981cd2",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "7753ff611a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:yosef_mokir_shabbos->accept"
+  },
+  {
+   "item": "777566ae04",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "77cf0ad617",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept; works:kesuvim->accept"
+  },
+  {
+   "item": "78283b5e51",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:tosafos_yom_tov->merge"
+  },
+  {
+   "item": "7abf00d146",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yud_gimmel_tishrei->accept; people:rebbetzin_devorah_leah->accept"
+  },
+  {
+   "item": "7e9443fe3a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:chovos_halevavos->accept"
+  },
+  {
+   "item": "7f23a52931",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:kiddush_levanah->accept"
+  },
+  {
+   "item": "80b558554d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yud_daled_kislev->accept; people:rabbi_leibel_groner->accept"
+  },
+  {
+   "item": "828b6c6fa8",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "86349c08d6",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled midos:resisting_bad_influence->accept"
+  },
+  {
+   "item": "87c0db90e5",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:tosfos_yom_tov->accept"
+  },
+  {
+   "item": "89da57355d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:shabbos_shirah->accept"
+  },
+  {
+   "item": "89f933a998",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "8b1b5cf557",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:zayin_adar->accept"
+  },
+  {
+   "item": "8e94797760",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_saadia_gaon->merge"
+  },
+  {
+   "item": "8ef0e7ba46",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yisroel_salanter->accept"
+  },
+  {
+   "item": "90fe828dae",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:payos->accept; people:rabbi_aharon_of_karlin->accept"
+  },
+  {
+   "item": "9187a4035a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_michel_of_zlotchov->accept"
+  },
+  {
+   "item": "933079e352",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_elazar_ben_azariah->accept"
+  },
+  {
+   "item": "93f9ef4eb9",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chozeh_of_lublin->accept"
+  },
+  {
+   "item": "9416033b17",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:aseres_hadibros->accept"
+  },
+  {
+   "item": "96b0e06c39",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "9888017ef7",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:chof_hei_elul->accept"
+  },
+  {
+   "item": "9ba0d1a6a7",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yisrael_salanter->merge"
+  },
+  {
+   "item": "a06fb5b0d9",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:eli_hakohen->accept"
+  },
+  {
+   "item": "a411297215",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "a42cb33445",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:maggid_of_koznitz->accept"
+  },
+  {
+   "item": "a4c62a5281",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:shabbos_parah->reject"
+  },
+  {
+   "item": "a512619974",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_simcha_bunim_of_pshischa->accept"
+  },
+  {
+   "item": "a5ddda2685",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yisrael_salanter->merge"
+  },
+  {
+   "item": "a890e4740d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "abdf1b1e62",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:shabbos_shirah->accept"
+  },
+  {
+   "item": "ac13894ea5",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:aseres_hadibros_reading->merge"
+  },
+  {
+   "item": "adb8ef20c7",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:maharam_of_rottenburg->accept"
+  },
+  {
+   "item": "aeae91b4cd",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_wolf_kitzes->accept"
+  },
+  {
+   "item": "aeb148800a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_aharon_of_karlin->accept; people:rebbetzin_devorah_leah->accept"
+  },
+  {
+   "item": "afddab9ffe",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:chof_hei_elul->accept"
+  },
+  {
+   "item": "b0d51c0ab5",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_shmuel_levitin->accept"
+  },
+  {
+   "item": "b1a205211a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "b1a458b742",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:mishlei->merge"
+  },
+  {
+   "item": "b70e1124bd",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galante->merge"
+  },
+  {
+   "item": "b8bab9ba09",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:shaul_hamelech->accept"
+  },
+  {
+   "item": "b97b61289f",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:sippurim_noraim->accept"
+  },
+  {
+   "item": "b98423e1d3",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yahrzeit_tzaddik->reject"
+  },
+  {
+   "item": "bad310d608",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "badd162691",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:klausenburger_rebbe->accept"
+  },
+  {
+   "item": "be5c373bf4",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled midos:resisting_bad_influence->accept"
+  },
+  {
+   "item": "c3857a3b34",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yud_gimmel_nissan->accept"
+  },
+  {
+   "item": "c6250a3b05",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:radatz->accept"
+  },
+  {
+   "item": "ca1ed29b8b",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_zalman_zezmer->accept"
+  },
+  {
+   "item": "cbdb9ab2ea",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_michel_of_zlotchov->accept"
+  },
+  {
+   "item": "cc93c1f1cf",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:payos->accept"
+  },
+  {
+   "item": "cce7163480",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_moshe_galanti->accept"
+  },
+  {
+   "item": "d694753095",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:parshas_zachor->accept"
+  },
+  {
+   "item": "d6daafbc95",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:yud_gimmel_nissan->accept"
+  },
+  {
+   "item": "d8bd0302fb",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "db9712388b",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled mitzvos:kiddush_levanah->accept"
+  },
+  {
+   "item": "dca475212d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rav_saadia_gaon->accept"
+  },
+  {
+   "item": "de9bba59ed",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:radatz->accept"
+  },
+  {
+   "item": "e2cf00d09c",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled midos:valuing_time->accept"
+  },
+  {
+   "item": "e796be2c9d",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:napoleon->reject"
+  },
+  {
+   "item": "e8344bd6f4",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:cheshvan->accept"
+  },
+  {
+   "item": "eb0459de7a",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_gershon_kitover->accept"
+  },
+  {
+   "item": "efb72976ab",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled works:kesuvim->accept"
+  },
+  {
+   "item": "f069679286",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yissachar_ber_of_lubavitch->accept"
+  },
+  {
+   "item": "f639703e3b",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled calendar:zayin_adar->accept"
+  },
+  {
+   "item": "f826c5f743",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_yehoshua_ben_ilem->accept"
+  },
+  {
+   "item": "f8713031b8",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chofetz_chaim->accept"
+  },
+  {
+   "item": "f9544de2aa",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:chozeh_of_lublin->accept"
+  },
+  {
+   "item": "fc369dd53b",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_leib_sarahs->accept"
+  },
+  {
+   "item": "fec54397e2",
+   "op": "set",
+   "path": "proposed_new_terms",
+   "value": [],
+   "reason": "vocab pass 2: handled people:rabbi_leib_sarahs->accept"
+  }
+ ],
+ "notes": "135 proposed_new_terms entries on 129 items, clustered into 67 distinct proposals -> 54 new vocabulary entries (people 32, calendar 12, works 3, mitzvos 4, midos 2, series 1). Merged spelling variants: dubno_maggid->maggid_of_dubno, rabbi_saadia_gaon->rav_saadia_gaon, rabbi_moshe_galante->rabbi_moshe_galanti, tosafos_yom_tov->tosfos_yom_tov, rabbi_yisrael_salanter->rabbi_yisroel_salanter, rabbi_elazar_ben_azaryah->rabbi_elazar_ben_azariah, works mishlei->kesuvim, calendar aseres_hadibros_reading->mitzvos aseres_hadibros. Rejected: people napoleon (no people category for non-Jewish historical figures; stays in characters/keywords), people rabbi_yaakov_tanna (generic name, one teaching; the Avos 4:16 ref stays in sources_cited), calendar shabbos_parah (no item is actually tied to Shabbos Parah; a4c62a5281 only mentions the Parah Adumah), calendar yahrzeit_tzaddik (not a date; b98423e1d3 already tags rabbi_moshe_sofer_of_pshevorsk), calendar yud_tes_shevat (one niche item, 6dbe8bcabf, already tagged shpoler_zeide). Every proposing item gets proposed_new_terms set to []. New ids are added to proposing items with a role, and also to other items that name the same person/date/mitzvah in their own summary or characters (reason marks these). Stand-ins replaced only where wrong: 22732f6818 chof_daled_teves->chof_teves, 3bc728ac3c shemini_atzeres_simchas_torah->shabbos_bereishis, 2838d2da96 and d694753095 kavod_shul->parshas_zachor; plausible stand-ins (elul, nissan, adar, brachos, torah_study, zerizus, self_control, yarmulke, tzitzis, baal_shem_tov as teaching_cited) were kept. sources_cited: every Mishlei/Koheles/Eichah/Daniel verse filed under neviim, tehillim or chumash moved to kesuvim (59 items, whole list set, stand-in remarks removed from notes); Chovos HaLevavos and Sippurim Noraim entries switched from oral_tradition. classification.series set for the two 5785 rallies (not locked). ASR glossary check of keywords/characters/places found no clearly wrong spellings, so no free-text edits. Characters lists still repeat names now in subjects.people; left as is. Simulated application of all patches + vocab_additions validates (scripts/validate_items.py on 234 touched items: 0 errors). Helpers: pass2/work/vocab/ (build.py, decisions.json, src_changes.txt, sim/).",
+ "review": [
+  {
+   "case": "radatz label",
+   "items": [
+    "c6250a3b05",
+    "de9bba59ed",
+    "3793de478c",
+    "6c85a42c28",
+    "cff49c519a",
+    "e537998c07"
+   ],
+   "question": "Uncle Yossi says 'Reb Chaim Dovid Tzvi Chein' on air; another storyteller says 'Dovid Tzvi Chein'. Label uses 'The Radatz (Rabbi Dovid Tzvi Chein)' (acronym RaDaTz), with the Chaim form as alias. Confirm the name."
+  },
+  {
+   "case": "rabbi_yehoshua_ben_ilem identification",
+   "items": [
+    "42a448f1fc",
+    "f826c5f743",
+    "64064de9d3"
+   ],
+   "question": "On air only 'Rabbi Yehoshua' (Nanas the butcher story); tagged with the traditional identification Rabbi Yehoshua ben Ilem. OK?"
+  },
+  {
+   "case": "Simchas Beis Hashoeva series per year",
+   "items": [
+    "1d8cd14fa3",
+    "3b05d42392"
+   ],
+   "question": "Added series simchas_beis_hashoeva_5785 next to ..._5786. Alternative: one series for all years (would need renaming the 5786 id). Which do you prefer?"
+  },
+  {
+   "case": "Flickering Flame without the name",
+   "items": [
+    "15211a2565",
+    "40d280cb23",
+    "4c22e88ed2",
+    "57b4f27b82",
+    "6ad37ebe02",
+    "82672b0336",
+    "bc10ca2c5f"
+   ],
+   "question": "These tellings name only 'Rabbi Yisroel' (the story is traditionally Rabbi Yisroel Salanter's). Not tagged rabbi_yisroel_salanter; tag them?"
+  },
+  {
+   "case": "valuing_time on full midos lists",
+   "items": [
+    "40d280cb23",
+    "57b4f27b82",
+    "6ad37ebe02"
+   ],
+   "question": "These Sefirah shows teach the value of time but already have 6 midos (schema max), so valuing_time was not added."
+  },
+  {
+   "case": "rejected terms",
+   "items": [
+    "e796be2c9d",
+    "36638e1583",
+    "a4c62a5281",
+    "b98423e1d3",
+    "6dbe8bcabf"
+   ],
+   "question": "napoleon, rabbi_yaakov_tanna, shabbos_parah, yahrzeit_tzaddik, yud_tes_shevat rejected (see notes). Revisit if you want them."
+  }
+ ],
+ "decisions": [
+  {
+   "vocabulary": "calendar",
+   "proposed": "aseres_hadibros_reading",
+   "decision": "merge",
+   "id": "aseres_hadibros",
+   "items": [
+    "ac13894ea5"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "cheshvan",
+   "decision": "accept",
+   "id": "cheshvan",
+   "items": [
+    "e8344bd6f4"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "chof_hei_elul",
+   "decision": "accept",
+   "id": "chof_hei_elul",
+   "items": [
+    "5b6b690fa8",
+    "9888017ef7",
+    "afddab9ffe"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "chof_teves",
+   "decision": "accept",
+   "id": "chof_teves",
+   "items": [
+    "22732f6818"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "chof_zayin_adar",
+   "decision": "accept",
+   "id": "chof_zayin_adar",
+   "items": [
+    "6e0946d4ee"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "kislev",
+   "decision": "accept",
+   "id": "kislev",
+   "items": [
+    "66e941c420"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "shabbos_bereishis",
+   "decision": "accept",
+   "id": "shabbos_bereishis",
+   "items": [
+    "3bc728ac3c"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "shabbos_parah",
+   "decision": "reject",
+   "id": null,
+   "items": [
+    "a4c62a5281"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "shabbos_shekalim",
+   "decision": "accept",
+   "id": "shabbos_shekalim",
+   "items": [
+    "0ece09874d",
+    "732c5af358"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "shabbos_shirah",
+   "decision": "accept",
+   "id": "shabbos_shirah",
+   "items": [
+    "89da57355d",
+    "abdf1b1e62"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "yahrzeit_tzaddik",
+   "decision": "reject",
+   "id": null,
+   "items": [
+    "b98423e1d3"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "yud_daled_kislev",
+   "decision": "accept",
+   "id": "yud_daled_kislev",
+   "items": [
+    "80b558554d"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "yud_gimmel_nissan",
+   "decision": "accept",
+   "id": "yud_gimmel_nissan",
+   "items": [
+    "0f6f2dc878",
+    "c3857a3b34",
+    "d6daafbc95"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "yud_gimmel_tishrei",
+   "decision": "accept",
+   "id": "yud_gimmel_tishrei",
+   "items": [
+    "7abf00d146"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "yud_tes_shevat",
+   "decision": "reject",
+   "id": null,
+   "items": [
+    "6dbe8bcabf"
+   ]
+  },
+  {
+   "vocabulary": "calendar",
+   "proposed": "zayin_adar",
+   "decision": "accept",
+   "id": "zayin_adar",
+   "items": [
+    "8b1b5cf557",
+    "f639703e3b"
+   ]
+  },
+  {
+   "vocabulary": "midos",
+   "proposed": "resisting_bad_influence",
+   "decision": "accept",
+   "id": "resisting_bad_influence",
+   "items": [
+    "59ebaba0bf",
+    "86349c08d6",
+    "be5c373bf4"
+   ]
+  },
+  {
+   "vocabulary": "midos",
+   "proposed": "valuing_time",
+   "decision": "accept",
+   "id": "valuing_time",
+   "items": [
+    "e2cf00d09c"
+   ]
+  },
+  {
+   "vocabulary": "mitzvos",
+   "proposed": "aseres_hadibros",
+   "decision": "accept",
+   "id": "aseres_hadibros",
+   "items": [
+    "49efe58654",
+    "9416033b17"
+   ]
+  },
+  {
+   "vocabulary": "mitzvos",
+   "proposed": "kiddush_levanah",
+   "decision": "accept",
+   "id": "kiddush_levanah",
+   "items": [
+    "5ec266a540",
+    "7f23a52931",
+    "db9712388b"
+   ]
+  },
+  {
+   "vocabulary": "mitzvos",
+   "proposed": "parshas_zachor",
+   "decision": "accept",
+   "id": "parshas_zachor",
+   "items": [
+    "2838d2da96",
+    "d694753095"
+   ]
+  },
+  {
+   "vocabulary": "mitzvos",
+   "proposed": "payos",
+   "decision": "accept",
+   "id": "payos",
+   "items": [
+    "90fe828dae",
+    "cc93c1f1cf"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "chida",
+   "decision": "accept",
+   "id": "chida",
+   "items": [
+    "7357664ac4"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "chofetz_chaim",
+   "decision": "accept",
+   "id": "chofetz_chaim",
+   "items": [
+    "03f01eb654",
+    "212c1a5998",
+    "29dc93d7ca",
+    "365d039f44",
+    "74ae981cd2",
+    "77cf0ad617",
+    "828b6c6fa8",
+    "a890e4740d",
+    "f8713031b8"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "chozeh_of_lublin",
+   "decision": "accept",
+   "id": "chozeh_of_lublin",
+   "items": [
+    "569c810057",
+    "93f9ef4eb9",
+    "f9544de2aa"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "dubno_maggid",
+   "decision": "merge",
+   "id": "maggid_of_dubno",
+   "items": [
+    "5819f48712"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "eli_hakohen",
+   "decision": "accept",
+   "id": "eli_hakohen",
+   "items": [
+    "048cba0e8e",
+    "65cc733f61",
+    "6b6fec027a",
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "klausenburger_rebbe",
+   "decision": "accept",
+   "id": "klausenburger_rebbe",
+   "items": [
+    "badd162691"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "maggid_of_dubno",
+   "decision": "accept",
+   "id": "maggid_of_dubno",
+   "items": [
+    "5d0376fc7a"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "maggid_of_koznitz",
+   "decision": "accept",
+   "id": "maggid_of_koznitz",
+   "items": [
+    "a42cb33445"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "maharam_of_rottenburg",
+   "decision": "accept",
+   "id": "maharam_of_rottenburg",
+   "items": [
+    "adb8ef20c7"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "napoleon",
+   "decision": "reject",
+   "id": null,
+   "items": [
+    "e796be2c9d"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbeinu_bachya_ibn_paquda",
+   "decision": "accept",
+   "id": "rabbeinu_bachya_ibn_paquda",
+   "items": [
+    "45d0fea825"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_aharon_of_karlin",
+   "decision": "accept",
+   "id": "rabbi_aharon_of_karlin",
+   "items": [
+    "90fe828dae",
+    "aeb148800a"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_elazar_ben_azariah",
+   "decision": "accept",
+   "id": "rabbi_elazar_ben_azariah",
+   "items": [
+    "1afde74e08",
+    "933079e352"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_elazar_ben_azaryah",
+   "decision": "merge",
+   "id": "rabbi_elazar_ben_azariah",
+   "items": [
+    "64ecbd1960"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_gershon_kitover",
+   "decision": "accept",
+   "id": "rabbi_gershon_kitover",
+   "items": [
+    "eb0459de7a"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_leib_sarahs",
+   "decision": "accept",
+   "id": "rabbi_leib_sarahs",
+   "items": [
+    "054944bbf2",
+    "4cd46a949c",
+    "620c312981",
+    "fc369dd53b",
+    "fec54397e2"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_leibel_groner",
+   "decision": "accept",
+   "id": "rabbi_leibel_groner",
+   "items": [
+    "80b558554d"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_michel_of_zlotchov",
+   "decision": "accept",
+   "id": "rabbi_michel_of_zlotchov",
+   "items": [
+    "9187a4035a",
+    "cbdb9ab2ea"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_moshe_galante",
+   "decision": "merge",
+   "id": "rabbi_moshe_galanti",
+   "items": [
+    "b70e1124bd"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_moshe_galanti",
+   "decision": "accept",
+   "id": "rabbi_moshe_galanti",
+   "items": [
+    "03fe816538",
+    "179f246846",
+    "35571dde36",
+    "6629d7464c",
+    "b1a205211a",
+    "bad310d608",
+    "cce7163480"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_nochum_of_chernobyl",
+   "decision": "accept",
+   "id": "rabbi_nochum_of_chernobyl",
+   "items": [
+    "285846e5e3"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_saadia_gaon",
+   "decision": "merge",
+   "id": "rav_saadia_gaon",
+   "items": [
+    "8e94797760"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_shmuel_levitin",
+   "decision": "accept",
+   "id": "rabbi_shmuel_levitin",
+   "items": [
+    "b0d51c0ab5"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_simcha_bunim_of_pshischa",
+   "decision": "accept",
+   "id": "rabbi_simcha_bunim_of_pshischa",
+   "items": [
+    "a512619974"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_wolf_kitzes",
+   "decision": "accept",
+   "id": "rabbi_wolf_kitzes",
+   "items": [
+    "aeae91b4cd"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_yaakov_kaidaner",
+   "decision": "accept",
+   "id": "rabbi_yaakov_kaidaner",
+   "items": [
+    "15ee14294d"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_yaakov_tanna",
+   "decision": "reject",
+   "id": null,
+   "items": [
+    "36638e1583"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_yehoshua_ben_ilem",
+   "decision": "accept",
+   "id": "rabbi_yehoshua_ben_ilem",
+   "items": [
+    "42a448f1fc",
+    "f826c5f743"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_yisrael_salanter",
+   "decision": "merge",
+   "id": "rabbi_yisroel_salanter",
+   "items": [
+    "38d83b32ce",
+    "6341e96d6e",
+    "9ba0d1a6a7",
+    "a5ddda2685"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_yisroel_salanter",
+   "decision": "accept",
+   "id": "rabbi_yisroel_salanter",
+   "items": [
+    "8ef0e7ba46"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_yissachar_ber_of_lubavitch",
+   "decision": "accept",
+   "id": "rabbi_yissachar_ber_of_lubavitch",
+   "items": [
+    "f069679286"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rabbi_zalman_zezmer",
+   "decision": "accept",
+   "id": "rabbi_zalman_zezmer",
+   "items": [
+    "06304e8858",
+    "ca1ed29b8b"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "radatz",
+   "decision": "accept",
+   "id": "radatz",
+   "items": [
+    "c6250a3b05",
+    "de9bba59ed"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rav_saadia_gaon",
+   "decision": "accept",
+   "id": "rav_saadia_gaon",
+   "items": [
+    "dca475212d"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "rebbetzin_devorah_leah",
+   "decision": "accept",
+   "id": "rebbetzin_devorah_leah",
+   "items": [
+    "7abf00d146",
+    "aeb148800a"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "shaagas_aryeh",
+   "decision": "accept",
+   "id": "shaagas_aryeh",
+   "items": [
+    "35d1a78d02",
+    "3f112e5df7",
+    "6aa8d7ae63"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "shaul_hamelech",
+   "decision": "accept",
+   "id": "shaul_hamelech",
+   "items": [
+    "b8bab9ba09"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "tosafos_yom_tov",
+   "decision": "merge",
+   "id": "tosfos_yom_tov",
+   "items": [
+    "3ab5f08f27",
+    "78283b5e51"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "tosfos_yom_tov",
+   "decision": "accept",
+   "id": "tosfos_yom_tov",
+   "items": [
+    "4ea90aa292",
+    "87c0db90e5"
+   ]
+  },
+  {
+   "vocabulary": "people",
+   "proposed": "yosef_mokir_shabbos",
+   "decision": "accept",
+   "id": "yosef_mokir_shabbos",
+   "items": [
+    "7753ff611a"
+   ]
+  },
+  {
+   "vocabulary": "series",
+   "proposed": "simchas_beis_hashoeva_5785",
+   "decision": "accept",
+   "id": "simchas_beis_hashoeva_5785",
+   "items": [
+    "1d8cd14fa3",
+    "3b05d42392"
+   ]
+  },
+  {
+   "vocabulary": "works",
+   "proposed": "chovos_halevavos",
+   "decision": "accept",
+   "id": "chovos_halevavos",
+   "items": [
+    "7357664ac4",
+    "7e9443fe3a"
+   ]
+  },
+  {
+   "vocabulary": "works",
+   "proposed": "kesuvim",
+   "decision": "accept",
+   "id": "kesuvim",
+   "items": [
+    "213559b057",
+    "2ed007c078",
+    "34fa0cd369",
+    "37367b27fe",
+    "46a223a493",
+    "528b031b11",
+    "5f2fe46249",
+    "777566ae04",
+    "77cf0ad617",
+    "89f933a998",
+    "96b0e06c39",
+    "a411297215",
+    "d8bd0302fb",
+    "efb72976ab"
+   ]
+  },
+  {
+   "vocabulary": "works",
+   "proposed": "mishlei",
+   "decision": "merge",
+   "id": "kesuvim",
+   "items": [
+    "1cc1af0b25",
+    "2502f04235",
+    "b1a458b742"
+   ]
+  },
+  {
+   "vocabulary": "works",
+   "proposed": "sippurim_noraim",
+   "decision": "accept",
+   "id": "sippurim_noraim",
+   "items": [
+    "b97b61289f"
+   ]
+  }
+ ]
+}

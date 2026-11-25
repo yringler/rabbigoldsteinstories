@@ -1,0 +1,35 @@
+{
+ "batch_id": "b021",
+ "done": [
+  "b6dcdda3e6",
+  "81d3b0e30b",
+  "c9bc2ce31c",
+  "2ea540c461",
+  "f73efd0eee",
+  "e869ca6975",
+  "4c22e88ed2",
+  "9ec72b1a50",
+  "39959e8c5c",
+  "baed6e5c02",
+  "5a3f0c73e0",
+  "acefd44620",
+  "ec81364f6e",
+  "db1f84ef9e",
+  "3b2eabf95b",
+  "e71ce96b12",
+  "845dab4795",
+  "59d09779c7",
+  "fe70f6bcaf",
+  "f6e34b6dff"
+ ],
+ "failed": [],
+ "notes": [
+  "Probable wrong filename date: episode 326 (baed6e5c02, '326 04-26-88') says on air 'today is 16 Iyar', Pesach Sheni 'this past Sunday' and Lag BaOmer 'this Thursday', which is 1988-05-03. The locked date was kept and a note added. The clips 5a3f0c73e0 and acefd44620 are dated 1988-05-03. This also fits weekly spacing: 324 = Apr 19, 326 = May 3, 333 = Jun 21.",
+  "Near-duplicate clip pairs: db1f84ef9e / 3b2eabf95b (same Yud-Beis Tammuz talk from episode 333; db1f84ef9e is fuller, so 3b2eabf95b is marked superseded_by it) and 59d09779c7 / fe70f6bcaf (same opening of episode 334; fe70f6bcaf is a shorter cut; both marked alternate_take).",
+  "Reused segments: the episode 322 Pesach talk and the B'chol Dor Vador skit (2ea540c461) match episode 223 (1f313c869c). 'Pesach 223' (3ab8c0ebe9) is probably the same cut; it is linked as same_recording at 0.55 without checking its transcript. The episode 324 talks match episodes 426 and 475. 9ec72b1a50 has a fingerprint candidate saying it is contained in the clip 'Sefiras Haomer 426' (86a44f3dba), not added. 39959e8c5c has a same-title candidate 'Sefira-3 24' (27e4be78a2), not checked.",
+  "Unchecked fingerprint candidates for the episodes: 326 with episodes 532 (b53bc18740), 378 (ac0c610c3a) and 451 (3553669bc5); 333 with episode 234 (36638e1583); 334 with episodes 435 (148c93c242) and 284 (7aea3038aa). The 284 episode of 07-14-87 is also a Tammuz show.",
+  "Episode 324's story 'The Flickering Flame' is told about 'Rabbi Yisroel', a great tzaddik; it is the well-known story usually told of Rabbi Yisroel Salanter, but he is not named on air, so no person was tagged.",
+  "Episode 323: on air the story is called 'The Lost Sword'; the catalog calls it 'King David's Grave'. Episodes 322 and 320 each have one ASR or narrator slip ('Rabbi Akiva') for the story's hero.",
+  "Episode 334: the teacher of the visiting class is introduced as a well-known educator and author of a Chumash primer. He was put in hidden.on_air_people as a precaution; a human should decide whether he counts as a public figure."
+ ]
+}

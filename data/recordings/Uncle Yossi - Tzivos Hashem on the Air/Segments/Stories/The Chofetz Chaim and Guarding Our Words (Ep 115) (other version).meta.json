@@ -1,0 +1,177 @@
+{
+ "id": "03f01eb654",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "chofetz chaim 115",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Chofetz Chaim and Guarding Our Words (Ep 115) (other version).mp3",
+  "duration_sec": 72.168,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 115,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 115,
+   "story": "Life in the hands of the tongue #1",
+   "topic": "חפץ חיים",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Chofetz Chaim and Guarding Our Words",
+  "title_basis": "content",
+  "summary_short": "A one-minute introduction to the Chofetz Chaim, the great rabbi named after his famous sefer on shmiras halashon, guarding one's tongue.",
+  "summary_long": "A very short clip from the Tzivos Hashem radio show, the opening of a story introduction. Uncle Yossi introduces the great rabbi known as the Chofetz Chaim, who placed special emphasis on shmiras halashon, guarding one's tongue from speaking evil. Of his many cherished sefarim, one became his most famous classic, the sefer Chofetz Chaim, and he came to be called by its name. In it he teaches, among many other lessons, how important it is to be extra careful with every word we say. The clip ends here, before the bow-and-arrow lesson and the story that follow in the full broadcast.",
+  "lesson": "Be extra careful with every word you say.",
+  "keywords": [
+   "Chofetz Chaim",
+   "sefer",
+   "guarding the tongue",
+   "words"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 115,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "teaser",
+  "date": {
+   "gregorian": "1984-02",
+   "hebrew": "Adar I 5744",
+   "hebrew_year": 5744,
+   "precision": "month",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 115 (Adar I 5744, a leap year per the episode's opening)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "chofetz_chaim",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "great_rabbis",
+   "character"
+  ],
+  "midos": [
+   "shemiras_halashon"
+  ],
+  "mitzvos": [
+   "shemiras_halashon"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "f8713031b8",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "Also aired in episode 19."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "29dc93d7ca",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 549,
+   "note": "Episode 115 (filename number); clip = 549-621 s of the episode."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "212c1a5998",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same opening words; 'Shmiras Halashon 115' contains this clip and continues with the full lesson."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a890e4740d",
+   "evidence": "text_overlap",
+   "confidence": 0.7,
+   "note": "Text match with episode 476 (containment 0.74)."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "212c1a5998",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Alternate take / cut of the same material."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end",
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 212c1a5998 ('Shmiras Halashon 115'), the preferred copy: only the first 70 seconds of the same talk."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:30Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/The%20Chofetz%20Chaim%20and%20Guarding%20Our%20Words%20%28Ep%20115%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Chofetz Chaim and Guarding Our Words (Ep 115) (other version).mp3",
+  "size_bytes": 866922,
+  "mime_type": "audio/mpeg"
+ }
+}

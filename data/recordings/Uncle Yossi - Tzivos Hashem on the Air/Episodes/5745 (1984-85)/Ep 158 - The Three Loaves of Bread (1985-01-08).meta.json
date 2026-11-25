@@ -1,0 +1,299 @@
+{
+ "id": "edb070d876",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "158",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 158 - The Three Loaves of Bread (1985-01-08).mp3",
+  "duration_sec": 1832.418,
+  "filename_facts": {
+   "episode_number": 158,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 158,
+   "story": "The three loaves of bread",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 158: The Three Loaves of Bread",
+  "title_basis": "master_catalog",
+  "summary_short": "Why the Torah says 'es' when it commands us to honor parents, a whole family visits Studio 604, and King Shlomo solves the mystery of a widow's third loaf of bread.",
+  "summary_long": "Uncle Yossi opens with simcha, the place where Hashem's presence rests, and everyone joins the Hakochainik march, followed by the sponsor's cheese commercial. At Mitzvah Time he asks why the Torah adds the word 'es' in 'kabed es avicha v'es imecha': the Sages learn from it that we must also honor an older brother or sister, and anyone older than us, for example by letting them go first or start eating first. A caller, wished a happy birthday, wins by sharing her own ways of honoring her father on Shabbos. Last week's winner then leads the Shema in the studio with her family. The story: an old woman gives two of her three fresh loaves to starving beggars, and then the wind blows the third loaf away into the sea. She asks King Shlomo why Hashem did this. While she eats, a foreign king arrives: his ship sprang a leak, he vowed half his wealth to charity, and a loaf of bread plugged the hole. Shlomo HaMelech has the woman bake an identical loaf and awards her the vow. The show closes with a way to earn Tzivos Hashem points by sending in a Dvar Torah.",
+  "lesson": "Everything Hashem does is for the good, and kindness to others is repaid in ways we cannot imagine.",
+  "keywords": [
+   "three loaves",
+   "bread",
+   "beggars",
+   "wind",
+   "ship",
+   "leak",
+   "king",
+   "older brother",
+   "birthday",
+   "newsletter"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 158,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-01-08",
+   "hebrew": "15 Teves 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "A caller's birthday 'was on Tes Teves' (already past); one week after ep 157 (Asarah B'Teves week) in an unbroken weekly run."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Phone-in winner (with birthday and school) and Shema guests named in full.",
+    "at_sec": 640
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the old woman",
+   "two hungry beggars",
+   "a foreign king"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "hashgacha_pratis",
+   "family_and_home",
+   "tanach"
+  ],
+  "midos": [
+   "chesed",
+   "bitachon",
+   "kibbud",
+   "simcha"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "hachnasas_orchim",
+   "kibbud_av_vaem",
+   "kibbud_zekeinim",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:12",
+    "note": "The extra word 'es' includes an older brother and others older than you."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 18,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 115,
+   "type": "talk",
+   "title": "Serve Hashem with simcha"
+  },
+  {
+   "start_sec": 115,
+   "end_sec": 289,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 289,
+   "end_sec": 360,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 360,
+   "end_sec": 618,
+   "type": "talk",
+   "title": "Mitzvah Time: honoring older brothers and sisters",
+   "summary": "The extra 'es' in the commandment teaches us to honor older siblings and anyone older than us.",
+   "linked_items": [
+    "0fc136be34"
+   ]
+  },
+  {
+   "start_sec": 618,
+   "end_sec": 838,
+   "type": "quiz",
+   "title": "Mitzvah Time call: ways to honor Tati",
+   "linked_items": [
+    "0fc136be34"
+   ]
+  },
+  {
+   "start_sec": 838,
+   "end_sec": 869,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 869,
+   "end_sec": 1071,
+   "type": "shema_guest",
+   "title": "Shema with last week's winner and her family"
+  },
+  {
+   "start_sec": 1071,
+   "end_sec": 1662,
+   "type": "story",
+   "title": "The Three Loaves of Bread",
+   "summary": "A woman's lost loaf saves a king's ship, and King Shlomo awards her the king's vow.",
+   "people": [
+    "shlomo_hamelech"
+   ]
+  },
+  {
+   "start_sec": 1662,
+   "end_sec": 1712,
+   "type": "announcement",
+   "title": "Ten points for a Dvar Torah"
+  },
+  {
+   "start_sec": 1712,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "A child's birthday, school and family are mentioned on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rachel Leah Orlander",
+    "role": "contest_winner",
+    "group": "Belz school, Williamsburg",
+    "start_sec": 640,
+    "end_sec": 838
+   },
+   {
+    "name": "Sarah Dina Wickler",
+    "role": "shema_guest",
+    "group": "Beis Yaakov, 18th Avenue, third grade",
+    "start_sec": 869,
+    "end_sec": 1000,
+    "note": "Age 8."
+   },
+   {
+    "name": "Shaya Wickler",
+    "role": "shema_guest",
+    "group": "brother of the guest",
+    "start_sec": 1005,
+    "end_sec": 1030,
+    "note": "Age 3; name as heard ('Shaila')."
+   },
+   {
+    "name": "Dr. and Mrs. Meir Wickler",
+    "role": "visitor",
+    "group": "parents of the guests",
+    "start_sec": 1020,
+    "end_sec": 1071
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Phone-in winner's 11th birthday on 9 Teves.",
+    "start_sec": 660,
+    "end_sec": 690
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:33Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0fc136be34",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Kibbud Av V'Eim 158' = 363-633 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20158%20-%20The%20Three%20Loaves%20of%20Bread%20%281985-01-08%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 158 - The Three Loaves of Bread (1985-01-08).mp3",
+  "size_bytes": 21990094,
+  "mime_type": "audio/mpeg"
+ }
+}

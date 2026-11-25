@@ -1,0 +1,173 @@
+{
+ "id": "a04a4cbaa0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Morning Routine-2 359",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Morning Routine, Part 2 - Little Zalman's Negel Vasser Homework (Ep 359).mp3",
+  "duration_sec": 323.628,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 359,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 359,
+   "story": "The return of Yehudah #4",
+   "topic": "This is way wash hands",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Morning Routine, Part 2: Little Zalman's Negel Vasser Homework",
+  "title_basis": "content",
+  "summary_short": "Little Zalman shows his mother how his teacher taught the class to wash negel vasser, three times on each hand, and says the brachah, followed by a hand-washing song.",
+  "summary_long": "The second morning-routine lesson from the Tzivos Hashem radio show. After reminding listeners of the steps so far, looking at the Shiviti sign and saying Modeh Ani, Uncle Yossi presents a little play about negel vasser. Mother finds Zalman splashing beside a big basin of water and asks what he is doing. 'My homework!' Zalman explains that his teacher brought a basin, a tall two-handled cup and a towel to class and showed everyone how to wash right after Modeh Ani. He demonstrates: take the cup in the right hand, pass it to the left and pour over the right hand, then pour over the left, until each hand is washed three times. He also knows the brachah, al netilas yadayim, and its meaning in English. The clip ends with the song his teacher taught to help remember the mitzvah.",
+  "lesson": "Wash negel vasser the right way each morning: three times on each hand, starting with the right.",
+  "keywords": [
+   "negel vasser",
+   "washing cup",
+   "basin",
+   "homework",
+   "hand-washing song",
+   "al netilas yadayim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "episode": {
+   "number": 359,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-01-10",
+   "hebrew": "4 Shevat 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 359 (a815fbd757). Episode: Consistent with the audio: candle lighting 'this coming Friday, January the 13th'."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "little Zalman",
+   "Zalman's mother",
+   "Zalman's teacher"
+  ],
+  "topics": [
+   "morning_routine",
+   "halachah"
+  ],
+  "midos": [
+   "zerizus"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "modeh_ani"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a815fbd757",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 1253,
+   "note": "Episode 359 (filename number); clip = 1253-1577 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "45b8ad173e",
+   "evidence": "filename",
+   "confidence": 0.9,
+   "note": "'Morning Routine-2' follows 'Morning Routine-1 358' ('we learned about it last week')."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "45b8ad173e",
+   "evidence": "filename",
+   "confidence": 0.9,
+   "note": "Morning Routine parts 1 and 2."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "3d001f2478",
+   "evidence": "text_overlap",
+   "confidence": 0.65,
+   "note": "Text matches episode 517 (176-500 s) at 0.71 containment; likely a re-air."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The last minute (about 04:20 to the end) is the untranscribed hand-washing song, not silence."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:50:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Morning%20Routine%2C%20Part%202%20-%20Little%20Zalman%27s%20Negel%20Vasser%20Homework%20%28Ep%20359%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Morning Routine, Part 2 - Little Zalman's Negel Vasser Homework (Ep 359).mp3",
+  "size_bytes": 3884391,
+  "mime_type": "audio/mpeg"
+ }
+}

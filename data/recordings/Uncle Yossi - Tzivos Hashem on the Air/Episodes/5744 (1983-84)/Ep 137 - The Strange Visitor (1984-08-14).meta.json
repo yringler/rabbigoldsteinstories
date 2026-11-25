@@ -1,0 +1,287 @@
+{
+ "id": "ed05b36a9b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "137",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 137 - The Strange Visitor (1984-08-14).mp3",
+  "duration_sec": 1830.245,
+  "filename_facts": {
+   "episode_number": 137,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 137,
+   "story": "The strange visitor",
+   "topic": "“Reb nature”",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 137: The Strange Visitor",
+  "title_basis": "master_catalog",
+  "summary_short": "Orphaned little Yisroelik, who fears only Hashem, studies alone in a forest cave until a mysterious old man becomes his teacher. Plus Reb Nature sings 'Mitzvah Man'.",
+  "summary_long": "Music returns after the Three Weeks with a lively march and a sponsor message. A returning young guest shows the wallet and ID card he received from Tzivos Hashem and talks with Uncle Yossi about fighting the Yetzer Hara with the secret weapon of Torah and mitzvos, then leads the Shema. Story time tells of Yisroelik, a bright boy orphaned at five, who always remembers his father's last words: fear nothing and no one, only Hashem. He finds an empty cave in the woods and secretly goes there with his siddur, Chumash and Tehillim to daven and learn. One day footsteps approach, and a stranger with a silvery white beard asks whether he is afraid all alone. Yisroelik answers that he is never alone, because Hashem is with him, and asks only to learn more Torah. The old man becomes his teacher, and the boy grows up to be the Baal Shem Tov. Then Reb Nature returns to Studio 604 with a fiddler and leads a sing-along, 'Mitzvah Man', about a hero who races around the world doing mitzvos. The mailbox brings a warm letter from a large family who listen together every Tuesday night.",
+  "lesson": "Fear nothing and no one but Hashem; one who is with Hashem is never alone, and Hashem sends help to a child who truly wants to learn Torah.",
+  "keywords": [
+   "orphan",
+   "cave",
+   "forest",
+   "father's last words",
+   "old man with white beard",
+   "secret study place",
+   "Mitzvah Man",
+   "fiddle",
+   "ID card",
+   "family letter"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 137,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-08-14",
+   "hebrew": "16 Av 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Weekly sequence: 1 wk after ep 136 (7 Aug 1984), 1 wk before ep 138 (21 Aug 1984); no gap between them. No date cue of its own."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The boy is an orphan and remembers his father's words at his deathbed.",
+    "at_sec": 590
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and the children of a listening family named in full.",
+    "at_sec": 366
+   },
+   {
+    "flag": "home_address",
+    "note": "The family's street address is read in the mailbox.",
+    "at_sec": 1585
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Yisroelik, the orphan boy",
+   "the stranger with the white beard",
+   "Yisroelik's father",
+   "Reb Nature (guest musician)",
+   "Moshe, the 'Mitzvah Man' of the song"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "torah_study",
+   "emunah_bitachon",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "courage",
+   "hasmadah",
+   "self_control"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 51,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 51,
+   "end_sec": 280,
+   "type": "song",
+   "title": "A lively march"
+  },
+  {
+   "start_sec": 280,
+   "end_sec": 340,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 340,
+   "end_sec": 368,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 368,
+   "end_sec": 567,
+   "type": "shema_guest",
+   "title": "Shema with a returning guest: fighting the Yetzer Hara"
+  },
+  {
+   "start_sec": 567,
+   "end_sec": 1164,
+   "type": "story",
+   "title": "The Strange Visitor",
+   "summary": "Orphaned Yisroelik, who fears only Hashem, studies in a forest cave until a mysterious old man becomes his teacher; he grows up to be the Baal Shem Tov.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1164,
+   "end_sec": 1555,
+   "type": "song",
+   "title": "Reb Nature sings 'Mitzvah Man'",
+   "summary": "The musician Reb Nature and a fiddler lead a sing-along about a hero who races everywhere to do mitzvos."
+  },
+  {
+   "start_sec": 1555,
+   "end_sec": 1763,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a whole family listens together"
+  },
+  {
+   "start_sec": 1763,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "46049ff3d0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Three Weeks: The Three Empty Walls, the Western Wall and 'He Is Watching'' (Stories, 21:27-27:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "b41bd58798",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 44: Chapter 33, Hashem Is Everywhere and the Joy of Being Near Him' (Stories, 2:00-5:06), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mailbox reads a family's street address and children's names (see hidden). The 'Mitzvah Man' song has comic Cold War references (KGB, Kremlin, Lebanon). Same title as episode 6 ('The Strange Visitor'); check whether it is the same story."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehuda Zavdi",
+    "role": "shema_guest",
+    "note": "Returning guest; Tzivos Hashem club member.",
+    "start_sec": 366,
+    "end_sec": 567
+   },
+   {
+    "name": "Brindy Leah, Ben Zion, Bruchy, Hindy, Heshel, Pinchas Aaron and Esther Leah Chana Gross",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1585,
+    "end_sec": 1763
+   },
+   {
+    "name": "Suri Gross",
+    "role": "mailbox_letter",
+    "note": "Oldest sister, sixteen and a half, mentioned in the letter's P.S.",
+    "start_sec": 1678,
+    "end_sec": 1763
+   }
+  ],
+  "addresses": [
+   {
+    "text": "13 Maple Leaf Road, Monsey, New York",
+    "start_sec": 1585,
+    "end_sec": 1600
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Guest musicians (Reb Nature, David Leserson; fiddler Marty) have no speaker id; tagged unknown."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:03:42Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20137%20-%20The%20Strange%20Visitor%20%281984-08-14%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 137 - The Strange Visitor (1984-08-14).mp3",
+  "size_bytes": 21964076,
+  "mime_type": "audio/mpeg"
+ }
+}

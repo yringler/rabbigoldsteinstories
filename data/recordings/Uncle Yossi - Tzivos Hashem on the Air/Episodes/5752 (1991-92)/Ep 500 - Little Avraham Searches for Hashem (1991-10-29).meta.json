@@ -1,0 +1,297 @@
+{
+ "id": "933326aa43",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "500",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 500 - Little Avraham Searches for Hashem (1991-10-29).mp3",
+  "duration_sec": 1782.829,
+  "filename_facts": {
+   "episode_number": 500,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 500,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 500: Little Avraham Searches for Hashem",
+  "title_basis": "master_catalog",
+  "summary_short": "Why we hear the Torah read every three days, a six-year-old Shema guest, the story of little Avraham searching for the Creator, and a boy who learns the song 'Hashem Is Here'.",
+  "summary_long": "Uncle Yossi explains why the Torah is read in shul on Monday, Thursday and Shabbos: after the Jews went three days in the desert without water, the Sages taught that we must never go three days without hearing the Torah, which is our living water. The Torah reader sings each word with the te'amim, the musical notes given at Har Sinai. In this week's sedra Avraham Avinu teaches the whole world about Hashem, and children can do the same by sharing their books and the Moshiach Times with a friend. After the Hakochainik march, a six-year-old yeshiva boy leads the Shema and everyone gives tzedakah. Story time, 'living with the sedra': three-year-old Avraham walks by the sea wondering who made the world. He thinks it may be the sun, then the moon, then the stars, but each one disappears, until he understands that the Creator made them all, cannot be seen, and is everywhere. A second short story follows a little boy doing homework: how many directions can you point to? He counts six and teaches his mother the new song 'Hashem is here, Hashem is there, Hashem is truly everywhere', which closes the show.",
+  "lesson": "Hashem, who created the sun, moon and stars, is everywhere at all times; like Avraham Avinu, we should tell others about Him.",
+  "keywords": [
+   "Torah reading",
+   "te'amim",
+   "water from the rock",
+   "seashore",
+   "sun",
+   "moon",
+   "stars",
+   "six directions",
+   "Hashem Is Here song",
+   "Moshiach Times",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 500,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-10-29",
+   "hebrew": "21 Cheshvan 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Weekly sequence: 1 wk after ep 499 (22 Oct 1991), 2 wk before ep 502 (12 Nov 1991); no gap between them. No date cue of its own."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The six-year-old Shema guest is named in full on air.",
+    "at_sec": 665
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "little Avraham",
+   "a schoolboy",
+   "the boy's mother"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "torah_study",
+   "parsha",
+   "hashem_in_nature",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeira"
+  ],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Bava Kamma 82a",
+    "note": "'Our Chachamim tell us': three days without water in the desert, so the Torah is read every Monday, Thursday and Shabbos."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 46,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 431,
+   "type": "talk",
+   "title": "Hearing the Torah Every Three Days",
+   "summary": "Why the Torah is read Monday, Thursday and Shabbos, the te'amim given at Sinai, and following Avraham Avinu by teaching friends about Hashem.",
+   "people": [
+    "avraham_avinu"
+   ],
+   "linked_items": [
+    "aff1f25906"
+   ]
+  },
+  {
+   "start_sec": 431,
+   "end_sec": 609,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 609,
+   "end_sec": 814,
+   "type": "shema_guest",
+   "title": "Shema with a six-year-old yeshiva student"
+  },
+  {
+   "start_sec": 814,
+   "end_sec": 860,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 860,
+   "end_sec": 1354,
+   "type": "story",
+   "title": "Little Avraham Searches for Hashem",
+   "summary": "Three-year-old Avraham looks at the sun, moon and stars and realizes that the true Creator is unseen and everywhere.",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1354,
+   "end_sec": 1412,
+   "type": "other",
+   "title": "Shema Yisrael (singing, garbled in the transcript)"
+  },
+  {
+   "start_sec": 1412,
+   "end_sec": 1631,
+   "type": "story",
+   "title": "Pointing in Every Direction",
+   "summary": "A boy's homework, counting the directions he can point to, leads to a song about Hashem being everywhere."
+  },
+  {
+   "start_sec": 1631,
+   "end_sec": 1722,
+   "type": "song",
+   "title": "Hashem Is Here, Hashem Is There"
+  },
+  {
+   "start_sec": 1722,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "aff1f25906",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Vayera- Reading Torah 500' = 49-439 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "798eaeecfd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer at Home, Part 1: Shavuos, the Sefiros and Getting Ready for an Upsherin' (Stories, 18:26-23:45), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "beeb398177",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 2: The Search, Little Avraham (Yud-Tes Kislev)' (episode 2, 15:15-21:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "asr_loop",
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR loops on 'Hashem Elokein' at 22:34-23:32; the second story starts mid-sentence at 23:32, so a splice is likely. No candle times or mailbox in this show."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehuda Nisan Horowitz",
+    "role": "shema_guest",
+    "group": "Oholei Torah; age 6",
+    "start_sec": 665,
+    "end_sec": 814
+   },
+   {
+    "name": "Rabbi Levi Goldstein",
+    "role": "other",
+    "group": "Rebbe (teacher) of the Shema guest, Oholei Torah",
+    "start_sec": 696,
+    "end_sec": 724
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "The clip from this show is labeled Vayeira, but by weekly spacing episode 500 aired in the week of Chayei Sarah 5752; parsha tag follows the label."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:19:12Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20500%20-%20Little%20Avraham%20Searches%20for%20Hashem%20%281991-10-29%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 500 - Little Avraham Searches for Hashem (1991-10-29).mp3",
+  "size_bytes": 21394816,
+  "mime_type": "audio/mpeg"
+ }
+}

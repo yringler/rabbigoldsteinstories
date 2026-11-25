@@ -1,0 +1,303 @@
+{
+ "id": "ba89efe781",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "146",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 146 - The Lost Letter, Chapter 1 (Chol HaMoed Sukkos) (1984-10-16).mp3",
+  "duration_sec": 1822.629,
+  "filename_facts": {
+   "episode_number": 146,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 146,
+   "story": "The lost letter #1",
+   "topic": "חה\"ס חוה\"מ",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 146: The Lost Letter, Chapter 1 (Chol HaMoed Sukkos)",
+  "title_basis": "master_catalog",
+  "summary_short": "On Chol HaMoed Sukkos, Uncle Yossi explains why Sukkos is the 'time of our joy' and why the Torah dances with us at Hakafos, and begins the story of a rich Chassid who needed no blessing.",
+  "summary_long": "Broadcast on Chol HaMoed Sukkos. Uncle Yossi explains why Sukkos alone is called the 'time of our joy': we rejoice that we have a Jewish soul, that we have the Torah, and that we have Hashem, the one and only G-d. In place of the march, listeners learn and sing 'I Love Hashem.' Story time begins 'The Lost Letter': at his bedside in his last days, the Baal Shem Tov blesses his students one by one. Reb Leibel, the richest of them, healthy, generous and blessed with a large family, decides he needs no brachah, forgetting that fortune can turn. After a boy from the Tzivos Hashem Club leads the Shema, the story continues: the Baal Shem Tov asks Reb Leibel to deliver a sealed letter to a man named Reb Sholom. Arriving home soaked from a storm, Reb Leibel bends to remove his muddy boots, and the letter slips under a wooden closet. He forgets all about it. To be continued. Uncle Yossi then explains Hakafos on Simchas Torah: we celebrate finishing the Torah and starting again, and the Torah 'borrows' our feet, hands and voice to dance with us. The show closes with the Shofar Gadol contest ending next week and a refuah shleimah update.",
+  "lesson": "However blessed we are, we always need Hashem's blessings; and on Simchas Torah we lend the Torah our feet, hands and voice so it can rejoice with us.",
+  "keywords": [
+   "time of our joy",
+   "Hakafos",
+   "dancing with the Torah",
+   "sealed letter",
+   "rich student",
+   "deathbed blessing",
+   "muddy boots",
+   "wooden closet",
+   "I Love Hashem",
+   "shofar gadol contest"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 146,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1984-10-16",
+   "hebrew": "20 Tishrei 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "On air: 'right in the middle of Sukkos'; the contest ends 'till after Sukkos, that is, till next Tuesday, October the 23rd'. So this Tuesday is 16 Oct 1984 (Chol HaMoed)."
+  },
+  "serial": {
+   "story_key": "the-lost-letter",
+   "story_title": "The Lost Letter",
+   "chapter": 1
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The story opens at the Baal Shem Tov's bedside in his last days as he blesses his students.",
+    "at_sec": 652
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 870
+   },
+   {
+    "flag": "health_info",
+    "note": "Refuah shleimah update for a named person.",
+    "at_sec": 1725
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Leibel, a wealthy student of the Baal Shem Tov",
+   "Reb Sholom"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "calendar",
+   "torah_study",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "simcha",
+   "anavah",
+   "emunah",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "kavod_shul",
+   "shema"
+  ],
+  "calendar": [
+   "sukkos",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "'Zman simchaseinu'; 'Zman cheiruseinu'; 'Zman matan Toraseinu'",
+    "note": "The holiday names from the Yom Tov prayers."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 20,
+   "end_sec": 55,
+   "type": "opening",
+   "title": "Opening: Chag Sameach"
+  },
+  {
+   "start_sec": 55,
+   "end_sec": 345,
+   "type": "talk",
+   "title": "The Time of Our Joy",
+   "summary": "Three reasons to rejoice on Sukkos: a Jewish soul, the Torah, and Hashem Himself.",
+   "calendar": [
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 345,
+   "end_sec": 565,
+   "type": "song",
+   "title": "Sing-along: \"I Love Hashem\""
+  },
+  {
+   "start_sec": 565,
+   "end_sec": 850,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 1",
+   "summary": "At the Baal Shem Tov's bedside, the wealthy Reb Leibel decides he needs no brachah.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 1
+  },
+  {
+   "start_sec": 850,
+   "end_sec": 938,
+   "type": "shema_guest",
+   "title": "Shema with a boy from the Tzivos Hashem Club"
+  },
+  {
+   "start_sec": 938,
+   "end_sec": 1196,
+   "type": "story_chapter",
+   "title": "The Lost Letter, Chapter 1 (continued)",
+   "summary": "The Baal Shem Tov sends Reb Leibel with a sealed letter, which slips under a closet and is forgotten.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-lost-letter",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1196,
+   "end_sec": 1615,
+   "type": "talk",
+   "title": "Hakafos: Lending the Torah Our Feet",
+   "summary": "Why we dance with the Torah on Simchas Torah, and how the Torah blesses us in return.",
+   "calendar": [
+    "shemini_atzeres_simchas_torah"
+   ]
+  },
+  {
+   "start_sec": 1615,
+   "end_sec": 1725,
+   "type": "announcement",
+   "title": "Shofar Gadol contest ends next week"
+  },
+  {
+   "start_sec": 1725,
+   "end_sec": 1772,
+   "type": "announcement",
+   "title": "Refuah shleimah update"
+  },
+  {
+   "start_sec": 1772,
+   "end_sec": 1788,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "525312872b",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Lost Letter' (1984): ep 146 ch. 1 and ep 147 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No sponsor message this week; the march is replaced by the song 'I Love Hashem'. Contest dates are period pieces. ASR spells the story's hero 'Label'/'Leib'; read as Reb Leibel."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avraham Zuntz",
+    "role": "shema_guest",
+    "group": "Tzivos Hashem Club",
+    "start_sec": 870,
+    "end_sec": 938
+   },
+   {
+    "name": "Yosef ben Chaya Malka",
+    "role": "refuah_list",
+    "start_sec": 1725,
+    "end_sec": 1772
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Yosef ben Chaya Malka reported to be getting better and better.",
+    "start_sec": 1725,
+    "end_sec": 1772
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:46Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20146%20-%20The%20Lost%20Letter%2C%20Chapter%201%20%28Chol%20HaMoed%20Sukkos%29%20%281984-10-16%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 146 - The Lost Letter, Chapter 1 (Chol HaMoed Sukkos) (1984-10-16).mp3",
+  "size_bytes": 21872543,
+  "mime_type": "audio/mpeg"
+ }
+}

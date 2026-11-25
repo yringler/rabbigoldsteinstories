@@ -1,0 +1,144 @@
+{
+ "id": "5f77291d43",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mishenichnas Adar 164",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Mishenichnas Adar - Three Reasons to Be Happy (Ep 164).mp3",
+  "duration_sec": 141.246,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 164,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 164,
+   "story": "Three lost on an island #1",
+   "topic": "מצוה time עוה\"ז עוה\"ב כל ישראל",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mishenichnas Adar: Three Reasons to Be Happy",
+  "title_basis": "content",
+  "summary_short": "On the eve of Rosh Chodesh Adar, Uncle Yossi explains why we add more simchah in Adar and gives three reasons every Jew has to be happy.",
+  "summary_long": "A short holiday talk from the Tzivos Hashem radio show, given the night before Rosh Chodesh Adar. Uncle Yossi reminds children that serving Hashem with joy is a standing order all year long, but in one month we must add even more: 'Mishenichnas Adar marbim b'simchah', when Adar arrives we increase our happiness as much as possible, and Hashem blesses us with a happy year in return. Nor do we have to look far for reasons to be happy. First, we are Jews, each with a holy neshamah that is truly a part of Hashem. Second, we daven to Hashem alone. Third, we have the holy Torah that Hashem gave us. He ends by wishing everyone a happy Rosh Chodesh.",
+  "lesson": "When Adar comes, add more and more simchah: be happy that you are a Jew with a holy neshamah, that you daven to Hashem alone, and that you have the Torah.",
+  "keywords": [
+   "happiness",
+   "joy",
+   "Adar",
+   "Rosh Chodesh",
+   "neshamah",
+   "Torah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 164,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-02-19",
+   "hebrew": "28 Shevat 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Said in the clip: 'tomorrow night is Rosh Chodesh Adar' (eve of 30 Shevat 5745); clip of episode 164, aired Tuesday."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "simcha",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "adar",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'tomorrow night' as Rosh Chodesh Adar; fine for Adar listening."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:54:17Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "cfcb2683b3",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 1611,
+   "note": "Episode 164 (filename number); clip = 1611-1752 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Mishenichnas%20Adar%20-%20Three%20Reasons%20to%20Be%20Happy%20%28Ep%20164%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Mishenichnas Adar - Three Reasons to Be Happy (Ep 164).mp3",
+  "size_bytes": 1696057,
+  "mime_type": "audio/mpeg"
+ }
+}

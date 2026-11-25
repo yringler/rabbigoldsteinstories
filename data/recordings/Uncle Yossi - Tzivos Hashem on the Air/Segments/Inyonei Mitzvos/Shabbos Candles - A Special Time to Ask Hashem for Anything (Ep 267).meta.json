@@ -1,0 +1,158 @@
+{
+ "id": "e182e3baf0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Neshek- 267",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - A Special Time to Ask Hashem for Anything (Ep 267).mp3",
+  "duration_sec": 179.501,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 267,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 267,
+   "story": "Reb Yehudah #?",
+   "topic": "Simchah, / Neshek #?",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Candles: A Special Time to Ask Hashem for Anything",
+  "title_basis": "content",
+  "summary_short": "After lighting Shabbos candles and saying the brachah, we look at the flames and ask Hashem for anything we or our loved ones need, because Hashem listens to every prayer.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, near the end of the series on Shabbos candles. Uncle Yossi reviews what children have already learned: the time to light, the whole brachah and the meaning of each word, and why we light first, cover our eyes, draw our hands toward us and then say the brachah. Now he teaches what comes next: we open our eyes and gaze at the candles, which seem to dance with joy as Shabbos arrives, and this is a special moment to ask Hashem for anything we need, or that someone close to us needs, because Hashem hears every prayer. Children can ask for Moshiach and the Beis HaMikdash, for good health for parents, grandparents and the whole family, for a refuah shleimah for someone who is ill, and for success in learning Torah, doing mitzvos and doing well on tests.",
+  "lesson": "The moment after lighting Shabbos candles is a special time to pray to Hashem, who listens to everyone.",
+  "keywords": [
+   "Shabbos candles",
+   "candle lighting",
+   "prayer",
+   "wishes",
+   "good health",
+   "tests"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 267,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1987-03-03",
+   "hebrew": "2 Adar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Cut from episode 267, filename dated 03-03-87."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "prayer_and_brachos",
+   "family_and_home"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Shomea tefillas kol peh",
+    "note": "Hashem listens to every prayer."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "11afe89ace",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 1352,
+   "note": "Episode 267 (filename number); clip = 1352-1531 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "b75d20d44d",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "Later lesson in the same Neshek series (after 'lehadlik' in 264); the lessons in between are not in this batch."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends before the invitation to write in about what children pray for."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:15Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Shabbos%20Candles%20-%20A%20Special%20Time%20to%20Ask%20Hashem%20for%20Anything%20%28Ep%20267%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - A Special Time to Ask Hashem for Anything (Ep 267).mp3",
+  "size_bytes": 2154970,
+  "mime_type": "audio/mpeg"
+ }
+}

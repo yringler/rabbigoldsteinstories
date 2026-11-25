@@ -1,0 +1,165 @@
+{
+ "id": "c542fdaf23",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefira-2 225",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Counting the Days to Matan Torah - Why We Count the Omer (Ep 225).mp3",
+  "duration_sec": 538.604,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 225,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 225,
+   "story": "The Flickering Flame",
+   "topic": "Sefira, / Shmiras HaZman",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Counting the Days to Matan Torah: Why We Count the Omer",
+  "title_basis": "content",
+  "summary_short": "We count the Omer to relive the Jewish people's excitement as they waited for the Torah, and every Jew stood at Har Sinai united like one person.",
+  "summary_long": "A talk from the Tzivos Hashem radio show during Sefiras HaOmer. Uncle Yossi explains that we count the 49 days from the second night of Pesach to Shavuos to relive how the Jewish people, freed from Mitzrayim, eagerly counted the days until Hashem would give them the Torah at Har Sinai. They already knew Hashem from the miracles of the Exodus, so He needed no introduction: 'I am Hashem your G-d.' Just as children count the days until a birthday present, the Jews could hardly wait to see Hashem and receive His gift, and this is what the coming of Moshiach will be like, when Hashem's glory is revealed to all. Every single Jew had to be at Matan Torah, which shows how important each Jew is. The Torah says Israel camped at Sinai in the singular, 'like one person with one heart', and in the merit of such unity Moshiach will come and free all of Klal Yisroel.",
+  "lesson": "Count the days with excitement for the Torah, and remember that every Jew counts: unity brings Moshiach.",
+  "keywords": [
+   "counting the Omer",
+   "Matan Torah",
+   "Har Sinai",
+   "Ten Commandments",
+   "Exodus",
+   "birthday present",
+   "unity"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 225,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1986-05-13",
+   "hebrew": "4 Iyar 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 225 (1986-05-13); 'right in the middle of the days of Sefirah'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "simcha"
+  ],
+  "mitzvos": [
+   "sefiras_haomer"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:2; 19:2; 20:2",
+    "note": "'Zeh Keli v'anvehu'; 'Vayichan' in the singular; 'Anochi Hashem Elokecha'."
+   },
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 40:5",
+    "note": "'The glory of Hashem will be revealed' when Moshiach comes."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "15211a2565",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 11,
+   "note": "Episode 225 (filename number); clip = 11-550 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut; begins at 'Baruch Hashem, here we are...'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Counting%20the%20Days%20to%20Matan%20Torah%20-%20Why%20We%20Count%20the%20Omer%20%28Ep%20225%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Counting the Days to Matan Torah - Why We Count the Omer (Ep 225).mp3",
+  "size_bytes": 6464235,
+  "mime_type": "audio/mpeg"
+ }
+}

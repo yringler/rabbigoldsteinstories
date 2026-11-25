@@ -1,0 +1,284 @@
+{
+ "id": "61cf19835a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "38",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 038 - The Missing Wallet, Chapter 1 (Elul) (1982-08-24).mp3",
+  "duration_sec": 1728.464,
+  "filename_facts": {
+   "episode_number": 38,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 38,
+   "story": "The Missing Wallet #1",
+   "topic": "Melech Basadeh",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 38: The Missing Wallet, Chapter 1 (Elul)",
+  "title_basis": "master_catalog",
+  "summary_short": "A boy finds a wallet with $1,200 and battles his yetzer hara over returning it, and Uncle Yossi explains Elul with the Alter Rebbe's parable of the King in the field.",
+  "summary_long": "Uncle Yossi opens by sharing parents' letters about how whole families gather every Tuesday at six to listen, then leads a lively march with everyone in the studio joining in. Story time begins 'The Missing Wallet': little Dovid, who just learned in yeshiva about hashavas aveidah, finds a wallet holding twelve hundred dollars. His yetzer tov and yetzer hara argue over what to do. A young girl who learned the Shema from the program leads it in Studio 604. Dovid brings the wallet home to his sick, widowed mother; though they badly need money, they agree it must be returned, and Dovid fetches the owner, the president of the local bank. In their poor apartment the mother tells how her late husband, once a wealthy and charitable businessman, fell ill and died. When she names him and their hometown, the banker breaks down in tears, to be continued next week. The show closes with the Alter Rebbe's parable of Elul: Hashem is like a king who comes out to the field to greet his people and grant their requests, so now is the time for teshuvah.",
+  "lesson": "Returning a lost object is a mitzvah even when it is hard; and in Elul, Hashem is close like a king in the field, ready to accept our teshuvah.",
+  "keywords": [
+   "lost wallet",
+   "twelve hundred dollars",
+   "bank president",
+   "widow",
+   "yetzer tov",
+   "yetzer hara",
+   "King in the field",
+   "pot lid drum",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 38,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1982-08-24",
+   "hebrew": "5 Elul 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'The month of Elul is already here' (Rosh Chodesh Elul 5742 was 20 Aug 1982); matches the weekly estimate."
+  },
+  "serial": {
+   "story_key": "the-missing-wallet",
+   "story_title": "The Missing Wallet",
+   "chapter": 1
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A widowed, bedridden mother and her son live in poverty on charity.",
+    "at_sec": 960
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The boy's father fell ill and died when he was a baby (told, not shown).",
+    "at_sec": 1165
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The mother is sick and confined to bed.",
+    "at_sec": 990
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named on air.",
+    "at_sec": 815
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Dovid",
+   "Dovid's mother, Mrs. Goldberg",
+   "Mr. Green, the bank president",
+   "Dovid's teacher"
+  ],
+  "topics": [
+   "character",
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "emes",
+   "self_control",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "hashavas_aveidah",
+   "shema",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Parshas Re'eh",
+    "note": "The Alter Rebbe's parable of the King in the field (Melech BaSadeh) for Elul."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 160,
+   "type": "opening",
+   "title": "Opening: letters from listening families"
+  },
+  {
+   "start_sec": 160,
+   "end_sec": 436,
+   "type": "song",
+   "title": "March with homemade drums"
+  },
+  {
+   "start_sec": 436,
+   "end_sec": 740,
+   "type": "story_chapter",
+   "title": "The Missing Wallet, Chapter 1 (beginning)",
+   "summary": "After learning about hashavas aveidah, Dovid finds a wallet with $1,200 and his yetzer tov and yetzer hara argue.",
+   "story_key": "the-missing-wallet",
+   "chapter": 1
+  },
+  {
+   "start_sec": 740,
+   "end_sec": 955,
+   "type": "shema_guest",
+   "title": "Shema with a young listener who learned it from the program"
+  },
+  {
+   "start_sec": 955,
+   "end_sec": 1477,
+   "type": "story_chapter",
+   "title": "The Missing Wallet, Chapter 1 (continued)",
+   "summary": "Dovid and his sick mother decide to return the wallet; the bank president hears their story and bursts into tears.",
+   "story_key": "the-missing-wallet",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1477,
+   "end_sec": 1703,
+   "type": "talk",
+   "title": "Elul: the King in the field",
+   "summary": "In Elul Hashem is like a king who comes out to the field to greet his people, so it is the time to return to Him.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "3b5aee7f24"
+   ]
+  },
+  {
+   "start_sec": 1703,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3b5aee7f24",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Melech Basadeh 38' = 1477-1703 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "c77d5adc20",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Catalog: 38 = 'The Missing Wallet #1', 39 = '#2'."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "March partly transcribed as studio chatter (about 3:15-7:15)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shterna Sara",
+    "role": "shema_guest",
+    "start_sec": 815,
+    "end_sec": 955,
+    "note": "Wrote last week to say she learned the Shema from the program; surname not given."
+   },
+   {
+    "name": "Miriam",
+    "role": "mailbox_letter",
+    "start_sec": 97,
+    "end_sec": 125,
+    "note": "A listener's young daughter, quoted from a parent's letter."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:43Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20038%20-%20The%20Missing%20Wallet%2C%20Chapter%201%20%28Elul%29%20%281982-08-24%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 038 - The Missing Wallet, Chapter 1 (Elul) (1982-08-24).mp3",
+  "size_bytes": 20742485,
+  "mime_type": "audio/mpeg"
+ }
+}

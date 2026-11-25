@@ -1,0 +1,344 @@
+{
+ "id": "d8bd0302fb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "308 12-29-87",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 308 - Shabbos Chazak and Asarah B'Teves (1987-12-29).mp3",
+  "duration_sec": 1832.244,
+  "filename_facts": {
+   "episode_number": 308,
+   "date_in_filename": "1987-12-29",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 308,
+   "story": "",
+   "topic": "י' טבת / Shabbos Chazak",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 308: Shabbos Chazak and Asarah B'Teves",
+  "title_basis": "content",
+  "summary_short": "Finishing Sefer Bereishis on Shabbos Chazak, two young guests from Ann Arbor say the Shema, the meaning of the fast of Asarah B'Teves, and a family's letter from the mailbox.",
+  "summary_long": "Broadcast in Teves 5748, the week of Parshas Vayechi and Asarah B'Teves. Uncle Yossi explains that this Shabbos we finish Sefer Bereishis and call out 'Chazak, chazak, v'nischazek', asking Hashem for strength to keep learning, just as we do on Simchas Torah, and urges children to be in shul to join in. After the Hakochainik march, a brother and sister visiting from Ann Arbor, Michigan, lead the Shema. Then comes the month of Teves: as Shlomo HaMelech said, there is a time for everything, even a time to be sad so that we improve. On the tenth of Teves the armies of Nevuchadnetzar besieged Yerushalayim, which led to the breach of the walls on Shiva Asar B'Tammuz and the destruction of the Beis HaMikdash on Tisha B'Av. As long as we learn Torah and keep mitzvos, the Guardian of Israel protects us, and soon Moshiach will turn these fast days into holidays. This Thursday we fast, give tzedakah and cry 'Ad mosai!'. The mailbox brings a mother's letter about her children and their drawings of Tzivos Hashem rooms, and the show ends with Shabbos candle time.",
+  "lesson": "Remembering sad days in our history helps us improve; Torah and mitzvos protect us, and Moshiach will turn the fasts into holidays.",
+  "keywords": [
+   "Chazak chazak v'nischazek",
+   "Sefer Bereishis",
+   "siege of Yerushalayim",
+   "fast day",
+   "Ad Mosai",
+   "Jewish calendar",
+   "Tzivos Hashem room",
+   "drawings",
+   "mailbox"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 308,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-12-29",
+   "hebrew": "8 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Parshas Vayechi this Shabbos, 'this Thursday is Asarah B'Teves' (31 Dec 1987), Shabbos candles Friday January 1st at 4:21."
+  },
+  "content_type": "radio_episode",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Explains the siege of Yerushalayim, hunger in the city and the destruction of the Beis HaMikdash, told gently.",
+    "at_sec": 837
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests and five children in a family letter named in full, some with ages.",
+    "at_sec": 490
+   },
+   {
+    "flag": "home_address",
+    "note": "Family's street address read in the mailbox.",
+    "at_sec": 1494
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "parsha",
+   "jewish_history",
+   "moshiach_geulah",
+   "torah_study"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "fast_days",
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [
+   "shabbos_chazak",
+   "asarah_bteves"
+  ],
+  "parshiyos": [
+   "vayechi"
+  ],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'There is a time for everything', said by Shlomo HaMelech."
+   },
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "Bavel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "opening",
+   "title": "Opening"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 289,
+   "type": "talk",
+   "title": "Shabbos Chazak: Finishing Sefer Bereishis",
+   "summary": "Why we call out 'Chazak, chazak, v'nischazek' when finishing a book of the Torah, and why children should be in shul for it.",
+   "calendar": [
+    "shabbos_chazak"
+   ],
+   "linked_items": [
+    "29ba549f21"
+   ]
+  },
+  {
+   "start_sec": 289,
+   "end_sec": 490,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 490,
+   "end_sec": 637,
+   "type": "shema_guest",
+   "title": "Shema with a brother and sister from Ann Arbor"
+  },
+  {
+   "start_sec": 637,
+   "end_sec": 1465,
+   "type": "talk",
+   "title": "Asarah B'Teves: A Time to Remember",
+   "summary": "The siege of Yerushalayim that began on the tenth of Teves, what we learn from it, and the hope that Moshiach will turn the fast into a holiday.",
+   "calendar": [
+    "asarah_bteves"
+   ],
+   "linked_items": [
+    "37367b27fe"
+   ]
+  },
+  {
+   "start_sec": 1465,
+   "end_sec": 1771,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a family's letter and drawings",
+   "summary": "A mother writes about her children's mitzvos, with their drawings of Tzivos Hashem rooms."
+  },
+  {
+   "start_sec": 1771,
+   "end_sec": 1790,
+   "type": "announcement",
+   "title": "Shabbos candle time"
+  },
+  {
+   "start_sec": 1790,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Mailbox reads a family's street address and five children's names with ages (see hidden). Catalog lists no story for 308; none is told. Gift shop and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Alter Yehoshua Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan",
+    "start_sec": 490,
+    "end_sec": 637
+   },
+   {
+    "name": "Shterna Sara Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan (sister)",
+    "start_sec": 490,
+    "end_sec": 637
+   },
+   {
+    "name": "Shimon Mordechai Levanani",
+    "role": "mailbox_letter",
+    "group": "Levanani family, Brooklyn; age 8½",
+    "start_sec": 1494,
+    "end_sec": 1771
+   },
+   {
+    "name": "Shifra Shendel Levanani",
+    "role": "mailbox_letter",
+    "group": "Levanani family, Brooklyn; age 6½",
+    "start_sec": 1494,
+    "end_sec": 1771
+   },
+   {
+    "name": "Aharon Levanani",
+    "role": "mailbox_letter",
+    "group": "Levanani family, Brooklyn",
+    "start_sec": 1494,
+    "end_sec": 1650
+   },
+   {
+    "name": "Yita Bela Levanani",
+    "role": "mailbox_letter",
+    "group": "Levanani family, Brooklyn",
+    "start_sec": 1494,
+    "end_sec": 1650
+   },
+   {
+    "name": "Yehuda Aryeh Leib Levanani",
+    "role": "mailbox_letter",
+    "group": "Levanani family, Brooklyn",
+    "start_sec": 1494,
+    "end_sec": 1650
+   },
+   {
+    "name": "Mrs. Levanani",
+    "role": "mailbox_letter",
+    "group": "mother; wrote the letter",
+    "start_sec": 1494,
+    "end_sec": 1700
+   }
+  ],
+  "addresses": [
+   {
+    "text": "1559 41st Street, Brooklyn, New York",
+    "start_sec": 1494,
+    "end_sec": 1503
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:56Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "29ba549f21",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "note": "'Shabbos Chazak 308' = 43-289 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "37367b27fe",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Asarah B'Teves 308' = 637-1476 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20308%20-%20Shabbos%20Chazak%20and%20Asarah%20B%27Teves%20%281987-12-29%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 308 - Shabbos Chazak and Asarah B'Teves (1987-12-29).mp3",
+  "size_bytes": 21987909,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "id": "38a2448562",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Reb Meir Refaels - kingship",
+  "audio_path": "audio/Other Stories/Reb Meir Refoels and the Alter Rebbe's Lesson on Kingship.mp3",
+  "duration_sec": 1161.389,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Meir Refoels and the Alter Rebbe's Lesson on Kingship",
+  "title_basis": "filename",
+  "summary_short": "Two Vilna partners facing an unjust sentence get only a Torah thought from the Alter Rebbe, until a minister in a St. Petersburg park asks them exactly that question.",
+  "summary_long": "A quiet stranger in a Vilna shul turns out to be a Chassid of the Alter Rebbe. When his Shabbos host sighs at every meal, the guest learns that the man and his partner face prison and heavy fines on a false charge brought by a judge who hates Jews, and he urges them to go to the Alter Rebbe. The partner is reluctant, so they ask Reb Meir Refoels, a great Torah scholar who was not a Chassid but had already seen the Alter Rebbe's greatness in the story of an agunah, and he tells them to go. In Liozna the Alter Rebbe gives them no advice, only an explanation of the Sages' words that earthly kingship is like the kingship of Heaven: Hashem is known through His deeds, not His name, just as subjects call their king 'Your Majesty'. Disappointed, they go to St. Petersburg. Waiting in a park for the Minister of Justice, they meet the Minister of Education instead, who asks them the very question the Czar had put to his ministers. Their answer wins their freedom, and Reb Meir Refoels becomes a devoted Chassid.",
+  "lesson": "A Rebbe's words always have a purpose even when we do not understand them yet; trust in Hashem.",
+  "keywords": [
+   "Vilna shul",
+   "stranger",
+   "Shabbos guest",
+   "false charge",
+   "court case",
+   "minister",
+   "park",
+   "Czar",
+   "kingship"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A judge who hates Jews brings a false charge; two Jews face prison. Resolved happily."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Chassid traveling to the Rebbe",
+   "the shammes",
+   "the Vilna householder and his partner",
+   "the Minister of Education"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "anavah"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Vilna",
+   "Liozna",
+   "St. Petersburg"
+  ],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "'The saying of our Chachamim' that earthly kingship is like the kingship of Heaven, explained by the Alter Rebbe."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "b3e66d649f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Reb Meir Refoels and the King's Name: A Court Case Won by the Alter Rebbe' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud narration. Says 'as you remember' about an earlier story (the agunah), so it was probably told after another Reb Meir Refoels story."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:40:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unknown. Refers back to a Reb Meir Refoels agunah story, possibly another item in the archive."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Reb%20Meir%20Refoels%20and%20the%20Alter%20Rebbe%27s%20Lesson%20on%20Kingship.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Reb Meir Refoels and the Alter Rebbe's Lesson on Kingship.mp3",
+  "size_bytes": 13937623,
+  "mime_type": "audio/mpeg"
+ }
+}

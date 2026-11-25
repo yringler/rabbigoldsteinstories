@@ -1,0 +1,271 @@
+{
+ "id": "3179cab4c6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Ushpizin Vertlach unedited - Yiddish and English",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Ushpizin Vertlach - A Saying from Each Rebbe.mp3",
+  "duration_sec": 1162.606,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "unedited"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "name mentions Yiddish and English"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Ushpizin Vertlach: A Saying from Each Rebbe",
+  "title_basis": "filename",
+  "summary_short": "For Sukkos, a story that weaves in a famous saying from each Chassidic Ushpiz, from the Baal Shem Tov to the Rebbe, with children repeating each one.",
+  "summary_long": "Before Sukkos, the storyteller explains the Ushpizin: the seven guests of the Zohar, and the Chassidic Ushpizin from the Baal Shem Tov to the Rebbe, who all visit the sukkah every night. To welcome them we say a dvar Torah, so he tells a story with a saying from each Rebbe, and the children repeat them. A man named Rabbi Yisroel passes a sad, poor Jew at the edge of a forest. At home he regrets leaving without helping, returns with money, and also helps the man put on tefillin. He then learns the Baal Shem Tov's teaching that a soul may come down for seventy or eighty years just to do another Jew a favor, the Maggid's teaching that loving a Jew is loving Hashem, and the Alter Rebbe's teaching about turning the physical into the spiritual. A friend reminds him of the Mitteler Rebbe's words that when Chassidim meet they should speak Chassidus, and suggests helping the man's children. The Tzemach Tzedek's 'think good and it will be good', the Rebbe Maharash's 'lechatchilah ariber', the Rebbe Rashab's call for students to be lamps that light up the world, the Frierdiker Rebbe's 'teshuvah soon, Geulah soon' and the Rebbe's call to do all we can to bring Moshiach carry the story to the family enrolling the children in yeshiva.",
+  "lesson": "Bring the Ushpizin into the sukkah by saying their teachings, and live them: do favors for other Jews in body and soul, think good, and do all you can to bring Moshiach.",
+  "keywords": [
+   "Ushpizin",
+   "sukkah guests",
+   "forest",
+   "poor man",
+   "ten dollars",
+   "yeshiva",
+   "lechatchilah ariber",
+   "neiros l'ha'ir",
+   "Tomchei Temimim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "moral_fiction",
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child in the audience is called on by first name.",
+    "at_sec": 650
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   },
+   {
+    "id": "yosef_hatzaddik",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yisroel",
+   "Yosef, a poor man",
+   "Rabbi Getzel",
+   "the yeshiva principal"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "kindness_and_community",
+   "chassidus_tanya"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "bitachon",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "sukkah",
+   "tzedakah",
+   "tefillin",
+   "ahavas_yisroel_mitzvah",
+   "chinuch"
+  ],
+  "calendar": [
+   "sukkos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "note": "The seven Ushpizin who visit the sukkah."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe on the Chassidic Ushpizin all coming every night, and 'do all you can to bring Moshiach'."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Well-known sayings of each Chabad Rebbe, from the Baal Shem Tov to the Frierdiker Rebbe."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 170,
+   "type": "talk",
+   "title": "The Ushpizin, Zohar and Chassidic",
+   "summary": "Who the Ushpizin are and why we greet them with words of Torah."
+  },
+  {
+   "start_sec": 170,
+   "end_sec": 1162,
+   "type": "story",
+   "title": "Rabbi Yisroel and the man in the forest",
+   "summary": "A story that brings in a saying of each Rebbe, with the children repeating them."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "mixed_language",
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Unedited classroom-style recording with children repeating the sayings; the ASR loops on the repetitions (about 11:25 and 13:03). Yiddish sayings mixed in. Ends abruptly after a short wrap-up."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Leivik",
+    "role": "other",
+    "group": "child in the audience",
+    "start_sec": 650,
+    "end_sec": 656
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Marked 'unedited'; the transcript shows ASR loops where the children repeat. Check whether an edited version exists."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:12Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Ushpizin%20Vertlach%20-%20A%20Saying%20from%20Each%20Rebbe.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Ushpizin Vertlach - A Saying from Each Rebbe.mp3",
+  "size_bytes": 13952064,
+  "mime_type": "audio/mpeg"
+ }
+}

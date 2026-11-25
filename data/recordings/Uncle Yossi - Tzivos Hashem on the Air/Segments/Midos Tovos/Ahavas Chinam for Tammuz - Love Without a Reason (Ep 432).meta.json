@@ -1,0 +1,167 @@
+{
+ "id": "3a3bfe1a67",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Ahavas Chinam Tammuz 432",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Ahavas Chinam for Tammuz - Love Without a Reason (Ep 432).mp3",
+  "duration_sec": 508.411,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 432,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 432,
+   "story": "The island of treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Ahavas Chinam for Tammuz: Love Without a Reason",
+  "title_basis": "content",
+  "summary_short": "Before Rosh Chodesh Tammuz, Uncle Yossi explains that the Beis HaMikdash was destroyed because of hatred for no reason, and that loving every Jew will bring Moshiach.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, broadcast the week before Rosh Chodesh Tammuz. Uncle Yossi explains that the month of Tammuz recalls sad events, and asks what caused them. Hashem's greatest pleasure is to see the Jewish people living in peace and unity, and unity is the vessel for His blessings, as we say in Shemoneh Esrei, 'bless us, our Father, all of us as one'. The Beis HaMikdash was destroyed because of sinas chinam, hatred for no reason, which is even worse than hatred out of jealousy or a grudge; the Torah forbids hating another Jew even in your heart. The cure is Ahavas Yisroel: helping others with food, clothing and shelter, and helping them learn Torah and do mitzvos. That is what Tzivos Hashem's ranks and mitzvah missions are about. Uncle Yossi gives the order of the day: put Ahavas Yisroel at the top of your list, and Hashem, who does not want us in golus a moment longer, will send Moshiach in the blink of an eye.",
+  "lesson": "Chase away hatred and put Ahavas Yisroel at the top of your list; loving every Jew will bring Moshiach and the Beis HaMikdash.",
+  "keywords": [
+   "sinas chinam",
+   "hatred",
+   "unity",
+   "Beis HaMikdash",
+   "order of the day",
+   "blink of an eye",
+   "Tammuz"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 432,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-06-19",
+   "hebrew": "26 Sivan 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "From episode 432: 'this coming Shabbos is Rosh Chodesh Tammuz' fits Shabbos 30 Sivan 5750."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Explains that the Beis HaMikdash was destroyed because of baseless hatred."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "no_jealousy"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:17",
+    "note": "'Do not hate your brother in your heart.'"
+   },
+   {
+    "work": "siddur",
+    "ref": "Shemoneh Esrei, Sim Shalom",
+    "note": "'Bless us, our Father, all of us as one.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a8cc7367fb",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 50,
+   "note": "Episode 432 (filename number); clip = 50-558 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same talk as 50-558 s of episode 432. Filename says 'Ahavas Chinam'; the talk is about sinas chinam and Ahavas Yisroel. The last 15 s may hold the start of a song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Ahavas%20Chinam%20for%20Tammuz%20-%20Love%20Without%20a%20Reason%20%28Ep%20432%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Ahavas Chinam for Tammuz - Love Without a Reason (Ep 432).mp3",
+  "size_bytes": 6101872,
+  "mime_type": "audio/mpeg"
+ }
+}

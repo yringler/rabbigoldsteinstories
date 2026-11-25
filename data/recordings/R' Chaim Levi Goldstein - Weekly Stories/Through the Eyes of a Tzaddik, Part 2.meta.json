@@ -1,0 +1,284 @@
+{
+ "id": "6144d5e2ae",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Through The Eyes Of A Tzaddik - part 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Through the Eyes of a Tzaddik, Part 2.mp3",
+  "duration_sec": 1120.131,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Through the Eyes of a Tzaddik, Part 2",
+  "title_basis": "filename",
+  "summary_short": "Before Shavuos, why the Torah's mitzvos are true freedom. Then Reb Baruch obeys the Alter Rebbe, goes to the minister a week late, and learns how the delay saved his life.",
+  "summary_long": "Before continuing the story, the storyteller speaks about Shavuos. Leaving Egypt had a goal: to serve Hashem at Har Sinai. But how is trading Pharaoh's rules for 613 mitzvos called freedom? The Rebbe's parable explains: a plant, an animal and a person each need different things to feel free, and a Jewish neshamah is free only when it lives with Torah and mitzvos. A second parable tells of a wingless bird who refuses an eagle's gift of wings because they look heavy, until he learns that wings lift you up when you use them, just like mitzvos done with joy. The Rebbe once told a professor that the greatest miracle in history is that the Jewish people still exist. Then the story continues: after a week, the Alter Rebbe tells Reb Baruch he may now go to the minister and will find favor. The guards rush him in, and the overjoyed minister explains that an officer had been ordered to shoot him on sight that Tuesday, but he did not come, and the next day witnesses revealed that Ivan had framed him. Reb Baruch gets his job back with a raise and understands that everything looks different through the eyes of a tzaddik.",
+  "lesson": "Torah and mitzvos are true freedom that lift us up, and following a tzaddik's guidance with trust in Hashem brings protection.",
+  "keywords": [
+   "freedom",
+   "plant, animal and person",
+   "wingless bird",
+   "eagle",
+   "greatest miracle",
+   "professor",
+   "minister",
+   "framed",
+   "lumberyard",
+   "witnesses"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "part": {
+   "set_key": "through-the-eyes-of-a-tzaddik",
+   "part_number": 2,
+   "of": 2
+  },
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "The minister reveals an officer had orders to shoot Reb Baruch on sight; he was never in danger in the end."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hater frames a Chassid; the survival of the Jewish people after persecutions is mentioned."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Baruch",
+   "his wife",
+   "the minister",
+   "Ivan",
+   "a professor",
+   "the wingless bird",
+   "the eagle"
+  ],
+  "topics": [
+   "hiskashrus",
+   "emunah_bitachon",
+   "chabad_rebbeim",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "simcha"
+  ],
+  "mitzvos": [
+   "tehillim"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "A letter of the Rebbe: the parable of the plant, the animal and the person on true freedom."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 3:12",
+    "note": "'You will serve Hashem on this mountain.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 696,
+   "type": "sichah",
+   "title": "Shavuos: what true freedom is",
+   "summary": "The Rebbe's parable of the plant, animal and person, and the wingless bird and the eagle."
+  },
+  {
+   "start_sec": 570,
+   "end_sec": 696,
+   "type": "story",
+   "title": "The Rebbe and the professor",
+   "summary": "The greatest miracle is that the Jewish people still exist."
+  },
+  {
+   "start_sec": 696,
+   "end_sec": 745,
+   "type": "story_intro",
+   "title": "Recap of Part 1"
+  },
+  {
+   "start_sec": 745,
+   "type": "story_chapter",
+   "title": "Saved by waiting",
+   "summary": "Reb Baruch goes to the minister a week late and learns the delay saved his life.",
+   "story_key": "through-the-eyes-of-a-tzaddik",
+   "chapter": 2
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends right after the story's last line, without a sign-off. ASR sometimes writes 'Rabbi Akiva' for Reb Baruch."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Story ending nearly matches Uncle Yossi's radio script word for word; may help identify the weekly storyteller."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:29Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "3bb176e5dc",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'Through The Eyes Of A Tzaddik Part 1'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c7ad731703",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Uncle Yossi's radio Episode 27 tells the concluding chapter of the same story, nearly word for word (the villain is called Alex there)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "da4e994561",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Radio Episode 145 tells the concluding chapter of 'Through the Eyes of a Tzaddik'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f19c7a126f",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Radio Episode 290 tells the concluding chapter of 'Through the Eyes of a Tzaddik'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "853da317f6",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Radio Episode 470 tells the concluding chapter of 'Through the Eyes of a Tzaddik'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e1f0dfdd1d",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Radio Episode 233 tells the concluding chapter of 'Through the Eyes of a Tzaddik'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "456522bfcc",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Through%20the%20Eyes%20of%20a%20Tzaddik%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Through the Eyes of a Tzaddik, Part 2.mp3",
+  "size_bytes": 13442353,
+  "mime_type": "audio/mpeg"
+ }
+}

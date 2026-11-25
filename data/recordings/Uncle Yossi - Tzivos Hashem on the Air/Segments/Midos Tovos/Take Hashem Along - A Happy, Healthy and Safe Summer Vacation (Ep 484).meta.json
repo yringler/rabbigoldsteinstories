@@ -1,0 +1,166 @@
+{
+ "id": "58c67265de",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Vacation 484",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Take Hashem Along - A Happy, Healthy and Safe Summer Vacation (Ep 484).mp3",
+  "duration_sec": 233.623,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 484,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 484,
+   "story": "The big surprise",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Take Hashem Along: A Happy, Healthy and Safe Summer Vacation",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi's summer reminder: pack your siddur and Chumash, learn and daven every day, and say Tehillim and the Twelve Pesukim for protection when you travel.",
+  "summary_long": "A short summer-vacation talk from the Tzivos Hashem radio show. As children pack for the summer, Uncle Yossi reminds them to take Hashem along: bring a siddur, Chumash and other holy books so they can daven and learn every day. Just as the body needs good food and exercise, the neshamah needs daily Torah and prayer to stay strong; put Hashem at the top of your list and He will put you at the top of His. Because there is more travel in the summer, he suggests saying a few chapters of Tehillim before and during a trip, since the holy words become angels that guard us, as the verse says, 'He will command His angels to guard you in all your ways.' Every Tzivos Hashem soldier should also say the Twelve Pesukim daily, and he explains how to get a copy from Tzivos Hashem.",
+  "lesson": "Take Hashem with you on vacation: learn, daven and say Tehillim every day, and your summer will be good for body and soul.",
+  "keywords": [
+   "summer vacation",
+   "packing",
+   "siddur",
+   "Chumash",
+   "travel",
+   "angels",
+   "healthy soul",
+   "Yud-Beis Pesukim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 484,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-06-18",
+   "hebrew": "6 Tammuz 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "From the full episode 484, which places Yud-Beis Tammuz on the coming Monday (24 June 1991)."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "mitzvos_in_daily_life",
+   "prayer_and_brachos",
+   "torah_study",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study",
+   "tehillim",
+   "twelve_pesukim"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "91:11",
+    "note": "'He will command His angels to guard you in all your ways.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "e93c716ec7",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 55,
+   "note": "Episode 484 (filename number); clip = 55-289 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with Tzivos Hashem's 1991 office phone number for ordering the Twelve Pesukim."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Take%20Hashem%20Along%20-%20A%20Happy%2C%20Healthy%20and%20Safe%20Summer%20Vacation%20%28Ep%20484%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Take Hashem Along - A Happy, Healthy and Safe Summer Vacation (Ep 484).mp3",
+  "size_bytes": 2804476,
+  "mime_type": "audio/mpeg"
+ }
+}

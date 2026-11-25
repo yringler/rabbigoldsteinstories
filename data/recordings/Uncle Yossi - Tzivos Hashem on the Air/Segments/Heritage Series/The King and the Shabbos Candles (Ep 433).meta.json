@@ -1,0 +1,180 @@
+{
+ "id": "35d18b019a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/King Shabbos candles",
+  "filename_title": "The King and the Shabbos Candles 433",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The King and the Shabbos Candles (Ep 433).mp3",
+  "duration_sec": 479.355,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 433,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 433,
+   "story": "The king and the Shabbos candles",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The King and the Shabbos Candles",
+  "title_basis": "master_catalog",
+  "summary_short": "An angry king bans all candles, leaving the Jews without Shabbos lights, until he is lost in a Friday snowstorm and a Shabbos candle leads him to safety.",
+  "summary_long": "A story from the Tzivos Hashem radio show about how a Shabbos candle saved the life of a king. Long before electric light, a king's newly remodeled study burns down when a candlestick tips over. In his anger he orders that no one in his city may use candles, and the Jews are left without Shabbos candles. The rabbi gathers the community in shul to say Tehillim, and tells them that to bring a speedy answer they must beautify the mitzvah of Shabbos candles: in every home not only the mother but every daughter old enough to know it is Shabbos should say the brachah and light. Late one Friday afternoon the king, out riding in the forest, is thrown from his horse in a fierce snowstorm and becomes lost. Crawling through the snow, he sees a light twinkling in the distance: Shabbos candles burning in a cabin outside the city. He is welcomed to the Shabbos table and, grateful that a Shabbos candle saved his life, takes back his decree.",
+  "lesson": "The light of the Shabbos candles protects and brings blessing; every Jewish girl can add to it by lighting her own.",
+  "keywords": [
+   "king",
+   "candle decree",
+   "fire",
+   "snowstorm",
+   "forest",
+   "cabin",
+   "Shabbos table",
+   "challah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 433,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-06-26",
+   "hebrew": "3 Tammuz 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Clip from episode 433 (summer vacation 5750); the story also aired earlier in episodes 298 and 383."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A king's angry decree bans candles, leaving the Jews without Shabbos candles.",
+    "at_sec": 98
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the rabbi",
+   "the Jewish family in the cabin"
+  ],
+  "topics": [
+   "shabbos",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "controlling_anger",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "tehillim",
+   "hachnasas_orchim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "34fa0cd369",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 298."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "79f1685101",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "Also aired in episode 383."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "be96b8e66a",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 856,
+   "note": "Episode 433 (filename number); clip = 856-1336 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean, complete story. About 20 s of silence or music after the last line."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/The%20King%20and%20the%20Shabbos%20Candles%20%28Ep%20433%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/The King and the Shabbos Candles (Ep 433).mp3",
+  "size_bytes": 5753313,
+  "mime_type": "audio/mpeg"
+ }
+}

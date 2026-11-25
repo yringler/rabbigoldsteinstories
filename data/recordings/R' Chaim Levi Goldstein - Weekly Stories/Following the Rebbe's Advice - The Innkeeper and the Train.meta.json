@@ -1,0 +1,194 @@
+{
+ "id": "d1fc7f253f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Following The Rebbe's Advice",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Following the Rebbe's Advice - The Innkeeper and the Train.mp3",
+  "duration_sec": 1175.876,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Following the Rebbe's Advice: The Innkeeper and the Train",
+  "title_basis": "filename",
+  "summary_short": "Framed for poisoning by the town priest, an innkeeper travels to the Rebbe Maharash, who sends him home on a first-class train without any advice. The ride turns out to be his rescue.",
+  "summary_long": "In the days of the Rebbe Maharash, a Chassid named Reb Yankel runs a busy inn. The local priest, jealous of his business, opens his own inn and preaches against the Jews, but the peasants keep coming to Reb Yankel. So the priest pretends to make peace, secretly swaps in a poisoned bottle, and when a customer dies he accuses Reb Yankel of murder. Facing a trial, Reb Yankel rushes to Lubavitch, but for two days the Rebbe says others are ahead of him in line. On the third morning the Rebbe sends for him and tells him only to take the next train home, first class, without stopping or speaking to anyone. Heartbroken, Reb Yankel weeps while davening in his compartment, and pours out his story to the passengers next door, who happen to be the judges and investigators heading to his town. Disguised as travelers, they lodge with the priest, who boasts of his plot after a few drinks. In court the priest is exposed and sentenced, and Reb Yankel understands why the Rebbe made him wait.",
+  "lesson": "A Rebbe's words come from Hashem; even when they do not make sense to us right away, following them brings success.",
+  "keywords": [
+   "inn",
+   "innkeeper",
+   "priest",
+   "poison",
+   "trial",
+   "judges",
+   "train",
+   "first class",
+   "Lubavitch",
+   "gabbai"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A customer drinks poisoned whiskey and dies on the spot."
+   },
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A priest preaches against Jews and frames a Jewish innkeeper for murder."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "Investigators get the priest drunk so he reveals his plot; the narrator warns about drunkenness."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Yankel the innkeeper",
+   "the town priest",
+   "the Rebbe's gabbai",
+   "the judges and investigators"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "bitachon",
+   "savlanus"
+  ],
+  "mitzvos": [
+   "davening",
+   "tefillin"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Lubavitch",
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 38,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 38,
+   "end_sec": 1110,
+   "type": "story",
+   "title": "The innkeeper, the priest and the Rebbe's train ticket",
+   "people": [
+    "rebbe_maharash"
+   ]
+  },
+  {
+   "start_sec": 1110,
+   "type": "talk",
+   "title": "Why the Rebbe made him wait"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'Maharaj' for Maharash and alternates Yankel / Akiva for the innkeeper. Ends right after the lesson with no sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:01Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "770aa7cebf",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 6: The Rebbe Maharash and the Innkeeper's Trial' (Stories, 18:38-25:09), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Following%20the%20Rebbe%27s%20Advice%20-%20The%20Innkeeper%20and%20the%20Train.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Following the Rebbe's Advice - The Innkeeper and the Train.mp3",
+  "size_bytes": 14111287,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "id": "13e6bf0836",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "478",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 478 - The Three Sacks of Gold (Lag BaOmer) (1991-05-07).mp3",
+  "duration_sec": 1837.559,
+  "filename_facts": {
+   "episode_number": 478,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 478,
+   "story": "The three sacks of gold",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 478: The Three Sacks of Gold (Lag BaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "After Lag BaOmer, Uncle Yossi speaks of Rabbi Shimon bar Yochai and the greatest blessing, Moshiach; then a story about three artists, a king's prize and a clever trick with a mirror.",
+  "summary_long": "Broadcast just after Lag BaOmer, 5751. Uncle Yossi explains that Lag BaOmer is the yahrzeit of Rabbi Shimon bar Yochai, whose resting place in Meron draws Jews from all over the world to pray. In this year of wonders, the greatest blessing to ask for is Moshiach, which includes every other blessing: the sick will be healed, the world will be at peace, evil will be gone, the third Beis HaMikdash will come down from Heaven and the tzaddikim will return to life. With Sefirah's restriction lifted, the family Hakochainik march returns. A yeshiva student recites the Shema, and everyone gives tzedakah before prayer. Before Shavuos, Uncle Yossi teaches that good character comes before Torah, and tells a story about honesty: a king hires three artists to paint the walls of a room for three sacks of gold. Two work hard for thirty days, but the third arrives on the last day with a covered surprise and claims the best prize through a clever trick, until the king teaches him a wise lesson. The show ends with Shabbos candle-lighting times.",
+  "lesson": "You can only be rewarded for your own effort: work hard, and never claim credit for the work of others.",
+  "keywords": [
+   "Meron",
+   "third Beis HaMikdash",
+   "resurrection of the dead",
+   "king",
+   "three artists",
+   "paintings",
+   "sacks of gold",
+   "mirror",
+   "Hakochainik march",
+   "candle lighting"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 478,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-05-07",
+   "hebrew": "23 Iyar 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Just after Lag BaOmer in the 'year of wonders' (5751); Shabbos candles 7:43 and Shabbos ends 8:48 fit Friday 10 May 1991 in New York; the Tuesday before is 7 May."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest, a yeshiva student, is named in full.",
+    "at_sec": 630
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the king",
+   "the hard-working first artist",
+   "the second artist",
+   "the third artist with the mirror"
+  ],
+  "topics": [
+   "character",
+   "moshiach_geulah",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emes",
+   "hasmadah",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "honest_business",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "lag_baomer",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "Our Sages: derech eretz (good character) comes before Torah."
+   },
+   {
+    "work": "pirkei_avos",
+    "note": "Learned in the weeks before Shavuos to teach good character."
+   },
+   {
+    "work": "gemara",
+    "note": "Our Sages: only if you work hard will you find (success)."
+   }
+  ],
+  "places": [
+   "Meron"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 9,
+   "end_sec": 46,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 372,
+   "type": "talk",
+   "title": "Lag BaOmer and the Greatest Blessing",
+   "summary": "At Rabbi Shimon bar Yochai's resting place in Meron, Jews pray for Moshiach, the blessing that includes all others.",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "lag_baomer"
+   ],
+   "linked_items": [
+    "cf5838a73e"
+   ]
+  },
+  {
+   "start_sec": 372,
+   "end_sec": 573,
+   "type": "song",
+   "title": "The Hakochainik March"
+  },
+  {
+   "start_sec": 573,
+   "end_sec": 720,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student"
+  },
+  {
+   "start_sec": 720,
+   "end_sec": 842,
+   "type": "tzedakah",
+   "title": "Tzedakah before prayer"
+  },
+  {
+   "start_sec": 842,
+   "end_sec": 915,
+   "type": "story_intro",
+   "title": "Good Character Comes Before Torah",
+   "summary": "Before Shavuos we learn Pirkei Avos, because good character must come before Torah."
+  },
+  {
+   "start_sec": 915,
+   "end_sec": 1642,
+   "type": "story",
+   "title": "The Three Sacks of Gold",
+   "summary": "Three artists compete for a king's prizes, and the one who did nothing learns that you cannot be paid for others' work."
+  },
+  {
+   "start_sec": 1642,
+   "end_sec": 1709,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1709,
+   "end_sec": 1739,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content",
+   "trailing_silence"
+  ],
+  "trim": {
+   "content_end_sec": 1739,
+   "note": "Speech ends at about 28:59; the file runs to 30:38."
+  },
+  "publish_recommendation": "publish",
+  "notes": "March not transcribed (about 7:00-9:30). The guest's self-introduction and the Shema recitation are partly untranscribed. Candle times and Dial-a-Jewish-Story number are time-bound."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yisrael Shimon Hadaitov",
+    "role": "shema_guest",
+    "start_sec": 615,
+    "end_sec": 720,
+    "note": "Introduced as a yeshiva bochur; surname spelling uncertain."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:32Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "cf5838a73e",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Lag Ba'Omer 478' = 49-377 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "46049ff3d0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Three Weeks: The Three Empty Walls, the Western Wall and 'He Is Watching'' (Stories, 10:13-16:31), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20478%20-%20The%20Three%20Sacks%20of%20Gold%20%28Lag%20BaOmer%29%20%281991-05-07%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 478 - The Three Sacks of Gold (Lag BaOmer) (1991-05-07).mp3",
+  "size_bytes": 22051848,
+  "mime_type": "audio/mpeg"
+ }
+}

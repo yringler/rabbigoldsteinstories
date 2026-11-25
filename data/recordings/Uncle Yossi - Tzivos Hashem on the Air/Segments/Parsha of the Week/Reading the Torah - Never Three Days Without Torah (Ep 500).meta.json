@@ -1,0 +1,169 @@
+{
+ "id": "aff1f25906",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Parsha of the Week",
+  "filename_title": "Vayera- Reading Torah 500",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Reading the Torah - Never Three Days Without Torah (Ep 500).mp3",
+  "duration_sec": 390.756,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 500,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 500,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reading the Torah: Never Three Days Without Torah",
+  "title_basis": "content",
+  "summary_short": "Why the Torah is read in shul on Monday, Thursday and Shabbos, the musical te'amim given at Har Sinai, and how to follow Avraham Avinu by teaching a friend about Hashem.",
+  "summary_long": "A parsha talk from the Tzivos Hashem radio show. Uncle Yossi explains the custom of Krias HaTorah. After crossing the sea, the Jews walked three days in the desert without water until Hashem gave them water from a rock. The Sages learned that just as we cannot live without water, we must never let three days pass without hearing the Torah, our 'living water', and so the Torah is read every Monday, Thursday and Shabbos. On weekdays only part of the sedra is read, but on Shabbos we hear all of it, sung with the te'amim, the musical notes that Moshe Rabbeinu received at Har Sinai together with the words. In this week's sedra, Avraham Avinu does everything he can to teach the world about the one Creator, and his children must do the same: share your siddur, Chumash, English Jewish books or the Moshiach Times with a friend, help them learn more about Yiddishkeit, and bring Moshiach closer.",
+  "lesson": "Torah is our living water, so we hear it at least every three days; and like Avraham Avinu, we help others know Hashem.",
+  "keywords": [
+   "Torah reading",
+   "Monday and Thursday",
+   "water from the rock",
+   "desert",
+   "te'amim",
+   "trop",
+   "Moshiach Times",
+   "sharing books"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Parsha of the Week"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 500,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-10-29",
+   "hebrew": "21 Cheshvan 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "Inherits the air date of episode 500 (933326aa43). Episode: Weekly sequence: 1 wk after ep 499 (22 Oct 1991), 2 wk before ep 502 (12 Nov 1991); no gap between them. No date cue of its own."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "torah_study",
+   "parsha",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kavod_shul"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeira"
+  ],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Bava Kamma 82a",
+    "note": "'Our Chachamim tell us': no three days without Torah, learned from the three days without water."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:22",
+    "note": "Three days in the desert without water."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "933326aa43",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 49,
+   "note": "Episode 500 (filename number); clip = 49-439 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening talk of episode 500. Filename says Vayeira; by weekly spacing the show may have aired in the week of Chayei Sarah."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:19:28Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Parsha%20of%20the%20Week/Reading%20the%20Torah%20-%20Never%20Three%20Days%20Without%20Torah%20%28Ep%20500%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Parsha of the Week/Reading the Torah - Never Three Days Without Torah (Ep 500).mp3",
+  "size_bytes": 4690014,
+  "mime_type": "audio/mpeg"
+ }
+}

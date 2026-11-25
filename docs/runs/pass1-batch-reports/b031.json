@@ -1,0 +1,21 @@
+{
+ "batch_id": "b031",
+ "done": [
+  "58cad2a9c8", "dd42cea1d5", "7e9d4fa376", "6bb7db50e1", "7dd6bcc0fc", "b98423e1d3", "ceee8944c0",
+  "9184a83a28", "b5365c20e8", "4517c187b2", "e6879ae744", "998600af34", "aaa67d6941", "09bc4fa30c",
+  "ac13894ea5", "265e6ceeb7", "129637fdeb", "c7d705e31a", "7828c2be66", "e9e5aa5a3f"
+ ],
+ "failed": [],
+ "notes": [
+  "Dates: every episode 409-417 confirmed weekly Tuesdays from 1989-12-26 to 1990-02-20 by on-air cues (Chanukah, Asarah B'Teves 'Sunday January 7th', 'today is 12 Teves', Shemos, Rosh Chodesh Shevat, Tu B'Shvat/Beshalach, 'tonight Yud-Tes Shevat'); 414 and 417 rely on candle times only (precision week).",
+  "Serial 'The Storyteller' runs 407-414 (chapters 1-9; 412 holds chapters 6 and 7). 409 (chapter 3) should get a 'continues' link to episode 408 (019e1942d3, the worked example), which is not in this batch's facts, so it was not added.",
+  "Validator demands a privacy flag whenever hidden.on_air_people is non-empty, even when only adults (teachers, a guest singer) are named. In 58cad2a9c8 minor_named was set for a class identified by school, grade and teacher, though no child was named individually. Please confirm the intended convention.",
+  "The Shema guest in 413 (Esti/S.D. Pressman) is the letter writer from episode 408's mailbox (hidden names in 019e1942d3).",
+  "c7d705e31a '416 new' is a 5-minute alternate take of the opening of 416, cut off mid-sentence. It was marked superseded_by/alternate_take of ac13894ea5 with publish_recommendation 'review'.",
+  "6bb7db50e1 'Asarah B'Teves 410' opens with 'this coming Sunday, January the 7th', which fits only 5750, yet facts list it as also aired in episodes 5, 157, 260, 308, 355, 459 and 555. Those airings probably have a different intro, or the talk was re-recorded. A same_recording link to 48d68b1ed7 ('Asarah B'Teves 260') was added from the audio-fingerprint hint.",
+  "The Mitzvah Time Shema clips 998600af34 (414), 09bc4fa30c (415), 129637fdeb (416) and e9e5aa5a3f (417) form a consecutive lesson series; part_of_set links were added.",
+  "Episode-count clues: 411 says 'this week marks number 411' and 415 says 'for the past 415 weeks', so the show began around February 1982.",
+  "b98423e1d3: Uncle Yossi says his maternal grandmother descended from Rabbi Moshe Sofer of Pshevorsk (the Ohr Pnei Moshe). Children's names in 412 (a roll call of about 24 girls) are ASR spellings and no visitors list was available to correct them.",
+  "Proposed new terms: calendar 'yahrzeit_tzaddik' (b98423e1d3) and 'aseres_hadibros_reading' (ac13894ea5)."
+ ]
+}

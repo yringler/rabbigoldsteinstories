@@ -1,0 +1,236 @@
+{
+ "id": "5778ba4c7d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Funny Shabbos Meal",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Funny Shabbos Meal.mp3",
+  "duration_sec": 1618.129,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Funny Shabbos Meal",
+  "title_basis": "filename",
+  "summary_short": "Gifts for the Rebbe's birthday, saying brachos with care, and how Reb Zusha of Anipoli taught a town to welcome every guest by feeding his Shabbos meal to his fine clothes.",
+  "summary_long": "Close to Yud-Aleph Nissan, the Rebbe's birthday, the storyteller recalls that the Rebbe asked for gifts of more Torah and mitzvos. Among many letters about new Chabad houses and shuls, the letter that made the Rebbe smile came from a young boy who decided to wake a little earlier to say the morning brachos from a siddur. Children can give similar gifts: saying each brachah clearly, as one who stands before the King, as the Rebbe told a bar mitzvah boy and the Tzemach Tzedek told a young Chassid, or making peace with a friend. Then comes a story of Ahavas Yisroel. Reb Zusha of Anipoli hears of a town where only rich men and rabbis are invited for Shabbos. He comes one Shabbos dressed as a poor man and no one invites him. The next week he announces his visit and arrives in splendid clothes, and the whole town wants to host him. At the communal meal he pours the wine on his sleeve and smears every dish on his coat, in silence. At Melave Malka he explains why, and the town learns to judge a Jew by his neshamah, not his clothes.",
+  "lesson": "Love every Jew and welcome every guest because of his neshamah, not his clothes or wealth. A small added mitzvah, done sincerely, is a precious gift to the Rebbe.",
+  "keywords": [
+   "birthday gift",
+   "letter to the Rebbe",
+   "morning brachos",
+   "siddur",
+   "beggar",
+   "fancy clothes",
+   "gefilte fish",
+   "kugel",
+   "Shabbos guests",
+   "apology"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Shortly before 11 Nissan",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'We're very close to Yud-Aleph Nissan, the Rebbe's birthday'; year not given."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "a young boy who wrote to the Rebbe",
+   "a bar mitzvah boy",
+   "a Chassid who thought before each brachah",
+   "the townspeople",
+   "the president of the shul"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "chassidic_masters",
+   "hiskashrus",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "anavah",
+   "shalom"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "ahavas_yisroel_mitzvah",
+   "brachos",
+   "shabbos",
+   "melave_malka"
+  ],
+  "calendar": [
+   "yud_aleph_nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "The King in the field in Elul, as the Rebbe asked the bar mitzvah boy."
+   },
+   {
+    "work": "tanya",
+    "note": "Reb Zusha's approbation; the Alter Rebbe on loving another Jew as oneself, based on the Arizal."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "Love your fellow as yourself."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 586,
+   "type": "talk",
+   "title": "A birthday gift for the Rebbe",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 96,
+   "end_sec": 300,
+   "type": "story",
+   "title": "The boy whose letter made the Rebbe smile",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 352,
+   "end_sec": 488,
+   "type": "story",
+   "title": "Meeting the King with every brachah",
+   "people": [
+    "the_rebbe",
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 586,
+   "type": "story",
+   "title": "Reb Zusha's funny Shabbos meal",
+   "people": [
+    "rabbi_zusha_of_anipoli"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song is transcribed. ASR garbles some Hebrew terms (Ahavas Yisroel, kapote)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem. There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Funny%20Shabbos%20Meal.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Funny Shabbos Meal.mp3",
+  "size_bytes": 19418317,
+  "mime_type": "audio/mpeg"
+ }
+}

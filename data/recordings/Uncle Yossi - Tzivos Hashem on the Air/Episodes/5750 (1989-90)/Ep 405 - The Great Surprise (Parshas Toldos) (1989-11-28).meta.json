@@ -1,0 +1,307 @@
+{
+ "id": "f65f47a9f3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "405",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 405 - The Great Surprise (Parshas Toldos) (1989-11-28).mp3",
+  "duration_sec": 1845.7,
+  "filename_facts": {
+   "episode_number": 405,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 405,
+   "story": "The great surprise",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 405: The Great Surprise (Parshas Toldos)",
+  "title_basis": "master_catalog",
+  "summary_short": "Yaakov and Esav inside each of us, a first-grade class's Shema, and the story of a poor sand-seller whose stolen horse comes home pulling a treasure.",
+  "summary_long": "Broadcast the week of Parshas Toldos 5750. Uncle Yossi contrasts Yaakov, who sat in the tents learning Torah, with Esav, who went looking for trouble. Each of us has a little Yaakov, the yetzer tov, and a little Esav, the yetzer hara. Like a seesaw, every mitzvah makes the Yaakov stronger and the Esav weaker; if we ignore the yetzer hara and answer it with a mitzvah, it gives up, and that is how one becomes a tzaddik. When Moshiach comes, evil will vanish altogether. After the Hakochainik march, a first-grade class from Beis Yaakov of Boro Park recites the Shema with their teacher, and everyone gives tzedakah. The story: Rabbi Yitzchak, a poor, learned man, sells sand from the forest and still gives tzedakah. When a thief steals his horse and wagon, the family says Tehillim and trusts that whatever Hashem does is good. In the forest the thief finds a buried treasure, but the cave collapses on him, and the hungry horse trots home with the treasure on the wagon. The show closes with the mailbox, a sponsor message, a call to join a Shabbos afternoon group, and candle-lighting times.",
+  "lesson": "Make your inner Yaakov stronger with every mitzvah and ignore the yetzer hara; trust that whatever Hashem does is good.",
+  "keywords": [
+   "seesaw",
+   "yetzer hara",
+   "horse and wagon",
+   "sand",
+   "thief",
+   "cave",
+   "treasure",
+   "Mesibos Shabbos",
+   "pharmacy sponsor"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 405,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-11-28",
+   "hebrew": "30 Cheshvan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Week of Parshas Toldos 5750 (Shabbos 2 Dec 1989); candle time 4:11 fits. Tuesday broadcast."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A thief steals a horse and wagon and is buried when a sandy cave collapses on him.",
+    "at_sec": 1069
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Letter writer named in full; a class's teacher also named.",
+    "at_sec": 1545
+   },
+   {
+    "flag": "home_address",
+    "note": "Letter writer's street address read on air.",
+    "at_sec": 1545
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yaakov_avinu",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Esav",
+   "Rabbi Yitzchak the sand-seller",
+   "the thief",
+   "the horse"
+  ],
+  "topics": [
+   "parsha",
+   "teshuvah",
+   "emunah_bitachon",
+   "moshiach_geulah",
+   "shabbos"
+  ],
+  "midos": [
+   "self_control",
+   "bitachon",
+   "emunah",
+   "generosity"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "tzedakah",
+   "tehillim",
+   "shema",
+   "twelve_pesukim",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "toldos"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 25:27",
+    "note": "Yaakov 'dwelt in tents'."
+   },
+   {
+    "work": "gemara",
+    "ref": "Niddah 30b",
+    "note": "The soul is told 'be a tzaddik' before birth (source not named on air)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 16,
+   "end_sec": 45,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 540,
+   "type": "talk",
+   "title": "Toldos: The Little Yaakov and the Little Esav",
+   "summary": "The yetzer tov and yetzer hara as Yaakov and Esav; ignore the yetzer hara and answer it with a mitzvah.",
+   "people": [
+    "yaakov_avinu"
+   ],
+   "linked_items": [
+    "b4c76f6c7e"
+   ]
+  },
+  {
+   "start_sec": 540,
+   "end_sec": 650,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 650,
+   "end_sec": 843,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 843,
+   "end_sec": 905,
+   "type": "tzedakah",
+   "title": "Coins in the pushka"
+  },
+  {
+   "start_sec": 905,
+   "end_sec": 1462,
+   "type": "story",
+   "title": "The Great Surprise",
+   "summary": "A thief steals a poor sand-seller's horse and wagon, finds a treasure and is buried in a cave; the horse brings the treasure home.",
+   "story_key": "the-great-surprise"
+  },
+  {
+   "start_sec": 1462,
+   "end_sec": 1622,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox",
+   "summary": "A boy asks to say the Shema in Studio 604."
+  },
+  {
+   "start_sec": 1622,
+   "end_sec": 1655,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1655,
+   "end_sec": 1775,
+   "type": "announcement",
+   "title": "Join a Mesibos Shabbos group"
+  },
+  {
+   "start_sec": 1775,
+   "end_sec": 1795,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1795,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "b4c76f6c7e",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Toldos 405' = 29-517 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Mailbox reads a child's name and home address (see hidden; audio is not edited). Sponsor, phone lines and candle time are period content. ASR sometimes writes 'Rabbi Akiva' for Rabbi Yitzchak in the story."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Dina Rosengarten",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 676,
+    "end_sec": 843
+   },
+   {
+    "name": "Yidi Silber",
+    "role": "mailbox_letter",
+    "group": "Monsey, New York",
+    "start_sec": 1545,
+    "end_sec": 1622,
+    "note": "Asked to say the Shema in Studio 604."
+   }
+  ],
+  "addresses": [
+   {
+    "text": "10 Sunrise Drive, Monsey, New York",
+    "start_sec": 1545,
+    "end_sec": 1555
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:02Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20405%20-%20The%20Great%20Surprise%20%28Parshas%20Toldos%29%20%281989-11-28%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 405 - The Great Surprise (Parshas Toldos) (1989-11-28).mp3",
+  "size_bytes": 22149337,
+  "mime_type": "audio/mpeg"
+ }
+}

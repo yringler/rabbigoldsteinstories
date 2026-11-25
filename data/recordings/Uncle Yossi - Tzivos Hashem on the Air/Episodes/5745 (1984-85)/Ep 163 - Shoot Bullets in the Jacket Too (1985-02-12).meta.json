@@ -1,0 +1,327 @@
+{
+ "id": "64064de9d3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "163",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 163 - Shoot Bullets in the Jacket Too (1985-02-12).mp3",
+  "duration_sec": 1846.055,
+  "filename_facts": {
+   "episode_number": 163,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 163,
+   "story": "“Shoot bullets in the jacket too”",
+   "topic": "י\"ב פסוקים",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 163: Shoot Bullets in the Jacket Too",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi teaches the third of the Twelve Pesukim, Bechol Dor Vador, and tells how a poor tzedakah collector outsmarted an armed robber to save the money for the poor.",
+  "summary_long": "Uncle Yossi continues marching through the Twelve Pesukim with number three, Bechol Dor Vador: in every generation each Jew should feel as if he himself left Egypt, and thank Hashem for it. The Hakochainik march sings the pasuk, followed by news of an illustrated Twelve Pesukim booklet and a sponsor message. Uncle Yossi explains how Tzivos Hashem members earn points and rise in rank, from private all the way to general, by writing in what they learned and completing mitzvah missions, and wishes several listeners a happy birthday. A young yeshiva student reads from the Chumash and leads the Shema. Story time tells of Rebbe Nachman, a woodcutter who distributed the town's tzedakah. When a robber takes the tzedakah money at gunpoint, Rebbe Nachman asks him to shoot holes in his jacket and hat as proof, until the gun is empty; then he grabs back the money and the robber flees. Shlomo HaMelech's words that tzedakah saves from death close the story. In Mitzvah Time, a listener answers questions about last week's story of the butcher who cared for his parents.",
+  "lesson": "Tzedakah is so great that it can save a person's life, and money given for the poor must be guarded even more carefully than your own.",
+  "keywords": [
+   "robber",
+   "gun",
+   "bullet holes",
+   "jacket",
+   "woodcutter",
+   "tzedakah collector",
+   "Twelve Pesukim",
+   "Bechol Dor Vador",
+   "ranks and points",
+   "birthdays",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 163,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-02-12",
+   "hebrew": "21 Shevat 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Week before ep. 164 ('tomorrow night is Rosh Chodesh Adar' = 19 Feb 1985); Yud Shevat birthday already past; ep. 162 was the Tu B'Shvat show. Weekly estimate was 3 weeks late."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A robber holds up the tzedakah collector at gunpoint, threatens his life and fires shots into his jacket and hat; no one is hurt.",
+    "at_sec": 1033
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Birthday children, the Shema guest and the Mitzvah Time quiz winner are named in full.",
+    "at_sec": 569
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_yehoshua_ben_ilem",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rebbe Nachman, the town's tzedakah collector",
+   "the robber",
+   "Nanas the butcher (quiz on last week's story)",
+   "Rabbi Yehoshua (quiz on last week's story)"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "tzivos_hashem",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "responsibility",
+   "courage",
+   "generosity",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "twelve_pesukim",
+   "shema",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 175,
+   "type": "talk",
+   "title": "The Twelve Pesukim: Bechol Dor Vador",
+   "summary": "The third of the Twelve Pesukim teaches that every Jew should feel as if he himself left Egypt and thank Hashem for it.",
+   "linked_items": [
+    "370c29c56e"
+   ]
+  },
+  {
+   "start_sec": 175,
+   "end_sec": 217,
+   "type": "song",
+   "title": "Hakochainik March: Bechol Dor Vador"
+  },
+  {
+   "start_sec": 217,
+   "end_sec": 330,
+   "type": "announcement",
+   "title": "A Twelve Pesukim booklet for every child"
+  },
+  {
+   "start_sec": 330,
+   "end_sec": 389,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 389,
+   "end_sec": 566,
+   "type": "announcement",
+   "title": "Earning points and rising in rank in Tzivos Hashem",
+   "summary": "Children earn points by writing in what they learned and completing mitzvah missions, climbing from private to general."
+  },
+  {
+   "start_sec": 566,
+   "end_sec": 686,
+   "type": "announcement",
+   "title": "Birthday wishes"
+  },
+  {
+   "start_sec": 686,
+   "end_sec": 916,
+   "type": "shema_guest",
+   "title": "Shema with a young yeshiva student",
+   "summary": "A third-grade boy reads the opening of Parshas Mikeitz and leads the Shema."
+  },
+  {
+   "start_sec": 916,
+   "end_sec": 1542,
+   "type": "story",
+   "title": "Shoot Bullets in the Jacket Too",
+   "summary": "A tzedakah collector tricks a robber into emptying his gun on his jacket and hat, then takes back the money for the poor."
+  },
+  {
+   "start_sec": 1542,
+   "end_sec": 1750,
+   "type": "quiz",
+   "title": "Mitzvah Time: quiz on last week's story",
+   "summary": "A listener answers questions about the simple butcher who earned a place in Gan Eden by caring for his parents."
+  },
+  {
+   "start_sec": 1750,
+   "end_sec": 1779,
+   "type": "announcement",
+   "title": "Send in your compositions"
+  },
+  {
+   "start_sec": 1779,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Period phone numbers, sponsor ad and prize pickup are dated. ASR garbles the hero's name in two places (as 'Rabbi Akiva' and 'Purim')."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rachel Lea Orlander",
+    "role": "birthday",
+    "start_sec": 569,
+    "end_sec": 580,
+    "note": "11th birthday."
+   },
+   {
+    "name": "Zlaty Willashansky",
+    "role": "birthday",
+    "start_sec": 580,
+    "end_sec": 597,
+    "note": "7th birthday; spelling as heard."
+   },
+   {
+    "name": "Yosef Yitzchak (brother of Zlaty)",
+    "role": "birthday",
+    "start_sec": 597,
+    "end_sec": 610,
+    "note": "Turned six on Yud Shevat."
+   },
+   {
+    "name": "Baruch Katz",
+    "role": "birthday",
+    "start_sec": 610,
+    "end_sec": 640,
+    "note": "Gets home from school too late to hear the program."
+   },
+   {
+    "name": "Miriam Cole",
+    "role": "birthday",
+    "start_sec": 640,
+    "end_sec": 650,
+    "note": "9th birthday."
+   },
+   {
+    "name": "Levi Yitzchak Brad",
+    "role": "shema_guest",
+    "group": "Lubavitcher Yeshiva, third grade (Kitah Gimmel), Rabbi Langzam's class",
+    "start_sec": 715,
+    "end_sec": 916,
+    "note": "Age seven and a half; surname also heard as 'Brod'."
+   },
+   {
+    "name": "Rabbi Langzam",
+    "role": "other",
+    "group": "Lubavitcher Yeshiva, third-grade teacher of the Shema guest",
+    "start_sec": 744,
+    "end_sec": 773
+   },
+   {
+    "name": "Chavi Goldberger",
+    "role": "contest_winner",
+    "group": "Mitzvah Time phone quiz",
+    "start_sec": 1594,
+    "end_sec": 1750
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:52:39Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "370c29c56e",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'12 Psukim B'chol 3 163' = 53-169 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20163%20-%20Shoot%20Bullets%20in%20the%20Jacket%20Too%20%281985-02-12%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 163 - Shoot Bullets in the Jacket Too (1985-02-12).mp3",
+  "size_bytes": 22153725,
+  "mime_type": "audio/mpeg"
+ }
+}

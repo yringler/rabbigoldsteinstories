@@ -1,0 +1,158 @@
+{
+ "id": "08d9060dab",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Pesach recap 477",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Pesach - Echoes of the Seder and Waiting for Eliyahu HaNavi (Ep 477).mp3",
+  "duration_sec": 131.924,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 477,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 477,
+   "story": "Life in the hands of the tongue #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "After Pesach: Echoes of the Seder and Waiting for Eliyahu HaNavi",
+  "title_basis": "content",
+  "summary_short": "Just after Pesach, Uncle Yossi recalls the Seder nights and the visit of Eliyahu HaNavi, and explains that Pesach gives us strength all year to serve Hashem with pure emunah.",
+  "summary_long": "A short look back at Pesach from the opening of a Tzivos Hashem radio show. Uncle Yossi recalls the Seder nights: the Four Questions, the four cups, the matzos, the lively songs and dancing around the table while singing L'shanah haba'ah b'Yerushalayim. He reminds listeners of the special moment when the door was opened for Eliyahu HaNavi, who will bring the news that Moshiach has come. Pesach is a holiday that lingers on, he says, and it is meant to give us strength all year long to serve Hashem with pure emunah, real trust and belief in Hashem and His Torah. Even though Pesach has passed and we are still in exile, Eliyahu HaNavi should know he is welcome at any time, because we want Moshiach now.",
+  "lesson": "The strength and faith of Pesach should carry us through the whole year, as we keep waiting for Moshiach.",
+  "keywords": [
+   "Seder night",
+   "Four Questions",
+   "four cups",
+   "matzah",
+   "Eliyahu HaNavi",
+   "Next Year in Yerushalayim",
+   "opening the door"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 477,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-30",
+   "hebrew": "16 Iyar 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 477, broadcast during Sefirah 5751 soon after Pesach. The same talk also aired in episode 20."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah"
+  ],
+  "mitzvos": [
+   "seder"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the show's greeting and ends before the pen-pal note."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:32Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "96b0e06c39",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 20."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "8876a93979",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 0,
+   "note": "Episode 477 (filename number); clip = 0-132 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/After%20Pesach%20-%20Echoes%20of%20the%20Seder%20and%20Waiting%20for%20Eliyahu%20HaNavi%20%28Ep%20477%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Pesach - Echoes of the Seder and Waiting for Eliyahu HaNavi (Ep 477).mp3",
+  "size_bytes": 1584143,
+  "mime_type": "audio/mpeg"
+ }
+}

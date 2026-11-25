@@ -1,0 +1,172 @@
+{
+ "id": "fa4dab2aff",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Vov Tishrei 446",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Vov Tishrei - Rebbetzin Chana and the Homemade Ink (Ep 446).mp3",
+  "duration_sec": 169.301,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 446,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 446,
+   "story": "Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Vov Tishrei: Rebbetzin Chana and the Homemade Ink",
+  "title_basis": "content",
+  "summary_short": "On her yahrzeit, Uncle Yossi recalls how Rebbetzin Chana, the Rebbe's mother, made ink from plants so her husband could keep writing Torah in exile.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show on Vov Tishrei, the yahrzeit of Rebbetzin Chana Schneerson, mother of the Rebbe. Uncle Yossi recalls her mesiras nefesh in the hard years in Soviet Russia, when her husband, the great Rabbi Levi Yitzchak, was arrested and exiled for teaching Torah. Determined that his learning should not stop, Rebbetzin Chana learned to make ink from grasses, leaves and flowers she gathered in the fields and brought it to him. That is why his manuscripts from that time are written in different colors, and thanks to her we have his writings, including the series Likkutei Levi Yitzchak, studied by Torah scholars around the world. Uncle Yossi closes with a prayer that their merit protect us all.",
+  "lesson": "Do everything you can to help others learn Torah, even in the hardest times.",
+  "keywords": [
+   "ink",
+   "grasses and leaves",
+   "manuscripts",
+   "prison",
+   "yahrzeit",
+   "Soviet Russia"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 446,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-09-25",
+   "hebrew": "6 Tishrei 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Vov Tishrei'; episode 446 places it a few days after Rosh Hashanah 5751."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Rabbi Levi Yitzchak was arrested and imprisoned for teaching Torah.",
+    "at_sec": 25
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbetzin_chana",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_schneerson",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "torah_study"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "chesed",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "vav_tishrei"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Soviet Russia"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8bbf7a6519",
+   "evidence": "text_overlap",
+   "confidence": 0.74,
+   "offset_sec": 1337,
+   "note": "Episode 446 (filename number); clip = 1337-1506 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Filed as 'Vov Tishrei' but covers only Rebbetzin Chana, not the Shpoler Zeide story of the same episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Vov%20Tishrei%20-%20Rebbetzin%20Chana%20and%20the%20Homemade%20Ink%20%28Ep%20446%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Vov Tishrei - Rebbetzin Chana and the Homemade Ink (Ep 446).mp3",
+  "size_bytes": 2032728,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "batch_id": "b058",
+ "done": [
+  "bb7ac0cc2b",
+  "15ee14294d",
+  "7357664ac4",
+  "541d613537",
+  "5b0f472ca9",
+  "333ab07731",
+  "0cc47ed234",
+  "ce28d1962a",
+  "db7fffffe3",
+  "b3e66d649f",
+  "25f314fd8d",
+  "1d8cd14fa3",
+  "3b05d42392"
+ ],
+ "skipped_already_done": [
+  "06304e8858"
+ ],
+ "failed": [],
+ "notes": [
+  "IDENTITY CLUE: 5e786ca354 ('The Agunah Is Saved part 1', not in this batch) opens with the 'I Believe in Hashem' song, and the narrator says 'Over 80 years ago, my father, who's called Uncle Yossi, was studying as a Bachar in 770' and 'my Zayda, who lived in Borough Park, had his own printing press'. That makes the weekly storyteller a child (probably a son) of Rabbi Yosef Goldstein. In the 7th-night rally (3b05d42392, at about 26:20) the same host is called 'Rabbi Goldstein' and sings 'I Believe in Hashem'. Other batches (b054, b072, cc16e78758) tagged rally and puppet-farbrengen hosts as rabbi_yosef_goldstein, which may conflate father and son. Pass 2 should decide.",
+  "ce28d1962a and 5e786ca354: candidate aired_again_in confirmed by identical wording (ce28d1962a at about 11:05 = 5e786ca354 at about 21:27).",
+  "ce28d1962a and db7fffffe3 are two tellings of the same Reb Meir Refoels agunah story (same_story added both ways). b3e66d649f is the sequel story (the two partners and 'malchusa d'ara'), the second miracle that made Reb Meir a Chassid. No part relation was set because these are separate stories.",
+  "Ohr HaChayim and the Mirror 1/2 (7357664ac4, 541d613537) are true consecutive parts: part and part_of_set/continues set.",
+  "Rallies 1d8cd14fa3 (4th night) and 3b05d42392 (7th night) are Sukkos 5785 ('Tav Shin Pei Hei' on air; 4th night is Motzaei Shabbos, which fits 5785). The vocabulary only has simchas_beis_hashoeva_5786, so series was left null and a 5785 series was proposed. cc16e78758 ('Simchas bhs 7th day', 5786) seems to tell the same Tzemach Tzedek story of a father whose dancing saved his sick son: a possible same_story with 3b05d42392.",
+  "'Noach 2' (bb7ac0cc2b) and 'plot that boomeranged 2' (333ab07731) are complete on their own. The '2' is probably a second recording or version; check for a '1' elsewhere. 333ab07731 is a storybook-style Purim tale with no song, so its narrator attribution is uncertain and series was left null.",
+  "bb7ac0cc2b, 15ee14294d and db7fffffe3 do not open with the song. They were attributed to the weekly storyteller from his style and wording (Crown Heights teacher, 'unpack' and marketplace metaphors, 'Kinderlach', 'Im Yirtzeh Hashem').",
+  "15ee14294d is dated Yud Shevat 5780 (2020-02-05) from '70 years' said on air.",
+  "Proposed new terms: people rabbi_yaakov_kaidaner and chida; works chovos_halevavos; series simchas_beis_hashoeva_5785."
+ ]
+}

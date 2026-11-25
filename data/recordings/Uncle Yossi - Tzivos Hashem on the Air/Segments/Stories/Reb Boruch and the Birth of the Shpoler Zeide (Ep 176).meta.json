@@ -1,0 +1,221 @@
+{
+ "id": "347a66ec71",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "R'Boruch and the birth of the Shpoler Zeida 176",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Reb Boruch and the Birth of the Shpoler Zeide (Ep 176).mp3",
+  "duration_sec": 919.481,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 176,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 176,
+   "story": "Reb Boruch. The Shpoler Zeide",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Boruch and the Birth of the Shpoler Zeide",
+  "title_basis": "filename",
+  "summary_short": "Reb Boruch's generous hospitality earns a hidden tzaddik's blessing: a son with a lofty soul who grows up to be the Shpoler Zeide.",
+  "summary_long": "Reb Boruch was known as a true blessing to everyone. He gave tzedakah generously, kept a special guest house open to every traveler without taking payment, and even swapped his guests' tired horses for strong ones. One cold Wednesday a plain-looking traveler and his wife arrive, and Reb Boruch insists they stay for Shabbos. On Friday night he sees a bright light from the guest's room and hears him saying Tikkun Chatzos with deep feeling. Peeking through the keyhole, he sees a second figure dressed in white, and faints. The guest, a hidden tzaddik, tells him it was the soul of the Maharal of Prague, and promises Reb Boruch a son who will carry that soul, to be named Aryeh Leib. At the bris the guest returns and blesses the baby, just as Avraham became the 'father' of all, to be a 'Zeide' to all Israel. The guest was the Baal Shem Tov, and the child became the famous Shpoler Zeide. Uncle Yossi closes with the lesson of Ahavas Yisroel.",
+  "lesson": "Do tzedakah and hachnasas orchim in the nicest way possible; love for others brings Hashem's greatest blessings.",
+  "keywords": [
+   "guest house",
+   "horses",
+   "hidden tzaddik",
+   "keyhole",
+   "Tikkun Chatzos",
+   "bris",
+   "blessing",
+   "Zeide"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 176,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-05-14",
+   "hebrew": "23 Iyar 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 176 (the week of Shabbos Mevarchim Sivan 5745)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "maharal",
+    "role": "appears"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Boruch, father of the Shpoler Zeide",
+   "Rachel, Reb Boruch's wife",
+   "the hidden tzaddik"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "generosity"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 24:1",
+    "note": "'V'Avraham zaken', the basis of the blessing at the bris."
+   }
+  ],
+  "places": [
+   "Shpola",
+   "Prague"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 820,
+   "type": "story",
+   "title": "Reb Boruch and the hidden guest",
+   "people": [
+    "shpoler_zeide",
+    "baal_shem_tov",
+    "maharal"
+   ]
+  },
+  {
+   "start_sec": 820,
+   "type": "talk",
+   "title": "The lesson: Ahavas Yisroel"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete story plus lesson; preferred over the shorter 'copy' cut. ASR sometimes writes 'Rabbi Akiva' for Reb Boruch."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:54:45Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "2e01110aab",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 711,
+   "note": "Episode 176 (filename number); clip = 711-1631 s of the episode."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "128e6246c6",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Same story cut from episode 176; the 'copy' file stops at the reveal and omits the closing lesson."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "112c0c9905",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text match (0.61) in episode 398; possibly the same story re-aired."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e17ac37c8e",
+   "evidence": "text_overlap",
+   "confidence": 0.55,
+   "note": "Text match (0.56) in episode 447; possibly the same story re-aired."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/Reb%20Boruch%20and%20the%20Birth%20of%20the%20Shpoler%20Zeide%20%28Ep%20176%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Reb Boruch and the Birth of the Shpoler Zeide (Ep 176).mp3",
+  "size_bytes": 11034645,
+  "mime_type": "audio/mpeg"
+ }
+}

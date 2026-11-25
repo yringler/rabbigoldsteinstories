@@ -1,0 +1,145 @@
+{
+ "id": "e11b61d083",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Elul 191",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul - Ending the Year the Right Way (Ep 191).mp3",
+  "duration_sec": 64.625,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 191,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 191,
+   "story": "Saved by a miracle #2 Unkelus",
+   "topic": "ח\"י אלול מצוה time",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Elul: Ending the Year the Right Way",
+  "title_basis": "content",
+  "summary_short": "With Rosh Hashanah around the corner, Elul is the time to finish the year in the spirit of Torah and mitzvos, so that Hashem grants a good and sweet year.",
+  "summary_long": "A one-minute Elul message from the Tzivos Hashem radio show. Uncle Yossi reminds children that Rosh Hashanah is just around the corner, and that the way to begin a new year correctly is to end the old one in the spirit of Torah and mitzvos. Elul is the last month of the year, and as the Sages say, all's well that ends well. Recalling the previous week's talk, he says that in Elul we try our very best to do Hashem's mitzvos in the best possible way, checking our tefillin and our mezuzos. By doing this we can feel sure that Hashem will grant everyone a kesivah vachasimah tovah, a blessed year that is good for body and soul. The clip is a short excerpt and refers back to an earlier program.",
+  "lesson": "End the year well: in Elul, do the mitzvos as well as you can so the new year starts right.",
+  "keywords": [
+   "Rosh Hashanah",
+   "end of the year",
+   "tefillin",
+   "mezuzah",
+   "kesivah vachasimah tovah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 191,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1985-08-27",
+   "hebrew": "10 Elul 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 191: Elul, one week before episode 192, which states 17 Elul 5745."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "responsibility"
+  ],
+  "mitzvos": [
+   "tefillin",
+   "mezuzah",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9ad0681eb7",
+   "evidence": "text_overlap",
+   "confidence": 0.68,
+   "offset_sec": 54,
+   "note": "Episode 191 (filename number); clip = 54-119 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short excerpt; says 'as we learned last week' (episode 190's Elul talk, item 455feabcd6)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:56Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Elul%20-%20Ending%20the%20Year%20the%20Right%20Way%20%28Ep%20191%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul - Ending the Year the Right Way (Ep 191).mp3",
+  "size_bytes": 776325,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "0abb04dece",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Neiros Chanukah",
+  "audio_path": "audio/Other Stories/Lights That Last Forever - Aharon's Menorah and the Chanukah Lights (Fragment).mp3",
+  "duration_sec": 186.35,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Lights That Last Forever: Aharon's Menorah and the Chanukah Lights (Fragment)",
+  "title_basis": "content",
+  "summary_short": "A short teaching: Hashem comforted Aharon HaKohen with the mitzvah of lighting the Menorah, whose light lasts forever through the Chanukah lights. The recording stops before the story.",
+  "summary_long": "The storyteller explains why Aharon HaKohen felt bad when the leaders of every tribe brought offerings for the dedication of the Mishkan's altar while he brought nothing, and how Hashem comforted him: his task of lighting the Menorah would last forever, as we see in the Chanukah lights, which will be celebrated even after Moshiach comes. The lesson of the lights stays with us even after the menorahs are put away. He begins to explain that lesson with the hidden light of creation, by which Adam HaRishon could see from one end of the world to the other, which Hashem hid away for the tzaddikim in the Torah and which all of us will see when Moshiach comes. The recording ends here, before the promised story.",
+  "lesson": null,
+  "keywords": [
+   "Menorah",
+   "Chanukah lights",
+   "Mishkan",
+   "tribal leaders' offerings",
+   "hidden light",
+   "creation"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "fragment",
+  "story_type": [],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "fragment"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "aharon_hakohen",
+    "role": "central"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "parsha",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "chanukah_lights"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "behaaloscha"
+  ],
+  "sources_cited": []
+ },
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "review",
+  "notes": "Three-minute opening of a longer talk; ends with 'and then we'll get to the story for today' before any story. The rest may exist in another file."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:46:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Fragment cut before the story; check whether the continuation exists elsewhere.",
+   "Parsha tag (Behaaloscha) inferred from the Aharon/Menorah theme; 'we already put away the menorahs' suggests it is not Chanukah time.",
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: his weekly format: calendar/parsha teaching that ends 'and then we'll get to the story for today'; voice not checked"
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Lights%20That%20Last%20Forever%20-%20Aharon%27s%20Menorah%20and%20the%20Chanukah%20Lights%20%28Fragment%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Lights That Last Forever - Aharon's Menorah and the Chanukah Lights (Fragment).mp3",
+  "size_bytes": 2237053,
+  "mime_type": "audio/mpeg"
+ }
+}

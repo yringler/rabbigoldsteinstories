@@ -1,0 +1,211 @@
+{
+ "id": "0dab3223a8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "kesser tel lesson",
+  "audio_path": "audio/Other Stories/Kesser Tefillah, Part 2 - What the Telephone Teaches Us About Davening.mp3",
+  "duration_sec": 1785.324,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Kesser Tefillah, Part 2: What the Telephone Teaches Us About Davening",
+  "title_basis": "filename",
+  "summary_short": "A comic tale of a man who cannot get his new telephone to work becomes a lesson in davening: get connected, use your voice, and dial the right words exactly as written.",
+  "summary_long": "Following the Baal Shem Tov's teaching that everything we see can teach us how to serve Hashem, the storyteller acts out a funny story about a man who buys a telephone and keeps returning it, because he never plugged it into a phone line. Each step becomes a lesson. Opening the siddur is not enough; we connect to Hashem by actually saying the words, and Hashem, who can listen to everyone at once, is never busy. The dial tone is our voice: davening should be said aloud, not merely whispered, since some letters cannot be heard in a whisper, even in the quiet Shemoneh Esrei. Pressing the buttons firmly and dialing the right number in the right order means reading carefully from the siddur, since the Men of the Great Assembly arranged the words of davening like phone numbers, and we need not understand how they work for them to reach Hashem. Davening is like a ladder: our words go up and brachos come down. Like a cellular phone, we can speak to Hashem anywhere, any time, and we ask Him to bring Moshiach.",
+  "lesson": "Davening connects us to Hashem, who is always listening; say the words aloud, carefully and exactly as they are written in the siddur.",
+  "keywords": [
+   "telephone",
+   "phone line",
+   "dial tone",
+   "phone number",
+   "telephone book",
+   "cellular phone",
+   "siddur",
+   "whispering",
+   "ladder"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "kesser-tefillah",
+   "part_number": 2,
+   "of": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the man with the new telephone",
+   "the store owner",
+   "the telephone company man",
+   "the operator"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "halachah"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "davening",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: everything a Jew sees or hears teaches a lesson in serving Hashem."
+   },
+   {
+    "work": "siddur",
+    "note": "\"Es tzemach Dovid\" in Shemoneh Esrei: Tzemach has the numerical value of Menachem, the name of Moshiach."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 631,
+   "type": "story",
+   "title": "The telephone with no line"
+  },
+  {
+   "start_sec": 631,
+   "end_sec": 745,
+   "type": "talk",
+   "title": "Davening connects us to Hashem"
+  },
+  {
+   "start_sec": 745,
+   "end_sec": 807,
+   "type": "story",
+   "title": "Waiting for the dial tone"
+  },
+  {
+   "start_sec": 807,
+   "end_sec": 1086,
+   "type": "halachah",
+   "title": "Daven with your voice, not a whisper"
+  },
+  {
+   "start_sec": 1086,
+   "end_sec": 1355,
+   "type": "story",
+   "title": "Dialing the right number"
+  },
+  {
+   "start_sec": 1355,
+   "end_sec": 1613,
+   "type": "talk",
+   "title": "Say the words exactly as in the siddur"
+  },
+  {
+   "start_sec": 1613,
+   "type": "talk",
+   "title": "Always connected: davening anywhere, and for Moshiach"
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "27799e2e4b",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 1800,
+   "note": "'Tefilah - Kesser' (59.7 min) holds this lesson in its second half, after the story of Meir's dream."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "0f82bdc6fb",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "'kesser tefila 1': the story of Meir's dream of Hashem's crown, which precedes this lesson in the combined file."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "A passage about voice and 'Hashem is always ready to listen' is repeated around 15:42-17:00, likely an editing splice. Mentions corded phones and phone books (dated but harmless)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unknown (no opening song); possibly the weekly storyteller.",
+   "Repeated passage around 15:42-17:00."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Kesser%20Tefillah%2C%20Part%202%20-%20What%20the%20Telephone%20Teaches%20Us%20About%20Davening.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Kesser Tefillah, Part 2 - What the Telephone Teaches Us About Davening.mp3",
+  "size_bytes": 21424830,
+  "mime_type": "audio/mpeg"
+ }
+}

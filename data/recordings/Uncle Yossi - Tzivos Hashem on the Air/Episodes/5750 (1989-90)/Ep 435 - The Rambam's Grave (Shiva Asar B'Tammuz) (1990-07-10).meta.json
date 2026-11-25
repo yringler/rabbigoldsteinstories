@@ -1,0 +1,384 @@
+{
+ "id": "148c93c242",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "435",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 435 - The Rambam's Grave (Shiva Asar B'Tammuz) (1990-07-10).mp3",
+  "duration_sec": 1898.971,
+  "filename_facts": {
+   "episode_number": 435,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 435,
+   "story": "The Rambam’s grave",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 435: The Rambam's Grave (Shiva Asar B'Tammuz)",
+  "title_basis": "master_catalog",
+  "summary_short": "A quiet show for Shiva Asar B'Tammuz: why the Three Weeks are sad and how to end them, the life of the Rambam, and the miracle that showed where he was to be buried.",
+  "summary_long": "Broadcast on Shiva Asar B'Tammuz 5750, the first day of the Three Weeks, and so without the usual drums and march. Uncle Yossi explains how the siege of Yerushalayim that began on Asarah B'Teves led to the breaching of its walls on 17 Tammuz and the destruction of the Beis HaMikdash on Tisha B'Av. We ask Hashem 'until when?', but Hashem also waits for us to be ready for Moshiach through more Torah and mitzvos. He passes on the Rebbe's call for everyone to learn Rambam daily. Story time tells the life of the Rambam, born in Cordova, driven from place to place, saved from a storm at sea, who finally settled in Egypt and wrote his great works. Before his passing he asked to be buried in Eretz Yisroel without saying where, and as the cities argue, robbers ambush the funeral caravan in the desert. At this suspenseful moment two young brothers recite the Shema in Studio 604. The story resumes: robbers who try to touch the coffin fall lifeless, and the camel walks on by itself to Teveria, where it kneels at the Rambam's resting place. The show ends with a prayer for a sick child and tzedakah.",
+  "lesson": "Hashem guards the Jewish people and the honor of tzaddikim; we can turn the sad days into days of joy by learning more Torah and doing more mitzvos.",
+  "keywords": [
+   "Three Weeks",
+   "walls of Yerushalayim",
+   "Rambam study guide",
+   "Cordova",
+   "Egypt",
+   "camel",
+   "coffin",
+   "desert robbers",
+   "Teveria",
+   "burial place"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 435,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-07-10",
+   "hebrew": "17 Tammuz 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Shiva Asar B'Tammuz'; 17 Tammuz 5750 = Tue 1990-07-10, one week after episode 434 (10 Tammuz)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Explains the siege of Yerushalayim and the destruction of the Beis HaMikdash.",
+    "at_sec": 29
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Rambam's family is driven from Cordova and wanders for years.",
+    "at_sec": 430
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The Rambam's passing and burial journey; two robbers who approach his coffin fall dead.",
+    "at_sec": 675
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Armed desert robbers attack the funeral caravan.",
+    "at_sec": 905
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two brothers give their full names and ages as Shema guests.",
+    "at_sec": 1111
+   },
+   {
+    "flag": "health_info",
+    "note": "A sick child named for a refuah shleimah prayer.",
+    "at_sec": 1813
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Maimon, the Rambam's father",
+   "the Rambam's students",
+   "the representatives of Yerushalayim, Chevron and Meron",
+   "the desert robbers",
+   "the caravan leader",
+   "the camel"
+  ],
+  "topics": [
+   "great_rabbis",
+   "miracles",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "rambam_daily",
+   "torah_study",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's call for everyone to learn Rambam daily at his own level."
+   }
+  ],
+  "places": [
+   "Cordova",
+   "Morocco",
+   "Akko",
+   "Yerushalayim",
+   "Chevron",
+   "Cairo",
+   "Teveria"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "A quiet opening for a fast day"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 296,
+   "type": "talk",
+   "title": "Shiva Asar B'Tammuz: Asking 'Until When?'",
+   "summary": "How the siege and breached walls of Yerushalayim led to the Churban, and how our Torah and mitzvos can end the golus.",
+   "calendar": [
+    "shiva_asar_btammuz",
+    "three_weeks"
+   ],
+   "linked_items": [
+    "6ab892a712"
+   ]
+  },
+  {
+   "start_sec": 296,
+   "end_sec": 383,
+   "type": "announcement",
+   "title": "Learn Rambam every day: free study guides",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 383,
+   "end_sec": 1078,
+   "type": "story",
+   "title": "The Rambam's Grave, Part 1: His Life and Passing",
+   "summary": "The Rambam's wanderings and great works; after his passing, cities argue over where to bury him and robbers attack the caravan.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 1078,
+   "end_sec": 1243,
+   "type": "shema_guest",
+   "title": "Shema with two young brothers"
+  },
+  {
+   "start_sec": 1243,
+   "end_sec": 1665,
+   "type": "story",
+   "title": "The Rambam's Grave, Part 2: The Camel Leads the Way",
+   "summary": "Robbers who reach for the coffin fall lifeless, and the camel walks on alone to Teveria, where it kneels at the Rambam's resting place.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 1665,
+   "end_sec": 1813,
+   "type": "other",
+   "title": "Repeated ending of the story (editing duplicate)"
+  },
+  {
+   "start_sec": 1813,
+   "end_sec": 1864,
+   "type": "announcement",
+   "title": "A prayer for a sick child's recovery"
+  },
+  {
+   "start_sec": 1864,
+   "end_sec": 1877,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1877,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "6ab892a712",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'17 Tammuz 435' = 29-296 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7aea3038aa",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 284 (17 Tammuz 5747) has the same 17 Tammuz talk and the Rambam camel story."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5af071df38",
+   "evidence": "content",
+   "confidence": 0.65,
+   "note": "Episode 125 also has the Rambam's grave (camel) story; fingerprint candidate confirmed by text search."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "845dab4795",
+   "evidence": "content",
+   "confidence": 0.65,
+   "note": "Episode 334 also has the Rambam's grave (camel) story; fingerprint candidate confirmed by text search."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "eee1f9a53f",
+   "evidence": "content",
+   "confidence": 0.65,
+   "note": "Episode 221 also has the Rambam's grave (camel) story; fingerprint candidate confirmed by text search."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "070e12f2ca",
+   "evidence": "content",
+   "confidence": 0.65,
+   "note": "Episode 529 also has the Rambam's grave (camel) story; fingerprint candidate confirmed by text search."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "splice_glitch",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "The last part of the Rambam story plays twice (about 1665-1813 s repeats 1477-1640 s). Fast-day episode: no march, sponsor or candle times. Tzivos Hashem address and phone read on air (public)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yosef Yitzchak Drizin",
+    "role": "shema_guest",
+    "start_sec": 1111,
+    "end_sec": 1243,
+    "note": "Age 10."
+   },
+   {
+    "name": "Schneur Zalman Moshe Drizin",
+    "role": "shema_guest",
+    "start_sec": 1111,
+    "end_sec": 1243,
+    "note": "Age 7; brother of the other guest."
+   },
+   {
+    "name": "Refael Yehuda ben Bracha Rochel",
+    "role": "refuah_list",
+    "start_sec": 1813,
+    "end_sec": 1864,
+    "note": "Three-year-old child needing a refuah shleimah."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Refael Yehuda ben Bracha Rochel, a three-year-old, needs a refuah shleimah.",
+    "start_sec": 1813
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Duplicated story ending inside the file; decide whether to add a player note."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20435%20-%20The%20Rambam%27s%20Grave%20%28Shiva%20Asar%20B%27Tammuz%29%20%281990-07-10%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 435 - The Rambam's Grave (Shiva Asar B'Tammuz) (1990-07-10).mp3",
+  "size_bytes": 22788501,
+  "mime_type": "audio/mpeg"
+ }
+}

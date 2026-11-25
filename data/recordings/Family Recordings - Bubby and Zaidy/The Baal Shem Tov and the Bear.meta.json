@@ -1,0 +1,169 @@
+{
+ "id": "a70d104e90",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Besht and the Bear",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/The Baal Shem Tov and the Bear.mp3",
+  "duration_sec": 456.861,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "duplicate copy 181e0774ff was filed under 'Stories/אידיש/Yiddish stories/Bubby Chaya Malka etc' (language guess there: yiddish)"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "The Baal Shem Tov and the Bear",
+  "title_basis": "filename",
+  "summary_short": "A Yiddish story told by a grandmother: young Yisroel, the future Baal Shem Tov, leads the cheder children singing to shul and fearlessly chases off a cruel man dressed as a bear.",
+  "summary_long": "Told in Yiddish by a grandmother to her grandchildren. When the Baal Shem Tov was a small boy, his father told him: fear nothing except Hashem. As a young man he became a helper in the cheder. He brought the children to cheder, said Modeh Ani and washed negel vasser with them, and every Friday evening gathered them from house to house to go to shul for Lecha Dodi, singing Shabbos nigunim on the way while the angels in Heaven rejoiced. A cruel man who lived in the forest near the shul could not stand the singing. He put on a bear's skin and jumped out to frighten the children, until the mothers kept them home. Remembering his father's words, the young Baal Shem Tov took the children again, armed with a big stick, and beat the 'bear' until it ran off. On Sunday the man, aching all over, sent for him and admitted it had been him. The Baal Shem Tov davened for him, he recovered, and from then on he sat on his porch handing out kosher cookies and candy to the children on their way to shul.",
+  "lesson": "Fear nothing but Hashem; Hashem loves to hear Jewish children singing on their way to shul and learning Torah.",
+  "keywords": [
+   "bear",
+   "bear skin",
+   "cheder children",
+   "big stick",
+   "forest",
+   "Lecha Dodi",
+   "Friday night",
+   "Shabbos songs",
+   "cookies and candy"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A man disguised as a bear frightens children; the young Baal Shem Tov beats the 'bear' with a stick, and the man is hurt but recovers."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Excerpt of a grandmother's home recording for her grandchildren; no names in this excerpt."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the Baal Shem Tov's father",
+   "the cheder children and their mothers",
+   "a cruel man from the forest"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "courage",
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "chinuch",
+   "davening",
+   "modeh_ani",
+   "negel_vasser"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a06fb5b0d9",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.93,
+   "note": "Excerpt of 'Bubby Chaya Malka 1' (audio fingerprint)."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6b6fec027a",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 28,
+   "note": "Same telling opens the full recording 'Bubby Chaya Malka yiddish stories' (about 0:28); fingerprint showed only partial overlap."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 0:00-8:15), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Begins at the start of the story (the grandmother's 'sit down, children' is cut). American Yiddish with English loanwords."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:57Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/The%20Baal%20Shem%20Tov%20and%20the%20Bear.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/The Baal Shem Tov and the Bear.mp3",
+  "size_bytes": 5483345,
+  "mime_type": "audio/mpeg"
+ }
+}

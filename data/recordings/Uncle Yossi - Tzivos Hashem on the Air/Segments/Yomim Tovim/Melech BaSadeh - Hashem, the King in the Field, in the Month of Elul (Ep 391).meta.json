@@ -1,0 +1,184 @@
+{
+ "id": "535544617f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Mevorchim Elul 391",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Melech BaSadeh - Hashem, the King in the Field, in the Month of Elul (Ep 391).mp3",
+  "duration_sec": 664.177,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 391,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 391,
+   "story": "The sound of the Shofar",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Melech BaSadeh: Hashem, the King in the Field, in the Month of Elul",
+  "title_basis": "content",
+  "summary_short": "For Shabbos Mevarchim Elul, Uncle Yossi retells the Alter Rebbe's parable of the King in the Field: in Elul Hashem is close and ready to grant every request.",
+  "summary_long": "A holiday talk from the Tzivos Hashem radio show for Shabbos Mevarchim Elul 5749. Uncle Yossi explains that Elul, the last month of the year, is a bridge to the new year and a time to better ourselves. He asks children to memorize two words, 'Melech BaSadeh', the King in the Field, and retells the parable from the Alter Rebbe's Likkutei Torah on Parshas Re'eh. A king returning from a journey is greeted by his people in the open fields outside the city; he steps out of his coach with a radiant smile and anyone may approach him with a request, unlike in his palace, where only a few are admitted. So in Elul Hashem is close to every Jew all month long. Children should make a long list of requests for body and soul, with Moshiach at the top, since the Rebbe said the coming year, 5750, stands for 'it will be a year of miracles'. Everyone should be in shul for Shabbos Mevarchim.",
+  "lesson": "In Elul Hashem is close to everyone; come to Him with all your requests, and ask first for Moshiach.",
+  "keywords": [
+   "Elul",
+   "King in the Field",
+   "royal coach",
+   "palace",
+   "requests",
+   "year of miracles",
+   "Shabbos Mevarchim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 391,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-08-22",
+   "hebrew": "21 Av 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 391, dated by its cues to the week of Shabbos Mevarchim Elul 5749. Also aired in episode 490."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king in the parable"
+  ],
+  "topics": [
+   "calendar",
+   "chassidus_tanya",
+   "prayer_and_brachos",
+   "teshuvah",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [
+   "davening",
+   "teshuvah"
+  ],
+  "calendar": [
+   "shabbos_mevarchim",
+   "elul"
+  ],
+  "parshiyos": [
+   "reeh"
+  ],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Re'eh 32b",
+    "note": "The parable of the King in the Field."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750: 'Tihyeh Shnas Nissim'",
+    "note": "The letters of 5750 stand for 'it will be a year of miracles'."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:01Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "7901aa302d",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "Also aired in episode 490."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "d593b7ba79",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 33,
+   "note": "Episode 391 (filename number); clip = 33-697 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Melech%20BaSadeh%20-%20Hashem%2C%20the%20King%20in%20the%20Field%2C%20in%20the%20Month%20of%20Elul%20%28Ep%20391%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Melech BaSadeh - Hashem, the King in the Field, in the Month of Elul (Ep 391).mp3",
+  "size_bytes": 7971084,
+  "mime_type": "audio/mpeg"
+ }
+}

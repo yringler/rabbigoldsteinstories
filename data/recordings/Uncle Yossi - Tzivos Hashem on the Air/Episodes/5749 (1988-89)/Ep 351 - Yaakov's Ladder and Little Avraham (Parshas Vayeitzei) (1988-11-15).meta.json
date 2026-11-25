@@ -1,0 +1,293 @@
+{
+ "id": "378f6dd25e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "351 11-15-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 351 - Yaakov's Ladder and Little Avraham (Parshas Vayeitzei) (1988-11-15).mp3",
+  "duration_sec": 1808.062,
+  "filename_facts": {
+   "episode_number": 351,
+   "date_in_filename": "1988-11-15",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 351,
+   "story": "Little Avraham",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 351: Yaakov's Ladder and Little Avraham (Parshas Vayeitzei)",
+  "title_basis": "content",
+  "summary_short": "Parshas Vayeitzei: why the angels on Yaakov's ladder went up first, a second-grade class sings about the extra Shabbos neshamah, and little Avraham searches for the Creator.",
+  "summary_long": "Broadcast in the week of Parshas Vayeitzei 5749, the seventh parsha of the Torah. Uncle Yossi tells of Yaakov Avinu's dream of a ladder reaching from earth to heaven, and asks the Zohar's question: why did the angels go up first and then come down? The Zohar answers that the ladder is the ladder of tefillah: our words of davening become angels that rise to Hashem, and Hashem's brachos come back down the same ladder. Yaakov slept on Har HaMoriah, the place of the first two Batei HaMikdash and of the third, which will be built when Moshiach comes. After the Hakochainik march and the sponsor, a second-grade class from a Boro Park girls' school sings a song they learned about the neshamah yeseirah, the extra soul Hashem gives us on Shabbos, and then leads the Shema. Story time retells the tale of little Avraham, three years old, who looks at the sun, the moon and the stars and realizes that only the one unseen God created them all; he grows up to teach the whole world about Hashem.",
+  "lesson": "Our words of prayer become angels that rise to Hashem and bring His blessings back down, and Hashem, though unseen, is everywhere.",
+  "keywords": [
+   "Yaakov's ladder",
+   "dream",
+   "angels",
+   "Har HaMoriah",
+   "extra soul",
+   "Shabbos song",
+   "sun",
+   "moon",
+   "stars",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 351,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-11-15",
+   "hebrew": "6 Kislev 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'here we are already up to Parshas Vayeitzei' (Shabbos 10 Kislev 5749)."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A girl in the visiting class is named by her family name.",
+    "at_sec": 1151
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yaakov_avinu",
+    "role": "central"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "little Avraham, age three"
+  ],
+  "topics": [
+   "parsha",
+   "prayer_and_brachos",
+   "tanach",
+   "emunah_bitachon",
+   "shabbos"
+  ],
+  "midos": [
+   "emunah",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "davening",
+   "shabbos",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeitzei"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 28:12",
+    "note": "Angels 'going up and coming down' the ladder."
+   },
+   {
+    "work": "zohar",
+    "ref": "",
+    "note": "The ladder is the ladder of prayer; the angels are our words of tefillah. Attributed to Rabbi Shimon bar Yochai."
+   },
+   {
+    "work": "midrash",
+    "ref": "Bereishis Rabbah 38",
+    "note": "Avraham recognizes his Creator; told as a story, no source named."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:2",
+    "note": "'Mitzvah goreres mitzvah'; cited as 'our Chachamim'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 34,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 34,
+   "end_sec": 437,
+   "type": "talk",
+   "title": "Parshas Vayeitzei: The Ladder of Prayer",
+   "summary": "Why the angels on Yaakov's ladder went up first: our prayers go up and Hashem's blessings come down.",
+   "people": [
+    "yaakov_avinu",
+    "rabbi_shimon_bar_yochai"
+   ],
+   "linked_items": [
+    "7203ee178e"
+   ]
+  },
+  {
+   "start_sec": 437,
+   "end_sec": 740,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 740,
+   "end_sec": 830,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 830,
+   "end_sec": 1170,
+   "type": "song",
+   "title": "A second-grade class sings about the extra Shabbos neshamah"
+  },
+  {
+   "start_sec": 1170,
+   "end_sec": 1290,
+   "type": "shema_guest",
+   "title": "Shema with a second-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 1290,
+   "end_sec": 1745,
+   "type": "story",
+   "title": "Little Avraham Finds Hashem",
+   "summary": "Three-year-old Avraham rejects the sun, moon and stars and discovers the one unseen Creator.",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 1745,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Visiting teacher and one child (by family name) are named (see hidden). Sponsor ad is a period piece. The class's Shabbos song is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Jacobs",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (class singing and reciting the Shema)",
+    "start_sec": 830,
+    "end_sec": 1290
+   },
+   {
+    "name": "the Klugman girl",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis; led the class song",
+    "start_sec": 1151,
+    "end_sec": 1160
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:00Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "7203ee178e",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Parshas Vayeitzei 351' = 34-445 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "798eaeecfd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer at Home, Part 1: Shavuos, the Sefiros and Getting Ready for an Upsherin' (Stories, 18:26-23:45), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "beeb398177",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 2: The Search, Little Avraham (Yud-Tes Kislev)' (episode 2, 15:15-21:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20351%20-%20Yaakov%27s%20Ladder%20and%20Little%20Avraham%20%28Parshas%20Vayeitzei%29%20%281988-11-15%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 351 - Yaakov's Ladder and Little Avraham (Parshas Vayeitzei) (1988-11-15).mp3",
+  "size_bytes": 21697636,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "id": "e4adab699f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Lag Bomer Oht",
+  "audio_path": "audio/Other Stories/Lag BaOmer - Tzaddikim Are Always With Us.mp3",
+  "duration_sec": 775.314,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Lag BaOmer: Tzaddikim Are Always With Us",
+  "title_basis": "content",
+  "summary_short": "A short Lag BaOmer talk on why Rabbi Shimon bar Yochai's yahrzeit is a day of joy, with two stories showing that tzaddikim are with us even when we cannot see them.",
+  "summary_long": "Speaking at a Lag BaOmer gathering, the storyteller explains that Rabbi Shimon bar Yochai, author of the Zohar, was the first to teach the hidden secrets of the Torah, and that his yahrzeit is a day of rejoicing because he asked for it and because tzaddikim are always with us. He tells two short stories. In the first, heard from his father, the Rebbe led a children's rally in the open backyard of 770 while the Frierdiker Rebbe watched from his window. Afterwards the Frierdiker Rebbe told the Rebbe how Rabbi Levi Yitzchak of Berditchev once asked the Alter Rebbe why he skipped \"V'shamru\" on Friday night, which causes great joy in Heaven, and the Alter Rebbe answered that he need not attend every celebration; yet at this rally, the Alter Rebbe was present. In the second, on Simchas Torah 5733, Rabbi Shmaryahu Gurary came to shul in tears of joy after the Rebbe let him see the Frierdiker Rebbe dancing with them at hakafos. He closes by urging everyone to take on a small good resolution, the \"cup\" that holds the blessings.",
+  "lesson": "Tzaddikim are with us even when our eyes cannot see them; to receive their blessings, take on a good resolution, even a small one.",
+  "keywords": [
+   "Lag BaOmer",
+   "Zohar",
+   "rally",
+   "770",
+   "window",
+   "V'shamru",
+   "hakafos",
+   "tears of joy",
+   "good resolution"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Lag BaOmer (18 Iyar), year unknown",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "Spoken on Lag BaOmer at a gathering; no year given."
+  }
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_shmaryahu_gurary",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the storyteller's father as a young man",
+   "the Frierdiker Rebbe's attendant"
+  ],
+  "topics": [
+   "hiskashrus",
+   "the_rebbe",
+   "calendar"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "lag_baomer",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The Alter Rebbe's siddur omits V'shamru before the Friday-night Amidah as a possible interruption."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Stories heard from the storyteller's father and told among Chassidim."
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 95,
+   "type": "talk",
+   "title": "Why Lag BaOmer is a day of joy",
+   "people": [
+    "rabbi_shimon_bar_yochai"
+   ]
+  },
+  {
+   "start_sec": 95,
+   "end_sec": 495,
+   "type": "story",
+   "title": "The Alter Rebbe came to the rally",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe",
+    "alter_rebbe",
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 495,
+   "end_sec": 701,
+   "type": "story",
+   "title": "Tears of joy on Simchas Torah",
+   "people": [
+    "the_rebbe",
+    "rabbi_shmaryahu_gurary",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 701,
+   "type": "talk",
+   "title": "Take a resolution to receive the blessings"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short guest talk at a live Lag BaOmer event. Filename code 'Oht' unexplained. ASR writes 'Rabbi Gerari' for Rabbi Gurary and 'Friedeke' for Frierdiker."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Speaker attributed to the weekly storyteller by style (small-resolution advice); not certain.",
+   "Identity clue: speaker's father was brought to Lubavitch by Rabbi Eliyahu Simpson of Boro Park."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Lag%20BaOmer%20-%20Tzaddikim%20Are%20Always%20With%20Us.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Lag BaOmer - Tzaddikim Are Always With Us.mp3",
+  "size_bytes": 9304532,
+  "mime_type": "audio/mpeg"
+ }
+}

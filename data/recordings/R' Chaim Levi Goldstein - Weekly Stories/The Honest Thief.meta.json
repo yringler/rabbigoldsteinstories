@@ -1,0 +1,183 @@
+{
+ "id": "211fe9790b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Honest thief",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Honest Thief.mp3",
+  "duration_sec": 1146.5,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Honest Thief",
+  "title_basis": "filename",
+  "summary_short": "A poor, unlucky Jew is promised a hidden treasure by a tzaddik, and finds it by refusing to steal, even when a disguised sheriff pressures him.",
+  "summary_long": "Sometimes we must do what we are told even when we do not understand why. Shlemiel, a poor and clumsy man in a Polish shtetl, cannot keep a job, and his children go hungry. A visiting tzaddik tells him a great treasure awaits him in Heaven but will not say how he will get it. Walking through the empty marketplace at night, Shlemiel finds a store left unlocked; tempted by the yetzer hara, he takes exactly 18 pennies from the open money box for a loaf of bread, writes down the debt, and leaves the rest. Night after night the same thing happens, and the town buzzes about the \"honest thief.\" The sheriff, disguised as a drunken beggar, catches him and demands that he climb into the sheriff's own house and steal a newly inherited treasure. Shlemiel refuses to keep any of it, climbs in, and overhears a servant plotting to poison the sheriff's tea. He warns the \"beggar,\" who turns out to be the sheriff himself. The grateful sheriff insists on giving him half the treasure. Shlemiel repays every 18 pennies, gives tzedakah, and understands the tzaddik's silence: his riches came through resisting temptation.",
+  "lesson": "Trust the ways of Hashem even when we do not understand them; overcoming the temptation to take what is not ours brings blessing.",
+  "keywords": [
+   "18 pennies",
+   "marketplace",
+   "money box",
+   "hardware store",
+   "sheriff",
+   "disguise",
+   "poisoned tea",
+   "treasure",
+   "loaf of bread"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor father cannot feed his hungry children."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A servant plots to poison the sheriff; the sheriff makes him drink the tea himself."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The sheriff disguises himself as a drunken beggar."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Shlemiel",
+   "the tzaddik",
+   "Velvel, the hardware storekeeper",
+   "Getzel, the cloth merchant",
+   "the sheriff",
+   "Ivan, the servant"
+  ],
+  "topics": [
+   "character",
+   "emunah_bitachon",
+   "tzaddikim_stories"
+  ],
+  "midos": [
+   "emes",
+   "self_control",
+   "kabbalas_ol",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "note": "Borrowing without permission is like stealing."
+   }
+  ],
+  "places": [
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 1,
+   "end_sec": 77,
+   "type": "talk",
+   "title": "Kabbalas ol: doing what we do not understand"
+  },
+  {
+   "start_sec": 77,
+   "type": "story",
+   "title": "The honest thief"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "No opening song. The recording ends mid-sentence ('That, I guess...') just after the story's conclusion."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No opening song or sign-off; same narrator style and teaching-then-story format as the series.",
+   "at_sec": 1
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:32:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from style only (no opening song); confirm.",
+   "Recording cut off at the very end."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Honest%20Thief.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Honest Thief.mp3",
+  "size_bytes": 13758931,
+  "mime_type": "audio/mpeg"
+ }
+}

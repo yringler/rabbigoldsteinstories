@@ -1,0 +1,155 @@
+{
+ "id": "ae64241bdd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Neshek 256",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Melech HaOlam, Hashem Is King of the Whole World (Ep 256).mp3",
+  "duration_sec": 234.101,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 256,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 256,
+   "story": "Little Zalmy and spooky house #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Candles: Melech HaOlam, Hashem Is King of the Whole World",
+  "title_basis": "content",
+  "summary_short": "Mitzvah time on the Shabbos candle brachah: what 'Melech HaOlam' means, and how Hashem is the King of every country and the King of all kings.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, continuing a series on Neshek, the lighting of Shabbos candles. After reviewing last week's words, 'Baruch Atah, Hashem Elokeinu', Uncle Yossi teaches the next two words of the brachah: 'Melech HaOlam'. He describes what a king once was: people honored and feared him, because he could make the poor rich, imprison or free, and decide over life and death. Hashem is far greater than any king, for He is King of the whole world, every country, with full control of everything. That is what makes 'Atah', You, so special: in a brachah we speak directly to the King of the world. He connects this to Shalom Aleichem on Friday night, where Hashem is called the King of all kings, the Holy One, blessed be He. The lesson ends with a review of the first six words of the brachah.",
+  "lesson": "When we make a brachah we are speaking directly to Hashem, the King of the whole world.",
+  "keywords": [
+   "Shabbos candles",
+   "king",
+   "Melech HaOlam",
+   "Shalom Aleichem",
+   "King of kings"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 256,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1986-12-16",
+   "hebrew": "14 Kislev 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Episode 256 gives candle lighting for Friday, December 19, 1986."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos",
+   "shabbos"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Shalom Aleichem",
+    "note": "'Melech malchei hamelachim, HaKadosh Baruch Hu'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "6b44697042",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 1431,
+   "note": "Episode 256 (filename number); clip = 1431-1666 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "ff7778afcc",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'Last week we learned the first four words of the brachah' (Baruch Atah Hashem Elokeinu), taught in Neshek 254."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Part of a running Neshek series; opens with a recap of the previous lesson."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:02Z",
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Shabbos%20Candles%20-%20Melech%20HaOlam%2C%20Hashem%20Is%20King%20of%20the%20Whole%20World%20%28Ep%20256%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Melech HaOlam, Hashem Is King of the Whole World (Ep 256).mp3",
+  "size_bytes": 2810120,
+  "mime_type": "audio/mpeg"
+ }
+}

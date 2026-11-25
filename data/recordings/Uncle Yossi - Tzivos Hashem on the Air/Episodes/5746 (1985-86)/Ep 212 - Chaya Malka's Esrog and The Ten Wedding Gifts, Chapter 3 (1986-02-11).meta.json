@@ -1,0 +1,320 @@
+{
+ "id": "25fd6b1098",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "212 02-11-86",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 212 - Chaya Malka's Esrog and The Ten Wedding Gifts, Chapter 3 (1986-02-11).mp3",
+  "duration_sec": 1864.591,
+  "filename_facts": {
+   "episode_number": 212,
+   "date_in_filename": "1986-02-11",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 212,
+   "story": "Chaya Malka and Esrog. ditto#3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 212: Chaya Malka's Esrog and The Ten Wedding Gifts, Chapter 3",
+  "title_basis": "master_catalog",
+  "summary_short": "On his mother's yahrzeit, Uncle Yossi tells how she shared her father's esrog with friends as a girl; then the newlyweds of 'The Ten Wedding Gifts' take in a lost child during a blizzard.",
+  "summary_long": "Broadcast on 2 Adar 5746, the yahrzeit of Uncle Yossi's mother, Chaya Malka. He describes her life of Torah, mitzvos and helping others come closer to Yiddishkeit, and tells a story from her childhood in Rhode Island. On Hoshana Rabbah, seven-year-old Chaya Malka tearfully asked to borrow her father's lulav and esrog so that friends without one could make the brachah. Her father agreed but warned her to guard the pitum. After visiting all her friends she dropped the esrog and the pitum broke; a kindly tailor pinned it back with a long needle. She told her father the truth, and he laughed: the esrog was now unfit, but it was the last day it was needed. Uncle Yossi says she was already a soldier in Hashem's army, and everyone says the Shema in her memory. After the Hakochainik march, a fifth-grade Beis Rivkah student leads the Shema. 'The Ten Wedding Gifts' continues: months after the wedding, during a fierce blizzard, Avraham and Sarah take in a lost, freezing boy from a mansion beyond the forest, warm him by the fire and put him to bed, to be continued. A listener then wins the Mitzvah Time phone quiz on honoring holy books.",
+  "lesson": "Help others do mitzvos, like a young girl who shared her father's esrog; and kindness to a stranger in need is never forgotten by Hashem.",
+  "keywords": [
+   "esrog",
+   "lulav",
+   "pitum",
+   "needle",
+   "tailor",
+   "Hoshana Rabbah",
+   "yahrzeit",
+   "blizzard",
+   "lost boy",
+   "fireplace",
+   "Mitzvah Time quiz"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "family_memoir",
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1986-02-11",
+   "hebrew": "2 Adar 1 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'Today is the second day of the new month of Adar.'"
+  },
+  "serial": {
+   "story_key": "the-ten-wedding-gifts",
+   "story_title": "The Ten Wedding Gifts",
+   "chapter": 3
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 212,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A small boy is lost and nearly freezes in a blizzard before he is taken in.",
+    "at_sec": 1190
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest and the quiz caller are named on air.",
+    "at_sec": 855
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Chaya Malka as a girl (Uncle Yossi's mother)",
+   "her father",
+   "Berel the tailor",
+   "Avraham",
+   "Sarah",
+   "Reuven the innkeeper",
+   "the lost boy"
+  ],
+  "topics": [
+   "family_heritage",
+   "kindness_and_community",
+   "baal_shem_tov_and_students",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed",
+   "emes",
+   "simcha"
+  ],
+  "mitzvos": [
+   "arba_minim",
+   "hachnasas_orchim",
+   "shema",
+   "kavod_shul"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Pawtucket, Rhode Island"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 9,
+   "end_sec": 40,
+   "type": "opening",
+   "title": "Opening: the second day of Adar"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 607,
+   "type": "story",
+   "title": "Chaya Malka's Esrog",
+   "summary": "On his mother's yahrzeit, Uncle Yossi tells how as a girl she shared her father's esrog with friends on Hoshana Rabbah.",
+   "calendar": [
+    "adar"
+   ]
+  },
+  {
+   "start_sec": 607,
+   "end_sec": 667,
+   "type": "shema_guest",
+   "title": "Shema in her memory"
+  },
+  {
+   "start_sec": 667,
+   "end_sec": 831,
+   "type": "song",
+   "title": "Hakochainik March: Marbin B'Simcha"
+  },
+  {
+   "start_sec": 831,
+   "end_sec": 1002,
+   "type": "shema_guest",
+   "title": "Shema with a fifth-grade Beis Rivkah student"
+  },
+  {
+   "start_sec": 1002,
+   "end_sec": 1100,
+   "type": "story_intro",
+   "title": "Recap: The Ten Wedding Gifts"
+  },
+  {
+   "start_sec": 1100,
+   "end_sec": 1515,
+   "type": "story_chapter",
+   "title": "The Ten Wedding Gifts, Chapter 3",
+   "summary": "Avraham and Sarah take in a lost boy from a nearby mansion during a blizzard.",
+   "story_key": "the-ten-wedding-gifts",
+   "chapter": 3
+  },
+  {
+   "start_sec": 1515,
+   "end_sec": 1760,
+   "type": "quiz",
+   "title": "Mitzvah Time phone quiz: honoring holy books"
+  },
+  {
+   "start_sec": 1760,
+   "type": "closing",
+   "title": "Closing, sponsor and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "9bc8ca94cc",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "The Ten Wedding Gifts, chapter 3 follows chapter 2 in episode 211 (recap on air; catalog ditto #3)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "9bc8ca94cc",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1986): ep 211 ch. 2 and ep 212 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "3ee5407420",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1986): ep 212 ch. 3 and ep 213 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "934315e5eb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Beis Adar: The Broken Esrog, a Story of Uncle Yossi's Mother' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Host's family memoir (his mother's yahrzeit); the communal Shema in her memory has no guest. Gift shop prize and sponsor are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Mashi Horowitz",
+    "role": "shema_guest",
+    "group": "Beis Rivkah, fifth grade, age 10",
+    "start_sec": 831,
+    "end_sec": 1002
+   },
+   {
+    "name": "Morah Shem Tov",
+    "role": "other",
+    "group": "Teacher of the Shema guest, Beis Rivkah fifth grade",
+    "start_sec": 870,
+    "end_sec": 890
+   },
+   {
+    "name": "Pessy Rosenfeld",
+    "role": "contest_winner",
+    "group": "Mitzvah Time phone quiz",
+    "start_sec": 1530,
+    "end_sec": 1730
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Host's mother Chaya Malka bas Dina, yahrzeit 2 Adar (passed 7 years earlier); born in Pawtucket, RI; host born in Providence, RI; her parents Rabbi Yaakov Yitzchak and Rebbetzin Dina Goldman.",
+    "start_sec": 40,
+    "end_sec": 160
+   },
+   {
+    "kind": "school",
+    "text": "Shema guest: Beis Rivkah, fifth grade, teacher Morah Shem Tov.",
+    "start_sec": 855,
+    "end_sec": 895
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Host's mother is named in public text as the memoir's subject (catalog title 'Chaya Malka and Esrog'); confirm this is acceptable."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20212%20-%20Chaya%20Malka%27s%20Esrog%20and%20The%20Ten%20Wedding%20Gifts%2C%20Chapter%203%20%281986-02-11%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 212 - Chaya Malka's Esrog and The Ten Wedding Gifts, Chapter 3 (1986-02-11).mp3",
+  "size_bytes": 22375984,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "id": "3b2eabf95b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "12 Tammuz 333",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Victory for All Jews (Ep 333) (other version).mp3",
+  "duration_sec": 337.152,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 333,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 333,
+   "story": "The Island of Treasures",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yud-Beis Tammuz: The Frierdiker Rebbe's Victory for All Jews",
+  "title_basis": "content",
+  "summary_short": "The story of the Frierdiker Rebbe's arrest in 1927 for teaching Torah and his miraculous release on the 12th of Tammuz, and why it matters to every child in Tzivos Hashem.",
+  "summary_long": "A Yud-Beis Tammuz talk from the Tzivos Hashem radio show. Uncle Yossi explains that in 1927 the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, was imprisoned in Russia for teaching Torah and mitzvos, especially to young children, which the government had forbidden. He had continued at the risk of his life to set an example. Jews all over the world prayed, and through a miracle he was freed on the 12th of Tammuz, his birthday. Communities everywhere celebrate the day with thanks to Hashem, because his victory was a victory for all of Klal Yisroel: he went straight back to building yeshivos, shuls and mikvaos, and today there are yeshivos throughout the world thanks to his mesiras nefesh. Tzivos Hashem itself exists in his merit, since the Jewish child was always at the top of his list. Children are asked to make strong resolutions for Yud-Beis Tammuz and to pray that this Geulah leads to the final Geulah.",
+  "lesson": "The Frierdiker Rebbe risked his life so that children could learn Torah; we honor him by learning more Torah and doing more mitzvos.",
+  "keywords": [
+   "prison",
+   "Russia",
+   "1927",
+   "birthday",
+   "liberation",
+   "yeshivos",
+   "leaders of tomorrow"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 333,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-06-21",
+   "hebrew": "6 Tammuz 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 333 (filename date 1988-06-21); the same talk also aired in episode 283."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe is jailed in Soviet Russia for teaching Torah, and his life is in danger.",
+    "at_sec": 29
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "tzivos_hashem",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "ec81364f6e",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "offset_sec": 39,
+   "note": "Episode 333 (filename number); clip = 39-377 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "342600f363",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 283."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "db1f84ef9e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "'Yud Beis Tammuz 333' is a fuller cut of the same talk (episode 333, 14-402 s), with the opening line and the date announcement."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "db1f84ef9e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Alternate take / cut of the same material."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take",
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of db1f84ef9e ('Yud Beis Tammuz 333'), the preferred copy: a slightly shorter cut of the same talk from episode 333, starting mid-sentence."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Beis%20Tammuz%20-%20The%20Frierdiker%20Rebbe%27s%20Victory%20for%20All%20Jews%20%28Ep%20333%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Victory for All Jews (Ep 333) (other version).mp3",
+  "size_bytes": 4046767,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "id": "85733bc4b0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chochmos 3-4",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos, Chochmos 3 and 4 - The Hotel, the Trial and the Gift in the Challah.mp3",
+  "duration_sec": 1384.124,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "4",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos, Chochmos 3 and 4: The Hotel, the Trial and the Gift in the Challah",
+  "title_basis": "filename",
+  "summary_short": "The end of the Four Chochmos: Rabbi Yehudah's third piece of advice saves his friend from a false murder charge, and the fourth brings a surprise baked into a challah.",
+  "summary_long": "This is the closing part of the story of the Four Chochmos, opening with the song 'I Believe in Hashem'. Rabbi Yehudah and his friend Rabbi Yaakov stop at a hotel for the night, and the owner puts a priest in their room. Remembering the third piece of advice, never to stay the night in such a hotel however tired he is, Rabbi Yehudah goes outside, while his friend stays and sleeps. In the night he sees the town's drunken chief priest climb a tree to the window and attack the other priest, and he cuts off the man's finger as proof. In the morning Rabbi Yaakov is arrested and false witnesses testify against him. In court Rabbi Yehudah insists that every priest in town be present, produces the finger, and the truth comes out. At home he sees strangers in his house and is about to burst in angrily, but he remembers the fourth piece of advice and waits; the guests are great rabbis passing through. When the family cuts the challah from the old man's shop, they find the four gold coins and a note revealing who the old couple really were.",
+  "lesson": "Listen to the words of a tzaddik even when you do not understand them, never lose your temper, and use what Hashem gives you for hachnasas orchim and tzedakah.",
+  "keywords": [
+   "hotel",
+   "priest",
+   "tree",
+   "cut-off finger",
+   "courtroom",
+   "false witnesses",
+   "guests",
+   "challah",
+   "gold coins",
+   "note"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "serial": {
+   "story_title": "The Four Chochmos",
+   "story_key": "the-four-chochmos"
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "A drunken priest stabs a man in the night; the hero cuts off the killer's finger as proof."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A man is murdered off-scene; the killer and the false witnesses are later executed."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew is falsely accused of murder and sentenced to death before he is cleared."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The murderer is a drunken priest."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "sarah_imeinu",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehudah",
+   "his wife",
+   "Rabbi Yaakov, his rich friend",
+   "the hotel owner",
+   "the chief priest",
+   "the judge"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "hiskashrus",
+   "miracles",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "controlling_anger",
+   "bitachon",
+   "chesed"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 1066,
+   "type": "story_chapter",
+   "title": "Third chochmah: the hotel, the murder and the trial",
+   "summary": "Rabbi Yehudah leaves the hotel, witnesses a murder and clears his friend in court."
+  },
+  {
+   "start_sec": 1066,
+   "type": "story_chapter",
+   "title": "Fourth chochmah and the gift in the challah",
+   "summary": "Rabbi Yehudah holds back his anger at home and finds the four gold coins baked into the challah.",
+   "people": [
+    "avraham_avinu",
+    "sarah_imeinu"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "052d37b4ea",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.96,
+   "note": "Excerpt of '4 חכמות' (audio fingerprint)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1ff3abfa6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Part 4 (Chanukah)' (Stories, 3:45-16:00), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "420e35767f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Part 3' (Stories, from 7:12), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Part 1' (Stories, from 9:08), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "603890b365",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Part 1 (Shorter Version)' (Stories, from 8:46), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8a7b5b2912",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Part 2' (Stories, from 8:08), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Cut from the full '4 Chochmos' recording (052d37b4ea / 008f627970) with the 'I Believe' song added; starts mid-story after the second chochmah. The friend is called Yaakov here (Moshe earlier in the full recording)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:31Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Excerpt of the full Four Chochmos recording; a matching 'Chochmos 1-2' cut was not seen in this batch."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos%2C%20Chochmos%203%20and%204%20-%20The%20Hotel%2C%20the%20Trial%20and%20the%20Gift%20in%20the%20Challah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos, Chochmos 3 and 4 - The Hotel, the Trial and the Gift in the Challah.mp3",
+  "size_bytes": 16610248,
+  "mime_type": "audio/mpeg"
+ }
+}

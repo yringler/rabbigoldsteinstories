@@ -1,0 +1,215 @@
+{
+ "id": "aa38182b31",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Sandy הוראה",
+  "audio_path": "audio/Other Stories/After Hurricane Sandy - The Frierdiker Rebbe's Instruction That Saved a Life.mp3",
+  "duration_sec": 772.963,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "mixed Hebrew/Latin name"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "After Hurricane Sandy: The Frierdiker Rebbe's Instruction That Saved a Life",
+  "title_basis": "filename",
+  "summary_short": "After Hurricane Sandy, a Gemara teaching on why storms come, and how a grandfather's life was saved because he followed the Frierdiker Rebbe's instruction to be home early on Friday.",
+  "summary_long": "Recorded in a school soon after Hurricane Sandy. After a staff member's announcements about washing and lunch, the storyteller opens with the Baal Shem Tov's teaching that we can learn a lesson from everything we see or hear. The Gemara tells how a sage passing a sorcerer's house during a storm asked if he knew its cause, and was told that when Hashem remembers His children suffering in golus, two tears fall into the ocean and it roars. A storm, then, is a sign that Hashem feels our pain and that the Geulah is near. Then a family story from about seventy years earlier: the storyteller's grandfather, a Chassid in Pennsylvania who sold clothing to farmers far from the city, received a letter from the Frierdiker Rebbe telling him to finish work every Friday two hours before Shabbos. He obeyed that very week, though customers begged him to stay. When he got home his wife told him a tornado had just struck where he always worked, twenty minutes after he left. The storyteller shows the class a copy of the letter.",
+  "lesson": "Learn a lesson from everything that happens, and listen to the Rebbe's instructions right away.",
+  "keywords": [
+   "Hurricane Sandy",
+   "storm",
+   "tornado",
+   "letter",
+   "farmers",
+   "clothing salesman",
+   "Friday",
+   "two tears",
+   "ocean"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "talmudic",
+   "contemporary",
+   "family_memoir"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "unknown",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2012-11",
+   "hebrew": "Cheshvan 5773",
+   "hebrew_year": 5773,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "'We all saw and heard the hurricane that we had' (Hurricane Sandy, 29 Oct 2012); filename 'Sandy'."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A tornado kills and injures people where the grandfather usually worked (reported, not described)."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the storyteller's grandfather",
+   "his wife",
+   "the sorcerer",
+   "the sage on the road"
+  ],
+  "topics": [
+   "hiskashrus",
+   "moshiach_geulah",
+   "shabbos",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "zerizus",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Pennsylvania"
+  ],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "'The Gemara tells us' of the sage, the sorcerer and the two tears that make the ocean roar."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "A letter of the Frierdiker Rebbe to the storyteller's grandfather, shown to the class."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 13,
+   "end_sec": 128,
+   "type": "announcement",
+   "title": "School announcements",
+   "summary": "A staff member announces new rules about washing, benching and eating lunch."
+  },
+  {
+   "start_sec": 128,
+   "end_sec": 425,
+   "type": "talk",
+   "title": "What a hurricane teaches us",
+   "summary": "The Gemara's teaching that a storm comes when Hashem sheds tears for His people in golus."
+  },
+  {
+   "start_sec": 425,
+   "end_sec": 716,
+   "type": "story",
+   "title": "Home two hours before Shabbos",
+   "summary": "A grandfather follows the Frierdiker Rebbe's instruction and escapes a deadly tornado.",
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 716,
+   "type": "qa",
+   "title": "The Frierdiker Rebbe's letter",
+   "summary": "The storyteller shows the class a copy of the letter and answers a question."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Classroom recording; opens with about two minutes of unrelated school announcements by another speaker, partly garbled in the transcript."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The storyteller's grandfather was a Chassid and shliach near Pittsburgh about 70 years earlier, selling clothing to farmers, and corresponded with the Frierdiker Rebbe.",
+    "start_sec": 425,
+    "end_sec": 760
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T17:05:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator assumed to be the weekly storyteller (same 'see or hear, learn a lesson' opening as the Tu B'Shvat recordings); confirm.",
+   "Identity clue: his grandfather was a shliach near Pittsburgh in the 1940s who received a letter from the Frierdiker Rebbe."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/After%20Hurricane%20Sandy%20-%20The%20Frierdiker%20Rebbe%27s%20Instruction%20That%20Saved%20a%20Life.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/After Hurricane Sandy - The Frierdiker Rebbe's Instruction That Saved a Life.mp3",
+  "size_bytes": 9276332,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "id": "797367c271",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "19 Kislev - The Maggid and Rashbi",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Yud-Tes Kislev - The Maggid's Yahrzeit and Rabbi Shimon bar Yochai's Ruling.mp3",
+  "duration_sec": 1404.575,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yud-Tes Kislev: The Maggid's Yahrzeit and Rabbi Shimon bar Yochai's Ruling",
+  "title_basis": "filename",
+  "summary_short": "Why we write our name under 'LaShem HaAretz', and a Chassid's dream on the Maggid's yahrzeit in which Rabbi Shimon bar Yochai rules that the Alter Rebbe will go free.",
+  "summary_long": "The storyteller explains that a Rebbe is the 'head of the Jewish people': like Moshe Rabbeinu, the leader of each generation channels life to every Jewish soul. In a story the Rebbe told, a woman in a coma woke when the Frierdiker Rebbe's name was whispered in her ear, because a person's name joins the soul to the body. He then gives four reasons the Rebbe gave for writing 'LaShem HaAretz u'Meloah' with our name in our siddur and other sefarim. The story: when the Alter Rebbe was taken away in a black wagon, a Chassid named Reb Moshe fainted and woke only when told the Rebbe was freed. He fasted every day with other Chassidim. On the night of Yud-Tes Kislev, the Maggid of Mezritch's yahrzeit, he dozed at a farbrengen and dreamed that Reb Menachem Mendel of Horodok showed him the Heavenly gathering: the Maggid wept for his imprisoned student, and Rabbi Shimon bar Yochai came and ruled that the Alter Rebbe would go free. A week later, a letter confirmed it.",
+  "lesson": "Our name connects our soul to Hashem and to the Rebbe; say Tehillim with joy and trust.",
+  "keywords": [
+   "coma",
+   "name",
+   "siddur",
+   "black wagon",
+   "fasting",
+   "dream",
+   "farbrengen",
+   "letter"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The Alter Rebbe is arrested and held in prison."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Arrest by armed guards for spreading Chassidus."
+   },
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A woman lies in a coma and wakes."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_menachem_mendel_of_horodok",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "arizal",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Moshe of Starodub",
+   "a woman in a coma"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "simcha",
+   "mesiras_nefesh",
+   "emunah"
+  ],
+  "mitzvos": [
+   "tehillim",
+   "mivtzoim",
+   "fast_days"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Toras Menachem",
+    "note": "The coma story, told by the Rebbe."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Psalm 24:1",
+    "note": "'LaShem HaAretz u'Meloah'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "song",
+   "title": "I Believe in Hashem",
+   "end_sec": 50
+  },
+  {
+   "start_sec": 50,
+   "type": "talk",
+   "title": "The Rebbe, head of the Jewish people",
+   "end_sec": 140
+  },
+  {
+   "start_sec": 140,
+   "type": "story",
+   "title": "The name that woke a woman from a coma",
+   "end_sec": 275,
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 275,
+   "type": "talk",
+   "title": "Four reasons we write our name in our sefarim",
+   "end_sec": 600
+  },
+  {
+   "start_sec": 600,
+   "type": "story",
+   "title": "Yud-Tes Kislev: the Chassid's dream",
+   "end_sec": 1225,
+   "people": [
+    "alter_rebbe",
+    "maggid_of_mezritch",
+    "rabbi_shimon_bar_yochai"
+   ]
+  },
+  {
+   "start_sec": 1225,
+   "type": "talk",
+   "title": "Dreams, and saying Tehillim with joy"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Theme song only partly transcribed (gap 0:01-1:14)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "bbb62fc7b5",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rashbi and the Alter Rebbe's Freedom' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Yud-Tes%20Kislev%20-%20The%20Maggid%27s%20Yahrzeit%20and%20Rabbi%20Shimon%20bar%20Yochai%27s%20Ruling.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Yud-Tes Kislev - The Maggid's Yahrzeit and Rabbi Shimon bar Yochai's Ruling.mp3",
+  "size_bytes": 16855716,
+  "mime_type": "audio/mpeg"
+ }
+}

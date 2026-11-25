@@ -1,0 +1,313 @@
+{
+ "id": "23f4f1434c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "195",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 195 - The Baal Shem Tov and 'Baruch Hashem' (Rosh Chodesh Cheshvan) (1985-10-15).mp3",
+  "duration_sec": 1811.629,
+  "filename_facts": {
+   "episode_number": 195,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 195,
+   "story": "",
+   "topic": "ר\"ח חשון ברוך ה' בעש\"ט",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 195: The Baal Shem Tov and 'Baruch Hashem' (Rosh Chodesh Cheshvan)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Rosh Chodesh Cheshvan show: holding on to the inspiration of Elul and Tishrei, the brachah on a mezuzah, a guest from Denver, and a new 'Baruch Hashem' song.",
+  "summary_long": "Broadcast on Rosh Chodesh Cheshvan 5746, the first show after the Sukkos break. Uncle Yossi looks back over Elul and Tishrei: Hashem as a king in the field, the shofar moving Hashem from the throne of judgment to the throne of mercy, Tashlich, the Ten Days of Teshuvah, Yom Kippur, the joy of Sukkos and the dancing of Simchas Torah, and asks children to keep those memories alive all year. After the Hakochainik march and a sponsor message, Mitzvah Time continues on the mezuzah: every room except the bathroom needs one, and the brachah 'likboa mezuzah' is said just before it is put up on the upper third of the right doorpost, ideally with the family there to answer amen. An eleven-year-old guest from Denver, visiting his grandparents in Crown Heights, leads the Shema and recites a Mishnah from Bava Kamma about damages. Story time tells how the Baal Shem Tov went to the marketplace to ask people how they were, just to hear them answer 'Baruch Hashem', and teaches a new song, 'Baruch Hashem, Baruch Hashem is what I always say'. The show ends with the Tishrei Mitzvah Mission card.",
+  "lesson": "Say 'Baruch Hashem' as often as you can; every time you do, you bless Hashem and He blesses you.",
+  "keywords": [
+   "Baruch Hashem",
+   "marketplace",
+   "new song",
+   "Tishrei memories",
+   "shofar",
+   "Simchas Torah",
+   "mezuzah brachah",
+   "Denver",
+   "Mishnah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 195,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-10-15",
+   "hebrew": "30 Tishrei 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'It's Rosh Chodesh Mar Cheshvan'; episode 194 announced 'back on the air the 15th of October'. Matches the weekly count back from 211."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Eleven-year-old guest named in full, with school and the grandparents he is visiting.",
+    "at_sec": 1008
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the Baal Shem Tov's students",
+   "people in the marketplace"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "prayer_and_brachos",
+   "calendar",
+   "halachah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "simcha",
+   "emes"
+  ],
+  "mitzvos": [
+   "mezuzah",
+   "brachos",
+   "shema",
+   "torah_study",
+   "shofar",
+   "teshuvah"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "rosh_hashanah",
+   "yom_kippur",
+   "sukkos",
+   "shemini_atzeres_simchas_torah",
+   "cheshvan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Bava Kamma 6:1",
+    "note": "Recited by the guest: a shepherd who properly locks his sheep in is not liable for their damage."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening: Rosh Chodesh Cheshvan"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 366,
+   "type": "talk",
+   "title": "Holding On to Elul and Tishrei",
+   "summary": "A look back at Elul, Rosh Hashanah, Yom Kippur, Sukkos and Simchas Torah, and keeping their inspiration all year.",
+   "calendar": [
+    "rosh_chodesh",
+    "rosh_hashanah",
+    "yom_kippur",
+    "sukkos",
+    "shemini_atzeres_simchas_torah"
+   ],
+   "linked_items": [
+    "c7645f9f33"
+   ]
+  },
+  {
+   "start_sec": 366,
+   "end_sec": 603,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 603,
+   "end_sec": 680,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 680,
+   "end_sec": 977,
+   "type": "halachah",
+   "title": "Mitzvah Time: The Brachah on a Mezuzah",
+   "summary": "Which rooms need a mezuzah, the brachah 'likboa mezuzah', and where and how it is affixed.",
+   "linked_items": [
+    "25d7fce30e"
+   ]
+  },
+  {
+   "start_sec": 977,
+   "end_sec": 1310,
+   "type": "shema_guest",
+   "title": "Shema and a Mishnah with a guest from Denver"
+  },
+  {
+   "start_sec": 1310,
+   "end_sec": 1475,
+   "type": "story",
+   "title": "The Baal Shem Tov and 'Baruch Hashem'",
+   "summary": "The Baal Shem Tov asked people how they were just to hear them say 'Baruch Hashem'.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1475,
+   "end_sec": 1627,
+   "type": "song",
+   "title": "Song: Baruch Hashem, Baruch Hashem"
+  },
+  {
+   "start_sec": 1627,
+   "end_sec": 1692,
+   "type": "announcement",
+   "title": "Tishrei Mitzvah Mission card"
+  },
+  {
+   "start_sec": 1692,
+   "type": "closing",
+   "title": "Dial-a-Jewish-Story and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "25d7fce30e",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Mezuzah 195' = 756-929 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "c7645f9f33",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Elul Tishrei recap in Cheshvan 195' = 50-385 s of this episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "04226e5cc2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 31a: The Beinoni's Truth (Chapters 13-14) and Hilchos Sukkah' (Stories, 12:59-14:26), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "76303b6292",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 20: Chapters 15 and 16, Serving Hashem Beyond Habit' (Stories, 41:39-43:00), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Guest and his grandparents named on air (see hidden). Phone quiz, gift shop, mission card and ads are period pieces. No story chapter this week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avremi (Avraham) Popak",
+    "role": "shema_guest",
+    "group": "Denver, Colorado; yeshiva in Denver, seventh grade; age 11",
+    "start_sec": 1008,
+    "end_sec": 1310
+   },
+   {
+    "name": "Rabbi and Rebbetzin Shmuel Isaac Popak",
+    "role": "other",
+    "group": "Crown Heights",
+    "start_sec": 1110,
+    "end_sec": 1130,
+    "note": "The guest's grandparents, whom he is visiting."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The guest is staying with his grandparents in Crown Heights.",
+    "start_sec": 1110,
+    "end_sec": 1130
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:34Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20195%20-%20The%20Baal%20Shem%20Tov%20and%20%27Baruch%20Hashem%27%20%28Rosh%20Chodesh%20Cheshvan%29%20%281985-10-15%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 195 - The Baal Shem Tov and 'Baruch Hashem' (Rosh Chodesh Cheshvan) (1985-10-15).mp3",
+  "size_bytes": 21740572,
+  "mime_type": "audio/mpeg"
+ }
+}

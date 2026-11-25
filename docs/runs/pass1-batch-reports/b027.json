@@ -1,0 +1,16 @@
+{
+ "batch_id": "b027",
+ "done": ["e537998c07", "23e24d9359", "40d280cb23", "ac0c610c3a", "3f74202549", "3fa3f0c8c9", "35d1a78d02", "17ac5d8efe", "7a7260a2ae", "79f1685101", "f70b565990", "bc6b1c6167", "23e55a5098"],
+ "failed": [],
+ "notes": [
+  "Several 1989 episodes re-air 1987 shows almost word for word: 379 re-airs 276 (d0a966e65b; Pirkei Avos talk and Judge for a Day ch. 1), 380 re-airs 277 (49efe58654; Shavuos talk, the same Havdalah quiz phone call, and ch. 2), and 383 re-airs 298 (34fa0cd369; same Shema guests, King and the Shabbos Candles story, and the candle talk), which aired again in 433 (be96b8e66a). 381 (ch. 3) probably re-airs 278. aired_again_in relations were added where the ids were in the hints.",
+  "Other transcripts that mention 'Judge for a Day' and are not in this batch: 09dddba098, 3f112e5df7, 6aa8d7ae63, be032f3167, d89547e51a. These may be clips or later re-airings of the serial (story_key judge-for-a-day). Pass 2 should link them.",
+  "The window-and-mirror story in 378 (ac0c610c3a) also aired in 326 (baed6e5c02), 451 (3553669bc5) and 532 (b53bc18740). I checked the wording and added relations.",
+  "The water/negel vasser talk in 376 (23e24d9359, about 927-1130 s) matches the Inyonei Mitzvos clip 'Netilas Yodayim 122' (f760feafed, the worked example, which already lists 376 as aired_again_in). Its id was not in this batch's facts, so I added no relation from 376.",
+  "The 'Judge for a Day' serial ends by revealing that Label grew up to be the Shaagas Aryeh. I proposed a people term (shaagas_aryeh) in 35d1a78d02.",
+  "The 377 story about the shoemaker's lamp names only 'Rabbi Yisroel'. It is traditionally told of Rabbi Yisroel Salanter, who is not in the people vocabulary and is not named on air.",
+  "Episodes 381 and 382 start at 'and shalom to everyone'; the first words of the greeting are probably clipped. The timestamps for the march segments in 381, 382 and 383 are estimates, because the march is untranscribed.",
+  "Episodes 375-378 were broadcast during Sefirah and have no theme or march, as stated on air.",
+  "In 382 the only private person named is an adult teacher. I used the privacy flag identifiable_living_people because the validator requires a flag."
+ ]
+}

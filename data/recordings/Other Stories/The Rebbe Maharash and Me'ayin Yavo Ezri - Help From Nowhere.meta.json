@@ -1,0 +1,178 @@
+{
+ "id": "2300e71fce",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Maharash Mayin yovoy ezri",
+  "audio_path": "audio/Other Stories/The Rebbe Maharash and Me'ayin Yavo Ezri - Help From Nowhere.mp3",
+  "duration_sec": 1105.325,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Rebbe Maharash and Me'ayin Yavo Ezri: Help From Nowhere",
+  "title_basis": "filename",
+  "summary_short": "Falsely accused of cheating the Russian government, the Chassid Reb Shmuel Brin is told by the Rebbe Maharash to help any Jew who asks 'Where will my help come from?'",
+  "summary_long": "Reb Shmuel Brin, a Chassid of the Rebbe Maharash, owns a busy vodka factory whose great tank is fitted with a government meter for taxes. A dishonest worker secretly drills a hole in the tank to steal drink, and a second worker joins him as a partner. When the two fall out and the police arrive, the thief blames his Jewish boss, and Reb Shmuel is arrested and faces Siberia. After a night of Tehillim and teshuvah he pours out his heart to the Rebbe Maharash, ending with the words 'Me'ayin yavo ezri', where will my help come from? The Rebbe explains that 'ayin' also means nothing: help can come from nowhere, and if a Jew in need ever says those words to him, he must fill that need completely. Back home, Reb Shmuel lends the whole sum to an innkeeper whose inn has burned down. At the trial the judge tells the jury how, as a stranded boy, he was fed and sent home by a kind stranger, the very man now accused, and the jury finds Reb Shmuel not guilty.",
+  "lesson": "If you want Hashem to help you, help another Jew; kindness given without expecting anything back returns in unexpected ways.",
+  "keywords": [
+   "vodka factory",
+   "tax meter",
+   "dishonest workers",
+   "trial",
+   "judge",
+   "jury",
+   "burned inn",
+   "loan",
+   "train station"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Antisemitic police let a thief blame his Jewish employer, who is arrested and threatened with Siberia; he is acquitted."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Shmuel Brin, a Chassid of the Rebbe Maharash",
+   "two dishonest factory workers",
+   "Chaim the innkeeper",
+   "the judge",
+   "the jury",
+   "the Rebbe's gabbai"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "tehillim",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia"
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "6bdf3b9e45",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'mayin yovoy ezri': a classroom telling of the same Reb Shmuel Brin story that stops before the Rebbe Maharash's advice."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5e372c37c6",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem Knows How to Help You, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db30dda6bf",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem Knows How to Help You, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bdbaa10fa4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Torah Is the Best Merchandise; Me'ayin Yavo Ezri, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles Maharash and Shmuel. Final line ('And Fire! No!') looks like a stray sound or ASR noise at the very end."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unidentified; no intro song. Possibly the same teacher as 6bdf3b9e45."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Rebbe%20Maharash%20and%20Me%27ayin%20Yavo%20Ezri%20-%20Help%20From%20Nowhere.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Rebbe Maharash and Me'ayin Yavo Ezri - Help From Nowhere.mp3",
+  "size_bytes": 13264916,
+  "mime_type": "audio/mpeg"
+ }
+}

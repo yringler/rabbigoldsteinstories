@@ -1,0 +1,447 @@
+{
+ "id": "15211a2565",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "225 05-13-86",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 225 - The Flickering Flame (Sefiras HaOmer) (1986-05-13).mp3",
+  "duration_sec": 1784.269,
+  "filename_facts": {
+   "episode_number": 225,
+   "date_in_filename": "1986-05-13",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 225,
+   "story": "The Flickering Flame",
+   "topic": "Sefira, / Shmiras HaZman",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 225: The Flickering Flame (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "Why we count the Omer with excitement, how precious the gift of time is, and the story of a shoemaker whose flickering lamp taught a tzaddik that while the flame burns we can still repair.",
+  "summary_long": "Recorded in the middle of Sefiras HaOmer. Uncle Yossi explains that we count the days to relive the excitement of the Jewish people as they waited for Matan Torah, and that every Jew had to be there, united like one person, the same unity that will bring Moshiach. A girl from Ann Arbor, Michigan, says the Shema in Studio 604. Next comes a talk on the gift of time: we cannot control time, only what we fill it with, and lost time never comes back, as in the story of a boy who keeps wishing for the dollar he lost. In the story, the tzaddik Reb Chaim is caught in a storm and finds Beryl the shoemaker still working late by the light of his lamp. Beryl says that as long as the lamp is burning, one can still repair. Reb Chaim, following the Baal Shem Tov's teaching to learn from everything, explains that as long as the soul is in the body we can still fix our mistakes and do mitzvos. The show ends with a contest update.",
+  "lesson": "Time is a precious gift from Hashem: fill it with Torah and mitzvos, because as long as the flame burns we can still repair and do good.",
+  "keywords": [
+   "counting the Omer",
+   "Matan Torah",
+   "Har Sinai",
+   "time",
+   "lost dollar",
+   "shoemaker",
+   "oil lamp",
+   "storm",
+   "neshamah",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 225,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1986-05-13",
+   "hebrew": "4 Iyar 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'right in the middle of the days of Sefirah'."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with age, school and teachers.",
+    "at_sec": 588
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Chaim, a tzaddik",
+   "Beryl the shoemaker",
+   "the coachman",
+   "Avraham, a boy who lost his dollar",
+   "Avraham's father"
+  ],
+  "topics": [
+   "calendar",
+   "character",
+   "torah_study",
+   "chassidic_masters",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "zerizus",
+   "achdus",
+   "hakaras_hatov",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "shema",
+   "torah_study",
+   "hachnasas_orchim",
+   "teshuvah"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 19:2; 20:2",
+    "note": "'Vayichan' in the singular: Israel camped at Sinai as one; 'Anochi Hashem Elokecha'."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:1",
+    "note": "'Who is wise? One who learns from every person', expanded by the Baal Shem Tov to learning from everything."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 11,
+   "type": "opening",
+   "title": "Greeting"
+  },
+  {
+   "start_sec": 11,
+   "end_sec": 559,
+   "type": "talk",
+   "title": "Counting the days to Matan Torah",
+   "summary": "We count the Omer to relive the excitement before the giving of the Torah, where every Jew stood united like one person.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "c542fdaf23"
+   ]
+  },
+  {
+   "start_sec": 559,
+   "end_sec": 782,
+   "type": "shema_guest",
+   "title": "Shema with a girl from Ann Arbor, Michigan"
+  },
+  {
+   "start_sec": 782,
+   "end_sec": 1162,
+   "type": "talk",
+   "title": "The precious gift of time",
+   "summary": "We cannot control time, only what we put into it; lost time never comes back.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "ea3bc56c0e"
+   ]
+  },
+  {
+   "start_sec": 928,
+   "end_sec": 1082,
+   "type": "story",
+   "title": "The lost dollar",
+   "summary": "A boy keeps wishing for the dollar he lost, and his father teaches him to care for what he still has."
+  },
+  {
+   "start_sec": 1162,
+   "end_sec": 1182,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 1182,
+   "end_sec": 1713,
+   "type": "story",
+   "title": "The Flickering Flame",
+   "summary": "A shoemaker's words, 'as long as the lamp burns, one can still repair', teach a tzaddik the value of every moment of life.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 1713,
+   "end_sec": 1765,
+   "type": "announcement",
+   "title": "Contest update and Dial-a-Jewish-Story"
+  },
+  {
+   "start_sec": 1765,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "c542fdaf23",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "'Sefira-2 225' = 11-550 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "ea3bc56c0e",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "note": "'Shmiras HaZman 225' = 812-1170 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "38d83b32ce",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 157: The Flickering Flame, Chapter 2 (Asarah B'Teves)' (episode 157, 14:12-18:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 156: The Flickering Flame, Chapter 1 (Zos Chanukah)' (episode 156, 21:50-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "40d280cb23",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 377: The Flickering Flame (Sefiras HaOmer)' (episode 377, 13:10-19:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "4c22e88ed2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 324: The Flickering Flame (Sefiras HaOmer)' (episode 324, 16:52-23:41), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "57b4f27b82",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 475: The Flickering Flame (Sefiras HaOmer)' (episode 475, 13:05-19:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6ad37ebe02",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 273: The Flickering Flame (Rosh Chodesh Iyar)' (episode 273, 20:37-26:57), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bc10ca2c5f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Flickering Flame' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6341e96d6e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 307: The Flickering Flame (Zos Chanukah)' (episode 307, 17:20-27:55), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8ef0e7ba46",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 309: The Flickering Flame (Hakhel Year)' (episode 309, 20:24-29:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9ba0d1a6a7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 349: The Flickering Flame and I Love Hashem' (episode 349, 9:40-19:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "27e4be78a2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Counting the Omer: Every Day Is Precious (The Lost Dime)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "39959e8c5c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Counting the Omer: The Precious Gift of Time' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "86a44f3dba",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Respect for Each Other and the Gift of Time' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e2cf00d09c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Every Day Counts: Sefirah, Time, and Miriam's Lost Dime' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f71ee91642",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Counting Days and the Lost Dime' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "7226693357",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sefiras HaOmer: Making Every Day Count (Zalman and the Lost Nickel)' (Uncle Yossi - Tzivos Hashem Radio Program), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8fa0b3541e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:17-25:47), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cab583e2b7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 374: The Vanishing Bottle of Wine (Chol HaMoed Pesach)' (episode 374, 23:27-25:56), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR sometimes writes 'Rabbi Akiva' for Reb Chaim and garbles Beryl's name in the story. Contest update is a period piece."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shterna Sarah Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan; age eight and a half",
+    "start_sec": 588,
+    "end_sec": 782
+   },
+   {
+    "name": "Morah Poulter",
+    "role": "other",
+    "group": "teacher of the Shema guest, Ann Arbor",
+    "start_sec": 618,
+    "end_sec": 630
+   },
+   {
+    "name": "Rabbi Rabin",
+    "role": "other",
+    "group": "teacher of the Shema guest, Ann Arbor",
+    "start_sec": 618,
+    "end_sec": 630
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The guest's father is a rabbi who runs the Chabad House in Ann Arbor, Michigan; her mother teaches the women and girls.",
+    "start_sec": 726,
+    "end_sec": 782
+   },
+   {
+    "kind": "school",
+    "text": "Guest's cheder in Ann Arbor (name garbled in the transcript) and subjects studied.",
+    "start_sec": 595,
+    "end_sec": 642
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20225%20-%20The%20Flickering%20Flame%20%28Sefiras%20HaOmer%29%20%281986-05-13%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 225 - The Flickering Flame (Sefiras HaOmer) (1986-05-13).mp3",
+  "size_bytes": 21412379,
+  "mime_type": "audio/mpeg"
+ }
+}

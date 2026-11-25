@@ -1,0 +1,29 @@
+{
+ "batch_id": "b034",
+ "done": [
+  "a8cc7367fb",
+  "3a3bfe1a67",
+  "be96b8e66a",
+  "0d2eb40572",
+  "35d18b019a",
+  "cf0dca7956",
+  "fb02d6efff",
+  "9b749b36fd",
+  "148c93c242",
+  "6ab892a712",
+  "8ae1d03037",
+  "e69b5cd4d9",
+  "b325e66419",
+  "d7c2af64da",
+  "b446975e89",
+  "ec703eec00",
+  "08c6adcd0c"
+ ],
+ "failed": [],
+ "notes": [
+  "Resumed run: 14 items were already DONE; this run filled b446975e89, ec703eec00 and 08c6adcd0c. All 17 validate.",
+  "Episode 440 (b446975e89) looks like a rebroadcast of episode 281 (4ede6df733), and also matches 385 (c7e1d15aed): both of its clips match those episodes at nearly the same offsets. This parallels 439 = rebroadcast of 280/384. Added aired_again_in relations (evidence content); pass 2 should confirm with the full episode texts and pick which copy to publish.",
+  "Episode 440 dated 1990-08-14 (23 Av 5750) from candle time 7:34 PM / Shabbos ends 8:42 PM, not the weekly estimate of 1990-07-31; consistent with 438 = 1990-07-31 and 439 = 1990-08-07. If the candle times were carried over from the 1987 original, the date would need revisiting.",
+  "Shema guest family surname heard as both 'Sabo' and 'Sebo'; one daughter's first name is garbled by ASR (recorded in hidden with a note)."
+ ]
+}

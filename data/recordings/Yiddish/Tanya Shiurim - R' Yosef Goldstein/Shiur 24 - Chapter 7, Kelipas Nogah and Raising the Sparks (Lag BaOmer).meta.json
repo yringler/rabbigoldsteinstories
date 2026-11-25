@@ -1,0 +1,342 @@
+{
+ "id": "f9c51093c5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "24 P7",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 24 - Chapter 7, Kelipas Nogah and Raising the Sparks (Lag BaOmer).mp3",
+  "duration_sec": 6439.628,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 24: Chapter 7, Kelipas Nogah and Raising the Sparks (Lag BaOmer)",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur on Tanya chapter 7: how eating and using the physical world for Hashem's sake raises its hidden sparks, with stories and a Lag BaOmer talk.",
+  "summary_long": "Shiur 24 in Rabbi Yosef Goldstein's Yiddish Tanya series, given in the days before Lag BaOmer. It continues Tanya chapter 7. This lowest world hides G-dliness more than any other; its permitted things belong to kelipas nogah, which can rise to holiness or sink into the impure kelipos, depending on a person's intention, brachah and deed. He explains the sparks scattered at creation, the difference between 'asur' (bound) and 'mutar' (released), and eating meat and wine to serve Hashem with joy. Stories illustrate the theme: a Chassid stops a wagon driver from drinking without a brachah, and the Rebbe tells a ship's captain how the stoker below deck must follow the navigator who can see. A Sefirah and Lag BaOmer talk includes the speaker's childhood memory of the Frierdiker Rebbe watching from his window as the Rebbe spoke to children, and the Frierdiker Rebbe's story of the Berditchever Rav and the Alter Rebbe. He then teaches why the soul descends into the lowly body, and finishes the chapter: eating for mere desire, the mark left even after teshuvah, the power of saying Tehillim, the Baal Shem Tov and the simple shoemaker, and teshuvah from love that turns sins into merits.",
+  "lesson": "Every permitted thing a Jew uses with the right intention is raised to holiness; serve Hashem with warmth, and through teshuvah from love even past failings can be transformed.",
+  "keywords": [
+   "kelipas nogah",
+   "sparks of holiness",
+   "kosher meat and wine",
+   "wagon driver",
+   "ship captain",
+   "navigator",
+   "Lag BaOmer parade",
+   "shoemaker",
+   "frozen river",
+   "teshuvah from love",
+   "body and soul"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-05",
+   "hebrew": "Iyar 5736",
+   "hebrew_year": 5736,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "During Sefirah, days before a Lag BaOmer parade that fell on a Tuesday (true of 5736); fits shiur 28 dated 29 Av 5736."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "7",
+    "to": "7",
+    "lecture_number": 24,
+    "note": "From the 22nd page (kelipas nogah) to the end of the chapter"
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "Mentions the soul's cleansing after death (chibut hakever) and a soul reincarnated in a grain of wheat."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a Chassid",
+   "a wagon driver",
+   "a ship's captain",
+   "a simple shoemaker"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "teshuvah",
+   "hiskashrus",
+   "mitzvos_in_daily_life",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "self_control",
+   "simcha",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "brachos",
+   "kashrus",
+   "teshuvah",
+   "tehillim",
+   "torah_study",
+   "sefiras_haomer"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 7; ch. 1; ch. 2"
+   },
+   {
+    "work": "gemara",
+    "ref": "Berachos (a person's table atones); Shabbos 30b (Rabbah's joke before learning)"
+   },
+   {
+    "work": "zohar"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "2:1"
+   },
+   {
+    "work": "tehillim",
+    "ref": "139:5"
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 2:7"
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway, Brooklyn"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 2073,
+   "type": "text_study",
+   "title": "Tanya chapter 7: kelipas nogah and the sparks in the physical world",
+   "summary": "This world hides G-dliness; permitted things can be raised to holiness through intention, brachah and deed, and the meaning of asur and mutar."
+  },
+  {
+   "start_sec": 2073,
+   "end_sec": 2252,
+   "type": "story",
+   "title": "The Chassid and the wagon driver's glass of liquor",
+   "summary": "A Chassid stops a wagon driver from drinking without a brachah and tells him of the long journey of a soul waiting in a grain of wheat."
+  },
+  {
+   "start_sec": 2310,
+   "end_sec": 2616,
+   "type": "story",
+   "title": "The Rebbe and the ship's captain",
+   "summary": "The Rebbe explains to a captain that the stoker below deck must follow the navigator who can see, like a Jew connected to the tzaddik.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2616,
+   "end_sec": 3359,
+   "type": "talk",
+   "title": "Sefirah and Lag BaOmer: preparing for the great parade",
+   "summary": "Sefirah as making oneself shine, Lag BaOmer and Rabbi Shimon bar Yochai, and the children's parade the Rebbe called for.",
+   "calendar": [
+    "sefiras_haomer",
+    "lag_baomer"
+   ]
+  },
+  {
+   "start_sec": 2753,
+   "end_sec": 3074,
+   "type": "story",
+   "title": "A childhood memory: the Frierdiker Rebbe at the window",
+   "summary": "The speaker recalls the Rebbe speaking to children in the yard of 770 while the Frierdiker Rebbe watched from his window.",
+   "people": [
+    "the_rebbe",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2930,
+   "end_sec": 3074,
+   "type": "story",
+   "title": "The Berditchever Rav and the Alter Rebbe: not at every wedding do I dance",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev",
+    "alter_rebbe",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 3359,
+   "end_sec": 4131,
+   "type": "talk",
+   "title": "Why the soul descends into the lowly body",
+   "summary": "The world as a mashal for the worlds above, the body as the foundation that lifts the whole building, and Adam created from dust."
+  },
+  {
+   "start_sec": 4131,
+   "end_sec": 5116,
+   "type": "text_study",
+   "title": "Tanya chapter 7: eating for desire, teshuvah and the lasting mark",
+   "summary": "Food eaten only for desire sinks into the impure kelipos until teshuvah, yet a mark remains; saying words of Torah and Tehillim cleanses it."
+  },
+  {
+   "start_sec": 5116,
+   "end_sec": 5444,
+   "type": "story",
+   "title": "The Baal Shem Tov and the simple shoemaker",
+   "summary": "A shoemaker who said Tehillim without understanding is told by the Baal Shem Tov to keep davening as he always had.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 5444,
+   "end_sec": 6282,
+   "type": "text_study",
+   "title": "Tanya chapter 7: forbidden foods and teshuvah from love",
+   "summary": "Forbidden things cannot be raised until the end of days, except through teshuvah from great love that turns sins into merits."
+  },
+  {
+   "start_sec": 6282,
+   "end_sec": 6439,
+   "type": "story",
+   "title": "The Baal Shem Tov at the frozen river: Torah with warmth",
+   "summary": "A frozen river teaches that Torah, like water, must be learned and lived with fire and warmth.",
+   "people": [
+    "baal_shem_tov"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "eb0459de7a",
+   "evidence": "filename",
+   "confidence": 0.7,
+   "note": "Shiur 23 (P6-7) precedes this one; this shiur opens mid-chapter 7."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations are garbled by ASR; short repetition loops near 13:00 and 96:50."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:29Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Story boundaries are approximate (Yiddish ASR).",
+   "Year 5736 inferred from the Tuesday Lag BaOmer and sibling shiur 28 (29 Av 5736)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2024%20-%20Chapter%207%2C%20Kelipas%20Nogah%20and%20Raising%20the%20Sparks%20%28Lag%20BaOmer%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 24 - Chapter 7, Kelipas Nogah and Raising the Sparks (Lag BaOmer).mp3",
+  "size_bytes": 77276376,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "batch_id": "b047",
+ "done": ["933079e352"],
+ "failed": [],
+ "notes": [
+  "933079e352 (hg1a) is a 234-minute compilation of the whole Yiddish children's Haggadah series, running from the cover page and Bedikas Chametz up to opening the door for Eliyahu HaNavi. It ends mid-song, at the same point where 'Haggada 3' (2a60e245df) ends. Hallel and Nirtzah are missing and may be in 'hg1b' (64ecbd1960, seen only in be2d85680e's candidates).",
+  "Approximate spans inside hg1a, matched by transcript text: intro 3ac64b6c15 = 0:00-2:50; burning chametz da784bf1d1 = about 19:15-23:25; 'rest of preparations of erev pesach' 4673f6eb79 = 23:55-about 32:20; 'rest of prep' 326ab9f203 = 26:02-about 32:20; 'Haggada 1' be2d85680e = about 32:35-75:00; 'Haggada 2' 1afde74e08 = about 74:45-154:15; hg2a 78d629608b = 89:24-about 135:15; 'Haggada 3' 2a60e245df = 154:44-end; hg3a 40e6c74122 = 159:15-about 206:20.",
+  "The aired_again_in candidates (3ac64b6c15, be2d85680e, da784bf1d1, 326ab9f203, 4673f6eb79) look like separate edits or takes of the same audio, not rebroadcasts. They were not added as relations. Pass 2 should choose clip_of or alternate_take.",
+  "Speaker is not named. He speaks of 'the Rebbe shlita' and of going to 770 for the Rebbe's matzah, so the recording predates 1994. Possibly Rabbi Yosef Goldstein; this guess is low confidence and is recorded under identity_guesses.",
+  "Proposed new people term: rabbi_elazar_ben_azariah."
+ ]
+}

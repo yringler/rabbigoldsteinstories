@@ -1,0 +1,145 @@
+{
+ "id": "3dc9b7eae9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Shema 419",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Kabbalas Ol Malchus Shamayim - Accepting Hashem as King in the Shema (Ep 419).mp3",
+  "duration_sec": 302.059,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 419,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 419,
+   "story": "Purim",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Kabbalas Ol Malchus Shamayim: Accepting Hashem as King in the Shema",
+  "title_basis": "content",
+  "summary_short": "Mitzvah Time teaches four new words, Kabbalas ol malchus Shamayim, using the picture of a horse's yoke to explain accepting Hashem as our King.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, continuing a series on reciting the Shema. Having learned what to say, think and do, children now learn four new words: Kabbalas ol malchus Shamayim, taking upon ourselves the yoke of the heavenly kingdom. Uncle Yossi explains what a yoke is: the wooden block on a horse's neck that lets it pull a wagon or a plow, ready for any work. In the same way, we accept that Hashem is our King and that we are His servants, ready to do whatever He wants. How do we know what Hashem wants? From learning Torah, where all the mitzvos, the will of Hashem, are found. This is the kavanah to have in mind when we say the Shema and then Baruch Shem kevod malchuso l'olam va'ed.",
+  "lesson": "When we say the Shema, we accept Hashem as our King and promise to do whatever He wants, which we learn from the Torah.",
+  "keywords": [
+   "Shema",
+   "yoke",
+   "horse",
+   "wagon",
+   "plow",
+   "King",
+   "Baruch Shem",
+   "kavanah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 419,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-03-06",
+   "hebrew": "9 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "From the full episode 419: Megillah read 'this coming Shabbos night'; Purim 5750 was Sunday 11 March 1990."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "shema",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "964b1d68cc",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "offset_sec": 897,
+   "note": "Episode 419 (filename number); clip = 897-1199 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening sentence of the clip is not in the episode transcript; possibly an ASR gap in the episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Kabbalas%20Ol%20Malchus%20Shamayim%20-%20Accepting%20Hashem%20as%20King%20in%20the%20Shema%20%28Ep%20419%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Kabbalas Ol Malchus Shamayim - Accepting Hashem as King in the Shema (Ep 419).mp3",
+  "size_bytes": 3625766,
+  "mime_type": "audio/mpeg"
+ }
+}

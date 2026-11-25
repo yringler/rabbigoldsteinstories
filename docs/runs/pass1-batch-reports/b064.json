@@ -1,0 +1,30 @@
+{
+ "batch_id": "b064",
+ "done": [
+  "821974460e",
+  "5778ba4c7d",
+  "2cddc7d6fa",
+  "dca475212d",
+  "7e9443fe3a",
+  "054944bbf2",
+  "620c312981",
+  "fec54397e2",
+  "fc369dd53b",
+  "23222842bb",
+  "e9310309cd",
+  "c2fbdf730a",
+  "f34861c52d",
+  "efcdc98ed0"
+ ],
+ "failed": [],
+ "notes": [
+  "Vocabulary changed mid-run: storyteller_i_believe is now confirmed (Rabbi Chaim Levi Goldstein), so its identity_guesses were removed; only weekly_story_i_believe guesses remain.",
+  "Broom maker set: 054944bbf2 and fec54397e2 are the same recording (required same_recording); neither is clearly better. 620c312981 ('copy') is a separate read-aloud telling without the theme song. fc369dd53b is Part 1 of a two-part telling with a Toldos intro; Part 2 is probably 'Stories/Broommaker 2.mp3' (id not in this batch), to be linked as part_of_set/continues in pass 2. same_story links added among all four.",
+  "The Negel-Vasser Test 1-3 are consecutive parts of one story (part 1/2/3 of 3, part_of_set and continues added). Part 3 is the week of Parshas Terumah and says the Rebbe's 5747 letter was 'almost 40 years ago' (5785 or 5786); parts 1-2 were probably the two preceding weeks.",
+  "Possible same story elsewhere: 'Stories/negel vasser 1'-'negel vasser 4' and 'Saved by Negel Vasser' (radio Stories folder) may tell the same Matzliach story; check in pass 2.",
+  "e9310309cd 'the mystery guest' is a read-aloud Pesach story with no song or sign-off; speaker left as unknown. Pass 2 may re-attribute to the weekly storyteller.",
+  "821974460e ends exactly at the end of the file with no usual sign-off; the ending may be clipped slightly.",
+  "Proposed new terms: people rav_saadia_gaon (dca475212d), rabbi_leib_sarahs (054944bbf2, fec54397e2, 620c312981, fc369dd53b); works chovos_halevavos (7e9443fe3a).",
+  "Story Videos items 054944bbf2/fec54397e2 mention 'another Hakhel' in the closing (5776 or 5783?), like the Melave Malka example."
+ ]
+}

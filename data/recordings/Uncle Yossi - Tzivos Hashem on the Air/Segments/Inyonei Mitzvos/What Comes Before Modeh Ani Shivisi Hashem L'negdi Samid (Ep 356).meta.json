@@ -1,0 +1,174 @@
+{
+ "id": "1916360509",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Shivisi Hashem 356",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/What Comes Before Modeh Ani Shivisi Hashem L'negdi Samid (Ep 356).mp3",
+  "duration_sec": 292.211,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 356,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 356,
+   "story": "The return of Yehudah #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "What Comes Before Modeh Ani? Shivisi Hashem L'negdi Samid",
+  "title_basis": "content",
+  "summary_short": "A riddle: what do we do even before Modeh Ani? Before saying a word, we think that Hashem, who watched over us all night, is right there before us.",
+  "summary_long": "A morning-routine riddle from the Tzivos Hashem radio show. Uncle Yossi asks what we do to start the day correctly, even before Modeh Ani and negel vasser. At bedtime we say the Shema and give Hashem our tired neshamah to hold, and every morning He returns it fresh and full of new strength, which is why we thank Him with Modeh Ani. But even before that, as the first page of the Shulchan Aruch teaches, we must think before Whom we are lying: Hashem stayed at our bedside all night, guarding us from harm. So first comes thought, as Dovid HaMelech said, 'I place Hashem before me always', then speech, Modeh Ani, and then action, washing negel vasser. The mystery is solved: the very first thing is to remember that Hashem is right there before you.",
+  "lesson": "The very first thing when you wake up is to remember that Hashem is right there with you.",
+  "keywords": [
+   "Shiviti",
+   "waking up",
+   "riddle",
+   "bedtime Shema",
+   "neshamah",
+   "Modeh Ani"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "episode": {
+   "number": 356,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1988-12-20",
+   "hebrew": "12 Teves 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 356 (7d0d2d59d7). Episode: Consistent with the audio: this Shabbos the last sedra of Bereishis is read (Vayechi, 16 Teves 5749)."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "morning_routine",
+   "emunah_bitachon",
+   "halachah"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 1",
+    "note": "'Right on the first page of the Shulchan Aruch': know before Whom you lie."
+   },
+   {
+    "work": "tehillim",
+    "ref": "16:8",
+    "note": "'Shivisi Hashem l'negdi samid', cited as Dovid HaMelech."
+   },
+   {
+    "work": "tehillim",
+    "ref": "31:6",
+    "note": "'B'yadcha afkid ruchi', said at bedtime."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7d0d2d59d7",
+   "evidence": "text_overlap",
+   "confidence": 0.78,
+   "offset_sec": 1274,
+   "note": "Episode 356 (filename number); clip = 1274-1566 s of the episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "45b8ad173e",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "First step of the morning-routine talks; 'Morning Routine-1 358' continues with Modeh Ani and negel vasser."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Transcript has a gap at about 04:00-04:34 (thought, speech, action passage) and drops some Hebrew words; audio likely complete."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:32:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/What%20Comes%20Before%20Modeh%20Ani%20Shivisi%20Hashem%20L%27negdi%20Samid%20%28Ep%20356%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/What Comes Before Modeh Ani Shivisi Hashem L'negdi Samid (Ep 356).mp3",
+  "size_bytes": 3507598,
+  "mime_type": "audio/mpeg"
+ }
+}

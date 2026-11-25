@@ -1,0 +1,319 @@
+{
+ "id": "b0d51c0ab5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "34 P21-22",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 34 - Chapters 21 and 22, Hashem's Speech Never Leaves Him.mp3",
+  "duration_sec": 6861.505,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 34: Chapters 21 and 22, Hashem's Speech Never Leaves Him",
+  "title_basis": "content",
+  "summary_short": "Two Yiddish Tanya classes: chapter 21 on how Hashem's 'speech' stays one with Him, and chapter 22 on how kelipah gets its life 'from behind', with stories and parables.",
+  "summary_long": "Shiur 34 in Rabbi Yosef Goldstein's Yiddish Tanya series holds two weekly classes. The first reviews chapter 20: speech, thought and the soul, and how a tzaddik's thought is not bound by time or place, shown by the story of the Chassid Rabbi Shmuel Levitin, lost in a snowstorm while being moved between Soviet prisons, whose exact location the Frierdiker Rebbe described at a farbrengen. It then studies chapter 21: a person's words leave him, but Hashem's speech remains united with Him even after creation. Parables include a teacher teaching a small child aleph-beis, electricity stepped down by transformers, a father hiding behind a curtain, and the halachah that one cannot cover one's own head with one's own hand. The second class studies chapter 22: kelipah receives life only 'from behind', like a debt thrown over the shoulder to an enemy. It explains spitting at Aleinu, loving every Jew because Hashem loves him, the Zohar's parable of the king who sends a tempter to test his son, eating versus swallowing, and why pride is like idol worship.",
+  "lesson": "Nothing exists apart from Hashem; the more a person sets aside his own sense of self, the more the Shechinah can rest on him.",
+  "keywords": [
+   "bittul",
+   "tzimtzum",
+   "kelipah",
+   "Aleinu",
+   "Shechinah",
+   "hester panim",
+   "Soviet prison",
+   "snowstorm",
+   "king's son",
+   "pride",
+   "Divine speech",
+   "transformer"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "mashal_parable",
+   "tanach_midrash"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "5737",
+   "hebrew_year": 5737,
+   "precision": "year",
+   "basis": "folder_or_sibling",
+   "note": "No date cues in the audio. Between shiur 30 (Tishrei 5737) and shiur 35 (just after Shavuos, probably 5737)."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "20",
+    "to": "22",
+    "lecture_number": 34,
+    "note": "Review of the end of ch. 20; ch. 21 in the first class, ch. 22 in the second."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Chassid is imprisoned in Soviet Russia for teaching Torah and is nearly lost in a snowstorm."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yosef_hatzaddik",
+    "role": "mentioned"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shmuel_levitin",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Shmuel Levitin",
+   "a wagon driver",
+   "a king and his son",
+   "a tempter sent by the king",
+   "a man who carried an idol out of Egypt"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "chassidim",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "anavah",
+   "ahavas_yisroel",
+   "self_control"
+  ],
+  "mitzvos": [
+   "davening",
+   "ahavas_yisroel_mitzvah",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Russia"
+  ],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 6; ch. 20-22"
+   },
+   {
+    "work": "zohar",
+    "ref": "parable of the king's son and the tempter; turei d'pruda"
+   },
+   {
+    "work": "maamarim",
+    "ref": "the Rebbe Rashab's V'Yadata maamar (Moscow)"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "covering the head for a brachah"
+   },
+   {
+    "work": "gemara",
+    "ref": "Sanhedrin"
+   },
+   {
+    "work": "midrash",
+    "ref": "the man who carried an idol through the Yam Suf"
+   },
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 55:8"
+   },
+   {
+    "work": "tehillim",
+    "ref": "139:12"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 1170,
+   "type": "review",
+   "title": "Review of Tanya chapter 20: speech, thought and the soul"
+  },
+  {
+   "start_sec": 240,
+   "end_sec": 603,
+   "type": "story",
+   "title": "Rabbi Shmuel Levitin lost in the snowstorm",
+   "summary": "A Chassid escapes a stranded prison wagon in a forest, and the Frierdiker Rebbe describes at a farbrengen exactly where he is.",
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1170,
+   "end_sec": 3500,
+   "type": "text_study",
+   "title": "Tanya chapter 21: Hashem's speech stays one with Him",
+   "summary": "Human speech separates from the speaker, but Hashem's speech stays united with Him; tzimtzum explained with parables of a teacher, electricity and a curtain."
+  },
+  {
+   "start_sec": 3200,
+   "end_sec": 3300,
+   "type": "halachah",
+   "title": "Why your own hand cannot cover your head",
+   "summary": "The halachah about covering one's head for a brachah shows that one cannot conceal oneself from oneself, and Hashem's concealment is not real to Him."
+  },
+  {
+   "start_sec": 3500,
+   "end_sec": 4114,
+   "type": "review",
+   "title": "Second class: review of chapters 20 and 21"
+  },
+  {
+   "start_sec": 4114,
+   "end_sec": 6861,
+   "type": "text_study",
+   "title": "Tanya chapter 22: life 'from behind' and the kelipos",
+   "summary": "Kelipah receives life only indirectly, as from behind; pride and feeling oneself separate are like idol worship."
+  },
+  {
+   "start_sec": 4622,
+   "end_sec": 4880,
+   "type": "talk",
+   "title": "Spitting at Aleinu and loving every Jew",
+   "summary": "Why we spit at Aleinu, a Midrash about a man who carried an idol out of Egypt, and why loving Hashem means loving every Jew he loves."
+  },
+  {
+   "start_sec": 5142,
+   "end_sec": 5520,
+   "type": "story",
+   "title": "The Zohar's parable of the king's son and the tempter",
+   "summary": "A king hires a tempter to test his son, and the tempter himself hopes the son will refuse."
+  },
+  {
+   "start_sec": 5734,
+   "end_sec": 5995,
+   "type": "talk",
+   "title": "Eating versus swallowing; Pharaoh's lean cows",
+   "summary": "Holiness absorbs Hashem's life like food that is chewed, while kelipah swallows it whole without benefit."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "multiple_programs"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two weekly classes joined in one file: the first ends about 58:10 ('next week'), the second opens 'last week we finished chapter 21'. Loshn-koydesh quotations are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:28Z",
+  "confidence": {
+   "title": "high",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File holds two weekly classes; consider whether to split or label them.",
+   "Date (5737) inferred from neighbouring shiurim only."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2034%20-%20Chapters%2021%20and%2022%2C%20Hashem%27s%20Speech%20Never%20Leaves%20Him.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 34 - Chapters 21 and 22, Hashem's Speech Never Leaves Him.mp3",
+  "size_bytes": 82338910,
+  "mime_type": "audio/mpeg"
+ }
+}

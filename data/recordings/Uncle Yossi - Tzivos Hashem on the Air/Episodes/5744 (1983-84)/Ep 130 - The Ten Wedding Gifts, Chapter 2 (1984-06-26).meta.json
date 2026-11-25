@@ -1,0 +1,295 @@
+{
+ "id": "1d0f28c0a0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "130",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 130 - The Ten Wedding Gifts, Chapter 2 (1984-06-26).mp3",
+  "duration_sec": 1770.383,
+  "filename_facts": {
+   "episode_number": 130,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 130,
+   "story": "The ten wedding gifts #1",
+   "topic": "בעש\"ט",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 130: The Ten Wedding Gifts, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "Reuven pays for the orphans' wedding after they spent their money freeing a captive, and a mysterious rabbi arrives with ten students bearing astonishing gifts.",
+  "summary_long": "Uncle Yossi starts this show with the Hakochainik march, because Hashem is found where there is simcha, followed by a sponsor message. Story time continues 'The Ten Wedding Gifts'. Avraham and Sarah had given away the 600 gold pieces Reuven gave them for wedding clothes to free an old man held captive by a cruel officer. Two young brothers lead the Shema in Studio 604, one of them celebrating his fourth birthday. Then Reuven tells the couple they did the great mitzvah of pidyon shvuyim, worth more than all the gold in the world, and pays for their clothes anyway. He invites the whole town to the wedding. Just before the chuppah, a holy-looking rabbi with a red beard and ten students walks in and is asked to say the brachos. At the meal he reveals that he is the Baal Shem Tov, sent by the Heavenly Court to bless them. Each student announces a gift, a park, a lumberyard and more, each belonging to a poritz. The Baal Shem Tov leaves in a driverless wagon that vanishes into the forest. To be continued. The show ends with a summer event announcement.",
+  "lesson": "Hashem sees every good deed; freeing a captive and helping a bride and groom bring blessings beyond all the gold in the world.",
+  "keywords": [
+   "wedding",
+   "chuppah",
+   "600 gold pieces",
+   "ten students",
+   "park",
+   "lumberyard",
+   "poritz",
+   "magic wagon",
+   "Hakochainik march",
+   "Summer Experience"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 130,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1984-06-26",
+   "hebrew": "26 Sivan 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Announces the Summer Experience for July 8-10 (Sunday-Tuesday, 1984); episode 131 calls it 'this coming Sunday'. Weekly from 127 (5 June 1984)."
+  },
+  "serial": {
+   "story_key": "the-ten-wedding-gifts",
+   "story_title": "The Ten Wedding Gifts",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two Shema guests named in full; one's birthday announced.",
+    "at_sec": 477
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Avraham, the groom",
+   "Sarah, the bride",
+   "Reuven, the kind innkeeper",
+   "the Baal Shem Tov's ten students"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "kindness_and_community",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "simcha"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "hachnasas_kallah",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 306,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 306,
+   "end_sec": 377,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 377,
+   "end_sec": 445,
+   "type": "story_intro",
+   "title": "Story time: recap of chapter 1"
+  },
+  {
+   "start_sec": 445,
+   "end_sec": 644,
+   "type": "shema_guest",
+   "title": "Shema with two young brothers in Studio 604"
+  },
+  {
+   "start_sec": 644,
+   "end_sec": 1601,
+   "type": "story_chapter",
+   "title": "The Ten Wedding Gifts, Chapter 2",
+   "summary": "Reuven makes the wedding; the Baal Shem Tov arrives with ten students whose gifts all belong to the local poritzim.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-ten-wedding-gifts",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1601,
+   "end_sec": 1655,
+   "type": "announcement",
+   "title": "The Summer Experience at an amusement park"
+  },
+  {
+   "start_sec": 1655,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "fa0b329e13",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 455 replays the same wedding chapter word for word (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "69dc7d2e54",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 535 replays the same wedding chapter word for word (checked in its transcript)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "9b4f8abe35",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Ten Wedding Gifts' (1984): ep 130 ch. 2 and ep 131 ch. 3 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1d4dfc4fa3",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'True to His Word' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "23955aba9c",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Baal Shem Tov and the Ten Wedding Gifts, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cc93c1f1cf",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Baal Shem Tov and the Ten Wedding Gifts, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "aa45d30a33",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 35: Chapter 24 and a Child's Brachah on Water (After Shavuos)' (Stories, 29:43-38:16), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Catalog calls this '#1', but on air it is chapter 2 ('Now we're ready with chapter two'). The story is a rebroadcast of the 5742 telling (episode 8). Summer event and sponsor are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yitzchak Zeitz (heard 'Zaitz')",
+    "role": "shema_guest",
+    "group": "age 5",
+    "start_sec": 477,
+    "end_sec": 644
+   },
+   {
+    "name": "Yisrael Zeitz",
+    "role": "shema_guest",
+    "group": "age 4, younger brother",
+    "note": "Fourth birthday on the day of the broadcast.",
+    "start_sec": 505,
+    "end_sec": 644
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Chapter number: catalog says #1, the broadcast says chapter 2."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:38Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20130%20-%20The%20Ten%20Wedding%20Gifts%2C%20Chapter%202%20%281984-06-26%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 130 - The Ten Wedding Gifts, Chapter 2 (1984-06-26).mp3",
+  "size_bytes": 21245604,
+  "mime_type": "audio/mpeg"
+ }
+}

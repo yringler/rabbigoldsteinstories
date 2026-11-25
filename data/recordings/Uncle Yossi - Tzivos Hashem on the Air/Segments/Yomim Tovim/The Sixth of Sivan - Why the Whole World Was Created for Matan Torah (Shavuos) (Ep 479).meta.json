@@ -1,0 +1,175 @@
+{
+ "id": "0cf923266c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shavuos 479",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Sixth of Sivan - Why the Whole World Was Created for Matan Torah (Shavuos) (Ep 479).mp3",
+  "duration_sec": 424.731,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 479,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 479,
+   "story": "The big barrel of wine",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Sixth of Sivan: Why the Whole World Was Created for Matan Torah (Shavuos)",
+  "title_basis": "content",
+  "summary_short": "A Rosh Chodesh Sivan talk: Rashi's lesson from 'Yom HaShishi', and how to prepare for Shavuos by doing mitzvos carefully, with yiras Shamayim and joy.",
+  "summary_long": "A short Shavuos talk from the Tzivos Hashem radio show, given on Rosh Chodesh Sivan. Uncle Yossi explains why the Torah calls the sixth day of creation 'Yom HaShishi', with an extra letter hei: Rashi, quoting the Midrash, says it points to 'the' special sixth day, the sixth of Sivan, when the Torah would be given. Hashem made a condition with the whole world that it would exist only if Bnei Yisroel accepted the Torah. To prepare, we resolve to learn more Torah and to do mitzvos with yiras Shamayim, meaning we take care to do each one exactly as Hashem commanded, just as a mezuzah missing even one letter is not kosher and so we have our mezuzos checked. The talk ends with the Rebbe's blessing to accept the Torah with joy and inwardly.",
+  "lesson": "Prepare for Shavuos by learning more Torah and doing every mitzvah carefully, exactly the way Hashem wants, and with joy.",
+  "keywords": [
+   "Yom HaShishi",
+   "sixth of Sivan",
+   "Matan Torah",
+   "Har Sinai",
+   "creation",
+   "mezuzah",
+   "letter hei"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 479,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-05-14",
+   "hebrew": "1 Sivan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the first day of the new month... Sivan'; the full episode places Shavuos on Sunday, which fits 5751."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "kabbalas_ol",
+   "simcha"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "mezuzah"
+  ],
+  "calendar": [
+   "shavuos",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 1:31, 'Yom HaShishi'",
+    "note": "The extra hei refers to the sixth of Sivan, the giving of the Torah."
+   },
+   {
+    "work": "midrash",
+    "note": "Hashem made a condition with creation: the world exists only if Bnei Yisroel accept the Torah."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Kabbalas HaTorah b'simchah uvipnimiyus",
+    "note": "The Rebbe's Shavuos blessing."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "45db0c2fb5",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 46,
+   "note": "Episode 479 (filename number); clip = 46-471 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the episode's Rosh Chodesh Sivan talk."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Sixth%20of%20Sivan%20-%20Why%20the%20Whole%20World%20Was%20Created%20for%20Matan%20Torah%20%28Shavuos%29%20%28Ep%20479%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Sixth of Sivan - Why the Whole World Was Created for Matan Torah (Shavuos) (Ep 479).mp3",
+  "size_bytes": 5097817,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "id": "be2d85680e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/Pesach/הגדה - אידיש",
+  "filename_title": "Haggada 1",
+  "audio_path": "audio/Yiddish/The Haggadah Explained/The Haggadah Explained in Yiddish/The Haggadah Explained in Yiddish, Part 1 - Setting the Seder Table to Mah Nishtanah.mp3",
+  "duration_sec": 2122.819,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "The Haggadah Explained in Yiddish, Part 1: Setting the Seder Table to Mah Nishtanah",
+  "title_basis": "content",
+  "summary_short": "A Yiddish Haggadah class for children: how to set the Seder table and seder plate, then Kadesh, Urchatz, Karpas, Yachatz, Ha Lachma Anya and the Four Questions.",
+  "summary_long": "Told in Yiddish for children, this is the first of three classes walking through the Pesach Seder step by step. The teacher begins with coming home from shul and setting the table: three matzos called Kohen, Levi and Yisroel, and the six items of the seder plate arranged in two segol shapes. He sings the order of the Seder, Kadesh Urchatz, and explains each step: making Kiddush right away so the children stay awake for the Four Questions, the special Havdalah when the Seder falls on Motzaei Shabbos, leaning to the left while drinking, washing for Urchatz without a brachah because of the wet karpas, having the maror in mind with the karpas brachah, and breaking the middle matzah for the afikoman. In Maggid he explains why matzah is 'poor man's bread' and the invitation and prayer of Ha Lachma Anya. He then explains why the child must ask, goes through the Four Questions one by one, recites Mah Nishtanah together twice, and stops as the father uncovers the matzah to answer with Avadim Hayinu.",
+  "lesson": "The Seder is done in a set order so that children ask and parents answer; every detail on the table is there to teach about the Exodus.",
+  "keywords": [
+   "seder plate",
+   "three matzos",
+   "Kadesh Urchatz",
+   "Kiddush",
+   "Havdalah",
+   "karpas",
+   "salt water",
+   "afikoman",
+   "Ha Lachma Anya",
+   "Four Questions",
+   "Mah Nishtanah",
+   "leaning"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish",
+   "Pesach Haggadah (Yiddish)"
+  ],
+  "series": "haggadah_yiddish",
+  "content_type": "shiur",
+  "story_type": [],
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "haggada",
+   "part_number": 1,
+   "of": 3
+  },
+  "study_text": [
+   {
+    "work": "haggadah",
+    "unit": "section",
+    "from": "Kadesh",
+    "to": "Mah Nishtanah",
+    "lecture_number": 1,
+    "note": "Seder plate, simanim, Kadesh through Yachatz, Ha Lachma Anya, the Four Questions."
+   }
+  ]
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "halachah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "seder",
+   "matzah",
+   "kiddush",
+   "havdalah",
+   "negel_vasser",
+   "brachos"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "ref": "Seder simanim; Kadesh to Mah Nishtanah"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "washing before eating wet food"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 13:8 (v'higadta l'vincha)"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 185,
+   "type": "halachah",
+   "title": "Setting the Seder table: three matzos and the seder plate"
+  },
+  {
+   "start_sec": 185,
+   "end_sec": 247,
+   "type": "text_study",
+   "title": "The order of the Seder and its simanim"
+  },
+  {
+   "start_sec": 247,
+   "end_sec": 273,
+   "type": "song",
+   "title": "Singing Kadesh Urchatz"
+  },
+  {
+   "start_sec": 273,
+   "end_sec": 713,
+   "type": "halachah",
+   "title": "Kadesh: Kiddush on Pesach night and leaning"
+  },
+  {
+   "start_sec": 505,
+   "end_sec": 654,
+   "type": "halachah",
+   "title": "When the Seder falls on Motzaei Shabbos: Havdalah in Kiddush"
+  },
+  {
+   "start_sec": 713,
+   "end_sec": 808,
+   "type": "halachah",
+   "title": "Urchatz: washing without a brachah"
+  },
+  {
+   "start_sec": 808,
+   "end_sec": 994,
+   "type": "halachah",
+   "title": "Karpas: dipping in salt water, thinking of the maror"
+  },
+  {
+   "start_sec": 994,
+   "end_sec": 1112,
+   "type": "halachah",
+   "title": "Yachatz: breaking the middle matzah and hiding the afikoman"
+  },
+  {
+   "start_sec": 1112,
+   "end_sec": 1366,
+   "type": "text_study",
+   "title": "Ha Lachma Anya: the poor man's bread"
+  },
+  {
+   "start_sec": 1366,
+   "end_sec": 1555,
+   "type": "text_study",
+   "title": "The second cup and why the child asks"
+  },
+  {
+   "start_sec": 1555,
+   "end_sec": 1877,
+   "type": "text_study",
+   "title": "The Four Questions explained"
+  },
+  {
+   "start_sec": 1877,
+   "end_sec": 2075,
+   "type": "text_study",
+   "title": "Saying Mah Nishtanah together"
+  },
+  {
+   "start_sec": 2075,
+   "end_sec": 2122,
+   "type": "text_study",
+   "title": "Uncovering the matzah for Avadim Hayinu"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations (Kiddush, Mah Nishtanah) are garbled by ASR."
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Teacher unidentified (see identity_guesses).",
+   "Overlaps hg1a and hg1b (other edits of the same recording)."
+  ]
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "1afde74e08",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Haggada 2 picks up exactly where this ends (Avadim Hayinu)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "2a60e245df",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Third part of the same Haggadah class series."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "933079e352",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "offset_sec": 1978,
+   "note": "Shorter edit of the same recording inside hg1a (about 33:00-74:30); hg1a has some extra material in between."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No name, sign-off or credit in the recording; the teacher addresses 'kinderlach' and cites 'der Rebbe shlita'."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/The%20Haggadah%20Explained/The%20Haggadah%20Explained%20in%20Yiddish/The%20Haggadah%20Explained%20in%20Yiddish%2C%20Part%201%20-%20Setting%20the%20Seder%20Table%20to%20Mah%20Nishtanah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/The Haggadah Explained/The Haggadah Explained in Yiddish/The Haggadah Explained in Yiddish, Part 1 - Setting the Seder Table to Mah Nishtanah.mp3",
+  "size_bytes": 25474908,
+  "mime_type": "audio/mpeg"
+ }
+}

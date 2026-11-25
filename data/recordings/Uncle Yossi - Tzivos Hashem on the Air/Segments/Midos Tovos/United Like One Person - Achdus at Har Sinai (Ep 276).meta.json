@@ -1,0 +1,151 @@
+{
+ "id": "ca4315c1e9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Achdus 276",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/United Like One Person - Achdus at Har Sinai (Ep 276).mp3",
+  "duration_sec": 69.085,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 276,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 276,
+   "story": "Judge For A Day #1",
+   "topic": "Tikkun HaMidos, / Havdalah, Achdus",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "United Like One Person: Achdus at Har Sinai",
+  "title_basis": "content",
+  "summary_short": "At Har Sinai the Jewish people camped 'like one person with one heart', and in that merit received the Torah; so too today we must show Hashem we are united.",
+  "summary_long": "A very short talk from the Tzivos Hashem radio show before Shavuos. Uncle Yossi tells the children that when the Jewish people stood at Har Sinai to receive the Torah they were completely united, as our Sages say, like one person with one heart. The Torah hints at this with the word 'vayichan', 'and he camped', written in the singular where we would expect the plural 'and they camped'. In the merit of that unity they received the Torah from Hashem. So too today, we must show Hashem that we are a united people who love one another and share our good fortune with each other. The clip ends there; in the broadcast it leads into an invitation to help friends join Tzivos Hashem.",
+  "lesson": "Unity among Jews is what made us worthy of the Torah; love one another and share with each other.",
+  "keywords": [
+   "Har Sinai",
+   "one heart",
+   "camped",
+   "unity",
+   "Matan Torah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 276,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-05-19",
+   "hebrew": "20 Iyar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 276 (05-19-87), the show before Shavuos."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel",
+   "generosity"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Shemos 19:2",
+    "note": "'Vayichan' in the singular: like one person with one heart."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short (about 70 seconds); ends on 'we share our fortunes with one another', before the practical suggestion that follows in the episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:08Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d0a966e65b",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 1696,
+   "note": "Episode 276 (filename number); clip = 1696-1766 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/United%20Like%20One%20Person%20-%20Achdus%20at%20Har%20Sinai%20%28Ep%20276%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/United Like One Person - Achdus at Har Sinai (Ep 276).mp3",
+  "size_bytes": 829930,
+  "mime_type": "audio/mpeg"
+ }
+}

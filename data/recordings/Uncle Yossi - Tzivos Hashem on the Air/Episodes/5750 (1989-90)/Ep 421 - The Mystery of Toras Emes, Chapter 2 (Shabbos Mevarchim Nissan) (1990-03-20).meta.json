@@ -1,0 +1,391 @@
+{
+ "id": "dfed566766",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "421",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 421 - The Mystery of Toras Emes, Chapter 2 (Shabbos Mevarchim Nissan) (1990-03-20).mp3",
+  "duration_sec": 1820.699,
+  "filename_facts": {
+   "episode_number": 421,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 421,
+   "story": "The mystery of Toras Emes #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 421: The Mystery of Toras Emes, Chapter 2 (Shabbos Mevarchim Nissan)",
+  "title_basis": "master_catalog",
+  "summary_short": "Between Purim and Pesach: the matzah of emunah and healing, stretching the word Echad, and the conclusion of The Mystery of Toras Emes.",
+  "summary_long": "Broadcast between Purim and Pesach 5750. Uncle Yossi teaches that every Yom Tov gives strength for the whole year: Purim gave us the mesiras nefesh of Mordechai and Esther, and Pesach gives a full year's supply of emunah through the Seder matzah, which the Arizal calls the food of faith and the food of healing. He announces how to visit a matzah bakery and urges families to buy shmurah matzah early. After the Hakochainik march, Mitzvah Time plays a phone call in which a seventh-grade girl explains why davening is like a telephone call, and she leads the Shema. Everyone gives tzedakah, and Mitzvah Time teaches that stretching the word Echad, while thinking that Hashem rules above, below and in all four directions, brings long life. Story time concludes The Mystery of Toras Emes: the shammes is talked into preparing an empty Sefer Torah to greet the king, but a dream warns the rabbi, and the officer's plot turns against him, just like Haman's. The show closes with advice on choosing a Jewish summer camp, Shabbos Mevarchim Nissan, the month of miracles, and candle-lighting time.",
+  "lesson": "Every Yom Tov gives us strength for the whole year; the matzah of Pesach fills us with emunah, and Hashem protects His people and His Torah.",
+  "keywords": [
+   "matzah",
+   "shmurah matzah",
+   "matzah bakery",
+   "Echad",
+   "long life",
+   "empty Sefer Torah",
+   "dream",
+   "king",
+   "summer camp",
+   "telephone"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 421,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-03-20",
+   "hebrew": "23 Adar 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Shabbos is Shabbos Mevarchim Nissan' (24 March 1990); Seder nights given as April 9 and 10; candle time 5:53. Matches the weekly estimate."
+  },
+  "serial": {
+   "story_key": "the-mystery-of-toras-emes",
+   "story_title": "The Mystery of Toras Emes",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "An officer schemes to have the king punish the Jews; his plot fails and he is punished, compared to Haman.",
+    "at_sec": 1124
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A seventh-grade caller is named in full with her school and teacher.",
+    "at_sec": 695
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "esther_hamalkah",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "arizal",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king",
+   "Ivan, the jealous officer",
+   "Chaim the shammes",
+   "the rabbi"
+  ],
+  "topics": [
+   "calendar",
+   "emunah_bitachon",
+   "prayer_and_brachos",
+   "miracles",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "mesiras_nefesh",
+   "simcha"
+  ],
+  "mitzvos": [
+   "matzah",
+   "seder",
+   "shema",
+   "davening",
+   "tzedakah",
+   "chinuch"
+  ],
+  "calendar": [
+   "purim",
+   "pesach",
+   "shabbos_mevarchim",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Berachos 13b, 'Kol hamaarich b'echad'",
+    "note": "Cited as 'our Chachamim tell us'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 284,
+   "type": "talk",
+   "title": "From Purim to Pesach: Mesiras Nefesh and Emunah",
+   "summary": "Purim teaches mesiras nefesh; the Seder matzah gives a year's supply of emunah and health.",
+   "calendar": [
+    "purim",
+    "pesach"
+   ],
+   "linked_items": [
+    "de06368210"
+   ]
+  },
+  {
+   "start_sec": 284,
+   "end_sec": 372,
+   "type": "announcement",
+   "title": "Matzah bakery visits and buying shmurah matzah",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "de06368210"
+   ]
+  },
+  {
+   "start_sec": 372,
+   "end_sec": 427,
+   "type": "talk",
+   "title": "Simcha from Purim into Pesach"
+  },
+  {
+   "start_sec": 427,
+   "end_sec": 635,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 635,
+   "end_sec": 900,
+   "type": "quiz",
+   "title": "Telephone quiz: davening is like a phone call",
+   "summary": "A seventh-grade listener explains why davening is compared to a telephone, and that Hashem's line is never busy."
+  },
+  {
+   "start_sec": 900,
+   "end_sec": 962,
+   "type": "shema_guest",
+   "title": "Shema led by the telephone guest"
+  },
+  {
+   "start_sec": 962,
+   "end_sec": 1010,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1010,
+   "end_sec": 1057,
+   "type": "announcement",
+   "title": "How to be called on Mitzvah Time"
+  },
+  {
+   "start_sec": 1057,
+   "end_sec": 1124,
+   "type": "halachah",
+   "title": "Mitzvah Time: Stretching the Word Echad",
+   "summary": "Lengthening Echad, while thinking that Hashem rules above, below and in all four directions, brings long life.",
+   "linked_items": [
+    "cf4291cf0b"
+   ]
+  },
+  {
+   "start_sec": 1124,
+   "end_sec": 1586,
+   "type": "story_chapter",
+   "title": "The Mystery of Toras Emes, Chapter 2",
+   "summary": "An empty Sefer Torah, a rabbi's warning dream, and an officer's plot that turns against him.",
+   "story_key": "the-mystery-of-toras-emes",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1586,
+   "end_sec": 1701,
+   "type": "announcement",
+   "title": "Choosing a Jewish summer camp",
+   "calendar": [
+    "summer_vacation"
+   ]
+  },
+  {
+   "start_sec": 1701,
+   "end_sec": 1758,
+   "type": "talk",
+   "title": "Shabbos Mevarchim Nissan, the month of miracles",
+   "calendar": [
+    "shabbos_mevarchim",
+    "nissan"
+   ]
+  },
+  {
+   "start_sec": 1758,
+   "end_sec": 1775,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1775,
+   "end_sec": 1788,
+   "type": "closing",
+   "title": "Closing"
+  },
+  {
+   "start_sec": 1788,
+   "type": "other",
+   "title": "Stray audio after the closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "cf4291cf0b",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Shema 421' = 1057-1124 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "de06368210",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "'Purim Pesach 421' = 29-297 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "b70ca9e7ce",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 420 = 'The mystery of Toras Emes #1', 421 = '#2'; the on-air recap repeats the end of chapter 1."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b70ca9e7ce",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Mystery of Toras Emes' (1990): ep 420 ch. 1 and ep 421 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "25f7b4e626",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 15: The Miracle of Toras Emes, Chapter 2' (episode 15, 10:04-18:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Seder dates, matzah-bakery and camp announcements (with the Tzivos Hashem office number) and candle times are 1990-specific. A stray phrase follows the closing at 29:48."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Riva Reis",
+    "role": "shema_guest",
+    "group": "seventh grade (Kitah Zayin), Beis Yaakov of Boro Park (school name heard unclearly)",
+    "start_sec": 695,
+    "end_sec": 985,
+    "note": "Answered the telephone quiz and led the Shema by phone."
+   },
+   {
+    "name": "Morah Horowitz",
+    "role": "other",
+    "start_sec": 810,
+    "end_sec": 830,
+    "note": "The caller's teacher, named on air."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Caller is in seventh grade at a Boro Park girls' school; teacher Morah Horowitz.",
+    "start_sec": 810,
+    "end_sec": 870
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20421%20-%20The%20Mystery%20of%20Toras%20Emes%2C%20Chapter%202%20%28Shabbos%20Mevarchim%20Nissan%29%20%281990-03-20%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 421 - The Mystery of Toras Emes, Chapter 2 (Shabbos Mevarchim Nissan) (1990-03-20).mp3",
+  "size_bytes": 21849346,
+  "mime_type": "audio/mpeg"
+ }
+}

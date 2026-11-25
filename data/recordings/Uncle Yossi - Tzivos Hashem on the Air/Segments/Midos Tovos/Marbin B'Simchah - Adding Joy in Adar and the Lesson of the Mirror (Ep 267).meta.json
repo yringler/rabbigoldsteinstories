@@ -1,0 +1,177 @@
+{
+ "id": "fee786776a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Simchah 267",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Marbin B'Simchah - Adding Joy in Adar and the Lesson of the Mirror (Ep 267).mp3",
+  "duration_sec": 337.598,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 267,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 267,
+   "story": "Reb Yehudah #?",
+   "topic": "Simchah, / Neshek #?",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Marbin B'Simchah: Adding Joy in Adar and the Lesson of the Mirror",
+  "title_basis": "content",
+  "summary_short": "In Adar we add to the joy we always have and share it with others; the Baal Shem Tov teaches that a happy face is reflected back by our friends and by Hashem.",
+  "summary_long": "A talk from the Tzivos Hashem radio show for the start of Adar. Uncle Yossi explains that serving Hashem with joy is a standing order all year, but the Sages chose their words carefully: when Adar comes we are 'marbin b'simchah', adding to the joy we already have. For a soldier in Tzivos Hashem this means making others happy too, since we love our fellow as ourselves, and the best way is to help a friend do a mitzvah, for, as Dovid HaMelech wrote, the mitzvos gladden the heart. We must also be a living example. The Baal Shem Tov taught that we can learn from everything, even a mirror: show a happy face and your friend's face will light up in return. He adds that the same is true with Hashem: when we serve Him with a smiling face, He shines back to us with joy and blessing, bringing the greatest joy of all, leaving golus with Moshiach.",
+  "lesson": "Add to your joy in Adar, share it by helping others do mitzvos, and show a happy face: it is reflected back by your friends and by Hashem.",
+  "keywords": [
+   "Adar",
+   "joy",
+   "mirror",
+   "happy face",
+   "smile",
+   "living example"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 267,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-03-03",
+   "hebrew": "2 Adar 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Cut from episode 267, filename dated 03-03-87."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "character",
+   "calendar",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Taanis 29a",
+    "note": "'Mishenichnas Adar marbin b'simchah', cited as 'our Chachamim'."
+   },
+   {
+    "work": "tehillim",
+    "ref": "100:2",
+    "note": "'Ivdu es Hashem b'simchah'."
+   },
+   {
+    "work": "tehillim",
+    "ref": "19:9",
+    "note": "'Pikudei Hashem yesharim, mesamchei lev'."
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "The Baal Shem Tov on learning from a mirror",
+    "note": "As your face appears, so Hashem shines back to you."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "11afe89ace",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 46,
+   "note": "Episode 267 (filename number); clip = 46-383 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete talk, cut cleanly from episode 267."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:14Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Marbin%20B%27Simchah%20-%20Adding%20Joy%20in%20Adar%20and%20the%20Lesson%20of%20the%20Mirror%20%28Ep%20267%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Marbin B'Simchah - Adding Joy in Adar and the Lesson of the Mirror (Ep 267).mp3",
+  "size_bytes": 4052083,
+  "mime_type": "audio/mpeg"
+ }
+}

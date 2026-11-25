@@ -1,0 +1,158 @@
+{
+ "id": "0abe34193e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Achdus 133",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Achdus - All of Us as One (Ep 133).mp3",
+  "duration_sec": 161.251,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 133,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 133,
+   "story": "The two brothers",
+   "topic": "3 weeks",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Achdus: All of Us as One",
+  "title_basis": "content",
+  "summary_short": "Only Torah and mitzvos have kept the Jewish people united through the generations, and Hashem blesses us when we stand together as one.",
+  "summary_long": "A short talk on achdus from the Tzivos Hashem radio show. Uncle Yossi explains that the program's goal is to bring together as many Jewish children as possible through Torah and mitzvos, because from Matan Torah at Har Sinai until today nothing else has bound the Jewish people into one nation. Now more than ever we need Hashem's blessings for lasting peace and the complete Geulah, and we show that we deserve them through unity, friendship and Ahavas Yisroel. This is what we say three times a day in davening: 'Barcheinu Avinu kulanu k'echad', bless us, our Father, because we are all as one. So, especially in these days, let us show brotherly love more than ever, and Hashem will grant our greatest wish: Moshiach now.",
+  "lesson": "When Jews are united in love and friendship, Hashem blesses all of us as one and brings the Geulah closer.",
+  "keywords": [
+   "unity",
+   "friendship",
+   "brotherly love",
+   "Har Sinai",
+   "blessing",
+   "Moshiach now"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 133,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-07-17",
+   "hebrew": "17 Tammuz 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 133, broadcast on Shiva Asar B'Tammuz 5744. The same talk also aired in episode 32 (summer 1982)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "moshiach_geulah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Sim Shalom",
+    "note": "'Barcheinu Avinu kulanu k'echad': bless us, our Father, all of us as one."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "387570c950",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 32."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "2089bd9446",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 26,
+   "note": "Episode 133 (filename number); clip = 26-187 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts right after the greeting ('Tzivos Hashem is prepared especially for you'). Self-contained."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:00Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Achdus%20-%20All%20of%20Us%20as%20One%20%28Ep%20133%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Achdus - All of Us as One (Ep 133).mp3",
+  "size_bytes": 1935850,
+  "mime_type": "audio/mpeg"
+ }
+}

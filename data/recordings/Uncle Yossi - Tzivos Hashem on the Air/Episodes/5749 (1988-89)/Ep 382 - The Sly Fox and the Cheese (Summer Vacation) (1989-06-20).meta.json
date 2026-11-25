@@ -1,0 +1,278 @@
+{
+ "id": "17ac5d8efe",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "382 06-20-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 382 - The Sly Fox and the Cheese (Summer Vacation) (1989-06-20).mp3",
+  "duration_sec": 1795.518,
+  "filename_facts": {
+   "episode_number": 382,
+   "date_in_filename": "1989-06-20",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 382,
+   "story": "The sly fox and the cheese",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 382: The Sly Fox and the Cheese (Summer Vacation)",
+  "title_basis": "master_catalog",
+  "summary_short": "As summer vacation begins, Uncle Yossi says to take Hashem along wherever you go; a first-grade class sings the Rebbe's new kapitel; and a fable of a fox in a well shows how the yetzer hara tricks us.",
+  "summary_long": "Broadcast on 17 Sivan 5749, as summer vacation begins. Uncle Yossi reminds children to take Hashem along on vacation: bring a siddur, Chumash and Tehillim, daven and learn every day, give tzedakah, and keep the Tzivos Hashem mitzvah chart. Summer is a time to meet new people and share Torah and mitzvos with them, piling up merits before Tishrei and the coming year 5750, which the Rebbe called a year of miracles. After the Hakochainik march, a first-grade class from a Brooklyn yeshiva leads the Shema and sings a new song to the Rebbe's chapter of Tehillim. Story time is a fable: a hungry fox sees the moon's reflection in a well, mistakes it for cheese, and rides a bucket down, only to find water and no way out. He sings happily until a second fox comes along, tricks him into the other bucket, and rides up to freedom, leaving the newcomer trapped. Uncle Yossi explains that the yetzer hara works the same way, making a sin look sweet when it leads to trouble. The show ends with a phone line for finding a kosher summer camp and Shabbos candle times.",
+  "lesson": "Take Hashem along on summer vacation, and do not be fooled by the yetzer hara, which makes wrong things look sweet; listen to the yetzer tov.",
+  "keywords": [
+   "summer camp",
+   "siddur",
+   "mitzvah chart",
+   "fox",
+   "well",
+   "buckets",
+   "cheese",
+   "moon's reflection",
+   "year of miracles",
+   "kapitel"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 382,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-06-20",
+   "hebrew": "17 Sivan 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: summer vacation about to begin; candle time for late June."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "The guest class's teacher is named on air.",
+    "at_sec": 617
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the hungry fox",
+   "the second fox",
+   "the farmer"
+  ],
+  "topics": [
+   "character",
+   "mitzvos_in_daily_life",
+   "kindness_and_community",
+   "tzivos_hashem",
+   "hiskashrus"
+  ],
+  "midos": [
+   "self_control",
+   "ahavas_yisroel",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "davening",
+   "torah_study",
+   "tzedakah",
+   "mivtzoim",
+   "tehillim",
+   "shema"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "5750 (Tav-Shin-Nun) stands for 'Tihyeh Shnas Nissim', a year of miracles."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Psalm 88",
+    "note": "The Rebbe's chapter for that year, sung by the guest class."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 52,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 52,
+   "end_sec": 395,
+   "type": "talk",
+   "title": "Take Hashem Along on Summer Vacation",
+   "summary": "Daven, learn, give tzedakah and share mitzvos with new friends all summer, and get ready for a year of miracles.",
+   "calendar": [
+    "summer_vacation"
+   ],
+   "people": [
+    "the_rebbe"
+   ],
+   "linked_items": [
+    "7a7260a2ae"
+   ]
+  },
+  {
+   "start_sec": 395,
+   "end_sec": 575,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 575,
+   "end_sec": 590,
+   "type": "story_intro",
+   "title": "Story time coming up"
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 732,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade yeshiva class"
+  },
+  {
+   "start_sec": 732,
+   "end_sec": 931,
+   "type": "song",
+   "title": "The class sings the Rebbe's kapitel",
+   "summary": "The guest class sings a new song to the Rebbe's chapter of Tehillim and receives a blessing.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 931,
+   "end_sec": 1591,
+   "type": "story",
+   "title": "The Sly Fox and the Cheese",
+   "summary": "A fox mistakes the moon's reflection for cheese, gets stuck in a well, and tricks another fox into taking his place."
+  },
+  {
+   "start_sec": 1591,
+   "end_sec": 1649,
+   "type": "talk",
+   "title": "Don't be fooled by the yetzer hara"
+  },
+  {
+   "start_sec": 1649,
+   "end_sec": 1738,
+   "type": "announcement",
+   "title": "Kosher camp information line and Shabbos candle time",
+   "calendar": [
+    "summer_vacation"
+   ]
+  },
+  {
+   "start_sec": 1738,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "7a7260a2ae",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "'Hashem during vacation 382' = 78-398 s of this episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content",
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The file starts at 'and shalom to everyone'; the first words of the greeting may be missing. March and class song are untranscribed; their times are estimated. Guest class's teacher named on air (see hidden). Camp phone line and candle times are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rabbi Levi Goldstein",
+    "role": "visitor",
+    "group": "Yeshiva Oholei Torah, Kitah Aleph (teacher of the class reciting the Shema)",
+    "start_sec": 617,
+    "end_sec": 931
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:09:32Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20382%20-%20The%20Sly%20Fox%20and%20the%20Cheese%20%28Summer%20Vacation%29%20%281989-06-20%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 382 - The Sly Fox and the Cheese (Summer Vacation) (1989-06-20).mp3",
+  "size_bytes": 21547171,
+  "mime_type": "audio/mpeg"
+ }
+}

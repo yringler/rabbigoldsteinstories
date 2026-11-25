@@ -1,0 +1,341 @@
+{
+ "id": "2089bd9446",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "133",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 133 - The Two Brothers (Shiva Asar B'Tammuz) (1984-07-17).mp3",
+  "duration_sec": 1709.547,
+  "filename_facts": {
+   "episode_number": 133,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 133,
+   "story": "The two brothers",
+   "topic": "3 weeks",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 133: The Two Brothers (Shiva Asar B'Tammuz)",
+  "title_basis": "master_catalog",
+  "summary_short": "On the fast of the 17th of Tammuz, a show without music: why Hashem chose Har HaMoriah for the Beis HaMikdash, a letter from a boy's Yetzer Tov, and what happened on this day long ago.",
+  "summary_long": "Broadcast on Shiva Asar B'Tammuz, the first day of the Three Weeks, with no music. Uncle Yossi explains that only Torah and mitzvos unite the Jewish people, and that Hashem's blessing comes when we are 'all as one', as we say in davening. After a young guest who carries the Twelve Pesukim booklet everywhere leads the Shema, he tells the story of two brothers in Yerushalayim. Reuven, with many children, and Shimon, with none, each secretly carries wheat at night to the other's barn, until they meet at the top of the mountain, drop their loads and embrace. Hashem chose that mountain, Har HaMoriah, for His Beis HaMikdash, because the Shechinah rests where there is love. The Beis HaMikdash was destroyed through baseless hatred and will be rebuilt through Ahavas Yisroel. The mailbox brings an eight-year-old's letter in Yiddish, written by his Yetzer Tov to his Yetzer Hara, boasting how he davens, learns and makes brachos even better when told not to. Finally Uncle Yossi traces the events of the 17th of Tammuz under Nevuchadnetzar, when the daily korban stopped, and looks forward to the day these fasts become Yamim Tovim.",
+  "lesson": "The Beis HaMikdash was destroyed through baseless hatred and will be rebuilt through Ahavas Yisroel; Hashem rests His Presence where Jews love one another.",
+  "keywords": [
+   "two brothers",
+   "wheat",
+   "barn",
+   "Har HaMoriah",
+   "Yetzer Tov letter",
+   "Yetzer Hara",
+   "baseless hatred",
+   "korban tamid",
+   "no music",
+   "Twelve Pesukim booklet"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 133,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-07-17",
+   "hebrew": "17 Tammuz 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Beginning today... It's a fast day... Shiva Asar B'Tammuz'; 17 Tammuz 5744 was Tuesday 17 July 1984, weekly from 127."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "moderate",
+    "note": "The siege of Yerushalayim and the destruction of the Beis HaMikdash; soldiers 'stealing, killing and destroying'.",
+    "at_sec": 1324
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and an eight-year-old letter writer named in full.",
+    "at_sec": 351
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reuven, the brother with many children",
+   "Shimon, the brother with none",
+   "King Tzidkiyahu",
+   "the Kohanim"
+  ],
+  "topics": [
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community",
+   "jewish_history",
+   "moshiach_geulah",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "chesed",
+   "self_control"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "fast_days",
+   "shema",
+   "twelve_pesukim"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Yerushalayim",
+   "Har HaMoriah",
+   "Bavel"
+  ],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Sim Shalom",
+    "note": "'Barcheinu Avinu kulanu k'echad': bless us, our Father, all of us as one."
+   },
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'Hinei lo yanum v'lo yishan, shomer Yisroel.'"
+   },
+   {
+    "work": "gemara",
+    "ref": "Yoma 9b",
+    "note": "'Our Chachamim tell us' the Beis HaMikdash was destroyed through baseless hatred."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 26,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 26,
+   "end_sec": 172,
+   "type": "talk",
+   "title": "Achdus: all of us as one",
+   "summary": "Torah and mitzvos unite the Jewish people, and Hashem blesses us when we are united.",
+   "linked_items": [
+    "0abe34193e"
+   ]
+  },
+  {
+   "start_sec": 172,
+   "end_sec": 230,
+   "type": "talk",
+   "title": "The Three Weeks begin today: why there is no music",
+   "calendar": [
+    "shiva_asar_btammuz",
+    "three_weeks"
+   ],
+   "linked_items": [
+    "44782e580b"
+   ]
+  },
+  {
+   "start_sec": 230,
+   "end_sec": 351,
+   "type": "story_intro",
+   "title": "Why Hashem chose this mountain"
+  },
+  {
+   "start_sec": 351,
+   "end_sec": 495,
+   "type": "shema_guest",
+   "title": "Shema with a Tzivos Hashem club member"
+  },
+  {
+   "start_sec": 495,
+   "end_sec": 860,
+   "type": "story",
+   "title": "The Two Brothers and Har HaMoriah",
+   "summary": "Two brothers secretly bring each other wheat and meet on the mountaintop, where Hashem chooses to build the Beis HaMikdash."
+  },
+  {
+   "start_sec": 860,
+   "end_sec": 937,
+   "type": "talk",
+   "title": "Baseless hatred and Ahavas Yisroel"
+  },
+  {
+   "start_sec": 937,
+   "end_sec": 1324,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a letter from the Yetzer Tov",
+   "summary": "A boy's letter in Yiddish, from his Yetzer Tov to his Yetzer Hara, read and translated."
+  },
+  {
+   "start_sec": 1324,
+   "end_sec": 1682,
+   "type": "talk",
+   "title": "What happened on the 17th of Tammuz",
+   "summary": "The siege of Yerushalayim by Nevuchadnetzar, the end of the daily korban, and how Ahavas Yisroel will bring the Geulah.",
+   "calendar": [
+    "shiva_asar_btammuz",
+    "three_weeks"
+   ],
+   "linked_items": [
+    "44782e580b"
+   ]
+  },
+  {
+   "start_sec": 1682,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0abe34193e",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Achdus 133' = 26-187 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "44782e580b",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "'Three Weeks 133' = 1268-1682 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0b2ff37d4b",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 394: The Two Brothers (Elul)' (episode 394, 18:20-27:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "275560992e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 183: The Two Brothers on Har HaMoriah (Shiva Asar B'Tammuz)' (episode 183, 13:29-23:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9658bf3781",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 235: The Two Brothers (Shiva Asar B'Tammuz)' (episode 235, 15:35-25:42), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cb7b450fa0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 481: The Two Brothers' (episode 481, 15:40-24:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "mixed_language"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music (Three Weeks). Mailbox reads a full Yiddish letter, transcribed roughly as German-like text."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Eliezer Shema Kivman (spelling uncertain)",
+    "role": "shema_guest",
+    "group": "Tzivos Hashem club member",
+    "start_sec": 351,
+    "end_sec": 495
+   },
+   {
+    "name": "Mendy Hanen (also heard as Chanin)",
+    "role": "mailbox_letter",
+    "group": "age 8",
+    "start_sec": 937,
+    "end_sec": 1324
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:59Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20133%20-%20The%20Two%20Brothers%20%28Shiva%20Asar%20B%27Tammuz%29%20%281984-07-17%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 133 - The Two Brothers (Shiva Asar B'Tammuz) (1984-07-17).mp3",
+  "size_bytes": 20515534,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "22b21f20ae",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chodesh Elul 341",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Shofar of Elul - An Alarm to Wake Us Up (Ep 341).mp3",
+  "duration_sec": 186.65,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 341,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 341,
+   "story": "The storyteller #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Shofar of Elul: An Alarm to Wake Us Up",
+  "title_basis": "content",
+  "summary_short": "After Rosh Chodesh Elul, Uncle Yossi recalls the first shofar of the year, invites children to write about it, and explains the shofar as an alarm before the Yomim Nora'im.",
+  "summary_long": "A short Elul talk from the Tzivos Hashem radio show, broadcast just after the two days of Rosh Chodesh Elul. Uncle Yossi reminds children that the shofar was heard in shul on Sunday for the first time this year, and invites them to write in describing what they saw and felt, so he can read their letters on the air. The shofar is blown every weekday morning after Shacharis until Erev Rosh Hashanah, but never on Shabbos. As the Sages teach, it is an alarm calling us to wake up and prepare for Rosh Hashanah, the Aseres Yemei Teshuvah and Yom Kippur, and to meet the King, who in Elul is like a king in the field. Every day of Elul we should feel how close we are to Hashem, as in 'Ani l'dodi v'dodi li'.",
+  "lesson": "The shofar of Elul is a wake-up alarm: prepare for Rosh Hashanah and feel how close Hashem is.",
+  "keywords": [
+   "shofar",
+   "alarm",
+   "Shacharis",
+   "letters",
+   "king in the field",
+   "Ani L'dodi"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 341,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-08-16",
+   "hebrew": "3 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Date of episode 341; 'this past Shabbos and Sunday were Rosh Chodesh Elul' agrees."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "davening"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "82715ff045",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 1498,
+   "note": "Episode 341 (filename number); clip = 1498-1684 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to that week's Rosh Chodesh and asks for letters (period-specific)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:08:53Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/The%20Shofar%20of%20Elul%20-%20An%20Alarm%20to%20Wake%20Us%20Up%20%28Ep%20341%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/The Shofar of Elul - An Alarm to Wake Us Up (Ep 341).mp3",
+  "size_bytes": 2240862,
+  "mime_type": "audio/mpeg"
+ }
+}

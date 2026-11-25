@@ -1,0 +1,32 @@
+{
+ "batch_id": "b041",
+ "done": [
+  "0b07a8778f",
+  "de2e1dfc33",
+  "9cc0f3d732",
+  "933326aa43",
+  "aff1f25906",
+  "3b71176387",
+  "633e530dea",
+  "cadd238d04",
+  "9abb2313ea",
+  "9b22fa75b8",
+  "8e687b85e8",
+  "a3017f96d7",
+  "053e0722d6",
+  "bc96287330",
+  "546c4005d4",
+  "b8577c47e9",
+  "2cdc2fb9fd"
+ ],
+ "failed": [],
+ "notes": [
+  "This run filled the last 6 items (505-507 and their clips); the first 11 were already DONE and were left unchanged.",
+  "Dates follow weekly from episode 504 (19 Kislev 5752 = 26 Nov 1991): 505 = 26 Kislev (Chanukah, menorah before Shabbos candles), 506 = 3 Teves ('right after Chanukah'), 507 = 10 Teves ('today is the tenth of Teves'). Candle times 4:11 / 4:11 / 4:13 fit.",
+  "Episode 506: the catalog story is 'The miraculous Menorah', but on air it is 'The Secret Tunnel'. The Heritage clip 546c4005d4 also includes the mailbox and a Shabbos candles talk (740-1617 s). Its story portion partly matches episodes 155 (cf97f15688) and 354 (5ecadf26f2), linked as aired_again_in at 0.6.",
+  "Asarah B'Teves talk (507) is a reused recording: the same text is in file '5' (efb72976ab, in the radio folder, which also has the same Ani Maamin guest segment, so it may be a mislabeled copy of 507 or a rebroadcast), episode 555 (393f61d950), 'Asarah B'Teves 5' (213559b057), and partly episodes 260 (672ff77943) and 410 (7e9d4fa376). The clip 2cdc2fb9fd matches file '5' (0.90) slightly better than 507 (0.89).",
+  "Episode 505: the guest singer named in Studio 604 may be an adult performer or a child; flagged minor_named to be safe. A refuah shleimah name is read on air (hidden, health_info).",
+  "Recurring teacher: the Beis Yaakov of Boro Park first grade with its teacher appears in 505; a sixth-grade class at the same school sends a poem in 507.",
+  "Episode 507 opens at 'and shalom to everyone' after the theme (as in 504); not flagged truncated_start."
+ ]
+}

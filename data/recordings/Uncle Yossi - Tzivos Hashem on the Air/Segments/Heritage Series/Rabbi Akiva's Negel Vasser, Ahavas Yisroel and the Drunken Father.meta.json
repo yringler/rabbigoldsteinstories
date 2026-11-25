@@ -1,0 +1,303 @@
+{
+ "id": "09074ce59f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Rebi Akiva - negel vasser",
+  "filename_title": "Rabbi Akiva negel vasser",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Rabbi Akiva's Negel Vasser, Ahavas Yisroel and the Drunken Father.mp3",
+  "duration_sec": 1054.874,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "same audio also appeared as 'Uncle Yossi - Tzivos Hashem Radio Program/Stories/The Drunkard 387.mp3' (different title)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rabbi Akiva's Negel Vasser, Ahavas Yisroel and the Drunken Father",
+  "title_basis": "content",
+  "summary_short": "Three-part story time from the Three Weeks: Rabbi Akiva washes negel vasser in prison, his 'great rule' of loving others, and a story with no happy ending about copying bad ways.",
+  "summary_long": "A long story block from the Tzivos Hashem radio show, recorded during the Three Weeks. First, Rabbi Akiva, jailed for teaching Torah and given no water for three days, uses his jug of water to wash negel vasser and make a brachah; the amazed ruler frees him and makes him an advisor. Uncle Yossi then explains Rabbi Akiva's teaching that loving your fellow as yourself is a great rule of the Torah, and the Alter Rebbe's words that Ahavas Yisroel leads to Ahavas Hashem: to love Hashem, we love those He loves. Since the Beis HaMikdash was destroyed for lack of Ahavas Yisroel, this matters most in the Three Weeks. Finally comes a story that 'has no happy ending'. Naftali, a fine, respectful boy, is ashamed that his father drinks too much. He leads his father to a drunk lying in the street, hoping he will see how awful it is, but the father only asks where to get such a good drink. Like the Torah's warning in Parshas Acharei not to follow the ways of Egypt and Canaan, we are shown bad ways only so that we reject them and set an example.",
+  "lesson": "Keep mitzvos with firm belief, love every Jew, and learn from bad examples what not to copy.",
+  "keywords": [
+   "prison",
+   "jug of water",
+   "great rule",
+   "friendship",
+   "drunkard",
+   "street corner",
+   "Egypt",
+   "Canaan"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Rabbi Akiva is jailed and left without food or water for three days.",
+    "at_sec": 29
+   },
+   {
+    "flag": "alcohol",
+    "severity": "moderate",
+    "note": "A father's drinking problem; his son cries about it.",
+    "at_sec": 598
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "The drunkard story deliberately ends without the father changing.",
+    "at_sec": 850
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A mother and son cope with the father's drinking.",
+    "at_sec": 664
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "Naftali",
+   "Naftali's father",
+   "Naftali's mother"
+  ],
+  "topics": [
+   "sages",
+   "morning_routine",
+   "kindness_and_community",
+   "family_and_home"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "emunah",
+   "ahavas_yisroel",
+   "self_control",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "ahavas_yisroel_mitzvah",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "Rabbi Akiva: 'Love your fellow as yourself' (Vayikra 19:18) is a great rule of the Torah."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 18:3",
+    "note": "'Like the practice of the land of Egypt... you shall not do.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 265,
+   "type": "story",
+   "title": "Rabbi Akiva and Negel Vasser in Prison",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 265,
+   "end_sec": 448,
+   "type": "talk",
+   "title": "Ahavas Yisroel: a great rule of the Torah",
+   "people": [
+    "rabbi_akiva",
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "three_weeks"
+   ]
+  },
+  {
+   "start_sec": 448,
+   "end_sec": 537,
+   "type": "talk",
+   "title": "Not copying the ways of the nations"
+  },
+  {
+   "start_sec": 537,
+   "end_sec": 911,
+   "type": "story",
+   "title": "The Drunken Father"
+  },
+  {
+   "start_sec": 911,
+   "type": "talk",
+   "title": "The lesson from Parshas Acharei",
+   "calendar": [
+    "three_weeks"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Suggest a parent note about the alcohol theme. Pipeline flag: the same audio also exists as 'Stories/The Drunkard 387.mp3'. Text matches episodes 184, 236, 387, 436 and 486 almost equally, so the source broadcast is uncertain (required relation says 184)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Same audio also filed as 'The Drunkard 387'; choose one title and check which broadcast it was cut from."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:51Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "276c6bf981",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 486."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "28133bf24a",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 539."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4d19621b73",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 135."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8ae1d03037",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 436."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bc5773ec17",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 236."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 387."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "45e5fe6378",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 527,
+   "note": "Episode 184 (text match; no number in filename)."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "90086c4a4c",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Rabbi Akiva and Netilas Yodayim 184' is the Rabbi Akiva story alone from the same broadcast."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "59ebaba0bf",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'The Drunkard 184' is the drunkard story alone from the same broadcast."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "ac3847e263",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 41 (Continued): End of Tanya Chapter 29, Rebuking the Yetzer Hara' (Stories, 43:02-44:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Rabbi%20Akiva%27s%20Negel%20Vasser%2C%20Ahavas%20Yisroel%20and%20the%20Drunken%20Father.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Rabbi Akiva's Negel Vasser, Ahavas Yisroel and the Drunken Father.mp3",
+  "size_bytes": 12659350,
+  "mime_type": "audio/mpeg"
+ }
+}

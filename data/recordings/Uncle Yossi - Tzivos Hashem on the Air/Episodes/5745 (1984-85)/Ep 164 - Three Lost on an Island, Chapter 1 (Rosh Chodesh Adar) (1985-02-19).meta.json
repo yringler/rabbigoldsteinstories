@@ -1,0 +1,445 @@
+{
+ "id": "cfcb2683b3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "164",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 164 - Three Lost on an Island, Chapter 1 (Rosh Chodesh Adar) (1985-02-19).mp3",
+  "duration_sec": 1819.257,
+  "filename_facts": {
+   "episode_number": 164,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 164,
+   "story": "Three lost on an island #1",
+   "topic": "מצוה time עוה\"ז עוה\"ב כל ישראל",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 164: Three Lost on an Island, Chapter 1 (Rosh Chodesh Adar)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi takes children on a trip to Olam Haba with the pasuk Kol Yisroel, a class says the Shema, and a new story begins: three shipwreck survivors on a deserted island.",
+  "summary_long": "Uncle Yossi opens with a journey further than outer space: to Olam Haba, the world to come. Our Sages teach that a lifetime of pleasure cannot equal one moment of the soul's joy there, and every Jew has a share reserved for him, as the Gemara in Sanhedrin says. This is Kol Yisroel, number four of the Twelve Pesukim, which the Hakochainik march then sings. After a sponsor message, Mitzvah Time features a listener reading her composition about achdus in her class. Story time begins 'Three Lost on an Island': after a storm sinks their ship, a doctor, a scientist and an engineer reach a deserted island. The doctor finds a rare healing apple, the scientist builds a telescope, and the engineer repairs an old airplane. Between the two halves of the story, a whole class from a Brooklyn girls' school recites the Shema. The chapter ends as all three look through the telescope at an amazing sight, to be revealed next week. Uncle Yossi closes with Mishenichnas Adar marbim b'simchah, since Rosh Chodesh Adar begins the next night, and three reasons every Jew has to be happy.",
+  "lesson": "Every Jew has a place waiting in Olam Haba, earned through Torah and mitzvos; and when Adar comes we add more and more simchah.",
+  "keywords": [
+   "Olam Haba",
+   "world to come",
+   "shipwreck",
+   "deserted island",
+   "telescope",
+   "airplane",
+   "healing apple",
+   "doctor",
+   "scientist",
+   "engineer",
+   "composition",
+   "Rosh Chodesh Adar"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 164,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1985-02-19",
+   "hebrew": "28 Shevat 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Said on air: 'tomorrow night is Rosh Chodesh Adar' (eve of 30 Shevat 5745 = Wed 20 Feb 1985); shows aired Tuesdays. Weekly estimate (12 Mar) was 3 weeks late."
+  },
+  "serial": {
+   "story_key": "three-lost-on-an-island",
+   "story_title": "Three Lost on an Island",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A ship sinks in a storm and only three people survive, stranded on a deserted island.",
+    "at_sec": 945
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A listener reading her composition and the girls of the visiting class are named in full.",
+    "at_sec": 1050
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the doctor",
+   "the scientist",
+   "the engineer"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "calendar",
+   "tzivos_hashem",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "simcha",
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "torah_study",
+   "shema"
+  ],
+  "calendar": [
+   "adar",
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Sanhedrin 90a",
+    "note": "Kol Yisroel yesh lahem chelek l'Olam Haba."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 352,
+   "type": "talk",
+   "title": "A Trip to Olam Haba: Kol Yisroel",
+   "summary": "Every Jew has a share in the world to come, earned through Torah and mitzvos; this is the fourth of the Twelve Pesukim.",
+   "linked_items": [
+    "6872536f21"
+   ]
+  },
+  {
+   "start_sec": 352,
+   "end_sec": 560,
+   "type": "song",
+   "title": "Hakochainik March: Kol Yisroel"
+  },
+  {
+   "start_sec": 560,
+   "end_sec": 659,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 659,
+   "end_sec": 860,
+   "type": "quiz",
+   "title": "Mitzvah Time: a listener's composition on achdus",
+   "summary": "A girl reads her composition on friendship and unity in her class, which brings Moshiach closer."
+  },
+  {
+   "start_sec": 860,
+   "end_sec": 887,
+   "type": "announcement",
+   "title": "Send in your compositions"
+  },
+  {
+   "start_sec": 887,
+   "end_sec": 1113,
+   "type": "story_chapter",
+   "title": "Three Lost on an Island, Chapter 1",
+   "summary": "A storm sinks a ship, and three survivors reach a deserted island and search for a way home.",
+   "story_key": "three-lost-on-an-island",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1113,
+   "end_sec": 1300,
+   "type": "shema_guest",
+   "title": "Shema with a class from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 1300,
+   "end_sec": 1611,
+   "type": "story_chapter",
+   "title": "Three Lost on an Island, Chapter 1 (continued)",
+   "summary": "The doctor finds a healing apple, the scientist builds a telescope, the engineer fixes an airplane, and all three see something astonishing.",
+   "story_key": "three-lost-on-an-island",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1611,
+   "end_sec": 1752,
+   "type": "talk",
+   "title": "Mishenichnas Adar: Three Reasons to Be Happy",
+   "summary": "In Adar we add simchah: we are Jews with a holy neshamah, we daven to Hashem alone, and we have the Torah.",
+   "calendar": [
+    "adar",
+    "rosh_chodesh"
+   ],
+   "linked_items": [
+    "5f77291d43"
+   ]
+  },
+  {
+   "start_sec": 1752,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "March and sponsor times are approximate (the transcript merges across the song). Sponsor ad and mailing address are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Esther Hershkowitz",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of Boro Park, class B6, Morah Reisman",
+    "start_sec": 690,
+    "end_sec": 860,
+    "note": "Read her composition on achdus during Mitzvah Time."
+   },
+   {
+    "name": "Morah Reisman",
+    "role": "other",
+    "group": "Beis Yaakov of Boro Park, teacher of the composition writer",
+    "start_sec": 800,
+    "end_sec": 831
+   },
+   {
+    "name": "Morah Weinrib",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park (teacher of the class reciting the Shema)",
+    "start_sec": 1141,
+    "end_sec": 1300
+   },
+   {
+    "name": "Gittel(?) Goldenberg",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1231,
+    "end_sec": 1290,
+    "note": "Heard as 'Get Ula Goldenberg'."
+   },
+   {
+    "name": "Toby Appelgrad",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1231,
+    "end_sec": 1290
+   },
+   {
+    "name": "Ruthie Freed",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1231,
+    "end_sec": 1290
+   },
+   {
+    "name": "Sonny Königsberg",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Nita Krieger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Malky Katz",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Penina Era",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Tippy Katz",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Shefra Demetzer",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Rivki Rees",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Gaila Biedermann",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Ahuva Gutman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Shoshana Katz",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Henning Gershenson",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290,
+    "note": "Spelling as heard."
+   },
+   {
+    "name": "Javi Clyde",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290,
+    "note": "Possibly 'Chavi'."
+   },
+   {
+    "name": "Penina Ruby",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Frady Narin",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290
+   },
+   {
+    "name": "Honey Seeker",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Morah Weinrib's class",
+    "start_sec": 1261,
+    "end_sec": 1290,
+    "note": "Spelling as heard."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:23Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "5f77291d43",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "'Mishenichnas Adar 164' = 1611-1752 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "6872536f21",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Olam Haba 164' = 51-352 s of this episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "3c57114b54",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Chapters 1 and 2 of 'Three Lost on an Island' (catalog 164 #1, 165 #2)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20164%20-%20Three%20Lost%20on%20an%20Island%2C%20Chapter%201%20%28Rosh%20Chodesh%20Adar%29%20%281985-02-19%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 164 - Three Lost on an Island, Chapter 1 (Rosh Chodesh Adar) (1985-02-19).mp3",
+  "size_bytes": 21832106,
+  "mime_type": "audio/mpeg"
+ }
+}

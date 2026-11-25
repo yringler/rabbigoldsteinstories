@@ -1,0 +1,202 @@
+{
+ "id": "aced8f2be2",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Mitzvos Over Money - 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Mitzvos Over Money, Part 2.mp3",
+  "duration_sec": 1249.228,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Mitzvos Over Money, Part 2",
+  "title_basis": "filename",
+  "summary_short": "Hidden in a robbers' inn, Beryl learns that davening Mincha saved his life, but he is too afraid for his money to give the tzaddik's regards to the robber chief, Red Ivan.",
+  "summary_long": "Beryl, stranded in the forest after stopping to daven Mincha, is given a corner of the dining room at a lonely inn. He wakes to a band of robbers boasting that they attacked his wagon and killed everyone aboard, and now he understands that his Mincha saved his life. When their red-bearded leader, Ivan, walks in, Beryl remembers Reb Shmuel's request to send him regards, but fearing for his money he stays silent. At dawn he slips away and walks home for days, ragged and hungry, and escapes a band of peasants by pretending to be mad, though they still beat him. Arriving at Reb Shmuel's door, he empties his money bag to show what he saved, and finds that all his valuable checks are gone. In despair he promises that if they are returned he will give tzedakah freely. At that moment Ivan himself bursts in with the lost papers. Reb Shmuel explains that he once saved the young Ivan's life, and Ivan had promised safe escort to anyone bringing his regards. Beryl keeps his promise and becomes famous for his tzedakah, growing only richer.",
+  "lesson": "Everything Hashem does is for the good; follow a tzaddik's words, and money given to tzedakah never makes a person poorer.",
+  "keywords": [
+   "robbers",
+   "inn",
+   "red beard",
+   "money bag",
+   "lost checks",
+   "peasants",
+   "escort",
+   "miser"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "part": {
+   "set_key": "mitzvos-over-money",
+   "part_number": 2,
+   "of": 2
+  },
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Robbers boast of attacking a wagon; peasants beat the hero on the road."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The other wagon passengers are killed off-scene (reported, not described)."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Beryl the businessman",
+   "Reb Shmuel the tzaddik",
+   "Ivan, the red-bearded robber chief",
+   "the innkeeper",
+   "the robbers"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "prayer_and_brachos",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "generosity",
+   "bitachon",
+   "kabbalas_ol",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "davening",
+   "tzedakah",
+   "negel_vasser",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 33,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 33,
+   "end_sec": 94,
+   "type": "story_intro",
+   "title": "Recap of part 1"
+  },
+  {
+   "start_sec": 94,
+   "type": "story_chapter",
+   "title": "Mitzvos Over Money, Part 2",
+   "story_key": "mitzvos-over-money",
+   "chapter": 2
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "35dc2fd877",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'Mitzvos Over Money - 1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "35dc2fd877",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Opens with a recap of part 1 and continues at the inn."
+  },
+  {
+   "type": "same_story",
+   "target_id": "62f0b4603b",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'Red Ivan -Part 2': the same second half (robbers' inn, regards to Ivan, lost checks) by the same narrator."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with the 'I believe in Hashem' song and a recap. Another telling of the Red Ivan story."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:28:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Same story as the 'Red Ivan' parts (addf1aed4d, 62f0b4603b); decide whether both tellings should be published."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Mitzvos%20Over%20Money%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Mitzvos Over Money, Part 2.mp3",
+  "size_bytes": 14991503,
+  "mime_type": "audio/mpeg"
+ }
+}

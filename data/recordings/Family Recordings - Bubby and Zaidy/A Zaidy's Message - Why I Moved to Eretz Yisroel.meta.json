@@ -1,0 +1,170 @@
+{
+ "id": "1c578063be",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Zaidy Moshe Yehuda G speaking and singing",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/A Zaidy's Message - Why I Moved to Eretz Yisroel.mp3",
+  "duration_sec": 424.124,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "little_speech_maybe_song"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Zaidy's Message: Why I Moved to Eretz Yisroel",
+  "title_basis": "content",
+  "summary_short": "A grandfather explains why, after sixty years of work in America, he moved to Eretz Yisroel, and tells of the free-loan fund he opened there; followed by singing.",
+  "summary_long": "A family recording. A grandfather answers friends who asked why he is moving to Eretz Yisroel: for sixty years he worked in America for his body, to raise good, religious children, and now it is time to go to the Holy Land and work for his soul by doing its many mitzvos. He proudly tells that he has opened a family gemach, a free-loan fund, with his own donation, which already gives interest-free loans to poor families and struggling businessmen. He hopes, with Hashem's help, that all his children will soon move to Eretz Yisroel too, and promises to help them settle. The short talk is followed by several minutes of his singing, which is not transcribed.",
+  "lesson": "After a lifetime of raising a Torah family, a person can devote his later years to his soul, to Eretz Yisroel and to helping others through gemilus chasadim.",
+  "keywords": [
+   "grandfather",
+   "aliyah",
+   "free-loan fund",
+   "gemach",
+   "Holy Land",
+   "singing"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "family_recording",
+  "story_type": [
+   "family_memoir"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Home recording of a grandfather; named in the file title."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "a grandfather"
+  ],
+  "topics": [
+   "family_heritage",
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "generosity"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "loving_eretz_yisroel",
+   "chinuch"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Eretz Yisroel",
+   "America"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 59,
+   "type": "talk",
+   "title": "Why I moved to Eretz Yisroel",
+   "summary": "A grandfather explains his move and the free-loan fund he founded."
+  },
+  {
+   "start_sec": 59,
+   "end_sec": 424,
+   "type": "song",
+   "title": "Zaidy sings",
+   "summary": "Singing (not transcribed)."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "fair",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Speech ends at 0:59; the filename says 'speaking and singing', so the remaining six minutes are presumably singing. Not trimmed; check by ear."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Zaidy Moshe Yehuda G. (the speaker, named in the file title)",
+    "role": "family_member",
+    "start_sec": 0,
+    "end_sec": 424
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Speaker founded the 'Goldstein Mishpocho Gemilus Chesed' in Israel with a donation of 3,000 pounds; hopes his children will move to Israel.",
+    "start_sec": 28
+   }
+  ]
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Family recording (private_family).",
+   "Confirm the six minutes after the speech are singing and not silence; if silent, set trim.content_end_sec to 59.",
+   "Possibly a relative of Rabbi Yosef Goldstein (family gemach name); confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:56Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/A%20Zaidy%27s%20Message%20-%20Why%20I%20Moved%20to%20Eretz%20Yisroel.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/A Zaidy's Message - Why I Moved to Eretz Yisroel.mp3",
+  "size_bytes": 5090277,
+  "mime_type": "audio/mpeg"
+ }
+}

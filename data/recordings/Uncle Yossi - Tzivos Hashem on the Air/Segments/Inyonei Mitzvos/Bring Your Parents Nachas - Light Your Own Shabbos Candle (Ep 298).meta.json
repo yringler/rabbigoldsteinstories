@@ -1,0 +1,161 @@
+{
+ "id": "528b031b11",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Neshek 298",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Bring Your Parents Nachas - Light Your Own Shabbos Candle (Ep 298).mp3",
+  "duration_sec": 506.658,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 298,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 298,
+   "story": "The King and the Shabbos Candles",
+   "topic": "Sukkos / נש\"ק",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Bring Your Parents Nachas: Light Your Own Shabbos Candle",
+  "title_basis": "content",
+  "summary_short": "Children are their parents' greatest treasure. Uncle Yossi explains how Torah and mitzvos are light, and how girls bring true nachas by lighting their own Shabbos candle.",
+  "summary_long": "A talk from the Tzivos Hashem radio show for the Shabbos candles campaign. Uncle Yossi tells children that they are the most precious thing their parents have, more than any jewels, and that the way to repay their devotion is to bring them nachas by honoring father and mother, as the Ten Commandments teach. Hashem compares Torah and mitzvos to light, 'a mitzvah is a candle and Torah is light': without light we could pass a treasure or a dangerous pit without knowing, and Torah shows us what is good and what is harmful. One mitzvah lets us actually see the light: lighting Shabbos candles 18 minutes before sunset. This mitzvah belongs to every girl old enough to understand that Shabbos is coming. Uncle Yossi pictures a girl beside her mother, saying the brachah over her own candle, and urges girls to put this at the top of their New Year resolutions and ask Mommy this Friday.",
+  "lesson": "Bring nachas to your parents; girls can do this by lighting their own Shabbos candle beside their mother.",
+  "keywords": [
+   "nachas",
+   "parents",
+   "treasure",
+   "light",
+   "candle",
+   "girls",
+   "New Year resolutions"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 298,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-10-20",
+   "hebrew": "27 Tishrei 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 298 (34fa0cd369). Episode: Consistent with the audio: 'right after the great holiday of Sukkos'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "shabbos",
+   "family_and_home",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "kibbud",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "kibbud_av_vaem",
+   "mivtzoim",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:12",
+    "note": "'Honor your father and your mother', from the Ten Commandments."
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Mishlei 6:23",
+    "note": "'Ki ner mitzvah v'Torah or'."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short untranscribed stretch at 0:41-1:08. 'Neshek' in the filename refers to the Shabbos candles campaign (Neshek)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:09Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "34fa0cd369",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 953,
+   "note": "Episode 298 (filename number); clip = 953-1459 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Bring%20Your%20Parents%20Nachas%20-%20Light%20Your%20Own%20Shabbos%20Candle%20%28Ep%20298%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Bring Your Parents Nachas - Light Your Own Shabbos Candle (Ep 298).mp3",
+  "size_bytes": 6080860,
+  "mime_type": "audio/mpeg"
+ }
+}

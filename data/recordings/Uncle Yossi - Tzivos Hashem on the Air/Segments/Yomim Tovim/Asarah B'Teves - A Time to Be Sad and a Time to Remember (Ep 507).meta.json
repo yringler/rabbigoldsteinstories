@@ -1,0 +1,222 @@
+{
+ "id": "2cdc2fb9fd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Asarah B'Teves 507",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Be Sad and a Time to Remember (Ep 507).mp3",
+  "duration_sec": 612.052,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 507,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 507,
+   "story": "",
+   "topic": "י טבת",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Asarah B'Teves: A Time to Be Sad and a Time to Remember",
+  "title_basis": "content",
+  "summary_short": "On the tenth of Teves, Uncle Yossi explains why there is a time to be sad, and tells how Nevuchadnetzar's siege of Yerushalayim began the road to the destruction of the Beis HaMikdash.",
+  "summary_long": "A talk for Asarah B'Teves from the Tzivos Hashem radio show, given on the day itself. Uncle Yossi reviews the Hebrew months, Tishrei, Cheshvan, Kislev and now Teves, the fourth month, and reveals that today is the tenth of Teves, a sad day in Jewish history. Shlomo HaMelech taught that there is a time for everything: a time to be happy and also a time to be sad, not to stay sad, but to learn from the mistakes of the past and serve Hashem with a pure heart. On the tenth of Teves the armies of Nevuchadnetzar, king of Bavel, surrounded Yerushalayim and sealed its gates, and the people inside grew weak from hunger and thirst. The siege led to the breach of the walls on the seventeenth of Tammuz and, three weeks later, to the destruction of the Beis HaMikdash on Tisha B'Av. The answer to such troubles is to keep learning Torah and doing mitzvos, for, as Dovid HaMelech wrote, the Guardian of Israel neither slumbers nor sleeps.",
+  "lesson": "We remember sad days to learn from the past; as long as we learn Torah and keep the mitzvos, Hashem guards and protects us.",
+  "keywords": [
+   "siege of Yerushalayim",
+   "Nevuchadnetzar",
+   "Hebrew months",
+   "fast day",
+   "Shiva Asar B'Tammuz",
+   "Tisha B'Av",
+   "Shomer Yisroel"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 507,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-12-17",
+   "hebrew": "10 Teves 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the tenth of Teves'; filename episode 507 aired Tuesday 10 Teves 5752. The same talk also aired in other years."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "moderate",
+    "note": "The siege of Yerushalayim, people weak from hunger, and the destruction of the first Beis HaMikdash.",
+    "at_sec": 303
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "jewish_history",
+   "teshuvah"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "torah_study"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "Shlomo HaMelech: 'There is a time for everything.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel.'"
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "efb72976ab",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 5."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "b8577c47e9",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 49,
+   "note": "Episode 507 (filename number); clip = 49-661 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "393f61d950",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "Episode 555 opens with the same Asarah B'Teves talk (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "672ff77943",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text match 0.68 with episode 260 (812-1424 s)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7e9d4fa376",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text match 0.68 with episode 410 (1052-1664 s)."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "213559b057",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "'Asarah B'Teves 5' has the same talk, word for word in the parts checked; likely another cut of it."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening talk of episode 507, without the closing paragraph on Moshiach turning fast days into Yomim Tovim. Text matches file '5' slightly better than 507."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Clip may have been cut from file '5' (efb72976ab) rather than episode 507; the locked episode number was kept."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:28:00Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Asarah%20B%27Teves%20-%20A%20Time%20to%20Be%20Sad%20and%20a%20Time%20to%20Remember%20%28Ep%20507%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Be Sad and a Time to Remember (Ep 507).mp3",
+  "size_bytes": 7345713,
+  "mime_type": "audio/mpeg"
+ }
+}

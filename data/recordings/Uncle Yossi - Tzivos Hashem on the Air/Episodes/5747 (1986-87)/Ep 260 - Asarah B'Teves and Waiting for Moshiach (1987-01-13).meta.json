@@ -1,0 +1,583 @@
+{
+ "id": "672ff77943",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "260",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 260 - Asarah B'Teves and Waiting for Moshiach (1987-01-13).mp3",
+  "duration_sec": 1856.525,
+  "filename_facts": {
+   "episode_number": 260,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 260,
+   "story": "",
+   "topic": "עשרה בטבת",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 260: Asarah B'Teves and Waiting for Moshiach",
+  "title_basis": "content",
+  "summary_short": "Contest runners-up are announced, a first-grade class sings to celebrate their first siddur, and Uncle Yossi explains Asarah B'Teves: the siege of Yerushalayim, and why we cry out 'Ad Masai'.",
+  "summary_long": "Broadcast two days after Asarah B'Teves 5747. Uncle Yossi reads a long list of runners-up in the My Shabbos Candlestick contest, whose prizes wait at the Tzivos Hashem gift shop, and leads the Hakochainik march. A first-grade class from a Boro Park girls' school, which received its first siddurim from Uncle Yossi, sings a song saying goodbye to the old Alef-Beis book and hello to the new siddur. Two young siblings visiting from Ann Arbor, Michigan, lead the Shema. Then Uncle Yossi turns to the Jewish calendar: as Shlomo HaMelech said, there is a time for everything, even a time to be sad in order to grow. On the tenth of Teves, Nevuchadnetzar's army besieged Yerushalayim, leading to the breach of the walls on the seventeenth of Tammuz and the destruction of the Beis HaMikdash on Tisha B'Av. As long as we learn Torah and keep mitzvos, Hashem, the Guardian of Israel, protects us, and He promised to turn these fast days into Yomim Tovim when Moshiach comes. The show ends with everyone calling out 'Ad Masai' and a sponsor message.",
+  "lesson": "We remember sad days in order to improve ourselves, and through Torah and mitzvos we bring Moshiach, when these fasts will become days of joy.",
+  "keywords": [
+   "siege",
+   "Yerushalayim",
+   "Nevuchadnetzar",
+   "fast day",
+   "Ad Masai",
+   "first siddur",
+   "Alef-Beis",
+   "contest winners",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 260,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-01-13",
+   "hebrew": "12 Teves 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This past Sunday was Asarah B'Teves' (Sunday 11 Jan 1987); the following Tuesday is 13 Jan 1987, two weeks after episode 258."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim, hunger in the city, and the destruction of the first Beis HaMikdash, told gently.",
+    "at_sec": 1095
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "About seventy contest runners-up and two Shema guests are named in full; a teacher is named.",
+    "at_sec": 125
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "simcha"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "tzedakah",
+   "torah_study",
+   "davening",
+   "shema"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "100:2",
+    "note": "'Ivdu es Hashem b'simchah'."
+   },
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'Hinei lo yanum v'lo yishan Shomer Yisrael'."
+   },
+   {
+    "work": "siddur",
+    "ref": "V'sechezenah eineinu",
+    "note": "Prayer to see Hashem's return to Tzion."
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "Ann Arbor, Michigan"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 322,
+   "type": "announcement",
+   "title": "My Shabbos Candlestick contest: the runners-up"
+  },
+  {
+   "start_sec": 322,
+   "end_sec": 512,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 512,
+   "end_sec": 735,
+   "type": "song",
+   "title": "A first-grade class celebrates its first siddur",
+   "summary": "A Kitah Aleph class from a Boro Park girls' school sings goodbye to the Alef-Beis book and hello to the new siddur."
+  },
+  {
+   "start_sec": 735,
+   "end_sec": 886,
+   "type": "shema_guest",
+   "title": "Shema with two siblings from Ann Arbor, Michigan"
+  },
+  {
+   "start_sec": 886,
+   "end_sec": 1422,
+   "type": "talk",
+   "title": "Asarah B'Teves: A Time to Remember",
+   "summary": "There is a time to be sad in order to grow: the siege of Yerushalayim that led to the Churban, and how Torah and mitzvos protect us.",
+   "people": [
+    "nevuchadnetzar",
+    "shlomo_hamelech",
+    "david_hamelech"
+   ],
+   "calendar": [
+    "asarah_bteves"
+   ],
+   "linked_items": [
+    "48d68b1ed7"
+   ]
+  },
+  {
+   "start_sec": 1422,
+   "end_sec": 1612,
+   "type": "talk",
+   "title": "Sad Days Will Become Yomim Tovim",
+   "summary": "Hashem promised that with Moshiach the fast days will turn into days of joy.",
+   "calendar": [
+    "asarah_bteves"
+   ],
+   "linked_items": [
+    "ef5394bb72"
+   ]
+  },
+  {
+   "start_sec": 1612,
+   "end_sec": 1751,
+   "type": "talk",
+   "title": "Ad Masai: We Want Moshiach Now",
+   "summary": "Knowing the Jewish date, the fast that was this past Sunday, and calling out together for Moshiach.",
+   "calendar": [
+    "asarah_bteves"
+   ]
+  },
+  {
+   "start_sec": 1751,
+   "end_sec": 1795,
+   "type": "sponsor",
+   "title": "Sponsor message: games and story tapes"
+  },
+  {
+   "start_sec": 1795,
+   "end_sec": 1811,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "48d68b1ed7",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Asarah B'Teves 260' = 889-1422 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "ef5394bb72",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "'Asarah B'Teves Happy 260' = 1431-1605 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Runners-up list reads many children's full names (see hidden). Gift-shop pickup, office phone check and sponsor are period pieces. The class song is not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shmully and Mutty Spitz",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 145,
+    "end_sec": 160
+   },
+   {
+    "name": "Kitty, Henny, Tobi, Chani and Machli Farber",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 150,
+    "end_sec": 162
+   },
+   {
+    "name": "Rachel Yiddish Fish (unclear)",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 158,
+    "end_sec": 165
+   },
+   {
+    "name": "Mashi Waldman",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 160,
+    "end_sec": 166
+   },
+   {
+    "name": "Chani and Naomi Blyer",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 162,
+    "end_sec": 168
+   },
+   {
+    "name": "Frady Lacks",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 165,
+    "end_sec": 170
+   },
+   {
+    "name": "Rifki Drezel",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 167,
+    "end_sec": 172
+   },
+   {
+    "name": "Mayer, Chaya Sarah and Menachem Mordechai Berger",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 168,
+    "end_sec": 175
+   },
+   {
+    "name": "Shimon Mordechai Levanani",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 172,
+    "end_sec": 177
+   },
+   {
+    "name": "Perel Itzkowitz",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 175,
+    "end_sec": 179
+   },
+   {
+    "name": "Frady Drezna",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 176,
+    "end_sec": 180
+   },
+   {
+    "name": "Nechama Dina and Devorah Leah Hirsch",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 177,
+    "end_sec": 182
+   },
+   {
+    "name": "Yale and Bela Assar",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 180,
+    "end_sec": 185
+   },
+   {
+    "name": "Perel, Baruch, Chana and Miriam Yagil",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 183,
+    "end_sec": 190
+   },
+   {
+    "name": "the Greenlands family",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 186,
+    "end_sec": 190
+   },
+   {
+    "name": "Chaya Kreindy Kiwak",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 188,
+    "end_sec": 193
+   },
+   {
+    "name": "Levi Tzvi Freund",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 190,
+    "end_sec": 195
+   },
+   {
+    "name": "Esti Mali and Yankee Barhorin",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 193,
+    "end_sec": 200
+   },
+   {
+    "name": "Naomi, Rochel and Akiva Hoffman",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 197,
+    "end_sec": 205
+   },
+   {
+    "name": "Esther Rich",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 203,
+    "end_sec": 207
+   },
+   {
+    "name": "Fegi Shore",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 205,
+    "end_sec": 209
+   },
+   {
+    "name": "Yehoshua and Moishe Kalazina",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 207,
+    "end_sec": 216
+   },
+   {
+    "name": "Bela Lacks",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 213,
+    "end_sec": 218
+   },
+   {
+    "name": "Avraham Kasaf",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 215,
+    "end_sec": 220
+   },
+   {
+    "name": "Gila Fasten",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 217,
+    "end_sec": 222
+   },
+   {
+    "name": "Meira Ozieri",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 219,
+    "end_sec": 224
+   },
+   {
+    "name": "Goldie C. Hirsch",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 221,
+    "end_sec": 226
+   },
+   {
+    "name": "Fegi Rivka Greenberger",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 223,
+    "end_sec": 228
+   },
+   {
+    "name": "Mordechai Hirsch",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 226,
+    "end_sec": 230
+   },
+   {
+    "name": "Devorah Leah Hirsch",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up (named twice)",
+    "start_sec": 228,
+    "end_sec": 232
+   },
+   {
+    "name": "Avraham Rosenblatt",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 230,
+    "end_sec": 235
+   },
+   {
+    "name": "Avrumi Barhorin",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 233,
+    "end_sec": 237
+   },
+   {
+    "name": "Yankee Fried",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 235,
+    "end_sec": 239
+   },
+   {
+    "name": "Chaim Hyman",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 237,
+    "end_sec": 241
+   },
+   {
+    "name": "David Teichtel",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 239,
+    "end_sec": 243
+   },
+   {
+    "name": "Y. Levowitz",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 241,
+    "end_sec": 245
+   },
+   {
+    "name": "Doba Rivka Bernstein",
+    "role": "contest_winner",
+    "group": "My Shabbos Candlestick runners-up",
+    "start_sec": 243,
+    "end_sec": 259
+   },
+   {
+    "name": "Morah Linchevsky",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph teacher (siddur celebration)",
+    "start_sec": 512,
+    "end_sec": 735
+   },
+   {
+    "name": "Alter Yehoshua Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan",
+    "start_sec": 768,
+    "end_sec": 886
+   },
+   {
+    "name": "Shterna Sarah Goldstein",
+    "role": "shema_guest",
+    "group": "Ann Arbor, Michigan; sister of the other guest",
+    "start_sec": 768,
+    "end_sec": 886
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Runner-up names are spelled as heard; many are uncertain."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:35Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5747%20%281986-87%29/Ep%20260%20-%20Asarah%20B%27Teves%20and%20Waiting%20for%20Moshiach%20%281987-01-13%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 260 - Asarah B'Teves and Waiting for Moshiach (1987-01-13).mp3",
+  "size_bytes": 22279426,
+  "mime_type": "audio/mpeg"
+ }
+}

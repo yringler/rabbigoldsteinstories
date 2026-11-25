@@ -1,0 +1,405 @@
+{
+ "id": "285846e5e3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "27 P8",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 27 - Chapter 8, Forbidden Foods, Idle Talk and Worldly Wisdom.mp3",
+  "duration_sec": 6467.056,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 27: Chapter 8, Forbidden Foods, Idle Talk and Worldly Wisdom",
+  "title_basis": "content",
+  "summary_short": "Two Yiddish Tanya classes on chapter 8: why forbidden food stays bound to kelipah, how idle and forbidden speech mark the soul, and when secular wisdom may be studied.",
+  "summary_long": "Shiur 27 in Rabbi Yosef Goldstein's Yiddish Tanya series holds two weekly classes on Tanya chapter 8. The first explains why forbidden foods are called 'issur', bound: even eaten for the sake of Heaven, their life-force cannot be raised to holiness, while permitted food eaten to serve Hashem rises through the words of Torah and prayer. Food eaten only for pleasure leaves a mark on the soul that teshuvah must cleanse. Along the way come a talk on davening as a ladder through the four worlds, the Rebbe teaching a niggun on Simchas Torah, the Alter Rebbe and the over-salted fish, the Frierdiker Rebbe and the spoonful of compote, and a wagon driver asked why he works. The class closes on idle talk: no word is lost, so fill the mouth with Torah and Tehillim. The second class continues the chapter: the Baal Shem Tov's reading of 'ki sir'eh chamor', the Chassidic way of refining the body, stories of Rabbi Nochum of Chernobyl and the Alter Rebbe who could not see what was not holy, guarding thought, zeal from the moment of waking, when the wisdom of the nations may be learned, and a story of a misnaged's blank note before a Rebbe.",
+  "lesson": "What a Jew eats, says and thinks leaves its mark on the soul; using the body and speech for Torah and mitzvos raises them to holiness.",
+  "keywords": [
+   "forbidden foods",
+   "kelipas noga",
+   "idle talk",
+   "tape recorder",
+   "salted fish",
+   "compote",
+   "wagon driver",
+   "Shabbos candle",
+   "chalav Yisroel",
+   "astronomy",
+   "blank note",
+   "Simchas Torah niggun"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "talmudic",
+   "tanach_midrash"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976",
+   "hebrew": "5736",
+   "hebrew_year": 5736,
+   "precision": "year",
+   "basis": "folder_or_sibling",
+   "note": "Shiur 28 is dated 29 Av 5736 in its filename; this class mentions the Rebbe's recent call to repeat the Twelve Pesukim (begun 5736)."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "8",
+    "to": "8",
+    "lecture_number": 27,
+    "note": "Two weekly sessions: start of chapter 8, then middle to end of chapter 8 with a preview of chapter 9."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "Discusses the soul's cleansing after death, Gehinnom and the kaf hakela as consequences of forbidden food and speech.",
+    "at_sec": 2690
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_yehudah_hanasi",
+    "role": "appears"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "appears"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "appears"
+   },
+   {
+    "id": "bilam",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_nochum_of_chernobyl",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Nochum of Chernobyl",
+   "Ivan the wagon driver",
+   "a shammes on the morning after Yom Kippur",
+   "a misnaged who visits a Rebbe"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "kashrus",
+   "torah_study",
+   "chabad_rebbeim",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "shemiras_halashon",
+   "self_control",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "kashrus",
+   "torah_study",
+   "shemiras_halashon",
+   "tehillim",
+   "davening",
+   "modeh_ani"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 8; ch. 9 (preview)"
+   },
+   {
+    "work": "gemara",
+    "ref": "Kesubos 104a (Rabbeinu HaKadosh); Berachos 3a (praying in a ruin)"
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos De'os 5 (a scholar's conduct in eating)"
+   },
+   {
+    "work": "zohar",
+    "ref": "Beshalach"
+   },
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "Positive and negative mitzvos"
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 23:5; Bereishis 27:1"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "5:20 (bold as a leopard)"
+   },
+   {
+    "work": "shulchan_aruch",
+    "ref": "Orach Chaim 1:1"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 3303,
+   "type": "text_study",
+   "title": "Session 1: Tanya chapter 8, forbidden food and eating for Heaven's sake",
+   "summary": "Why forbidden foods are called 'issur', how permitted food rises through Torah and prayer, and the mark that pleasure-eating leaves on the soul."
+  },
+  {
+   "start_sec": 1286,
+   "end_sec": 1630,
+   "type": "talk",
+   "title": "Davening as a ladder through the four worlds",
+   "summary": "The order of prayer climbs from this world to the highest level, like an elevator stopping at each floor."
+  },
+  {
+   "start_sec": 1640,
+   "end_sec": 1860,
+   "type": "story",
+   "title": "A niggun on Simchas Torah and the Jew still davening after Yom Kippur",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1979,
+   "end_sec": 2170,
+   "type": "story",
+   "title": "The Alter Rebbe and the over-salted fish",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2199,
+   "end_sec": 2300,
+   "type": "story",
+   "title": "The Frierdiker Rebbe and the spoonful of compote",
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 2300,
+   "end_sec": 2400,
+   "type": "story",
+   "title": "Why does the wagon driver work?"
+  },
+  {
+   "start_sec": 2487,
+   "end_sec": 3303,
+   "type": "text_study",
+   "title": "Idle talk, forbidden speech and the power of words",
+   "summary": "No word is ever lost; idle words cling to the soul, while Tehillim, Mishnayos and Torah cleanse it, since speech has the power to create worlds."
+  },
+  {
+   "start_sec": 3303,
+   "end_sec": 5969,
+   "type": "text_study",
+   "title": "Session 2: Tanya chapter 8 continued",
+   "summary": "The soul's bond with physical things, positive and negative mitzvos, guarding thought and speech, and when secular wisdom may be studied."
+  },
+  {
+   "start_sec": 3470,
+   "end_sec": 3913,
+   "type": "talk",
+   "title": "The Baal Shem Tov on 'ki sir'eh chamor': refining the body",
+   "people": [
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 4029,
+   "end_sec": 4184,
+   "type": "story",
+   "title": "Rabbi Nochum of Chernobyl and the candle he could not see"
+  },
+  {
+   "start_sec": 4184,
+   "end_sec": 4306,
+   "type": "talk",
+   "title": "Why Yitzchak Avinu's eyes grew dim",
+   "people": [
+    "yitzchak_avinu"
+   ]
+  },
+  {
+   "start_sec": 4335,
+   "end_sec": 4455,
+   "type": "story",
+   "title": "The Alter Rebbe and the glass of milk",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 4867,
+   "end_sec": 5263,
+   "type": "talk",
+   "title": "Laziness, bitul Torah and the zeal of the Akeidah",
+   "people": [
+    "avraham_avinu"
+   ]
+  },
+  {
+   "start_sec": 5263,
+   "end_sec": 5376,
+   "type": "story",
+   "title": "The first thought of the day: Rabbi Levi Yitzchak's lateness",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 5376,
+   "end_sec": 5969,
+   "type": "text_study",
+   "title": "The wisdom of the nations: when it may be learned"
+  },
+  {
+   "start_sec": 5969,
+   "end_sec": 6108,
+   "type": "review",
+   "title": "End of chapter 8 and a preview of chapter 9"
+  },
+  {
+   "start_sec": 6108,
+   "end_sec": 6393,
+   "type": "story",
+   "title": "The misnaged's blank note"
+  },
+  {
+   "start_sec": 6393,
+   "type": "closing",
+   "title": "Moshe Rabbeinu the shepherd; closing blessing",
+   "people": [
+    "moshe_rabbeinu"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "multiple_programs",
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Two weekly classes joined in one file: the first ends with 'a gute nacht' at about 55:03 and the second starts in mid-chapter 8. ASR repetition loops at about 83:05 and 88:40. Loshn-koydesh quotations are garbled."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:57Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File holds two weekly classes; consider whether to split or label as two sessions.",
+   "Story boundaries and some identities are approximate (Yiddish ASR); the Rebbe in the misnaged story is not named clearly.",
+   "Date is inferred from the sibling shiur and the Twelve Pesukim mention."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2027%20-%20Chapter%208%2C%20Forbidden%20Foods%2C%20Idle%20Talk%20and%20Worldly%20Wisdom.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 27 - Chapter 8, Forbidden Foods, Idle Talk and Worldly Wisdom.mp3",
+  "size_bytes": 77605518,
+  "mime_type": "audio/mpeg"
+ }
+}

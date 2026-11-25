@@ -1,0 +1,272 @@
+{
+ "id": "adb8ef20c7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Besimcha Ubipnimiyus",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/With Joy and From the Heart - Why One Mitzvah Is Worth More Than Gan Eden.mp3",
+  "duration_sec": 1699.712,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "With Joy and From the Heart: Why One Mitzvah Is Worth More Than Gan Eden",
+  "title_basis": "content",
+  "summary_short": "Before Shavuos, the storyteller explains why one mitzvah in this world is worth more than all of Olam Haba, with stories of the Rambam and of Reb Hillel of Paritch.",
+  "summary_long": "As we prepare for Shavuos, the storyteller explains that listening to the Aseres HaDibros in shul is like standing at Har Sinai. He then takes up the Mishnah in Pirkei Avos: one moment of teshuvah and good deeds in this world is worth more than all of Olam Haba, yet one moment of Olam Haba is sweeter than every pleasure of this world. A story of the Rambam unmasking doctors who faked curing a man born blind shows why we cannot imagine Olam Haba. The answer to the puzzle: a mitzvah joins us to Hashem Himself, like a child who wants Mommy and not her picture, or a boy who would rather bring the Rebbe a sefer than earn a reward. The Alter Rebbe would say, 'I want only You.' Finally, Reb Hillel of Paritch tells Chassidim of Rabbi Meir of Rottenburg, who stayed in prison rather than let the community be drained by ransom, and of the man who later redeemed his body and chose a place beside him in Gan Eden. Reb Hillel's surprising verdict: he should have chosen to live and put on tefillin one more day.",
+  "lesson": "A mitzvah connects us to Hashem Himself, so we should do every mitzvah with joy and from deep inside, especially as we prepare to receive the Torah on Shavuos.",
+  "keywords": [
+   "Olam Haba",
+   "Gan Eden",
+   "Aseres HaDibros",
+   "blind man",
+   "colors",
+   "babysitter",
+   "picture of Mommy",
+   "770",
+   "ransom",
+   "prison tower",
+   "tefillin",
+   "dream"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "rishonim_acharonim",
+   "mashal_parable"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Before Shavuos",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'We are all getting ready for Shavuos now'; year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A king imprisons Rabbi Meir of Rottenburg to extort ransom from the Jews."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Rabbi Meir remains in prison for the rest of his life."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Meir dies in prison; a man chooses to pass away to sit beside him in Gan Eden."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_hillel_of_paritch",
+    "role": "central"
+   },
+   {
+    "id": "rambam",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "maharam_of_rottenburg",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Rabbi Meir of Rottenburg",
+   "Rabbi Alexander, who redeemed his body",
+   "the king's doctors",
+   "the king",
+   "little Rivki and her babysitter",
+   "the Rebbe's secretary (imagined)"
+  ],
+  "topics": [
+   "mitzvos_in_daily_life",
+   "chassidim",
+   "great_rabbis",
+   "calendar"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "tefillin",
+   "aseres_hadibros"
+  ],
+  "calendar": [
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "midrash",
+    "note": "Hearing the Aseres HaDibros on Shavuos counts as receiving the Torah at Har Sinai."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:17",
+    "note": "Rabbi Yaakov: one hour of teshuvah and good deeds in this world is better than all of Olam Haba, and one hour of Olam Haba is better than all of this world."
+   },
+   {
+    "work": "mishnah",
+    "ref": "Makkos 3:16",
+    "note": "'Ratzah HaKadosh Baruch Hu l'zakos es Yisrael': Hashem gave many mitzvos."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek's report of the Alter Rebbe saying 'Ich vil dich allein'; Reb Hillel of Paritch's farbrengen story."
+   }
+  ],
+  "places": [
+   "Rottenburg",
+   "Crown Heights",
+   "770"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 13,
+   "end_sec": 188,
+   "type": "talk",
+   "title": "Preparing for Shavuos and the Mishnah about Olam Haba",
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 226,
+   "end_sec": 540,
+   "type": "story",
+   "title": "The Rambam and the 'cured' blind man",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 540,
+   "end_sec": 1096,
+   "type": "talk",
+   "title": "A mitzvah connects us to Hashem Himself",
+   "people": [
+    "alter_rebbe",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1096,
+   "end_sec": 1645,
+   "type": "story",
+   "title": "Reb Hillel of Paritch and the choice of Gan Eden",
+   "people": [
+    "rabbi_hillel_of_paritch"
+   ]
+  },
+  {
+   "start_sec": 1645,
+   "end_sec": 1685,
+   "type": "closing",
+   "title": "Doing mitzvos with joy and from the heart"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "First 13 s untranscribed (possibly the opening song). ASR garbles Olam Haba/Olam Hazeh and 'imi b'mechitzasi'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "We are all getting ready for Shavuos now.",
+   "at_sec": 13
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Opening song not transcribed; series and narrator assigned from voice style and format. Confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:05:20Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/With%20Joy%20and%20From%20the%20Heart%20-%20Why%20One%20Mitzvah%20Is%20Worth%20More%20Than%20Gan%20Eden.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/With Joy and From the Heart - Why One Mitzvah Is Worth More Than Gan Eden.mp3",
+  "size_bytes": 20397594,
+  "mime_type": "audio/mpeg"
+ }
+}

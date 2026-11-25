@@ -1,0 +1,331 @@
+{
+ "id": "97b236dd1f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "01. Logs and alter rebbe 18 elul",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul).mp3",
+  "duration_sec": 1167.6,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul)",
+  "title_basis": "filename",
+  "summary_short": "For Chai Elul, the light of Chassidus in every part of life, a riddle about filling a room, and the start of the story of an honest Chassid framed for stealing logs.",
+  "summary_long": "In the week of Chai Elul, the birthday of the Baal Shem Tov and the Alter Rebbe, the storyteller explains that Chai Elul brings life into the work of Elul, and that Chassidus brings light into everything we do, even how we play and what we wear. He recalls standing near the Rebbe in 770 when the Rebbe pointed out the picture on a boy's shirt. A riddle follows: three brothers try to fill a room to the brim, with paper, then water, and finally with light. Then the story begins. Reb Baruch, a Chassid of the Alter Rebbe known for his honesty, is hired to manage the government lumberyard that cuts logs for the new railroad, working only six days and leaving early on Friday for Shabbos. Alex, the angry former manager, hides twenty stolen logs in Reb Baruch's barn and reports him. Summoned to the minister's office, Reb Baruch asks the Alter Rebbe what to do, and the Rebbe only tells him to come back next Sunday. To be continued.",
+  "lesson": "Chassidus fills every part of life with light, and a Chassid trusts a tzaddik's instructions even when he cannot see the way out.",
+  "keywords": [
+   "lumberyard",
+   "railroad tracks",
+   "logs",
+   "minister",
+   "riddle",
+   "light",
+   "barn",
+   "summons",
+   "770"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "the-alter-rebbe-and-the-stolen-logs",
+   "part_number": 1,
+   "of": 2
+  },
+  "date": {
+   "gregorian": "2020-09",
+   "hebrew": "Week of Chai Elul 5780",
+   "hebrew_year": 5780,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'A very special week that has Chai Elul'; year inferred from the next part (COVID, before Rosh Hashanah) and part 3 (Vov Tishrei 5781)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "Reb Baruch fears the summons could mean prison, Siberia or death."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Baruch, the honest Chassid",
+   "Reb Baruch's wife",
+   "the minister",
+   "Alex, the former manager",
+   "three brothers in the riddle"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidus_tanya",
+   "hiskashrus"
+  ],
+  "midos": [
+   "emes",
+   "bitachon",
+   "kabbalas_ol",
+   "no_jealousy"
+  ],
+  "mitzvos": [
+   "shabbos"
+  ],
+  "calendar": [
+   "chai_elul",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "A letter of the Frierdiker Rebbe: children should play nicely and speak clean words at recess."
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "talk",
+   "title": "Chai Elul brings life into Elul",
+   "end_sec": 72
+  },
+  {
+   "start_sec": 72,
+   "type": "talk",
+   "title": "The light of Chassidus in everything we do",
+   "end_sec": 236,
+   "summary": "How we play, eat and dress, and a memory of the Rebbe in 770."
+  },
+  {
+   "start_sec": 236,
+   "type": "quiz",
+   "title": "Riddle: how to fill a room",
+   "end_sec": 465,
+   "summary": "Three brothers try paper, water and finally light."
+  },
+  {
+   "start_sec": 465,
+   "type": "story_chapter",
+   "title": "The stolen logs, Part 1",
+   "summary": "An honest Chassid is framed and summoned to the minister.",
+   "story_key": "the-alter-rebbe-and-the-stolen-logs",
+   "chapter": 1
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Class recording; ASR writes 'Rabbi Akiva' for Reb Baruch in places. Ends with 'next week' for the class."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Storyteller says the Frierdiker Rebbe wrote to his grandfather, then living in Pittsburgh, to be home two hours before Shabbos.",
+    "start_sec": 628
+   }
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; no theme song here, but the same narrator (family details, accent, class format) as the 'I believe in Hashem' items in this batch.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Speaker/series attribution by narrator details (same family letter as the Yud Shevat item); confirm."
+  ]
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "456522bfcc",
+   "evidence": "content",
+   "confidence": 0.97,
+   "note": "Part 2 ('02 Logs and Alter Rebbe - Rosh Hashana') opens with a recap of this story and finishes it."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0d0dca3950",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 144: Saved by a Miracle, Chapter 1 (Aseres Yemei Teshuvah)' (episode 144, 15:56-26:20), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3bb176e5dc",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6144d5e2ae",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Through the Eyes of a Tzaddik, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8446e61564",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 548: Reb Boruch and the Alter Rebbe's Blessing, Chapter 1 (Parshas Chayei Sarah)' (episode 548, 15:11-28:10), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "853da317f6",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 470: Saved by a Miracle, Chapter 2 (Before Pesach)' (episode 470), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9e76795fbd",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 469: Saved by a Miracle, Chapter 1' (episode 469, 15:45-29:50), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a6d365fb27",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 232: Saved by Miracle, Chapter 1' (episode 232, 12:36-26:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c3c1431fbb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 190: Saved by a Miracle, Chapter 1 (Elul)' (episode 190, 12:50-26:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c7ad731703",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 27: Saved by a Miracle, Chapter 2' (episode 27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d4bce1f21a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 26: Saved by a Miracle, Chapter 1' (episode 26, 15:55-26:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "da4e994561",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 145: Saved by a Miracle, Chapter 2 (Erev Sukkos)' (episode 145), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e1f0dfdd1d",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 233: Saved by Miracle, Chapter 2 (Rosh Chodesh Tammuz)' (episode 233), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f19c7a126f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 290: Saved by a Miracle, Chapter 2 (Rosh Chodesh Elul)' (episode 290), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f748313861",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 509: Saved by a Miracle (Chof-Daled Teves)' (episode 509, 10:20-29:22), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Alter%20Rebbe%20and%20the%20Stolen%20Logs%2C%20Part%201%20%28Chai%20Elul%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul).mp3",
+  "size_bytes": 14012234,
+  "mime_type": "audio/mpeg"
+ }
+}

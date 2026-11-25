@@ -1,0 +1,352 @@
+{
+ "id": "2ed007c078",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "21",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 021 - The Drunken Father (Sefiras HaOmer) (1982-04-27).mp3",
+  "duration_sec": 1829.263,
+  "filename_facts": {
+   "episode_number": 21,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 21,
+   "story": "The Drunken Father",
+   "topic": "ספירה, ל\"ג בעומר",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 21: The Drunken Father (Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "On Dalet Iyar, Uncle Yossi teaches how to 'live with the times' through the weekly parsha, tells a story with no happy ending about a drinking father, and explains Sefirah and Lag BaOmer.",
+  "summary_long": "Broadcast on 4 Iyar 5742, the week of Parshas Acharei-Kedoshim. Uncle Yossi opens the Jewish calendar and explains the Alter Rebbe's teaching to 'live with the times': learn each day's portion of the weekly parsha and take a lesson from it. Today's portion warns not to follow the ways of Egypt and Canaan; Hashem showed us how they lived only so we would know it is not our way. Three brothers recite the Shema in Studio 604. Then comes a story that 'has no happy ending'. Naftali, a fine, respectful boy, is ashamed that his father drinks too much. He leads his father to a drunk lying in the street, hoping he will see how awful it is, but the father only asks where to get such a good drink. Uncle Yossi ties it back to the parsha: we should be a living example of how pleasant a life of Torah and mitzvos is. He then explains the days of Sefirah, when Rabbi Akiva's students died for not showing each other respect, why there is no music on the program now, and the joy of Lag BaOmer, the yahrzeit of Rabbi Shimon bar Yochai. The show ends with a listener's mezuzah drawing and essay.",
+  "lesson": "Seeing how others live should teach us what not to copy; we are meant to be a living example of Torah and mitzvos. During Sefirah, work on respecting one another.",
+  "keywords": [
+   "Jewish calendar",
+   "live with the times",
+   "daily Chumash",
+   "drunkard",
+   "street corner",
+   "no music",
+   "Lag BaOmer parade",
+   "mezuzah drawing",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 21,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1982-04-27",
+   "hebrew": "4 Iyar 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'It's only April 27th... today is Dalet Iyar'; this Shabbos is Acharei-Kedoshim."
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "moderate",
+    "note": "A father's drinking problem; a child crying about it.",
+    "at_sec": 757
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "The story deliberately ends without the father changing.",
+    "at_sec": 1097
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Rabbi Akiva's students die in a plague (Sefirah explanation).",
+    "at_sec": 1420
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Three brothers (Shema guests) and a letter writer named on air.",
+    "at_sec": 572
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Naftali",
+   "Naftali's father",
+   "Naftali's mother",
+   "the drunkard in the street"
+  ],
+  "topics": [
+   "parsha",
+   "character",
+   "family_and_home",
+   "calendar"
+  ],
+  "midos": [
+   "self_control",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "kibbud_av_vaem",
+   "sefiras_haomer",
+   "shema"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [
+   "acharei",
+   "kedoshim"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 18:3",
+    "note": "'Like the practice of the land of Egypt... you shall not do.'"
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Alter Rebbe: 'Men darf leben mit der tzeit', live with the weekly parsha."
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'There is a time for everything'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 32,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 32,
+   "end_sec": 525,
+   "type": "talk",
+   "title": "Dalet Iyar: living with the parsha",
+   "summary": "The Jewish calendar, the Alter Rebbe's 'live with the times', and today's lesson from Acharei: do not copy the ways of Egypt and Canaan.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "linked_items": [
+    "86349c08d6"
+   ]
+  },
+  {
+   "start_sec": 525,
+   "end_sec": 552,
+   "type": "story_intro",
+   "title": "Story time"
+  },
+  {
+   "start_sec": 552,
+   "end_sec": 727,
+   "type": "shema_guest",
+   "title": "Shema with three brothers"
+  },
+  {
+   "start_sec": 727,
+   "end_sec": 1150,
+   "type": "story",
+   "title": "The Drunken Father",
+   "summary": "Naftali tries to cure his father's drinking by showing him a drunk in the street, but the father only asks where to get the drink.",
+   "linked_items": [
+    "86349c08d6"
+   ]
+  },
+  {
+   "start_sec": 1150,
+   "end_sec": 1345,
+   "type": "talk",
+   "title": "The lesson from Acharei-Kedoshim",
+   "summary": "Hashem shows us the ways of others only so we will reject them and be a living example of Torah and mitzvos.",
+   "linked_items": [
+    "86349c08d6"
+   ]
+  },
+  {
+   "start_sec": 1345,
+   "end_sec": 1615,
+   "type": "talk",
+   "title": "Sefirah and Lag BaOmer",
+   "summary": "Why there is no music during Sefirah, Rabbi Akiva's students, and the joy of Lag BaOmer, the yahrzeit of Rabbi Shimon bar Yochai.",
+   "people": [
+    "rabbi_akiva",
+    "rabbi_shimon_bar_yochai",
+    "shlomo_hamelech"
+   ],
+   "calendar": [
+    "sefiras_haomer",
+    "lag_baomer"
+   ],
+   "linked_items": [
+    "46a223a493"
+   ]
+  },
+  {
+   "start_sec": 1615,
+   "end_sec": 1765,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a mezuzah drawing",
+   "summary": "A girl's picture of a boy putting up a mezuzah, with her essay on the mitzvah."
+  },
+  {
+   "start_sec": 1765,
+   "end_sec": 1802,
+   "type": "announcement",
+   "title": "The story records"
+  },
+  {
+   "start_sec": 1802,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "46a223a493",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Sefira-Lag B'Omer 21' = 1358-1615 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "86349c08d6",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'The Drunken Father 21' = 344-1345 s of this episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Suggest a parent note about the alcohol theme. No music during Sefirah, as explained on air. Record offer and mailing address are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Heber",
+    "role": "shema_guest",
+    "start_sec": 572,
+    "end_sec": 727,
+    "note": "Age 8."
+   },
+   {
+    "name": "Levi Yitzchak Heber",
+    "role": "shema_guest",
+    "start_sec": 581,
+    "end_sec": 727,
+    "note": "Age 11."
+   },
+   {
+    "name": "Moishy Heber",
+    "role": "shema_guest",
+    "start_sec": 590,
+    "end_sec": 727,
+    "note": "Age 12; heard as 'Meishi'."
+   },
+   {
+    "name": "Sarah Minder",
+    "role": "mailbox_letter",
+    "group": "Highland Park, New Jersey",
+    "start_sec": 1615,
+    "end_sec": 1765
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:40:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20021%20-%20The%20Drunken%20Father%20%28Sefiras%20HaOmer%29%20%281982-04-27%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 021 - The Drunken Father (Sefiras HaOmer) (1982-04-27).mp3",
+  "size_bytes": 21952163,
+  "mime_type": "audio/mpeg"
+ }
+}

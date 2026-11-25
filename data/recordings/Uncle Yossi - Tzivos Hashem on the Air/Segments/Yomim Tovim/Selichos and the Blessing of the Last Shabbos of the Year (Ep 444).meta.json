@@ -1,0 +1,173 @@
+{
+ "id": "a0bfb40767",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Selichos 444",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Selichos and the Blessing of the Last Shabbos of the Year (Ep 444).mp3",
+  "duration_sec": 353.898,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 444,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 444,
+   "story": "The strange beggar #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Selichos and the Blessing of the Last Shabbos of the Year",
+  "title_basis": "content",
+  "summary_short": "On the last Shabbos of the year Hashem blesses the whole coming year; Uncle Yossi explains why we say Tehillim that morning and Selichos that night.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, a few days before Selichos. Uncle Yossi explains that Hashem's blessings come for a moment, a day, a week or a month, but on the last Shabbos of the year He gives a blessing for the entire coming year. As the Zohar teaches, and as we sing in Lecha Dodi, Shabbos is the source of blessing for all the days that follow, and this Shabbos includes the blessing for Rosh Hashanah. That is why we rise early to say Tehillim in shul, and, as the Baal Shem Tov taught, why Hashem Himself blesses the new month on this Shabbos. To make sure the blessing reaches us in full, we gather after midnight that Shabbos night to say Selichos, asking forgiveness, so that with a clean record we can ask to be inscribed in the Book of Life, and for next year in Yerushalayim.",
+  "lesson": "Prepare for the new year with Tehillim and Selichos, so Hashem's blessing for the whole year reaches us in full.",
+  "keywords": [
+   "last Shabbos of the year",
+   "Tehillim",
+   "Lecha Dodi",
+   "midnight prayers",
+   "forgiveness",
+   "Book of Life"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 444,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-09-11",
+   "hebrew": "21 Elul 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 444: Selichos begin 'this coming Shabbos night', Rosh Hashanah the following week."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "shabbos"
+  ],
+  "midos": [
+   "bitachon"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "tehillim",
+   "davening",
+   "shabbos"
+  ],
+  "calendar": [
+   "selichos",
+   "elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "ref": "II 63b",
+    "note": "From Shabbos all the days are blessed."
+   },
+   {
+    "work": "siddur",
+    "ref": "Lecha Dodi",
+    "note": "'Ki hi mekor haberachah.'"
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Teaching attributed to the Baal Shem Tov: Hashem Himself blesses the month of Tishrei."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0477e253d6",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 43,
+   "note": "Episode 444 (filename number); clip = 43-397 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Selichos%20and%20the%20Blessing%20of%20the%20Last%20Shabbos%20of%20the%20Year%20%28Ep%20444%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Selichos and the Blessing of the Last Shabbos of the Year (Ep 444).mp3",
+  "size_bytes": 4247689,
+  "mime_type": "audio/mpeg"
+ }
+}

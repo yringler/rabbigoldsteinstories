@@ -1,0 +1,303 @@
+{
+ "id": "4589130f5c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "25 P9",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 25 - Chapter 9, the Heart, the Mind and the Two Souls.mp3",
+  "duration_sec": 2654.171,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 25: Chapter 9, the Heart, the Mind and the Two Souls",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur opening Tanya chapter 9: the animal soul dwells in the heart, the G-dly soul in the mind, and contemplation is the key that opens love of Hashem.",
+  "summary_long": "Shiur 25 in Rabbi Yosef Goldstein's Yiddish Tanya series, the last class before the summer break. Chapter 9 begins a new section: a Jew has a G-dly soul and an animal soul, and the goal is that even the animal soul should come to love Hashem, 'with all your heart'. He brings the Rebbe's teachings on the number three at Shavuos, and the Rebbe's explanation of a harsh Gemara in Berachos as good news: each day's test comes with the strength to meet it. The Tanya text follows: the animal soul's seat is the left side of the heart, spreading through the blood to the whole body; the G-dly soul's seat is the mind, reaching the right side of the heart. A Chassidic custom of fastening garments right over left and a story of the Alter Rebbe turning right at his trial illustrate this. Contemplation of Hashem's greatness, especially through learning Chassidus, opens hidden love. He explains the levels of Torah and of the soul, the holiness of the letters aleph and beis, and teaching children the aleph-beis with holiness. He closes with a story of the Frierdiker Rebbe's daughter and wishes for a good summer.",
+  "lesson": "Every Jew can train even the animal soul to love Hashem; Hashem gives strength for each day's test, and contemplation and learning Chassidus unlock the soul's hidden love.",
+  "keywords": [
+   "animal soul",
+   "G-dly soul",
+   "heart and mind",
+   "number three",
+   "right over left",
+   "hidden pit",
+   "contemplation",
+   "five levels of the soul",
+   "Pardes",
+   "aleph-beis",
+   "summer break"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-07",
+   "hebrew": "Tammuz 5736",
+   "hebrew_year": 5736,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "After Shabbos Mevarchim Tammuz, before the Three Weeks and summer break; year from the series sequence (shiur 24 Iyar 5736, shiur 28 29 Av 5736)."
+  },
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "9",
+    "to": "9",
+    "lecture_number": 25,
+    "note": "Opening of chapter 9: the seats of the animal soul and the G-dly soul"
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Brief mention of the Alter Rebbe's trial, where his accusers set a hidden pit to test him."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_shmaryahu_gurary",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rebbetzin Chana Gurary, daughter of the Frierdiker Rebbe"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "torah_study",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "self_control",
+   "simcha",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shema",
+   "torah_study",
+   "chinuch",
+   "davening"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 9; ch. 1"
+   },
+   {
+    "work": "gemara",
+    "ref": "Kiddushin 30b (the yetzer hara grows stronger each day)"
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 6:5; Vayikra 17:11; Bereishis 1:5-8"
+   },
+   {
+    "work": "midrash",
+    "ref": "Five names of the soul"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Shabbos Mevarchim Tammuz"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 349,
+   "type": "text_study",
+   "title": "Tanya chapter 9: a new section on the two souls",
+   "summary": "The G-dly soul and the animal soul, and the goal that even the animal soul come to love Hashem."
+  },
+  {
+   "start_sec": 349,
+   "end_sec": 480,
+   "type": "sichah",
+   "title": "Shavuos and the number three",
+   "summary": "The Rebbe's talk on the threes of Shavuos and the Jewish people as a segol that stays the same however it is turned.",
+   "people": [
+    "the_rebbe"
+   ],
+   "calendar": [
+    "shavuos"
+   ]
+  },
+  {
+   "start_sec": 480,
+   "end_sec": 807,
+   "type": "sichah",
+   "title": "The good news hidden in a harsh Gemara",
+   "summary": "Each day the yetzer hara grows stronger, and the Rebbe explains this as good news: Hashem gives strength to match every test.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 807,
+   "end_sec": 1794,
+   "type": "text_study",
+   "title": "Tanya chapter 9: the animal soul in the heart, the G-dly soul in the mind",
+   "summary": "The seats of the two souls, thinking versus dwelling on a thought, and contemplation as the key to love and joy in Hashem."
+  },
+  {
+   "start_sec": 1219,
+   "end_sec": 1304,
+   "type": "talk",
+   "title": "Why garments close right over left"
+  },
+  {
+   "start_sec": 1304,
+   "end_sec": 1395,
+   "type": "story",
+   "title": "The Alter Rebbe turns to the right",
+   "summary": "At his trial the Alter Rebbe was tested with a hidden pit and passed safely by turning to the right.",
+   "people": [
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1794,
+   "end_sec": 2105,
+   "type": "talk",
+   "title": "Four levels of Torah and five levels of the soul",
+   "summary": "Each level of Torah study, up to Chassidus, reveals a deeper level of the soul."
+  },
+  {
+   "start_sec": 2105,
+   "end_sec": 2436,
+   "type": "talk",
+   "title": "The holy letters: aleph, beis and teaching a child",
+   "summary": "The shapes of aleph and beis hint at Hashem's Name and the second day of creation, and a child's first aleph-beis should be taught with holiness."
+  },
+  {
+   "start_sec": 2436,
+   "end_sec": 2525,
+   "type": "text_study",
+   "title": "Preview: two kings battling over a small city"
+  },
+  {
+   "start_sec": 2525,
+   "end_sec": 2654,
+   "type": "closing",
+   "title": "Thanks, a story of the Frierdiker Rebbe's daughter, and summer wishes",
+   "summary": "A pause is only a rest before continuing; wishes for a good summer and a return with joy.",
+   "people": [
+    "frierdiker_rebbe"
+   ],
+   "calendar": [
+    "summer_vacation"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "f9c51093c5",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "Shiur 24 covered chapter 7; this shiur opens chapter 9, so a chapter 8 class may lie between them."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Loshn-koydesh quotations and names are garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:29Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "medium",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Segment boundaries are approximate (Yiddish ASR).",
+   "Closing story: identity of the Frierdiker Rebbe's daughter (wife of Rabbi Shmaryahu Gurary) taken from garbled ASR.",
+   "Year 5736 inferred from the series sequence only."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2025%20-%20Chapter%209%2C%20the%20Heart%2C%20the%20Mind%20and%20the%20Two%20Souls.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 25 - Chapter 9, the Heart, the Mind and the Two Souls.mp3",
+  "size_bytes": 31850900,
+  "mime_type": "audio/mpeg"
+ }
+}

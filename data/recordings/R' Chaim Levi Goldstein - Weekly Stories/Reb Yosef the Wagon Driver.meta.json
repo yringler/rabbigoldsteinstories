@@ -1,0 +1,189 @@
+{
+ "id": "25f314fd8d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "R Yosef Balagola",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Yosef the Wagon Driver.mp3",
+  "duration_sec": 1206.044,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Yosef the Wagon Driver",
+  "title_basis": "filename",
+  "summary_short": "The Alter Rebbe tells a great scholar it would be better for his soul to be a wagon driver than a rav. Years later, his midnight prayers at an inn bring a lost Jew back.",
+  "summary_long": "Reb Yosef of Beshenkovichi, a Chassid of the Alter Rebbe and a great Torah scholar, reviews all six orders of the Mishnah by heart every month while his wife runs a grocery store. On one visit the Alter Rebbe tells him something mysterious: for his neshamah it would be better to become a wagon driver than a rav. Ten years later a delegation offers him the rabbinate of Lepel, and remembering the Rebbe's words, he refuses and goes to the stables to learn to drive a wagon, coming home covered in mud while the town pities him. His wife, on hearing it was the Rebbe's instruction, sells her jewelry to buy him a horse and wagon, and he resolves to be as true a Chassid as she is. Years later, at an inn on the way to Senno, he meets the Jewish business manager of a poritz who mocks davening. At midnight Reb Yosef says Tikkun Chatzos with tears and melodies, and the man, hearing the sounds of his own father's prayers, remembers his childhood, borrows Reb Yosef's tallis and tefillin, and returns to Yiddishkeit. The Mitteler Rebbe then tells Reb Yosef that his mission is complete and appoints him rav of his town.",
+  "lesson": "Follow the Rebbe's instructions with simcha even when they are hard to understand; helping one Jew return can be a person's whole mission.",
+  "keywords": [
+   "wagon driver",
+   "horse and wagon",
+   "Mishnah by heart",
+   "rabbinate offer",
+   "wife's jewelry",
+   "inn",
+   "Tikkun Chatzos",
+   "tallis and tefillin",
+   "business manager"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The business manager describes a life of drinking wine all day with the poritz."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Yosef of Beshenkovichi",
+   "his wife",
+   "the wagon drivers",
+   "the innkeeper",
+   "the poritz",
+   "Solomon, the business manager"
+  ],
+  "topics": [
+   "chassidim",
+   "chabad_rebbeim",
+   "teshuvah",
+   "hiskashrus"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "simcha",
+   "anavah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tefillin",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "note": "When you need advice, consult your wife."
+   }
+  ],
+  "places": [
+   "Beshenkovichi",
+   "Liozna",
+   "Lepel",
+   "Senno",
+   "Lubavitch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 49,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 49,
+   "type": "story",
+   "title": "Reb Yosef the Wagon Driver",
+   "people": [
+    "alter_rebbe",
+    "mitteler_rebbe"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates/parrots' for poritz. Ends on the story without a closing lesson or sign-off."
+ },
+ "relations": [],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "As usual, we start with the Nigin. I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:43:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Reb%20Yosef%20the%20Wagon%20Driver.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Yosef the Wagon Driver.mp3",
+  "size_bytes": 14473332,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "id": "76cf0bb8bb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Shiva-asar B'Tammuz-31",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - Five Sad Events (Ep 031).mp3",
+  "duration_sec": 147.421,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 31,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 31,
+   "story": "The Forbidden Road #2",
+   "topic": "Shiva-asar B’Tammuz",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Shiva Asar B'Tammuz: Five Sad Events",
+  "title_basis": "content",
+  "summary_short": "Why we fast on the 17th of Tammuz: the five sad events that happened on that day, and our prayer that it soon become a day of joy.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given two days before the fast. Uncle Yossi explains that the 17th of Tammuz is a sad day in Jewish history, set aside for fasting, prayer and tzedakah, and lists the five sad things that happened on it: Moshe Rabbeinu came down from Har Sinai, saw the golden calf and broke the tablets; the daily offerings on the altar were stopped; the walls of Yerushalayim were breached by fire, leading to the destruction of the second Beis HaMikdash; the wicked Apostomos publicly burned a Sefer Torah; and an idol was placed in the Beis HaMikdash. We ask Hashem to send Moshiach, return us to Eretz Yisroel and rebuild the Beis HaMikdash, so that this sad day becomes a Yom Tov.",
+  "lesson": "On the 17th of Tammuz we fast, pray and give tzedakah, and ask Hashem to turn the day into a Yom Tov with Moshiach.",
+  "keywords": [
+   "fast day",
+   "golden calf",
+   "broken tablets",
+   "Yerushalayim",
+   "Apostomos",
+   "Sefer Torah",
+   "idol"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 31,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1982-07-06",
+   "hebrew": "15 Tammuz 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Thursday is the 17th of Tammuz' (Thursday 8 July 1982); source episode 31."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The calamities of the 17th of Tammuz, including the burning of Yerushalayim and the Beis HaMikdash.",
+    "at_sec": 28
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Apostomos"
+  ],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "fast_days",
+   "tzedakah",
+   "davening"
+  ],
+  "calendar": [
+   "shiva_asar_btammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "01e137f549",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "offset_sec": 1536,
+   "note": "Episode 31 (filename number); clip = 1536-1684 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "'This coming Thursday' refers to 5742."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:44:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Shiva%20Asar%20B%27Tammuz%20-%20Five%20Sad%20Events%20%28Ep%20031%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Shiva Asar B'Tammuz - Five Sad Events (Ep 031).mp3",
+  "size_bytes": 1770037,
+  "mime_type": "audio/mpeg"
+ }
+}

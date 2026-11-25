@@ -1,0 +1,174 @@
+{
+ "id": "56e69c4059",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Yud Beis Tammuz 283",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Release from Prison (Ep 283).mp3",
+  "duration_sec": 366.675,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 283,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 283,
+   "story": "The Island of Treasures",
+   "topic": "Yud Beis Tammuz",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yud-Beis Tammuz: The Frierdiker Rebbe's Release from Prison",
+  "title_basis": "content",
+  "summary_short": "Sixty years after the Frierdiker Rebbe was freed from a Soviet prison on Yud-Beis Tammuz, Uncle Yossi explains why the day is a celebration for every Jewish child.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, given a few days before Yud-Beis Tammuz 5747. Uncle Yossi tells how, in 1927, the Frierdiker Rebbe, Rabbi Yosef Yitzchak Schneerson, kept teaching Torah and mitzvos in Russia although the government forbade it, especially to young children. He was jailed and his life was in danger, while Jews everywhere prayed for him. By a miracle he was freed on the twelfth of Tammuz, his own birthday, and at once went back to founding yeshivos, shuls and mikvaos, bringing Yiddishkeit to tens of thousands. His victory was a victory for all of Klal Yisroel. Uncle Yossi adds that Tzivos Hashem grew out of the Frierdiker Rebbe's deep care for Jewish children, the leaders of tomorrow, and asks everyone to make strong resolutions to learn more Torah and do more mitzvos, praying that this redemption lead to the final Geulah with Moshiach.",
+  "lesson": "The Frierdiker Rebbe risked his life so Jewish children could learn Torah; we celebrate by learning more Torah and doing more mitzvos.",
+  "keywords": [
+   "prison",
+   "Russia",
+   "1927",
+   "liberation",
+   "birthday",
+   "yeshivos",
+   "mikvah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "historical"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 283,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1987-07-07",
+   "hebrew": "10 Tammuz 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Aired in episode 283 (filename 283 07-07-87); 'sixty years ago... this coming Thursday'."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Frierdiker Rebbe is jailed in Soviet Russia for teaching Torah and his life is in danger; he is freed.",
+    "at_sec": 40
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "mesiras_nefesh_kiddush_hashem",
+   "tzivos_hashem",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "courage"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "chinuch"
+  ],
+  "calendar": [
+   "yud_beis_tammuz"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia"
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "ec81364f6e",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "Also aired in episode 333."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "342600f363",
+   "evidence": "text_overlap",
+   "confidence": 0.84,
+   "offset_sec": 20,
+   "note": "Episode 283 (filename number); clip = 20-387 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('...Hashem, here we are'); refers to 'sixty years ago' and 'this coming Thursday' (1987)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:36Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Beis%20Tammuz%20-%20The%20Frierdiker%20Rebbe%27s%20Release%20from%20Prison%20%28Ep%20283%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Beis Tammuz - The Frierdiker Rebbe's Release from Prison (Ep 283).mp3",
+  "size_bytes": 4400993,
+  "mime_type": "audio/mpeg"
+ }
+}

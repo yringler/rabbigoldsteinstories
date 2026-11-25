@@ -1,0 +1,33 @@
+{
+ "batch_id": "b036",
+ "done": [
+  "8e84116b01",
+  "e0589a9a8e",
+  "3553669bc5",
+  "664f4708ad",
+  "a29727aa73",
+  "01bf11df00",
+  "7a687e3fba",
+  "7f95606df1",
+  "83ccaab69f",
+  "8a4a20ed20",
+  "49abddd1fc",
+  "fa0b329e13",
+  "6e8228d738",
+  "49c48be342",
+  "87014a5c1e",
+  "3394fd4624",
+  "0a7586beb7",
+  "4b73fb52c9",
+  "bfcb743595",
+  "f363c33395"
+ ],
+ "failed": [],
+ "notes": [
+  "This run filled only 4b73fb52c9, bfcb743595 and f363c33395; the other 17 items were already DONE from an earlier run and were skipped.",
+  "4b73fb52c9 (Chanukah 458) is the same Zos Chanukah talk as episode 307 (6341e96d6e) and the clip 'Zos Chanukah 307' (4d54f86128). It is linked as alternate_take to that clip.",
+  "Episode 459 is dated 1990-12-25 (8 Teves 5751) from 'this coming Thursday is Asarah B'Teves', which fits episode 458 on 18 Dec. The weekly estimate (11 Dec) was two weeks early, so later estimates in this run of episodes are likely early by the same amount.",
+  "The Asarah B'Teves talk in 459 (f363c33395) is a re-used recording, also in episodes 5, 157, 260, 308, 355, 410 and 555. An audio-fingerprint candidate says it is contained in the longer clips 'Asarah B'Teves 308' (37367b27fe) and 'Asarah B'Teves 355' (64dc417cdd). Those open with a different 'month of Teves' introduction, so the overlap is probably partial. No relation was added; pass 2 should check it.",
+  "Serial 'Little Zalmy and the Spooky House' starts in 459 (chapter 1). Its story_key is little-zalmy-and-the-spooky-house, and chapter 2 is episode 460 in the next batch."
+ ]
+}

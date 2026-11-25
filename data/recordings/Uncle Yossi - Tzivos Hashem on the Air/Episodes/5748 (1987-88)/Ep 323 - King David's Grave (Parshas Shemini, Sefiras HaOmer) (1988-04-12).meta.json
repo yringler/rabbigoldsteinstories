@@ -1,0 +1,314 @@
+{
+ "id": "f73efd0eee",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "323 04-12-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 323 - King David's Grave (Parshas Shemini, Sefiras HaOmer) (1988-04-12).mp3",
+  "duration_sec": 1782.846,
+  "filename_facts": {
+   "episode_number": 323,
+   "date_in_filename": "1988-04-12",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 323,
+   "story": "King David’s Grave",
+   "topic": "Kashrus",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 323: King David's Grave (Parshas Shemini, Sefiras HaOmer)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Sefirah-time show without music: Ahavas Yisroel and Rabbi Akiva's students, the signs of a kosher animal from Parshas Shemini, and a miracle at the cave of King David's grave.",
+  "summary_long": "Broadcast the week of Parshas Shemini, during Sefiras HaOmer, so the show opens without music. Uncle Yossi explains that Rabbi Akiva's students died in a plague in these days because they did not show each other respect, and that we answer with Ahavas Yisroel and achdus. Then, following the Alter Rebbe's teaching to 'live with the times', he opens the Chumash to Parshas Shemini and teaches the two signs of a kosher animal, split hooves and chewing the cud, with examples of the pig, the camel and the rabbit, and explains that Hashem gave these laws out of love, like a father caring for his child's health. A yeshiva student in Studio 604 leads the Shema. Story time tells how a visiting king's precious sword fell into the sealed cave of King David's grave in Yerushalayim. Two servants sent down never returned, until the local rabbi, after the community recited the whole Tehillim, went down and came back with the sword, telling of a great light. The king rewarded the Jews with freedom to keep the Torah. The show ends with the Sefirah lesson, mission cards and Dial-a-Jewish-Story.",
+  "lesson": "Love and respect every Jew during Sefirah; and keep kosher, because Hashem gave us these laws out of love.",
+  "keywords": [
+   "split hooves",
+   "chewing the cud",
+   "pig",
+   "camel",
+   "rabbit",
+   "royal sword",
+   "cave",
+   "King David's tomb",
+   "Tehillim",
+   "Rabbi Akiva's students",
+   "no music"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 323,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-04-12",
+   "hebrew": "25 Nissan 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Parshas Shemini week, during Sefirah."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "Two servants lowered into the cave do not come out alive; also mentions the plague that killed Rabbi Akiva's students.",
+    "at_sec": 1306
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A yeshiva student guest is named in full in the Shema segment.",
+    "at_sec": 799
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "david_hamelech",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "aharon_hakohen",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the visiting king",
+   "the king's general",
+   "the guard of the cave",
+   "the king's servants",
+   "the rabbi of the city"
+  ],
+  "topics": [
+   "kashrus",
+   "parsha",
+   "miracles",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "kibbud",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "kashrus",
+   "ahavas_yisroel_mitzvah",
+   "tehillim",
+   "shema",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [
+   "shemini"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 11:2-8",
+    "note": "The signs of a kosher animal in Parshas Shemini."
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "The Alter Rebbe: 'Live with the times'",
+    "note": "Explained by the Mitteler Rebbe as living with the weekly parsha."
+   },
+   {
+    "work": "gemara",
+    "ref": "Yevamos 62b",
+    "note": "Rabbi Akiva's students died because they did not show each other respect (named as 'the story told', reference not given on air)."
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "Kever Dovid HaMelech"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 27,
+   "type": "opening",
+   "title": "Greeting without music for Sefirah"
+  },
+  {
+   "start_sec": 27,
+   "end_sec": 112,
+   "type": "talk",
+   "title": "Sefirah: Rabbi Akiva's students and Ahavas Yisroel",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 112,
+   "end_sec": 742,
+   "type": "talk",
+   "title": "Parshas Shemini: The Signs of a Kosher Animal",
+   "summary": "Living with the weekly parsha: split hooves and chewing the cud, with the pig, camel and rabbit as examples.",
+   "people": [
+    "alter_rebbe",
+    "mitteler_rebbe"
+   ],
+   "linked_items": [
+    "e869ca6975"
+   ]
+  },
+  {
+   "start_sec": 742,
+   "end_sec": 799,
+   "type": "story_intro",
+   "title": "A miracle at King David's grave"
+  },
+  {
+   "start_sec": 799,
+   "end_sec": 917,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva student"
+  },
+  {
+   "start_sec": 917,
+   "end_sec": 1675,
+   "type": "story",
+   "title": "King David's Grave (The Lost Sword)",
+   "summary": "A king's sword falls into the sealed cave of King David's grave, and only the city's rabbi, after the community says Tehillim, returns from the cave with it.",
+   "people": [
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 1675,
+   "end_sec": 1733,
+   "type": "talk",
+   "title": "The Sefirah lesson: respect for one another",
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 1733,
+   "end_sec": 1750,
+   "type": "announcement",
+   "title": "Mission cards"
+  },
+  {
+   "start_sec": 1750,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "e869ca6975",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Kashrus 323' = 112-732 s of this episode."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No music in this episode (Sefirah). On air the story is called 'The Lost Sword'; the catalog calls it 'King David's Grave'. Mission cards and Dial-a-Jewish-Story are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yehudah Leib Korf",
+    "role": "shema_guest",
+    "group": "Yeshiva Ohalei Torah",
+    "start_sec": 799,
+    "end_sec": 917
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20323%20-%20King%20David%27s%20Grave%20%28Parshas%20Shemini%2C%20Sefiras%20HaOmer%29%20%281988-04-12%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 323 - King David's Grave (Parshas Shemini, Sefiras HaOmer) (1988-04-12).mp3",
+  "size_bytes": 21395138,
+  "mime_type": "audio/mpeg"
+ }
+}

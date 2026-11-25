@@ -1,0 +1,24 @@
+{
+ "batch_id": "b022",
+ "done": [
+  "0d4dd89383", "03fd5128f2", "09ded4ae6f",
+  "3018dcdff0", "eb81c40bed",
+  "b55afe2c6b", "a91e103f11", "3ec5471714", "a49091ffd9",
+  "82715ff045", "d7fe4cf227", "1b70a1949c", "22b21f20ae",
+  "2673cb25a1", "b32aebb0a1", "824ac3f4d7",
+  "28f877b59d",
+  "9888017ef7", "afddab9ffe", "5b6b690fa8", "5d3579125b"
+ ],
+ "failed": [],
+ "notes": [
+  "Three pairs of duplicate clips (same recording, identical text, about 1 s apart): a91e103f11 / 3ec5471714 (Elul 340), d7fe4cf227 / 1b70a1949c (Moshiach 341), afddab9ffe / 5b6b690fa8 (Chof-Hey Elul / Rosh Hashana 344). The second id in each pair is marked superseded_by the first, with publish_recommendation 'review'. The choice between them is arbitrary.",
+  "The Storyteller serial runs from episode 339 to 344. The catalog numbers chapters #1 to #5 across 339, 340, 341, 343 and 344, but episode 342 (catalog: 'The sound of the Shofar') also airs a Storyteller chapter, so its chapter is set to null. In 339 the recap says 'in last week's chapter' even though the catalog calls 339 #1. The plot of 339 matches what example episode 408 (019e1942d3, 1989 rerun) calls chapter 2. The 1989 rerun numbering may differ, so pass 2 should reconcile the story_key 'the-storyteller' chapters across both runs.",
+  "Clip 824ac3f4d7 (Tekias Shofar 342) is an edit: the fire-bugle parable from the middle of the talk is cut out. Its content runs from about 943 s to 1730 s of episode 342, not the 943 to 1258 s in the facts.",
+  "The Tisha B'Av 337 clip (09ded4ae6f) has lower text matches (0.63 to 0.73) in episodes 238, 287, 389 and 488. I added these as aired_again_in. The part about the fast being postponed may differ in those years.",
+  "The Modeh Ani 339 clip (eb81c40bed) has a weak text match (0.3) with episode 302 (578d853efd). It may be an earlier version of the talk, so no relation was added.",
+  "Tekias Shofar 342 has fingerprint candidate 2ef8dfd816 (episode 245), which I did not verify or add.",
+  "Episode 343 has no date in its filename. 'Tonight is Chai Elul' on a Tuesday confirms 1988-08-30.",
+  "Shema guests are Kitah Aleph classes from Beis Yaakov of Boro Park in all six episodes from 339 to 344. Names are ASR approximations, recorded only in hidden.",
+  "Proposed new calendar term: chof_hei_elul (25 Elul, Creation)."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "id": "2d0d3bd8bd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sifrei Kodesh 209",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Honoring Sifrei Kodesh - Which Sefer Goes on Top (Ep 209).mp3",
+  "duration_sec": 136.19,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 209,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 209,
+   "story": "The lost letter #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Honoring Sifrei Kodesh: Which Sefer Goes on Top",
+  "title_basis": "content",
+  "summary_short": "A Mitzvah Time lesson: nothing may be placed on top of a Chumash, while books of Nevi'im and Kesuvim may be stacked on each other.",
+  "summary_long": "A short Mitzvah Time lesson from the Tzivos Hashem radio show, part of a series on kibbud sifrei kodesh, honoring holy books. Uncle Yossi recalls that the Chumash is the holiest sefer because its words were said by Hashem, and teaches today's rule about stacking books. No other sefer may ever be placed on top of a Chumash, not even a book of Nevi'im or Kesuvim. He explains that Tanach stands for Torah, Nevi'im and Kesuvim, names the five books of the Chumash, and describes Nevi'im as the prophets and Kesuvim as the writings that follow. Nevi'im and Kesuvim are equal for this rule, so either may go on top of the other, but the Chumash always goes on top.",
+  "lesson": "Show honor to holy books by always keeping the Chumash on top.",
+  "keywords": [
+   "Chumash",
+   "Tanach",
+   "Nevi'im",
+   "Kesuvim",
+   "stacking books",
+   "holy books"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-01-21",
+   "hebrew": "11 Shevat 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "From episode 209, which says Tu B'Shvat falls on 'this coming Shabbos'."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 209,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "halachah",
+   "torah_study"
+  ],
+  "midos": [
+   "kibbud"
+  ],
+  "mitzvos": [
+   "kavod_shul"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b35e60b8a2",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "offset_sec": 1488,
+   "note": "Episode 209 (filename number); clip = 1488-1624 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:45Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Honoring%20Sifrei%20Kodesh%20-%20Which%20Sefer%20Goes%20on%20Top%20%28Ep%20209%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Honoring Sifrei Kodesh - Which Sefer Goes on Top (Ep 209).mp3",
+  "size_bytes": 1635244,
+  "mime_type": "audio/mpeg"
+ }
+}

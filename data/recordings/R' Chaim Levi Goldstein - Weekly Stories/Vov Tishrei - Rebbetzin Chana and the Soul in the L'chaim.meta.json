@@ -1,0 +1,249 @@
+{
+ "id": "77984b08cb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "03. 6 tishrei - gilgul in mashke",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Vov Tishrei - Rebbetzin Chana and the Soul in the L'chaim.mp3",
+  "duration_sec": 1151.05,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Vov Tishrei: Rebbetzin Chana and the Soul in the L'chaim",
+  "title_basis": "content",
+  "summary_short": "Memories of Rebbetzin Chana for her yahrzeit, then Rabbi Levi Yitzchak of Berditchev teaches a man why a brachah matters, with a story of a soul waiting in a drop of mashke.",
+  "summary_long": "On Vov Tishrei, the yahrzeit of Rebbetzin Chana, the Rebbe's mother, the storyteller shares childhood memories: running to hold open the heavy door of her building on President Street, the pat on the shoulder she gave him, and the Rebbe's daily visits to her. He tells how she cared for refugees in Yekaterinoslav during World War I and made ink from plants for her husband's Torah writings. For the Aseres Yemei Teshuvah, he suggests a good resolution: saying brachos properly, since a brachah is meeting the King face to face. Then the story: a man comes to Rabbi Levi Yitzchak of Berditchev's shul to say Kaddish for his father's yahrzeit and gulps a l'chaim without a brachah. The Berditchever tells him of a soul that came down as a gilgul into a drop of rain, a kernel of grain and finally that very bottle of mashke, waiting for a brachah to be elevated, and it was his own father's soul. The man does teshuvah, and his father's soul finds rest.",
+  "lesson": "Say every brachah carefully and with meaning; a brachah elevates the food and the world.",
+  "keywords": [
+   "mashke",
+   "l'chaim",
+   "Kaddish",
+   "yahrzeit",
+   "steel door",
+   "refugees",
+   "ink",
+   "drop of rain",
+   "grain"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-09-23",
+   "hebrew": "Erev Vov Tishrei 5781",
+   "hebrew_year": 5781,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Tonight is Vov Tishrei'; Rosh Hashanah on Shabbos-Sunday and Yom Kippur 'next Monday' fit 5781 (or 5784); 5781 from the numbered sequence."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "moderate",
+    "note": "A soul is judged in Heaven and returns as a gilgul."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A man says Kaddish for his recently departed father."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "A l'chaim of mashke on a yahrzeit."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "The storyteller names his grandmother.",
+    "at_sec": 215
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbetzin_chana",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_schneerson",
+    "role": "mentioned"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the man saying Kaddish",
+   "his father's soul",
+   "a twelve-year-old boy from England"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "chassidic_masters",
+   "the_rebbe",
+   "teshuvah",
+   "calendar"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "chesed",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "brachos",
+   "teshuvah"
+  ],
+  "calendar": [
+   "vav_tishrei",
+   "aseres_yemei_teshuvah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "2:1",
+    "note": "'All your deeds are written in a book.'"
+   }
+  ],
+  "places": [
+   "President Street, Crown Heights",
+   "Yekaterinoslav",
+   "Berditchev"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "type": "talk",
+   "title": "Vov Tishrei: memories of Rebbetzin Chana",
+   "end_sec": 495,
+   "summary": "A pat on the shoulder, the Rebbe's daily visits, refugees and homemade ink."
+  },
+  {
+   "start_sec": 495,
+   "type": "talk",
+   "title": "Aseres Yemei Teshuvah: meeting the King in a brachah",
+   "end_sec": 681
+  },
+  {
+   "start_sec": 681,
+   "type": "story",
+   "title": "The Berditchever and the soul in the l'chaim",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Class recording; ASR writes 'Rebbe Yitzchak' / 'Rabbi Akiva' for the Berditchever."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Mrs. Winter",
+    "role": "family_member",
+    "start_sec": 215,
+    "end_sec": 250,
+    "note": "Storyteller's maternal grandmother, close to Rebbetzin Chana."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Storyteller grew up on Montgomery Street near Kingston Avenue, Crown Heights, with several brothers.",
+    "start_sec": 174
+   }
+  ]
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; no theme song here, but the same narrator (family details, accent, class format) as the 'I believe in Hashem' items in this batch.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:09:35Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Numbered '03.' after the two stolen-logs parts: a class sequence, not part of that set."
+  ]
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "8a7660b8a3",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Gilgul in the Wheat: Rabbi Levi Yitzchak and the Missing Brachah' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Vov%20Tishrei%20-%20Rebbetzin%20Chana%20and%20the%20Soul%20in%20the%20L%27chaim.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Vov Tishrei - Rebbetzin Chana and the Soul in the L'chaim.mp3",
+  "size_bytes": 13813495,
+  "mime_type": "audio/mpeg"
+ }
+}

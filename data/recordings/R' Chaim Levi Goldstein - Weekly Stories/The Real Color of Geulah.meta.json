@@ -1,0 +1,243 @@
+{
+ "id": "0c6e446f61",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Real Color of Geulah",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Real Color of Geulah.mp3",
+  "duration_sec": 1185.802,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Real Color of Geulah",
+  "title_basis": "filename",
+  "summary_short": "Why the reward of the World to Come cannot be described, explained through the Rambam's clever test of a 'cured' blind man, with a story about the power of bentching from a siddur.",
+  "summary_long": "The storyteller starts with the Yehi Ratzon said after the daily Nasi, which speaks of a light that 'no eye has seen' except Hashem. Not everything that exists can be seen, like a smell, sound, wind or electricity, and the Mishnah teaches that one moment of the World to Come, when this world becomes better than Gan Eden in the days of Moshiach, is worth more than all the pleasures of this life. To show that holy words carry hidden power, he tells of a young scholar who asked the Rebbe whether to take a job in Eretz Yisroel for parnassah; the Rebbe told him that the words and letters of Birkas HaMazon, read from a siddur, bring parnassah. Then comes the story of the Rambam, chief doctor to the sultan. Jealous doctors claim they can cure a man born blind, and at the royal trial the man counts fingers. But when the Rambam holds up red and blue cloths and he names the colors, the Rambam shows they are fakers, since someone who has never seen cannot know the names of colors. So too, the Sages cannot describe the reward of the Geulah, because nothing in our world compares to it.",
+  "lesson": "Holy words of davening and brachos carry great hidden power, and the reward waiting for us with Moshiach is beyond anything we can imagine.",
+  "keywords": [
+   "Nasi",
+   "Yehi Ratzon",
+   "World to Come",
+   "blind man",
+   "red and blue cloth",
+   "sultan",
+   "doctors",
+   "bentching",
+   "siddur",
+   "parnassah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "rishonim_acharonim",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "A living rabbi is named in a contemporary anecdote with the Rebbe.",
+    "at_sec": 368
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the sultan",
+   "the jealous doctors",
+   "the 'blind' man",
+   "a young Torah scholar"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "prayer_and_brachos",
+   "great_rabbis",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "emes"
+  ],
+  "mitzvos": [
+   "brachos",
+   "davening"
+  ],
+  "calendar": [
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The Yehi Ratzon said after the daily Nasi in Nissan."
+   },
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 64:3",
+    "note": "'No eye has seen, O G-d, except You.'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:17",
+    "note": "One moment in the World to Come is better than all of this world's life."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 368,
+   "type": "talk",
+   "title": "The light no eye has seen",
+   "summary": "The Nasi's Yehi Ratzon and the reward of the World to Come.",
+   "calendar": [
+    "nissan"
+   ]
+  },
+  {
+   "start_sec": 368,
+   "end_sec": 557,
+   "type": "story",
+   "title": "Bentching from a siddur",
+   "summary": "The Rebbe tells a young scholar that the letters of Birkas HaMazon bring parnassah.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 557,
+   "end_sec": 1095,
+   "type": "story",
+   "title": "The Rambam and the 'cured' blind man",
+   "summary": "The Rambam exposes doctors who faked a cure for blindness.",
+   "people": [
+    "rambam"
+   ]
+  },
+  {
+   "start_sec": 1095,
+   "type": "talk",
+   "title": "Why the Geulah cannot be described",
+   "summary": "Like colors to a man born blind, the reward of Moshiach's times has nothing to compare to."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "22732f6818",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rambam and the Contest of Colors' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "365d039f44",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Unimaginable Great Reward' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening song untranscribed until 0:26. ASR writes 'Rama/Ramam' for the Rambam and 'Nasi' passages in garbled Hebrew."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rabbi Yehoshua Balkany",
+    "role": "other",
+    "group": "Borough Park",
+    "start_sec": 368,
+    "end_sec": 557
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "It's perfectly planned. He's holding me tight. So I'll be all right. I believe and I trust in Hashem.",
+   "at_sec": 30
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "A living rabbi is named in the Rebbe anecdote (kept out of public text); decide whether naming him is fine."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:21Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Real%20Color%20of%20Geulah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Real Color of Geulah.mp3",
+  "size_bytes": 14230401,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,27 @@
+# credentials: never commit
+*.env
+.env*
+creds*.txt
+*.pem
+.kaggle/
+
+# audio lives in Cloudflare R2 (bucket "stories", prefix goldstein/audio/), not in git
+*.mp3
+*.wav
+*.m4a
+*.mp4
+# non-audio archive files live in R2 under goldstein/media/ (see data/catalog/media_catalog.csv)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.doc
+*.docx
+data/documents/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+_vendor/

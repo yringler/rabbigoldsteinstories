@@ -1,0 +1,148 @@
+{
+ "id": "a9ed11bf3b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefiras Haomer 473",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Counting the Omer and Looking at the Torah at Hagbah (Ep 473).mp3",
+  "duration_sec": 401.989,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 473,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 473,
+   "story": "The cup of Eliyahu Hanovie",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Counting the Omer and Looking at the Torah at Hagbah",
+  "title_basis": "content",
+  "summary_short": "Why we count the Omer: the Jewish people were so eager to receive the Torah that they counted the days. And why everyone looks at the Torah when it is lifted for hagbah.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given during Pesach after the Omer count had begun. Uncle Yossi explains that we count the Omer from the second night of Pesach until Shavuos. Leaving Egypt meant freedom, but Shavuos commemorates the giving and receiving of the Torah, 49 days later. When the Jewish people heard they would receive the Torah in 49 days, they were so excited and impatient that they began counting: today is one day, today is two days. We firmly believe that the Torah we learn today is exactly the Torah given at Har Sinai, and we show it at hagbah, when the Torah is lifted high and everyone points and says 'V'zos HaTorah.' Uncle Yossi encourages children to step closer and look at the holy letters during hagbah, especially on Yom Tov, and invites them to write to him about what they saw.",
+  "lesson": "Count the days to Shavuos with eagerness for the Torah, and honor the Torah by looking at its letters during hagbah.",
+  "keywords": [
+   "counting the Omer",
+   "49 days",
+   "Har Sinai",
+   "hagbah",
+   "V'zos HaTorah",
+   "Sefer Torah",
+   "letters to Uncle Yossi"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 473,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-02",
+   "hebrew": "18 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 473 (Chol HaMoed Pesach 5751); the Omer count has begun and the Torah is read every day of Yom Tov."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "sefiras_haomer",
+   "kavod_shul",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "shavuos"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with an invitation to mail letters to Uncle Yossi at the Tzivos Hashem address (public)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:19:04Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "f891b04599",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 1296,
+   "note": "Episode 473 (filename number); clip = 1296-1698 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Counting%20the%20Omer%20and%20Looking%20at%20the%20Torah%20at%20Hagbah%20%28Ep%20473%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Counting the Omer and Looking at the Torah at Hagbah (Ep 473).mp3",
+  "size_bytes": 4824796,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "fb02d6efff",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Vacation 434",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/No Vacation From Torah - The Breath of Life (Ep 434).mp3",
+  "duration_sec": 258.0,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 434,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 434,
+   "story": "Hashem is good",
+   "topic": "3 weeks",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "No Vacation From Torah: The Breath of Life",
+  "title_basis": "content",
+  "summary_short": "In the first week of summer vacation, Uncle Yossi explains that Torah and mitzvos are like breathing: we can take a break from school, but never from them.",
+  "summary_long": "A talk from the Tzivos Hashem radio show in the first week of summer vacation. Uncle Yossi explains that our Sages call Torah the breath of life, and that, as we say in davening, Torah and mitzvos are our life and add length to our days. There are many things we can stop doing for a while and still live: talking, looking, even eating and drinking. But no one can stop breathing, not even while asleep. During vacation we stop going to school, but there is no vacation from Torah and mitzvos. The yetzer hara comes along and says, 'It's vacation, put away the siddur and the Chumash', which is like saying, 'It's vacation, stop breathing'. So the order of the day, and of the whole vacation, is to fight the yetzer hara: set a time each day for learning Torah, davening and doing mitzvos, and take Hashem along wherever you go. Then Hashem will bless you with a safe and happy summer, and you will return to school refreshed, with more strength to learn and do more mitzvos than ever.",
+  "lesson": "There is no vacation from Torah and mitzvos: set a time every day for learning, davening and mitzvos, just as you never stop breathing.",
+  "keywords": [
+   "summer vacation",
+   "breathing",
+   "siddur",
+   "Chumash",
+   "order of the day",
+   "daily schedule"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 434,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1990-07-03",
+   "hebrew": "10 Tammuz 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "From episode 434, which says 'this coming Thursday is Yud-Beis Tammuz' (5750)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "torah_study",
+   "prayer_and_brachos",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "self_control",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Maariv, Ahavas Olam",
+    "note": "'They are our life and the length of our days.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0b62e44a6e",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 537."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "cf0dca7956",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 49,
+   "note": "Episode 434 (filename number); clip = 49-307 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same talk also aired in episode 537."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/No%20Vacation%20From%20Torah%20-%20The%20Breath%20of%20Life%20%28Ep%20434%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/No Vacation From Torah - The Breath of Life (Ep 434).mp3",
+  "size_bytes": 3096943,
+  "mime_type": "audio/mpeg"
+ }
+}

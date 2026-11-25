@@ -1,0 +1,195 @@
+{
+ "id": "db7fffffe3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "R Meir Refaels and the aguna",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Meir Refoels and the Agunah (2).mp3",
+  "duration_sec": 1189.099,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Meir Refoels and the Agunah",
+  "title_basis": "filename",
+  "summary_short": "An agunah, sent by the Alter Rebbe to the Vilna community head Reb Meir Refoels, refuses to give up until he finds her missing husband among a group of prisoners.",
+  "summary_long": "In the days of the Alter Rebbe, a Chassid brings his daughter to the Rebbe in Liozna. Her husband vanished three years ago, and as an agunah she can neither find him nor remarry. After deep thought, the Alter Rebbe tells her to go to Vilna, to Reb Meir Refoels, head of the community and one of the chief opponents of the Chassidim, and not to let go of him until he helps her. The Chassidim collect money for her journey. Reb Meir's wife scolds her for coming, and Reb Meir tells her it is impossible, but her bitter tears win a promise, and she waits at the guest house and reminds him every day while the town laughs. Reb Meir is a wealthy man with friends in the police, and he often frees Jews arrested for living or trading where Jews were not allowed. When a group of Jewish prisoners arrives, he finds her husband's name on the list. The man will not answer, but she recognizes him at once, and he agrees to give her a get in exchange for his freedom. All of Vilna gains respect for the Alter Rebbe, and Reb Meir begins to wonder whether he should become a Chassid; another miracle, for another time, will decide it.",
+  "lesson": "A tzaddik's ruach hakodesh sees what others cannot; trust his words and keep trying.",
+  "keywords": [
+   "agunah",
+   "missing husband",
+   "get",
+   "Vilna",
+   "prisoners",
+   "police list",
+   "guest house",
+   "misnagdim",
+   "Siberia"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A husband abandons his wife for three years; she receives a get at the end."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Jewish prisoners facing exile to Siberia for breaking residence laws."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the agunah",
+   "her father, a Chassid",
+   "her missing husband",
+   "Reb Meir's wife",
+   "the chief of police"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "chassidim"
+  ],
+  "midos": [
+   "hasmadah",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "hachnasas_orchim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Vilna",
+   "Liozna",
+   "Russia",
+   "Siberia"
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song; told in a scripted, storybook style ('Kinderlach'). Ends by promising the second story 'some other time'."
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "ce28d1962a",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'R Meir rafaels - Aguna': the same story, told with the 'I Believe in Hashem' song."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5e786ca354",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Agunah Is Saved, Part 1' (Stories, from 11:47), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a05fbdecf2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Agunah Is Saved, Part 2' (Stories, 5:00-11:46), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6e0946d4ee",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh: The Agunah Sent to Vilna' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "But Kinolach, he didn't find enough strength in himself to become a Chassid yet.",
+   "at_sec": 1157
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:36:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Speaker and series assigned by style only (no song); the scripted telling could be a different narrator, possibly Uncle Yossi."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Reb%20Meir%20Refoels%20and%20the%20Agunah%20%282%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Meir Refoels and the Agunah (2).mp3",
+  "size_bytes": 14270215,
+  "mime_type": "audio/mpeg"
+ }
+}

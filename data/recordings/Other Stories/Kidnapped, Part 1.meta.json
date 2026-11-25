@@ -1,0 +1,185 @@
+{
+ "id": "3835486e91",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Kidnapped Part 1",
+  "audio_path": "audio/Other Stories/Kidnapped, Part 1.mp3",
+  "duration_sec": 874.958,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "Part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Kidnapped, Part 1",
+  "title_basis": "filename",
+  "summary_short": "A Rav's little son is stolen by gypsies and raised as a poritz who hates Jews. Years later, as governor, he must sign a death sentence against the Rav after a cruel blood libel.",
+  "summary_long": "In a small Polish town, a young Rav and his wife are preparing for their son Moshele's upsherin when, one Erev Shabbos, the boy disappears. Passing gypsies have lured him with candy and carried him off, and they later sell him to a rich, childless poritz. Renamed Janusz and raised as a non-Jew, he forgets he was ever Jewish, inherits the estate, learns to hate Jews, and becomes the governor of the region. Meanwhile the Rav and his wife are blessed with more children but never stop grieving. A dishonest non-Jewish worker, sent away for stealing from Jewish homes, takes revenge before Pesach with a blood libel: he plants a body in the Rav's garden. The Rav is sentenced to death, the community leaders to life in prison, and the Jews must pay a huge fine. Only the governor's signature can stop it, and he has already turned away the Jews who came to plead. That night he cannot sleep, troubled without knowing why, and at last he falls into a strange dream. To be continued.",
+  "lesson": "Even in the darkest times, a Jew's real hope is in Hashem alone.",
+  "keywords": [
+   "kidnapped boy",
+   "gypsies",
+   "upsherin",
+   "poritz",
+   "governor",
+   "blood libel",
+   "Pesach",
+   "prison",
+   "deer hunt",
+   "dream"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "kidnapped",
+   "part_number": 1,
+   "of": null
+  }
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 9,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A three-year-old is stolen by gypsies and sold to a poritz; the parents never find him."
+   },
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "The stolen Jewish boy is raised as a non-Jew and taught to hate Jews."
+   },
+   {
+    "flag": "persecution",
+    "severity": "strong",
+    "note": "A blood libel: the Rav is sentenced to death and community leaders to life in prison."
+   },
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A man digs up a child's body and mutilates it to frame the Jews (told briefly)."
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "Ends on a cliffhanger with the Rav facing execution."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the young Rav",
+   "the Rebbetzin",
+   "Moshele, later Janusz",
+   "the gypsies",
+   "the old poritz and his wife",
+   "the dishonest worker",
+   "the judge",
+   "the governor"
+  ],
+  "topics": [
+   "jewish_history",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "bitachon",
+   "emes"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 372,
+   "type": "story_chapter",
+   "title": "Moshele is kidnapped and raised as a poritz"
+  },
+  {
+   "start_sec": 372,
+   "end_sec": 718,
+   "type": "story_chapter",
+   "title": "The blood libel"
+  },
+  {
+   "start_sec": 718,
+   "type": "story_chapter",
+   "title": "The governor cannot sleep"
+  }
+ ],
+ "relations": [],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Blood-libel content (strong persecution advisory). Part 2 not found in the archive by filename. ASR writes 'pirates'/'purrits' for poritz and once 'Moshiach' for Moshele."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Part 2 not identified; narrator unknown (no opening song, read-aloud style addressing 'Kinderlach')."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Kidnapped%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Kidnapped, Part 1.mp3",
+  "size_bytes": 10500421,
+  "mime_type": "audio/mpeg"
+ }
+}

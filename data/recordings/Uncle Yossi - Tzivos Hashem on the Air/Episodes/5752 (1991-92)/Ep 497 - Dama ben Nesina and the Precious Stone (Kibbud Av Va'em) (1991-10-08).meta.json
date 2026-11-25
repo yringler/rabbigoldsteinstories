@@ -1,0 +1,268 @@
+{
+ "id": "a3ac591009",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "497",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 497 - Dama ben Nesina and the Precious Stone (Kibbud Av Va'em) (1991-10-08).mp3",
+  "duration_sec": 1792.941,
+  "filename_facts": {
+   "episode_number": 497,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 497,
+   "story": "Kibbud Av Voaim",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 497: Dama ben Nesina and the Precious Stone (Kibbud Av Va'em)",
+  "title_basis": "content",
+  "summary_short": "After the Tishrei holidays 5752: keeping the simchah going, Shema with a yeshiva boy, the Gemara's story of Dama ben Nesina, who would not wake his father for a fortune, and a listener's riddle.",
+  "summary_long": "Uncle Yossi looks back on the shofar of Elul, Rosh Hashanah, Yom Kippur, Sukkos and the Hakafos, and tells Tzivos Hashem soldiers that a happy face is part of their uniform. After the Hakochainik march, a yeshiva boy leads the Shema. Story time is about kibbud av va'em, the mitzvah in the Ten Commandments whose reward is long life. The Gemara tells of Dama ben Nesina, a kind farmer who honored his father in every way. He finds a huge precious stone in his field and keeps it in a box whose only key lies under his father's pillow. Messengers of the Kohen Gadol come looking for exactly such a stone, but Dama will not wake his sleeping father even for a fortune, and they leave without it. The next year a completely red heifer, a parah adumah, is born on his farm, and the same messengers pay him what they had offered for the stone. If a non-Jew was rewarded so, how much more will we be. In the mailbox, a boy from Brooklyn asks to come on the show and sends a riddle. The show closes with tzedakah and Shabbos candle-lighting time.",
+  "lesson": "Honor your parents even at great cost; Hashem sees it and repays it richly.",
+  "keywords": [
+   "precious stone",
+   "diamond",
+   "key under the pillow",
+   "red heifer",
+   "Kohen Gadol",
+   "caravan",
+   "Ten Commandments",
+   "riddle",
+   "happy face"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 497,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-10-08",
+   "hebrew": "30 Tishrei 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Right after' Rosh Hashanah, Yom Kippur, Sukkos and Hakafos; candles 6:05 fits Friday 11 Oct 1991. Tuesdays 24 Sep and 1 Oct were Yom Tov, so no show."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and letter writer named in full.",
+    "at_sec": 563
+   },
+   {
+    "flag": "home_address",
+    "note": "The letter writer's street address is read on air.",
+    "at_sec": 1525
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "dama_ben_nesina",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Nesina, Dama's father",
+   "the Kohen Gadol's messengers"
+  ],
+  "topics": [
+   "family_and_home",
+   "sages",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "kibbud",
+   "simcha"
+  ],
+  "mitzvos": [
+   "kibbud_av_vaem",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Kiddushin 31a",
+    "note": "Named on air as 'Kiddushin, page 31'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 20:12",
+    "note": "Honor your father and your mother, so that your days may be lengthened."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 15,
+   "type": "opening",
+   "title": "Greeting"
+  },
+  {
+   "start_sec": 15,
+   "end_sec": 276,
+   "type": "talk",
+   "title": "Carrying the Simchah of Tishrei",
+   "summary": "A happy face is part of the uniform of a soldier in Hashem's army."
+  },
+  {
+   "start_sec": 276,
+   "end_sec": 493,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 493,
+   "end_sec": 545,
+   "type": "story_intro",
+   "title": "Tonight's story: kibbud av va'em"
+  },
+  {
+   "start_sec": 545,
+   "end_sec": 665,
+   "type": "shema_guest",
+   "title": "Shema with a yeshiva boy"
+  },
+  {
+   "start_sec": 665,
+   "end_sec": 1479,
+   "type": "story",
+   "title": "Dama ben Nesina and the Precious Stone",
+   "summary": "A man who would not wake his sleeping father even for a fortune is rewarded with a red heifer.",
+   "people": [
+    "dama_ben_nesina"
+   ]
+  },
+  {
+   "start_sec": 1479,
+   "end_sec": 1633,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: A Letter and a Riddle"
+  },
+  {
+   "start_sec": 1633,
+   "end_sec": 1668,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1668,
+   "end_sec": 1697,
+   "type": "announcement",
+   "title": "Candle-lighting time"
+  },
+  {
+   "start_sec": 1697,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mailbox reads a child's name and street address (see hidden; audio is not edited). The Shema segment appears to be the same recording used in episode 494 (same guest, same dialogue). Story mentions sums in dollars."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Harlech",
+    "role": "shema_guest",
+    "group": "Yeshivah Oholei Torah (as heard)",
+    "start_sec": 563,
+    "end_sec": 665,
+    "note": "Same guest and apparently the same recording as in episode 494."
+   },
+   {
+    "name": "Zev Kahan",
+    "role": "mailbox_letter",
+    "group": "Brooklyn, NY",
+    "start_sec": 1515,
+    "end_sec": 1633,
+    "note": "Asked to be on the show; sent a riddle. Appears as the Shema guest in episode 498 (as Zev Kahn)."
+   }
+  ],
+  "addresses": [
+   {
+    "text": "915 East 19th Street, Brooklyn, NY",
+    "start_sec": 1522,
+    "end_sec": 1532
+   }
+  ],
+  "other_personal": []
+ },
+ "relations": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:22:07Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20497%20-%20Dama%20ben%20Nesina%20and%20the%20Precious%20Stone%20%28Kibbud%20Av%20Va%27em%29%20%281991-10-08%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 497 - Dama ben Nesina and the Precious Stone (Kibbud Av Va'em) (1991-10-08).mp3",
+  "size_bytes": 21516442,
+  "mime_type": "audio/mpeg"
+ }
+}

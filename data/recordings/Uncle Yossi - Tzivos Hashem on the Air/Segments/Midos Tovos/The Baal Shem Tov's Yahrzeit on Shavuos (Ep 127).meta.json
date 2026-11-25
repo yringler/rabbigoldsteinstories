@@ -1,0 +1,147 @@
+{
+ "id": "63a6138b99",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Baal Shem Tov 127",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/The Baal Shem Tov's Yahrzeit on Shavuos (Ep 127).mp3",
+  "duration_sec": 86.817,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 127,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 127,
+   "story": "A blessing from a Tzaddik",
+   "topic": "ערב שבועות",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Baal Shem Tov's Yahrzeit on Shavuos",
+  "title_basis": "content",
+  "summary_short": "A short tribute on Erev Shavuos: the Baal Shem Tov was born on Chai Elul and passed away on the first day of Shavuos, 6 Sivan 1760.",
+  "summary_long": "A brief Erev Shavuos announcement from the Tzivos Hashem radio show. Uncle Yossi tells children that the great and holy tzaddik Rabbi Yisroel Baal Shem Tov was born on the eighteenth day of Elul in the year 5458 (1698), and that his holy neshamah returned to Hashem on the sixth day of Sivan, the first day of Shavuos, in 5520 (1760). So the first day of Shavuos that year marked the 224th anniversary of his passing. He closes with the prayer that the Baal Shem Tov's merit protect us and bring us everything good, for body and soul. In the full episode this note follows a Baal Shem Tov story told in his honor.",
+  "lesson": null,
+  "keywords": [
+   "yahrzeit",
+   "histalkus",
+   "Chai Elul",
+   "6 Sivan",
+   "1760"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 127,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1984-06-05",
+   "hebrew": "5 Sivan 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'It's Erev Shavuos'; 1760 is '224 years ago'. Cut from episode 127."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "calendar"
+  ],
+  "midos": [],
+  "mitzvos": [],
+  "calendar": [
+   "shavuos",
+   "chai_elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "0a9df2758e",
+   "evidence": "text_overlap",
+   "confidence": 0.78,
+   "offset_sec": 1508,
+   "note": "Episode 127 (filename number); clip = 1508-1595 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Very short; opens mid-sentence after the story ('It's Erev Shavuos'). '224th anniversary' is tied to 1984."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:11Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/The%20Baal%20Shem%20Tov%27s%20Yahrzeit%20on%20Shavuos%20%28Ep%20127%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/The Baal Shem Tov's Yahrzeit on Shavuos (Ep 127).mp3",
+  "size_bytes": 1042783,
+  "mime_type": "audio/mpeg"
+ }
+}

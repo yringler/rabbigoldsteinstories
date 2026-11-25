@@ -1,0 +1,297 @@
+{
+ "id": "eed6c84205",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "Simcha Shel Mitzva",
+  "audio_path": "audio/Other Stories/Simchah Shel Mitzvah - The Joy of Being Connected to Hashem.mp3",
+  "duration_sec": 2629.962,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Simchah Shel Mitzvah: The Joy of Being Connected to Hashem",
+  "title_basis": "filename",
+  "summary_short": "A class on the joy of mitzvos: a Hayom Yom on what 'mitzvah' means, and a sichah of the Rebbe comparing two kinds of joy to the wine and water poured on the Mizbeach.",
+  "summary_long": "The teacher opens the class by giving thanks: two years earlier on this day he was critically ill with COVID and Hashem brought him through. The class then studies the Hayom Yom of 8 Cheshvan: 'mitzvah' comes from 'tzavsa', joining, so every mitzvah connects the one who does it with Hashem, the One who commands it, and that connection is itself the reward. The Frierdiker Rebbe's parable of a great scholar who asks a simple man for a favor shows how a command makes the simple man important and binds the two together, whether the task is large or small. The teacher tells how the Rebbe told a bar mitzvah boy that every brachah, 'Blessed are You', is a meeting with the King, and explains why our whole day, even Shabbos meals, becomes holy. The second text is a sichah of the Rebbe: wine poured on the Mizbeach stands for a joy we understand and taste, still limited and tied to ourselves; water, which has no taste, stands for the boundless joy of doing what Hashem wants simply because He commanded it. Along the way the teacher shares childhood memories of seeing the Rebbe.",
+  "lesson": "Every mitzvah, large or small, connects us to Hashem, and the deepest joy comes from doing His will simply because He commanded it.",
+  "keywords": [
+   "Hayom Yom",
+   "reward",
+   "scholar",
+   "wine",
+   "water",
+   "Mizbeach",
+   "Simchas Beis HaShoeivah",
+   "bar mitzvah",
+   "brachah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2022-03-29",
+   "hebrew": "26 Adar II 5782",
+   "hebrew_year": 5782,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Chaf-Vav Adar Sheini', two years after his COVID crisis (26 Adar 5780); year inferred from the leap year and that interval."
+  },
+  "collections": [
+   "Story Videos"
+  ],
+  "study_text": [
+   {
+    "work": "hayom_yom",
+    "from": "8 Cheshvan",
+    "to": "8 Cheshvan",
+    "lecture_number": null,
+    "note": "Mitzvah as connection; the parable of the scholar and the simple man."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "unit": "page",
+    "from": "16",
+    "lecture_number": null,
+    "note": "A sichah in a booklet on simchah: wine and water libations as two kinds of joy."
+   }
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 10,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "The teacher briefly recalls being critically ill with COVID two years earlier."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "health_info",
+    "note": "The teacher, who is named, describes his own critical illness.",
+    "at_sec": 0
+   },
+   {
+    "flag": "identifiable_living_people",
+    "note": "The teacher is named and shares family details.",
+    "at_sec": 79
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "mentioned"
+   },
+   {
+    "id": "rambam",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a bar mitzvah boy in yechidus",
+   "a great scholar and a simple man (parable)"
+  ],
+  "topics": [
+   "chassidus_tanya",
+   "prayer_and_brachos",
+   "mitzvos_in_daily_life",
+   "the_rebbe"
+  ],
+  "midos": [
+   "simcha",
+   "kabbalas_ol",
+   "mesiras_nefesh",
+   "hakaras_hatov",
+   "anavah"
+  ],
+  "mitzvos": [
+   "brachos",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "hayom_yom",
+    "ref": "8 Cheshvan",
+    "note": "The meaning of the word mitzvah."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "4:2",
+    "note": "The reward of a mitzvah is the mitzvah."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Wine and water libations as two levels of simchah."
+   },
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "The Alter Rebbe's parable of the King in the field in Elul."
+   },
+   {
+    "work": "gemara",
+    "ref": "Sukkah 51a",
+    "note": "Whoever has not seen the Simchas Beis HaShoeivah has never seen joy."
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway",
+   "Crown Heights"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 148,
+   "type": "opening",
+   "title": "A day of thanks"
+  },
+  {
+   "start_sec": 148,
+   "end_sec": 1292,
+   "type": "text_study",
+   "title": "Hayom Yom, 8 Cheshvan: what 'mitzvah' means",
+   "summary": "A mitzvah joins us to Hashem, as a command joins a great scholar and a simple man."
+  },
+  {
+   "start_sec": 1292,
+   "end_sec": 1424,
+   "type": "story",
+   "title": "The Rebbe and the bar mitzvah boy: meeting the King",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1424,
+   "end_sec": 1626,
+   "type": "talk",
+   "title": "How fortunate we are: every act becomes a mitzvah"
+  },
+  {
+   "start_sec": 1626,
+   "type": "text_study",
+   "title": "The Rebbe's sichah: the joy of wine and the joy of water",
+   "summary": "Joy that comes from understanding versus boundless joy from doing Hashem's will."
+  },
+  {
+   "start_sec": 1962,
+   "end_sec": 2156,
+   "type": "story",
+   "title": "Childhood memories of the Rebbe",
+   "people": [
+    "the_rebbe",
+    "rebbetzin_chaya_mushka"
+   ]
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Recorded live with a class (students' questions faintly heard). ASR loop at about 8:01 ('Tzav, Tzav...'). The texts are read in Hebrew and translated."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rabbi Goldstein",
+    "role": "other",
+    "start_sec": 79,
+    "end_sec": 100,
+    "note": "The teacher refers to himself ('go notify Rabbi Goldstein's wife')."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "The teacher was the first Crown Heights patient hospitalized for COVID; on 26 Adar 5780 doctors did not expect him to survive the day.",
+    "start_sec": 0,
+    "end_sec": 148
+   },
+   {
+    "kind": "family_detail",
+    "text": "As a small child his family lived on the second floor of the President St and New York Ave building where the Rebbe and Rebbetzin lived; he attended a kindergarten next door to the Rebbe's later house.",
+    "start_sec": 1983,
+    "end_sec": 2156
+   }
+  ]
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "A live class rather than a story program; check it belongs in Story Videos.",
+   "Teacher is named and shares health and family details; confirm publication."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Simchah%20Shel%20Mitzvah%20-%20The%20Joy%20of%20Being%20Connected%20to%20Hashem.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Simchah Shel Mitzvah - The Joy of Being Connected to Hashem.mp3",
+  "size_bytes": 31560563,
+  "mime_type": "audio/mpeg"
+ }
+}

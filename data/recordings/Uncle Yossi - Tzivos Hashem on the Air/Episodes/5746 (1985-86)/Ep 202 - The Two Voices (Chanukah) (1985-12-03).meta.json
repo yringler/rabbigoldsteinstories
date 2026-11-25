@@ -1,0 +1,272 @@
+{
+ "id": "995045d616",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "202",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 202 - The Two Voices (Chanukah) (1985-12-03).mp3",
+  "duration_sec": 1789.775,
+  "filename_facts": {
+   "episode_number": 202,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 202,
+   "story": "The two voices",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 202: The Two Voices (Chanukah)",
+  "title_basis": "master_catalog",
+  "summary_short": "Days before Chanukah, Uncle Yossi shares mezuzah contest entries, hosts a young Shema guest, and tells of a girl torn between two voices over a dime she finds on Shabbos.",
+  "summary_long": "Broadcast a few days before Chanukah 5746, around the program's 200th show. Uncle Yossi describes colorful mezuzah drawings sent in for the My Mezuzah contest and reminds listeners that entries close by Chanukah, when the winner receives a mezuzah written in Eretz Yisroel. After the Hakochainik march, an eight-year-old boy from a Lubavitch yeshiva leads the Shema, recites a Mishnah from Berachos by heart, and his father offers a blessing to the program. Before the story, Uncle Yossi explains that the Chanukah lights remind us to bring light into the world with Torah and mitzvos and to fight the yetzer hara. In the story, Sarah finds a dime on her way to a friend's house on Shabbos and hears two voices, one urging her to pick it up and one reminding her of Shabbos. Her father explains with a parable about a beggar who cut a 'small' rope in a rich man's attic and brought down a magnificent chandelier: there is no such thing as a small sin. The show ends with a reminder to light the first Chanukah candle on Saturday night.",
+  "lesson": "There is no such thing as a small sin: listen to the yetzer tov and bring light into the world with Torah and mitzvos.",
+  "keywords": [
+   "dime",
+   "chandelier",
+   "beggar",
+   "rope",
+   "mezuzah contest",
+   "yetzer hara",
+   "yetzer tov",
+   "Mishnah Berachos",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction",
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-12-03",
+   "hebrew": "20 Kislev 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Said on air: this coming Saturday night is the first night of Chanukah (24 Kislev 5746 = 7 Dec 1985); the Tuesday before is 3 Dec, matching the weekly estimate."
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 202,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Contest entrants and the Shema guest are named on air.",
+    "at_sec": 36
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Sarah",
+   "Sarah's father",
+   "the rich man",
+   "the beggar",
+   "the butler"
+  ],
+  "topics": [
+   "character",
+   "shabbos",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "self_control",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "chanukah_lights",
+   "shema",
+   "mezuzah"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Berachos 1:4",
+    "note": "Recited by heart by the Shema guest ('the first chapter of Brachos')."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 285,
+   "type": "announcement",
+   "title": "My Mezuzah Contest entries",
+   "summary": "Uncle Yossi describes two mezuzah drawings from a brother and sister and urges listeners to send entries before Chanukah."
+  },
+  {
+   "start_sec": 285,
+   "end_sec": 434,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 434,
+   "end_sec": 745,
+   "type": "shema_guest",
+   "title": "Shema with a young guest",
+   "summary": "An eight-year-old yeshiva student leads the Shema, recites a Mishnah from Berachos, and his father greets the listeners."
+  },
+  {
+   "start_sec": 745,
+   "end_sec": 1050,
+   "type": "talk",
+   "title": "The Chanukah Lights and the Yetzer Hara",
+   "summary": "The menorah reminds us to bring light into the world with Torah and mitzvos and to ignore the yetzer hara.",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 1050,
+   "end_sec": 1737,
+   "type": "story",
+   "title": "The Two Voices",
+   "summary": "Sarah finds a dime on Shabbos, hears two voices, and learns from her father's chandelier parable that no sin is small."
+  },
+  {
+   "start_sec": 1737,
+   "type": "closing",
+   "title": "Closing: first Chanukah candle on Saturday night"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "953c616177",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 1: The Two Voices' (episode 1, 7:59-19:38), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The two 'voices' in the story are partly untranscribed (gaps around 18:00-21:00), probably voiced effects. Contest dates are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Feige Mindel Rothman",
+    "role": "contest_winner",
+    "group": "Morristown, New Jersey (mezuzah contest entrant)",
+    "start_sec": 36,
+    "end_sec": 180
+   },
+   {
+    "name": "Avraham Chaim Rothman",
+    "role": "contest_winner",
+    "group": "Morristown, New Jersey (mezuzah contest entrant, age 6)",
+    "start_sec": 36,
+    "end_sec": 180
+   },
+   {
+    "name": "David Brownstein",
+    "role": "shema_guest",
+    "group": "Lubavitcher Yeshiva, Kitah Dalet, age 8",
+    "start_sec": 434,
+    "end_sec": 745
+   },
+   {
+    "name": "Rabbi Rimler",
+    "role": "other",
+    "group": "Teacher of the Shema guest, Lubavitcher Yeshiva Kitah Dalet",
+    "start_sec": 485,
+    "end_sec": 500
+   },
+   {
+    "name": "Mr. Brownstein",
+    "role": "visitor",
+    "group": "Father of the Shema guest",
+    "start_sec": 700,
+    "end_sec": 740
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Shema guest learns in Lubavitcher Yeshiva, Kitah Dalet (teacher Rabbi Rimler).",
+    "start_sec": 485,
+    "end_sec": 515
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:52:30Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20202%20-%20The%20Two%20Voices%20%28Chanukah%29%20%281985-12-03%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 202 - The Two Voices (Chanukah) (1985-12-03).mp3",
+  "size_bytes": 21478199,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,339 @@
+{
+ "id": "a815fbd757",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "359 01-10-89",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 359 - The Return of Yehudah, Chapter 4 (1989-01-10).mp3",
+  "duration_sec": 1731.81,
+  "filename_facts": {
+   "episode_number": 359,
+   "date_in_filename": "1989-01-10",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 359,
+   "story": "The return of Yehudah #4",
+   "topic": "This is way wash hands",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 359: The Return of Yehudah, Chapter 4",
+  "title_basis": "master_catalog",
+  "summary_short": "News of the Jewish Children's Expo, two sisters say the Shema and a pasuk, Sarah discovers baby Yehudah is missing, and little Zalman shows how to wash negel vasser.",
+  "summary_long": "Uncle Yossi opens with news of Tzivos Hashem's second Jewish Children's Expo at the Javits Center in New York, after last year's huge success, with dates and hours for schools and the public. After the Hakochainik march and a recap of the story, two young sisters from Beis Rivka, with their father, recite the Shema and one of the Twelve Pesukim, and their father thanks the program. Story time continues The Return of Yehudah: safe in the wagon deep in the forest, Reb Moshe and Sarah thank Hashem for their escape, until Sarah unwraps the blanket and finds it empty. Baby Yehudah is still in the pit, and going back means facing the cruel poritz. Reb Moshe weeps and prays, 'Avinu Malkeinu, show me which way to turn.' Uncle Yossi reports on the Shiviti signs pouring in, then continues the morning routine with a little play: Zalman shows his mother how his teacher taught the class to wash negel vasser, three times on each hand, and says the brachah, followed by a hand-washing song. The show ends with a call for listeners' essays and poems, Friday's candle time and Dial-a-Jewish-Story.",
+  "lesson": "Wash negel vasser carefully each morning, and in a hard moment turn to Hashem in prayer.",
+  "keywords": [
+   "Jewish Children's Expo",
+   "Javits Center",
+   "wagon",
+   "blanket",
+   "pit",
+   "Twelve Pesukim",
+   "negel vasser",
+   "washing cup",
+   "Shiviti sign"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "collections": [
+   "Radio episodes"
+  ],
+  "episode": {
+   "number": 359,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1989-01-10",
+   "hebrew": "4 Shevat 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: candle lighting 'this coming Friday, January the 13th'."
+  },
+  "serial": {
+   "story_key": "the-return-of-yehudah",
+   "story_title": "The Return of Yehudah",
+   "chapter": 4
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A baby is left alone in a pit; his parents fear for their lives if they return for him.",
+    "at_sec": 1038
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two sisters named in full with ages, school and teachers; see hidden.",
+    "at_sec": 634
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Reb Moshe",
+   "Sarah",
+   "baby Yehudah",
+   "the poritz",
+   "little Zalman",
+   "Zalman's mother"
+  ],
+  "topics": [
+   "morning_routine",
+   "emunah_bitachon",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "brachos",
+   "shema",
+   "twelve_pesukim",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 305,
+   "type": "announcement",
+   "title": "The Jewish Children's Expo at the Javits Center",
+   "summary": "Dates, hours and reservations for Tzivos Hashem's second children's exposition."
+  },
+  {
+   "start_sec": 305,
+   "end_sec": 515,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 515,
+   "end_sec": 606,
+   "type": "story_intro",
+   "title": "Story time: where we left off",
+   "story_key": "the-return-of-yehudah",
+   "chapter": 4
+  },
+  {
+   "start_sec": 606,
+   "end_sec": 947,
+   "type": "shema_guest",
+   "title": "Shema and a pasuk with two sisters from Beis Rivka"
+  },
+  {
+   "start_sec": 947,
+   "end_sec": 1192,
+   "type": "story_chapter",
+   "title": "The Return of Yehudah, Chapter 4",
+   "summary": "Sarah discovers she took the wrong blanket and Yehudah is still in the pit; Reb Moshe prays for guidance.",
+   "story_key": "the-return-of-yehudah",
+   "chapter": 4
+  },
+  {
+   "start_sec": 1192,
+   "end_sec": 1253,
+   "type": "announcement",
+   "title": "The Shiviti signs are pouring in"
+  },
+  {
+   "start_sec": 1253,
+   "end_sec": 1503,
+   "type": "talk",
+   "title": "Morning routine: little Zalman's negel vasser homework",
+   "summary": "A short play showing how to wash negel vasser three times on each hand and say the brachah.",
+   "linked_items": [
+    "a04a4cbaa0"
+   ]
+  },
+  {
+   "start_sec": 1503,
+   "end_sec": 1577,
+   "type": "song",
+   "title": "Hand-washing song",
+   "linked_items": [
+    "a04a4cbaa0"
+   ]
+  },
+  {
+   "start_sec": 1577,
+   "end_sec": 1623,
+   "type": "announcement",
+   "title": "Send in your essays and poems"
+  },
+  {
+   "start_sec": 1623,
+   "end_sec": 1647,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1647,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "a04a4cbaa0",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'Morning Routine-2 359' = 1253-1577 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "e5af19b792",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Episode 358 = 'The return of Yehudah #3'."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "e5af19b792",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Return of Yehudah' (1988-89): ep 358 ch. 3 and ep 359 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "b4e30d4905",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Return of Yehudah' (1988-89): ep 359 ch. 4 and ep 360 ch. 5 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Expo dates and phone number, call for entries and candle time are period pieces. Guest family's names, ages, schools and teachers are heard on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Malka Shendel Schwartz",
+    "role": "shema_guest",
+    "group": "Beis Rivka, Kitah Beis, Morah Galerinta(?); age 7",
+    "start_sec": 634,
+    "end_sec": 947
+   },
+   {
+    "name": "Nechama Dina Schwartz",
+    "role": "shema_guest",
+    "group": "Beis Rivka, Kitah Aleph, Morah Sara; age 6",
+    "start_sec": 634,
+    "end_sec": 947
+   },
+   {
+    "name": "Rabbi Moshe Schwartz",
+    "role": "visitor",
+    "group": "father of the Shema guests; teacher at Tomchei Temimim, Ocean Parkway",
+    "start_sec": 634,
+    "end_sec": 947
+   },
+   {
+    "name": "Morah Galerinta (as heard)",
+    "role": "visitor",
+    "group": "teacher named on air, Beis Rivka Kitah Beis",
+    "start_sec": 664,
+    "end_sec": 680
+   },
+   {
+    "name": "Morah Sara",
+    "role": "visitor",
+    "group": "teacher named on air, Beis Rivka Kitah Aleph",
+    "start_sec": 664,
+    "end_sec": 680
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Schools, grades and teachers of the two Shema guests; the father's workplace.",
+    "start_sec": 634,
+    "end_sec": 691
+   },
+   {
+    "kind": "family_detail",
+    "text": "Ages of the two sisters (7 and 6) given on air.",
+    "start_sec": 664,
+    "end_sec": 680
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:50:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20359%20-%20The%20Return%20of%20Yehudah%2C%20Chapter%204%20%281989-01-10%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 359 - The Return of Yehudah, Chapter 4 (1989-01-10).mp3",
+  "size_bytes": 20782619,
+  "mime_type": "audio/mpeg"
+ }
+}

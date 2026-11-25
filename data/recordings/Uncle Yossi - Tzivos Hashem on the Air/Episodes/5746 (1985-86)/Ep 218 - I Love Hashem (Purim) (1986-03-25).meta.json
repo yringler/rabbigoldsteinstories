@@ -1,0 +1,292 @@
+{
+ "id": "5120830d37",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "218",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 218 - I Love Hashem (Purim) (1986-03-25).mp3",
+  "duration_sec": 1855.515,
+  "filename_facts": {
+   "episode_number": 218,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 218,
+   "story": "I love Hashem",
+   "topic": "שמחת פורים",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 218: I Love Hashem (Purim)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's Purim night show: the Purim Merrymakers land in Studio 604 by helicopter, a guest sings Purim songs with graggers, and a boy learns from a mirror why we serve Hashem with joy.",
+  "summary_long": "Broadcast on Purim night. Every time Uncle Yossi tries to open the program, he is drowned out by strange noises and laughter, until a helicopter lands in Studio 604 and the Purim Merrymakers, little soldiers of Tzivos Hashem, march out to remind everyone that on Purim it is a mitzvah to be happy. Listeners get their graggers ready while a guest singer performs Purim songs, with everyone drowning out Haman's name. Uncle Yossi recalls how Mordechai gathered Jewish children to learn Torah, whose pure voices helped annul Haman's decree, and a young girl recites the Shema. After a sponsor message, story time: Beryl comes home and asks his mother for a large mirror. His teacher taught, following the Baal Shem Tov, that we can learn from everything: a mirror shows a happy face back to a happy face, so if we serve Hashem with joy, Hashem shines joy back to us. We are happy because we have a neshamah, because we have the Torah and mitzvos, and because they bring us close to Hashem. Beryl then sings the song 'I Love Hashem'.",
+  "lesson": "Serve Hashem with joy: we have a neshamah, the Torah and mitzvos, and every mitzvah brings us closer to Hashem.",
+  "keywords": [
+   "Purim Merrymakers",
+   "helicopter",
+   "gragger",
+   "Purim songs",
+   "mirror",
+   "happy face",
+   "I Love Hashem song",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 218,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-03-25",
+   "hebrew": "14 Adar II 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Purim night program; episode 217 announced it for 'Purim night, next Tuesday' after Taanis Esther on Monday, March 24. Matches the weekly estimate."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 3,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full; a guest singer is also named.",
+    "at_sec": 990
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Purim Merrymakers",
+   "Beryl",
+   "Beryl's mother",
+   "Beryl's teacher"
+  ],
+  "topics": [
+   "calendar",
+   "character",
+   "emunah_bitachon",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shema",
+   "megillah",
+   "torah_study",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "100:2",
+    "note": "'Serve Hashem with joy.'"
+   },
+   {
+    "work": "midrash",
+    "note": "Mordechai gathered Jewish children to learn Torah, which annulled Haman's decree (attributed on air to the Megillah)."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Baal Shem Tov: learn a lesson in serving Hashem from everything you see or hear."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 266,
+   "type": "opening",
+   "title": "Purim opening: the Purim Merrymakers land in Studio 604"
+  },
+  {
+   "start_sec": 266,
+   "end_sec": 555,
+   "type": "song",
+   "title": "Purim Merrymakers song"
+  },
+  {
+   "start_sec": 555,
+   "end_sec": 628,
+   "type": "talk",
+   "title": "Get your gragger ready",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 628,
+   "end_sec": 893,
+   "type": "song",
+   "title": "Purim songs with a guest singer and graggers",
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 893,
+   "end_sec": 976,
+   "type": "talk",
+   "title": "Mordechai and the Jewish children",
+   "summary": "The pure voices of children learning Torah helped turn Purim into a day of joy.",
+   "people": [
+    "mordechai"
+   ],
+   "calendar": [
+    "purim"
+   ]
+  },
+  {
+   "start_sec": 976,
+   "end_sec": 1105,
+   "type": "shema_guest",
+   "title": "Shema with a student from Beis Rivkah"
+  },
+  {
+   "start_sec": 1105,
+   "end_sec": 1200,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 1200,
+   "end_sec": 1625,
+   "type": "story",
+   "title": "I Love Hashem: The Lesson of the Mirror",
+   "summary": "Beryl shows his mother what his teacher taught with a mirror: serve Hashem with a happy face."
+  },
+  {
+   "start_sec": 1625,
+   "end_sec": 1725,
+   "type": "song",
+   "title": "I Love Hashem (song)"
+  },
+  {
+   "start_sec": 1725,
+   "type": "closing",
+   "title": "Purim greetings and closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening skit with sound effects and long songs is only partly transcribed. Sponsor ad with prices and phone number. Guest singer and Shema guest are in hidden."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Elchanan Fogelman",
+    "role": "visitor",
+    "group": "Guest singer of Purim songs",
+    "start_sec": 628,
+    "end_sec": 893
+   },
+   {
+    "name": "Nechama Dina Sperling",
+    "role": "shema_guest",
+    "group": "Beis Rivkah",
+    "start_sec": 976,
+    "end_sec": 1105
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:55:36Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "1658b83955",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "The Purim Merrymakers helicopter opening (about 0-555 s) also aired in episode 166 (checked: same wording)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20218%20-%20I%20Love%20Hashem%20%28Purim%29%20%281986-03-25%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 218 - I Love Hashem (Purim) (1986-03-25).mp3",
+  "size_bytes": 22267201,
+  "mime_type": "audio/mpeg"
+ }
+}

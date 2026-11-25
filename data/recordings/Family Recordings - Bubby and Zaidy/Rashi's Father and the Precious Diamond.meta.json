@@ -1,0 +1,264 @@
+{
+ "id": "5e3346ab8e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Rashi",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Rashi's Father and the Precious Diamond.mp3",
+  "duration_sec": 478.998,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "duplicate copy 00fb9475c4 was filed under 'Stories/אידיש/Yiddish stories/Bubby Chaya Malka etc' (language guess there: yiddish)"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Rashi's Father and the Precious Diamond",
+  "title_basis": "content",
+  "summary_short": "A Yiddish story for grandchildren: Rashi's poor father would not sell a precious diamond for an idol, and was blessed with a son who would light up the world with Torah.",
+  "summary_long": "Told in Yiddish by a grandmother to her grandchildren. It is just before Pesach, and Rashi's parents are so poor that they have nothing for Yom Tov and long for a child. Davening by the sea, Rashi's father finds a huge diamond. A jeweler values it at a hundred thousand thalers and says the local poritz needs it for the eye of an idol. Rashi's father refuses to let it serve idol worship, but fears the poritz's anger, so he offers to show the poritz the diamond on his ship, where it 'falls' into the sea. The poritz sends him home empty-handed, and Rashi's parents rejoice that they were saved from helping idol worship, even if they stay poor. That night an angel tells him that, in reward, he and his wife will have a son who will light up the whole world with his Torah: Rashi, whom every child and adult learns with the Chumash. The grandmother ends by praising each grandchild's good behavior and asking them to listen to their parents and make them happy.",
+  "lesson": "Never give up a mitzvah for money; Hashem rewards those who stay loyal to Him. Children who listen to their parents bring them joy.",
+  "keywords": [
+   "diamond",
+   "idol",
+   "ship",
+   "sea",
+   "jeweler",
+   "angel",
+   "Pesach",
+   "grandchildren"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "Home recording of a grandmother telling a story to her grandchildren."
+   },
+   {
+    "flag": "minor_named",
+    "note": "The grandchildren are named in the closing words.",
+    "at_sec": 434
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rashi",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_yitzchak_father_of_rashi",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Rashi's mother",
+   "the jeweler",
+   "the poritz",
+   "an angel"
+  ],
+  "topics": [
+   "great_rabbis",
+   "family_and_home"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "yiras_shamayim",
+   "contentment"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 381,
+   "type": "story",
+   "title": "Rashi's father and the diamond",
+   "summary": "Rashi's father will not let a precious diamond become an idol's eye, and an angel promises him a son.",
+   "people": [
+    "rabbi_yitzchak_father_of_rashi",
+    "rashi"
+   ]
+  },
+  {
+   "start_sec": 381,
+   "type": "talk",
+   "title": "Being good children",
+   "summary": "The grandmother praises her grandchildren and asks them to listen to their parents."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "5a4ae6ea03",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 114: A Diamond from Heaven, Chapter 2 (Adar)' (episode 114, 7:45-20:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "602df7aae5",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 520: A Diamond from Heaven (Purim)' (episode 520, 11:01-24:21), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "8a1af814fc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 400: The Diamond from Heaven (Shabbos Bereishis)' (episode 400, 14:08-29:15), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "99501986ed",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 312: A Diamond From Heaven' (episode 312, 16:17-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "9f2e683d65",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 113: A Diamond from Heaven, Chapter 1 (Adar)' (episode 113, 14:40-23:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "c1108114ba",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 480: A Diamond from Heaven' (episode 480, 11:52-27:27), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 12:15-19:25), told by Bubby Chaya Malka."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Yiddish with some English words (baby, diamond, jeweler). Speaker assigned from the folder of its duplicate copy (Bubby Chaya Malka)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rachele",
+    "role": "family_member",
+    "start_sec": 434,
+    "end_sec": 478
+   },
+   {
+    "name": "Chezkele",
+    "role": "family_member",
+    "start_sec": 434,
+    "end_sec": 478
+   },
+   {
+    "name": "Kalmenle (Kalmi)",
+    "role": "family_member",
+    "start_sec": 434,
+    "end_sec": 478
+   },
+   {
+    "name": "Shimi",
+    "role": "family_member",
+    "start_sec": 434,
+    "end_sec": 478
+   },
+   {
+    "name": "Toibi (Toiberle)",
+    "role": "family_member",
+    "start_sec": 434,
+    "end_sec": 478
+   },
+   {
+    "name": "a girl, name unclear (heard as 'Voile', perhaps Dvoyle)",
+    "role": "family_member",
+    "start_sec": 434,
+    "end_sec": 478
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Describes each grandchild's behavior at home; Toibi is a baby.",
+    "start_sec": 434,
+    "end_sec": 478
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:20:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Family recording: grandchildren named at the end.",
+   "Speaker taken from the duplicate's folder (Bubby Chaya Malka); confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Rashi%27s%20Father%20and%20the%20Precious%20Diamond.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Rashi's Father and the Precious Diamond.mp3",
+  "size_bytes": 5748841,
+  "mime_type": "audio/mpeg"
+ }
+}

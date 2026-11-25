@@ -1,0 +1,165 @@
+{
+ "id": "676b74eea3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "Siyum HaRambam 170",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/The Rambam's 850th Birthday and the Great Siyum (Ep 170).mp3",
+  "duration_sec": 194.074,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 170,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 170,
+   "story": "The Rambam’s resting place #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Rambam's 850th Birthday and the Great Siyum",
+  "title_basis": "content",
+  "summary_short": "On the eve of the Rambam's 850th birthday, Uncle Yossi explains why Jews around the world learned his Mishneh Torah all year and are celebrating its completion with a grand siyum.",
+  "summary_long": "A short holiday talk from the Tzivos Hashem radio show, given the week of Pesach 5745. The Rambam's 850th birthday falls on Yud-Daled Nissan, Erev Pesach. Uncle Yossi recalls the saying 'from Moshe to Moshe there arose none like Moshe', comparing the Rambam, Rabbeinu Moshe ben Maimon, to Moshe Rabbeinu. He explains that the Rambam himself advised that to know the whole Torah one should learn his Mishneh Torah, also called the Yad HaChazakah, right after the Five Books of the Chumash, since it teaches all the laws of the Torah in detail. For the past year Jewish communities all over the world have been learning it, some three chapters a day, to finish it in time for his birthday. The grand siyum will celebrate both finishing it and beginning it again with even more spirit and joy, and every child is invited to take part.",
+  "lesson": "Honor the Rambam by learning his Mishneh Torah, and celebrate finishing Torah learning by starting again with even more joy.",
+  "keywords": [
+   "Rambam",
+   "850th birthday",
+   "Mishneh Torah",
+   "Yad HaChazakah",
+   "siyum",
+   "three chapters a day"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 170,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-04-02",
+   "hebrew": "11 Nissan 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Says the Rambam's 850th birthday, Yud-Daled Nissan, is 'this coming Friday' (5 Apr 1985); clip of episode 170."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "great_rabbis",
+   "torah_study",
+   "calendar"
+  ],
+  "midos": [
+   "hasmadah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "rambam_daily",
+   "torah_study"
+  ],
+  "calendar": [
+   "erev_pesach",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Introduction",
+    "note": "The Rambam's advice to learn the Mishneh Torah right after the Written Torah."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to the 5745 (1985) siyum and 'this coming Friday'; ends before the event details."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:08Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "460a27675c",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 51,
+   "note": "Episode 170 (filename number); clip = 51-245 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/The%20Rambam%27s%20850th%20Birthday%20and%20the%20Great%20Siyum%20%28Ep%20170%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/The Rambam's 850th Birthday and the Great Siyum (Ep 170).mp3",
+  "size_bytes": 2329900,
+  "mime_type": "audio/mpeg"
+ }
+}

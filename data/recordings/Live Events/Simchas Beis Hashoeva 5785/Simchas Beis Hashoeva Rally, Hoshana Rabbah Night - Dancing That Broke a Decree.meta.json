@@ -1,0 +1,313 @@
+{
+ "id": "3b05d42392",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Rally 7th Night Sukkos",
+  "audio_path": "audio/Live Events/Simchas Beis Hashoeva 5785/Simchas Beis Hashoeva Rally, Hoshana Rabbah Night - Dancing That Broke a Decree.mp3",
+  "duration_sec": 1659.063,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Simchas Beis Hashoeva Rally, Hoshana Rabbah Night: Dancing That Broke a Decree",
+  "title_basis": "content",
+  "summary_short": "A live children's rally on the night of Hoshana Rabbah: the Twelve Pesukim, dancing with the Ushpizin, and a Chassid of the Tzemach Tzedek whose joy saved his sick son.",
+  "summary_long": "A live Simchas Beis Hashoeva rally on the seventh night of Sukkos, Hoshana Rabbah. The host introduces the night's Ushpizin, Dovid HaMelech and the Rebbe Rashab, who both work to bring Moshiach, and children come up to recite the Twelve Pesukim, ending with 'We want Moshiach now'. With Simcha Engel the puppet, the host explains Hoshana Rabbah, the sweet apple in honey, and how all the Ushpizin come every night with one leading; as the Rebbe taught, when you take another Jew's hand and dance, you are dancing with Moshiach. He reminds the children of the Rebbe's request that each child have his own siddur, Chumash and tzedakah box. Then a story: a Chassid of the Tzemach Tzedek travels for days to the Rebbe on Hoshana Rabbah because his son is gravely ill, and receives a blessing that does not sound like a promise. He says Tehillim all day in tears, but at night, when everyone dances hakafos, he decides Hashem wants him to dance, and dances through Shemini Atzeres and Simchas Torah. The Tzemach Tzedek then tells him his joy broke the decree, and he finds his son healthy at home. The rally closes with 'I Believe in Hashem'.",
+  "lesson": "Joy breaks every decree; dance with all your strength, even when you do not feel like it, to bring the Geulah.",
+  "keywords": [
+   "rally",
+   "puppet",
+   "Ushpizin",
+   "hakafos",
+   "apple in honey",
+   "sick son",
+   "dancing",
+   "Mikdash Me'at",
+   "Twelve Pesukim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "simchas_beis_hashoeva_5785",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "simcha_engel",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2024-10-22",
+   "hebrew": "Night of 21 Tishrei 5785 (Hoshana Rabbah)",
+   "hebrew_year": 5785,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tav Shin Pei Hei', 'tonight is the seventh day of Sukkos' and 'tonight it's Hoshana Rabbah': evening of 22 Oct 2024."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A boy is gravely ill and the doctors cannot help; he recovers."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child reciting a pasuk is asked his first name on stage.",
+    "at_sec": 398
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Chassid",
+   "his sick son",
+   "the gabbai",
+   "Simcha Engel, the puppet"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "miracles",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "twelve_pesukim",
+   "tehillim",
+   "tzedakah",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "sukkos",
+   "simchas_beis_hashoeva",
+   "hoshana_rabbah",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Ushpizin join the Simchas Beis Hashoeva, and taking another Jew's hand to dance is dancing with Moshiach."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "'Write me good news and you will not need to write about problems.'"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Today Tehillim with simcha works better than with tears; make your feet dance even when you do not feel like it."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "Each child should have his own siddur, Chumash and tzedakah box (Mikdash Me'at)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 98,
+   "type": "opening",
+   "title": "Welcome and tonight's Ushpizin",
+   "summary": "Dovid HaMelech and the Rebbe Rashab, who both work to bring Moshiach.",
+   "people": [
+    "david_hamelech",
+    "rebbe_rashab"
+   ],
+   "calendar": [
+    "sukkos"
+   ]
+  },
+  {
+   "start_sec": 98,
+   "end_sec": 739,
+   "type": "other",
+   "title": "Children recite the Twelve Pesukim"
+  },
+  {
+   "start_sec": 739,
+   "end_sec": 982,
+   "type": "talk",
+   "title": "Hoshana Rabbah with Simcha Engel",
+   "summary": "The puppet and the host talk about Hoshana Rabbah, the sweet apple in honey and the Ushpizin.",
+   "calendar": [
+    "hoshana_rabbah"
+   ]
+  },
+  {
+   "start_sec": 982,
+   "end_sec": 1015,
+   "type": "announcement",
+   "title": "Seating announcement"
+  },
+  {
+   "start_sec": 1015,
+   "end_sec": 1167,
+   "type": "sichah",
+   "title": "Dancing with the Ushpizin and with Moshiach",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1167,
+   "end_sec": 1229,
+   "type": "talk",
+   "title": "A Mikdash Me'at for every child"
+  },
+  {
+   "start_sec": 1229,
+   "end_sec": 1594,
+   "type": "story",
+   "title": "The Chassid who danced for his son",
+   "summary": "A Chassid of the Tzemach Tzedek dances through Simchas Torah, and his joy annuls the decree against his sick son.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 1594,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  }
+ ],
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Live hall recording; much of the children's recitation and music is untranscribed. The puppet is called 'Simcha Engel' and the host is called 'Rabbi Goldstein' on air."
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "16727d2e9e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1b994d468f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Dancing That Saved a Child (Adar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "80b558554d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simcha Power: The Chassid Who Danced on Simchas Torah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "cc16e78758",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva, Hoshana Rabbah Night: The Dance That Broke the Decree' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "f18c947f46",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'What's Your Wish? The Power of Joy' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Shimon",
+    "role": "other",
+    "start_sec": 398,
+    "end_sec": 420
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:55:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Rally year is 5785, but the vocabulary has only a 5786 rally series; series left empty.",
+   "Host called 'Rabbi Goldstein' on air; tagged with the storyteller placeholder because another item suggests he is Uncle Yossi's son."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Live%20Events/Simchas%20Beis%20Hashoeva%205785/Simchas%20Beis%20Hashoeva%20Rally%2C%20Hoshana%20Rabbah%20Night%20-%20Dancing%20That%20Broke%20a%20Decree.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Live Events/Simchas Beis Hashoeva 5785/Simchas Beis Hashoeva Rally, Hoshana Rabbah Night - Dancing That Broke a Decree.mp3",
+  "size_bytes": 19909524,
+  "mime_type": "audio/mpeg"
+ }
+}

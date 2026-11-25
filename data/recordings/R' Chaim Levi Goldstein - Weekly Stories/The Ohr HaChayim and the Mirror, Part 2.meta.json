@@ -1,0 +1,205 @@
+{
+ "id": "541d613537",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Ohr Hachayim & The Mirror 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Ohr HaChayim and the Mirror, Part 2.mp3",
+  "duration_sec": 1054.041,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Ohr HaChayim and the Mirror, Part 2",
+  "title_basis": "filename",
+  "summary_short": "At the sultan's banquet, the Ohr HaChayim exposes a blood libel: the grand vizier's body is found in the royal wine cellar and the Jewish leaders are freed.",
+  "summary_long": "After a short recap, the story returns to the palace. The queen, alone with the grand vizier's body, calls the palace cleric, a bitter Jew-hater, who hides the body in the wine cellar, spreads a rumor that the Jews murdered the vizier for his blood, hires false witnesses and has the leaders of the Jewish community jailed. The king, remembering the Ohr HaChayim's instructions, refuses to sign and announces a trial at a great banquet. The Ohr HaChayim appears in the hall, and the king seats him at his right hand. He eats only his own bread, washes and makes brachos aloud, and when a minister mocks him, the tzaddik has his pockets searched and a stolen golden salt shaker is found. Then he offers to choose an old wine for the king. In the cellar a terrible smell leads to the hidden body. The Ohr HaChayim confronts the witnesses and judges, the queen tells the truth, and the king reveals that he himself shot the vizier through the mirror. The plotters receive the punishment they had planned for the Jews, and the Jews are freed.",
+  "lesson": "Hashem protects His people through the tzaddik's tefillah and wisdom, and the plotters fall into their own trap.",
+  "keywords": [
+   "blood libel",
+   "wine cellar",
+   "banquet",
+   "false witnesses",
+   "golden salt shaker",
+   "garlic",
+   "grand vizier",
+   "sultan",
+   "queen"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "ohr-hachayim-the-mirror",
+   "part_number": 2,
+   "of": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A blood libel: Jewish community leaders are jailed and face execution; they are freed."
+   },
+   {
+    "flag": "death",
+    "severity": "strong",
+    "note": "A body is found buried in the cellar; a humiliated minister takes his own life, and the plotters are hanged."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "ohr_hachayim",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the Turkish sultan",
+   "the queen",
+   "the palace cleric",
+   "the false witnesses",
+   "the grand vizier"
+  ],
+  "topics": [
+   "great_rabbis",
+   "miracles",
+   "jewish_history"
+  ],
+  "midos": [
+   "emes",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "kashrus",
+   "negel_vasser",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Turkey"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 43,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 43,
+   "end_sec": 122,
+   "type": "story_intro",
+   "title": "Recap of Part 1"
+  },
+  {
+   "start_sec": 122,
+   "type": "story_chapter",
+   "title": "The Ohr HaChayim and the Mirror, Part 2",
+   "summary": "The blood libel is exposed at the sultan's banquet and the Jews are freed.",
+   "people": [
+    "ohr_hachayim"
+   ],
+   "story_key": "ohr-hachayim-the-mirror",
+   "chapter": 2
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Ends on the story's resolution with no closing lesson or sign-off. ASR writes 'Galach' for the palace cleric."
+ },
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "7357664ac4",
+   "evidence": "content",
+   "confidence": 0.97,
+   "note": "Opens 'We're in the middle of the story' with a recap of Part 1."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "7357664ac4",
+   "evidence": "filename",
+   "confidence": 0.97,
+   "note": "Part 1: 'Ohr Hachayim & The Mirror 1'."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:18:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Mentions a suicide and hangings briefly; check the advisory level for young listeners."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Ohr%20HaChayim%20and%20the%20Mirror%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Ohr HaChayim and the Mirror, Part 2.mp3",
+  "size_bytes": 12649264,
+  "mime_type": "audio/mpeg"
+ }
+}

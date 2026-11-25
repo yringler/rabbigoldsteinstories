@@ -1,0 +1,26 @@
+{
+ "batch_id": "b028",
+ "done": [
+  "11adf87746", "f0cf22911e", "64ad199817", "e9f6dc8772",
+  "c7e1d15aed", "0951d227a9", "4fb0ef7ea4", "baf69ae3d7", "634648f604",
+  "6f9edbf8da", "0e3bf01e91", "bbf8c78d2a",
+  "d2fb9ba6b5",
+  "12f2454f7d", "2e072cf9f0", "67ec9294ad",
+  "c8f2c07973",
+  "df1f475816", "21b12ad6c2",
+  "d593b7ba79", "535544617f"
+ ],
+ "failed": [],
+ "notes": [
+  "Episodes 384 and 385 look like largely rebroadcasts of episodes 280/281 (and again 439/440): every clip of both shows matches those episodes at almost the same offsets. Added aired_again_in at the episode level (fbe6825c15, d7c2af64da, 4ede6df733, b446975e89).",
+  "Heritage folder 'Akiva Torah ship 10m 44s': 03 = chapter 1 (ep 384), 04 = recap only (76 s, ep 385), 05 = chapter 2 / conclusion (ep 385). Linked with part_of_set/continues. Files 01-02 of that folder were not in this batch; check whether they are another story or earlier airings.",
+  "Episode 387 (d2fb9ba6b5): the Naftali / drunken father story appears to be the same telling as Heritage clip 'The Drunken Father 21' (86349c08d6, the worked example, which also lists re-airings in 436 and 539). Not linked because that id is not in this batch's facts; pass 2 should add same_story or aired_again_in.",
+  "Episode 387 also has Rabbi Akiva washing negel vasser in prison; this may be the story promised at the end of clip 'Netilas Yodayim 122' (f760feafed).",
+  "Episode 389 (c8f2c07973): fingerprint candidates 6c110183df (287 08-04-87), 9cef1efc9e (238), 6603ee17f1 (Tisha B'Av 287), 0d4dd89383 (337) not verified; the Eichah/music talk or the Dike story probably re-aired. Episode 390 candidate 7f5a576d4d and 391 candidate 7901aa302d confirmed via the clips' text overlap and added.",
+  "Episode 391 has no date in the filename; dated 1989-08-22 (21 Av 5749) from 'this coming Shabbos is Shabbos Mevarchim Elul' and candle time 7:19.",
+  "Episode 388 (12f2454f7d) has an edit glitch: about 30 s repeated at 15:29-16:10 and a cut at about 17:40. Clip 'Rosh Chodesh Av 388' matches episode 487 slightly better than 388 and may have been cut from another airing.",
+  "Episode 386 has possible splice cuts at about 3:30 (also in clip 'Shabbos 386') and 15:09 (inside the Grape Town story).",
+  "Episode 385 Shema guests: the family name is heard as Sabo/Sebo/Seibo and two of the children's first names are garbled in the ASR; check the audio if spellings matter.",
+  "Episode 384 Shema guest shares the host's surname (Goldstein); possibly a relative, unconfirmed."
+ ]
+}

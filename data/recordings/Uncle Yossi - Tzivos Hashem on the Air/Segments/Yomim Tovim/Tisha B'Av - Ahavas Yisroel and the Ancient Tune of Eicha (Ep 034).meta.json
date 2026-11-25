@@ -1,0 +1,226 @@
+{
+ "id": "423f5bbe7a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Tisha B'Av 34",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tisha B'Av - Ahavas Yisroel and the Ancient Tune of Eicha (Ep 034).mp3",
+  "duration_sec": 548.323,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 34,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 34,
+   "story": "The Two Brothers",
+   "topic": "תשעה באב / Torah, Avodah & Gemilus Chasadim",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Tisha B'Av: Ahavas Yisroel and the Ancient Tune of Eicha",
+  "title_basis": "content",
+  "summary_short": "On the eve of Tisha B'Av, Uncle Yossi explains that love for every Jew will rebuild the Beis HaMikdash, and introduces the ancient tune of Eicha with the verse Hashiveinu.",
+  "summary_long": "A Tisha B'Av talk from the Tzivos Hashem radio show, recorded two days before the fast. Uncle Yossi explains that Tisha B'Av is the saddest day in Jewish history, when the Beis HaMikdash was destroyed, and that we fast and pray for the exile to end and for the day to become a Yom Tov. The Beis HaMikdash was destroyed because of baseless hatred, so it will be rebuilt through Ahavas Yisroel. He then speaks about the power of music: the Levi'im sang in the Beis HaMikdash, and when Moshiach comes we will sing a new song as Moshe and the Jewish people did leaving Egypt. Even though there is no music during the Three Weeks, there is one tune we sing even on Tisha B'Av, the tune of Eicha read in shul. The clip plays the verse Hashiveinu, explains its meaning, and has the children repeat it.",
+  "lesson": "The Beis HaMikdash was destroyed through baseless hatred; love for every Jew and heartfelt prayer will bring it back.",
+  "keywords": [
+   "Eicha",
+   "Lamentations",
+   "Hashiveinu",
+   "music",
+   "Levi'im",
+   "fast",
+   "Az Yashir"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 34,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1982-07-27",
+   "hebrew": "7 Av 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Tomorrow is Erev Tisha B'Av'; cut from episode 34 (Tuesday 7 Av 5742)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Tisha B'Av, the destruction of the Beis HaMikdash and the exile, told with hope for the Geulah.",
+    "at_sec": 0
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "ahavas_yisroel_mitzvah",
+   "teshuvah"
+  ],
+  "calendar": [
+   "tisha_bav",
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:1",
+    "note": "'Az yashir Moshe': the future song of the Geulah."
+   },
+   {
+    "work": "kesuvim",
+    "ref": "Eichah 5:21",
+    "note": "'Hashiveinu Hashem eilecha...'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 120,
+   "type": "talk",
+   "title": "Erev Tisha B'Av: why the Beis HaMikdash was destroyed",
+   "calendar": [
+    "tisha_bav"
+   ]
+  },
+  {
+   "start_sec": 150,
+   "end_sec": 470,
+   "type": "talk",
+   "title": "The power of music and the tune of Eicha"
+  },
+  {
+   "start_sec": 470,
+   "end_sec": 502,
+   "type": "song",
+   "title": "Hashiveinu, sung to the tune of Eicha"
+  },
+  {
+   "start_sec": 502,
+   "type": "talk",
+   "title": "Saying Hashiveinu together"
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "3d8a6f67a3",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "offset_sec": 1121,
+   "note": "Episode 34 (filename number); clip = 1121-1669 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "17d9dca041",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text match with episode 186 (containment 0.64)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f33fa1ac66",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Text match with episode 136 (containment 0.63)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c69b013e95",
+   "evidence": "text_overlap",
+   "confidence": 0.55,
+   "note": "Text match with episode 488 (containment 0.60)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Edited clip: the opening lines (episode ~8:43) are joined directly to the lesson after the Two Brothers story (episode ~19:41), skipping the Shema and the story; then the music talk and Eicha tune. Mentions 'tomorrow', so best labeled as recorded before Tisha B'Av."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:52:44Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Tisha%20B%27Av%20-%20Ahavas%20Yisroel%20and%20the%20Ancient%20Tune%20of%20Eicha%20%28Ep%20034%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Tisha B'Av - Ahavas Yisroel and the Ancient Tune of Eicha (Ep 034).mp3",
+  "size_bytes": 6580842,
+  "mime_type": "audio/mpeg"
+ }
+}

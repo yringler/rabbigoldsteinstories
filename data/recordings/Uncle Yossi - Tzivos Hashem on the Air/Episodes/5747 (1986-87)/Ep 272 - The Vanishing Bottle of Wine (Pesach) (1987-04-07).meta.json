@@ -1,0 +1,321 @@
+{
+ "id": "1d9341de33",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "272 04-07-87",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 272 - The Vanishing Bottle of Wine (Pesach) (1987-04-07).mp3",
+  "duration_sec": 1802.771,
+  "filename_facts": {
+   "episode_number": 272,
+   "date_in_filename": "1987-04-07",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 272,
+   "story": "The Vanishing Bottle of Wine",
+   "topic": "Geulah",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 272: The Vanishing Bottle of Wine (Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "One week before Pesach: freedom of body and soul, a teacher's taped thank-you for the children's prayers, Shema with a Beis Yaakov class, and how a dream saved a town from a blood libel.",
+  "summary_long": "Broadcast one week before Pesach 5747. Uncle Yossi explains that the Exodus freed our bodies, while receiving the Torah forty-nine days later freed our souls, and that the final Geulah will be complete for both. After the Hakochainik march to a Pesach tune and a sponsor message, he announces the Tzivos Hashem Chol HaMoed Pesach fair. He then shares good news: a teacher in Australia, for whom listeners prayed, has fully recovered, and her taped message thanks the children, saying Hashem always listens to children's Tehillim. A third-grade class from a Boro Park girls' school recites the Shema. Story time, for Pesach: Reb Arele, a devoted shul shamash, dreams three times that a voice asks, 'Where is the wine for Pesach?' He finds that the wine bottle kept in the Aron Kodesh has been swapped for blood by a wicked man plotting a blood libel, and replaces it. When the villain brings the king on Pesach, the bottle holds only wine and the plotter gives himself away. The show closes with Seder dates, selling chametz and Pesach greetings.",
+  "lesson": "Hashem, the Guardian of Israel, never slumbers; He protects us in every generation, and the prayers of children go straight to Him.",
+  "keywords": [
+   "Pesach",
+   "wine bottle",
+   "dream",
+   "Aron Kodesh",
+   "shamash",
+   "blood libel",
+   "king",
+   "Tehillim",
+   "taped message",
+   "Chol HaMoed fair"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 272,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-04-07",
+   "hebrew": "8 Nissan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'exactly one week before Pesach'; Seders Monday and Tuesday nights, April 13 and 14."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children",
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A blood libel plot: a villain plants a bottle of blood in the shul's ark to accuse the Jews before the king; it is foiled by a miracle.",
+    "at_sec": 1420
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "health_info",
+    "note": "A named teacher's illness and recovery after a refuah shleimah request.",
+    "at_sec": 530
+   },
+   {
+    "flag": "minor_named",
+    "note": "Last week's Shema guest is named again in full.",
+    "at_sec": 646
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Arele, the shamash",
+   "Stepan, the slanderer",
+   "the king",
+   "the king's guards"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "jewish_history",
+   "moshiach_geulah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "hakaras_hatov",
+   "courage"
+  ],
+  "mitzvos": [
+   "shema",
+   "kavod_shul",
+   "torah_study",
+   "tehillim",
+   "seder",
+   "matzah",
+   "chametz"
+  ],
+  "calendar": [
+   "pesach",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'He does not slumber nor sleep, the Guardian of Israel.'"
+   },
+   {
+    "work": "haggadah",
+    "ref": "Vehi She'amdah",
+    "note": "In every generation they rise against us, and Hashem saves us."
+   }
+  ],
+  "places": [
+   "Sydney, Australia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 20,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 20,
+   "end_sec": 158,
+   "type": "talk",
+   "title": "Pesach: freedom for body and soul",
+   "summary": "The Exodus freed our bodies and Matan Torah our souls; we pray for a complete Geulah of both.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "c4a8374db1"
+   ]
+  },
+  {
+   "start_sec": 158,
+   "end_sec": 324,
+   "type": "song",
+   "title": "Hakochainik March: a Pesach tune"
+  },
+  {
+   "start_sec": 324,
+   "end_sec": 411,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 411,
+   "end_sec": 525,
+   "type": "announcement",
+   "title": "The Tzivos Hashem Chol HaMoed Pesach fair"
+  },
+  {
+   "start_sec": 525,
+   "end_sec": 850,
+   "type": "announcement",
+   "title": "Good news: a teacher's thanks for the children's prayers",
+   "summary": "A teacher in Australia who recovered after the listeners prayed for her sends a taped message of thanks and Pesach wishes."
+  },
+  {
+   "start_sec": 850,
+   "end_sec": 996,
+   "type": "shema_guest",
+   "title": "Shema with a third-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 996,
+   "end_sec": 1665,
+   "type": "story",
+   "title": "The Vanishing Bottle of Wine",
+   "summary": "A shamash's repeated dream leads him to foil a blood libel before Pesach.",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1665,
+   "end_sec": 1745,
+   "type": "announcement",
+   "title": "Newsletter, selling chametz and the Seder nights",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1745,
+   "type": "closing",
+   "title": "Closing and Pesach wishes"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR twice writes 'Rabbi Akiva' for the shamash Reb Arele. Fair, chametz-sale and sponsor details are period pieces. The show announces a two-week break for Pesach (next episode 273 is 04-28-87)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Rivka Green",
+    "role": "refuah_list",
+    "group": "Teacher at a yeshiva in Sydney, Australia",
+    "start_sec": 525,
+    "end_sec": 850,
+    "note": "Recovered after listeners prayed for her; her taped thank-you message is played."
+   },
+   {
+    "name": "Chaya Malka Lieder",
+    "role": "other",
+    "group": "Last week's Shema guest, a student of that teacher",
+    "start_sec": 646,
+    "end_sec": 660
+   },
+   {
+    "name": "Morah Lazar",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Gimmel (class reciting the Shema)",
+    "start_sec": 862,
+    "end_sec": 996
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "Morah Rivka Green had been ill and has fully recovered; she says she feels better than in ten years and is back at work.",
+    "start_sec": 570,
+    "end_sec": 800
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:50Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "c4a8374db1",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "note": "'Geulah 272' = 31-158 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5747%20%281986-87%29/Ep%20272%20-%20The%20Vanishing%20Bottle%20of%20Wine%20%28Pesach%29%20%281987-04-07%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5747 (1986-87)/Ep 272 - The Vanishing Bottle of Wine (Pesach) (1987-04-07).mp3",
+  "size_bytes": 21634315,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "batch_id": "b003",
+ "done": [
+  "6593d0560a",
+  "03bfbdd2c3",
+  "27e4be78a2",
+  "afb5e4a1c3",
+  "7fff92712d",
+  "3ca84fd372",
+  "19ca38b078",
+  "6f959e4c75",
+  "3e59f5b538",
+  "d4bce1f21a",
+  "97d8a9ddf9",
+  "c7ad731703",
+  "fc0719805f",
+  "c17d6b4605",
+  "a1d0659f8a",
+  "01e137f549",
+  "76cf0bb8bb",
+  "387570c950",
+  "ceb0a9ea50",
+  "a9c42df651",
+  "4c4feaf34b",
+  "698e369884"
+ ],
+ "failed": [],
+ "notes": [
+  "Dates: episodes 23-33 confirmed weekly on Tuesdays from on-air cues (Lag BaOmer 1982-05-11 for ep 23 through Erev Rosh Chodesh Av 1982-07-20 for ep 33). Ep 28 has no explicit cue (month precision, 1982-06); catalog row 29 is MISSING, so ep 28 is 15 or 22 June.",
+  "19ca38b078 'Saved by Negel Vasser 25' is an edited compilation: the story preview (ep 25 at 95-221 s) spliced directly onto the story (ep 25 at about 709-948 s). The required clip_of offset 590 is approximate. 7fff92712d 'rabbi akiva 25' is only that preview, a teaser fully contained in 19ca38b078 (added clip_of, set to review as probably redundant).",
+  "3ca84fd372 'Netilas Yodayim 25' is the original airing of the same water / negel vasser talk as the worked example f760feafed 'Netilas Yodayim 122'. They are not linked here because that id is outside this batch's facts.",
+  "Added after checking transcripts: 27e4be78a2 alternate_take 39959e8c5c ('Sefira 324', same talk with a different first line); 4c4feaf34b alternate_take 4d86625467 ('Rosh Chodesh 237', re-recorded opening); c17d6b4605 aired_again_in de684a1a44 (ep 120 re-airs Forbidden Road ch. 1); 387570c950 aired_again_in 59eebafc60 (ep 228 re-airs King David's Grave); a9c42df651 aired_again_in 33258ba2e2 (ep 237).",
+  "Ep 26 and 27 (Saved by a Miracle): the hero Reb Boruch is called 'Rabbi Akiva' several times, either a slip on air or an ASR carry-over from the previous week's Rabbi Akiva story.",
+  "Ep 31 (01e137f549): the sponsor ad starts mid-sentence and the file ends right after the 17 Tammuz talk with no closing greeting (possible truncated end). A child's home address in Monsey is read in the mailbox (hidden, home_address flag).",
+  "Catalog vs on-air titles: ep 24 'The Whispering Droplets' = on air 'Never Too Late'; ep 26-27 'Saved by a Miracle' = 'Through the Eyes of a Tzaddik'; ep 30-31 'The Forbidden Road' = 'Rabbi Beryl Learns a Lesson'. Catalog titles were used.",
+  "Identity / spelling: brothers Bentzion Korf (ep 23) and Yehudah Leib Korf (ep 24) both from Ohalei Torah. Ep 28 Shema guest surname heard as 'Gartner' and 'Gartenhaus' (catalog 'Gartnoff (?)'). Ep 32 letter writer 'Mendy Hanen/Hanin' spelling uncertain.",
+  "ceb0a9ea50 'Three Weeks 32' also has a weak text match (0.52) in ep 133 (2089bd9446), not added.",
+  "Resume run: 6f959e4c75 'Ahavas Yisroel 25' was INVALID because its facts were regenerated after it was written (required relations now list 276c6bf981 / ep 486 and no longer 0615c36a34 / ep 526). Relations reset to facts.required_relations verbatim; the 0615c36a34 link was dropped. Content unchanged."
+ ]
+}

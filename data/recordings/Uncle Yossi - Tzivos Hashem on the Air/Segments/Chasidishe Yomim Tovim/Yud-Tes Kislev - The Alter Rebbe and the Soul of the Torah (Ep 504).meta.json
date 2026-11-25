@@ -1,0 +1,165 @@
+{
+ "id": "8e687b85e8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "19 Kislev 504",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Kislev - The Alter Rebbe and the Soul of the Torah (Ep 504).mp3",
+  "duration_sec": 360.52,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 504,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 504,
+   "story": "The sly fox and the cheese",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Yud-Tes Kislev: The Alter Rebbe and the Soul of the Torah",
+  "title_basis": "content",
+  "summary_short": "On Yud-Tes Kislev, Uncle Yossi explains the Alter Rebbe's release and his life's work: teaching both the body and the soul of the Torah, in the Shulchan Aruch HaRav and the Tanya.",
+  "summary_long": "A talk for Yud-Tes Kislev from the Tzivos Hashem radio show, broadcast on the day itself. Uncle Yossi explains that on the 19th of Kislev the Alter Rebbe, Rabbi Schneur Zalman, known as the Rav, was freed from prison and his life spared by a miracle, and each year we remember Hashem's mercy and kindness. The Alter Rebbe devoted his life to teaching Torah. The Torah is compared to a person, who has a body and a soul: its letters, words and sentences are its body, and its hidden, deeper meaning is its soul, which teaches us how to serve Hashem better. Moshiach will teach all of Israel the innermost secrets of the Torah and fill the world with light. Because the Alter Rebbe was freed, he could go on teaching: he wrote the Shulchan Aruch HaRav, studied by rabbis and students everywhere, and the Tanya, which shows every Jew how to serve Hashem and find his purpose in life. On Yud-Tes Kislev we make strong resolutions to learn more Torah and do more mitzvos, and pray for the complete Geulah.",
+  "lesson": "On Yud-Tes Kislev, resolve to learn more Torah, including its inner soul, and to do more mitzvos.",
+  "keywords": [
+   "Alter Rebbe's release",
+   "prison",
+   "Tanya",
+   "Shulchan Aruch HaRav",
+   "body and soul",
+   "secrets of the Torah",
+   "resolutions"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 504,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-11-26",
+   "hebrew": "19 Kislev 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today, Yud-Tes Kislev'; cut from episode 504, which aired on Tuesday 19 Kislev 5752."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Alter Rebbe's imprisonment and release are mentioned briefly.",
+    "at_sec": 0
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "chassidus_tanya",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 19:14",
+    "note": "'Zos haTorah adam': the Torah is compared to a person, with body and soul."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9b22fa75b8",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 38,
+   "note": "Episode 504 (filename number); clip = 38-399 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening talk of episode 504."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:22:17Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Yud-Tes%20Kislev%20-%20The%20Alter%20Rebbe%20and%20the%20Soul%20of%20the%20Torah%20%28Ep%20504%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Yud-Tes Kislev - The Alter Rebbe and the Soul of the Torah (Ep 504).mp3",
+  "size_bytes": 4327322,
+  "mime_type": "audio/mpeg"
+ }
+}

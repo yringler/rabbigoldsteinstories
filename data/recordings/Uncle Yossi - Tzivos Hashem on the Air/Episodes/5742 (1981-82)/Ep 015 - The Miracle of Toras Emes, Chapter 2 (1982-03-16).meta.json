@@ -1,0 +1,335 @@
+{
+ "id": "25f7b4e626",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "15",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 015 - The Miracle of Toras Emes, Chapter 2 (1982-03-16).mp3",
+  "duration_sec": 1723.361,
+  "filename_facts": {
+   "episode_number": 15,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 15,
+   "story": "The Miracle of Toras Emes #2",
+   "topic": "",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 15: The Miracle of Toras Emes, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "The wicked officer's plot to shame the Jews before the king unravels when the rabbi dreams three times of a true Torah. Plus Shema in Studio 604 and the grand contest winners.",
+  "summary_long": "The week after Purim 5742. After the opening march, Uncle Yossi recaps the story: the jealous officer Yivan persuaded Chaim the shamash to prepare an empty, make-believe Sefer Torah for the king's visit. A young Tzivos Hashem member leads the Shema in Studio 604. In the concluding chapter, the town prepares a royal welcome while Yivan tells the king that the Jews are fooling him and urges him to look under the velvet cover; the king warns Yivan that his life is at stake if the charge is false. The night before the visit, the rabbi hears a voice in his dream three times calling 'Toras emes, a true Torah', checks the shul, and replaces the empty scroll with a real Sefer Torah. Uncle Yossi compares the miracle to Purim: in the merit of Jewish children learning Torah, Hashem protects His people, in those days and in our time, and will bring Moshiach. He then dives into the mailbox to draw the winners of the grand contest, explains how to join Tzivos Hashem, and offers song sheets for 'We Want Moshiach Now'.",
+  "lesson": "In the merit of Jewish children learning Torah and doing mitzvos, Hashem protects His people, in those days and in our time.",
+  "keywords": [
+   "king",
+   "Sefer Torah",
+   "make-believe Torah",
+   "velvet cover",
+   "dream",
+   "town crier",
+   "royal welcome",
+   "contest winners",
+   "mailbox",
+   "song sheets",
+   "Studio 604"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "historical",
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "episode": {
+   "number": 15,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1982-03-16",
+   "hebrew": "21 Adar 5742",
+   "hebrew_year": 5742,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Announces the contest winners that episode 14 (Purim, 1982-03-09) promised for 'next week'."
+  },
+  "serial": {
+   "story_key": "the-mystery-of-toras-emes",
+   "story_title": "The Mystery of Toras Emes",
+   "chapter": 2
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A jealous officer tries to turn the king against the Jews; the king threatens punishment.",
+    "at_sec": 711
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest and three contest winners named on air.",
+    "at_sec": 484
+   },
+   {
+    "flag": "home_address",
+    "note": "Contest winners' street address read on air.",
+    "at_sec": 1474
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the kind king",
+   "Yivan, the wicked officer",
+   "Chaim the shamash",
+   "the rabbi",
+   "the town crier"
+  ],
+  "topics": [
+   "miracles",
+   "torah_study",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emes",
+   "kibbud",
+   "emunah"
+  ],
+  "mitzvos": [
+   "shema",
+   "torah_study",
+   "kavod_shul"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "megillas_esther",
+    "note": "Haman hanged on the tree he prepared for Mordechai."
+   },
+   {
+    "work": "siddur",
+    "ref": "Al HaNissim: 'bayamim hahem bizman hazeh'",
+    "note": "In those days, at this time."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 290,
+   "type": "song",
+   "title": "Opening march"
+  },
+  {
+   "start_sec": 290,
+   "end_sec": 484,
+   "type": "story_intro",
+   "title": "Story time: recap of The Miracle of Toras Emes",
+   "summary": "Yivan's plot with the empty make-believe Sefer Torah."
+  },
+  {
+   "start_sec": 484,
+   "end_sec": 604,
+   "type": "shema_guest",
+   "title": "Shema with a guest in Studio 604"
+  },
+  {
+   "start_sec": 604,
+   "end_sec": 1130,
+   "type": "story_chapter",
+   "title": "The Miracle of Toras Emes, Chapter 2",
+   "summary": "Yivan accuses the Jews before the king, but the rabbi's dream of a true Torah saves the day and Yivan is punished.",
+   "story_key": "the-mystery-of-toras-emes",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1130,
+   "end_sec": 1259,
+   "type": "talk",
+   "title": "In Those Days, at This Time",
+   "summary": "Like the Purim miracle, Hashem protects us in the merit of children learning Torah, and will bring Moshiach.",
+   "people": [
+    "haman",
+    "mordechai"
+   ]
+  },
+  {
+   "start_sec": 1259,
+   "end_sec": 1561,
+   "type": "announcement",
+   "title": "The grand contest winners",
+   "summary": "Uncle Yossi dives into the mailbox and draws a winning entry from a family of three siblings."
+  },
+  {
+   "start_sec": 1561,
+   "end_sec": 1647,
+   "type": "announcement",
+   "title": "How to join Tzivos Hashem; song sheets"
+  },
+  {
+   "start_sec": 1647,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "5bcc2b3a95",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 14 = 'The Miracle of Toras Emes #1', 15 = '#2'; the recap matches episode 14."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "5bcc2b3a95",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Mystery of Toras Emes' (1982): ep 14 ch. 1 and ep 15 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "70f8ca0fa2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 516: The Mystery of Toras Emes (Purim Katan)' (episode 516, 15:35-27:40), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b412d5961c",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 215: The Secret of Toras Emes, Chapter 2 (Shabbos Mevarchim Adar II)' (episode 215, 16:51-22:51), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "dfed566766",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 421: The Mystery of Toras Emes, Chapter 2 (Shabbos Mevarchim Nissan)' (episode 421, 18:44-26:26), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Contest results and mailing addresses are period pieces. Winners' street address read on air (see hidden)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avraham Boruch Lazar",
+    "role": "shema_guest",
+    "start_sec": 484,
+    "end_sec": 604
+   },
+   {
+    "name": "Yisrael Wolfson",
+    "role": "contest_winner",
+    "group": "New Square, New York",
+    "start_sec": 1474,
+    "end_sec": 1561
+   },
+   {
+    "name": "Hindy Wolfson",
+    "role": "contest_winner",
+    "group": "New Square, New York",
+    "start_sec": 1474,
+    "end_sec": 1561
+   },
+   {
+    "name": "Chavi Wolfson",
+    "role": "contest_winner",
+    "group": "New Square, New York",
+    "start_sec": 1474,
+    "end_sec": 1561
+   }
+  ],
+  "addresses": [
+   {
+    "text": "30 Truman Avenue, New Square, New York",
+    "start_sec": 1470,
+    "end_sec": 1490
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:40:22Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20015%20-%20The%20Miracle%20of%20Toras%20Emes%2C%20Chapter%202%20%281982-03-16%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 015 - The Miracle of Toras Emes, Chapter 2 (1982-03-16).mp3",
+  "size_bytes": 20681358,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "id": "9abb2313ea",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "19 Kislev 503",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Kislev, Month of Redemption - Yud-Tes Kislev, Chanukah and the Clouds of Moshiach (Ep 503).mp3",
+  "duration_sec": 344.336,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 503,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 503,
+   "story": "Skippy and crawly",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Kislev, Month of Redemption: Yud-Tes Kislev, Chanukah and the Clouds of Moshiach",
+  "title_basis": "content",
+  "summary_short": "Kislev brings a message of redemption and victory: the Alter Rebbe's release on Yud-Tes Kislev, the miracles of Chanukah, and the coming Geulah, when heavenly clouds will carry us home.",
+  "summary_long": "A seasonal talk from the Tzivos Hashem radio show, given in the middle of Kislev. Uncle Yossi explains that the month brings a message of geulah, redemption, and nitzachon, victory. First comes Yud-Tes Kislev, the day a great tzaddik whose life was in danger was miraculously freed from prison in reward for his self-sacrifice for Torah and mitzvos, so that he could go on teaching thousands of Jews. He was Rabbi Schneur Zalman of Liadi, the Alter Rebbe, known as the Rav and the Baal HaTanya, whose maamarim and sefarim are still studied everywhere, and the day is kept every year as a day of thanksgiving. Then comes Chanukah on the 25th, when one day's oil burned for eight days. Each Kislev we pray for even greater miracles: the complete Geulah through Moshiach, the victory of light over darkness. As the prophet Daniel foretold, Hashem will send heavenly clouds that will carry all Jews from the four corners of the world to Yerushalayim and the third Beis HaMikdash.",
+  "lesson": "Remembering the miracles of Kislev strengthens our hope for the greatest miracle of all, the coming of Moshiach.",
+  "keywords": [
+   "Alter Rebbe's release",
+   "prison",
+   "Tanya",
+   "Chanukah oil",
+   "heavenly clouds",
+   "Geulah",
+   "third Beis HaMikdash"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 503,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-11-19",
+   "hebrew": "12 Kislev 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 503, dated by its calendar cues (mid-Kislev, before Yud-Tes Kislev; late-November candle times)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Alter Rebbe's imprisonment, when his life was in danger, is mentioned briefly.",
+    "at_sec": 0
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "moshiach_geulah",
+   "miracles"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "chanukah_lights"
+  ],
+  "calendar": [
+   "yud_tes_kislev",
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "The Geulah 'with the clouds of heaven'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "cadd238d04",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 50,
+   "note": "Episode 503 (filename number); clip = 50-395 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening talk of episode 503."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:30Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Kislev%2C%20Month%20of%20Redemption%20-%20Yud-Tes%20Kislev%2C%20Chanukah%20and%20the%20Clouds%20of%20Moshiach%20%28Ep%20503%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Kislev, Month of Redemption - Yud-Tes Kislev, Chanukah and the Clouds of Moshiach (Ep 503).mp3",
+  "size_bytes": 4132971,
+  "mime_type": "audio/mpeg"
+ }
+}

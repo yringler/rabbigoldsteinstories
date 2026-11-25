@@ -1,0 +1,198 @@
+{
+ "id": "9c835f86c7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Where Is The Rebbe?",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Where Is the Rebbe The Rebbe Rashab at the Warsaw Station.mp3",
+  "duration_sec": 1264.861,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Where Is the Rebbe? The Rebbe Rashab at the Warsaw Station",
+  "title_basis": "filename",
+  "summary_short": "An agunah follows the Rebbe Rashab's advice to go to Warsaw, where a kind red-bearded stranger at the station leads her to her missing husband. Told for Yud Shevat.",
+  "summary_long": "After the song \"I believe in Hashem\", the storyteller explains what an agunah is: a woman whose husband has disappeared, so she can neither find him nor remarry. In the days of the Rebbe Rashab, when the Rebbe lived in Rostov, such a woman writes to him after years of searching, since he is not seeing women visitors. His answer: travel to Warsaw and there you will be helped. Chassidim collect money for the long trip. At the Warsaw station she stands lost, until a kind, finely dressed man with a red beard tells her to go to a certain flour mill, where she finds her husband working. She is angry, but wisely they sit and talk it out calmly, as Shlomo HaMelech teaches. Amazed that the Rebbe knew where he was, the husband agrees to come home. When she returns to Rostov to thank the Rebbe, she sees him leave his room and faints: he was the man at the station. The gabbai then solves a mystery: on that very day at one o'clock the Rebbe did not answer the door, and a Chassid saw him standing motionless at the window, gazing into the distance. Approaching Yud Shevat, the storyteller teaches that the Rebbe can be with us anywhere.",
+  "lesson": "A Rebbe can help a Jew anywhere; we can picture the Rebbe and ask for a brachah wherever we are. When you are angry, talk it out calmly.",
+  "keywords": [
+   "agunah",
+   "missing husband",
+   "train station",
+   "Warsaw",
+   "Rostov",
+   "flour mill",
+   "red beard",
+   "letter to the Rebbe",
+   "window"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A mother is left alone for years after her husband disappears; the family is reunited."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "an agunah",
+   "her missing husband Moshe",
+   "the Rebbe Rashab's gabbai",
+   "the mill owner",
+   "a Chassid at the window"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "hiskashrus",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "controlling_anger",
+   "shalom"
+  ],
+  "mitzvos": [],
+  "calendar": [
+   "yud_shevat"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Rostov",
+   "Warsaw",
+   "Lubavitch"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe: when you look at a Rebbe's picture and think of him, he thinks of you."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 1190,
+   "type": "story",
+   "title": "The agunah and the stranger at the station",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 1190,
+   "type": "talk",
+   "title": "Yud Shevat: the Rebbe is with us everywhere",
+   "summary": "Picture the Rebbe wherever you are and ask for a brachah, and for Moshiach now."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "c2af062efa",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rebbe Rashab at the Train Station (Chof Cheshvan)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:25Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Where%20Is%20the%20Rebbe%20The%20Rebbe%20Rashab%20at%20the%20Warsaw%20Station.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Where Is the Rebbe The Rebbe Rashab at the Warsaw Station.mp3",
+  "size_bytes": 15179268,
+  "mime_type": "audio/mpeg"
+ }
+}

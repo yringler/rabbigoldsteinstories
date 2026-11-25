@@ -1,0 +1,251 @@
+{
+ "id": "4cd46a949c",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Broommaker 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Hidden Broom Maker, Part 2.mp3",
+  "duration_sec": 1044.925,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Hidden Broom Maker, Part 2",
+  "title_basis": "filename",
+  "summary_short": "Reb Leib Sarah's sends the leader of Kobrin to spend Shabbos with a poor broom maker deep in the forest, a hidden tzaddik whose prayers cancel the poritz's cruel decree.",
+  "summary_long": "The storyteller opens with a story the Rebbe told for Parshas Vayeitzei: young Yisroel, later the Ruzhiner Rebbe, would ask Rashi's questions before seeing Rashi, but on Yaakov's dream of angels going up and down he asked nothing, explaining with a smile that in a dream strange things happen. Then the story continues. The new poritz of Kobrin demands years of back rent from the Jews and will cancel it only if they join his rebellion against the Russian Czar; Reb Leib Sarah's refuses, since Jews pray for the peace of their government. Instead he secretly sends Binyamin, the community leader, to spend Shabbos in the forest with Reb Yaakov, a poor broom maker who reads slowly from an old siddur. At night Binyamin hears heavenly zemiros and sees the hut blazing with light. After Havdalah Reb Yaakov announces that the decree is cancelled. Back in Kobrin, Binyamin learns that Russian soldiers arrested the poritz on Shabbos morning, and months later the governor reveals that the Czar has given the town's land to the Jews as a gift.",
+  "lesson": "Hashem watches over His people through hidden tzaddikim, and Jews stay loyal and peaceful toward the government of the land.",
+  "keywords": [
+   "broom maker",
+   "forest hut",
+   "hidden tzaddik",
+   "poritz",
+   "rent",
+   "rebellion",
+   "Czar",
+   "Shabbos zemiros",
+   "Havdalah",
+   "Cossacks",
+   "angels on a ladder"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "the-hidden-broom-maker",
+   "part_number": 2,
+   "of": null
+  },
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Vayeitzei",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Parshas Vayeitzei, this week's parsha'; year not stated."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A poritz threatens the Jews of Kobrin with ruinous rent and later punishment."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_yisroel_of_ruzhin",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rashi",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_leib_sarahs",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Leib Sarah's",
+   "Reb Yaakov the broom maker",
+   "his wife",
+   "Binyamin, leader of the Kobrin community",
+   "the poritz",
+   "the governor"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "miracles",
+   "parsha"
+  ],
+  "midos": [
+   "anavah",
+   "emunah",
+   "responsibility"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "havdalah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "vayeitzei"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe told the story of the young Ruzhiner and Rashi's question at a farbrengen."
+   },
+   {
+    "work": "rashi_on_chumash",
+    "ref": "Bereishis 28:12",
+    "note": "Angels 'going up and coming down': two groups of angels."
+   }
+  ],
+  "places": [
+   "Kobrin",
+   "Berditchev"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 2,
+   "end_sec": 255,
+   "type": "story",
+   "title": "Young Yisroel of Ruzhin and the angels in Yaakov's dream",
+   "people": [
+    "rabbi_yisroel_of_ruzhin",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 255,
+   "end_sec": 392,
+   "type": "story_intro",
+   "title": "Recap: the poritz's decree"
+  },
+  {
+   "start_sec": 392,
+   "end_sec": 1044,
+   "type": "story_chapter",
+   "title": "Shabbos with the hidden broom maker",
+   "story_key": "the-hidden-broom-maker",
+   "chapter": 2
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "054944bbf2",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Mysterious Broom Maker' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "fec54397e2",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Mysterious Broom Maker' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "620c312981",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Mysterious Broom Maker' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates'/'parrots' for poritz and varies Binyamin/Yaakov/Akiva. Last line garbled."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "Before I continue the next part of our story",
+   "at_sec": 2
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Part 1 of 'Broommaker' is not in this batch; link the parts in pass 2.",
+   "No opening song; series assigned from narrator and format. Confirm."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:07:37Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Hidden%20Broom%20Maker%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Hidden Broom Maker, Part 2.mp3",
+  "size_bytes": 12540162,
+  "mime_type": "audio/mpeg"
+ }
+}

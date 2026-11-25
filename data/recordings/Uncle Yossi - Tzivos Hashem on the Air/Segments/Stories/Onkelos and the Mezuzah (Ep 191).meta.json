@@ -1,0 +1,168 @@
+{
+ "id": "1472194b46",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "Onkelus 191",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Onkelos and the Mezuzah (Ep 191).mp3",
+  "duration_sec": 269.191,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 191,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 191,
+   "story": "Saved by a miracle #2 Unkelus",
+   "topic": "ח\"י אלול מצוה time",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Onkelos and the Mezuzah",
+  "title_basis": "content",
+  "summary_short": "The Gemara's story of Onkelos, the convert whose translation is in every Chumash, and the words about the mezuzah that turned Roman soldiers into Jews.",
+  "summary_long": "A story from the Tzivos Hashem radio show, told during Mitzvah Time on the mezuzah. Uncle Yossi introduces Onkelos ('it sounds like Uncle Yossi'), whose translation and explanation of the Torah is printed beside the text in almost every Chumash, so important that even Rashi turns to it. Onkelos was a ger: his parents were not Jewish, and after learning about Judaism he chose to become a Jew. The Roman emperor was furious and sent men to talk him out of it, but Onkelos convinced them and they converted too. A second group of soldiers was ordered not to speak with him, only to bring him back. At the door Onkelos placed his hand on the mezuzah and smiled. When they asked why, he explained that an earthly king sits inside while his servants guard him outside, but our King, the King of all kings, lets His servants sit inside while He guards them from outside. Hearing this, the soldiers also asked to become Jews. Uncle Yossi suggests looking for Onkelos's name the next time you open a Chumash.",
+  "lesson": "The mezuzah shows that Hashem Himself guards every Jewish home.",
+  "keywords": [
+   "Onkelos",
+   "mezuzah",
+   "convert",
+   "ger",
+   "Roman emperor",
+   "soldiers",
+   "Chumash",
+   "Targum"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 191,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-08-27",
+   "hebrew": "10 Elul 5745",
+   "hebrew_year": 5745,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 191: Elul, one week before episode 192, which states 17 Elul 5745."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "onkelos",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the Roman emperor",
+   "the Roman soldiers"
+  ],
+  "topics": [
+   "sages",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "courage",
+   "emunah"
+  ],
+  "mitzvos": [
+   "mezuzah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Avodah Zarah 11a",
+    "note": "Named on air as 'the Gemara in Avodah Zarah'."
+   }
+  ],
+  "places": [
+   "Rome"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9ad0681eb7",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 206,
+   "note": "Episode 191 (filename number); clip = 206-475 s of the episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean story clip from episode 191's Mitzvah Time. ASR spells Onkelos many ways."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:57Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/Onkelos%20and%20the%20Mezuzah%20%28Ep%20191%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/Onkelos and the Mezuzah (Ep 191).mp3",
+  "size_bytes": 3231103,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "id": "2a6ad8add6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefira 273",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Days of Sefirah - Respect for Others and the Precious Gift of Time (Ep 273).mp3",
+  "duration_sec": 751.029,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 273,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 273,
+   "story": "The Flickering Flame",
+   "topic": "Rosh Chodesh, Sefira",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Days of Sefirah: Respect for Others and the Precious Gift of Time",
+  "title_basis": "content",
+  "summary_short": "Why there is no music during Sefirah, what Rabbi Akiva's students teach us about respect, and why every day we count is precious, with the story of a girl and her lost dime.",
+  "summary_long": "A talk from the Tzivos Hashem radio show during the days of Sefirah. Uncle Yossi explains why the program has no music in these weeks: they recall the sad time when thousands of Rabbi Akiva's students died in a plague because they did not show respect to one another. So Sefirah is a time to practice honor for parents, teachers and friends, to look at others with a good eye, avoid quarrels and make peace, as the Mishnah says, love peace and pursue it. Ahavas Yisroel and unity, led by the soldiers of Tzivos Hashem, are the answer to our cry of 'Ad Mosai'. He then explains that counting the Omer teaches that every day counts and each day should be better than the last. Time cannot be bought or brought back, as little Miriam learns when she keeps crying over a lost dime instead of caring for the ones her mother gives her. We should treasure and fill every day with Torah and mitzvos, and Hashem will lengthen our days.",
+  "lesson": "Show respect to everyone, and treasure every day: time is Hashem's gift and lost time never returns.",
+  "keywords": [
+   "no music",
+   "Rabbi Akiva's students",
+   "respect",
+   "peace",
+   "counting the Omer",
+   "time",
+   "lost dime",
+   "precious stones"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 273,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-04-28",
+   "hebrew": "29 Nissan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 273 (04-28-87), during Sefirah. Also re-aired in episodes 324 and 426."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Explains that thousands of Rabbi Akiva's students died in a plague.",
+    "at_sec": 56
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Miriam",
+   "Miriam's mother"
+  ],
+  "topics": [
+   "calendar",
+   "character",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "kibbud",
+   "shalom",
+   "achdus",
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "kibbud_av_vaem",
+   "kibbud_zekeinim",
+   "ahavas_yisroel_mitzvah",
+   "torah_study"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Yevamos 62b",
+    "note": "'They did not show respect to one another.'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:12",
+    "note": "Love peace and pursue peace."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 11:21",
+    "note": "'So that your days be lengthened', from the second paragraph of the Shema."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 330,
+   "type": "talk",
+   "title": "No music during Sefirah: the lesson of Rabbi Akiva's students",
+   "calendar": [
+    "sefiras_haomer"
+   ]
+  },
+  {
+   "start_sec": 330,
+   "end_sec": 458,
+   "type": "talk",
+   "title": "Every day counts"
+  },
+  {
+   "start_sec": 458,
+   "end_sec": 610,
+   "type": "story",
+   "title": "Miriam and the Lost Dime"
+  },
+  {
+   "start_sec": 610,
+   "type": "talk",
+   "title": "Time is a gift from Hashem"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens by referring to 'why today's program started differently' (no music), which needs the episode for context but is explained right away."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:56Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "4c22e88ed2",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 324."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "82672b0336",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 426."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6ad37ebe02",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 257,
+   "note": "Episode 273 (filename number); clip = 257-1008 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "e2cf00d09c",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.75,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Days%20of%20Sefirah%20-%20Respect%20for%20Others%20and%20the%20Precious%20Gift%20of%20Time%20%28Ep%20273%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Days of Sefirah - Respect for Others and the Precious Gift of Time (Ep 273).mp3",
+  "size_bytes": 9013366,
+  "mime_type": "audio/mpeg"
+ }
+}

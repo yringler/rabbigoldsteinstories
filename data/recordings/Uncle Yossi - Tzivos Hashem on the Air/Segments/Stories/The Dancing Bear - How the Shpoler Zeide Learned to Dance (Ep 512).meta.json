@@ -1,0 +1,235 @@
+{
+ "id": "721b693d18",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "The Dancing Bear 512",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Dancing Bear - How the Shpoler Zeide Learned to Dance (Ep 512).mp3",
+  "duration_sec": 645.754,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 512,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 512,
+   "story": "The dancing bear",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Dancing Bear: How the Shpoler Zeide Learned to Dance",
+  "title_basis": "filename",
+  "summary_short": "The Shpoler Zeide reveals that Eliyahu HaNavi taught him to dance, so he could take a prisoner's place and out-dance a cruel poritz in a bearskin.",
+  "summary_long": "A story from the Tzivos Hashem radio show. Every Friday night the Shpoler Zeide danced before his congregation with amazing speed. When Reb Avraham HaMalach, son of the Maggid of Mezritch, asked who taught him, he answered: Eliyahu HaNavi. A cruel poritz used to throw Jews who could not pay their rent into a dungeon, then dress them in a bearskin and force them to dance against him; whoever lost was thrown to the hungry dogs. Sent by Eliyahu HaNavi, the Shpoler Zeide gave the guard whiskey, freed an innocent prisoner, and took his place in the cell. The next morning, chained in the bearskin, he danced so fast that the poritz fell on his face and gave up, and the tzaddik walked out free. Reb Avraham HaMalach said that such dancing may be higher in Hashem's eyes than his own prayers. Uncle Yossi adds that the Shpoler Zeide valued the sincerity of simple Jews and their songs, and introduces the niggun 'Kol B'Yaar', which follows.",
+  "lesson": "Saving another Jew with all your strength is precious to Hashem, and the sincere simplicity of plain Jews means a great deal to Him.",
+  "keywords": [
+   "dancing bear",
+   "bearskin",
+   "poritz",
+   "dungeon",
+   "hungry dogs",
+   "whiskey",
+   "prisoner",
+   "Friday night dancing",
+   "Kol B'Yaar"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 512,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1992-01-21",
+   "hebrew": "16 Shevat 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "This airing is from episode 512 (week of Yud-Tes Shevat and Parshas Yisro 5752); the story also aired in episodes 178 and 294."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A cruel poritz jails Jewish debtors and throws those who lose his dance contest to hungry dogs.",
+    "at_sec": 150
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "A prisoner in a dungeon; the hero is chained in a bearskin.",
+    "at_sec": 230
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The hero gets a guard drunk on whiskey to free the prisoner.",
+    "at_sec": 238
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shpoler_zeide",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_avraham_hamalach",
+    "role": "appears"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "appears"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the cruel poritz",
+   "the imprisoned Jew",
+   "the dungeon guard"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "miracles"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "ahavas_yisroel",
+   "courage",
+   "simcha"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 440,
+   "type": "story",
+   "title": "The Dancing Bear"
+  },
+  {
+   "start_sec": 440,
+   "end_sec": 524,
+   "type": "talk",
+   "title": "The Shpoler Zeide and the songs of simple Jews"
+  },
+  {
+   "start_sec": 524,
+   "type": "song",
+   "title": "Kol B'Yaar"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "a59131e21d",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Also aired in episode 294."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "e212bff400",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 828,
+   "note": "Episode 512 (filename number); clip = 828-1474 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4cff2ffa7d",
+   "evidence": "text_overlap",
+   "confidence": 0.79,
+   "note": "Also aired in episode 178 (text match 870-1516 s)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9017964f32",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Dancing Bear' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Speech ends at 524 s; the last two minutes are the niggun 'Kol B'Yaar' that Uncle Yossi introduces (episode 512 at about 1345-1470 s), so no trim is suggested."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Confirm the last two minutes (524-646 s) are the Kol B'Yaar niggun and not silence."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/The%20Dancing%20Bear%20-%20How%20the%20Shpoler%20Zeide%20Learned%20to%20Dance%20%28Ep%20512%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Dancing Bear - How the Shpoler Zeide Learned to Dance (Ep 512).mp3",
+  "size_bytes": 7750086,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "id": "efcdc98ed0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Negel-Vasser Test 3",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Negel Vasser Test/The Negel Vasser Test, Part 3 (Parshas Terumah).mp3",
+  "duration_sec": 1160.371,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "3",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Negel Vasser Test, Part 3 (Parshas Terumah)",
+  "title_basis": "filename",
+  "summary_short": "Making your room a Mikdash Me'at, as the Rebbe asked; then Matzliach frees two captives from the robbers' cave and sees how negel vasser saved his life twice.",
+  "summary_long": "After the song \"I Believe in Hashem\", the storyteller turns to Parshas Terumah: Hashem said He would dwell \"in them\", in every Jew. In 5747 the Rebbe made an urgent personal request that every child make his room a Mikdash Me'at, with his own Chumash, siddur and pushka, and a Tanya too, marked with his name, using the room for Torah, tefillah and tzedakah. The Shulchan Aruch gives another reason for negel vasser: each morning we are like a Kohen washing before the service in the Beis HaMikdash. The story concludes. In the robbers' cave Matzliach finds the caravan captain and a young prince tied to the wall. The captain fears revenge, but Matzliach uses a sword only to cut their ropes. The prince tells how the robbers killed his soldiers and demanded a ransom from his father, the sheikh. Matzliach devises a plan to capture the gang when it returns. The grateful sheikh offers him his daughter and half his kingdom, but Matzliach, a Jew with a family, wants only to go home, and returns laden with gifts. He tells his children that negel vasser saved his life twice, and that the main reward of a mitzvah is in Olam Haba.",
+  "lesson": "Make your own room a Mikdash Me'at with a Chumash, siddur and pushka. Negel vasser prepares us to serve Hashem, and a mitzvah protects the one who keeps it.",
+  "keywords": [
+   "Mikdash Me'at",
+   "Chumash, siddur and pushka",
+   "kiyor",
+   "robbers' cave",
+   "sword",
+   "prince",
+   "sheikh",
+   "ransom",
+   "trap"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "the-negel-vasser-test",
+   "part_number": 3,
+   "of": 3
+  },
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Terumah, about 5785 or 5786",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'This week's Parsha, Terumah'; the Rebbe's 5747 letter is 'almost 40 years ago', so 5785 or 5786 (Terumah 5786 = week of 2026-02-15)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The caravan and the prince's soldiers are killed by robbers (reported, not described)."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "Two captives tied up in a cave; a ransom note threatens the prince's life."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A plan to trap and capture the robbers."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Matzliach",
+   "the caravan captain",
+   "the prince",
+   "the sheikh",
+   "the robbers"
+  ],
+  "topics": [
+   "morning_routine",
+   "tzivos_hashem",
+   "beis_hamikdash_eretz_yisroel",
+   "parsha"
+  ],
+  "midos": [
+   "mesiras_nefesh",
+   "chesed",
+   "forgiveness",
+   "contentment"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "mivtzoim",
+   "torah_study",
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "terumah"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 25:8",
+    "note": "'V'shachanti b'socham', in them."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's 5747 letter asking every child to make his room a Mikdash Me'at."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "5:5",
+    "note": "Ten miracles in the Beis HaMikdash."
+   },
+   {
+    "work": "shulchan_aruch",
+    "note": "Washing in the morning like a Kohen before the service."
+   },
+   {
+    "work": "zohar",
+    "note": "Impurity on the hands on waking."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 291,
+   "type": "sichah",
+   "title": "Parshas Terumah: make your room a Mikdash Me'at",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 291,
+   "end_sec": 355,
+   "type": "halachah",
+   "title": "Negel vasser like a Kohen in the Beis HaMikdash"
+  },
+  {
+   "start_sec": 355,
+   "end_sec": 388,
+   "type": "story_intro",
+   "title": "Recap"
+  },
+  {
+   "start_sec": 388,
+   "type": "story_chapter",
+   "title": "The Negel Vasser Test, Part 3",
+   "story_key": "the-negel-vasser-test",
+   "chapter": 3
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "asr_loop"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR repeats a Hebrew verse several times around 01:02. Ends 'with this, we finished the story', no sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem. There never is a moment where that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Recording year: 'almost 40 years' after 5747 suggests Terumah 5785 or 5786; parts 1 and 2 were probably the two weeks before."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "c2fbdf730a",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Part 1: the halachos of negel vasser and the start of the desert journey."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "f34861c52d",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Part 2: the sack of gold and the robbers' cave."
+  },
+  {
+   "type": "continues",
+   "target_id": "f34861c52d",
+   "evidence": "content",
+   "confidence": 0.98,
+   "note": "Resumes in the cave at the two figures where Part 2 stopped."
+  },
+  {
+   "type": "same_story",
+   "target_id": "1a993b1bd5",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Matzliach and the Mitzvah of Negel Vasser, Part 4' (Stories), told by unknown teller."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Negel%20Vasser%20Test/The%20Negel%20Vasser%20Test%2C%20Part%203%20%28Parshas%20Terumah%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Negel Vasser Test/The Negel Vasser Test, Part 3 (Parshas Terumah).mp3",
+  "size_bytes": 13925394,
+  "mime_type": "audio/mpeg"
+ }
+}

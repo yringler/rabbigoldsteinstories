@@ -1,0 +1,359 @@
+{
+ "id": "084bdc9506",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "121",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 121 - The Forbidden Road, Chapter 2 (Pesach) (1984-04-10).mp3",
+  "duration_sec": 1813.539,
+  "filename_facts": {
+   "episode_number": 121,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 121,
+   "story": "The forbidden road #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 121: The Forbidden Road, Chapter 2 (Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi's last show before Pesach: the Tzivos Hashem Pesach Experience, Shema with a visiting family, and how Reb Beryl's promise to give tzedakah brings a miracle.",
+  "summary_long": "Broadcast the week before Pesach 5744. Uncle Yossi announces the Tzivos Hashem Pesach Experience on the first day of Chol HaMoed, with storytelling, a mitzvah show and a boys' choir, then leads the Hakochainik march. Story time recaps how Reb Beryl's temper led him onto a forbidden street and cost him his fortune. A visiting father brings his daughter to say the Shema and thanks Uncle Yossi for his far-reaching programs. In the conclusion, the Rebbe tells Reb Beryl it is never too late for teshuvah: he must become kind-hearted and promise to give a tenth of all he has to tzedakah. Reb Beryl and his wife say Tehillim, while the officer gets drunk and the maid sweeps the signed paper into the fire. Reb Beryl calls back the melamed, apologizes and gives generously. Then a third-grade class recites Ha Lachma Anya in Yiddish, a three-year-old's upsherin is celebrated, and a young visitor from California says one of the twelve pesukim. Uncle Yossi explains that the show will be off the air on Yom Tov, but everyone should still say the Shema at six on Tuesday, and invite friends who have no Seder.",
+  "lesson": "Give tzedakah generously, for giving brings blessing; it is never too late for teshuvah.",
+  "keywords": [
+   "tzedakah",
+   "ma'aser",
+   "Tehillim",
+   "signed paper",
+   "fireplace",
+   "melamed",
+   "Pesach Experience",
+   "Ha Lachma Anya",
+   "upsherin",
+   "California"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 121,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-04-10",
+   "hebrew": "8 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Next Monday night, the 16th of April, is the first Seder'; Pesach Experience on Thursday 19 April."
+  },
+  "serial": {
+   "story_key": "the-forbidden-road",
+   "story_title": "The Forbidden Road",
+   "chapter": 2
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Recap: a Jew loses his fortune for walking on a street forbidden to Jews.",
+    "at_sec": 560
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The officer drinks wine until he falls asleep drunk.",
+    "at_sec": 1177
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest, her siblings, an upsherin child and a young visitor named in full.",
+    "at_sec": 768
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Reb Beryl",
+   "Reb Beryl's wife",
+   "Dovid, his son",
+   "Reb Leib the melamed",
+   "the Rebbe",
+   "the officer",
+   "the housemaid"
+  ],
+  "topics": [
+   "kindness_and_community",
+   "teshuvah",
+   "miracles",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "generosity",
+   "controlling_anger",
+   "bitachon",
+   "forgiveness"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "teshuvah",
+   "tehillim",
+   "shema",
+   "twelve_pesukim",
+   "seder",
+   "hachnasas_orchim",
+   "upsherin"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 14:22",
+    "note": "'Aser te'aser': give a tenth."
+   },
+   {
+    "work": "gemara",
+    "ref": "Taanis 9a",
+    "note": "'Give a tenth so that you will become rich', cited as the Sages."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 54,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 54,
+   "end_sec": 283,
+   "type": "announcement",
+   "title": "The Tzivos Hashem Pesach Experience",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 283,
+   "end_sec": 436,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 436,
+   "end_sec": 500,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 500,
+   "end_sec": 745,
+   "type": "story_intro",
+   "title": "Recap: Reb Beryl's temper and the forbidden road",
+   "story_key": "the-forbidden-road",
+   "chapter": 2
+  },
+  {
+   "start_sec": 745,
+   "end_sec": 975,
+   "type": "shema_guest",
+   "title": "Shema with a visiting family",
+   "summary": "A father brings his daughter to say the Shema and praises the program."
+  },
+  {
+   "start_sec": 975,
+   "end_sec": 1369,
+   "type": "story_chapter",
+   "title": "The Forbidden Road, Chapter 2",
+   "summary": "The Rebbe tells Reb Beryl to give a tenth to tzedakah; while he says Tehillim, the signed paper ends up in the fire and his fortune is saved.",
+   "story_key": "the-forbidden-road",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1369,
+   "end_sec": 1491,
+   "type": "other",
+   "title": "A third-grade class recites Ha Lachma Anya in Yiddish",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1491,
+   "end_sec": 1515,
+   "type": "announcement",
+   "title": "Mazel tov on an upsherin"
+  },
+  {
+   "start_sec": 1515,
+   "end_sec": 1605,
+   "type": "other",
+   "title": "A young visitor from California says one of the twelve pesukim"
+  },
+  {
+   "start_sec": 1605,
+   "end_sec": 1751,
+   "type": "announcement",
+   "title": "Off the air for Yom Tov, but still saying the Shema; Seder invitations",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1751,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "de684a1a44",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 120 = 'The forbidden road #1', 121 = '#2'; the on-air recap matches."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "de684a1a44",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Forbidden Road' (1984): ep 120 ch. 1 and ep 121 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Event announcement with 1984 date, location and phone; caterer/cheese ads. The visiting father calls this the '118th show', which does not match the catalog number 121."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Esther Leiba Davidson",
+    "role": "shema_guest",
+    "group": "Beis Yaakov, Brooklyn (school name unclear)",
+    "start_sec": 768,
+    "end_sec": 900
+   },
+   {
+    "name": "Mr. Davidson",
+    "role": "visitor",
+    "group": "father of the Shema guest",
+    "start_sec": 754,
+    "end_sec": 960,
+    "note": "Spoke on air; thanked Uncle Yossi."
+   },
+   {
+    "name": "Yossi Davidson",
+    "role": "other",
+    "group": "brother; recited the Shema on an earlier show",
+    "start_sec": 768,
+    "end_sec": 960
+   },
+   {
+    "name": "Breindel Davidson",
+    "role": "other",
+    "group": "sister, in the studio",
+    "start_sec": 941,
+    "end_sec": 960
+   },
+   {
+    "name": "Morah Lazar",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Gimmel (class reciting Ha Lachma Anya)",
+    "start_sec": 1369,
+    "end_sec": 1491
+   },
+   {
+    "name": "Menachem Tuvya Greisman",
+    "role": "birthday",
+    "group": "upsherin, age 3",
+    "start_sec": 1491,
+    "end_sec": 1515
+   },
+   {
+    "name": "Yosef Fradkin",
+    "role": "visitor",
+    "group": "California; age 6",
+    "start_sec": 1515,
+    "end_sec": 1605
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:59:17Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20121%20-%20The%20Forbidden%20Road%2C%20Chapter%202%20%28Pesach%29%20%281984-04-10%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 121 - The Forbidden Road, Chapter 2 (Pesach) (1984-04-10).mp3",
+  "size_bytes": 21763456,
+  "mime_type": "audio/mpeg"
+ }
+}

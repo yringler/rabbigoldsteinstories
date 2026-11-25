@@ -1,0 +1,277 @@
+{
+ "id": "9c2537ad8a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "29b P13",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 29 - Modeh Ani, the Beinoni in Tanya Chapter 13 and the Shofar (Elul).mp3",
+  "duration_sec": 2595.892,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 29b: Modeh Ani, the Beinoni in Tanya Chapter 13 and the Shofar (Elul)",
+  "title_basis": "content",
+  "summary_short": "A Yiddish shiur: Modeh Ani in the Alter Rebbe's Shulchan Aruch, Tanya chapter 13 on how the beinoni differs from the tzaddik and the rasha, and why a simple ram's horn crowns Hashem on Rosh Hashanah.",
+  "summary_long": "The next week's shiur in Rabbi Yosef Goldstein's Yiddish Tanya series, given the day after Chai Elul. It opens at the end of Rabbi Akiva's story 'all that Hashem does is for the good' and explains 'Shivisi' as treating every event and every mitzvah alike, with fresh enthusiasm each morning, as if the Torah were given today. Shulchan Aruch HaRav 1:5-6 follows: saying Modeh Ani on waking, thanking Hashem for returning a renewed soul, pausing a moment before standing up, and why Modeh Ani may be said before washing the hands. Tanya chapter 13 then shows how the beinoni acts exactly like a tzaddik yet still has desire for worldly pleasures, and why he should regard himself 'like a rasha' even when the whole world calls him a tzaddik. A Rosh Hashanah talk explains that only a Jew can make Hashem King, and why the shofar is a plain, unadorned ram's horn with a simple sound: the animal soul itself proclaims Hashem King. It closes with the Rebbe's Chai Elul talk on the Baal Shem Tov's question about blessings that lead to teshuvah.",
+  "lesson": "Serve Hashem with fresh enthusiasm every day, and bring even the animal soul to accept Him as King.",
+  "keywords": [
+   "beinoni",
+   "Modeh Ani",
+   "shofar",
+   "ram's horn",
+   "malchiyos",
+   "tzaddik",
+   "rasha",
+   "Gam zu l'tovah",
+   "six remembrances",
+   "Rosh Hashanah"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "talmudic",
+   "mashal_parable"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1976-09-14",
+   "hebrew": "19 Elul 5736",
+   "hebrew_year": 5736,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Cites the Rebbe's talk 'last night, Chai Elul' of this year; ASR year is garbled (5736 likely, 5746 possible)."
+  },
+  "study_text": [
+   {
+    "work": "shulchan_aruch_harav",
+    "unit": "seif",
+    "from": "1:5",
+    "to": "1:6",
+    "lecture_number": 29,
+    "note": "Hilchos Hashkamas HaBoker; filename '29b'"
+   },
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "13",
+    "to": "13",
+    "lecture_number": 29,
+    "note": "filename '29b'"
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 16,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rabbi_akiva",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidus_tanya",
+   "halachah",
+   "calendar"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "zerizus",
+   "hakaras_hatov",
+   "kabbalas_ol",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "shofar",
+   "torah_study",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul",
+   "chai_elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "shulchan_aruch_harav",
+    "ref": "OC 1:5-6"
+   },
+   {
+    "work": "tanya",
+    "ref": "ch. 1; ch. 13"
+   },
+   {
+    "work": "gemara",
+    "ref": "Berachos 60b; Niddah 30b"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "2:1; 2:13"
+   },
+   {
+    "work": "tehillim",
+    "ref": "16:8"
+   },
+   {
+    "work": "siddur",
+    "ref": "the six remembrances"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Chai Elul"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 57,
+   "type": "story",
+   "title": "Rabbi Akiva: all that Hashem does is for the good (ending)",
+   "summary": "The recording opens at the end of the story and its lesson.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 57,
+   "end_sec": 366,
+   "type": "talk",
+   "title": "Shivisi: every mitzvah alike, fresh every day",
+   "summary": "Everything Hashem does is equally good, and every mitzvah deserves the same freshness, as if the Torah were given today."
+  },
+  {
+   "start_sec": 366,
+   "end_sec": 783,
+   "type": "text_study",
+   "title": "Shulchan Aruch HaRav 1:5-6: Modeh Ani",
+   "summary": "Saying Modeh Ani on waking, waiting a moment before standing, and why it may be said before washing the hands."
+  },
+  {
+   "start_sec": 783,
+   "end_sec": 1900,
+   "type": "text_study",
+   "title": "Tanya chapter 13: the beinoni between tzaddik and rasha",
+   "summary": "The beinoni acts like a tzaddik but still has worldly desires, so he must see himself 'like a rasha'."
+  },
+  {
+   "start_sec": 1900,
+   "end_sec": 2443,
+   "type": "talk",
+   "title": "Rosh Hashanah: making Hashem King with a simple shofar",
+   "summary": "Only a Jew can crown Hashem, and the plain ram's horn shows the animal soul proclaiming Him King.",
+   "calendar": [
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 2443,
+   "type": "sichah",
+   "title": "The Rebbe's Chai Elul talk: blessings that bring teshuvah",
+   "summary": "The Baal Shem Tov's question on blessings that come before teshuvah, with a mashal of a king who rewards a rebel.",
+   "calendar": [
+    "chai_elul"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "3770fac95d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Next week's shiur after '29 P13': refers to what was learned last week and continues Shulchan Aruch 1:5-6 and Tanya ch. 13; not another take."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start",
+   "dead_air"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Starts mid-story (end of Rabbi Akiva's story). Brief interruption with about 80 seconds without transcribed speech around 15:00-16:20. Loshn-koydesh quotations garbled by ASR."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:07Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "medium",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Year of the Chai Elul reference is garbled in ASR (5736 vs 5746).",
+   "Confirm the speaker is Rabbi Yosef Goldstein (from folder name)."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2029%20-%20Modeh%20Ani%2C%20the%20Beinoni%20in%20Tanya%20Chapter%2013%20and%20the%20Shofar%20%28Elul%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 29 - Modeh Ani, the Beinoni in Tanya Chapter 13 and the Shofar (Elul).mp3",
+  "size_bytes": 31151551,
+  "mime_type": "audio/mpeg"
+ }
+}

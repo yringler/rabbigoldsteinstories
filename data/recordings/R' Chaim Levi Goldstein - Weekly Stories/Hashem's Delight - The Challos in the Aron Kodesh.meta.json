@@ -1,0 +1,228 @@
+{
+ "id": "5c67395102",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem's Delight",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem's Delight - The Challos in the Aron Kodesh.mp3",
+  "duration_sec": 1214.746,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hashem's Delight: The Challos in the Aron Kodesh",
+  "title_basis": "filename",
+  "summary_short": "A simple Jew from Spain in the Tzfas of the Arizal places challos in the Aron Kodesh every Friday for Hashem, and learns how precious his joyful, sincere service is.",
+  "summary_long": "The storyteller explains that this story is mentioned briefly in a maamar of the Mitteler Rebbe, as a lesson in serving Hashem with simcha, and that he found it in full in an older sefer. First he tells of a simple kohen who mispronounced one word of Birkas Kohanim; when the rav removed him, Heaven ordered that he be allowed back, because Hashem looks at the heart. Then the main story: Moshe, a former Marrano from Spain and Portugal, settles in Tzfas in the days of the Arizal. Hearing his rav lament that Hashem no longer has the pleasure of the Lechem HaPanim, Moshe and his wife bake two fine challos every Friday and leave them in the Aron Kodesh. The shammash takes them home each week, and Moshe rejoices that Hashem accepted his gift. One Friday the rav catches him, scolds him and exposes the shammash. Then a messenger from the Arizal arrives: by stopping Moshe's joyful offering, the rav has taken away Hashem's greatest pleasure since the Beis HaMikdash, and a severe decree awaits him. The storyteller gives two endings he found: in one the rav passes away, in another he asks forgiveness and does teshuvah.",
+  "lesson": "Hashem treasures service done with a full heart and with simcha; never mock someone who sincerely serves Hashem in a way we do not understand.",
+  "keywords": [
+   "challah",
+   "Aron Kodesh",
+   "shammash",
+   "Marranos",
+   "Spanish Inquisition",
+   "Lechem HaPanim",
+   "Birkas Kohanim",
+   "kohen",
+   "Tzfas"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The rav is told he will die the next day; in one version of the story he does."
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A Heavenly decree against the rav for stopping a sincere Jew's service."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Brief background on the Spanish Inquisition and secret Jews."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "arizal",
+    "role": "appears"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Moshe, a former Marrano",
+   "his wife",
+   "the rav of the shul",
+   "the shammash",
+   "the simple kohen",
+   "the Arizal's messenger"
+  ],
+  "topics": [
+   "great_rabbis",
+   "prayer_and_brachos",
+   "jewish_history"
+  ],
+  "midos": [
+   "simcha",
+   "dan_lkaf_zchus",
+   "kibbud",
+   "anavah"
+  ],
+  "mitzvos": [
+   "davening",
+   "kavod_shul",
+   "teshuvah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "maamarim",
+    "note": "A maamar of the Mitteler Rebbe mentions the story briefly as a lesson in serving Hashem with simcha."
+   },
+   {
+    "work": "midrash",
+    "note": "'Nachas ruach lefanai she'amarti v'naaseh retzoni' - Hashem's pleasure that His word is fulfilled (as quoted)."
+   }
+  ],
+  "places": [
+   "Tzfas",
+   "Spain",
+   "Portugal"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 42,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 42,
+   "end_sec": 91,
+   "type": "talk",
+   "title": "A story from a maamar of the Mitteler Rebbe"
+  },
+  {
+   "start_sec": 91,
+   "end_sec": 279,
+   "type": "story",
+   "title": "The kohen who said one word wrong"
+  },
+  {
+   "start_sec": 279,
+   "end_sec": 1158,
+   "type": "story",
+   "title": "The challos in the Aron Kodesh",
+   "people": [
+    "arizal"
+   ]
+  },
+  {
+   "start_sec": 1158,
+   "type": "talk",
+   "title": "Two endings and the lesson"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "249769e4fd",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'See the Good in Everyone: The Challos in the Aron Kodesh' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Storyteller mentions also finding the story in 'Talks and Tales' with a different ending."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:10Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%27s%20Delight%20-%20The%20Challos%20in%20the%20Aron%20Kodesh.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem's Delight - The Challos in the Aron Kodesh.mp3",
+  "size_bytes": 14577717,
+  "mime_type": "audio/mpeg"
+ }
+}

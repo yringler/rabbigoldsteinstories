@@ -1,0 +1,170 @@
+{
+ "id": "d434a2d6c5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Rebbe 521",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/What Is a Rebbe A Leader in Every Generation (Ep 521).mp3",
+  "duration_sec": 276.582,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 521,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 521,
+   "story": "Judge for a day #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "very quiet source (I=-38.0 LUFS)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "What Is a Rebbe? A Leader in Every Generation",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains that 'Rebbe' stands for 'Rosh Bnei Yisrael', how Hashem gives every generation a leader, and how the Rebbe founded Tzivos Hashem out of love for children.",
+  "summary_long": "A talk from the Tzivos Hashem radio show in Adar 5752, while the Rebbe was ill. Uncle Yossi explains that the three Hebrew letters of the word Rebbe, reish, beis, yud, stand for 'Rosh Bnei Yisrael', the head of the Jewish people. A Rebbe is given special powers by Hashem, through his dedication to Torah, prayer and mitzvos, to lead and guide the Jewish people. In every generation Hashem chooses such a leader: Moshe Rabbeinu in Egypt, then his devoted student Yehoshua, the Shoftim, and the great tzaddikim of every age, and everyone should follow the leader of his generation. Uncle Yossi tells listeners that the Rebbe founded Tzivos Hashem ten years earlier out of love for Jewish children, bringing Yiddishkeit to hundreds of thousands of families through mitzvah missions. Now the children can do something for the Rebbe: pray for his complete recovery. The clip ends there, before the Tehillim.",
+  "lesson": "In every generation Hashem gives us a leader; follow your Rebbe and pray for him.",
+  "keywords": [
+   "Rebbe",
+   "Rosh Bnei Yisrael",
+   "leader",
+   "Tzivos Hashem founding",
+   "mitzvah missions",
+   "refuah shleimah"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 521,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1992-03-24",
+   "hebrew": "19 Adar II 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 521, the week after Purim 5752 (the previous week's prayer for the Rebbe is recalled)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "Mentions that the Rebbe needs a complete recovery.",
+    "at_sec": 262
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yehoshua_bin_nun",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "hiskashrus",
+   "the_rebbe",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_end",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Ends mid-thought ('The Rebbe needs a refuah shleimah') before the Tehillim that follows in the episode. Tied to the Rebbe's illness in 5752."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:17Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d89547e51a",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 63,
+   "note": "Episode 521 (filename number); clip = 63-340 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/What%20Is%20a%20Rebbe%20A%20Leader%20in%20Every%20Generation%20%28Ep%20521%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/What Is a Rebbe A Leader in Every Generation (Ep 521).mp3",
+  "size_bytes": 3319820,
+  "mime_type": "audio/mpeg"
+ }
+}

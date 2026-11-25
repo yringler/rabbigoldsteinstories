@@ -1,0 +1,174 @@
+{
+ "id": "45b8ad173e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Morning Routine-1 358",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Morning Routine, Part 1 - Modeh Ani and Negel Vasser (Ep 358).mp3",
+  "duration_sec": 287.182,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 358,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 358,
+   "story": "The return of Yehudah #3",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Morning Routine, Part 1: Modeh Ani and Negel Vasser",
+  "title_basis": "content",
+  "summary_short": "After remembering that Hashem is with you, say Modeh Ani to thank Him for your refreshed neshamah, then wash negel vasser, just as the Kohen washed before entering the Mishkan.",
+  "summary_long": "A morning-routine talk from the Tzivos Hashem radio show. Having learned that the very first thing each morning is to remember that Hashem is right there, Uncle Yossi moves to the next step: Modeh Ani, the twelve-word prayer thanking Hashem for returning our neshamah refreshed and fully charged, so we have strength all day for Torah and mitzvos. He explains its meaning, ending with 'great is Your faithfulness'. Right after Modeh Ani, before touching anything, we wash our hands. The Jewish people are a holy nation because each of us has a neshamah, a part of Hashem, so we keep our bodies pure. Just as the Kohen Gadol washed his hands and feet at the kiyor before entering the Mishkan, we purify ourselves each morning before we begin to serve Hashem, by washing negel vasser, pouring water over the whole hand up to the fingernails. More about this mitzvah is promised for next week.",
+  "lesson": "Start each day by thanking Hashem with Modeh Ani and purifying yourself with negel vasser before serving Him.",
+  "keywords": [
+   "Modeh Ani",
+   "negel vasser",
+   "fingernails",
+   "Mishkan",
+   "kiyor",
+   "Kohen Gadol",
+   "neshamah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "episode": {
+   "number": 358,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-01-03",
+   "hebrew": "26 Teves 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Inherits the air date of episode 358 (e5af19b792). Episode: Consistent with the audio: candle lighting 'this coming Friday, January 6th'."
+  }
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "morning_routine",
+   "halachah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "modeh_ani",
+   "negel_vasser"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 25:8",
+    "note": "'Make Me a Mishkan and I will dwell among them', quoted as Hashem's words."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "e5af19b792",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 1319,
+   "note": "Episode 358 (filename number); clip = 1319-1606 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "1916360509",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "Opens 'since we have already learned the very first thing... even before Modeh Ani', i.e. the Shiviti talk of episode 356."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "a04a4cbaa0",
+   "evidence": "filename",
+   "confidence": 0.9,
+   "note": "'Morning Routine-1 358' and 'Morning Routine-2 359'; this part promises more on negel vasser next week."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1916360509",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "First step of the morning-routine talks; 'Morning Routine-1 358' continues with Modeh Ani and negel vasser."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The Hebrew words of Modeh Ani (about 01:00-01:31) are not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:44:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Morning%20Routine%2C%20Part%201%20-%20Modeh%20Ani%20and%20Negel%20Vasser%20%28Ep%20358%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Morning Routine, Part 1 - Modeh Ani and Negel Vasser (Ep 358).mp3",
+  "size_bytes": 3447101,
+  "mime_type": "audio/mpeg"
+ }
+}

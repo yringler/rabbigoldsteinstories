@@ -1,0 +1,14 @@
+{
+ "batch_id": "b083",
+ "done": [
+  "f9c51093c5",
+  "4589130f5c"
+ ],
+ "failed": [],
+ "notes": [
+  "Chapter gap: '24 P7' (f9c51093c5) finishes Tanya ch. 7 and '25 P9' (4589130f5c) opens ch. 9 ('last week we mentioned that ch. 9 begins a new section'). Chapter 8 must have been taught in between, but the only P8 file is '27 P8' (285846e5e3), numbered after 25. Its shiur number or chapter label may be wrong. Pass 2 should check it.",
+  "Dating: 24 was given in the days before a Lag BaOmer parade that fell on a Tuesday (true of 5736). 25 came after Shabbos Mevarchim Tammuz and before the Three Weeks, and was the last class before the summer break. Both fit shiur 28 (392ba3b130), whose filename says 29 Av 5736.",
+  "f9c51093c5 contains the speaker's own childhood memory (before 5710) of the Rebbe speaking to yeshiva children in the 770 yard. This is an identity clue that fits Rabbi Yosef Goldstein.",
+  "Added a continues relation from f9c51093c5 to eb0459de7a ('23 P6-7'), based on the filename sequence only. That item's content was not checked."
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "id": "213559b057",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Asarah B'Teves 5",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - Why We Remember the Siege of Yerushalayim (Ep 005).mp3",
+  "duration_sec": 682.496,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 5,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 5,
+   "story": "",
+   "topic": "Asarah B’Teves",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Asarah B'Teves: Why We Remember the Siege of Yerushalayim",
+  "title_basis": "content",
+  "summary_short": "Why the Tenth of Teves is a sad day, what happened when Yerushalayim was surrounded, and how Moshiach will turn the sad days into Yomim Tovim.",
+  "summary_long": "A talk from the Asarah B'Teves broadcast of 5742. Uncle Yossi explains that Shlomo HaMelech taught there is a time for everything: a time to be happy and serve Hashem with joy, and sometimes a time to be sad, not to stay sad but to learn from the past and improve ourselves. On the Tenth of Teves, the armies of Nevuchadnetzar, king of Babylon, surrounded Yerushalayim and sealed its gates, and the people grew weak from hunger. After two and a half years the walls were broken on the 17th of Tammuz, and on Tisha B'Av the Beis HaMikdash was destroyed. The answer is to keep learning Torah and doing mitzvos, for Hashem \"neither slumbers nor sleeps\" and guards Israel. Hashem has promised to turn these fast days into days of joy when Moshiach comes, gathers all Jews to Eretz Yisroel and the third Beis HaMikdash is built.",
+  "lesson": "We remember sad days in order to improve ourselves; with Torah and mitzvos Hashem protects us, and soon these days will become Yomim Tovim.",
+  "keywords": [
+   "siege",
+   "Yerushalayim",
+   "Babylon",
+   "a time for everything",
+   "hunger",
+   "third Beis HaMikdash"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1982-01-05",
+   "hebrew": "10 Teves 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the tenth of Teves'; cut from episode 5."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 5,
+   "is_clip": true
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "moderate",
+    "note": "The siege of Yerushalayim, starvation in the city and the destruction of the Beis HaMikdash.",
+    "at_sec": 234
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nevuchadnetzar",
+    "role": "appears"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'There is a time for everything', cited as said by Shlomo HaMelech."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'He neither slumbers nor sleeps, the Guardian of Israel.'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "393f61d950",
+   "evidence": "text_overlap",
+   "confidence": 0.81,
+   "note": "Also aired in episode 555."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "672ff77943",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Also aired in episode 260."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "7e9d4fa376",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Also aired in episode 410."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b8577c47e9",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "note": "Also aired in episode 507."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "efb72976ab",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "offset_sec": 268,
+   "note": "Episode 5 (filename number); clip = 268-951 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "2cdc2fb9fd",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "'Asarah B'Teves 507' holds the same talk, cut from its rebroadcast in episode 507."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts mid-sentence ('And now we have Teves') after the calendar recap; still clear on its own."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:44:46Z"
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Asarah%20B%27Teves%20-%20Why%20We%20Remember%20the%20Siege%20of%20Yerushalayim%20%28Ep%20005%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - Why We Remember the Siege of Yerushalayim (Ep 005).mp3",
+  "size_bytes": 8190824,
+  "mime_type": "audio/mpeg"
+ }
+}

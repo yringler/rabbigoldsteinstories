@@ -1,0 +1,167 @@
+{
+ "id": "edeae1fcd9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Torah, Avodah, Gemilus Chasadim 34",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Healthy Diet for the Soul - Torah, Avodah and Gemilus Chasadim (Ep 034).mp3",
+  "duration_sec": 480.021,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 34,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 34,
+   "story": "The Two Brothers",
+   "topic": "תשעה באב / Torah, Avodah & Gemilus Chasadim",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "A Healthy Diet for the Soul: Torah, Avodah and Gemilus Chasadim",
+  "title_basis": "content",
+  "summary_short": "Just as the body needs a healthy diet, the neshama needs three things: learning Torah, davening to Hashem, and acts of kindness, especially tzedakah.",
+  "summary_long": "A summer talk from the Tzivos Hashem radio show. Uncle Yossi reminds children that alongside exercise for the body, the neshama needs its own healthy diet, made of three basic elements. Torah is light: like light, it shows us the treasures of the world and the dangers to avoid, so we can tell right from wrong, and we should set aside time to learn every day. Avodah is davening: as the Rambam teaches, whatever we need we ask only from Hashem, who created and controls everything, trusting that He hears our prayers. Gemilus Chasadim means acts of kindness between people, above all tzedakah, which helps those in need and also changes the giver, making him a better and more refined person. Sticking to this diet, he says, brings a successful summer for body and soul.",
+  "lesson": "Keep your soul strong every day with Torah, davening and acts of kindness, especially giving tzedakah.",
+  "keywords": [
+   "healthy soul",
+   "diet",
+   "light",
+   "summer vacation",
+   "charity",
+   "neshama"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 34,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1982-07-27",
+   "hebrew": "7 Av 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 34, which aired two days before Tisha B'Av 5742 ('tomorrow is Erev Tisha B'Av')."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "torah_study",
+   "prayer_and_brachos",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "emunah"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "gemilus_chasadim",
+   "tzedakah"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The Rambam: whatever you need, turn only to Hashem (no exact reference given)."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "3d8a6f67a3",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "offset_sec": 28,
+   "note": "Episode 34 (filename number); clip = 28-508 s of the episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f33fa1ac66",
+   "evidence": "text_overlap",
+   "confidence": 0.65,
+   "note": "Text match with episode 136 (containment 0.71); weaker matches with episodes 488, 337 and 438 (0.55-0.57)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the opening talk of episode 34."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:52:43Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/A%20Healthy%20Diet%20for%20the%20Soul%20-%20Torah%2C%20Avodah%20and%20Gemilus%20Chasadim%20%28Ep%20034%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/A Healthy Diet for the Soul - Torah, Avodah and Gemilus Chasadim (Ep 034).mp3",
+  "size_bytes": 5761145,
+  "mime_type": "audio/mpeg"
+ }
+}

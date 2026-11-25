@@ -1,0 +1,159 @@
+{
+ "id": "bf55594028",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Tzedakah 347",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Turn Your House into a Big Mitzvah - Fix Your Tzedakah Pushka to the Wall (Ep 347).mp3",
+  "duration_sec": 315.865,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 347,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 347,
+   "story": "רד\"ץ ריי\"ץ אלף בית",
+   "topic": "צדקה פושקע לעשות הבית מצוה",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Turn Your House into a Big Mitzvah: Fix Your Tzedakah Pushka to the Wall",
+  "title_basis": "content",
+  "summary_short": "Uncle Yossi explains that 'mitzvah' also means connection, so fixing your tzedakah pushka to the wall turns your whole house into a mitzvah that helps bring Moshiach.",
+  "summary_long": "A talk from the Tzivos Hashem radio show. Uncle Yossi shares 'great news': you can turn your whole house into a mitzvah gedolah. The word mitzvah means a commandment, but it also means joining and connecting, so every mitzvah connects us to Hashem. If you fix your tzedakah pushka permanently to a wall, by tapping a nail through it or with tape or glue, your whole house becomes part of the mitzvah of tzedakah. Our Sages say tzedakah is so great that it brings Moshiach closer, so your whole house is now helping to bring Moshiach. The order of the day for Tzivos Hashem soldiers: tell your parents first, let them help you attach the pushka, and put a few coins in. This is an invitation for Hashem to dwell in your home and bless it, and it makes Hashem happy to see you doing something so good.",
+  "lesson": "Make tzedakah a permanent part of your home, and help bring Moshiach sooner.",
+  "keywords": [
+   "tzedakah pushka",
+   "charity box",
+   "nail",
+   "wall",
+   "house",
+   "connection",
+   "coins"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 347,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-10-18",
+   "hebrew": "7 Cheshvan 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 347 (filename date 18 Oct 1988); the same talk also aired in episode 451."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "moshiach_geulah",
+   "family_and_home",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "generosity"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "mivtzoim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "gemara",
+    "ref": "Bava Basra 10a",
+    "note": "'Great is tzedakah, for it brings the Redemption closer'; cited as 'our Chachamim'."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The letter-writing contest heard in the full episode was edited out of this clip."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:40Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "3553669bc5",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 451."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6c85a42c28",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 45,
+   "note": "Episode 347 (filename number); clip = 45-361 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Turn%20Your%20House%20into%20a%20Big%20Mitzvah%20-%20Fix%20Your%20Tzedakah%20Pushka%20to%20the%20Wall%20%28Ep%20347%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Turn Your House into a Big Mitzvah - Fix Your Tzedakah Pushka to the Wall (Ep 347).mp3",
+  "size_bytes": 3791281,
+  "mime_type": "audio/mpeg"
+ }
+}

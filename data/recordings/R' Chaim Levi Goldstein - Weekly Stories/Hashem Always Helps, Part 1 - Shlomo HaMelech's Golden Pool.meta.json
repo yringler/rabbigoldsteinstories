@@ -1,0 +1,206 @@
+{
+ "id": "d89bdb8bdc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem Always Helps part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Always Helps, Part 1 - Shlomo HaMelech's Golden Pool.mp3",
+  "duration_sec": 1422.864,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Hashem Always Helps, Part 1: Shlomo HaMelech's Golden Pool",
+  "title_basis": "filename",
+  "summary_short": "A jealous advisor tricks the king into ordering Rabbi Yehuda to build a copy of Shlomo HaMelech's golden pool. With bitachon he succeeds, until the gold paint will not stick.",
+  "summary_long": "About 700 years ago a king has two advisors: the Jew Rabbi Yehuda, whom he trusts most, and the jealous Yivan. To be rid of his rival, Yivan persuades the king that copying Shlomo HaMelech's famous golden pool would make him the greatest king, and that only Rabbi Yehuda can build it. Commanded by the king, Rabbi Yehuda comes home worried, but his wife Rivkah reminds him that Hashem is greater than any problem: press the 'button' of bitachon and, as the Tzemach Tzedek said, think good and it will be good. In her late father's safe he finds the plans for the very pool. The pool is built, but twice the gold paint peels off in the water. Rivkah suggests this too may be a hidden favor. Yivan, an expert painter, refuses to share his secret, so Rabbi Yehuda generously asks the king to let Yivan do the painting. The pool is a success, and the furious Yivan now accuses Rabbi Yehuda of stealing gold. Rabbi Yehuda will swear only for himself, not for his fifty workers, and the angry king sentences him to death unless he gives up his Judaism. He refuses, says Shema, and is thrown into the river, where the king's Jewish physician, Rabbi Yitzchak, dives in to cut his ropes. To be continued.",
+  "lesson": "Trust in Hashem even when a task seems impossible; think good and it will be good, and even a setback can be a hidden favor.",
+  "keywords": [
+   "king",
+   "advisor",
+   "golden pool",
+   "swimming pool",
+   "blueprints",
+   "gold paint",
+   "oath",
+   "river",
+   "physician",
+   "bitachon button"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "part": {
+   "set_key": "hashem-always-helps",
+   "part_number": 1,
+   "of": 2
+  },
+  "content_type": "story_chapter",
+  "story_type": [
+   "historical"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "forced_conversion",
+    "severity": "moderate",
+    "note": "The king offers to spare Rabbi Yehuda if he converts; he refuses."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Rabbi Yehuda is tied up and thrown into a river to drown; he is rescued at the end of the part."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A jealous advisor plots against the Jewish advisor."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the king's advisor",
+   "Rivkah, his wife",
+   "Yivan, the jealous advisor",
+   "the king",
+   "Rabbi Yitzchak, the king's physician"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "mesiras_nefesh_kiddush_hashem",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "bitachon",
+   "emes",
+   "mesiras_nefesh",
+   "generosity"
+  ],
+  "mitzvos": [
+   "kiddush_hashem",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "The Tzemach Tzedek's saying 'Tracht gut, vet zein gut' (think good and it will be good)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "type": "story_chapter",
+   "title": "Hashem Always Helps, Part 1",
+   "story_key": "hashem-always-helps",
+   "chapter": 1
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends 'to be continued, im yirtzeh Hashem'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:12:30Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "b3a7eb29c2",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'Hashem Always Helps part 2'."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "21a742a4c5",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Same recording (other transfer/cut)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Always%20Helps%2C%20Part%201%20-%20Shlomo%20HaMelech%27s%20Golden%20Pool.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Always Helps, Part 1 - Shlomo HaMelech's Golden Pool.mp3",
+  "size_bytes": 17075138,
+  "mime_type": "audio/mpeg"
+ }
+}

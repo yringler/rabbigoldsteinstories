@@ -1,0 +1,184 @@
+{
+ "id": "36e89c0829",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Tztzis - eye miracle",
+  "audio_path": "audio/Other Stories/Tzitzis and the Eye Miracle.mp3",
+  "duration_sec": 1991.09,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Tzitzis and the Eye Miracle",
+  "title_basis": "filename",
+  "summary_short": "A boy losing his sight hears a story about the Rebbe's brachah, and his father dreams that the Rebbe tells him: let Nachum wear tzitzis.",
+  "summary_long": "Nachum, a boy from a family that does not keep mitzvos, is losing his eyesight, and the best eye doctors cannot help. To cheer him up, his father reads him a story from a weekly Chabad leaflet: a young shliach in Canada visits a Mr. Katz and finds the Rebbe's picture on his wall. Mr. Katz explains that after twelve years without children, a delayed flight let him reach 770, where the Rebbe offered him a 'business deal': put on tefillin every day, and Hashem will give you children to teach. He now has six. That night Nachum's father dreams that the Rebbe asks him whether Nachum wears tzitzis, quoting 'u'reisem oso', when you see them you will remember. A Lubavitcher cousin and friend tell him the dream is a real message. He buys tzitzis and yarmulkes for his sons and himself, and at the next visit the astonished professor finds Nachum's sight almost fully restored. One mitzvah brings the next: the family begins keeping Shabbos and kashrus and later settles in Tzfas. On his first visit to the Rebbe's room, the father recognizes it from his dream.",
+  "lesson": "When we do what Hashem wants, Hashem does what we need; one mitzvah leads to another, and the Rebbe cares for every Jew wherever he is.",
+  "keywords": [
+   "eyesight",
+   "eye doctor",
+   "dream",
+   "Chabad leaflet",
+   "airplane delay",
+   "770",
+   "childless couple",
+   "business deal",
+   "shliach"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "A boy is going blind and doctors cannot help; he is healed."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Nachum",
+   "his father Yehuda",
+   "his mother",
+   "his twin brother",
+   "Mr. Katz",
+   "a young shliach in Canada",
+   "a Lubavitcher on the plane",
+   "the eye professor",
+   "a Lubavitcher cousin"
+  ],
+  "topics": [
+   "the_rebbe",
+   "miracles",
+   "mitzvos_in_daily_life",
+   "teshuvah"
+  ],
+  "midos": [
+   "emunah",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "tzitzis",
+   "tefillin",
+   "yarmulke",
+   "shabbos",
+   "kashrus",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "770 Eastern Parkway",
+   "Canada",
+   "Tzfas"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "note": "Shema: 'v'shinantam l'vanecha' (teach your children) and 'u'reisem oso' (seeing the tzitzis), quoted by the Rebbe in the story."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 210,
+   "type": "story",
+   "title": "Nachum's eyes",
+   "summary": "A sad boy who is losing his sight asks his father to read him a story."
+  },
+  {
+   "start_sec": 210,
+   "end_sec": 1100,
+   "type": "story",
+   "title": "The Rebbe's business deal",
+   "summary": "Mr. Katz tells a shliach how the Rebbe's brachah and tefillin brought him children."
+  },
+  {
+   "start_sec": 1100,
+   "type": "story",
+   "title": "The dream and the tzitzis",
+   "summary": "The Rebbe in a dream tells the father to have his son wear tzitzis, and the boy's sight returns."
+  }
+ ],
+ "relations": [],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No opening song or sign-off; narrator not identified. Story reads like a translation from a Hebrew booklet."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator not identified; no series cues (no opening song or sign-off)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:04:35Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Tzitzis%20and%20the%20Eye%20Miracle.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Tzitzis and the Eye Miracle.mp3",
+  "size_bytes": 23894031,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "ed960138a4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Yosaif Mokir Shabbos",
+  "audio_path": "audio/Other Stories/Yosef Mokir Shabbos - The Diamond in the Fish.mp3",
+  "duration_sec": 267.896,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "duplicate copy a93e1bea04 was filed under 'Stories/אידיש/Yiddish stories/Bubby Chaya Malka etc' (language guess there: yiddish)"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Yosef Mokir Shabbos: The Diamond in the Fish",
+  "title_basis": "filename",
+  "summary_short": "A short Yiddish story: a rich man hides his fortune in a diamond in his hat, but it ends up inside the big fish that Yosef, who honors Shabbos, buys for Shabbos.",
+  "summary_long": "Told in Yiddish. A wicked rich non-Jew is told by stargazers that all his wealth will pass to the Jews. To prevent it, he sells his houses, fields and forests, buys one huge diamond, hides it in his hat and sails off laughing that the Jews will never get his money. A strong wind blows his hat into the sea, and a big fish swallows it. A week later fishermen bring the fish to the market early on Friday morning, but no housewife wants such a large fish. Yosef, who every Friday buys the finest fish in honor of Shabbos, gladly buys it, knowing his wife will cook it and share it with poor families and elderly people who cannot make fish for Shabbos themselves. When his wife cuts it open, a beam of light shines out: the diamond. They sell it to a jeweler for many thousands, and Yosef remains wealthy all his life. Because he always honored Shabbos and his wife helped every poor person, Hashem blessed them with long years, health and plenty of parnassah.",
+  "lesson": "Honoring Shabbos and sharing with the poor bring Hashem's blessing; no plan can keep from a person what Hashem has decided to give him.",
+  "keywords": [
+   "diamond",
+   "fish",
+   "hat",
+   "stargazers",
+   "ship",
+   "market",
+   "Friday",
+   "jeweler"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "talmudic"
+  ],
+  "series": null,
+  "speakers": [
+   "yiddish_narrator_unconfirmed"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "yosef_mokir_shabbos",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Yosef Mokir Shabbos",
+   "his wife",
+   "a wicked rich man",
+   "the stargazers",
+   "fishermen",
+   "a jeweler"
+  ],
+  "topics": [
+   "shabbos",
+   "hashgacha_pratis",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "generosity",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "same_story_other_language",
+   "target_id": "01bf11df00",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 452: Reb Yosef Mokir Shabbos' (episode 452, 14:05-27:02), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "0affcab8ab",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 482: Reb Yosef Mokir Shabbos (Shabbos Mevarchim Tammuz)' (episode 482, 14:50-28:04), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "7753ff611a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 201: Yosef Mokir Shabbos' (episode 201, 15:26-28:44), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "b997afa367",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 240: Reb Yosef Mokir Shabbos (Shabbos Mevarchim Elul)' (episode 240, 12:17-24:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f811fa27af",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Bubby's Stories and Zaidy's Songs' (Stories, 8:15-12:15), told by Bubby Chaya Malka."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'now I will tell another story', so it was cut from a longer storytelling session."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "yiddish_narrator_unconfirmed",
+   "guess": "Bubby Chaya Malka",
+   "confidence": "low",
+   "evidence_quote": "יעצט וועל איך אבערציילן נאך א מיינסע",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Narrator unknown; a duplicate copy sits in the 'Bubby Chaya Malka etc' folder, which may identify her (see identity_guesses)."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:29Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Yosef%20Mokir%20Shabbos%20-%20The%20Diamond%20in%20the%20Fish.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Yosef Mokir Shabbos - The Diamond in the Fish.mp3",
+  "size_bytes": 3215710,
+  "mime_type": "audio/mpeg"
+ }
+}

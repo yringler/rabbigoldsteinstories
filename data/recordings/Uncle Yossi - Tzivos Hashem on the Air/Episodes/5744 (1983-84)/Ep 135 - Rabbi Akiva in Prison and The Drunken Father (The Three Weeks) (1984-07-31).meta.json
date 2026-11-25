@@ -1,0 +1,387 @@
+{
+ "id": "4d19621b73",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "135",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 135 - Rabbi Akiva in Prison and The Drunken Father (The Three Weeks) (1984-07-31).mp3",
+  "duration_sec": 1721.282,
+  "filename_facts": {
+   "episode_number": 135,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 135,
+   "story": "",
+   "topic": "3 wksעקיבא נט\"י אה\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 135: Rabbi Akiva in Prison and The Drunken Father (The Three Weeks)",
+  "title_basis": "content",
+  "summary_short": "Joining Tzivos Hashem to beat the Yetzer Hara, why water purifies, Rabbi Akiva washing negel vasser in prison, Ahavas Yisroel, and a sad story about a father who drinks.",
+  "summary_long": "A Three Weeks program. Uncle Yossi invites children to join Tzivos Hashem and receive an ID card, emblem and wallet, and explains that Torah and mitzvos are the secret weapons that will make the Yetzer Hara surrender before Moshiach comes. A girl from a Boro Park school leads the Shema. Then he describes Hashem's gift of water, which gives life, keeps us healthy and also makes us pure, like the Kohanim washing at the Mishkan, which is why we wash negel vasser each morning. In the story, Rabbi Akiva is jailed for teaching Torah and given no water for three days; when a jug finally comes he uses it to wash his hands with a brachah, and the amazed ruler frees him and makes him an adviser. Uncle Yossi teaches Rabbi Akiva's great rule, love your fellow as yourself, and the Alter Rebbe's teaching that loving every Jew leads to loving Hashem, so important in the Three Weeks. He ends with a story 'with no happy ending': young Naftali shows his drinking father a drunkard in the street, but the father only asks where to get such a good drink. The Torah shows us the ways of other nations only so we will not copy them.",
+  "lesson": "Torah and mitzvos are our weapons against the Yetzer Hara; love every Jew as yourself; and learn from others' bad ways only to avoid them.",
+  "keywords": [
+   "ID card",
+   "Yetzer Hara",
+   "water",
+   "sun",
+   "prison",
+   "jug of water",
+   "great rule of the Torah",
+   "drunkard",
+   "Naftali",
+   "Tzivos Hashem membership"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 135,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "talmudic",
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-07-31",
+   "hebrew": "2 Av 5744",
+   "hebrew_year": 5744,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'Especially today during the Three Weeks'; between 134 (24 Tammuz, Rosh Chodesh Av next Monday) and 136 (Tisha B'Av program)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Rabbi Akiva is jailed for teaching Torah and given no water for three days.",
+    "at_sec": 647
+   },
+   {
+    "flag": "alcohol",
+    "severity": "moderate",
+    "note": "A boy is ashamed of his father's drinking; a drunk lies in the street.",
+    "at_sec": 1146
+   },
+   {
+    "flag": "sad_ending",
+    "severity": "mild",
+    "note": "The drunken father story deliberately ends without the father changing.",
+    "at_sec": 1517
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full with her school.",
+    "at_sec": 316
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the ruler",
+   "the prison wardens",
+   "Naftali",
+   "Naftali's father",
+   "Naftali's mother"
+  ],
+  "topics": [
+   "sages",
+   "morning_routine",
+   "kindness_and_community",
+   "tzivos_hashem",
+   "family_and_home"
+  ],
+  "midos": [
+   "self_control",
+   "ahavas_yisroel",
+   "mesiras_nefesh",
+   "kibbud",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "negel_vasser",
+   "ahavas_yisroel_mitzvah",
+   "shema",
+   "torah_study",
+   "brachos",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "three_weeks"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18",
+    "note": "'V'ahavta l'reiacha kamocha'; Rabbi Akiva calls it a great rule of the Torah, 'as written in the Gemara'."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "The Alter Rebbe: Ahavas Yisroel leads to Ahavas Hashem."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 18:3",
+    "note": "'Like the practice of the land of Egypt... you shall not do' (Parshas Acharei)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 147,
+   "type": "announcement",
+   "title": "How to join Tzivos Hashem"
+  },
+  {
+   "start_sec": 147,
+   "end_sec": 264,
+   "type": "talk",
+   "title": "Our secret weapon against the Yetzer Hara",
+   "summary": "Torah and mitzvos weaken the Yetzer Hara until it surrenders, ready to greet Moshiach.",
+   "linked_items": [
+    "0a81b48bb7"
+   ]
+  },
+  {
+   "start_sec": 264,
+   "end_sec": 407,
+   "type": "shema_guest",
+   "title": "Shema with a girl from a Boro Park school"
+  },
+  {
+   "start_sec": 407,
+   "end_sec": 622,
+   "type": "talk",
+   "title": "Water, Hashem's precious gift, and negel vasser",
+   "linked_items": [
+    "5804227fb3"
+   ]
+  },
+  {
+   "start_sec": 622,
+   "end_sec": 871,
+   "type": "story",
+   "title": "Rabbi Akiva Washes His Hands in Prison",
+   "summary": "Given water after three days, Rabbi Akiva uses it for netilas yadayim, and the amazed ruler frees him.",
+   "people": [
+    "rabbi_akiva"
+   ]
+  },
+  {
+   "start_sec": 871,
+   "end_sec": 1146,
+   "type": "talk",
+   "title": "A great rule of the Torah: Ahavas Yisroel",
+   "summary": "Rabbi Akiva's teaching on loving your fellow, and the Alter Rebbe's words that loving every Jew leads to loving Hashem.",
+   "people": [
+    "rabbi_akiva",
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "three_weeks"
+   ]
+  },
+  {
+   "start_sec": 1146,
+   "end_sec": 1574,
+   "type": "story",
+   "title": "The Drunken Father",
+   "summary": "Naftali tries to cure his father's drinking by showing him a drunkard, but the father only asks where to get the drink."
+  },
+  {
+   "start_sec": 1574,
+   "end_sec": 1700,
+   "type": "talk",
+   "title": "The lesson: an example for the nations"
+  },
+  {
+   "start_sec": 1700,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "0a81b48bb7",
+   "evidence": "text_overlap",
+   "confidence": 0.98,
+   "note": "'Fighting the Yetzer Hara 135' = 147-264 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "5804227fb3",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "'Netilas Yodayim 135' = 408-614 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "bc5773ec17",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "Episode 236 repeats nearly the whole program, including the Shema guest (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "45e5fe6378",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Episode 184 repeats nearly the whole program, including the Shema guest (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d2fb9ba6b5",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Episode 387 repeats the talks, the Rabbi Akiva story and the Drunken Father (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "8ae1d03037",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Episode 436 repeats the talks, the Rabbi Akiva story and the Drunken Father (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "276c6bf981",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Episode 486 repeats the talks, the Rabbi Akiva story and the Drunken Father (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "28133bf24a",
+   "evidence": "text_overlap",
+   "confidence": 0.75,
+   "note": "Episode 539 repeats the talks, the Rabbi Akiva story and the Drunken Father (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "23e24d9359",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Episode 376 shares the Yetzer Hara talk, the water talk and the Rabbi Akiva story."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Episode 224 shares the water talk and the Rabbi Akiva story."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.6,
+   "note": "Episode 122 shares the water talk and the Rabbi Akiva story."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "ac3847e263",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 41 (Continued): End of Tanya Chapter 29, Rebuking the Yetzer Hara' (Stories, 43:02-44:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Parent note for the alcohol theme. The Drunken Father section ties to Parshas Acharei and is reused from episode 21 (5742). Membership offer is a period piece. No music (Three Weeks)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chavi Goldberger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park",
+    "start_sec": 316,
+    "end_sec": 407
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:02:03Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5744%20%281983-84%29/Ep%20135%20-%20Rabbi%20Akiva%20in%20Prison%20and%20The%20Drunken%20Father%20%28The%20Three%20Weeks%29%20%281984-07-31%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5744 (1983-84)/Ep 135 - Rabbi Akiva in Prison and The Drunken Father (The Three Weeks) (1984-07-31).mp3",
+  "size_bytes": 20656282,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,249 @@
+{
+ "id": "f7e962da1e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש/R Yosef Goldstein - Tanya Yiddish",
+  "filename_title": "51b",
+  "audio_path": "audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 51 - Tanya Shiur 51, Part 2 - Chapter 32, Ahavas Yisroel and Unity.mp3",
+  "duration_sec": 1402.906,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "title": "Tanya Shiur 51, Part 2: Chapter 32, Ahavas Yisroel and Unity",
+  "title_basis": "content",
+  "summary_short": "The second half of a Yiddish Tanya shiur on chapter 32: why love for every Jew is the root of the Torah, and how the Shechinah rests only where Jews are united.",
+  "summary_long": "The second half of Rabbi Yosef Goldstein's Yiddish shiur on Tanya chapter 32, cut from the full recording of that class. It opens with Hillel's teaching that 'love your fellow as yourself' is the whole Torah: the root of the Torah is raising the soul above the body and drawing Hashem's light to the source of all Jewish souls, so Jews must stand united. The Shechinah rests only in a complete place, as we pray 'bless us, our Father, all of us as one'. A chain of bar mitzvah questions among the Chabad Rebbeim explains why the Siddur has us accept this mitzvah before davening: like a gift brought before asking a king for something. The Rebbe's teaching about Shemini Atzeres, 'your parting is hard for Me', shows Hashem's pain when Jews are divided. One cannot truly love Hashem while hating a Jew, who is a part of Him. The class ends with how to relate to a Jew who sins: after rebuke, hate the deed but love the person, and keep working to bring him close.",
+  "lesson": "The way to love Hashem and to bring His presence is to love every Jew; even toward one who sins, hate only the deed and keep loving the person.",
+  "keywords": [
+   "love your fellow",
+   "unity",
+   "bar mitzvah question",
+   "Shemini Atzeres",
+   "Hillel",
+   "Shechinah",
+   "rebuke"
+  ],
+  "transcript_display": "search_only"
+ },
+ "classification": {
+  "content_type": "shiur",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "tanya_yiddish_goldstein",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "study_text": [
+   {
+    "work": "tanya",
+    "unit": "perek",
+    "from": "32",
+    "to": "32",
+    "lecture_number": 51,
+    "note": "Second half ('b') of lecture 51; excerpt of the full chapter 32 recording."
+   }
+  ],
+  "collections": [
+   "Yiddish",
+   "Tanya (Yiddish)"
+  ]
+ },
+ "audience": {
+  "level": "adults",
+  "age_min": 14,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "hillel",
+    "role": "appears"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "rebbe_maharash",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidus_tanya",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "achdus"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tanya",
+    "ref": "ch. 4; ch. 29; ch. 32"
+   },
+   {
+    "work": "gemara",
+    "ref": "Shabbos 31a (Hillel); Pesachim 113b"
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:18; Devarim 6:5"
+   },
+   {
+    "work": "siddur",
+    "ref": "Hareini mekabel alai before Mah Tovu; Sim Shalom"
+   },
+   {
+    "work": "midrash",
+    "ref": "Kasheh alai preidaschem (Shemini Atzeres)"
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Simchas Beis Hashoeva talk"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 320,
+   "type": "text_study",
+   "title": "The root of the Torah and the Shechinah among a united people",
+   "summary": "Raising the soul above the body, and 'bless us, our Father, all as one'."
+  },
+  {
+   "start_sec": 320,
+   "end_sec": 705,
+   "type": "story",
+   "title": "The bar mitzvah question: why accept Ahavas Yisroel before davening",
+   "summary": "The Rebbe Rashab explained to his son that love of Jews is the gift brought before asking of the King.",
+   "people": [
+    "rebbe_rashab",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 705,
+   "end_sec": 995,
+   "type": "sichah",
+   "title": "'Your parting is hard for Me'",
+   "summary": "The Rebbe's explanation of Hashem's words on Shemini Atzeres.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 995,
+   "end_sec": 1250,
+   "type": "text_study",
+   "title": "Loving Hashem through loving His children",
+   "summary": "One cannot love Hashem while hating a Jew, who is a part of Him."
+  },
+  {
+   "start_sec": 1250,
+   "end_sec": 1402,
+   "type": "text_study",
+   "title": "Loving a Jew who sins",
+   "summary": "Hate the deed but love the person, and keep trying to draw him close."
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "4d94d313c3",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Excerpt of 'פרק לב - הרב יוסף גולדשטיין' (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "primary": "yi",
+  "spoken": [
+   "yi",
+   "he"
+  ],
+  "transcript_language": "yi",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "truncated_start"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Second half of the chapter 32 shiur (from about 23:25 of 4d94d313c3); starts mid-chapter. The full recording is the better copy."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:45Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Duplicate of the second half of 4d94d313c3; decide whether to list it separately."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Yiddish/Tanya%20Shiurim%20-%20R%27%20Yosef%20Goldstein/Shiur%2051%20-%20Tanya%20Shiur%2051%2C%20Part%202%20-%20Chapter%2032%2C%20Ahavas%20Yisroel%20and%20Unity.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Yiddish/Tanya Shiurim - R' Yosef Goldstein/Shiur 51 - Tanya Shiur 51, Part 2 - Chapter 32, Ahavas Yisroel and Unity.mp3",
+  "size_bytes": 16835714,
+  "mime_type": "audio/mpeg"
+ }
+}

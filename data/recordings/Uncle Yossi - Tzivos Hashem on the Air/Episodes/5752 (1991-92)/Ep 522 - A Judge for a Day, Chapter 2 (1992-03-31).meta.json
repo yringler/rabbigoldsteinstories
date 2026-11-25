@@ -1,0 +1,284 @@
+{
+ "id": "3f112e5df7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "522",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 522 - A Judge for a Day, Chapter 2 (1992-03-31).mp3",
+  "duration_sec": 1790.591,
+  "filename_facts": {
+   "episode_number": 522,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 522,
+   "story": "Judge for a day #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 522: A Judge for a Day, Chapter 2",
+  "title_basis": "master_catalog",
+  "summary_short": "Uncle Yossi explains Tzivos Hashem's mitzvah missions and leads Tehillim for the Rebbe, a class says the Shema, and a children's make-believe trial solves the mystery of the 365 gold coins.",
+  "summary_long": "Uncle Yossi describes the fun and purpose of being a soldier in Tzivos Hashem: mitzvah missions that build character, teach children to share their Yiddishkeit with friends and relatives at every Yom Tov, and earn points and ranks. The Rebbe founded Tzivos Hashem ten years earlier and takes great pleasure in every child who joins; now, while the Rebbe needs a complete recovery, children can help by doing their missions, enrolling friends and praying. Everyone recites Tehillim chapter 20 together, then joins the Hakochainik march in the joy of Adar. A class from a Brooklyn girls' school recites the Shema, and listeners give tzedakah. 'A Judge for a Day' concludes: Leib discovers a peephole in the thin wall between the butcher's and the tailor's shops. The puzzled judge, strolling in the park, watches children act out the case. Their little judge drops the coins into warm water: oil from the butcher's greasy hands rises to the surface, proving the money is Beryl's. The real judge repeats the test in court, and the boy, Leib, grows up to be the great Torah scholar known as the Shaagas Aryeh.",
+  "lesson": "Hashem answers sincere prayer, and a child who uses his wisdom to help someone in trouble can do great things.",
+  "keywords": [
+   "mitzvah missions",
+   "Tehillim chapter 20",
+   "peephole",
+   "red handkerchief",
+   "365 gold coins",
+   "make-believe trial",
+   "warm water",
+   "oil bubbles",
+   "butcher",
+   "tailor",
+   "Shaagas Aryeh"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 522,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1992-03-31",
+   "hebrew": "26 Adar II 5752",
+   "hebrew_year": 5752,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "'We are still in the month of Adar'; continues the story begun in episode 521 (24 March 1992); the next episode (523) is in Nissan."
+  },
+  "serial": {
+   "story_key": "judge-for-a-day",
+   "story_title": "Judge for a Day",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "mild",
+    "note": "Prayer for the Rebbe's recovery from illness.",
+    "at_sec": 282
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "No child is named individually; the visiting class's teacher is named and the class identified by school (flag set because hidden.on_air_people is filled).",
+    "at_sec": 711
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "shaagas_aryeh",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Leib (later the Shaagas Aryeh)",
+   "Beryl the butcher",
+   "Yvan the tailor",
+   "the judge",
+   "the children's make-believe judge"
+  ],
+  "topics": [
+   "tzivos_hashem",
+   "hiskashrus",
+   "great_rabbis",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emes",
+   "chesed",
+   "bitachon",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "tehillim",
+   "mivtzoim",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "adar"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "Psalm 20",
+    "note": "Recited for the Rebbe's recovery."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 370,
+   "type": "talk",
+   "title": "Mitzvah Missions and the Rebbe's Recovery",
+   "summary": "Tzivos Hashem missions build character and bring others closer; children can help the Rebbe's recovery by doing missions, enrolling friends and praying.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 370,
+   "end_sec": 521,
+   "type": "other",
+   "title": "Tehillim chapter 20 for the Rebbe's recovery",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 521,
+   "end_sec": 700,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 700,
+   "end_sec": 831,
+   "type": "shema_guest",
+   "title": "Shema with a class from a Brooklyn girls' school"
+  },
+  {
+   "start_sec": 831,
+   "end_sec": 896,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 896,
+   "end_sec": 1740,
+   "type": "story_chapter",
+   "title": "A Judge for a Day, Chapter 2",
+   "summary": "A children's play in the park shows the judge how to prove the coins belong to the butcher, and young Leib grows up to be the Shaagas Aryeh.",
+   "story_key": "judge-for-a-day",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1740,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Class teacher named on air (see hidden). No candle times this week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Finkel",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park (class reciting the Shema)",
+    "start_sec": 711,
+    "end_sec": 831
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Only an adult teacher and a class are named; minor_named set because the validator requires a flag for hidden.on_air_people."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:57Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "continues",
+   "target_id": "d89547e51a",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 521 = 'Judge for a day #1', 522 = '#2'; the recap matches."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "d89547e51a",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'Judge for a Day' (1992): ep 521 ch. 1 and ep 522 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20522%20-%20A%20Judge%20for%20a%20Day%2C%20Chapter%202%20%281992-03-31%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 522 - A Judge for a Day, Chapter 2 (1992-03-31).mp3",
+  "size_bytes": 21488230,
+  "mime_type": "audio/mpeg"
+ }
+}

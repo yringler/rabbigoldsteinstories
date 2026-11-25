@@ -1,0 +1,157 @@
+{
+ "id": "6e8228d738",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Alef Beis 455",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Holy Alef-Beis - Why Hebrew Is Lashon HaKodesh, and the Siddur Telephone (Ep 455).mp3",
+  "duration_sec": 220.92,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 455,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 455,
+   "story": "The ten wedding gifts #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Holy Alef-Beis: Why Hebrew Is Lashon HaKodesh, and the Siddur Telephone",
+  "title_basis": "content",
+  "summary_short": "Why Hebrew is called the holy language, and why the siddur is like a telephone that always gets through when you say the words clearly and correctly.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given for a class celebrating that they finished learning the Alef-Beis. Uncle Yossi explains that the Alef-Beis is different from the ABC of every other language. All other languages were made up by people, but Hebrew, Lashon HaKodesh, was given by Hashem: He created the world with Hebrew words, 'Let there be light', and gave the Torah to Moshe Rabbeinu in Hebrew. That is why we say in davening that Hashem raised us above all languages. Now that the children can read the siddur, they learn that it is like a telephone: you pick it up and talk, but you must dial correctly. When we say the words clearly, just as they are written, Hashem, who listens to every person's prayer, hears us.",
+  "lesson": "Hebrew is Hashem's own holy language; say the words of the siddur clearly and correctly, and your prayer reaches Hashem.",
+  "keywords": [
+   "Alef-Beis",
+   "Hebrew language",
+   "siddur",
+   "telephone",
+   "creation",
+   "first grade"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 455,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-11-27",
+   "hebrew": "10 Kislev 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 455 (candle time 4:12 in the full episode)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos",
+   "torah_study"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "davening",
+   "chinuch",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:3, 1:6",
+    "note": "'Let there be light', 'let there be a firmament': the world was created with Hebrew words."
+   },
+   {
+    "work": "siddur",
+    "note": "'V'romamtanu mikol haleshonos' and 'ki Atah shomea tefillas kol peh'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "fa0b329e13",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "offset_sec": 77,
+   "note": "Episode 455 (filename number); clip = 77-298 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens mid-sentence ('There is so much to know in order to make a siyum'), referring to the class whose introduction is cut."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:25Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Holy%20Alef-Beis%20-%20Why%20Hebrew%20Is%20Lashon%20HaKodesh%2C%20and%20the%20Siddur%20Telephone%20%28Ep%20455%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Holy Alef-Beis - Why Hebrew Is Lashon HaKodesh, and the Siddur Telephone (Ep 455).mp3",
+  "size_bytes": 2652135,
+  "mime_type": "audio/mpeg"
+ }
+}

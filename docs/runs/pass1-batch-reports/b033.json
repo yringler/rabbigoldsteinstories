@@ -1,0 +1,37 @@
+{
+ "batch_id": "b033",
+ "done": [
+  "5871477c4a",
+  "14881c364e",
+  "cb3698c502",
+  "d2dde6a581",
+  "82672b0336",
+  "86a44f3dba",
+  "bc10ca2c5f",
+  "09dddba098",
+  "f282543c92",
+  "be032f3167",
+  "3abbb046a6",
+  "7c429e4277",
+  "6aa8d7ae63",
+  "0946eedba1",
+  "d73915551b",
+  "b23d7ffa7e",
+  "a958284081",
+  "8678280881",
+  "7576c3475c",
+  "6a73b22781"
+ ],
+ "failed": [],
+ "notes": [
+  "Dates: weekly estimates ran 2 weeks early. Candle times and cues fix the episodes to Tuesdays: 425 = 1990-05-01, 426 = 05-08, 427 = 05-15, 428 = 05-22, 429 = 05-29 (Erev Shavuos, said on air), 430 = 06-05, 431 = 06-12. So there are about two missing or skipped weeks between 408 (1989-12-19) and 425.",
+  "Mislabeled: 'Havdalah 428' (7c429e4277) is the first Havdalah lesson as aired in episode 427 (1396-1621 s), and also in 276 and 379. Episode 428 has only a review and a phone quiz. I set clip_of 427 and publish_recommendation review.",
+  "Reruns: episode 425 reuses the Sefirah/Pirkei Avos talk and the Hillel story from 375 (May 1989). Episode 426 reuses both Sefirah talks and 'The Flickering Flame' from 273/324. The Shema guests in those reused stretches may also date from the earlier year.",
+  "Episode 425 has a short spoken fragment at 24:50 ('From all your children and grandchildren...') right after the Four Questions song. It may be a splice.",
+  "'A Judge for a Day' runs over 427-429 (chapters 1-3). I added continues relations 428->427 and 429->428. Chapter 3 says Leibel grew up to be the Shaagas Aryeh. I proposed a people term shaagas_aryeh.",
+  "'The Flickering Flame' (426) names only 'Rabbi Yisroel'. The story is usually told of Rabbi Yisroel Salanter, who is not in the vocabulary.",
+  "The catalog story for 430 is 'Let's say thank you. The two voices'. The 'thank you' part is probably the Modeh Ani song segment.",
+  "Identity clue: the Shema guest in 426 is named Schneur Zalman Goldstein, and the class teacher in 431 is Rabbi Levi Goldstein. They may be relatives of the host. Both are kept in hidden only.",
+  "Episode 431 has an unchecked fingerprint candidate: partial overlap with episode 393 (d1e2071ee1)."
+ ]
+}

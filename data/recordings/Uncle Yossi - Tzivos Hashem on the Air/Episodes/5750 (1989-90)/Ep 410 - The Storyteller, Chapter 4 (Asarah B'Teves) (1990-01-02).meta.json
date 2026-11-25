@@ -1,0 +1,344 @@
+{
+ "id": "7e9d4fa376",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "410",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 410 - The Storyteller, Chapter 4 (Asarah B'Teves) (1990-01-02).mp3",
+  "duration_sec": 1863.741,
+  "filename_facts": {
+   "episode_number": 410,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 410,
+   "story": "The storyteller #4",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 410: The Storyteller, Chapter 4 (Asarah B'Teves)",
+  "title_basis": "master_catalog",
+  "summary_short": "Memories of Chanukah, the Hakochainik march, a father and his young children say the Shema, chapter 4 of The Storyteller, and the meaning of the fast of Asarah B'Teves.",
+  "summary_long": "Broadcast the week after Chanukah 5750. Uncle Yossi recalls the joy of the Yom Tov and leads the Hakochainik march. Story time recaps how Rabbi Yehuda, the Baal Shem Tov's shamash, was sent to be a storyteller and heard of a rich merchant who pays for new stories. A father brings his three young children to Studio 604 to say the Shema, and the oldest sings one of the Twelve Pesukim. In chapter 4 of The Storyteller, the guards at the merchant's mansion welcome Rabbi Yehuda, and Rabbi Yitzchak offers a thousand gold pieces for every new story. He locks the door and lights a candle, but Rabbi Yehuda suddenly cannot remember a single story and breaks down in tears; the merchant calmly gives him a meal and a room, leaving him wondering why Hashem made him forget. The show closes with a talk for Asarah B'Teves: there is a time to be sad, the siege of Yerushalayim by Nevuchadnetzar that led to the destruction of the Beis HaMikdash, and the promise that these fast days will become days of joy when Moshiach comes.",
+  "lesson": "We remember sad days in order to improve ourselves; as long as we learn Torah and keep mitzvos, Hashem guards us, and He will turn the fasts into Yomim Tovim.",
+  "keywords": [
+   "mansion",
+   "guards",
+   "gold pieces",
+   "candle",
+   "forgotten stories",
+   "siege of Yerushalayim",
+   "fast day",
+   "Studio 604",
+   "Twelve Pesukim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "episode": {
+   "number": 410,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1990-01-02",
+   "hebrew": "5 Teves 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This coming Sunday, January the 7th, is Asarah B'Teves' (10 Teves 5750 = Sunday 1990-01-07); Chanukah just ended. Tuesday before = 1990-01-02, matching the weekly estimate."
+  },
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 4
+  },
+  "collections": [
+   "Radio episodes"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Describes the siege of Yerushalayim, hunger in the city and the destruction of the Beis HaMikdash, in a child-friendly way.",
+    "at_sec": 1183
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Three young children of a studio guest named with their ages.",
+    "at_sec": 455
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Rabbi Yitzchak, the wealthy merchant",
+   "the mansion guards"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "jewish_history",
+   "calendar",
+   "moshiach_geulah",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "savlanus",
+   "chesed",
+   "simcha"
+  ],
+  "mitzvos": [
+   "shema",
+   "twelve_pesukim",
+   "fast_days",
+   "torah_study",
+   "hachnasas_orchim"
+  ],
+  "calendar": [
+   "asarah_bteves",
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'Hashem does not slumber nor sleep, the Guardian of Israel.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 16,
+   "end_sec": 78,
+   "type": "opening",
+   "title": "Opening greeting and Chanukah memories",
+   "calendar": [
+    "chanukah"
+   ]
+  },
+  {
+   "start_sec": 78,
+   "end_sec": 284,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 284,
+   "end_sec": 344,
+   "type": "story_intro",
+   "title": "Story time: the story so far"
+  },
+  {
+   "start_sec": 344,
+   "end_sec": 428,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 4: At the Mansion Gates",
+   "summary": "Rabbi Yehuda reaches the guarded mansion, and the guards eagerly lead him to their master.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 4
+  },
+  {
+   "start_sec": 428,
+   "end_sec": 669,
+   "type": "shema_guest",
+   "title": "Shema with a father and his three young children",
+   "summary": "Three young guests say the Shema, and the oldest sings a pasuk from the Twelve Pesukim."
+  },
+  {
+   "start_sec": 669,
+   "end_sec": 1183,
+   "type": "story_chapter",
+   "title": "The Storyteller, Chapter 4: The Forgotten Stories",
+   "summary": "Offered a thousand gold pieces a story, Rabbi Yehuda finds he cannot remember a single one, yet the merchant treats him kindly.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 4
+  },
+  {
+   "start_sec": 1183,
+   "end_sec": 1836,
+   "type": "talk",
+   "title": "Asarah B'Teves: A Time to Be Sad",
+   "summary": "Why we remember the siege of Yerushalayim, how Torah and mitzvos protect us, and the promise that the fasts will become days of joy.",
+   "people": [
+    "nevuchadnetzar",
+    "shlomo_hamelech"
+   ],
+   "calendar": [
+    "asarah_bteves"
+   ],
+   "linked_items": [
+    "6bb7db50e1"
+   ]
+  },
+  {
+   "start_sec": 1836,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "6bb7db50e1",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "note": "'Asarah B'Teves 410' = 1184-1686 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "58cad2a9c8",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 409 = 'The storyteller #3', 410 = '#4'; the recap matches chapter 3."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "58cad2a9c8",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 409 ch. 3 and ep 410 ch. 4 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "7dd6bcc0fc",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1989-90): ep 410 ch. 4 and ep 411 ch. 5 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "No sponsor or mailbox this week; the Asarah B'Teves talk runs to the end of the show. 'Sunday, January 7th' dates the talk to 5750."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rabbi Barber",
+    "role": "visitor",
+    "group": "Father of the Shema guests",
+    "start_sec": 455,
+    "end_sec": 669
+   },
+   {
+    "name": "Frady Barber",
+    "role": "shema_guest",
+    "start_sec": 455,
+    "end_sec": 669,
+    "note": "Age 7; sang the pasuk 'Yismach Yisroel' from the Twelve Pesukim."
+   },
+   {
+    "name": "Chani Barber",
+    "role": "shema_guest",
+    "start_sec": 455,
+    "end_sec": 669,
+    "note": "Age 4."
+   },
+   {
+    "name": "Yitzchak Barber",
+    "role": "shema_guest",
+    "start_sec": 455,
+    "end_sec": 669,
+    "note": "Age 2."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The three Barber children's ages given on air (7, 4 and 2).",
+    "start_sec": 485,
+    "end_sec": 500
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:16:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5750%20%281989-90%29/Ep%20410%20-%20The%20Storyteller%2C%20Chapter%204%20%28Asarah%20B%27Teves%29%20%281990-01-02%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5750 (1989-90)/Ep 410 - The Storyteller, Chapter 4 (Asarah B'Teves) (1990-01-02).mp3",
+  "size_bytes": 22365944,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "task": "deliverables",
+ "patches": [
+  {
+   "item": "870d0298c2",
+   "op": "add_to_list",
+   "path": "audience.privacy",
+   "value": {
+    "flag": "private_family",
+    "note": "Informal home recording that ends in a private family conversation; listed as a family recording in DECISIONS 2.",
+    "at_sec": 62
+   },
+   "reason": "DECISIONS 2 names the \"motel chein\" fragment as a known private family recording; pass 1 flagged only identifiable_living_people. Its hidden block already records the family chat at 62-85 s."
+  }
+ ],
+ "notes": "Deliverables written: pass2/family_recordings.csv (18 items, 529.4 min), pass2/to_confirm.csv (9 questions), pass2/series_summaries.json (9 series with items; the deprecated uy_heritage_series has none). One patch: 870d0298c2 gains private_family (DECISIONS 2). storyteller_i_believe is no longer in to_confirm (DECISIONS 3: R' Chaim Levi Goldstein). FOR OTHER TASKS: (a) The 5786 Simchas Beis Hashoeva rallies (5493440d73, 770aa7cebf, cc16e78758) credit rabbi_yosef_goldstein, and the summary of cc16e78758 says \"Uncle Yossi\"; the 5785 rally 3b05d42392 has a \"Rabbi Goldstein\" who sings \"I Believe in Hashem\" (26:54), so the 2025 host is more likely R' Chaim Levi Goldstein. For the speaker re-attribution task; not patched here. The series summary avoids naming the host. (b) The same recording is filed in two series: 32ef7d25e6 (weekly_story_i_believe) and fa63d3c763 (maaseh_rav), linked as same_recording. (c) Not family recordings, but on-air family material for the user: Uncle Yossi on his mother in eps 115/116/212 and Beis Adar 363 (29dc93d7ca, 77cf0ad617, 25fd6b1098, 934315e5eb, 7def6f6a43); on his father's song in Moshiach 346 (deeb616357); his siblings in ep 204 (859d86662d); grandchildren as Shema guests in eps 203/205/397. 26b3996f18 (a Yiddish class) ends with about 2 minutes of private adult chat but is not a family recording, so it was left unflagged. (d) The yiddish_narrator_unconfirmed placeholder covers at least 4 different contexts (the Haggadah teacher, the stand-alone Yiddish stories, a Zaidy, the Shehakol class, Motel Chein). The vocab task may want to split it once the user answers."
+}

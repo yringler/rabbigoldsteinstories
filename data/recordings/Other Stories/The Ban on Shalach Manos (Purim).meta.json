@@ -1,0 +1,159 @@
+{
+ "id": "e351e6a1a6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "the ban on shalach manos",
+  "audio_path": "audio/Other Stories/The Ban on Shalach Manos (Purim).mp3",
+  "duration_sec": 832.123,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Ban on Shalach Manos (Purim)",
+  "title_basis": "filename",
+  "summary_short": "A cruel sheriff the Jews call 'Haman' bans shalach manos carriers on Purim, until a fishbone in a confiscated gift brings him begging to the town's rabbi.",
+  "summary_long": "In a small town in Czarist Russia, the sheriff acts like a little czar. He torments the poor Jewish shopkeepers with summonses for a speck of dust or a fly on the butter, and his wife takes groceries without paying. The Jews call him Haman. The older residents remember him as Vanya, the boy who did Shabbos chores in Jewish homes but grew jealous, stole, and was sent away. Knowing Jewish customs well, he decides to spoil Purim by banning shalach manos carriers without an impossible license, threatening arrest. On Purim the Jews hear the Megillah and stamp for both Hamans, and brave carriers run the blockade. The sheriff catches two and sits down to eat the shalach manos meant for the town's respected old rabbi, but a fishbone sticks in his throat. His wife rushes to the rabbi, who explains that this is Hashem's punishment and that her husband will be saved if they both promise to stop harming Jews. The sheriff swears, the bone comes loose, and on Shushan Purim he thanks the rabbi and becomes a changed man.",
+  "lesson": "Hashem protects the Jewish people and their mitzvos; even a harsh enemy can be turned around.",
+  "keywords": [
+   "sheriff",
+   "shopkeepers",
+   "summonses",
+   "butter",
+   "license",
+   "shalach manos carriers",
+   "fishbone",
+   "groggers",
+   "Shushan Purim",
+   "Czarist Russia"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "An antisemitic sheriff extorts Jewish shopkeepers and arrests shalach manos carriers on Purim."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "Mentions the Purim custom of drinking and the sheriff hunting for drunken Jews."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "haman",
+    "role": "mentioned"
+   },
+   {
+    "id": "mordechai",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the sheriff (Vanya)",
+   "the sheriff's wife",
+   "the sheriff's deputy",
+   "the old rabbi of the town",
+   "the shalach manos carriers",
+   "the Jewish shopkeepers"
+  ],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "miracles"
+  ],
+  "midos": [
+   "courage",
+   "hakaras_hatov",
+   "no_jealousy"
+  ],
+  "mitzvos": [
+   "mishloach_manos",
+   "megillah"
+  ],
+  "calendar": [
+   "purim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Czarist Russia"
+  ]
+ },
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Read-aloud style; narrator reads the title and begins, no opening song."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:49Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator not identified; read-aloud style like 'The Agunah' (92ce45332c), no opening song."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Ban%20on%20Shalach%20Manos%20%28Purim%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Ban on Shalach Manos (Purim).mp3",
+  "size_bytes": 9986339,
+  "mime_type": "audio/mpeg"
+ }
+}

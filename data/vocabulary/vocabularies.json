@@ -1,0 +1,3440 @@
+{
+ "_meta": {
+  "version": "0.3",
+  "date": "2026-11-25",
+  "rules": [
+   "Fields that take vocabulary ids must use an id from this file. If nothing fits, use the closest id AND add an entry to proposed_new_terms; never invent ids.",
+   "Labels use Chabad/Ashkenazi transliteration (see transliteration). Aliases are search synonyms and known ASR misspellings; they are never displayed.",
+   "Hierarchy: topics have parents; people have categories. Tag the most specific id; the site rolls up to parents.",
+   "Entries marked \"unconfirmed\": true are placeholders (DECISIONS 3). Use them as ids, never present a guess as fact in public fields; record guesses in identity_guesses.",
+   "Entries marked \"deprecated\": true must not be used; use the id in use_instead."
+  ],
+  "changes": [
+   "0.2 (2026-11-25): private_family_recording renamed private_family; uy_heritage_series deprecated (DECISIONS 12).",
+   "0.3 (2026-11-25): pass-2 merge added 54 entries (people 32, calendar 12, works 3, mitzvos 4, midos 2, series 1); see pass2/vocab.json and PASS2_REPORT.md."
+  ]
+ },
+ "transliteration": {
+  "style": "Chabad/Ashkenazi: sav = s (Shabbos, Sukkos, mitzvos), ches/chaf = ch, tzadi = tz, plural -os/-im, Rebbe titles as used in Chabad.",
+  "preferred": [
+   "Shabbos",
+   "Yom Tov",
+   "Yomim Tovim",
+   "Rosh Hashanah",
+   "Yom Kippur",
+   "Sukkos",
+   "Simchas Torah",
+   "Chanukah",
+   "Purim",
+   "Pesach",
+   "Sefiras HaOmer",
+   "Lag BaOmer",
+   "Shavuos",
+   "Tisha B'Av",
+   "mitzvah / mitzvos",
+   "midah / midos",
+   "tzedakah",
+   "tefillin",
+   "tzitzis",
+   "negel vasser",
+   "brachah / brachos",
+   "davening",
+   "Moshiach",
+   "Beis HaMikdash",
+   "Eretz Yisroel",
+   "Yerushalayim",
+   "tzaddik / tzaddikim",
+   "Chassidus",
+   "Chassid / Chassidim",
+   "farbrengen",
+   "sichah / sichos",
+   "maamar / maamarim",
+   "Hashem",
+   "Torah",
+   "Gemara",
+   "Midrash",
+   "Ahavas Yisroel",
+   "kibbud av va'em",
+   "hachnasas orchim",
+   "Eliyahu HaNavi",
+   "poritz",
+   "shul",
+   "Tzivos Hashem"
+  ],
+  "display_titles": "Title Case English; keep Hebrew/Yiddish terms in the preferred spelling (e.g. \"The Baal Shem Tov and the Kidnapped Boy\", not \"Besht to the Rescue\" if the filename is an abbreviation). Keep the filename title as an alias.",
+  "yiddish_titles": "title_he keeps the Hebrew-script title as written (no nikud); title_translit uses YIVO-like romanization for Yiddish words and the Chabad style above for loshn-koydesh words."
+ },
+ "content_type": [
+  {
+   "id": "radio_episode",
+   "label": "Radio episode",
+   "description": "A full broadcast (about 30 min) of a radio program."
+  },
+  {
+   "id": "radio_segment",
+   "label": "Radio segment",
+   "description": "A clip cut from a radio episode: a talk, a story, a song, an activity."
+  },
+  {
+   "id": "story",
+   "label": "Story",
+   "description": "One complete story (may include a short intro and lesson)."
+  },
+  {
+   "id": "story_chapter",
+   "label": "Story chapter",
+   "description": "One chapter of a serial story; not complete on its own."
+  },
+  {
+   "id": "story_collection",
+   "label": "Story collection",
+   "description": "Several distinct stories in one recording (use segments)."
+  },
+  {
+   "id": "talk",
+   "label": "Talk",
+   "description": "A short teaching on a holiday, midah, mitzvah or parsha, without a main story."
+  },
+  {
+   "id": "lesson_with_story",
+   "label": "Lesson with story",
+   "description": "A teaching (halachah, holiday, sichah) with one or more stories woven in."
+  },
+  {
+   "id": "shiur",
+   "label": "Shiur (class)",
+   "description": "A study class on a text (Tanya, Shulchan Aruch HaRav, Haggadah) for older listeners."
+  },
+  {
+   "id": "live_event",
+   "label": "Live event",
+   "description": "Rally, farbrengen or class recorded live with an audience."
+  },
+  {
+   "id": "song",
+   "label": "Song / nigun",
+   "description": "Mostly singing or music."
+  },
+  {
+   "id": "promo",
+   "label": "Announcement / promo",
+   "description": "Promotion, campaign or announcement."
+  },
+  {
+   "id": "family_recording",
+   "label": "Family recording",
+   "description": "Private home recording (grandparents, children, memoirs)."
+  },
+  {
+   "id": "fragment",
+   "label": "Fragment",
+   "description": "Too short or incomplete to stand alone."
+  }
+ ],
+ "story_type": [
+  {
+   "id": "chassidic",
+   "label": "Chassidic story",
+   "description": "Baal Shem Tov, Rebbeim, tzaddikim and their Chassidim."
+  },
+  {
+   "id": "tanach_midrash",
+   "label": "Tanach / Midrash",
+   "description": "Stories from Tanach and Midrash."
+  },
+  {
+   "id": "talmudic",
+   "label": "Sages of the Talmud",
+   "description": "Tannaim and Amoraim; Gemara stories."
+  },
+  {
+   "id": "rishonim_acharonim",
+   "label": "Great rabbis of later generations",
+   "description": "Rashi, Rambam, Arizal, Ohr HaChayim, etc. (non-Chassidic)."
+  },
+  {
+   "id": "historical",
+   "label": "Historical tale",
+   "description": "Set in a specific period/place, e.g. Baghdad, Czarist Russia."
+  },
+  {
+   "id": "mashal_parable",
+   "label": "Mashal / parable",
+   "description": "Allegory or parable told to make a point."
+  },
+  {
+   "id": "contemporary",
+   "label": "Contemporary / true-life",
+   "description": "Modern events, first-person miracle stories, recent Chassidim."
+  },
+  {
+   "id": "moral_fiction",
+   "label": "Moral tale",
+   "description": "Fictional children's story built around a lesson."
+  },
+  {
+   "id": "family_memoir",
+   "label": "Family memoir",
+   "description": "Personal life story."
+  }
+ ],
+ "segment_type": [
+  {
+   "id": "opening",
+   "label": "Opening / greeting"
+  },
+  {
+   "id": "talk",
+   "label": "Talk / teaching"
+  },
+  {
+   "id": "sichah",
+   "label": "Teaching of the Rebbe (sichah) explained"
+  },
+  {
+   "id": "story",
+   "label": "Story"
+  },
+  {
+   "id": "story_chapter",
+   "label": "Story chapter"
+  },
+  {
+   "id": "story_intro",
+   "label": "Story intro / recap"
+  },
+  {
+   "id": "song",
+   "label": "Song / march / nigun",
+   "description": "Includes the Hakochainik march."
+  },
+  {
+   "id": "shema_guest",
+   "label": "Shema with guest children"
+  },
+  {
+   "id": "tzedakah",
+   "label": "Tzedakah moment"
+  },
+  {
+   "id": "quiz",
+   "label": "Quiz / riddle / call-in"
+  },
+  {
+   "id": "mailbox",
+   "label": "Mailbox / letters"
+  },
+  {
+   "id": "announcement",
+   "label": "Announcements (candle time, campaigns, birthdays, refuah shleimah)"
+  },
+  {
+   "id": "sponsor",
+   "label": "Sponsor message"
+  },
+  {
+   "id": "closing",
+   "label": "Closing"
+  },
+  {
+   "id": "text_study",
+   "label": "Text study (shiur)"
+  },
+  {
+   "id": "review",
+   "label": "Review of previous material"
+  },
+  {
+   "id": "halachah",
+   "label": "Halachah / how-to"
+  },
+  {
+   "id": "qa",
+   "label": "Questions and answers with children"
+  },
+  {
+   "id": "silence",
+   "label": "Silence / dead air / blank tape"
+  },
+  {
+   "id": "other",
+   "label": "Other"
+  }
+ ],
+ "series": [
+  {
+   "id": "uy_tzivos_hashem_on_the_air",
+   "label": "Uncle Yossi - Tzivos Hashem on the Air",
+   "description": "Weekly radio program, ~30 min, aired Tuesday nights; episodes 1-555 (1981/2-1990s). Clips in the topical folders belong to this series."
+  },
+  {
+   "id": "uy_heritage_series",
+   "label": "Uncle Yossi - Heritage Series",
+   "description": "Story segments re-edited from radio episodes (\"Heritage Series 2\" folder). DEPRECATED (DECISIONS 12): Heritage items belong to the radio series; \"Heritage Series 2\" is kept as a collection tag (classification.collections).",
+   "deprecated": true,
+   "use_instead": "uy_tzivos_hashem_on_the_air"
+  },
+  {
+   "id": "shema_beni",
+   "label": "Shema B'ni",
+   "description": "Older nightly program hosted by Rabbi Yosef Goldstein (\"tayere kinderlach\"); found inside \"Shema Beni 1/2\"."
+  },
+  {
+   "id": "weekly_story_i_believe",
+   "label": "Weekly Story (working title)",
+   "description": "Contemporary story series opening with the song \"I believe in Hashem, I trust in Hashem\"; storyteller not named on air. Real series name to be confirmed.",
+   "unconfirmed": true
+  },
+  {
+   "id": "simchas_beis_hashoeva_5786",
+   "label": "Simchas Beis Hashoeva Rallies 5786",
+   "description": "Live children's rallies, Sukkos 5786."
+  },
+  {
+   "id": "farbrengen_power",
+   "label": "Farbrengen Power",
+   "description": "Story farbrengen videos (audio)."
+  },
+  {
+   "id": "maaseh_rav",
+   "label": "Maaseh Rav",
+   "description": "Short stories the Rebbe told, with explanation."
+  },
+  {
+   "id": "tanya_yiddish_goldstein",
+   "label": "Tanya Shiur in Yiddish - Rabbi Yosef Goldstein",
+   "description": "Numbered weekly Tanya classes (Likkutei Amarim), with Shulchan Aruch HaRav and seasonal talks."
+  },
+  {
+   "id": "haggadah_yiddish",
+   "label": "The Haggadah Explained (Yiddish)",
+   "description": "Pesach preparation and Haggadah explanation in Yiddish."
+  },
+  {
+   "id": "bubby_zaidy_stories",
+   "label": "Bubby and Zaidy Stories",
+   "description": "Grandparents telling stories (English and Yiddish). Private family recordings."
+  },
+  {
+   "id": "simchas_beis_hashoeva_5785",
+   "label": "Simchas Beis Hashoeva Rallies 5785",
+   "description": "Live children's rallies, Sukkos 5785 (year slogan said on air). Companion of simchas_beis_hashoeva_5786."
+  }
+ ],
+ "speakers": [
+  {
+   "id": "rabbi_yosef_goldstein",
+   "label": "Rabbi Yosef Goldstein (Uncle Yossi)",
+   "description": "Uncle Yossi, host of Tzivos Hashem on the Air and the Heritage Series; also gives the Yiddish Tanya shiurim and hosts Shema B'ni. Confirmed by the user 2026-11-25.",
+   "aliases": [
+    "Uncle Yossi",
+    "R' Yosef Goldstein",
+    "Reb Yossi Goldstein"
+   ]
+  },
+  {
+   "id": "rabbi_chaim_levi_goldstein",
+   "label": "Rabbi Chaim Levi Goldstein",
+   "description": "Storyteller of most of the Stories collection; known for the song 'I Believe in Hashem', which opens his stories. Son of Rabbi Yosef Goldstein (Uncle Yossi). Confirmed by the user 2026-11-25.",
+   "aliases": [
+    "R' Chaim Levi Goldstein",
+    "Chaim Levi Goldstein",
+    "Rabbi Levi Goldstein",
+    "the weekly storyteller"
+   ]
+  },
+  {
+   "id": "simcha_engel",
+   "label": "Simcha Engel",
+   "description": "Sidekick character at the Simchas Beis Hashoeva rallies."
+  },
+  {
+   "id": "bubby_chaya_malka",
+   "label": "Bubby Chaya Malka",
+   "description": "Chaya Malka bas Dina: Uncle Yossi's (Rabbi Yosef Goldstein's) mother, R' Chaim Levi Goldstein's grandmother. Grandmother storyteller of the family recordings (English and Yiddish). Taken as given by the user 2026-11-25."
+  },
+  {
+   "id": "guest_children",
+   "label": "Guest children",
+   "description": "Children visiting the studio / at a live event."
+  },
+  {
+   "id": "yiddish_narrator_unconfirmed",
+   "label": "Yiddish storyteller (name unconfirmed)",
+   "description": "Narrator of the Yiddish children's stories; identity to be confirmed by the user.",
+   "unconfirmed": true
+  },
+  {
+   "id": "unknown",
+   "label": "Unknown speaker"
+  }
+ ],
+ "audience_level": [
+  {
+   "id": "young_children",
+   "label": "Young children (3-6)"
+  },
+  {
+   "id": "children",
+   "label": "Children (6-10)"
+  },
+  {
+   "id": "older_children",
+   "label": "Older children (9-13)"
+  },
+  {
+   "id": "teens_adults",
+   "label": "Teens and adults"
+  },
+  {
+   "id": "adults",
+   "label": "Adults (study)"
+  },
+  {
+   "id": "family",
+   "label": "Whole family"
+  }
+ ],
+ "content_advisory": [
+  {
+   "id": "peril_violence",
+   "label": "Danger or violence",
+   "description": "Robbers, pirates, beatings, threats, armed attackers."
+  },
+  {
+   "id": "death",
+   "label": "Death",
+   "description": "A character dies or is killed, deathbed scenes, funerals."
+  },
+  {
+   "id": "persecution",
+   "label": "Persecution of Jews",
+   "description": "Antisemitic rulers/poritzim, decrees, pogroms, imprisonment for Judaism."
+  },
+  {
+   "id": "kidnapping_captivity",
+   "label": "Kidnapping / captivity",
+   "description": "Captives, kidnapped children, slavery, prison."
+  },
+  {
+   "id": "forced_conversion",
+   "label": "Forced conversion",
+   "description": "Attempts to convert Jews by force or deception."
+  },
+  {
+   "id": "alcohol",
+   "label": "Alcohol",
+   "description": "Drunkenness, a drunk parent, getting someone drunk."
+  },
+  {
+   "id": "illness",
+   "label": "Serious illness",
+   "description": "Critically ill people, especially children."
+  },
+  {
+   "id": "afterlife_judgment",
+   "label": "Afterlife / Heavenly judgment",
+   "description": "Gehinnom, souls judged, reincarnation (gilgul)."
+  },
+  {
+   "id": "sad_ending",
+   "label": "Sad or unresolved ending"
+  },
+  {
+   "id": "national_tragedy",
+   "label": "National tragedy",
+   "description": "Churban, the Three Weeks, the Holocaust."
+  },
+  {
+   "id": "family_hardship",
+   "label": "Family hardship",
+   "description": "Agunah, poverty, a parent's failings."
+  }
+ ],
+ "advisory_severity": [
+  "mild",
+  "moderate",
+  "strong"
+ ],
+ "privacy_flag": [
+  {
+   "id": "minor_named",
+   "label": "Child named on air (full name)",
+   "description": "Studio guests, birthdays, letters."
+  },
+  {
+   "id": "home_address",
+   "label": "Home address read on air"
+  },
+  {
+   "id": "phone_number",
+   "label": "Private phone number read on air",
+   "description": "Not the program's own published numbers."
+  },
+  {
+   "id": "health_info",
+   "label": "Named person's health",
+   "description": "Refuah shleimah lists, illness of a named person."
+  },
+  {
+   "id": "private_family",
+   "label": "Private family recording",
+   "description": "Recorded at home or for the family (memoirs, grandparents, children). Published, but listed for the user to double-check (DECISIONS 2)."
+  },
+  {
+   "id": "identifiable_living_people",
+   "label": "Identifiable private individuals",
+   "description": "Contemporary true stories naming private people."
+  }
+ ],
+ "quality_issue": [
+  {
+   "id": "defective_source",
+   "label": "Defective source file"
+  },
+  {
+   "id": "trailing_silence",
+   "label": "Long silence / blank tape at end"
+  },
+  {
+   "id": "dead_air",
+   "label": "Dead air inside the recording"
+  },
+  {
+   "id": "truncated_start",
+   "label": "Starts mid-way"
+  },
+  {
+   "id": "truncated_end",
+   "label": "Cut off before the end"
+  },
+  {
+   "id": "splice_glitch",
+   "label": "Editing splice glitch"
+  },
+  {
+   "id": "noisy_audio",
+   "label": "Hiss / noise / low quality"
+  },
+  {
+   "id": "low_volume",
+   "label": "Very quiet source"
+  },
+  {
+   "id": "asr_wrong_language",
+   "label": "Transcribed with the wrong language model"
+  },
+  {
+   "id": "asr_loop",
+   "label": "ASR repetition/hallucination loop"
+  },
+  {
+   "id": "music_untranscribed",
+   "label": "Music or singing not transcribed"
+  },
+  {
+   "id": "mixed_language",
+   "label": "Mixed languages"
+  },
+  {
+   "id": "time_bound_content",
+   "label": "Dated content (ads, candle times, contests, old addresses)"
+  },
+  {
+   "id": "multiple_programs",
+   "label": "Several programs/takes joined in one file"
+  },
+  {
+   "id": "mislabeled",
+   "label": "Filename does not match content"
+  },
+  {
+   "id": "alternate_take",
+   "label": "One of several takes of the same recording"
+  },
+  {
+   "id": "needs_retranscription",
+   "label": "Re-run ASR"
+  }
+ ],
+ "relation_type": [
+  {
+   "id": "clip_of",
+   "label": "Is a clip cut from",
+   "description": "target = full episode/recording; give offset_sec."
+  },
+  {
+   "id": "contains",
+   "label": "Contains",
+   "description": "Inverse of clip_of (generated, do not fill by hand)."
+  },
+  {
+   "id": "aired_again_in",
+   "label": "Same segment also aired in",
+   "description": "Rebroadcast inside another episode."
+  },
+  {
+   "id": "same_recording",
+   "label": "Same recording (other transfer/edit)"
+  },
+  {
+   "id": "alternate_take",
+   "label": "Alternate take / edit of"
+  },
+  {
+   "id": "superseded_by",
+   "label": "Superseded by (better/complete version)"
+  },
+  {
+   "id": "part_of_set",
+   "label": "Part of the same multi-part set as"
+  },
+  {
+   "id": "continues",
+   "label": "Continues (next chapter/part of)",
+   "description": "target = previous part/chapter."
+  },
+  {
+   "id": "same_story",
+   "label": "Same story, different telling"
+  },
+  {
+   "id": "same_story_other_language",
+   "label": "Same story told in another language"
+  }
+ ],
+ "relation_evidence": [
+  "audio_fingerprint",
+  "text_overlap",
+  "filename",
+  "master_catalog",
+  "content"
+ ],
+ "topics": [
+  {
+   "id": "tzaddikim_stories",
+   "label": "Stories of Tzaddikim"
+  },
+  {
+   "id": "baal_shem_tov_and_students",
+   "label": "The Baal Shem Tov and his students",
+   "parent": "tzaddikim_stories"
+  },
+  {
+   "id": "chabad_rebbeim",
+   "label": "The Chabad Rebbeim",
+   "parent": "tzaddikim_stories"
+  },
+  {
+   "id": "the_rebbe",
+   "label": "The Rebbe",
+   "parent": "chabad_rebbeim"
+  },
+  {
+   "id": "chassidic_masters",
+   "label": "Other Chassidic masters",
+   "parent": "tzaddikim_stories"
+  },
+  {
+   "id": "chassidim",
+   "label": "Chassidim and their devotion",
+   "parent": "tzaddikim_stories"
+  },
+  {
+   "id": "torah_heroes",
+   "label": "Heroes of Tanach and the Sages"
+  },
+  {
+   "id": "tanach",
+   "label": "Tanach",
+   "parent": "torah_heroes"
+  },
+  {
+   "id": "sages",
+   "label": "Sages of the Mishnah and Gemara",
+   "parent": "torah_heroes"
+  },
+  {
+   "id": "great_rabbis",
+   "label": "Great rabbis through the ages",
+   "parent": "torah_heroes"
+  },
+  {
+   "id": "emunah_bitachon",
+   "label": "Emunah and bitachon"
+  },
+  {
+   "id": "hashgacha_pratis",
+   "label": "Hashgachah pratis (Divine providence)",
+   "parent": "emunah_bitachon"
+  },
+  {
+   "id": "miracles",
+   "label": "Miracles and wonders",
+   "parent": "emunah_bitachon"
+  },
+  {
+   "id": "prayer_and_brachos",
+   "label": "Davening and brachos"
+  },
+  {
+   "id": "torah_study",
+   "label": "Learning Torah"
+  },
+  {
+   "id": "mitzvos_in_daily_life",
+   "label": "Mitzvos in daily life"
+  },
+  {
+   "id": "shabbos",
+   "label": "Shabbos",
+   "parent": "mitzvos_in_daily_life"
+  },
+  {
+   "id": "kashrus",
+   "label": "Kashrus",
+   "parent": "mitzvos_in_daily_life"
+  },
+  {
+   "id": "morning_routine",
+   "label": "Waking up the Jewish way",
+   "parent": "mitzvos_in_daily_life"
+  },
+  {
+   "id": "character",
+   "label": "Character and midos"
+  },
+  {
+   "id": "kindness_and_community",
+   "label": "Kindness, tzedakah and community",
+   "parent": "character"
+  },
+  {
+   "id": "teshuvah",
+   "label": "Teshuvah and growth",
+   "parent": "character"
+  },
+  {
+   "id": "family_and_home",
+   "label": "Family and home"
+  },
+  {
+   "id": "calendar",
+   "label": "Yomim Tovim and the Jewish calendar"
+  },
+  {
+   "id": "parsha",
+   "label": "Parshas HaShavua",
+   "parent": "calendar"
+  },
+  {
+   "id": "moshiach_geulah",
+   "label": "Moshiach and the Geulah"
+  },
+  {
+   "id": "beis_hamikdash_eretz_yisroel",
+   "label": "Beis HaMikdash, Yerushalayim and Eretz Yisroel"
+  },
+  {
+   "id": "jewish_history",
+   "label": "Jewish history and galus"
+  },
+  {
+   "id": "mesiras_nefesh_kiddush_hashem",
+   "label": "Mesiras nefesh and Kiddush Hashem",
+   "parent": "jewish_history"
+  },
+  {
+   "id": "chassidus_tanya",
+   "label": "Chassidus and Tanya"
+  },
+  {
+   "id": "hiskashrus",
+   "label": "Connection to the Rebbe and tzaddikim"
+  },
+  {
+   "id": "tzivos_hashem",
+   "label": "Tzivos Hashem and mitzvah campaigns"
+  },
+  {
+   "id": "hashem_in_nature",
+   "label": "Hashem's world: nature and science"
+  },
+  {
+   "id": "halachah",
+   "label": "Halachah: how to do it"
+  },
+  {
+   "id": "family_heritage",
+   "label": "Family heritage and memoir"
+  }
+ ],
+ "midos": [
+  {
+   "id": "ahavas_yisroel",
+   "label": "Ahavas Yisroel (love for every Jew)",
+   "aliases": [
+    "love your fellow",
+    "kindness to others"
+   ]
+  },
+  {
+   "id": "achdus",
+   "label": "Achdus (unity)",
+   "aliases": [
+    "unity",
+    "togetherness"
+   ]
+  },
+  {
+   "id": "chesed",
+   "label": "Chesed (kindness)",
+   "aliases": [
+    "kindness",
+    "helping others"
+   ]
+  },
+  {
+   "id": "emes",
+   "label": "Emes (honesty and truth)",
+   "aliases": [
+    "honesty",
+    "truthfulness",
+    "not stealing"
+   ]
+  },
+  {
+   "id": "emunah",
+   "label": "Emunah (faith)",
+   "aliases": [
+    "faith",
+    "belief in Hashem"
+   ]
+  },
+  {
+   "id": "bitachon",
+   "label": "Bitachon (trust in Hashem)",
+   "aliases": [
+    "trust",
+    "not worrying"
+   ]
+  },
+  {
+   "id": "simcha",
+   "label": "Simcha (joy)",
+   "aliases": [
+    "happiness",
+    "joy"
+   ]
+  },
+  {
+   "id": "hakaras_hatov",
+   "label": "Hakaras hatov (gratitude)",
+   "aliases": [
+    "gratitude",
+    "thanking Hashem"
+   ]
+  },
+  {
+   "id": "anavah",
+   "label": "Anavah (humility)",
+   "aliases": [
+    "humility",
+    "modesty"
+   ]
+  },
+  {
+   "id": "savlanus",
+   "label": "Savlanus (patience)",
+   "aliases": [
+    "patience"
+   ]
+  },
+  {
+   "id": "zerizus",
+   "label": "Zerizus (alacrity)",
+   "aliases": [
+    "eagerness",
+    "not being lazy"
+   ]
+  },
+  {
+   "id": "hasmadah",
+   "label": "Hasmadah (diligence)",
+   "aliases": [
+    "perseverance",
+    "diligence",
+    "not giving up"
+   ]
+  },
+  {
+   "id": "generosity",
+   "label": "Generosity",
+   "aliases": [
+    "giving",
+    "sharing",
+    "not being stingy"
+   ]
+  },
+  {
+   "id": "dan_lkaf_zchus",
+   "label": "Judging others favorably",
+   "aliases": [
+    "dan l'kaf zechus",
+    "seeing the good"
+   ]
+  },
+  {
+   "id": "shalom",
+   "label": "Making peace",
+   "aliases": [
+    "peace",
+    "shalom bayis"
+   ]
+  },
+  {
+   "id": "kibbud",
+   "label": "Respect and honor",
+   "aliases": [
+    "respect for parents, elders, teachers"
+   ]
+  },
+  {
+   "id": "shemiras_halashon",
+   "label": "Guarding one's speech",
+   "aliases": [
+    "no lashon hara",
+    "clean language"
+   ]
+  },
+  {
+   "id": "controlling_anger",
+   "label": "Controlling anger",
+   "aliases": [
+    "kaas",
+    "temper"
+   ]
+  },
+  {
+   "id": "no_jealousy",
+   "label": "Overcoming jealousy",
+   "aliases": [
+    "jealousy",
+    "envy"
+   ]
+  },
+  {
+   "id": "courage",
+   "label": "Courage",
+   "aliases": [
+    "bravery",
+    "not being afraid"
+   ]
+  },
+  {
+   "id": "mesiras_nefesh",
+   "label": "Mesiras nefesh (self-sacrifice)",
+   "aliases": [
+    "self-sacrifice"
+   ]
+  },
+  {
+   "id": "yiras_shamayim",
+   "label": "Yiras Shamayim (awe of Heaven)",
+   "aliases": [
+    "fear of G-d",
+    "Hashem is watching"
+   ]
+  },
+  {
+   "id": "self_control",
+   "label": "Self-control and fighting the yetzer hara",
+   "aliases": [
+    "yetzer hara",
+    "temptation"
+   ]
+  },
+  {
+   "id": "responsibility",
+   "label": "Responsibility",
+   "aliases": [
+    "keeping your word",
+    "being careful"
+   ]
+  },
+  {
+   "id": "tznius",
+   "label": "Tznius (modesty)",
+   "aliases": [
+    "modesty"
+   ]
+  },
+  {
+   "id": "kabbalas_ol",
+   "label": "Kabbalas ol (accepting Hashem's rule)",
+   "aliases": [
+    "obedience",
+    "following instructions of a tzaddik"
+   ]
+  },
+  {
+   "id": "contentment",
+   "label": "Being content",
+   "aliases": [
+    "sameach b'chelko",
+    "not greedy"
+   ]
+  },
+  {
+   "id": "forgiveness",
+   "label": "Forgiveness",
+   "aliases": [
+    "forgiving"
+   ]
+  },
+  {
+   "id": "resisting_bad_influence",
+   "label": "Resisting bad influences",
+   "aliases": [
+    "choosing good friends",
+    "bad crowd",
+    "peer pressure",
+    "not copying others"
+   ]
+  },
+  {
+   "id": "valuing_time",
+   "label": "Valuing time",
+   "aliases": [
+    "shmiras hazman",
+    "not wasting time"
+   ]
+  }
+ ],
+ "mitzvos": [
+  {
+   "id": "shema",
+   "label": "Shema"
+  },
+  {
+   "id": "davening",
+   "label": "Davening (prayer)",
+   "aliases": [
+    "tefillah"
+   ]
+  },
+  {
+   "id": "brachos",
+   "label": "Brachos (blessings)"
+  },
+  {
+   "id": "modeh_ani",
+   "label": "Modeh Ani"
+  },
+  {
+   "id": "negel_vasser",
+   "label": "Negel vasser / netilas yadayim",
+   "aliases": [
+    "washing hands"
+   ]
+  },
+  {
+   "id": "tefillin",
+   "label": "Tefillin"
+  },
+  {
+   "id": "tzitzis",
+   "label": "Tzitzis"
+  },
+  {
+   "id": "mezuzah",
+   "label": "Mezuzah"
+  },
+  {
+   "id": "yarmulke",
+   "label": "Yarmulke",
+   "aliases": [
+    "kippah"
+   ]
+  },
+  {
+   "id": "torah_study",
+   "label": "Torah study",
+   "aliases": [
+    "talmud torah"
+   ]
+  },
+  {
+   "id": "chitas",
+   "label": "Chitas"
+  },
+  {
+   "id": "rambam_daily",
+   "label": "Daily Rambam"
+  },
+  {
+   "id": "twelve_pesukim",
+   "label": "The Twelve Pesukim",
+   "aliases": [
+    "12 pesukim"
+   ]
+  },
+  {
+   "id": "tehillim",
+   "label": "Saying Tehillim"
+  },
+  {
+   "id": "shabbos",
+   "label": "Shabbos"
+  },
+  {
+   "id": "shabbos_candles",
+   "label": "Shabbos and Yom Tov candles",
+   "aliases": [
+    "neshek",
+    "candle lighting"
+   ]
+  },
+  {
+   "id": "kiddush",
+   "label": "Kiddush"
+  },
+  {
+   "id": "havdalah",
+   "label": "Havdalah"
+  },
+  {
+   "id": "melave_malka",
+   "label": "Melave Malka"
+  },
+  {
+   "id": "kashrus",
+   "label": "Kashrus",
+   "aliases": [
+    "kosher",
+    "chalav Yisroel"
+   ]
+  },
+  {
+   "id": "tzedakah",
+   "label": "Tzedakah",
+   "aliases": [
+    "charity",
+    "maaser"
+   ]
+  },
+  {
+   "id": "gemilus_chasadim",
+   "label": "Gemilus chasadim",
+   "aliases": [
+    "loans",
+    "acts of kindness"
+   ]
+  },
+  {
+   "id": "hachnasas_orchim",
+   "label": "Hachnasas orchim",
+   "aliases": [
+    "hospitality"
+   ]
+  },
+  {
+   "id": "bikur_cholim",
+   "label": "Bikur cholim",
+   "aliases": [
+    "visiting the sick"
+   ]
+  },
+  {
+   "id": "pidyon_shvuyim",
+   "label": "Pidyon shvuyim",
+   "aliases": [
+    "redeeming captives"
+   ]
+  },
+  {
+   "id": "hachnasas_kallah",
+   "label": "Hachnasas kallah",
+   "aliases": [
+    "helping a bride"
+   ]
+  },
+  {
+   "id": "hashavas_aveidah",
+   "label": "Hashavas aveidah",
+   "aliases": [
+    "returning lost objects"
+   ]
+  },
+  {
+   "id": "kibbud_av_vaem",
+   "label": "Kibbud av va'em",
+   "aliases": [
+    "honoring parents"
+   ]
+  },
+  {
+   "id": "kibbud_zekeinim",
+   "label": "Honoring elders and teachers"
+  },
+  {
+   "id": "ahavas_yisroel_mitzvah",
+   "label": "Loving every Jew (as a mitzvah)",
+   "aliases": [
+    "v'ahavta l'reiacha kamocha"
+   ]
+  },
+  {
+   "id": "shemiras_halashon",
+   "label": "Shemiras halashon",
+   "aliases": [
+    "lashon hara"
+   ]
+  },
+  {
+   "id": "honest_business",
+   "label": "Honesty in business",
+   "aliases": [
+    "ona'ah",
+    "fair weights"
+   ]
+  },
+  {
+   "id": "tzaar_baalei_chaim",
+   "label": "Kindness to animals"
+  },
+  {
+   "id": "teshuvah",
+   "label": "Teshuvah",
+   "aliases": [
+    "repentance"
+   ]
+  },
+  {
+   "id": "kiddush_hashem",
+   "label": "Kiddush Hashem"
+  },
+  {
+   "id": "kavod_shul",
+   "label": "Respect for shul and sefarim"
+  },
+  {
+   "id": "chinuch",
+   "label": "Chinuch (Jewish education)"
+  },
+  {
+   "id": "upsherin",
+   "label": "Upsherin",
+   "aliases": [
+    "first haircut"
+   ]
+  },
+  {
+   "id": "shofar",
+   "label": "Shofar"
+  },
+  {
+   "id": "tashlich",
+   "label": "Tashlich"
+  },
+  {
+   "id": "sukkah",
+   "label": "Sukkah"
+  },
+  {
+   "id": "arba_minim",
+   "label": "Lulav and esrog",
+   "aliases": [
+    "four kinds"
+   ]
+  },
+  {
+   "id": "chanukah_lights",
+   "label": "Chanukah lights",
+   "aliases": [
+    "menorah"
+   ]
+  },
+  {
+   "id": "megillah",
+   "label": "Megillah"
+  },
+  {
+   "id": "mishloach_manos",
+   "label": "Mishloach manos"
+  },
+  {
+   "id": "matanos_levyonim",
+   "label": "Matanos la'evyonim"
+  },
+  {
+   "id": "chametz",
+   "label": "Chametz: search, burning, selling",
+   "aliases": [
+    "bedikas chametz"
+   ]
+  },
+  {
+   "id": "matzah",
+   "label": "Matzah"
+  },
+  {
+   "id": "seder",
+   "label": "The Seder",
+   "aliases": [
+    "haggadah"
+   ]
+  },
+  {
+   "id": "sefiras_haomer",
+   "label": "Counting the Omer"
+  },
+  {
+   "id": "fast_days",
+   "label": "Fast days"
+  },
+  {
+   "id": "bris",
+   "label": "Bris milah"
+  },
+  {
+   "id": "loving_eretz_yisroel",
+   "label": "Eretz Yisroel"
+  },
+  {
+   "id": "mivtzoim",
+   "label": "The Rebbe's mitzvah campaigns (mivtzoim)",
+   "aliases": [
+    "mivtza"
+   ]
+  },
+  {
+   "id": "aseres_hadibros",
+   "label": "Hearing the Aseres HaDibros",
+   "aliases": [
+    "Ten Commandments",
+    "hearing the Ten Commandments on Shavuos",
+    "Matan Torah in shul"
+   ]
+  },
+  {
+   "id": "kiddush_levanah",
+   "label": "Kiddush Levanah",
+   "aliases": [
+    "blessing the new moon",
+    "Kiddush Levana"
+   ]
+  },
+  {
+   "id": "parshas_zachor",
+   "label": "Hearing Parshas Zachor",
+   "aliases": [
+    "remembering Amalek",
+    "Zachor"
+   ]
+  },
+  {
+   "id": "payos",
+   "label": "Payos",
+   "aliases": [
+    "peyos",
+    "side curls"
+   ]
+  }
+ ],
+ "calendar": [
+  {
+   "id": "rosh_hashanah",
+   "label": "Rosh Hashanah",
+   "when": "1-2 Tishrei"
+  },
+  {
+   "id": "tzom_gedaliah",
+   "label": "Tzom Gedaliah",
+   "when": "3 Tishrei"
+  },
+  {
+   "id": "aseres_yemei_teshuvah",
+   "label": "Aseres Yemei Teshuvah",
+   "when": "1-10 Tishrei",
+   "aliases": [
+    "Ten Days of Repentance"
+   ]
+  },
+  {
+   "id": "vav_tishrei",
+   "label": "Vov Tishrei",
+   "when": "6 Tishrei",
+   "aliases": [
+    "Yahrzeit of Rebbetzin Chana"
+   ]
+  },
+  {
+   "id": "yom_kippur",
+   "label": "Yom Kippur",
+   "when": "10 Tishrei"
+  },
+  {
+   "id": "sukkos",
+   "label": "Sukkos",
+   "when": "15-21 Tishrei",
+   "aliases": [
+    "Succos"
+   ]
+  },
+  {
+   "id": "simchas_beis_hashoeva",
+   "label": "Simchas Beis Hashoeva",
+   "when": "Sukkos nights"
+  },
+  {
+   "id": "hoshana_rabbah",
+   "label": "Hoshana Rabbah",
+   "when": "21 Tishrei"
+  },
+  {
+   "id": "shemini_atzeres_simchas_torah",
+   "label": "Shemini Atzeres and Simchas Torah",
+   "when": "22-23 Tishrei"
+  },
+  {
+   "id": "chof_cheshvan",
+   "label": "Chof Cheshvan",
+   "when": "20 Cheshvan",
+   "aliases": [
+    "Birthday of the Rebbe Rashab"
+   ]
+  },
+  {
+   "id": "yud_kislev",
+   "label": "Yud Kislev",
+   "when": "10 Kislev",
+   "aliases": [
+    "Liberation of the Mitteler Rebbe"
+   ]
+  },
+  {
+   "id": "yud_tes_kislev",
+   "label": "Yud-Tes Kislev",
+   "when": "19 Kislev",
+   "aliases": [
+    "Rosh Hashanah of Chassidus",
+    "liberation of the Alter Rebbe"
+   ]
+  },
+  {
+   "id": "chanukah",
+   "label": "Chanukah",
+   "when": "25 Kislev - 2/3 Teves"
+  },
+  {
+   "id": "zos_chanukah",
+   "label": "Zos Chanukah",
+   "when": "8th day of Chanukah"
+  },
+  {
+   "id": "asarah_bteves",
+   "label": "Asarah B'Teves",
+   "when": "10 Teves"
+  },
+  {
+   "id": "chof_daled_teves",
+   "label": "Chof-Daled Teves",
+   "when": "24 Teves",
+   "aliases": [
+    "Yahrzeit of the Alter Rebbe"
+   ]
+  },
+  {
+   "id": "hei_teves",
+   "label": "Hei Teves (Didan Notzach)",
+   "when": "5 Teves"
+  },
+  {
+   "id": "yud_shevat",
+   "label": "Yud Shevat",
+   "when": "10 Shevat",
+   "aliases": [
+    "Yahrzeit of the Frierdiker Rebbe",
+    "the Rebbe's leadership"
+   ]
+  },
+  {
+   "id": "tu_bshvat",
+   "label": "Tu B'Shvat",
+   "when": "15 Shevat"
+  },
+  {
+   "id": "chof_beis_shevat",
+   "label": "Chof-Beis Shevat",
+   "when": "22 Shevat",
+   "aliases": [
+    "Yahrzeit of Rebbetzin Chaya Mushka"
+   ]
+  },
+  {
+   "id": "rosh_chodesh_shevat",
+   "label": "Rosh Chodesh Shevat",
+   "when": "1 Shevat"
+  },
+  {
+   "id": "adar",
+   "label": "Month of Adar",
+   "when": "Adar",
+   "aliases": [
+    "Mishenichnas Adar"
+   ]
+  },
+  {
+   "id": "purim_katan",
+   "label": "Purim Katan",
+   "when": "14 Adar I"
+  },
+  {
+   "id": "taanis_esther",
+   "label": "Taanis Esther",
+   "when": "13 Adar"
+  },
+  {
+   "id": "purim",
+   "label": "Purim",
+   "when": "14-15 Adar"
+  },
+  {
+   "id": "nissan",
+   "label": "Month of Nissan",
+   "when": "Nissan"
+  },
+  {
+   "id": "yud_aleph_nissan",
+   "label": "Yud-Aleph Nissan",
+   "when": "11 Nissan",
+   "aliases": [
+    "The Rebbe's birthday"
+   ]
+  },
+  {
+   "id": "pesach",
+   "label": "Pesach",
+   "when": "15-22 Nissan",
+   "aliases": [
+    "Passover"
+   ]
+  },
+  {
+   "id": "erev_pesach",
+   "label": "Erev Pesach and preparations",
+   "when": "14 Nissan"
+  },
+  {
+   "id": "acharon_shel_pesach",
+   "label": "Acharon shel Pesach / Moshiach's Seudah",
+   "when": "22 Nissan"
+  },
+  {
+   "id": "sefiras_haomer",
+   "label": "Sefiras HaOmer",
+   "when": "16 Nissan - 5 Sivan",
+   "aliases": [
+    "Sefirah"
+   ]
+  },
+  {
+   "id": "pesach_sheni",
+   "label": "Pesach Sheni",
+   "when": "14 Iyar"
+  },
+  {
+   "id": "lag_baomer",
+   "label": "Lag BaOmer",
+   "when": "18 Iyar"
+  },
+  {
+   "id": "shavuos",
+   "label": "Shavuos",
+   "when": "6-7 Sivan",
+   "aliases": [
+    "Matan Torah"
+   ]
+  },
+  {
+   "id": "gimmel_tammuz",
+   "label": "Gimmel Tammuz",
+   "when": "3 Tammuz"
+  },
+  {
+   "id": "yud_beis_tammuz",
+   "label": "Yud-Beis Tammuz",
+   "when": "12-13 Tammuz",
+   "aliases": [
+    "Liberation of the Frierdiker Rebbe"
+   ]
+  },
+  {
+   "id": "shiva_asar_btammuz",
+   "label": "Shiva Asar B'Tammuz",
+   "when": "17 Tammuz"
+  },
+  {
+   "id": "three_weeks",
+   "label": "The Three Weeks",
+   "when": "17 Tammuz - 9 Av",
+   "aliases": [
+    "bein hametzarim"
+   ]
+  },
+  {
+   "id": "nine_days",
+   "label": "The Nine Days",
+   "when": "1-9 Av"
+  },
+  {
+   "id": "tisha_bav",
+   "label": "Tisha B'Av",
+   "when": "9 Av"
+  },
+  {
+   "id": "tu_bav",
+   "label": "Tu B'Av",
+   "when": "15 Av"
+  },
+  {
+   "id": "chof_av",
+   "label": "Chof Av",
+   "when": "20 Av",
+   "aliases": [
+    "Yahrzeit of Rabbi Levi Yitzchak Schneerson"
+   ]
+  },
+  {
+   "id": "elul",
+   "label": "Month of Elul",
+   "when": "Elul"
+  },
+  {
+   "id": "chai_elul",
+   "label": "Chai Elul",
+   "when": "18 Elul",
+   "aliases": [
+    "Birthday of the Baal Shem Tov and the Alter Rebbe"
+   ]
+  },
+  {
+   "id": "selichos",
+   "label": "Selichos",
+   "when": "late Elul"
+  },
+  {
+   "id": "rosh_chodesh",
+   "label": "Rosh Chodesh",
+   "when": "monthly"
+  },
+  {
+   "id": "shabbos_weekly",
+   "label": "Shabbos (weekly)",
+   "when": "weekly"
+  },
+  {
+   "id": "shabbos_mevarchim",
+   "label": "Shabbos Mevarchim",
+   "when": "monthly"
+  },
+  {
+   "id": "shabbos_shuva",
+   "label": "Shabbos Shuvah"
+  },
+  {
+   "id": "shabbos_hagadol",
+   "label": "Shabbos HaGadol"
+  },
+  {
+   "id": "shabbos_zachor",
+   "label": "Shabbos Zachor",
+   "aliases": [
+    "Parshas Zachor"
+   ]
+  },
+  {
+   "id": "shabbos_chazon",
+   "label": "Shabbos Chazon"
+  },
+  {
+   "id": "shabbos_nachamu",
+   "label": "Shabbos Nachamu"
+  },
+  {
+   "id": "shabbos_chazak",
+   "label": "Shabbos Chazak"
+  },
+  {
+   "id": "summer_vacation",
+   "label": "Summer vacation",
+   "when": "season"
+  },
+  {
+   "id": "hakhel_year",
+   "label": "Hakhel year",
+   "when": "every 7 years"
+  },
+  {
+   "id": "winter",
+   "label": "Winter season",
+   "when": "season"
+  },
+  {
+   "id": "cheshvan",
+   "label": "Month of Cheshvan",
+   "when": "Cheshvan",
+   "aliases": [
+    "Mar Cheshvan",
+    "Bul",
+    "Rosh Chodesh Cheshvan"
+   ]
+  },
+  {
+   "id": "kislev",
+   "label": "Month of Kislev",
+   "when": "Kislev",
+   "aliases": [
+    "Chodesh Kislev",
+    "month of farbrengens"
+   ]
+  },
+  {
+   "id": "yud_daled_kislev",
+   "label": "Yud-Daled Kislev",
+   "when": "14 Kislev",
+   "aliases": [
+    "Wedding anniversary of the Rebbe and Rebbetzin"
+   ]
+  },
+  {
+   "id": "chof_teves",
+   "label": "Chof Teves",
+   "when": "20 Teves",
+   "aliases": [
+    "Yahrzeit of the Rambam"
+   ]
+  },
+  {
+   "id": "zayin_adar",
+   "label": "Zayin Adar",
+   "when": "7 Adar",
+   "aliases": [
+    "Yahrzeit and birthday of Moshe Rabbeinu"
+   ]
+  },
+  {
+   "id": "chof_zayin_adar",
+   "label": "Chof-Zayin Adar",
+   "when": "27 Adar",
+   "aliases": [
+    "27 Adar"
+   ]
+  },
+  {
+   "id": "yud_gimmel_nissan",
+   "label": "Yud-Gimmel Nissan",
+   "when": "13 Nissan",
+   "aliases": [
+    "Yahrzeit of the Tzemach Tzedek"
+   ]
+  },
+  {
+   "id": "chof_hei_elul",
+   "label": "Chof-Hei Elul",
+   "when": "25 Elul",
+   "aliases": [
+    "25 Elul",
+    "first day of Creation"
+   ]
+  },
+  {
+   "id": "yud_gimmel_tishrei",
+   "label": "Yud-Gimmel Tishrei",
+   "when": "13 Tishrei",
+   "aliases": [
+    "Yahrzeit of the Rebbe Maharash"
+   ]
+  },
+  {
+   "id": "shabbos_bereishis",
+   "label": "Shabbos Bereishis",
+   "when": "Shabbos after Simchas Torah"
+  },
+  {
+   "id": "shabbos_shirah",
+   "label": "Shabbos Shirah",
+   "when": "Shabbos Parshas Beshalach",
+   "aliases": [
+    "Shabbos Shira",
+    "Az Yashir"
+   ]
+  },
+  {
+   "id": "shabbos_shekalim",
+   "label": "Shabbos Shekalim",
+   "when": "Shabbos before Rosh Chodesh Adar",
+   "aliases": [
+    "Parshas Shekalim",
+    "half-shekel"
+   ]
+  }
+ ],
+ "parshiyos": [
+  {
+   "id": "bereishis",
+   "label": "Bereishis"
+  },
+  {
+   "id": "noach",
+   "label": "Noach"
+  },
+  {
+   "id": "lech_lecha",
+   "label": "Lech Lecha"
+  },
+  {
+   "id": "vayeira",
+   "label": "Vayeira"
+  },
+  {
+   "id": "chayei_sarah",
+   "label": "Chayei Sarah"
+  },
+  {
+   "id": "toldos",
+   "label": "Toldos"
+  },
+  {
+   "id": "vayeitzei",
+   "label": "Vayeitzei"
+  },
+  {
+   "id": "vayishlach",
+   "label": "Vayishlach"
+  },
+  {
+   "id": "vayeishev",
+   "label": "Vayeishev"
+  },
+  {
+   "id": "mikeitz",
+   "label": "Mikeitz"
+  },
+  {
+   "id": "vayigash",
+   "label": "Vayigash"
+  },
+  {
+   "id": "vayechi",
+   "label": "Vayechi"
+  },
+  {
+   "id": "shemos",
+   "label": "Shemos"
+  },
+  {
+   "id": "vaeira",
+   "label": "Va'eira"
+  },
+  {
+   "id": "bo",
+   "label": "Bo"
+  },
+  {
+   "id": "beshalach",
+   "label": "Beshalach"
+  },
+  {
+   "id": "yisro",
+   "label": "Yisro"
+  },
+  {
+   "id": "mishpatim",
+   "label": "Mishpatim"
+  },
+  {
+   "id": "terumah",
+   "label": "Terumah"
+  },
+  {
+   "id": "tetzaveh",
+   "label": "Tetzaveh"
+  },
+  {
+   "id": "ki_sisa",
+   "label": "Ki Sisa"
+  },
+  {
+   "id": "vayakhel",
+   "label": "Vayakhel"
+  },
+  {
+   "id": "pekudei",
+   "label": "Pekudei"
+  },
+  {
+   "id": "vayikra",
+   "label": "Vayikra"
+  },
+  {
+   "id": "tzav",
+   "label": "Tzav"
+  },
+  {
+   "id": "shemini",
+   "label": "Shemini"
+  },
+  {
+   "id": "tazria",
+   "label": "Tazria"
+  },
+  {
+   "id": "metzora",
+   "label": "Metzora"
+  },
+  {
+   "id": "acharei",
+   "label": "Acharei"
+  },
+  {
+   "id": "kedoshim",
+   "label": "Kedoshim"
+  },
+  {
+   "id": "emor",
+   "label": "Emor"
+  },
+  {
+   "id": "behar",
+   "label": "Behar"
+  },
+  {
+   "id": "bechukosai",
+   "label": "Bechukosai"
+  },
+  {
+   "id": "bamidbar",
+   "label": "Bamidbar"
+  },
+  {
+   "id": "naso",
+   "label": "Naso"
+  },
+  {
+   "id": "behaaloscha",
+   "label": "Beha'aloscha"
+  },
+  {
+   "id": "shelach",
+   "label": "Shelach"
+  },
+  {
+   "id": "korach",
+   "label": "Korach"
+  },
+  {
+   "id": "chukas",
+   "label": "Chukas"
+  },
+  {
+   "id": "balak",
+   "label": "Balak"
+  },
+  {
+   "id": "pinchas",
+   "label": "Pinchas"
+  },
+  {
+   "id": "matos",
+   "label": "Matos"
+  },
+  {
+   "id": "masei",
+   "label": "Masei"
+  },
+  {
+   "id": "devarim",
+   "label": "Devarim"
+  },
+  {
+   "id": "vaeschanan",
+   "label": "Va'eschanan"
+  },
+  {
+   "id": "eikev",
+   "label": "Eikev"
+  },
+  {
+   "id": "reeh",
+   "label": "Re'eh"
+  },
+  {
+   "id": "shoftim",
+   "label": "Shoftim"
+  },
+  {
+   "id": "ki_seitzei",
+   "label": "Ki Seitzei"
+  },
+  {
+   "id": "ki_savo",
+   "label": "Ki Savo"
+  },
+  {
+   "id": "nitzavim",
+   "label": "Nitzavim"
+  },
+  {
+   "id": "vayeilech",
+   "label": "Vayeilech"
+  },
+  {
+   "id": "haazinu",
+   "label": "Haazinu"
+  },
+  {
+   "id": "vezos_haberachah",
+   "label": "Vezos Haberachah"
+  }
+ ],
+ "people_categories": [
+  "tanach",
+  "sages",
+  "rishonim_acharonim",
+  "baal_shem_tov_circle_and_chassidic_masters",
+  "chabad_rebbeim",
+  "rebbeim_family",
+  "chassidim"
+ ],
+ "people": [
+  {
+   "id": "adam_harishon",
+   "label": "Adam HaRishon",
+   "category": "tanach"
+  },
+  {
+   "id": "noach",
+   "label": "Noach",
+   "category": "tanach"
+  },
+  {
+   "id": "avraham_avinu",
+   "label": "Avraham Avinu",
+   "category": "tanach",
+   "aliases": [
+    "Avraham Ovinu"
+   ]
+  },
+  {
+   "id": "sarah_imeinu",
+   "label": "Sarah Imeinu",
+   "category": "tanach"
+  },
+  {
+   "id": "yitzchak_avinu",
+   "label": "Yitzchak Avinu",
+   "category": "tanach"
+  },
+  {
+   "id": "rivkah_imeinu",
+   "label": "Rivkah Imeinu",
+   "category": "tanach"
+  },
+  {
+   "id": "yaakov_avinu",
+   "label": "Yaakov Avinu",
+   "category": "tanach"
+  },
+  {
+   "id": "rachel_imeinu",
+   "label": "Rachel Imeinu",
+   "category": "tanach"
+  },
+  {
+   "id": "leah_imeinu",
+   "label": "Leah Imeinu",
+   "category": "tanach"
+  },
+  {
+   "id": "yosef_hatzaddik",
+   "label": "Yosef HaTzaddik",
+   "category": "tanach"
+  },
+  {
+   "id": "moshe_rabbeinu",
+   "label": "Moshe Rabbeinu",
+   "category": "tanach"
+  },
+  {
+   "id": "aharon_hakohen",
+   "label": "Aharon HaKohen",
+   "category": "tanach"
+  },
+  {
+   "id": "miriam_haneviah",
+   "label": "Miriam HaNeviah",
+   "category": "tanach"
+  },
+  {
+   "id": "yehoshua_bin_nun",
+   "label": "Yehoshua bin Nun",
+   "category": "tanach"
+  },
+  {
+   "id": "chana_mother_of_shmuel",
+   "label": "Chana (mother of Shmuel)",
+   "category": "tanach"
+  },
+  {
+   "id": "shmuel_hanavi",
+   "label": "Shmuel HaNavi",
+   "category": "tanach",
+   "aliases": [
+    "shmuel hanovie"
+   ]
+  },
+  {
+   "id": "david_hamelech",
+   "label": "Dovid HaMelech",
+   "category": "tanach",
+   "aliases": [
+    "David HaMelech",
+    "Davod HaMelech"
+   ]
+  },
+  {
+   "id": "shlomo_hamelech",
+   "label": "Shlomo HaMelech",
+   "category": "tanach"
+  },
+  {
+   "id": "eliyahu_hanavi",
+   "label": "Eliyahu HaNavi",
+   "category": "tanach",
+   "aliases": [
+    "Eliyohu Hanovie",
+    "Eliyahu Hanavie"
+   ]
+  },
+  {
+   "id": "elisha_hanavi",
+   "label": "Elisha HaNavi",
+   "category": "tanach"
+  },
+  {
+   "id": "yonah_hanavi",
+   "label": "Yonah HaNavi",
+   "category": "tanach"
+  },
+  {
+   "id": "yirmiyahu_hanavi",
+   "label": "Yirmiyahu HaNavi",
+   "category": "tanach"
+  },
+  {
+   "id": "yeshayahu_hanavi",
+   "label": "Yeshayahu HaNavi",
+   "category": "tanach"
+  },
+  {
+   "id": "daniel",
+   "label": "Daniel",
+   "category": "tanach"
+  },
+  {
+   "id": "chizkiyahu_hamelech",
+   "label": "Chizkiyahu HaMelech",
+   "category": "tanach"
+  },
+  {
+   "id": "mordechai",
+   "label": "Mordechai",
+   "category": "tanach"
+  },
+  {
+   "id": "esther_hamalkah",
+   "label": "Esther HaMalkah",
+   "category": "tanach"
+  },
+  {
+   "id": "yehudis",
+   "label": "Yehudis",
+   "category": "tanach"
+  },
+  {
+   "id": "chashmonaim",
+   "label": "The Chashmonaim (Maccabees)",
+   "category": "tanach",
+   "aliases": [
+    "Yehudah HaMaccabi",
+    "Matisyahu"
+   ]
+  },
+  {
+   "id": "korach",
+   "label": "Korach",
+   "category": "tanach"
+  },
+  {
+   "id": "haman",
+   "label": "Haman",
+   "category": "tanach"
+  },
+  {
+   "id": "pharaoh",
+   "label": "Pharaoh",
+   "category": "tanach"
+  },
+  {
+   "id": "nevuchadnetzar",
+   "label": "Nevuchadnetzar",
+   "category": "tanach"
+  },
+  {
+   "id": "antiochus",
+   "label": "Antiochus",
+   "category": "tanach"
+  },
+  {
+   "id": "bilam",
+   "label": "Bilam",
+   "category": "tanach"
+  },
+  {
+   "id": "hillel",
+   "label": "Hillel HaZaken",
+   "category": "sages"
+  },
+  {
+   "id": "shammai",
+   "label": "Shammai",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_akiva",
+   "label": "Rabbi Akiva",
+   "category": "sages",
+   "aliases": [
+    "Rebbe Akiva",
+    "Rebi Akiva"
+   ]
+  },
+  {
+   "id": "rabbi_shimon_bar_yochai",
+   "label": "Rabbi Shimon bar Yochai (Rashbi)",
+   "category": "sages",
+   "aliases": [
+    "Rashbi"
+   ]
+  },
+  {
+   "id": "rabbi_meir_baal_haness",
+   "label": "Rabbi Meir Baal HaNess",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_yochanan_ben_zakai",
+   "label": "Rabbi Yochanan ben Zakai",
+   "category": "sages"
+  },
+  {
+   "id": "rabban_gamliel",
+   "label": "Rabban Gamliel",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_chanina_ben_dosa",
+   "label": "Rabbi Chanina ben Dosa",
+   "category": "sages"
+  },
+  {
+   "id": "nachum_ish_gamzu",
+   "label": "Nachum Ish Gamzu",
+   "category": "sages"
+  },
+  {
+   "id": "choni_hamaagel",
+   "label": "Choni HaMaagel",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_eliezer_ben_hurkenos",
+   "label": "Rabbi Eliezer ben Hurkenos",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_yehoshua_ben_chanania",
+   "label": "Rabbi Yehoshua ben Chanania",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_yehudah_hanasi",
+   "label": "Rabbi Yehudah HaNasi",
+   "category": "sages"
+  },
+  {
+   "id": "onkelos",
+   "label": "Onkelos",
+   "category": "sages",
+   "aliases": [
+    "Unkelus"
+   ]
+  },
+  {
+   "id": "rabbi_tarfon",
+   "label": "Rabbi Tarfon",
+   "category": "sages"
+  },
+  {
+   "id": "rabbi_chanina",
+   "label": "Rabbi Chanina",
+   "category": "sages"
+  },
+  {
+   "id": "dama_ben_nesina",
+   "label": "Dama ben Nesina",
+   "category": "sages"
+  },
+  {
+   "id": "rashi",
+   "label": "Rashi",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "rabbi_yitzchak_father_of_rashi",
+   "label": "Rabbi Yitzchak (father of Rashi)",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "rambam",
+   "label": "Rambam (Maimonides)",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "ramban",
+   "label": "Ramban",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "rabbi_yehudah_halevi",
+   "label": "Rabbi Yehudah HaLevi",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "ibn_ezra",
+   "label": "Rabbi Avraham ibn Ezra",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "arizal",
+   "label": "The Arizal",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "beis_yosef",
+   "label": "Rabbi Yosef Karo (Beis Yosef)",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "maharal",
+   "label": "The Maharal of Prague",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "ohr_hachayim",
+   "label": "The Ohr HaChayim",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Ohr Hachayim"
+   ]
+  },
+  {
+   "id": "vilna_gaon",
+   "label": "The Vilna Gaon",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "chacham_nissim",
+   "label": "Chacham Nissim (Alexandria)",
+   "category": "rishonim_acharonim"
+  },
+  {
+   "id": "baal_shem_tov",
+   "label": "The Baal Shem Tov",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Besht",
+    "Rabbi Yisroel Baal Shem Tov",
+    "Baal Shantiv"
+   ],
+   "he": "הבעל שם טוב"
+  },
+  {
+   "id": "adel_daughter_of_besht",
+   "label": "Adel, daughter of the Baal Shem Tov",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Adul",
+    "Udel"
+   ]
+  },
+  {
+   "id": "maggid_of_mezritch",
+   "label": "The Maggid of Mezritch",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Mezritcher Maggid",
+    "Mizritch HaMaggid",
+    "Mizrit Shemagid"
+   ]
+  },
+  {
+   "id": "rabbi_zusha_of_anipoli",
+   "label": "Rabbi Zusha of Anipoli",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Reb Zusha",
+    "Anepole"
+   ]
+  },
+  {
+   "id": "rabbi_elimelech_of_lizhensk",
+   "label": "Rabbi Elimelech of Lizhensk",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "rabbi_levi_yitzchak_of_berditchev",
+   "label": "Rabbi Levi Yitzchak of Berditchev",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Berditchever",
+    "Bardichever"
+   ]
+  },
+  {
+   "id": "rabbi_menachem_mendel_of_horodok",
+   "label": "Rabbi Menachem Mendel of Horodok (Vitebsk)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Horodoker",
+    "Haradokar"
+   ]
+  },
+  {
+   "id": "rabbi_avraham_hamalach",
+   "label": "Rabbi Avraham HaMalach",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "shpoler_zeide",
+   "label": "The Shpoler Zeide (Rabbi Aryeh Leib of Shpola)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Shpole Zeide",
+    "Shpoller Zeide",
+    "Sphole Zeide"
+   ]
+  },
+  {
+   "id": "rabbi_moshe_sofer_of_pshevorsk",
+   "label": "Rabbi Moshe Sofer of Pshevorsk",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Reb Moshe Soifer"
+   ]
+  },
+  {
+   "id": "rabbi_pinchas_of_koretz",
+   "label": "Rabbi Pinchas of Koretz",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "rabbi_boruch_of_mezhibuzh",
+   "label": "Rabbi Boruch of Mezhibuzh",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "rabbi_yisroel_of_ruzhin",
+   "label": "Rabbi Yisroel of Ruzhin",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Ruzhiner"
+   ]
+  },
+  {
+   "id": "rabbi_yaakov_yosef_of_polonye",
+   "label": "Rabbi Yaakov Yosef of Polonye",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "rabbi_nachman_of_breslov",
+   "label": "Rabbi Nachman of Breslov",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "rabbi_meir_of_premishlan",
+   "label": "Rabbi Meir of Premishlan",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "rabbi_shmelke_of_nikolsburg",
+   "label": "Rabbi Shmelke of Nikolsburg",
+   "category": "baal_shem_tov_circle_and_chassidic_masters"
+  },
+  {
+   "id": "alter_rebbe",
+   "label": "The Alter Rebbe (Rabbi Schneur Zalman of Liadi)",
+   "category": "chabad_rebbeim",
+   "aliases": [
+    "Baal HaTanya",
+    "Rabbi Schneur Zalman",
+    "Alta Rebbe"
+   ],
+   "he": "אדמו\"ר הזקן"
+  },
+  {
+   "id": "mitteler_rebbe",
+   "label": "The Mitteler Rebbe (Rabbi DovBer)",
+   "category": "chabad_rebbeim",
+   "aliases": [
+    "Mittler Rebbe",
+    "Mithla Rebbe"
+   ]
+  },
+  {
+   "id": "tzemach_tzedek",
+   "label": "The Tzemach Tzedek (Rabbi Menachem Mendel)",
+   "category": "chabad_rebbeim"
+  },
+  {
+   "id": "rebbe_maharash",
+   "label": "The Rebbe Maharash (Rabbi Shmuel)",
+   "category": "chabad_rebbeim",
+   "aliases": [
+    "Maharash"
+   ]
+  },
+  {
+   "id": "rebbe_rashab",
+   "label": "The Rebbe Rashab (Rabbi Sholom DovBer)",
+   "category": "chabad_rebbeim",
+   "aliases": [
+    "Rashab"
+   ]
+  },
+  {
+   "id": "frierdiker_rebbe",
+   "label": "The Frierdiker Rebbe (Rabbi Yosef Yitzchak, Rebbe Rayatz)",
+   "category": "chabad_rebbeim",
+   "aliases": [
+    "Rayatz",
+    "Previous Rebbe",
+    "Friedrich Rebbe",
+    "Fridik Rebbe"
+   ]
+  },
+  {
+   "id": "the_rebbe",
+   "label": "The Rebbe (Rabbi Menachem Mendel Schneerson)",
+   "category": "chabad_rebbeim",
+   "aliases": [
+    "Lubavitcher Rebbe",
+    "Rebbe Shlita",
+    "Rebbe Melech HaMoshiach"
+   ]
+  },
+  {
+   "id": "rebbetzin_chana",
+   "label": "Rebbetzin Chana Schneerson (the Rebbe's mother)",
+   "category": "rebbeim_family",
+   "aliases": [
+    "Rebbe Tzenchana"
+   ]
+  },
+  {
+   "id": "rabbi_levi_yitzchak_schneerson",
+   "label": "Rabbi Levi Yitzchak Schneerson (the Rebbe's father)",
+   "category": "rebbeim_family"
+  },
+  {
+   "id": "rebbetzin_chaya_mushka",
+   "label": "Rebbetzin Chaya Mushka (the Rebbe's wife)",
+   "category": "rebbeim_family"
+  },
+  {
+   "id": "rebbetzin_rivkah",
+   "label": "Rebbetzin Rivkah (wife of the Rebbe Maharash)",
+   "category": "rebbeim_family"
+  },
+  {
+   "id": "rebbetzin_shterna_sarah",
+   "label": "Rebbetzin Shterna Sarah (wife of the Rebbe Rashab)",
+   "category": "rebbeim_family"
+  },
+  {
+   "id": "rebbetzin_nechama_dina",
+   "label": "Rebbetzin Nechama Dina (wife of the Frierdiker Rebbe)",
+   "category": "rebbeim_family"
+  },
+  {
+   "id": "rabbi_nochum_son_of_mitteler_rebbe",
+   "label": "Rabbi Nochum (son of the Mitteler Rebbe)",
+   "category": "rebbeim_family"
+  },
+  {
+   "id": "rabbi_shmuel_munkes",
+   "label": "Rabbi Shmuel Munkes",
+   "category": "chassidim"
+  },
+  {
+   "id": "rabbi_hillel_of_paritch",
+   "label": "Rabbi Hillel of Paritch",
+   "category": "chassidim"
+  },
+  {
+   "id": "rabbi_meir_refoels",
+   "label": "Reb Meir Refoels",
+   "category": "chassidim",
+   "aliases": [
+    "R Meir Refaels"
+   ]
+  },
+  {
+   "id": "rabbi_yaakov_mordechai_of_poltava",
+   "label": "Rabbi Yaakov Mordechai of Poltava",
+   "category": "chassidim"
+  },
+  {
+   "id": "rabbi_mendel_futerfas",
+   "label": "Rabbi Mendel Futerfas",
+   "category": "chassidim"
+  },
+  {
+   "id": "rabbi_shmaryahu_gurary",
+   "label": "Rabbi Shmaryahu Gurary",
+   "category": "chassidim"
+  },
+  {
+   "id": "chofetz_chaim",
+   "label": "The Chofetz Chaim (Rabbi Yisroel Meir Kagan)",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Chofetz Chaim",
+    "Chafetz Chaim",
+    "Rabbi Yisroel Meir HaKohen",
+    "Rabbi Yisrael Meir Kagan"
+   ]
+  },
+  {
+   "id": "chida",
+   "label": "The Chida (Rabbi Chaim Yosef Dovid Azulai)",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Chida",
+    "Chidah",
+    "Rabbi Chaim Yosef David Azulai"
+   ]
+  },
+  {
+   "id": "maggid_of_dubno",
+   "label": "The Dubno Maggid (Rabbi Yaakov Krantz)",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Maggid of Dubno",
+    "Dubner Maggid",
+    "Dubno Maggid",
+    "Rabbi Yaakov Kranz"
+   ]
+  },
+  {
+   "id": "rav_saadia_gaon",
+   "label": "Rav Saadia Gaon",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Rabbi Saadia Gaon",
+    "Saadia Gaon",
+    "Sadia Gaon"
+   ]
+  },
+  {
+   "id": "rabbeinu_bachya_ibn_paquda",
+   "label": "Rabbeinu Bachya ibn Paquda",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Rabbeinu Bachya",
+    "author of Chovos HaLevavos"
+   ]
+  },
+  {
+   "id": "maharam_of_rottenburg",
+   "label": "Rabbi Meir of Rottenburg (Maharam)",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Maharam of Rothenburg",
+    "Rabbi Meir of Rothenburg",
+    "Maharam"
+   ]
+  },
+  {
+   "id": "rabbi_moshe_galanti",
+   "label": "Rabbi Moshe Galanti",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Rabbi Moshe Galante",
+    "Moshe Galanti"
+   ]
+  },
+  {
+   "id": "tosfos_yom_tov",
+   "label": "The Tosfos Yom Tov (Rabbi Yom Tov Lipmann Heller)",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Tosafos Yom Tov",
+    "Tosfos Yom Tov",
+    "Rabbi Yom Tov Lipman Heller"
+   ]
+  },
+  {
+   "id": "shaagas_aryeh",
+   "label": "The Shaagas Aryeh (Rabbi Aryeh Leib Gunzberg)",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Shaagas Aryeh",
+    "Sha'agat Aryeh",
+    "Rabbi Aryeh Leib Ginzburg"
+   ]
+  },
+  {
+   "id": "rabbi_yisroel_salanter",
+   "label": "Rabbi Yisroel Salanter",
+   "category": "rishonim_acharonim",
+   "aliases": [
+    "Rabbi Yisrael Salanter",
+    "Rabbi Yisrael of Salant",
+    "Rabbi Yisroel of Salant"
+   ]
+  },
+  {
+   "id": "eli_hakohen",
+   "label": "Eli HaKohen",
+   "category": "tanach",
+   "aliases": [
+    "Eli the Kohen Gadol",
+    "Eli Hakohen"
+   ]
+  },
+  {
+   "id": "shaul_hamelech",
+   "label": "Shaul HaMelech",
+   "category": "tanach",
+   "aliases": [
+    "King Shaul",
+    "King Saul"
+   ]
+  },
+  {
+   "id": "rabbi_elazar_ben_azariah",
+   "label": "Rabbi Elazar ben Azariah",
+   "category": "sages",
+   "aliases": [
+    "Rabbi Elazar ben Azaryah",
+    "Rabbi Elazar ben Azarya"
+   ]
+  },
+  {
+   "id": "rabbi_yehoshua_ben_ilem",
+   "label": "Rabbi Yehoshua ben Ilem",
+   "category": "sages",
+   "aliases": [
+    "Rabbi Yehoshua and Nanas the butcher"
+   ]
+  },
+  {
+   "id": "yosef_mokir_shabbos",
+   "label": "Yosef Mokir Shabbos",
+   "category": "sages",
+   "aliases": [
+    "Yosef who honored Shabbos",
+    "Reb Yosef Mokir Shabbos"
+   ]
+  },
+  {
+   "id": "chozeh_of_lublin",
+   "label": "The Chozeh of Lublin (Rabbi Yaakov Yitzchak Horowitz)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Chozeh of Lublin",
+    "Seer of Lublin",
+    "the Chozeh"
+   ]
+  },
+  {
+   "id": "maggid_of_koznitz",
+   "label": "The Maggid of Koznitz (Rabbi Yisroel Hopstein)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Koznitzer Maggid",
+    "Kozhnitzer Maggid",
+    "Rabbi Yisroel of Koznitz"
+   ]
+  },
+  {
+   "id": "rabbi_aharon_of_karlin",
+   "label": "Rabbi Aharon of Karlin",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Karliner",
+    "Reb Aharon Karliner"
+   ]
+  },
+  {
+   "id": "rabbi_gershon_kitover",
+   "label": "Rabbi Gershon Kitover",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "the Baal Shem Tov's brother-in-law",
+    "Reb Gershon Kitover"
+   ]
+  },
+  {
+   "id": "rabbi_leib_sarahs",
+   "label": "Reb Leib Sarah's",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Rabbi Leib Sarah's",
+    "Leib Sores"
+   ]
+  },
+  {
+   "id": "rabbi_michel_of_zlotchov",
+   "label": "Rabbi Yechiel Michel of Zlotchov (the Zlotchover Maggid)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Zlotchover Maggid",
+    "Reb Michel Zlotchover",
+    "Rabbi Michel of Zlotchov"
+   ]
+  },
+  {
+   "id": "rabbi_nochum_of_chernobyl",
+   "label": "Rabbi Menachem Nochum of Chernobyl",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Rabbi Nochum of Chernobyl",
+    "Chernobyler Maggid",
+    "Meor Einayim"
+   ]
+  },
+  {
+   "id": "rabbi_simcha_bunim_of_pshischa",
+   "label": "Rabbi Simcha Bunim of Pshischa",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Reb Simcha Bunim of Peshischa",
+    "Rabbi Simcha Bunem of Peshischa"
+   ]
+  },
+  {
+   "id": "rabbi_wolf_kitzes",
+   "label": "Rabbi Zev Wolf Kitzes",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Reb Wolf Kitzes",
+    "Reb Velvel Kitzes"
+   ]
+  },
+  {
+   "id": "rabbi_yissachar_ber_of_lubavitch",
+   "label": "Rabbi Yissachar Ber of Lubavitch (the Lubavitcher Maggid)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Lubavitcher Maggid",
+    "the Alter Rebbe's teacher"
+   ]
+  },
+  {
+   "id": "klausenburger_rebbe",
+   "label": "The Klausenburger Rebbe (Rabbi Yekusiel Yehudah Halberstam)",
+   "category": "baal_shem_tov_circle_and_chassidic_masters",
+   "aliases": [
+    "Klausenburger Rebbe",
+    "Sanz-Klausenburg",
+    "Kiryat Sanz"
+   ]
+  },
+  {
+   "id": "rebbetzin_devorah_leah",
+   "label": "Rebbetzin Devorah Leah (mother of the Tzemach Tzedek)",
+   "category": "rebbeim_family",
+   "aliases": [
+    "daughter of the Alter Rebbe",
+    "the Tzemach Tzedek's mother"
+   ]
+  },
+  {
+   "id": "rabbi_zalman_zezmer",
+   "label": "Reb Zalman Zezmer",
+   "category": "chassidim",
+   "aliases": [
+    "Rabbi Zalman Zezmer",
+    "the Alter Rebbe's collector"
+   ]
+  },
+  {
+   "id": "rabbi_yaakov_kaidaner",
+   "label": "Reb Yaakov Kaidaner",
+   "category": "chassidim",
+   "aliases": [
+    "Reb Yankel Kaidaner",
+    "Rabbi Yaakov of Kaidanov",
+    "Rabbi Yaakov Kadaner",
+    "author of Sippurim Noraim"
+   ]
+  },
+  {
+   "id": "radatz",
+   "label": "The Radatz (Rabbi Chaim Dovid Tzvi Chein)",
+   "category": "chassidim",
+   "aliases": [
+    "Dovid Tzvi Chein",
+    "Rabbi Chaim Dovid Tzvi Chein",
+    "Radatz",
+    "Reb Chaim Dovid Tzvi Chein",
+    "Reb Dovid Tzvi Chein",
+    "the Frierdiker Rebbe's teacher"
+   ],
+   "note": "Name confirmed by the user 2026-11-25: Reb Chaim Dovid Tzvi Chein."
+  },
+  {
+   "id": "rabbi_shmuel_levitin",
+   "label": "Rabbi Shmuel Levitin",
+   "category": "chassidim",
+   "aliases": [
+    "Reb Shmuel Levitin"
+   ]
+  },
+  {
+   "id": "rabbi_leibel_groner",
+   "label": "Rabbi Leibel Groner (the Rebbe's secretary)",
+   "category": "chassidim",
+   "aliases": [
+    "Rabbi Groner",
+    "Rabbi Yehuda Leib Groner"
+   ]
+  }
+ ],
+ "people_roles": [
+  "central",
+  "appears",
+  "mentioned",
+  "teaching_cited"
+ ],
+ "works": [
+  {
+   "id": "chumash",
+   "label": "Chumash (Torah)"
+  },
+  {
+   "id": "rashi_on_chumash",
+   "label": "Rashi on Chumash"
+  },
+  {
+   "id": "neviim",
+   "label": "Nevi'im"
+  },
+  {
+   "id": "tehillim",
+   "label": "Tehillim"
+  },
+  {
+   "id": "megillas_esther",
+   "label": "Megillas Esther"
+  },
+  {
+   "id": "mishnah",
+   "label": "Mishnah"
+  },
+  {
+   "id": "pirkei_avos",
+   "label": "Pirkei Avos"
+  },
+  {
+   "id": "gemara",
+   "label": "Talmud Bavli (Gemara)"
+  },
+  {
+   "id": "yerushalmi",
+   "label": "Talmud Yerushalmi"
+  },
+  {
+   "id": "midrash",
+   "label": "Midrash"
+  },
+  {
+   "id": "zohar",
+   "label": "Zohar"
+  },
+  {
+   "id": "rambam_mishneh_torah",
+   "label": "Rambam, Mishneh Torah"
+  },
+  {
+   "id": "shulchan_aruch",
+   "label": "Shulchan Aruch"
+  },
+  {
+   "id": "shulchan_aruch_harav",
+   "label": "Shulchan Aruch HaRav"
+  },
+  {
+   "id": "tanya",
+   "label": "Tanya"
+  },
+  {
+   "id": "siddur",
+   "label": "Siddur"
+  },
+  {
+   "id": "haggadah",
+   "label": "Haggadah (with the Alter Rebbe's customs)"
+  },
+  {
+   "id": "torah_or_likkutei_torah",
+   "label": "Torah Or / Likkutei Torah"
+  },
+  {
+   "id": "sichos_of_the_rebbe",
+   "label": "A sichah of the Rebbe"
+  },
+  {
+   "id": "likkutei_sichos",
+   "label": "Likkutei Sichos"
+  },
+  {
+   "id": "igros_kodesh",
+   "label": "Igros Kodesh"
+  },
+  {
+   "id": "hayom_yom",
+   "label": "Hayom Yom"
+  },
+  {
+   "id": "sefer_hasichos",
+   "label": "Sefer HaSichos"
+  },
+  {
+   "id": "likkutei_dibburim",
+   "label": "Likkutei Dibburim"
+  },
+  {
+   "id": "maamarim",
+   "label": "Maamarim (Chassidic discourses)"
+  },
+  {
+   "id": "shivchei_habesht",
+   "label": "Shivchei HaBesht"
+  },
+  {
+   "id": "ateres_rosh",
+   "label": "Ateres Rosh (Mitteler Rebbe)"
+  },
+  {
+   "id": "likkutei_levi_yitzchak",
+   "label": "Likkutei Levi Yitzchak"
+  },
+  {
+   "id": "sippurei_chassidim",
+   "label": "Sippurei Chassidim (Zevin)"
+  },
+  {
+   "id": "frierdiker_rebbe_memoirs",
+   "label": "The Frierdiker Rebbe's memoirs / talks"
+  },
+  {
+   "id": "oral_tradition",
+   "label": "Chassidic oral tradition (\"Chassidim tell\")"
+  },
+  {
+   "id": "kesuvim",
+   "label": "Kesuvim (Mishlei, Koheles and the other Writings)",
+   "aliases": [
+    "Mishlei",
+    "Koheles",
+    "Iyov",
+    "Eichah",
+    "Daniel",
+    "Shir HaShirim",
+    "Proverbs",
+    "Ecclesiastes",
+    "Writings"
+   ]
+  },
+  {
+   "id": "chovos_halevavos",
+   "label": "Chovos HaLevavos (Shaar HaBitachon)",
+   "aliases": [
+    "Duties of the Heart",
+    "Shaar HaBitachon",
+    "Gate of Trust"
+   ]
+  },
+  {
+   "id": "sippurim_noraim",
+   "label": "Sippurim Noraim (Reb Yaakov Kaidaner)",
+   "aliases": [
+    "Sipurim Noraim",
+    "Sippurim Nora'im"
+   ]
+  }
+ ],
+ "study_units": [
+  "perek",
+  "siman",
+  "seif",
+  "page",
+  "section"
+ ],
+ "production_notes": [
+  "redo",
+  "new",
+  "bad_recording",
+  "unedited",
+  "needs_splicing",
+  "needs_editing",
+  "good",
+  "final",
+  "double",
+  "copy",
+  "duration_label",
+  "take_letter"
+ ],
+ "asr_glossary": [
+  {
+   "correct": "Hakochainik (march)",
+   "heard": [
+    "Hak Echynik",
+    "Hakka Chynik",
+    "Akashinic",
+    "Akashidim"
+   ]
+  },
+  {
+   "correct": "Studio 604",
+   "heard": [
+    "RStudio 604"
+   ]
+  },
+  {
+   "correct": "Im Yirtzeh Hashem",
+   "heard": [
+    "Amir Tzah Hashem",
+    "Emir Tzah Hashem",
+    "Ymir Tzachem"
+   ]
+  },
+  {
+   "correct": "tayere kinderlach",
+   "heard": [
+    "Tairi Kindelach",
+    "Teireh Kindelach"
+   ]
+  },
+  {
+   "correct": "Yiddishe kinderlach",
+   "heard": [
+    "Yiddishik Kindlech",
+    "Yiddishikindelach"
+   ]
+  },
+  {
+   "correct": "Rebbe shlita",
+   "heard": [
+    "Rebbe Schlitter"
+   ]
+  },
+  {
+   "correct": "Morah",
+   "heard": [
+    "Maura"
+   ]
+  },
+  {
+   "correct": "Shpoler Zeide",
+   "heard": [
+    "Shbola Zeda",
+    "Shvala Zeda",
+    "Shpala Zeda",
+    "Shvalizator"
+   ]
+  },
+  {
+   "correct": "Rebbetzin Chana",
+   "heard": [
+    "Rebbe Tzenchana",
+    "Tzemachana",
+    "Zinchana"
+   ]
+  },
+  {
+   "correct": "yahrzeit",
+   "heard": [
+    "Yerzite",
+    "Yorzeit",
+    "yurtzeit"
+   ]
+  },
+  {
+   "correct": "poritz",
+   "heard": [
+    "parrots",
+    "purits",
+    "pirates (when a nobleman is meant)",
+    "Puritz"
+   ]
+  },
+  {
+   "correct": "negel vasser",
+   "heard": [
+    "Nagelvasa",
+    "Nagelwasser",
+    "nickel vassal"
+   ]
+  },
+  {
+   "correct": "netilas yadayim",
+   "heard": [
+    "Natilas Yodoyim"
+   ]
+  },
+  {
+   "correct": "Beis HaMikdash",
+   "heard": [
+    "Besamikdash",
+    "Ves HaMikdosh"
+   ]
+  },
+  {
+   "correct": "Kosel HaMaaravi",
+   "heard": [
+    "Kosalhamaravi"
+   ]
+  },
+  {
+   "correct": "Tammuz",
+   "heard": [
+    "Tamaz",
+    "Tommos"
+   ]
+  },
+  {
+   "correct": "Shiva Asar B'Tammuz",
+   "heard": [
+    "Shivos Abitamos"
+   ]
+  },
+  {
+   "correct": "Mitteler Rebbe",
+   "heard": [
+    "Mithla Rebbe"
+   ]
+  },
+  {
+   "correct": "Baal HaTanya",
+   "heard": [
+    "Baal HaTanyor"
+   ]
+  },
+  {
+   "correct": "golus",
+   "heard": [
+    "Golis"
+   ]
+  },
+  {
+   "correct": "kibbud av va'em",
+   "heard": [
+    "Kivud Ovaim",
+    "Kibbud Ov Voaim"
+   ]
+  },
+  {
+   "correct": "yarmulke",
+   "heard": [
+    "Yalmukah"
+   ]
+  },
+  {
+   "correct": "Yisborach",
+   "heard": [
+    "Yesbarech"
+   ]
+  },
+  {
+   "correct": "Mezritcher Maggid",
+   "heard": [
+    "Mizrit Shemagid",
+    "Mizritch HaMaget",
+    "Mizrach HaMaged"
+   ]
+  },
+  {
+   "correct": "Horodoker",
+   "heard": [
+    "Haradokar"
+   ]
+  },
+  {
+   "correct": "Frierdiker Rebbe",
+   "heard": [
+    "Fridik",
+    "Freedek",
+    "Friedrich Rebbe"
+   ]
+  },
+  {
+   "correct": "Maharash",
+   "heard": [
+    "Marash",
+    "Maharaj"
+   ]
+  },
+  {
+   "correct": "Ushpizin",
+   "heard": [
+    "Hushbizim"
+   ]
+  },
+  {
+   "correct": "Chol HaMoed",
+   "heard": [
+    "Chalamite"
+   ]
+  },
+  {
+   "correct": "Beis Din shel Maaleh",
+   "heard": [
+    "Beistin Shelmila"
+   ]
+  },
+  {
+   "correct": "Torah Vodaas",
+   "heard": [
+    "tore a sammas"
+   ]
+  },
+  {
+   "correct": "Tomchei Temimim",
+   "heard": [
+    "Yeshiva Tremchitim",
+    "Teimchei Tmimim"
+   ]
+  },
+  {
+   "correct": "alav/aleha hashalom",
+   "heard": [
+    "Allah Shulam",
+    "Oliver Shulam"
+   ]
+  },
+  {
+   "correct": "Torah",
+   "heard": [
+    "Taira",
+    "Teda",
+    "Teira"
+   ]
+  },
+  {
+   "correct": "Yidden",
+   "heard": [
+    "Theoden",
+    "Yidn"
+   ]
+  },
+  {
+   "correct": "Iyar",
+   "heard": [
+    "Ir"
+   ]
+  },
+  {
+   "correct": "Dalet Iyar",
+   "heard": [
+    "Dalad Ir"
+   ]
+  },
+  {
+   "correct": "Chumash",
+   "heard": [
+    "Chumish"
+   ]
+  },
+  {
+   "correct": "Acharei",
+   "heard": [
+    "Achrei"
+   ]
+  },
+  {
+   "correct": "Monsey",
+   "heard": [
+    "Mansi"
+   ]
+  },
+  {
+   "correct": "Parshas Pekudei",
+   "heard": [
+    "Pasha's picades"
+   ]
+  },
+  {
+   "correct": "Shiviti",
+   "heard": [
+    "Shavisi"
+   ]
+  },
+  {
+   "correct": "Lagvina (sponsor)",
+   "heard": [
+    "Lagreena",
+    "Lagvina"
+   ]
+  },
+  {
+   "correct": "Hachnasas Kallah",
+   "heard": [
+    "Chachnosas Kala"
+   ]
+  },
+  {
+   "correct": "kopecks",
+   "heard": [
+    "cupkis"
+   ]
+  },
+  {
+   "correct": "Rosh Chodesh Shevat",
+   "heard": [
+    "Rishchei DeShvat",
+    "Rosh Chauda Shabbat"
+   ]
+  },
+  {
+   "correct": "Anipoli",
+   "heard": [
+    "Anepole",
+    "Anupole",
+    "Annapoli"
+   ]
+  },
+  {
+   "correct": "Moshe (name)",
+   "heard": [
+    "Moshiach (frequent ASR substitution)"
+   ]
+  }
+ ],
+ "asr_glossary_note": "Used by the fill-in prompt to read the transcript correctly and by the site as search synonyms. Never copy ASR spellings into display fields."
+}

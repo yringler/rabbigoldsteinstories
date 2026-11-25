@@ -1,0 +1,212 @@
+{
+ "id": "db30dda6bf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Hashem Knows How To Help You 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Knows How to Help You, Part 2.mp3",
+  "duration_sec": 842.721,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Hashem Knows How to Help You, Part 2",
+  "title_basis": "filename",
+  "summary_short": "Reb Shmuel Brin lends his friend everything he needs to rebuild, just as the Rebbe Maharash told him, and at his trial help comes from a place no one expected.",
+  "summary_long": "After the opening song, the storyteller recaps: Reb Shmuel Brin, a distillery owner falsely accused of cheating on taxes, was told by the Rebbe Maharash that help can come 'from nowhere', and that he must fully help any Jew who says the words 'from where will my help come'. Shmuel visits his friend Chaim, whose inn has burned down, and offers him an interest-free loan. Chaim refuses, saying Hashem will help, and quotes the very words of the Rebbe's instruction. Shmuel insists until Chaim accepts the full amount. At the trial, the two dishonest workers testify against Shmuel and the prosecutor demands a harsh sentence. Then the judge tells a story: as a boy he was stranded at a railway station after his luggage was stolen, and a young merchant fed him, bought him a ticket and refused to be repaid. That merchant, the judge reveals, was Shmuel Brin. Would such a man cheat the government? The jury declares him not guilty.",
+  "lesson": "When you help another Jew, Hashem helps you, and His help can come from where you least expect it.",
+  "keywords": [
+   "trial",
+   "judge",
+   "jury",
+   "interest-free loan",
+   "burned inn",
+   "railway station",
+   "stolen luggage",
+   "distillery"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "part": {
+   "set_key": "hashem-knows-how-to-help-you",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_maharash",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Shmuel Brin, the distillery owner",
+   "Chaim, the innkeeper",
+   "the judge",
+   "the prosecutor",
+   "the two dishonest workers"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "kindness_and_community",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "bitachon",
+   "chesed",
+   "generosity",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "gemilus_chasadim",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:1-2",
+    "note": "'From where will my help come? My help is from Hashem, Maker of heaven and earth.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 165,
+   "type": "story_intro",
+   "title": "Recap of Part 1"
+  },
+  {
+   "start_sec": 165,
+   "type": "story_chapter",
+   "title": "Hashem Knows How to Help You, Part 2",
+   "story_key": "hashem-knows-how-to-help-you",
+   "chapter": 2
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "5e372c37c6",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'Hashem Knows How To Help You -1'."
+  },
+  {
+   "type": "continues",
+   "target_id": "5e372c37c6",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Recap picks up exactly where Part 1 ends (Shmuel going to help Chaim)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "2300e71fce",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rebbe Maharash and Me'ayin Yavo Ezri: Help From Nowhere' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6bdf3b9e45",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Just for Hashem: A Chof Cheshvan Class and the Story of Reb Shmuel Brin' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "bdbaa10fa4",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Torah Is the Best Merchandise; Me'ayin Yavo Ezri, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends abruptly after the lesson line; no sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:10Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Hashem%20Knows%20How%20to%20Help%20You%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Hashem Knows How to Help You, Part 2.mp3",
+  "size_bytes": 10113613,
+  "mime_type": "audio/mpeg"
+ }
+}

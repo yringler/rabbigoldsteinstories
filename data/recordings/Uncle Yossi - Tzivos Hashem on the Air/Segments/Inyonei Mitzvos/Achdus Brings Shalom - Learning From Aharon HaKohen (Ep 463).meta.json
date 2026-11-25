@@ -1,0 +1,167 @@
+{
+ "id": "01f69928d5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Achdus for Shalom 463",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Achdus Brings Shalom - Learning From Aharon HaKohen (Ep 463).mp3",
+  "duration_sec": 380.736,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 463,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 463,
+   "story": "Three lost on a island #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Achdus Brings Shalom: Learning From Aharon HaKohen",
+  "title_basis": "content",
+  "summary_short": "In a time of danger, Uncle Yossi teaches that unity and Ahavas Yisroel bring peace, and how Aharon HaKohen loved peace and pursued it.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given at a time when Jews everywhere were turning to Hashem for mercy and praying for peace. Uncle Yossi recalls the prophet's promise that one day no nation will raise a sword against another. Our Sages teach that the way to guarantee shalom is achdus: being united through Torah and mitzvos, and above all through Ahavas Yisroel, avoiding every quarrel. Pirkei Avos tells us to be students of Aharon HaKohen, who loved peace and pursued it: he would tell each of two quarreling people that the other was sorry, until they made up as friends. The last brachah of Shemoneh Esrei can also be read as 'Hashem blesses His people through peace', because peace is the vessel that holds Hashem's blessings. The talk ends with a prayer for Moshiach, who will bring true and lasting peace to the whole world.",
+  "lesson": "Love peace and pursue it like Aharon HaKohen; when we live in unity, Hashem blesses us with peace.",
+  "keywords": [
+   "peace",
+   "unity",
+   "quarrel",
+   "making up",
+   "peacemaker",
+   "Shemoneh Esrei"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 463,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-01-22",
+   "hebrew": "7 Shevat 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Same as episode 463: between erev Rosh Chodesh Shevat (ep 462) and Mevarchim Adar (ep 465)."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "aharon_hakohen",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "kindness_and_community",
+   "moshiach_geulah",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "shalom",
+   "achdus",
+   "ahavas_yisroel",
+   "emunah"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "neviim",
+    "ref": "Yeshayahu 2:4",
+    "note": "'Nation will not lift sword against nation.'"
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "1:12",
+    "note": "Be among the students of Aharon: love peace and pursue peace."
+   },
+   {
+    "work": "siddur",
+    "note": "The closing brachah of Shemoneh Esrei."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "c086cd94b1",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 52,
+   "note": "Episode 463 (filename number); clip = 52-433 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens mid-sentence ('Here we are at a time...'). Wartime context is likely the Gulf War, January 1991."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:13:43Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Achdus%20Brings%20Shalom%20-%20Learning%20From%20Aharon%20HaKohen%20%28Ep%20463%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Achdus Brings Shalom - Learning From Aharon HaKohen (Ep 463).mp3",
+  "size_bytes": 4569948,
+  "mime_type": "audio/mpeg"
+ }
+}

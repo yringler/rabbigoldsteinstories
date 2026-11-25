@@ -1,0 +1,156 @@
+{
+ "id": "b98423e1d3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Yahrtzeit R'Moshe Sofer 411",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Yahrzeit of Rabbi Moshe Sofer of Pshevorsk, the Ohr Pnei Moshe (Ep 411).mp3",
+  "duration_sec": 224.228,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 411,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 411,
+   "story": "The storyteller #5",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Yahrzeit of Rabbi Moshe Sofer of Pshevorsk, the Ohr Pnei Moshe",
+  "title_basis": "filename",
+  "summary_short": "On his yahrzeit, 12 Teves, Uncle Yossi describes the holiness of Rabbi Moshe Sofer of Pshevorsk, whose face shone like an angel's as he learned Torah.",
+  "summary_long": "A short yahrzeit talk from the Tzivos Hashem radio show, given on Yud-Beis Teves. Uncle Yossi explains that Rabbi Moshe Sofer of Pshevorsk passed away on 12 Teves in the year 1806 and is known as the Ohr Pnei Moshe, after his sefer on the Torah, Nevi'im, Kesuvim and Talmud. Rabbi Zusha of Anipoli once watched him learn and said his face looked like an angel of Hashem, and that sparks and flames came out of the letters as he wrote his sefer. Uncle Yossi shares that his own grandmother was a descendant of this tzaddik, and prays that studying his teachings will help us serve Hashem with all our hearts, that his merit will bring blessings, and that we will soon see all the tzaddikim return at the resurrection of the dead.",
+  "lesson": "Learning the teachings of tzaddikim and remembering them on their yahrzeit helps us serve Hashem with all our hearts.",
+  "keywords": [
+   "yahrzeit",
+   "Ohr Pnei Moshe",
+   "Pshevorsk",
+   "sefer",
+   "angel",
+   "sparks and flames",
+   "techiyas hameisim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 411,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-01-09",
+   "hebrew": "12 Teves 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Yud-Beis Teves'; date of episode 411."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_moshe_sofer_of_pshevorsk",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_zusha_of_anipoli",
+    "role": "appears"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chassidic_masters",
+   "torah_study",
+   "hiskashrus"
+  ],
+  "midos": [
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7dd6bcc0fc",
+   "evidence": "text_overlap",
+   "confidence": 0.64,
+   "offset_sec": 51,
+   "note": "Episode 411 (filename number); clip = 51-275 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clip includes a few Hebrew phrases (l'ilui nishmas, hakitzu v'ranenu) that the episode version lacks, so it may be a slightly different edit; hence the lower text match."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:25:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "proposed_new_terms": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Yahrzeit%20of%20Rabbi%20Moshe%20Sofer%20of%20Pshevorsk%2C%20the%20Ohr%20Pnei%20Moshe%20%28Ep%20411%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Yahrzeit of Rabbi Moshe Sofer of Pshevorsk, the Ohr Pnei Moshe (Ep 411).mp3",
+  "size_bytes": 2691642,
+  "mime_type": "audio/mpeg"
+ }
+}

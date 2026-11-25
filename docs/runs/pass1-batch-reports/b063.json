@@ -1,0 +1,24 @@
+{
+ "batch_id": "b063",
+ "done": [
+  "9fedd70daf",
+  "86d25aefb6",
+  "e865266194",
+  "9017964f32",
+  "a42cb33445",
+  "879d51af83",
+  "65cc95fe2e",
+  "1cf1b1479e"
+ ],
+ "failed": [],
+ "notes": [
+  "86d25aefb6 ('The Caliph's Secratary part 1') is the first 84 min of 9fedd70daf (complete, 103 min). Marked superseded_by and recommended for review. No 'part 2' file seen; the story also has an on-air 'next part' break at 20:11.",
+  "65cc95fe2e ('The Doctors Dream') is the same recording, word for word, as ab3187c74c ('The Rebbe Rashab and The Amazing Dream'). The other copy is about 6 s longer and keeps the 'Guten Shabbos' sign-off. Added a same_recording relation (text_overlap), not aired_again_in as the hint suggested.",
+  "ccedcd76fb ('Besht to the Rescue') opens by recalling the 65cc95fe2e story as 'last week'. This may help recover the weekly series order.",
+  "9fedd70daf, 86d25aefb6, 9017964f32 and 1cf1b1479e have no 'I believe in Hashem' song (the narrator reads the title or starts straight in). I gave them the storyteller_i_believe placeholder because the narration style matches; series is null. Please confirm.",
+  "The Caliph story opens with Chacham Nissim fleeing Alexandria. Earlier Chacham Nissim stories may exist elsewhere (chacham_nissim is in the vocabulary).",
+  "a42cb33445: proposed a new people term for the Maggid of Koznitz. The source named on air is 'Sippurim Noraim', which has no works id.",
+  "e865266194: 'about 169 years ago' (the 1856 end of the Cantonist decree) suggests it was recorded around 2025. No date was set.",
+  "1cf1b1479e: about 35 s of narration is repeated near 1:01, likely an editing slip (splice_glitch)."
+ ]
+}

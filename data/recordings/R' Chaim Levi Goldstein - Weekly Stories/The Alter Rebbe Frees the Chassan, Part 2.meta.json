@@ -1,0 +1,316 @@
+{
+ "id": "c61973b69e",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Alter Rebbe frees Chasan 2",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 2.mp3",
+  "duration_sec": 1100.138,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "2",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Alter Rebbe Frees the Chassan, Part 2",
+  "title_basis": "filename",
+  "summary_short": "On Chof-Beis Shevat, a story of Rebbetzin Chaya Mushka's care for a shy young guest; then the Alter Rebbe raises the ransom by thanking a stingy rich man for his rusty coin.",
+  "summary_long": "On the yahrzeit of Rebbetzin Chaya Mushka, Chof-Beis Shevat, the storyteller shares a story he heard from a man who visited her as a shy little boy: she served him a big portion of ice cream herself, so he would not go without. The lesson is to offer guests food and drink without waiting for them to ask. Then the story of the captured chassan continues. With one sharp look the Alter Rebbe silences the angry police chief, who agrees to free the chassan for a thousand rubles by nightfall. The Rav's list of donors comes to less than a hundred, but the Alter Rebbe insists on going first to the stingy rich man. When he hands over his famous rusty coin, the Alter Rebbe thanks him warmly and blesses him. Again and again the rich man calls them back with more, until he breaks down and explains the vow he made years ago, and then gives the whole sum. The chassan is freed, the wedding is joyful, and the next morning brings a surprising gift. The lesson: see the good in every Jew and praise it.",
+  "lesson": "Ahavas Yisroel means seeing what a person does do, not what he doesn't, and thanking him for it; then he will do more and more good. Offer guests what they need before they have to ask.",
+  "keywords": [
+   "ice cream",
+   "shy guest",
+   "police chief",
+   "rusty coin",
+   "rich man",
+   "thousand rubles",
+   "wedding",
+   "leather bag",
+   "river",
+   "gambling"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": null,
+   "hebrew": "22 Shevat (year unknown)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'Tonight is Chof-Beis Shevat, the yahrzeit of Rebbetzin Chaya Mushka.' Year not stated."
+  },
+  "part": {
+   "set_key": "alter-rebbe-frees-chasan",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The cruel police chief falls from his horse and is killed; told briefly."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "The captured chassan is ransomed and freed."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "The Rebbetzin story names the man (now grown) who told it to the narrator.",
+    "at_sec": 64
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rebbetzin_chaya_mushka",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Reb Moshe, the stingy rich man",
+   "the town Rav",
+   "the police chief (nachalnik)",
+   "the chassan",
+   "the poor man who threw back the coin"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "hashgacha_pratis"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "generosity",
+   "chesed"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "hachnasas_orchim",
+   "tzedakah",
+   "pidyon_shvuyim",
+   "hachnasas_kallah"
+  ],
+  "calendar": [
+   "chof_beis_shevat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 293,
+   "type": "story",
+   "title": "Rebbetzin Chaya Mushka and the shy young guest",
+   "summary": "For Chof-Beis Shevat: the Rebbetzin serves a shy boy ice cream herself, teaching us to offer guests what they need without waiting to be asked.",
+   "people": [
+    "rebbetzin_chaya_mushka"
+   ],
+   "calendar": [
+    "chof_beis_shevat"
+   ]
+  },
+  {
+   "start_sec": 315,
+   "end_sec": 1064,
+   "type": "story_chapter",
+   "title": "The rusty coin and the freed chassan",
+   "summary": "After a recap, the Alter Rebbe raises the ransom by thanking a stingy rich man for his rusty coin, and the wedding takes place.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "story_key": "alter-rebbe-frees-chasan",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1064,
+   "type": "talk",
+   "title": "Lesson: see the good in every Jew"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 1 'Alter Rebbe frees Chasan 1' ends 'next week I will continue the story'; this part recaps it."
+  },
+  {
+   "type": "continues",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Opens the story section with 'the last part of the story was about the chief of police who kidnapped the chassan'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5493440d73",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b56d1794b6",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashavas Aveidah: The Rebbe Rashab's Chassid and the Lost Wallet, Part 2' (Stories, 4:10-8:09), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Brief aside at ~293 s about 'your Zaidy and your Elter Zaidy' (unclear; possibly addressed to grandchildren). ASR garbles Rebbetzin Chaya Mushka and nachalnik."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Noyach (Noach?)",
+    "role": "other",
+    "group": "family from Belgium visiting Rebbetzin Chaya Mushka",
+    "start_sec": 64,
+    "end_sec": 293
+   },
+   {
+    "name": "Rabbi Grinsky",
+    "role": "family_member",
+    "group": "named as 'your Elter Zaidy' in a brief aside",
+    "start_sec": 293,
+    "end_sec": 315
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; the item opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Aside at ~293 s mentions 'your Zaidy with your Elter Zaidy, Rabbi Grinsky': possible family clue to the narrator's identity."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Alter%20Rebbe%20Frees%20the%20Chassan%2C%20Part%202.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Alter Rebbe Frees the Chassan, Part 2.mp3",
+  "size_bytes": 13202537,
+  "mime_type": "audio/mpeg"
+ }
+}

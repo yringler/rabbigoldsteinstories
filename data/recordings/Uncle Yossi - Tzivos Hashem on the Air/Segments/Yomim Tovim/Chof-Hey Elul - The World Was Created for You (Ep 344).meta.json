@@ -1,0 +1,178 @@
+{
+ "id": "afddab9ffe",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Chof Hey Elul 344",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Chof-Hey Elul - The World Was Created for You (Ep 344).mp3",
+  "duration_sec": 388.794,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 344,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 344,
+   "story": "The storyteller #5",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Chof-Hey Elul: The World Was Created for You",
+  "title_basis": "content",
+  "summary_short": "Why the world was created on the 25th of Elul, why Rosh Hashanah marks the sixth day, and why every child should know the world was created for him.",
+  "summary_long": "A talk from the Tzivos Hashem radio show broadcast on 24 Elul, just before Rosh Hashanah. Uncle Yossi asks when Hashem created the world: not on Rosh Hashanah, but five days earlier, on the 25th of Elul, which begins that night. Rosh Hashanah is the sixth day of Creation, when Hashem made Adam and Chavah, the most important creatures, last of all so they would find a complete world prepared for them. They were placed in the world 'to work it and guard it', which the Sages explain as the 248 positive and 365 negative mitzvos. That is what Rosh Hashanah is about: we hear the shofar, accept Hashem as our King, resolve to serve Him better, and are blessed with a good and sweet year. As the Rebbe said, now is the time for simcha, which will bring Moshiach.",
+  "lesson": "The whole world was created for you, so that you can serve Hashem with Torah and mitzvos; greet the new year with resolutions and simcha.",
+  "keywords": [
+   "creation of the world",
+   "Adam and Chavah",
+   "sixth day",
+   "613 mitzvos",
+   "resolutions",
+   "new year"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 344,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-09-06",
+   "hebrew": "24 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Chof-Daled Elul' and '5,748 years ago'; same as episode 344's filename date."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "hashem_in_nature",
+   "teshuvah"
+  ],
+  "midos": [
+   "simcha",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah",
+   "chof_hei_elul"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 2:15 ('l'ovdah ul'shomrah')",
+    "note": "Explained as the 248 positive and 365 negative mitzvos."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "'Now is the time to be b'simcha', which will bring Moshiach."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "9888017ef7",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 43,
+   "note": "Episode 344 (filename number); clip = 43-432 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "5b6b690fa8",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Mentions '5,748 years ago' and 'tonight is the 25th of Elul'. Near-identical copy: 5b6b690fa8 ('Rosh Hashana 344'); this one is a few seconds longer."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:12:52Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Chof-Hey%20Elul%20-%20The%20World%20Was%20Created%20for%20You%20%28Ep%20344%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Chof-Hey Elul - The World Was Created for You (Ep 344).mp3",
+  "size_bytes": 4666489,
+  "mime_type": "audio/mpeg"
+ }
+}

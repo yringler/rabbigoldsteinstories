@@ -1,0 +1,210 @@
+{
+ "id": "f1de486e32",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefiras Haomer 526",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefiras HaOmer - A Time to Be Sad and the Lesson of Rabbi Akiva's Students (Ep 526) (other version).mp3",
+  "duration_sec": 308.747,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 526,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 526,
+   "story": "",
+   "topic": "עקיבא נט\"י",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Sefiras HaOmer: A Time to Be Sad and the Lesson of Rabbi Akiva's Students",
+  "title_basis": "content",
+  "summary_short": "Why the days of Sefirah are a time of mourning, and how the mistake of Rabbi Akiva's students teaches us to respect one another and build Ahavas Yisroel.",
+  "summary_long": "A short Sefirah talk from the Tzivos Hashem radio show. Uncle Yossi explains that serving Hashem with joy is a great mitzvah, yet, as Shlomo HaMelech said, there is a time for everything, including a time to be sad. During the days of Sefirah, between Pesach and Shavuos, we hold back from celebrations, do not buy new clothes or eat a new fruit that needs a Shehecheyanu, and do not take haircuts. This recalls Rabbi Akiva's thousands of students, who did not show each other respect and died in a plague that ended on Lag BaOmer. We should ask ourselves whether we make the same mistake, and show honor to everyone. Respect brings Ahavas Yisroel, which brings true unity, the secret weapon of the Jewish people, and in its merit Moshiach will come.",
+  "lesson": "Show respect and honor to every Jew; Ahavas Yisroel and unity bring Moshiach.",
+  "keywords": [
+   "Rabbi Akiva's students",
+   "plague",
+   "Lag BaOmer",
+   "haircut",
+   "new clothes",
+   "Shehecheyanu",
+   "respect",
+   "unity"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 526,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-04-28",
+   "hebrew": "25 Nissan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 526 (Sefirah 5752, the week after Pesach). The same recording first aired in episode 122 (5744) and again in episode 224 (5746)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Thousands of Rabbi Akiva's students died in a plague.",
+    "at_sec": 146
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Akiva's students"
+  ],
+  "topics": [
+   "calendar",
+   "kindness_and_community",
+   "sages"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel",
+   "achdus"
+  ],
+  "mitzvos": [
+   "sefiras_haomer",
+   "ahavas_yisroel_mitzvah"
+  ],
+  "calendar": [
+   "sefiras_haomer",
+   "lag_baomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'Eis lakol': there is a time for everything, as Shlomo HaMelech said."
+   },
+   {
+    "work": "gemara",
+    "ref": "Yevamos 62b",
+    "note": "'Our Chachamim tell us' about the plague among Rabbi Akiva's students during Sefirah."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 0f22df3f8d ('Sefira 224'), the preferred copy: the same Sefirah talk; 'Sefira 224' is a longer cut that contains all of this audio."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:05Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "5f2fe46249",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 122."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6475c5455b",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 224."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "0615c36a34",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 85,
+   "note": "Episode 526 (filename number); clip = 85-394 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "0f22df3f8d",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "This audio is contained in 'Sefira 224', a longer cut of the same Sefirah talk; text checked."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "0f22df3f8d",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.85,
+   "note": "Preferred version: the same Sefirah talk; 'Sefira 224' is a longer cut that contains all of this audio."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Sefiras%20HaOmer%20-%20A%20Time%20to%20Be%20Sad%20and%20the%20Lesson%20of%20Rabbi%20Akiva%27s%20Students%20%28Ep%20526%29%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Sefiras HaOmer - A Time to Be Sad and the Lesson of Rabbi Akiva's Students (Ep 526) (other version).mp3",
+  "size_bytes": 3706024,
+  "mime_type": "audio/mpeg"
+ }
+}

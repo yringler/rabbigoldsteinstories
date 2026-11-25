@@ -1,0 +1,14 @@
+{
+ "batch_id": "b048",
+ "done": ["97b236dd1f", "456522bfcc", "77984b08cb", "6600523917", "797367c271", "45d0fea825", "fd6f47640f", "e796be2c9d", "6e0946d4ee", "803a210c72"],
+ "failed": [],
+ "notes": [
+  "IDENTITY: all 10 items appear to be one narrator, the weekly 'I believe in Hashem' storyteller (797367c271, 45d0fea825 and 6e0946d4ee open with the song; 803a210c72 signs off 'A guten Tag'). In 6600523917 he names himself: first name Levi, with Chaim added when he was critically ill with COVID (spring 2020). Clues across items: a teacher whose father was a teacher and principal; his maternal grandparents were the Winter family (Pennsylvania/Pittsburgh), who got a letter from the Frierdiker Rebbe (97b236dd1f, 45d0fea825); he grew up on Montgomery St near Kingston Ave, and his grandmother Mrs. Winter was close to Rebbetzin Chana (77984b08cb). identity_guesses say 'Chaim Levi (given names; surname not said)'.",
+  "97b236dd1f and 456522bfcc are parts 1 and 2 of one story (the stolen logs), with part and part_of_set/continues set. 77984b08cb ('03.') is the next class in the same 5780-5781 sequence but a different story, so it is not in the set.",
+  "Dates inferred: 97b236dd1f and 456522bfcc Elul 5780; 77984b08cb Erev Vov Tishrei 5781 (2020-09-23); 803a210c72 week of 20 Cheshvan 5781 (the Rebbe Rashab's 160th); 45d0fea825 Yud Shevat 5785 (from the Basi LeGani chapter 15 cycle; could also be 5765); 6600523917 19 Kislev 5786; fd6f47640f is 19 Av 5785 in the audio, while the filename says 20 Menachem Av 5785.",
+  "6600523917 is a guest talk at an event, not the class format, so series is null. The whole talk is about the speaker's COVID coma, recorded in hidden with the health_info flag. An ASR loop at 28:41-29:13 hides part of the ending.",
+  "e796be2c9d is a read-aloud biography of the Alter Rebbe, a different format. The speaker is attributed only by accent.",
+  "Possible same_story links outside the batch: the Alter Rebbe and the miser's nickel (6600523917); the Berditchever and the soul in the mashke (77984b08cb); the Berditchever's three din Torahs about the 'miser' Shimon (803a210c72); the agunah sent to Reb Meir Refoels (6e0946d4ee), which ends by mentioning a second story that made Reb Meir a Chassid.",
+  "Proposed terms: people rabbeinu_bachya_ibn_paquda and napoleon; calendar chof_zayin_adar."
+ ]
+}

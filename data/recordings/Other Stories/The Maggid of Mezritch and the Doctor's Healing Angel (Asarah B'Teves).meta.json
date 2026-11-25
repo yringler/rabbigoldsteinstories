@@ -1,0 +1,223 @@
+{
+ "id": "1e53bafbf7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Mezritch rofay",
+  "audio_path": "audio/Other Stories/The Maggid of Mezritch and the Doctor's Healing Angel (Asarah B'Teves).mp3",
+  "duration_sec": 1384.525,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Maggid of Mezritch and the Doctor's Healing Angel (Asarah B'Teves)",
+  "title_basis": "content",
+  "summary_short": "A lesson from Asarah B'Teves about the first step, then the story of a wealthy Vilna man healed when a great doctor came to his bedside, just as the Maggid of Mezritch foretold.",
+  "summary_long": "In the week of Asarah B'Teves, the storyteller explains the four fasts connected with the Churban and why Asarah B'Teves, when Nevuchadnetzar's army first surrounded Yerushalayim, is the most serious of all: every beginning is the hardest. The Rebbe's lesson is that the yetzer hara only asks for 'one step', like a troublemaker asking to put just a foot in the door, while in good things the start is hard and then it gets easier. Then the story: Reb Yaakov, a wealthy and generous scholar of Vilna who was not a Chassid, visits the Maggid of Mezritch on a business trip. The Maggid answers all his questions and then tells him something puzzling: every doctor is accompanied by an angel of healing, and the greatest doctor by the angel Refael himself, so that sometimes his presence alone heals. Back home Reb Yaakov falls gravely ill. The king's Jewish doctor, who does not keep mitzvos, comes, declares him beyond help and turns to leave, but the patient begins to recover by his bedside without any medicine. Both men later travel to the Maggid: one to become a Chassid, the other to do teshuvah.",
+  "lesson": "Every beginning is the hardest: do not let the yetzer hara take the first step, and push through the start of something good. Healing comes from Hashem, through the doctor and his angel.",
+  "keywords": [
+   "fast day",
+   "foot in the door",
+   "doctor",
+   "angel of healing",
+   "Malach Refael",
+   "king's physician",
+   "Vilna",
+   "medicine"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Asarah B'Teves (the fast fell on a Tuesday)",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "stated_in_audio",
+   "note": "'This week, on Tuesday, was Asarah B'Teves'; year not stated."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A man falls gravely ill and is said to be nearly dead before he recovers."
+   },
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "Brief explanation of the siege of Yerushalayim and the destruction of the Beis HaMikdash."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "maggid_of_mezritch",
+    "role": "central"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Yaakov of Vilna",
+   "the king's Jewish doctor",
+   "the king",
+   "the angel Refael"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "calendar",
+   "miracles",
+   "teshuvah"
+  ],
+  "midos": [
+   "self_control",
+   "hasmadah",
+   "generosity"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "tzedakah",
+   "tehillim",
+   "teshuvah"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's lesson from Asarah B'Teves: the yetzer hara asks for just one step."
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "Vilna",
+   "Mezritch"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 359,
+   "type": "talk",
+   "title": "The four fasts and why Asarah B'Teves is the most serious",
+   "calendar": [
+    "asarah_bteves"
+   ]
+  },
+  {
+   "start_sec": 359,
+   "end_sec": 581,
+   "type": "sichah",
+   "title": "The Rebbe's lesson: beware the first step",
+   "summary": "The yetzer hara asks for only one step, while a good habit is hardest only at the start."
+  },
+  {
+   "start_sec": 581,
+   "end_sec": 620,
+   "type": "qa",
+   "title": "A child's comment"
+  },
+  {
+   "start_sec": 620,
+   "type": "story",
+   "title": "The Maggid of Mezritch and the doctor's angel",
+   "summary": "A wealthy Vilna man recovers at the bedside of the king's doctor, as the Maggid foretold, and both come to the Maggid.",
+   "people": [
+    "maggid_of_mezritch"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "879d51af83",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Doctor and His Patient (Rosh Chodesh Iyar)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Told to a class; a few children's interjections. ASR renders the hero's name variously as Akiva, Yaakov and Ankel; Reb Yaakov is the most likely."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:19:00Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Hero's name uncertain in the ASR (Akiva / Yaakov / Ankel).",
+   "Narrator unidentified; classroom style like 6bdf3b9e45.",
+   "Pass 2: speaker set to R' Chaim Levi Goldstein (medium); basis: his weekly format: opens 'This week, on Tuesday, was Asarah B'Teves... before I get to the story'; same live-class teacher as 6bdf3b9..."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Maggid%20of%20Mezritch%20and%20the%20Doctor%27s%20Healing%20Angel%20%28Asarah%20B%27Teves%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Maggid of Mezritch and the Doctor's Healing Angel (Asarah B'Teves).mp3",
+  "size_bytes": 16615266,
+  "mime_type": "audio/mpeg"
+ }
+}

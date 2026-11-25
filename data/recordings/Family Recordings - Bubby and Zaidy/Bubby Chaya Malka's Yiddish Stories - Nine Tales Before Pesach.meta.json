@@ -1,0 +1,468 @@
+{
+ "id": "6b6fec027a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "אידיש",
+  "filename_title": "Bubby Chaya Malka yiddish stories",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Bubby Chaya Malka's Yiddish Stories - Nine Tales Before Pesach.mp3",
+  "duration_sec": 5675.233,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "language from folder אידיש"
+  ]
+ },
+ "display": {
+  "transcript_display": "search_only",
+  "title": "Bubby Chaya Malka's Yiddish Stories: Nine Tales Before Pesach",
+  "title_basis": "filename",
+  "summary_short": "A grandmother's full home recording of nine Yiddish stories for her grandchildren before Pesach, from the Baal Shem Tov and the bear to Eliyahu HaNavi's cup.",
+  "summary_long": "The complete home recording in which Bubby Chaya Malka tells her grandchildren stories in Yiddish in the weeks before Pesach. The young Baal Shem Tov, who fears only Hashem, chases off a man dressed as a bear so the cheder children can sing on their way to shul. Rashi's poor father throws a diamond into the sea rather than let it adorn an idol and is promised a son who will light up the world with Torah. After a warm word about being good children, she tells of a diamond found in a fish bought for Shabbos; of an old man whose Seder guests sing 'Dayeinu' and so reveal who stole the king's ring; and of a cheder boy whose game of 'trial' saves a falsely accused Jew. Rabbi Meir Baal HaNess keeps Shabbos alone in the desert, guarded by a lion. Chana prays for a child, and Shmuel HaNavi hears Hashem's call. Eliyahu HaNavi gives a field worker seven good years, and finally visits the Seder of a poor family whose mother would not sell his cup.",
+  "lesson": "Trust Hashem and fear nothing else; honor Shabbos and Yom Tov, help the poor, and be good children who make their parents happy.",
+  "keywords": [
+   "grandmother",
+   "bear",
+   "diamond",
+   "big fish",
+   "king's ring",
+   "Dayeinu",
+   "boy judge",
+   "lion",
+   "desert",
+   "Eliyahu's cup",
+   "Pesach Seder"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yiddish"
+  ],
+  "content_type": "family_recording",
+  "story_type": [
+   "chassidic",
+   "rishonim_acharonim",
+   "talmudic",
+   "tanach_midrash",
+   "moral_fiction",
+   "historical"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "bubby_chaya_malka"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A Jew is falsely accused and jailed, and a mob comes to the trial with axes and torches ready to attack the Jews; a wicked minister urges harsh decrees.",
+    "at_sec": 2296
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A man dressed as a bear frightens children and is beaten off; Rabbi Meir is left alone in a desert where a lion approaches him.",
+    "at_sec": 28
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "Poor families with nothing for Yom Tov; a father storms out in despair before Eliyahu HaNavi helps.",
+    "at_sec": 4700
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "A grandmother's home recording for her grandchildren."
+   },
+   {
+    "flag": "minor_named",
+    "note": "The grandmother names her grandchildren (first names only)."
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_yitzchak_father_of_rashi",
+    "role": "central"
+   },
+   {
+    "id": "rashi",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_meir_baal_haness",
+    "role": "central"
+   },
+   {
+    "id": "daniel",
+    "role": "mentioned"
+   },
+   {
+    "id": "chana_mother_of_shmuel",
+    "role": "central"
+   },
+   {
+    "id": "shmuel_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "hillel",
+    "role": "mentioned"
+   },
+   {
+    "id": "eli_hakohen",
+    "role": "appears"
+   },
+   {
+    "id": "yosef_mokir_shabbos",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "a cruel man disguised as a bear",
+   "the poritz who wants a diamond for an idol",
+   "Yosef who honored Shabbos",
+   "the old man who helped the poor",
+   "the king and queen",
+   "Yena, the wicked minister",
+   "the Jewish storekeeper and the butcher",
+   "the judge and a cheder boy named Gurary",
+   "the caravan captain",
+   "the lion",
+   "Eli HaKohen",
+   "an honest field worker and his wise wife"
+  ],
+  "topics": [
+   "tzaddikim_stories",
+   "torah_heroes",
+   "emunah_bitachon",
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "courage",
+   "generosity",
+   "emes",
+   "kibbud"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "tzedakah",
+   "seder",
+   "kibbud_av_vaem",
+   "hachnasas_orchim",
+   "chinuch",
+   "tehillim"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "places": [
+   "Eretz Yisroel",
+   "Mitzrayim (Egypt)"
+  ],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 19,
+   "end_sec": 500,
+   "type": "story",
+   "title": "The Baal Shem Tov and the bear",
+   "summary": "The young Baal Shem Tov, who fears only Hashem, drives off a cruel man dressed as a bear so the cheder children can keep singing on the way to shul.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "linked_items": [
+    "a70d104e90",
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 500,
+   "end_sec": 914,
+   "type": "story",
+   "title": "Rashi's father and the diamond",
+   "summary": "Rashi's poor father throws a precious diamond into the sea rather than sell it to decorate an idol, and is promised a son who will light up the world with Torah.",
+   "people": [
+    "rabbi_yitzchak_father_of_rashi",
+    "rashi"
+   ],
+   "linked_items": [
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 914,
+   "end_sec": 988,
+   "type": "talk",
+   "title": "Be good children",
+   "summary": "The grandmother tells the children that obeying parents and helping at home makes the family happy, praising each grandchild.",
+   "linked_items": [
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 988,
+   "end_sec": 1262,
+   "type": "story",
+   "title": "The diamond in the fish",
+   "summary": "A rich man hides his fortune in a diamond in his hat; a fish swallows it, and Yosef, who always buys the best fish for Shabbos, finds it.",
+   "linked_items": [
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 1262,
+   "end_sec": 2294,
+   "type": "story",
+   "title": "Dayeinu: the old man and the king's ring",
+   "summary": "An old man who provides Pesach for the poor promises to find the king's lost ring; at his Seder the king hears 'Dayeinu' and finds the thief.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "6164b3359f",
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 2294,
+   "end_sec": 3004,
+   "type": "story",
+   "title": "The butcher, the storekeeper and the boy judge",
+   "summary": "A Jewish storekeeper is falsely accused of theft, and a cheder boy's test with hot water proves the truth.",
+   "linked_items": [
+    "aae4e91c38",
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 3004,
+   "end_sec": 3958,
+   "type": "story",
+   "title": "Rabbi Meir Baal HaNess and the lion",
+   "summary": "Left alone in the desert because he will not travel on Shabbos, Rabbi Meir is guarded by a lion that carries him back to the caravan.",
+   "people": [
+    "rabbi_meir_baal_haness"
+   ],
+   "linked_items": [
+    "db6ee5b364",
+    "a06fb5b0d9"
+   ]
+  },
+  {
+   "start_sec": 3958,
+   "end_sec": 4385,
+   "type": "story",
+   "title": "Chana and Shmuel HaNavi",
+   "summary": "Chana prays for a child, brings Shmuel to Eli HaKohen, and Shmuel hears Hashem's call at night and becomes a navi.",
+   "people": [
+    "chana_mother_of_shmuel",
+    "shmuel_hanavi"
+   ],
+   "linked_items": [
+    "65cc733f61",
+    "a06fb5b0d9",
+    "048cba0e8e"
+   ]
+  },
+  {
+   "start_sec": 4385,
+   "end_sec": 4700,
+   "type": "story",
+   "title": "Eliyahu HaNavi and the seven good years",
+   "summary": "A field worker's wife chooses seven good years now and writes down every mitzvah done with Eliyahu's blessed coin, so they may keep it.",
+   "people": [
+    "eliyahu_hanavi"
+   ],
+   "linked_items": [
+    "a690295602",
+    "048cba0e8e"
+   ]
+  },
+  {
+   "start_sec": 4700,
+   "end_sec": 5667,
+   "type": "story",
+   "title": "Eliyahu HaNavi's cup",
+   "summary": "A poor mother will not sell her family's heirloom cup; an old man's two dollars keep returning until the house is ready, and Eliyahu blesses the home at the Seder.",
+   "people": [
+    "eliyahu_hanavi"
+   ],
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "f9f2974567",
+    "048cba0e8e"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "048cba0e8e",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'Bubby Chaya Malka 2' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "6164b3359f",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'dayeinu' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "65cc733f61",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'shmuel hanovie' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "a06fb5b0d9",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.97,
+   "note": "Contains 'Bubby Chaya Malka 1' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "a690295602",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.9,
+   "note": "Contains 'Eliyohu Hanovie and the Coin' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "aae4e91c38",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.91,
+   "note": "Contains 'Butcher and the Tailor' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "db6ee5b364",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'Reb Meir Baal HaNess' (audio fingerprint)."
+  },
+  {
+   "type": "contains",
+   "target_id": "f9f2974567",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Contains 'Eliyohu Hanovie's Cup' (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "transcript_language": "yi",
+  "primary": "yi",
+  "spoken": [
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "The complete recording: 'Bubby Chaya Malka 1' and '2' are its two halves, split mid-story. About 19 seconds of quiet lead-in. American Yiddish with English loanwords."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Rochele",
+    "role": "family_member",
+    "start_sec": 940,
+    "note": "Grandchild; praised for tidying the house; addressed again at about 2275 and 4705."
+   },
+   {
+    "name": "Chezkele (Chezki)",
+    "role": "family_member",
+    "start_sec": 944,
+    "note": "Grandchild; repeats what he learned in cheder; addressed again at about 2270."
+   },
+   {
+    "name": "Dvoirele (also Dvorah)",
+    "role": "family_member",
+    "start_sec": 948,
+    "note": "Granddaughter; addressed again at about 3000 and 4380 (ASR garbles the name)."
+   },
+   {
+    "name": "Kalmele (Kalmi)",
+    "role": "family_member",
+    "start_sec": 954,
+    "note": "Young grandchild who picks things up from the floor."
+   },
+   {
+    "name": "Shimi",
+    "role": "family_member",
+    "start_sec": 960,
+    "note": "Grandchild; a good brother to the baby."
+   },
+   {
+    "name": "Toibele (Toibi)",
+    "role": "family_member",
+    "start_sec": 968,
+    "note": "Baby grandchild lying in her crib."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Grandchildren's names are in hidden; family recording to double-check.",
+   "The halves a06fb5b0d9 and 048cba0e8e duplicate this file."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:35Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Bubby%20Chaya%20Malka%27s%20Yiddish%20Stories%20-%20Nine%20Tales%20Before%20Pesach.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Bubby Chaya Malka's Yiddish Stories - Nine Tales Before Pesach.mp3",
+  "size_bytes": 68103594,
+  "mime_type": "audio/mpeg"
+ }
+}

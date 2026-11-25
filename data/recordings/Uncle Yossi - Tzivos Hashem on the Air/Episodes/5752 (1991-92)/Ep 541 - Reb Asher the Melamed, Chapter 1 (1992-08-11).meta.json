@@ -1,0 +1,295 @@
+{
+ "id": "d5a312e778",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "541",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 541 - Reb Asher the Melamed, Chapter 1 (1992-08-11).mp3",
+  "duration_sec": 1782.157,
+  "filename_facts": {
+   "episode_number": 541,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 541,
+   "story": "Reb Asher the Melamed #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 541: Reb Asher the Melamed, Chapter 1",
+  "title_basis": "master_catalog",
+  "summary_short": "A decree forbids teaching Torah to children, and the Baal Shem Tov chooses the absent-minded but devoted teacher Reb Asher to plead with the minister. Plus a boy's letter about helping the Rebbe.",
+  "summary_long": "Broadcast in Av 5752. The show opens with a promotion for Tzivos Hashem's Summer Spectacular at the Monticello Raceway, then the Hakochainik march. A first-grade class from a Boro Park girls' school leads the Shema, and everyone gives tzedakah. Story time begins 'Reb Asher the Melamed'. In the Baal Shem Tov's town lives Reb Asher, a teacher whose love for his pupils makes every lesson exciting, though he is so absorbed in teaching that his coat is buttoned wrong and his socks don't match. Then a government messenger announces that teaching Torah to Jewish children is forbidden. The town says Tehillim, and the rabbi asks the Baal Shem Tov for advice. To everyone's surprise the Baal Shem Tov chooses Reb Asher to go to the minister, and Reb Asher accepts joyfully. But the minister stares at him silently and has him handcuffed and led away. After Tehillim for the Rebbe's recovery, Uncle Yossi reads a boy's letter: inspired by last week's letter, he has started giving tzedakah, saying the Twelve Pesukim and signing up friends for Tzivos Hashem, all in the merit of the Rebbe's recovery. The show ends with candle-lighting time.",
+  "lesson": "Trust the guidance of a tzaddik and trust Hashem, who guards Klal Yisrael; what counts is devotion, not appearances.",
+  "keywords": [
+   "decree",
+   "melamed",
+   "cheder",
+   "absent-minded teacher",
+   "minister",
+   "handcuffs",
+   "Monticello Raceway",
+   "letter"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 541,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1992-08-11",
+   "hebrew": "12 Av 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Promotes an event on 'Sunday evening, August 23rd' (a Sunday in 1992); Friday candle-lighting 7:37 matches 14 August 1992; the letter refers to episode 540's letter 'last week'."
+  },
+  "serial": {
+   "story_key": "reb-asher-the-melamed",
+   "story_title": "Reb Asher the Melamed",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A government decree forbids teaching Torah to children; Reb Asher is arrested.",
+    "at_sec": 793
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A letter writer is named in full.",
+    "at_sec": 1380
+   },
+   {
+    "flag": "identifiable_living_people",
+    "note": "The visiting class's teacher is named.",
+    "at_sec": 300
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Asher the Melamed",
+   "the town rabbi",
+   "the minister",
+   "the guard"
+  ],
+  "topics": [
+   "baal_shem_tov_and_students",
+   "torah_study",
+   "hiskashrus",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "courage",
+   "bitachon",
+   "kabbalas_ol",
+   "anavah"
+  ],
+  "mitzvos": [
+   "chinuch",
+   "torah_study",
+   "tehillim",
+   "twelve_pesukim",
+   "shema",
+   "tzedakah",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'Hinei lo yanum v'lo yishan Shomer Yisrael', as David HaMelech says."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 55,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 55,
+   "end_sec": 143,
+   "type": "announcement",
+   "title": "Tzivos Hashem's Summer Spectacular"
+  },
+  {
+   "start_sec": 143,
+   "end_sec": 286,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 286,
+   "end_sec": 424,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 424,
+   "end_sec": 490,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 490,
+   "end_sec": 1229,
+   "type": "story_chapter",
+   "title": "Reb Asher the Melamed, Chapter 1",
+   "summary": "A decree bans Torah for children; the Baal Shem Tov sends Reb Asher to the minister, who has him arrested.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "reb-asher-the-melamed",
+   "chapter": 1
+  },
+  {
+   "start_sec": 1229,
+   "end_sec": 1360,
+   "type": "announcement",
+   "title": "Tehillim for the Rebbe's recovery"
+  },
+  {
+   "start_sec": 1360,
+   "end_sec": 1700,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: a soldier's plan to help the Rebbe"
+  },
+  {
+   "start_sec": 1700,
+   "end_sec": 1731,
+   "type": "announcement",
+   "title": "Candle-lighting time"
+  },
+  {
+   "start_sec": 1731,
+   "end_sec": 1733,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "d55facca63",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Catalog: 541 = 'Reb Asher the Melamed #1', 542 = '#2'."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Event promotion (Monticello Raceway, 23 August) and candle time are period pieces; the phone numbers given are Tzivos Hashem's."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Luba Friedman",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 286,
+    "end_sec": 424
+   },
+   {
+    "name": "Mordechai Steinberg",
+    "role": "mailbox_letter",
+    "group": "Newark, New Jersey",
+    "start_sec": 1360,
+    "end_sec": 1700,
+    "note": "Wrote about giving tzedakah and saying the Twelve Pesukim for the Rebbe's recovery."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:47Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20541%20-%20Reb%20Asher%20the%20Melamed%2C%20Chapter%201%20%281992-08-11%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 541 - Reb Asher the Melamed, Chapter 1 (1992-08-11).mp3",
+  "size_bytes": 21386979,
+  "mime_type": "audio/mpeg"
+ }
+}

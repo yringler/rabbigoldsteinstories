@@ -1,0 +1,189 @@
+{
+ "id": "934315e5eb",
+ "schema_version": "0.3",
+ "display": {
+  "title": "Beis Adar: The Broken Esrog, a Story of Uncle Yossi's Mother",
+  "title_basis": "content",
+  "summary_short": "On his mother's yahrzeit, Uncle Yossi tells how, as a girl of seven, she carried her father's esrog from house to house so everyone could do the mitzvah, and what happened when it broke.",
+  "summary_long": "On Beis Adar, the yahrzeit of his mother, Uncle Yossi tells a story from her childhood. Her father, a man of modest means, always paid top price for the most beautiful esrog and lulav in town. On Hoshana Rabbah, the last day to shake them, the seven-year-old girl asked to take them from house to house so that neighbors without a set could make the brachah. Her father agreed, but warned her that if the pitum, the tip of the esrog, broke, it could no longer be used. After the last house, skipping happily, she tripped, and the pitum broke off. She sat crying until a kind tailor took the esrog into his shop and came back with it 'fixed with a long needle'. When she bravely told her father the whole story, he laughed with joy and did not scold her: she had meant well and shared a mitzvah with others. Uncle Yossi closes with a prayer for the elevation of his mother's soul.",
+  "lesson": "Love mitzvos and share them with others; a child who means well and tells the truth deserves understanding, not scolding.",
+  "keywords": [
+   "esrog",
+   "lulav",
+   "pitum",
+   "Hoshana Rabbah",
+   "tailor",
+   "needle",
+   "yahrzeit",
+   "sukkah"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "family_memoir"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 363,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-02-07",
+   "hebrew": "2 Adar 1 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Beis Adar'; clip of episode 363, dated 02-07-89 (2 Adar I 5749)."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Chaya Malka, Uncle Yossi's mother, as a girl",
+   "Rabbi Yaakov Yitzchak, her father",
+   "Reb Chaim the tailor"
+  ],
+  "topics": [
+   "family_heritage",
+   "mitzvos_in_daily_life",
+   "family_and_home"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "emes",
+   "courage",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "arba_minim",
+   "ahavas_yisroel_mitzvah",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "adar",
+   "hoshana_rabbah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29,
+   "type": "talk",
+   "title": "Beis Adar, a yahrzeit"
+  },
+  {
+   "start_sec": 29,
+   "end_sec": 422,
+   "type": "story",
+   "title": "The Broken Esrog"
+  },
+  {
+   "start_sec": 422,
+   "type": "talk",
+   "title": "A prayer for her soul"
+  }
+ ],
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "7def6f6a43",
+   "evidence": "text_overlap",
+   "confidence": 0.82,
+   "offset_sec": 50,
+   "note": "Episode 363 (filename number); clip = 50-546 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "25fd6b1098",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Episode 212: Chaya Malka's Esrog and The Ten Wedding Gifts, Chapter 3' (episode 212, 0:40-10:07), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Host's family memoir, told on his mother's yahrzeit (Beis Adar) though the story is set on Hoshana Rabbah."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:11Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "The host's late mother (Chaya Malka) and grandfather are treated as story characters of a family memoir; she may be the vocabulary speaker 'Bubby Chaya Malka'."
+  ]
+ },
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Beis Adar 363",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Beis Adar - The Broken Esrog, a Story of Uncle Yossi's Mother (Ep 363).mp3",
+  "duration_sec": 495.444,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 363,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 363,
+   "story": "The return of Yehudah #8",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Beis%20Adar%20-%20The%20Broken%20Esrog%2C%20a%20Story%20of%20Uncle%20Yossi%27s%20Mother%20%28Ep%20363%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Beis Adar - The Broken Esrog, a Story of Uncle Yossi's Mother (Ep 363).mp3",
+  "size_bytes": 5946380,
+  "mime_type": "audio/mpeg"
+ }
+}

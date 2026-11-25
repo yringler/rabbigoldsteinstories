@@ -1,0 +1,445 @@
+{
+ "id": "badd162691",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Zaidy Moshe Yehuda life story",
+  "audio_path": "audio/Family Recordings - Bubby and Zaidy/Zaidy Moshe Yehuda's Life Story.mp3",
+  "duration_sec": 3017.796,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Zaidy Moshe Yehuda's Life Story",
+  "title_basis": "filename",
+  "summary_short": "A grandfather tells his children the story of his life: a frum boyhood in Providence, a printing business, marriage, raising a Torah family in Borough Park, and moving to Eretz Yisroel.",
+  "summary_long": "A grandfather records his life story for his children. Born in 1896 to parents from Romania, he grows up in Providence, Rhode Island, where there is no yeshiva. Still, he keeps Shabbos and kashrus when it is hard, builds his family's sukkah, and helps his hard-working father. He leaves a Zionist club over its lack of Torah, and explains with simple examples why there must be a World to Come. He builds a printing business, loses his young first wife in the great flu epidemic, and after several disappointing shidduchim finds a religious bride in nearby Pawtucket. They raise a large family and host visiting Rebbes for Shabbos. Determined to give his sons a real yeshiva education, he sells his business and moves to Borough Park, where his family keeps going through hard years. He hands the business to a son and moves to Eretz Yisroel in 1962, opening a free-loan fund. He ends with his memories of the Six-Day War, the shelters, the joy of the victory and a visit to the Kosel, and he blesses his family. He sings a lullaby, a wedding song and Shabbos songs along the way.",
+  "lesson": "Stay true to the Torah even when others laugh, give your children a real Torah education whatever it costs, and remember that we live in this world to gather mitzvos for the World to Come.",
+  "keywords": [
+   "memoir",
+   "Providence",
+   "printing press",
+   "shidduch",
+   "yeshiva education",
+   "Borough Park",
+   "flu epidemic",
+   "free-loan fund",
+   "Six-Day War",
+   "Kosel",
+   "lullaby",
+   "World to Come"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "family_recording",
+  "story_type": [
+   "family_memoir"
+  ],
+  "series": "bubby_zaidy_stories",
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ],
+  "date": {
+   "gregorian": "1967",
+   "hebrew": null,
+   "hebrew_year": null,
+   "precision": "year",
+   "basis": "stated_in_audio",
+   "note": "Recorded after the Six-Day War (June 1967), about five years after the move to Israel in March 1962."
+  }
+ },
+ "audience": {
+  "level": "family",
+  "age_min": 10,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The narrator sees a friend's body and later loses his young first wife in the flu epidemic.",
+    "at_sec": 330
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "moderate",
+    "note": "Memories of the Six-Day War: threats against Israel, air-raid shelters and soldiers called up on Shabbos.",
+    "at_sec": 2661
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "Talk of reward and punishment after death and regret on one's deathbed.",
+    "at_sec": 345
+   },
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "Poverty in childhood and hard years when the family had to accept relief.",
+    "at_sec": 2100
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "private_family",
+    "note": "A grandfather's recorded memoir for his children; names his wives, children and in-laws."
+   },
+   {
+    "flag": "health_info",
+    "note": "Death of a named family member in the flu epidemic.",
+    "at_sec": 897
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "rachel_imeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "klausenburger_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the narrator (Zaidy)",
+   "his parents",
+   "his first wife",
+   "his second wife",
+   "the shammes who suggested the shidduch",
+   "his six sons and daughter",
+   "visiting Rebbes",
+   "the Klausenburger Rebbe",
+   "Cantor Yossele Rosenblatt"
+  ],
+  "topics": [
+   "family_heritage",
+   "family_and_home",
+   "emunah_bitachon",
+   "beis_hamikdash_eretz_yisroel",
+   "jewish_history"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "hakaras_hatov",
+   "kibbud",
+   "courage",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "kashrus",
+   "chinuch",
+   "kibbud_av_vaem",
+   "hachnasas_orchim",
+   "davening",
+   "gemilus_chasadim",
+   "loving_eretz_yisroel"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Providence, Rhode Island",
+   "Pawtucket, Rhode Island",
+   "Lower East Side, New York",
+   "Borough Park, Brooklyn",
+   "Kiryat Sanz, Netanya",
+   "Jerusalem",
+   "the Kosel",
+   "Kever Rochel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 29.6,
+   "type": "story",
+   "title": "Introduction and Birth",
+   "summary": "The grandfather addresses his children and tells of his parents from Romania and his birth in 1896."
+  },
+  {
+   "start_sec": 29.6,
+   "end_sec": 100,
+   "type": "song",
+   "title": "His Mother's Lullaby",
+   "summary": "He sings the lullaby his mother used to sing to him."
+  },
+  {
+   "start_sec": 100,
+   "end_sec": 300,
+   "type": "story",
+   "title": "Growing Up in Providence",
+   "summary": "His father's hard work and davening, selling newspapers, building the family sukkah and marching with the Talmud Torah choir."
+  },
+  {
+   "start_sec": 300,
+   "end_sec": 345,
+   "type": "story",
+   "title": "Leaving the Zionist Club",
+   "summary": "He wears his yarmulke proudly and quits a club that does not teach its children Torah."
+  },
+  {
+   "start_sec": 345,
+   "end_sec": 587,
+   "type": "talk",
+   "title": "Why There Is a World to Come",
+   "summary": "Using examples of a train trip, a glass engraving and a school diploma, he explains that we live to earn mitzvos for the next world."
+  },
+  {
+   "start_sec": 587,
+   "end_sec": 816,
+   "type": "story",
+   "title": "A Shabbos-Keeping Boy",
+   "summary": "He keeps Shabbos and kashrus at home, is turned down by a New York yeshiva, and studies at a trade school before returning home."
+  },
+  {
+   "start_sec": 816,
+   "end_sec": 897,
+   "type": "story",
+   "title": "Starting a Printing Business",
+   "summary": "Unhappy in a factory, he opens his own print shop in the kitchen and builds it into a successful business."
+  },
+  {
+   "start_sec": 897,
+   "end_sec": 955,
+   "type": "story",
+   "title": "A First Marriage and a Great Loss",
+   "summary": "He marries a religious young woman who passes away ten months later in the flu epidemic."
+  },
+  {
+   "start_sec": 955,
+   "end_sec": 1150,
+   "type": "story",
+   "title": "The Girl from Pawtucket",
+   "summary": "After shidduchim that were not religious enough, he finally answers an old letter about a religious girl in Pawtucket."
+  },
+  {
+   "start_sec": 1150,
+   "end_sec": 1311,
+   "type": "song",
+   "title": "Singing for the Family",
+   "summary": "He sings for his future in-laws, as he did on that first visit."
+  },
+  {
+   "start_sec": 1311,
+   "end_sec": 1516,
+   "type": "story",
+   "title": "Latkes, Shabbos and the Wedding",
+   "summary": "A worry about the latkes, a rushed Friday trip for Shabbos, and a wedding under the stars in the bride's yard."
+  },
+  {
+   "start_sec": 1516,
+   "end_sec": 1720,
+   "type": "story",
+   "title": "A Home Open to Rebbes",
+   "summary": "Early married life, the birth of their children and hosting visiting Rebbes for Shabbos."
+  },
+  {
+   "start_sec": 1720,
+   "end_sec": 1971,
+   "type": "story",
+   "title": "Moving to Borough Park for a Yeshiva",
+   "summary": "Worried about his sons' education, he sells his business and moves the family to Borough Park, where a new yeshiva welcomes them."
+  },
+  {
+   "start_sec": 1971,
+   "end_sec": 2100,
+   "type": "story",
+   "title": "Six Sons and a Choir",
+   "summary": "Walking to shul with his sons, zemiros at the Shabbos table, and why they stopped singing in choirs."
+  },
+  {
+   "start_sec": 2100,
+   "end_sec": 2290,
+   "type": "story",
+   "title": "Hard Years and a Cellar Print Shop",
+   "summary": "Through hard times he relies on Hashem, patents an invention and runs a print shop from his cellar for many years."
+  },
+  {
+   "start_sec": 2290,
+   "end_sec": 2475,
+   "type": "story",
+   "title": "Handing Over the Business",
+   "summary": "He gives his business to a son, is honored at a Melave Malka, and opens a free-loan fund in Israel."
+  },
+  {
+   "start_sec": 2475,
+   "end_sec": 2661,
+   "type": "story",
+   "title": "Arriving in Eretz Yisroel",
+   "summary": "First impressions of Israel in 1962, settling near the Klausenburger Rebbe, and hope for more Torah observance."
+  },
+  {
+   "start_sec": 2661,
+   "end_sec": 2929,
+   "type": "story",
+   "title": "The Six-Day War",
+   "summary": "Fear, shelters and prayer, then the miraculous victory, the return to the Old City and joyful visits to the Kosel and Kever Rochel."
+  },
+  {
+   "start_sec": 2929,
+   "end_sec": 3017,
+   "type": "song",
+   "title": "Closing Song and Blessing",
+   "summary": "He ends with a Shabbos song and thanks."
+  }
+ ],
+ "relations": [],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Older home recording read from a written memoir. Singing untranscribed at about 0:30-1:40, 19:00-21:50 and 48:50-end. ASR garbles many Hebrew terms (e.g. 'tore a sammas' = Torah Vodaas, 'Kirit Zams' = Kiryat Sanz)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Lina Satsedek (as heard)",
+    "role": "other",
+    "start_sec": 644,
+    "note": "Elderly religious friend from his shul in his boyhood."
+   },
+   {
+    "name": "Rabbi Zlotelov (as heard)",
+    "role": "other",
+    "start_sec": 897,
+    "note": "Friend from Brooklyn who suggested the first shidduch."
+   },
+   {
+    "name": "Sylvia (Fischel, as heard)",
+    "role": "family_member",
+    "start_sec": 897,
+    "note": "First wife; died in the flu epidemic about ten months after the wedding."
+   },
+   {
+    "name": "Leon",
+    "role": "family_member",
+    "start_sec": 1489,
+    "note": "Brother-in-law who played violin at the wedding."
+   },
+   {
+    "name": "Israel",
+    "role": "family_member",
+    "start_sec": 1604,
+    "note": "Eldest son, born in Pawtucket; later learned the crystal trade."
+   },
+   {
+    "name": "Yossi",
+    "role": "family_member",
+    "start_sec": 1663,
+    "note": "Son born in Providence while a visiting Rebbe stayed with the family."
+   },
+   {
+    "name": "Shloma / Solomon",
+    "role": "family_member",
+    "start_sec": 1769,
+    "note": "Son; as a boy told the landlord's wife 'the ground belongs to G-d'."
+   },
+   {
+    "name": "Bibi",
+    "role": "family_member",
+    "start_sec": 1769,
+    "note": "The wife's sister, who lived on Jewett Street."
+   },
+   {
+    "name": "David",
+    "role": "family_member",
+    "start_sec": 2056,
+    "note": "Youngest son, who asked to stop singing in choirs."
+   },
+   {
+    "name": "Mr. Bibi",
+    "role": "other",
+    "start_sec": 2228,
+    "note": "Friend from Providence who taught a son the crystal trade."
+   },
+   {
+    "name": "Smilik",
+    "role": "family_member",
+    "start_sec": 2317,
+    "note": "Son who took over the printing business."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "Narrator born December 9, 1896; parents from Romania; father came to America in 1902; family of twelve in Providence.",
+    "start_sec": 0
+   },
+   {
+    "kind": "health",
+    "text": "First wife died in the flu epidemic about ten months after their wedding.",
+    "start_sec": 897
+   },
+   {
+    "kind": "family_detail",
+    "text": "Family accepted government relief during hard years in New York; narrator patented a first-aid kit.",
+    "start_sec": 2100
+   },
+   {
+    "kind": "family_detail",
+    "text": "Donated 3,000 pounds to open a free-loan fund in the family name in Israel; wrote a new will and mailed it to his daughter before the Six-Day War.",
+    "start_sec": 2462
+   }
+  ]
+ },
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:53Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Private family memoir: confirm the family is happy for it to be published.",
+   "Narrator voices strong opinions about Zionists, Conservative synagogues and non-religious Jews; decide whether a note is needed.",
+   "Narrator's identity and surname (ASR 'Baro Bianco'); possible link to the Goldstein family (a son named Yossi born in Providence) is unverified."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Family%20Recordings%20-%20Bubby%20and%20Zaidy/Zaidy%20Moshe%20Yehuda%27s%20Life%20Story.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Family Recordings - Bubby and Zaidy/Zaidy Moshe Yehuda's Life Story.mp3",
+  "size_bytes": 36214328,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "id": "249769e4fd",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "See The Good In Everyone",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/See the Good in Everyone - The Challos in the Aron Kodesh.mp3",
+  "duration_sec": 1340.821,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-030' stripped"
+  ]
+ },
+ "display": {
+  "title": "See the Good in Everyone: The Challos in the Aron Kodesh",
+  "title_basis": "filename",
+  "summary_short": "For Parshas Tazria: speaking well of others brings out their good. In the Arizal's Tzefas, a simple Jew's weekly challos for Hashem teach that Hashem treasures what is done with a whole heart.",
+  "summary_long": "In the week of Parshas Tazria, the storyteller explains that tzaraas came as a result of lashon hara: speaking badly of someone separates people and awakens the bad in him, while speaking well brings out his good. So we should always judge others favorably, and he gives an everyday example. Then a story from the days of the Arizal. Shimon, a descendant of the Jews forced to hide their Judaism in Portugal, settles in Tzefas knowing little Torah. Hearing the Rav speak of the Lechem HaPanim, he and his wife bake two fine challos each week and place them in the Aron Kodesh as a gift for Hashem. The poor shammes, with nothing for Shabbos, finds and takes them, and both are overjoyed. One Friday the Rav sees Shimon, scolds him that Hashem does not eat, and reveals where the challos went. Then a messenger arrives from the Arizal: the Rav will pass away the next day, for he ended a gift that gave Hashem joy like the Lechem HaPanim. A shorter story about a simple kohen who mispronounced the blessing teaches the same lesson.",
+  "lesson": "Judge others favorably and never mock what someone does sincerely for Hashem; Hashem looks at the heart.",
+  "keywords": [
+   "challah",
+   "Aron Kodesh",
+   "Lechem HaPanim",
+   "shammes",
+   "Tzefas",
+   "Portugal",
+   "tzaraas",
+   "Birkas Kohanim"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": null,
+   "hebrew": "Week of Parshas Tazria",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'This week's parsha, Tazria'; no year given."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "The Rav is told he will die the next day as a Heavenly punishment, and he does."
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "Heavenly punishment for stopping a sincere act; a Rav is warned from Heaven."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Brief mention of the Inquisition and Jews forced to hide their Judaism."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "arizal",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Shimon, a former Marrano from Portugal",
+   "Shimon's wife",
+   "the Rav of the shul",
+   "the poor shammes",
+   "a simple kohen",
+   "Rabbi Moshe Chagiz (who recorded the story)"
+  ],
+  "topics": [
+   "great_rabbis",
+   "parsha",
+   "character",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "dan_lkaf_zchus",
+   "shemiras_halashon",
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "shemiras_halashon",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "tazria"
+  ],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Vayikra 13",
+    "note": "The laws of tzaraas in Parshas Tazria."
+   },
+   {
+    "work": "gemara",
+    "note": "Tzaraas comes from lashon hara; metzora as 'motzi ra' (as the Sages explain)."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 19:15",
+    "note": "Judge your fellow favorably."
+   }
+  ],
+  "places": [
+   "Tzefas",
+   "Portugal"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 28,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 28,
+   "end_sec": 338,
+   "type": "talk",
+   "title": "Tzaraas, lashon hara and judging favorably"
+  },
+  {
+   "start_sec": 338,
+   "end_sec": 1224,
+   "type": "story",
+   "title": "The challos in the Aron Kodesh",
+   "people": [
+    "arizal"
+   ]
+  },
+  {
+   "start_sec": 1224,
+   "end_sec": 1287,
+   "type": "story",
+   "title": "The kohen who mispronounced the blessing"
+  },
+  {
+   "start_sec": 1287,
+   "type": "closing",
+   "title": "Hashem looks at the heart"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "5c67395102",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashem's Delight: The Challos in the Aron Kodesh' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Narrator jokes that he looked up Portugal with 'Rabbi Google'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/See%20the%20Good%20in%20Everyone%20-%20The%20Challos%20in%20the%20Aron%20Kodesh.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/See the Good in Everyone - The Challos in the Aron Kodesh.mp3",
+  "size_bytes": 16090855,
+  "mime_type": "audio/mpeg"
+ }
+}

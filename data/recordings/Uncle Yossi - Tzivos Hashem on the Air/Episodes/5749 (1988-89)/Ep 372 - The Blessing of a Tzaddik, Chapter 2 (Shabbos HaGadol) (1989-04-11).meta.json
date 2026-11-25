@@ -1,0 +1,474 @@
+{
+ "id": "f35ed7194d",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "372",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 372 - The Blessing of a Tzaddik, Chapter 2 (Shabbos HaGadol) (1989-04-11).mp3",
+  "duration_sec": 1812.871,
+  "filename_facts": {
+   "episode_number": 372,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 372,
+   "story": "The blessing of a Tzaddik #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Episode 372: The Blessing of a Tzaddik, Chapter 2 (Shabbos HaGadol)",
+  "title_basis": "master_catalog",
+  "summary_short": "Before Pesach: why Shabbos HaGadol is great, how children can help get ready, and how a blessing from the Baal Shem Tov kept an innkeeper young.",
+  "summary_long": "Broadcast the week of Shabbos HaGadol, a few days before Pesach 5749. Uncle Yossi explains what makes this Shabbos great: we read part of the Haggadah, from Avadim Hayinu through Dayenu, and on the tenth of Nissan the Egyptian firstborn rose against their own people, as Dovid HaMelech writes in Tehillim. Then a to-do list for Hashem's soldiers before Pesach: honor your parents by helping clean and change over the dishes, arrange the sale of chametz through a rav, and invite anyone without a Seder to join yours. After a Pesach-themed Hakochainik march, a second-grade class from a Boro Park girls' school leads the Shema and introduces themselves. Story time concludes The Blessing of a Tzaddik: the young-looking innkeeper tells Reb Boruch that sixty years ago the Baal Shem Tov stayed at his inn. Sweeping the room at night, he noticed the tzaddik's shoes set in a strange position and left them untouched; the Baal Shem Tov thanked him and blessed him with long life. Ever since, he has looked thirty though he is ninety, while the old-looking man is his own son. In the mailbox, a girl tells how she brought a lonely girl into the dancing at a simchah. The show ends with the newsletter's 'Cleanup' mitzvah card and candle-lighting time.",
+  "lesson": "Respect a tzaddik and everything that belongs to him, and prepare yourself with mitzvos, so that a tzaddik's blessing can reach you in full.",
+  "keywords": [
+   "Shabbos HaGadol",
+   "Haggadah",
+   "firstborn of Egypt",
+   "selling chametz",
+   "Seder guests",
+   "inn",
+   "the tzaddik's shoes",
+   "long life",
+   "dancing",
+   "mitzvah mission card"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "serial": {
+   "story_key": "the-blessing-of-a-tzaddik",
+   "story_title": "The Blessing of a Tzaddik",
+   "chapter": 2
+  },
+  "date": {
+   "gregorian": "1989-04-11",
+   "hebrew": "6 Nissan 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Same broadcast as '372 04-11-89'; Shabbos HaGadol this week and candle lighting 7:13 fit 11 April 1989."
+  },
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 372,
+   "is_clip": false
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A class of girls introduce themselves by name; letter writer named.",
+    "at_sec": 950
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Boruch",
+   "the young-looking innkeeper",
+   "the innkeeper's old-looking son"
+  ],
+  "topics": [
+   "calendar",
+   "baal_shem_tov_and_students",
+   "mitzvos_in_daily_life",
+   "family_and_home"
+  ],
+  "midos": [
+   "kibbud",
+   "ahavas_yisroel",
+   "chesed",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "chametz",
+   "seder",
+   "hachnasas_orchim",
+   "kibbud_av_vaem",
+   "matzah",
+   "shema"
+  ],
+  "calendar": [
+   "shabbos_hagadol",
+   "pesach",
+   "erev_pesach",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "haggadah",
+    "note": "Read on Shabbos HaGadol from Avadim Hayinu to after Dayenu."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 136:10",
+    "note": "'Who struck Egypt through their firstborn.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 419,
+   "type": "talk",
+   "title": "Shabbos HaGadol and getting ready for Pesach",
+   "summary": "Why the Shabbos before Pesach is 'great', helping parents prepare, and selling the chametz.",
+   "people": [
+    "david_hamelech"
+   ],
+   "calendar": [
+    "shabbos_hagadol",
+    "pesach"
+   ],
+   "linked_items": [
+    "904fd74707"
+   ]
+  },
+  {
+   "start_sec": 419,
+   "end_sec": 505,
+   "type": "talk",
+   "title": "Invite a guest to your Seder",
+   "summary": "Ahavas Yisroel before Pesach: invite relatives or friends who have no Seder of their own.",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 505,
+   "end_sec": 663,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 663,
+   "end_sec": 793,
+   "type": "story_intro",
+   "title": "Story time: Reb Boruch is puzzled",
+   "summary": "Recap: the old man promises to explain who he and the young man really are."
+  },
+  {
+   "start_sec": 793,
+   "end_sec": 1070,
+   "type": "shema_guest",
+   "title": "Shema with a second-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 1070,
+   "end_sec": 1488,
+   "type": "story_chapter",
+   "title": "The Blessing of a Tzaddik, Chapter 2: The Innkeeper's Secret",
+   "summary": "The innkeeper left the Baal Shem Tov's shoes untouched and was blessed with long life; the old-looking man is his son.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-blessing-of-a-tzaddik",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1488,
+   "end_sec": 1643,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: bringing a lonely girl into the dance"
+  },
+  {
+   "start_sec": 1643,
+   "end_sec": 1722,
+   "type": "announcement",
+   "title": "The 'Cleanup' mitzvah card and candle-lighting time"
+  },
+  {
+   "start_sec": 1722,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "904fd74707",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "'Shabbos Hagadol and Pesach Preps 372' = 45-382 s of this episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "c454f1dd5b",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Same broadcast as '372 04-11-89' (another transfer/edit); this copy keeps more of the class roll call."
+  },
+  {
+   "type": "continues",
+   "target_id": "4691bcb442",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "Catalog: 371 = 'The blessing of a Tzaddik #1', 372 = '#2'."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "4691bcb442",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Blessing of a Tzaddik' (1989): ep 371 ch. 1 and ep 372 ch. 2 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "180fa300d7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 22: Chapters 5 and 6, Torah as Food for the Soul and Zeh L'umas Zeh' (Stories, 117:24-123:03), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true,
+  "transcript_language": "en"
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "truncated_start",
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same broadcast as the dated copy c454f1dd5b; this copy starts on 'Dear children' (first word clipped) but has a longer class roll call. Chametz-sale phone line, candle time and newsletter are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Amsel",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis teacher",
+    "start_sec": 835,
+    "end_sec": 1070
+   },
+   {
+    "name": "Leia Goldrick",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Fagerifka Greenbigger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Esti Gross",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Kitty Goobit",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Esti Helper",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Leia Goddard",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Esti Malkin Waskut",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Silly First",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Esti Lizer",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Chama Wanger",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Malky Gottenau",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Shaili Pekowski",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Leia Gross",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Chaisar Sherman",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Shashi Moses",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Chari Rezi Winning",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Gita Leia Levy",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Friday Das Supplier",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Boro Park, Kitah Beis (Morah Amsel's class)",
+    "start_sec": 950,
+    "end_sec": 1013,
+    "note": "Name as transcribed in the class roll call (ASR spelling, likely garbled)."
+   },
+   {
+    "name": "Liebe Frank",
+    "role": "mailbox_letter",
+    "group": "East 8th Street, Brooklyn",
+    "start_sec": 1557,
+    "end_sec": 1643,
+    "note": "Also heard as 'Lieber Frank'."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:58Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5749%20%281988-89%29/Ep%20372%20-%20The%20Blessing%20of%20a%20Tzaddik%2C%20Chapter%202%20%28Shabbos%20HaGadol%29%20%281989-04-11%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5749 (1988-89)/Ep 372 - The Blessing of a Tzaddik, Chapter 2 (Shabbos HaGadol) (1989-04-11).mp3",
+  "size_bytes": 21755306,
+  "mime_type": "audio/mpeg"
+ }
+}

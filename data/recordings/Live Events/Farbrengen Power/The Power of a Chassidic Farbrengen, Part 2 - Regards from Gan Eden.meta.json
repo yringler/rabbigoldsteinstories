@@ -1,0 +1,229 @@
+{
+ "id": "f23035fd23",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Farbrengen-Power audio",
+  "filename_title": "Farbrengen part two 15 min 2",
+  "audio_path": "audio/Live Events/Farbrengen Power/The Power of a Chassidic Farbrengen, Part 2 - Regards from Gan Eden.mp3",
+  "duration_sec": 914.56,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "part two  2",
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "same audio also appeared as 'Stories/Story Videos/Farbrengen Power /Farbrengen Power part 2.mp4' (different title)"
+  ]
+ },
+ "display": {
+  "title": "The Power of a Chassidic Farbrengen, Part 2: Regards from Gan Eden",
+  "title_basis": "content",
+  "summary_short": "A wealthy Petersburg businessman who left Yiddishkeit walks into a Yud-Tes Kislev farbrengen, and the warmth and memories of his childhood bring him back to teshuvah.",
+  "summary_long": "The storyteller recalls the first story and turns to the second, told by the Frierdiker Rebbe. In the early 1890s a rich businessman, here called Moshe, lived in Petersburg. Raised in a Chassidic family, he had left home at fourteen and given up Shabbos and kashrus, yet he had bought the newly printed pictures of the Alter Rebbe and the Tzemach Tzedek and had large portraits made for his library. One day business brings him to the home of a Chassid, where many Chassidim are singing at beautifully set tables. The host explains that it is Yud-Tes Kislev: in Gan Eden the tzaddikim are celebrating the Alter Rebbe's freedom, their parents and grandparents are there, and the Chassidim are celebrating with them. Ashamed to ask, Moshe is warmly invited in. Hours pass, he forgets his theater tickets, and memories of his grandfather's farbrengens, his grandmother's meals and his old melamed come flooding back. That night he davens Maariv with tears in front of the Alter Rebbe's portrait, and within days his home becomes kosher and he becomes fully observant. The Frierdiker Rebbe notes that this teshuvah came in a pleasant way, through a farbrengen. The piece ends with a reminder to give tzedakah.",
+  "lesson": "A warm Chassidic farbrengen can awaken a Jewish heart and bring someone back to Hashem in a pleasant way, without any pain.",
+  "keywords": [
+   "farbrengen",
+   "businessman",
+   "Petersburg",
+   "portrait",
+   "Alter Rebbe's picture",
+   "Gan Eden",
+   "telephone",
+   "theater tickets",
+   "grandfather",
+   "childhood memories",
+   "kosher kitchen"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "series": "farbrengen_power",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "part": {
+   "set_key": "farbrengen",
+   "part_number": 2,
+   "of": 2
+  },
+  "collections": [
+   "Farbrengen-Power audio"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Pogroms and harsh decrees are mentioned as things that can bring a person to teshuvah; the Alter Rebbe's release from prison is recalled."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "mentioned"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "haman",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Moshe, a wealthy businessman in Petersburg",
+   "The Chassid who hosts the farbrengen",
+   "Moshe's grandfather, a Chassid who traveled to Lubavitch",
+   "Reb Boruch Asher, Moshe's childhood melamed"
+  ],
+  "topics": [
+   "teshuvah",
+   "chassidim",
+   "hiskashrus"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "simcha"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "kashrus",
+   "davening"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The story as told by the Frierdiker Rebbe, including his closing comment."
+   }
+  ],
+  "places": [
+   "Petersburg",
+   "Lubavitch",
+   "Mogilev province"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 46,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 60,
+   "type": "review",
+   "title": "Recalling the first story",
+   "summary": "A reminder that a Chassidic farbrengen can accomplish more than the angel Michael."
+  },
+  {
+   "start_sec": 60,
+   "end_sec": 850,
+   "type": "story",
+   "title": "Regards from Gan Eden on Yud-Tes Kislev",
+   "summary": "A Petersburg businessman far from Yiddishkeit is drawn into a Yud-Tes Kislev farbrengen and returns to a life of Torah and mitzvos.",
+   "people": [
+    "alter_rebbe",
+    "frierdiker_rebbe"
+   ]
+  },
+  {
+   "start_sec": 850,
+   "end_sec": 902,
+   "type": "talk",
+   "title": "Teshuvah in a pleasant way",
+   "summary": "The Frierdiker Rebbe's comment that this teshuvah came through a farbrengen, without any pain."
+  },
+  {
+   "start_sec": 902,
+   "type": "closing",
+   "title": "Give tzedakah"
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "66e941c420",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 1: 'Farbrengen part one 17 min'."
+  },
+  {
+   "type": "continues",
+   "target_id": "66e941c420",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Opens by recalling the first story and tells the second story, which relies on the portrait history given at the end of part 1."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:19Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Live%20Events/Farbrengen%20Power/The%20Power%20of%20a%20Chassidic%20Farbrengen%2C%20Part%202%20-%20Regards%20from%20Gan%20Eden.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Live Events/Farbrengen Power/The Power of a Chassidic Farbrengen, Part 2 - Regards from Gan Eden.mp3",
+  "size_bytes": 10975675,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "id": "c196337601",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Teshuvah 345",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Tashlich and Teshuvah - Throwing Our Sins Away Before Yom Kippur (Ep 345).mp3",
+  "duration_sec": 392.217,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 345,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 345,
+   "story": "The storyteller #6",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": [
+   "same audio also appeared as 'Uncle Yossi - Tzivos Hashem Radio Program/Yomim Tovim/Rosh Hashana 345.mp3' (different title)"
+  ]
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Tashlich and Teshuvah: Throwing Our Sins Away Before Yom Kippur",
+  "title_basis": "content",
+  "summary_short": "Why we say Tashlich by flowing water, and how the mitzvah of teshuvah, together with tefillah and tzedakah, gives us a clean start before Yom Kippur.",
+  "summary_long": "A talk from the Tzivos Hashem radio show, broadcast just before Yom Kippur. Uncle Yossi reminds children of Tashlich on Rosh Hashanah and asks why it is said by a river, lake or ocean instead of in shul. If you drop something on the floor or even throw it far away, you can still go and pick it up; but whatever you throw into flowing water is carried away for good. Tashlich, named for the verse 'You will cast all their sins into the depths of the sea', shows Hashem that we truly regret our mistakes and never want them back. The order of the day for every soldier in Tzivos Hashem is the mitzvah of teshuvah: daven better, say brachos slowly and carefully, give more tzedakah and respect parents, teachers and elders. Uncle Yossi closes with the Rebbe's call to begin the year with teshuvah, tefillah and tzedakah, all done with simcha, because Hashem, the King in the field, is close to us these days.",
+  "lesson": "Real teshuvah means letting go of our mistakes for good, and doing more mitzvos with joy.",
+  "keywords": [
+   "Tashlich",
+   "river",
+   "ocean",
+   "flowing water",
+   "clean record",
+   "King in the field"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 345,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1988-09-20",
+   "hebrew": "9 Tishrei 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 345 (filename date 20 Sep 1988); 'right before the holiest day of the year, Yom Kippur'."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "teshuvah",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "simcha",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "tashlich",
+   "davening",
+   "brachos",
+   "tzedakah",
+   "kibbud_av_vaem"
+  ],
+  "calendar": [
+   "yom_kippur",
+   "aseres_yemei_teshuvah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "neviim",
+    "ref": "Michah 7:19",
+    "note": "'V'sashlich bimetzulos yam kol chatosam', the verse that gives Tashlich its name."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Teshuvah, tefillah and tzedakah, with simcha",
+    "note": "Cited as the Rebbe's instruction for starting the new year."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clip ends as the host leads into the march. The same audio was also filed as 'Yomim Tovim/Rosh Hashana 345' (removed as a duplicate by the pipeline)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:13Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "b088ce6ac1",
+   "evidence": "text_overlap",
+   "confidence": 0.96,
+   "offset_sec": 23,
+   "note": "Episode 345 (filename number); clip = 23-416 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Tashlich%20and%20Teshuvah%20-%20Throwing%20Our%20Sins%20Away%20Before%20Yom%20Kippur%20%28Ep%20345%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Tashlich and Teshuvah - Throwing Our Sins Away Before Yom Kippur (Ep 345).mp3",
+  "size_bytes": 4707552,
+  "mime_type": "audio/mpeg"
+ }
+}

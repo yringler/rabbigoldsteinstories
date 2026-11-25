@@ -1,0 +1,19 @@
+{
+ "batch_id": "b005",
+ "done": ["77cf0ad617", "bd08f13af0", "c56c8ad235", "fda38af798", "08d7e6a3d5", "d4461c9ced", "de684a1a44", "3ca5c29c52", "699d1e84da", "e23ba9ec95", "084bdc9506", "5f2fe46249", "777566ae04", "f760feafed", "a5f42127fc", "e5445b520a", "67bbe1e780", "829d973741", "f963e9286e", "ac377dc16d"],
+ "failed": [],
+ "notes": [
+  "Air dates from audio cues (5744): ep 116 = 1984-03-06 (said on air: 2 Adar II); 117 = 03-13; 118 = 03-20; 119 = 03-27 (Shabbos Mevarchim Nissan); 120 = 04-03 (Rosh Chodesh Nissan); 121 = 04-10; 122 = 05-01; 123 = 05-08 ('May 20 is 12 days from today'); 124 = 05-15. Ep 121 says the show was off the air on 17 and 24 April (Pesach), so there is a two-week gap between 121 and 122. Useful anchors for interpolating nearby undated episodes.",
+  "Ep 121 (084bdc9506): a visiting father calls it 'your 118th show', 3 less than the catalog number 121. Maybe the on-air count started later or skipped shows.",
+  "Identity clue: in ep 116 (77cf0ad617, ~1733 s) Uncle Yossi says 2 Adar is his mother's yahrzeit, 'Chaya Malka bas Dina'. Possibly related to speaker id bubby_chaya_malka. Recorded in hidden.other_personal; please check.",
+  "e23ba9ec95 'RC Nissan-Moshiach' is the same recording as 699d1e84da 'Geulah 120' but slightly shorter. Added superseded_by -> 699d1e84da. e23ba9ec95 has no episode number in its filename; episode 120 was set from the text match (classification.episode added, not locked).",
+  "Ep 224 '224 05-06-86' (6475c5455b) seems to be largely a rebroadcast of ep 122: the Sefirah, negel vasser, Ahavas Yisroel and Pirkei Avos talks all match at nearly the same offsets. Ep 526 (0615c36a34) also re-uses several of them.",
+  "Ep 123's 'King David's Grave' story (about 773-1545 s) is the same recording as the Heritage clip 9647400647 ('King David's Grave 527'), which also aired in eps 32, 228 and 323. Added aired_again_in on 67bbe1e780 to those episodes. Pass 2 could also link 67bbe1e780 to clip 9647400647.",
+  "Self-Control 120 (3ca5c29c52) text-matches ep 30 (1982) and ep 161, so the talk first aired in 1982 and was reused in ep 120.",
+  "Fighting the Yetzer Hara 117 (c56c8ad235) is an edited clip. It joins about 1058-1250 s and 1491-1680 s of ep 117 and leaves out the end of the fox story, so the required clip offset 1292 is only approximate.",
+  "Catalog 'The forbidden road' (eps 120-121) is announced on air as 'Reb Beryl Learns a Lesson'. Catalog 'The sly fox and the cheese' (117) is announced as 'The Hungry Fox and the Barrel of Cheese'.",
+  "Ep 116 says the tongue story comes from Tz'enah U'r'enah. Catalog 'Life in the hands of the tongue #1' (ep 115) is not in this batch, so no continues relation was added for 116.",
+  "Proposed new terms: people 'chofetz_chaim' (named in ep 116 for his 50th yahrzeit) and works 'kesuvim' (Mishlei and Koheles are quoted; neviim was used instead).",
+  "Process: the shared scratchpad's build.py was overwritten by another agent during this run. b005 used its own scratchpad\\b005\\ subfolder. Other batches may want unique file names."
+ ]
+}

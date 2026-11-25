@@ -1,0 +1,152 @@
+{
+ "id": "3f5a4d35cb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Hakhel 304",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Year of Hakhel - Gathering Together Then and Now (Ep 304).mp3",
+  "duration_sec": 265.522,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 304,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 304,
+   "story": "The Golden Staff #2",
+   "topic": "Hakhel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Year of Hakhel: Gathering Together Then and Now",
+  "title_basis": "content",
+  "summary_short": "What the mitzvah of Hakhel was in the days of the Beis HaMikdash, and how children can keep its spirit today by gathering friends for a Shabbos party.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show in 5748, a Hakhel year. Uncle Yossi explains that Hakhel means 'gather together': after every seventh year, all of the Jewish people came to Yerushalayim on Sukkos, where the king stood on a large wooden platform in the Beis HaMikdash and read a portion of the Torah aloud to men, women and children, with the little ones carried on their parents' shoulders. Even today, before the Beis HaMikdash is rebuilt, we can share in Hakhel by bringing Jews together with achdus and Ahavas Yisroel. One idea for soldiers of Tzivos Hashem: on Shabbos, invite friends home to tell stories, sing songs and make brachos over refreshments. Hashem will bless the host, the guests and the parents who allowed the gathering.",
+  "lesson": "Bring Jews together in unity and love; even a Shabbos party with friends is a way to keep Hakhel today.",
+  "keywords": [
+   "Hakhel",
+   "gathering",
+   "king",
+   "wooden platform",
+   "Sukkos",
+   "Shabbos party",
+   "friends",
+   "refreshments"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 304,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-12-01",
+   "hebrew": "10 Kislev 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This year, 5748, is the year of Hakhel'; clip of episode 304 (broadcast 1987-12-01)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "beis_hamikdash_eretz_yisroel",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "brachos",
+   "shabbos"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Tied to the Hakhel year 5748; still useful in any Hakhel year."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:58Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "47ab2fc67b",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "offset_sec": 1388,
+   "note": "Episode 304 (filename number); clip = 1388-1653 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/The%20Year%20of%20Hakhel%20-%20Gathering%20Together%20Then%20and%20Now%20%28Ep%20304%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/The Year of Hakhel - Gathering Together Then and Now (Ep 304).mp3",
+  "size_bytes": 3187224,
+  "mime_type": "audio/mpeg"
+ }
+}

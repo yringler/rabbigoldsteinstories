@@ -1,0 +1,30 @@
+{
+ "batch_id": "b046",
+ "done": [
+  "5398402eaa",
+  "2a42aa794b",
+  "d25c7f9c63",
+  "a066ac086e",
+  "8446e61564",
+  "e389a8ea77",
+  "3cb16cf403",
+  "ab6f22d096",
+  "c716c81414",
+  "ad5377a39d",
+  "7152bb742c",
+  "7d1316b235",
+  "a94d9e51d5",
+  "393f61d950"
+ ],
+ "failed": [],
+ "notes": [
+  "Date anchors from the audio: 546 = Tue 22 Sep 1992 (shofar 'Monday Sept 28 and Tuesday Sept 29'); 547 = week of Vayeira 5753 (1 Nov 1992), the first show that says it has moved from Tuesday to Sunday 6 pm; 548 = Sun 8 Nov 1992; 552 = Sun 13 Dec 1992 ('Shabbos night the 19th of December is the first night of Chanukah'); 553 = 1st day of Chanukah (20 Dec); 554 = Zos Chanukah (27 Dec); 555 = 10 Teves 5753 (3 Jan 1993). There is a gap of about 6 weeks between 546 and 547 (Tishrei). Candle time in 549 (4:13) points to 22 Nov, which means there was no show on 15 Nov; 550 and 551 are interpolated.",
+  "From 546 on, every show has Tehillim (chapter 20) for the Rebbe's refuah shleimah (after his stroke in 1992), which helps date the period.",
+  "Serials with no catalog titles (I named them from what is said on air): 'Reb Boruch and the Alter Rebbe's Blessing' (548 ch1, 549 ch2) and 'The King Saved by a Shabbos Candle' (552 ch1, 553 ch2).",
+  "Re-airs: the Reb Boruch story (548+549) is told complete in ep. 509 (f748313861); the Chortkov Rebbe / Meir Anshel Rothschild story (550) is also in ep. 231 (32e12e850b); the Asarah B'Teves talk and the Ani Maamin guest segment in 555 also appear in 507 (b8577c47e9), in file '5' (efb72976ab) and in the clips 2cdc2fb9fd / 213559b057. The '5' and '507' files look like the same recording (offset about 2.5 min), so '5' may be a mislabeled or truncated copy of 507.",
+  "555: the opening 'today is Asarah B'Teves' may be reused from 507, but the weekly sequence still fits 3 Jan 1993.",
+  "554 story: Naftali's Rebbe is named as 'Rabbi Sholom Dov...' (ASR unclear). He could be the Rebbe Rashab, so I left him untagged.",
+  "Visiting classes identified only by school and teacher (548, 549, 551, 552) were given minor_named, because the validator requires a flag whenever hidden.on_air_people is filled.",
+  "Mishlei and Koheles were cited under the 'neviim' work id because there is no Kesuvim id; consider adding one."
+ ]
+}

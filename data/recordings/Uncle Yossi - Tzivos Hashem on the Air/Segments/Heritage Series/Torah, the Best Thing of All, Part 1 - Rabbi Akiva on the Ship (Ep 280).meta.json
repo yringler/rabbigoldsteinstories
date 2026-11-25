@@ -1,0 +1,194 @@
+{
+ "id": "43ccf7c7b6",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Uncle Yossi - Heritage Series 2/Akiva Torah ship 11m 23s",
+  "filename_title": "01 Torah The Best Thing of All -1 280",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Torah, the Best Thing of All, Part 1 - Rabbi Akiva on the Ship (Ep 280).mp3",
+  "duration_sec": 334.114,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 280,
+   "part_marker": null,
+   "production_notes": [
+    "duration_label"
+   ]
+  },
+  "master_catalog": {
+   "episode": 280,
+   "story": "Torah The Best Thing of All #1",
+   "topic": "Havdalah, Moshiach",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Torah, the Best Thing of All, Part 1: Rabbi Akiva on the Ship",
+  "title_basis": "master_catalog",
+  "summary_short": "On a long sea voyage, wealthy merchants boast of their gold, silver and diamonds and laugh when Rabbi Akiva says he carries a treasure worth more than all of it, one no one can take away.",
+  "summary_long": "The first chapter of a two-part story from the Tzivos Hashem radio show. Uncle Yossi opens with Dovid HaMelech's words in Tehillim: the Torah of Hashem's mouth is better than thousands of gold and silver, because riches can be taken away, but Torah you have learned is sealed in your mind and heart forever. Rabbi Akiva is traveling on a large ship full of wealthy merchants who talk only of business. Each evening on the deck they boast: one has gold nuggets, another a fortune in silver, a third a box of sparkling diamonds. To have some fun they ask the rabbi what he brought. Rabbi Akiva smiles and says that what he has is more precious than all the gold and silver in the world, that he carries it wherever he goes and no one can take it from him. The merchants laugh and hurry to their cabins to check on their hidden goods. The chapter ends promising that they will soon learn a lesson they will never forget.",
+  "lesson": "Torah is the one treasure that is truly yours forever; no one can take away what you have learned.",
+  "keywords": [
+   "ship",
+   "merchants",
+   "gold",
+   "silver",
+   "diamonds",
+   "boasting",
+   "treasure",
+   "voyage"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Heritage Series 2"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 280,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "talmudic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": "1987-06-16",
+   "hebrew": "19 Sivan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Cut from episode 280 (06-16-87). Also re-aired in episodes 384 and 439."
+  },
+  "serial": {
+   "story_key": "torah-the-best-thing-of-all",
+   "story_title": "Torah, the Best Thing of All",
+   "chapter": 1
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_akiva",
+    "role": "central"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the wealthy merchants"
+  ],
+  "topics": [
+   "torah_study",
+   "sages"
+  ],
+  "midos": [
+   "anavah",
+   "contentment"
+  ],
+  "mitzvos": [
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "tehillim",
+    "ref": "119:72",
+    "note": "'The Torah of Your mouth is better to me than thousands of gold and silver.'"
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Part 1 of 2 in the Heritage 'Akiva Torah ship' folder; ends on a cliffhanger. Part 2 is expected from episode 281 (not in this batch). The classic version of this tale is usually told of an unnamed sage."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Part 2 not in this batch; confirm the part number and link it in pass 2."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:09:31Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "11adf87746",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 384."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "d7c2af64da",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 439."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "fbe6825c15",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 1044,
+   "note": "Episode 280 (filename number); clip = 1044-1378 s of the episode."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "02f03f1392",
+   "evidence": "filename",
+   "confidence": 0.9,
+   "note": "Heritage 'Akiva Torah ship 11m 23s': files 01-02 are chapters 1-2 of 'Torah, the Best Thing of All'."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Heritage%20Series/Torah%2C%20the%20Best%20Thing%20of%20All%2C%20Part%201%20-%20Rabbi%20Akiva%20on%20the%20Ship%20%28Ep%20280%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Heritage Series/Torah, the Best Thing of All, Part 1 - Rabbi Akiva on the Ship (Ep 280).mp3",
+  "size_bytes": 4010428,
+  "mime_type": "audio/mpeg"
+ }
+}

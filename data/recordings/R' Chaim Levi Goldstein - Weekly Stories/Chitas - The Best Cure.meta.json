@@ -1,0 +1,231 @@
+{
+ "id": "08c856f89f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Chitas - The Best Cure",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Chitas - The Best Cure.mp3",
+  "duration_sec": 1455.804,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chitas: The Best Cure",
+  "title_basis": "filename",
+  "summary_short": "Before Yud-Aleph Nissan, why the Rebbe urges daily Chitas and Rambam, and how a rosh yeshiva who could no longer walk was healed after taking on Chitas at the Rebbe's word.",
+  "summary_long": "After the song 'I Believe in Hashem', the storyteller prepares for Yud-Aleph Nissan with the Rebbe's daily study campaigns: Chitas (Chumash, Tehillim and Tanya) and the daily Rambam in its three tracks. The Rambam's 83 sections of halachah match the numerical value of machlah, sickness, so learning them protects us, and the Rambam unites all Jews in studying the whole Torah. Then comes a story from 1954. A rosh yeshiva in Yerushalayim, too ill in his legs to stand, is carried to his son's wedding in his bed and tells the guests why. As a yeshiva student in Poland, he and his friends debated too long before helping a wagon driver whose horse was choking, and the horse died. A town drunkard sleeping in the shul warned them that if they would not go, they would not be able to stand on their feet. That man turned out to be a hidden tzaddik, with beautiful tefillin and deep writings, and a miraculous space opened beside a great tzaddik's grave for his burial. A wedding guest wrote to the Rebbe, who answered that the rosh yeshiva should take on the Frierdiker Rebbe's Chitas and spread it to his students. Half a year later he was sitting at his table and getting better every day.",
+  "lesson": "Learn Chitas and Rambam every day, as the Rebbe asks; it brings blessing and healing. Never put off helping someone in need, even a person or animal in trouble.",
+  "keywords": [
+   "Chitas",
+   "daily Rambam",
+   "rosh yeshiva",
+   "wedding",
+   "wagon driver",
+   "horse",
+   "hidden tzaddik",
+   "drunkard",
+   "tefillin",
+   "cemetery",
+   "Rebbe's letter",
+   "amputation"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "A rosh yeshiva cannot walk and doctors consider amputating his legs; he recovers."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "A horse dies when help comes too late; a hidden tzaddik foretells his own passing and is buried."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The hidden tzaddik is known in town as a drunkard."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Chaim Chaikl, the rosh yeshiva",
+   "Itche the drunkard, a hidden tzaddik",
+   "the wagon driver",
+   "the yeshiva students",
+   "Rabbi Eliyahu Friedman, a wedding guest"
+  ],
+  "topics": [
+   "the_rebbe",
+   "torah_study",
+   "hiskashrus",
+   "miracles"
+  ],
+  "midos": [
+   "chesed",
+   "ahavas_yisroel",
+   "zerizus",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "chitas",
+   "rambam_daily",
+   "torah_study",
+   "tzaar_baalei_chaim",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "yud_aleph_nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The Rambam's division of his work into 83 sections of halachah."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "83 equals machlah (sickness); the daily Rambam unites all Jews and covers the whole Torah, recalled from a farbrengen."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's 1954 letter advising the rosh yeshiva to take on the Frierdiker Rebbe's Chitas."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 30,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 30,
+   "end_sec": 265,
+   "type": "talk",
+   "title": "Chitas and the daily Rambam",
+   "summary": "Preparing for Yud-Aleph Nissan with the Rebbe's study campaigns, and how the Rambam's 83 sections protect against sickness."
+  },
+  {
+   "start_sec": 265,
+   "end_sec": 1269,
+   "type": "story",
+   "title": "The rosh yeshiva's story at his son's wedding",
+   "summary": "A yeshiva student fails to help a wagon driver in time, and a hidden tzaddik's warning comes true."
+  },
+  {
+   "start_sec": 1269,
+   "type": "story",
+   "title": "The Rebbe's answer: learn Chitas",
+   "summary": "A wedding guest writes to the Rebbe, and the rosh yeshiva recovers after taking on Chitas.",
+   "people": [
+    "the_rebbe"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "7abf00d146",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Chitas Miracle' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR garbles many Hebrew terms (Chaim Chaikl, bochurim, Chevra Kadisha). Ends abruptly with 'That's the story', no sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:08:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Chitas%20-%20The%20Best%20Cure.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Chitas - The Best Cure.mp3",
+  "size_bytes": 17470418,
+  "mime_type": "audio/mpeg"
+ }
+}

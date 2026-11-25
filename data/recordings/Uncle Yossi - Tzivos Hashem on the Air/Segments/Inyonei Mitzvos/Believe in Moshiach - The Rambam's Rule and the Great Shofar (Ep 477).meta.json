@@ -1,0 +1,184 @@
+{
+ "id": "d96bb32d47",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Believe in Moshiach 477",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Believe in Moshiach - The Rambam's Rule and the Great Shofar (Ep 477).mp3",
+  "duration_sec": 379.605,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 477,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 477,
+   "story": "Life in the hands of the tongue #2",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Believe in Moshiach: The Rambam's Rule and the Great Shofar",
+  "title_basis": "content",
+  "summary_short": "The Rambam teaches every Jew to believe that Moshiach can come any day; we pray for it in benching and Shemoneh Esrei, and the second horn of Yitzchak's ram waits to announce his arrival.",
+  "summary_long": "Uncle Yossi introduces the Rambam, about whom it is said that from Moshe to Moshe there arose none like Moshe, and teaches one of his rules: every Jew must truly believe that any day Eliyahu HaNavi may appear with the news that Moshiach has come. We remember this in benching, asking Hashem to send Eliyahu HaNavi with good tidings, and three times a day in Shemoneh Esrei, when we ask Hashem to sound the great shofar of our freedom. He retells the Akeidah: our Sages say Avraham kept both horns of the ram; one was sounded when the Torah was given, and the other will be sounded by Hashem Himself, heard all over the world, when Moshiach comes. Moshiach will be chosen by Hashem just as Moshe Rabbeinu was. This belief has kept the Jewish people alive through every age, because exile is not forever. Now is the time to learn more Torah, do more mitzvos, give more tzedakah and love every Jew, to show Hashem that we have had enough of exile.",
+  "lesson": "Believe that Moshiach can come any day, and bring him sooner with more Torah, mitzvos, tzedakah and Ahavas Yisroel.",
+  "keywords": [
+   "Ani Maamin",
+   "great shofar",
+   "ram's horns",
+   "Akeidah",
+   "benching",
+   "Shemoneh Esrei",
+   "Eliyahu HaNavi",
+   "exile"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 477,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-30",
+   "hebrew": "16 Iyar 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 477, broadcast during Sefirah 5751."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "emunah_bitachon",
+   "prayer_and_brachos"
+  ],
+  "midos": [
+   "emunah",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "davening",
+   "brachos",
+   "torah_study",
+   "tzedakah"
+  ],
+  "parshiyos": [],
+  "calendar": [],
+  "sources_cited": [
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "The Rambam's rule to believe in the coming of Moshiach."
+   },
+   {
+    "work": "siddur",
+    "ref": "Birchas HaMazon, HaRachaman; Shemoneh Esrei, Teka B'shofar",
+    "note": "Prayers for Eliyahu HaNavi's good news and for the great shofar of Moshiach."
+   },
+   {
+    "work": "midrash",
+    "note": "The two horns of Yitzchak's ram: one sounded at Matan Torah, the other to be sounded when Moshiach comes."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete talk; ends just before the show's closing."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:32Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "8876a93979",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "offset_sec": 1347,
+   "note": "Episode 477 (filename number); clip = 1347-1727 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Believe%20in%20Moshiach%20-%20The%20Rambam%27s%20Rule%20and%20the%20Great%20Shofar%20%28Ep%20477%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Believe in Moshiach - The Rambam's Rule and the Great Shofar (Ep 477).mp3",
+  "size_bytes": 4556158,
+  "mime_type": "audio/mpeg"
+ }
+}

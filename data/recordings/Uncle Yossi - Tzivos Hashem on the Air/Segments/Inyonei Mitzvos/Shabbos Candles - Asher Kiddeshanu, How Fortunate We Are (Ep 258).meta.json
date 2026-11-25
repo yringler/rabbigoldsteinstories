@@ -1,0 +1,161 @@
+{
+ "id": "b914a3d639",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Neshek 258",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Asher Kiddeshanu, How Fortunate We Are (Ep 258).mp3",
+  "duration_sec": 105.551,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 258,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 258,
+   "story": "The tall Chanukah candles",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Shabbos Candles: Asher Kiddeshanu, How Fortunate We Are",
+  "title_basis": "content",
+  "summary_short": "The next words of the Shabbos candle brachah, 'Asher Kiddeshanu': a mitzvah makes us holy, and the Alter Rebbe teaches that 'asher' also means how fortunate we are.",
+  "summary_long": "A short Mitzvah Time lesson from the Tzivos Hashem radio show, part of a series on the brachah over Shabbos candles. Uncle Yossi teaches the next two words of the brachah, 'Asher Kiddeshanu', 'Who has made us holy'. When we make a brachah we thank Hashem, the King of the world, for the honor and privilege of doing a mitzvah, and doing it makes us holy, a holy nation close to Hashem. He then shares 'a secret' from the Alter Rebbe: besides its plain meaning, the word 'asher' is related to 'ashrei', fortunate. So 'Asher Kiddeshanu' also means how lucky and fortunate we are to be able to do a mitzvah and become holier and closer to Hashem.",
+  "lesson": "Every mitzvah makes us holy, and we should feel how fortunate we are to be able to do it.",
+  "keywords": [
+   "Shabbos candles",
+   "Asher Kiddeshanu",
+   "holy nation",
+   "ashrei",
+   "fortunate"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 258,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1986-12-30",
+   "hebrew": "28 Kislev 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "Aired in episode 258, during Chanukah 5747 (Friday candle time given for January 2)."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos",
+   "shabbos"
+  ],
+  "midos": [
+   "simcha",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "brachos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "ref": "The Alter Rebbe on 'asher kiddeshanu'",
+    "note": "'Asher' also means fortunate, as in 'ashrei'."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "1fe3e3a5c7",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 1464,
+   "note": "Episode 258 (filename number); clip = 1464-1569 s of the episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "ae64241bdd",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Next words of the candle brachah after 'Melech HaOlam' (Neshek 256)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Short excerpt; the quiz and review that precede it in episode 258 are not included."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:44Z",
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Shabbos%20Candles%20-%20Asher%20Kiddeshanu%2C%20How%20Fortunate%20We%20Are%20%28Ep%20258%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Shabbos Candles - Asher Kiddeshanu, How Fortunate We Are (Ep 258).mp3",
+  "size_bytes": 1267537,
+  "mime_type": "audio/mpeg"
+ }
+}

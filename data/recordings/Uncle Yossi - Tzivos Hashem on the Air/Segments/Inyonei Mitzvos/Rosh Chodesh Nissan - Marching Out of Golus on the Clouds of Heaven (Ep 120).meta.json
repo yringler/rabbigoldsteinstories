@@ -1,0 +1,169 @@
+{
+ "id": "699d1e84da",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Geulah 120",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Rosh Chodesh Nissan - Marching Out of Golus on the Clouds of Heaven (Ep 120).mp3",
+  "duration_sec": 203.557,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 120,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 120,
+   "story": "The forbidden road #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rosh Chodesh Nissan: Marching Out of Golus on the Clouds of Heaven",
+  "title_basis": "content",
+  "summary_short": "On Rosh Chodesh Nissan, Uncle Yossi describes the coming Geulah: the clouds of Heaven carrying us to Eretz Yisroel, and children leading the march out of golus.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, broadcast on Rosh Chodesh Nissan. Uncle Yossi explains that Nissan is the month of redemption: our fathers were freed from Egypt in Nissan, and the Sages teach that the final redemption will come in Nissan too. He asks children to imagine suddenly hearing that Moshiach has come and golus is over, and tells of the prophets' promise of the clouds of Heaven that will carry us to Eretz Yisroel, with miracles even greater than those of Yetzias Mitzrayim. When our fathers left Egypt, the little children led the parade and called out 'This is my G-d and I will beautify Him'. So too, the children of Tzivos Hashem will lead the march out of golus, so they should gather as many mitzvos as they can and rise to a higher rank.",
+  "lesson": "Nissan is the month of Geulah; children will lead the march out of golus, so gather as many mitzvos as you can.",
+  "keywords": [
+   "clouds of Heaven",
+   "Yetzias Mitzrayim",
+   "golus",
+   "parade",
+   "Zeh Keili",
+   "redemption"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 120,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1984-04-03",
+   "hebrew": "1 Nissan 5744",
+   "hebrew_year": 5744,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is Rosh Chodesh Nissan'; cut from episode 120."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "loving_eretz_yisroel"
+  ],
+  "calendar": [
+   "rosh_chodesh",
+   "nissan"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "'Our prophets' tell of the clouds of Heaven at Moshiach's coming."
+   },
+   {
+    "work": "chumash",
+    "ref": "Shemos 15:2",
+    "note": "'This is my G-d and I will beautify Him', called out by the children at the Splitting of the Sea."
+   }
+  ],
+  "places": [
+   "Eretz Yisroel",
+   "Mitzrayim"
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "de684a1a44",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 1470,
+   "note": "Episode 120 (filename number); clip = 1470-1674 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "e23ba9ec95",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Same recording as 'RC Nissan-Moshiach' (e23ba9ec95); this copy is slightly longer and keeps the closing words, so it is the better copy."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:58:33Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Rosh%20Chodesh%20Nissan%20-%20Marching%20Out%20of%20Golus%20on%20the%20Clouds%20of%20Heaven%20%28Ep%20120%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Rosh Chodesh Nissan - Marching Out of Golus on the Clouds of Heaven (Ep 120).mp3",
+  "size_bytes": 2443674,
+  "mime_type": "audio/mpeg"
+ }
+}

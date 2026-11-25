@@ -1,0 +1,150 @@
+{
+ "id": "66bca5ffd7",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Shema 422",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Start the Day the Night Before - Saying the Shema at Bedtime (Ep 422).mp3",
+  "duration_sec": 264.429,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 422,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 422,
+   "story": "The mystery of Dayeinu",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Start the Day the Night Before: Saying the Shema at Bedtime",
+  "title_basis": "content",
+  "summary_short": "A Jewish day begins the evening before, so the bedtime Shema starts our day, and Hashem guards us through the night with restful sleep.",
+  "summary_long": "A Mitzvah Time lesson from the Tzivos Hashem radio show, part of a series on reciting the Shema. Uncle Yossi shares the secret of starting the day the right way: begin it the night before. The Torah says 'it was evening and it was morning', evening first, just as Shabbos and every Yom Tov begin at night when Mommy lights the candles before sunset. So the Shema we say at bedtime, 'when you lie down', comes before the Shema 'when you rise', and our new day begins by declaring that Hashem is our God and is One everywhere. Even though we already said the Shema at Maariv, we say it again right before sleeping, because our Sages promise that Hashem then protects us, gives us restful sleep and pleasant dreams, and lets us wake up happy to serve Him. Children who cannot yet read Hebrew may say the Shema in English or any language they understand, since Hashem understands every language.",
+  "lesson": "Say the Shema slowly and carefully right before you go to sleep, and Hashem will protect you all night.",
+  "keywords": [
+   "bedtime",
+   "sleep",
+   "evening and morning",
+   "Maariv",
+   "pleasant dreams",
+   "any language",
+   "Shabbos candles"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 422,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-03-27",
+   "hebrew": "1 Nissan 5750",
+   "hebrew_year": 5750,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "From the full episode 422 ('Today is Rosh Chodesh Nissan')."
+  },
+  "collections": [
+   "Inyonei Mitzvos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "prayer_and_brachos",
+   "halachah"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "shema",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:5, 'Vayehi erev vayehi voker'"
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "d8110e6dc7",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 472,
+   "note": "Episode 422 (filename number); clip = 472-736 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:18Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Start%20the%20Day%20the%20Night%20Before%20-%20Saying%20the%20Shema%20at%20Bedtime%20%28Ep%20422%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Start the Day the Night Before - Saying the Shema at Bedtime (Ep 422).mp3",
+  "size_bytes": 3174057,
+  "mime_type": "audio/mpeg"
+ }
+}

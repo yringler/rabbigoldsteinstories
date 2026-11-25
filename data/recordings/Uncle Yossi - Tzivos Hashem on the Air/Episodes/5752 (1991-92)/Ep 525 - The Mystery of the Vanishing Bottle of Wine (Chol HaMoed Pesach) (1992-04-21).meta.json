@@ -1,0 +1,344 @@
+{
+ "id": "2629d0ceeb",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "525",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 525 - The Mystery of the Vanishing Bottle of Wine (Chol HaMoed Pesach) (1992-04-21).mp3",
+  "duration_sec": 1769.819,
+  "filename_facts": {
+   "episode_number": 525,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 525,
+   "story": "The vanishing bottle of wine",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 525: The Mystery of the Vanishing Bottle of Wine (Chol HaMoed Pesach)",
+  "title_basis": "on_air",
+  "summary_short": "On Chol HaMoed Pesach, Uncle Yossi speaks about the miracles of Moshiach's coming, a girl says the Shema, and a devoted shammes foils a wicked plot against his town's Jews.",
+  "summary_long": "A Chol HaMoed Pesach broadcast. Uncle Yossi recalls the Seder nights, the four cups and the cup of Eliyahu HaNavi, who blesses every home with 'next year in Yerushalayim'. Pesach strengthens our belief in Hashem as a G-d of miracles, and the miracles of Moshiach will be even greater: the prophet Daniel speaks of heavenly clouds that will carry everyone, together with every shul and school, to Eretz Yisroel. After the Hakochainik march, played with Pesach'dik spoon and chainik, a Beis Yaakov student recites the Shema and everyone gives tzedakah. The story, 'The Mystery of the Vanishing Bottle of Wine', shows that Hashem, the Guardian of Israel, never sleeps: Reb Arele, a devoted shammes who learns Torah late into the night by the Aron HaKodesh, dreams three times of a voice asking for the wine for Pesach. He discovers that the wicked Stepan has swapped the wine in the Ark for a bottle of blood to accuse the Jews before the king, and replaces it. On Pesach the king comes to the shul and Stepan's plot is exposed. The show ends with the Rebbe's birthday campaign, an invitation to join the Happy Birthday Club, and a call to say the Twelve Pesukim.",
+  "lesson": "Hashem, the Guardian of Israel, never slumbers and protects us at all times; just as He did miracles in Egypt, He will bring even greater miracles with Moshiach.",
+  "keywords": [
+   "bottle of wine",
+   "shammes",
+   "Aron HaKodesh",
+   "dream",
+   "blood libel",
+   "king",
+   "heavenly clouds",
+   "Kos shel Eliyahu",
+   "Happy Birthday Club",
+   "Pesach'dik chainik"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 525,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1992-04-21",
+   "hebrew": "18 Nissan 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Here we are, everyone enjoying Chol Hamoed Pesach'; episode 524 aired on 11 Nissan 5752, so the following Tuesday is 18 Nissan 5752 = 21 April 1992."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "An antisemite plants a bottle of blood in the shul to accuse the Jews before the king (a blood libel); the plot fails.",
+    "at_sec": 1220
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full, with her school.",
+    "at_sec": 600
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "daniel",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Arele, the shammes",
+   "Stepan",
+   "the king",
+   "the king's guards"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "moshiach_geulah",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon",
+   "courage",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "seder",
+   "matzah",
+   "shema",
+   "tzedakah",
+   "kavod_shul",
+   "torah_study",
+   "twelve_pesukim",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "pesach"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Daniel 7:13",
+    "note": "The prophet Daniel: heavenly clouds will carry us to Eretz Yisroel when Moshiach comes."
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel', as Dovid HaMelech writes."
+   },
+   {
+    "work": "haggadah",
+    "ref": "V'hi she'amdah",
+    "note": "'In every generation they stand against us… and the Holy One saves us from their hands.'"
+   },
+   {
+    "work": "oral_tradition",
+    "ref": "Saying of the Baal Shem Tov",
+    "note": "'A Yid is keinmal nit allein': a Jew is never alone, Hashem is always with him."
+   },
+   {
+    "work": "yerushalmi",
+    "ref": "Rosh Hashanah 3:8",
+    "note": "'Our Chachamim tell us' that on one's birthday one's mazel is stronger."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "Birthday campaign; Twelve Pesukim",
+    "note": "The Rebbe wants every child to mark his Jewish birthday and to say the Twelve Pesukim."
+   }
+  ],
+  "places": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 335,
+   "type": "talk",
+   "title": "Chol HaMoed Pesach and the miracles of Moshiach",
+   "summary": "Memories of the Seder and Eliyahu HaNavi's blessing, and the even greater miracles that will come with Moshiach.",
+   "people": [
+    "eliyahu_hanavi",
+    "daniel"
+   ],
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "4ab57db8c9"
+   ]
+  },
+  {
+   "start_sec": 335,
+   "end_sec": 378,
+   "type": "talk",
+   "title": "Getting out the Pesach'dik spoon and chainik"
+  },
+  {
+   "start_sec": 378,
+   "end_sec": 560,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 560,
+   "end_sec": 582,
+   "type": "story_intro",
+   "title": "Story time is coming"
+  },
+  {
+   "start_sec": 582,
+   "end_sec": 726,
+   "type": "shema_guest",
+   "title": "Shema with a Beis Yaakov student"
+  },
+  {
+   "start_sec": 726,
+   "end_sec": 785,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 785,
+   "end_sec": 880,
+   "type": "story_intro",
+   "title": "Hashem, the Guardian of Israel",
+   "summary": "Hashem never slumbers and saves us in every generation, as Dovid HaMelech and the Haggadah teach.",
+   "people": [
+    "david_hamelech"
+   ]
+  },
+  {
+   "start_sec": 880,
+   "end_sec": 1500,
+   "type": "story",
+   "title": "The Mystery of the Vanishing Bottle of Wine",
+   "summary": "A devoted shammes, warned in a dream, discovers and foils a plot to accuse the Jews of his town before the king.",
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1500,
+   "end_sec": 1668,
+   "type": "announcement",
+   "title": "Your Jewish birthday and the Happy Birthday Club",
+   "summary": "On a birthday one's mazel is stronger; the Rebbe wants every child to know and mark his Jewish birthday.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 1668,
+   "end_sec": 1718,
+   "type": "announcement",
+   "title": "Say the Twelve Pesukim every day"
+  },
+  {
+   "start_sec": 1718,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Shema guest and school named (see hidden). March at about 06:18-09:40 not transcribed; untranscribed gap at about 28:00-28:38. ASR renders the shammes' name variously ('Rebbe Arala', 'Rabbi Akiva'); 'Reb Arele' is the likely name."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Aviva Basya Schreiber",
+    "role": "shema_guest",
+    "group": "Beis Yaakov of Borough Park",
+    "start_sec": 600,
+    "end_sec": 726,
+    "note": "As heard; spelling unverified."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:05Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "4ab57db8c9",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Chol Hamoed Pesach 525' = 49-334 s of this episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20525%20-%20The%20Mystery%20of%20the%20Vanishing%20Bottle%20of%20Wine%20%28Chol%20HaMoed%20Pesach%29%20%281992-04-21%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 525 - The Mystery of the Vanishing Bottle of Wine (Chol HaMoed Pesach) (1992-04-21).mp3",
+  "size_bytes": 21238708,
+  "mime_type": "audio/mpeg"
+ }
+}

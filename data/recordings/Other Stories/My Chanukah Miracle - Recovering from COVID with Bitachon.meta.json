@@ -1,0 +1,286 @@
+{
+ "id": "3fecbf9b28",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Story Videos",
+  "filename_title": "chanuka - my miracle",
+  "audio_path": "audio/Other Stories/My Chanukah Miracle - Recovering from COVID with Bitachon.mp3",
+  "duration_sec": 1431.915,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": [
+   "folder inferred (loose Drive download of an oversized file from Stories/Story Videos)",
+   "Drive download suffix '-031' stripped"
+  ]
+ },
+ "display": {
+  "title": "My Chanukah Miracle: Recovering from COVID with Bitachon",
+  "title_basis": "content",
+  "summary_short": "For Chanukah, the time to publicize miracles, the storyteller tells how he survived a critical case of COVID and what it taught him about bitachon and hashgachah pratis.",
+  "summary_long": "In the spirit of Chanukah, when we spread the news of miracles, the storyteller shares his own. In the week of Purim he fell ill, was rushed to the hospital with COVID, and spent about four weeks sedated, at one point so critically ill that his family was being prepared for the worst, until Hashem turned things around. He thanks everyone who davened for him and tells of a child who said, 'davening works.' He explains the Rebbe's teaching that more years of life mean more missions, the Frierdiker Rebbe's discourse on hashgachah pratis that carried him through prison, and the Rebbe's letters on bitachon and effort. A spinning dreidel teaches that the miracles are there even when we cannot see them. He describes learning to sit, stand and walk again by picturing the Rebbe telling him to stand up, and urges listeners to keep going forward. He sings 'I Believe in Hashem' and ends with the reminder that the Geulah is perfectly planned too.",
+  "lesson": "Hashem alone runs the world and every step is perfectly planned; our effort is needed, but the results come only from Hashem. Look for the miracles even while life is spinning.",
+  "keywords": [
+   "COVID",
+   "hospital",
+   "recovery",
+   "dreidel",
+   "walker",
+   "770",
+   "prayer",
+   "miracle",
+   "Shaar HaBitachon"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "contemporary"
+  ],
+  "series": null,
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2020-12",
+   "hebrew": "Chanukah 5781 (probable)",
+   "hebrew_year": 5781,
+   "precision": "month",
+   "basis": "calendar_cues",
+   "note": "Chanukah talk; COVID illness from Purim to Pesach, 'still recovering', so most likely Chanukah 5781. Year inferred."
+  },
+  "collections": [
+   "Story Videos"
+  ]
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "illness",
+    "severity": "moderate",
+    "note": "The narrator describes being critically ill with COVID, intubated and sedated, and that many people died in the pandemic."
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "health_info",
+    "note": "The narrator, who names himself, describes his own critical illness.",
+    "at_sec": 31
+   },
+   {
+    "flag": "identifiable_living_people",
+    "note": "The narrator and two rehabilitation staff are named.",
+    "at_sec": 1
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "a young boy who saw that davening works",
+   "hospital and rehabilitation staff"
+  ],
+  "topics": [
+   "hashgacha_pratis",
+   "miracles",
+   "hiskashrus",
+   "calendar",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "hakaras_hatov",
+   "hasmadah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "davening",
+   "modeh_ani"
+  ],
+  "calendar": [
+   "chanukah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe (around his 80th birthday): added years of life mean more missions to fulfill."
+   },
+   {
+    "work": "maamarim",
+    "note": "The Frierdiker Rebbe's Rosh Hashanah discourse on hashgachah pratis before his 1927 arrest."
+   },
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's letters urging study of Shaar HaBitachon, and on bitachon versus effort."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 13:4",
+    "note": "'Hashem is testing you' quoted for why challenges come."
+   }
+  ],
+  "places": [
+   "770 Eastern Parkway",
+   "Crown Heights"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 31,
+   "type": "opening",
+   "title": "A Chanukah greeting: spreading the miracle"
+  },
+  {
+   "start_sec": 31,
+   "end_sec": 200,
+   "type": "story",
+   "title": "Struck by COVID, and saved",
+   "summary": "The storyteller's critical illness after Purim and the turnaround, and a child who saw that davening works."
+  },
+  {
+   "start_sec": 200,
+   "end_sec": 655,
+   "type": "talk",
+   "title": "Bitachon and hashgachah pratis",
+   "summary": "More years mean more missions, the Frierdiker Rebbe's discourse before prison, and the Rebbe on bitachon and effort."
+  },
+  {
+   "start_sec": 655,
+   "end_sec": 784,
+   "type": "talk",
+   "title": "The lesson of the spinning dreidel"
+  },
+  {
+   "start_sec": 784,
+   "end_sec": 1176,
+   "type": "story",
+   "title": "Learning to stand again",
+   "summary": "Picturing the Rebbe telling him to stand gave him the strength to stand and walk again."
+  },
+  {
+   "start_sec": 1176,
+   "end_sec": 1280,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 1280,
+   "type": "closing",
+   "title": "The Geulah is perfectly planned too"
+  }
+ ],
+ "relations": [
+  {
+   "type": "alternate_take",
+   "target_id": "ee84a13b26",
+   "evidence": "content",
+   "confidence": 0.8,
+   "note": "Alternate take / cut of the same material."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Speaker names himself at the start (see hidden). Personal testimony about the COVID pandemic."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chaim Levi Goldstein",
+    "role": "other",
+    "start_sec": 1,
+    "end_sec": 31,
+    "note": "The narrator introduces himself; later called 'Rabbi Goldstein' and 'Levi'."
+   },
+   {
+    "name": "Dr. Rosen",
+    "role": "other",
+    "start_sec": 1019,
+    "end_sec": 1049,
+    "note": "Ran the rehabilitation center in Crown Heights."
+   },
+   {
+    "name": "Yenge Bistritzky",
+    "role": "other",
+    "start_sec": 1019,
+    "end_sec": 1049,
+    "note": "Name as heard; ran the rehabilitation center with Dr. Rosen."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "health",
+    "text": "The narrator describes his own COVID-19 illness from the week of Purim: intubated, sedated about four weeks, critical, lost 30 pounds, long rehabilitation; still recovering.",
+    "start_sec": 31,
+    "end_sec": 1080
+   }
+  ]
+ },
+ "identity_guesses": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:09Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "low",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Speaker names himself; confirm he is the weekly storyteller and whether his name may be shown.",
+   "Personal health story of a living person; confirm publication."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/My%20Chanukah%20Miracle%20-%20Recovering%20from%20COVID%20with%20Bitachon.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/My Chanukah Miracle - Recovering from COVID with Bitachon.mp3",
+  "size_bytes": 17183918,
+  "mime_type": "audio/mpeg"
+ }
+}

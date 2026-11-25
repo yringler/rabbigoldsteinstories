@@ -1,0 +1,217 @@
+{
+ "id": "e1c8ec3388",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Ten Times As Much",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Ten Times As Much.mp3",
+  "duration_sec": 1560.195,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Ten Times As Much",
+  "title_basis": "filename",
+  "summary_short": "A poor but joyful Chassid returns a rich man's lost fortune and refuses a 300-ruble reward. The Rebbe Rashab promises that Hashem will repay him ten times as much.",
+  "summary_long": "In the time of the Rebbe Rashab, Yehoshua Binyamin is so poor that the grocers, the melamed and the landlord all threaten to cut him off, yet he is always happy. He explains that the word 'ashir', rich, stands for eyes, teeth, hands and feet, and that the Zohar teaches that blessings come down to those who are joyful. After a fire sweeps through town, he finds a wallet full of money and valuable deeds. He struggles with his yetzer hara over Shabbos, but in shul he learns that the town's richest man, Pinchas Leib, has lost his whole fortune, and he returns it after Havdalah, firmly refusing a reward of 300 rubles. When he visits the Rebbe Rashab for a brachah, the Rebbe tells him that because he refused payment for the mitzvah, Hashem will repay him ten times as much, and that if he is offered a job as a chazzan, he should accept. A nearby community soon asks him to lead the davening for the High Holidays. On the way home he enters the house of a dying old wagon driver, who mistakes him for his servant and reveals where he buried a Jewish merchant's stolen money bag decades ago. Its owner cannot be found, and inside are exactly 3,000 rubles.",
+  "lesson": "Do a mitzvah for Hashem's sake without expecting a reward, and you will never lose out; stay happy with what you have.",
+  "keywords": [
+   "lost wallet",
+   "reward",
+   "rubles",
+   "fire",
+   "poverty",
+   "chazzan",
+   "wagon driver",
+   "buried treasure",
+   "ten times"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor family is threatened with eviction and loss of food and schooling; a fire damages the town."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "An old wagon driver says he spent all his earnings on vodka."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rebbe_rashab",
+    "role": "central"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Yehoshua Binyamin",
+   "Pinchas Leib, the rich man",
+   "the community leaders",
+   "the old wagon driver"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hiskashrus",
+   "character"
+  ],
+  "midos": [
+   "simcha",
+   "contentment",
+   "emes",
+   "bitachon",
+   "kabbalas_ol",
+   "self_control"
+  ],
+  "mitzvos": [
+   "hashavas_aveidah",
+   "honest_business"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "zohar",
+    "ref": "Parshas Tetzaveh",
+    "note": "Blessings from Above come to one who is joyful."
+   },
+   {
+    "work": "pirkei_avos",
+    "note": "'Who is rich? One who is happy with his portion.'"
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 1517,
+   "type": "story",
+   "title": "Ten Times As Much",
+   "summary": "A poor Chassid refuses a reward for returning a fortune and is repaid tenfold, as the Rebbe Rashab promised.",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 1517,
+   "type": "closing",
+   "title": "You never lose out",
+   "summary": "Doing a mitzvah for Hashem's sake never brings a loss; 'A gutten tag'."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "56c2eaabb2",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashavas Aveidah: The Rebbe Rashab's Chassid and the Lost Wallet, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "73edd7e5fc",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashavas Aveidah: The Rebbe Rashab's Chassid and the Lost Wallet, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "b56d1794b6",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Hashavas Aveidah: The Rebbe Rashab's Chassid and the Lost Wallet, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates' for poritz (here the landlord) and garbles 'chazzan' as 'Chassan/Chassidim'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "No series name said on air; opens with the song 'I believe in Hashem, I trust in Hashem'.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T17:00:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Ten%20Times%20As%20Much.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Ten Times As Much.mp3",
+  "size_bytes": 18723351,
+  "mime_type": "audio/mpeg"
+ }
+}

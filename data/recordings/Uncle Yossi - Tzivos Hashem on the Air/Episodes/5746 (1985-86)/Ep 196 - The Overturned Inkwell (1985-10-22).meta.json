@@ -1,0 +1,252 @@
+{
+ "id": "cce6cda372",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "196",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 196 - The Overturned Inkwell (1985-10-22).mp3",
+  "duration_sec": 1792.551,
+  "filename_facts": {
+   "episode_number": 196,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 196,
+   "story": "The overturned inkwell",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 196: The Overturned Inkwell",
+  "title_basis": "master_catalog",
+  "summary_short": "The 'My Mezuzah' drawing contest begins, a phone quiz, the secret of Shin-Dalet-Yud, Shema with a brother and sister, and how a spilled inkwell proved the world has a Creator.",
+  "summary_long": "Uncle Yossi launches a new Tzivos Hashem contest, 'My Mezuzah': draw and decorate your own mezuzah and mail it in before Chanukah, with a mezuzah written in Eretz Yisroel as the grand prize and a gift for every entrant. After a sponsor message, Mitzvah Time opens with a phone quiz: a listener answers which doors need a mezuzah and recites its brachah. Then comes the new lesson: the mezuzah is rolled so that the letters Shin-Dalet-Yud on its back face out at the top. This holy Name stands for 'Shomer Dalsos Yisroel', Guardian of the doors of Israel, and some say 'diros', dwellings, because Hashem guards the whole home and protects us as we come and go. After the Hakochainik march, a brother and sister lead the Shema. Story time: a king asks a wise rabbi why we cannot say the world simply came about by itself. When the king knocks over his inkwell and leaves the room, the rabbi paints a beautiful landscape and claims the spilled ink made it. 'Impossible!' says the king, and the rabbi points to the window: the world, too, must have a Maker. The show closes with an invitation to send in poems and compositions.",
+  "lesson": "Nothing happens by itself: the beauty of the world shows that Hashem created it and runs it.",
+  "keywords": [
+   "inkwell",
+   "painting",
+   "king",
+   "creation",
+   "drawing contest",
+   "Shin-Dalet-Yud",
+   "Shomer Dalsos Yisroel",
+   "phone quiz"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 196,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1985-10-22",
+   "hebrew": "7 Cheshvan 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "sequence_interpolation",
+   "note": "One week after 195 (Rosh Chodesh Cheshvan, 1985-10-15): 'last week we learned... the bracha'; 195-211 count matches exactly."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Phone-quiz winner and two Shema guests named in full.",
+    "at_sec": 441
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the king",
+   "the wise rabbi"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hashem_in_nature",
+   "mitzvos_in_daily_life",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "emunah",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "mezuzah",
+   "brachos",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bereishis 1:1",
+    "note": "'In the beginning Hashem created the heavens and the earth', quoted as the opening of the Torah."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 34,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 34,
+   "end_sec": 299,
+   "type": "announcement",
+   "title": "New contest: 'My Mezuzah'"
+  },
+  {
+   "start_sec": 299,
+   "end_sec": 364,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 364,
+   "end_sec": 590,
+   "type": "quiz",
+   "title": "Mitzvah Time phone quiz"
+  },
+  {
+   "start_sec": 590,
+   "end_sec": 874,
+   "type": "halachah",
+   "title": "Shin-Dalet-Yud: Guardian of the Doors of Israel",
+   "summary": "How the mezuzah is placed in its case, the meaning of the Name on its back, and Hashem's protection as we come and go.",
+   "linked_items": [
+    "7652afb043"
+   ]
+  },
+  {
+   "start_sec": 874,
+   "end_sec": 1066,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 1066,
+   "end_sec": 1229,
+   "type": "shema_guest",
+   "title": "Shema with a brother and sister"
+  },
+  {
+   "start_sec": 1229,
+   "end_sec": 1687,
+   "type": "story",
+   "title": "The Overturned Inkwell",
+   "summary": "A rabbi uses a spilled inkwell and a painting to show a king that the world must have a Creator."
+  },
+  {
+   "start_sec": 1687,
+   "type": "closing",
+   "title": "Send in your poems, Dial-a-Jewish-Story and closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "7652afb043",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'Mezuzah 196' = 593-859 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Children named on air (see hidden). Contest, prizes, office phone and ads are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Chani Yunich",
+    "role": "contest_winner",
+    "start_sec": 441,
+    "end_sec": 560,
+    "note": "Mitzvah Time phone-quiz winner."
+   },
+   {
+    "name": "Miriam Clapman",
+    "role": "shema_guest",
+    "start_sec": 1093,
+    "end_sec": 1229
+   },
+   {
+    "name": "Meir Clapman",
+    "role": "shema_guest",
+    "start_sec": 1093,
+    "end_sec": 1229,
+    "note": "Heard as 'Mayor'; brother of Miriam."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:00:12Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20196%20-%20The%20Overturned%20Inkwell%20%281985-10-22%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 196 - The Overturned Inkwell (1985-10-22).mp3",
+  "size_bytes": 21511740,
+  "mime_type": "audio/mpeg"
+ }
+}

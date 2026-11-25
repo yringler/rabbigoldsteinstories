@@ -1,0 +1,162 @@
+{
+ "id": "6d206e85c0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Summertime 281",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Summertime - A Chance to Get to Know Hashem's World (Ep 281).mp3",
+  "duration_sec": 207.224,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 281,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 281,
+   "story": "Torah The Best Thing of All #2",
+   "topic": "Summertime",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Summertime: A Chance to Get to Know Hashem's World",
+  "title_basis": "content",
+  "summary_short": "Summer vacation is a time to discover Hashem through the wonders of nature, and three daily mitzvos, Torah, davening and tzedakah, bring a safe and healthy summer.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, given as summer vacation was about to begin. Uncle Yossi explains that vacation is a time to rest from the usual routine, but also a time to get to know Hashem better. All year long we are mostly indoors, in shul and in school; in the summer we are outdoors, visiting parks, botanical gardens and zoos, and admiring the trees, flowers and fields painted by the greatest Artist, Hashem Himself. He urges children not to waste this precious time but to use it as a stairway closer to Hashem. To earn Hashem's blessing for a safe and healthy summer, he asks everyone to do three things each day: learn Torah, daven, and put a few coins in the tzedakah pushka, the Torah, Avodah and Gemilus Chasadim on which the world stands.",
+  "lesson": "Use summer vacation to see Hashem in His world, and keep up Torah, davening and tzedakah every single day.",
+  "keywords": [
+   "summer vacation",
+   "nature",
+   "parks",
+   "zoo",
+   "botanical gardens",
+   "trees",
+   "flowers",
+   "pushka"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 281,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1987-06-23",
+   "hebrew": "26 Sivan 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "First aired in episode 281 (filename 281 06-23-87); the talk also re-aired in episodes 385 and 440."
+  },
+  "collections": [
+   "Midos Tovos"
+  ]
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "hashem_in_nature",
+   "mitzvos_in_daily_life"
+  ],
+  "midos": [
+   "hakaras_hatov",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "torah_study",
+   "davening",
+   "tzedakah"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "b446975e89",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 440."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c7e1d15aed",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "Also aired in episode 385."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "4ede6df733",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 32,
+   "note": "Episode 281 (filename number); clip = 32-239 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the summer talk; ends right before the camp-line announcement."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:36Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/Summertime%20-%20A%20Chance%20to%20Get%20to%20Know%20Hashem%27s%20World%20%28Ep%20281%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/Summertime - A Chance to Get to Know Hashem's World (Ep 281).mp3",
+  "size_bytes": 2487560,
+  "mime_type": "audio/mpeg"
+ }
+}

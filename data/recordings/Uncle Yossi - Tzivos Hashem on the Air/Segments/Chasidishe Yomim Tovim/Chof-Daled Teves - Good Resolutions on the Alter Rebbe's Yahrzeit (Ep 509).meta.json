@@ -1,0 +1,152 @@
+{
+ "id": "f758e668ca",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Chasidishe Yomim Tovim",
+  "filename_title": "24 Teves 509",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Chof-Daled Teves - Good Resolutions on the Alter Rebbe's Yahrzeit (Ep 509).mp3",
+  "duration_sec": 134.81,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 509,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 509,
+   "story": "Saved by a miracle",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Chof-Daled Teves: Good Resolutions on the Alter Rebbe's Yahrzeit",
+  "title_basis": "content",
+  "summary_short": "On Chof-Daled Teves, the Alter Rebbe's yahrzeit, Uncle Yossi explains why it is a time for strong resolutions and for helping others grow in Torah and mitzvos.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, aired on Chof-Daled Teves, the 24th of Teves. Uncle Yossi explains that this is the yahrzeit of the Alter Rebbe, Rabbi Schneur Zalman of Liadi, the Baal HaTanya. Our Sages teach that a tzaddik's yahrzeit is a wise time to make strong resolutions for the coming year, because the merit of the tzaddik helps us keep them. The best resolution is to learn more Torah and do more mitzvos, and even better, to help relatives and friends do the same. Uncle Yossi gives the 'order of the day' to every soldier in Tzivos Hashem: find someone who needs to know more about Hashem and His Torah. That is real Ahavas Yisroel, and it should be done with joy.",
+  "lesson": "On a tzaddik's yahrzeit, resolve to learn more Torah, do more mitzvos and help someone else do the same, with joy.",
+  "keywords": [
+   "yahrzeit",
+   "resolutions",
+   "Baal HaTanya",
+   "order of the day",
+   "soldiers"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 509,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1991-12-31",
+   "hebrew": "24 Teves 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'It's Chof-Daled Teves'; aired in episode 509 (Tuesday, 24 Teves 5752)."
+  },
+  "collections": [
+   "Chasidishe Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "chabad_rebbeim",
+   "calendar",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "simcha"
+  ],
+  "mitzvos": [
+   "ahavas_yisroel_mitzvah",
+   "torah_study",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "chof_daled_teves"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "f748313861",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "offset_sec": 36,
+   "note": "Episode 509 (filename number); clip = 36-171 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:14:42Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Chasidishe%20Yomim%20Tovim/Chof-Daled%20Teves%20-%20Good%20Resolutions%20on%20the%20Alter%20Rebbe%27s%20Yahrzeit%20%28Ep%20509%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Chasidishe Yomim Tovim/Chof-Daled Teves - Good Resolutions on the Alter Rebbe's Yahrzeit (Ep 509).mp3",
+  "size_bytes": 1618632,
+  "mime_type": "audio/mpeg"
+ }
+}

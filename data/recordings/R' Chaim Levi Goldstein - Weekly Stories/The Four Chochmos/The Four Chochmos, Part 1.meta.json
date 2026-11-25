@@ -1,0 +1,289 @@
+{
+ "id": "57f8a507a8",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "4 chochmas",
+  "filename_title": "4 chochmos a",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 1.mp3",
+  "duration_sec": 1115.625,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "a",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos, Part 1",
+  "title_basis": "content",
+  "summary_short": "Rabbi Yehuda, who loves hachnasas orchim, saves for a whole year and sets off for the great Leipzig fair with just four gold coins and complete trust in Hashem.",
+  "summary_long": "The storyteller opens in the month of Kislev, listing its many Chassidic Yomim Tovim, from Rosh Chodesh Kislev to the Alter Rebbe's second release on Chanukah. He explains that the Rebbe pours out brachos and we only need to 'catch' them with a good resolution, and tells how the Rebbe Rashab told a fine yeshiva bochur, 'I know who you are better than you know who you are.' Emunas tzaddikim means following the Rebbe's advice, such as learning Chitas, even when we do not understand it. The story begins: Rabbi Yehuda keeps a guest room fit for a king. Hearing of the yearly market in Leipzig, he saves a coin or two each day after giving tzedakah. After a year he has four hundred small coins, which he changes into four gold coins. His wife and his friend Reb Yankel, who gives him a ride, wonder what he can buy with so little, but Rabbi Yehuda trusts that Hashem is in charge of success. At the market nothing suits him until he finds an empty shop where a man named Avram sells 'chochmos', good advice, for one gold coin each. To be continued.",
+  "lesson": "Trust that Hashem is in charge of our success, and follow the advice of a tzaddik even when we do not understand it.",
+  "keywords": [
+   "Leipzig fair",
+   "gold coins",
+   "guest room",
+   "pushka",
+   "market",
+   "brooms",
+   "silverware",
+   "Yechidus",
+   "tikkun",
+   "good advice"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "4 chochmas"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "7 Kislev",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Vav Kislev, which was yesterday'; year not stated."
+  },
+  "part": {
+   "set_key": "the-four-chochmos",
+   "part_number": 1,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda",
+   "his wife",
+   "Reb Yankel, his friend",
+   "Avram, the shopkeeper",
+   "a yeshiva bochur"
+  ],
+  "topics": [
+   "hiskashrus",
+   "emunah_bitachon",
+   "kindness_and_community",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "kabbalas_ol",
+   "chesed"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah",
+   "chitas"
+  ],
+  "calendar": [
+   "yud_kislev",
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "The Rebbe's reply to a shliach who asked to be excused from Chitas (as told)."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Heard from Rabbi Groner, the Rebbe's secretary, about the Rebbe's brachos."
+   }
+  ],
+  "places": [
+   "Leipzig"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 35,
+   "type": "opening",
+   "title": "Ashreinu: how fortunate we are"
+  },
+  {
+   "start_sec": 35,
+   "end_sec": 232,
+   "type": "talk",
+   "title": "The Yomim Tovim of Kislev and the Rebbe's brachos",
+   "calendar": [
+    "yud_kislev",
+    "yud_tes_kislev"
+   ],
+   "people": [
+    "the_rebbe",
+    "mitteler_rebbe",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 232,
+   "end_sec": 423,
+   "type": "story",
+   "title": "The Rebbe Rashab knows who you are",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 423,
+   "end_sec": 548,
+   "type": "talk",
+   "title": "Emunas tzaddikim: following the Rebbe's advice",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 548,
+   "type": "story_chapter",
+   "title": "The Four Chochmos, Part 1",
+   "story_key": "the-four-chochmos",
+   "chapter": 1,
+   "summary": "Rabbi Yehuda saves for a year, travels to the Leipzig fair with four gold coins and meets Avram, who sells good advice."
+  }
+ ],
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "8a7b5b2912",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "Part 2 ('4 chochmos 2 good') opens exactly where this ends, with Avram selling the first chochmah."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "420e35767f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 3 ('4 chochmos c')."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1ff3abfa6a",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Part 4, the final part ('4 ch final')."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "603890b365",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "'4 choch a': another recording of Part 1, also made the day after Vav Kislev; different wording, ends earlier."
+  },
+  {
+   "type": "same_story",
+   "target_id": "008f627970",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Four Chochmos: Rabbi Yehudah's Four Pieces of Wisdom' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85733bc4b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Chochmos 3 and 4: The Hotel, the Trial and the Gift in the Challah' (Stories, from 17:46), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Preferred copy of Part 1: leads directly into Part 2. ASR garbles Hebrew terms (Yom Mtoivim, Mizit Shemag)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "How lucky and happy we are with our share that we are Yidden.",
+   "at_sec": 4
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:56Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from format (calendar talk, weekly serial, 'a gutten tag' sign-off); does not open with the 'I Believe' song. Confirm.",
+   "Two recordings of Part 1 exist (this and 603890b365); this one connects to Part 2."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos/The%20Four%20Chochmos%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 1.mp3",
+  "size_bytes": 13388421,
+  "mime_type": "audio/mpeg"
+ }
+}

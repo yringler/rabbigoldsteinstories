@@ -1,0 +1,173 @@
+{
+ "id": "ba2234262f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Elul 490",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul, Melech BaSadeh - Greeting the King in the Field (Ep 490).mp3",
+  "duration_sec": 623.907,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 490,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 490,
+   "story": "The sound of the Shofar",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Elul, Melech BaSadeh: Greeting the King in the Field",
+  "title_basis": "content",
+  "summary_short": "Why Elul is so special: the Alter Rebbe's parable of the King in the field, who greets everyone with a smile and grants every request, and what to put at the top of our list.",
+  "summary_long": "A teaching for the month of Elul from the Tzivos Hashem radio show. With Shabbos Mevarchim Elul coming, Uncle Yossi asks children to memorize two words: Melech BaSadeh, the King in the field. He retells the Alter Rebbe's parable from Likkutei Torah, Parshas Re'eh: when a king travels home, all the people go out to the fields to greet him. There, unlike in his palace with its applications and waiting lists, anyone may come close, and the smiling king grants every request. In Elul, the last month of the year and a bridge to the new one, Hashem is just as close. So children should make a long list of good things for body and soul, such as health, Ahavas Hashem, Torah and mitzvos, and put Moshiach at the very top, since that brachah includes all the others. The talk ends with an invitation to come to shul on Shabbos Mevarchim and pray for the Geulah.",
+  "lesson": "In Elul Hashem is like a king in the field, close and smiling: ask Him for everything good, and put Moshiach at the top of the list.",
+  "keywords": [
+   "King in the Field",
+   "royal coach",
+   "palace",
+   "wish list",
+   "Rosh Chodesh Elul",
+   "parable"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 490,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-07-30",
+   "hebrew": "19 Av 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Date of episode 490, from which the clip is cut: 'This coming Shabbos is Shabbos Mevarchim Elul' (3 Aug 1991). The same talk also aired in episode 391."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the king in the parable"
+  ],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "emunah",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "elul",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "torah_or_likkutei_torah",
+    "ref": "Likkutei Torah, Parshas Re'eh 32b",
+    "note": "The Alter Rebbe's parable of the King in the field (Melech BaSadeh)."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Refers to 'this coming Shabbos' (Shabbos Mevarchim Elul)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "d593b7ba79",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 391."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "7901aa302d",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "offset_sec": 49,
+   "note": "Episode 490 (filename number); clip = 49-673 s of the episode."
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:18:48Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Elul%2C%20Melech%20BaSadeh%20-%20Greeting%20the%20King%20in%20the%20Field%20%28Ep%20490%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Elul, Melech BaSadeh - Greeting the King in the Field (Ep 490).mp3",
+  "size_bytes": 7487704,
+  "mime_type": "audio/mpeg"
+ }
+}

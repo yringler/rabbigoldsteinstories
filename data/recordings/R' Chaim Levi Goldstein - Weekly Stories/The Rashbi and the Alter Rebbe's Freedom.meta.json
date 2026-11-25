@@ -1,0 +1,258 @@
+{
+ "id": "bbb62fc7b5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Rashbi and The Alter Rebbes Freedom",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Rashbi and the Alter Rebbe's Freedom.mp3",
+  "duration_sec": 1326.942,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Rashbi and the Alter Rebbe's Freedom",
+  "title_basis": "filename",
+  "summary_short": "Everything comes from Above: why the Alter Rebbe was imprisoned, and a Chassid's dream on the Maggid's yahrzeit in which a Heavenly court led by the Rashbi decreed his freedom.",
+  "summary_long": "The storyteller begins with the Rebbe's explanation, given at a children's rally, of why we say Shehakol on a sip of water: to remember that everything, even a drop of water, comes from Hashem. Everything except our choice to do mitzvos is planned by Hashem, so we can feel safe and trust Him. That explains why the Alter Rebbe, in prison, asked the Maggid and the Baal Shem Tov why he was there: informers were only the shadow of a complaint in Heaven that he was spreading Chassidus too widely, and his teachers told him to teach even more once freed. After explaining Rabbi Menachem Mendel of Horodok's years as leader and the Maggid's words that Yud-Tes Kislev is 'our Yom Tov', he tells the story of Reb Moshe of Starodub. Reb Moshe faints when the Alter Rebbe is taken away and fasts daily during the imprisonment. On the night of the Maggid's yahrzeit he dozes off at a farbrengen and dreams that the Maggid weeps for his student before the tzaddikim of Gan Eden, and Rabbi Shimon bar Yochai convenes a court that decrees the Alter Rebbe's release. A week later a letter confirms he was freed that very day.",
+  "lesson": "Everything that happens in this world comes from Above, so we can trust Hashem and not worry.",
+  "keywords": [
+   "Shehakol",
+   "water",
+   "prison",
+   "informers",
+   "shadow",
+   "fainting",
+   "fasting",
+   "dream",
+   "Heavenly court",
+   "letter"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "The Alter Rebbe is arrested by armed soldiers and imprisoned after informers slander him."
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "A dream of tzaddikim in Gan Eden and a Heavenly court deciding the Alter Rebbe's release."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "appears"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_menachem_mendel_of_horodok",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "appears"
+   },
+   {
+    "id": "arizal",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Moshe of Starodub",
+   "the Chassidim at the farbrengen"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "hashgacha_pratis",
+   "chassidim",
+   "calendar"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "mesiras_nefesh"
+  ],
+  "mitzvos": [
+   "brachos"
+  ],
+  "calendar": [
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe at a children's rally: why water gets the blessing Shehakol."
+   },
+   {
+    "work": "tanya",
+    "ref": "Iggeres HaKodesh",
+    "note": "The Alter Rebbe's letter of comfort on the passing of Rabbi Menachem Mendel of Horodok."
+   }
+  ],
+  "places": [
+   "Starodub",
+   "Petersburg prison"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 47,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 47,
+   "end_sec": 268,
+   "type": "sichah",
+   "title": "Why water gets a big brachah",
+   "summary": "The Rebbe explains Shehakol: everything, even a sip of water, comes from Hashem.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 268,
+   "end_sec": 537,
+   "type": "story",
+   "title": "Why was the Alter Rebbe in prison?",
+   "summary": "The Maggid and the Baal Shem Tov visit the Alter Rebbe in prison and explain the Heavenly complaint.",
+   "people": [
+    "alter_rebbe",
+    "maggid_of_mezritch",
+    "baal_shem_tov"
+   ]
+  },
+  {
+   "start_sec": 537,
+   "end_sec": 710,
+   "type": "story_intro",
+   "title": "Rabbi Menachem Mendel of Horodok and 'our Yom Tov'",
+   "summary": "Background on the Horodoker and the Maggid's words about Yud-Tes Kislev.",
+   "people": [
+    "rabbi_menachem_mendel_of_horodok",
+    "maggid_of_mezritch"
+   ]
+  },
+  {
+   "start_sec": 710,
+   "type": "story",
+   "title": "Reb Moshe's dream",
+   "summary": "A fasting Chassid dreams of the Heavenly court that freed the Alter Rebbe.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_menachem_mendel_of_horodok",
+    "rabbi_shimon_bar_yochai"
+   ],
+   "calendar": [
+    "yud_tes_kislev"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "797367c271",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: The Maggid's Yahrzeit and Rabbi Shimon bar Yochai's Ruling' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Song gap to 0:47. Ends without a sign-off. ASR garbles Mezritcher Maggid and Horodoker."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:20Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Rashbi%20and%20the%20Alter%20Rebbe%27s%20Freedom.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Rashbi and the Alter Rebbe's Freedom.mp3",
+  "size_bytes": 15924091,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,368 @@
+{
+ "id": "f826c5f743",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "162",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 162 - The Forbidden Road, Chapter 2 (Tu B'Shvat) (1985-02-05).mp3",
+  "duration_sec": 1834.215,
+  "filename_facts": {
+   "episode_number": 162,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 162,
+   "story": "The forbidden road #2",
+   "topic": "כיבוד או\"א טו בשבט ננס הקצב",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 162: The Forbidden Road, Chapter 2 (Tu B'Shvat)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Tu B'Shvat show: the trees wish each other a happy new year, Nanas the butcher earns a place in Gan Eden by caring for his parents, and Reb Beryl is saved through a promise of tzedakah.",
+  "summary_long": "Broadcast on the eve of Tu B'Shvat, the New Year for Trees. Uncle Yossi pictures the trees wishing each other a happy new year and explains the custom of eating fruits of Eretz Yisroel with the brachah and Shehecheyanu. The march is the song of the second of the Twelve Pesukim, Shema Yisrael. Mitzvah Time announces an essay contest and tells how the sage Rabbi Yehoshua dreamed that his place in Gan Eden would be beside Nanas the butcher, a simple man who devotedly fed, washed and dressed his aged parents. A caller reads her essay about giving her seat on the train to an old man, and after the sponsor and the Shema with a visiting family, the story concludes. The Rebbe tells the penniless Reb Beryl that it is never too late for teshuvah and has him promise to give a tenth of all his money to tzedakah. That night the officer celebrates with wine, falls asleep, and the maid sweeps the signed paper into the fire. Reb Beryl's property is saved; he apologizes to his son's teacher, brings him back and gives tzedakah generously. The show ends with the Tu B'Shvat cover of the Moshiach Times.",
+  "lesson": "Give tzedakah generously, for Hashem blesses those who share; and honoring parents can earn the highest place in Gan Eden.",
+  "keywords": [
+   "fruit trees",
+   "New Year for Trees",
+   "butcher",
+   "Gan Eden",
+   "tithe",
+   "signed paper",
+   "fireplace",
+   "essay contest",
+   "train seat",
+   "Moshiach Times"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 162,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "historical",
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "date": {
+   "gregorian": "1985-02-05",
+   "hebrew": "14 Shevat 5745",
+   "hebrew_year": 5745,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Tonight is Tu B'Shvat, the fifteenth day of Shevat': evening of Tue 1985-02-05."
+  },
+  "serial": {
+   "story_key": "the-forbidden-road",
+   "story_title": "The Forbidden Road",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "An officer drinks wine until he falls asleep, which leads to the happy ending.",
+    "at_sec": 1445
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A child reading her essay on the phone named in full; a visiting family named.",
+    "at_sec": 681
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_yehoshua_ben_ilem",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "Reb Beryl",
+   "the Rebbe",
+   "Reb Leib the melamed",
+   "Dovid, Reb Beryl's son",
+   "the officer",
+   "the housemaid",
+   "Rabbi Yehoshua",
+   "Nanas the butcher"
+  ],
+  "topics": [
+   "calendar",
+   "kindness_and_community",
+   "family_and_home",
+   "teshuvah"
+  ],
+  "midos": [
+   "generosity",
+   "controlling_anger",
+   "kibbud",
+   "forgiveness",
+   "bitachon"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "kibbud_av_vaem",
+   "kibbud_zekeinim",
+   "brachos",
+   "twelve_pesukim",
+   "shema",
+   "tehillim"
+  ],
+  "calendar": [
+   "tu_bshvat"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Devarim 14:22",
+    "note": "'Aser t'aser', you shall surely tithe."
+   },
+   {
+    "work": "gemara",
+    "ref": "Taanis 9a",
+    "note": "'Aser bishvil shetisasher', give a tenth so that you become rich; quoted as 'our Chachamim'."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 24,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 24,
+   "end_sec": 110,
+   "type": "talk",
+   "title": "Tu B'Shvat, the New Year for Trees",
+   "summary": "Eating fruits of Eretz Yisroel with a brachah, and resolving to bear the fruits of good deeds.",
+   "calendar": [
+    "tu_bshvat"
+   ],
+   "linked_items": [
+    "aec343b992"
+   ]
+  },
+  {
+   "start_sec": 110,
+   "end_sec": 145,
+   "type": "talk",
+   "title": "The Twelve Pesukim songs: Shema Yisrael",
+   "linked_items": [
+    "e707859a8d"
+   ]
+  },
+  {
+   "start_sec": 145,
+   "end_sec": 265,
+   "type": "song",
+   "title": "Hakochainik March: Shema Yisrael"
+  },
+  {
+   "start_sec": 265,
+   "end_sec": 353,
+   "type": "announcement",
+   "title": "Mitzvah Time essay contest"
+  },
+  {
+   "start_sec": 353,
+   "end_sec": 647,
+   "type": "story",
+   "title": "Nanas the Butcher",
+   "summary": "Rabbi Yehoshua learns that a simple butcher who cares for his aged parents will share his place in Gan Eden.",
+   "linked_items": [
+    "42a448f1fc"
+   ]
+  },
+  {
+   "start_sec": 647,
+   "end_sec": 800,
+   "type": "quiz",
+   "title": "A listener reads her essay: giving up a seat"
+  },
+  {
+   "start_sec": 800,
+   "end_sec": 870,
+   "type": "sponsor",
+   "title": "A word from our sponsor",
+   "linked_items": [
+    "bda75a59cd"
+   ]
+  },
+  {
+   "start_sec": 870,
+   "end_sec": 1112,
+   "type": "story_chapter",
+   "title": "The Forbidden Road, Chapter 2 (recap and the Rebbe)",
+   "summary": "Recap, and Reb Beryl pours out his story to the Rebbe.",
+   "story_key": "the-forbidden-road",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1112,
+   "end_sec": 1247,
+   "type": "shema_guest",
+   "title": "Shema with a visiting family"
+  },
+  {
+   "start_sec": 1247,
+   "end_sec": 1660,
+   "type": "story_chapter",
+   "title": "The Forbidden Road, Chapter 2 (conclusion)",
+   "summary": "Reb Beryl promises to give a tenth to tzedakah, and the signed paper ends up in the fire.",
+   "story_key": "the-forbidden-road",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1660,
+   "end_sec": 1780,
+   "type": "announcement",
+   "title": "The Tu B'Shvat Moshiach Times",
+   "calendar": [
+    "tu_bshvat"
+   ]
+  },
+  {
+   "start_sec": 1780,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "A child's full name and a guest family's surname are heard (see hidden). The guest family's introductions are not transcribed."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Sterna Sarah Goldstein",
+    "role": "contest_winner",
+    "start_sec": 681,
+    "end_sec": 800,
+    "note": "Read her essay on the phone."
+   },
+   {
+    "name": "the Lazell family",
+    "role": "shema_guest",
+    "start_sec": 1112,
+    "end_sec": 1247,
+    "note": "Surname as heard ('Lazell' / 'Lozell'); individual names not transcribed."
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:16Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "42a448f1fc",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Kibud Av V'Em 162' = 353-647 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "aec343b992",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "'Tu B'Shvat 162' = 24-98 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "bda75a59cd",
+   "evidence": "text_overlap",
+   "confidence": 0.99,
+   "note": "'mmm la gevina 2' = 800-860 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "e707859a8d",
+   "evidence": "text_overlap",
+   "confidence": 0.66,
+   "note": "'12 Psukim Shema 2 162' = 112-143 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "53cdf327e6",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 161 = 'The forbidden road #1', 162 = '#2'; recap confirms."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "53cdf327e6",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Forbidden Road' (1985): ep 161 ch. 1 and ep 162 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5745%20%281984-85%29/Ep%20162%20-%20The%20Forbidden%20Road%2C%20Chapter%202%20%28Tu%20B%27Shvat%29%20%281985-02-05%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5745 (1984-85)/Ep 162 - The Forbidden Road, Chapter 2 (Tu B'Shvat) (1985-02-05).mp3",
+  "size_bytes": 22011723,
+  "mime_type": "audio/mpeg"
+ }
+}

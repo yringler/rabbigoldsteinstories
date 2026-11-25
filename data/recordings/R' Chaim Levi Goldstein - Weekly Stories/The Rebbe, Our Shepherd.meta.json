@@ -1,0 +1,220 @@
+{
+ "id": "28664b56ac",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Der Rebbe - Our Shepherd",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe, Our Shepherd.mp3",
+  "duration_sec": 1121.988,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Rebbe, Our Shepherd",
+  "title_basis": "filename",
+  "summary_short": "The Tzemach Tzedek sends a trembling Chassid to tell a cruel poritz it is time to do teshuvah, then explains with a shepherd's parable why some sheep must be carried out of the pit.",
+  "summary_long": "After the song 'I Believe in Hashem', the storyteller tells a story passed down by a great-nephew of the Tzemach Tzedek. Reb Dov, a Chassid from Romania, travels some 800 miles by horse and wagon to the Rebbe and back. On the way home he stops for Shabbos in a city where a very old Chassid, who knew the Mitteler Rebbe and perhaps the Alter Rebbe, speaks only at Shalosh Seudos. Reb Dov cannot hear the story over the crowd, so the old rav repeats it for him. Once the Tzemach Tzedek sent a Chassid to a Jew-hating poritz guarded by vicious dogs and armed men, with one message: it is time for you to do teshuvah. Protected by a holy Name of Hashem the Rebbe taught him, the Chassid walked in unharmed, delivered the words and left, and then forgot the Name. The poritz vanished, and months later a silent beggar sat in the Lubavitch shul, crying over Tehillim and fasting. When the Chassidim asked why the poritz got such a shortcut while they must work all their lives, the Tzemach Tzedek answered with the parable of a shepherd who calls stray sheep back but must climb down and carry one that has fallen into a pit.",
+  "lesson": "The Rebbe is a shepherd who cares for every Jew; most of us can return to the path when called, and no Jew is ever too far to come back.",
+  "keywords": [
+   "shepherd",
+   "sheep",
+   "pit",
+   "Romania",
+   "horse and wagon",
+   "Shalosh Seudos",
+   "vicious dogs",
+   "guards",
+   "secret Name of Hashem",
+   "beggar",
+   "Lubavitch"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A Chassid walks past vicious dogs and armed guards to an evil poritz; he is unharmed."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The poritz is known as a Jew-hater who caused the Jews much trouble."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Reb Dov, a Chassid from Romania",
+   "the old Chassid and rav",
+   "Moshe, the Chassid sent on the mission",
+   "the poritz",
+   "the Chassidim in the Rebbe's shul"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "teshuvah",
+   "hiskashrus",
+   "miracles"
+  ],
+  "midos": [
+   "courage",
+   "kabbalas_ol",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "tehillim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "Told by Rabbi Yeshaya HaLevi Horowitz, a great-nephew of the Tzemach Tzedek."
+   }
+  ],
+  "places": [
+   "Lubavitch",
+   "Romania"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 37,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 37,
+   "end_sec": 390,
+   "type": "story",
+   "title": "Reb Dov's journey and the old Chassid",
+   "summary": "A Chassid returning from the Tzemach Tzedek stops to hear an elderly Chassid's story.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 390,
+   "end_sec": 935,
+   "type": "story",
+   "title": "The Rebbe's message to the poritz",
+   "summary": "A Chassid delivers the Tzemach Tzedek's call to teshuvah, and the poritz returns as a penitent.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 935,
+   "type": "story",
+   "title": "The parable of the shepherd",
+   "summary": "The Tzemach Tzedek explains why the poritz needed to be carried out of the pit.",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "ac1665d002",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Tzemach Tzedek and the Poritz' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'pirates' and 'parrots' for poritz throughout."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:24:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Rebbe%2C%20Our%20Shepherd.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Rebbe, Our Shepherd.mp3",
+  "size_bytes": 13464909,
+  "mime_type": "audio/mpeg"
+ }
+}

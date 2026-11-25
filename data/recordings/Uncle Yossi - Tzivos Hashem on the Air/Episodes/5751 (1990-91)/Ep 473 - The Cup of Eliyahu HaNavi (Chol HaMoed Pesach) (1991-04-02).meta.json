@@ -1,0 +1,281 @@
+{
+ "id": "f891b04599",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "473",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 473 - The Cup of Eliyahu HaNavi (Chol HaMoed Pesach) (1991-04-02).mp3",
+  "duration_sec": 1841.562,
+  "filename_facts": {
+   "episode_number": 473,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 473,
+   "story": "The cup of Eliyahu Hanovie",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 473: The Cup of Eliyahu HaNavi (Chol HaMoed Pesach)",
+  "title_basis": "master_catalog",
+  "summary_short": "A Chol HaMoed Pesach show: the freedom of body and soul, Shema with a Beis Yaakov class, the story of a poor woman who would not sell her Kos shel Eliyahu, and why we count the Omer.",
+  "summary_long": "Broadcast during Chol HaMoed Pesach 5751. Uncle Yossi explains that leaving Egypt freed our bodies, but our freedom was complete only when we received the Torah 49 days later, and we pray for the final redemption of body and soul. After the Hakochainik march, a third-grade class from Beis Yaakov of Boro Park recites the Shema, and everyone gives tzedakah. Story time opens with our belief in Moshiach and the cup set out for Eliyahu HaNavi at the Seder, then tells of Devorah, whose precious golden Kos shel Eliyahu was a family treasure. When her struggling husband suggests selling it to pay for Pesach, she refuses and trusts in Hashem. She shelters an old beggar from a storm; his gold coin keeps reappearing on her table, and on Seder night he returns and reveals that he is Eliyahu HaNavi. Finally, Uncle Yossi explains Sefiras HaOmer as eager counting toward the giving of the Torah, encourages children to look closely at the Torah during hagbah, and invites them to write in about it.",
+  "lesson": "Honor the mitzvos and trust in Hashem even when times are hard; kindness to a stranger brings blessing. Count the days to Shavuos with excitement for the Torah.",
+  "keywords": [
+   "Kos shel Eliyahu",
+   "golden cup",
+   "old beggar",
+   "gold coin",
+   "rainstorm",
+   "Seder night",
+   "counting the Omer",
+   "hagbah",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 473,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-02",
+   "hebrew": "18 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Here we are enjoying Chol HaMoed Pesach' and the Omer count has begun; the Tuesday of Chol HaMoed 5751 was 2 April 1991, one week after episode 472 (Yud-Aleph Nissan)."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "identifiable_living_people",
+    "note": "A visiting class's teacher is named on air.",
+    "at_sec": 406
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "eliyahu_hanavi",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Devorah",
+   "Berel, her husband",
+   "the old beggar",
+   "the grocer"
+  ],
+  "topics": [
+   "calendar",
+   "moshiach_geulah",
+   "miracles",
+   "torah_study"
+  ],
+  "midos": [
+   "bitachon",
+   "chesed",
+   "emunah"
+  ],
+  "mitzvos": [
+   "seder",
+   "sefiras_haomer",
+   "hachnasas_orchim",
+   "kavod_shul",
+   "shema",
+   "tzedakah"
+  ],
+  "calendar": [
+   "pesach",
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 46,
+   "type": "opening",
+   "title": "Opening and Yom Tov greeting"
+  },
+  {
+   "start_sec": 46,
+   "end_sec": 174,
+   "type": "talk",
+   "title": "Zman Cheiruseinu: Freedom of Body and Soul",
+   "summary": "Leaving Egypt freed the body; receiving the Torah freed the soul, and we pray for the complete redemption.",
+   "calendar": [
+    "pesach"
+   ],
+   "linked_items": [
+    "32e631c050"
+   ]
+  },
+  {
+   "start_sec": 174,
+   "end_sec": 348,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 348,
+   "end_sec": 550,
+   "type": "shema_guest",
+   "title": "Shema with a third-grade class from Beis Yaakov of Boro Park"
+  },
+  {
+   "start_sec": 550,
+   "end_sec": 581,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 581,
+   "end_sec": 1296,
+   "type": "story",
+   "title": "The Cup of Eliyahu HaNavi",
+   "summary": "After a word on believing in Moshiach, the story of Devorah, who would not sell her Kos shel Eliyahu and was blessed by a mysterious guest.",
+   "people": [
+    "eliyahu_hanavi"
+   ]
+  },
+  {
+   "start_sec": 1296,
+   "end_sec": 1698,
+   "type": "talk",
+   "title": "Counting the Omer and Looking at the Torah at Hagbah",
+   "summary": "Why we count the days to Matan Torah, and an invitation to watch hagbah closely and write in about it.",
+   "calendar": [
+    "sefiras_haomer"
+   ],
+   "linked_items": [
+    "a9ed11bf3b"
+   ]
+  },
+  {
+   "start_sec": 1698,
+   "end_sec": 1745,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "trailing_silence",
+   "time_bound_content"
+  ],
+  "trim": {
+   "content_end_sec": 1745,
+   "note": "Speech ends at 29:05; the remaining 1.5 minutes of the file carry no speech."
+  },
+  "publish_recommendation": "publish",
+  "notes": "Invites letters about hagbah to the Tzivos Hashem address (public)."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Lazar",
+    "role": "visitor",
+    "group": "Beis Yaakov of Boro Park, Kitah Gimmel (class reciting the Shema)",
+    "start_sec": 406,
+    "end_sec": 550
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:19:03Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "32e631c050",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "'Zman Cheiruseinu 473' = 46-174 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "a9ed11bf3b",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "note": "'Sefiras Haomer 473' = 1296-1698 s of this episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9e71140e43",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Eliyahu HaNavi's Surprise Visit' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f9f2974567",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Eliyahu HaNavi's Cup' (Stories), told by Bubby Chaya Malka."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5751%20%281990-91%29/Ep%20473%20-%20The%20Cup%20of%20Eliyahu%20HaNavi%20%28Chol%20HaMoed%20Pesach%29%20%281991-04-02%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5751 (1990-91)/Ep 473 - The Cup of Eliyahu HaNavi (Chol HaMoed Pesach) (1991-04-02).mp3",
+  "size_bytes": 22099808,
+  "mime_type": "audio/mpeg"
+ }
+}

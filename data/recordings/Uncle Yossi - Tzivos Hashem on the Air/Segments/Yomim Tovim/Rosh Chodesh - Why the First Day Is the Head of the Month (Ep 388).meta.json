@@ -1,0 +1,169 @@
+{
+ "id": "2e072cf9f0",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Rosh Chodesh Av 388",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh - Why the First Day Is the Head of the Month (Ep 388).mp3",
+  "duration_sec": 156.286,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 388,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 388,
+   "story": "The stone for the Beis Hamikdosh",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rosh Chodesh: Why the First Day Is the Head of the Month",
+  "title_basis": "content",
+  "summary_short": "On the eve of Rosh Chodesh Av, Uncle Yossi explains why the first of the month is called its 'head' and why our conduct that day matters so much.",
+  "summary_long": "A short holiday talk from the Tzivos Hashem radio show, given on the night of Rosh Chodesh Av. Uncle Yossi points out that 'Rosh' does not mean new but head: Rosh Chodesh is the head of the whole month. Just as the head guides the entire body and every limb draws its life from it, every day of the Jewish month is linked to its first day. On Rosh Chodesh the heavenly blessings for health, life and sustenance, food, clothing and shelter, are granted and then shared out over the rest of the month. That is why we say special prayers on Rosh Chodesh, and why our behavior that day is so important, as we pass before Hashem, our merciful King, for a good and blessed judgment.",
+  "lesson": "Make Rosh Chodesh special, because it sets the blessings for the whole month.",
+  "keywords": [
+   "Rosh Chodesh",
+   "head",
+   "new month",
+   "blessings",
+   "sustenance"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 388,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1989-08-01",
+   "hebrew": "29 Tammuz 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "Filename episode 388 (08-01-89), the night of Rosh Chodesh Av. The same talk also aired in episodes 33, 134, 237 and 487."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos"
+  ],
+  "midos": [],
+  "mitzvos": [
+   "davening"
+  ],
+  "calendar": [
+   "rosh_chodesh"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'tonight is Rosh Chodesh Av'; the talk itself fits any Rosh Chodesh. Text matches episode 487 slightly better than 388, which has an edit glitch at this spot."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:50Z"
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "14e201cef4",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 487."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "33258ba2e2",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 237."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4f9d7f0c70",
+   "evidence": "text_overlap",
+   "confidence": 0.87,
+   "note": "Also aired in episode 134."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a9c42df651",
+   "evidence": "text_overlap",
+   "confidence": 0.88,
+   "note": "Also aired in episode 33."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "12f2454f7d",
+   "evidence": "text_overlap",
+   "confidence": 0.86,
+   "offset_sec": 941,
+   "note": "Episode 388 (filename number); clip = 941-1098 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Rosh%20Chodesh%20-%20Why%20the%20First%20Day%20Is%20the%20Head%20of%20the%20Month%20%28Ep%20388%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Chodesh - Why the First Day Is the Head of the Month (Ep 388).mp3",
+  "size_bytes": 1876300,
+  "mime_type": "audio/mpeg"
+ }
+}

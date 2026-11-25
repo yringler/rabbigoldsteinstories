@@ -1,0 +1,226 @@
+{
+ "id": "ce28d1962a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "R Meir rafaels - Aguna",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Meir Refoels and the Agunah.mp3",
+  "duration_sec": 1081.562,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Reb Meir Refoels and the Agunah",
+  "title_basis": "filename",
+  "summary_short": "The Alter Rebbe sends an agunah to Vilna, to Reb Meir Refoels, the leading opponent of the Chassidim, who finds her missing husband among a wagon of prisoners.",
+  "summary_long": "Reb Meir Refoels, head of the Vilna community and a fierce opponent of the Chassidim, became a devoted Chassid of the Alter Rebbe after witnessing two miracles; this is the first. After the song 'I Believe in Hashem', the storyteller explains what an agunah is: a woman whose husband has vanished, who cannot remarry. A Chassid brings his daughter, abandoned for three years, to the Alter Rebbe. After long thought, the Rebbe tells her to travel to Vilna and ask Reb Meir for help, and not to give up even if he calls it foolish. Reb Meir's wife sends her away, and Reb Meir himself has never heard of the man, but her tears move him to promise his help, and every morning she reminds him. Reb Meir often helps Jews arrested for living without a permit, and one day the chief of police shows him a list of prisoners passing through Vilna on the way to their punishment. One name is her husband's. She identifies him, and Reb Meir offers to free him if he gives her a get. Amazed at the Alter Rebbe's ruach hakodesh, Reb Meir begins to respect the Chassidim, though it takes a second miracle before he becomes one.",
+  "lesson": "A tzaddik sees far beyond what others see; follow his instructions and do not give up.",
+  "keywords": [
+   "agunah",
+   "missing husband",
+   "get",
+   "Vilna",
+   "prisoners",
+   "chief of police",
+   "residence permit",
+   "guest house",
+   "misnagdim"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "moderate",
+    "note": "A woman is abandoned by her husband for three years and cannot remarry; she receives a get."
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "mild",
+    "note": "Jewish prisoners on their way to punishment for lacking residence permits."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_meir_refoels",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the agunah",
+   "her father, a Chassid",
+   "her missing husband",
+   "Reb Meir's wife",
+   "the chief of police"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "miracles",
+   "chassidim"
+  ],
+  "midos": [
+   "hasmadah",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "hachnasas_orchim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Vilna",
+   "Liozna",
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 63,
+   "type": "story_intro",
+   "title": "How Reb Meir Refoels became a Chassid"
+  },
+  {
+   "start_sec": 63,
+   "end_sec": 101,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 101,
+   "type": "story",
+   "title": "The agunah sent to Vilna",
+   "summary": "The Alter Rebbe sends an agunah to Reb Meir, who finds her husband among the prisoners.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_meir_refoels"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends by mentioning the second miracle (the two partners), told separately. ASR spells the name 'Meir Fals/Afol'."
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "5e786ca354",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "'The Agunah Is Saved part 1' reuses this telling word for word (from about 11:05 here, 21:27 there) after its own Uncle Yossi story."
+  },
+  {
+   "type": "same_story",
+   "target_id": "db7fffffe3",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'R Meir Refaels and the aguna': the same story in a different, script-style telling."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "5e786ca354",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Alternate take / cut of the same material."
+  },
+  {
+   "type": "alternate_take",
+   "target_id": "a05fbdecf2",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "Alternate take / cut of the same material."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6e0946d4ee",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Chof-Zayin Adar and the Alter Rebbe's Ruach HaKodesh: The Agunah Sent to Vilna' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 63
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:33:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "The related item 5e786ca354, told by the same narrator, says 'my father, who's called Uncle Yossi': the weekly storyteller may be a child of Rabbi Yosef Goldstein."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Reb%20Meir%20Refoels%20and%20the%20Agunah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Reb Meir Refoels and the Agunah.mp3",
+  "size_bytes": 12979656,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,301 @@
+{
+ "id": "5493440d73",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "Simchas Beis Hashoeva 5786",
+  "filename_title": "Simchas Beis Hashoeva 3",
+  "audio_path": "audio/Live Events/Simchas Beis Hashoeva 5786/Simchas Beis Hashoeva Night 3 - The Alter Rebbe and the Rich Man's Nickel.mp3",
+  "duration_sec": 1727.19,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "3",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Simchas Beis Hashoeva Night 3: The Alter Rebbe and the Rich Man's Nickel",
+  "title_basis": "content",
+  "summary_short": "At a live Sukkos rally, children say the Twelve Pesukim and hear how the Alter Rebbe freed an orphan groom by accepting a rich man's single nickel with a smile.",
+  "summary_long": "Recorded live at a Simchas Beis Hashoeva rally for children during Sukkos 5786. Rabbi Goldstein welcomes the crowd and jokes with Simcha Engel about the new year, then groups of children come up to recite the Twelve Pesukim, and everyone says and sings Al Tira together. Rabbi Goldstein explains that tonight's Ushpizin, Yaakov Avinu and the Alter Rebbe, both excelled in learning Torah, and tells a story of the Alter Rebbe. The Alter Rebbe arrives for the wedding of two orphans whose match he had made, only to find that the town official has seized the groom to send him to the Russian army for twenty-five years. The official demands 1,500 rubles, and the poor town cannot raise even half. With Rabbi Levi Yitzchak of Berditchev and Rabbi Menachem Mendel of Horodok, the Alter Rebbe visits the richest man in town, known for giving only a nickel. He accepts the nickel with a smile and a warm brachah, and the man keeps calling them back with more, until he breaks down, tells why he had stopped giving tzedakah, and pays the whole ransom. The wedding goes ahead with great joy, and the evening ends with a lesson about reaching every Jew's heart.",
+  "lesson": "Every Jew is good at heart. Speak to him gently, with a smile and a brachah, show him how much you love him, and he will give with an open heart.",
+  "keywords": [
+   "wedding",
+   "orphans",
+   "groom",
+   "ransom",
+   "nickel",
+   "rubles",
+   "Russian army",
+   "rich man",
+   "Ushpizin",
+   "rally",
+   "wallet"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "live_event",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "simchas_beis_hashoeva_5786",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein",
+   "simcha_engel",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "2025-10-08",
+   "hebrew": "Night of 17 Tishrei 5786",
+   "hebrew_year": 5786,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Year 5786 said on air; 'tonight the Ushpizin are Yaakov Avinu and the Alter Rebbe' = third night of Sukkos (Wednesday evening, 8 Oct 2025)."
+  },
+  "collections": [
+   "Simchas Beis Hashoeva 5786"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "moderate",
+    "note": "A hostile official seizes a Jewish groom on his wedding day to draft him into the army for 25 years; he is ransomed."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The cruel official later falls from his horse and dies; told briefly."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_menachem_mendel_of_horodok",
+    "role": "appears"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the orphan groom and bride",
+   "the town official (nachalnik)",
+   "Moshe, the rich man",
+   "the poor man who refused the nickel",
+   "the town's community leaders",
+   "the Rav of the town"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "kindness_and_community",
+   "calendar"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "dan_lkaf_zchus",
+   "generosity",
+   "bitachon",
+   "courage"
+  ],
+  "mitzvos": [
+   "pidyon_shvuyim",
+   "tzedakah",
+   "hachnasas_kallah",
+   "twelve_pesukim",
+   "torah_study"
+  ],
+  "calendar": [
+   "sukkos",
+   "simchas_beis_hashoeva"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's call to say the Twelve Pesukim whenever children gather (as cited)."
+   }
+  ],
+  "places": [
+   "Russia"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 77,
+   "type": "opening",
+   "title": "Welcome to Simchas Beis Hashoeva 5786",
+   "summary": "Rabbi Goldstein welcomes everyone and jokes with Simcha Engel about the new year."
+  },
+  {
+   "start_sec": 77,
+   "end_sec": 686,
+   "type": "other",
+   "title": "The Twelve Pesukim",
+   "summary": "Groups of children lead the crowd in the Twelve Pesukim, ending with Al Tira said and sung together."
+  },
+  {
+   "start_sec": 686,
+   "end_sec": 791,
+   "type": "talk",
+   "title": "Tonight's Ushpizin: Yaakov Avinu and the Alter Rebbe",
+   "summary": "A playful exchange with Simcha Engel about how both of tonight's guests excelled in learning Torah.",
+   "people": [
+    "yaakov_avinu",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 791,
+   "end_sec": 1716,
+   "type": "story",
+   "title": "The Alter Rebbe and the rich man's nickel",
+   "summary": "The Alter Rebbe raises a ransom for an orphan groom by warmly accepting a rich man's single nickel, and the wedding goes ahead.",
+   "people": [
+    "alter_rebbe",
+    "rabbi_levi_yitzchak_of_berditchev",
+    "rabbi_menachem_mendel_of_horodok"
+   ]
+  },
+  {
+   "start_sec": 1716,
+   "type": "closing",
+   "title": "Blessing for Moshiach",
+   "summary": "A wish to dance from this celebration straight into the third Beis HaMikdash."
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0e6e2614b0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Bitachon and the Alter Rebbe's Wedding Rescue' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "5a39862ac0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d87365af6a",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6600523917",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Yud-Tes Kislev: Thankfulness, and the Alter Rebbe and the Miser's Coin' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85fd6a2f32",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'A Yud-Tes Kislev Farbrengen with a Puppet Friend: The Alter Rebbe and the Nickel' (Stories), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "c61973b69e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 2' (Stories, 5:15-17:44), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "e7cf24915f",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe Frees the Chassan, Part 1' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "d867ec591e",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Sukkos Farbrengen in Mineola, NY: The Alter Rebbe and the Miser's Nickel' (Stories), told by unknown teller."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "fair",
+  "transcript": "usable",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Live rally recording; about ten minutes are children reciting the Twelve Pesukim. ASR garbles names (Moshe as 'Moshiach', nachalnik spellings, 'Hushbizim' for Ushpizin)."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:03:35Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Filename '3' read as the third night of the rallies (Ushpizin Yaakov Avinu and the Alter Rebbe), not a part number.",
+   "Host assumed to be Rabbi Goldstein; he is not named in this file (he is in night 6).",
+   "Pass 2: host re-attributed to R' Chaim Levi Goldstein (medium); basis: Sukkos 5786 rally with Simcha Engel, same format as the 5785 rallies whose host 'Rabbi Goldstein' sings 'I Believe' (3b05d42392)"
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Live%20Events/Simchas%20Beis%20Hashoeva%205786/Simchas%20Beis%20Hashoeva%20Night%203%20-%20The%20Alter%20Rebbe%20and%20the%20Rich%20Man%27s%20Nickel.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Live Events/Simchas Beis Hashoeva 5786/Simchas Beis Hashoeva Night 3 - The Alter Rebbe and the Rich Man's Nickel.mp3",
+  "size_bytes": 20727080,
+  "mime_type": "audio/mpeg"
+ }
+}

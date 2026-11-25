@@ -1,0 +1,223 @@
+{
+ "id": "81177cd802",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Simcha and the Tzemach Tzedek",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Simcha and the Tzemach Tzedek.mp3",
+  "duration_sec": 1227.86,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Simcha and the Tzemach Tzedek",
+  "title_basis": "filename",
+  "summary_short": "The Tzemach Tzedek taught that acting happy brings real joy. A Chassid who forgot the richest poritz's seeds follows that advice, and a storm turns his trouble into blessing.",
+  "summary_long": "The storyteller opens with a letter to the Tzemach Tzedek from someone who felt sad for no reason: think happy thoughts, speak happy words and act happy, and real joy will follow. He tells how the Baal Shem Tov found a man's lost oxen by looking in the Zohar, and teaches from the Zohar on Parshas Tetzaveh that Heaven looks at a person's face before giving blessing, which the Rebbe often quoted. Then the story: Rabbi Moshe, a wealthy Chassid who gives maaser where the Tzemach Tzedek advises, sells seed grain to the poritzim, who demand delivery on an exact day at a roadside inn. One year, halfway there, he realizes he forgot the chief poritz's special seeds and fears ruin. To his helper Shimshon's amazement, he begins to sing a happy niggun and clap. At the inn he buys strong drinks for all the poritzim, who drink until they fall asleep. A storm that night ruins every sack, yet the poritzim pay in full and order again. Rabbi Moshe explains the Tzemach Tzedek's parting words, 'Ki v'simcha seitzei'u': with joy you will go out of trouble.",
+  "lesson": "Be b'simcha always, and even more when there is a problem; if you are not in the mood, act happy and the joy will come, bringing Hashem's blessings.",
+  "keywords": [
+   "letter",
+   "lost oxen",
+   "smile",
+   "seeds",
+   "wheat",
+   "wagons",
+   "inn",
+   "whiskey",
+   "rainstorm",
+   "maaser",
+   "Ki v'simcha seitzei'u"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone",
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "The hero buys strong drinks for the poritzim until they are drunk and fall asleep."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "tzemach_tzedek",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "appears"
+   },
+   {
+    "id": "rabbi_shimon_bar_yochai",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Rabbi Moshe, a wealthy seed merchant",
+   "Shimshon, his business manager",
+   "the chief poritz",
+   "the poritzim",
+   "the innkeeper"
+  ],
+  "topics": [
+   "chabad_rebbeim",
+   "emunah_bitachon",
+   "character"
+  ],
+  "midos": [
+   "simcha",
+   "bitachon",
+   "kabbalas_ol"
+  ],
+  "mitzvos": [
+   "tzedakah"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "igros_kodesh",
+    "note": "A letter of the Tzemach Tzedek to someone who felt sad: think, speak and act happy."
+   },
+   {
+    "work": "zohar",
+    "ref": "Parshas Tetzaveh",
+    "note": "Before blessing is given from above, they look at a person's face; the Rebbe quoted this often."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 42,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 42,
+   "end_sec": 268,
+   "type": "talk",
+   "title": "Act happy and you will become happy",
+   "people": [
+    "tzemach_tzedek",
+    "baal_shem_tov",
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 268,
+   "end_sec": 1210,
+   "type": "story",
+   "title": "The forgotten wagon of seeds",
+   "people": [
+    "tzemach_tzedek"
+   ]
+  },
+  {
+   "start_sec": 1210,
+   "type": "closing",
+   "title": "Lesson: always be b'simcha"
+  }
+ ],
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "03dffd5920",
+   "evidence": "content",
+   "confidence": 0.95,
+   "note": "'Simcha - Free From All Problems': the same story by the same narrator (the merchant is called Yehuda there), told for Purim Katan."
+  },
+  {
+   "type": "same_story",
+   "target_id": "3e219c0910",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Ki B'Simcha Teitzei'u: The Tzemach Tzedek's Three Words' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opening theme song (first 42 s) is mostly untranscribed."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "And every step,",
+   "at_sec": 25
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:25:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Simcha%20and%20the%20Tzemach%20Tzedek.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Simcha and the Tzemach Tzedek.mp3",
+  "size_bytes": 14735092,
+  "mime_type": "audio/mpeg"
+ }
+}

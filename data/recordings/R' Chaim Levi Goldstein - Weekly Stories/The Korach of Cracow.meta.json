@@ -1,0 +1,217 @@
+{
+ "id": "7e9443fe3a",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Korach Of Cracow",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Korach of Cracow.mp3",
+  "duration_sec": 1443.349,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Korach of Cracow",
+  "title_basis": "filename",
+  "summary_short": "The Rebbe on how bitachon makes problems disappear, and the old Cracow tale of a Rav who would not perform a forbidden wedding even under a prince's orders.",
+  "summary_long": "After the song \"I Believe in Hashem\", the storyteller recounts what the Rebbe told his secretary, Rabbi Binyomin Klein, as another pile of letters was added to his desk: if people would learn Shaar HaBitachon in Chovos HaLevavos, the pile would be less than half the size, because true bitachon makes problems dissolve. Bitachon is not only accepting that whatever happens is for the good, but trusting that Hashem will make it openly good. Then comes a story the Frierdiker Rebbe told, set in Cracow some 650 years ago. Rabbi Yitzchak, the Rav, refuses to marry Shlomo Zeligman, a Kohen who has left Torah observance, to a divorced woman. Shlomo runs to the prince, and a bishop claims that rabbis may change the Torah if they wish. Rabbi Yitzchak answers that the Written and Oral Torah come from Hashem and that no one may change them. Brought by soldiers to the marketplace and ordered to perform the wedding, he begs the couple to reconsider and cries out to Hashem. The earth opens beneath the couple as it did for Korach, the frightened prince asks forgiveness, and a brick wall is built around the spot.",
+  "lesson": "True bitachon in Hashem dissolves problems, and a Jew stands firm for the Torah, which no one can change.",
+  "keywords": [
+   "letters to the Rebbe",
+   "Shaar HaBitachon",
+   "Cracow",
+   "Kohen",
+   "wedding",
+   "prince",
+   "bishop",
+   "marketplace",
+   "earth opens",
+   "brick wall"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "historical",
+   "rishonim_acharonim",
+   "contemporary"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "older_children",
+  "age_min": 8,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "moderate",
+    "note": "A couple is swallowed alive by the earth as punishment, crying for help."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A prince and a hostile bishop order a Rav to break Torah law; soldiers take him by force."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "frierdiker_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "korach",
+    "role": "mentioned"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Binyomin Klein, the Rebbe's secretary",
+   "Rabbi Yitzchak, Rav of Cracow",
+   "Shlomo Zeligman",
+   "the bride and her family",
+   "the prince",
+   "the bishop"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "mesiras_nefesh_kiddush_hashem",
+   "miracles",
+   "the_rebbe"
+  ],
+  "midos": [
+   "bitachon",
+   "courage",
+   "mesiras_nefesh",
+   "yiras_shamayim"
+  ],
+  "mitzvos": [
+   "kiddush_hashem"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Recommended by the Rebbe."
+   },
+   {
+    "work": "frierdiker_rebbe_memoirs",
+    "note": "The Cracow story as told by the Frierdiker Rebbe."
+   },
+   {
+    "work": "chumash",
+    "ref": "Vayikra 21:7",
+    "note": "A Kohen may not marry a divorced woman."
+   }
+  ],
+  "places": [
+   "Cracow",
+   "Germany"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 41,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 41,
+   "end_sec": 342,
+   "type": "story",
+   "title": "The Rebbe's pile of letters and the power of bitachon",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 342,
+   "type": "story",
+   "title": "The Rav of Cracow and the forbidden wedding",
+   "people": [
+    "frierdiker_rebbe"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Ends with 'That's the story', no usual sign-off."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem There never is a moment when that I am alone",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:17:03Z"
+ },
+ "relations": [],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Korach%20of%20Cracow.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Korach of Cracow.mp3",
+  "size_bytes": 17321205,
+  "mime_type": "audio/mpeg"
+ }
+}

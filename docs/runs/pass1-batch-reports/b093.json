@@ -1,0 +1,12 @@
+{
+ "batch_id": "b093",
+ "done": ["b41bd58798", "7eb8b9517c", "4257fc657b", "810be25897"],
+ "failed": [],
+ "notes": [
+  "Dating: '48 P36 and Elul' says Rosh Chodesh Elul falls on Shabbos 'this year' with Parshas Re'eh next (true of 5738, 5745, 5748), and the ASR year in 48 and 44 ends in -8, so I dated 44-49 to 5738. '45 P33' was given on Lag BaOmer after the Rebbe's parade talk, but the ASR reads the year as 5736 twice. That conflicts with shiur 24 (f9c51093c5), which another batch dated to Lag BaOmer 5736. Please check the years across the whole Tanya series.",
+  "The filename numbers may not follow the content order. '44 P33 cont' has two weekly classes (the second starts at about 29:50) and comes before 45, which goes back to ch. 33 at a request after the Rebbe spoke. '49 P36a' covers the opening of ch. 36, while '48 P36 and Elul' finishes the chapter, so 49a/49b probably come before 48.",
+  "49 P36a is the 'second side' of a tape and ends mid-explanation. It probably continues in '49 P36b' (d640b2306b, not in this batch), so pass 2 should link them.",
+  "44 should link to '43 P33' / '43 end P33' (8707992670, 47ece14b5e, not in this batch). They are the earlier ch. 33 classes ('as we learned two shiurim back').",
+  "'50 perek 33' (c85ce18cdf) and the ch. 36 takes 'perek 36 t1/t2' (eb981b7c2e, 9595d61d8b) may overlap with 45 and 48/49. Check for repeated classes or alternate recordings."
+ ]
+}

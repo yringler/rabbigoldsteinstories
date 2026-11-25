@@ -1,0 +1,232 @@
+{
+ "id": "049ac80f7b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "The Dike 287",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Dike - Led Home by the Shabbos Candles (Ep 287).mp3",
+  "duration_sec": 714.018,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 287,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 287,
+   "story": "The Dike",
+   "topic": "Torah, Avodah, Gemilus Chasadim / Tisha B’Av",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Dike: Led Home by the Shabbos Candles",
+  "title_basis": "filename",
+  "summary_short": "Swept apart from her family when a dike breaks, little Gittel is kept for years by a harsh old woman, until the glow of Shabbos candles in a window leads her home.",
+  "summary_long": "A story from the Tzivos Hashem radio show. In a small town in Holland by the sea live two loving sisters: quiet, kind Leah and seven-year-old Gittel, full of mischief. One spring morning, during the class's favorite story hour, a terrified youth bursts in: the dike has broken and the sea is rushing in. The whole town races to the high plains, but Gittel, whose injured foot has reopened, falls behind and falls asleep from exhaustion. She wakes in the cottage of a hard, cruel old woman who says she carried her to safety, tells her she has no family left, and forbids her to speak of them. For three years Gittel works from dawn to night, and with no Shabbos candles, brachos or Shabbos around her, she forgets that she is a Jewish girl. One Friday, returning late from a fair, she sees candles shining through a window and suddenly remembers her mother lighting Shabbos candles. She knocks on the door, and it is her sister Leah who opens it.",
+  "lesson": "The mitzvos of home, like the Shabbos candles, have the power to bring a lost Jewish soul back to where it belongs.",
+  "keywords": [
+   "dike",
+   "flood",
+   "Holland",
+   "sisters",
+   "old woman",
+   "cottage",
+   "fair",
+   "Shabbos candles",
+   "reunion"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 287,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1987-08-04",
+   "hebrew": "9 Av 5747",
+   "hebrew_year": 5747,
+   "precision": "day",
+   "basis": "folder_or_sibling",
+   "note": "As aired in episode 287 (filename 287 08-04-87); the story aired in several other episodes (136 to 488)."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A dike breaks and a town flees a flood; a girl is nearly drowned.",
+    "at_sec": 124
+   },
+   {
+    "flag": "kidnapping_captivity",
+    "severity": "moderate",
+    "note": "A cruel woman keeps a lost girl for three years, tells her her family is gone and makes her work hard under threat of beatings.",
+    "at_sec": 254
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Gittel",
+   "Leah, her older sister",
+   "their parents",
+   "the old woman"
+  ],
+  "topics": [
+   "shabbos",
+   "family_and_home"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "chesed"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "shabbos"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Holland"
+  ]
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "0d4dd89383",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 337."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "17d9dca041",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 186."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "9cef1efc9e",
+   "evidence": "text_overlap",
+   "confidence": 0.91,
+   "note": "Also aired in episode 238."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "b325e66419",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 438."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c69b013e95",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 488."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "c8f2c07973",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 389."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "f33fa1ac66",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 136."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "6c110183df",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 489,
+   "note": "Episode 287 (filename number); clip = 489-1203 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "2647489fa0",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Gittel and the Candles: The Lost Sister' (Stories), told by unknown teller."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a78808ef52",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Gittel and the Shabbos Candles: A Chanukah Story' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete story, cut cleanly from the episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:01:36Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/The%20Dike%20-%20Led%20Home%20by%20the%20Shabbos%20Candles%20%28Ep%20287%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Dike - Led Home by the Shabbos Candles (Ep 287).mp3",
+  "size_bytes": 8569174,
+  "mime_type": "audio/mpeg"
+ }
+}

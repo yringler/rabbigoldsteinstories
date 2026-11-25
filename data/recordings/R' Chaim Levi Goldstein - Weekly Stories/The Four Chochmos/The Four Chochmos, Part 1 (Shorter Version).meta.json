@@ -1,0 +1,279 @@
+{
+ "id": "603890b365",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "4 chochmas",
+  "filename_title": "4 choch a",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 1 (Shorter Version).mp3",
+  "duration_sec": 880.3,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "a",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Four Chochmos, Part 1 (Shorter Version)",
+  "title_basis": "content",
+  "summary_short": "A shorter recording of Part 1: after a talk on the Yomim Tovim of Kislev and trusting the Rebbe, Rabbi Yehuda saves four gold coins and sets off for the Leipzig fair.",
+  "summary_long": "The storyteller begins with the special days of Kislev, the month of Geulah, from Rosh Chodesh Kislev and Tes Kislev, 'this Shabbos', through Yud-Tes Kislev and Chanukah. He explains that the Rebbe gives brachos even before we ask, and that we catch them with a good resolution. He tells how the Rebbe Rashab answered a bochur's doubting thought with 'I know who you are better than you know who you are', and how another Rebbe told a bochur who hid his forehead under his hat that he could see through the hat too. So we follow the Rebbe's advice, such as Chitas and Tehillim, even when it is hard. The story, which he first heard from his father, follows Rabbi Yehuda, whose guest room is fit for a king. To buy something special for his guests at the Leipzig fair, he puts aside a coin or two each day after giving tzedakah, and after a year changes four hundred small coins for four gold coins. Trusting Hashem, he gets a ride with his friend Reb Yankel and starts going from shop to shop. To be continued.",
+  "lesson": "We cannot hide from a Rebbe; trust the tzaddik's advice and trust Hashem, who is in charge of success.",
+  "keywords": [
+   "Leipzig fair",
+   "gold coins",
+   "guest room",
+   "pushka",
+   "hat",
+   "forehead",
+   "Yechidus",
+   "tikkun",
+   "market"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "4 chochmas"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic",
+   "moral_fiction"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "date": {
+   "gregorian": null,
+   "hebrew": "7 Kislev",
+   "hebrew_year": null,
+   "precision": "unknown",
+   "basis": "calendar_cues",
+   "note": "'Vav Kislev, which was yesterday' and 'Tes Kislev, which is this Shabbos': a Thursday; year not stated."
+  },
+  "part": {
+   "set_key": "the-four-chochmos",
+   "part_number": 1,
+   "of": 4
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "appears"
+   },
+   {
+    "id": "alter_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "mitteler_rebbe",
+    "role": "mentioned"
+   },
+   {
+    "id": "maggid_of_mezritch",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda",
+   "his wife",
+   "Reb Yankel, his friend",
+   "a yeshiva bochur"
+  ],
+  "topics": [
+   "hiskashrus",
+   "emunah_bitachon",
+   "kindness_and_community",
+   "chabad_rebbeim"
+  ],
+  "midos": [
+   "bitachon",
+   "emunah",
+   "kabbalas_ol",
+   "chesed"
+  ],
+  "mitzvos": [
+   "hachnasas_orchim",
+   "tzedakah",
+   "chitas",
+   "tehillim"
+  ],
+  "calendar": [
+   "yud_kislev",
+   "yud_tes_kislev"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "oral_tradition",
+    "note": "Heard from Rabbi Groner and from Reb Nissen Nemenov; the main story heard from the narrator's father."
+   }
+  ],
+  "places": [
+   "Leipzig"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 33,
+   "type": "opening",
+   "title": "Ashreinu: how fortunate we are"
+  },
+  {
+   "start_sec": 33,
+   "end_sec": 309,
+   "type": "talk",
+   "title": "The Yomim Tovim of Kislev and the Rebbe's brachos",
+   "calendar": [
+    "yud_kislev",
+    "yud_tes_kislev"
+   ],
+   "people": [
+    "the_rebbe",
+    "mitteler_rebbe",
+    "alter_rebbe"
+   ]
+  },
+  {
+   "start_sec": 309,
+   "end_sec": 461,
+   "type": "story",
+   "title": "The Rebbe Rashab knows who you are",
+   "people": [
+    "rebbe_rashab"
+   ]
+  },
+  {
+   "start_sec": 461,
+   "end_sec": 526,
+   "type": "talk",
+   "title": "Emunas tzaddikim: no hiding from the Rebbe",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 526,
+   "type": "story_chapter",
+   "title": "The Four Chochmos, Part 1",
+   "story_key": "the-four-chochmos",
+   "chapter": 1,
+   "summary": "Rabbi Yehuda saves for a year and sets out for the Leipzig fair with four gold coins."
+  }
+ ],
+ "relations": [
+  {
+   "type": "alternate_take",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "'4 chochmos a': another recording of Part 1 from the same day (both say Vav Kislev was yesterday); different wording."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "57f8a507a8",
+   "evidence": "content",
+   "confidence": 0.6,
+   "note": "57f8a507a8 reaches Avram's shop, where Part 2 picks up; this copy stops earlier."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "1ff3abfa6a",
+   "evidence": "filename",
+   "confidence": 0.6,
+   "note": "Same short filename style ('4 choch a' / '4 ch final'); possibly a separate run of the serial."
+  },
+  {
+   "type": "same_story",
+   "target_id": "008f627970",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos: Rabbi Yehudah's Four Pieces of Wisdom' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "85733bc4b0",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Four Chochmos, Chochmos 3 and 4: The Hotel, the Trial and the Gift in the Challah' (Stories, from 17:46), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take",
+   "splice_glitch"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 57f8a507a8 ('4 chochmos a'), the preferred copy: another recording of Part 1 that ends before Avram's shop, where Part 2 picks up; possible cut near 9:14."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "How happy and lucky we are for our Chelek, our Sheer, our part, that we are Yidden.",
+   "at_sec": 4
+  }
+ ],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:55Z",
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "medium",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Series and narrator attributed from format (calendar talk, weekly serial, 'a gutten tag' sign-off); does not open with the 'I Believe' song. Confirm."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Four%20Chochmos/The%20Four%20Chochmos%2C%20Part%201%20%28Shorter%20Version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Four Chochmos/The Four Chochmos, Part 1 (Shorter Version).mp3",
+  "size_bytes": 10564372,
+  "mime_type": "audio/mpeg"
+ }
+}

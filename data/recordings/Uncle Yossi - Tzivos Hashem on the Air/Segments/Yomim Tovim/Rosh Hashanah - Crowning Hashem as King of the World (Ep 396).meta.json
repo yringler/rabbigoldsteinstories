@@ -1,0 +1,164 @@
+{
+ "id": "8f5afa40d5",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Rosh Hashana 396",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Hashanah - Crowning Hashem as King of the World (Ep 396).mp3",
+  "duration_sec": 485.511,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 396,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 396,
+   "story": "The secret of the empty fireplace",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "Rosh Hashanah: Crowning Hashem as King of the World",
+  "title_basis": "content",
+  "summary_short": "Why do we keep saying 'Hashem Melech' on Rosh Hashanah? Uncle Yossi tells how Adam first crowned Hashem as King, and how we crown Him again each year with prayer and the shofar.",
+  "summary_long": "A Rosh Hashanah talk from the Tzivos Hashem radio show. Uncle Yossi asks why we need to call Hashem King when He is the Creator and Master of the world anyway. He turns the clock back 5,749 years to the very first Rosh Hashanah, the sixth day of creation, when Adam HaRishon opened his eyes and was the first to proclaim 'Hashem Melech', which gave Hashem great delight. To remember this, the Levi'im in the Beis HaMikdash sang 'Hashem Malach' every Friday, and the machzor repeats 'Hashem Melech, Hashem Malach, Hashem Yimloch l'olam va'ed' again and again. Like a king crowned with the sound of trumpets, Hashem accepts our coronation when we blow the shofar, and agrees to be our King for the coming year, which the Rebbe said would be a year of miracles. The 'order of the day' for both days of Rosh Hashanah is to say these words as often as possible.",
+  "lesson": "On Rosh Hashanah we make Hashem happy by crowning Him as our King, and He blesses us with a good and sweet year.",
+  "keywords": [
+   "Hashem Melech",
+   "coronation",
+   "crown",
+   "Adam",
+   "sixth day of creation",
+   "machzor",
+   "Levi'im",
+   "trumpets"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 396,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1989-09-26",
+   "hebrew": "26 Elul 5749",
+   "hebrew_year": 5749,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Clip of episode 396, broadcast the week of Rosh Hashanah 5750 ('5,749 years ago'; 'the year Tav-Shin-Nun')."
+  },
+  "collections": [
+   "Yomim Tovim"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "adam_harishon",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "prayer_and_brachos",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "kabbalas_ol",
+   "simcha"
+  ],
+  "mitzvos": [
+   "shofar",
+   "davening"
+  ],
+  "calendar": [
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "ref": "5750, 'Tehei Shnas Nissim'",
+    "note": "The Rebbe said the year Tav-Shin-Nun would be filled with miracles."
+   }
+  ]
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "311722f164",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "offset_sec": 27,
+   "note": "Episode 396 (filename number); clip = 27-513 s of the episode."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Clean cut of the Rosh Hashanah talk. The '5,749 years' and 'year of miracles' references date it to 5750."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:04:33Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Rosh%20Hashanah%20-%20Crowning%20Hashem%20as%20King%20of%20the%20World%20%28Ep%20396%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Rosh Hashanah - Crowning Hashem as King of the World (Ep 396).mp3",
+  "size_bytes": 5826952,
+  "mime_type": "audio/mpeg"
+ }
+}

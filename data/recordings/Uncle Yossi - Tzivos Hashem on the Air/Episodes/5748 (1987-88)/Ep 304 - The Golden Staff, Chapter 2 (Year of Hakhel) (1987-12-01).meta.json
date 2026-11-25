@@ -1,0 +1,309 @@
+{
+ "id": "47ab2fc67b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "304 12-01-87",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 304 - The Golden Staff, Chapter 2 (Year of Hakhel) (1987-12-01).mp3",
+  "duration_sec": 1826.084,
+  "filename_facts": {
+   "episode_number": 304,
+   "date_in_filename": "1987-12-01",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 304,
+   "story": "The Golden Staff #2",
+   "topic": "Hakhel",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 304: The Golden Staff, Chapter 2 (Year of Hakhel)",
+  "title_basis": "master_catalog",
+  "summary_short": "A dive into Uncle Yossi's mailbag, the end of 'The Golden Staff' as Binyamin's golden touch turns into a nightmare, and how children can keep the mitzvah of Hakhel this year.",
+  "summary_long": "Broadcast in Kislev 5748, a Hakhel year. The show opens with a deep dive into Uncle Yossi's overloaded mailbag: a girl's colorful drawing of her Tzivos Hashem room with a Chumash, siddur and tzedakah box, and a five-year-old's letter about lighting her own Shabbos candle for the first time, each with a prize. After the Hakochainik march, a recap recalls that Binyamin the woodchopper wished that everything he touched would turn to gold, and the Mishnah's teaching that the truly rich person is one who is happy with what he has. An eleven-year-old yeshiva boy leads the Shema. In the second and final chapter of 'The Golden Staff', the golden sticks are too heavy to carry, Binyamin selfishly refuses a neighbor's help, and when he pushes him away the neighbor turns to gold. Binyamin uses his second wish to undo everything and wakes to find it was a dream. Uncle Yossi then explains Hakhel, the gathering in the Beis HaMikdash every seventh year, and suggests children gather friends for a Shabbos party of stories, songs and brachos. The show ends with Shabbos candle time.",
+  "lesson": "Be happy with what Hashem gives you; and gather friends together in Ahavas Yisroel, as in the mitzvah of Hakhel.",
+  "keywords": [
+   "golden touch",
+   "golden staff",
+   "woodchopper",
+   "greed",
+   "neighbor",
+   "dream",
+   "Hakhel",
+   "Shabbos party",
+   "mailbag",
+   "Tzivos Hashem room"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 304,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1987-12-01",
+   "hebrew": "10 Kislev 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: Shabbos candles 'this coming Friday, December the 4th' at 4:11; 'this year, 5748, is the year of Hakhel'."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "needs_context",
+  "serial": {
+   "story_key": "the-golden-staff",
+   "story_title": "The Golden Staff",
+   "chapter": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Two letter writers named in full with ages; Shema guest named by first name.",
+    "at_sec": 159
+   },
+   {
+    "flag": "home_address",
+    "note": "Street addresses of two letter writers read on air.",
+    "at_sec": 159
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Binyamin the woodchopper",
+   "the old man with the golden staff",
+   "Binyamin's poor neighbor"
+  ],
+  "topics": [
+   "character",
+   "tzivos_hashem",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "contentment",
+   "generosity",
+   "achdus",
+   "ahavas_yisroel"
+  ],
+  "mitzvos": [
+   "shabbos_candles",
+   "tzedakah",
+   "mezuzah",
+   "shema",
+   "ahavas_yisroel_mitzvah",
+   "mivtzoim"
+  ],
+  "calendar": [
+   "hakhel_year"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "pirkei_avos",
+    "ref": "4:1",
+    "note": "'Who is rich? One who is happy with his portion.'"
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 53,
+   "type": "opening",
+   "title": "Opening"
+  },
+  {
+   "start_sec": 53,
+   "end_sec": 502,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: Tzivos Hashem rooms and first Shabbos candles",
+   "summary": "A drawing of a Tzivos Hashem room and a letter about lighting Shabbos candles for the first time, each with a prize."
+  },
+  {
+   "start_sec": 502,
+   "end_sec": 740,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 740,
+   "end_sec": 828,
+   "type": "story_intro",
+   "title": "Recap: Binyamin's golden wish"
+  },
+  {
+   "start_sec": 828,
+   "end_sec": 990,
+   "type": "shema_guest",
+   "title": "Shema with an eleven-year-old yeshiva student"
+  },
+  {
+   "start_sec": 990,
+   "end_sec": 1385,
+   "type": "story_chapter",
+   "title": "The Golden Staff, Chapter 2",
+   "summary": "The golden touch becomes a curse when Binyamin's neighbor turns to gold, and his second wish undoes it all.",
+   "story_key": "the-golden-staff",
+   "chapter": 2
+  },
+  {
+   "start_sec": 1385,
+   "end_sec": 1653,
+   "type": "talk",
+   "title": "The Year of Hakhel",
+   "summary": "What Hakhel was in the Beis HaMikdash, and how children can gather friends for a Shabbos party today.",
+   "calendar": [
+    "hakhel_year"
+   ],
+   "linked_items": [
+    "3f5a4d35cb"
+   ]
+  },
+  {
+   "start_sec": 1653,
+   "end_sec": 1790,
+   "type": "announcement",
+   "title": "Write about your Hakhel gathering; Shabbos candle time"
+  },
+  {
+   "start_sec": 1790,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish_with_note",
+  "notes": "Mailbox reads two children's names, ages and street addresses (see hidden). Prizes, gift shop and candle time are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Bela Lax",
+    "role": "mailbox_letter",
+    "group": "Williamsburg, Brooklyn; age 9½",
+    "start_sec": 159,
+    "end_sec": 303,
+    "note": "Sent a drawing of her Tzivos Hashem room."
+   },
+   {
+    "name": "Yitti Bernfriend",
+    "role": "mailbox_letter",
+    "group": "Borough Park, Brooklyn; age 5½",
+    "start_sec": 333,
+    "end_sec": 474,
+    "note": "Began lighting Shabbos candles; candlestick was a fifth-birthday gift."
+   },
+   {
+    "name": "Schneur Zalman",
+    "role": "shema_guest",
+    "group": "Yeshiva Tomchei Temimim, Ocean Parkway, Brooklyn; age 11",
+    "start_sec": 828,
+    "end_sec": 990
+   }
+  ],
+  "addresses": [
+   {
+    "text": "189 Lee Avenue, Brooklyn, New York",
+    "start_sec": 159,
+    "end_sec": 187
+   },
+   {
+    "text": "4711 14th Avenue, Brooklyn, New York (Borough Park)",
+    "start_sec": 333,
+    "end_sec": 362
+   }
+  ],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:07:41Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "3f5a4d35cb",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Hakhel 304' = 1388-1653 s of this episode."
+  },
+  {
+   "type": "continues",
+   "target_id": "6ad4603cff",
+   "evidence": "master_catalog",
+   "confidence": 0.95,
+   "note": "Catalog: 303 = 'The Golden Staff #1', 304 = '#2'; the on-air recap matches."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "6ad4603cff",
+   "evidence": "master_catalog",
+   "confidence": 0.9,
+   "note": "'The Golden Staff' (1987): ep 303 ch. 1 and ep 304 ch. 2 are chapters of the same airing of the serial."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20304%20-%20The%20Golden%20Staff%2C%20Chapter%202%20%28Year%20of%20Hakhel%29%20%281987-12-01%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 304 - The Golden Staff, Chapter 2 (Year of Hakhel) (1987-12-01).mp3",
+  "size_bytes": 21913930,
+  "mime_type": "audio/mpeg"
+ }
+}

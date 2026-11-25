@@ -1,0 +1,369 @@
+{
+ "id": "2673cb25a1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "342 08-23-88",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 342 - The Sound of the Shofar; The Storyteller Continues (Elul) (1988-08-23).mp3",
+  "duration_sec": 1829.941,
+  "filename_facts": {
+   "episode_number": 342,
+   "date_in_filename": "1988-08-23",
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 342,
+   "story": "The sound of the Shofar",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 342: The Sound of the Shofar; The Storyteller Continues (Elul)",
+  "title_basis": "master_catalog",
+  "summary_short": "The King in the Field, the Hakochainik march, Shema with a first-grade class, Rabbi Yehuda finally remembers one story, and the parable of the village bugle explains the shofar.",
+  "summary_long": "Broadcast in Elul 5748, the month of mercy. Uncle Yossi recalls the Alter Rebbe's teaching that Hashem is like a king in the field who greets us with a shining face, so we should greet Him with simcha, and leads the Hakochainik march. After a recap of the story, a first-grade class from a Boro Park girls' school recites the Shema. In the story, Rabbi Yehuda stays at the rich merchant's mansion through Shabbos still unable to recall any story; Reb Yitzchak says they must wait for the right time and sends him home in a coach, but moments later the coach stops and Rabbi Yehuda runs back: he has remembered one story. Then comes 'The Sound of the Shofar': quoting the Rambam, the shofar is an alarm, and a parable tells of a village boy who brings a fire bugle from the big city and blows it while houses burn, not knowing the bugle only calls people to fight the fire. So too the shofar calls us to act through teshuvah, tefillah and tzedakah. Candle-lighting time and the Dial-a-Jewish-Story line close the show.",
+  "lesson": "The shofar is an alarm for action: hearing it is not enough unless we respond with teshuvah, tefillah and tzedakah.",
+  "keywords": [
+   "shofar",
+   "bugle",
+   "fire chief",
+   "village fire",
+   "tower",
+   "storyteller",
+   "mansion",
+   "coach",
+   "king in the field",
+   "Book of Life"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 342,
+   "is_clip": false
+  },
+  "date": {
+   "gregorian": "1988-08-23",
+   "hebrew": "10 Elul 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "filename",
+   "note": "Consistent with the audio: 'here we are in the month of Elul'; candle time for Friday, August 26th."
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "cliffhanger",
+  "serial": {
+   "story_key": "the-storyteller",
+   "story_title": "The Storyteller",
+   "chapter": 5
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "In a parable, fires burn down rows of village homes.",
+    "at_sec": 1146
+   },
+   {
+    "flag": "afterlife_judgment",
+    "severity": "mild",
+    "note": "On Rosh Hashanah all our deeds are judged on the heavenly scale.",
+    "at_sec": 1639
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "A first-grade class is identified by school, grade and teacher's name; the children are not named individually.",
+    "at_sec": 433
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Rabbi Yehuda, the Baal Shem Tov's shamash",
+   "Reb Yitzchak, the wealthy merchant",
+   "the farmer boy",
+   "the fire chief"
+  ],
+  "topics": [
+   "calendar",
+   "teshuvah",
+   "baal_shem_tov_and_students",
+   "moshiach_geulah"
+  ],
+  "midos": [
+   "savlanus",
+   "bitachon",
+   "simcha",
+   "zerizus"
+  ],
+  "mitzvos": [
+   "shofar",
+   "teshuvah",
+   "davening",
+   "tzedakah",
+   "shema"
+  ],
+  "calendar": [
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Bamidbar 29:1 ('Yom teruah yihyeh lachem')",
+    "note": "Quoted as the Torah's command to sound the shofar."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "ref": "Hilchos Teshuvah 3:4",
+    "note": "The Rambam: the shofar is a decree, yet hints 'wake up, sleepers'."
+   },
+   {
+    "work": "torah_or_likkutei_torah",
+    "note": "The Alter Rebbe's 'king in the field' (named by teacher, not by work)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 105,
+   "type": "talk",
+   "title": "Greet the King in the Field with Simcha",
+   "summary": "In Elul Hashem greets us with a shining face, so we greet Him with joy.",
+   "people": [
+    "alter_rebbe"
+   ],
+   "calendar": [
+    "elul"
+   ],
+   "linked_items": [
+    "b32aebb0a1"
+   ]
+  },
+  {
+   "start_sec": 105,
+   "end_sec": 241,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 241,
+   "end_sec": 433,
+   "type": "story_intro",
+   "title": "Story recap: The Storyteller"
+  },
+  {
+   "start_sec": 433,
+   "end_sec": 555,
+   "type": "shema_guest",
+   "title": "Shema with a first-grade class from a Boro Park girls' school"
+  },
+  {
+   "start_sec": 555,
+   "end_sec": 940,
+   "type": "story_chapter",
+   "title": "The Storyteller: Rabbi Yehuda Remembers One Story",
+   "summary": "Sent home after Shabbos, Rabbi Yehuda suddenly stops the coach and runs back with a story.",
+   "people": [
+    "baal_shem_tov"
+   ],
+   "story_key": "the-storyteller",
+   "chapter": 5
+  },
+  {
+   "start_sec": 940,
+   "end_sec": 1146,
+   "type": "talk",
+   "title": "The Sound of the Shofar",
+   "summary": "The Rambam teaches that the shofar is an alarm that wakes us on Rosh Hashanah.",
+   "people": [
+    "rambam"
+   ],
+   "calendar": [
+    "rosh_hashanah",
+    "elul"
+   ],
+   "linked_items": [
+    "824ac3f4d7"
+   ]
+  },
+  {
+   "start_sec": 1146,
+   "end_sec": 1606,
+   "type": "story",
+   "title": "The Village Bugle",
+   "summary": "A village boy blows a fire bugle while houses burn, not knowing it only calls people to act."
+  },
+  {
+   "start_sec": 1606,
+   "end_sec": 1728,
+   "type": "talk",
+   "title": "An Alarm for Action",
+   "summary": "The shofar calls us to teshuvah, tefillah and tzedakah, and we await the great shofar of Moshiach.",
+   "calendar": [
+    "rosh_hashanah"
+   ],
+   "linked_items": [
+    "824ac3f4d7"
+   ]
+  },
+  {
+   "start_sec": 1728,
+   "end_sec": 1758,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting time"
+  },
+  {
+   "start_sec": 1758,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "824ac3f4d7",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Tekias Shofar 342' = 943-1258 s of this episode."
+  },
+  {
+   "type": "contains",
+   "target_id": "b32aebb0a1",
+   "evidence": "text_overlap",
+   "confidence": 0.8,
+   "note": "'Melech Basadeh 342' = 48-111 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "a1fccff69a",
+   "evidence": "content",
+   "confidence": 0.7,
+   "note": "The shofar talk also aired in episode 441 (clip 824ac3f4d7's text match; fingerprint candidate 0.5)."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "82715ff045",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 341 ch. 4 and ep 342 ch. 5 are chapters of the same airing of the serial."
+  },
+  {
+   "type": "continues",
+   "target_id": "82715ff045",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "ep 342 ch. 5 continues 'The Storyteller' (1988): ep 341 ch. 4."
+  },
+  {
+   "type": "part_of_set",
+   "target_id": "28f877b59d",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "'The Storyteller' (1988): ep 342 ch. 5 and ep 343 ch. 6 are chapters of the same airing of the serial."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Catalog lists only 'The sound of the Shofar' for 342, but a Storyteller chapter also airs (between catalog #3 in 341 and #4 in 343). Clip 824ac3f4d7 omits the bugle parable. Candle time (7:20, Aug 26) is a period detail."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Morah Bender (also heard 'Morah Nechama')",
+    "role": "visitor",
+    "group": "Beis Yaakov of Borough Park, Kitah Aleph (class reciting the Shema)",
+    "start_sec": 433,
+    "end_sec": 555
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Storyteller chapter number unknown: catalog has #3 in 341 and #4 in 343, nothing for this episode's chapter."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:10:27Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5748%20%281987-88%29/Ep%20342%20-%20The%20Sound%20of%20the%20Shofar%3B%20The%20Storyteller%20Continues%20%28Elul%29%20%281988-08-23%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5748 (1987-88)/Ep 342 - The Sound of the Shofar; The Storyteller Continues (Elul) (1988-08-23).mp3",
+  "size_bytes": 21960324,
+  "mime_type": "audio/mpeg"
+ }
+}

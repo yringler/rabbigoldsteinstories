@@ -1,0 +1,155 @@
+{
+ "id": "c6d51ee045",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Inyonei Mitzvos",
+  "filename_title": "Sefiras Haomer 476",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Counting the Omer, Counting the Last Days of Exile (Ep 476).mp3",
+  "duration_sec": 147.507,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 476,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 476,
+   "story": "Life in the hands of the tongue #1",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Counting the Omer, Counting the Last Days of Exile",
+  "title_basis": "content",
+  "summary_short": "Each day of the Omer count is higher than the last, so each day should be better; and as we count, we are also counting the last days of exile until Moshiach comes.",
+  "summary_long": "A short Sefirah talk from the Tzivos Hashem radio show. Uncle Yossi points out that each day of the Omer we count a number higher than the day before, which teaches us to make every day count: today must be better than yesterday, and tomorrow better still. As we count the Omer, we are also counting the last days of exile, because exile is not forever; it too has a number, and each day brings us closer to its end. The great Rambam teaches that every Jew must truly believe that exile will end with the coming of Moshiach, which can happen any day, and lists this among the thirteen principles of faith: 'I believe with complete faith in the coming of Moshiach.'",
+  "lesson": "Make each day better than the one before, and believe that every day brings Moshiach closer.",
+  "keywords": [
+   "counting the Omer",
+   "exile",
+   "Ani Maamin",
+   "thirteen principles",
+   "better every day"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Inyonei Mitzvos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 476,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-23",
+   "hebrew": "9 Iyar 5751",
+   "hebrew_year": 5751,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 476, broadcast during Sefirah 5751."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "moshiach_geulah",
+   "calendar"
+  ],
+  "midos": [
+   "emunah",
+   "hasmadah"
+  ],
+  "mitzvos": [
+   "sefiras_haomer"
+  ],
+  "calendar": [
+   "sefiras_haomer"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Ani Maamin, 12th principle",
+    "note": "Cited as the Rambam's thirteen principles of faith: belief in the coming of Moshiach."
+   }
+  ]
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Opens with 'That's right' (the episode's lead-in is not included); ends as the Ani Maamin song is introduced in the episode."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:22:23Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "a890e4740d",
+   "evidence": "text_overlap",
+   "confidence": 0.97,
+   "offset_sec": 30,
+   "note": "Episode 476 (filename number); clip = 30-178 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Inyonei%20Mitzvos/Counting%20the%20Omer%2C%20Counting%20the%20Last%20Days%20of%20Exile%20%28Ep%20476%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Inyonei Mitzvos/Counting the Omer, Counting the Last Days of Exile (Ep 476).mp3",
+  "size_bytes": 1770977,
+  "mime_type": "audio/mpeg"
+ }
+}

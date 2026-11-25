@@ -1,0 +1,167 @@
+{
+ "id": "7d789b1f0b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Rashi's Prophecy",
+  "audio_path": "audio/Other Stories/Rashi's Prophecy (other version).mp3",
+  "duration_sec": 406.043,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": [
+    "copy"
+   ]
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Rashi's Prophecy",
+  "title_basis": "filename",
+  "summary_short": "A Crusader duke demands to know whether he will conquer Yerushalayim, and Rashi's unwelcome prophecy comes true down to the last horseman.",
+  "summary_long": "In Rashi's last years, the Duke of Lorraine sets out on a Crusade to capture Yerushalayim and wants Rashi's advice. When Rashi will not come to him, the angry duke bursts into his house in Worms, but cannot see him until he swears to do him no harm. Rashi tells him the truth: he will capture Yerushalayim and rule for three days, then be driven out, lose most of his army, and return with only three men and three horses. The duke threatens to kill Rashi and the Jews of his land if he comes back with even one more. The prophecy comes true, and the duke reaches Worms with four riders, but at the city gate a spiked beam falls and kills one of the horses, so he enters with exactly three. Frightened and humbled, he goes to honor Rashi, only to find thousands of mourners: Rashi has just passed away, and the duke joins the funeral.",
+  "lesson": "A true tzaddik speaks the truth even when it is dangerous, and Hashem protects him.",
+  "keywords": [
+   "Crusades",
+   "duke",
+   "army",
+   "prophecy",
+   "invisible",
+   "horses",
+   "city gate",
+   "funeral"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "rishonim_acharonim",
+   "historical"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "The Crusades are described as forcing Jews to give up their ways; the duke threatens to kill the Jews of his land."
+   },
+   {
+    "flag": "peril_violence",
+    "severity": "mild",
+    "note": "A duke threatens Rashi; soldiers die in war."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "Ends with Rashi's passing and funeral."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rashi",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "the Duke of Lorraine"
+  ],
+  "topics": [
+   "great_rabbis",
+   "miracles",
+   "jewish_history"
+  ],
+  "midos": [
+   "emes",
+   "courage"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "places": [
+   "Worms",
+   "Yerushalayim"
+  ],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "same_recording",
+   "target_id": "5d6e893d0e",
+   "evidence": "audio_fingerprint",
+   "confidence": 0.99,
+   "note": "Same recording, different length/edit/transfer (audio fingerprint)."
+  },
+  {
+   "type": "superseded_by",
+   "target_id": "5d6e893d0e",
+   "evidence": "filename",
+   "confidence": 0.6,
+   "note": "This file is marked 'copy'; both are complete. The original-named file is the preferred copy."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "alternate_take"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Other version of 5d6e893d0e ('Rashi's Prophecy'), the preferred copy: same recording; this file is marked 'copy'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:20:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unknown."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/Rashi%27s%20Prophecy%20%28other%20version%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/Rashi's Prophecy (other version).mp3",
+  "size_bytes": 4873332,
+  "mime_type": "audio/mpeg"
+ }
+}

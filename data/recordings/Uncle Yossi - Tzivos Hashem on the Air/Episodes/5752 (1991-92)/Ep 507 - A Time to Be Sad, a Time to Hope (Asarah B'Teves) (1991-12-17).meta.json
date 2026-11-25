@@ -1,0 +1,361 @@
+{
+ "id": "b8577c47e9",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "507",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 507 - A Time to Be Sad, a Time to Hope (Asarah B'Teves) (1991-12-17).mp3",
+  "duration_sec": 1768.76,
+  "filename_facts": {
+   "episode_number": 507,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 507,
+   "story": "",
+   "topic": "י טבת",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 507: A Time to Be Sad, a Time to Hope (Asarah B'Teves)",
+  "title_basis": "content",
+  "summary_short": "An Asarah B'Teves show: the siege of Yerushalayim and why we remember sad days, a Shema guest, a young member sings Ani Maamin, a poem about davening early, and Ahavas Yisroel.",
+  "summary_long": "Broadcast on Asarah B'Teves itself. Uncle Yossi reviews the Hebrew months and explains that there is a time for everything, even a time to be sad, so that we learn from the past and serve Hashem better. On the tenth of Teves, Nevuchadnetzar's army surrounded Yerushalayim; after a long siege the walls were breached on the seventeenth of Tammuz, and the Beis HaMikdash was destroyed on Tisha B'Av. As long as we learn Torah and keep the mitzvos, Hashem, the Guardian of Israel who never sleeps, protects us, and He has promised to turn these sad days into Yomim Tovim when Moshiach comes. A young girl leads the Shema and everyone gives tzedakah. A boy whose parents are from Eretz Yisroel sings Ani Maamin, about waiting every day for Moshiach, and tells what he enjoys about belonging to Tzivos Hashem. The mailbox brings two girls' poem about starting the day with davening. Uncle Yossi closes with the teaching that the Beis HaMikdash was destroyed through baseless hatred and will be rebuilt through Ahavas Yisroel, then gives candle-lighting times.",
+  "lesson": "Remember sad days in order to improve; Torah and mitzvos keep us safe, and Ahavas Yisroel will bring the rebuilding of the Beis HaMikdash.",
+  "keywords": [
+   "siege of Yerushalayim",
+   "Nevuchadnetzar",
+   "Hebrew calendar",
+   "fast day",
+   "Ani Maamin",
+   "poem",
+   "davening",
+   "baseless hatred",
+   "Tzivos Hashem club",
+   "Moshiach Times"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 507,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "tanach_midrash"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-12-17",
+   "hebrew": "10 Teves 5752",
+   "hebrew_year": 5752,
+   "precision": "day",
+   "basis": "stated_in_audio",
+   "note": "'Today is the tenth of Teves'; 10 Teves 5752 fell on Tuesday 17 Dec 1991, one week after episode 506. Candles 4:13 fit."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "moderate",
+    "note": "The siege of Yerushalayim, people weak from hunger, and the destruction of the first Beis HaMikdash.",
+    "at_sec": 354
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "The Shema guest, the singing guest and two letter writers are named in full on air.",
+    "at_sec": 845
+   },
+   {
+    "flag": "identifiable_living_people",
+    "note": "The letter writers' teacher is named on air.",
+    "at_sec": 1449
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   },
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "beis_hamikdash_eretz_yisroel",
+   "moshiach_geulah",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "ahavas_yisroel",
+   "emunah",
+   "achdus"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "shema",
+   "tzedakah",
+   "davening",
+   "ahavas_yisroel_mitzvah",
+   "torah_study",
+   "shabbos_candles"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "Shlomo HaMelech: 'There is a time for everything.'"
+   },
+   {
+    "work": "tehillim",
+    "ref": "Tehillim 121:4",
+    "note": "'Hinei lo yanum v'lo yishan Shomer Yisroel.'"
+   },
+   {
+    "work": "gemara",
+    "ref": "Yoma 9b",
+    "note": "'Our Sages tell us' the Beis HaMikdash was destroyed through baseless hatred."
+   }
+  ],
+  "places": [
+   "Yerushalayim"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 56,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 56,
+   "end_sec": 670,
+   "type": "talk",
+   "title": "Asarah B'Teves: A Time to Remember",
+   "summary": "The month of Teves, a time to be sad, and the siege of Yerushalayim that led to the destruction of the Beis HaMikdash.",
+   "calendar": [
+    "asarah_bteves"
+   ],
+   "linked_items": [
+    "2cdc2fb9fd"
+   ]
+  },
+  {
+   "start_sec": 670,
+   "end_sec": 803,
+   "type": "talk",
+   "title": "Sad days will become Yomim Tovim",
+   "summary": "Hashem promised to turn the fast days into days of joy when Moshiach comes and the third Beis HaMikdash is built.",
+   "calendar": [
+    "asarah_bteves"
+   ]
+  },
+  {
+   "start_sec": 803,
+   "end_sec": 962,
+   "type": "shema_guest",
+   "title": "Shema with a young guest in Studio 604"
+  },
+  {
+   "start_sec": 962,
+   "end_sec": 1009,
+   "type": "tzedakah",
+   "title": "Tzedakah together"
+  },
+  {
+   "start_sec": 1009,
+   "end_sec": 1289,
+   "type": "song",
+   "title": "Ani Maamin, sung by a young guest",
+   "summary": "A young Tzivos Hashem member sings Ani Maamin, about believing in and waiting for Moshiach."
+  },
+  {
+   "start_sec": 1289,
+   "end_sec": 1376,
+   "type": "qa",
+   "title": "What I like about Tzivos Hashem",
+   "summary": "The young guest describes the club's mailings and encourages friends to join."
+  },
+  {
+   "start_sec": 1376,
+   "end_sec": 1563,
+   "type": "mailbox",
+   "title": "Uncle Yossi's Mailbox: A Poem About Davening",
+   "summary": "Two girls send a poem about starting the day with davening."
+  },
+  {
+   "start_sec": 1563,
+   "end_sec": 1647,
+   "type": "talk",
+   "title": "Ahavas Yisroel will rebuild the Beis HaMikdash",
+   "summary": "The Beis HaMikdash was destroyed through baseless hatred and will be rebuilt through love; share Tzivos Hashem with friends."
+  },
+  {
+   "start_sec": 1647,
+   "end_sec": 1675,
+   "type": "announcement",
+   "title": "Shabbos candle-lighting times"
+  },
+  {
+   "start_sec": 1675,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "2cdc2fb9fd",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "'Asarah B'Teves 507' = 49-661 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "393f61d950",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "Episode 555 repeats the Asarah B'Teves talk and the Ani Maamin guest segment (checked in its transcript)."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "efb72976ab",
+   "evidence": "content",
+   "confidence": 0.75,
+   "note": "File '5' contains the same Asarah B'Teves talk and Ani Maamin guest segment (checked in its transcript); possibly a copy or rebroadcast."
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Starts at 'and shalom to everyone' after the theme. Ani Maamin is not transcribed. Candle times, club offers and phone line are period pieces. No story this week."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Leah Shoshana Morgan",
+    "role": "shema_guest",
+    "start_sec": 845,
+    "end_sec": 962
+   },
+   {
+    "name": "Yehuda Zavdi",
+    "role": "visitor",
+    "group": "Tzivos Hashem member; sang Ani Maamin",
+    "start_sec": 1080,
+    "end_sec": 1376
+   },
+   {
+    "name": "Nechama Stern",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of Boro Park, sixth grade, room 304",
+    "start_sec": 1403,
+    "end_sec": 1563
+   },
+   {
+    "name": "Chavi Bachner",
+    "role": "mailbox_letter",
+    "group": "Beis Yaakov of Boro Park, sixth grade, room 304",
+    "start_sec": 1403,
+    "end_sec": 1563
+   },
+   {
+    "name": "Morah Mund",
+    "role": "other",
+    "group": "teacher of the letter writers' class",
+    "start_sec": 1449,
+    "end_sec": 1460
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "family_detail",
+    "text": "The singing guest says his parents are from Eretz Yisroel.",
+    "start_sec": 1110,
+    "end_sec": 1125
+   },
+   {
+    "kind": "school",
+    "text": "Letter writers' school, class and room number read on air.",
+    "start_sec": 1449,
+    "end_sec": 1460
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "medium",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "File '5' (efb72976ab) and episode 555 contain the same material; check which is the original airing."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:24:00Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5752%20%281991-92%29/Ep%20507%20-%20A%20Time%20to%20Be%20Sad%2C%20a%20Time%20to%20Hope%20%28Asarah%20B%27Teves%29%20%281991-12-17%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5752 (1991-92)/Ep 507 - A Time to Be Sad, a Time to Hope (Asarah B'Teves) (1991-12-17).mp3",
+  "size_bytes": 21226169,
+  "mime_type": "audio/mpeg"
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "id": "c6250a3b05",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Midos Tovos",
+  "filename_title": "Radatz 474",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/The Missing Aleph - The Radatz and the Pause Before a Brachah (Ep 474).mp3",
+  "duration_sec": 581.205,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 474,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 474,
+   "story": "Hillel on the roof",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Missing Aleph: The Radatz and the Pause Before a Brachah",
+  "title_basis": "content",
+  "summary_short": "Why do the Torah and every brachah begin with a beis? The hidden aleph stands for Hashem, and the Radatz taught the young Frierdiker Rebbe to pause before each brachah and think of Whom he is blessing.",
+  "summary_long": "A playful lesson with a story from the Tzivos Hashem radio show. To the tune of 'A-Hunting We Will Go,' Uncle Yossi goes hunting for the missing aleph: the Torah begins with the word Bereishis and every brachah begins with Baruch, both with a beis rather than an aleph. Since Hebrew letters are also numbers and aleph is one, the aleph stands for Hashem, the One, who is invisible just as the aleph is hidden. The large beis of the Torah reminds us that Hashem wrote the Torah, and the beis of Baruch reminds us that we are speaking directly to Hashem: Baruch Atah, Blessed are You. Then comes a story: the ten-year-old Yosef Yitzchak, son of the Rebbe Rashab, noticed that his teacher, the Radatz, placed his hand on his forehead for a moment before every brachah. The Radatz explained that as a child the Tzemach Tzedek told him to stop and think before Whom he says Baruch Atah. The boy grew up to be the Frierdiker Rebbe.",
+  "lesson": "Before every brachah, stop for a moment and remember that you are speaking to Hashem Himself.",
+  "keywords": [
+   "missing aleph",
+   "letter beis",
+   "Bereishis",
+   "Baruch Atah",
+   "brachah",
+   "Hebrew letters as numbers",
+   "teacher"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Midos Tovos"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 474,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1991-04-09",
+   "hebrew": "25 Nissan 5751",
+   "hebrew_year": 5751,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "Cut from episode 474 (Sefirah 5751); the same segment also aired in episodes 347 and 375."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "frierdiker_rebbe",
+    "role": "central"
+   },
+   {
+    "id": "tzemach_tzedek",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "rebbe_rashab",
+    "role": "mentioned"
+   },
+   {
+    "id": "radatz",
+    "role": "appears"
+   }
+  ],
+  "characters": [
+   "the Radatz, the Frierdiker Rebbe's teacher"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "chabad_rebbeim",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "yiras_shamayim",
+   "emunah"
+  ],
+  "mitzvos": [
+   "brachos",
+   "shema"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 321,
+   "type": "talk",
+   "title": "Hunting for the Missing Aleph"
+  },
+  {
+   "start_sec": 321,
+   "type": "story",
+   "title": "The Radatz and the Pause Before a Brachah",
+   "people": [
+    "frierdiker_rebbe",
+    "tzemach_tzedek"
+   ]
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'olive' for aleph once at the start."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "low",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:20:47Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "6c85a42c28",
+   "evidence": "text_overlap",
+   "confidence": 0.83,
+   "note": "Also aired in episode 347."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "e537998c07",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 375."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "de9bba59ed",
+   "evidence": "text_overlap",
+   "confidence": 0.95,
+   "offset_sec": 1134,
+   "note": "Episode 474 (filename number); clip = 1134-1715 s of the episode."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "aa45d30a33",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Tanya Shiur 35: Chapter 24 and a Child's Brachah on Water (After Shavuos)' (Stories, 10:36-13:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Midos%20Tovos/The%20Missing%20Aleph%20-%20The%20Radatz%20and%20the%20Pause%20Before%20a%20Brachah%20%28Ep%20474%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Midos Tovos/The Missing Aleph - The Radatz and the Pause Before a Brachah (Ep 474).mp3",
+  "size_bytes": 6975497,
+  "mime_type": "audio/mpeg"
+ }
+}

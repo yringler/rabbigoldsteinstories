@@ -1,0 +1,218 @@
+{
+ "id": "8a7660b8a3",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Gilgul in Wheat",
+  "audio_path": "audio/Other Stories/The Gilgul in the Wheat - Rabbi Levi Yitzchak and the Missing Brachah.mp3",
+  "duration_sec": 2166.577,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Gilgul in the Wheat: Rabbi Levi Yitzchak and the Missing Brachah",
+  "title_basis": "filename",
+  "summary_short": "A stranger drinks a l'chaim without a brachah, and Rabbi Levi Yitzchak of Berditchev tells him of a soul that waited in a grain of wheat for someone to make a brachah.",
+  "summary_long": "A stranger who has not davened in years rushes into a village shul to say Kaddish on his father's yahrzeit. When he brings a l'chaim for the congregation and drinks it himself without a brachah, there is an uproar, and Rabbi Levi Yitzchak of Berditchev sits him down for a story. Reuven, a kind but unlearned Jew, passes away and comes before the Heavenly Court. One by one, angels of his mitzvos and his sins climb onto the scale: a penny to a poor man, eating his mother's supper with a brachah, lending a pencil, giving in instead of fighting, and on the other side a lie, a theft, lashon hara and forgetting negel vasser. The scale ends exactly even, so a spark of his soul is sent down in a raindrop that grows into a stalk of wheat, is harvested, cooked into vodka and set on the shelf of this very village's store, waiting for someone to make a brachah over it. That soul, says Rabbi Levi Yitzchak, was the stranger's father. Shaken, the man does teshuvah, learns Torah with the Rebbe and becomes a learned Chassid, and his teshuvah lifts his father's soul to Gan Eden. The storyteller adds why every brachah matters.",
+  "lesson": "Always say a brachah before eating or drinking; it is Hashem's 'payment' and it elevates the food, and sincere teshuvah can repair even a missed mitzvah.",
+  "keywords": [
+   "yahrzeit",
+   "Kaddish",
+   "l'chaim",
+   "vodka",
+   "wheat",
+   "raindrop",
+   "scale",
+   "angels",
+   "heavenly court",
+   "farmer",
+   "harvest"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": null,
+  "speakers": [
+   "unknown"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "afterlife_judgment",
+    "severity": "moderate",
+    "note": "A soul is judged in the Heavenly Court, Gehinnom is mentioned, and the soul returns in a grain of wheat (gilgul)."
+   },
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "An old man passes away peacefully; his son is observing his yahrzeit."
+   },
+   {
+    "flag": "alcohol",
+    "severity": "mild",
+    "note": "A l'chaim of vodka in shul; the grain is made into vodka."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rabbi_levi_yitzchak_of_berditchev",
+    "role": "central"
+   }
+  ],
+  "characters": [
+   "Yankel, the stranger saying Kaddish",
+   "the gabbai",
+   "Reuven",
+   "the judge of the Heavenly Court",
+   "the angels of his mitzvos and sins",
+   "the farmer"
+  ],
+  "topics": [
+   "prayer_and_brachos",
+   "teshuvah",
+   "chassidic_masters"
+  ],
+  "midos": [
+   "emes",
+   "kibbud",
+   "shemiras_halashon",
+   "self_control",
+   "shalom"
+  ],
+  "mitzvos": [
+   "brachos",
+   "teshuvah",
+   "kibbud_av_vaem",
+   "negel_vasser",
+   "tzedakah",
+   "shemiras_halashon",
+   "gemilus_chasadim",
+   "davening"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 300,
+   "type": "story",
+   "title": "The stranger at the yahrzeit"
+  },
+  {
+   "start_sec": 300,
+   "end_sec": 1400,
+   "type": "story",
+   "title": "Reuven before the Heavenly Court"
+  },
+  {
+   "start_sec": 1400,
+   "end_sec": 1880,
+   "type": "story",
+   "title": "A soul in a grain of wheat"
+  },
+  {
+   "start_sec": 1880,
+   "end_sec": 2070,
+   "type": "story",
+   "title": "The stranger's teshuvah",
+   "people": [
+    "rabbi_levi_yitzchak_of_berditchev"
+   ]
+  },
+  {
+   "start_sec": 2070,
+   "end_sec": 2135,
+   "type": "talk",
+   "title": "Why every brachah matters"
+  },
+  {
+   "start_sec": 2135,
+   "type": "other",
+   "title": "Repeated passage (editing leftover)"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "usable",
+  "issues": [
+   "splice_glitch"
+  ],
+  "trim": {
+   "content_end_sec": 2135,
+   "note": "Last 30 s repeat an earlier passage (the Shabbos-morning mitzvah) after the closing lesson."
+  },
+  "publish_recommendation": "publish_with_note",
+  "notes": "Editing leftover: after the lesson, a passage from about 22:00 is repeated at 35:35 to the end. ASR writes 'Beistin Shelmila' and 'Urzeit'."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "audience": "medium"
+  },
+  "needs_human_review": [
+   "Narrator unidentified (says 'kinderlach'; same reading style as 'Fear of Hashem's Name').",
+   "Ending has a repeated passage; consider trimming at about 35:35."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:10:35Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "77984b08cb",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Vov Tishrei: Rebbetzin Chana and the Soul in the L'chaim' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Other%20Stories/The%20Gilgul%20in%20the%20Wheat%20-%20Rabbi%20Levi%20Yitzchak%20and%20the%20Missing%20Brachah.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Other Stories/The Gilgul in the Wheat - Rabbi Levi Yitzchak and the Missing Brachah.mp3",
+  "size_bytes": 25999914,
+  "mime_type": "audio/mpeg"
+ }
+}

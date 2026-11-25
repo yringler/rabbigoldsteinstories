@@ -1,0 +1,164 @@
+{
+ "id": "a281e5503b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Sukkos 298",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Sukkos - The Ushpizin and the Joy of Hakafos (Ep 298).mp3",
+  "duration_sec": 176.424,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 298,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 298,
+   "story": "The King and the Shabbos Candles",
+   "topic": "Sukkos / נש\"ק",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "After Sukkos: The Ushpizin and the Joy of Hakafos",
+  "title_basis": "content",
+  "summary_short": "Looking back on Sukkos: the seven holy guests who visit the sukkah each night, and the joy of dancing with the Torah that should last all year.",
+  "summary_long": "A short talk from the Tzivos Hashem radio show, recorded right after Sukkos. Uncle Yossi recalls the mitzvos of the holiday: sitting in the sukkah, shaking the lulav and esrog with the hadassim and aravos, and the joyful Hakafos. Just as Eliyahu HaNavi visits every Seder on Pesach and blesses us, he explains, seven special guests visit the sukkah, one each night: Avraham Avinu on the first night, Yitzchak Avinu on the second, Yaakov Avinu on the third, and so on. To make sure their blessings reach us in full, we resolve to learn more Torah and do more mitzvos. He closes with the joy of dancing with the Sefer Torah on Hakafos, and a prayer that this joy stays with us all year so we serve Hashem with happiness.",
+  "lesson": "Keep the joy of Sukkos and Hakafos all year, and add in Torah and mitzvos so the blessings reach us.",
+  "keywords": [
+   "Ushpizin",
+   "guests",
+   "Hakafos",
+   "Sefer Torah",
+   "lulav",
+   "esrog",
+   "Seder"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 298,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-10-20",
+   "hebrew": "27 Tishrei 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Right after the great holiday of Sukkos'; clip of episode 298 dated 1987-10-20."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "young_children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "avraham_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yitzchak_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "yaakov_avinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "eliyahu_hanavi",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "torah_study"
+  ],
+  "midos": [
+   "simcha"
+  ],
+  "mitzvos": [
+   "sukkah",
+   "arba_minim"
+  ],
+  "calendar": [
+   "sukkos",
+   "shemini_atzeres_simchas_torah"
+  ],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": ""
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:05:09Z"
+ },
+ "relations": [
+  {
+   "type": "clip_of",
+   "target_id": "34fa0cd369",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 50,
+   "note": "Episode 298 (filename number); clip = 50-226 s of the episode."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/After%20Sukkos%20-%20The%20Ushpizin%20and%20the%20Joy%20of%20Hakafos%20%28Ep%20298%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/After Sukkos - The Ushpizin and the Joy of Hakafos (Ep 298).mp3",
+  "size_bytes": 2117976,
+  "mime_type": "audio/mpeg"
+ }
+}

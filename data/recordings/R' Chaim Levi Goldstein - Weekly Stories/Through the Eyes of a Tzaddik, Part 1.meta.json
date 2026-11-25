@@ -1,0 +1,221 @@
+{
+ "id": "3bb176e5dc",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Through The Eyes Of A Tzaddik Part 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/Through the Eyes of a Tzaddik, Part 1.mp3",
+  "duration_sec": 1265.267,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "Part 1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Through the Eyes of a Tzaddik, Part 1",
+  "title_basis": "filename",
+  "summary_short": "Bitachon works for everyone, every time. Then Reb Baruch, a Chassid of the Alter Rebbe, is framed for stealing logs and summoned by the minister, but the Rebbe tells him to wait a week.",
+  "summary_long": "The storyteller asks a question on this week's parsha: if good deeds bring blessing and sins bring the opposite, where does bitachon fit in? The Rebbe answers with the words of the Chovos HaLevavos' Gate of Trust: whoever trusts in Hashem is helped, whether he deserves it or not, because Hashem does not look at our record when we trust Him. The story: Reb Baruch, a kind and honest Chassid of the Alter Rebbe, is offered the job of running the government lumberyard and accepts only on condition that he never work on Shabbos and leave early on Friday. Ivan, the quarrelsome former manager who was fired, burns with jealousy. One night he hides twenty costly railroad logs in Reb Baruch's barn and brings the minister to see them. Soon Reb Baruch receives an official summons to appear on Tuesday morning, and he knows that people called this way often never return. He rushes to the Alter Rebbe, who tells him only to come back next Sunday. His wife insists that since the Rebbe did not tell him to go, he must not go. Reb Baruch decides to wait. To be continued.",
+  "lesson": "Trust in Hashem brings good, whether or not we think we deserve it, and a tzaddik sees what we cannot, so we follow his guidance.",
+  "keywords": [
+   "lumberyard",
+   "railroad logs",
+   "minister",
+   "summons",
+   "framed",
+   "jealousy",
+   "barn",
+   "Shabbos job"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "part": {
+   "set_key": "through-the-eyes-of-a-tzaddik",
+   "part_number": 1,
+   "of": 2
+  },
+  "content_type": "story_chapter",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A Jew-hater frames a Chassid; government summonses often meant prison, Siberia or death."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "alter_rebbe",
+    "role": "appears"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "Reb Baruch",
+   "his wife",
+   "the minister",
+   "Ivan, the former manager"
+  ],
+  "topics": [
+   "emunah_bitachon",
+   "hiskashrus",
+   "chabad_rebbeim",
+   "parsha"
+  ],
+  "midos": [
+   "bitachon",
+   "kabbalas_ol",
+   "emes"
+  ],
+  "mitzvos": [
+   "shabbos",
+   "honest_business"
+  ],
+  "calendar": [],
+  "parshiyos": [
+   "bechukosai"
+  ],
+  "sources_cited": [
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe's answer on bitachon, quoting the Gate of Trust (Shaar HaBitachon)."
+   },
+   {
+    "work": "chumash",
+    "note": "This week's parsha: reward for keeping the mitzvos and the opposite for not listening."
+   },
+   {
+    "work": "chovos_halevavos",
+    "ref": "Shaar HaBitachon",
+    "note": "Whoever trusts in Hashem is helped, deserving or not."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 40,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 40,
+   "end_sec": 320,
+   "type": "sichah",
+   "title": "Where does bitachon fit in?",
+   "summary": "Bitachon brings Hashem's help whether or not we deserve it."
+  },
+  {
+   "start_sec": 320,
+   "type": "story_chapter",
+   "title": "Reb Baruch is framed",
+   "summary": "A jealous man hides stolen logs in Reb Baruch's barn and he is summoned, but the Alter Rebbe says to wait a week.",
+   "story_key": "through-the-eyes-of-a-tzaddik",
+   "chapter": 1
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR often writes 'Rabbi Akiva' for Reb Baruch."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Parsha said only as 'this week's parsha' (blessings and curses); tagged Bechukosai because Part 2 is tied to Shavuos a week later."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:22Z"
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "6144d5e2ae",
+   "evidence": "filename",
+   "confidence": 0.95,
+   "note": "Part 2: 'Through The Eyes Of A Tzaddik - part 2'."
+  },
+  {
+   "type": "same_story",
+   "target_id": "456522bfcc",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 2 (Rosh Hashanah)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "97b236dd1f",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Alter Rebbe and the Stolen Logs, Part 1 (Chai Elul)' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/Through%20the%20Eyes%20of%20a%20Tzaddik%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/Through the Eyes of a Tzaddik, Part 1.mp3",
+  "size_bytes": 15183987,
+  "mime_type": "audio/mpeg"
+ }
+}

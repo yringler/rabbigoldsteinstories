@@ -1,0 +1,354 @@
+{
+ "id": "32e12e850b",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "231",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 231 - The Stolen Purse (1986-06-24).mp3",
+  "duration_sec": 1763.084,
+  "filename_facts": {
+   "episode_number": 231,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 231,
+   "story": "The stolen purse",
+   "topic": "a- west",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 231: The Stolen Purse",
+  "title_basis": "master_catalog",
+  "summary_short": "Before summer vacation, Uncle Yossi asks listeners to recruit new Tzivos Hashem soldiers, and tells how a servant's loyalty to the Rebbe of Chortkov was blessed with great wealth.",
+  "summary_long": "With summer vacation coming, Uncle Yossi encourages Tzivos Hashem soldiers to tell new friends and relatives they meet on their travels about Hashem's army, so that many soldiers will greet Moshiach. After the Hakochainik march, an eleven-year-old boy who wrote asking to be a guest says the Shema in Studio 604 and tells what he learns. The story: the Rebbe of Chortkov, known for his generous tzedakah, finds before Pesach that the purse of 500 gold coins set aside for the poor is gone. Only his trusted servant, Meir Anshel, has a key, and to the Rebbe's shock Meir Anshel says he took it and soon returns the money. Then a Polish count summons the Rebbe and hands him the original purse: a cleaning maid had stolen it. Meir Anshel admits that he never took it; he gave his own savings so the poor would have Pesach. The Rebbe blesses him with success, and Uncle Yossi says he was Meir Anshel Rothschild, whose five sons became great bankers known for their tzedakah. The show ends with a sponsor message and more names in the Sefer Torah contest.",
+  "lesson": "Care for others even at your own expense; kindness and honesty bring Hashem's blessing.",
+  "keywords": [
+   "summer vacation",
+   "new friends",
+   "purse",
+   "500 gold coins",
+   "Erev Pesach",
+   "servant",
+   "count",
+   "maid",
+   "bankers",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 231,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "chassidic",
+   "historical"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-06-24",
+   "hebrew": "17 Sivan 5746",
+   "hebrew_year": 5746,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Weekly after ep. 230 (1986-06-16); exactly 33 weeks before ep. 264 (1987-02-10). 'Getting ready for summer vacation'; Tuesday assumed."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full with age, school and teacher; contest entrants named.",
+    "at_sec": 551
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "the Rebbe of Chortkov",
+   "Meir Anshel (Rothschild), his servant",
+   "Count Potocki",
+   "the cleaning maid"
+  ],
+  "topics": [
+   "chassidic_masters",
+   "kindness_and_community",
+   "tzivos_hashem"
+  ],
+  "midos": [
+   "chesed",
+   "generosity",
+   "mesiras_nefesh",
+   "emes",
+   "hakaras_hatov"
+  ],
+  "mitzvos": [
+   "tzedakah",
+   "mivtzoim",
+   "shema",
+   "hachnasas_kallah"
+  ],
+  "calendar": [
+   "summer_vacation"
+  ],
+  "parshiyos": [],
+  "sources_cited": [],
+  "places": [
+   "Chortkov",
+   "Poland"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 15,
+   "type": "opening",
+   "title": "Opening theme"
+  },
+  {
+   "start_sec": 15,
+   "end_sec": 132,
+   "type": "talk",
+   "title": "Summer vacation: recruit new soldiers for Tzivos Hashem",
+   "calendar": [
+    "summer_vacation"
+   ]
+  },
+  {
+   "start_sec": 132,
+   "end_sec": 411,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 411,
+   "end_sec": 688,
+   "type": "shema_guest",
+   "title": "Shema with a sixth-grader who wrote in to ask"
+  },
+  {
+   "start_sec": 688,
+   "end_sec": 1525,
+   "type": "story",
+   "title": "The Stolen Purse",
+   "summary": "A servant claims to have taken the Rebbe of Chortkov's missing tzedakah money so the poor will have Pesach, and is blessed with great wealth."
+  },
+  {
+   "start_sec": 1525,
+   "end_sec": 1612,
+   "type": "sponsor",
+   "title": "A word from our sponsor"
+  },
+  {
+   "start_sec": 1612,
+   "end_sec": 1676,
+   "type": "announcement",
+   "title": "Sefer Torah contest: more names"
+  },
+  {
+   "start_sec": 1676,
+   "type": "closing",
+   "title": "Closing and Dial-a-Jewish-Story"
+  }
+ ],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "ab6f22d096",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The Stolen Purse story (about 688-1525 s) also aired in episode 550, with near-identical wording."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "March at about 2:38-6:51 is untranscribed; about 1 min of silence or music after the last words. Story links the Rothschild family to a Chassidic Rebbe (a legend; historically doubtful). Sponsor and contest are period pieces."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Avraham West",
+    "role": "shema_guest",
+    "group": "Park East Day School, Kitah Vav; age eleven and a half",
+    "start_sec": 440,
+    "end_sec": 688,
+    "note": "Wrote a letter asking to come to Studio 604."
+   },
+   {
+    "name": "Rabbi Harold Einsleiter",
+    "role": "other",
+    "group": "teacher of the Shema guest, Park East Day School (surname unclear)",
+    "start_sec": 575,
+    "end_sec": 590
+   },
+   {
+    "name": "Gershon Bornfreund",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Esther Barry",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Miriam Yossi and Schneur Zalman (surname unclear)",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Chana Sarah Newfield",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Beryl Gross",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Dvorah Kops",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Chaim Eliezer Zalmanoff",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Suri Fuhrer",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Chaya Leah and Tziporah Shor",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Yitzchak Muli",
+    "role": "contest_winner",
+    "group": "contest finalist list (surname unclear)",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Yitzchak Frankel",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Nussi Rosenblatt",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Morisa Horowitz",
+    "role": "contest_winner",
+    "group": "contest finalist list (first name unclear)",
+    "start_sec": 1623,
+    "end_sec": 1676
+   },
+   {
+    "name": "Yankee Barber",
+    "role": "contest_winner",
+    "group": "contest finalist list",
+    "start_sec": 1623,
+    "end_sec": 1676
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Shema guest's school, class and teacher.",
+    "start_sec": 570,
+    "end_sec": 603
+   }
+  ]
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:51:34Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "medium",
+   "segments": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "Catalog visitor field ('Fradkin Mangel') does not match the guest heard on air; the topic column 'a- west' seems to hold the guest's surname."
+  ]
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20231%20-%20The%20Stolen%20Purse%20%281986-06-24%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 231 - The Stolen Purse (1986-06-24).mp3",
+  "size_bytes": 21158146,
+  "mime_type": "audio/mpeg"
+ }
+}

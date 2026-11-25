@@ -1,0 +1,27 @@
+{
+ "batch_id": "b007",
+ "done": [
+  "e6dfcb980e",
+  "86330c8469",
+  "58a54533f7",
+  "2c9fe91954",
+  "865ca014cf",
+  "fa812d9395",
+  "0d0dca3950",
+  "da4e994561",
+  "ba89efe781",
+  "525312872b",
+  "25a669862e"
+ ],
+ "failed": [],
+ "notes": [
+  "Episodes 138-148 form a dated run (Aug-Oct 1984, Av 5744 to Cheshvan 5745), anchored by on-air cues: 138 Shabbos Mevarchim Elul (21 Aug 1984), 139 Rosh Chodesh Elul (28 Aug), 142 'Rosh Hashanah next Thursday and Friday' (18 Sep), 143 'tomorrow is Erev Rosh Hashanah' (25 Sep), 144 Yom Kippur on Shabbos (2 Oct), 145 day before Erev Sukkos (9 Oct), 146 Chol HaMoed with contest ending 'Tuesday October 23rd' (16 Oct). The facts had no weekly_estimate hint.",
+  "Episode 140's story is announced on air as 'Reward for Kindness' (catalog: 'The great surprise'); aired_again_in added to 4ae3b5e23e ('Reward for Kindness 493') on title plus the fingerprint candidate, without reading that transcript.",
+  "Checked by text: episode 208 (70655704ec) reruns 147's Lost Letter chapter 2 with the same Shema guest, and episode 209 (b35e60b8a2) reruns 148's chapter 3. Episode 209 opens 'a few days before Rosh Hashanah' (so about Sept 1985), while the facts give episode 211 as 1986-02-04. The numbering or dates around 208-211 may need checking.",
+  "Possible identity clue: several guests share the host's surname. Twin Shema guests (141), another young Shema guest (142), and Rabbi Levi Goldstein, announced in 141-142, who blew the shofar in 143 and is named in 147 as a teacher at Oholei Torah. He may be the host's son. He is kept in hidden as a private visitor.",
+  "Guest musicians in 138 ('Reb Nature' David Lazarson and fiddler Marty/Moshe, song 'It's Our Land' from his record 'Take Me Home') are kept in hidden as visitors; they may be public performers.",
+  "148: the contest-winners segment (about 47-597 s) reads many children's full names and five home addresses; it is marked publish_with_note for a human decision.",
+  "Lost Letter serial: the letter's recipient is called 'Reb Sholom' in chapters 1 and 3 but 'Reb Shimon' in chapter 2 (spoken on air, not an ASR error). Saved by a Miracle serial: the ASR often renders 'Reb Boruch' as 'Rabbi Akiva'. rabbi_akiva was not tagged.",
+  "144 has a clipped closing ('wishing you all... Until we meet again'). 145 has about 1 minute of untranscribed audio at 23:20-24:20. 142 starts a few words into the greeting."
+ ]
+}

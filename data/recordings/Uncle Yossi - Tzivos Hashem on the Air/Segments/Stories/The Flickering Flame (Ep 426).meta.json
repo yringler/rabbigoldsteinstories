@@ -1,0 +1,223 @@
+{
+ "id": "bc10ca2c5f",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Stories",
+  "filename_title": "The Flickering Flame 426",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Flickering Flame (Ep 426).mp3",
+  "duration_sec": 392.364,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 426,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 426,
+   "story": "The flickering flame",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "title": "The Flickering Flame",
+  "title_basis": "filename",
+  "summary_short": "Stranded in a snowstorm, a great tzaddik finds an old shoemaker still working by lamplight, and learns that as long as the light burns, we can still repair.",
+  "summary_long": "Uncle Yossi tells a story about the gift of time. On a stormy winter night, a great tzaddik named Rabbi Yisroel is traveling home when heavy snow forces him to stop in a town long after midnight. With no one to ask for directions, he and his coachman look for a house with a light still on, and find an old man who kindly welcomes them, warms them by the fire and prepares beds. Rabbi Yisroel asks why he is awake so late. The old man explains that he is a shoemaker who works by an oil lamp, filling it each morning with just enough oil for the workday. Today he poured in too much by mistake, so he kept working late into the night, because 'as long as the light still burns, one can still repair'. Rabbi Yisroel is thrilled: this is a lesson for life. As long as a person is alive, he can still repair and do teshuvah. Time is Hashem's precious gift, to be used for Torah and mitzvos.",
+  "lesson": "As long as the light still burns, as long as we are alive, we can still repair and do teshuvah; use the gift of time wisely.",
+  "keywords": [
+   "shoemaker",
+   "oil lamp",
+   "snowstorm",
+   "coachman",
+   "hospitality",
+   "time",
+   "repair"
+  ],
+  "transcript_display": "show_with_label"
+ },
+ "classification": {
+  "content_type": "radio_segment",
+  "story_type": [
+   "chassidic"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "episode": {
+   "number": 426,
+   "is_clip": true
+  },
+  "date": {
+   "gregorian": "1990-05-08",
+   "hebrew": "13 Iyar 5750",
+   "hebrew_year": 5750,
+   "precision": "week",
+   "basis": "calendar_cues",
+   "note": "Date of episode 426. The same story aired earlier in episodes 273, 324 and 377, and later in 475."
+  },
+  "collections": [
+   "Stories"
+  ]
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 4,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Rabbi Yisroel",
+   "the old shoemaker",
+   "the coachman"
+  ],
+  "topics": [
+   "teshuvah",
+   "tzaddikim_stories"
+  ],
+  "midos": [
+   "zerizus",
+   "chesed",
+   "valuing_time"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "hachnasas_orchim"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": []
+ },
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "40d280cb23",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 377."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "4c22e88ed2",
+   "evidence": "text_overlap",
+   "confidence": 0.93,
+   "note": "Also aired in episode 324."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "57b4f27b82",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "Also aired in episode 475."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "6ad37ebe02",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "Also aired in episode 273."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "82672b0336",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "offset_sec": 1063,
+   "note": "Episode 426 (filename number); clip = 1063-1455 s of the episode."
+  },
+  {
+   "type": "same_story",
+   "target_id": "15211a2565",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 225: The Flickering Flame (Sefiras HaOmer)' (episode 225, 19:42-28:33), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "38d83b32ce",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 157: The Flickering Flame, Chapter 2 (Asarah B'Teves)' (episode 157, 14:12-18:32), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "a5ddda2685",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 156: The Flickering Flame, Chapter 1 (Zos Chanukah)' (episode 156, 21:50-29:29), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "6341e96d6e",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 307: The Flickering Flame (Zos Chanukah)' (episode 307, 17:20-27:55), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "8ef0e7ba46",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 309: The Flickering Flame (Hakhel Year)' (episode 309, 20:24-29:35), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9ba0d1a6a7",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Episode 349: The Flickering Flame and I Love Hashem' (episode 349, 9:40-19:30), told by Rabbi Yosef Goldstein (Uncle Yossi)."
+  }
+ ],
+ "language": {
+  "primary": "en",
+  "spoken": [
+   "en",
+   "yi",
+   "he"
+  ],
+  "transcript_language": "en",
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Complete story. The tzaddik is only called 'Rabbi Yisroel'; the story is usually told of Rabbi Yisroel Salanter."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:21:50Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "medium",
+   "calendar": "high",
+   "date": "medium",
+   "audience": "high"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Stories/The%20Flickering%20Flame%20%28Ep%20426%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Stories/The Flickering Flame (Ep 426).mp3",
+  "size_bytes": 4709437,
+  "mime_type": "audio/mpeg"
+ }
+}

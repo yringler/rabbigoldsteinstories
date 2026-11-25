@@ -1,0 +1,206 @@
+{
+ "id": "365d039f44",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "The Unimaginable Great Reward",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Unimaginable Great Reward.mp3",
+  "duration_sec": 1220.952,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Unimaginable Great Reward",
+  "title_basis": "filename",
+  "summary_short": "Why we cannot imagine the goodness of the days of Moshiach, and how the Rambam exposed jealous court doctors who claimed to cure a man blind from birth.",
+  "summary_long": "The storyteller explains the Ani Maamin: the thirteen principles of faith come from the Rambam's introduction to Perek Chelek, and the Rambam teaches that it is not enough to believe Moshiach will come; we must eagerly look forward to it, like waiting for a special package, or like the Chofetz Chaim, who kept a special suit ready for Moshiach. But how can we wait for something we cannot picture? Chazal say one moment in the World to Come is greater than all the pleasures of this world, and the Rambam compares explaining it to teaching colors to someone born blind. That reminds him of a story: the Rambam was the sultan's favorite doctor, and jealous court doctors claimed they could cure a man blind from birth, something the Rambam said no medicine could do. Before the king and two sworn witnesses they treat the man, who then counts fingers correctly. The Rambam asks one more test: he holds up blue and red cloths, and the man names the colors at once. A man who had never seen could not know their names, so the plot is exposed and the Rambam stays the king's chief doctor.",
+  "lesson": "The good of the days of Moshiach is beyond anything we can imagine, so we should look forward to it eagerly and bring it closer with Torah and mitzvos.",
+  "keywords": [
+   "Ani Maamin",
+   "thirteen principles",
+   "blind man",
+   "colors",
+   "court doctors",
+   "sultan",
+   "Moshiach suit",
+   "World to Come",
+   "jealousy"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "lesson_with_story",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "standalone"
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "rambam",
+    "role": "central"
+   },
+   {
+    "id": "moshe_rabbeinu",
+    "role": "mentioned"
+   },
+   {
+    "id": "chofetz_chaim",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "the sultan",
+   "the jealous court doctors",
+   "the 'blind' man",
+   "two witnesses",
+   "the Chofetz Chaim"
+  ],
+  "topics": [
+   "moshiach_geulah",
+   "great_rabbis",
+   "emunah_bitachon"
+  ],
+  "midos": [
+   "emunah",
+   "emes",
+   "no_jealousy"
+  ],
+  "mitzvos": [],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "mishnah",
+    "ref": "Sanhedrin ch. 10 (Perek Chelek), Rambam's introduction",
+    "note": "The thirteen principles of faith."
+   },
+   {
+    "work": "rambam_mishneh_torah",
+    "note": "Belief in Moshiach includes awaiting his coming."
+   },
+   {
+    "work": "pirkei_avos",
+    "ref": "Avos 4:17",
+    "note": "One moment of pleasure in the World to Come outweighs all of this world (as cited)."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 32,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 32,
+   "end_sec": 570,
+   "type": "talk",
+   "title": "Waiting for Moshiach",
+   "summary": "The Ani Maamin, eagerly awaiting Moshiach, and why its goodness cannot be described."
+  },
+  {
+   "start_sec": 570,
+   "end_sec": 1170,
+   "type": "story",
+   "title": "The Rambam and the blind man",
+   "summary": "The Rambam exposes doctors who faked curing a man blind from birth."
+  },
+  {
+   "start_sec": 1170,
+   "type": "talk",
+   "title": "The lesson: worth waiting for"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish"
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem. I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:06:22Z"
+ },
+ "relations": [
+  {
+   "type": "same_story",
+   "target_id": "0c6e446f61",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Real Color of Geulah' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story",
+   "target_id": "22732f6818",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'The Rambam and the Contest of Colors' (Stories), told by Rabbi Chaim Levi Goldstein."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Unimaginable%20Great%20Reward.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Unimaginable Great Reward.mp3",
+  "size_bytes": 14652336,
+  "mime_type": "audio/mpeg"
+ }
+}

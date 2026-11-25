@@ -1,0 +1,416 @@
+{
+ "id": "1c626f60bf",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "219",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 219 - The Golden Cup of Eliyahu HaNavi (Shabbos Mevarchim Nissan) (1986-04-01).mp3",
+  "duration_sec": 1803.766,
+  "filename_facts": {
+   "episode_number": 219,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 219,
+   "story": "The cup of Eliyahu Hanovie",
+   "topic": "",
+   "has_visitor_names": false
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 219: The Golden Cup of Eliyahu HaNavi (Shabbos Mevarchim Nissan)",
+  "title_basis": "on_air",
+  "summary_short": "Before Shabbos Mevarchim Nissan: why children are at the center of Pesach, two brothers say the Shema, and a poor woman who would not sell her cup of Eliyahu HaNavi is rewarded with a miracle.",
+  "summary_long": "Broadcast the week of Shabbos Mevarchim for Nissan. Uncle Yossi explains that children stand at the heart of Pesach: Pharaoh's decree targeted Jewish children, whom Hashem protected, and the whole Seder, from the Mah Nishtanah to dipping the karpas, is built to get children to ask questions, which parents and teachers answer from the Torah, all with joy. After the Hakochainik march, two young brothers share the Shema, and a sponsor message follows. Story time opens with belief in Moshiach and the custom of the Kos shel Eliyahu. Devorah treasures a golden cup of Eliyahu HaNavi handed down in her family; before Pesach her struggling husband Beryl wants to sell it, but she refuses and trusts in Hashem. She shelters an old beggar from a storm, and he leaves her a gold coin that keeps reappearing on her table after every purchase. On Seder night the guest returns and reveals that he is Eliyahu HaNavi. The show ends by reading names of 'My Sefer Torah' contest entrants and new Tzivos Hashem members.",
+  "lesson": "Honor the mitzvos and trust in Hashem even when times are hard; kindness to a stranger brings blessing.",
+  "keywords": [
+   "Kos shel Eliyahu",
+   "golden cup",
+   "gold coin",
+   "beggar",
+   "rainstorm",
+   "Seder",
+   "Mah Nishtanah",
+   "karpas",
+   "Sefer Torah drawing contest",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 219,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "moral_fiction"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1986-04-01",
+   "hebrew": "21 Adar II 5746",
+   "hebrew_year": 5746,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This Shabbos is Shabbos Mevarchim Chodesh Nissan' (Shabbos 26 Adar II = April 5, 1986); the aired Tuesday before. Matches the weekly estimate."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he",
+   "yi"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [
+   {
+    "flag": "family_hardship",
+    "severity": "mild",
+    "note": "A poor family cannot afford what they need for Pesach.",
+    "at_sec": 1000
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "Pharaoh's decree to throw Jewish baby boys into the Nile is mentioned; angels rescue them.",
+    "at_sec": 82
+   }
+  ],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guests, contest entrants and a family of new members are named in full.",
+    "at_sec": 511
+   }
+  ]
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "eliyahu_hanavi",
+    "role": "central"
+   },
+   {
+    "id": "pharaoh",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [
+   "Devorah",
+   "Beryl, Devorah's husband",
+   "the old beggar",
+   "the grocer"
+  ],
+  "topics": [
+   "calendar",
+   "miracles",
+   "moshiach_geulah",
+   "kindness_and_community"
+  ],
+  "midos": [
+   "bitachon",
+   "chesed",
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "seder",
+   "hachnasas_orchim",
+   "shema",
+   "torah_study"
+  ],
+  "calendar": [
+   "pesach",
+   "nissan",
+   "shabbos_mevarchim"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "chumash",
+    "ref": "Shemos 13:8, 13:14",
+    "note": "'When your child asks you' and 'you shall tell your child'."
+   },
+   {
+    "work": "chumash",
+    "ref": "Devarim 16:14",
+    "note": "'You shall rejoice in your festival.'"
+   },
+   {
+    "work": "haggadah",
+    "note": "Answering the children's questions at the Seder."
+   },
+   {
+    "work": "oral_tradition",
+    "note": "Eliyahu HaNavi visits every Jewish home on Seder night and will announce Moshiach (cited as 'our Chachamim tell us')."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 50,
+   "type": "opening",
+   "title": "Opening and greeting"
+  },
+  {
+   "start_sec": 50,
+   "end_sec": 328,
+   "type": "talk",
+   "title": "Pesach and the Jewish Child",
+   "summary": "Children are at the center of Pesach, and the Seder teaches them to ask questions and find the answers in the Torah.",
+   "calendar": [
+    "pesach",
+    "shabbos_mevarchim"
+   ],
+   "linked_items": [
+    "f3074a459b"
+   ]
+  },
+  {
+   "start_sec": 328,
+   "end_sec": 483,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 483,
+   "end_sec": 628,
+   "type": "shema_guest",
+   "title": "Shema with two young brothers"
+  },
+  {
+   "start_sec": 628,
+   "end_sec": 737,
+   "type": "sponsor",
+   "title": "Sponsor message"
+  },
+  {
+   "start_sec": 737,
+   "end_sec": 935,
+   "type": "story_intro",
+   "title": "Moshiach and the cup of Eliyahu HaNavi",
+   "summary": "Belief in Moshiach, and why we set a cup for Eliyahu HaNavi at the Seder."
+  },
+  {
+   "start_sec": 935,
+   "end_sec": 1455,
+   "type": "story",
+   "title": "The Golden Cup of Eliyahu HaNavi",
+   "summary": "A poor woman refuses to sell her treasured cup, shelters a beggar, and is blessed with a gold coin that keeps coming back.",
+   "people": [
+    "eliyahu_hanavi"
+   ],
+   "calendar": [
+    "pesach"
+   ]
+  },
+  {
+   "start_sec": 1455,
+   "end_sec": 1750,
+   "type": "announcement",
+   "title": "'My Sefer Torah' contest entrants and new members",
+   "summary": "Names of contest entrants, a reminder of the deadline, and a family's letter asking to join Tzivos Hashem."
+  },
+  {
+   "start_sec": 1750,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Many children's full names are read on air (contest entrants, Shema guests, a family joining Tzivos Hashem); see hidden. Sponsor ad and contest deadline are period content."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Yitzchak Zaitz (Zeitz)",
+    "role": "shema_guest",
+    "group": "Brothers in Studio 604",
+    "start_sec": 511,
+    "end_sec": 628
+   },
+   {
+    "name": "Yisrael Zeitz",
+    "role": "shema_guest",
+    "group": "Younger brother of Yitzchak",
+    "start_sec": 530,
+    "end_sec": 628
+   },
+   {
+    "name": "Fegi Mendel Rothman",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Moshi Kaluziner (as heard)",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Esther and Avraham Kassoff",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Meir Shlomo Spielman",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Chana and Bas Sheva Bakm (as heard)",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Chana, Moshi Chaim and Hindi Altshuang (as heard)",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "David and Gitti Barnett",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Yehoshua and Yehudis Baskin",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Mordechai and Avraham Eisenberg",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Tamar Isaac",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1549,
+    "end_sec": 1590
+   },
+   {
+    "name": "Aaron Brody",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1578,
+    "end_sec": 1590
+   },
+   {
+    "name": "Yehoshua Reese",
+    "role": "contest_winner",
+    "group": "'My Sefer Torah' contest entrants",
+    "start_sec": 1578,
+    "end_sec": 1590
+   },
+   {
+    "name": "The Kuperstein family: Nachman, Shmuel, Chaya Yehudis and Bela",
+    "role": "mailbox_letter",
+    "group": "Letter asking to join Tzivos Hashem",
+    "start_sec": 1706,
+    "end_sec": 1735
+   }
+  ],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:56:34Z"
+ },
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "f3074a459b",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "note": "'Pesach 219' = 50-328 s of this episode."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "65ccd75a82",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "The Pesach talk (50-328 s; clip 'Pesach 219') also aired in episode 318 at about 45-323 s."
+  },
+  {
+   "type": "same_story",
+   "target_id": "9e71140e43",
+   "evidence": "content",
+   "confidence": 0.9,
+   "note": "Same story, another telling: 'Eliyahu HaNavi's Surprise Visit' (Stories), told by Rabbi Chaim Levi Goldstein."
+  },
+  {
+   "type": "same_story_other_language",
+   "target_id": "f9f2974567",
+   "evidence": "content",
+   "confidence": 0.85,
+   "note": "Same story, another telling: 'Eliyahu HaNavi's Cup' (Stories), told by Bubby Chaya Malka."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5746%20%281985-86%29/Ep%20219%20-%20The%20Golden%20Cup%20of%20Eliyahu%20HaNavi%20%28Shabbos%20Mevarchim%20Nissan%29%20%281986-04-01%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5746 (1985-86)/Ep 219 - The Golden Cup of Eliyahu HaNavi (Shabbos Mevarchim Nissan) (1986-04-01).mp3",
+  "size_bytes": 21646218,
+  "mime_type": "audio/mpeg"
+ }
+}

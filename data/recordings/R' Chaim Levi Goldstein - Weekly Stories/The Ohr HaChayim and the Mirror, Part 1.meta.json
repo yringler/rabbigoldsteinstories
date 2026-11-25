@@ -1,0 +1,230 @@
+{
+ "id": "7357664ac4",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Stories",
+  "folder": "",
+  "filename_title": "Ohr Hachayim & The Mirror 1",
+  "audio_path": "audio/R' Chaim Levi Goldstein - Weekly Stories/The Ohr HaChayim and the Mirror, Part 1.mp3",
+  "duration_sec": 1198.01,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": "1",
+   "production_notes": []
+  },
+  "master_catalog": null,
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "The Ohr HaChayim and the Mirror, Part 1",
+  "title_basis": "filename",
+  "summary_short": "A Turkish sultan, born at the same hour as the Ohr HaChayim, visits the poor tzaddik in disguise and is shown a magic mirror revealing a plot in his own palace.",
+  "summary_long": "The storyteller first shares a question of the Chida, the Ohr HaChayim's student, that the Rebbe often quoted: in Shemoneh Esrei we ask Hashem to bring Moshiach 'because we hope for it all day'. Is hoping a reason? The Midrash on Tehillim answers that hope itself earns the Geulah, just as bitachon brings Hashem's help even to someone who does not deserve it. Then the story the Chida told. The Ohr HaChayim dreams of a coming blood libel and davens that it be annulled. A Turkish sultan who reads the stars learns that the Ohr HaChayim was born at the very same hour as he, and travels in disguise to meet him. He finds a poor house, but the tzaddik recognizes him as a king, says the blessing over a king, and explains that his life of Torah is far sweeter than the king's. To prove that the king has no loyal friends, he sets out a mirror that shows the palace, where the grand vizier is threatening the queen and plotting to seize the throne. The king fires at the image and the vizier falls. The Ohr HaChayim tells him to stay silent for a month, then hold a banquet where he will expose a false accusation against the Jews. To be continued.",
+  "lesson": "Hoping for Moshiach and trusting in Hashem are so precious that Hashem answers them even when we do not deserve it. A life of Torah is sweeter than any king's riches.",
+  "keywords": [
+   "sultan",
+   "magic mirror",
+   "grand vizier",
+   "astrologer",
+   "same birth hour",
+   "blessing over a king",
+   "blood libel",
+   "disguise",
+   "Constantinople"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Stories"
+  ],
+  "content_type": "story_chapter",
+  "story_type": [
+   "rishonim_acharonim"
+  ],
+  "series": "weekly_story_i_believe",
+  "speakers": [
+   "rabbi_chaim_levi_goldstein"
+  ],
+  "standalone": "cliffhanger",
+  "part": {
+   "set_key": "ohr-hachayim-the-mirror",
+   "part_number": 1,
+   "of": 2
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 7,
+  "advisories": [
+   {
+    "flag": "death",
+    "severity": "mild",
+    "note": "The king shoots the treacherous grand vizier through a magic mirror."
+   },
+   {
+    "flag": "persecution",
+    "severity": "mild",
+    "note": "A coming blood libel against the Jews is foretold."
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "ohr_hachayim",
+    "role": "central"
+   },
+   {
+    "id": "baal_shem_tov",
+    "role": "mentioned"
+   },
+   {
+    "id": "the_rebbe",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "chida",
+    "role": "teaching_cited"
+   }
+  ],
+  "characters": [
+   "the Chida",
+   "the Turkish sultan",
+   "the Ohr HaChayim's wife",
+   "the grand vizier",
+   "the queen"
+  ],
+  "topics": [
+   "great_rabbis",
+   "moshiach_geulah",
+   "emunah_bitachon",
+   "miracles"
+  ],
+  "midos": [
+   "bitachon",
+   "contentment",
+   "emunah"
+  ],
+  "mitzvos": [
+   "davening",
+   "brachos",
+   "torah_study"
+  ],
+  "calendar": [],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "note": "The blessing 'Es Tzemach Dovid' in Shemoneh Esrei: 'for we hope for Your salvation all day'."
+   },
+   {
+    "work": "midrash",
+    "ref": "Midrash Tehillim on Tehillim 40:2",
+    "note": "'Kavei kivisi': hope itself earns the redemption, as explained by the Chida."
+   },
+   {
+    "work": "sichos_of_the_rebbe",
+    "note": "The Rebbe often quotes the Chida's question; also the Rebbe's guidance not to pay attention to dreams."
+   }
+  ],
+  "places": [
+   "Turkey",
+   "Constantinople"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 45,
+   "type": "song",
+   "title": "I Believe in Hashem"
+  },
+  {
+   "start_sec": 45,
+   "end_sec": 361,
+   "type": "talk",
+   "title": "Hoping for Moshiach: the Chida's question",
+   "summary": "Why hoping for the Geulah is itself a reason for Hashem to bring it, like bitachon.",
+   "people": [
+    "the_rebbe"
+   ]
+  },
+  {
+   "start_sec": 361,
+   "type": "story_chapter",
+   "title": "The Ohr HaChayim and the Mirror, Part 1",
+   "summary": "The disguised sultan visits the Ohr HaChayim and sees, in a mirror, a plot in his palace.",
+   "people": [
+    "ohr_hachayim"
+   ],
+   "story_key": "ohr-hachayim-the-mirror",
+   "chapter": 1
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "ASR writes 'Arachayim/Ur HaChaim' for the Ohr HaChayim."
+ },
+ "relations": [
+  {
+   "type": "part_of_set",
+   "target_id": "541d613537",
+   "evidence": "content",
+   "confidence": 0.97,
+   "note": "Part 2 ('Ohr Hachayim & The Mirror 2') opens 'We're in the middle of the story' and continues from the banquet promise."
+  }
+ ],
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "identity_guesses": [
+  {
+   "placeholder_id": "weekly_story_i_believe",
+   "guess": null,
+   "confidence": "none",
+   "evidence_quote": "I believe in Hashem, I trust in Hashem.",
+   "at_sec": 0
+  }
+ ],
+ "proposed_new_terms": [],
+ "provenance": {
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T16:16:00Z",
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "audience": "medium"
+  },
+  "needs_human_review": []
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/R%27%20Chaim%20Levi%20Goldstein%20-%20Weekly%20Stories/The%20Ohr%20HaChayim%20and%20the%20Mirror%2C%20Part%201.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/R' Chaim Levi Goldstein - Weekly Stories/The Ohr HaChayim and the Mirror, Part 1.mp3",
+  "size_bytes": 14377108,
+  "mime_type": "audio/mpeg"
+ }
+}

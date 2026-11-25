@@ -1,0 +1,245 @@
+{
+ "id": "37367b27fe",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "Yomim Tovim",
+  "filename_title": "Asarah B'Teves 308",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Remember and a Day That Will Become a Yom Tov (Ep 308).mp3",
+  "duration_sec": 839.186,
+  "filename_facts": {
+   "episode_number": null,
+   "date_in_filename": null,
+   "trailing_number": 308,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 308,
+   "story": "",
+   "topic": "י' טבת / Shabbos Chazak",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Asarah B'Teves: A Time to Remember and a Day That Will Become a Yom Tov",
+  "title_basis": "content",
+  "summary_short": "Why we fast on the tenth of Teves: the siege of Yerushalayim, what it teaches us today, and the promise that Moshiach will turn the fast days into holidays.",
+  "summary_long": "A talk from the Tzivos Hashem radio show for the fast of Asarah B'Teves. Uncle Yossi walks through the Jewish months to Teves and quotes Shlomo HaMelech: there is a time for everything, even a time to be sad, not to stay sad but to improve ourselves. On the tenth of Teves the armies of Nevuchadnetzar, king of Bavel, surrounded Yerushalayim and sealed its gates, and the people grew weak from hunger. The siege led to the breach of the walls on the seventeenth of Tammuz and, three weeks later, the destruction of the Beis HaMikdash on Tisha B'Av. We remember in order to ask what caused it and to make sure it never happens again: as long as we learn Torah and keep the mitzvos, the Guardian of Israel protects us. Hashem has promised to turn these sad days into Yomim Tovim when Moshiach gathers us to Eretz Yisroel and the third Beis HaMikdash. On the fast we daven, give tzedakah and call out 'Ad mosai!'.",
+  "lesson": "We remember sad days in our history to improve ourselves; Torah and mitzvos protect us, and Moshiach will turn the fast into a holiday.",
+  "keywords": [
+   "tenth of Teves",
+   "siege",
+   "Jewish calendar",
+   "fast day",
+   "hunger",
+   "walls of Yerushalayim",
+   "Ad Mosai",
+   "third Beis HaMikdash"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Yomim Tovim"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 308,
+   "is_clip": true
+  },
+  "content_type": "radio_segment",
+  "story_type": [],
+  "speakers": [
+   "rabbi_yosef_goldstein"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1987-12-29",
+   "hebrew": "8 Teves 5748",
+   "hebrew_year": 5748,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'This Thursday is Asarah B'Teves' (Thursday 31 Dec 1987); clip of episode 308. The same talk also aired in episodes 260 and 355."
+  }
+ },
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 6,
+  "advisories": [
+   {
+    "flag": "national_tragedy",
+    "severity": "mild",
+    "note": "The siege of Yerushalayim, hunger in the city and the destruction of the first Beis HaMikdash, told gently.",
+    "at_sec": 200
+   }
+  ],
+  "privacy": []
+ },
+ "subjects": {
+  "people": [
+   {
+    "id": "shlomo_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "david_hamelech",
+    "role": "teaching_cited"
+   },
+   {
+    "id": "nevuchadnetzar",
+    "role": "mentioned"
+   }
+  ],
+  "characters": [],
+  "topics": [
+   "calendar",
+   "jewish_history",
+   "moshiach_geulah",
+   "beis_hamikdash_eretz_yisroel"
+  ],
+  "midos": [
+   "emunah",
+   "simcha"
+  ],
+  "mitzvos": [
+   "fast_days",
+   "tzedakah",
+   "davening",
+   "torah_study"
+  ],
+  "calendar": [
+   "asarah_bteves"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "kesuvim",
+    "ref": "Koheles 3:1",
+    "note": "'There is a time for everything', said by Shlomo HaMelech."
+   },
+   {
+    "work": "tehillim",
+    "ref": "121:4",
+    "note": "'The Guardian of Israel neither slumbers nor sleeps.'"
+   }
+  ],
+  "places": [
+   "Yerushalayim",
+   "Bavel"
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 64,
+   "type": "talk",
+   "title": "The month of Teves"
+  },
+  {
+   "start_sec": 64,
+   "end_sec": 194,
+   "type": "talk",
+   "title": "A time for everything, even a time to be sad"
+  },
+  {
+   "start_sec": 194,
+   "end_sec": 445,
+   "type": "talk",
+   "title": "The siege of Yerushalayim and the destruction of the Beis HaMikdash"
+  },
+  {
+   "start_sec": 445,
+   "end_sec": 666,
+   "type": "talk",
+   "title": "Torah protects us; the fasts will become holidays"
+  },
+  {
+   "start_sec": 666,
+   "type": "talk",
+   "title": "This Thursday: fasting, tzedakah and 'Ad mosai'"
+  }
+ ],
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Says 'this Thursday is Asarah B'Teves' and hopes that 'by next year' it will be a Yom Tov."
+ },
+ "hidden": {
+  "on_air_people": [],
+  "addresses": [],
+  "other_personal": []
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "medium",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [
+   "The same talk is reported in episode 260 (5747) too, but 'this Thursday is Asarah B'Teves' fits only 5748; check which broadcast is the original."
+  ],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T14:11:04Z"
+ },
+ "proposed_new_terms": [],
+ "relations": [
+  {
+   "type": "aired_again_in",
+   "target_id": "2502f04235",
+   "evidence": "text_overlap",
+   "confidence": 0.9,
+   "note": "Also aired in episode 355."
+  },
+  {
+   "type": "aired_again_in",
+   "target_id": "672ff77943",
+   "evidence": "text_overlap",
+   "confidence": 0.89,
+   "note": "Also aired in episode 260."
+  },
+  {
+   "type": "clip_of",
+   "target_id": "d8bd0302fb",
+   "evidence": "text_overlap",
+   "confidence": 0.94,
+   "offset_sec": 637,
+   "note": "Episode 308 (filename number); clip = 637-1476 s of the episode."
+  },
+  {
+   "type": "same_recording",
+   "target_id": "64dc417cdd",
+   "evidence": "text_overlap",
+   "confidence": 0.85,
+   "note": "'Asarah B'Teves 355' has the same talk word for word, cut from its rebroadcast in episode 355."
+  }
+ ],
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Segments/Yomim%20Tovim/Asarah%20B%27Teves%20-%20A%20Time%20to%20Remember%20and%20a%20Day%20That%20Will%20Become%20a%20Yom%20Tov%20%28Ep%20308%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Segments/Yomim Tovim/Asarah B'Teves - A Time to Remember and a Day That Will Become a Yom Tov (Ep 308).mp3",
+  "size_bytes": 10071329,
+  "mime_type": "audio/mpeg"
+ }
+}

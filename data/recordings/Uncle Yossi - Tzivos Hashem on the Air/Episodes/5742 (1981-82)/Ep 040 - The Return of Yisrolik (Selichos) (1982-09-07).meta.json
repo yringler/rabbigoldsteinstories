@@ -1,0 +1,263 @@
+{
+ "id": "df73f5aad1",
+ "schema_version": "0.3",
+ "source": {
+  "collection": "Uncle Yossi - Tzivos Hashem Radio Program",
+  "folder": "UY Radio program Tzivos Hashem on the Air - missing 42-112",
+  "filename_title": "40",
+  "audio_path": "audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 040 - The Return of Yisrolik (Selichos) (1982-09-07).mp3",
+  "duration_sec": 1746.013,
+  "filename_facts": {
+   "episode_number": 40,
+   "date_in_filename": null,
+   "trailing_number": null,
+   "part_marker": null,
+   "production_notes": []
+  },
+  "master_catalog": {
+   "episode": 40,
+   "story": "The Return of Yisrolik",
+   "topic": "Selichos-Shemah Koleinu",
+   "has_visitor_names": true
+  },
+  "pipeline_flags": []
+ },
+ "display": {
+  "transcript_display": "show_with_label",
+  "title": "Episode 40: The Return of Yisrolik (Selichos)",
+  "title_basis": "master_catalog",
+  "summary_short": "A prince who fell in with bad company returns home in rags, and the king knows him only by his voice: Uncle Yossi's parable for Selichos and Shema Koleinu.",
+  "summary_long": "Recorded the week before Selichos 5742. Uncle Yossi welcomes listeners back from vacation, wishes everyone a kesivah vachasimah tovah and the greatest blessing of all, Moshiach now, and leads a Hakochainik march with homemade drums. Story time: a king raises his only son, Yisrolik, with the finest teachers and sends him to tour the country, warning him to choose good friends. Little by little Yisrolik falls in with dishonest company and becomes an unrecognizable tramp. A nine-year-old yeshiva boy leads the Shema in Studio 604. Yisrolik decides to return, but the guards laugh at him and even the king, seeing him from the balcony, does not recognize him, until Yisrolik cries out and the king knows his son's voice and takes him back. Uncle Yossi explains that this is Selichos: our misdeeds have soiled our appearance, but we come to our Father and King and say Shema Koleinu, hear our voice, which is why the Aron Kodesh is opened for that prayer. He urges children to come to shul for Selichos this Saturday night, and announces Uncle Yossi's eighth story record and tape.",
+  "lesson": "However far we have strayed, Hashem our Father always recognizes the sincere voice of a child who returns to Him.",
+  "keywords": [
+   "prince",
+   "king",
+   "bad friends",
+   "tramp",
+   "palace guard",
+   "father's voice",
+   "Aron Kodesh",
+   "Shema Koleinu",
+   "story records",
+   "Studio 604"
+  ]
+ },
+ "classification": {
+  "collections": [
+   "Radio episodes"
+  ],
+  "series": "uy_tzivos_hashem_on_the_air",
+  "episode": {
+   "number": 40,
+   "is_clip": false
+  },
+  "content_type": "radio_episode",
+  "story_type": [
+   "mashal_parable"
+  ],
+  "speakers": [
+   "rabbi_yosef_goldstein",
+   "guest_children"
+  ],
+  "standalone": "standalone",
+  "date": {
+   "gregorian": "1982-09-07",
+   "hebrew": "19 Elul 5742",
+   "hebrew_year": 5742,
+   "precision": "day",
+   "basis": "calendar_cues",
+   "note": "'Rosh Hashanah is just around the corner'; Selichos 'this coming Saturday night' = 11 Sept 1982 (Rosh Hashanah 5743 fell on 18 Sept). Matches the weekly estimate."
+  }
+ },
+ "audience": {
+  "level": "children",
+  "age_min": 5,
+  "advisories": [],
+  "privacy": [
+   {
+    "flag": "minor_named",
+    "note": "Shema guest named in full.",
+    "at_sec": 920
+   }
+  ]
+ },
+ "subjects": {
+  "people": [],
+  "characters": [
+   "Yisrolik, the king's son",
+   "the king",
+   "the palace guard"
+  ],
+  "topics": [
+   "teshuvah",
+   "prayer_and_brachos",
+   "calendar"
+  ],
+  "midos": [
+   "self_control",
+   "kabbalas_ol",
+   "emunah",
+   "resisting_bad_influence"
+  ],
+  "mitzvos": [
+   "teshuvah",
+   "davening",
+   "shema"
+  ],
+  "calendar": [
+   "selichos",
+   "elul",
+   "rosh_hashanah"
+  ],
+  "parshiyos": [],
+  "sources_cited": [
+   {
+    "work": "siddur",
+    "ref": "Selichos: Shema Koleinu",
+    "note": "The Aron Kodesh is opened when Shema Koleinu is said."
+   }
+  ]
+ },
+ "segments": [
+  {
+   "start_sec": 0,
+   "end_sec": 48,
+   "type": "opening",
+   "title": "Opening theme and greeting"
+  },
+  {
+   "start_sec": 48,
+   "end_sec": 125,
+   "type": "talk",
+   "title": "Kesivah vachasimah tovah",
+   "summary": "From the start of Elul we bless each other to be inscribed for a good year, and above all for Moshiach.",
+   "calendar": [
+    "elul",
+    "rosh_hashanah"
+   ]
+  },
+  {
+   "start_sec": 125,
+   "end_sec": 385,
+   "type": "song",
+   "title": "Hakochainik March"
+  },
+  {
+   "start_sec": 385,
+   "end_sec": 890,
+   "type": "story",
+   "title": "The Return of Yisrolik (beginning)",
+   "summary": "The king's son sets out to tour the country, falls in with bad company and decides to go home in rags."
+  },
+  {
+   "start_sec": 890,
+   "end_sec": 1037,
+   "type": "shema_guest",
+   "title": "Shema with a nine-year-old yeshiva student"
+  },
+  {
+   "start_sec": 1037,
+   "end_sec": 1351,
+   "type": "story",
+   "title": "The Return of Yisrolik (conclusion)",
+   "summary": "Turned away at the gate, the prince cries out, and the king recognizes his son's voice and takes him back."
+  },
+  {
+   "start_sec": 1351,
+   "end_sec": 1625,
+   "type": "talk",
+   "title": "Selichos and Shema Koleinu",
+   "summary": "Like the prince, we come to Hashem soiled by our misdeeds and ask Him to hear our voice; come to shul for Selichos Saturday night.",
+   "calendar": [
+    "selichos"
+   ],
+   "linked_items": [
+    "1da9f1737c"
+   ]
+  },
+  {
+   "start_sec": 1625,
+   "end_sec": 1715,
+   "type": "announcement",
+   "title": "Uncle Yossi's story record number eight"
+  },
+  {
+   "start_sec": 1715,
+   "type": "closing",
+   "title": "Closing"
+  }
+ ],
+ "relations": [
+  {
+   "type": "contains",
+   "target_id": "1da9f1737c",
+   "evidence": "text_overlap",
+   "confidence": 0.92,
+   "note": "'Selichos-Shema Koleinu 40' = 1351-1625 s of this episode."
+  }
+ ],
+ "language": {
+  "transcript_language": "en",
+  "primary": "en",
+  "spoken": [
+   "en",
+   "he"
+  ],
+  "transcript_language_ok": true
+ },
+ "quality": {
+  "audio": "good",
+  "transcript": "good",
+  "issues": [
+   "music_untranscribed",
+   "time_bound_content"
+  ],
+  "trim": null,
+  "publish_recommendation": "publish",
+  "notes": "Record/tape order address and a phone number for orders are period pieces. Opening welcomes listeners back 'from vacation' and says the march may need practice, though episode 39 also had a march."
+ },
+ "hidden": {
+  "on_air_people": [
+   {
+    "name": "Menachem Mendel Harlig",
+    "role": "shema_guest",
+    "group": "Yeshiva Oholei Torah",
+    "start_sec": 916,
+    "end_sec": 1037,
+    "note": "Heard as 'Harlech'; age 9."
+   }
+  ],
+  "addresses": [],
+  "other_personal": [
+   {
+    "kind": "school",
+    "text": "Shema guest learns in Yeshiva Oholei Torah.",
+    "start_sec": 935,
+    "end_sec": 960
+   }
+  ]
+ },
+ "provenance": {
+  "confidence": {
+   "title": "high",
+   "summary": "high",
+   "people": "high",
+   "calendar": "high",
+   "segments": "high",
+   "date": "high",
+   "audience": "high"
+  },
+  "needs_human_review": [],
+  "method": "llm",
+  "model": "claude-opus-5-5",
+  "filled_at": "2026-11-25T13:57:17Z"
+ },
+ "media": {
+  "url": "https://storiesmedia.torahlearningtools.com/goldstein/audio/Uncle%20Yossi%20-%20Tzivos%20Hashem%20on%20the%20Air/Episodes/5742%20%281981-82%29/Ep%20040%20-%20The%20Return%20of%20Yisrolik%20%28Selichos%29%20%281982-09-07%29.mp3",
+  "public_host": "storiesmedia.torahlearningtools.com",
+  "r2_bucket": "stories",
+  "r2_key": "goldstein/audio/Uncle Yossi - Tzivos Hashem on the Air/Episodes/5742 (1981-82)/Ep 040 - The Return of Yisrolik (Selichos) (1982-09-07).mp3",
+  "size_bytes": 20953136,
+  "mime_type": "audio/mpeg"
+ }
+}
