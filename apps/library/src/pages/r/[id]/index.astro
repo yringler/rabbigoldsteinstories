@@ -1070,16 +1070,14 @@ const qr = qrSvg(`${ORIGIN}/r/${id}/`, 88);
   }
   .type-line,
   .date-line {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2px 8px;
     margin: 4px 0 0;
     font-size: 14px;
+    line-height: 22px;
   }
   .type-line > span + span::before,
   .date-line > span + span::before {
     content: "·";
-    margin-right: 8px;
+    margin: 0 8px;
     color: var(--rule-strong);
   }
   .date-line {
@@ -1099,9 +1097,7 @@ const qr = qrSvg(`${ORIGIN}/r/${id}/`, 88);
     margin: 6px 0 0;
     max-width: 72ch;
   }
-  .crumbs {
-    justify-content: space-between;
-  }
+
   .ep-nav {
     display: flex;
     gap: 4px;

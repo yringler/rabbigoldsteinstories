@@ -60,6 +60,19 @@ const aria = (c: EpisodeCell) =>
   c.status === "found"
     ? `Episode ${c.n}${c.hebrew ? `, ${c.hebrew}` : ""}${c.title ? `, ${c.title}` : ""}${c.serial ? `, serial ${c.serial.title}${c.serial.ch ? ` chapter ${c.serial.ch}` : ""}` : ""}`
     : `Episode ${c.n}, not found yet`;
+/** Found episodes by Hebrew day, for "this week in earlier years" (computed in the browser). */
+const thisWeek = JSON.stringify(
+  eps
+    .filter((e) => e.status === "found" && e.hebrewMonth && e.hebrew && e.id)
+    .map((e) => [
+      e.n,
+      e.id,
+      e.title ?? "",
+      e.hebrewMonth,
+      Number(/^\d+/.exec(e.hebrew ?? "")?.[0] ?? 0),
+      e.year,
+    ]),
+);
 const mail = (n: number) =>
   `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`I may have radio episode ${n}`)}&body=${encodeURIComponent(`Hello,\n\nI may have a recording of Tzivos Hashem on the Air, episode ${n}.\n\n`)}`;
 ---
@@ -79,7 +92,7 @@ const mail = (n: number) =>
       <p class="lede">{radio?.description}</p>
       <p>
         <strong class="num">{eps.length}</strong> episode numbers:{" "}
-        <strong class="num">{found}</strong> in the archive,
+        <strong class="num">{found}</strong> in the archive,{" "}
         <strong class="num">{eps.length - found}</strong> not found yet.{" "}
         <a href="/radio/lost/">List of lost episodes</a>.
       </p>
@@ -87,13 +100,13 @@ const mail = (n: number) =>
 
     <div class="radio-tools no-print">
       <div class="seg" role="group" aria-label="Arrangement">
-        <a class="btn" href="?view=grid" data-arrange="grid" aria-pressed="true">
+        <a class="btn" href="?view=grid" data-arrange="grid" aria-current="true">
           Grid
         </a>
-        <a class="btn" href="?view=list" data-arrange="list" aria-pressed="false">
+        <a class="btn" href="?view=list" data-arrange="list">
           List
         </a>
-        <a class="btn" href="?view=month" data-arrange="month" aria-pressed="false">
+        <a class="btn" href="?view=month" data-arrange="month">
           By Jewish month
         </a>
       </div>
@@ -103,6 +116,12 @@ const mail = (n: number) =>
       </span>
     </div>
 
+    <section class="this-week" data-this-week hidden aria-labelledby="tw-h">
+      <h2 id="tw-h">This week in earlier years</h2>
+      <p class="small muted" data-tw-sub></p>
+      <ul class="tw-list" data-tw-list></ul>
+    </section>
+    <script type="application/json" id="this-week-data" set:html={thisWeek} />
     <nav class="year-rail" aria-label="Hebrew years">
       {byYear.map((y) => (
         <a href={`#y${y.year}`}>
@@ -347,7 +366,7 @@ const mail = (n: number) =>
   .seg .btn:last-child {
     border-radius: 0 var(--radius) var(--radius) 0;
   }
-  .seg .btn[aria-pressed="true"] {
+  .seg .btn[aria-current="true"] {
     background: var(--accent-soft);
     color: var(--accent);
     border-color: var(--accent);
@@ -375,6 +394,29 @@ const mail = (n: number) =>
   .lg.serial {
     background: var(--surface);
     border-left: 4px solid var(--accent-2);
+  }
+  .this-week {
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent-2);
+    background: var(--surface);
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 18px;
+  }
+  .this-week h2 {
+    font-size: 17px;
+    margin: 0;
+  }
+  .this-week p {
+    margin: 2px 0 8px;
+  }
+  .tw-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 4px 24px;
   }
   .year-rail {
     display: flex;

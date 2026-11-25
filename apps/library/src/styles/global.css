@@ -457,7 +457,8 @@ main {
   min-height: 60vh;
 }
 .page {
-  padding: 28px 0 48px;
+  padding-top: 28px;
+  padding-bottom: 48px;
 }
 .page-head {
   margin-bottom: 24px;
@@ -744,6 +745,7 @@ legend {
 }
 
 .big-search {
+  min-width: 0;
   display: flex;
   gap: 8px;
   max-width: 760px;
@@ -768,6 +770,15 @@ legend {
   height: 48px;
   padding: 0 20px;
   font-size: 15px;
+}
+@media (max-width: 599px) {
+  .big-search .btn {
+    padding: 0 14px;
+  }
+  .big-search input[type="search"] {
+    font-size: 16px;
+    padding-right: 8px;
+  }
 }
 
 /* ---------------------------------------------------------------- tables */
@@ -898,6 +909,9 @@ th button.sort:focus-visible {
     8px 0 0 color-mix(in srgb, var(--accent-soft) 60%, transparent);
 }
 .rec-title {
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--ink);
   font-family: var(--serif);
   font-size: 17px;
   line-height: 23px;
@@ -916,13 +930,10 @@ th button.sort:focus-visible {
   color: var(--muted);
   font-size: 13px;
   line-height: 19px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 6px;
 }
 .rec-meta > span + span::before {
   content: "·";
-  margin-right: 6px;
+  margin: 0 6px;
   color: var(--rule-strong);
 }
 .rec-sum {
@@ -959,6 +970,10 @@ th button.sort:focus-visible {
   display: flex;
   gap: 10px;
   align-items: baseline;
+}
+.rec-hits li.small {
+  font-family: var(--sans);
+  font-size: 13px;
 }
 .rec-hits a.t {
   font-family: var(--sans);
@@ -1397,4 +1412,18 @@ dialog::backdrop {
     transition: none !important;
     animation: none !important;
   }
+}
+
+.t-gap.current span {
+  border-color: var(--accent-2);
+  border-style: solid;
+  color: var(--ink);
+}
+
+.site-footer .btn-quiet {
+  color: var(--ink);
+  font: inherit;
+  min-height: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

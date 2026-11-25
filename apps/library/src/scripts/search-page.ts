@@ -405,8 +405,18 @@ function paint(
   const total = results.length;
   const secs = results.reduce((a, r) => a + r.row.dur, 0);
   const count = $("[data-count]");
-  if (count)
+  const nested = results.reduce((a, r) => a + r.nested.length, 0);
+  if (count) {
     count.textContent = `${total.toLocaleString("en")} recording${total === 1 ? "" : "s"} · ${totalLength(secs)}`;
+    if (nested)
+      count.append(
+        h(
+          "span",
+          { class: "nested-note" },
+          ` + ${nested} clip${nested === 1 ? "" : "s"} shown under their episodes`,
+        ),
+      );
+  }
   if (!pending) announce(`${total} recordings`);
   const status = $("[data-status]");
   if (status && !pending) {
@@ -430,12 +440,17 @@ function paint(
   focusIdx = -1;
 }
 
+/** With no query, minor material (fragments, promos, songs) goes after the rest. */
+const MINOR: Partial<Record<LibRow["type"], number>> = { fragment: 2, promo: 2, song: 1 };
+
 function sortResults(rs: Result[]): void {
   const date = (r: Result) => r.row.sortKey || 99999999;
+  const minor = (r: Result) => MINOR[r.row.type] ?? 0;
   const by: Record<SearchState["sort"], (a: Result, b: Result) => number> = {
     relevance: state.q
       ? (a, b) => 3 * b.meta + b.tr - (3 * a.meta + a.tr) || date(a) - date(b)
-      : (a, b) => date(a) - date(b) || a.row.title.localeCompare(b.row.title),
+      : (a, b) =>
+          minor(a) - minor(b) || date(a) - date(b) || a.row.title.localeCompare(b.row.title),
     date: (a, b) => date(a) - date(b) || a.row.title.localeCompare(b.row.title),
     "date-desc": (a, b) =>
       (b.row.sortKey || 0) - (a.row.sortKey || 0) || a.row.title.localeCompare(b.row.title),

@@ -34,9 +34,13 @@ export interface SerialRun {
   date_from: string | null;
   date_to: string | null;
   chapters_in_archive: number;
-  missing_chapters: number[];
+  missing_chapters: { chapter: number; episode: number | null; catalog_title?: string | null }[];
   complete: boolean;
-  same_text_as_earlier_run: string[];
+  same_text_as_earlier_run: {
+    run: string;
+    chapters_matching: number;
+    chapters_comparable: number;
+  }[];
   note: string | null;
   chapters: SerialChapter[];
 }

@@ -147,7 +147,12 @@ const wholeSec = wholeTracks.reduce((a, t) => a + ((t.end_sec ?? 0) - (t.start_s
                 </div>
                 {r.same_text_as_earlier_run.length > 0 && (
                   <div class="run-meta">
-                    Same script as the {r.same_text_as_earlier_run.join(", ")} airing
+                    Same script as the{" "}
+                    {r.same_text_as_earlier_run
+                      .filter((x) => x.chapters_matching === x.chapters_comparable)
+                      .map((x) => x.run)
+                      .join(" and ") || "earlier"}{" "}
+                    airing
                   </div>
                 )}
               </th>
@@ -166,7 +171,18 @@ const wholeSec = wholeTracks.reduce((a, t) => a + ((t.end_sec ?? 0) - (t.start_s
                 const p = it ? parts(it, n) : null;
                 if (!ch || !it || !p)
                   return (
-                    <td class="missing">{r.missing_chapters.includes(n) ? "missing" : "—"}</td>
+                    <td class="missing">
+                      {(() => {
+                        const m = r.missing_chapters.find((x) => x.chapter === n);
+                        return m?.episode ? (
+                          <a href={`/radio/lost/#ep-${m.episode}`}>
+                            Episode {m.episode}: not found
+                          </a>
+                        ) : (
+                          "not in this airing"
+                        );
+                      })()}
+                    </td>
                   );
                 return (
                   <td>
@@ -215,10 +231,30 @@ const wholeSec = wholeTracks.reduce((a, t) => a + ((t.end_sec ?? 0) - (t.start_s
         </tbody>
       </table>
     </div>
+    {runs.some((r) => r.note) && (
+      <section class="run-notes small muted" aria-label="Notes on the airings">
+        {runs
+          .filter((r) => r.note)
+          .map((r) => (
+            <p>
+              <strong>{r.label} airing:</strong> {r.note}
+            </p>
+          ))}
+      </section>
+    )}
   </div>
 </Base>
 
 <style>
+  .serial-table th[scope="row"] {
+    width: 64px;
+    text-align: left;
+    font-size: 18px;
+    font-family: var(--serif);
+  }
+  .run-notes {
+    margin-top: 16px;
+  }
   .serial-table table th[scope="col"] {
     min-width: 170px;
     white-space: normal;

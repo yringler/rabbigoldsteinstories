@@ -145,7 +145,9 @@ function setupTranscript(
   const body = $("[data-t-body]", page);
   if (!body) return;
   const lines = $$<HTMLElement>(".t-line", body);
-  const starts = lines.map((l) => Number(l.dataset["s"]));
+  // Gaps (withheld lines) take part in the position highlight too, so a ?t= inside one is shown.
+  const rowsEl = $$<HTMLElement>(".t-line, .t-gap", body);
+  const starts = rowsEl.map((l) => Number(l.dataset["s"]));
   // Wrap words (interpolated timings; see lib/words.ts).
   for (const l of lines) {
     const tx = $(".tx", l);
@@ -170,7 +172,7 @@ function setupTranscript(
 
   const show = (t: number, scroll: boolean) => {
     const i = lastAtOrBefore(starts, t + 0.05);
-    const line = i >= 0 ? (lines[i] ?? null) : null;
+    const line = i >= 0 ? (rowsEl[i] ?? null) : null;
     const inLine = line && t <= Number(line.dataset["e"]) + 1.5 ? line : null;
     if (inLine !== current) {
       current?.classList.remove("current");

@@ -134,6 +134,7 @@ import Base from "../../layouts/Base.astro";
 <style is:global>
   .search-top {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 10px;
     margin-bottom: 14px;
   }
@@ -242,6 +243,19 @@ import Base from "../../layouts/Base.astro";
     border-top: 1px solid var(--rule);
     padding: 10px 0 8px;
   }
+  fieldset.facet {
+    border-top: 0;
+    padding-top: 0;
+  }
+  fieldset.facet > legend.facet-head {
+    float: left;
+    width: 100%;
+    border-top: 1px solid var(--rule);
+    padding-top: 10px;
+  }
+  fieldset.facet > legend + * {
+    clear: both;
+  }
   .facet-head {
     display: flex;
     justify-content: space-between;
@@ -310,7 +324,10 @@ import Base from "../../layouts/Base.astro";
     font-variant-numeric: tabular-nums;
   }
   .fv.zero {
-    opacity: 0.5;
+    color: var(--muted);
+  }
+  .fv.zero input {
+    opacity: 0.55;
   }
   .fv.excluded label span.l {
     text-decoration: line-through;
@@ -329,6 +346,11 @@ import Base from "../../layouts/Base.astro";
   .fv:focus-within .not,
   .fv.excluded .not {
     opacity: 1;
+  }
+  @media (hover: none) {
+    .fv .not {
+      opacity: 1;
+    }
   }
   .fv .not:focus-visible {
     outline: 2px solid var(--accent);
@@ -398,6 +420,11 @@ import Base from "../../layouts/Base.astro";
     color: var(--accent);
     border-color: var(--accent);
     position: relative;
+  }
+  .nested-note {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--muted);
   }
   .search-status {
     min-height: 18px;
@@ -489,6 +516,7 @@ import Base from "../../layouts/Base.astro";
     .facets.open {
       transform: none;
       visibility: visible;
+      box-shadow: 0 0 0 100vmax rgba(10, 14, 20, 0.4);
     }
     .facets-close,
     .facets-open {
