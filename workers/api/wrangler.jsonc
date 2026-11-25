@@ -19,14 +19,14 @@
   },
   // Hourly: cheap when nothing changed (reads only); catches a new pool right after a deploy.
   "triggers": { "crons": ["17 * * * *"] },
-  "kv_namespaces": [{ "binding": "EDITIONS", "id": "00000000000000000000000000000000" }],
+  "kv_namespaces": [{ "binding": "EDITIONS", "id": "7c12befa8f454b6eafd7431cc2d0ebe7" }],
   "env": {
     "staging": {
       "name": "goldstein-api-staging",
       "workers_dev": false,
       "preview_urls": false,
       "triggers": { "crons": ["17 * * * *"] },
-      "kv_namespaces": [{ "binding": "EDITIONS", "id": "00000000000000000000000000000001" }],
+      "kv_namespaces": [{ "binding": "EDITIONS", "id": "cee30f39105e4f65acb84e19d5ed0144" }],
     },
   },
 }

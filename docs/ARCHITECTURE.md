@@ -267,7 +267,7 @@ From a clean `npm ci`: install 7 s, typecheck 18 s, tests 34 s, build 28 s. `nod
 1. **Cloudflare API token** for CI, with Workers Scripts:Edit, Workers KV Storage:Edit, Workers Routes:Edit, and Zone:DNS:Edit plus Zone:Read for `torahlearningtools.com` (custom domains), and Account Settings:Read.
    - In GitHub → Settings → Environments, create `production` and `staging`. In each, add the secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
    - Optionally require approval for `production`.
-2. **KV namespaces**: `npx wrangler kv namespace create goldstein-editions` and `… goldstein-editions-staging`. Put the two ids into `workers/api/wrangler.jsonc`, replacing the placeholder zeros.
+2. **KV namespaces**: done (2026-11-25). `goldstein-editions` and `goldstein-editions-staging` exist and their ids are in `workers/api/wrangler.jsonc`.
    - Existing namespaces in the account are `SESSIONS` and `labeled-break-votes`; nothing collides.
 3. **Domains** (confirmed, no dashes): the three hosts are in `packages/config/src/sites.ts` and the matching `routes` in `apps/*/wrangler.jsonc`.
    - `wrangler deploy` creates the custom domains and DNS records on the first deploy, if the token has DNS edit on the zone.
