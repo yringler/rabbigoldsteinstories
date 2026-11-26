@@ -12,25 +12,19 @@ export interface SiteCard {
   name: string;
   /** The site's home page. */
   url: string;
-  /** Where the card's button goes: the site's home page, or (bedtime) straight into playing. */
-  href: string;
   /** One short line under the name. */
   hook: string;
   /** The card's button text. */
   cta: string;
-  /** Path on the site for the button, when not its home page. */
-  ctaPath?: string;
+
   /** What the site is for, in a few words, for the internet-filter list ("for bedtime"). */
   filterRole: string;
 }
 
-const COPY: Record<CardSite, Omit<SiteCard, "id" | "name" | "url" | "href">> = {
+const COPY: Record<CardSite, Omit<SiteCard, "id" | "name" | "url">> = {
   bedtime: {
     hook: "New stories every night",
     cta: "Play",
-    // The bedtime site starts Tonight's Mix where the browser allows audio without a tap there,
-    // and otherwise opens it one tap from playing (apps/bedtime pages.ts, canAutoplay).
-    ctaPath: "/?play=mix",
     filterRole: "for bedtime",
   },
   kids: {
@@ -52,7 +46,6 @@ export function siteCards(): SiteCard[] {
     id,
     name: SITES[id].name,
     url: siteUrl(id),
-    href: siteUrl(id, COPY[id].ctaPath),
     ...COPY[id],
   }));
 }

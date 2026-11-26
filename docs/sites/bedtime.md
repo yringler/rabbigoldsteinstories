@@ -59,7 +59,7 @@ Four routes, plus the `/landing` pitch. No navigation bar; the header is the wor
 /landing                Elevator pitch ("Bedtime? Just press play."): one button that starts Tonight's Mix and goes to /
 ```
 
-`/landing` (added 2026-11-26, owner's brief) has no Earlier link or footer. Its button starts Tonight's Mix inside the tap and moves to `/` with the player open. If the edition has not loaded yet, or without script (the link is `/?play=mix`), `/` starts the Mix if the browser allows audio without a tap on the page (it asks the browser, or plays a silent probe), and otherwise opens the Mix's track list, one tap from playing. The family landing page's bedtime button (`apps/home`, "Play") links to `/?play=mix` too (owner, 2026-11-26: "legit one click"). iOS Safari never allows it, so there it is always one more tap.
+`/landing` (added 2026-11-26, owner's brief) has no Earlier link or footer. Its button starts Tonight's Mix inside the tap and moves to `/` with the player open. If the edition has not loaded yet, or without script (the link is `/?play=mix`), `/` opens the Mix's track list instead: never autoplay without a tap.
 
 The player is a sheet over any route, not a route.
 

@@ -179,11 +179,9 @@ describe("tonight strip", () => {
     expect(page).toMatch(/<section[^>]*data-tonight[^>]*\bhidden\b/);
     expect(page.match(/<script\b/g)).toHaveLength(1);
     expect(src("layouts/Base.astro")).not.toMatch(/<script\b/);
-    // The bedtime button goes straight into playing Tonight's Mix on the bedtime site.
-    const [bedtime, ...rest] = siteCards();
-    expect(bedtime?.href).toBe(siteUrl("bedtime", "/?play=mix"));
-    expect(bedtime?.cta).toBe("Play");
-    expect(rest.map((c) => c.href)).toEqual(rest.map((c) => c.url));
+    // The bedtime button reads "Play" but just opens the bedtime site's main page.
+    expect(siteCards()[0]?.cta).toBe("Play");
+    expect(siteCards()[0]?.url).toBe(siteUrl("bedtime"));
   });
 
   it("formats lengths like the bedtime site", () => {
