@@ -4,7 +4,7 @@
  * under <ClientRouter />, so audio keeps playing across page loads), global dialogs, footer.
  */
 import { ClientRouter } from "astro:transitions";
-import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, SITES, supportUrl } from "@goldstein/config/sites";
 import interLatin from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
 import interLatinExt from "@fontsource-variable/inter/files/inter-latin-ext-wght-normal.woff2?url";
 import serifLatin from "@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url";
@@ -217,6 +217,9 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
           </li>
           <li>
             <a href="/data/">Data download</a>
+          </li>
+          <li>
+            <a href={supportUrl()}>Support the archive</a>
           </li>
         </ul>
         <ul>

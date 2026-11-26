@@ -4,7 +4,7 @@
  * Every number is computed from the public dataset at build time; every site name and link comes
  * from the shared site table. The only script is the tonight strip (hidden until it has data).
  */
-import { CONTACT_EMAIL } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, SUGGESTED_FEE, SUPPORT_PATH } from "@goldstein/config/sites";
 import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldstein/data/load";
 import Base from "../layouts/Base.astro";
 import { lostEpisodesUrl, siteCards } from "../lib/sites.ts";
@@ -246,6 +246,21 @@ while (x < 300) {
           </a>
         </p>
       </div>
+    </div>
+  </section>
+
+  <section class="section support" aria-labelledby="support-h">
+    <div class="wrap">
+      <h2 id="support-h">Free to listen</h2>
+      <p class="section-lede">
+        Everything here is free. If the stories mean something to your family, a suggested{" "}
+        {SUGGESTED_FEE}, or any amount, helps keep them online.
+      </p>
+      <p>
+        <a class="btn btn-quiet" href={SUPPORT_PATH}>
+          Support the stories
+        </a>
+      </p>
     </div>
   </section>
 </Base>

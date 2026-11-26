@@ -741,5 +741,59 @@ a:hover {
 
 /* 404 */
 .page {
-  padding: 48px 0 24px;
+  /* Top and bottom only: the shorthand would cancel .wrap's side gutter. */
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+/* Support page: the site cards' look, without the whole-card link behaviour. */
+.give .card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.give .card:focus-within {
+  outline: none;
+}
+
+/* .btn sets display, which would override the hidden attribute on the copy button. */
+.btn[hidden] {
+  display: none;
+}
+
+button.btn {
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.support-page > p {
+  max-width: 40em;
+}
+
+.give h3 {
+  font-size: 1.35rem;
+}
+
+.give .lost-actions {
+  margin: auto 0 0;
+}
+
+.zelle-address code {
+  font:
+    600 1rem/1.4 ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    monospace;
+  overflow-wrap: anywhere;
+}
+
+.support-page > .section:last-child {
+  padding-bottom: 0;
+}
+
+/* Landing page: the closing "Free to listen" note. */
+.support {
+  padding-top: 8px;
 }
