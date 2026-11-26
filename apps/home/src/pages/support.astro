@@ -1,16 +1,15 @@
 ---
 /**
  * Optional support page (owner decision 2026-11-26, docs/DECISIONS.md): a suggested amount, three
- * ways to give, no logos, no tracking, no external scripts. Worded "Support", never "Donate" (not a
- * registered charity). The only script unhides the Zelle copy button where the clipboard exists.
+ * ways to give, no logos, no tracking, no external scripts. The only script unhides the Zelle copy button where the clipboard exists.
  */
-import { CONTACT_EMAIL, SUGGESTED_FEE, SUPPORT } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, SUGGESTED_AMOUNT, SUGGESTED_FEE, SUPPORT } from "@goldstein/config/sites";
 import Base from "../layouts/Base.astro";
 ---
 
 <Base
   title="Support the stories"
-  description="The archive is free. If you'd like to help keep it online, a suggested $20 a year, or whatever you like."
+  description={`The archive is free. If you'd like to help keep it online, a suggested ${SUGGESTED_FEE}, or whatever you like.`}
 >
   <div class="wrap page support-page">
     <p class="eyebrow">Optional</p>
@@ -34,10 +33,10 @@ import Base from "../layouts/Base.astro";
             <h3>PayPal</h3>
             <p>Card or PayPal balance.</p>
             <p class="lost-actions">
-              <a class="btn" href={SUPPORT.paypalSuggested} rel="noopener">
-                $20 with PayPal<span class="vh"> (opens PayPal)</span>
+              <a class="btn" href={SUPPORT.paypalSuggested}>
+                ${SUGGESTED_AMOUNT} with PayPal<span class="vh"> (opens PayPal)</span>
               </a>
-              <a class="btn btn-quiet" href={SUPPORT.paypal} rel="noopener">
+              <a class="btn btn-quiet" href={SUPPORT.paypal}>
                 Choose an amount<span class="vh"> (opens PayPal)</span>
               </a>
             </p>
@@ -48,10 +47,10 @@ import Base from "../layouts/Base.astro";
             <h3>Cash App</h3>
             <p>From the Cash App on your phone.</p>
             <p class="lost-actions">
-              <a class="btn" href={SUPPORT.cashappSuggested} rel="noopener">
-                $20 with Cash App<span class="vh"> (opens Cash App)</span>
+              <a class="btn" href={SUPPORT.cashappSuggested}>
+                ${SUGGESTED_AMOUNT} with Cash App<span class="vh"> (opens Cash App)</span>
               </a>
-              <a class="btn btn-quiet" href={SUPPORT.cashapp} rel="noopener">
+              <a class="btn btn-quiet" href={SUPPORT.cashapp}>
                 Choose an amount<span class="vh"> (opens Cash App)</span>
               </a>
             </p>
@@ -109,8 +108,13 @@ import Base from "../layouts/Base.astro";
           }, 2000);
         },
         () => {
-          button.textContent = "Press and hold to copy";
           window.getSelection()?.selectAllChildren(code);
+          button.textContent = "Address selected, copy it";
+          status.textContent = "Address selected; copy it with your device's copy command";
+          timer = setTimeout(() => {
+            button.textContent = label;
+            status.textContent = "";
+          }, 4000);
         },
       );
     });

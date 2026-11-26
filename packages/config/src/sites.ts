@@ -27,17 +27,19 @@ export const CONTACT_EMAIL = "admin@torahlearningtools.com";
 
 /** Path of the optional support page, on the landing site (owner decision 2026-11-26, docs/DECISIONS.md). */
 export const SUPPORT_PATH = "/support/";
-/** Suggested amount on the support page and the links to it; any amount is welcome. */
-export const SUGGESTED_FEE = "$20 a year";
+/** Suggested yearly amount in US dollars; any amount is welcome. Change it here only. */
+export const SUGGESTED_AMOUNT = 20;
+/** The suggested amount as shown in copy on every site. */
+export const SUGGESTED_FEE = `$${SUGGESTED_AMOUNT} a year`;
 /**
- * Ways to give (owner decision 2026-11-26). Worded "Support", never "Donate": this is not a
- * registered charity and nothing implies a tax deduction. Zelle has no link, only the address.
+ * Ways to give (owner decision 2026-11-26). Worded "Support", not "Donate" (a design choice, so
+ * nothing suggests a tax deduction). Zelle has no link, only the address.
  */
 export const SUPPORT = {
   paypal: "https://www.paypal.com/paypalme/yehudaringler",
-  paypalSuggested: "https://www.paypal.com/paypalme/yehudaringler/20",
+  paypalSuggested: `https://www.paypal.com/paypalme/yehudaringler/${SUGGESTED_AMOUNT}`,
   cashapp: "https://cash.app/$YehudaRingler",
-  cashappSuggested: "https://cash.app/$YehudaRingler/20",
+  cashappSuggested: `https://cash.app/$YehudaRingler/${SUGGESTED_AMOUNT}`,
   zelle: "torahlearningtools@gmail.com",
 } as const;
 

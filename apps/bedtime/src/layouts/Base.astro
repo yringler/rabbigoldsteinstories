@@ -106,9 +106,8 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
     </div>
     {chrome === "full" && (
       <footer class="site-foot">
-        <a href="/about/">For parents</a> · Questions or a lost tape?{" "}
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> ·{" "}
-        <a href={supportUrl()}>Support the stories</a>
+        <a href="/about/">For parents</a> · <a href={supportUrl()}>Support the stories</a> ·
+        Questions or a lost tape? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
       </footer>
     )}
 
