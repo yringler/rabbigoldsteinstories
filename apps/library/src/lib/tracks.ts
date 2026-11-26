@@ -1,4 +1,5 @@
 /** Player tracks and playlist entries from catalog rows (shared by pages and browser code). */
+import { cleanUrlOf } from "@goldstein/data";
 import type { Track } from "@goldstein/player";
 import type { PlaylistEntry } from "./playlists.ts";
 import type { LibRow } from "./types.ts";
@@ -9,7 +10,14 @@ export interface Range {
   label?: string | undefined;
 }
 
-type RowLike = Pick<LibRow, "id" | "title" | "url" | "start" | "end" | "dur">;
+type RowLike = Pick<LibRow, "id" | "title" | "url" | "start" | "end" | "dur"> &
+  Partial<Pick<LibRow, "clean">>;
+
+/** Adds the AI-improved copy's URL to a track when the row has one (docs/design/ai-audio.md). */
+export function withClean<T extends Track>(t: T, r: Partial<Pick<LibRow, "clean" | "url">>): T {
+  if (r.clean === 1 && r.url) t.clean_url = cleanUrlOf(r.url);
+  return t;
+}
 
 export function trackOf(r: RowLike, range: Range = {}, artist = ""): Track {
   const t: Track = {
@@ -20,7 +28,7 @@ export function trackOf(r: RowLike, range: Range = {}, artist = ""): Track {
     end_sec: range.end ?? r.end,
   };
   if (artist) t.artist = artist;
-  return t;
+  return withClean(t, r);
 }
 
 export function entryOf(r: RowLike, range: Range = {}): PlaylistEntry {

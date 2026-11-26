@@ -24,6 +24,7 @@ const guide: [string, string][] = [
   ["title, summary_short, summary_long, lesson, keywords", "Written with AI from the recording; they may contain errors."],
   ["duration_sec, content_start_sec, content_end_sec", "The audio is never edited; where a tape has blank stretches the content bounds say where the recording really starts and ends."],
   ["media.url", "The MP3 on the archive's media host (supports range requests)."],
+  ["media.clean_url, media.clean_size_bytes", "Optional: an AI-improved copy of the MP3 (speech restoration: less hiss, but the voice is regenerated). Same length as the original, so every time in the record applies to both. In the CSV: clean_audio_url."],
   ["classification", "Type, series, speakers, episode number, date (with precision and how it was worked out), serial chapter, part of a set, study text."],
   ["audience", "Youngest suitable age, level, and parents' notes (advisories) with times."],
   ["subjects", "People (with role), characters, topics, midos, mitzvos, calendar, parshiyos, places and sources cited."],

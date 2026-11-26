@@ -1,7 +1,11 @@
 ---
 // For parents (bedtime.md §2.4): under 250 words; confirmed names only.
 import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
+import { loadManifest } from "@goldstein/data/load";
 import Base from "../layouts/Base.astro";
+
+// AI-improved sound paragraph only once the switch exists (docs/design/ai-audio.md §3.1).
+const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
 ---
 
 <Base page="about" title="For parents">
@@ -28,6 +32,14 @@ import Base from "../layouts/Base.astro";
       These are 1980s radio broadcasts and family tapes, as they were. Nothing is cut or changed, so
       you may hear a song, a little hiss, or a radio station's sound.
     </p>
+    {hasCleanAudio && (
+      <p>
+        If the hiss bothers you, turn on <strong>AI-improved sound</strong> in the player. A
+        computer program has rebuilt the voices from each tape so they come through clearer. Voices
+        can sound a little different, and songs may come out oddly. The original tapes are kept as
+        they were; switch it off to hear them. The setting stays on this phone, for this site only.
+      </p>
+    )}
 
     <h2>At bedtime</h2>
     <p>

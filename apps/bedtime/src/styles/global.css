@@ -884,6 +884,14 @@ main {
   transform: translateX(18px);
   background: var(--gold);
 }
+.setting-text {
+  display: grid;
+  gap: 2px;
+}
+.setting-hint {
+  font-size: 14px;
+  color: var(--muted);
+}
 
 .tracks {
   border-top: 1px solid var(--line);

@@ -9,6 +9,7 @@ import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
 import { GLYPHS } from "../lib/glyphs.ts";
 import { moonSvg } from "../lib/ui.ts";
 import { TIMER_CHOICES } from "../lib/session.ts";
+import { loadManifest } from "@goldstein/data/load";
 
 interface Props {
   title?: string;
@@ -16,6 +17,8 @@ interface Props {
   page: "home" | "earlier" | "about" | "notfound";
 }
 const site = SITES.bedtime;
+// AI-improved sound switch: only once some recordings have a cleaned copy (docs/design/ai-audio.md §3.1).
+const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
 const { title, page, description } = Astro.props;
 const desc =
   description ??
@@ -185,6 +188,17 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
             <input type="checkbox" data-wake />
             Keep screen on
           </label>
+          {hasCleanAudio && (
+            <label class="switch">
+              <input type="checkbox" data-ai-audio />
+              <span class="setting-text">
+                AI-improved sound
+                <small class="setting-hint">
+                  Less tape hiss. Voices can sound a little different.
+                </small>
+              </span>
+            </label>
+          )}
         </div>
 
         <details class="tracks" data-tracks>

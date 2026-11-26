@@ -18,6 +18,7 @@ import {
   h,
   loadRec,
   player,
+  setSound,
   shortcutsOff,
   store,
   toast,
@@ -47,6 +48,7 @@ function bindPlayer(): void {
   const ticks = q("[data-p-ticks]");
   const msg = q("[data-p-msg]");
   const rate = q<HTMLSelectElement>("[data-p-rate]");
+  const sound = q<HTMLSelectElement>("[data-p-sound]");
   const vol = q<HTMLInputElement>("[data-p-vol]");
   const queueBtn = q<HTMLButtonElement>("[data-p-queue]");
   const panel = q("[data-p-queue-panel]");
@@ -72,12 +74,22 @@ function bindPlayer(): void {
   if (rate) rate.value = String(savedRate);
   rate?.addEventListener("change", () => setRate(Number(rate.value)));
   vol?.addEventListener("input", () => (a.volume = Number(vol.value)));
+  // Sound: original tape or AI-improved copy (docs/design/ai-audio.md §3.3). The select is the
+  // preference; switching mid-play swaps at the same position, which is the A/B compare.
+  if (sound) sound.value = p.prefersClean ? "clean" : "original";
+  sound?.addEventListener("change", () => toggleSound(sound.value === "clean"));
+  document.addEventListener("gsl:sound", (e) => {
+    if (sound) sound.value = (e as CustomEvent<boolean>).detail ? "clean" : "original";
+  });
+  /** What the message line shows: a load error wins over the "no AI-improved copy" note. */
+  let msgKind: "error" | "noclean" | null = null;
   a.addEventListener("ratechange", () => {
     if (rate) rate.value = String(a.playbackRate);
   });
   a.addEventListener("error", () => {
     const t = p.current;
     if (!msg || !t) return;
+    msgKind = "error";
     msg.hidden = false;
     msg.replaceChildren(
       "This recording could not be loaded right now. ",
@@ -86,7 +98,10 @@ function bindPlayer(): void {
     );
   });
   a.addEventListener("playing", () => {
-    if (msg) msg.hidden = true;
+    if (msg && msgKind === "error") {
+      msg.hidden = true;
+      msgKind = null;
+    }
   });
   queueBtn?.addEventListener("click", () => {
     if (!panel) return;
@@ -105,6 +120,18 @@ function bindPlayer(): void {
     const t = s.queue[s.index];
     root.toggleAttribute("data-empty", !t);
     document.body.classList.toggle("no-player", !t);
+    // Preference on but this track has no AI-improved copy (or it failed and fell back).
+    if (sound && msg && msgKind !== "error") {
+      const noClean = !!t && p.prefersClean && s.source !== null && s.source !== "clean";
+      if (noClean && msgKind !== "noclean") {
+        msg.textContent = "No AI-improved copy of this recording yet; playing the original.";
+        msg.hidden = false;
+        msgKind = "noclean";
+      } else if (!noClean && msgKind === "noclean") {
+        msg.hidden = true;
+        msgKind = null;
+      }
+    }
     if (!t) return;
     const start = t.start_sec ?? 0;
     if (title) {
@@ -192,6 +219,11 @@ function renderQueue(list: HTMLElement): void {
       return h("li", { "aria-current": i === s.index ? "true" : "false" }, go, rm);
     }),
   );
+}
+
+function toggleSound(clean: boolean): void {
+  setSound(clean);
+  announce(clean ? "Playing the AI-improved sound." : "Playing the original.");
 }
 
 function setRate(r: number): void {
@@ -447,6 +479,10 @@ function onKey(e: KeyboardEvent): void {
     case ">":
       if (!has) return;
       setRate(audio().playbackRate + (e.key === ">" ? 0.25 : -0.25));
+      break;
+    case "s":
+      if (!$("[data-p-sound]")) return;
+      toggleSound(!p.prefersClean);
       break;
     case "c": {
       const id =

@@ -3,7 +3,14 @@
  * helpers, toasts and the live region. Pages import what they need; nothing here touches the DOM
  * at import time.
  */
-import { Player, createStore, type Store, type Track } from "@goldstein/player";
+import {
+  Player,
+  createStore,
+  getAiAudio,
+  setAiAudio,
+  type Store,
+  type Track,
+} from "@goldstein/player";
 import type { LibCatalog, RecInfo } from "../lib/types.ts";
 
 declare global {
@@ -26,10 +33,20 @@ function ensure(): { player: Player; audio: HTMLAudioElement } {
   if (!window.__gsl) {
     const a = new Audio();
     a.preload = "metadata";
-    const p = new Player({ audio: a, store });
+    const p = new Player({ audio: a, store, preferClean: getAiAudio(store) });
     window.__gsl = { player: p, audio: a };
   }
   return window.__gsl;
+}
+
+/**
+ * AI-improved sound (docs/design/ai-audio.md §3.3): stores the preference, swaps the current track
+ * live at the same position, and tells listeners (player bar select, recording page hint).
+ */
+export function setSound(clean: boolean): void {
+  setAiAudio(store, clean);
+  player().setPreferClean(clean);
+  document.dispatchEvent(new CustomEvent("gsl:sound", { detail: clean }));
 }
 
 /** Absolute position in the file (seconds) of the current track, or null. */

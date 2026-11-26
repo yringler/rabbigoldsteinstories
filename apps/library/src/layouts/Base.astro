@@ -13,6 +13,7 @@ import serifItalic from "@fontsource-variable/source-serif-4/files/source-serif-
 import frank400 from "@fontsource/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-400-normal.woff2?url";
 import frank700 from "@fontsource/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-700-normal.woff2?url";
 import Icon from "../components/Icon.astro";
+import { hasCleanAudio } from "../lib/site-data.ts";
 import "../styles/global.css";
 
 interface Props {
@@ -27,6 +28,7 @@ interface Props {
 const site = SITES.library;
 const { title, description, noindex = false, jsonLd = null, bodyClass = "" } = Astro.props;
 const path = Astro.url.pathname;
+const sound = hasCleanAudio();
 const desc =
   description ??
   "Uncle Yossi's Tzivos Hashem on the Air (1981–92), Rabbi Chaim Levi Goldstein's weekly stories, Yiddish Tanya shiurim and family recordings: searchable, with transcripts and citations.";
@@ -291,6 +293,17 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
           </span>
         </div>
         <div class="player-extra">
+          {sound && (
+            <>
+              <label class="visually-hidden" for="p-sound">
+                Sound
+              </label>
+              <select id="p-sound" data-p-sound title="Original tape or AI-improved copy (s)">
+                <option value="original">Original</option>
+                <option value="clean">AI-improved</option>
+              </select>
+            </>
+          )}
           <label class="visually-hidden" for="p-rate">
             Speed
           </label>
@@ -420,6 +433,14 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
               </td>
               <td>This help</td>
             </tr>
+            {sound && (
+              <tr>
+                <td>
+                  <kbd>s</kbd>
+                </td>
+                <td colspan="3">Switch between the original and the AI-improved sound</td>
+              </tr>
+            )}
           </tbody>
         </table>
         <label class="btn-row">

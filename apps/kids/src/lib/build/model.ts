@@ -546,6 +546,7 @@ function toRec(k: KItem, ch: ChapterLink | undefined): Rec {
   if (it.subjects.calendar.length) r.c = [...it.subjects.calendar];
   if (it.subjects.parshiyos.length) r.p = [...it.subjects.parshiyos];
   if (k.kind === "show" && k.jump !== null) r.js = k.jump;
+  if (it.media.clean_url) r.cl = 1;
   return r;
 }
 

@@ -18,6 +18,7 @@ import {
 } from "../types.ts";
 import { runGate } from "./gate.ts";
 import { buildUnitPool } from "./units.ts";
+import { loadCleanManifest, resolveCleanCopies } from "./clean.ts";
 import {
   dataDir,
   inputFingerprint,
@@ -106,7 +107,10 @@ export function build(): BuildResult {
       .filter((e) => e.unconfirmed)
       .map((e) => e.id),
   );
-  const ctx: Context = { publicIds, unconfirmed, terms, redactions: [] };
+  // AI-cleaned copies (docs/design/ai-audio.md §2): only for ids whose manifest key matches.
+  const cleanManifest = loadCleanManifest(root);
+  const { copies: clean, mismatched } = resolveCleanCopies(publicRecs.map((r) => r.meta), cleanManifest);
+  const ctx: Context = { publicIds, unconfirmed, terms, redactions: [], clean };
 
   rmSync(out, { recursive: true, force: true });
   for (const d of ["items", "transcripts", "search", "indexes"]) mkdirSync(join(out, d), { recursive: true });
@@ -157,6 +161,7 @@ export function build(): BuildResult {
     vocab: lists,
     serials: loadIndex(file("serials"), root),
     storyGroups: loadIndex(file("story_groups"), root),
+    cleanUrls: new Map([...clean].map(([id, c]) => [id, c.url])),
   });
   bytes["units.json"] = writeJson(join(out, "units.json"), pool);
 
@@ -172,6 +177,7 @@ export function build(): BuildResult {
       search_docs: searchDocs,
       masked_lines: maskedTotal,
       units: pool.units.length,
+      clean_audio: catalog.filter((e) => e.clean_url !== undefined).length,
     },
     hours: Math.round(hours * 10) / 10,
   };
@@ -182,6 +188,10 @@ export function build(): BuildResult {
       `${ctx.redactions.length} metadata redactions, ${terms.terms.length} sensitive terms ` +
       `(${terms.skipped.length} hidden name variants left to span masking) in ${((Date.now() - started) / 1000).toFixed(1)} s → ${out}`,
   );
+  console.log(`clean audio: ${clean.size} public items with an AI-cleaned copy (${cleanManifest.size} in the manifest)`);
+  if (mismatched.length) {
+    console.log(`clean audio: manifest key does not match media.r2_key, skipped: ${mismatched.join(" ")}`);
+  }
   if (ctx.redactions.length) {
     console.log("metadata fields redacted (fix at the source; see docs/ARCHITECTURE.md §Privacy):");
     for (const r of ctx.redactions) console.log(`  ${r.id} ${r.field}`);

@@ -152,6 +152,7 @@ function toItems(u: Unit): PlaylistItem[] {
     title: t.title,
     narrator: u.narrator,
     audio_url: t.audio_url,
+    ...(t.clean_audio_url !== undefined ? { clean_audio_url: t.clean_audio_url } : {}),
     mime_type: t.mime_type,
     start_sec: t.start_sec,
     end_sec: t.end_sec,

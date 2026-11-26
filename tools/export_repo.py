@@ -61,6 +61,10 @@ with open(d("catalog", "recordings_index.csv"), "w", newline="", encoding="utf-8
 for f in ("catalog.csv", "catalog.json", "moves.csv", "probable_duplicates.csv", "transcripts_index.csv"):
     cp(os.path.join(ARCH, f), d("catalog", f))
 cp(os.path.join(DL, "_r2", "r2_manifest.csv"), d("catalog", "r2_manifest.csv"))
+# AI-cleaned copies (Sidon) under goldstein/audio_clean/, written by _sidon/publish_clean.py; grows while the job runs.
+# packages/data builds media.clean_url from it (docs/design/ai-audio.md §2); a missing file means no clean URLs.
+if os.path.exists(os.path.join(DL, "_r2", "r2_clean_manifest.csv")):
+    cp(os.path.join(DL, "_r2", "r2_clean_manifest.csv"), d("catalog", "r2_clean_manifest.csv"))
 # non-audio files (tape catalogs, PDFs, images) live in R2 under goldstein/media/; git only keeps their catalog
 cp(os.path.join(DL, "_r2", "media_manifest.csv"), d("catalog", "media_catalog.csv"))
 for f in ("vocabularies.json", "metadata.schema.json", "vocab_compact.txt", "examples.json"):

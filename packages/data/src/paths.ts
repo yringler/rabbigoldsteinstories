@@ -37,3 +37,18 @@ export function formatDuration(sec: number): string {
   const mm = h ? String(m).padStart(2, "0") : String(m);
   return `${h ? `${h}:` : ""}${mm}:${String(r).padStart(2, "0")}`;
 }
+
+/** R2 key prefixes of the original audio and of the AI-cleaned copies (docs/design/ai-audio.md). */
+export const AUDIO_PREFIX = "goldstein/audio/";
+export const CLEAN_AUDIO_PREFIX = "goldstein/audio_clean/";
+
+/**
+ * Cleaned-copy URL for an original audio URL (same host, goldstein/audio/ → goldstein/audio_clean/).
+ * Replaces the first "/goldstein/audio/" path segment only, so the rest of the path keeps the
+ * original's percent-encoding (and any `#t=` media fragment). Returns the input unchanged when it has
+ * no such segment. Only use it for items the dataset marks as having a clean copy
+ * (`media.clean_url`, `CatalogEntry.clean_url`), otherwise the URL may 404.
+ */
+export function cleanUrlOf(url: string): string {
+  return url.replace(`/${AUDIO_PREFIX}`, `/${CLEAN_AUDIO_PREFIX}`);
+}

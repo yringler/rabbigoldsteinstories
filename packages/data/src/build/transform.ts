@@ -5,6 +5,7 @@
  */
 import { itemSlug } from "../paths.ts";
 import { findTerms, hiddenSpans, overlapsAny, redactTerms, type TermSet } from "../privacy.ts";
+import type { CleanCopy } from "./clean.ts";
 import type { PublishRecommendation, RawMeta, RawTranscript, RawVocabEntry } from "../raw.ts";
 import type {
   CatalogEntry,
@@ -36,6 +37,8 @@ export interface Context {
   terms: TermSet;
   /** Report of redactions in metadata text (item id + field path, never the text). */
   redactions: { id: ItemId; field: string }[];
+  /** AI-cleaned copies by id (build/clean.ts). Optional: absent = none. */
+  clean?: ReadonlyMap<ItemId, CleanCopy>;
 }
 
 export function contentBounds(m: RawMeta): { start: number; end: number } {
@@ -153,7 +156,13 @@ export function toPublicItem(m: RawMeta, ctx: Context, maskedLines: number): Pub
     duration_sec: dur,
     content_start_sec: start,
     content_end_sec: end,
-    media: { url: m.media.url, ...opt("size_bytes", m.media.size_bytes), mime_type: m.media.mime_type },
+    media: {
+      url: m.media.url,
+      ...opt("size_bytes", m.media.size_bytes),
+      mime_type: m.media.mime_type,
+      ...opt("clean_url", ctx.clean?.get(m.id)?.url),
+      ...opt("clean_size_bytes", ctx.clean?.get(m.id)?.size_bytes),
+    },
     classification: {
       content_type: c.content_type,
       story_type: c.story_type ?? [],
@@ -189,7 +198,8 @@ export function toPublicItem(m: RawMeta, ctx: Context, maskedLines: number): Pub
     transcript: { display: transcriptDisplay(m), masked_lines: maskedLines },
     derived: derive(m, ctx),
   };
-  // Media url and ids are not free text; everything else is scanned.
+  // Media urls (original and clean_url, the same path under another prefix) and ids are not free
+  // text; everything else is scanned.
   const { media, id, slug, ...rest } = item;
   return { id, slug, ...scrub(rest, ctx, m.id, ""), media } as PublicItem;
 }
@@ -214,6 +224,7 @@ export function toCatalogEntry(p: PublicItem): CatalogEntry {
     duration_sec: p.duration_sec,
     content_sec: Math.round((end - start) * 10) / 10,
     url: p.media.url,
+    ...opt("clean_url", p.media.clean_url),
     content_type: c.content_type,
     series: c.series,
     speakers: c.speakers,

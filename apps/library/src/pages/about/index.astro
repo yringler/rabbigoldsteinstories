@@ -2,9 +2,15 @@
 /** About: people, how the archive was made, AI disclosure, privacy, corrections, lost tapes. */
 import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
 import Base from "../../layouts/Base.astro";
-import { episodes, manifest, rows, SITE } from "../../lib/site-data.ts";
+import { episodes, hasCleanAudio, manifest, rows, SITE } from "../../lib/site-data.ts";
 
 const m = manifest();
+const sound = hasCleanAudio();
+/**
+ * The speech-restoration model behind the AI-improved copies. The owner approved naming it, in one
+ * sentence and without a link (docs/design/ai-audio.md Q2). Set to null to leave the name off.
+ */
+const aiModel: string | null = "Sidon";
 const pub = rows().filter((r) => r.preferred).length;
 const lost = episodes().filter((e) => e.status === "lost").length;
 ---
@@ -48,6 +54,20 @@ const lost = episodes().filter((e) => e.status === "lost").length;
         contain errors. The audio itself is never edited; where a tape ends in blank space the
         player simply stops at the end of the content.
       </p>
+      {sound && (
+        <p>
+          Every recording also has an <strong>AI-improved copy</strong>, made with{" "}
+          {aiModel
+            ? `${aiModel}, an open-source speech-restoration model from the University of Tokyo.`
+            : "an open-source speech-restoration model."}{" "}
+          The model removes hiss and noise and rebuilds the voice. It does not filter the old sound;
+          it generates new sound from it. Speech usually comes through much clearer, but a voice can
+          sound slightly synthetic, singing and music can come out garbled, and on the poorest tapes
+          it can mishear words. The original recordings are kept unchanged and remain the default
+          and the reference: transcripts, timestamps and citations refer to them, and the two copies
+          line up to the second. Choose “Original” or “AI-improved” under Sound in the player bar.
+        </p>
+      )}
       <p>
         Yiddish recordings have no readable transcript on the site. Their words can still be found
         through search, so a Yiddish shiur on a given perek or a story told in Yiddish is not lost

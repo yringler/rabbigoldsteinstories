@@ -183,7 +183,11 @@ if (transcript) {
   }
 }
 
-const sizeMb = it.media.size_bytes ? `${(it.media.size_bytes / 1048576).toFixed(1)} MB` : null;
+const mb = (b: number | undefined) => (b ? `${(b / 1048576).toFixed(1)} MB` : null);
+const sizeMb = mb(it.media.size_bytes);
+// AI-improved copy (docs/design/ai-audio.md §3.3): a quiet second download, original stays primary.
+const cleanUrl = it.media.clean_url;
+const cleanMb = mb(it.media.clean_size_bytes);
 const jsonLd: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "AudioObject",
@@ -383,7 +387,24 @@ const qr = qrSvg(`${ORIGIN}/r/${id}/`, 88);
         <a class="btn btn-lg btn-quiet" href={it.media.url} download>
           <Icon name="download" /> Download MP3{sizeMb && ` (${sizeMb})`}
         </a>
+        {cleanUrl && (
+          <a class="btn btn-quiet small" href={cleanUrl} download data-clean-download>
+            AI-improved MP3{cleanMb && ` (${cleanMb})`}
+          </a>
+        )}
       </div>
+      {cleanUrl && (
+        <p class="small muted no-print" data-ai-hint hidden>
+          <span data-ai-hint-off>Hard to hear? </span>
+          <span data-ai-hint-on hidden>
+            Using the AI-improved sound.{" "}
+          </span>
+          <button type="button" class="linklike" data-ai-hint-btn>
+            Try the AI-improved sound
+          </button>
+          <span data-ai-hint-off> (or press s).</span>
+        </p>
+      )}
       <noscript>
         <p>
           <audio controls preload="none" src={it.media.url} style="width:100%"></audio>

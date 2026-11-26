@@ -71,6 +71,7 @@ describe("kid pool (§9)", () => {
       "c",
       "p",
       "js",
+      "cl", // 1 when an AI-improved copy exists (docs/design/ai-audio.md)
     ]);
     for (const r of m.index.items)
       for (const key of Object.keys(r)) expect(allowed.has(key)).toBe(true);

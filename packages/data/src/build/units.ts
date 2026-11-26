@@ -74,6 +74,8 @@ export interface UnitInputs {
   vocab: Record<string, RawVocabEntry[]>;
   serials: SerialsIndex | null;
   storyGroups: StoryGroups | null;
+  /** AI-cleaned copy URL by id (no media fragment); tracks of listed ids get clean_audio_url. */
+  cleanUrls?: ReadonlyMap<ItemId, string>;
 }
 
 /** B1–B8 for a recording (B9 is per track). `span` relaxes B8 as the spec says. */
@@ -106,6 +108,7 @@ export function buildUnitPool(input: UnitInputs): UnitPool {
     id: m.id,
     title,
     audio_url: m.media.url,
+    ...(input.cleanUrls?.has(m.id) ? { clean_audio_url: input.cleanUrls.get(m.id) as string } : {}),
     mime_type: m.media.mime_type,
     start_sec: round(start),
     end_sec: round(end),

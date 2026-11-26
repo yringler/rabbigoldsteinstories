@@ -194,4 +194,53 @@ describe("runway and published views", () => {
     // Unchanged items survive.
     expect(tombstone(views.current!, pool)).toEqual(views.current);
   });
+
+  it("copies clean_audio_url into new editions and adds it to frozen ones at read time", async () => {
+    const cleanOf = (url: string) => url.replace(".example/", ".example/clean/");
+    const cleaned = {
+      ...pool,
+      units: pool.units.map((u, i) =>
+        i % 2 === 0
+          ? { ...u, tracks: u.tracks.map((t) => ({ ...t, clean_audio_url: cleanOf(t.audio_url) })) }
+          : u,
+      ),
+    };
+    const at = new Date("2026-11-25T20:00:00Z");
+    const fresh = generateEdition({
+      pool: cleaned,
+      recipes,
+      window: editionById("2026-11-25")!,
+      history: [],
+      now: at,
+    });
+    const items = fresh.playlists.flatMap((p) => p.items);
+    const withClean = items.filter((i) => i.clean_audio_url !== undefined);
+    expect(withClean.length).toBeGreaterThan(0);
+    for (const i of withClean) expect(i.clean_audio_url).toBe(cleanOf(i.audio_url));
+    for (const i of items.filter((x) => x.clean_audio_url === undefined))
+      expect("clean_audio_url" in i).toBe(false);
+
+    // A frozen edition generated before the clean copies existed: same picks, enriched when served.
+    const frozen = generateEdition({
+      pool,
+      recipes,
+      window: editionById("2026-11-25")!,
+      history: [],
+      now: at,
+    });
+    const stored = structuredClone(frozen);
+    const served = tombstone(frozen, cleaned);
+    expect(frozen).toEqual(stored); // the stored edition is not mutated
+    expect(served.playlists.flatMap((p) => p.items.map((i) => i.unit))).toEqual(
+      frozen.playlists.flatMap((p) => p.items.map((i) => i.unit)),
+    );
+    const servedItems = served.playlists.flatMap((p) => p.items);
+    const cleanUnits = new Set(cleaned.units.filter((_, i) => i % 2 === 0).map((u) => u.unit));
+    for (const i of servedItems) {
+      expect(i.clean_audio_url).toBe(cleanUnits.has(i.unit) ? cleanOf(i.audio_url) : undefined);
+    }
+    // And back: a clean copy that left the pool is dropped from the served item.
+    const back = tombstone(served, pool);
+    expect(back.playlists.flatMap((p) => p.items).some((i) => "clean_audio_url" in i)).toBe(false);
+  });
 });

@@ -140,6 +140,14 @@ export interface PublicMedia {
   url: string; // https://storiesmedia.torahlearningtools.com/goldstein/audio/... (play with <audio src>; no CORS)
   size_bytes?: number;
   mime_type: "audio/mpeg";
+  /**
+   * AI-cleaned copy (Sidon speech restoration), same host and path under goldstein/audio_clean/,
+   * identical duration. Present only when data/catalog/r2_clean_manifest.csv lists the item; equals
+   * cleanUrlOf(url). Play it only when the listener opted in (docs/design/ai-audio.md).
+   */
+  clean_url?: string;
+  /** Size of the cleaned copy (download label). Present with clean_url when known. */
+  clean_size_bytes?: number;
 }
 
 /** One recording, as published. File: generated/items/<id>.json */
@@ -186,6 +194,8 @@ export interface CatalogEntry {
   /** Playable length: content end minus content start (= duration_sec when there is no blank tape). */
   content_sec: number;
   url: string;
+  /** AI-cleaned copy of `url` (= cleanUrlOf(url)); absent when there is none yet. */
+  clean_url?: string;
   content_type: ContentType;
   series: VocabId | null;
   speakers: VocabId[];
@@ -281,6 +291,8 @@ export interface Manifest {
     search_docs: number;
     masked_lines: number;
     units: number;
+    /** Public items with an AI-cleaned copy (media.clean_url). Sites show their AI-sound control only when > 0. */
+    clean_audio: number;
   };
   /** Public hours, by sum of duration_sec. */
   hours: number;
@@ -307,6 +319,8 @@ export interface UnitTrack {
   id: ItemId;
   title: string;
   audio_url: string;
+  /** AI-cleaned copy of audio_url (no media fragment), when one exists. */
+  clean_audio_url?: string;
   mime_type: "audio/mpeg";
   /** Always present: whole-file tracks carry the trimmed content bounds. */
   start_sec: number;

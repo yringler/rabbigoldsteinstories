@@ -88,6 +88,7 @@ export function inputFingerprint(root = dataDir()): string {
     ...listFiles(join(root, "recordings")),
     ...listFiles(join(root, "vocabulary")),
     ...listFiles(join(root, "indexes")),
+    join(root, "catalog", "r2_clean_manifest.csv"),
     ...listFiles(join(PACKAGE_DIR, "src")),
     join(PACKAGE_DIR, "privacy-allowlist.json"),
   ];

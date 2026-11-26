@@ -1,9 +1,14 @@
 /**
  * Per-device state in localStorage (docs/sites/kids.md §7): band, gentle, favourites, progress,
- * queue, speed. Keys go through createStore("kids") → goldstein:kids:<key>; the store never throws
+ * queue, speed, AI-improved sound (docs/design/ai-audio.md §3.2). Keys go through createStore("kids") → goldstein:kids:<key>; the store never throws
  * and falls back to memory, so the site works fully without storage.
  */
-import { createStore, type Track } from "@goldstein/player";
+import {
+  createStore,
+  getAiAudio as getAiAudioIn,
+  setAiAudio as setAiAudioIn,
+  type Track,
+} from "@goldstein/player";
 import { type Band, DEFAULT_BAND, type Variant, variantOf } from "../lib/kinds.ts";
 
 export const store = createStore("kids");
@@ -147,3 +152,7 @@ export function getSpeed(): number {
   return (SPEEDS as readonly number[]).includes(s) ? s : 1;
 }
 export const setSpeed = (s: number): void => store.set("speed", s);
+
+// ── AI-improved sound (grown-ups setting, off by default) ───────────────
+export const getAiAudio = (): boolean => getAiAudioIn(store);
+export const setAiAudio = (on: boolean): void => setAiAudioIn(store, on);

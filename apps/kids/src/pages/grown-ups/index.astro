@@ -4,12 +4,14 @@
 import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
-import { loadVocab } from "@goldstein/data/load";
+import { loadManifest, loadVocab } from "@goldstein/data/load";
 import { BAND_INFO, BANDS } from "../../lib/kinds.ts";
 import { getModel } from "../../lib/build/model.ts";
 
 const m = getModel();
 const advisories = loadVocab().lists["content_advisory"] ?? [];
+// The Sound card appears only once some recordings have an AI-cleaned copy (docs/design/ai-audio.md).
+const hasClean = loadManifest().counts.clean_audio > 0;
 const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0) as never)).length;
 ---
 
@@ -97,12 +99,37 @@ const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0)
       </p>
     </section>
 
+    {hasClean && (
+      <section class="gu-card" aria-labelledby="sound-h">
+        <h2 id="sound-h">Sound</h2>
+        <p>
+          These are old tapes, and some have hiss and crackle. <b>AI-improved sound</b> plays a copy
+          cleaned up by a computer program, which rebuilds the voices so they are clearer. It can
+          make a voice sound a little unnatural, and songs and music may come out muddled. The
+          original recordings are kept unchanged. Turn this off to hear them.
+        </p>
+        <label class="switch">
+          <input type="checkbox" data-ai-audio />
+          <span class="switch-ui" aria-hidden="true"></span>
+          <span>
+            AI-improved sound <small>(clearer voices, less tape hiss)</small>
+          </span>
+        </label>
+        <p>
+          <small>
+            Saved in this browser only, for this site. The bedtime site and the library each have
+            their own switch.
+          </small>
+        </p>
+      </section>
+    )}
+
     <section class="gu-card" aria-labelledby="priv-h">
       <h2 id="priv-h">Privacy</h2>
       <p>
-        No accounts, no cookies, no ads and no tracking. Hearts, listening progress and the age
-        setting stay in this browser only. Searches never leave the device. Clearing "My Shelf" or
-        the browser's site data removes everything.
+        No accounts, no cookies, no ads and no tracking. Hearts, listening progress, the age setting
+        and the sound setting stay in this browser only. Searches never leave the device. Clearing
+        "My Shelf" or the browser's site data removes everything.
       </p>
     </section>
 
