@@ -3,7 +3,7 @@
  * - the playlist JSON under /playlists/: network first, cache only when offline (a removed story
  *   must disappear at once; the cache is just for showing the last known cards offline);
  * - audio is never cached (no CORS on the media host: opaque responses break range requests). */
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL = `bedtime-shell-${VERSION}`;
 const DATA = `bedtime-data-${VERSION}`;
 const PAGES = ["/", "/earlier/", "/about/", "/landing/", "/manifest.webmanifest", "/favicon.svg"];
@@ -28,10 +28,11 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-async function staleWhileRevalidate(cacheName, request, fallbackUrl) {
+async function staleWhileRevalidate(cacheName, request, fallbackUrl, matchOptions) {
   const cache = await caches.open(cacheName);
   const cached =
-    (await cache.match(request)) || (fallbackUrl ? await cache.match(fallbackUrl) : undefined);
+    (await cache.match(request, matchOptions)) ||
+    (fallbackUrl ? await cache.match(fallbackUrl) : undefined);
   const network = fetch(request)
     .then((res) => {
       if (res.ok) cache.put(request, res.clone());
@@ -67,7 +68,8 @@ self.addEventListener("fetch", (event) => {
   }
   if (req.mode === "navigate") {
     const fallback = url.pathname.startsWith("/p/") ? "/" : undefined;
-    event.respondWith(staleWhileRevalidate(SHELL, req, fallback));
+    // Pages ignore the query (e.g. /?play=mix offline is the cached /).
+    event.respondWith(staleWhileRevalidate(SHELL, req, fallback, { ignoreSearch: true }));
     return;
   }
   event.respondWith(staleWhileRevalidate(SHELL, req));

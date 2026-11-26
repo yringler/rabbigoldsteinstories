@@ -2,7 +2,7 @@
 // /landing: the elevator pitch (owner: "Super simple"). One button that starts Tonight's Mix and
 // lands on Tonight (/) with the player open; the audio survives the page change because the
 // player is persisted by Base's <ClientRouter />. Without script the link loads /?play=mix, which
-// opens the Mix's track list there (no autoplay on a cold load).
+// opens the Mix's track list there (no autoplay on a cold load). Script: renderLanding (pages.ts).
 import { GLYPHS } from "../lib/glyphs.ts";
 import { TYPES } from "../lib/ui.ts";
 import Base from "../layouts/Base.astro";
@@ -27,7 +27,7 @@ const mix = TYPES.find((t) => t.type === "mix")!.name;
       <a class="hero-play" href="/?play=mix" data-hero-play aria-label={`Play ${mix}`}>
         <Fragment set:html={GLYPHS.play(48)} />
       </a>
-      <p class="hero-caption" data-hero-caption aria-hidden="true">
+      <p class="hero-caption" aria-hidden="true">
         Play {mix}
       </p>
     </div>

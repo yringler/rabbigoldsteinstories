@@ -49,14 +49,17 @@ Binding rules carried over from `CLAUDE.md` and `docs/DECISIONS.md`: nothing pub
 
 ## 2. Screens and information architecture
 
-Four routes. No navigation bar; the header is the wordmark and one "earlier" link.
+Four routes, plus the `/landing` pitch. No navigation bar; the header is the wordmark and one "earlier" link.
 
 ```
 /                       Tonight (home)
 /p/<edition>/<type>     Deep link to one playlist (opens home with that card expanded; no autoplay)
 /earlier                The last 7 nights
 /about                  For parents: what this is, ages, advisories, how to add to home screen
+/landing                Elevator pitch ("Bedtime? Just press play."): one button that starts Tonight's Mix and goes to /
 ```
+
+`/landing` (added 2026-11-26, owner's brief) has no Earlier link or footer. Its button starts Tonight's Mix inside the tap and moves to `/` with the player open. If the edition has not loaded yet, or without script (the link is `/?play=mix`), `/` opens the Mix's track list instead: never autoplay without a tap.
 
 The player is a sheet over any route, not a route.
 

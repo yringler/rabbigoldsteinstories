@@ -1175,7 +1175,6 @@ body[data-page="landing"] main {
   width: 42%;
   height: auto;
   transform: translateX(4%);
-  transition: opacity 160ms var(--ease);
 }
 @media (hover: hover) and (pointer: fine) {
   .hero-play:hover {
@@ -1189,23 +1188,7 @@ body[data-page="landing"] main {
 .hero-play:active {
   transform: scale(0.96);
 }
-.hero-play[aria-busy="true"] {
-  pointer-events: none;
-}
-.hero-play[aria-busy="true"] svg {
-  opacity: 0.5;
-}
-.hero-play[aria-busy="true"]::after {
-  content: "";
-  position: absolute;
-  inset: -6px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  border-top-color: var(--gold);
-  animation: spin 1.6s linear infinite;
-}
-html.tab-hidden .hero-play,
-html.tab-hidden .hero-play::after {
+html.tab-hidden .hero-play {
   animation-play-state: paused;
 }
 /* The halo breathes (its alpha only; the button never scales). */
@@ -1219,11 +1202,6 @@ html.tab-hidden .hero-play::after {
     box-shadow:
       0 0 0 10px rgba(244, 197, 106, 0.22),
       0 14px 40px rgba(244, 197, 106, 0.2);
-  }
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
   }
 }
 .hero-caption {
