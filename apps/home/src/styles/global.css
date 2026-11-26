@@ -160,92 +160,14 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/* Hero */
-.hero {
-  padding: 20px 0 36px;
-  border-bottom: 1px solid var(--line);
+/* The three sites, first thing on the page. Phone: stacked rows, art left. 860px+: three columns. */
+.sites {
+  padding: 0 0 8px;
 }
 
-.hero-in {
-  display: grid;
-  gap: 28px;
-  align-items: end;
-}
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--brick-ink);
-  margin-bottom: 0.6em;
-}
-
-.hero h1 {
-  font-size: clamp(2.1rem, 7.5vw, 3.6rem);
-  max-width: 16ch;
-}
-
-.lede {
-  font-size: 1.15rem;
-  color: var(--muted);
-  max-width: 36em;
-}
-
-.stats {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px 18px;
-  margin: 24px 0 0;
-  max-width: 560px;
-}
-
-.stats div {
-  display: flex;
-  flex-direction: column-reverse;
-  border-top: 2px solid var(--line);
-  padding-top: 8px;
-}
-
-.stats dd {
-  margin: 0;
-  font-family: var(--serif);
-  font-size: 1.9rem;
-  font-weight: 600;
-  line-height: 1.1;
-  font-variant-numeric: lining-nums;
-}
-
-.stats dt {
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
-.shelf {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  justify-self: center;
-}
-
-@media (min-width: 600px) {
-  .stats {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 900px) {
-  .hero {
-    padding: 40px 0 56px;
-  }
-  .hero-in {
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
-    gap: 48px;
-  }
-  .shelf {
-    justify-self: end;
-    max-width: 420px;
-  }
+.sites h1 {
+  font-size: clamp(1.55rem, 6.4vw, 2.5rem);
+  margin: 0 0 12px;
 }
 
 /* Sections */
@@ -258,35 +180,26 @@ a:hover {
   font-size: clamp(1.6rem, 5vw, 2.1rem);
 }
 
-.section-lede {
-  color: var(--muted);
-  max-width: 40em;
-}
-
-/* Site cards */
+/* Site cards: the whole card is one link (the CTA, stretched over the card by ::after). */
 .cards {
   list-style: none;
-  margin: 24px 0 0;
+  margin: 0;
   padding: 0;
   display: grid;
-  gap: 18px;
-}
-
-@media (min-width: 860px) {
-  .cards {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 22px;
-  }
+  gap: 12px;
 }
 
 .card {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  min-height: 96px;
+  padding: 12px 14px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  overflow: hidden;
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease;
@@ -303,14 +216,18 @@ a:hover {
 }
 
 .card-art {
-  height: 112px;
-  display: grid;
-  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
+/* The art is drawn 120×64 with the motif in the middle; on a phone show its central square. */
 .art {
-  width: 160px;
-  height: 86px;
+  display: block;
+  width: 120px;
+  height: 64px;
+  margin-left: -28px;
 }
 
 .card-bedtime .card-art {
@@ -325,107 +242,136 @@ a:hover {
 
 .card-library .card-art {
   background: var(--lib-bg);
-  border-bottom: 1px solid var(--line);
+  border: 1px solid var(--line);
 }
 
 .card-body {
-  padding: 18px 20px 20px;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  align-items: flex-start;
+  min-width: 0;
 }
 
-.kicker {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.75rem;
+.hook {
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 0 0 10px;
+}
+
+.cta-icon {
+  width: 1.25em;
+  height: 1.25em;
+  margin-inline-end: 8px;
+  fill: currentColor;
+  flex: none;
+}
+
+.card-name {
+  font-family: var(--sans);
+  font-size: 22px;
   font-weight: 700;
-  margin-bottom: 0.3em;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0 0 2px;
 }
 
-.card-bedtime .kicker {
-  color: var(--slate);
-}
-.card-kids .kicker {
+.cta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 2px solid var(--brick);
   color: var(--brick-ink);
-}
-.card-library .kicker {
-  color: var(--lib-ink);
-}
-
-.card h3 {
-  font-size: 1.45rem;
-}
-
-.card-link {
-  color: var(--ink);
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.2;
   text-decoration: none;
+  margin-top: auto;
+}
+
+.card:hover .cta {
+  background: color-mix(in srgb, var(--brick) 10%, transparent);
+}
+
+.card-library .cta {
+  border-color: var(--lib-ink);
+  color: var(--lib-ink);
 }
 
 .card-link::after {
   content: "";
   position: absolute;
   inset: 0;
+  border-radius: inherit;
 }
 
 .card-link:focus-visible {
   outline: none;
 }
 
-.purpose {
-  font-size: 1.02rem;
+/* Bedtime: the strongest card. The bedtime site's night palette in both themes, a filled amber CTA. */
+.card-bedtime {
+  background: radial-gradient(120% 140% at 20% 0%, #1d2557 0%, #0b1026 75%);
+  border-color: #2b3466;
+  color: #f3ecdd;
+  padding: 14px;
+  --focus: #ffe08a;
 }
 
-.audience {
-  color: var(--muted);
-  font-size: 0.95rem;
-  font-style: italic;
+.card-bedtime .card-art {
+  background: transparent;
 }
 
-.points {
-  margin: 0 0 16px;
-  padding: 0;
-  list-style: none;
-  font-size: 0.95rem;
+.card-bedtime .card-name {
+  font-size: 24px;
 }
 
-.points li {
-  position: relative;
-  padding-left: 18px;
-  margin: 4px 0;
+.card-bedtime .cta {
+  background: #f4c56a;
+  border-color: #f4c56a;
+  color: #1a1530;
 }
 
-.points li::before {
-  content: "";
-  position: absolute;
-  left: 2px;
-  top: 0.62em;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--amber);
+.card-bedtime:hover .cta {
+  background: #ffd27e;
 }
 
-.cta {
-  margin-top: auto;
-  font-weight: 650;
-  color: var(--brick-ink);
-  margin-bottom: 2px;
-}
-
-.card:hover .arrow {
-  margin-left: 4px;
-}
-
-.arrow {
-  transition: margin 0.15s ease;
-}
-
-.host {
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin: 0;
-  overflow-wrap: anywhere;
+@media (min-width: 860px) {
+  .sites {
+    padding: 8px 0 16px;
+  }
+  .sites h1 {
+    margin-bottom: 20px;
+  }
+  .cards {
+    grid-template-columns: 1.12fr 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+  }
+  .card {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 14px;
+    padding: 18px;
+  }
+  .card-art {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    place-items: center;
+  }
+  .art {
+    width: 150px;
+    height: 80px;
+    margin: 0;
+  }
+  .card-body {
+    height: 100%;
+  }
+  .card-bedtime .card-name {
+    font-size: 26px;
+  }
 }
 
 /* Tonight's playlists: the bedtime site's night palette, in both themes. */
@@ -451,10 +397,6 @@ a:hover {
 .tonight-date {
   color: #b9bedb;
   margin: 0;
-}
-
-.tonight .section-lede {
-  color: #b9bedb;
 }
 
 .tonight-list {
@@ -820,4 +762,10 @@ button.btn {
 /* Landing page: the closing "Free to listen" note. */
 .support {
   padding-top: 8px;
+}
+
+.page .lede {
+  font-size: 1.15rem;
+  color: var(--muted);
+  max-width: 36em;
 }
