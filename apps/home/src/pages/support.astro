@@ -1,0 +1,122 @@
+---
+/**
+ * Optional support page (owner decision 2026-11-26, docs/DECISIONS.md): a suggested amount, three
+ * ways to give, no logos, no tracking, no external scripts. The only script unhides the Zelle copy button where the clipboard exists.
+ */
+import { CONTACT_EMAIL, SUGGESTED_AMOUNT, SUGGESTED_FEE, SUPPORT } from "@goldstein/config/sites";
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="Support the stories"
+  description={`The archive is free. If you'd like to help keep it online, a suggested ${SUGGESTED_FEE}, or whatever you like.`}
+>
+  <div class="wrap page support-page">
+    <p class="eyebrow">Optional</p>
+    <h1>Help keep the stories free</h1>
+    <p class="lede">
+      Everything here is free to listen to, and it will stay that way. If the recordings mean
+      something to your family and you'd like to help, a suggested amount is {SUGGESTED_FEE}, or
+      whatever you like.
+    </p>
+    <p>
+      Your support helps pay for hosting the audio and the sites, so the archive can stay free and
+      without ads. No account, no sign-up, and nothing changes on the sites whether you give or not.
+    </p>
+
+    <section class="section" aria-labelledby="ways-h">
+      <h2 id="ways-h">Ways to give</h2>
+      <p class="section-lede">Pick whichever is easiest for you.</p>
+      <ul class="cards give" role="list">
+        <li class="card">
+          <div class="card-body">
+            <h3>PayPal</h3>
+            <p>Card or PayPal balance.</p>
+            <p class="lost-actions">
+              <a class="btn" href={SUPPORT.paypalSuggested}>
+                ${SUGGESTED_AMOUNT} with PayPal<span class="vh"> (opens PayPal)</span>
+              </a>
+              <a class="btn btn-quiet" href={SUPPORT.paypal}>
+                Choose an amount<span class="vh"> (opens PayPal)</span>
+              </a>
+            </p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-body">
+            <h3>Cash App</h3>
+            <p>From the Cash App on your phone.</p>
+            <p class="lost-actions">
+              <a class="btn" href={SUPPORT.cashappSuggested}>
+                ${SUGGESTED_AMOUNT} with Cash App<span class="vh"> (opens Cash App)</span>
+              </a>
+              <a class="btn btn-quiet" href={SUPPORT.cashapp}>
+                Choose an amount<span class="vh"> (opens Cash App)</span>
+              </a>
+            </p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-body">
+            <h3>Zelle</h3>
+            <p>From your bank's app. Send to:</p>
+            <p class="zelle-address">
+              <code data-zelle>{SUPPORT.zelle}</code>
+            </p>
+            <p class="lost-actions">
+              <button type="button" class="btn btn-quiet" data-copy hidden>
+                Copy address
+              </button>
+              <span class="vh" aria-live="polite" data-copy-status></span>
+            </p>
+            <p class="muted small">
+              Zelle has no link; paste this address into your bank's Zelle screen.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="thanks-h">
+      <h2 id="thanks-h">Thank you</h2>
+      <p>
+        Whether or not you give, we're glad the stories are reaching you. Questions? Write to{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  // Progressive enhancement: the button stays hidden where the async clipboard API is missing.
+  const button = document.querySelector<HTMLButtonElement>("[data-copy]");
+  const code = document.querySelector<HTMLElement>("[data-zelle]");
+  const status = document.querySelector<HTMLElement>("[data-copy-status]");
+  if (button && code && status && typeof navigator.clipboard?.writeText === "function") {
+    const label = button.textContent ?? "Copy address";
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    button.hidden = false;
+    button.addEventListener("click", () => {
+      clearTimeout(timer);
+      navigator.clipboard.writeText(code.textContent?.trim() ?? "").then(
+        () => {
+          button.textContent = "Copied";
+          status.textContent = "Address copied";
+          timer = setTimeout(() => {
+            button.textContent = label;
+            status.textContent = "";
+          }, 2000);
+        },
+        () => {
+          window.getSelection()?.selectAllChildren(code);
+          button.textContent = "Address selected, copy it";
+          status.textContent = "Address selected; copy it with your device's copy command";
+          timer = setTimeout(() => {
+            button.textContent = label;
+            status.textContent = "";
+          }, 4000);
+        },
+      );
+    });
+  }
+</script>

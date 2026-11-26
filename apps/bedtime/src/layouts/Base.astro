@@ -6,7 +6,7 @@ import "@fontsource-variable/fraunces/soft.css";
 import "@fontsource-variable/nunito-sans/wght.css";
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
-import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, SITES, supportUrl } from "@goldstein/config/sites";
 import { GLYPHS } from "../lib/glyphs.ts";
 import { moonSvg } from "../lib/ui.ts";
 import { TIMER_CHOICES } from "../lib/session.ts";
@@ -106,8 +106,8 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
     </div>
     {chrome === "full" && (
       <footer class="site-foot">
-        <a href="/about/">For parents</a> · Questions or a lost tape?{" "}
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+        <a href="/about/">For parents</a> · <a href={supportUrl()}>Support the stories</a> ·
+        Questions or a lost tape? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
       </footer>
     )}
 

@@ -1,6 +1,13 @@
 ---
 /** About: people, how the archive was made, AI disclosure, privacy, corrections, lost tapes. */
-import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
+import {
+  CONTACT_EMAIL,
+  PROJECT_CREDIT,
+  SITES,
+  SUGGESTED_FEE,
+  siteUrl,
+  supportUrl,
+} from "@goldstein/config/sites";
 import Base from "../../layouts/Base.astro";
 import { episodes, hasCleanAudio, manifest, rows, SITE } from "../../lib/site-data.ts";
 
@@ -94,6 +101,12 @@ const lost = episodes().filter((e) => e.status === "lost").length;
       <p>
         Every recording page has a “Report an error in this record” link that fills in an email for
         you. For anything else, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+      </p>
+
+      <h2>Supporting the archive</h2>
+      <p>
+        The archive is free and will stay free. A suggested {SUGGESTED_FEE}, or any amount, helps
+        keep it online. <a href={supportUrl()}>Support the archive</a>.
       </p>
 
       <h2>Related sites</h2>

@@ -25,6 +25,24 @@ export const MEDIA_HOST = "storiesmedia.torahlearningtools.com";
 /** Contact address for lost tapes and other enquiries (owner decision 2026-11-25, docs/DECISIONS.md). No contact form yet. */
 export const CONTACT_EMAIL = "admin@torahlearningtools.com";
 
+/** Path of the optional support page, on the landing site (owner decision 2026-11-26, docs/DECISIONS.md). */
+export const SUPPORT_PATH = "/support/";
+/** Suggested yearly amount in US dollars; any amount is welcome. Change it here only. */
+export const SUGGESTED_AMOUNT = 20;
+/** The suggested amount as shown in copy on every site. */
+export const SUGGESTED_FEE = `$${SUGGESTED_AMOUNT} a year`;
+/**
+ * Ways to give (owner decision 2026-11-26). Worded "Support", not "Donate" (a design choice, so
+ * nothing suggests a tax deduction). Zelle has no link, only the address.
+ */
+export const SUPPORT = {
+  paypal: "https://www.paypal.com/paypalme/yehudaringler",
+  paypalSuggested: `https://www.paypal.com/paypalme/yehudaringler/${SUGGESTED_AMOUNT}`,
+  cashapp: "https://cash.app/$YehudaRingler",
+  cashappSuggested: `https://cash.app/$YehudaRingler/${SUGGESTED_AMOUNT}`,
+  zelle: "torahlearningtools@gmail.com",
+} as const;
+
 /** Credit line on every about / grown-ups page (owner, 2026-11-25). */
 export const PROJECT_CREDIT = "A project of Yehuda Ringler.";
 
@@ -72,4 +90,9 @@ export function itemUrl(site: SiteId, id: string): string | null {
 
 export function siteUrl(site: SiteId, path = "/"): string {
   return `https://${SITES[site].host}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+/** Absolute link to the support page on the landing site (for the other sites' footers). */
+export function supportUrl(): string {
+  return siteUrl("home", SUPPORT_PATH);
 }
