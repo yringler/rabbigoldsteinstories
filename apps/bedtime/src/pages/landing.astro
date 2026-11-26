@@ -1,0 +1,41 @@
+---
+// /landing: the elevator pitch (owner: "Super simple"). One button that starts Tonight's Mix and
+// lands on Tonight (/) with the player open; the audio survives the page change because the
+// player is persisted by Base's <ClientRouter />. Without script the link loads /?play=mix, which
+// opens the Mix's track list there (no autoplay on a cold load).
+import { GLYPHS } from "../lib/glyphs.ts";
+import { TYPES } from "../lib/ui.ts";
+import Base from "../layouts/Base.astro";
+
+const mix = TYPES.find((t) => t.type === "mix")!.name;
+---
+
+<Base
+  page="landing"
+  chrome="minimal"
+  title="Just press play"
+  ogTitle="Bedtime? Just press play."
+  description="Bedtime? Just press play. Gentle Jewish stories from Uncle Yossi and Rabbi Chaim Levi Goldstein, new every night. They play by themselves and end quietly."
+>
+  <div class="landing" data-landing>
+    <div class="landing-hero">
+      <h1 class="landing-title">
+        <span>Bedtime?</span>
+        <span>Just press play.</span>
+      </h1>
+      <p class="landing-sub">New stories every night.</p>
+      <a class="hero-play" href="/?play=mix" data-hero-play aria-label={`Play ${mix}`}>
+        <Fragment set:html={GLYPHS.play(48)} />
+      </a>
+      <p class="hero-caption" data-hero-caption aria-hidden="true">
+        Play {mix}
+      </p>
+    </div>
+    <div class="landing-foot">
+      <p>Gentle Jewish stories from Uncle Yossi and Rabbi Chaim Levi Goldstein.</p>
+      <nav class="quiet-links" aria-label="More">
+        <a href="/">Or choose from tonight's stories ›</a>
+      </nav>
+    </div>
+  </div>
+</Base>

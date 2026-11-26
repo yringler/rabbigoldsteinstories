@@ -1,8 +1,10 @@
 /**
- * Page renderers: Tonight (/ and /p/<edition>/<type>) and Earlier (/earlier/). Each page's
- * static markup is server-rendered; these fill in the edition, Continue row and history.
+ * Page renderers: Tonight (/ and /p/<edition>/<type>), Earlier (/earlier/) and the /landing
+ * pitch. Each page's static markup is server-rendered; these fill in the edition, Continue row
+ * and history, and wire the landing page's play button.
  */
 import type { Edition, Playlist } from "@goldstein/playlists";
+import { navigate } from "astro:transitions/client";
 import { parseDeepLink } from "../lib/deeplink.ts";
 import { GLYPHS } from "../lib/glyphs.ts";
 import {
@@ -55,6 +57,23 @@ function deepLink(): { edition: string; type: string } | null {
   return parseDeepLink(location.pathname);
 }
 
+/** Tonight's Mix of an edition, if it has any stories. */
+function mixOf(e: Edition | null): Playlist | null {
+  return e?.playlists.find((p) => p.type === "mix" && p.items.length > 0) ?? null;
+}
+
+/**
+ * `/?play=mix` (the landing page's link, followed without script or before the edition arrived):
+ * read once and removed from the address bar, so a reload or a shared link never repeats it.
+ */
+function takePlayParam(): boolean {
+  const url = new URL(location.href);
+  if (url.searchParams.get("play") !== "mix") return false;
+  url.searchParams.delete("play");
+  history.replaceState(history.state, "", `${url.pathname}${url.search}${url.hash}`);
+  return true;
+}
+
 async function fetchEdition(id: string): Promise<Edition | null> {
   try {
     const r = await fetch(`/playlists/editions/${id}.json`);
@@ -70,6 +89,7 @@ export async function renderHome(app: App): Promise<void> {
   root.dataset["ready"] = "1";
   const now = Date.now();
   const saved = store.get<unknown>(SESSION_KEY, null);
+  const playMix = takePlayParam();
 
   // Continue row (only for a session under 18 hours old) or the good-night line after the end.
   const cont = continuable(saved, now);
@@ -133,6 +153,11 @@ export async function renderHome(app: App): Promise<void> {
   }
   fill(edition);
 
+  // Never autoplay here (a cold load has no tap to play inside): open the Mix's list, whose
+  // Play button is one more tap.
+  const mix = playMix && !app.hasPlaylist() ? mixOf(edition) : null;
+  if (mix) app.sheet.preview(mix, "tonight");
+
   const link = deepLink();
   if (link) {
     const e = link.edition === edition.date ? edition : await fetchEdition(link.edition);
@@ -190,4 +215,49 @@ export async function renderEarlier(app: App): Promise<void> {
       return li;
     }),
   );
+}
+
+/** How long a tap on the landing page waits for tonight's edition before going to / instead. */
+const LANDING_WAIT_MS = 1000;
+
+/**
+ * /landing: one button. With Tonight's Mix at hand, the tap starts it (play() inside the tap)
+ * and moves to Tonight (/) with the player open; the player survives the page change. Without
+ * it, the button shows "Starting…" for up to a second, then falls back to /?play=mix.
+ */
+export function renderLanding(app: App): void {
+  const root = $("[data-landing]");
+  if (!root || root.dataset["ready"]) return;
+  root.dataset["ready"] = "1";
+  const btn = $<HTMLAnchorElement>("[data-hero-play]", root)!;
+  const caption = $("[data-hero-caption]", root)!;
+
+  // This browser's copy of tonight first, so a tap right away can still play inside the tap.
+  const cached = store.get<unknown>(EDITION_CACHE_KEY, null);
+  let mix = isCurrent(cached, Date.now()) ? mixOf(cached) : null;
+  const loaded = loadTonight().then(({ data }) => (mix = mixOf(data) ?? mix));
+
+  const play = (p: Playlist) => {
+    app.start(p, "tonight");
+    void navigate("/");
+  };
+  btn.addEventListener("click", (e) => {
+    // New tab, new window and the like: leave the link alone.
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    if (btn.hasAttribute("aria-busy")) return;
+    if (app.hasPlaylist()) {
+      app.sheet.open();
+      void navigate("/");
+      return;
+    }
+    if (mix) return play(mix);
+    btn.setAttribute("aria-busy", "true");
+    caption.textContent = "Starting…";
+    const late = new Promise<null>((r) => setTimeout(() => r(null), LANDING_WAIT_MS));
+    void Promise.race([loaded, late]).then((p) => {
+      if (p) play(p);
+      else void navigate("/?play=mix");
+    });
+  });
 }

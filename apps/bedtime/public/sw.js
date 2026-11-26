@@ -6,7 +6,7 @@
 const VERSION = "v2";
 const SHELL = `bedtime-shell-${VERSION}`;
 const DATA = `bedtime-data-${VERSION}`;
-const PAGES = ["/", "/earlier/", "/about/", "/manifest.webmanifest", "/favicon.svg"];
+const PAGES = ["/", "/earlier/", "/about/", "/landing/", "/manifest.webmanifest", "/favicon.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
