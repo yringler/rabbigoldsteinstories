@@ -77,6 +77,34 @@ function takePlayMix(): boolean {
   return true;
 }
 
+/** Two samples of silence (a 48-byte WAV), for the autoplay probe. */
+const SILENCE = `data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQQAAAAAAAAA`;
+
+/**
+ * Would this page let audio start now, without a tap on it? A visitor who tapped "Play" on another
+ * site (the family landing page links to `/?play=mix`) arrives with no tap here, and the browser
+ * decides: iOS Safari always refuses, Chrome allows it for sites the visitor uses often or once
+ * they have tapped on this page. Asks the browser where it can say (getAutoplayPolicy), otherwise
+ * plays a silent clip and sees whether that is refused. Never throws.
+ */
+async function canAutoplay(): Promise<boolean> {
+  const nav = navigator as Navigator & { getAutoplayPolicy?: (type: "mediaelement") => string };
+  try {
+    if (typeof nav.getAutoplayPolicy === "function")
+      return nav.getAutoplayPolicy("mediaelement") === "allowed";
+  } catch {
+    /* fall through to the probe */
+  }
+  const probe = new Audio(SILENCE);
+  try {
+    await probe.play();
+    probe.pause();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function fetchEdition(id: string): Promise<Edition | null> {
   try {
     const r = await fetch(`/playlists/editions/${id}.json`);
@@ -166,11 +194,14 @@ export async function renderHome(app: App): Promise<void> {
   }
   fill(edition);
 
-  // Never autoplay here (no tap to play inside): open the Mix's list, whose Play button is one
-  // more tap. If the Mix is already the loaded playlist, just show the player.
+  // Asked to play the Mix: start it if the browser lets audio start without a tap on this page
+  // (the visitor already pressed Play, on /landing or on the family landing page). Where it does
+  // not (always on iOS), open the Mix's list, whose Play button is one more tap. If the Mix is
+  // already the loaded playlist, just show the player.
   const mix = playMix ? mixOf(edition) : null;
   if (mix && app.player.snapshot().playlist?.id === mix.id) app.sheet.open();
-  else if (mix) app.sheet.preview(mix, "tonight");
+  else if (mix && (await canAutoplay()) && root.isConnected) app.start(mix, "tonight");
+  else if (mix && root.isConnected) app.sheet.preview(mix, "tonight");
 
   const link = deepLink();
   if (link) {

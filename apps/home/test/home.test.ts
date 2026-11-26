@@ -6,13 +6,7 @@ import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldste
 import type { Edition, Playlist } from "@goldstein/playlists";
 import { filterDomains, lostEpisodesUrl, siteCards } from "../src/lib/sites.ts";
 import { assertConfirmed, computeStats, fmt, NAMED_IN_PROSE } from "../src/lib/stats.ts";
-import {
-  enhanceTonightCta,
-  formatLength,
-  loadTonight,
-  tonightCta,
-  tonightModel,
-} from "../src/lib/tonight.ts";
+import { formatLength, loadTonight, tonightModel } from "../src/lib/tonight.ts";
 
 const src = (p: string) => readFileSync(join(import.meta.dirname, "..", "src", p), "utf8");
 
@@ -185,38 +179,11 @@ describe("tonight strip", () => {
     expect(page).toMatch(/<section[^>]*data-tonight[^>]*\bhidden\b/);
     expect(page.match(/<script\b/g)).toHaveLength(1);
     expect(src("layouts/Base.astro")).not.toMatch(/<script\b/);
-    // The bedtime card's CTA is the one the script enhances; by default it links to the site.
-    expect(page.match(/data-tonight-cta\b/g)).toHaveLength(1);
-    expect(page).toMatch(/data-tonight-cta=\{c\.id === "bedtime"/);
-    const anchor = page.slice(page.lastIndexOf("<a", page.indexOf("data-tonight-cta")));
-    expect(anchor).toMatch(/^<a[^>]*href=\{c\.url\}/);
-    expect(siteCards()[0]?.url).toBe(siteUrl("bedtime"));
-    expect(src("scripts/tonight.ts")).toContain("a[data-tonight-cta]");
-  });
-
-  it("points the bedtime CTA at tonight's Mix, and leaves it alone without one", () => {
-    const fresh = () => ({ href: siteUrl("bedtime"), textContent: "New stories every day" });
-
-    const withMix = fresh();
-    const m = tonightModel(
-      edition([
-        playlist("little", "Little Ones"),
-        playlist("mix", "Tonight's Mix", { total_min: 92 }),
-      ]),
-    );
-    enhanceTonightCta(withMix, m);
-    expect(withMix.href).toBe(siteUrl("bedtime", "/p/2026-11-25/mix/"));
-    expect(withMix.textContent).toBe("New stories every day");
-
-    const noMix = fresh();
-    enhanceTonightCta(noMix, tonightModel(edition([playlist("calm", "Quiet Night")])));
-    expect(noMix).toEqual(fresh());
-
-    const noData = fresh();
-    enhanceTonightCta(noData, null);
-    expect(noData).toEqual(fresh());
-
-    expect(tonightCta(m)).toEqual({ href: siteUrl("bedtime", "/p/2026-11-25/mix/") });
+    // The bedtime button goes straight into playing Tonight's Mix on the bedtime site.
+    const [bedtime, ...rest] = siteCards();
+    expect(bedtime?.href).toBe(siteUrl("bedtime", "/?play=mix"));
+    expect(bedtime?.cta).toBe("Play");
+    expect(rest.map((c) => c.href)).toEqual(rest.map((c) => c.url));
   });
 
   it("formats lengths like the bedtime site", () => {

@@ -108,24 +108,3 @@ export function renderTonight(root: HTMLElement, model: TonightModel): void {
   if (date && model.hebrewDate) date.textContent = model.hebrewDate;
   root.hidden = false;
 }
-
-/** The bedtime card's CTA once tonight's data is in: the Mix's deep link. */
-export interface TonightCta {
-  href: string;
-}
-
-/**
- * Pure: the model → where the bedtime card's CTA should point, or null when there is no Mix (the
- * CTA then keeps its default link to the bedtime site). Only the link changes: the button's short
- * label ("New stories every day") stays, since today's Mix is exactly that.
- */
-export function tonightCta(model: TonightModel | null): TonightCta | null {
-  const mix = model?.cards.find((c) => c.type === MIX_TYPE);
-  return mix ? { href: mix.url } : null;
-}
-
-/** Points the CTA at tonight's Mix. Leaves it untouched when there is no Mix. */
-export function enhanceTonightCta(cta: { href: string }, model: TonightModel | null): void {
-  const next = tonightCta(model);
-  if (next) cta.href = next.href;
-}
