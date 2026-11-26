@@ -775,8 +775,32 @@ button.btn {
   font-size: 1.35rem;
 }
 
+/*
+ * Plain block layout, no flex: some mobile browsers shrank the flex card body to its
+ * min-content width, and .btn's overflow-wrap:anywhere made that one letter wide.
+ */
+.give {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 860px) {
+  .give {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.give .card,
+.give .card-body {
+  display: block;
+  width: auto;
+}
+
+.give .btn {
+  overflow-wrap: normal;
+}
+
 .give .lost-actions {
-  margin: auto 0 0;
+  margin: 16px 0 0;
 }
 
 .zelle-address code {
