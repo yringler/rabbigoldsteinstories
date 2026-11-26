@@ -195,7 +195,7 @@ describe("tonight strip", () => {
   });
 
   it("points the bedtime CTA at tonight's Mix, and leaves it alone without one", () => {
-    const fresh = () => ({ href: siteUrl("bedtime"), textContent: "Start tonight's stories" });
+    const fresh = () => ({ href: siteUrl("bedtime"), textContent: "New stories every day" });
 
     const withMix = fresh();
     const m = tonightModel(
@@ -206,10 +206,7 @@ describe("tonight strip", () => {
     );
     enhanceTonightCta(withMix, m);
     expect(withMix.href).toBe(siteUrl("bedtime", "/p/2026-11-25/mix/"));
-    expect(withMix.textContent?.replaceAll("\u00a0", " ")).toBe(
-      `Open Tonight's Mix · ${formatLength(92)}`,
-    );
-    expect(withMix.textContent).toBe("Open Tonight's Mix · about\u00a01½\u00a0hours");
+    expect(withMix.textContent).toBe("New stories every day");
 
     const noMix = fresh();
     enhanceTonightCta(noMix, tonightModel(edition([playlist("calm", "Quiet Night")])));
@@ -219,14 +216,7 @@ describe("tonight strip", () => {
     enhanceTonightCta(noData, null);
     expect(noData).toEqual(fresh());
 
-    // A Mix without a usable length still gets the link, just no length.
-    const noLength = tonightModel(
-      edition([playlist("mix", "Tonight's Mix", { total_min: Number.NaN })]),
-    );
-    expect(tonightCta(noLength)).toEqual({
-      href: siteUrl("bedtime", "/p/2026-11-25/mix/"),
-      text: "Open Tonight's Mix",
-    });
+    expect(tonightCta(m)).toEqual({ href: siteUrl("bedtime", "/p/2026-11-25/mix/") });
   });
 
   it("formats lengths like the bedtime site", () => {

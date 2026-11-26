@@ -71,7 +71,7 @@ const description =
               <h2 class="card-name" id={`site-${c.id}`}>
                 {c.name}
               </h2>
-              <p class="hook">{c.hook}</p>
+              {c.hook && <p class="hook">{c.hook}</p>}
               <a
                 class="cta card-link"
                 href={c.url}
