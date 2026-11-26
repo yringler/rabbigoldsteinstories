@@ -108,3 +108,37 @@ export function renderTonight(root: HTMLElement, model: TonightModel): void {
   if (date && model.hebrewDate) date.textContent = model.hebrewDate;
   root.hidden = false;
 }
+
+/** The bedtime card's CTA once tonight's data is in: the Mix's deep link and its length. */
+export interface TonightCta {
+  href: string;
+  text: string;
+}
+
+/**
+ * Pure: the model → what the bedtime card's CTA should become, or null when there is no Mix (the
+ * CTA then keeps its default link to the bedtime site). The deep link opens the Mix's track list on
+ * the bedtime site, whose own button reads "Open Tonight's Mix"; it does not autoplay, so neither
+ * does this text promise it.
+ */
+export function tonightCta(model: TonightModel | null): TonightCta | null {
+  const mix = model?.cards.find((c) => c.type === MIX_TYPE);
+  if (!mix) return null;
+  const text =
+    mix.minutes > 0
+      ? // The length stays on one line if the button wraps (no-break spaces).
+        `Open Tonight's Mix · ${formatLength(mix.minutes).replaceAll(" ", "\u00a0")}`
+      : "Open Tonight's Mix";
+  return { href: mix.url, text };
+}
+
+/** Points the CTA at tonight's Mix (textContent only). Leaves it untouched when there is no Mix. */
+export function enhanceTonightCta(
+  cta: { href: string; textContent: string | null },
+  model: TonightModel | null,
+): void {
+  const next = tonightCta(model);
+  if (!next) return;
+  cta.href = next.href;
+  cta.textContent = next.text;
+}

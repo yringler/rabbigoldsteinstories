@@ -6,7 +6,13 @@ import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldste
 import type { Edition, Playlist } from "@goldstein/playlists";
 import { filterDomains, lostEpisodesUrl, siteCards } from "../src/lib/sites.ts";
 import { assertConfirmed, computeStats, fmt, NAMED_IN_PROSE } from "../src/lib/stats.ts";
-import { formatLength, loadTonight, tonightModel } from "../src/lib/tonight.ts";
+import {
+  enhanceTonightCta,
+  formatLength,
+  loadTonight,
+  tonightCta,
+  tonightModel,
+} from "../src/lib/tonight.ts";
 
 const src = (p: string) => readFileSync(join(import.meta.dirname, "..", "src", p), "utf8");
 
@@ -67,6 +73,21 @@ describe("site links come from the shared site table", () => {
     const hosts = filterDomains().map((d) => d.host);
     expect(hosts.sort()).toEqual([...Object.values(SITES).map((s) => s.host), MEDIA_HOST].sort());
     for (const d of filterDomains()) expect(d.role.length).toBeGreaterThan(0);
+    // The roles read as prose, independent of the cards' kickers ("Ages 3–11").
+    const roles = filterDomains().map((d) => d.role);
+    expect(roles).toContain(`${SITES.bedtime.name}, the listening site for bedtime`);
+    expect(roles).toContain(`${SITES.kids.name}, the listening site for children`);
+    expect(roles).toContain(`${SITES.library.name}, the listening site for adults and teachers`);
+  });
+
+  it("the sites come first: the list is before the tonight strip, with no hero above it", () => {
+    const page = src("pages/index.astro");
+    const list = page.indexOf('aria-label="Our sites"');
+    const tonight = page.search(/<section[^>]*data-tonight\b/);
+    expect(list).toBeGreaterThan(0);
+    expect(tonight).toBeGreaterThan(list);
+    expect(page).not.toMatch(/class="(hero|stats|shelf|eyebrow|lede)"/);
+    expect(page).not.toContain("arranged three ways");
   });
 
   it("the home site is in the table and hosts have no dashes", () => {
@@ -164,6 +185,48 @@ describe("tonight strip", () => {
     expect(page).toMatch(/<section[^>]*data-tonight[^>]*\bhidden\b/);
     expect(page.match(/<script\b/g)).toHaveLength(1);
     expect(src("layouts/Base.astro")).not.toMatch(/<script\b/);
+    // The bedtime card's CTA is the one the script enhances; by default it links to the site.
+    expect(page.match(/data-tonight-cta\b/g)).toHaveLength(1);
+    expect(page).toMatch(/data-tonight-cta=\{c\.id === "bedtime"/);
+    const anchor = page.slice(page.lastIndexOf("<a", page.indexOf("data-tonight-cta")));
+    expect(anchor).toMatch(/^<a[^>]*href=\{c\.url\}/);
+    expect(siteCards()[0]?.url).toBe(siteUrl("bedtime"));
+    expect(src("scripts/tonight.ts")).toContain("a[data-tonight-cta]");
+  });
+
+  it("points the bedtime CTA at tonight's Mix, and leaves it alone without one", () => {
+    const fresh = () => ({ href: siteUrl("bedtime"), textContent: "Start tonight's stories" });
+
+    const withMix = fresh();
+    const m = tonightModel(
+      edition([
+        playlist("little", "Little Ones"),
+        playlist("mix", "Tonight's Mix", { total_min: 92 }),
+      ]),
+    );
+    enhanceTonightCta(withMix, m);
+    expect(withMix.href).toBe(siteUrl("bedtime", "/p/2026-11-25/mix/"));
+    expect(withMix.textContent?.replaceAll("\u00a0", " ")).toBe(
+      `Open Tonight's Mix · ${formatLength(92)}`,
+    );
+    expect(withMix.textContent).toBe("Open Tonight's Mix · about\u00a01½\u00a0hours");
+
+    const noMix = fresh();
+    enhanceTonightCta(noMix, tonightModel(edition([playlist("calm", "Quiet Night")])));
+    expect(noMix).toEqual(fresh());
+
+    const noData = fresh();
+    enhanceTonightCta(noData, null);
+    expect(noData).toEqual(fresh());
+
+    // A Mix without a usable length still gets the link, just no length.
+    const noLength = tonightModel(
+      edition([playlist("mix", "Tonight's Mix", { total_min: Number.NaN })]),
+    );
+    expect(tonightCta(noLength)).toEqual({
+      href: siteUrl("bedtime", "/p/2026-11-25/mix/"),
+      text: "Open Tonight's Mix",
+    });
   });
 
   it("formats lengths like the bedtime site", () => {
