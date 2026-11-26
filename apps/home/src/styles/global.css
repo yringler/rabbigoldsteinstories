@@ -759,11 +759,6 @@ button.btn {
   padding-bottom: 0;
 }
 
-/* Landing page: the closing "Free to listen" note. */
-.support {
-  padding-top: 8px;
-}
-
 .page .lede {
   font-size: 1.15rem;
   color: var(--muted);
