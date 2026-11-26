@@ -1,0 +1,4 @@
+# HLS lab (src/pages/lab/hls.astro): the playlist MIME type Safari expects; never cached.
+/lab/hls/*.m3u8
+  Content-Type: application/vnd.apple.mpegurl
+  Cache-Control: no-store

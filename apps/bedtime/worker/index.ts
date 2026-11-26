@@ -6,6 +6,7 @@
 import { siteWorker, type SiteEnv } from "@goldstein/api/proxy";
 import type { IndexFile } from "@goldstein/playlists";
 import { parseDeepLink } from "../src/lib/deeplink.ts";
+import { labSegment } from "./lab.ts";
 
 async function published(env: SiteEnv, url: URL, edition: string): Promise<boolean> {
   try {
@@ -21,6 +22,7 @@ async function published(env: SiteEnv, url: URL, edition: string): Promise<boole
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/lab/seg") return labSegment(url); // HLS lab (worker/lab.ts)
     if (url.pathname.startsWith("/p/")) {
       // Not an asset: the assets binding answers with the 404 page and status.
       const link = parseDeepLink(url.pathname);

@@ -61,6 +61,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // audio and anything else: straight to the network
   if (url.pathname.startsWith("/api/")) return;
+  if (url.pathname.startsWith("/lab/")) return; // HLS lab: always the network
   if (url.pathname.startsWith("/playlists/")) {
     event.respondWith(networkFirst(DATA, req));
     return;

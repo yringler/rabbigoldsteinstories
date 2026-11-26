@@ -1,0 +1,595 @@
+---
+// Lab page (not linked from the site): does a playlist keep playing, and cross story boundaries,
+// with the phone locked? Compares one continuous HLS stream (native or hls.js, with or without ID3
+// timestamps) against today's approach (one <audio>, src + #t fragment swapped per story).
+// Data: public/lab/hls/ (scripts/lab/build-hls-lab.ts). Segments for id3.m3u8: worker/lab.ts.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="HLS lab" />
+    <link rel="manifest" href="/lab/hls/manifest.webmanifest" />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/app-180.png" />
+    <title>HLS lab</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #fff;
+        --fg: #111;
+        --muted: #666;
+        --line: #ddd;
+        --accent: #2a5bd7;
+        --bad: #b3261e;
+        --good: #1b7f3b;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #111;
+          --fg: #eee;
+          --muted: #999;
+          --line: #333;
+          --accent: #8ab4ff;
+          --bad: #ff8a80;
+          --good: #7ddc95;
+        }
+      }
+      body {
+        margin: 0;
+        padding: 16px;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          15px/1.4 system-ui,
+          sans-serif;
+      }
+      h1 {
+        font-size: 1.2rem;
+        margin: 0 0 8px;
+      }
+      fieldset {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        margin: 0 0 12px;
+      }
+      label {
+        display: block;
+        padding: 4px 0;
+      }
+      button {
+        font: inherit;
+        padding: 8px 12px;
+        margin: 4px 4px 4px 0;
+        border-radius: 6px;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--fg);
+      }
+      button.primary {
+        background: var(--accent);
+        color: var(--bg);
+        border-color: var(--accent);
+      }
+      #now {
+        font-variant-numeric: tabular-nums;
+        margin: 8px 0;
+      }
+      #env {
+        color: var(--muted);
+        font-size: 12px;
+        word-break: break-word;
+      }
+      ol {
+        padding-left: 0;
+        list-style: none;
+        font:
+          12px/1.35 ui-monospace,
+          monospace;
+        font-variant-numeric: tabular-nums;
+      }
+      li {
+        border-top: 1px solid var(--line);
+        padding: 3px 0;
+        overflow-wrap: anywhere;
+      }
+      li.hidden-vis {
+        color: var(--accent);
+      }
+      li.bad {
+        color: var(--bad);
+      }
+      li.good {
+        color: var(--good);
+      }
+      audio {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HLS lab: locked-screen playback</h1>
+    <p>
+      Pick a mode, press Play, lock the phone, and wait at least 12 minutes. Stories change at about
+      1:16, 5:02 and 7:39. Unlock and read the log. Blue lines happened while the page was hidden.
+    </p>
+    <fieldset>
+      <legend>Mode</legend>
+      <label>
+        <input type="radio" name="mode" value="native-plain" /> Native HLS, plain MP3 segments (R2
+        direct, byte ranges)
+      </label>
+      <label>
+        <input type="radio" name="mode" value="native-id3" /> Native HLS, segments with ID3
+        timestamps (via this site)
+      </label>
+      <label>
+        <input type="radio" name="mode" value="hlsjs-plain" /> hls.js, plain MP3 segments (needs
+        CORS on R2)
+      </label>
+      <label>
+        <input type="radio" name="mode" value="hlsjs-id3" /> hls.js, ID3 segments (same origin)
+      </label>
+      <label>
+        <input type="radio" name="mode" value="swap" /> Control: today's approach (src + #t swap per
+        story)
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Sleep-timer check</legend>
+      <label>
+        Pause after{" "}
+        <input id="sleep" type="number" min="0" max="60" step="1" value="0" style="width:4em" />{" "}
+        minutes (0 = off). The log shows how late it fired.
+      </label>
+    </fieldset>
+    <button id="play" class="primary">
+      Play
+    </button>
+    <button id="pause">Pause</button>
+    <button id="prev">⏮ Story</button>
+    <button id="next">Story ⏭</button>
+    <button id="near">Jump to 10 s before next story</button>
+    <div id="now">-</div>
+    <audio id="audio" controls playsinline preload="none"></audio>
+    <div>
+      <button id="copy">Copy log</button>
+      <button id="clear">Clear log</button>
+    </div>
+    <p id="env"></p>
+    <ol id="log"></ol>
+
+    <script>
+      interface Chapter {
+        id: string;
+        title: string;
+        start: number;
+        end: number;
+        audio_url: string;
+        start_sec: number;
+        end_sec: number;
+      }
+      interface ChapterFile {
+        total: number;
+        chapters: Chapter[];
+      }
+      type Mode = "native-plain" | "native-id3" | "hlsjs-plain" | "hlsjs-id3" | "swap";
+      interface Entry {
+        at: number;
+        hidden: boolean;
+        ct: number;
+        ev: string;
+        cls?: "bad" | "good";
+      }
+      interface HlsInstance {
+        loadSource(src: string): void;
+        attachMedia(el: HTMLMediaElement): void;
+        destroy(): void;
+        on(
+          ev: string,
+          fn: (ev: string, data: { type?: string; details?: string; fatal?: boolean }) => void,
+        ): void;
+      }
+      interface HlsCtor {
+        new (config: Record<string, unknown>): HlsInstance;
+        isSupported(): boolean;
+        readonly version: string;
+        readonly Events: { ERROR: string; MANIFEST_PARSED: string };
+      }
+
+      const HLS_URL = "https://cdn.jsdelivr.net/npm/hls.js@1.7.4/dist/hls.mjs";
+      const LOG_KEY = "lab:hls:log";
+      const MODE_KEY = "lab:hls:mode";
+      const HLS_MIME = "application/vnd.apple.mpegurl";
+
+      const $ = <T extends HTMLElement>(id: string): T => {
+        const el = document.getElementById(id);
+        if (!el) throw new Error(`#${id} missing`);
+        return el as T;
+      };
+      const audio = $<HTMLAudioElement>("audio");
+      const logEl = $<HTMLOListElement>("log");
+      const nowEl = $<HTMLDivElement>("now");
+
+      // ---- log (kept in localStorage so a reload after a crash still shows what happened) ----
+      let entries: Entry[] = [];
+      try {
+        const raw = localStorage.getItem(LOG_KEY);
+        if (raw) entries = JSON.parse(raw) as Entry[];
+      } catch {
+        entries = [];
+      }
+      let saveQueued = false;
+      function persist(): void {
+        if (saveQueued) return;
+        saveQueued = true;
+        setTimeout(() => {
+          saveQueued = false;
+          try {
+            localStorage.setItem(LOG_KEY, JSON.stringify(entries.slice(-800)));
+          } catch {
+            /* storage blocked */
+          }
+        }, 500);
+      }
+      const clock = (ms: number) => new Date(ms).toLocaleTimeString([], { hour12: false });
+      const mmss = (s: number) =>
+        Number.isFinite(s)
+          ? `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`
+          : "-";
+      function render(e: Entry): void {
+        const li = document.createElement("li");
+        li.textContent = `${clock(e.at)}  ${mmss(e.ct).padStart(5)}  ${e.hidden ? "[hidden] " : ""}${e.ev}`;
+        if (e.hidden) li.classList.add("hidden-vis");
+        if (e.cls) li.classList.add(e.cls);
+        logEl.prepend(li);
+      }
+      function log(ev: string, cls?: "bad" | "good"): void {
+        const e: Entry = {
+          at: Date.now(),
+          hidden: document.visibilityState === "hidden",
+          ct: audio.currentTime,
+          ev,
+        };
+        if (cls) e.cls = cls;
+        entries.push(e);
+        render(e);
+        persist();
+      }
+      for (const e of entries) render(e);
+
+      // ---- environment ----
+      const standalone =
+        matchMedia("(display-mode: standalone)").matches ||
+        (navigator as Navigator & { standalone?: boolean }).standalone === true;
+      const nativeHls = audio.canPlayType(HLS_MIME);
+      const hasMms = "ManagedMediaSource" in globalThis;
+      const hasMse = "MediaSource" in globalThis;
+      $<HTMLParagraphElement>("env").textContent =
+        `${navigator.userAgent} · standalone: ${standalone} · canPlayType(HLS): "${nativeHls}" · ` +
+        `MediaSource: ${hasMse} · ManagedMediaSource: ${hasMms}`;
+
+      const modeInputs = [...document.querySelectorAll<HTMLInputElement>('input[name="mode"]')];
+      const savedMode = (() => {
+        try {
+          return localStorage.getItem(MODE_KEY);
+        } catch {
+          return null;
+        }
+      })();
+      const defaultMode: Mode =
+        (savedMode as Mode | null) ?? (nativeHls ? "native-plain" : "hlsjs-plain");
+      for (const i of modeInputs) i.checked = i.value === defaultMode;
+      const mode = (): Mode => (modeInputs.find((i) => i.checked)?.value ?? defaultMode) as Mode;
+
+      // ---- data ----
+      const data = (await (
+        await fetch("/lab/hls/chapters.json", { cache: "no-store" })
+      ).json()) as ChapterFile;
+      const chapters = data.chapters;
+
+      // ---- state ----
+      let active: Mode | null = null;
+      let hls: HlsInstance | null = null;
+      let swapIndex = 0;
+      let lastChapter = -1;
+      let sleepAt: number | null = null;
+      let intentionalPause = false;
+
+      /** Index of the story playing and the position inside it, for either kind of mode. */
+      function where(): { index: number; pos: number; dur: number } {
+        if (active === "swap") {
+          const c = chapters[swapIndex]!;
+          return {
+            index: swapIndex,
+            pos: audio.currentTime - c.start_sec,
+            dur: c.end_sec - c.start_sec,
+          };
+        }
+        const t = audio.currentTime;
+        let i = chapters.findIndex((c) => t < c.end);
+        if (i < 0) i = chapters.length - 1;
+        const c = chapters[i]!;
+        return { index: i, pos: t - c.start, dur: c.end - c.start };
+      }
+
+      function setMetadata(index: number): void {
+        if (!("mediaSession" in navigator)) return;
+        const c = chapters[index]!;
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: c.title,
+          artist: "Uncle Yossi",
+          album: `HLS lab · ${active ?? ""} · story ${index + 1}/${chapters.length}`,
+          artwork: [{ src: "/icons/app-512.png", sizes: "512x512", type: "image/png" }],
+        });
+      }
+
+      let lastPositionState = 0;
+      function positionState(force = false): void {
+        if (!("mediaSession" in navigator) || !navigator.mediaSession.setPositionState) return;
+        const now = Date.now();
+        if (!force && now - lastPositionState < 5000) return;
+        lastPositionState = now;
+        const w = where();
+        try {
+          navigator.mediaSession.setPositionState({
+            duration: Math.max(w.dur, 0.1),
+            position: Math.min(Math.max(w.pos, 0), Math.max(w.dur, 0.1)),
+            playbackRate: 1,
+          });
+        } catch {
+          /* bad values mid-swap */
+        }
+      }
+
+      function teardown(): void {
+        hls?.destroy();
+        hls = null;
+        audio.removeAttribute("src");
+        audio.load();
+      }
+
+      // Fetched at page load so the tap on Play doesn't wait for it (and keeps its user activation).
+      let hlsJs: Promise<HlsCtor> | null = null;
+      function loadHlsJs(): Promise<HlsCtor> {
+        hlsJs ??= (import(/* @vite-ignore */ HLS_URL) as Promise<{ default: HlsCtor }>).then(
+          (m) => m.default,
+        );
+        return hlsJs;
+      }
+      if (!nativeHls || defaultMode.startsWith("hlsjs")) void loadHlsJs().catch(() => undefined);
+
+      function swapLoad(index: number, autoplay: boolean): void {
+        swapIndex = index;
+        const c = chapters[index]!;
+        audio.src = `${c.audio_url}#t=${c.start_sec.toFixed(2)},${c.end_sec.toFixed(2)}`;
+        setMetadata(index);
+        lastChapter = index;
+        if (autoplay)
+          audio.play().then(
+            () => log(`swap: play() resolved for story ${index + 1}`, "good"),
+            (e: unknown) =>
+              log(`swap: play() rejected for story ${index + 1}: ${String(e)}`, "bad"),
+          );
+      }
+
+      async function start(): Promise<void> {
+        const m = mode();
+        try {
+          localStorage.setItem(MODE_KEY, m);
+        } catch {
+          /* storage blocked */
+        }
+        if (active !== m) {
+          teardown();
+          active = m;
+          lastChapter = -1;
+          log(`mode ${m} (standalone: ${standalone})`);
+          if (m === "swap") {
+            swapLoad(0, false);
+          } else if (m === "native-plain" || m === "native-id3") {
+            if (!nativeHls) log("canPlayType says no native HLS here; trying anyway", "bad");
+            audio.src = `/lab/hls/${m === "native-plain" ? "plain" : "id3"}.m3u8`;
+          } else {
+            const Hls = await loadHlsJs();
+            log(`hls.js ${Hls.version}, isSupported: ${Hls.isSupported()}`);
+            const h = new Hls({
+              maxBufferLength: 600,
+              maxMaxBufferLength: 900,
+              backBufferLength: 60,
+            });
+            h.on(Hls.Events.ERROR, (_ev, d) =>
+              log(
+                `hls.js error ${d.type ?? ""}/${d.details ?? ""} fatal=${String(d.fatal)}`,
+                "bad",
+              ),
+            );
+            h.on(Hls.Events.MANIFEST_PARSED, () => log("hls.js manifest parsed"));
+            h.attachMedia(audio);
+            h.loadSource(`/lab/hls/${m === "hlsjs-plain" ? "plain" : "id3"}.m3u8`);
+            hls = h;
+          }
+        }
+        const mins = Number($<HTMLInputElement>("sleep").value);
+        sleepAt = mins > 0 ? Date.now() + mins * 60_000 : null;
+        if (sleepAt) log(`sleep timer set for ${clock(sleepAt)}`);
+        try {
+          await audio.play();
+          log("play() resolved", "good");
+        } catch (e) {
+          log(`play() rejected: ${String(e)}`, "bad");
+        }
+      }
+
+      function seekToStory(index: number): void {
+        const i = Math.min(Math.max(index, 0), chapters.length - 1);
+        if (active === "swap") {
+          swapLoad(i, !audio.paused);
+          return;
+        }
+        audio.currentTime = chapters[i]!.start + 0.01;
+      }
+
+      function checkSleep(source: string): void {
+        if (sleepAt === null || Date.now() < sleepAt) return;
+        const late = (Date.now() - sleepAt) / 1000;
+        sleepAt = null;
+        intentionalPause = true;
+        audio.pause();
+        log(
+          `sleep timer fired via ${source}, ${late.toFixed(1)} s late`,
+          late > 5 ? "bad" : "good",
+        );
+      }
+
+      // ---- audio events ----
+      let timeupdates = 0;
+      audio.addEventListener("timeupdate", () => {
+        timeupdates++;
+        checkSleep("timeupdate");
+        const w = where();
+        if (w.index !== lastChapter) {
+          if (lastChapter >= 0)
+            log(`story ${lastChapter + 1} → ${w.index + 1}: ${chapters[w.index]!.title}`, "good");
+          lastChapter = w.index;
+          setMetadata(w.index);
+          positionState(true);
+        } else positionState();
+        nowEl.textContent = `${active ?? "-"} · story ${w.index + 1}/${chapters.length} · ${mmss(w.pos)} / ${mmss(w.dur)} · total ${mmss(audio.currentTime)}`;
+      });
+      audio.addEventListener("pause", () => {
+        const intentional = intentionalPause;
+        intentionalPause = false;
+        log(`pause${intentional ? " (ours)" : ""}`);
+        if (active !== "swap" || intentional) return;
+        // Today's rule: the #t fragment pauses at end_sec, and that is the story's end.
+        const c = chapters[swapIndex]!;
+        if (audio.currentTime >= c.end_sec - 0.6) {
+          if (swapIndex + 1 < chapters.length) {
+            log(`swap: fragment end reached, loading story ${swapIndex + 2}`);
+            swapLoad(swapIndex + 1, true);
+          } else log("swap: last story finished", "good");
+        }
+      });
+      audio.addEventListener("ended", () => {
+        log("ended", "good");
+        if (active === "swap" && swapIndex + 1 < chapters.length) swapLoad(swapIndex + 1, true);
+      });
+      for (const ev of [
+        "playing",
+        "waiting",
+        "stalled",
+        "suspend",
+        "emptied",
+        "loadedmetadata",
+      ] as const)
+        audio.addEventListener(ev, () => log(ev, ev === "stalled" ? "bad" : undefined));
+      audio.addEventListener("error", () => {
+        const e = audio.error;
+        log(`media error ${e?.code ?? "?"}: ${e?.message ?? ""}`, "bad");
+      });
+
+      // ---- timers and visibility: how much does the page get to run while hidden? ----
+      let beats = 0;
+      setInterval(() => {
+        beats++;
+        checkSleep("setInterval");
+      }, 1000);
+      let hiddenAt = 0;
+      let beatsAtHide = 0;
+      let updatesAtHide = 0;
+      let ctAtHide = 0;
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "hidden") {
+          hiddenAt = Date.now();
+          beatsAtHide = beats;
+          updatesAtHide = timeupdates;
+          ctAtHide = audio.currentTime;
+          log(`hidden (paused: ${audio.paused})`);
+        } else {
+          const secs = (Date.now() - hiddenAt) / 1000;
+          const played = audio.currentTime - ctAtHide;
+          log(
+            `visible after ${secs.toFixed(0)} s hidden: 1 s timer ran ${beats - beatsAtHide}×, ` +
+              `timeupdate ${timeupdates - updatesAtHide}×, playhead moved ${played.toFixed(0)} s, paused: ${audio.paused}`,
+            played > secs - 10 ? "good" : "bad",
+          );
+          checkSleep("visibilitychange");
+        }
+      });
+      addEventListener("pagehide", () => log("pagehide"));
+      addEventListener("pageshow", (e) => log(`pageshow (persisted: ${String(e.persisted)})`));
+
+      // ---- controls ----
+      if ("mediaSession" in navigator) {
+        const ms = navigator.mediaSession;
+        const on = (a: MediaSessionAction, h: MediaSessionActionHandler) => {
+          try {
+            ms.setActionHandler(a, h);
+          } catch {
+            /* unsupported action */
+          }
+        };
+        on("play", () => {
+          log("lock screen: play");
+          void audio.play().catch((e: unknown) => log(`play() rejected: ${String(e)}`, "bad"));
+        });
+        on("pause", () => {
+          log("lock screen: pause");
+          intentionalPause = true;
+          audio.pause();
+        });
+        on("nexttrack", () => {
+          log("lock screen: next");
+          seekToStory(where().index + 1);
+        });
+        on("previoustrack", () => {
+          log("lock screen: previous");
+          seekToStory(where().index - 1);
+        });
+        on("seekto", (d) => {
+          if (d.seekTime === undefined) return;
+          const base =
+            active === "swap" ? chapters[swapIndex]!.start_sec : chapters[where().index]!.start;
+          audio.currentTime = base + d.seekTime;
+        });
+      }
+      $("play").addEventListener("click", () => void start());
+      $("pause").addEventListener("click", () => {
+        intentionalPause = true;
+        audio.pause();
+      });
+      $("next").addEventListener("click", () => seekToStory(where().index + 1));
+      $("prev").addEventListener("click", () => seekToStory(where().index - 1));
+      $("near").addEventListener("click", () => {
+        const w = where();
+        audio.currentTime = audio.currentTime + Math.max(0, w.dur - w.pos - 10);
+        log("jumped to 10 s before the next story");
+      });
+      $("copy").addEventListener("click", () => {
+        const text =
+          `${$<HTMLParagraphElement>("env").textContent ?? ""}\n` +
+          entries
+            .map((e) => `${clock(e.at)} ${mmss(e.ct)} ${e.hidden ? "[hidden] " : ""}${e.ev}`)
+            .join("\n");
+        void navigator.clipboard.writeText(text).then(
+          () => log("log copied"),
+          () => log("clipboard blocked", "bad"),
+        );
+      });
+      $("clear").addEventListener("click", () => {
+        entries = [];
+        logEl.textContent = "";
+        persist();
+      });
+      for (const i of modeInputs)
+        i.addEventListener("change", () => {
+          if (active && active !== mode()) log(`mode changed to ${mode()}: press Play to switch`);
+        });
+    </script>
+  </body>
+</html>
