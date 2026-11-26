@@ -6,7 +6,18 @@ import type { Track } from "@goldstein/player";
 import { cite, type CiteInput } from "../lib/citation.ts";
 import { clampTime, formatDuration, parseTime } from "../lib/time.ts";
 import { lastAtOrBefore, snapToRow, timeWords } from "../lib/words.ts";
-import { $, $$, absoluteTime, audio, copyText, currentId, h, player, setSound, tracksFrom } from "./core.ts";
+import {
+  $,
+  $$,
+  absoluteTime,
+  audio,
+  copyText,
+  currentId,
+  h,
+  player,
+  setSound,
+  tracksFrom,
+} from "./core.ts";
 
 let cleanup: (() => void)[] = [];
 
