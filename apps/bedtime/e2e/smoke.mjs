@@ -229,6 +229,35 @@ const shot = async (page, name) => {
   await ctx.close();
 }
 
+// ---- landing (/landing) ----
+{
+  const { ctx, page, errors } = await session({ width: 375, height: 812 });
+  await page.goto(`${base}/landing`);
+  await page.waitForSelector("[data-hero-play]");
+  check(
+    (await page.innerText("h1")).replace(/\s+/g, " ").trim() === "Bedtime? Just press play." &&
+      !(await page.$(".top-link")) &&
+      !(await page.$(".site-foot")) &&
+      (await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)),
+    "landing renders (no Earlier link, no footer, no sideways scroll)",
+  );
+  await shot(page, "landing-phone");
+  // let tonight's edition arrive, then one tap: Tonight's Mix starts and we are on / with it open
+  await page.waitForLoadState("networkidle");
+  await page.click("[data-hero-play]");
+  await page.waitForURL(`${base}/`);
+  await page.waitForSelector("[data-sheet].open:not([data-mode])", { timeout: 10000 });
+  await page.waitForFunction(() => !document.querySelector("#audio").paused, null, {
+    timeout: 15000,
+  });
+  check(
+    (await page.evaluate(() => window.bedtime.player.snapshot().playlist?.type)) === "mix",
+    "landing tap plays Tonight's Mix on /",
+  );
+  check(errors.length === 0, `no console errors on landing (${errors.join(" | ")})`);
+  await ctx.close();
+}
+
 await browser.close();
 if (failures.length) {
   console.log(`\n${failures.length} failed`);

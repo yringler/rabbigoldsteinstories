@@ -5,7 +5,7 @@
 import type { Playlist } from "@goldstein/playlists";
 import { BedtimePlayer } from "./bedtime-player.ts";
 import { mountNight } from "./night.ts";
-import { renderEarlier, renderHome, type App } from "./pages.ts";
+import { renderEarlier, renderHome, renderLanding, type App } from "./pages.ts";
 import { mountSheet } from "./sheet.ts";
 
 declare global {
@@ -37,6 +37,7 @@ function onPage() {
   const page = document.body.dataset["page"];
   if (page === "home") void renderHome(app);
   if (page === "earlier") void renderEarlier(app);
+  if (page === "landing") renderLanding(app);
 }
 
 document.addEventListener("astro:page-load", onPage);
