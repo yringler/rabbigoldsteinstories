@@ -11,10 +11,6 @@ export interface SiteCard {
   id: CardSite;
   name: string;
   url: string;
-  /** Short label above the name: who or when it is for. */
-  kicker: string;
-  /** One line: what the site does. Omitted where the button says it all (bedtime). */
-  hook?: string;
   /** The card's button text. */
   cta: string;
   /** What the site is for, in a few words, for the internet-filter list ("for bedtime"). */
@@ -23,19 +19,14 @@ export interface SiteCard {
 
 const COPY: Record<CardSite, Omit<SiteCard, "id" | "name" | "url">> = {
   bedtime: {
-    kicker: "For bedtime",
     cta: "New stories every day",
     filterRole: "for bedtime",
   },
   kids: {
-    kicker: "Ages 3–11",
-    hook: "A bright shelf of stories and the radio show to browse.",
     cta: "Browse stories",
     filterRole: "for children",
   },
   library: {
-    kicker: "For adults & teachers",
-    hook: "Search every recording and transcript.",
     cta: "Search the archive",
     filterRole: "for adults and teachers",
   },

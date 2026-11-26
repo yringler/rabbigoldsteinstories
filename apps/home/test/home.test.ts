@@ -73,7 +73,7 @@ describe("site links come from the shared site table", () => {
     const hosts = filterDomains().map((d) => d.host);
     expect(hosts.sort()).toEqual([...Object.values(SITES).map((s) => s.host), MEDIA_HOST].sort());
     for (const d of filterDomains()) expect(d.role.length).toBeGreaterThan(0);
-    // The roles read as prose, independent of the cards' kickers ("Ages 3–11").
+    // The roles read as prose ("for children"), not as card labels.
     const roles = filterDomains().map((d) => d.role);
     expect(roles).toContain(`${SITES.bedtime.name}, the listening site for bedtime`);
     expect(roles).toContain(`${SITES.kids.name}, the listening site for children`);
