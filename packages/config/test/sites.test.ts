@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { SITE_IDS, SITES, supportUrl } from "../src/sites.ts";
+import { ORDER, SITE_IDS, SITES, supportUrl } from "../src/sites.ts";
 
 const root = join(import.meta.dirname, "..", "..", "..");
 const jsonc = (path: string) =>
@@ -35,5 +35,11 @@ describe("site table matches the wrangler configs", () => {
 describe("support page", () => {
   it("lives on the landing site", () => {
     expect(supportUrl()).toBe("https://rabbigoldsteinstories.torahlearningtools.com/support/");
+  });
+});
+
+describe("order link", () => {
+  it("points at the MP3 order form", () => {
+    expect(ORDER.url).toBe("https://www.thelivingsidrah.com/order/");
   });
 });

@@ -2,6 +2,7 @@
 /** About: people, how the archive was made, AI disclosure, privacy, corrections, lost tapes. */
 import {
   CONTACT_EMAIL,
+  ORDER,
   PROJECT_CREDIT,
   SITES,
   SUGGESTED_FEE,
@@ -50,6 +51,18 @@ const lost = episodes().filter((e) => e.status === "lost").length;
         radio show, and is known for the song “I Believe in Hashem”, which opens his stories.{" "}
         <strong>Bubby Chaya Malka</strong>, Uncle Yossi's mother, tells stories of her own in
         English and Yiddish.
+      </p>
+
+      <h2>More recordings to buy</h2>
+      <p>
+        Many more recordings aren't in this archive, among them the full{" "}
+        <em>Story Time With Uncle Yossi</em> albums, <em>The Living Sidrah</em> on the parsha and{" "}
+        <em>Journey Through Tanya</em>. {ORDER.seller} sells them as MP3 downloads. {ORDER.note}
+      </p>
+      <p>
+        <a class="btn btn-lg" href={ORDER.url}>
+          Order MP3 downloads
+        </a>
       </p>
 
       <h2>How the archive was made</h2>

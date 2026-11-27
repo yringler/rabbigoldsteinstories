@@ -43,6 +43,18 @@ export const SUPPORT = {
   zelle: "torahlearningtools@gmail.com",
 } as const;
 
+/**
+ * Recordings that are not free on these sites are sold as MP3 downloads by Rabbi Chaim Levi
+ * Goldstein (owner, 2026-11-27, docs/DECISIONS.md). Linked from the home page and the grown-up
+ * about pages, never from the kids' child-facing pages. `note` asks buyers to say where they heard
+ * of them; change the wording here only.
+ */
+export const ORDER = {
+  url: "https://www.thelivingsidrah.com/order/",
+  seller: "Rabbi Chaim Levi Goldstein",
+  note: "When you order, please mention that you found the recordings here.",
+} as const;
+
 /** Credit line on every about / grown-ups page (owner, 2026-11-25). */
 export const PROJECT_CREDIT = "A project of Yehuda Ringler.";
 

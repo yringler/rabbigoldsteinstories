@@ -2,6 +2,7 @@
 // For parents (bedtime.md §2.4): under 250 words; confirmed names only.
 import {
   CONTACT_EMAIL,
+  ORDER,
   PROJECT_CREDIT,
   SITES,
   SUGGESTED_FEE,
@@ -47,6 +48,12 @@ const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
         they were; switch it off to hear them. The setting stays on this phone, for this site only.
       </p>
     )}
+
+    <h2>More recordings to buy</h2>
+    <p>
+      {ORDER.seller} sells many more recordings as <a href={ORDER.url}>MP3 downloads</a>.{" "}
+      {ORDER.note}
+    </p>
 
     <h2>At bedtime</h2>
     <p>

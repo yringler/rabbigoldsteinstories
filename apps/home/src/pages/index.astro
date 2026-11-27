@@ -1,12 +1,12 @@
 ---
 /**
  * The landing page: the three sites first (a parent in a hurry should see them at once), then
- * tonight's playlists, the free-to-listen support note, who you will hear and the lost episodes.
+ * tonight's playlists, the free-to-listen support note, recordings to buy, who you will hear and the lost episodes.
  * Every number is computed from the public dataset at build time; every site name and link comes
  * from the shared site table. The only script fills the tonight strip (hidden until it has data)
  * and points the bedtime card's button at tonight's Mix.
  */
-import { CONTACT_EMAIL, SUGGESTED_FEE, SUPPORT_PATH } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, ORDER, SUGGESTED_FEE, SUPPORT_PATH } from "@goldstein/config/sites";
 import { loadCatalog, loadLostEpisodes, loadManifest, loadVocab } from "@goldstein/data/load";
 import Base from "../layouts/Base.astro";
 import { lostEpisodesUrl, siteCards } from "../lib/sites.ts";
@@ -115,6 +115,22 @@ const description =
       <p>
         <a class="btn btn-quiet" href={SUPPORT_PATH}>
           Support the stories
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section order" aria-labelledby="order-h">
+    <div class="wrap">
+      <h2 id="order-h">More recordings to buy</h2>
+      <p class="section-lede">
+        Many more recordings aren't on these sites, among them the full{" "}
+        <i>Story Time With Uncle Yossi</i> albums, <i>The Living Sidrah</i> and{" "}
+        <i>Journey Through Tanya</i>. {ORDER.seller} sells them as MP3 downloads. {ORDER.note}
+      </p>
+      <p>
+        <a class="btn" href={ORDER.url}>
+          Order MP3 downloads
         </a>
       </p>
     </div>

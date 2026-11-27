@@ -190,3 +190,18 @@ describe("tonight strip", () => {
     expect(formatLength(45)).toBe("45 min");
   });
 });
+
+describe("order link", () => {
+  const page = src("pages/index.astro");
+  it("comes from the shared config, not a literal URL", () => {
+    expect(page).toContain("{ORDER.url}");
+    expect(page).toContain("{ORDER.note}");
+    expect(page).not.toContain("thelivingsidrah.com");
+  });
+  it("sits right after the support note, before who you will hear", () => {
+    const at = (id: string) => page.indexOf(`id="${id}"`);
+    expect(at("support-h")).toBeGreaterThan(-1);
+    expect(at("order-h")).toBeGreaterThan(at("support-h"));
+    expect(at("who-h")).toBeGreaterThan(at("order-h"));
+  });
+});
