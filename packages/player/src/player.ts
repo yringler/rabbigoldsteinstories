@@ -58,6 +58,12 @@ export interface AudioLike {
   play(): Promise<void>;
   pause(): void;
   addEventListener(type: string, fn: (e: Event) => void): void;
+  /**
+   * True while the source handles media errors itself (StreamAudio with hls.js attached recovers
+   * from them): the player and sites then ignore the element's "error" events. When it gives up,
+   * this reads false for the error event that reports it.
+   */
+  readonly handlesErrors?: boolean;
 }
 
 export interface PlayerOptions {
@@ -400,6 +406,7 @@ export class Player {
 
   /** A clean copy that fails to load falls back to the original, silently (D7). */
   private onError(e: Event): void {
+    if (this.audio.handlesErrors) return; // hls.js is recovering; it reports when it gives up
     const t = this.current;
     if (!t || this.loaded !== "clean") return;
     e.stopImmediatePropagation();
@@ -500,10 +507,9 @@ export class Player {
     on("previoustrack", () => void this.previous());
     on("seekbackward", (d) => this.seek(this.state().position - (d.seekOffset ?? 15)));
     on("seekforward", (d) => this.seek(this.state().position + (d.seekOffset ?? 15)));
-    on(
-      "seekto",
-      (d) => d.seekTime !== undefined && this.seek(d.seekTime - (this.current?.start_sec ?? 0)),
-    );
+    // Position state (where a site reports one) is relative to the track, like state().position,
+    // so the lock screen's seekTime is already a position inside the track.
+    on("seekto", (d) => d.seekTime !== undefined && this.seek(d.seekTime));
   }
 
   private emit() {

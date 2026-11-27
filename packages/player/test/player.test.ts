@@ -133,6 +133,21 @@ describe("Player", () => {
     expect(a.currentTime).toBe(100);
   });
 
+  it("lock-screen seekto is a position inside the track, like the position state sites report", async () => {
+    const handlers = new Map<string, MediaSessionActionHandler>();
+    const session = {
+      metadata: null,
+      setActionHandler: (a: MediaSessionAction, h: MediaSessionActionHandler) =>
+        void handlers.set(a, h),
+    } as unknown as MediaSession;
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: session });
+    await p.load(tracks); // a span: 100..400 of its file
+    handlers.get("seekto")!({ action: "seekto", seekTime: 60 });
+    expect(audio.currentTime).toBe(160);
+    expect(p.state().position).toBe(60);
+  });
+
   it("sleep timer pauses playback", async () => {
     const audio = new FakeAudio();
     const p = new Player({ audio, mediaSession: null });
@@ -313,6 +328,25 @@ describe("AI-improved sound (docs/design/ai-audio.md §2.5)", () => {
     await p.goTo(1);
     await p.goTo(0);
     expect(a.src).toBe(clean[0]!.url);
+  });
+
+  it("ignores element errors while the source handles them (hls.js recovering)", async () => {
+    const a = new (class extends FakeAudio {
+      handlesErrors = true;
+    })();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    let siteSaw = 0;
+    a.addEventListener("error", () => siteSaw++);
+    await p.load(clean);
+    const r = a.fire("error");
+    expect(r.stopped).toBe(false);
+    expect(a.src).toBe(clean[0]!.clean_url);
+    expect(p.source).toBe("clean");
+    // It gives up: the error that reports it is handled as usual (fall back to the original).
+    a.handlesErrors = false;
+    expect(a.fire("error").stopped).toBe(true);
+    expect(a.src).toBe(clean[0]!.url);
+    expect(siteSaw).toBe(1); // the site sees the first and must ignore it by handlesErrors itself
   });
 
   it("a failed clean stream is not loaded again by the next track sharing its clean_url", async () => {

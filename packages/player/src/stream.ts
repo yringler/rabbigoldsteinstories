@@ -57,11 +57,23 @@ function isStreamUrl(url: string): boolean {
   }
 }
 
+/** Playback this long after a recovery means it worked: a later failure may recover again. */
+const RECOVERY_RESET_SEC = 30;
+/** An element error this soon after a recovery is the same fault (hls.js reported it too). */
+const SAME_FAULT_MS = 1000;
+
 /**
  * An AudioLike over a real <audio> element that plays .m3u8 sources through hls.js (when given
  * one) and anything else directly. Pass it to the Player as `audio`; keep using the element itself
- * for events, volume and reads. A stream that fails for good (after one recovery attempt) fires
- * "error" on the element, like a failed file; `streamFailed` tells the two apart.
+ * for events, volume and reads.
+ *
+ * Errors (docs/design/hls.md §4): while hls.js is attached, `handlesErrors` is true and the
+ * element's own "error" events are hls.js's to recover from, so listeners must ignore them (the
+ * Player does). Create the StreamAudio before adding other "error" listeners to the element: its
+ * own listener has to run first. A manifest or playlist that fails to load fails at once (a 404
+ * won't heal). Any other fatal error gets one recovery; once playback has run for a while after
+ * it, a later error gets another. A stream that fails for good fires "error" on the element (or
+ * lets the element's own error through), with `streamFailed` set and `handlesErrors` false.
  */
 export class StreamAudio implements AudioLike {
   private hls: HlsInstance | null = null;
@@ -69,6 +81,13 @@ export class StreamAudio implements AudioLike {
   private parsed = false;
   private pendingTime: number | null = null;
   private recovered = false;
+  private recoveredAt = 0;
+  /** Seconds played since the last recovery. */
+  private playedSinceRecovery = 0;
+  /** The last good playhead on the stream: a seek target, or a time that played. */
+  private lastGoodTime: number | null = null;
+  /** The playhead at the previous timeupdate (to measure playback after a recovery). */
+  private prevTime = 0;
   /** The last error came from a stream that could not be recovered. */
   streamFailed = false;
   /**
@@ -80,7 +99,10 @@ export class StreamAudio implements AudioLike {
   constructor(
     readonly el: HTMLAudioElement,
     private Hls: HlsClass | null = null,
-  ) {}
+  ) {
+    el.addEventListener("timeupdate", () => this.onTime());
+    el.addEventListener("error", () => this.onElementError());
+  }
 
   /** Provide hls.js once loaded (loadHlsJs). Until then .m3u8 sources go to the element as is. */
   setHls(H: HlsClass | null): void {
@@ -91,6 +113,11 @@ export class StreamAudio implements AudioLike {
     return this.Hls !== null;
   }
 
+  /** hls.js is attached and handles media errors itself: ignore the element's "error" events. */
+  get handlesErrors(): boolean {
+    return this.hls !== null;
+  }
+
   get src(): string {
     return this.hls ? this.current : this.el.src;
   }
@@ -98,6 +125,8 @@ export class StreamAudio implements AudioLike {
     this.destroy();
     this.streamFailed = false;
     this.lastStreamTime = null;
+    this.lastGoodTime = null;
+    this.prevTime = 0;
     const H = this.Hls;
     if (!H || !isStreamUrl(url)) {
       this.el.src = url;
@@ -114,34 +143,45 @@ export class StreamAudio implements AudioLike {
       maxMaxBufferLength: 900,
       backBufferLength: 90,
     });
+    // A missing or broken playlist won't heal: hls.js has already retried it.
+    const D = H.ErrorDetails;
+    const permanent = new Set<string>([
+      D.MANIFEST_LOAD_ERROR,
+      D.MANIFEST_LOAD_TIMEOUT,
+      D.MANIFEST_PARSING_ERROR,
+      D.LEVEL_LOAD_ERROR,
+      D.LEVEL_LOAD_TIMEOUT,
+    ]);
     h.on(H.Events.MANIFEST_PARSED, () => {
       this.parsed = true;
-      h.startLoad(this.pendingTime ?? -1);
+      const at = this.pendingTime;
+      this.pendingTime = null;
+      h.startLoad(at ?? -1);
     });
     h.on(H.Events.ERROR, (_e, d) => {
-      if (!d.fatal) return;
-      if (!this.recovered) {
-        this.recovered = true;
-        if (d.type === H.ErrorTypes.MEDIA_ERROR) h.recoverMediaError();
-        else h.startLoad(this.el.currentTime || (this.pendingTime ?? -1));
+      if (!d.fatal || this.hls !== h) return;
+      const media = d.type === H.ErrorTypes.MEDIA_ERROR;
+      if (
+        !(d.type === H.ErrorTypes.NETWORK_ERROR && permanent.has(d.details)) &&
+        this.recover(media)
+      )
         return;
-      }
-      // Before destroy(): detaching the media resets el.currentTime.
-      this.lastStreamTime = this.el.currentTime || (this.pendingTime ?? 0);
-      this.destroy();
-      this.streamFailed = true;
+      this.fail();
       this.el.dispatchEvent(new Event("error"));
     });
+    this.hls = h;
     h.attachMedia(this.el);
     h.loadSource(url);
-    this.hls = h;
   }
 
   get currentTime(): number {
     return this.el.currentTime;
   }
   set currentTime(t: number) {
-    if (this.hls && !this.parsed) this.pendingTime = t;
+    if (this.hls) {
+      this.lastGoodTime = this.prevTime = t;
+      if (!this.parsed) this.pendingTime = t;
+    }
     try {
       this.el.currentTime = t;
     } catch {
@@ -171,9 +211,58 @@ export class StreamAudio implements AudioLike {
     this.el.addEventListener(type, fn);
   }
 
+  /** Record the playhead; forget a recovery once playback has run well past it. */
+  private onTime(): void {
+    if (!this.hls) return;
+    const t = this.el.currentTime;
+    // 0 is what a media recovery or a detach reads, not a place the stream played to.
+    if (!(t > 0)) return;
+    if (this.recovered) {
+      const d = t - this.prevTime;
+      if (d > 0 && d < 2) this.playedSinceRecovery += d; // playing, not a seek
+      if (this.playedSinceRecovery >= RECOVERY_RESET_SEC) this.recovered = false;
+    }
+    this.prevTime = this.lastGoodTime = t;
+  }
+
+  /** The element's own error (an MSE decode error) while hls.js is attached: recover like hls.js's. */
+  private onElementError(): void {
+    if (!this.hls) return; // a file, or the native engine: the listeners handle it
+    if (this.recovered && Date.now() - this.recoveredAt < SAME_FAULT_MS) return;
+    if (this.recover(true)) return;
+    // Failed for good: this very event now reaches the other listeners, with handlesErrors false.
+    this.fail();
+  }
+
+  /** One recovery per fault; false when the last one has not been followed by real playback. */
+  private recover(media: boolean): boolean {
+    const h = this.hls;
+    if (!h || this.recovered) return false;
+    this.recovered = true;
+    this.recoveredAt = Date.now();
+    this.playedSinceRecovery = 0;
+    if (media) h.recoverMediaError();
+    else h.startLoad(this.resumeTime() ?? this.pendingTime ?? -1);
+    return true;
+  }
+
+  private resumeTime(): number | null {
+    const now = this.el.currentTime;
+    return now > 0 ? now : this.lastGoodTime;
+  }
+
+  private fail(): void {
+    // Before destroy(): detaching the media resets el.currentTime. After a media recovery it
+    // reads 0 too, so fall back on the last good time.
+    this.lastStreamTime = this.resumeTime() ?? this.pendingTime ?? 0;
+    this.destroy();
+    this.streamFailed = true;
+  }
+
   private destroy(): void {
-    this.hls?.destroy();
+    const h = this.hls;
     this.hls = null;
+    h?.destroy();
     this.pendingTime = null;
     this.current = "";
   }
