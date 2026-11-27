@@ -1,11 +1,12 @@
 ---
 // The bedtime site's only layout: dark sky, wordmark + one "Earlier" link, and the player (mini
 // bar, sheet, night screen) kept alive across page loads by <ClientRouter /> + transition:persist.
+// chrome="minimal" (the /landing pitch) keeps the wordmark but drops the "Earlier" link and footer.
 import "@fontsource-variable/fraunces/soft.css";
 import "@fontsource-variable/nunito-sans/wght.css";
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
-import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, SITES, supportUrl } from "@goldstein/config/sites";
 import { GLYPHS } from "../lib/glyphs.ts";
 import { moonSvg } from "../lib/ui.ts";
 import { TIMER_CHOICES } from "../lib/session.ts";
@@ -14,12 +15,15 @@ import { loadManifest } from "@goldstein/data/load";
 interface Props {
   title?: string;
   description?: string;
-  page: "home" | "earlier" | "about" | "notfound";
+  page: "home" | "earlier" | "about" | "notfound" | "landing";
+  chrome?: "full" | "minimal";
+  /** Open Graph title for link previews (og:description is the meta description). */
+  ogTitle?: string;
 }
 const site = SITES.bedtime;
 // AI-improved sound switch: only once some recordings have a cleaned copy (docs/design/ai-audio.md §3.1).
 const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
-const { title, page, description } = Astro.props;
+const { title, page, description, chrome = "full", ogTitle } = Astro.props;
 const desc =
   description ??
   "One tap at bedtime: up to two hours of gentle Jewish stories from Uncle Yossi and Rabbi Chaim Levi Goldstein, playing by themselves and ending quietly.";
@@ -34,6 +38,7 @@ const stars = Array.from({ length: 16 }, () => ({
   d: (6 + rand() * 3).toFixed(1),
   delay: (-rand() * 9).toFixed(1),
 }));
+const ogImage = new URL("/icons/app-512.png", `https://${site.host}`).href;
 const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true">${moonSvg()}</svg>`;
 ---
 
@@ -52,6 +57,19 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/app-180.png" />
+    {ogTitle && (
+      <>
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content={site.name} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={desc} />
+        <meta
+          property="og:url"
+          content={new URL(Astro.url.pathname, `https://${site.host}`).href}
+        />
+        <meta property="og:image" content={ogImage} />
+      </>
+    )}
     <ClientRouter fallback="swap" />
   </head>
   <body data-page={page}>
@@ -72,18 +90,26 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
           <Fragment set:html={moon} />
           <span>{site.name}</span>
         </a>
-        <a class="top-link" href="/earlier/" aria-current={page === "earlier" ? "page" : undefined}>
-          Earlier
-        </a>
+        {chrome === "full" && (
+          <a
+            class="top-link"
+            href="/earlier/"
+            aria-current={page === "earlier" ? "page" : undefined}
+          >
+            Earlier
+          </a>
+        )}
       </header>
       <main id="main" tabindex="-1">
         <slot />
       </main>
     </div>
-    <footer class="site-foot">
-      <a href="/about/">For parents</a> · Questions or a lost tape?{" "}
-      <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
-    </footer>
+    {chrome === "full" && (
+      <footer class="site-foot">
+        <a href="/about/">For parents</a> · <a href={supportUrl()}>Support the stories</a> ·
+        Questions or a lost tape? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+      </footer>
+    )}
 
     <div id="player-root" transition:persist="player">
       <audio id="audio" preload="auto"></audio>

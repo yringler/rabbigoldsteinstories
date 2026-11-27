@@ -2,7 +2,7 @@
 // The landing page's only layout: wordmark, content, footer with contact. No client JS here.
 import "@fontsource-variable/fraunces/wght.css";
 import "../styles/global.css";
-import { CONTACT_EMAIL, PROJECT_CREDIT, SITES } from "@goldstein/config/sites";
+import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, SUPPORT_PATH } from "@goldstein/config/sites";
 import { filterDomains, libraryAboutUrl, siteCards } from "../lib/sites.ts";
 
 interface Props {
@@ -76,6 +76,9 @@ const domains = filterDomains();
                 <a href={c.url}>{c.name}</a>
               </li>
             ))}
+            <li>
+              <a href={SUPPORT_PATH}>Support the stories</a>
+            </li>
           </ul>
         </nav>
       </div>

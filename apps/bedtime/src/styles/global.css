@@ -1116,6 +1116,123 @@ main {
   }
 }
 
+/* ---------- landing (/landing): the elevator pitch ---------- */
+body[data-page="landing"] main {
+  padding: 0;
+}
+/* One centred column filling the screen under the header (20 + 48 + 8 px). */
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 36rem;
+  min-height: calc(100dvh - 76px);
+  margin: 0 auto;
+  text-align: center;
+}
+.landing-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
+  padding: 1.5rem 0 8vh;
+}
+.landing-title {
+  font-size: clamp(2.5rem, 9vw + 0.5rem, 4.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  text-wrap: balance;
+}
+.landing-title span {
+  display: block;
+}
+.landing-sub {
+  margin: 0.75rem 0 0;
+  font-size: clamp(1.125rem, 2vw + 0.75rem, 1.375rem);
+  color: var(--text-2);
+}
+.hero-play {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: clamp(6.5rem, 28vw, 8.5rem);
+  aspect-ratio: 1;
+  margin-top: clamp(2rem, 6vh, 3rem);
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--bg);
+  box-shadow:
+    0 0 0 10px rgba(244, 197, 106, 0.12),
+    0 14px 40px rgba(244, 197, 106, 0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color 160ms var(--ease),
+    transform 160ms var(--ease);
+  animation: halo 4.5s ease-in-out infinite alternate;
+}
+.hero-play svg {
+  width: 42%;
+  height: auto;
+  transform: translateX(4%);
+}
+@media (hover: hover) and (pointer: fine) {
+  .hero-play:hover {
+    background: var(--focus);
+  }
+}
+.hero-play:focus-visible {
+  outline-offset: 6px;
+  border-radius: 50%;
+}
+.hero-play:active {
+  transform: scale(0.96);
+}
+html.tab-hidden .hero-play {
+  animation-play-state: paused;
+}
+/* The halo breathes (its alpha only; the button never scales). */
+@keyframes halo {
+  from {
+    box-shadow:
+      0 0 0 10px rgba(244, 197, 106, 0.1),
+      0 14px 40px rgba(244, 197, 106, 0.2);
+  }
+  to {
+    box-shadow:
+      0 0 0 10px rgba(244, 197, 106, 0.22),
+      0 14px 40px rgba(244, 197, 106, 0.2);
+  }
+}
+.hero-caption {
+  margin: 0.875rem 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-2);
+}
+.landing-foot {
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
+  color: var(--muted);
+  font-size: 1rem;
+}
+.landing-foot p {
+  margin: 0;
+  text-wrap: balance;
+}
+.landing-foot .quiet-links {
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+/* Short screens (phones in landscape): normal flow, and the page scrolls. */
+@media (max-height: 32rem) {
+  .landing {
+    min-height: 0;
+  }
+  .landing-hero {
+    padding-bottom: 2rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

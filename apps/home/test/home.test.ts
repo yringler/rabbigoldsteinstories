@@ -67,6 +67,21 @@ describe("site links come from the shared site table", () => {
     const hosts = filterDomains().map((d) => d.host);
     expect(hosts.sort()).toEqual([...Object.values(SITES).map((s) => s.host), MEDIA_HOST].sort());
     for (const d of filterDomains()) expect(d.role.length).toBeGreaterThan(0);
+    // The roles read as prose ("for children"), not as card labels.
+    const roles = filterDomains().map((d) => d.role);
+    expect(roles).toContain(`${SITES.bedtime.name}, the listening site for bedtime`);
+    expect(roles).toContain(`${SITES.kids.name}, the listening site for children`);
+    expect(roles).toContain(`${SITES.library.name}, the listening site for adults and teachers`);
+  });
+
+  it("the sites come first: the list is before the tonight strip, with no hero above it", () => {
+    const page = src("pages/index.astro");
+    const list = page.indexOf('aria-label="Our sites"');
+    const tonight = page.search(/<section[^>]*data-tonight\b/);
+    expect(list).toBeGreaterThan(0);
+    expect(tonight).toBeGreaterThan(list);
+    expect(page).not.toMatch(/class="(hero|stats|shelf|eyebrow|lede)"/);
+    expect(page).not.toContain("arranged three ways");
   });
 
   it("the home site is in the table and hosts have no dashes", () => {
@@ -164,6 +179,9 @@ describe("tonight strip", () => {
     expect(page).toMatch(/<section[^>]*data-tonight[^>]*\bhidden\b/);
     expect(page.match(/<script\b/g)).toHaveLength(1);
     expect(src("layouts/Base.astro")).not.toMatch(/<script\b/);
+    // The bedtime button reads "Play" but just opens the bedtime site's main page.
+    expect(siteCards()[0]?.cta).toBe("Play");
+    expect(siteCards()[0]?.url).toBe(siteUrl("bedtime"));
   });
 
   it("formats lengths like the bedtime site", () => {

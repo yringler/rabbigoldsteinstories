@@ -10,52 +10,32 @@ export type CardSite = Exclude<SiteId, "home">;
 export interface SiteCard {
   id: CardSite;
   name: string;
+  /** The site's home page. */
   url: string;
-  host: string;
-  /** Short label above the name. */
-  kicker: string;
-  /** One line: what the site does. */
-  purpose: string;
-  /** Who it is for. */
-  audience: string;
-  /** Three short facts shown as a list. */
-  points: readonly string[];
+  /** One short line under the name. */
+  hook: string;
+  /** The card's button text. */
   cta: string;
+
+  /** What the site is for, in a few words, for the internet-filter list ("for bedtime"). */
+  filterRole: string;
 }
 
-const COPY: Record<CardSite, Omit<SiteCard, "id" | "name" | "url" | "host">> = {
+const COPY: Record<CardSite, Omit<SiteCard, "id" | "name" | "url">> = {
   bedtime: {
-    kicker: "For bedtime",
-    purpose: "Press play once. Up to two hours of stories play by themselves and end quietly.",
-    audience: "Parents at bedtime, with a child already in bed.",
-    points: [
-      "New playlists every night",
-      "Tonight's Mix, Little Ones, Quiet Night…",
-      "A sleep timer, no reading needed",
-    ],
-    cta: "Open tonight's stories",
+    hook: "New stories every night",
+    cta: "Play",
+    filterRole: "for bedtime",
   },
   kids: {
-    kicker: "For children",
-    purpose: "A bright library to browse: stories, the radio show and quick listens.",
-    audience: "Children ages 3 to 11, on their own or on a parent's lap.",
-    points: [
-      "Picked by age, with notes for parents",
-      "Serials chapter by chapter",
-      "A shelf of favourites",
-    ],
-    cta: "Visit the shelf",
+    hook: "Stories and the radio show",
+    cta: "Browse stories",
+    filterRole: "for children",
   },
   library: {
-    kicker: "For adults and teachers",
-    purpose: "The full reference archive: search every transcript, cite a moment, plan a lesson.",
-    audience: "Teachers, researchers, family and anyone who remembers the show.",
-    points: [
-      "Search titles, summaries and transcripts",
-      "Parsha, Yom Tov, midos and serial indexes",
-      "Citations with timestamps, playlists",
-    ],
+    hook: "Search every recording",
     cta: "Search the archive",
+    filterRole: "for adults and teachers",
   },
 };
 
@@ -66,7 +46,6 @@ export function siteCards(): SiteCard[] {
     id,
     name: SITES[id].name,
     url: siteUrl(id),
-    host: SITES[id].host,
     ...COPY[id],
   }));
 }
@@ -91,8 +70,8 @@ export function filterDomains(): FilterDomain[] {
   return [
     { host: SITES.home.host, role: "this page, which introduces the archive" },
     ...siteCards().map((c) => ({
-      host: c.host,
-      role: `${c.name}, the listening site ${c.kicker.toLowerCase()}`,
+      host: SITES[c.id].host,
+      role: `${c.name}, the listening site ${c.filterRole}`,
     })),
     { host: MEDIA_HOST, role: "the audio recordings that all the sites play" },
   ];

@@ -104,7 +104,10 @@ export function mountSheet(
       sheet.removeAttribute("data-mode");
       render(state);
     }
-    lastFocus?.focus({ preventScroll: true });
+    // After a page change the element that opened the sheet may be gone: focus the page instead.
+    if (lastFocus?.isConnected && lastFocus !== document.body)
+      lastFocus.focus({ preventScroll: true });
+    else $("#main")?.focus({ preventScroll: true });
   }
   $("[data-close]", sheet)!.addEventListener("click", close);
   scrim.addEventListener("click", close);

@@ -3,7 +3,14 @@
 // privacy, links to the other two sites.
 import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
-import { CONTACT_EMAIL, PROJECT_CREDIT, SITES, siteUrl } from "@goldstein/config/sites";
+import {
+  CONTACT_EMAIL,
+  PROJECT_CREDIT,
+  SITES,
+  SUGGESTED_FEE,
+  siteUrl,
+  supportUrl,
+} from "@goldstein/config/sites";
 import { loadManifest, loadVocab } from "@goldstein/data/load";
 import { BAND_INFO, BANDS } from "../../lib/kinds.ts";
 import { getModel } from "../../lib/build/model.ts";
@@ -143,6 +150,10 @@ const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0)
         <li>
           <a href={siteUrl("library", "/")}>{SITES.library.name}</a>: the full archive for
           grown-ups, with transcripts, Yiddish recordings and shiurim.
+        </li>
+        <li>
+          <a href={supportUrl()}>Support the stories</a>: free to use; a suggested {SUGGESTED_FEE},
+          or any amount, if you'd like to help.
         </li>
         <li>
           Questions, corrections or a missing tape:{" "}
