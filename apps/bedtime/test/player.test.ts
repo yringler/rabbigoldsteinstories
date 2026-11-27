@@ -14,6 +14,7 @@ class FakeAudio {
   currentTime = 0;
   duration = 1800;
   paused = true;
+  ended = false;
   preload = "";
   volume = 1;
   readyState = 4;
@@ -195,6 +196,15 @@ class FakeHlsAudio extends FakeAudio {
 class FakeHls {
   static Events = { MANIFEST_PARSED: "hlsManifestParsed", ERROR: "hlsError" };
   static ErrorTypes = { MEDIA_ERROR: "mediaError", NETWORK_ERROR: "networkError" };
+  static ErrorDetails = {
+    MANIFEST_LOAD_ERROR: "manifestLoadError",
+    MANIFEST_LOAD_TIMEOUT: "manifestLoadTimeOut",
+    MANIFEST_PARSING_ERROR: "manifestParsingError",
+    LEVEL_LOAD_ERROR: "levelLoadError",
+    LEVEL_LOAD_TIMEOUT: "levelLoadTimeOut",
+    FRAG_LOAD_ERROR: "fragLoadError",
+    BUFFER_APPEND_ERROR: "bufferAppendError",
+  };
   static last: FakeHls | null = null;
   private handlers = new Map<string, ((e: string, d: unknown) => void)[]>();
   private media: FakeHlsAudio | null = null;
@@ -214,15 +224,20 @@ class FakeHls {
     this.emit(FakeHls.Events.MANIFEST_PARSED);
   }
   startLoad(): void {}
-  recoverMediaError(): void {}
+  /** Detaches and reattaches the media, like the real one: the element's time reads 0. */
+  recoverMediaError(): void {
+    if (this.media) this.media.currentTime = 0;
+  }
   destroy(): void {
     if (this.media) this.media.currentTime = 0;
     this.media = null;
   }
   /** A network failure hls.js can't recover from (StreamAudio retries once). */
   failForGood(): void {
-    for (let i = 0; i < 2; i++)
-      this.emit(FakeHls.Events.ERROR, { fatal: true, type: FakeHls.ErrorTypes.NETWORK_ERROR });
+    for (let i = 0; i < 2; i++) this.fatal("networkError", FakeHls.ErrorDetails.FRAG_LOAD_ERROR);
+  }
+  fatal(type: "mediaError" | "networkError", details: string): void {
+    this.emit(FakeHls.Events.ERROR, { fatal: true, type, details });
   }
 }
 
@@ -383,5 +398,72 @@ describe("BedtimePlayer as one HLS stream (docs/design/hls.md)", () => {
     player.setPreferClean(true);
     expect(el.src).toContain("/playlists/hls.m3u8?v=c&");
     expect(el.currentTime).toBe(700);
+  });
+  it("ends the playlist when the stream ends while the story index lags (no timeupdates)", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    // Locked phone: no timeupdate since A. The stream (chapters rounded to frames) ends just short
+    // of C's chapter end, so trackAt still finds C there.
+    el.duration = 1799.98;
+    el.currentTime = 1799.98;
+    el.paused = true;
+    el.ended = true;
+    el.fire("pause");
+    el.fire("ended");
+    await flush();
+    const s = player.snapshot();
+    expect(s.phase).toBe("ended");
+    expect(s.index).toBe(2);
+    expect(store.get<Session | null>(SESSION_KEY, null)?.finished).toBe(true);
+  });
+
+  it("jumping to a story within a playing stream shows it playing (no 'playing' event follows)", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(100);
+    await player.jumpTo(2);
+    expect(el.currentTime).toBe(1200);
+    expect(player.snapshot().phase).toBe("playing");
+    await player.resume(); // the lock screen's play, while playing
+    expect(player.snapshot().phase).toBe("playing");
+  });
+
+  const withFakeHls = () => {
+    const stream = (player as unknown as { stream: StreamAudio }).stream;
+    stream.setHls(FakeHls as unknown as Parameters<StreamAudio["setHls"]>[0]);
+  };
+
+  it("after a media recovery reset the time, a second failure falls back at the real position", async () => {
+    withFakeHls();
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(600 + 42);
+    FakeHls.last!.fatal("mediaError", FakeHls.ErrorDetails.BUFFER_APPEND_ERROR); // time reads 0
+    FakeHls.last!.fatal("mediaError", FakeHls.ErrorDetails.BUFFER_APPEND_ERROR);
+    await flush();
+    expect(el.src).toBe(`${B.audio_url}#t=${B.start_sec},${B.end_sec}`);
+    expect(el.currentTime).toBe(B.start_sec + 42);
+    expect(player.snapshot().index).toBe(1);
+  });
+
+  it("a stream whose playlist fails to load (404) falls back at once, without the 8 s wait", async () => {
+    withFakeHls();
+    await player.start(playlist(A, B, C), "tonight");
+    FakeHls.last!.fatal("networkError", FakeHls.ErrorDetails.MANIFEST_LOAD_ERROR);
+    await flush();
+    expect(el.src).toBe(`${A.audio_url}#t=${A.start_sec},${A.end_sec}`);
+    expect(player.snapshot().phase).toBe("loading");
+  });
+
+  it("an element error while hls.js is attached is left to hls.js to recover", async () => {
+    withFakeHls();
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(600 + 42);
+    const src = el.src;
+    el.fire("error"); // an MSE decode error: StreamAudio recovers the media
+    await flush();
+    expect(el.src).toBe(src);
+    expect(player.snapshot().phase).toBe("playing");
   });
 });

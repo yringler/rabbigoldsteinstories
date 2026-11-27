@@ -58,6 +58,8 @@ export interface BedtimeState {
 
 const SKIP_AFTER_MS = 8_000;
 const MAX_FAILURES = 3;
+/** A paused stream this close to its duration has ended (chapter times are rounded to frames). */
+const STREAM_END_SEC = 0.5;
 
 function volumeIsWritable(): boolean {
   try {
@@ -163,7 +165,11 @@ export class BedtimePlayer extends Player {
       if (this.phase === "playing" || this.phase === "loading") this.setPhase("paused");
       this.save();
     });
-    el.addEventListener("error", () => this.onTrackError());
+    // While hls.js is attached it recovers from the element's errors itself, and lets one through
+    // (or fires its own) only once it gives up. The native engine and files report them directly.
+    el.addEventListener("error", () => {
+      if (!this.stream.handlesErrors) this.onTrackError();
+    });
     el.addEventListener("timeupdate", () => this.tick());
     el.addEventListener("waiting", () => {
       if (this.isSwapping) return;
@@ -265,6 +271,12 @@ export class BedtimePlayer extends Player {
       this.sleepDeadline = Date.now() + this.pausedRemaining;
       this.pausedRemaining = null;
     } else if (this.phase === "asleep" || this.sleepDeadline === null) this.armTimer();
+    // Already playing (a lock-screen play, say): no 'playing' event will follow.
+    if (!this.el.paused && this.startedPlaying) {
+      this.setPhase("playing");
+      this.startTicking();
+      return;
+    }
     this.setPhase("loading");
     this.armWatchdog();
     this.startTicking();
@@ -340,12 +352,15 @@ export class BedtimePlayer extends Player {
     // A stream keeps playing: the playhead may be in any later story by now (a locked phone can
     // go minutes without a timeupdate). Follow it rather than seek back to the next story.
     const at = this.streaming ? this.trackAt(this.el.currentTime) : s.index + 1;
-    if (this.streaming && at > s.index && !this.holdAtBoundary) {
+    // The stream itself has ended ('ended', or the playhead at its end): the playlist is over,
+    // whatever story the index or the chapter times (rounded to frames) still point at.
+    const streamOver = this.streaming && this.streamEnded();
+    if (this.streaming && at > s.index && !this.holdAtBoundary && !streamOver) {
       this.follow(at);
       this.afterTrackChange();
       return;
     }
-    if (s.index + 1 >= s.queue.length || (this.streaming && at === -1)) {
+    if (s.index + 1 >= s.queue.length || (this.streaming && at === -1) || streamOver) {
       // The last story ended (with or without a pending timer stop): the playlist is over.
       if (this.streaming) this.follow(s.queue.length - 1);
       this.holdAtBoundary = false;
@@ -375,6 +390,15 @@ export class BedtimePlayer extends Player {
   }
 
   // ---- internals ----
+
+  /** The stream has played to its end (the element ended, or paused within a moment of it). */
+  private streamEnded(): boolean {
+    const d = this.el.duration;
+    return (
+      this.el.ended ||
+      (this.el.paused && Number.isFinite(d) && d > 0 && this.el.currentTime >= d - STREAM_END_SEC)
+    );
+  }
 
   /** Whether the next start() should play one HLS stream (hls.js must have loaded, if needed). */
   private canStream(): boolean {
@@ -429,6 +453,8 @@ export class BedtimePlayer extends Player {
     // Within a stream that is already playing, a new story is no new load: no 'playing' event
     // follows, and a later stall must just wait rather than count as a failed load.
     if (this.streaming && this.startedPlaying && !this.el.paused) {
+      // A seek into buffered audio may fire no 'playing' either: don't stay on "loading".
+      if (this.phase === "loading") this.setPhase("playing");
       this.save(true);
       this.notify();
       return;
