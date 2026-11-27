@@ -1,0 +1,76 @@
+---
+/**
+ * Language setting (docs/design/language-library.md §2): English / Yiddish / Both. Static HTML;
+ * the current choice is shown by CSS from html[data-lang-pref] (set before first paint), and
+ * scripts/app.ts checks the matching radio and stores changes. Without JavaScript it reads "Both".
+ */
+import { LANG_LABELS, LANGS, YIDDISH_WORD } from "../lib/lang.ts";
+import Icon from "./Icon.astro";
+
+interface Props {
+  /** Unique per page: the radio group name and ids. */
+  id: string;
+  /** "header": a compact disclosure; "inline": an open panel on /help and /about. */
+  variant?: "header" | "inline";
+}
+const { id, variant = "header" } = Astro.props;
+const name = `lang-pref-${id}`;
+---
+
+{variant === "header" ? (
+  <details class="lang-ctl" data-lang-ctl>
+    <summary class="lang-sum" aria-label="Language setting">
+      <Icon name="lang" />
+      <span class="lang-cur" aria-hidden="true">
+        {LANGS.map((l) => (
+          <span data-for={l}>{l === "yi" ? "Yiddish" : LANG_LABELS[l]}</span>
+        ))}
+      </span>
+    </summary>
+    <div class="lang-panel">
+      <fieldset>
+        <legend>Language</legend>
+        {LANGS.map((l) => (
+          <label>
+            <input type="radio" name={name} value={l} data-lang-radio checked={l === "any"} />
+            {l === "yi" ? (
+              <span>
+                Yiddish /{" "}
+                <span lang="yi" dir="rtl">
+                  {YIDDISH_WORD}
+                </span>
+              </span>
+            ) : (
+              <span>{LANG_LABELS[l]}</span>
+            )}
+          </label>
+        ))}
+      </fieldset>
+      <p class="small muted">
+        Sets what search and the lists show. Recording pages always show everything. Saved in this
+        browser only.
+      </p>
+    </div>
+  </details>
+) : (
+  <fieldset class="lang-inline" data-lang-ctl>
+    <legend>Language setting</legend>
+    <div class="btn-row">
+      {LANGS.map((l) => (
+        <label class="lang-opt">
+          <input type="radio" name={name} value={l} data-lang-radio checked={l === "any"} />
+          {l === "yi" ? (
+            <span>
+              Yiddish /{" "}
+              <span lang="yi" dir="rtl">
+                {YIDDISH_WORD}
+              </span>
+            </span>
+          ) : (
+            <span>{LANG_LABELS[l]}</span>
+          )}
+        </label>
+      ))}
+    </div>
+  </fieldset>
+)}

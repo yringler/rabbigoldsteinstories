@@ -1,7 +1,9 @@
 ---
 /** People index (library.md §7.4): people in use, by category. Unconfirmed placeholders get no page. */
+import LangNote from "../../components/LangNote.astro";
 import Base from "../../layouts/Base.astro";
-import { label, unconfirmed, usage, vocab } from "../../lib/site-data.ts";
+import { langHas, scopeInfo } from "../../lib/lang.ts";
+import { label, unconfirmed, usage, usageLangs, vocab } from "../../lib/site-data.ts";
 
 const CATEGORY: Record<string, string> = {
   tanach: "Tanach",
@@ -20,6 +22,9 @@ const groups = Object.entries(CATEGORY)
     { heading: "Others", people: people.filter((p) => !p.category || !(p.category in CATEGORY)) },
   ])
   .filter((g) => g.people.length > 0);
+const langs = usageLangs("people");
+const has = (id: string) => langs.get(id) ?? [];
+const info = scopeInfo(people.map((p) => has(p.id)));
 ---
 
 <Base
@@ -34,24 +39,27 @@ const groups = Object.entries(CATEGORY)
         number is how many recordings.
       </p>
     </header>
-    <div class="index-grid">
-      {groups.map((g) => (
-        <section>
-          <h2 class="h4">{g.heading}</h2>
-          <ul class="index-list">
-            {g.people.map((p) => (
-              <li>
-                {unconfirmed("people", p.id) ? (
-                  <span class="unconfirmed">{label("people", p.id)}</span>
-                ) : (
-                  <a href={`/people/${p.id}/`}>{label("people", p.id)}</a>
-                )}
-                <span class="n">{counts.get(p.id)}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+    <div data-lang-scope data-lang-empty={info.emptyAttr || undefined}>
+      <LangNote info={info} noun={{ one: "person", many: "people", terms: true }} />
+      <div class="index-grid">
+        {groups.map((g) => (
+          <section data-lang-has={langHas(g.people.flatMap((p) => has(p.id)))}>
+            <h2 class="h4">{g.heading}</h2>
+            <ul class="index-list">
+              {g.people.map((p) => (
+                <li data-lang-has={langHas(has(p.id))}>
+                  {unconfirmed("people", p.id) ? (
+                    <span class="unconfirmed">{label("people", p.id)}</span>
+                  ) : (
+                    <a href={`/people/${p.id}/`}>{label("people", p.id)}</a>
+                  )}
+                  <span class="n">{counts.get(p.id)}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
     </div>
   </div>
 </Base>

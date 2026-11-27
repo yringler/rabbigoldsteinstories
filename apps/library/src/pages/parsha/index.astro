@@ -1,7 +1,9 @@
 ---
 /** Parsha: all 54 in order. Coverage is thin and the page says so. */
+import LangNote from "../../components/LangNote.astro";
 import Base from "../../layouts/Base.astro";
-import { rows, usage, vocab } from "../../lib/site-data.ts";
+import { langHas, scopeInfo } from "../../lib/lang.ts";
+import { rows, usage, usageLangs, vocab } from "../../lib/site-data.ts";
 
 const counts = usage("parshiyos");
 const list = vocab().lists["parshiyos"] ?? [];
@@ -16,10 +18,14 @@ const books = BOOKS.map((b, i) => {
 }).filter((b) => b.parshiyos.length);
 const placed = new Set(books.flatMap((b) => b.parshiyos.map((p) => p.id)));
 const rest = list.filter((p) => !placed.has(p.id));
+// Parshiyos with nothing tagged stay visible under every setting (they link to transcript search).
+const langs = usageLangs("parshiyos");
+const tagged_ = list.filter((p) => (counts.get(p.id) ?? 0) > 0);
+const info = scopeInfo(tagged_.map((p) => langs.get(p.id) ?? []));
 ---
 
 <Base title="Parsha" description="Recordings tagged with the weekly Torah portion.">
-  <div class="wrap page">
+  <div class="wrap page" data-lang-scope data-lang-empty={info.emptyAttr || undefined}>
     <header class="page-head">
       <h1>Parsha</h1>
       <p>
@@ -28,13 +34,18 @@ const rest = list.filter((p) => !placed.has(p.id));
         “search transcripts”.
       </p>
     </header>
+    <LangNote info={info} noun={{ one: "parsha", many: "parshiyos", terms: true }} />
     <div class="index-grid">
       {[...books, ...(rest.length ? [{ book: "Other", parshiyos: rest }] : [])].map((b) => (
         <section>
           <h2 class="book">{b.book}</h2>
           <ul class="index-list">
             {b.parshiyos.map((p) => (
-              <li>
+              <li
+                data-lang-has={
+                  (counts.get(p.id) ?? 0) > 0 ? langHas(langs.get(p.id) ?? []) : undefined
+                }
+              >
                 {(counts.get(p.id) ?? 0) > 0 ? (
                   <>
                     <a href={`/search/?parsha=${p.id}`}>{p.label}</a>

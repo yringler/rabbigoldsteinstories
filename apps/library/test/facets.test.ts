@@ -158,6 +158,22 @@ describe("URL state", () => {
     expect(s).toEqual(defaultState());
   });
 
+  it("lang=any means 'no language filter, on purpose' and survives a round trip", () => {
+    const s = parseState(new URLSearchParams("lang=any&midos=emunah"), keys);
+    expect(s.langAny).toBe(true);
+    expect(s.sel["lang"]).toBeUndefined();
+    expect(parseState(new URLSearchParams(toQuery(s, keys)), keys)).toEqual(s);
+    // A real language filter wins over lang=any in the same state.
+    const t = toggleValue(s, "lang", "yi", "any");
+    expect(toQuery(t, keys)).toContain("lang=yi");
+    expect(toQuery(t, keys)).not.toContain("lang=any");
+    expect(parseState(new URLSearchParams("lang=yi"), keys).langAny).toBe(false);
+    // `any` mixed with a real value: the real value is kept, not dropped.
+    const mixed = parseState(new URLSearchParams("lang=any,yi"), keys);
+    expect(mixed.langAny).toBe(false);
+    expect(mixed.sel["lang"]?.any).toEqual(["yi"]);
+  });
+
   it("toggling moves a value between include and exclude and resets the page", () => {
     let s = { ...defaultState(), page: 4 };
     s = toggleValue(s, "midos", "emunah", "any");

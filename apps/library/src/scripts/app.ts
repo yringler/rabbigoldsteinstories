@@ -6,6 +6,14 @@
 import type { Track } from "@goldstein/player";
 import type { PlaylistEntry } from "../lib/playlists.ts";
 import { iconSvg } from "../lib/icons.ts";
+import {
+  isLang,
+  LANG_NAMES,
+  type LangPref,
+  langFromSearch,
+  langParamSetsPref,
+  searchWithoutLang,
+} from "../lib/lang.ts";
 import { ownsSpaceAndArrows } from "../lib/keys.ts";
 import { formatDuration } from "../lib/time.ts";
 import {
@@ -16,8 +24,10 @@ import {
   audio,
   copyText,
   h,
+  langPref,
   loadRec,
   player,
+  setLangPref,
   setSound,
   shortcutsOff,
   store,
@@ -363,6 +373,50 @@ function applyStoredTheme(doc: Document): void {
 }
 
 // ---------------------------------------------------------------------------------------------
+// Language setting (docs/design/language-library.md §2)
+
+/** Check the radios of every control on the page and name the current choice. */
+function syncLang(): void {
+  const v = langPref();
+  document.documentElement.dataset["langPref"] = v;
+  for (const r of $$<HTMLInputElement>("[data-lang-radio]")) r.checked = r.value === v;
+  const name = v === "any" ? "Both" : (LANG_NAMES[v] ?? v);
+  for (const s of $$(".lang-sum")) s.setAttribute("aria-label", `Language setting: ${name}`);
+}
+
+/** `?lang=` on any page but /search/ sets the setting, then leaves the URL. */
+function langFromUrl(): void {
+  if (!langParamSetsPref(location.pathname)) return;
+  const v = langFromSearch(location.search);
+  if (new URLSearchParams(location.search).has("lang"))
+    history.replaceState(
+      history.state,
+      "",
+      `${location.pathname}${searchWithoutLang(location.search)}${location.hash}`,
+    );
+  if (v && v !== langPref()) setLangPref(v, false);
+}
+
+function onLangChange(e: Event): void {
+  const t = e.target;
+  if (!(t instanceof HTMLInputElement) || !t.matches("[data-lang-radio]") || !isLang(t.value))
+    return;
+  setLangPref(t.value as LangPref);
+  syncLang();
+}
+
+/** "Show them" / "Hide them" on a topical list: this page only, no setting changes. */
+function toggleReveal(btn: HTMLElement): void {
+  const scope = btn.closest<HTMLElement>("[data-lang-scope]");
+  if (!scope) return;
+  const on = !scope.hasAttribute("data-lang-reveal");
+  scope.toggleAttribute("data-lang-reveal", on);
+  for (const b of $$('[data-action="lang-reveal"]', scope))
+    b.setAttribute("aria-pressed", String(on));
+  announce(on ? "Showing all languages on this page" : "Showing your language setting again");
+}
+
+// ---------------------------------------------------------------------------------------------
 // Delegated clicks (document survives navigation, so bind once)
 
 function bindDocument(): void {
@@ -374,6 +428,8 @@ function bindDocument(): void {
     if (!el) {
       const browse = $<HTMLDetailsElement>("[data-browse]");
       if (browse?.open && !target?.closest("[data-browse]")) browse.open = false;
+      const lang = $<HTMLDetailsElement>("details[data-lang-ctl]");
+      if (lang?.open && !target?.closest("[data-lang-ctl]")) lang.open = false;
       return;
     }
     if (el.hasAttribute("data-close")) {
@@ -401,19 +457,37 @@ function bindDocument(): void {
     } else if (action === "queue") enqueue(tracksFrom(el));
     else if (action === "add") openPlaylistDialog(entriesFrom(el), el.dataset["what"] ?? "");
     else if (action === "shortcuts") $<HTMLDialogElement>("#shortcuts-dialog")?.showModal();
+    else if (action === "lang-reveal") toggleReveal(el);
     else return;
     e.preventDefault();
   });
   document.addEventListener("keydown", onKey);
+  // Escape closes the header language disclosure and returns focus to its summary.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const ctl = $<HTMLDetailsElement>("details[data-lang-ctl][open]");
+    if (!ctl) return;
+    ctl.open = false;
+    $<HTMLElement>("summary", ctl)?.focus();
+  });
+  // Any change of the setting (header, /help, /about, or the /search "Make … my language setting"
+  // button) re-checks every control on the page; another tab's change arrives as a storage event.
+  document.addEventListener("gsl:lang", syncLang);
+  window.addEventListener("storage", (e) => {
+    if (e.key === "goldstein:library:lang") syncLang();
+  });
   document.addEventListener("change", (e) => {
     const t = e.target;
     if (t instanceof HTMLInputElement && t.matches("[data-shortcuts-off]"))
       store.set("shortcuts-off", t.checked);
+    onLangChange(e);
   });
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", themeLabel);
-  document.addEventListener("astro:before-swap", (e) =>
-    applyStoredTheme((e as Event & { newDocument: Document }).newDocument),
-  );
+  document.addEventListener("astro:before-swap", (e) => {
+    const doc = (e as Event & { newDocument: Document }).newDocument;
+    applyStoredTheme(doc);
+    doc.documentElement.dataset["langPref"] = langPref();
+  });
 }
 
 // ---------------------------------------------------------------------------------------------
@@ -507,6 +581,8 @@ function onKey(e: KeyboardEvent): void {
 
 async function initPage(): Promise<void> {
   themeLabel();
+  langFromUrl();
+  syncLang();
   bindPlaylistDialog();
   playlists.listenAcrossTabs();
   $("[data-site-header]")?.classList.remove("open");

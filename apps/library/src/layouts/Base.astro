@@ -13,6 +13,7 @@ import serifItalic from "@fontsource-variable/source-serif-4/files/source-serif-
 import frank400 from "@fontsource/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-400-normal.woff2?url";
 import frank700 from "@fontsource/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-700-normal.woff2?url";
 import Icon from "../components/Icon.astro";
+import LangControl from "../components/LangControl.astro";
 import { hasCleanAudio } from "../lib/site-data.ts";
 import "../styles/global.css";
 
@@ -104,6 +105,25 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
           if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
         } catch (e) {}
       })();
+      // Language setting (docs/design/language-library.md §2): before first paint, so lists
+      // narrowed by CSS never flash. ?lang= sets it on every page but /search/ (there it is the
+      // facet); scripts/app.ts then stores it and removes it from the URL.
+      (function () {
+        var v = "any";
+        try {
+          var raw = localStorage.getItem("goldstein:library:lang");
+          var s = raw ? JSON.parse(raw).v : "any";
+          if (s === "en" || s === "yi" || s === "any") v = s;
+        } catch (e) {}
+        try {
+          if (!/^\/search(\/|$)/.test(location.pathname)) {
+            var q = new URLSearchParams(location.search).get("lang");
+            q = q ? q.trim().toLowerCase() : "";
+            if (q === "en" || q === "yi" || q === "any") v = q;
+          }
+        } catch (e) {}
+        document.documentElement.dataset.langPref = v;
+      })();
     </script>
     {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />}
     <ClientRouter />
@@ -176,6 +196,7 @@ const browse: { heading: string; links: [string, string, string][] }[] = [
           <input id="header-q" name="q" type="search" placeholder="Search…" autocomplete="off" />
           <kbd aria-hidden="true">/</kbd>
         </form>
+        <LangControl id="header" />
         <button
           type="button"
           class="theme-toggle"

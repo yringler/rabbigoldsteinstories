@@ -1,16 +1,19 @@
 ---
+import LangNote from "../../components/LangNote.astro";
 import Base from "../../layouts/Base.astro";
+import { langHas, scopeInfo } from "../../lib/lang.ts";
 import { storyGroups } from "../../lib/site-data.ts";
 
 const groups = [...storyGroups().groups].sort((a, b) => a.title.localeCompare(b.title));
 const lang = (l: string) => ({ en: "English", yi: "Yiddish", he: "Hebrew" })[l] ?? l;
+const info = scopeInfo(groups.map((g) => g.languages));
 ---
 
 <Base
   title="Same story, other tellings"
   description="Stories told more than once in the archive, with every telling side by side."
 >
-  <div class="wrap page">
+  <div class="wrap page" data-lang-scope data-lang-empty={info.emptyAttr || undefined}>
     <header class="page-head">
       <h1>Same story, other tellings</h1>
       <p class="lede">
@@ -18,6 +21,7 @@ const lang = (l: string) => ({ en: "English", yi: "Yiddish", he: "Hebrew" })[l] 
         English and in Yiddish, years apart. Each page shows every telling side by side.
       </p>
     </header>
+    <LangNote info={info} noun={{ one: "story", many: "stories", terms: true }} />
     <div class="table-wrap">
       <table class="data" data-sortable>
         <thead>
@@ -35,7 +39,7 @@ const lang = (l: string) => ({ en: "English", yi: "Yiddish", he: "Hebrew" })[l] 
         </thead>
         <tbody>
           {groups.map((g) => (
-            <tr>
+            <tr data-lang-has={langHas(g.languages)}>
               <td>
                 <a href={`/stories/${g.group_id}/`}>{g.title}</a>
               </td>

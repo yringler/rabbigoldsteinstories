@@ -1,0 +1,39 @@
+---
+/**
+ * The hidden-rows note of a topical list (docs/design/language-library.md §4). Static: one line
+ * per one-language setting, shown by CSS from html[data-lang-pref]. "Show them" reveals the rows
+ * of the enclosing [data-lang-scope] on this page only (scripts/app.ts); it changes no setting.
+ */
+import { noteText, type ScopeInfo } from "../lib/lang.ts";
+
+interface Props {
+  info: ScopeInfo;
+  noun?: { one: string; many: string; terms?: boolean };
+}
+const { info, noun = { one: "recording", many: "recordings" } } = Astro.props;
+const lines = (["en", "yi"] as const)
+  .map((p) => ({ p, text: noteText(info, p, noun), empty: info.empty.includes(p) }))
+  .filter((l): l is { p: "en" | "yi"; text: string; empty: boolean } => l.text !== null);
+---
+
+{lines.map((l) => (
+  <p class="lang-note small" data-lang-note data-for={l.p}>
+    {l.empty ? (
+      l.text
+    ) : (
+      <>
+        <span class="when-hidden">{l.text}</span>
+        <span class="when-shown">Showing all languages on this page.</span>{" "}
+        <button
+          type="button"
+          class="btn btn-quiet lang-reveal"
+          data-action="lang-reveal"
+          aria-pressed="false"
+        >
+          <span class="when-hidden">Show them</span>
+          <span class="when-shown">Hide them</span>
+        </button>
+      </>
+    )}
+  </p>
+))}

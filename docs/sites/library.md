@@ -125,7 +125,7 @@ Counts are over all 1,184 recordings before publish filtering; the UI shows live
 | Place | `subjects.places` | 150 | 312 | any |
 | Age | `audience.age_min` as "suitable from age N" slider (3–16) plus `audience.level` | 6 levels | 1,184 | range |
 | Parent advisories | `audience.advisories[].flag` | 11 (persecution 212, peril_violence 176, death 152, …) | 578 have at least one | **exclude** by default semantics, see below |
-| Language | `language.primary` | en 1,105 · yi 78 · he 1 | 1,184 | any |
+| Language | `language.primary` (filled from the visitor's language setting when the URL has no `lang`; `lang=any` = no filter on purpose, §4.4) | en 1,105 · yi 78 · he 1 | 1,184 | any |
 | Length | derived buckets: under 5, 5–15, 15–30, 30–60, over 60 min | | 1,184 | any |
 | Hebrew year | `classification.date.hebrew_year` | 5742–5753 and recent | 895 | range |
 | Stands alone | `classification.standalone` | standalone 896, cliffhanger 146, needs_context 131, fragment 6, teaser 5 | 1,184 | any |
@@ -145,6 +145,14 @@ Semantics, fixed:
 1. **Vocabulary first.** As the user types, a dropdown offers matching vocabulary terms (labels and aliases of people, midos, mitzvos, calendar, parshiyos, works, series, serial titles, episode numbers "ep 271") with counts. Choosing one sets a facet instead of a text query. This is the main defence against transliteration variants: `tzedaka` finds the Mitzvah "Tzedakah (370)" even though the transcripts never spell it that way.
 2. **Free text** searches metadata and transcripts together (see section 5), ranked: title > keywords/characters/places > lesson > summaries > transcript.
 3. Syntax (documented in `/help/`): words are ANDed; `"exact phrase"`; trailing word matches as a prefix; `-word` is not supported in MVP (stated in help).
+
+### 4.4 Language setting
+
+Design and reasons: `docs/design/language-library.md`. In short:
+- A header control (also on `/help` and `/about`): English / Yiddish / Both, stored as `goldstein:library:lang`, **default Both**. `?lang=en|yi|any` sets it on every page except `/search/` and is then removed from the URL. An inline head script sets `html[data-lang-pref]` before first paint.
+- `/search`: with no `lang` in the URL, a one-language setting fills the Language facet and is written into the URL (`replaceState`). The chip reads "(your setting)"; removing it writes `lang=any`. "Make … my language setting" appears when the search's language differs from the setting; "Also N recordings in Yiddish. Show them" appears when one language is selected.
+- Transcript search only downloads the index the query's script needs (Hebrew letters → Yiddish, else English), and only if the language filter allows it; otherwise the status line explains why.
+- Topical lists (people, places, sources, calendar, parsha, story index, midos/mitzvos/topics) hide entries with nothing in the chosen language, by CSS only, with a "N hidden · Show them" note. A list with nothing in that language is left whole. Collection pages (series, study, serials, radio, story groups), recording pages and playlists are never narrowed. Recording pages say "Also told in English/Yiddish" when another telling exists.
 
 ## 5. Full-text search architecture
 
@@ -184,7 +192,7 @@ Both built in a scratch directory from the real, masked transcripts (masking rul
   1. vocabulary-first suggestions (4.3);
   2. at build time, wherever a transcript contains a "heard" form from `vocabularies.json → asr_glossary` (48 entries), the canonical form is appended to that passage in the search document only (never in the displayed transcript);
   3. at query time, a fixed transliteration rule set generates at most 5 variants per term (`-a/-ah`, `ch/kh`, `tz/ts`, `ei/e/ey`, `s/t` for sav, `o/a` for kamatz, doubled consonants) and runs them as parallel Pagefind searches, merged by best score, shown as "also searched: dayenu". Pagefind caches chunks, so this is cheap.
-- **Yiddish:** Yiddish documents are indexed under `lang="yi"` (Pagefind builds a second, unstemmed index: measured 1.2 KB meta, separate chunks). A query containing Hebrew-script characters searches the Yiddish index; a Latin-script query searches English; the "Search in" control can force both. Yiddish hits show **no excerpt**, only "Match in the Yiddish recording at 15:28" and a play-from-there button, per decision 8.
+- **Yiddish:** Yiddish documents are indexed under `lang="yi"` (Pagefind builds a second, unstemmed index: measured 1.2 KB meta, separate chunks). A query containing Hebrew-script characters searches the Yiddish index; a Latin-script query searches English. A language filter that rules out the query's index means no index is downloaded and the page says why (§4.4). (Forcing both indexes was dropped: one query is in one script, and the other index never matches it.) Yiddish hits show **no excerpt**, only "Match in the Yiddish recording at 15:28" and a play-from-there button, per decision 8.
 - **When to switch to B:** only if the owner rules that Yiddish ASR text must not be retrievable at all (see open question Q3), or users demand OR/NOT/NEAR. The public-export step that produces masked passages is the same input either way, so the switch is contained in one module (`search/engine.ts`, interface `search(q, lang) → [{id, score, passages:[{t, excerpt?}]}]`).
 
 ### 5.4 Hidden-span masking and the index
@@ -644,3 +652,10 @@ Accessibility and quality
 26. Every action in sections 4, 6 and 8 can be completed with the keyboard alone; focus is always visible; shortcuts are inactive in text fields and can be turned off.
 27. With JavaScript disabled, a recording page shows all metadata and a working native audio control.
 28. Lighthouse performance ≥ 90 and accessibility ≥ 95 on the Recording page (mobile profile). JavaScript shipped on a recording page ≤ 90 KB gzip excluding Pagefind.
+
+Language setting (`docs/design/language-library.md` §8; checked by `test/lang*.test.ts` and `test/dist-lang.test.ts`)
+29. With no stored setting, every page behaves exactly as before (Both). With English or Yiddish stored, `html[data-lang-pref]` is set before first paint, so nothing flashes. `?lang=` on any page except `/search/` sets the setting and leaves the URL.
+30. `/search` with no `lang` in the URL and the setting Yiddish shows `lang=yi` in the URL and a "(your setting)" chip. Removing the chip writes `lang=any`, and a reload keeps all languages. A copied link reproduces the same results in a browser with another setting.
+31. A Hebrew-letter query under `lang=en`, or a Latin query under `lang=yi`, downloads no Pagefind index and shows the explanation. A Hebrew-letter query under `lang=yi` or no filter searches only `/pagefind/yi/`.
+32. Under English, `/people/` hides the Yiddish-only people, says how many, and offers "Show them". A Yiddish-only person's page is not emptied. Under Both, nothing is hidden. Recording, series, study and story-group pages are identical under all three settings.
+33. Every Hebrew-script run in the control carries `lang="yi" dir="rtl"`. No Yiddish transcript text appears in `dist/` outside the Pagefind bundle. The unconfirmed narrator is never linked.

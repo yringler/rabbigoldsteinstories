@@ -23,6 +23,10 @@ const years = pub
   .map((k) => Math.floor(k / 10000));
 const first = Math.min(...years);
 const series = seriesIndex().series;
+// "In Yiddish" (docs/design/language-library.md §5): static, the same under every setting.
+const yi = pub.filter((r) => r.lang === "yi");
+const yiHours = Math.round(yi.reduce((a, r) => a + r.dur, 0) / 3600);
+const tanya = yi.filter((r) => r.series === "tanya_yiddish_goldstein").length;
 const classPreset =
   "/search/?type=story,story_chapter,radio_segment,lesson_with_story&standalone=standalone";
 ---
@@ -97,6 +101,23 @@ const classPreset =
             side by side
           </span>
         </a>
+        {yi.length > 0 && (
+          <a class="entry" href="/search/?lang=yi">
+            <span class="entry-icon">
+              <Icon name="lang" size={22} />
+            </span>
+            <span class="entry-title">
+              In Yiddish ·{" "}
+              <span lang="yi" dir="rtl">
+                אידיש
+              </span>
+            </span>
+            <span class="entry-sub">
+              {tanya > 0 && <>{tanya} Tanya shiurim, </>}Bubby Chaya Malka's stories, Haggadah
+              talks: {yi.length} recordings, {yiHours} hours
+            </span>
+          </a>
+        )}
       </section>
 
       <nav class="index-links" aria-label="Indexes">
@@ -186,7 +207,7 @@ const classPreset =
   }
   .entry-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
     margin: 32px 0 20px;
   }
