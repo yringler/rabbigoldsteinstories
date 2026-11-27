@@ -1,4 +1,4 @@
-/* Lights Out Stories service worker (bedtime.md §1 "Offline / PWA", §6 MVP):
+/* Bedtime Stories service worker (bedtime.md §1 "Offline / PWA", §6 MVP):
  * - the app shell (pages, built CSS/JS/fonts, icons): cache first, refreshed in the background;
  * - the playlist JSON under /playlists/: network first, cache only when offline (a removed story
  *   must disappear at once; the cache is just for showing the last known cards offline);
