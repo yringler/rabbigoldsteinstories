@@ -66,15 +66,40 @@ describe("HLS stream", () => {
     expect(mp3FrameOffset({ ...ORIGINAL, bitrate_kbps: 64 }, 1)).toBeNull();
   });
 
-  it("round-trips the query and rejects malformed ones", () => {
-    const q = new URLSearchParams(hlsQuery(items, "clean"));
-    expect(parseHlsQuery(q)).toEqual({ variant: "clean", items });
+  it("round-trips the query, units included, and rejects malformed ones", () => {
+    const withUnits: HlsItem[] = [
+      { id: "aaaaaaaaaa", unit: "aaaaaaaaaa@0", start_sec: 0, end_sec: 409.9 },
+      { id: "bbbbbbbbbb", unit: "episode:bbbbbbbbbb", start_sec: 718, end_sec: 767 },
+      { id: "cccccccccc", unit: "set:a-b", start_sec: 0, end_sec: 72.37 },
+      { id: "cccccccccc", unit: "set:a-b", start_sec: 72.37, end_sec: 140 },
+      // An opening-song intro start: the unit is named after the story's own start.
+      { id: "dddddddddd", unit: "dddddddddd@1700", start_sec: 1694.5, end_sec: 1712 },
+      // Separators and anything else outside [A-Za-z0-9:@.-] survive (no such key exists today).
+      { id: "eeeeeeeeee", unit: "serial:a_b~c d%é", start_sec: 1, end_sec: 2 },
+    ];
+    const text = hlsQuery(withUnits, "clean");
+    // A unit named after its story (`<id>@<start>`) is implied; the others are carried readably.
+    expect(text).toContain("aaaaaaaaaa~0~409.9_bbbbbbbbbb~718~767~episode:bbbbbbbbbb_");
+    expect(text).toContain("dddddddddd~1694.5~1712~dddddddddd@1700_");
+    const q = new URLSearchParams(text);
+    expect(parseHlsQuery(q)).toEqual({ variant: "clean", items: withUnits });
+    // Through a real URL too, as the API reads it.
+    const url = new URL(`https://x.example/playlists/hls.m3u8?${text}`);
+    expect(parseHlsQuery(url.searchParams)?.items).toEqual(withUnits);
+    // An item without a unit is the story's own unit.
+    expect(parseHlsQuery(new URLSearchParams(hlsQuery(items, "original")))?.items).toEqual(
+      items.map((x) => ({ ...x, unit: `${x.id}@${x.start_sec}` })),
+    );
     for (const bad of [
       "v=o",
       "v=x&i=aaaaaaaaaa~0~1",
       "v=o&i=AAAA~0~1",
       "v=o&i=aaaaaaaaaa~5~5",
       "v=o&i=aaaaaaaaaa~0~1.234",
+      "v=o&i=aaaaaaaaaa~0~1~",
+      "v=o&i=aaaaaaaaaa~0~1~set:a~b",
+      "v=o&i=aaaaaaaaaa~0~1~set%25ZZ",
+      "v=o&i=aaaaaaaaaa~0~1~set%25FF", // not UTF-8
     ])
       expect(parseHlsQuery(new URLSearchParams(bad))).toBeNull();
   });

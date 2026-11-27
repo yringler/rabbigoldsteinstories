@@ -267,6 +267,13 @@ describe("BedtimePlayer as one HLS stream (docs/design/hls.md)", () => {
     expect(player.snapshot().position).toBeCloseTo(0.1);
   });
 
+  it("names each item's unit in the stream URL when it isn't the story's own", async () => {
+    await player.start(playlist(A, { ...B, unit: "set:two-tellings" }), "tonight");
+    expect(el.src).toBe(
+      `${origin}/playlists/hls.m3u8?v=o&i=aaaaaaaaaa~100~700_bbbbbbbbbb~50~650~set:two-tellings`,
+    );
+  });
+
   it("follows the playhead across several stories at once (a locked phone skipped timeupdates)", async () => {
     await player.start(playlist(A, B, C), "tonight");
     el.started();

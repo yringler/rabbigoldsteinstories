@@ -9,9 +9,9 @@
  * Every file is constant bitrate (data/catalog/audio_frames.csv), so a frame's byte offset is
  * computed from the file's first frame offset.
  *
- * The URL carries the items themselves (`?v=o&i=<id>~<start>~<end>_<id>~…`), so the stream always
- * matches the playlist the client holds (a pinned snapshot, a tombstoned edition) and the API needs
- * no state. The server cuts each story on frame boundaries so that story i ends within half a
+ * The URL carries the items themselves (`?v=o&i=<id>~<start>~<end>[~<unit>]_<id>~…`), so the
+ * stream always matches the playlist the client holds (a pinned snapshot, a tombstoned edition)
+ * and the API needs no state. The server cuts each story on frame boundaries so that story i ends within half a
  * frame (≤ 13 ms) of the sum of (end_sec − start_sec) of stories 0..i; the client computes the
  * story times on the stream with hlsChapters() from the same numbers, with no frame tables.
  */
@@ -24,6 +24,10 @@ export const SEGMENT_SEC = 30;
 /** A story's last segment shorter than this is merged into the one before. */
 const MIN_TAIL_SEC = 8;
 const MAX_ITEMS = 200;
+/** Longest unit name accepted in a stream URL (real ones are under 50 characters). */
+const MAX_UNIT = 200;
+/** Unit characters written as is; any other is percent-encoded (twice, see encodeUnit). */
+const UNIT_PLAIN = /[^A-Za-z0-9:@.-]/gu;
 /** MPEG-1 Layer III. */
 const SAMPLES_PER_FRAME = 1152;
 
@@ -41,6 +45,12 @@ export interface HlsItem {
   id: string;
   start_sec: number;
   end_sec: number;
+  /**
+   * The playlist item's unit (`<id>@<start>`, `episode:<id>`, `set:<key>`…): the API checks the
+   * item against that unit's current tracks, like tombstone(). Absent means `<id>@<start_sec>`
+   * (the story's own unit); parseHlsQuery always fills it in.
+   */
+  unit?: string;
 }
 
 export interface Chapter {
@@ -65,9 +75,38 @@ export function mp3FrameOffset(f: Mp3Frames, k: number): number | null {
   return f.first_byte + Math.floor((k * 144_000 * f.bitrate_kbps + phase) / f.sample_rate);
 }
 
-/** Query string (no "?") for a stream of these items. */
+/** The unit an item names when its URL field has none: the story's own unit. */
+function ownUnit(id: string, start: number): string {
+  return `${id}@${r2(start)}`;
+}
+
+/**
+ * A unit as one URL field. Real units use only [a-z0-9:@-], which go as is (`:` and `@` are
+ * allowed in a query). Any other character, the separators `_` and `~` included, becomes `%25XX`
+ * per UTF-8 byte: URLSearchParams decodes that to `%XX`, which no separator matches, and
+ * parseHlsQuery decodes the field once more after splitting.
+ */
+function encodeUnit(unit: string): string {
+  return unit.replace(UNIT_PLAIN, (c) =>
+    [...new TextEncoder().encode(c)]
+      .map((b) => `%25${b.toString(16).toUpperCase().padStart(2, "0")}`)
+      .join(""),
+  );
+}
+
+/**
+ * Query string (no "?") for a stream of these items. The unit is left out when it is the story's
+ * own (`<id>@<start>`, most items), which keeps a 40-item URL near 1.5 KB.
+ */
 export function hlsQuery(items: readonly HlsItem[], variant: HlsVariant): string {
-  const i = items.map((x) => `${x.id}~${r2(x.start_sec)}~${r2(x.end_sec)}`).join("_");
+  const i = items
+    .map((x) => {
+      const base = `${x.id}~${r2(x.start_sec)}~${r2(x.end_sec)}`;
+      return x.unit === undefined || x.unit === ownUnit(x.id, x.start_sec)
+        ? base
+        : `${base}~${encodeUnit(x.unit)}`;
+    })
+    .join("_");
   return `v=${variant === "clean" ? "c" : "o"}&i=${i}`;
 }
 
@@ -79,20 +118,33 @@ export function hlsUrl(origin: string, items: readonly HlsItem[], variant: HlsVa
 /** Parse a stream query; null when malformed. */
 export function parseHlsQuery(
   q: URLSearchParams,
-): { variant: HlsVariant; items: HlsItem[] } | null {
+): { variant: HlsVariant; items: Required<HlsItem>[] } | null {
   const v = q.get("v");
   const raw = q.get("i");
   if ((v !== "o" && v !== "c") || !raw) return null;
   const parts = raw.split("_");
   if (parts.length > MAX_ITEMS) return null;
-  const items: HlsItem[] = [];
+  const items: Required<HlsItem>[] = [];
   for (const p of parts) {
-    const m = /^([0-9a-f]{10})~(\d{1,6}(?:\.\d{1,2})?)~(\d{1,6}(?:\.\d{1,2})?)$/.exec(p);
+    const m =
+      /^([0-9a-f]{10})~(\d{1,6}(?:\.\d{1,2})?)~(\d{1,6}(?:\.\d{1,2})?)(?:~((?:[A-Za-z0-9:@.-]|%[0-9A-Fa-f]{2})+))?$/.exec(
+        p,
+      );
     if (!m) return null;
+    const id = m[1]!;
     const start_sec = Number(m[2]);
     const end_sec = Number(m[3]);
     if (!(end_sec > start_sec)) return null;
-    items.push({ id: m[1]!, start_sec, end_sec });
+    let unit = ownUnit(id, start_sec);
+    if (m[4] !== undefined) {
+      try {
+        unit = decodeURIComponent(m[4]);
+      } catch {
+        return null; // not UTF-8
+      }
+      if (unit.length > MAX_UNIT) return null;
+    }
+    items.push({ id, start_sec, end_sec, unit });
   }
   return { variant: v === "c" ? "clean" : "original", items };
 }

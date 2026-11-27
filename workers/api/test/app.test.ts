@@ -129,7 +129,7 @@ describe("goldstein-api: HLS stream", () => {
     original: { first_byte: 100, frame_count: 400_000, bitrate_kbps: 96, sample_rate: 44_100 },
   };
   const deps = { kv: fakeKv(), pool: { ...pool, frames: { [t.id]: frames } }, overrides: {} };
-  const q = `i=${t.id}~${t.start_sec}~${t.end_sec}`;
+  const q = `i=${t.id}~${t.start_sec}~${t.end_sec}~${pool.units[0]!.unit}`;
 
   it("serves the stream for pool recordings, without touching KV", async () => {
     const r = await get(`/playlists/hls.m3u8?v=o&${q}`, deps);
@@ -169,7 +169,10 @@ describe("goldstein-api: HLS stream", () => {
       },
       overrides: {},
     };
-    const r = await get(`/playlists/hls.m3u8?v=c&${q}_${u.id}~${u.start_sec}~${u.end_sec}`, mixed);
+    const r = await get(
+      `/playlists/hls.m3u8?v=c&${q}_${u.id}~${u.start_sec}~${u.end_sec}~${pool.units[1]!.unit}`,
+      mixed,
+    );
     expect(r.status).toBe(200);
     const urls = new Set((await r.text()).split("\n").filter((l) => l.startsWith("https://")));
     expect([...urls]).toEqual([cleanUrl, u.audio_url]);
@@ -184,5 +187,35 @@ describe("goldstein-api: HLS stream", () => {
     };
     expect((await get(`/playlists/hls.m3u8?v=o&${q}`, excluded)).status).toBe(404);
     expect((await get(`/playlists/hls.m3u8?v=o&${q}`, deps)).status).toBe(200);
+  });
+
+  it("checks (unit, recording, range) exactly as tombstone() does, times to 2 decimals", async () => {
+    const u0 = pool.units[0]!;
+    const t0 = { ...t, start_sec: 12.344, intro_start_sec: 2.5, end_sec: 300.006 };
+    // The same story is also part of an episode unit, which the owner has excluded.
+    const episode = { ...u0, unit: `episode:${t.id}`, tracks: [t0] };
+    const withEpisode = {
+      kv: fakeKv(),
+      pool: {
+        ...pool,
+        units: [{ ...u0, unit: `${t.id}@12.34`, tracks: [t0] }, episode, ...pool.units.slice(1)],
+        frames: { [t.id]: frames },
+      },
+      overrides: { [episode.unit]: { exclude: true, note: "x" } },
+    };
+    const path = (start: number, unit?: string) =>
+      `/playlists/hls.m3u8?v=o&i=${t.id}~${start}~300.01${unit === undefined ? "" : `~${unit}`}`;
+    // The story's own unit (implied when the item names none): live.
+    expect((await get(path(12.34), withEpisode)).status).toBe(200);
+    expect((await get(path(12.34, `${t.id}@12.34`), withEpisode)).status).toBe(200);
+    // The opening-song intro start of the same track.
+    expect((await get(path(2.5, `${t.id}@12.34`), withEpisode)).status).toBe(200);
+    // The same recording and range, but from the excluded episode: tombstone() drops it.
+    expect((await get(path(12.34, episode.unit), withEpisode)).status).toBe(404);
+    // A live unit that doesn't hold this track, or a unit that doesn't exist.
+    expect((await get(path(12.34, pool.units[1]!.unit), withEpisode)).status).toBe(404);
+    expect((await get(path(12.34, "set:nope"), withEpisode)).status).toBe(404);
+    // A start that is neither the track's start nor its intro start.
+    expect((await get(path(5, `${t.id}@12.34`), withEpisode)).status).toBe(404);
   });
 });

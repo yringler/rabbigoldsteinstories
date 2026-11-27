@@ -38,7 +38,9 @@ The public pool (`units.json`) carries the table as `frames: { <id>: { original,
 
 ## 3. The stream (`packages/playlists/src/hls.ts`, `GET /playlists/hls.m3u8`)
 
-The URL lists the stories: `/playlists/hls.m3u8?v=o|c&i=<id>~<start>~<end>_<id>~…`, with seconds to 2 decimals.
+The URL lists the stories: `/playlists/hls.m3u8?v=o|c&i=<id>~<start>~<end>[~<unit>]_<id>~…`, with seconds to 2 decimals.
+- **The unit** is the playlist item's (`episode:<id>`, `set:<key>`, `serial:<key>`…). It's left out when it is the story's own, `<id>@<start>`, as for most items. Characters outside `[A-Za-z0-9:@.-]` (none in today's units) are percent-encoded twice, so `_` and `~` can't break the format.
+- **Length:** the longest playlist in a year of simulated editions (19 items, 5 with a unit) gives a 599-character clean-stream URL. A 40-item playlist where every item named a 43-character unit (the longest today) would be about 2.9 KB.
 - **No state on the server.** The API builds the playlist from the pool (only recordings in it; no KV). It's cached like an edition (5 minutes, stale for 10 more), so an exclusion stops the stream within minutes too.
 - **It always matches what the client holds.** That holds for a pinned snapshot, a tombstoned edition or an earlier night.
 
@@ -47,7 +49,7 @@ The playlist is RFC 8216 VOD (`EXT-X-ENDLIST`), version 4:
 - **Discontinuities:** `EXT-X-DISCONTINUITY` sits between stories, except where the next story continues the same file at the next byte (consecutive spans join seamlessly).
 - **Story cuts** fall on frame boundaries, about 26 ms. A story that runs more than one frame past its file's end gets no stream (404), since the stories after it would have to make up the difference. Story `i` is cut so that it ends within half a frame of `Σ (end_sec − start_sec)` over stories `0..i`. That holds for both copies, so the client computes story times with `hlsChapters(items)`, with no frame tables.
 - **Mixed copies (`v=c`):** the clean stream uses the clean copy and its frame table for each story that has one, and the original for a story that doesn't. Each story is cut on its own file's frame grid, so the boundaries above still hold.
-- **Only live tracks:** every item must be a current track of the pool (its `start_sec` or `intro_start_sec` to `end_sec`) in a unit that `overrides.json` doesn't exclude, the same rule as `tombstone()`. Otherwise the stream is a 404 and the client plays story by story.
+- **Only live items:** every item must be one that `tombstone()` keeps: a current track (its `start_sec` or `intro_start_sec` to `end_sec`) of the item's own unit, which `overrides.json` doesn't exclude. The same story in another unit doesn't count, so an item from an excluded episode isn't streamed because its story is also a unit of its own. The one difference is rounding: the URL carries times to 2 decimals, so the API compares them with the track's times rounded the same way, where `tombstone()` compares exact times. Otherwise the stream is a 404 and the client plays story by story.
 - **ID3 timestamps (check this first on an iPhone):** the segments carry none, although RFC 8216 §3.4 requires an ID3 PRIV timestamp (`com.apple.streaming.transportStreamTimestamp`) on every packed-audio segment. hls.js doesn't need one (checked in Chromium). **Safari is not yet confirmed.** If it refuses untagged segments, every iPhone silently falls back to one file per story, so the stream brings no benefit there. The fix is a Worker that serves the segments and prepends a 73-byte tag to each one (the lab page in this branch's history, `worker/lab.ts`, had the code and a test page for both variants); it isn't built, because it would put every audio byte through a Worker.
 - **Join clicks:** a decoder may click faintly where a story is cut out of an episode, because of the MP3 bit reservoir. It's inaudible in practice.
 

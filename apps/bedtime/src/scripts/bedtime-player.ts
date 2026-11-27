@@ -456,8 +456,11 @@ export class BedtimePlayer extends Player {
     // has the same story times (within 13 ms), so the AI-sound toggle swaps at the same position.
     // The API mixes copies per story (the original where there is no clean copy), so the clean
     // stream is worth offering as soon as one story has a clean copy.
+    // Each item names its unit: the API checks it against that unit's current tracks, like
+    // tombstone() (an excluded unit's items get no stream).
     const items: HlsItem[] = p.items.map((i) => ({
       id: i.id,
+      unit: i.unit,
       start_sec: i.start_sec,
       end_sec: i.end_sec,
     }));

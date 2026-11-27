@@ -8,8 +8,8 @@
  *   GET /playlists/tonight.json          the current edition
  *   GET /playlists/history.json          the 7 editions before it, newest first
  *   GET /playlists/hls.m3u8?v=o|c&i=…    a playlist as one HLS stream (docs/design/hls.md), built
- *                                        from the items in the URL; only current tracks of
- *                                        the pool whose unit is not excluded
+ *                                        from the items in the URL; only items that tombstone()
+ *                                        would keep (a current track of their unit, not excluded)
  *   GET /api/health                      pool hash, edition counts
  * Cron (hourly): ensureRunway — generate missing/stale editions up to 14 days ahead, never
  * touching editions that start within 24 hours.
@@ -84,41 +84,41 @@ function json(body: unknown, cache: string, status = 200): Response {
   });
 }
 
-interface SourceEntry {
-  original: string;
-  clean?: string;
-  /** `start~end` of each current track of this recording, in units not excluded. */
-  ranges: Set<string>;
+interface Sources {
+  /** id → file URLs (no media fragment). */
+  files: Map<string, { original: string; clean?: string }>;
+  /**
+   * `<unit>~<id>~<start>~<end>` of every item tombstone() keeps: a current track (start_sec, or
+   * the opening-song intro_start_sec, to end_sec) of a unit that overrides.json doesn't exclude.
+   * Times are rounded to 2 decimals, as the stream URL carries them.
+   */
+  live: Set<string>;
 }
 
-const rangeKey = (start: number, end: number) =>
-  `${Math.round(start * 100) / 100}~${Math.round(end * 100) / 100}`;
+const r2 = (x: number) => Math.round(x * 100) / 100;
+const liveKey = (unit: string, id: string, start: number, end: number) =>
+  `${unit}~${id}~${r2(start)}~${r2(end)}`;
 
-/** id → file URLs (no media fragment) and track ranges, per pool and overrides (built once). */
-const sourceIndex = new WeakMap<UnitPool, WeakMap<Overrides, Map<string, SourceEntry>>>();
+/** The pool's files and live items, per pool and overrides (built once). */
+const sourceIndex = new WeakMap<UnitPool, WeakMap<Overrides, Sources>>();
 
-function sourcesOf(pool: UnitPool, overrides: Overrides): Map<string, SourceEntry> {
+function sourcesOf(pool: UnitPool, overrides: Overrides): Sources {
   let perPool = sourceIndex.get(pool);
   if (!perPool) sourceIndex.set(pool, (perPool = new WeakMap()));
   const cached = perPool.get(overrides);
   if (cached) return cached;
-  const index = new Map<string, SourceEntry>();
-  // The rule of tombstone(): an item plays a current track (start_sec, or the opening-song
-  // intro_start_sec, to end_sec) of a unit that overrides.json does not exclude.
+  const index: Sources = { files: new Map(), live: new Set() };
   for (const u of pool.units) {
     if (overrides[u.unit]?.exclude) continue;
     for (const t of u.tracks) {
-      let e = index.get(t.id);
-      if (!e) {
-        e = {
+      if (!index.files.has(t.id))
+        index.files.set(t.id, {
           original: t.audio_url.split("#")[0]!,
           ...(t.clean_audio_url ? { clean: t.clean_audio_url.split("#")[0]! } : {}),
-          ranges: new Set(),
-        };
-        index.set(t.id, e);
-      }
-      e.ranges.add(rangeKey(t.start_sec, t.end_sec));
-      if (t.intro_start_sec !== undefined) e.ranges.add(rangeKey(t.intro_start_sec, t.end_sec));
+        });
+      index.live.add(liveKey(u.unit, t.id, t.start_sec, t.end_sec));
+      if (t.intro_start_sec !== undefined)
+        index.live.add(liveKey(u.unit, t.id, t.intro_start_sec, t.end_sec));
     }
   }
   perPool.set(overrides, index);
@@ -131,21 +131,26 @@ function sourcesOf(pool: UnitPool, overrides: Overrides): Map<string, SourceEntr
  * not take AI-improved sound away from the whole playlist.
  */
 function hlsSource(
-  sources: ReadonlyMap<string, SourceEntry>,
+  sources: Sources,
   pool: UnitPool,
   item: HlsItem,
   variant: HlsVariant,
 ): HlsSource | null {
-  const e = sources.get(item.id);
+  const e = sources.files.get(item.id);
   const frames = pool.frames?.[item.id];
-  if (!e || !frames || !e.ranges.has(rangeKey(item.start_sec, item.end_sec))) return null;
+  // tombstone()'s rule, on the item's own unit: the same story in another (excluded) unit, or in
+  // a live unit it isn't part of, doesn't count.
+  const live =
+    item.unit !== undefined &&
+    sources.live.has(liveKey(item.unit, item.id, item.start_sec, item.end_sec));
+  if (!e || !frames || !live) return null;
   if (variant === "clean" && e.clean && frames.clean) return { url: e.clean, frames: frames.clean };
   return { url: e.original, frames: frames.original };
 }
 
 /**
  * The HLS stream for the items in the URL; 404 when any of them can't be streamed (no frame table,
- * not a current track of the pool, or its unit excluded in overrides.json).
+ * or an item tombstone() would drop: not a current track of its unit, or the unit excluded).
  */
 export function hlsResponse(url: URL, pool: UnitPool, overrides: Overrides = {}): Response {
   const q = parseHlsQuery(url.searchParams);
