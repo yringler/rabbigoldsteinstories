@@ -7,17 +7,14 @@
 import LangControl from "../components/LangControl.astro";
 import { GLYPHS } from "../lib/glyphs.ts";
 import { resolveShelf } from "../lib/build/yiddish.ts";
-import { numberWord, SHELF_TITLE_YI, shelfPlaylist } from "../lib/yiddish-shelf.ts";
-import { cardLine, cardMeta, iconSvg, TYPES, YIDDISH_UI } from "../lib/ui.ts";
+import YiddishSlot from "../components/YiddishSlot.astro";
+import { shelfPlaylist } from "../lib/yiddish-shelf.ts";
+import { iconSvg, TYPES } from "../lib/ui.ts";
 import Base from "../layouts/Base.astro";
 
 const shelf = resolveShelf();
 // Line and meta do not depend on the night's order.
 const shelfCard = shelf.length > 0 ? shelfPlaylist(shelf, "2000-01-01") : null;
-const shelfLabel = shelfCard
-  ? `Play ${shelfCard.title}. ${cardLine(shelfCard)} ${cardMeta(shelfCard)}.`
-  : "";
-const slots = ["first", "last"] as const;
 ---
 
 <Base page="home">
@@ -38,49 +35,7 @@ const slots = ["first", "last"] as const;
       </span>
     </button>
 
-    {slots.map((slot) =>
-      shelfCard ? (
-        <div class="yiddish-slot" data-yiddish-slot={slot}>
-          {slot === "first" && <h2 class="visually-hidden">Yiddish stories</h2>}
-          <ul class="cards">
-            <li>
-              <div class="card" data-yiddish-card style={`--c:${YIDDISH_UI.color}`}>
-                <button type="button" class="card-play" data-play aria-label={shelfLabel}>
-                  <span class="card-icon">
-                    <Fragment set:html={iconSvg(YIDDISH_UI, 44)} />
-                  </span>
-                  <span>
-                    <span class="card-title">{shelfCard.title}</span>
-                    <span class="card-title-yi" lang="yi" dir="rtl">
-                      {SHELF_TITLE_YI}
-                    </span>
-                    <span class="card-line">{cardLine(shelfCard)}</span>
-                    <span class="card-meta">{cardMeta(shelfCard)}</span>
-                  </span>
-                  <span class="play-dot" aria-hidden="true">
-                    <Fragment set:html={GLYPHS.play(24)} />
-                  </span>
-                </button>
-                <button
-                  type="button"
-                  class="card-more"
-                  data-more
-                  aria-label={`${shelfCard.title}: see the stories`}
-                >
-                  <Fragment set:html={GLYPHS.more(22)} />
-                </button>
-              </div>
-            </li>
-          </ul>
-          {slot === "first" && (
-            <p class="shelf-note">
-              There are only {numberWord(shelf.length)} Yiddish bedtime stories here, so this list
-              stays the same. Each night a different one comes first.
-            </p>
-          )}
-        </div>
-      ) : null,
-    )}
+    {shelfCard && <YiddishSlot slot="first" shelfCard={shelfCard} />}
 
     <div class="english" data-english>
       {shelfCard && (
@@ -137,6 +92,8 @@ const slots = ["first", "last"] as const;
         </ul>
       </div>
     </div>
+
+    {shelfCard && <YiddishSlot slot="last" shelfCard={shelfCard} />}
 
     {shelfCard && (
       <>

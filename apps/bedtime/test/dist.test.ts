@@ -61,6 +61,19 @@ describe.skipIf(!built)("the built site", () => {
     }
   });
 
+  it("puts the Yiddish slots first and after Radio Night, in DOM order", () => {
+    if (resolveShelf().length === 0) return;
+    const home = read(join(dist, "index.html"));
+    const first = home.indexOf('data-yiddish-slot="first"');
+    const last = home.indexOf('data-yiddish-slot="last"');
+    const radio = home.indexOf('data-card="radio"');
+    const mix = home.indexOf('data-card="mix"');
+    expect(first).toBeGreaterThan(-1);
+    expect(radio).toBeGreaterThan(-1);
+    expect(first).toBeLessThan(mix);
+    expect(last).toBeGreaterThan(radio);
+  });
+
   it("keeps the English-only page as the default (no data-lang in the static HTML)", () => {
     const home = read(join(dist, "index.html"));
     expect(home).not.toMatch(/<html[^>]*data-lang=/);
