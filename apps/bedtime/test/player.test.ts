@@ -467,3 +467,91 @@ describe("BedtimePlayer as one HLS stream (docs/design/hls.md)", () => {
     expect(player.snapshot().phase).toBe("playing");
   });
 });
+
+/**
+ * On a throttled locked phone the stream plays on while the page gets no timeupdate: the story
+ * index can lag the playhead by several stories. Every user action and bookkeeping step must use
+ * the story under the playhead.
+ */
+describe("BedtimePlayer: a story index that lags the stream's playhead", () => {
+  const handlers = new Map<string, MediaSessionActionHandler>();
+  const stories = [1, 2, 3, 4, 5, 6, 7].map((n) => item(String(n).repeat(10), 0, 600));
+  let el: FakeHlsAudio;
+  beforeEach(async () => {
+    handlers.clear();
+    vi.stubGlobal("location", { origin: "https://bedtime.example" });
+    vi.stubGlobal("navigator", {
+      mediaSession: {
+        metadata: null,
+        setActionHandler: (a: MediaSessionAction, h: MediaSessionActionHandler) =>
+          void handlers.set(a, h),
+      },
+    });
+    el = new FakeHlsAudio();
+    player = new BedtimePlayer(el as unknown as HTMLAudioElement);
+    await player.start(playlist(...stories), "tonight");
+    el.started();
+    el.at(2 * 600 + 10); // story 2 (each story is 600 s on the stream)
+    await flush();
+    expect(player.snapshot().index).toBe(2);
+    el.currentTime = 5 * 600 + 100; // locked: story 5 plays, no timeupdate since story 2
+  });
+  afterEach(() => vi.unstubAllGlobals());
+
+  it("the lock screen's next goes to the story after the playhead's, not after the index", async () => {
+    handlers.get("nexttrack")!({ action: "nexttrack" });
+    await flush();
+    expect(player.snapshot().index).toBe(6);
+    expect(el.currentTime).toBe(6 * 600);
+  });
+
+  it("the lock screen's previous restarts the playhead's story", async () => {
+    handlers.get("previoustrack")!({ action: "previoustrack" });
+    await flush();
+    expect(player.snapshot().index).toBe(5);
+    expect(el.currentTime).toBe(5 * 600);
+  });
+
+  it("seekforward and seekto are relative to the playhead's story", () => {
+    handlers.get("seekforward")!({ action: "seekforward", seekOffset: 30 });
+    expect(player.snapshot().index).toBe(5);
+    expect(el.currentTime).toBe(5 * 600 + 130);
+    handlers.get("seekto")!({ action: "seekto", seekTime: 0 }); // (index now in sync)
+    expect(el.currentTime).toBe(5 * 600);
+    el.currentTime = 6 * 600 + 50; // lags again
+    handlers.get("seekto")!({ action: "seekto", seekTime: 200 });
+    expect(player.snapshot().index).toBe(6);
+    expect(el.currentTime).toBe(6 * 600 + 200);
+  });
+
+  it("saves the playhead's story and the position inside it", () => {
+    // As on pagehide or the page being hidden (a locked phone's save).
+    (player as unknown as { save(force: boolean): void }).save(true);
+    const s = store.get<Session | null>(SESSION_KEY, null);
+    expect(s?.index).toBe(5);
+    expect(s?.position).toBe(100);
+  });
+
+  it("the sleep timer decides from the playhead's story", () => {
+    player.setTimer(15);
+    vi.advanceTimersByTime(15 * 60_000 + 1000);
+    // 500 s left in story 5 (not "past the end" of story 2): stop at its end, or after 4 min.
+    expect(player.snapshot().stoppingAtBoundary).toBe(true);
+    expect(player.snapshot().index).toBe(5);
+    vi.advanceTimersByTime(4 * 60_000 + 1000);
+    expect(el.paused).toBe(true);
+    expect(player.snapshot().phase).toBe("asleep");
+  });
+
+  it("a timer stop past its boundary stops at the playhead's story, not the one after the index", async () => {
+    el.currentTime = 2 * 600 + 500;
+    player.setTimer(15);
+    vi.advanceTimersByTime(15 * 60_000 + 1000); // 100 s left in story 2: stop at its end
+    expect(player.snapshot().stoppingAtBoundary).toBe(true);
+    el.at(5 * 600 + 100); // locked: the stream played on into story 5
+    await flush();
+    expect(player.snapshot().phase).toBe("asleep");
+    expect(player.snapshot().index).toBe(5);
+    expect(el.currentTime).toBe(5 * 600);
+  });
+});

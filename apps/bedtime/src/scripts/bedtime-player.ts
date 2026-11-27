@@ -195,6 +195,11 @@ export class BedtimePlayer extends Player {
       on("previoustrack", () => void this.skip(-1));
       on("seekbackward", (d) => this.nudge(-(d.seekOffset ?? 15)));
       on("seekforward", (d) => this.nudge(d.seekOffset ?? 30));
+      // The position state is relative to the story (Player.updatePositionState), so is seekTime.
+      on("seekto", (d) => {
+        if (d.seekTime === undefined || this.syncToPlayhead()) return;
+        this.seek(d.seekTime);
+      });
     }
     if (typeof window !== "undefined") {
       window.addEventListener("pagehide", () => this.save());
@@ -307,6 +312,8 @@ export class BedtimePlayer extends Player {
     this.hardStopAt = null;
     this.cancelFade();
     this.el.volume = 1;
+    // From the story under the playhead: a lagging index would seek back to one already heard.
+    this.syncToPlayhead();
     if (dir === -1) await this.previous();
     else await super.next();
     this.afterTrackChange();
@@ -325,6 +332,7 @@ export class BedtimePlayer extends Player {
 
   /** Seek relative to the current position (seconds). */
   nudge(deltaSec: number): void {
+    if (this.syncToPlayhead()) return;
     this.seek(this.state().position + deltaSec);
   }
 
@@ -376,7 +384,10 @@ export class BedtimePlayer extends Player {
     if (this.holdAtBoundary) {
       this.holdAtBoundary = false;
       this.hardStopAt = null;
-      await this.goTo(s.index + 1, false);
+      // Stop at the start of the story the playhead is in: on a locked phone the stream may have
+      // played past several boundaries, and the story after the index would seek back to one
+      // already heard.
+      await this.goTo(this.streaming && at > s.index ? at : s.index + 1, false);
       this.stopAudio();
       this.seek(0); // a stream has already played a moment of the next story
       this.sleepDeadline = null;
@@ -390,6 +401,40 @@ export class BedtimePlayer extends Player {
   }
 
   // ---- internals ----
+
+  /**
+   * On a stream the index can lag the playhead by several stories: a throttled locked phone gets
+   * no timeupdate for minutes, and only the automatic next() follows the playhead by itself. Every
+   * user action and bookkeeping step calls this first, so it works from the story actually
+   * playing. It only makes that story current (Player.follow): no afterTrackChange, which would
+   * restart the 8 s load rule for a stream that is already playing.
+   *
+   * While a timer stop waits at the end of the current story, the playhead being past it means
+   * that boundary has gone by: it stops now (next(), which stops at the playhead's story) and
+   * returns true, and the caller does nothing more.
+   */
+  private syncToPlayhead(): boolean {
+    if (!this.streaming) return false;
+    const at = this.trackAt(this.el.currentTime);
+    if (at <= this.state().index) return false;
+    if (this.holdAtBoundary) {
+      void this.next();
+      return true;
+    }
+    this.follow(at);
+    return false;
+  }
+
+  /** The index lags the playhead (see syncToPlayhead). */
+  private lagging(): boolean {
+    return this.streaming && this.trackAt(this.el.currentTime) > this.state().index;
+  }
+
+  /** No position state for a story the playhead has left: the sync that follows reports it. */
+  protected override updatePositionState(force = false): void {
+    if (this.lagging()) return;
+    super.updatePositionState(force);
+  }
 
   /** The stream has played to its end (the element ended, or paused within a moment of it). */
   private streamEnded(): boolean {
@@ -488,6 +533,7 @@ export class BedtimePlayer extends Player {
       clearInterval(this.tickTimer);
       this.tickTimer = null;
     }
+    if (!this.el.paused && this.syncToPlayhead()) return;
     if (this.sleepDeadline !== null && now >= this.sleepDeadline && !this.el.paused) {
       this.sleepDeadline = null;
       const s = this.state();
@@ -629,6 +675,9 @@ export class BedtimePlayer extends Player {
     const now = Date.now();
     if (!force && now - this.lastSave < 1000) return;
     this.lastSave = now;
+    // The story under the playhead, not a lagging index. (A pending timer stop past its boundary
+    // moves to the playhead's story at once, too: next() goes there before its first await.)
+    this.syncToPlayhead();
     const s = this.state();
     const session: Session = {
       v: 1,
