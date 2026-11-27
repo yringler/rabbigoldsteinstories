@@ -58,5 +58,6 @@ The same transcript, one `[mm:ss.xx] text` line per segment.
 | `media_catalog.csv` | 15 | Non-audio files: id, original_path, key (`goldstein/media/…`), public url, content_type, size, etag |
 | `transcripts_index.csv` | 1,184 | Transcript QA stats and flags |
 | `probable_duplicates.csv` | | Audio-fingerprint pairs with a `relation` label |
+| `audio_frames.csv` | 2,368 | MP3 frame table per audio file, for HLS (`docs/design/hls.md`): id, variant (`original` \| `clean`), first_byte, frame_count, bitrate_kbps, sample_rate, size_bytes. Written by `tools/4-r2/scan_audio_frames.py` from the public host; rerun it after uploading or re-encoding audio (a row whose size no longer matches is ignored). |
 
 Audio key in R2: `goldstein/` + `out_path` (for example `goldstein/audio/Maaseh Rav/….mp3`).

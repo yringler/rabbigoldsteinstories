@@ -99,7 +99,7 @@ def main():
         results = list(ex.map(scan, rows))
     ok = sorted((r for r in results if r[2]), key=lambda r: (r[0], r[1]))
     bad = [r for r in results if not r[2]]
-    with open(OUT, "w", newline="", encoding="utf-8") as f:
+    with open(OUT, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, lineterminator="\n")
         w.writerow(["id", "variant", "first_byte", "frame_count", "bitrate_kbps", "sample_rate", "size_bytes"])
         for id_, variant, d, _ in ok:

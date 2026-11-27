@@ -20,6 +20,9 @@ def cp(src, dst):
 
 
 KEEP = {"README.md", "CLAUDE.md"}  # hand-written guides survive a refresh
+# Repo-only files (their source of truth is the repo, not the PC): the HLS frame table and its scanner
+# (docs/design/hls.md). Rerun tools/4-r2/scan_audio_frames.py in the repo after uploading audio.
+KEEP |= {"audio_frames.csv", "scan_audio_frames.py"}
 
 
 def fresh(d):

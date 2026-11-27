@@ -203,7 +203,7 @@ Bump `RECIPE_VERSION` (`contract.ts`, now 4) when selection changes. Future edit
 | `goldstein-api` | no route, `workers_dev: false` | `goldstein-api-staging` | KV `EDITIONS`, hourly cron. Reached only through service bindings. |
 | `goldstein-bedtime` / `-kids` / `-library` / `-home` | custom domain from `SITES` | `*-staging`, `routes: []`, bound to `goldstein-api-staging` | Assets from `dist/`; `run_worker_first: ["/playlists/*", "/api/*"]`. |
 
-**Audio**: `<audio src>` points straight at `storiesmedia.torahlearningtools.com`, which supports range requests. The host sends no CORS headers, so don't `fetch()` audio (a waveform, for example) without adding a CORS rule to the bucket first.
+**Audio**: `<audio src>` points straight at `storiesmedia.torahlearningtools.com`, which supports range requests and has a CORS rule (any origin, GET/HEAD, `range`). Bedtime plays a playlist as one HLS stream: `goldstein-api` serves `/playlists/hls.m3u8?v=o|c&i=…`, a VOD playlist of byte ranges of those files built from `units.json`'s `frames` (from `data/catalog/audio_frames.csv`). Safari plays it natively, other browsers through hls.js (`@goldstein/player` `stream.ts`), and the player falls back to one file per story on failure. See `docs/design/hls.md`.
 
 **CI** (`.github/workflows/ci.yml`, every PR and every push to `main`): one job, so the 150 MB checkout happens once.
 1. format check;
