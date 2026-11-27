@@ -431,6 +431,36 @@ describe("AI-improved sound (docs/design/ai-audio.md §2.5)", () => {
     expect(p.source).toBe("original");
   });
 
+  it("a failed clean stream doesn't block a story's own clean file after a fallback to files", async () => {
+    const stream = (id: string, start: number, end: number): Track => ({
+      id,
+      title: id,
+      url: "https://s/hls.m3u8?v=o",
+      clean_url: "https://s/hls.m3u8?v=c",
+      start_sec: start,
+      end_sec: end,
+    });
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    // One story is enough: a stream is shared by nature, even when the playlist has one story.
+    await p.load([stream("aaaaaaaaaa", 0, 600)]);
+    a.fire("error"); // the clean stream fails
+    expect(a.src).toBe("https://s/hls.m3u8?v=o");
+    // The site falls back to one file per story: the story's own clean file still plays.
+    await p.load([
+      {
+        id: "aaaaaaaaaa",
+        title: "a",
+        url: "https://m/a.mp3#t=0,600",
+        clean_url: "https://m/clean/a.mp3#t=0,600",
+        start_sec: 0,
+        end_sec: 600,
+      },
+    ]);
+    expect(a.src).toBe("https://m/clean/a.mp3#t=0,600");
+    expect(p.source).toBe("clean");
+  });
+
   it("an error on the original reaches the site handlers", async () => {
     const a = new FakeAudio();
     const p = new Player({ audio: a, mediaSession: null, preferClean: true });

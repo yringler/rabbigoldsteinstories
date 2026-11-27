@@ -14,7 +14,7 @@
  *   none    no HLS: the site plays story by story, as before.
  */
 import type Hls from "hls.js";
-import type { AudioLike } from "./player.ts";
+import { isStreamUrl, type AudioLike } from "./player.ts";
 
 export type StreamEngine = "native" | "hlsjs" | "none";
 type HlsClass = typeof Hls;
@@ -46,14 +46,6 @@ export async function loadHlsJs(): Promise<HlsClass | null> {
     return mod.default.isSupported() ? mod.default : null;
   } catch {
     return null;
-  }
-}
-
-function isStreamUrl(url: string): boolean {
-  try {
-    return new URL(url, "https://x.invalid").pathname.endsWith(".m3u8");
-  } catch {
-    return false;
   }
 }
 

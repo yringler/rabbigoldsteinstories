@@ -96,6 +96,15 @@ export interface PlayerOptions {
   preferClean?: boolean;
 }
 
+/** An HLS stream (`.m3u8`): tracks that are ranges of one source rather than files. */
+export function isStreamUrl(url: string): boolean {
+  try {
+    return new URL(url, "https://x.invalid").pathname.endsWith(".m3u8");
+  } catch {
+    return false;
+  }
+}
+
 /** Give up waiting for the swapped-in source after this long and clear isSwapping anyway. */
 const SWAP_TIMEOUT_MS = 5000;
 /** Report the lock screen's position state at most this often while playing (seeks report at once). */
@@ -121,7 +130,10 @@ export class Player {
   private finishedIndex = -1;
   private readonly session: MediaSession | null;
   private preferClean: boolean;
-  /** Ids whose clean copy failed to load this visit (not persisted). */
+  /**
+   * Ids whose own clean file failed to load this visit (not persisted). Not set by a failed shared
+   * source (a stream): that is in failedCleanUrls only.
+   */
   private readonly failedClean = new Set<string>();
   /**
    * Clean URLs that failed this visit: in a stream every track shares one clean_url, so a broken
@@ -426,8 +438,15 @@ export class Player {
     const t = this.current;
     if (!t || this.loaded !== "clean") return;
     e.stopImmediatePropagation();
-    this.failedClean.add(t.id);
     if (t.clean_url) this.failedCleanUrls.add(t.clean_url);
+    // A shared source (a stream, or a clean_url other tracks use too) failed, not this recording's
+    // own clean file: blocking the id would keep it off the clean file after a site falls back to
+    // one file per story.
+    const shared =
+      t.clean_url !== undefined &&
+      (isStreamUrl(t.clean_url) ||
+        this.queue.filter((x) => x.clean_url === t.clean_url).length > 1);
+    if (!shared) this.failedClean.add(t.id);
     // After a failed load currentTime may read 0; lastTime is the position we were at or seeking to.
     // A stream that gave up knows its last good time better: both its recovery and its teardown
     // reset the element's time to 0.
