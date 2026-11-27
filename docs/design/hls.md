@@ -46,7 +46,9 @@ The playlist is RFC 8216 VOD (`EXT-X-ENDLIST`), version 4:
 - **Segments** are `EXT-X-BYTERANGE` slices of the files on R2, about 30 s each; a tail under 8 s is merged into the one before. Nothing is re-encoded or copied.
 - **Discontinuities:** `EXT-X-DISCONTINUITY` sits between stories, except where the next story continues the same file at the next byte (consecutive spans join seamlessly).
 - **Story cuts** fall on frame boundaries, about 26 ms. Story `i` is cut so that it ends within half a frame of `Σ (end_sec − start_sec)` over stories `0..i`. That holds for both copies, so the client computes story times with `hlsChapters(items)`, with no frame tables.
-- **ID3 timestamps:** the segments carry none. RFC 8216 §3.4 asks for an ID3 PRIV timestamp on packed audio; hls.js doesn't need one (checked in Chromium). **Not yet confirmed on Safari:** if Safari refuses them, the player falls back to one file per story, and a Worker can prepend a 73-byte tag to each segment (the lab page in this branch's history, `worker/lab.ts`, had the code and a test page for both variants).
+- **Mixed copies (`v=c`):** the clean stream uses the clean copy and its frame table for each story that has one, and the original for a story that doesn't. Each story is cut on its own file's frame grid, so the boundaries above still hold.
+- **Only live tracks:** every item must be a current track of the pool (its `start_sec` or `intro_start_sec` to `end_sec`) in a unit that `overrides.json` doesn't exclude, the same rule as `tombstone()`. Otherwise the stream is a 404 and the client plays story by story.
+- **ID3 timestamps (check this first on an iPhone):** the segments carry none, although RFC 8216 §3.4 requires an ID3 PRIV timestamp (`com.apple.streaming.transportStreamTimestamp`) on every packed-audio segment. hls.js doesn't need one (checked in Chromium). **Safari is not yet confirmed.** If it refuses untagged segments, every iPhone silently falls back to one file per story, so the stream brings no benefit there. The fix is a Worker that serves the segments and prepends a 73-byte tag to each one (the lab page in this branch's history, `worker/lab.ts`, had the code and a test page for both variants); it isn't built, because it would put every audio byte through a Worker.
 - **Join clicks:** a decoder may click faintly where a story is cut out of an episode, because of the MP3 bit reservoir. It's inaudible in practice.
 
 The R2 bucket has a CORS rule (`*`, GET/HEAD, header `range`, exposing `Content-Length, Content-Range, Accept-Ranges`). hls.js needs it; Safari's built-in player doesn't.
@@ -61,16 +63,16 @@ The R2 bucket has a CORS rule (`*`, GET/HEAD, header `range`, exposing `Content-
 **`StreamAudio`** is the `AudioLike` the Player drives. It hands `.m3u8` sources to hls.js and everything else to the element. A stream that fails twice fires `error` on the element.
 
 **Bedtime** (`bedtime-player.ts`):
-- **Each story is a Track.** Its `url` is the stream (`clean_url` is the clean stream, when every story has a clean copy) and its `start_sec`/`end_sec` are the story's times on the stream. The Player is otherwise unchanged.
+- **Each story is a Track.** Its `url` is the stream (`clean_url` is the clean stream, when at least one story has a clean copy; the API mixes copies per story) and its `start_sec`/`end_sec` are the story's times on the stream. A clean stream that fails is remembered by URL, so no later story loads it again.
 - **Next and previous** are seeks.
-- **A story ending** is noticed on `timeupdate`, with no change of source and no seek (`Player.goTo` skips a seek when the playhead is already there). If several stories passed without a `timeupdate` (a throttled locked phone), the player follows the playhead (`Player.follow`, `trackAt`) rather than seeking back.
+- **A story ending** is noticed on `timeupdate`, with no change of source and no seek (`Player.goTo` skips a seek when the playhead is already there). If several stories passed without a `timeupdate` (a throttled locked phone), the player follows the playhead (`Player.follow`, `trackAt`) rather than seeking back. Once the stream has played, a new story is no new load: a later stall waits and never triggers the 8 s fallback.
 - **"Stop after this story"** (the iOS sleep timer) pauses at the boundary. The stream will have played a moment of the next story, so the player seeks back to that story's start. The 4-minute hard stop still applies.
 - **AI-improved sound** swaps between the two streams at the same position.
-- **Fallback:** any stream failure (an `error` event, or nothing playing after 8 s) switches to one file per story, at the same story and position, for the rest of the visit. Failures include no built-in HLS and no hls.js, a 404 because a recording has no frame table, or the network.
+- **Fallback:** any stream failure (an `error` event, or nothing playing after 8 s from a load) switches to one file per story, at the same story and position, for the rest of the visit. The story is the one under the playhead (`trackAt`), not the current index, which can lag on a locked phone; after hls.js gives up, the position comes from `StreamAudio.lastStreamTime`, because destroying hls.js resets the element's time to 0. Failures include no built-in HLS and no hls.js, a 404 because a recording has no frame table, or the network.
 - **The session snapshot is unchanged:** playlist, story index, position in the story.
 
 The service worker never caches `/playlists/hls.m3u8`; audio isn't cached either.
 
 ## 5. Testing on devices
 
-Lock the phone during a story and wait past at least two story boundaries. Check both a Safari tab and the home-screen app on iPhone, plus Chrome on Android. The lock screen should show each new title (it may lag on iOS), and next/previous should work from the lock screen.
+On an iPhone, first check that the stream plays at all (the ID3 question in §3): if the player falls back to files at once, the segments need the ID3 tag. Then lock the phone during a story and wait past at least two story boundaries. Check both a Safari tab and the home-screen app on iPhone, plus Chrome on Android. The lock screen should show each new title (it may lag on iOS), and next/previous should work from the lock screen.
