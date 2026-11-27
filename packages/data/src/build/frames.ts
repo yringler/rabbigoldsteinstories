@@ -29,6 +29,9 @@ export function loadFrameRows(root: string): Map<string, Mp3Frames & { size_byte
   if (idx.some((i) => i < 0)) throw new Error(`${p}: expected columns ${names.join(",")}`);
   for (const r of rows) {
     const [id, variant, ...nums] = idx.map((i) => r[i]?.trim() ?? "");
+    if (!id || (variant !== "original" && variant !== "clean")) continue;
+    // Whole numbers only: Number("") is 0, which would pass as a real offset or size.
+    if (!nums.every((n) => /^\d+$/.test(n))) continue;
     const [first_byte, frame_count, bitrate_kbps, sample_rate, size_bytes] = nums.map(Number) as [
       number,
       number,
@@ -36,8 +39,8 @@ export function loadFrameRows(root: string): Map<string, Mp3Frames & { size_byte
       number,
       number,
     ];
-    if (!id || (variant !== "original" && variant !== "clean")) continue;
-    if (![first_byte, frame_count, bitrate_kbps, sample_rate, size_bytes].every(Number.isInteger)) continue;
+    if (!(first_byte >= 0 && frame_count > 0 && bitrate_kbps > 0 && sample_rate > 0 && size_bytes > 0))
+      continue;
     out.set(`${id}:${variant}`, { first_byte, frame_count, bitrate_kbps, sample_rate, size_bytes });
   }
   return out;
