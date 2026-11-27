@@ -35,7 +35,7 @@ const items: HlsItem[] = [
 
 const source =
   (fail?: string) =>
-  (id: string, v: "original" | "clean"): HlsSource | null =>
+  ({ id }: HlsItem, v: "original" | "clean"): HlsSource | null =>
     id === fail
       ? null
       : { url: `https://media.example/${id}.mp3`, frames: v === "clean" ? CLEAN : ORIGINAL };
@@ -94,6 +94,31 @@ describe("HLS stream", () => {
         expect(Math.abs(e - chapters[i]!.end)).toBeLessThanOrEqual(half + 1e-6),
       );
     }
+  });
+
+  it("a clean stream that mixes copies per item still cuts every story within half a frame", () => {
+    // The API's clean stream plays the original for items without a clean copy.
+    const noClean = new Set(["bbbbbbbbbb", "dddddddddd"]);
+    const mixed = ({ id }: HlsItem, v: "original" | "clean"): HlsSource => {
+      const clean = v === "clean" && !noClean.has(id);
+      return {
+        url: `https://media.example/${clean ? "clean/" : ""}${id}.mp3`,
+        frames: clean ? CLEAN : ORIGINAL,
+      };
+    };
+    const text = buildHlsPlaylist(items, "clean", mixed)!;
+    expect(text).toContain("https://media.example/clean/aaaaaaaaaa.mp3");
+    expect(text).toContain("https://media.example/bbbbbbbbbb.mp3");
+    const chapters = hlsChapters(items);
+    const ends = storyEnds(
+      text,
+      chapters.map((c) => c.start),
+    );
+    expect(ends).toHaveLength(items.length);
+    ends.forEach((e, i) => {
+      const half = frameSec(noClean.has(items[i]!.id) ? ORIGINAL : CLEAN) / 2;
+      expect(Math.abs(e - chapters[i]!.end)).toBeLessThanOrEqual(half + 1e-6);
+    });
   });
 
   it("writes a VOD playlist of byte ranges, with a discontinuity only between non-contiguous ranges", () => {

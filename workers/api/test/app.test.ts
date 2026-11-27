@@ -142,9 +142,46 @@ describe("goldstein-api: HLS stream", () => {
     expect(deps.kv.data.size).toBe(0);
   });
 
-  it("404s a recording without a frame table or a clean copy, 400s a malformed query", async () => {
-    expect((await get(`/playlists/hls.m3u8?v=c&${q}`, deps)).status).toBe(404);
+  it("404s a recording without a frame table or a range that is not a track, 400s a malformed query", async () => {
     expect((await get(`/playlists/hls.m3u8?v=o&i=fedcba9876~0~10`, deps)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&i=${t.id}~1~10`, deps)).status).toBe(404);
     expect((await get(`/playlists/hls.m3u8?v=o&i=nope`, deps)).status).toBe(400);
+  });
+
+  it("v=c mixes per item: the clean copy where there is one, the original elsewhere", async () => {
+    const u = pool.units[1]!.tracks[0]!;
+    const clean = {
+      ...frames,
+      clean: { first_byte: 45, frame_count: 400_000, bitrate_kbps: 128, sample_rate: 48_000 },
+    };
+    const cleanUrl = t.audio_url.replace(".example/", ".example/clean/");
+    const mixed = {
+      kv: fakeKv(),
+      pool: {
+        ...pool,
+        units: pool.units.map((x, n) =>
+          n === 0
+            ? { ...x, tracks: x.tracks.map((y) => ({ ...y, clean_audio_url: cleanUrl })) }
+            : x,
+        ),
+        frames: { [t.id]: clean, [u.id]: frames },
+      },
+      overrides: {},
+    };
+    const r = await get(`/playlists/hls.m3u8?v=c&${q}_${u.id}~${u.start_sec}~${u.end_sec}`, mixed);
+    expect(r.status).toBe(200);
+    const urls = new Set((await r.text()).split("\n").filter((l) => l.startsWith("https://")));
+    expect([...urls]).toEqual([cleanUrl, u.audio_url]);
+    // A recording without a clean copy streams its original in a clean stream too.
+    expect((await get(`/playlists/hls.m3u8?v=c&${q}`, deps)).status).toBe(200);
+  });
+
+  it("refuses a unit excluded in overrides.json, like tombstone()", async () => {
+    const excluded = {
+      ...deps,
+      overrides: { [pool.units[0]!.unit]: { exclude: true, note: "x" } },
+    };
+    expect((await get(`/playlists/hls.m3u8?v=o&${q}`, excluded)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&${q}`, deps)).status).toBe(200);
   });
 });

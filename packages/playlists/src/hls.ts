@@ -124,12 +124,14 @@ interface Segment {
 
 /**
  * The m3u8 text, or null when an item has no source, an unknown profile, or a range outside its
- * file. `source` is called once per item with the requested variant.
+ * file. `source` is called once per item with the requested variant; it may answer with another
+ * copy (the API's clean stream uses the original for an item without a clean copy). Each story is
+ * cut on its own file's frame grid, so mixing copies keeps every boundary within half a frame.
  */
 export function buildHlsPlaylist(
   items: readonly HlsItem[],
   variant: HlsVariant,
-  source: (id: string, variant: HlsVariant) => HlsSource | null,
+  source: (item: HlsItem, variant: HlsVariant) => HlsSource | null,
 ): string | null {
   if (!items.length) return null;
   const chapters = hlsChapters(items);
@@ -137,7 +139,7 @@ export function buildHlsPlaylist(
   let t = 0;
   let prevEnd = null as { url: string; frame: number } | null;
   for (const [n, item] of items.entries()) {
-    const src = source(item.id, variant);
+    const src = source(item, variant);
     if (!src) return null;
     const f = src.frames;
     const dur = frameSec(f);
