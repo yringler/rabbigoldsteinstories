@@ -31,7 +31,7 @@ first_byte + floor((k * 144000 * bitrate_kbps + phase) / sample_rate)
 
 The phase was measured on every frame of sample files. `tools/4-r2/scan_audio_frames.py` reads the ID3 size and header of each file from the public host with a few range requests. It checks that the file size is a whole number of frames and that 3 random predicted frames start with a frame sync, then writes `id, variant, first_byte, frame_count, bitrate_kbps, sample_rate, size_bytes`.
 - **When to rerun:** after uploading or re-encoding audio, including new clean copies. It needs no credentials. A file that fails this run (often a network error) keeps its previous row, and the script lists it; rerun to refresh it.
-- **Stale rows:** the data build uses a row only when its `size_bytes` matches the current file, so a re-encoded file loses HLS until rescanned instead of streaming wrong bytes.
+- **Stale rows:** the data build uses a row only when its `size_bytes` matches the current file, so a re-encoded file loses HLS until rescanned instead of streaming wrong bytes. A file whose current size is unknown (no `media.size_bytes`, or a clean manifest row without a size) can't be checked, so its row isn't used either; the build log lists both cases.
 - **New profiles:** a new bitrate or sample rate needs its phase added to `PHASE` in both the script and `packages/playlists/src/hls.ts`, after checking it on whole files.
 
 The public pool (`units.json`) carries the table as `frames: { <id>: { original, clean? } }`.

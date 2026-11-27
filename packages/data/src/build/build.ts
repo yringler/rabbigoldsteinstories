@@ -166,7 +166,7 @@ export function build(): BuildResult {
   });
   // MP3 frame tables for HLS (docs/design/hls.md §2), for the recordings the pool plays.
   const poolIds = new Set(pool.units.flatMap((u) => u.tracks.map((t) => t.id)));
-  const { frames, stale } = resolveFrames(publicRecs.map((r) => r.meta), poolIds, clean, loadFrameRows(root));
+  const { frames, stale, unknownSize } = resolveFrames(publicRecs.map((r) => r.meta), poolIds, clean, loadFrameRows(root));
   pool.frames = frames;
   bytes["units.json"] = writeJson(join(out, "units.json"), pool);
 
@@ -196,6 +196,7 @@ export function build(): BuildResult {
   console.log(`clean audio: ${clean.size} public items with an AI-cleaned copy (${cleanManifest.size} in the manifest)`);
   console.log(`hls: frame tables for ${Object.keys(frames).length}/${poolIds.size} pool recordings`);
   if (stale.length) console.log(`hls: frame table size does not match the file, skipped (rerun tools/4-r2/scan_audio_frames.py): ${stale.join(" ")}`);
+  if (unknownSize.length) console.log(`hls: file size unknown (media.size_bytes or the clean manifest's size), frame table not used: ${unknownSize.join(" ")}`);
   if (mismatched.length) {
     console.log(`clean audio: manifest key does not match media.r2_key, skipped: ${mismatched.join(" ")}`);
   }

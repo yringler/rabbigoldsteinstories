@@ -3,8 +3,9 @@
  * (`id,variant,first_byte,frame_count,bitrate_kbps,sample_rate,size_bytes`), written by
  * tools/4-r2/scan_audio_frames.py from the public media host. A row is used only when its
  * size_bytes matches the file the item points at now (media.size_bytes for the original, the clean
- * manifest size for the clean copy), so a re-encoded file never gets a stale table. A missing file
- * means no HLS; the sites then play story by story.
+ * manifest size for the clean copy), so a re-encoded file never gets a stale table. A file whose
+ * current size is unknown can't be checked, so its row is not used either. A missing CSV means no
+ * HLS; the sites then play story by story.
  */
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -46,19 +47,27 @@ export function loadFrameRows(root: string): Map<string, Mp3Frames & { size_byte
   return out;
 }
 
-/** Frame tables for the given ids; a row whose size does not match the current file is skipped. */
+/**
+ * Frame tables for the given ids. A row is skipped when its size does not match the current file
+ * (`stale`) or when the current file's size is unknown (`unknownSize`): both as `<id>:<variant>`.
+ */
 export function resolveFrames(
   metas: readonly RawMeta[],
   ids: ReadonlySet<ItemId>,
   clean: ReadonlyMap<ItemId, CleanCopy>,
   rows: ReadonlyMap<string, Mp3Frames & { size_bytes: number }>,
-): { frames: Record<ItemId, AudioFrames>; stale: string[] } {
+): { frames: Record<ItemId, AudioFrames>; stale: string[]; unknownSize: string[] } {
   const frames: Record<ItemId, AudioFrames> = {};
   const stale: string[] = [];
+  const unknownSize: string[] = [];
   const pick = (id: ItemId, v: Variant, size: number | undefined): Mp3Frames | null => {
     const r = rows.get(`${id}:${v}`);
     if (!r) return null;
-    if (size !== undefined && r.size_bytes !== size) {
+    if (size === undefined) {
+      unknownSize.push(`${id}:${v}`);
+      return null;
+    }
+    if (r.size_bytes !== size) {
       stale.push(`${id}:${v}`);
       return null;
     }
@@ -73,5 +82,5 @@ export function resolveFrames(
     const cf = c ? pick(m.id, "clean", c.size_bytes) : null;
     frames[m.id] = cf ? { original, clean: cf } : { original };
   }
-  return { frames, stale };
+  return { frames, stale, unknownSize };
 }
