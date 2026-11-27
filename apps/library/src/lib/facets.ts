@@ -431,8 +431,10 @@ export function parseState(params: URLSearchParams, facetKeys: readonly string[]
   for (const k of facetKeys) {
     let any = list(params.get(k));
     if (k === "lang" && any.includes("any")) {
-      s.langAny = true;
-      any = [];
+      // `lang=any` alone: no filter, on purpose. Mixed with real values (`lang=any,yi`), the real
+      // values win, as they would after a toggle.
+      any = any.filter((v) => v !== "any");
+      s.langAny = any.length === 0;
     }
     const not = list(params.get(`${k}.not`));
     const all = params.get(`${k}.mode`) === "all";

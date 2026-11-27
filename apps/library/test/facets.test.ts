@@ -168,6 +168,10 @@ describe("URL state", () => {
     expect(toQuery(t, keys)).toContain("lang=yi");
     expect(toQuery(t, keys)).not.toContain("lang=any");
     expect(parseState(new URLSearchParams("lang=yi"), keys).langAny).toBe(false);
+    // `any` mixed with a real value: the real value is kept, not dropped.
+    const mixed = parseState(new URLSearchParams("lang=any,yi"), keys);
+    expect(mixed.langAny).toBe(false);
+    expect(mixed.sel["lang"]?.any).toEqual(["yi"]);
   });
 
   it("toggling moves a value between include and exclude and resets the page", () => {

@@ -67,7 +67,7 @@ export const langParamSetsPref = (path: string): boolean => !/^\/search(\/|$)/.t
 /** Polite status line after the visitor changes the setting. */
 export function statusLine(lang: LangPref): string {
   if (lang === "any") return "Language setting: Both. Lists show English and Yiddish.";
-  return `Language setting: ${LANG_NAMES[lang]}. Lists show ${LANG_NAMES[lang]} recordings first; recording pages always show everything.`;
+  return `Language setting: ${LANG_NAMES[lang]}. Search and lists show ${LANG_NAMES[lang]} recordings, with a note about the rest; recording pages always show everything.`;
 }
 
 // ---------------------------------------------------------------------------------------------

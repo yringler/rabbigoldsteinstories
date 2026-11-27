@@ -462,6 +462,20 @@ function bindDocument(): void {
     e.preventDefault();
   });
   document.addEventListener("keydown", onKey);
+  // Escape closes the header language disclosure and returns focus to its summary.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const ctl = $<HTMLDetailsElement>("details[data-lang-ctl][open]");
+    if (!ctl) return;
+    ctl.open = false;
+    $<HTMLElement>("summary", ctl)?.focus();
+  });
+  // Any change of the setting (header, /help, /about, or the /search "Make … my language setting"
+  // button) re-checks every control on the page; another tab's change arrives as a storage event.
+  document.addEventListener("gsl:lang", syncLang);
+  window.addEventListener("storage", (e) => {
+    if (e.key === "goldstein:library:lang") syncLang();
+  });
   document.addEventListener("change", (e) => {
     const t = e.target;
     if (t instanceof HTMLInputElement && t.matches("[data-shortcuts-off]"))
