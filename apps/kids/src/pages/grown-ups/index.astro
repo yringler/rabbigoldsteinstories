@@ -5,6 +5,7 @@ import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import {
   CONTACT_EMAIL,
+  ORDER,
   PROJECT_CREDIT,
   SITES,
   SUGGESTED_FEE,
@@ -103,6 +104,20 @@ const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0)
         Titles, summaries, lessons and content notes were written with the help of AI and may
         contain mistakes. Nothing here is a transcript: written transcripts are in the reference
         library.
+      </p>
+    </section>
+
+    <section class="gu-card" aria-labelledby="order-h">
+      <h2 id="order-h">More recordings to buy</h2>
+      <p>
+        Many more recordings aren't on this site, among them the full{" "}
+        <i>Story Time With Uncle Yossi</i> albums. {ORDER.seller} sells them as MP3 downloads.{" "}
+        {ORDER.note}
+      </p>
+      <p>
+        <a class="btn" href={ORDER.url}>
+          Order MP3 downloads
+        </a>
       </p>
     </section>
 
