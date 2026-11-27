@@ -76,10 +76,15 @@ for f in ("serials_index.json", "story_groups.json", "series_summaries.json"):
     cp(os.path.join(META, "pass2", f), d("indexes", f))
 
 # ---- review lists and docs
+# review/ holds only the three lists below plus README.md (KEEP), so it is refreshed whole.
 fresh(os.path.join(REPO, "review"))
 for f in ("to_confirm.csv", "family_recordings.csv", "REVIEW_QUEUE.md"):
     cp(os.path.join(META, "pass2", f), os.path.join(REPO, "review", f))
-fresh(os.path.join(REPO, "docs"))
+# docs/ is mostly written in the repo (README.md, ARCHITECTURE.md, LOST_EPISODES.md, design/, sites/, ...),
+# so only what this script writes is replaced: the five reports below (overwritten) and docs/runs/ (refreshed
+# whole). Everything else in docs/ is kept. DECISIONS.md has been edited in the repo since the first export:
+# bring the PC copy up to date first, or check `git diff docs/DECISIONS.md` before committing.
+fresh(os.path.join(REPO, "docs", "runs"))
 for src in (os.path.join(ARCH, "PIPELINE_REPORT.md"), os.path.join(META, "SCHEMA_PROPOSAL.md"), os.path.join(META, "DECISIONS.md"),
             os.path.join(META, "PASS1_INSTRUCTIONS.md"), os.path.join(META, "PASS2_REPORT.md")):
     cp(src, os.path.join(REPO, "docs", os.path.basename(src)))
