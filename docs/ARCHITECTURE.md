@@ -115,7 +115,7 @@ Binding rules (DECISIONS 1–3; root `CLAUDE.md`): nothing from `hidden`, `sourc
 - **`@goldstein/config`**: `tsconfig.base.json`, and `sites.ts`:
   - `SITES` (name, Worker, host, `itemPath`), `itemUrl(site, id)` for cross-site links;
   - `CONTACT_EMAIL = "admin@torahlearningtools.com"`, `MEDIA_HOST`, `DEV_API_ORIGIN`.
-  - Placeholder names (owner): "Lights Out Stories", "Story Shelf", "The Goldstein Story Archive". Renaming is a one-line change.
+  - Placeholder names (owner): "Bedtime Stories", "Story Shelf", "The Goldstein Story Archive". Renaming is a one-line change.
   - A test checks that every `apps/*/wrangler.jsonc` matches this table.
 - **`@goldstein/data`**: the public contract (types, `formatDuration`, `slugify`, `idFromSlug`), the build, the gate, the unit pool.
 - **`@goldstein/playlists`**:

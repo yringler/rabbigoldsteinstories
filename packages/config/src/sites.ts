@@ -52,7 +52,7 @@ export const DEV_API_ORIGIN = "http://localhost:8787";
 export const SITES: Readonly<Record<SiteId, SiteInfo>> = {
   bedtime: {
     id: "bedtime",
-    name: "Lights Out Stories",
+    name: "Bedtime Stories",
     worker: "goldstein-bedtime",
     host: "bedtimestories.torahlearningtools.com",
     itemPath: null,

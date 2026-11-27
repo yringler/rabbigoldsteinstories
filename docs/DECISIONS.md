@@ -66,7 +66,7 @@ All questions are now answered.
 - **Kids' "Little" age band also admits `age_min = 5` items that have no advisories.**
 - **Contact for lost tapes and other enquiries: `admin@torahlearningtools.com`.** For now, a single shared constant (e.g. `CONTACT_EMAIL` in the shared site config package) that every site reads; no contact form yet.
 - **"The Plot That Boomeranged"**: `333ab07731` and `5ae5c959ac` are the same telling (transcripts match word for word; `5ae5c959ac` plays ~1.7% faster). Linked as `same_recording`; `5ae5c959ac` is `superseded_by` `333ab07731` (shown as "other version"). The "(2)" filename suffix is on the copy whose original was not named "2"; harmless.
-- **Site names: placeholders until there is a product owner.** Bedtime: "Lights Out Stories"; kids: "Story Shelf"; reference: "The Goldstein Story Archive". Keep them in one shared constant so renaming is a one-line change.
+- **Site names: placeholders until there is a product owner.** Bedtime: "Bedtime Stories" (renamed from "Lights Out Stories", 2026-11-27); kids: "Story Shelf"; reference: "The Goldstein Story Archive". Keep them in one shared constant so renaming is a one-line change.
 - **Cloudflare Workers are fine** (the library concept's "no server" was not a requirement). Dynamic pieces (playlists, search fallback) may use Workers, KV, D1 or cron.
 - **Hidden passages as marked are acceptable**, even where they blank most of a transcript. No need to narrow the spans.
 - **First names that also occur in public text (42 recordings): fine as is.**
