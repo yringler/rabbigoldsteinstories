@@ -1,0 +1,30 @@
+---
+// Language preference control (docs/design/language-bedtime.md §2.2, §6): three native radios in a
+// fieldset, on / and /about. scripts/lang.ts checks the stored value and saves changes; the page
+// layout follows <html data-lang> through CSS. Rendered only when the Yiddish shelf has stories.
+import { LANG_LABELS, LANGS, YIDDISH_WORD } from "../lib/lang.ts";
+---
+
+<fieldset class="lang-control" data-lang-control>
+  <legend class="lang-legend">Stories in</legend>
+  <div class="lang-pills">
+    {LANGS.map((l) => (
+      <label>
+        <input type="radio" name="lang" value={l} checked={l === "en"} />
+        <span>
+          {l === "yi" ? (
+            <>
+              Yiddish /{" "}
+              <span lang="yi" dir="rtl">
+                {YIDDISH_WORD}
+              </span>
+            </>
+          ) : (
+            LANG_LABELS[l]
+          )}
+        </span>
+      </label>
+    ))}
+  </div>
+  <p class="lang-status" data-lang-status role="status" aria-live="polite"></p>
+</fieldset>

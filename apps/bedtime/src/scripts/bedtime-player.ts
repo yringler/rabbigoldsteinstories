@@ -21,7 +21,7 @@ import {
   type Session,
   type TimerSetting,
 } from "../lib/session.ts";
-import { narratorLabel } from "../lib/ui.ts";
+import { narratorLabel, uiOf } from "../lib/ui.ts";
 import { store } from "./store.ts";
 
 export type Phase = "idle" | "loading" | "playing" | "paused" | "asleep" | "ended" | "error";
@@ -357,7 +357,7 @@ export class BedtimePlayer extends Player {
         end_sec: i.end_sec,
         ...(artist ? { artist } : {}),
         album: `${p.title} · ${this.when}`,
-        artwork: `/icons/${p.type}-512.png`,
+        artwork: `/icons/${uiOf(p.type).type}-512.png`,
       };
     });
   }

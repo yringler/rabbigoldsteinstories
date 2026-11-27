@@ -15,9 +15,8 @@ import {
   listEntries,
   minutes,
   narratorLabel,
-  TYPE_BY_ID,
-  TYPES,
-  type TypeUi,
+  uiOf,
+  type AnyUi,
 } from "../lib/ui.ts";
 import type { BedtimePlayer, BedtimeState } from "./bedtime-player.ts";
 import { store } from "./store.ts";
@@ -25,7 +24,7 @@ import { store } from "./store.ts";
 const $ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) =>
   root.querySelector<T>(sel);
 
-const typeUi = (p: Playlist | null): TypeUi => TYPE_BY_ID[p?.type ?? ""] ?? TYPES[2]!;
+const typeUi = (p: Playlist | null): AnyUi => uiOf(p?.type);
 
 function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,

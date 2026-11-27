@@ -20,6 +20,8 @@ import {
   listEntries,
   nightLabel,
   TYPES,
+  uiOf,
+  YIDDISH_UI,
 } from "../src/lib/ui.ts";
 
 const item = (over: Partial<PlaylistItem> = {}): PlaylistItem => ({
@@ -184,5 +186,17 @@ describe("site worker", () => {
     expect(isDeepLink("/p/2026-11-25-pm/little/")).toBe(true);
     expect(isDeepLink("/p/../secret")).toBe(false);
     expect(isDeepLink("/p/2026-11-25/")).toBe(false);
+  });
+});
+
+describe("uiOf", () => {
+  it("returns the Yiddish shelf's entry, the type's entry, or Big Kids for unknown types", () => {
+    expect(uiOf("yiddish")).toBe(YIDDISH_UI);
+    expect(YIDDISH_UI.color).toBe("#E8CF8A");
+    for (const t of TYPES) expect(uiOf(t.type)).toBe(t);
+    expect(uiOf("season").type).toBe("big");
+    expect(uiOf(undefined).type).toBe("big");
+    // TYPES stays the recipes' list: the shelf is not a generated playlist type
+    expect(TYPES.map((t) => t.type as string)).not.toContain("yiddish");
   });
 });

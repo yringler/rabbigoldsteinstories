@@ -3,7 +3,7 @@
  * - the playlist JSON under /playlists/: network first, cache only when offline (a removed story
  *   must disappear at once; the cache is just for showing the last known cards offline);
  * - audio is never cached (no CORS on the media host: opaque responses break range requests). */
-const VERSION = "v3";
+const VERSION = "v4";
 const SHELL = `bedtime-shell-${VERSION}`;
 const DATA = `bedtime-data-${VERSION}`;
 const PAGES = ["/", "/earlier/", "/about/", "/landing/", "/manifest.webmanifest", "/favicon.svg"];

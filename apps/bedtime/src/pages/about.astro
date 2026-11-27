@@ -9,10 +9,21 @@ import {
   supportUrl,
 } from "@goldstein/config/sites";
 import { loadManifest } from "@goldstein/data/load";
+import LangControl from "../components/LangControl.astro";
+import { resolveShelf } from "../lib/build/yiddish.ts";
+import { CONFIRMED_NARRATORS, numberWord } from "../lib/yiddish-shelf.ts";
 import Base from "../layouts/Base.astro";
 
 // AI-improved sound paragraph only once the switch exists (docs/design/ai-audio.md §3.1).
 const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
+
+// Stories in Yiddish (docs/design/language-bedtime.md §5): counts from the built shelf, never typed.
+const shelf = resolveShelf();
+const bubby = shelf.filter((i) => i.narrator === CONFIRMED_NARRATORS["bubby_chaya_malka"]).length;
+const bubbyClause =
+  bubby === 0
+    ? ""
+    : `, ${bubby * 2 > shelf.length ? "most of them" : "some of them"} told by Bubby Chaya Malka, Uncle Yossi's mother, to her grandchildren`;
 ---
 
 <Base page="about" title="For parents">
@@ -53,6 +64,23 @@ const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
       Tap a playlist, set the sleep timer, and put the phone down. The screen goes dark by itself.
       To keep the site one tap away, use your browser's “Add to Home Screen”.
     </p>
+
+    {shelf.length > 0 && (
+      <>
+        <h2>Stories in Yiddish</h2>
+        <p>
+          Most of the recordings are in English. There are also {numberWord(shelf.length)} Yiddish
+          stories for young children{bubbyClause}. Choose Yiddish or Both to see them on the Tonight
+          page.
+        </p>
+        <LangControl />
+        <p>
+          For older listeners there are Rabbi Yosef Goldstein's Tanya shiurim and a Haggadah in
+          Yiddish, in <a href={siteUrl("library", "/?lang=yi")}>{SITES.library.name}</a> and{" "}
+          <a href={siteUrl("kids", "/?lang=yi")}>{SITES.kids.name}</a>.
+        </p>
+      </>
+    )}
 
     <h2>More stories</h2>
     <p>

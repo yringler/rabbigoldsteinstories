@@ -89,6 +89,7 @@ The player is a sheet over any route, not a route.
 - Each card: icon, name, one-line description, "about 2 hours · ages N+". Nothing else. No story titles, no counts, no art thumbnails.
 - A small "⋯" on the card opens the track list without playing (same list as in the player).
 - The page renders from the edition JSON alone. No catalog download.
+- **Optional Yiddish card** (section 10): only when a parent has chosen Yiddish or Both. Both adds it as a seventh card after Radio Night; Yiddish puts it first and folds the six English cards under a "Tonight in English" button. With the default, English, the page is exactly as above.
 
 ### 2.2 Player sheet
 
@@ -499,7 +500,7 @@ The privacy gate (`npm run privacy:gate`) must scan `/playlists/**` too: no key 
 
 - No search, browse, tags, series pages, transcripts or item pages. Those belong to the kids' and library sites; this site links to them from `/about` only.
 - No accounts, sync, favourites, ratings, comments or sharing widgets.
-- No Yiddish, no shiurim, no rallies, no family recordings in any playlist.
+- No Yiddish, no shiurim, no rallies, no family recordings in any **generated** playlist. A fixed, opt-in Yiddish shelf exists (section 10); it is not a generated playlist.
 - No editing, trimming, bleeping, speed change or loudness processing of audio.
 - No light theme. No video. No ads. No notifications.
 - No per-user-local rotation and no personalisation of playlist contents.
@@ -552,7 +553,10 @@ The privacy gate (`npm run privacy:gate`) must scan `/playlists/**` too: no key 
 25. Offline with a warm cache: `/` renders the last known cards and an offline line; no uncaught errors.
 26. `index.json` 404 → the site uses `tonight.json`; both missing → "No stories tonight. Please try again in a little while." and no console errors.
 27. axe-core reports no serious or critical issues; all text meets the contrast table; full keyboard operation; `prefers-reduced-motion` disables all animation.
-28. No narrator or series label is rendered for unconfirmed vocabulary entries; no Hebrew-script or Yiddish text appears.
+28. No narrator or series label is rendered for unconfirmed vocabulary entries. No Hebrew-script text appears except inside `lang="yi"` elements (the language label and the Yiddish card's second line); no Yiddish transcript text appears.
+29. With the default language (English, or nothing stored) the home page looks and behaves as before the setting existed: six cards, no Yiddish card.
+30. `?lang=en|yi|any` is honoured on any page, saved, and removed from the address; invalid values are ignored.
+31. No Yiddish transcript or search text is in `dist/` (`test/dist.test.ts`).
 
 ## 8. Review fixes (2026-11-25)
 
@@ -582,3 +586,13 @@ The privacy gate (`npm run privacy:gate`) must scan `/playlists/**` too: no key 
 - **Radio Night** (`type: "radio"`, 120 ± 15 min, about four episodes): whole episodes from the trimmed content start to `quality.trim`'s content end. Standalone episodes play alone; a serial plays only as one complete airing of at most four consecutive episodes, in order, and opens the evening (`blockMayOpen`, no protected tail). Seasonal weighting as elsewhere, except that an out-of-season episode may open (weighted ×0.1): 195 of 237 episodes carry a calendar tag from a holiday talk inside them, and excluding them from the first 40 minutes left too few openers. No calm tail and no opening-song rule. Card: sixth, pink (`#E9A3C9`), an old radio.
 - **Tonight's Mix first** everywhere (above).
 - **Icons:** no four-pointed sparkles or other cross-like shapes. Big Kids is just the open book; Tonight's Mix is three five-pointed stars; the app icon's stars are round dots.
+
+## 10. Language preference (2026-11-27)
+
+Full design: [docs/design/language-bedtime.md](../design/language-bedtime.md). In short:
+
+- **Setting:** English (default), Yiddish / אידיש, or Both, per the shared contract (`en | yi | any`). Stored as `goldstein:bedtime:lang` (createStore("bedtime"), key `lang`); per site. A three-way radio control sits under the cards on `/` and in a "Stories in Yiddish" section on `/about`. No first-visit prompt; the header is unchanged. `?lang=` on any page is saved and removed from the address. An inline head script sets `<html data-lang>` before first paint, so the page does not flash; CSS does the rest.
+- **No Yiddish playlist.** There is far too little Yiddish story material for a rotating playlist with cooldowns (11 suitable stories, about 2¼ h, against 126 h of English). Generated editions stay English and unchanged; nothing changed in `packages/playlists`, `workers/api` or `packages/data`.
+- **The Yiddish shelf** instead: a fixed, reviewed list of stories (`src/lib/yiddish-shelf.ts`), resolved at build time through `@goldstein/data/load` (`src/lib/build/yiddish.ts`, which fails the build on an unfit id and drops an unpublished one with a warning) and written into the home page as JSON. It plays as an ordinary `Playlist` (type `yiddish`) with the same player, sheet, timer and Continue row. The stories are the same every night; the opening story rotates by edition date and a fixed calm tail plays last.
+- **Owner questions pending** (design §8): until the owner agrees that Bubby Chaya Malka's eight home stories may be on the shelf (`INCLUDE_BUBBY_FAMILY_STORIES`, default `false`), the shelf is the three stories by the Yiddish narrator (about 50 minutes). Their narrator is unconfirmed, so no narrator line is shown at all. Two of Bubby's tapes stop just before her closing words to her grandchildren (`END_OVERRIDES`, range playback; the audio is not edited).
+- **Not on this site:** the Tanya shiurim, the Haggadah shiurim and talks, the live event, fragments and the long family compilations. `/about` links to the library and kids sites with `?lang=yi`.

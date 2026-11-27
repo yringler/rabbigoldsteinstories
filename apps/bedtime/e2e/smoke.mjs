@@ -229,6 +229,68 @@ const shot = async (page, name) => {
   await ctx.close();
 }
 
+// ---- language preference (docs/design/language-bedtime.md) ----
+{
+  const { ctx, page, errors } = await session({ width: 390, height: 844 });
+  const visible = (sel) => page.isVisible(sel);
+  await page.goto(`${base}/`);
+  await page.waitForSelector('[data-card="little"]:not([aria-busy])', { timeout: 20000 });
+  const hasShelf = await page.$("#yiddish-shelf");
+  if (!hasShelf) {
+    check(!(await page.$("[data-lang-control]")), "no Yiddish shelf: no language control");
+  } else {
+    check(
+      !(await visible("[data-yiddish-card]")) &&
+        (await page.$$eval("[data-card]", (els) => els.filter((e) => e.offsetParent).length)) === 6,
+      "default (English): six cards, no Yiddish card",
+    );
+
+    await page.goto(`${base}/?lang=yi`);
+    await page.waitForSelector('[data-yiddish-slot="first"] [data-yiddish-card]', {
+      state: "visible",
+    });
+    check(new URL(page.url()).search === "", `?lang removed from the URL (${page.url()})`);
+    check(
+      !(await visible('[data-card="mix"]')) && (await visible("[data-english-toggle]")),
+      "Yiddish: shelf first, English playlists folded",
+    );
+    await shot(page, "lang-yi");
+    await page.click("[data-english-toggle]");
+    check(await visible('[data-card="mix"]'), "Tonight in English opens the playlists");
+    await page.click('[data-yiddish-slot="first"] [data-play]');
+    await page.waitForFunction(() => !document.querySelector("#audio").paused, null, {
+      timeout: 15000,
+    });
+    check(
+      (await page.evaluate(() => window.bedtime.player.snapshot().playlist?.type)) === "yiddish",
+      "tapping the Yiddish card plays the shelf",
+    );
+    await page.click("[data-close]");
+    await page.reload();
+    await page.waitForSelector('[data-yiddish-slot="first"] [data-yiddish-card]', {
+      state: "visible",
+    });
+    check(true, "reload keeps Yiddish");
+
+    await page.check('input[name="lang"][value="any"]');
+    await page.waitForSelector('[data-yiddish-slot="last"] [data-yiddish-card]', {
+      state: "visible",
+    });
+    check(
+      (await visible('[data-card="radio"]')) &&
+        !(await visible('[data-yiddish-slot="first"] [data-yiddish-card]')),
+      "Both: the Yiddish card after Radio Night",
+    );
+    await shot(page, "lang-any");
+
+    await page.click('a[href="/earlier/"]');
+    await page.waitForSelector("[data-earlier]");
+    check(await visible("[data-yiddish-note]"), "/earlier points to the Yiddish shelf");
+  }
+  check(errors.length === 0, `no console errors with a language set (${errors.join(" | ")})`);
+  await ctx.close();
+}
+
 // ---- landing (/landing) ----
 {
   const { ctx, page, errors } = await session({ width: 375, height: 812 });

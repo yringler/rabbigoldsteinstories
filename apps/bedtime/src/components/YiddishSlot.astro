@@ -1,0 +1,56 @@
+---
+// One slot of the Yiddish card on / (docs/design/language-bedtime.md §3.1). index.astro renders a
+// "first" slot above the English cards and a "last" slot after Radio Night; CSS on
+// <html data-lang> shows one or neither, so the DOM order is the visual order.
+import type { Playlist } from "@goldstein/playlists";
+import { GLYPHS } from "../lib/glyphs.ts";
+import { numberWord, SHELF_TITLE_YI } from "../lib/yiddish-shelf.ts";
+import { cardLine, cardMeta, iconSvg, YIDDISH_UI } from "../lib/ui.ts";
+
+interface Props {
+  slot: "first" | "last";
+  shelfCard: Playlist;
+}
+const { slot, shelfCard } = Astro.props;
+const shelfLabel = `Play ${shelfCard.title}. ${cardLine(shelfCard)} ${cardMeta(shelfCard)}.`;
+---
+
+<div class="yiddish-slot" data-yiddish-slot={slot}>
+  {slot === "first" && <h2 class="visually-hidden">Yiddish stories</h2>}
+  <ul class="cards">
+    <li>
+      <div class="card" data-yiddish-card style={`--c:${YIDDISH_UI.color}`}>
+        <button type="button" class="card-play" data-play aria-label={shelfLabel}>
+          <span class="card-icon">
+            <Fragment set:html={iconSvg(YIDDISH_UI, 44)} />
+          </span>
+          <span>
+            <span class="card-title">{shelfCard.title}</span>
+            <span class="card-title-yi" lang="yi" dir="rtl">
+              {SHELF_TITLE_YI}
+            </span>
+            <span class="card-line">{cardLine(shelfCard)}</span>
+            <span class="card-meta">{cardMeta(shelfCard)}</span>
+          </span>
+          <span class="play-dot" aria-hidden="true">
+            <Fragment set:html={GLYPHS.play(24)} />
+          </span>
+        </button>
+        <button
+          type="button"
+          class="card-more"
+          data-more
+          aria-label={`${shelfCard.title}: see the stories`}
+        >
+          <Fragment set:html={GLYPHS.more(22)} />
+        </button>
+      </div>
+    </li>
+  </ul>
+  {slot === "first" && (
+    <p class="shelf-note">
+      There are only {numberWord(shelfCard.items.length)} Yiddish bedtime stories here, so this list
+      stays the same. Each night a different one comes first.
+    </p>
+  )}
+</div>
