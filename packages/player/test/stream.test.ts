@@ -3,7 +3,7 @@
  * time it reports after giving up, and that element errors are left to hls.js while it is attached.
  */
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { StreamAudio } from "../src/index.ts";
+import { Player, StreamAudio } from "../src/index.ts";
 
 /** An <audio> element: real events (EventTarget), a settable time, no media. */
 class FakeElement extends EventTarget {
@@ -203,6 +203,34 @@ describe("StreamAudio", () => {
     FakeHls.last.fatal("networkError", FakeHls.ErrorDetails.FRAG_LOAD_ERROR);
     expect(errors).toBe(1);
     expect(audio.streamFailed).toBe(true);
+  });
+
+  it("a failed clean stream falls back to the original stream at the last good time, not 0", async () => {
+    const ORIGINAL = "https://bedtime.example/playlists/hls.m3u8?v=o&i=aaaaaaaaaa~0~3600";
+    const CLEAN = "https://bedtime.example/playlists/hls.m3u8?v=c&i=aaaaaaaaaa~0~3600";
+    const player = new Player({ audio, mediaSession: null, preferClean: true });
+    await player.load([
+      {
+        id: "aaaaaaaaaa",
+        title: "Night",
+        url: ORIGINAL,
+        clean_url: CLEAN,
+        start_sec: 0,
+        end_sec: 3600,
+      },
+    ]);
+    expect(player.source).toBe("clean");
+    const clean = FakeHls.last;
+    el.at(2400);
+    clean.fatal("mediaError", FakeHls.ErrorDetails.BUFFER_APPEND_ERROR); // recovered
+    el.at(0); // the detach during recovery fires timeupdate at 0
+    vi.advanceTimersByTime(2000);
+    clean.fatal("mediaError", FakeHls.ErrorDetails.BUFFER_APPEND_ERROR); // gives up
+    expect(errors).toBe(1); // the site listener saw it (before the Player stopped it)
+    expect(player.source).toBe("original");
+    expect(audio.src).toBe(ORIGINAL);
+    expect(FakeHls.last).not.toBe(clean);
+    expect(el.currentTime).toBe(2400);
   });
 
   it("an error on a plain file is the listeners' to handle", () => {

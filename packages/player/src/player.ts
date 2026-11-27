@@ -64,6 +64,11 @@ export interface AudioLike {
    * this reads false for the error event that reports it.
    */
   readonly handlesErrors?: boolean;
+  /**
+   * Where the playhead was when the source gave up (StreamAudio after hls.js fails), or null.
+   * Destroying hls.js resets currentTime to 0, so the player resumes from this instead.
+   */
+  readonly lastStreamTime?: number | null;
 }
 
 export interface PlayerOptions {
@@ -413,7 +418,9 @@ export class Player {
     this.failedClean.add(t.id);
     if (t.clean_url) this.failedCleanUrls.add(t.clean_url);
     // After a failed load currentTime may read 0; lastTime is the position we were at or seeking to.
-    const at = Math.max(this.audio.currentTime, this.lastTime);
+    // A stream that gave up knows its last good time better: both its recovery and its teardown
+    // reset the element's time to 0.
+    const at = this.audio.lastStreamTime ?? Math.max(this.audio.currentTime, this.lastTime);
     this.swapTo(t.url, "original", at);
   }
 
@@ -461,7 +468,9 @@ export class Player {
     const t = this.current;
     if (!t) return;
     if (this.swapping) return;
-    this.lastTime = this.audio.currentTime;
+    // Under hls.js a 0 is its media being detached (a recovery), not a place it played to.
+    if (this.audio.currentTime > 0 || !this.audio.handlesErrors)
+      this.lastTime = this.audio.currentTime;
     if (t.end_sec !== undefined && this.audio.currentTime >= t.end_sec) {
       // A paused player at its end never advances by itself: after "end of this story" pauses,
       // browsers fire one more timeupdate (and another on any seek), which must not start the next
