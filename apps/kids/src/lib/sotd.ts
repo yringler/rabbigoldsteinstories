@@ -1,11 +1,13 @@
 /** Story of the Day (docs/sites/kids.md §6.4) and Surprise Me. Pure; browser-safe. */
 import { type Variant, inVariant } from "./kinds.ts";
-import type { Rec } from "./records.ts";
+import { type Rec, recLang } from "./records.ts";
 import { HOLIDAY_TILES } from "./tiles.ts";
 
 /** The banded pool in sha256(id) order. */
 export function sotdPool(recs: readonly Rec[], v: Variant): Rec[] {
-  return recs.filter((r) => r.sd === 1 && inVariant(r.a, r.v, v)).sort((a, b) => a.r - b.r);
+  return recs
+    .filter((r) => r.sd === 1 && inVariant(r.a, r.v, v, recLang(r)))
+    .sort((a, b) => a.r - b.r);
 }
 
 /**

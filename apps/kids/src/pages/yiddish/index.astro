@@ -1,0 +1,88 @@
+---
+// /yiddish (docs/design/language-kids.md §4.5): every Yiddish recording on the site, whatever the
+// language setting (an explicit opt-in, like a direct link); the age band and Gentle still apply.
+// The one exception to "events appear on no shelf" (kids.md §14): it is the complete list for one
+// language. Only English metadata is shown; no transcript is read.
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import LangPanel from "../../components/LangPanel.astro";
+import { getModel, visAnyLang, visibleIn } from "../../lib/build/model.ts";
+import { yiddishGroups } from "../../lib/build/lang.ts";
+import { card } from "../../lib/build/views.ts";
+import { ui } from "../../lib/ui-icons.ts";
+
+const m = getModel();
+const groups = yiddishGroups(m)
+  .filter((g) => g.items.length > 0)
+  .map((g) => {
+    const list = g.items.map((k) => ({ k, vis: visAnyLang(k) }));
+    return { ...g, list, vis: visibleIn(list, 1) };
+  });
+const first = groups[0];
+---
+
+<Base
+  title="In Yiddish"
+  tab="explore"
+  description="Stories and lessons for children told in Yiddish: Bubby Chaya Malka's stories and more."
+>
+  <div data-init="grid" class="yi-page">
+    <PageHead title="In Yiddish" icon="speech" color="#9B3D8F">
+      <p>
+        <span lang="yi" dir="rtl">
+          אויף אידיש
+        </span>{" "}
+        · Stories and lessons told in Yiddish.
+      </p>
+    </PageHead>
+    <LangPanel
+      title="These are in Yiddish. Want them on every shelf?"
+      langs={["en"]}
+      showEnglish={false}
+      showYiddish
+      yiddishOnly
+      yiddishLink={null}
+    />
+    {first && (
+      <div class="tag-actions" data-vis={first.vis.join(" ")}>
+        <button
+          type="button"
+          class="btn primary big"
+          data-play-all={`#grid-${first.key}`}
+          data-source={first.title}
+        >
+          <Fragment set:html={ui("play", "", 28)} />
+          Play {first.title.charAt(0).toLowerCase() + first.title.slice(1)}
+        </button>
+      </div>
+    )}
+    {groups.map((g) => (
+      <section
+        class="section"
+        data-grid-section
+        data-vis={g.vis.join(" ")}
+        aria-labelledby={`h-${g.key}`}
+      >
+        <div class="section-head">
+          <h2 id={`h-${g.key}`}>{g.title}</h2>
+        </div>
+        {g.sub && <p class="muted">{g.sub}</p>}
+        <div
+          class="grid"
+          id={`grid-${g.key}`}
+          data-grid
+          set:html={g.list.map(({ k, vis }) => card(k, { vis })).join("")}
+        />
+      </section>
+    ))}
+    <div class="empty" data-grid-empty hidden>
+      <p>No Yiddish stories for this age yet.</p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .tag-actions {
+    margin: 4px 0 10px;
+  }
+</style>

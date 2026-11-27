@@ -5,6 +5,8 @@ import PageHead from "../../components/PageHead.astro";
 import { byTitle, getModel, visibleIn } from "../../lib/build/model.ts";
 import { card } from "../../lib/build/views.ts";
 import { STORY_TYPE_CHIPS } from "../../lib/tiles.ts";
+import { notYi } from "../../lib/build/lang.ts";
+import LangPanel from "../../components/LangPanel.astro";
 
 const m = getModel();
 const stories = m.pool.filter((k) => k.kind === "story").sort(byTitle);
@@ -73,7 +75,8 @@ const sorts = [
       </button>
     </div>
     <div class="empty" data-grid-empty hidden>
-      <p>No stories of this kind for this age yet.</p>
+      <p data-vis={notYi().join(" ")}>No stories of this kind for this age yet.</p>
+      <LangPanel title="No Yiddish stories here yet." cls="empty-yi" />
     </div>
   </div>
 </Base>

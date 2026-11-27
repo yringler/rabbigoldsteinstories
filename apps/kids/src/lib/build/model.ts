@@ -15,15 +15,19 @@ import {
 } from "../chapters.ts";
 import {
   type Adv,
+  type ItemLang,
   type Kind,
+  type Lang,
   type Variant,
   VARIANTS,
   advCode,
   bylineOf,
   inVariant,
   kindOf,
+  variantLang,
+  variantsOfAnyLang,
 } from "../kinds.ts";
-import { hasKidPage, inKidPool } from "../pool.ts";
+import { hasKidPage, inKidPool, kidLang } from "../pool.ts";
 import type { KidsIndex, Rec } from "../records.ts";
 import {
   type Serial,
@@ -54,6 +58,8 @@ export interface KItem {
   age: number;
   adv: Adv;
   vis: Variant[];
+  /** "yi" when told in Yiddish (docs/design/language-kids.md §2). */
+  lang: ItemLang;
   byline: string | null;
   /** Hero ids (central/appears, confirmed vocabulary entries only). */
   heroes: string[];
@@ -87,15 +93,32 @@ export interface HeroTile extends Tile {
   group: string;
 }
 
+/** Kind counts of one slice of the pool. */
+export type KindCounts = Record<Kind, number> & { pool: number };
+
 export interface Model {
   items: Map<string, KItem>;
+  /** The kid pool: English and Yiddish (every list filters by `vis`, which carries the language). */
   pool: KItem[];
+  poolEn: KItem[];
+  poolYi: KItem[];
   poolIds: Set<string>;
+  /** "More like this" for English mode: the English pool only (exactly the pre-language lists). */
   sim: SimResult;
+  /** Both languages ranked together ("Both" mode; Yiddish capped for English sources). */
+  simAny: SimResult;
+  /** Yiddish neighbours only, for every source ("Yiddish" mode). */
+  simYi: SimResult;
+  /** Per item: the "More like this" ids for each language preference (6 at most per mode). */
+  relatedByLang: Map<string, Record<Lang, string[]>>;
+  /** Kid-pool tellings of the same story in the other language ("Hear it in Yiddish/English"). */
+  twinsOf: Map<string, string[]>;
+  /** Yiddish tellings outside the kid pool (grown-ups' library links), with their titles. */
+  libraryYiOf: Map<string, { id: string; title: string }[]>;
   serials: Serial[];
   serialByKey: Map<string, Serial>;
   chapterOf: Map<string, ChapterLink>;
-  storyGroupOf: Map<string, { groupId: string; others: string[]; yiddish: boolean }>;
+  storyGroupOf: Map<string, { groupId: string; others: string[] }>;
   otherVersions: Map<string, string[]>;
   tiles: {
     topics: Tile[];
@@ -108,8 +131,12 @@ export interface Model {
   vocab: (list: string, id: string) => VocabEntry | undefined;
   records: Rec[];
   index: KidsIndex;
-  counts: Record<Kind, number> & { pool: number; pages: number };
+  counts: KindCounts & { pages: number; byLang: Record<ItemLang, KindCounts> };
 }
+
+/** "More like this" length on the item page, and the Yiddish cap among them for English items. */
+export const MORE_LIKE = 6;
+export const MAX_YI_IN_ANY = 2;
 
 const sha = (s: string) => createHash("sha256").update(s).digest("hex");
 
@@ -324,6 +351,7 @@ function buildModel(): Model {
     };
     const isSerialChapter = Boolean(it.classification.serial?.chapter);
     const age = it.audience.age_min;
+    const lang = kidLang(it);
     items.set(it.id, {
       item: it,
       id: it.id,
@@ -332,7 +360,8 @@ function buildModel(): Model {
       inPool: poolIdSet.has(it.id),
       age,
       adv,
-      vis: VARIANTS.filter((v) => inVariant(age, adv, v)),
+      vis: VARIANTS.filter((v) => inVariant(age, adv, v, lang)),
+      lang,
       byline: bylineOf(it.classification.speakers),
       heroes: heroesOf(it),
       dur: it.content_end_sec - it.content_start_sec,
@@ -345,32 +374,79 @@ function buildModel(): Model {
     });
   }
   const pool = [...items.values()].filter((k) => k.inPool);
+  const poolEn = pool.filter((k) => k.lang === "en");
+  const poolYi = pool.filter((k) => k.lang === "yi");
+  const langOf = (id: string): ItemLang | null => items.get(id)?.lang ?? null;
 
   // Story groups: "Hear this story told another way".
   interface GroupIdx {
     groups: { group_id: string; tellings: { items: { id: string; language?: string }[] }[] }[];
   }
   const groups = (loadIndex("story_groups") as GroupIdx | null)?.groups ?? [];
-  const storyGroupOf = new Map<string, { groupId: string; others: string[]; yiddish: boolean }>();
+  const storyGroupOf = new Map<string, { groupId: string; others: string[] }>();
+  const twinsOf = new Map<string, string[]>();
+  const libraryYiOf = new Map<string, string[]>();
+  const addTo = (map: Map<string, string[]>, a: string, b: string) => {
+    if (a === b) return;
+    const l = map.get(a) ?? [];
+    if (!l.includes(b)) l.push(b);
+    map.set(a, l);
+  };
+  // A Yiddish telling outside the pool, in the public export (the library has a page for it).
+  const yiOutside = (id: string) => !poolIdSet.has(id) && byId.get(id)?.language.primary === "yi";
   for (const g of groups) {
-    const yiddish = g.tellings.some((t) => t.items.some((i) => i.language === "yi"));
     for (const t of g.tellings) {
       for (const i of t.items) {
-        if (!items.has(i.id)) continue;
-        const others = g.tellings
-          .filter((o) => o !== t && !o.items.some((x) => x.id === i.id))
-          .map((o) => o.items.find((x) => poolIdSet.has(x.id))?.id)
+        const self = items.get(i.id);
+        if (!self) continue;
+        const otherTellings = g.tellings.filter(
+          (o) => o !== t && !o.items.some((x) => x.id === i.id),
+        );
+        // "Hear this story told another way": other tellings in the same language.
+        const others = otherTellings
+          .map((o) => o.items.find((x) => poolIdSet.has(x.id) && langOf(x.id) === self.lang)?.id)
           .filter((x): x is string => Boolean(x) && x !== i.id);
-        const prev = storyGroupOf.get(i.id);
-        if (!prev)
-          storyGroupOf.set(i.id, { groupId: g.group_id, others: [...new Set(others)], yiddish });
+        if (!storyGroupOf.has(i.id))
+          storyGroupOf.set(i.id, { groupId: g.group_id, others: [...new Set(others)] });
+        for (const o of otherTellings) {
+          for (const x of o.items) {
+            if (poolIdSet.has(x.id) && langOf(x.id) !== self.lang) addTo(twinsOf, i.id, x.id);
+            if (self.lang === "en" && yiOutside(x.id)) addTo(libraryYiOf, i.id, x.id);
+          }
+        }
       }
     }
   }
+  // same_story_other_language relations, both directions.
+  for (const it of raw) {
+    for (const r of it.relations) {
+      if (r.type !== "same_story_other_language") continue;
+      for (const [a, b] of [
+        [it.id, r.target_id],
+        [r.target_id, it.id],
+      ] as const) {
+        const ka = items.get(a);
+        if (!ka) continue;
+        if (poolIdSet.has(b) && langOf(b) !== null && langOf(b) !== ka.lang) addTo(twinsOf, a, b);
+        if (ka.lang === "en" && yiOutside(b)) addTo(libraryYiOf, a, b);
+      }
+    }
+  }
+  // Twins: stories before shows, then title (at most 3 are shown).
+  const KIND_RANK: Record<Kind, number> = { story: 0, show: 1, short: 2, event: 3, song: 4 };
+  for (const [id, l] of twinsOf)
+    twinsOf.set(
+      id,
+      l
+        .map((x) => items.get(x))
+        .filter((x): x is KItem => Boolean(x))
+        .sort((a, b) => KIND_RANK[a.kind] - KIND_RANK[b.kind] || a.title.localeCompare(b.title))
+        .map((x) => x.id),
+    );
 
-  // Similarity over the pool.
-  const sim = computeSimilar(
-    pool.map((k) => {
+  // Similarity: the English run is exactly the pre-language one; the combined runs serve the other modes.
+  const simInput = (list: readonly KItem[]) =>
+    list.map((k) => {
       const it = k.item;
       return {
         id: k.id,
@@ -389,12 +465,40 @@ function buildModel(): Model {
         setKey: it.classification.part?.set_key,
         partNumber: it.classification.part?.part_number,
         storyGroup: storyGroupOf.get(k.id)?.groupId,
-        related: it.relations.map((r) => r.target_id),
+        // Twins are listed under "Hear it in…", never under "More like this".
+        related: [...it.relations.map((r) => r.target_id), ...(twinsOf.get(k.id) ?? [])],
         dur: k.dur,
         title: k.title,
       };
-    }),
-  );
+    });
+  const sim = computeSimilar(simInput(poolEn));
+  const both = simInput(pool);
+  const simAny = computeSimilar(both);
+  const yiIds = new Set(poolYi.map((k) => k.id));
+  const simYi = computeSimilar(both, { candidate: (x) => yiIds.has(x), keep: MORE_LIKE });
+  const relatedByLang = new Map<string, Record<Lang, string[]>>();
+  for (const k of pool) {
+    const any = simAny.related.get(k.id) ?? [];
+    let anyList: string[];
+    if (k.lang === "en") {
+      // At most MAX_YI_IN_ANY Yiddish cards among the first MORE_LIKE, filled from English ones.
+      anyList = [];
+      let yi = 0;
+      for (const x of any) {
+        if (yiIds.has(x)) {
+          if (yi >= MAX_YI_IN_ANY) continue;
+          yi++;
+        }
+        anyList.push(x);
+        if (anyList.length >= MORE_LIKE * 2) break;
+      }
+    } else anyList = [...any];
+    relatedByLang.set(k.id, {
+      en: sim.related.get(k.id) ?? [],
+      any: anyList,
+      yi: simYi.related.get(k.id) ?? [],
+    });
+  }
 
   // Other versions: same-audio relations, items superseded by this one, near-duplicates.
   const otherVersions = new Map<string, string[]>();
@@ -431,7 +535,8 @@ function buildModel(): Model {
   [...TOPIC_TILES, ...MIDOS_TILES, ...MITZVOS_TILES, ...HOLIDAY_TILES].forEach(fill);
   // Chassidishe single dates as their own (hidden) tiles for the coming-up shelves.
   const heroCount = new Map<string, number>();
-  for (const k of pool) for (const h of k.heroes) heroCount.set(h, (heroCount.get(h) ?? 0) + 1);
+  // Heroes qualify on the English pool, so the hero set is the one English listeners always had.
+  for (const k of poolEn) for (const h of k.heroes) heroCount.set(h, (heroCount.get(h) ?? 0) + 1);
   const heroes: HeroTile[] = [];
   for (const [id, n] of heroCount) {
     const def = HEROES[id];
@@ -468,16 +573,16 @@ function buildModel(): Model {
     ),
   };
 
-  const counts = {
-    pool: pool.length,
-    pages: items.size,
-    show: 0,
-    story: 0,
-    short: 0,
-    event: 0,
-    song: 0,
+  const kindCounts = (list: readonly KItem[]): KindCounts => {
+    const c: KindCounts = { pool: list.length, show: 0, story: 0, short: 0, event: 0, song: 0 };
+    for (const k of list) c[k.kind]++;
+    return c;
   };
-  for (const k of pool) counts[k.kind]++;
+  const counts = {
+    ...kindCounts(pool),
+    pages: items.size,
+    byLang: { en: kindCounts(poolEn), yi: kindCounts(poolYi) },
+  };
 
   if (sim.nearDuplicates.length > 0) {
     console.warn(
@@ -490,8 +595,20 @@ function buildModel(): Model {
   return {
     items,
     pool,
+    poolEn,
+    poolYi,
     poolIds: poolIdSet,
     sim,
+    simAny,
+    simYi,
+    relatedByLang,
+    twinsOf,
+    libraryYiOf: new Map(
+      [...libraryYiOf].map(([id, l]) => [
+        id,
+        l.map((x) => ({ id: x, title: byId.get(x)?.title ?? "" })).filter((x) => x.title),
+      ]),
+    ),
     serials,
     serialByKey,
     chapterOf,
@@ -537,7 +654,9 @@ function toRec(k: KItem, ch: ChapterLink | undefined): Rec {
   if (it.content_start_sec > 0) r.s = it.content_start_sec;
   if (it.content_end_sec < it.duration_sec) r.e = it.content_end_sec;
   if (k.byline === "Uncle Yossi") r.b = 0;
-  else if (k.byline) r.b = 1;
+  else if (k.byline === "Rabbi Chaim Levi Goldstein") r.b = 1;
+  else if (k.byline === "Bubby Chaya Malka") r.b = 2;
+  if (k.lang === "yi") r.l = 1;
   if (k.kind === "show" && it.classification.episode) r.ep = it.classification.episode.number;
   const chapter = it.classification.serial?.chapter ?? ch?.n;
   if (chapter && ch) r.ch = chapter;
@@ -553,10 +672,23 @@ function toRec(k: KItem, ch: ChapterLink | undefined): Rec {
 /** Cards of a section sorted by title (the client re-sorts unplayed-first). */
 export const byTitle = (a: KItem, b: KItem) => a.title.localeCompare(b.title);
 
-/** Variants in which a list has at least `min` items. */
-export function visibleIn(list: readonly { vis: readonly Variant[] }[], min: number): Variant[] {
-  return VARIANTS.filter((v) => list.filter((k) => k.vis.includes(v)).length >= min);
+/** Variants in which a list has at least `min` items (`min` may depend on the variant). */
+export function visibleIn(
+  list: readonly { vis: readonly Variant[] }[],
+  min: number | ((v: Variant) => number),
+): Variant[] {
+  return VARIANTS.filter(
+    (v) => list.filter((k) => k.vis.includes(v)).length >= (typeof min === "number" ? min : min(v)),
+  );
 }
+
+/** Variants of the given language preferences only. */
+export const inLangs = (vis: readonly Variant[], langs: readonly Lang[]): Variant[] =>
+  vis.filter((v) => langs.includes(variantLang(v)));
+
+/** An item's variants ignoring the language (opt-in lists: /yiddish/, "Hear it in…"). */
+export const visAnyLang = (k: Pick<KItem, "age" | "adv">): Variant[] =>
+  variantsOfAnyLang(k.age, k.adv);
 
 /** For a capped shelf: each item's variants = those where it is among the first `cap` in-variant items. */
 export function capPerVariant<T extends { vis: readonly Variant[] }>(
@@ -583,7 +715,7 @@ export function capPerVariant<T extends { vis: readonly Variant[] }>(
 export function countsByVariant(
   list: readonly { vis: readonly Variant[] }[],
 ): Record<Variant, number> {
-  const out = { l: 0, k: 0, b: 0, lg: 0, kg: 0, bg: 0 } as Record<Variant, number>;
+  const out = Object.fromEntries(VARIANTS.map((v) => [v, 0])) as Record<Variant, number>;
   for (const k of list) for (const v of k.vis) out[v]++;
   return out;
 }

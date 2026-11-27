@@ -34,12 +34,24 @@ export function readableTile(color: string): { bg: string; fg: string } {
   return { bg: c, fg: "#FFFFFF" };
 }
 
-/** One span per variant; CSS shows only the active one ("47 stories" changes with the band). */
+/**
+ * One span per distinct count, listing the variants that share it; CSS shows only the active one
+ * ("47 stories" changes with the band and the language).
+ */
 export function vcount(
   counts: Readonly<Record<Variant, number>>,
   word: (n: number) => string,
 ): string {
-  return VARIANTS.map((v) => `<span data-vis="${v}">${esc(word(counts[v]))}</span>`).join("");
+  const by = new Map<number, Variant[]>();
+  for (const v of VARIANTS) {
+    const n = counts[v] ?? 0;
+    const l = by.get(n);
+    if (l) l.push(v);
+    else by.set(n, [v]);
+  }
+  return [...by]
+    .map(([n, vs]) => `<span data-vis="${vs.join(" ")}">${esc(word(n))}</span>`)
+    .join("");
 }
 
 export interface TileOpts {

@@ -3,10 +3,25 @@
 // The kids' site never renders transcripts; private segment types show generic labels only.
 import type { GetStaticPaths } from "astro";
 import Base from "../../../layouts/Base.astro";
-import { SITES, itemUrl, siteUrl } from "@goldstein/config/sites";
-import { getModel, capPerVariant, type KItem } from "../../../lib/build/model.ts";
+import { SITES, itemUrl } from "@goldstein/config/sites";
+import {
+  getModel,
+  capPerVariant,
+  inLangs,
+  MORE_LIKE,
+  type KItem,
+} from "../../../lib/build/model.ts";
 import { card, trackOf, playAttr } from "../../../lib/build/views.ts";
-import { KIND_LABEL, clock, minutes } from "../../../lib/kinds.ts";
+import { visOf } from "../../../lib/build/lang.ts";
+import {
+  KIND_LABEL,
+  LANGS,
+  type Lang,
+  type Variant,
+  clock,
+  minutes,
+  variantsOfLang,
+} from "../../../lib/kinds.ts";
 import { coverPath, itemPath } from "../../../lib/records.ts";
 import {
   HOLIDAY_TILES,
@@ -83,10 +98,37 @@ const group = m.storyGroupOf.get(id);
 const tellings = (group?.others ?? [])
   .map((x) => m.items.get(x))
   .filter((x): x is KItem => Boolean(x) && (x as KItem).inPool);
-const related = capPerVariant(
-  (m.sim.related.get(id) ?? []).map((x) => m.items.get(x)).filter((x): x is KItem => Boolean(x)),
-  6,
-);
+// "More like this": one list per language preference (docs/design/language-kids.md §4.6, §5.3),
+// each capped at MORE_LIKE per variant of its own mode.
+const relLists = m.relatedByLang.get(id);
+const related = LANGS.map((l: Lang) => {
+  const list = (relLists?.[l] ?? [])
+    .map((x) => m.items.get(x))
+    .filter((x): x is KItem => Boolean(x))
+    .map((x) => ({ ...x, vis: inLangs(x.vis, [l]) }));
+  const capped = capPerVariant(list, MORE_LIKE);
+  // Yiddish only: when fewer than 3 are in band, end the row with a link to /yiddish/.
+  const fewVis: Variant[] =
+    l === "yi"
+      ? variantsOfLang("yi").filter((v) => capped.filter((c) => c.vis.includes(v)).length < 3)
+      : [];
+  return { l, capped, fewVis };
+}).filter((r) => r.capped.length > 0 || r.fewVis.length > 0);
+const relatedVis = [
+  ...new Set(related.flatMap((r) => [...r.capped.flatMap((c) => c.vis), ...r.fewVis])),
+];
+// "Hear it in Yiddish / in English": kid-pool tellings in the other language (at most 3).
+const twins = (m.twinsOf.get(id) ?? [])
+  .map((x) => m.items.get(x))
+  .filter((x): x is KItem => Boolean(x))
+  .slice(0, 3);
+const twinsVis = [...new Set(twins.flatMap((t) => t.vis))];
+const libraryYi = (m.libraryYiOf.get(id) ?? [])
+  .slice(0, 3)
+  .map((x) => ({ ...x, url: itemUrl("library", x.id) }))
+  .filter((x): x is { id: string; title: string; url: string } => Boolean(x.url));
+const isYi = k.lang === "yi";
+const titleHe = it.title_he ?? null;
 const preferred = it.derived.preferred_ids
   .map((x) => m.items.get(x))
   .filter((x): x is KItem => Boolean(x));
@@ -128,6 +170,8 @@ function fmtDate(): string | null {
 }
 const aired = fmtDate();
 const libraryUrl = itemUrl("library", id);
+// The automatic transcript is readable in the library only when it is shown there with a label.
+const transcriptShown = it.transcript.display === "show_with_label";
 const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
 ---
 
@@ -138,7 +182,15 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
     data-age={k.age}
     data-adv={k.adv}
     data-pool={k.inPool ? "1" : undefined}
+    data-lang={k.lang}
   >
+    <div class="banner lang-banner" data-vis={visOf(isYi ? "en" : "yi").join(" ")}>
+      <Fragment set:html={ui("info", "", 28)} />
+      <span>{isYi ? "This one is in Yiddish." : "This one is in English."}</span>
+      <button type="button" class="btn sun" data-set-lang="any">
+        {isYi ? "Show Yiddish too" : "Show English too"}
+      </button>
+    </div>
     <div class="banner" data-band-banner hidden>
       <Fragment set:html={ui("info", "", 28)} />
       <span data-band-text>This one is for bigger kids.</span>
@@ -156,11 +208,24 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
       <img class="item-cover" src={coverPath(id)} alt="" width="320" height="320" />
       <div class="item-title">
         <h1 title={k.title}>{k.title}</h1>
+        {titleHe && (
+          <p class="he-title" lang={isYi ? "yi" : "he"} dir="rtl">
+            {titleHe}
+          </p>
+        )}
         {k.byline && <p class="byline">Told by {k.byline}</p>}
         <ul class="pills" aria-label="About this recording">
           <li>{minutes(k.dur)}</li>
           <li>Ages {k.age}+</li>
           <li>{KIND_LABEL[k.kind]}</li>
+          {isYi && (
+            <li class="lang-li">
+              Yiddish /{" "}
+              <span lang="yi" dir="rtl">
+                אידיש
+              </span>
+            </li>
+          )}
           {ch && <li>{chLabel}</li>}
         </ul>
         <div class="play-row">
@@ -344,19 +409,28 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
             <div class="shelf-row" set:html={tellings.map((t) => card(t)).join("")} />
           </section>
         )}
-        {group?.yiddish && libraryUrl && (
-          <p class="muted">
-            Also told in Yiddish in the <a href={siteUrl("library", "/")}>grown-ups' library</a>.
-          </p>
+        {twins.length > 0 && (
+          <section class="section" aria-labelledby="twin-h" data-vis={twinsVis.join(" ")}>
+            <h2 id="twin-h">{isYi ? "Hear it in English" : "Hear it in Yiddish"}</h2>
+            <div class="shelf-row" set:html={twins.map((t) => card(t)).join("")} />
+          </section>
         )}
 
         {related.length > 0 && (
-          <section class="section" aria-labelledby="more-h">
+          <section class="section" aria-labelledby="more-h" data-vis={relatedVis.join(" ")}>
             <h2 id="more-h">More like this</h2>
-            <div
-              class="grid more-like"
-              set:html={related.map(({ k: r, vis }) => card(r, { vis })).join("")}
-            />
+            {related.map((r) => (
+              <div
+                class="grid more-like"
+                data-vis={variantsOfLang(r.l).join(" ")}
+                set:html={
+                  r.capped.map(({ k: x, vis }) => card(x, { vis })).join("") +
+                  (r.fewVis.length > 0
+                    ? `<a class="card more-yi" href="/yiddish/" data-vis="${r.fewVis.join(" ")}"><span class="ct">More in Yiddish</span></a>`
+                    : "")
+                }
+              />
+            ))}
           </section>
         )}
 
@@ -397,6 +471,24 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
             )}
             <p>{it.summary_long}</p>
             {aired && <p class="muted">First aired or recorded: {aired}.</p>}
+            {twins.map((t) => (
+              <p>
+                {isYi ? "Also told in English: " : "Also told in Yiddish: "}
+                <a href={itemPath(t.id)}>{t.title}</a>
+              </p>
+            ))}
+            {libraryYi.length > 0 && (
+              <p>
+                Also told in Yiddish in the grown-ups' library:{" "}
+                {libraryYi.map((x, i) => (
+                  <>
+                    {i > 0 && ", "}
+                    <a href={x.url}>{x.title}</a>
+                  </>
+                ))}
+                .
+              </p>
+            )}
             <p class="muted">
               Summaries and notes were written with the help of AI and may contain mistakes. The
               recording is the original, unedited.
@@ -404,7 +496,9 @@ const contentEndsEarly = it.content_end_sec < it.duration_sec - 1;
             {libraryUrl && (
               <p>
                 <a href={libraryUrl}>
-                  Read the automatic transcript in the grown-ups' library ({SITES.library.name})
+                  {transcriptShown
+                    ? `Read the automatic transcript in the grown-ups' library (${SITES.library.name})`
+                    : `Listen in the grown-ups' library (${SITES.library.name})`}
                 </a>
               </p>
             )}

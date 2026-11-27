@@ -8,6 +8,8 @@ import { card, SECTION_KINDS } from "../lib/build/views.ts";
 import { vcount } from "../lib/html.ts";
 import { VARIANTS, type Variant } from "../lib/kinds.ts";
 import { ui } from "../lib/ui-icons.ts";
+import { notYi } from "../lib/build/lang.ts";
+import LangPanel from "./LangPanel.astro";
 
 interface Chip {
   key: string;
@@ -101,12 +103,15 @@ const allVis: Variant[] = VARIANTS.filter((v) => items.some((k) => k.vis.include
       </section>
     ))}
     <div class="empty" data-grid-empty hidden={allVis.length > 0}>
-      <p>Not many stories here for this age yet. Try another tile!</p>
-      <p>
-        <a class="btn" href="/explore/">
-          Explore
-        </a>
-      </p>
+      <div data-vis={notYi().join(" ")}>
+        <p>Not many stories here for this age yet. Try another tile!</p>
+        <p>
+          <a class="btn" href="/explore/">
+            Explore
+          </a>
+        </p>
+      </div>
+      <LangPanel title="No Yiddish stories here yet." cls="empty-yi" />
     </div>
   </div>
 </Base>

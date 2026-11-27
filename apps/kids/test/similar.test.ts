@@ -123,8 +123,8 @@ describe("similarity formula (§6.3)", () => {
 
 describe("More like this on the real pool (criterion 15)", () => {
   const m = getModel();
-  it("every pool item gets 12 candidates and 6 cards in Big Kids", () => {
-    for (const k of m.pool) {
+  it("every English pool item gets 12 candidates and 6 cards in Big Kids", () => {
+    for (const k of m.poolEn) {
       const rel = m.sim.related.get(k.id) ?? [];
       expect(rel.length, k.id).toBe(12);
       const shown = capPerVariant(

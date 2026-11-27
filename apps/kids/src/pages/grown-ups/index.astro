@@ -12,14 +12,20 @@ import {
   supportUrl,
 } from "@goldstein/config/sites";
 import { loadManifest, loadVocab } from "@goldstein/data/load";
-import { BAND_INFO, BANDS } from "../../lib/kinds.ts";
+import { BAND_INFO, BANDS, LANGS, LANG_INFO } from "../../lib/kinds.ts";
 import { getModel } from "../../lib/build/model.ts";
+import { yiddishCounts } from "../../lib/build/lang.ts";
+import { vcount } from "../../lib/html.ts";
 
 const m = getModel();
 const advisories = loadVocab().lists["content_advisory"] ?? [];
 // The Sound card appears only once some recordings have an AI-cleaned copy (docs/design/ai-audio.md).
 const hasClean = loadManifest().counts.clean_audio > 0;
 const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0) as never)).length;
+// Language card (docs/design/language-kids.md §3.2, §7.2).
+const yiTotal = m.poolYi.length;
+const yiSoFar = vcount(yiddishCounts(m), (n) => `${n} for this age`);
+const libraryYi = `${siteUrl("library", "/")}?lang=yi`;
 ---
 
 <Base title="For grown-ups" description="Age settings, content notes and how this site works.">
@@ -69,6 +75,43 @@ const bandCount = (b: string) => m.pool.filter((k) => k.vis.includes(b.charAt(0)
           Gentle stories only <small>(no content notes at all, in every age group)</small>
         </span>
       </label>
+    </section>
+
+    <section class="gu-card" aria-labelledby="lang-gu-h">
+      <h2 id="lang-gu-h">Language</h2>
+      <p>
+        Almost everything here is in English. We also have {yiTotal} recordings in Yiddish for
+        children: Bubby Chaya Malka's stories, a few more stories, and short lessons for Erev
+        Pesach.
+      </p>
+      <div class="lang-options" role="group" aria-labelledby="lang-gu-h">
+        {LANGS.map((l) => (
+          <button type="button" class="lang-opt" data-set-lang={l} aria-pressed="false">
+            <b>
+              {LANG_INFO[l].label}
+              {LANG_INFO[l].he && (
+                <>
+                  {" / "}
+                  <span lang="yi" dir="rtl">
+                    {LANG_INFO[l].he}
+                  </span>
+                </>
+              )}
+            </b>
+            {l === "yi" ? <span set:html={yiSoFar} /> : <span>{LANG_INFO[l].blurb}</span>}
+          </button>
+        ))}
+      </div>
+      <p>
+        <b>English</b> keeps Yiddish off the shelves. <b>Yiddish</b> shows only those. <b>Both</b>{" "}
+        mixes them in. Age and Gentle settings still apply, and a direct link always opens. All the
+        Yiddish recordings for children are listed on one page: <a href="/yiddish/">In Yiddish</a>.
+      </p>
+      <p>
+        The Yiddish Tanya shiurim, the Haggadah shiurim and the longer family recordings are for
+        grown-ups. You'll find them in the <a href={libraryYi}>grown-ups' library</a>
+        {` (${SITES.library.name}).`}
+      </p>
     </section>
 
     <section class="gu-card" aria-labelledby="adv-h">

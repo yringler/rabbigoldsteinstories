@@ -38,7 +38,22 @@ describe("age bands (§8.1 + DECISIONS: Little admits age 5 with no advisories)"
     expect(inVariant(9, 0, "bg")).toBe(true);
     expect(inVariant(9, 1, "bg")).toBe(false);
     expect(variantOf("kids", true)).toBe("kg");
-    expect(variantsOf(5, 0)).toEqual(["l", "k", "b", "lg", "kg", "bg"]);
-    expect(variantsOf(8, 2)).toEqual(["b"]);
+    // An English item: the six English tokens plus their "Both" twins.
+    expect(variantsOf(5, 0)).toEqual([
+      "l",
+      "k",
+      "b",
+      "lg",
+      "kg",
+      "bg",
+      "l-a",
+      "k-a",
+      "b-a",
+      "lg-a",
+      "kg-a",
+      "bg-a",
+    ]);
+    expect(variantsOf(8, 2)).toEqual(["b", "b-a"]);
+    expect(variantsOf(8, 2, "yi")).toEqual(["b-y", "b-a"]);
   });
 });

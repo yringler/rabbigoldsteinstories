@@ -4,23 +4,31 @@ import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import { countsByVariant, getModel, tileKey, visibleIn } from "../../lib/build/model.ts";
 import { tileHtml } from "../../lib/html.ts";
-import { HERO_GROUPS, TILE_MIN, type Tile } from "../../lib/tiles.ts";
+import { HERO_GROUPS, type Tile, tileMin } from "../../lib/tiles.ts";
+import LangPanel from "../../components/LangPanel.astro";
 import { ui } from "../../lib/ui-icons.ts";
 
 const m = getModel();
-const tiles = (list: readonly Tile[]) =>
+const tileList = (list: readonly Tile[]) =>
   list
     .map((t) => {
       const items = m.tileItems.get(tileKey(t)) ?? [];
-      return { t, vis: visibleIn(items, TILE_MIN), counts: countsByVariant(items) };
+      return { t, vis: visibleIn(items, tileMin), counts: countsByVariant(items) };
     })
-    .filter((x) => x.vis.length > 0)
+    .filter((x) => x.vis.length > 0);
+const tiles = (list: readonly Tile[]) =>
+  tileList(list)
     .map(({ t, vis, counts }) => tileHtml(t, { vis, counts }))
     .join("");
-const heroGroups = HERO_GROUPS.map((g) => ({
-  label: g.label,
-  html: tiles(m.tiles.heroes.filter((h) => g.categories.includes(h.category))),
-})).filter((g) => g.html);
+// A hero group's heading shows only in the variants where one of its tiles does.
+const heroGroups = HERO_GROUPS.map((g) => {
+  const list = tileList(m.tiles.heroes.filter((h) => g.categories.includes(h.category)));
+  return {
+    label: g.label,
+    html: list.map(({ t, vis, counts }) => tileHtml(t, { vis, counts })).join(""),
+    vis: [...new Set(list.flatMap((x) => x.vis))],
+  };
+}).filter((g) => g.html);
 const tabs = [
   { key: "topics", label: "Topics", html: tiles(m.tiles.topics) },
   { key: "midos", label: "Midos", html: tiles(m.tiles.midos) },
@@ -47,7 +55,19 @@ const wide = [
           {w.label}
         </a>
       ))}
+      <a class="wide-btn wide-yi" href="/yiddish/">
+        <span class="wi" style="background:#9B3D8F">
+          <Fragment set:html={ui("speech", "", 26)} />
+        </span>
+        <span>
+          In Yiddish /{" "}
+          <span lang="yi" dir="rtl">
+            אידיש
+          </span>
+        </span>
+      </a>
     </nav>
+    <LangPanel title="Only a few stories here are in Yiddish." yiddishLink="See all in Yiddish" />
     <div class="chips explore-tabs" role="tablist" aria-label="Browse by">
       {tabs.map((t, i) => (
         <button
@@ -73,7 +93,7 @@ const wide = [
       >
         {t.key === "heroes" ? (
           heroGroups.map((g) => (
-            <section class="section hero-group">
+            <section class="section hero-group" data-vis={g.vis.join(" ")}>
               <h2>{g.label}</h2>
               <div class="tiles" set:html={g.html} />
             </section>
@@ -87,6 +107,9 @@ const wide = [
 </Base>
 
 <style>
+  .wide-yi {
+    grid-column: 1 / -1;
+  }
   .hero-group h2 {
     font-size: 21px;
     margin-bottom: 10px;

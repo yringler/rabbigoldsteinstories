@@ -5,7 +5,7 @@
  */
 import type MiniSearchType from "minisearch";
 import { cardHtml, type Rec } from "../../lib/records.ts";
-import type { Kind } from "../../lib/kinds.ts";
+import { type Kind, withLang } from "../../lib/kinds.ts";
 import {
   MINISEARCH_OPTIONS,
   SEARCH_OPTIONS,
@@ -61,6 +61,7 @@ export async function initSearch(root: HTMLElement, rerender: boolean): Promise<
   const sugg = root.querySelector<HTMLElement>("[data-suggest]");
   const none = root.querySelector<HTMLElement>("[data-none]");
   const status = root.querySelector<HTMLElement>("[data-status]");
+  const hint = root.querySelector<HTMLElement>("[data-lang-hint]");
   if (!input || !out) return;
   let tiles: TileHit[] = [];
   try {
@@ -77,6 +78,7 @@ export async function initSearch(root: HTMLElement, rerender: boolean): Promise<
       if (sugg) sugg.hidden = false;
       if (none) none.hidden = true;
       if (status) status.textContent = "";
+      if (hint) hint.hidden = true;
       return;
     }
     const [ms, ix] = await Promise.all([loadEngine(), loadIndex()]);
@@ -84,9 +86,11 @@ export async function initSearch(root: HTMLElement, rerender: boolean): Promise<
     const v = S.getVariant();
     let hits = ms.search(q, SEARCH_OPTIONS);
     if (hits.length === 0) hits = ms.search(q, { ...SEARCH_OPTIONS, combineWith: "OR" });
-    const recs = hits
-      .map((h) => ix.byId.get(String(h.id)))
-      .filter((r): r is Rec => Boolean(r) && recIn(r as Rec, v));
+    const all = hits.map((h) => ix.byId.get(String(h.id))).filter((r): r is Rec => Boolean(r));
+    const recs = all.filter((r) => recIn(r, v));
+    // Matches left out only because of the language preference (§4.7).
+    const vAny = withLang(v, "any");
+    const otherLang = all.filter((r) => !recIn(r, v) && recIn(r, vAny)).length;
 
     const qWords = norm(q);
     const seen = new Set<string>();
@@ -119,6 +123,20 @@ export async function initSearch(root: HTMLElement, rerender: boolean): Promise<
     out.innerHTML = html;
     decorateCards(out);
     const found = recs.length + tileHits.length;
+    if (hint) {
+      const lang = S.getLang();
+      const text = hint.querySelector("[data-lang-hint-text]");
+      const btn = hint.querySelector<HTMLElement>("[data-set-lang]");
+      const show = otherLang > 0 && (lang === "en" || (lang === "yi" && recs.length === 0));
+      hint.hidden = !show;
+      if (show && text && btn) {
+        text.textContent =
+          lang === "yi"
+            ? `No Yiddish stories for that. We found ${otherLang} in English.`
+            : `${otherLang} more in Yiddish.`;
+        btn.textContent = lang === "yi" ? "Show English too" : "Show Yiddish too";
+      }
+    }
     if (none) none.hidden = found > 0;
     if (sugg) sugg.hidden = found > 0;
     if (status) status.textContent = found ? `${recs.length} found` : "Nothing found";

@@ -5,7 +5,7 @@
  */
 import type { Track } from "@goldstein/player";
 import { navigate } from "astro:transitions/client";
-import { BAND_INFO, type Band } from "../lib/kinds.ts";
+import { BAND_INFO, type Band, LANG_TOAST, isLang } from "../lib/kinds.ts";
 import type { PlayRequest } from "../lib/tracks.ts";
 import { decorateCards } from "./cards.ts";
 import { initPage } from "./pages.ts";
@@ -55,6 +55,27 @@ function renderBandChip(): void {
   document.querySelectorAll<HTMLButtonElement>("#band-sheet [data-band]").forEach((b) => {
     b.setAttribute("aria-pressed", String(b.dataset["band"] === band));
   });
+  // Language buttons (the sheet, /grown-ups): only the toggles carry aria-pressed.
+  const lang = S.getLang();
+  document.querySelectorAll<HTMLButtonElement>("[data-set-lang][aria-pressed]").forEach((b) => {
+    b.setAttribute("aria-pressed", String(b.dataset["setLang"] === lang));
+  });
+}
+
+/** ?lang=en|yi|any: save it, then drop only that parameter from the address (§3.3). */
+function takeLangParam(): void {
+  let url: URL;
+  try {
+    url = new URL(location.href);
+  } catch {
+    return;
+  }
+  const p = url.searchParams.get("lang");
+  if (p === null) return;
+  // Saved without the change event: pageLoad applies it and draws the page once.
+  if (isLang(p)) S.store.set("lang", p);
+  url.searchParams.delete("lang");
+  history.replaceState(history.state, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
 function bandSheet(): HTMLDialogElement | null {
@@ -94,6 +115,18 @@ document.addEventListener("click", (e) => {
   }
   if (t.closest("[data-close-band]")) {
     bandSheet()?.close();
+    return;
+  }
+  // Any "Show English too" / "Yiddish only" / language toggle, anywhere. The sheet stays open.
+  const langBtn = t.closest<HTMLElement>("[data-set-lang]");
+  if (langBtn) {
+    e.preventDefault();
+    const l = langBtn.dataset["setLang"];
+    if (isLang(l)) {
+      if (l !== S.getLang()) S.setLang(l);
+      else renderBandChip();
+      kp()?.toast(LANG_TOAST[l]);
+    }
     return;
   }
 
@@ -175,6 +208,7 @@ function onScroll(): void {
 window.addEventListener("scroll", onScroll, { passive: true });
 
 function pageLoad(): void {
+  takeLangParam();
   S.applyVariant();
   renderBandChip();
   kp();

@@ -5,6 +5,8 @@ import PageHead from "../../components/PageHead.astro";
 import { byTitle, getModel, visibleIn } from "../../lib/build/model.ts";
 import { card } from "../../lib/build/views.ts";
 import { QUICK_CHIPS } from "../../lib/tiles.ts";
+import { notYi } from "../../lib/build/lang.ts";
+import LangPanel from "../../components/LangPanel.astro";
 
 const m = getModel();
 const shorts = m.pool.filter((k) => k.kind === "short").sort(byTitle);
@@ -71,7 +73,8 @@ const chips = QUICK_CHIPS.map((c) => ({
       </button>
     </div>
     <div class="empty" data-grid-empty hidden>
-      <p>Nothing here for this age yet.</p>
+      <p data-vis={notYi().join(" ")}>Nothing here for this age yet.</p>
+      <LangPanel title="No Yiddish stories here yet." cls="empty-yi" />
     </div>
   </div>
 </Base>

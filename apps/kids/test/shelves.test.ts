@@ -162,7 +162,17 @@ describe("shelves (§4.1)", () => {
   it("band counts (recomputed for §8.1 with the owner's Little rule)", () => {
     const c = countsByVariant(m.pool);
     expect(c.b).toBe(1033);
-    expect(c).toEqual({ l: 512, k: 828, b: 1033, lg: 445, kg: 500, bg: 516 });
+    expect(c).toMatchObject({ l: 512, k: 828, b: 1033, lg: 445, kg: 500, bg: 516 });
+    // "Both" adds the Yiddish items; "Yiddish only" is just them.
+    expect(c).toMatchObject({ "l-a": 525, "k-a": 843, "b-a": 1051 });
+    expect(c).toMatchObject({
+      "l-y": 13,
+      "k-y": 15,
+      "b-y": 18,
+      "lg-y": 10,
+      "kg-y": 10,
+      "bg-y": 10,
+    });
   });
 });
 
@@ -227,7 +237,7 @@ describe("search (§6.5, criteria 22, 23)", () => {
     expect(processTerm("besht")).toEqual(["baal", "shem", "tov"]);
   });
   it("indexes only pool items (band filtering happens on the client from index.json)", () => {
-    expect(ms.documentCount).toBe(1033);
+    expect(ms.documentCount).toBe(1051);
   });
 });
 

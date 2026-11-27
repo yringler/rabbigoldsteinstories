@@ -7,6 +7,8 @@ import { serialPlan, serialSeconds, serialVis } from "../../../lib/build/views.t
 import { minutes } from "../../../lib/kinds.ts";
 import { itemPath } from "../../../lib/records.ts";
 import { ui } from "../../../lib/ui-icons.ts";
+import { notYi } from "../../../lib/build/lang.ts";
+import LangPanel from "../../../components/LangPanel.astro";
 
 export const getStaticPaths = (() =>
   getModel()
@@ -40,7 +42,8 @@ const durOf = (id: string, i: number) => {
   tab="explore"
   description={`${s.title}: a story in ${s.chapters.length} chapters.`}
 >
-  <div data-init="serial" class="serial-page">
+  <LangPanel title="Chapter stories are in English." />
+  <div data-init="serial" class="serial-page" data-vis={notYi().join(" ")}>
     <script
       is:inline
       type="application/json"

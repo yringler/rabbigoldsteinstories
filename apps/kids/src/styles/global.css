@@ -31,13 +31,29 @@
   color-scheme: light;
 }
 
-/* Band + Gentle: anything whose data-vis lacks the active variant is hidden (no JS needed to filter). */
+/*
+ * Band + Gentle + language: anything whose data-vis lacks the active variant is hidden (no JS needed
+ * to filter). One rule per variant: l k b, then Gentle (g), then the language suffix (none =
+ * English, -y = Yiddish only, -a = both). docs/design/language-kids.md §5.1.
+ */
 html[data-v="l"] [data-vis]:not([data-vis~="l"]),
 html[data-v="k"] [data-vis]:not([data-vis~="k"]),
 html[data-v="b"] [data-vis]:not([data-vis~="b"]),
 html[data-v="lg"] [data-vis]:not([data-vis~="lg"]),
 html[data-v="kg"] [data-vis]:not([data-vis~="kg"]),
-html[data-v="bg"] [data-vis]:not([data-vis~="bg"]) {
+html[data-v="bg"] [data-vis]:not([data-vis~="bg"]),
+html[data-v="l-y"] [data-vis]:not([data-vis~="l-y"]),
+html[data-v="k-y"] [data-vis]:not([data-vis~="k-y"]),
+html[data-v="b-y"] [data-vis]:not([data-vis~="b-y"]),
+html[data-v="lg-y"] [data-vis]:not([data-vis~="lg-y"]),
+html[data-v="kg-y"] [data-vis]:not([data-vis~="kg-y"]),
+html[data-v="bg-y"] [data-vis]:not([data-vis~="bg-y"]),
+html[data-v="l-a"] [data-vis]:not([data-vis~="l-a"]),
+html[data-v="k-a"] [data-vis]:not([data-vis~="k-a"]),
+html[data-v="b-a"] [data-vis]:not([data-vis~="b-a"]),
+html[data-v="lg-a"] [data-vis]:not([data-vis~="lg-a"]),
+html[data-v="kg-a"] [data-vis]:not([data-vis~="kg-a"]),
+html[data-v="bg-a"] [data-vis]:not([data-vis~="bg-a"]) {
   display: none !important;
 }
 
@@ -233,7 +249,7 @@ html[data-band="big"] .band-chip .dot-big {
 .band-chip .gentle-mark {
   display: none;
 }
-html[data-v$="g"] .band-chip .gentle-mark {
+html[data-v*="g"] .band-chip .gentle-mark {
   display: inline;
   color: var(--leaf-ink);
   font-size: 14px;
@@ -900,6 +916,131 @@ dialog.sheet::backdrop {
 .band-opt span {
   color: var(--ink-soft);
   font-size: 16px;
+}
+
+/* ── Language (docs/design/language-kids.md §3, §8) ───────────────── */
+:lang(yi),
+:lang(he) {
+  font-family: "Heebo", "Noto Sans Hebrew", "Arial Hebrew", "David", system-ui, sans-serif;
+  line-height: 1.3;
+}
+.band-chip .lang-mark {
+  display: none;
+  font-size: 14px;
+  color: var(--primary-dark);
+}
+html[data-lang="yi"] .band-chip .lang-mark-yi,
+html[data-lang="any"] .band-chip .lang-mark-any {
+  display: inline;
+}
+@media (max-width: 399px) {
+  /* Keep the top bar on one line: the marker stays in the accessible name only. */
+  .band-chip .lang-mark [aria-hidden="true"] {
+    display: none;
+  }
+}
+.lang-row h3 {
+  font-size: 20px;
+  margin: 4px 0 8px;
+}
+.lang-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 16px;
+}
+.lang-opt {
+  flex: 1 1 96px;
+  min-width: 64px;
+  min-height: 56px;
+  padding: 8px 10px;
+  border-radius: 18px;
+  border: 3px solid var(--line);
+  background: var(--paper);
+  text-align: left;
+  color: var(--ink);
+}
+.lang-opt[aria-pressed="true"] {
+  border-color: var(--primary);
+  background: #e3ecfa;
+}
+.lang-opt b {
+  display: block;
+  font-family: var(--font-head);
+  font-size: 18px;
+  line-height: 1.15;
+}
+.lang-opt b [lang] {
+  font-size: 18px;
+}
+.lang-opt > span,
+.lang-opt > span span {
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+.lang-pill {
+  margin-left: 6px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: var(--sun);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.lang-panel {
+  padding: 16px 18px;
+  border-radius: 22px;
+  background: #fff3cf;
+  border: 2px solid #f1d98a;
+  margin: 8px 0 18px;
+}
+.lang-panel h2 {
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+.lang-panel p {
+  margin: 0 0 10px;
+}
+.lang-panel-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.lang-link-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding: 14px 18px;
+  border-radius: 22px;
+  border: 2px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+  order: 9;
+}
+.lang-banner {
+  flex-wrap: wrap;
+}
+.lang-banner .btn {
+  min-height: 44px;
+}
+.card.more-yi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.he-title {
+  margin-top: 2px;
+  font-size: 20px;
+  color: var(--ink-soft);
 }
 
 /* ── Notices ───────────────────────────────────────────────────────── */

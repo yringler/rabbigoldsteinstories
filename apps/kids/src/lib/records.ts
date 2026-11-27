@@ -3,7 +3,7 @@
  * shared by the static pages and the client (so a card looks the same wherever it is drawn).
  * Browser-safe.
  */
-import { type Adv, type Kind, KIND_LABEL, minutes, variantsOf } from "./kinds.ts";
+import { type Adv, type ItemLang, type Kind, KIND_LABEL, minutes, variantsOf } from "./kinds.ts";
 import { ui } from "./ui-icons.ts";
 
 export interface Rec {
@@ -22,8 +22,10 @@ export interface Rec {
   /** Content start / end (only when not 0 / the file end). */
   s?: number;
   e?: number;
-  /** Byline: 0 Uncle Yossi, 1 Rabbi Chaim Levi Goldstein. */
-  b?: 0 | 1;
+  /** Byline: 0 Uncle Yossi, 1 Rabbi Chaim Levi Goldstein, 2 Bubby Chaya Malka. */
+  b?: 0 | 1 | 2;
+  /** 1 = told in Yiddish (absent = English). */
+  l?: 1;
   /** Episode number (shows). */
   ep?: number;
   /** Chapter or part numeral. */
@@ -51,7 +53,17 @@ export interface KidsIndex {
   serials: Record<string, { t: string; ids: (string | null)[] }>;
 }
 
-export const BYLINE_NAMES = ["Uncle Yossi", "Rabbi Chaim Levi Goldstein"] as const;
+export const BYLINE_NAMES = [
+  "Uncle Yossi",
+  "Rabbi Chaim Levi Goldstein",
+  "Bubby Chaya Malka",
+] as const;
+
+/** The language of a record. */
+export const recLang = (r: Pick<Rec, "l">): ItemLang => (r.l === 1 ? "yi" : "en");
+
+/** The short card pill for a Yiddish item: an English word a child can read (§4.6). */
+export const LANG_PILL = `<span class="lang-pill" aria-hidden="true">Yiddish</span>`;
 
 export const KIND_UI_ICON: Readonly<Record<Kind, string>> = {
   show: "radio",
@@ -83,15 +95,16 @@ export interface CardOpts {
 
 /** The card (§6.2): cover, 2-line title, duration plus kind icon; badges are added on the client. */
 export function cardHtml(r: Rec, o: CardOpts = {}): string {
-  const vis = (o.vis ?? variantsOf(r.a, r.v)).join(" ");
+  const vis = (o.vis ?? variantsOf(r.a, r.v, recLang(r))).join(" ");
+  const yi = r.l === 1;
   const lazy = o.lazy === false ? "" : ` loading="lazy" decoding="async"`;
   const adv = r.v === 2 ? `<span class="adv-i" title="Has a note for grown-ups">i</span>` : "";
   const kicker = o.kicker ? `<span class="kicker">${esc(o.kicker)}</span>` : "";
   const f = o.f && o.f.length ? ` data-f="${esc(o.f.join(" "))}"` : "";
   return (
-    `<a class="card${o.cls ? ` ${o.cls}` : ""}" href="${itemPath(r.id)}" data-id="${r.id}" data-vis="${vis}" data-d="${Math.round(r.d)}" data-t="${esc(r.t.toLowerCase())}"${f}>` +
+    `<a class="card${o.cls ? ` ${o.cls}` : ""}" href="${itemPath(r.id)}" data-id="${r.id}" data-vis="${vis}" data-d="${Math.round(r.d)}" data-t="${esc(r.t.toLowerCase())}"${f}${yi ? ` data-lang="yi"` : ""}>` +
     `<span class="cv"><img src="${coverPath(r.id)}" alt="" width="180" height="180"${lazy}>${adv}<span class="bdg"></span><span class="pbar"><i></i></span></span>` +
     `${kicker}<span class="ct" title="${esc(r.t)}">${esc(r.t)}</span>` +
-    `<span class="cm">${ui(KIND_UI_ICON[r.k], "km", 18)}<span class="sr">${KIND_LABEL[r.k]}, </span>${minutes(r.d)}</span></a>`
+    `<span class="cm">${ui(KIND_UI_ICON[r.k], "km", 18)}<span class="sr">${KIND_LABEL[r.k]}, ${yi ? "in Yiddish, " : ""}</span>${minutes(r.d)}${yi ? LANG_PILL : ""}</span></a>`
   );
 }

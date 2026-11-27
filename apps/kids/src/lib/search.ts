@@ -163,3 +163,16 @@ export const SUGGESTIONS: readonly string[] = [
   "tzedakah",
   "Eliyahu HaNavi",
 ];
+
+/** Suggestion chips in "Yiddish only" mode: each finds Yiddish stories (checked by a test). */
+export const SUGGESTIONS_YI: readonly string[] = [
+  "Eliyahu HaNavi",
+  "Pesach",
+  "diamond",
+  "lion",
+  "Baal Shem Tov",
+  "Bubby",
+];
+
+/** Extra tags of a Yiddish search document, so "yiddish" or "אידיש" finds every one. */
+export const YIDDISH_TAGS: readonly string[] = ["Yiddish", "Yidish", "אידיש"];

@@ -6,6 +6,7 @@ import { loadCatalog, loadItem, loadVocab } from "@goldstein/data/load";
 import { describe, expect, it } from "vitest";
 import { getModel, tileKey, visibleIn } from "../src/lib/build/model.ts";
 import { poolReason } from "../src/lib/pool.ts";
+import { variantsOfLang } from "../src/lib/kinds.ts";
 import {
   HOLIDAY_TILES,
   MIDOS_TILES,
@@ -18,8 +19,8 @@ import {
 const m = getModel();
 
 describe("kid pool (§9)", () => {
-  it("has the expected size and kinds (criterion 1, recomputed)", () => {
-    expect(m.counts).toMatchObject({
+  it("has the expected size and kinds (criterion 1, recomputed; language-kids.md §1)", () => {
+    expect(m.counts.byLang.en).toEqual({
       pool: 1033,
       show: 411,
       story: 310,
@@ -27,12 +28,46 @@ describe("kid pool (§9)", () => {
       event: 11,
       song: 3,
     });
+    expect(m.counts.byLang.yi).toEqual({
+      pool: 18,
+      show: 0,
+      story: 12,
+      short: 5,
+      event: 1,
+      song: 0,
+    });
+    expect(m.counts.pool).toBe(1051);
+    expect(m.poolEn).toHaveLength(1033);
+    expect(m.poolYi).toHaveLength(18);
   });
 
-  it("excludes Yiddish, adult levels, shiurim, family recordings, superseded copies (criterion 4)", () => {
+  it("Yiddish per band: Little 13, Kids 15, Big Kids 18; 10 with Gentle", () => {
+    const n = (v: string) => m.poolYi.filter((k) => k.vis.includes(v as never)).length;
+    expect([n("l-y"), n("k-y"), n("b-y")]).toEqual([13, 15, 18]);
+    expect([n("lg-y"), n("kg-y"), n("bg-y")]).toEqual([10, 10, 10]);
+    expect([n("l-a"), n("k-a"), n("b-a")]).toEqual([13, 15, 18]);
+  });
+
+  it("no Yiddish item is visible in any English variant (criterion 4, amended)", () => {
+    const en = new Set(variantsOfLang("en"));
+    for (const k of m.poolYi) {
+      expect(k.lang).toBe("yi");
+      expect(
+        k.vis.some((v) => en.has(v)),
+        k.id,
+      ).toBe(false);
+    }
+    for (const k of m.poolEn)
+      expect(
+        k.vis.some((v) => v.endsWith("-y")),
+        k.id,
+      ).toBe(false);
+  });
+
+  it("excludes adult levels, shiurim, family recordings, fragments, superseded copies and other languages (criterion 4)", () => {
     for (const k of m.pool) {
       const it = k.item;
-      expect(it.language.primary).toBe("en");
+      expect(["en", "yi"]).toContain(it.language.primary);
       expect(["young_children", "children", "older_children", "family"]).toContain(
         it.audience.level,
       );
@@ -72,10 +107,12 @@ describe("kid pool (§9)", () => {
       "p",
       "js",
       "cl", // 1 when an AI-improved copy exists (docs/design/ai-audio.md)
+      "l", // 1 when told in Yiddish (docs/design/language-kids.md §5.2)
     ]);
     for (const r of m.index.items)
       for (const key of Object.keys(r)) expect(allowed.has(key)).toBe(true);
-    expect(m.index.items).toHaveLength(1033);
+    expect(m.index.items).toHaveLength(1051);
+    expect(m.index.items.filter((r) => r.l === 1)).toHaveLength(18);
   });
 });
 
@@ -112,11 +149,19 @@ describe("tiles (§5, criterion 7)", () => {
   it("Big Kids counts match the reference table (items, stories)", () => {
     const counts = Object.fromEntries(
       [...TOPIC_TILES, ...MIDOS_TILES, ...MITZVOS_TILES, ...HOLIDAY_TILES].map((t) => {
-        const l = m.tileItems.get(tileKey(t)) ?? [];
+        const l = (m.tileItems.get(tileKey(t)) ?? []).filter((k) => k.lang === "en");
         return [`${t.facet}:${t.slug}`, [l.length, l.filter((k) => k.kind === "story").length]];
       }),
     );
     expect(counts).toEqual(EXPECTED);
+  });
+
+  it("Yiddish pins at Big Kids (language-kids.md §4.3)", () => {
+    const yi = (key: string) =>
+      (m.tileItems.get(key) ?? []).filter((k) => k.vis.includes("b-y")).length;
+    expect(yi("midos:trusting-hashem")).toBe(8);
+    expect(yi("calendar:pesach")).toBe(7);
+    expect(yi("mitzvos:tzedakah")).toBe(7);
   });
 
   it("dense ids are never tiles", () => {
@@ -145,9 +190,15 @@ describe("labels (criterion 6)", () => {
   it("no placeholder speaker or working-title series label is used as a byline", () => {
     for (const k of m.items.values()) {
       expect(
-        k.byline === null || ["Uncle Yossi", "Rabbi Chaim Levi Goldstein"].includes(k.byline),
+        k.byline === null ||
+          ["Uncle Yossi", "Rabbi Chaim Levi Goldstein", "Bubby Chaya Malka"].includes(k.byline),
       ).toBe(true);
+      // The unconfirmed Yiddish narrator gets no byline at all (rendered nowhere).
+      if (k.item.classification.speakers[0] === "yiddish_narrator_unconfirmed")
+        expect(k.byline).toBeNull();
     }
+    const bubby = m.poolYi.filter((k) => k.byline === "Bubby Chaya Malka");
+    expect(bubby).toHaveLength(8);
   });
 });
 

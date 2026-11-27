@@ -4,13 +4,13 @@ import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import { countsByVariant, getModel, tileKey, visibleIn } from "../../lib/build/model.ts";
 import { tileHtml } from "../../lib/html.ts";
-import { TILE_MIN } from "../../lib/tiles.ts";
+import { tileMin } from "../../lib/tiles.ts";
 
 const m = getModel();
 const html = m.tiles.holidays
   .map((t) => {
     const items = m.tileItems.get(tileKey(t)) ?? [];
-    return { t, vis: visibleIn(items, TILE_MIN), counts: countsByVariant(items) };
+    return { t, vis: visibleIn(items, tileMin), counts: countsByVariant(items) };
   })
   .filter((x) => x.vis.length > 0)
   .map(({ t, vis, counts }) =>

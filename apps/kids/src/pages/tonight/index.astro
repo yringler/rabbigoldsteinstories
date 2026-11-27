@@ -5,6 +5,8 @@
 import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import { siteUrl } from "@goldstein/config/sites";
+import LangPanel from "../../components/LangPanel.astro";
+import { notYi } from "../../lib/build/lang.ts";
 ---
 
 <Base
@@ -19,15 +21,18 @@ import { siteUrl } from "@goldstein/config/sites";
       icon="moon"
       color="#14213D"
     />
-    <section class="section" aria-label="Tonight">
-      <div class="pl-list" data-tonight>
-        <p class="muted">Loading tonight's playlists…</p>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="past-h">
-      <h2 id="past-h">Past nights</h2>
-      <div class="pl-past" data-past></div>
-    </section>
+    <LangPanel title="Tonight's playlists are in English." />
+    <div data-vis={notYi().join(" ")}>
+      <section class="section" aria-label="Tonight">
+        <div class="pl-list" data-tonight>
+          <p class="muted">Loading tonight's playlists…</p>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="past-h">
+        <h2 id="past-h">Past nights</h2>
+        <div class="pl-past" data-past></div>
+      </section>
+    </div>
     <p class="pl-foot">
       Just want bedtime?
       <a class="btn" href={siteUrl("bedtime", "/")}>

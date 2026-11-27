@@ -1,5 +1,6 @@
 /**
- * Per-device state in localStorage (docs/sites/kids.md §7): band, gentle, favourites, progress,
+ * Per-device state in localStorage (docs/sites/kids.md §7): band, gentle, language
+ * (docs/design/language-kids.md §5.5), favourites, progress,
  * queue, speed, AI-improved sound (docs/design/ai-audio.md §3.2). Keys go through createStore("kids") → goldstein:kids:<key>; the store never throws
  * and falls back to memory, so the site works fully without storage.
  */
@@ -9,7 +10,15 @@ import {
   setAiAudio as setAiAudioIn,
   type Track,
 } from "@goldstein/player";
-import { type Band, DEFAULT_BAND, type Variant, variantOf } from "../lib/kinds.ts";
+import {
+  type Band,
+  DEFAULT_BAND,
+  DEFAULT_LANG,
+  type Lang,
+  type Variant,
+  isLang,
+  variantOf,
+} from "../lib/kinds.ts";
 
 export const store = createStore("kids");
 
@@ -50,7 +59,12 @@ export function getBand(): Band {
 }
 export const hasChosenBand = (): boolean => store.get<string | null>("band", null) !== null;
 export const getGentle = (): boolean => store.get<boolean>("gentle", false) === true;
-export const getVariant = (): Variant => variantOf(getBand(), getGentle());
+/** Language preference: "en" (default), "yi" or "any". */
+export function getLang(): Lang {
+  const l = store.get<string>("lang", DEFAULT_LANG);
+  return isLang(l) ? l : DEFAULT_LANG;
+}
+export const getVariant = (): Variant => variantOf(getBand(), getGentle(), getLang());
 
 export function setBand(b: Band): void {
   store.set("band", b);
@@ -62,10 +76,18 @@ export function setGentle(g: boolean): void {
   applyVariant();
   emit("band");
 }
+/** A language change re-renders exactly like a band change (same "band" topic). */
+export function setLang(l: Lang): void {
+  if (!isLang(l)) return;
+  store.set("lang", l);
+  applyVariant();
+  emit("band");
+}
 /** Put the active variant on <html> (CSS hides everything outside it). */
 export function applyVariant(): void {
   const h = document.documentElement;
   h.dataset["band"] = getBand();
+  h.dataset["lang"] = getLang();
   h.dataset["v"] = getVariant();
 }
 

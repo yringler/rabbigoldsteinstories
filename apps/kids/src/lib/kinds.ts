@@ -63,33 +63,104 @@ export function inBand(ageMin: number, adv: Adv, band: Band): boolean {
   return ageMin <= 4 || (ageMin === 5 && adv === 0);
 }
 
-/** A view variant = band + the Gentle switch. CSS hides anything whose data-vis lacks the active one. */
-export type Variant = "l" | "k" | "b" | "lg" | "kg" | "bg";
-export const VARIANTS: readonly Variant[] = ["l", "k", "b", "lg", "kg", "bg"];
+/** Language preference (docs/design/language-kids.md §2): English only, Yiddish only, or both. */
+export type Lang = "en" | "yi" | "any";
+export const LANGS: readonly Lang[] = ["en", "yi", "any"];
+/** English by default: today's behaviour, and most child listeners don't understand Yiddish. */
+export const DEFAULT_LANG: Lang = "en";
+/** The language of an item on this site: Yiddish or English (the pool holds nothing else). */
+export type ItemLang = "en" | "yi";
 
-export function variantOf(band: Band, gentle: boolean): Variant {
+export const isLang = (x: unknown): x is Lang => x === "en" || x === "yi" || x === "any";
+
+/** Labels of the shared cross-site contract; `he` is the Hebrew-script run (lang="yi" dir="rtl"). */
+export const LANG_INFO: Readonly<Record<Lang, { label: string; he?: string; blurb: string }>> = {
+  en: { label: "English", blurb: "Most stories" },
+  yi: { label: "Yiddish", he: "אידיש", blurb: "so far" },
+  any: { label: "Both", blurb: "English and Yiddish" },
+};
+
+/** Toast after a language change (§7.1). */
+export const LANG_TOAST: Readonly<Record<Lang, string>> = {
+  en: "Showing English stories",
+  yi: "Showing Yiddish stories",
+  any: "Showing English and Yiddish stories",
+};
+
+type BandCode = "l" | "k" | "b";
+type LangSuffix = "" | "-y" | "-a";
+/**
+ * A view variant = band + the Gentle switch + the language preference. CSS hides anything whose
+ * data-vis lacks the active one. English keeps the six tokens it had before languages existed.
+ */
+export type Variant = `${BandCode}${"" | "g"}${LangSuffix}`;
+const BAND_CODES: readonly BandCode[] = ["l", "k", "b"];
+const LANG_SUFFIX: Readonly<Record<Lang, LangSuffix>> = { en: "", yi: "-y", any: "-a" };
+export const VARIANTS: readonly Variant[] = LANGS.flatMap((l) =>
+  [false, true].flatMap((g) =>
+    BAND_CODES.map((b) => `${b}${g ? "g" : ""}${LANG_SUFFIX[l]}` as Variant),
+  ),
+);
+/** The variants of one language preference. */
+export const variantsOfLang = (l: Lang): Variant[] => VARIANTS.filter((v) => variantLang(v) === l);
+
+export function variantOf(band: Band, gentle: boolean, lang: Lang = DEFAULT_LANG): Variant {
   const b = band === "little" ? "l" : band === "kids" ? "k" : "b";
-  return (gentle ? `${b}g` : b) as Variant;
+  return `${b}${gentle ? "g" : ""}${LANG_SUFFIX[lang]}` as Variant;
 }
+
+const baseOf = (v: Variant): string => v.split("-")[0] ?? v;
 
 export function variantBand(v: Variant): Band {
-  return v.startsWith("l") ? "little" : v.startsWith("k") ? "kids" : "big";
+  const b = baseOf(v);
+  return b.startsWith("l") ? "little" : b.startsWith("k") ? "kids" : "big";
 }
 
-export const variantGentle = (v: Variant): boolean => v.endsWith("g");
+export const variantGentle = (v: Variant): boolean => baseOf(v).endsWith("g");
 
-export function inVariant(ageMin: number, adv: Adv, v: Variant): boolean {
-  return inBand(ageMin, adv, variantBand(v)) && (!variantGentle(v) || adv === 0);
+export function variantLang(v: Variant): Lang {
+  return v.endsWith("-y") ? "yi" : v.endsWith("-a") ? "any" : "en";
 }
 
-export function variantsOf(ageMin: number, adv: Adv): Variant[] {
-  return VARIANTS.filter((v) => inVariant(ageMin, adv, v));
+/** The same band and language with the Gentle switch off. */
+export const withoutGentle = (v: Variant): Variant =>
+  variantOf(variantBand(v), false, variantLang(v));
+/** The same band and Gentle switch with another language preference. */
+export const withLang = (v: Variant, l: Lang): Variant =>
+  variantOf(variantBand(v), variantGentle(v), l);
+
+export const langAllows = (pref: Lang, itemLang: ItemLang): boolean =>
+  pref === "any" || pref === itemLang;
+
+export function inVariant(
+  ageMin: number,
+  adv: Adv,
+  v: Variant,
+  itemLang: ItemLang = "en",
+): boolean {
+  return (
+    inBand(ageMin, adv, variantBand(v)) &&
+    (!variantGentle(v) || adv === 0) &&
+    langAllows(variantLang(v), itemLang)
+  );
 }
 
-/** Byline (§5.7): only the two confirmed family storytellers get one. */
+export function variantsOf(ageMin: number, adv: Adv, itemLang: ItemLang = "en"): Variant[] {
+  return VARIANTS.filter((v) => inVariant(ageMin, adv, v, itemLang));
+}
+
+/** Band and Gentle only (every language): for opt-in lists such as /yiddish/ and direct links. */
+export function variantsOfAnyLang(ageMin: number, adv: Adv): Variant[] {
+  return VARIANTS.filter(
+    (v) => inBand(ageMin, adv, variantBand(v)) && (!variantGentle(v) || adv === 0),
+  );
+}
+
+/** Byline (§5.7): only the confirmed family storytellers get one (never a placeholder speaker). */
 export const BYLINES: Readonly<Record<string, string>> = {
   rabbi_yosef_goldstein: "Uncle Yossi",
   rabbi_chaim_levi_goldstein: "Rabbi Chaim Levi Goldstein",
+  bubby_chaya_malka: "Bubby Chaya Malka",
 };
 
 export function bylineOf(speakers: readonly string[]): string | null {
