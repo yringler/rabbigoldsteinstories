@@ -69,6 +69,8 @@ export interface AudioLike {
    * Destroying hls.js resets currentTime to 0, so the player resumes from this instead.
    */
   readonly lastStreamTime?: number | null;
+  /** Reported to the lock screen with the position (default 1). */
+  readonly playbackRate?: number;
 }
 
 export interface PlayerOptions {
@@ -96,6 +98,8 @@ export interface PlayerOptions {
 
 /** Give up waiting for the swapped-in source after this long and clear isSwapping anyway. */
 const SWAP_TIMEOUT_MS = 5000;
+/** Report the lock screen's position state at most this often while playing (seeks report at once). */
+const POSITION_STATE_MS = 1000;
 
 type Listener = (s: PlayerState) => void;
 
@@ -132,6 +136,8 @@ export class Player {
   private lastTime = 0;
   /** We asked the element to play and no user pause has happened since. */
   private wantPlay = false;
+  /** When the position state was last reported (ms). */
+  private lastPositionState = 0;
 
   constructor(opts: PlayerOptions) {
     this.audio = opts.audio;
@@ -163,7 +169,9 @@ export class Player {
     });
     this.audio.addEventListener("loadedmetadata", () => {
       if (this.swapping && !this.wantPlay) this.endSwap();
+      this.updatePositionState(true); // a whole file's duration is known only now
     });
+    this.audio.addEventListener("ratechange", () => this.updatePositionState(true));
     this.bindMediaSession();
   }
 
@@ -302,6 +310,7 @@ export class Player {
       this.wantPlay = true;
       await this.audio.play().catch(() => undefined);
     }
+    this.updatePositionState(true);
     this.emit();
   }
 
@@ -316,6 +325,7 @@ export class Player {
     this.finishedIndex = -1;
     this.lastTime = this.audio.currentTime;
     this.updateMetadata();
+    this.updatePositionState(true);
     this.emit();
   }
 
@@ -357,6 +367,7 @@ export class Player {
     const start = t.start_sec ?? 0;
     const end = t.end_sec ?? Infinity;
     this.audio.currentTime = this.lastTime = Math.min(Math.max(start, start + positionSec), end);
+    this.updatePositionState(true);
     this.emit();
   }
 
@@ -500,6 +511,32 @@ export class Player {
     });
   }
 
+  /**
+   * The lock screen's position state, relative to the current track like state().position (the
+   * track's range, not the file or stream), so the seekto handler's seekTime is a position inside
+   * the track on every site. The Player owns it: a site that reported its own would have to match
+   * it exactly, and one that reported none would leave the browser on the element's time. Throttled
+   * while playing; `force` reports at once (seek, track change, rate change).
+   */
+  protected updatePositionState(force = false): void {
+    const s = this.session;
+    if (!s || typeof s.setPositionState !== "function" || !this.current) return;
+    const now = Date.now();
+    if (!force && now - this.lastPositionState < POSITION_STATE_MS) return;
+    const st = this.state();
+    if (!(st.duration > 0) || !Number.isFinite(st.duration)) return;
+    this.lastPositionState = now;
+    try {
+      s.setPositionState({
+        duration: st.duration,
+        position: Math.min(st.duration, Math.max(0, st.position)),
+        playbackRate: this.audio.playbackRate || 1,
+      });
+    } catch {
+      /* unsupported, or a value the browser rejects */
+    }
+  }
+
   private bindMediaSession() {
     const s = this.session;
     if (!s) return;
@@ -516,12 +553,13 @@ export class Player {
     on("previoustrack", () => void this.previous());
     on("seekbackward", (d) => this.seek(this.state().position - (d.seekOffset ?? 15)));
     on("seekforward", (d) => this.seek(this.state().position + (d.seekOffset ?? 15)));
-    // Position state (where a site reports one) is relative to the track, like state().position,
+    // The position state (updatePositionState) is relative to the track, like state().position,
     // so the lock screen's seekTime is already a position inside the track.
     on("seekto", (d) => d.seekTime !== undefined && this.seek(d.seekTime));
   }
 
   private emit() {
+    this.updatePositionState();
     const s = this.state();
     for (const l of this.listeners) l(s);
   }

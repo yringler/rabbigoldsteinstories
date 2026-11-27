@@ -322,17 +322,7 @@ export class KidsPlayer {
       // A chapter split into ranges is done only after its last range.
       S.saveProgress(t.id, g.last ? g.pos : Math.min(g.pos, g.dur * 0.9), g.dur, now);
     }
-    if ("mediaSession" in navigator && s.duration > 0 && Number.isFinite(s.position)) {
-      try {
-        navigator.mediaSession.setPositionState({
-          duration: s.duration,
-          position: Math.min(s.position, s.duration),
-          playbackRate: this.audio.playbackRate || 1,
-        });
-      } catch {
-        /* unsupported */
-      }
-    }
+    // The lock screen's position state is the Player's (track-relative, like s.position).
     // End of the line: nothing more queued and we stopped at the end.
     const atEnd =
       !s.playing &&

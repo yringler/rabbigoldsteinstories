@@ -203,6 +203,9 @@ export class StreamAudio implements AudioLike {
   get paused(): boolean {
     return this.el.paused;
   }
+  get playbackRate(): number {
+    return this.el.playbackRate;
+  }
   get preload(): string {
     return this.el.preload;
   }

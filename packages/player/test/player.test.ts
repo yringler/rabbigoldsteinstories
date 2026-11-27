@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   AI_AUDIO_KEY,
   Player,
@@ -69,6 +69,7 @@ const tracks = [
 ];
 
 describe("Player", () => {
+  afterEach(() => void vi.useRealTimers());
   it("plays a track's range and advances at end_sec", async () => {
     const audio = new FakeAudio();
     const p = new Player({ audio, mediaSession: null });
@@ -146,6 +147,64 @@ describe("Player", () => {
     handlers.get("seekto")!({ action: "seekto", seekTime: 60 });
     expect(audio.currentTime).toBe(160);
     expect(p.state().position).toBe(60);
+  });
+
+  it("reports a track-relative position state itself, so seekto lands right with no site code (library)", async () => {
+    const handlers = new Map<string, MediaSessionActionHandler>();
+    const reported: MediaPositionState[] = [];
+    const session = {
+      metadata: null,
+      setActionHandler: (a: MediaSessionAction, h: MediaSessionActionHandler) =>
+        void handlers.set(a, h),
+      setPositionState: (s: MediaPositionState) => void reported.push(s),
+    } as unknown as MediaSession;
+    vi.useFakeTimers();
+    const audio = new FakeAudio();
+    // Like apps/library: the element itself, no position state of the site's own.
+    const p = new Player({ audio, mediaSession: session });
+    await p.load([
+      { id: "aaaaaaaaaa", title: "Span", url: "https://m/a.mp3", start_sec: 1200, end_sec: 1800 },
+    ]);
+    audio.currentTime = 1500;
+    vi.setSystemTime(Date.now() + 5000); // 5 s later: past the throttle
+    audio.fire("timeupdate");
+    // Without a position state the browser reports the element's own time (1500).
+    const last = reported.at(-1);
+    expect(last).toMatchObject({ duration: 600, position: 300 });
+    handlers.get("seekto")!({ action: "seekto", seekTime: last?.position ?? audio.currentTime });
+    expect(audio.currentTime).toBe(1500);
+    expect(p.state().position).toBe(300);
+  });
+
+  it("position state: throttled while playing, at once on a seek or track change; missing API is fine", async () => {
+    const reported: MediaPositionState[] = [];
+    const session = {
+      metadata: null,
+      setActionHandler: () => undefined,
+      setPositionState: (s: MediaPositionState) => void reported.push(s),
+    } as unknown as MediaSession;
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: session });
+    await p.load(tracks);
+    const n = reported.length;
+    expect(n).toBeGreaterThan(0);
+    audio.currentTime = 101;
+    audio.fire("timeupdate");
+    audio.currentTime = 102;
+    audio.fire("timeupdate");
+    expect(reported.length).toBe(n); // within a second of the last report
+    p.seek(200);
+    expect(reported.at(-1)).toMatchObject({ duration: 300, position: 200, playbackRate: 1 });
+    // A session without setPositionState (older browsers): no throw.
+    const bare = new Player({
+      audio: new FakeAudio(),
+      mediaSession: {
+        metadata: null,
+        setActionHandler: () => undefined,
+      } as unknown as MediaSession,
+    });
+    await bare.load(tracks);
+    bare.seek(10);
   });
 
   it("sleep timer pauses playback", async () => {

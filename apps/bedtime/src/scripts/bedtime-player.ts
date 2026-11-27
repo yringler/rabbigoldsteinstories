@@ -7,7 +7,8 @@
  *     writable, else (iOS) the next story boundary or 4 more minutes, with a hard pause;
  *   - a track that fails to load is skipped after 8 s; three failures in a row pause with a note;
  *   - a pinned snapshot of the playlist, written every 10 s and on pause/pagehide (resume);
- *   - Media Session: artwork, album "Quiet Night · tonight", ±15/30 s, position in the track;
+ *   - Media Session: artwork, album "Quiet Night · tonight", ±15/30 s; the position state is the
+ *     Player's (relative to the story);
  *   - one continuous HLS stream per playlist where the browser can play one (docs/design/hls.md):
  *     each story is a range of the stream, so a locked phone never has to start a new file. If
  *     the stream fails (no HLS support, no frame table, network), it falls back to story by
@@ -109,7 +110,6 @@ export class BedtimePlayer extends Player {
   private trackStartedAt = 0;
   private failures = 0;
   private lastSave = 0;
-  private lastPositionState = 0;
   private readonly volumeWritable = volumeIsWritable();
   private readonly watchers = new Set<(s: BedtimeState) => void>();
   private readonly stream: StreamAudio;
@@ -507,7 +507,6 @@ export class BedtimePlayer extends Player {
       this.setPhase("asleep");
     }
     if (!this.el.paused && now - this.lastSave >= SAVE_EVERY_MS) this.save();
-    if (!this.el.paused) this.positionState();
   }
 
   private fadeOut(): void {
@@ -623,24 +622,6 @@ export class BedtimePlayer extends Player {
   private stopAudio(): void {
     if (!this.el.paused) this.intentionalPause = true;
     this.pause();
-  }
-
-  private positionState(): void {
-    const now = Date.now();
-    if (now - this.lastPositionState < 1000) return;
-    this.lastPositionState = now;
-    const ms = "mediaSession" in navigator ? navigator.mediaSession : null;
-    const s = this.state();
-    if (!ms?.setPositionState || !(s.duration > 0)) return;
-    try {
-      ms.setPositionState({
-        duration: s.duration,
-        position: Math.min(s.duration, Math.max(0, s.position)),
-        playbackRate: 1,
-      });
-    } catch {
-      /* ignore */
-    }
   }
 
   private save(force = false, finished = false): void {
