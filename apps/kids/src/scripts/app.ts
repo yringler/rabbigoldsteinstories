@@ -62,18 +62,24 @@ function renderBandChip(): void {
   });
 }
 
-/** ?lang=en|yi|any: save it, then drop only that parameter from the address (§3.3). */
-function takeLangParam(): void {
+/** ?lang=en|yi|any: save it (without the change event; the caller applies it). */
+function saveLangParam(): URL | null {
   let url: URL;
   try {
     url = new URL(location.href);
   } catch {
-    return;
+    return null;
   }
   const p = url.searchParams.get("lang");
-  if (p === null) return;
-  // Saved without the change event: pageLoad applies it and draws the page once.
+  if (p === null) return null;
   if (isLang(p)) S.store.set("lang", p);
+  return url;
+}
+
+/** ?lang=en|yi|any: save it, then drop only that parameter from the address (§3.3). */
+function takeLangParam(): void {
+  const url = saveLangParam();
+  if (!url) return;
   url.searchParams.delete("lang");
   history.replaceState(history.state, "", `${url.pathname}${url.search}${url.hash}`);
 }
@@ -190,6 +196,8 @@ document.addEventListener("click", (e) => {
 
 // <ClientRouter /> swaps <html> attributes: put the band back before the new page paints.
 document.addEventListener("astro:after-swap", () => {
+  // A client-routed link with ?lang= must paint in that language, as a full load does.
+  saveLangParam();
   S.applyVariant();
   document.documentElement.classList.toggle("has-player", (kp()?.currentId() ?? null) !== null);
 });

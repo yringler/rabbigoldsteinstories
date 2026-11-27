@@ -231,3 +231,15 @@ describe("Hear it in… and More like this (§4.6, §5.3)", () => {
     }
   });
 });
+
+describe("no hard-coded English-only variant lists", () => {
+  it("source files build variant lists from VARIANTS, never the six pre-language codes", () => {
+    // A literal ["l", "k", "b", "lg", "kg", "bg"] silently drops the "Both" variants (the serial
+    // page's "for bigger kids" banner never showed in Both mode).
+    const files = ["src/pages/serial/[key]/index.astro", "src/scripts/pages/home.ts"];
+    for (const f of files) {
+      const src = readFileSync(new URL(`../${f}`, import.meta.url), "utf8");
+      expect(src, f).not.toMatch(/"lg",\s*"kg",\s*"bg"/);
+    }
+  });
+});
