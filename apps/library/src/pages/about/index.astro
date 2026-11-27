@@ -8,6 +8,7 @@ import {
   siteUrl,
   supportUrl,
 } from "@goldstein/config/sites";
+import LangControl from "../../components/LangControl.astro";
 import Base from "../../layouts/Base.astro";
 import { episodes, hasCleanAudio, manifest, rows, SITE } from "../../lib/site-data.ts";
 
@@ -20,6 +21,8 @@ const sound = hasCleanAudio();
 const aiModel: string | null = "Sidon";
 const pub = rows().filter((r) => r.preferred).length;
 const lost = episodes().filter((e) => e.status === "lost").length;
+const yi = rows().filter((r) => r.preferred && r.lang === "yi");
+const yiHours = Math.round(yi.reduce((a, r) => a + r.dur, 0) / 3600);
 ---
 
 <Base
@@ -50,6 +53,18 @@ const lost = episodes().filter((e) => e.status === "lost").length;
         radio show, and is known for the song “I Believe in Hashem”, which opens his stories.{" "}
         <strong>Bubby Chaya Malka</strong>, Uncle Yossi's mother, tells stories of her own in
         English and Yiddish.
+      </p>
+
+      <h2>English and Yiddish</h2>
+      <p>
+        {yi.length} recordings, about {yiHours} hours, are in Yiddish: Uncle Yossi's Tanya shiurim,
+        Bubby Chaya Malka's stories, Haggadah talks for children and a few more. They have no
+        readable transcript (the automatic Yiddish transcripts are used for search only), but every
+        one has a summary in English. Choose what the lists show:
+      </p>
+      <LangControl id="about" variant="inline" />
+      <p class="small muted">
+        Both is the default. <a href="/help/#language">How the setting works</a>.
       </p>
 
       <h2>How the archive was made</h2>

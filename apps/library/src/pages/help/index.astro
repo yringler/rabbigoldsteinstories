@@ -1,9 +1,11 @@
 ---
 /** Help: search syntax, filters, keyboard shortcuts, sound, citing, playlists. */
+import LangControl from "../../components/LangControl.astro";
 import Base from "../../layouts/Base.astro";
-import { hasCleanAudio } from "../../lib/site-data.ts";
+import { hasCleanAudio, rows } from "../../lib/site-data.ts";
 
 const sound = hasCleanAudio();
+const yiCount = rows().filter((r) => r.preferred && r.lang === "yi").length;
 ---
 
 <Base
@@ -19,6 +21,9 @@ const sound = hasCleanAudio();
         </a>
         <a class="chip" href="#filters">
           Filters
+        </a>
+        <a class="chip" href="#language">
+          Language
         </a>
         <a class="chip" href="#keys">
           Keyboard
@@ -86,6 +91,38 @@ const sound = hasCleanAudio();
         <li>
           “Suitable from age” is the youngest age a recording suits; 3 to 6 finds recordings for
           young children.
+        </li>
+      </ul>
+
+      <h2 id="language">Language</h2>
+      <p>
+        Most recordings are in English; {yiCount} are in Yiddish (the Tanya shiurim, Bubby Chaya
+        Malka's stories, Haggadah talks). The language setting, also in the header, decides what the
+        lists show:
+      </p>
+      <LangControl id="help" variant="inline" />
+      <ul>
+        <li>
+          <strong>Both</strong> (the default) shows everything.
+        </li>
+        <li>
+          <strong>English</strong> or <strong>Yiddish</strong> starts every search with that
+          language filter, shown as a chip marked “your setting”. Remove the chip to search all
+          languages; the link you copy keeps whatever the search shows.
+        </li>
+        <li>
+          On the people, places, sources, calendar, parsha and story lists, entries with nothing in
+          your language are hidden, with a note and a “Show them” button. Recording, series, study
+          and story pages always show everything.
+        </li>
+        <li>
+          Transcript search follows the letters you type: Hebrew letters search the Yiddish
+          recordings, English letters the English ones. With the filter set to the other language,
+          only titles and summaries are searched, and the page says so.
+        </li>
+        <li>
+          Add <code>?lang=en</code>, <code>?lang=yi</code> or <code>?lang=any</code> to a link to
+          set it. The setting is saved in this browser only.
         </li>
       </ul>
 

@@ -1,9 +1,11 @@
 ---
 /** One occasion: its recordings (radio episodes grouped by the year they aired) and a link to search. */
 import type { GetStaticPaths } from "astro";
+import LangNote from "../../../components/LangNote.astro";
 import RecRow from "../../../components/RecRow.astro";
 import Base from "../../../layouts/Base.astro";
 import { hebrewYearSpan } from "../../../lib/dates.ts";
+import { langHas, scopeInfo } from "../../../lib/lang.ts";
 import { label, rows, usage, vocabEntry } from "../../../lib/site-data.ts";
 
 export const getStaticPaths = (() =>
@@ -17,10 +19,12 @@ const mine = rows()
 const radio = mine.filter((r) => r.type === "radio_episode");
 const others = mine.filter((r) => r.type !== "radio_episode");
 const years = [...new Set(radio.map((r) => r.hy ?? 0))].sort((a, b) => a - b);
+const info = scopeInfo(mine.map((r) => [r.lang]));
+const has = (rs: typeof mine) => langHas(rs.map((r) => r.lang));
 ---
 
 <Base title={label("calendar", id)} description={`Recordings for ${label("calendar", id)}.`}>
-  <div class="wrap page">
+  <div class="wrap page" data-lang-scope data-lang-empty={info.emptyAttr || undefined}>
     <header class="page-head">
       <nav class="crumbs" aria-label="Breadcrumb">
         <a href="/calendar/">Jewish calendar</a>
@@ -31,11 +35,12 @@ const years = [...new Set(radio.map((r) => r.hy ?? 0))].sort((a, b) => a - b);
         {mine.length} recordings. <a href={`/search/?calendar=${id}`}>Search and filter these</a>.
       </p>
     </header>
+    <LangNote info={info} />
     {radio.length > 0 && (
-      <section class="section">
+      <section class="section" data-lang-has={has(radio)}>
         <h2>Radio episodes, by the year they aired</h2>
         {years.map((y) => (
-          <>
+          <div data-lang-has={has(radio.filter((r) => (r.hy ?? 0) === y))}>
             <h3 class="yr">{y ? `${y} (${hebrewYearSpan(y)})` : "Year unknown"}</h3>
             <ol class="rec-list">
               {radio
@@ -44,12 +49,12 @@ const years = [...new Set(radio.map((r) => r.hy ?? 0))].sort((a, b) => a - b);
                   <RecRow row={r} showSummary={false} />
                 ))}
             </ol>
-          </>
+          </div>
         ))}
       </section>
     )}
     {others.length > 0 && (
-      <section class="section">
+      <section class="section" data-lang-has={has(others)}>
         <h2>{radio.length ? "Other recordings" : "Recordings"}</h2>
         <ol class="rec-list">
           {others.map((r) => (

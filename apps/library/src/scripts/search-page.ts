@@ -28,6 +28,18 @@ import {
   toQuery,
 } from "../lib/facets.ts";
 import { iconSvg } from "../lib/icons.ts";
+import {
+  blockedMessage,
+  followPref,
+  LANG_NAMES,
+  type LangPref,
+  langChipIsPref,
+  normalizeLangAny,
+  otherLangCount,
+  searchLangPref,
+  transcriptLangs,
+  withPrefParam,
+} from "../lib/lang.ts";
 import { nestClips } from "../lib/nest.ts";
 import type { Suggestion } from "../lib/suggest.ts";
 import { suggest } from "../lib/suggest.ts";
@@ -35,7 +47,7 @@ import { hasHebrewScript, parseQuery, queryVariants, TextIndex } from "../lib/te
 import { formatDuration, humanLength, totalLength } from "../lib/time.ts";
 import { entryOf, trackOf } from "../lib/tracks.ts";
 import type { LibCatalog, LibRow, PersonRole } from "../lib/types.ts";
-import { $, $$, announce, h, loadCatalog } from "./core.ts";
+import { $, $$, announce, h, langPref, loadCatalog, setLangPref } from "./core.ts";
 
 const KEYS = LIBRARY_FACETS.map((d) => d.key);
 const engine: TranscriptEngine = new PagefindEngine();
@@ -83,7 +95,7 @@ const DEFAULT_COLS = ["title", "type", "speaker", "hdate", "gdate", "length", "a
 export async function init(): Promise<void> {
   const app = $("[data-search-app]");
   if (!app) return;
-  state = parseState(new URLSearchParams(location.search), KEYS);
+  state = readUrl();
   focusIdx = -1;
   bindForm(app);
   const cat = await loadCatalog();
@@ -129,8 +141,19 @@ const vl = (list: string, id: string) => ctx?.labels.get(list)?.get(id)?.label ?
 // ---------------------------------------------------------------------------------------------
 // URL and state changes
 
+/**
+ * The state in the URL. With no `lang` in it, a one-language setting fills the facet and is written
+ * into the URL (replaceState), so the URL stays the whole truth and a copied link means the same
+ * thing in every browser (docs/design/language-library.md §3).
+ */
+function readUrl(): SearchState {
+  const filled = withPrefParam(location.search, langPref());
+  if (filled !== null) history.replaceState(history.state, "", `${location.pathname}?${filled}`);
+  return parseState(new URLSearchParams(location.search), KEYS);
+}
+
 function commit(next: SearchState, push = true): void {
-  state = next;
+  state = normalizeLangAny(next, langPref());
   const qs = toQuery(state, KEYS);
   const url = `${location.pathname}${qs ? `?${qs}` : ""}`;
   if (push) history.pushState(null, "", url);
@@ -140,8 +163,17 @@ function commit(next: SearchState, push = true): void {
 
 window.addEventListener("popstate", () => {
   if (!$("[data-search-app]")) return;
-  state = parseState(new URLSearchParams(location.search), KEYS);
+  state = readUrl();
   void render();
+});
+
+// The setting changed while on /search: a filter that came from the old setting follows it.
+document.addEventListener("gsl:lang", (e) => {
+  if (!$("[data-search-app]") || !ctx) return;
+  const { from, to } = (e as CustomEvent<{ from: LangPref; to: LangPref }>).detail;
+  const next = followPref(state, from, to);
+  if (next) commit(next, false);
+  else void render();
 });
 
 function bindForm(app: HTMLElement): void {
@@ -297,14 +329,16 @@ interface Result {
   nested: LibRow[];
 }
 
-async function transcriptSearch(q: string): Promise<{ hits: Hit[]; also: string[] }> {
-  const key = q.toLowerCase();
+async function transcriptSearch(
+  q: string,
+  langs: readonly TranscriptLang[],
+): Promise<{ hits: Hit[]; also: string[] }> {
+  const key = `${langs.join(",")}|${q.toLowerCase()}`;
   const cached = transcriptCache.get(key);
   if (cached) return cached;
-  const langs: TranscriptLang[] = hasHebrewScript(q) ? ["yi"] : ["en"];
   let hits = await engine.search(q, langs);
   const also: string[] = [];
-  if (hits.length < 20 && !hasHebrewScript(q)) {
+  if (hits.length < 20 && langs.includes("en") && !hasHebrewScript(q)) {
     const vars = queryVariants(q);
     const more = await Promise.all(vars.map((v) => engine.search(v, langs)));
     const best = new Map(hits.map((h) => [h.id, h]));
@@ -333,16 +367,18 @@ async function render(): Promise<void> {
   const tr = new Map<number, { score: number; hit: Hit }>();
   let also: string[] = [];
   let transcriptAvailable = true;
+  let blocked: string | null = null;
   if (state.q) {
     if (state.in !== "transcript") meta = c.text.search(parseQuery(state.q));
-    if (state.in !== "meta") {
+    // The query's script picks the index; the language filter can rule it out (design §3.1).
+    const tl = transcriptLangs(state.q, state.sel["lang"]);
+    if (state.in !== "meta" && tl.blocked) blocked = blockedMessage(tl.blocked, langFilterLabel());
+    if (state.in !== "meta" && tl.langs.length) {
       if (status) status.textContent = "Searching transcripts…";
       paint(c, extra, meta, tr, also, true);
       try {
-        transcriptAvailable = await (engine as PagefindEngine).available(
-          hasHebrewScript(state.q) ? "yi" : "en",
-        );
-        const res = await transcriptSearch(state.q);
+        transcriptAvailable = await (engine as PagefindEngine).available(tl.script);
+        const res = await transcriptSearch(state.q, tl.langs);
         if (my !== seq) return;
         also = res.also;
         for (const hit of res.hits) {
@@ -357,7 +393,42 @@ async function render(): Promise<void> {
     }
   }
   if (my !== seq) return;
-  paint(c, extra, meta, tr, also, false, transcriptAvailable);
+  paint(c, extra, meta, tr, also, false, transcriptAvailable, blocked);
+}
+
+/** The language filter in words, for the status line ("English", "not Yiddish"). */
+function langFilterLabel(): string {
+  const sel = state.sel["lang"];
+  const name = (v: string) => LANG_NAMES[v] ?? v;
+  if (!sel) return "any language";
+  const parts: string[] = [];
+  if (sel.any.length) parts.push(sel.any.map(name).join(" or "));
+  if (sel.not.length) parts.push(`not ${sel.not.map(name).join(" or ")}`);
+  return parts.join(", ");
+}
+
+/** "Also 12 in Yiddish · Show" under the count, when one language is selected (design §3). */
+function renderLangAlso(c: Ctx, extra: B.Bits[]): void {
+  const host = $("[data-lang-also]");
+  if (!host) return;
+  const other = otherLangCount(state.sel["lang"], facetCounts(c.index, state, "lang", extra));
+  if (!other) {
+    host.hidden = true;
+    host.replaceChildren();
+    return;
+  }
+  const show = h("button", { type: "button", class: "btn btn-quiet" }, "Show them");
+  show.addEventListener("click", () => {
+    const sel = { ...state.sel };
+    delete sel["lang"];
+    commit({ ...state, sel, page: 1 });
+    announce("Showing all languages");
+  });
+  host.replaceChildren(
+    `Also ${other.n.toLocaleString("en")} ${other.n === 1 ? "recording" : "recordings"} ${other.label}. `,
+    show,
+  );
+  host.hidden = false;
 }
 
 function paint(
@@ -368,6 +439,7 @@ function paint(
   also: string[],
   pending: boolean,
   transcriptAvailable = true,
+  blocked: string | null = null,
 ): void {
   const all = [...extra];
   if (state.q) {
@@ -416,10 +488,12 @@ function paint(
       parts.push(
         "Transcript search is not available right now; titles and summaries were searched.",
       );
+    if (blocked) parts.push(blocked);
     if (also.length) parts.push(`Also searched: ${also.join(", ")}`);
     status.textContent = parts.join(" ");
   }
   renderActive(c);
+  renderLangAlso(c, all);
   renderFacets(c, all);
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   const page = Math.min(state.page, pages);
@@ -472,6 +546,7 @@ function syncControls(): void {
 function renderActive(c: Ctx): void {
   const bar = $("[data-active-bar]");
   if (!bar) return;
+  const pref = langPref();
   const chips: HTMLElement[] = [];
   const chip = (text: string, remove: () => void, not = false) => {
     const b = h("button", {
@@ -486,9 +561,10 @@ function renderActive(c: Ctx): void {
     const sel = state.sel[def.key];
     if (!sel) continue;
     const mode = sel.all && sel.any.length > 1 ? " (all)" : "";
+    const mine = def.key === "lang" && langChipIsPref(sel, pref) ? " (your setting)" : "";
     for (const v of sel.any)
       chip(
-        `${def.kind === "exclude" ? "Leave out" : def.label}: ${valueLabel(def, v).label}${mode}`,
+        `${def.kind === "exclude" ? "Leave out" : def.label}: ${valueLabel(def, v).label}${mode}${mine}`,
         () => commit(toggleValue(state, def.key, v, "any")),
         def.kind === "exclude",
       );
@@ -511,8 +587,22 @@ function renderActive(c: Ctx): void {
     chip(state.scope === "full" ? "Full episodes only (no clips)" : "Clips and stories only", () =>
       commit({ ...state, scope: "both", page: 1 }),
     );
+  // "Make this my setting": the search's language differs from the stored setting (design §3).
+  const asPref = searchLangPref(state.sel["lang"]);
+  let mineBtn: HTMLElement | null = null;
+  if (asPref && asPref !== pref) {
+    mineBtn = h(
+      "button",
+      { type: "button", class: "btn btn-quiet" },
+      `Make ${asPref === "any" ? "Both" : LANG_NAMES[asPref]} my language setting`,
+    );
+    mineBtn.addEventListener("click", () => setLangPref(asPref));
+  }
   if (!chips.length) {
-    bar.hidden = true;
+    if (mineBtn) {
+      bar.replaceChildren(mineBtn);
+      bar.hidden = false;
+    } else bar.hidden = true;
     return;
   }
   const clear = h("button", { type: "button", class: "btn btn-quiet" }, "Clear all");
@@ -528,7 +618,13 @@ function renderActive(c: Ctx): void {
     "click",
     () => void navigator.clipboard?.writeText(location.href).then(() => announce("Link copied")),
   );
-  bar.replaceChildren(h("span", { class: "small muted" }, "Active:"), ...chips, clear, copy);
+  bar.replaceChildren(
+    h("span", { class: "small muted" }, "Active:"),
+    ...chips,
+    clear,
+    copy,
+    ...(mineBtn ? [mineBtn] : []),
+  );
   bar.hidden = false;
 }
 

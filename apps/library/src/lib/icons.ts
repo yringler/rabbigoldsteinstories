@@ -28,6 +28,8 @@ export const ICONS = {
   volume:
     '<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  // Language setting: a speech bubble with two lines of text (no crossing strokes).
+  lang: '<path d="M4.5 5h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H10l-4.5 3.5V16h-1a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/><path d="M8 9h8M8 12.5h5"/>',
   trash: '<path d="M5 7h14M10 7V4.5h4V7M7 7l1 13h8l1-13"/>',
   edit: '<path d="M15.5 5.5l3 3L8 19H5v-3z"/>',
   up: '<path d="m6 15 6-6 6 6"/>',

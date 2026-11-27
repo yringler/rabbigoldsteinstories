@@ -152,6 +152,25 @@ const relGroups = REL_HEADINGS.map(([heading, types]) => ({
 const groups = (groupsByItem().get(id) ?? [])
   .map((g) => storyGroups().groups.find((x) => x.group_id === g))
   .filter((g) => g !== undefined);
+// "Also told in English/Yiddish" (docs/design/language-library.md §5): other tellings of this story
+// in another language, from its story groups and confident same-story relations.
+const otherLang = new Map<string, string[]>();
+for (const t of [
+  ...groups.flatMap((g) => g.item_ids),
+  ...confident.filter((r) => r.type.startsWith("same_story")).map((r) => r.id),
+]) {
+  const tr = rows.get(t);
+  if (!tr || t === id || !tr.preferred || tr.lang === it.language.primary) continue;
+  const list = otherLang.get(tr.lang) ?? [];
+  if (!list.includes(t)) list.push(t);
+  otherLang.set(tr.lang, list);
+}
+const alsoTold = [...otherLang.entries()]
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([l, ids]) => ({
+    lang: langName(l),
+    ids: ids.sort((a, b) => (rows.get(a)?.sortKey ?? 0) - (rows.get(b)?.sortKey ?? 0)),
+  }));
 const superseded = !it.derived.preferred_copy;
 const clipParent = it.derived.clip_of[0];
 const clipOffset = it.relations.find((r) => r.type === "clip_of")?.offset_sec;
@@ -326,6 +345,26 @@ const qr = qrSvg(`${ORIGIN}/r/${id}/`, 88);
             ages {it.audience.age_min}+ · {level}
           </span>
         </p>
+        {alsoTold.map((a) => (
+          <p class="lang-hint">
+            Also told in {a.lang}:{" "}
+            {a.ids.slice(0, 2).map((t, i) => (
+              <>
+                {i > 0 && ", "}
+                <a href={`/r/${t}/`}>{rows.get(t)?.title ?? t}</a>
+              </>
+            ))}
+            {a.ids.length > 2 &&
+              (groups[0] ? (
+                <>
+                  {" "}
+                  and <a href={`/stories/${groups[0].group_id}/`}>{a.ids.length - 2} more</a>
+                </>
+              ) : (
+                ` and ${a.ids.length - 2} more`
+              ))}
+          </p>
+        ))}
         {c.date && c.date.precision !== "unknown" && (
           <details class="how">
             <summary>How do we know the date?</summary>

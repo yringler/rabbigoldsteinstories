@@ -31,7 +31,7 @@ const len =
 const speakers = row.speakers.filter((s) => s !== "guest_children").map(speakerLabel);
 ---
 
-<li class="rec">
+<li class="rec" data-lang={row.lang}>
   <div>
     <H class="rec-title">
       <a href={href}>{range.label ?? row.title}</a>

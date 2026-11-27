@@ -95,6 +95,28 @@ export function usage(
   });
 }
 
+/**
+ * Languages of the public (preferred) recordings per vocabulary id or place, for the CSS-only
+ * narrowing of topical lists (docs/design/language-library.md §4).
+ */
+export function usageLangs(
+  list: "people" | "midos" | "mitzvos" | "topics" | "calendar" | "parshiyos" | "works" | "places",
+): Map<string, string[]> {
+  return once(`usageLangs:${list}`, () => {
+    const m = new Map<string, Set<string>>();
+    for (const r of rows()) {
+      if (!r.preferred) continue;
+      const vals = list === "people" ? r.people.map(([p]) => p) : r[list];
+      for (const v of vals) {
+        let s = m.get(v);
+        if (!s) m.set(v, (s = new Set()));
+        s.add(r.lang);
+      }
+    }
+    return new Map([...m].map(([k, s]) => [k, [...s].sort()]));
+  });
+}
+
 function hasFlags(it: PublicItem): HasFlag[] {
   const out: HasFlag[] = [];
   if (it.segments.length) out.push("chapters");

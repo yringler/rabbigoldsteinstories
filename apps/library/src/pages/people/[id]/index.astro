@@ -1,8 +1,10 @@
 ---
 /** One person: recordings in four lists by role, and a link to the same set in /search. */
 import type { GetStaticPaths } from "astro";
+import LangNote from "../../../components/LangNote.astro";
 import RecRow from "../../../components/RecRow.astro";
 import Base from "../../../layouts/Base.astro";
+import { langHas, scopeInfo } from "../../../lib/lang.ts";
 import { label, rows, usage, vocab } from "../../../lib/site-data.ts";
 
 export const getStaticPaths = (() => {
@@ -28,10 +30,12 @@ const byRole = ROLES.map(([role, heading]) => ({
     .filter((r) => r.people.some(([p, ro]) => p === id && ro === role))
     .sort((a, b) => (a.sortKey || 9e7) - (b.sortKey || 9e7)),
 })).filter((g) => g.rows.length > 0);
+// A recording can sit under two roles; the note counts it under each list it is in.
+const info = scopeInfo(byRole.flatMap((g) => g.rows.map((r) => [r.lang])));
 ---
 
 <Base title={name} description={`Recordings about ${name}: stories, teachings and mentions.`}>
-  <div class="wrap page">
+  <div class="wrap page" data-lang-scope data-lang-empty={info.emptyAttr || undefined}>
     <header class="page-head">
       <nav class="crumbs" aria-label="Breadcrumb">
         <a href="/people/">People</a>
@@ -42,14 +46,20 @@ const byRole = ROLES.map(([role, heading]) => ({
       </p>
       <nav class="btn-row" aria-label="Roles">
         {byRole.map((g) => (
-          <a class="chip" href={`#${g.role}`}>
+          <a class="chip" href={`#${g.role}`} data-lang-has={langHas(g.rows.map((r) => r.lang))}>
             {g.heading} <span class="n">{g.rows.length}</span>
           </a>
         ))}
       </nav>
     </header>
+    <LangNote info={info} />
     {byRole.map((g) => (
-      <section class="section" id={g.role} aria-labelledby={`h-${g.role}`}>
+      <section
+        class="section"
+        id={g.role}
+        aria-labelledby={`h-${g.role}`}
+        data-lang-has={langHas(g.rows.map((r) => r.lang))}
+      >
         <div class="section-head">
           <h2 id={`h-${g.role}`}>{g.heading}</h2>
           <a class="small" href={`/search/?people=${id}&people.role=${g.role}`}>

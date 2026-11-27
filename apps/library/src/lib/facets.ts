@@ -58,6 +58,11 @@ export interface SearchState {
   view: "list" | "table";
   page: number;
   cols: string[] | null;
+  /**
+   * `lang=any`: no language filter, on purpose, so the visitor's language setting is not applied
+   * (docs/design/language-library.md §3).
+   */
+  langAny: boolean;
 }
 
 export const AGE_MIN = 3;
@@ -283,6 +288,7 @@ export function defaultState(): SearchState {
     view: "list",
     page: 1,
     cols: null,
+    langAny: false,
   };
 }
 
@@ -423,7 +429,11 @@ export function parseState(params: URLSearchParams, facetKeys: readonly string[]
   const inn = params.get("in");
   if (inn === "meta" || inn === "transcript") s.in = inn;
   for (const k of facetKeys) {
-    const any = list(params.get(k));
+    let any = list(params.get(k));
+    if (k === "lang" && any.includes("any")) {
+      s.langAny = true;
+      any = [];
+    }
     const not = list(params.get(`${k}.not`));
     const all = params.get(`${k}.mode`) === "all";
     if (any.length || not.length || all) s.sel[k] = { any, not, all };
@@ -456,6 +466,7 @@ export function toQuery(s: SearchState, facetKeys: readonly string[]): string {
     if (sel.all && sel.any.length) p.set(`${k}.mode`, "all");
     if (sel.not.length) p.set(`${k}.not`, sel.not.join(","));
   }
+  if (s.langAny && !s.sel["lang"]) p.set("lang", "any");
   if (s.role) p.set("people.role", s.role);
   if (s.age) p.set("age", `${s.age[0]}-${s.age[1]}`);
   if (s.year) p.set("year", `${s.year[0]}-${s.year[1]}`);

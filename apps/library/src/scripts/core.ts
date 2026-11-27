@@ -11,6 +11,7 @@ import {
   type Store,
   type Track,
 } from "@goldstein/player";
+import { DEFAULT_LANG, LANG_KEY, type LangPref, parseLang, statusLine } from "../lib/lang.ts";
 import type { LibCatalog, RecInfo } from "../lib/types.ts";
 
 declare global {
@@ -47,6 +48,23 @@ export function setSound(clean: boolean): void {
   setAiAudio(store, clean);
   player().setPreferClean(clean);
   document.dispatchEvent(new CustomEvent("gsl:sound", { detail: clean }));
+}
+
+/** The visitor's language setting (docs/design/language-library.md §2); default "any". */
+export function langPref(): LangPref {
+  return parseLang(store.get<string>(LANG_KEY, DEFAULT_LANG));
+}
+
+/**
+ * Store the language setting, mirror it on html[data-lang-pref] (the CSS narrowing of lists keys
+ * off it) and tell listeners (`gsl:lang`, detail {from, to}): the controls and /search.
+ */
+export function setLangPref(to: LangPref, say = true): void {
+  const from = langPref();
+  store.set(LANG_KEY, to);
+  document.documentElement.dataset["langPref"] = to;
+  document.dispatchEvent(new CustomEvent("gsl:lang", { detail: { from, to } }));
+  if (say) announce(statusLine(to));
 }
 
 /** Absolute position in the file (seconds) of the current track, or null. */

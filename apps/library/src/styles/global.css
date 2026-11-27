@@ -704,6 +704,127 @@ a.chip:hover {
   margin: 0;
 }
 
+/* ---------------------------------------------------------------- language setting
+   docs/design/language-library.md. html[data-lang-pref] is set before first paint (Base.astro);
+   without it the site behaves as "Both". */
+
+.lang-ctl {
+  position: relative;
+  flex: none;
+}
+.lang-sum {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 8px;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--ink);
+}
+.lang-sum::-webkit-details-marker {
+  display: none;
+}
+.lang-sum:hover,
+.lang-ctl[open] .lang-sum {
+  background: var(--surface-2);
+  border-color: var(--rule);
+}
+.lang-cur [data-for] {
+  display: none;
+}
+html:not([data-lang-pref]) .lang-cur [data-for="any"],
+html[data-lang-pref="any"] .lang-cur [data-for="any"],
+html[data-lang-pref="en"] .lang-cur [data-for="en"],
+html[data-lang-pref="yi"] .lang-cur [data-for="yi"] {
+  display: inline;
+}
+.lang-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 40;
+  width: min(280px, calc(100vw - 32px));
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  padding: 12px 14px;
+}
+.lang-panel fieldset,
+.lang-inline {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.lang-panel legend,
+.lang-inline legend {
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.lang-panel label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 4px 0;
+  cursor: pointer;
+}
+.lang-panel p {
+  margin: 8px 0 0;
+}
+.lang-opt {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  padding: 4px 10px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  cursor: pointer;
+}
+.lang-opt:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* Topical lists: rows outside the setting are hidden (never removed) inside a scope that has
+   something in that language; "Show them" sets data-lang-reveal on the scope. */
+html[data-lang-pref="en"]
+  [data-lang-scope]:not([data-lang-reveal]):not([data-lang-empty~="en"])
+  :is([data-lang]:not([data-lang="en"]), [data-lang-has]:not([data-lang-has~="en"])),
+html[data-lang-pref="yi"]
+  [data-lang-scope]:not([data-lang-reveal]):not([data-lang-empty~="yi"])
+  :is([data-lang]:not([data-lang="yi"]), [data-lang-has]:not([data-lang-has~="yi"])) {
+  display: none;
+}
+.lang-note {
+  display: none;
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+html[data-lang-pref="en"] .lang-note[data-for="en"],
+html[data-lang-pref="yi"] .lang-note[data-for="yi"] {
+  display: block;
+}
+.lang-note .when-shown,
+[data-lang-reveal] .lang-note .when-hidden {
+  display: none;
+}
+[data-lang-reveal] .lang-note .when-shown {
+  display: inline;
+}
+.lang-hint {
+  margin: 6px 0 0;
+  font-size: 14px;
+}
+.lang-also {
+  margin: 4px 0 0;
+}
+
 /* ---------------------------------------------------------------- forms */
 
 input[type="text"],
