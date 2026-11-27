@@ -46,7 +46,7 @@ The playlist is RFC 8216 VOD (`EXT-X-ENDLIST`), version 4:
 - **Segments** are `EXT-X-BYTERANGE` slices of the files on R2, about 30 s each; a tail under 8 s is merged into the one before. Nothing is re-encoded or copied.
 - **Discontinuities:** `EXT-X-DISCONTINUITY` sits between stories, except where the next story continues the same file at the next byte (consecutive spans join seamlessly).
 - **Story cuts** fall on frame boundaries, about 26 ms. Story `i` is cut so that it ends within half a frame of `Σ (end_sec − start_sec)` over stories `0..i`. That holds for both copies, so the client computes story times with `hlsChapters(items)`, with no frame tables.
-- **ID3 timestamps:** the segments carry none. RFC 8216 §3.4 asks for an ID3 PRIV timestamp on packed audio; hls.js doesn't need one, and Safari plays these segments in our tests (the lab page in this branch's history tested both). If a Safari version ever refuses them, a Worker can prepend a 73-byte tag to each segment; the lab's `worker/lab.ts` had the code.
+- **ID3 timestamps:** the segments carry none. RFC 8216 §3.4 asks for an ID3 PRIV timestamp on packed audio; hls.js doesn't need one (checked in Chromium). **Not yet confirmed on Safari:** if Safari refuses them, the player falls back to one file per story, and a Worker can prepend a 73-byte tag to each segment (the lab page in this branch's history, `worker/lab.ts`, had the code and a test page for both variants).
 - **Join clicks:** a decoder may click faintly where a story is cut out of an episode, because of the MP3 bit reservoir. It's inaudible in practice.
 
 The R2 bucket has a CORS rule (`*`, GET/HEAD, header `range`, exposing `Content-Length, Content-Range, Accept-Ranges`). hls.js needs it; Safari's built-in player doesn't.
