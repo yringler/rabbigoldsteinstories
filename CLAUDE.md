@@ -18,7 +18,7 @@ Data repo for a planned public website of the Goldstein family's recorded storie
   - Every `.meta.json` has `media.url` (ready to play), `media.r2_key`, `size_bytes` and `mime_type`.
   - If you move or rename audio in R2, update `media` too.
   - Non-audio files (tape catalogs, PDFs, images) are at `goldstein/media/…` on the same host. `data/catalog/media_catalog.csv` lists them; don't commit binaries to git.
-  - The host sends no CORS headers. `<audio src>` works; `fetch()` from another origin would need a CORS rule on the bucket.
+  - The bucket has a CORS rule (any origin, GET/HEAD, `range` header), added for HLS. Bedtime plays each playlist as one HLS stream of byte ranges of these files (`docs/design/hls.md`); its frame table is `data/catalog/audio_frames.csv`, so rerun `tools/4-r2/scan_audio_frames.py` after uploading or re-encoding audio.
 
 ## Rules
 - **Privacy:** this repo is private. Every `.meta.json` has a `hidden` block (children's names, addresses and sick lists read on air, with timestamps), and the transcripts contain the same words.

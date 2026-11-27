@@ -47,3 +47,4 @@ Snapshots of the scripts that built the archive, by stage. They ran on the owner
 - `upload_audio.py`: uploads the audio to `goldstein/audio/…`. It is resumable and writes `r2_manifest.csv`.
 - `upload_media.py`: uploads the non-audio files (`StoryArchive/documents`) to `goldstein/media/…` with the right content types, and writes `media_manifest.csv` (exported as `data/catalog/media_catalog.csv`).
 - `move_prefix.py`: server-side rename of an R2 prefix.
+- `scan_audio_frames.py`: writes `data/catalog/audio_frames.csv`, the MP3 frame table that HLS streaming needs (`docs/design/hls.md`). It reads the public host only (no credentials). It lives only in the repo: run it there after uploading or re-encoding audio. `export_repo.py` keeps it and the CSV.

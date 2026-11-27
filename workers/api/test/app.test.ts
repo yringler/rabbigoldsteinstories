@@ -122,3 +122,100 @@ describe("goldstein-api", () => {
     expect(storedBefore).not.toContain("clean_audio_url");
   });
 });
+
+describe("goldstein-api: HLS stream", () => {
+  const t = pool.units[0]!.tracks[0]!;
+  const frames = {
+    original: { first_byte: 100, frame_count: 400_000, bitrate_kbps: 96, sample_rate: 44_100 },
+  };
+  const deps = { kv: fakeKv(), pool: { ...pool, frames: { [t.id]: frames } }, overrides: {} };
+  const q = `i=${t.id}~${t.start_sec}~${t.end_sec}~${pool.units[0]!.unit}`;
+
+  it("serves the stream for pool recordings, without touching KV", async () => {
+    const r = await get(`/playlists/hls.m3u8?v=o&${q}`, deps);
+    expect(r.status).toBe(200);
+    expect(r.headers.get("content-type")).toBe("application/vnd.apple.mpegurl");
+    // As short as an edition's: an exclusion must stop the stream within minutes.
+    expect(r.headers.get("cache-control")).toBe("public, max-age=300, stale-while-revalidate=600");
+    const text = await r.text();
+    expect(text).toContain("#EXT-X-BYTERANGE:");
+    expect(text).toContain(t.audio_url.split("#")[0]);
+    expect(deps.kv.data.size).toBe(0);
+  });
+
+  it("404s a recording without a frame table or a range that is not a track, 400s a malformed query", async () => {
+    expect((await get(`/playlists/hls.m3u8?v=o&i=fedcba9876~0~10`, deps)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&i=${t.id}~1~10`, deps)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&i=nope`, deps)).status).toBe(400);
+  });
+
+  it("v=c mixes per item: the clean copy where there is one, the original elsewhere", async () => {
+    const u = pool.units[1]!.tracks[0]!;
+    const clean = {
+      ...frames,
+      clean: { first_byte: 45, frame_count: 400_000, bitrate_kbps: 128, sample_rate: 48_000 },
+    };
+    const cleanUrl = t.audio_url.replace(".example/", ".example/clean/");
+    const mixed = {
+      kv: fakeKv(),
+      pool: {
+        ...pool,
+        units: pool.units.map((x, n) =>
+          n === 0
+            ? { ...x, tracks: x.tracks.map((y) => ({ ...y, clean_audio_url: cleanUrl })) }
+            : x,
+        ),
+        frames: { [t.id]: clean, [u.id]: frames },
+      },
+      overrides: {},
+    };
+    const r = await get(
+      `/playlists/hls.m3u8?v=c&${q}_${u.id}~${u.start_sec}~${u.end_sec}~${pool.units[1]!.unit}`,
+      mixed,
+    );
+    expect(r.status).toBe(200);
+    const urls = new Set((await r.text()).split("\n").filter((l) => l.startsWith("https://")));
+    expect([...urls]).toEqual([cleanUrl, u.audio_url]);
+    // A recording without a clean copy streams its original in a clean stream too.
+    expect((await get(`/playlists/hls.m3u8?v=c&${q}`, deps)).status).toBe(200);
+  });
+
+  it("refuses a unit excluded in overrides.json, like tombstone()", async () => {
+    const excluded = {
+      ...deps,
+      overrides: { [pool.units[0]!.unit]: { exclude: true, note: "x" } },
+    };
+    expect((await get(`/playlists/hls.m3u8?v=o&${q}`, excluded)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&${q}`, deps)).status).toBe(200);
+  });
+
+  it("checks (unit, recording, range) exactly as tombstone() does, times to 2 decimals", async () => {
+    const u0 = pool.units[0]!;
+    const t0 = { ...t, start_sec: 12.344, intro_start_sec: 2.5, end_sec: 300.006 };
+    // The same story is also part of an episode unit, which the owner has excluded.
+    const episode = { ...u0, unit: `episode:${t.id}`, tracks: [t0] };
+    const withEpisode = {
+      kv: fakeKv(),
+      pool: {
+        ...pool,
+        units: [{ ...u0, unit: `${t.id}@12.34`, tracks: [t0] }, episode, ...pool.units.slice(1)],
+        frames: { [t.id]: frames },
+      },
+      overrides: { [episode.unit]: { exclude: true, note: "x" } },
+    };
+    const path = (start: number, unit?: string) =>
+      `/playlists/hls.m3u8?v=o&i=${t.id}~${start}~300.01${unit === undefined ? "" : `~${unit}`}`;
+    // The story's own unit (implied when the item names none): live.
+    expect((await get(path(12.34), withEpisode)).status).toBe(200);
+    expect((await get(path(12.34, `${t.id}@12.34`), withEpisode)).status).toBe(200);
+    // The opening-song intro start of the same track.
+    expect((await get(path(2.5, `${t.id}@12.34`), withEpisode)).status).toBe(200);
+    // The same recording and range, but from the excluded episode: tombstone() drops it.
+    expect((await get(path(12.34, episode.unit), withEpisode)).status).toBe(404);
+    // A live unit that doesn't hold this track, or a unit that doesn't exist.
+    expect((await get(path(12.34, pool.units[1]!.unit), withEpisode)).status).toBe(404);
+    expect((await get(path(12.34, "set:nope"), withEpisode)).status).toBe(404);
+    // A start that is neither the track's start nor its intro start.
+    expect((await get(path(5, `${t.id}@12.34`), withEpisode)).status).toBe(404);
+  });
+});

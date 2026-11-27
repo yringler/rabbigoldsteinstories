@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   AI_AUDIO_KEY,
   Player,
@@ -69,6 +69,7 @@ const tracks = [
 ];
 
 describe("Player", () => {
+  afterEach(() => void vi.useRealTimers());
   it("plays a track's range and advances at end_sec", async () => {
     const audio = new FakeAudio();
     const p = new Player({ audio, mediaSession: null });
@@ -131,6 +132,79 @@ describe("Player", () => {
     await p.goTo(1);
     await p.goTo(0);
     expect(a.currentTime).toBe(100);
+  });
+
+  it("lock-screen seekto is a position inside the track, like the position state sites report", async () => {
+    const handlers = new Map<string, MediaSessionActionHandler>();
+    const session = {
+      metadata: null,
+      setActionHandler: (a: MediaSessionAction, h: MediaSessionActionHandler) =>
+        void handlers.set(a, h),
+    } as unknown as MediaSession;
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: session });
+    await p.load(tracks); // a span: 100..400 of its file
+    handlers.get("seekto")!({ action: "seekto", seekTime: 60 });
+    expect(audio.currentTime).toBe(160);
+    expect(p.state().position).toBe(60);
+  });
+
+  it("reports a track-relative position state itself, so seekto lands right with no site code (library)", async () => {
+    const handlers = new Map<string, MediaSessionActionHandler>();
+    const reported: MediaPositionState[] = [];
+    const session = {
+      metadata: null,
+      setActionHandler: (a: MediaSessionAction, h: MediaSessionActionHandler) =>
+        void handlers.set(a, h),
+      setPositionState: (s: MediaPositionState) => void reported.push(s),
+    } as unknown as MediaSession;
+    vi.useFakeTimers();
+    const audio = new FakeAudio();
+    // Like apps/library: the element itself, no position state of the site's own.
+    const p = new Player({ audio, mediaSession: session });
+    await p.load([
+      { id: "aaaaaaaaaa", title: "Span", url: "https://m/a.mp3", start_sec: 1200, end_sec: 1800 },
+    ]);
+    audio.currentTime = 1500;
+    vi.setSystemTime(Date.now() + 5000); // 5 s later: past the throttle
+    audio.fire("timeupdate");
+    // Without a position state the browser reports the element's own time (1500).
+    const last = reported.at(-1);
+    expect(last).toMatchObject({ duration: 600, position: 300 });
+    handlers.get("seekto")!({ action: "seekto", seekTime: last?.position ?? audio.currentTime });
+    expect(audio.currentTime).toBe(1500);
+    expect(p.state().position).toBe(300);
+  });
+
+  it("position state: throttled while playing, at once on a seek or track change; missing API is fine", async () => {
+    const reported: MediaPositionState[] = [];
+    const session = {
+      metadata: null,
+      setActionHandler: () => undefined,
+      setPositionState: (s: MediaPositionState) => void reported.push(s),
+    } as unknown as MediaSession;
+    const audio = new FakeAudio();
+    const p = new Player({ audio, mediaSession: session });
+    await p.load(tracks);
+    const n = reported.length;
+    expect(n).toBeGreaterThan(0);
+    audio.currentTime = 101;
+    audio.fire("timeupdate");
+    audio.currentTime = 102;
+    audio.fire("timeupdate");
+    expect(reported.length).toBe(n); // within a second of the last report
+    p.seek(200);
+    expect(reported.at(-1)).toMatchObject({ duration: 300, position: 200, playbackRate: 1 });
+    // A session without setPositionState (older browsers): no throw.
+    const bare = new Player({
+      audio: new FakeAudio(),
+      mediaSession: {
+        metadata: null,
+        setActionHandler: () => undefined,
+      } as unknown as MediaSession,
+    });
+    await bare.load(tracks);
+    bare.seek(10);
   });
 
   it("sleep timer pauses playback", async () => {
@@ -313,6 +387,78 @@ describe("AI-improved sound (docs/design/ai-audio.md §2.5)", () => {
     await p.goTo(1);
     await p.goTo(0);
     expect(a.src).toBe(clean[0]!.url);
+  });
+
+  it("ignores element errors while the source handles them (hls.js recovering)", async () => {
+    const a = new (class extends FakeAudio {
+      handlesErrors = true;
+    })();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    let siteSaw = 0;
+    a.addEventListener("error", () => siteSaw++);
+    await p.load(clean);
+    const r = a.fire("error");
+    expect(r.stopped).toBe(false);
+    expect(a.src).toBe(clean[0]!.clean_url);
+    expect(p.source).toBe("clean");
+    // It gives up: the error that reports it is handled as usual (fall back to the original).
+    a.handlesErrors = false;
+    expect(a.fire("error").stopped).toBe(true);
+    expect(a.src).toBe(clean[0]!.url);
+    expect(siteSaw).toBe(1); // the site sees the first and must ignore it by handlesErrors itself
+  });
+
+  it("a failed clean stream is not loaded again by the next track sharing its clean_url", async () => {
+    // A stream: every track is a range of the same source and the same clean source.
+    const stream = (id: string, start: number, end: number): Track => ({
+      id,
+      title: id,
+      url: "https://s/hls.m3u8?v=o",
+      clean_url: "https://s/hls.m3u8?v=c",
+      start_sec: start,
+      end_sec: end,
+    });
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    await p.load([stream("aaaaaaaaaa", 0, 600), stream("bbbbbbbbbb", 600, 1200)]);
+    expect(a.src).toBe("https://s/hls.m3u8?v=c");
+    a.fire("error");
+    expect(a.src).toBe("https://s/hls.m3u8?v=o");
+    const n = a.loads.length;
+    await p.goTo(1);
+    expect(a.src).toBe("https://s/hls.m3u8?v=o");
+    expect(a.loads.length).toBe(n); // same source: no reload
+    expect(p.source).toBe("original");
+  });
+
+  it("a failed clean stream doesn't block a story's own clean file after a fallback to files", async () => {
+    const stream = (id: string, start: number, end: number): Track => ({
+      id,
+      title: id,
+      url: "https://s/hls.m3u8?v=o",
+      clean_url: "https://s/hls.m3u8?v=c",
+      start_sec: start,
+      end_sec: end,
+    });
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    // One story is enough: a stream is shared by nature, even when the playlist has one story.
+    await p.load([stream("aaaaaaaaaa", 0, 600)]);
+    a.fire("error"); // the clean stream fails
+    expect(a.src).toBe("https://s/hls.m3u8?v=o");
+    // The site falls back to one file per story: the story's own clean file still plays.
+    await p.load([
+      {
+        id: "aaaaaaaaaa",
+        title: "a",
+        url: "https://m/a.mp3#t=0,600",
+        clean_url: "https://m/clean/a.mp3#t=0,600",
+        start_sec: 0,
+        end_sec: 600,
+      },
+    ]);
+    expect(a.src).toBe("https://m/clean/a.mp3#t=0,600");
+    expect(p.source).toBe("clean");
   });
 
   it("an error on the original reaches the site handlers", async () => {

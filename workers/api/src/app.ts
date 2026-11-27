@@ -7,12 +7,25 @@
  *                                        ids listed in index.json (past 7 + current), else 404
  *   GET /playlists/tonight.json          the current edition
  *   GET /playlists/history.json          the 7 editions before it, newest first
+ *   GET /playlists/hls.m3u8?v=o|c&i=…    a playlist as one HLS stream (docs/design/hls.md), built
+ *                                        from the items in the URL; only items that tombstone()
+ *                                        would keep (a current track of their unit, not excluded)
  *   GET /api/health                      pool hash, edition counts
  * Cron (hourly): ensureRunway — generate missing/stale editions up to 14 days ahead, never
  * touching editions that start within 24 hours.
  */
 import type { UnitPool } from "@goldstein/data";
-import { editionById, type Edition } from "@goldstein/playlists";
+import {
+  buildHlsPlaylist,
+  editionById,
+  HLS_MIME,
+  HLS_PATH,
+  parseHlsQuery,
+  type Edition,
+  type HlsItem,
+  type HlsSource,
+  type HlsVariant,
+} from "@goldstein/playlists";
 import {
   buildViews,
   ensureRunway,
@@ -51,7 +64,10 @@ export function kvStore(kv: KVLike, cacheTtl?: number): EditionStore {
 }
 
 const SHORT = "public, max-age=300, stale-while-revalidate=3600";
-/** Editions are tombstoned at read time, so a removal must reach visitors within minutes. */
+/**
+ * Editions are tombstoned at read time, so a removal must reach visitors within minutes. The HLS
+ * stream checks the same exclusions, so it uses the same policy.
+ */
 const LONG = "public, max-age=300, stale-while-revalidate=600";
 /** Cold start: one request fills the runway; the others get 503 for this long. */
 const FILL_LOCK_KEY = "lock:fill";
@@ -63,6 +79,91 @@ function json(body: unknown, cache: string, status = 200): Response {
     headers: {
       "content-type": "application/json; charset=utf-8",
       "cache-control": cache,
+      "x-content-type-options": "nosniff",
+    },
+  });
+}
+
+interface Sources {
+  /** id → file URLs (no media fragment). */
+  files: Map<string, { original: string; clean?: string }>;
+  /**
+   * `<unit>~<id>~<start>~<end>` of every item tombstone() keeps: a current track (start_sec, or
+   * the opening-song intro_start_sec, to end_sec) of a unit that overrides.json doesn't exclude.
+   * Times are rounded to 2 decimals, as the stream URL carries them.
+   */
+  live: Set<string>;
+}
+
+const r2 = (x: number) => Math.round(x * 100) / 100;
+const liveKey = (unit: string, id: string, start: number, end: number) =>
+  `${unit}~${id}~${r2(start)}~${r2(end)}`;
+
+/** The pool's files and live items, per pool and overrides (built once). */
+const sourceIndex = new WeakMap<UnitPool, WeakMap<Overrides, Sources>>();
+
+function sourcesOf(pool: UnitPool, overrides: Overrides): Sources {
+  let perPool = sourceIndex.get(pool);
+  if (!perPool) sourceIndex.set(pool, (perPool = new WeakMap()));
+  const cached = perPool.get(overrides);
+  if (cached) return cached;
+  const index: Sources = { files: new Map(), live: new Set() };
+  for (const u of pool.units) {
+    if (overrides[u.unit]?.exclude) continue;
+    for (const t of u.tracks) {
+      if (!index.files.has(t.id))
+        index.files.set(t.id, {
+          original: t.audio_url.split("#")[0]!,
+          ...(t.clean_audio_url ? { clean: t.clean_audio_url.split("#")[0]! } : {}),
+        });
+      index.live.add(liveKey(u.unit, t.id, t.start_sec, t.end_sec));
+      if (t.intro_start_sec !== undefined)
+        index.live.add(liveKey(u.unit, t.id, t.intro_start_sec, t.end_sec));
+    }
+  }
+  perPool.set(overrides, index);
+  return index;
+}
+
+/**
+ * Where one item's audio is. The clean variant mixes per item: the AI-cleaned copy (and its frame
+ * table) where the recording has one, else the original, so one story without a clean copy does
+ * not take AI-improved sound away from the whole playlist.
+ */
+function hlsSource(
+  sources: Sources,
+  pool: UnitPool,
+  item: HlsItem,
+  variant: HlsVariant,
+): HlsSource | null {
+  const e = sources.files.get(item.id);
+  const frames = pool.frames?.[item.id];
+  // tombstone()'s rule, on the item's own unit: the same story in another (excluded) unit, or in
+  // a live unit it isn't part of, doesn't count.
+  const live =
+    item.unit !== undefined &&
+    sources.live.has(liveKey(item.unit, item.id, item.start_sec, item.end_sec));
+  if (!e || !frames || !live) return null;
+  if (variant === "clean" && e.clean && frames.clean) return { url: e.clean, frames: frames.clean };
+  return { url: e.original, frames: frames.original };
+}
+
+/**
+ * The HLS stream for the items in the URL; 404 when any of them can't be streamed (no frame table,
+ * or an item tombstone() would drop: not a current track of its unit, or the unit excluded).
+ */
+export function hlsResponse(url: URL, pool: UnitPool, overrides: Overrides = {}): Response {
+  const q = parseHlsQuery(url.searchParams);
+  if (!q) return json({ error: "bad stream request" }, "public, max-age=60", 400);
+  const sources = sourcesOf(pool, overrides);
+  const text = buildHlsPlaylist(q.items, q.variant, (item, v) => hlsSource(sources, pool, item, v));
+  if (text === null)
+    return json({ error: "no stream for these items" }, "public, max-age=300", 404);
+  return new Response(text, {
+    headers: {
+      "content-type": HLS_MIME,
+      // Same policy as editions: an excluded unit must stop streaming within minutes too.
+      "cache-control": LONG,
       "x-content-type-options": "nosniff",
     },
   });
@@ -102,6 +203,7 @@ export async function handle(request: Request, deps: Deps, now = new Date()): Pr
     );
   }
   if (!path.startsWith("/playlists/")) return json({ error: "not found" }, "no-store", 404);
+  if (path === HLS_PATH) return hlsResponse(url, deps.pool, deps.overrides);
 
   let views = await buildViews(store, deps.pool, now, deps.overrides);
   if (!views.current) {

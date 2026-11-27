@@ -16,5 +16,8 @@
     "@goldstein/config": "0.0.0",
     "typescript": "6.0.3",
     "vitest": "5.1.2"
+  },
+  "dependencies": {
+    "hls.js": "1.7.4"
   }
 }

@@ -58,6 +58,19 @@ export interface AudioLike {
   play(): Promise<void>;
   pause(): void;
   addEventListener(type: string, fn: (e: Event) => void): void;
+  /**
+   * True while the source handles media errors itself (StreamAudio with hls.js attached recovers
+   * from them): the player and sites then ignore the element's "error" events. When it gives up,
+   * this reads false for the error event that reports it.
+   */
+  readonly handlesErrors?: boolean;
+  /**
+   * Where the playhead was when the source gave up (StreamAudio after hls.js fails), or null.
+   * Destroying hls.js resets currentTime to 0, so the player resumes from this instead.
+   */
+  readonly lastStreamTime?: number | null;
+  /** Reported to the lock screen with the position (default 1). */
+  readonly playbackRate?: number;
 }
 
 export interface PlayerOptions {
@@ -83,8 +96,19 @@ export interface PlayerOptions {
   preferClean?: boolean;
 }
 
+/** An HLS stream (`.m3u8`): tracks that are ranges of one source rather than files. */
+export function isStreamUrl(url: string): boolean {
+  try {
+    return new URL(url, "https://x.invalid").pathname.endsWith(".m3u8");
+  } catch {
+    return false;
+  }
+}
+
 /** Give up waiting for the swapped-in source after this long and clear isSwapping anyway. */
 const SWAP_TIMEOUT_MS = 5000;
+/** Report the lock screen's position state at most this often while playing (seeks report at once). */
+const POSITION_STATE_MS = 1000;
 
 type Listener = (s: PlayerState) => void;
 
@@ -106,8 +130,16 @@ export class Player {
   private finishedIndex = -1;
   private readonly session: MediaSession | null;
   private preferClean: boolean;
-  /** Ids whose clean copy failed to load this visit (not persisted). */
+  /**
+   * Ids whose own clean file failed to load this visit (not persisted). Not set by a failed shared
+   * source (a stream): that is in failedCleanUrls only.
+   */
   private readonly failedClean = new Set<string>();
+  /**
+   * Clean URLs that failed this visit: in a stream every track shares one clean_url, so a broken
+   * clean stream must not be loaded again by the next track.
+   */
+  private readonly failedCleanUrls = new Set<string>();
   /** The copy currently assigned to audio.src. */
   private loaded: "original" | "clean" | null = null;
   private swapping = false;
@@ -116,6 +148,8 @@ export class Player {
   private lastTime = 0;
   /** We asked the element to play and no user pause has happened since. */
   private wantPlay = false;
+  /** When the position state was last reported (ms). */
+  private lastPositionState = 0;
 
   constructor(opts: PlayerOptions) {
     this.audio = opts.audio;
@@ -147,7 +181,9 @@ export class Player {
     });
     this.audio.addEventListener("loadedmetadata", () => {
       if (this.swapping && !this.wantPlay) this.endSwap();
+      this.updatePositionState(true); // a whole file's duration is known only now
     });
+    this.audio.addEventListener("ratechange", () => this.updatePositionState(true));
     this.bindMediaSession();
   }
 
@@ -273,15 +309,44 @@ export class Player {
     this.endSwap();
     const kind = this.kindFor(t);
     const src = kind === "clean" ? (t.clean_url as string) : t.url;
-    if (this.audio.src !== src) this.audio.src = src;
+    const sameSource = this.audio.src === src;
+    if (!sameSource) this.audio.src = src;
     this.loaded = kind;
-    this.audio.currentTime = this.lastTime = this.resumePoint(t);
+    const at = this.resumePoint(t);
+    // Already there (the next track starts where this one ended, in the same file or stream): a
+    // seek would only rebuffer.
+    if (!(sameSource && Math.abs(this.audio.currentTime - at) < 0.5)) this.audio.currentTime = at;
+    this.lastTime = at;
     this.updateMetadata();
     if (autoplay) {
       this.wantPlay = true;
       await this.audio.play().catch(() => undefined);
     }
+    this.updatePositionState(true);
     this.emit();
+  }
+
+  /**
+   * The playhead moved into track `index` by itself (a stream: tracks are ranges of one source):
+   * make it current without touching the source or the time.
+   */
+  protected follow(index: number): void {
+    if (!this.queue[index] || index === this.index) return;
+    this.markFinished();
+    this.index = index;
+    this.finishedIndex = -1;
+    this.lastTime = this.audio.currentTime;
+    this.updateMetadata();
+    this.updatePositionState(true);
+    this.emit();
+  }
+
+  /** Index of the track whose range of the current source holds time `t`, or -1. */
+  protected trackAt(t: number): number {
+    const src = this.current?.url;
+    return this.queue.findIndex(
+      (x) => x.url === src && t >= (x.start_sec ?? 0) && t < (x.end_sec ?? Infinity),
+    );
   }
 
   play(): Promise<void> {
@@ -314,6 +379,7 @@ export class Player {
     const start = t.start_sec ?? 0;
     const end = t.end_sec ?? Infinity;
     this.audio.currentTime = this.lastTime = Math.min(Math.max(start, start + positionSec), end);
+    this.updatePositionState(true);
     this.emit();
   }
 
@@ -335,7 +401,12 @@ export class Player {
   }
 
   private kindFor(t: Track): "original" | "clean" {
-    return this.preferClean && t.clean_url && !this.failedClean.has(t.id) ? "clean" : "original";
+    return this.preferClean &&
+      t.clean_url &&
+      !this.failedClean.has(t.id) &&
+      !this.failedCleanUrls.has(t.clean_url)
+      ? "clean"
+      : "original";
   }
 
   /** Load another copy of the current track at the same position, keeping the play state. */
@@ -363,12 +434,23 @@ export class Player {
 
   /** A clean copy that fails to load falls back to the original, silently (D7). */
   private onError(e: Event): void {
+    if (this.audio.handlesErrors) return; // hls.js is recovering; it reports when it gives up
     const t = this.current;
     if (!t || this.loaded !== "clean") return;
     e.stopImmediatePropagation();
-    this.failedClean.add(t.id);
+    if (t.clean_url) this.failedCleanUrls.add(t.clean_url);
+    // A shared source (a stream, or a clean_url other tracks use too) failed, not this recording's
+    // own clean file: blocking the id would keep it off the clean file after a site falls back to
+    // one file per story.
+    const shared =
+      t.clean_url !== undefined &&
+      (isStreamUrl(t.clean_url) ||
+        this.queue.filter((x) => x.clean_url === t.clean_url).length > 1);
+    if (!shared) this.failedClean.add(t.id);
     // After a failed load currentTime may read 0; lastTime is the position we were at or seeking to.
-    const at = Math.max(this.audio.currentTime, this.lastTime);
+    // A stream that gave up knows its last good time better: both its recovery and its teardown
+    // reset the element's time to 0.
+    const at = this.audio.lastStreamTime ?? Math.max(this.audio.currentTime, this.lastTime);
     this.swapTo(t.url, "original", at);
   }
 
@@ -416,7 +498,9 @@ export class Player {
     const t = this.current;
     if (!t) return;
     if (this.swapping) return;
-    this.lastTime = this.audio.currentTime;
+    // Under hls.js a 0 is its media being detached (a recovery), not a place it played to.
+    if (this.audio.currentTime > 0 || !this.audio.handlesErrors)
+      this.lastTime = this.audio.currentTime;
     if (t.end_sec !== undefined && this.audio.currentTime >= t.end_sec) {
       // A paused player at its end never advances by itself: after "end of this story" pauses,
       // browsers fire one more timeupdate (and another on any seek), which must not start the next
@@ -446,6 +530,32 @@ export class Player {
     });
   }
 
+  /**
+   * The lock screen's position state, relative to the current track like state().position (the
+   * track's range, not the file or stream), so the seekto handler's seekTime is a position inside
+   * the track on every site. The Player owns it: a site that reported its own would have to match
+   * it exactly, and one that reported none would leave the browser on the element's time. Throttled
+   * while playing; `force` reports at once (seek, track change, rate change).
+   */
+  protected updatePositionState(force = false): void {
+    const s = this.session;
+    if (!s || typeof s.setPositionState !== "function" || !this.current) return;
+    const now = Date.now();
+    if (!force && now - this.lastPositionState < POSITION_STATE_MS) return;
+    const st = this.state();
+    if (!(st.duration > 0) || !Number.isFinite(st.duration)) return;
+    this.lastPositionState = now;
+    try {
+      s.setPositionState({
+        duration: st.duration,
+        position: Math.min(st.duration, Math.max(0, st.position)),
+        playbackRate: this.audio.playbackRate || 1,
+      });
+    } catch {
+      /* unsupported, or a value the browser rejects */
+    }
+  }
+
   private bindMediaSession() {
     const s = this.session;
     if (!s) return;
@@ -462,13 +572,13 @@ export class Player {
     on("previoustrack", () => void this.previous());
     on("seekbackward", (d) => this.seek(this.state().position - (d.seekOffset ?? 15)));
     on("seekforward", (d) => this.seek(this.state().position + (d.seekOffset ?? 15)));
-    on(
-      "seekto",
-      (d) => d.seekTime !== undefined && this.seek(d.seekTime - (this.current?.start_sec ?? 0)),
-    );
+    // The position state (updatePositionState) is relative to the track, like state().position,
+    // so the lock screen's seekTime is already a position inside the track.
+    on("seekto", (d) => d.seekTime !== undefined && this.seek(d.seekTime));
   }
 
   private emit() {
+    this.updatePositionState();
     const s = this.state();
     for (const l of this.listeners) l(s);
   }

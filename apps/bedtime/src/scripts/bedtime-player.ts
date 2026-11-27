@@ -7,10 +7,23 @@
  *     writable, else (iOS) the next story boundary or 4 more minutes, with a hard pause;
  *   - a track that fails to load is skipped after 8 s; three failures in a row pause with a note;
  *   - a pinned snapshot of the playlist, written every 10 s and on pause/pagehide (resume);
- *   - Media Session: artwork, album "Quiet Night · tonight", ±15/30 s, position in the track.
+ *   - Media Session: artwork, album "Quiet Night · tonight", ±15/30 s; the position state is the
+ *     Player's (relative to the story);
+ *   - one continuous HLS stream per playlist where the browser can play one (docs/design/hls.md):
+ *     each story is a range of the stream, so a locked phone never has to start a new file. If
+ *     the stream fails (no HLS support, no frame table, network), it falls back to story by
+ *     story for the rest of the visit, at the same story and position.
  */
-import { getAiAudio, Player, type Track } from "@goldstein/player";
-import type { Playlist } from "@goldstein/playlists";
+import {
+  getAiAudio,
+  loadHlsJs,
+  pickStreamEngine,
+  Player,
+  StreamAudio,
+  type StreamEngine,
+  type Track,
+} from "@goldstein/player";
+import { hlsChapters, hlsUrl, type HlsItem, type Playlist } from "@goldstein/playlists";
 import {
   FADE_SEC,
   parseTimer,
@@ -46,6 +59,8 @@ export interface BedtimeState {
 
 const SKIP_AFTER_MS = 8_000;
 const MAX_FAILURES = 3;
+/** A paused stream this close to its duration has ended (chapter times are rounded to frames). */
+const STREAM_END_SEC = 0.5;
 
 function volumeIsWritable(): boolean {
   try {
@@ -95,15 +110,21 @@ export class BedtimePlayer extends Player {
   private trackStartedAt = 0;
   private failures = 0;
   private lastSave = 0;
-  private lastPositionState = 0;
   private readonly volumeWritable = volumeIsWritable();
   private readonly watchers = new Set<(s: BedtimeState) => void>();
+  private readonly stream: StreamAudio;
+  private readonly engine: StreamEngine;
+  /** The queue playing now is the HLS stream (else one file per story). */
+  private streaming = false;
+  /** A stream failed this visit: play story by story from now on. */
+  private streamBroken = false;
 
   constructor(el: HTMLAudioElement) {
+    const stream = new StreamAudio(el);
     // Bedtime resumes only from its session snapshot; per-track positions would make a story
     // start mid-way when a later playlist reaches it.
     super({
-      audio: el,
+      audio: stream,
       store,
       saveEverySec: 5,
       resumePositions: false,
@@ -111,6 +132,9 @@ export class BedtimePlayer extends Player {
       preferClean: getAiAudio(store),
     });
     this.el = el;
+    this.stream = stream;
+    this.engine = pickStreamEngine(el);
+    if (this.engine === "hlsjs") void loadHlsJs().then((H) => stream.setHls(H));
     el.preload = "auto";
     clearTrackPositions();
     el.addEventListener("playing", () => {
@@ -127,8 +151,10 @@ export class BedtimePlayer extends Player {
       this.intentionalPause = false;
       const t = this.current;
       // The #t=start,end media fragment pauses the element at end_sec: that is the track's end.
+      // (A stream never pauses between stories.)
       if (
         !intentional &&
+        !this.streaming &&
         t?.end_sec !== undefined &&
         el.currentTime >= t.end_sec - 0.6 &&
         (this.phase === "playing" || this.phase === "loading")
@@ -139,7 +165,11 @@ export class BedtimePlayer extends Player {
       if (this.phase === "playing" || this.phase === "loading") this.setPhase("paused");
       this.save();
     });
-    el.addEventListener("error", () => this.onTrackError());
+    // While hls.js is attached it recovers from the element's errors itself, and lets one through
+    // (or fires its own) only once it gives up. The native engine and files report them directly.
+    el.addEventListener("error", () => {
+      if (!this.stream.handlesErrors) this.onTrackError();
+    });
     el.addEventListener("timeupdate", () => this.tick());
     el.addEventListener("waiting", () => {
       if (this.isSwapping) return;
@@ -165,6 +195,11 @@ export class BedtimePlayer extends Player {
       on("previoustrack", () => void this.skip(-1));
       on("seekbackward", (d) => this.nudge(-(d.seekOffset ?? 15)));
       on("seekforward", (d) => this.nudge(d.seekOffset ?? 30));
+      // The position state is relative to the story (Player.updatePositionState), so is seekTime.
+      on("seekto", (d) => {
+        if (d.seekTime === undefined || this.syncToPlayhead()) return;
+        this.seek(d.seekTime);
+      });
     }
     if (typeof window !== "undefined") {
       window.addEventListener("pagehide", () => this.save());
@@ -219,6 +254,7 @@ export class BedtimePlayer extends Player {
     this.startedPlaying = false;
     this.armWatchdog();
     this.trackStartedAt = Date.now();
+    this.streaming = this.canStream();
     const p = this.load(this.toTracks(playlist), index, true);
     this.seek(position);
     this.startTicking();
@@ -240,6 +276,12 @@ export class BedtimePlayer extends Player {
       this.sleepDeadline = Date.now() + this.pausedRemaining;
       this.pausedRemaining = null;
     } else if (this.phase === "asleep" || this.sleepDeadline === null) this.armTimer();
+    // Already playing (a lock-screen play, say): no 'playing' event will follow.
+    if (!this.el.paused && this.startedPlaying) {
+      this.setPhase("playing");
+      this.startTicking();
+      return;
+    }
     this.setPhase("loading");
     this.armWatchdog();
     this.startTicking();
@@ -270,6 +312,8 @@ export class BedtimePlayer extends Player {
     this.hardStopAt = null;
     this.cancelFade();
     this.el.volume = 1;
+    // From the story under the playhead: a lagging index would seek back to one already heard.
+    this.syncToPlayhead();
     if (dir === -1) await this.previous();
     else await super.next();
     this.afterTrackChange();
@@ -288,6 +332,7 @@ export class BedtimePlayer extends Player {
 
   /** Seek relative to the current position (seconds). */
   nudge(deltaSec: number): void {
+    if (this.syncToPlayhead()) return;
     this.seek(this.state().position + deltaSec);
   }
 
@@ -312,8 +357,20 @@ export class BedtimePlayer extends Player {
   /** Automatic advance (end of a track): honours the sleep timer and the end of the playlist. */
   override async next(): Promise<void> {
     const s = this.state();
-    if (s.index + 1 >= s.queue.length) {
+    // A stream keeps playing: the playhead may be in any later story by now (a locked phone can
+    // go minutes without a timeupdate). Follow it rather than seek back to the next story.
+    const at = this.streaming ? this.trackAt(this.el.currentTime) : s.index + 1;
+    // The stream itself has ended ('ended', or the playhead at its end): the playlist is over,
+    // whatever story the index or the chapter times (rounded to frames) still point at.
+    const streamOver = this.streaming && this.streamEnded();
+    if (this.streaming && at > s.index && !this.holdAtBoundary && !streamOver) {
+      this.follow(at);
+      this.afterTrackChange();
+      return;
+    }
+    if (s.index + 1 >= s.queue.length || (this.streaming && at === -1) || streamOver) {
       // The last story ended (with or without a pending timer stop): the playlist is over.
+      if (this.streaming) this.follow(s.queue.length - 1);
       this.holdAtBoundary = false;
       this.hardStopAt = null;
       this.intentionalPause = true;
@@ -327,8 +384,12 @@ export class BedtimePlayer extends Player {
     if (this.holdAtBoundary) {
       this.holdAtBoundary = false;
       this.hardStopAt = null;
-      await this.goTo(s.index + 1, false);
+      // Stop at the start of the story the playhead is in: on a locked phone the stream may have
+      // played past several boundaries, and the story after the index would seek back to one
+      // already heard.
+      await this.goTo(this.streaming && at > s.index ? at : s.index + 1, false);
       this.stopAudio();
+      this.seek(0); // a stream has already played a moment of the next story
       this.sleepDeadline = null;
       this.pausedRemaining = null;
       this.setPhase("asleep");
@@ -341,20 +402,93 @@ export class BedtimePlayer extends Player {
 
   // ---- internals ----
 
+  /**
+   * On a stream the index can lag the playhead by several stories: a throttled locked phone gets
+   * no timeupdate for minutes, and only the automatic next() follows the playhead by itself. Every
+   * user action and bookkeeping step calls this first, so it works from the story actually
+   * playing. It only makes that story current (Player.follow): no afterTrackChange, which would
+   * restart the 8 s load rule for a stream that is already playing.
+   *
+   * While a timer stop waits at the end of the current story, the playhead being past it means
+   * that boundary has gone by: it stops now (next(), which stops at the playhead's story) and
+   * returns true, and the caller does nothing more.
+   */
+  private syncToPlayhead(): boolean {
+    if (!this.streaming) return false;
+    const at = this.trackAt(this.el.currentTime);
+    if (at <= this.state().index) return false;
+    if (this.holdAtBoundary) {
+      void this.next();
+      return true;
+    }
+    this.follow(at);
+    return false;
+  }
+
+  /** The index lags the playhead (see syncToPlayhead). */
+  private lagging(): boolean {
+    return this.streaming && this.trackAt(this.el.currentTime) > this.state().index;
+  }
+
+  /** No position state for a story the playhead has left: the sync that follows reports it. */
+  protected override updatePositionState(force = false): void {
+    if (this.lagging()) return;
+    super.updatePositionState(force);
+  }
+
+  /** The stream has played to its end (the element ended, or paused within a moment of it). */
+  private streamEnded(): boolean {
+    const d = this.el.duration;
+    return (
+      this.el.ended ||
+      (this.el.paused && Number.isFinite(d) && d > 0 && this.el.currentTime >= d - STREAM_END_SEC)
+    );
+  }
+
+  /** Whether the next start() should play one HLS stream (hls.js must have loaded, if needed). */
+  private canStream(): boolean {
+    if (this.streamBroken || typeof location === "undefined") return false;
+    return this.engine === "native" || (this.engine === "hlsjs" && this.stream.hasHls);
+  }
+
   private toTracks(p: Playlist): Track[] {
-    return p.items.map((i) => {
+    // One stream for the whole playlist; each story is its range on the stream. The clean stream
+    // has the same story times (within 13 ms), so the AI-sound toggle swaps at the same position.
+    // The API mixes copies per story (the original where there is no clean copy), so the clean
+    // stream is worth offering as soon as one story has a clean copy.
+    // Each item names its unit: the API checks it against that unit's current tracks, like
+    // tombstone() (an excluded unit's items get no stream).
+    const items: HlsItem[] = p.items.map((i) => ({
+      id: i.id,
+      unit: i.unit,
+      start_sec: i.start_sec,
+      end_sec: i.end_sec,
+    }));
+    const chapters = this.streaming ? hlsChapters(items) : [];
+    const url = this.streaming ? hlsUrl(location.origin, items, "original") : "";
+    const cleanUrl =
+      this.streaming && p.items.some((i) => i.clean_audio_url)
+        ? hlsUrl(location.origin, items, "clean")
+        : null;
+    return p.items.map((i, n) => {
       const artist = narratorLabel(i.narrator);
+      const c = chapters[n];
+      const range = c
+        ? { url, ...(cleanUrl ? { clean_url: cleanUrl } : {}), start_sec: c.start, end_sec: c.end }
+        : {
+            // Media fragment (bedtime.md §1): the browser fetches from start_sec and stops at end_sec.
+            url: `${i.audio_url}#t=${i.start_sec},${i.end_sec}`,
+            // The AI-improved copy has the same duration, so the same fragment applies.
+            ...(i.clean_audio_url
+              ? { clean_url: `${i.clean_audio_url}#t=${i.start_sec},${i.end_sec}` }
+              : {}),
+            start_sec: i.start_sec,
+            end_sec: i.end_sec,
+          };
       return {
         id: i.id,
         title: i.title,
-        // Media fragment (bedtime.md §1): the browser fetches from start_sec and stops at end_sec.
-        url: `${i.audio_url}#t=${i.start_sec},${i.end_sec}`,
-        // The AI-improved copy has the same duration, so the same fragment applies.
-        ...(i.clean_audio_url
-          ? { clean_url: `${i.clean_audio_url}#t=${i.start_sec},${i.end_sec}` }
-          : {}),
-        start_sec: i.start_sec,
-        end_sec: i.end_sec,
+        ...range,
         ...(artist ? { artist } : {}),
         album: `${p.title} · ${this.when}`,
         artwork: `/icons/${p.type}-512.png`,
@@ -364,6 +498,15 @@ export class BedtimePlayer extends Player {
 
   private afterTrackChange(): void {
     this.trackStartedAt = Date.now();
+    // Within a stream that is already playing, a new story is no new load: no 'playing' event
+    // follows, and a later stall must just wait rather than count as a failed load.
+    if (this.streaming && this.startedPlaying && !this.el.paused) {
+      // A seek into buffered audio may fire no 'playing' either: don't stay on "loading".
+      if (this.phase === "loading") this.setPhase("playing");
+      this.save(true);
+      this.notify();
+      return;
+    }
     this.startedPlaying = false;
     if (!this.el.paused || this.phase === "loading") this.armWatchdog();
     this.save(true);
@@ -393,6 +536,7 @@ export class BedtimePlayer extends Player {
       clearInterval(this.tickTimer);
       this.tickTimer = null;
     }
+    if (!this.el.paused && this.syncToPlayhead()) return;
     if (this.sleepDeadline !== null && now >= this.sleepDeadline && !this.el.paused) {
       this.sleepDeadline = null;
       const s = this.state();
@@ -412,7 +556,6 @@ export class BedtimePlayer extends Player {
       this.setPhase("asleep");
     }
     if (!this.el.paused && now - this.lastSave >= SAVE_EVERY_MS) this.save();
-    if (!this.el.paused) this.positionState();
   }
 
   private fadeOut(): void {
@@ -455,8 +598,51 @@ export class BedtimePlayer extends Player {
     this.watchdog = null;
   }
 
+  /**
+   * The stream failed: same story and position, one file per story from now on. The story is the
+   * one under the playhead, not the current index: on a locked phone the index can lag by several
+   * stories (no timeupdate). After hls.js gives up, the element's time reads 0; the stream adapter
+   * kept the real one.
+   */
+  private fallbackToFiles(): void {
+    if (!this.playlist) return;
+    const s = this.state();
+    const t = this.stream.lastStreamTime ?? this.el.currentTime;
+    let index = this.trackAt(t);
+    if (index < 0)
+      index = t >= (s.queue.at(-1)?.end_sec ?? Infinity) ? s.queue.length - 1 : s.index;
+    index = Math.max(0, index);
+    const track = s.queue[index];
+    const start = track?.start_sec ?? 0;
+    const position = Math.min(Math.max(0, t - start), (track?.end_sec ?? Infinity) - start);
+    const wasPlaying = !this.el.paused || this.phase === "loading" || this.phase === "playing";
+    this.streamBroken = true;
+    this.streaming = false;
+    this.clearWatchdog();
+    this.trackStartedAt = Date.now();
+    this.startedPlaying = false;
+    if (wasPlaying) {
+      this.setPhase("loading");
+      this.armWatchdog();
+    }
+    // A source change pauses the element without a 'pause' event, so nothing else may consume
+    // intentionalPause: it covers only a pause fired during the load, and is cleared after it.
+    // Left set, it would make the file's end-of-fragment pause look intentional (no advance).
+    this.intentionalPause = true;
+    void this.load(this.toTracks(this.playlist), index, wasPlaying).then(() => {
+      this.intentionalPause = false;
+      this.seek(position);
+      this.save(true);
+    });
+    this.seek(position);
+  }
+
   private onTrackError(): void {
     if (!this.playlist || this.phase === "error") return;
+    if (this.streaming) {
+      this.fallbackToFiles();
+      return;
+    }
     const wait = Math.max(0, this.trackStartedAt + SKIP_AFTER_MS - Date.now());
     const index = this.state().index;
     this.clearWatchdog();
@@ -487,29 +673,14 @@ export class BedtimePlayer extends Player {
     this.pause();
   }
 
-  private positionState(): void {
-    const now = Date.now();
-    if (now - this.lastPositionState < 1000) return;
-    this.lastPositionState = now;
-    const ms = "mediaSession" in navigator ? navigator.mediaSession : null;
-    const s = this.state();
-    if (!ms?.setPositionState || !(s.duration > 0)) return;
-    try {
-      ms.setPositionState({
-        duration: s.duration,
-        position: Math.min(s.duration, Math.max(0, s.position)),
-        playbackRate: 1,
-      });
-    } catch {
-      /* ignore */
-    }
-  }
-
   private save(force = false, finished = false): void {
     if (!this.playlist) return;
     const now = Date.now();
     if (!force && now - this.lastSave < 1000) return;
     this.lastSave = now;
+    // The story under the playhead, not a lagging index. (A pending timer stop past its boundary
+    // moves to the playhead's story at once, too: next() goes there before its first await.)
+    this.syncToPlayhead();
     const s = this.state();
     const session: Session = {
       v: 1,

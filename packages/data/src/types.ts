@@ -368,10 +368,33 @@ export interface Unit {
   block: { key: string; title: string; of: number } | null;
 }
 
+/**
+ * Where the MP3 frames are in one audio file (data/catalog/audio_frames.csv, written by
+ * tools/4-r2/scan_audio_frames.py). Every file is constant bitrate, so frame k starts at a byte
+ * offset computed from these numbers (mp3FrameOffset in @goldstein/playlists). Frame 0 is the LAME
+ * "Info" frame; the audio starts at frame 1. Used to serve a playlist as one HLS stream.
+ */
+export interface Mp3Frames {
+  /** Byte offset of frame 0 (the size of the ID3v2 tag in front of it). */
+  first_byte: number;
+  /** Frames in the file, frame 0 included. */
+  frame_count: number;
+  bitrate_kbps: number;
+  sample_rate: number;
+}
+
+export interface AudioFrames {
+  original: Mp3Frames;
+  /** The AI-cleaned copy (clean_audio_url), when it has been scanned. */
+  clean?: Mp3Frames;
+}
+
 export interface UnitPool {
   version: typeof PUBLIC_DATA_VERSION;
   generated_at: string;
   /** Hash of the unit list, recorded in each generated edition. */
   pool_hash: string;
   units: Unit[];
+  /** Frame tables by recording id, for the ids in `units`. Missing for an id: no HLS for it. */
+  frames?: Record<ItemId, AudioFrames>;
 }
