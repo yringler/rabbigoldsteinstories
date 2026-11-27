@@ -10,7 +10,9 @@ requests, a few KB per file), no credentials.
 
 Columns: id, variant (original | clean), first_byte (offset of frame 0, the LAME "Info" frame; the
 audio starts at frame 1), frame_count (frames including frame 0), bitrate_kbps, sample_rate,
-size_bytes. A file whose header or samples do not match a known profile is left out and listed.
+size_bytes. A file whose header or samples do not match a known profile is listed and gets no new
+row; if it failed this run but has a row from an earlier scan (often a network error), that row is
+kept, so rerunning never loses files to a transient error.
 
 Known profiles (MPEG-1 Layer III, mono, CBR). Frame k (0-based) starts at
 first_byte + (k * 144000 * bitrate_kbps + PHASE) // sample_rate, where PHASE is the encoder's padding
@@ -26,6 +28,7 @@ UA = {"User-Agent": "goldstein-frame-scan/1"}
 PHASE = {(96, 44100): 1800, (128, 48000): 0}
 BR = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320]
 SR = [44100, 48000, 32000]
+COLUMNS = ["id", "variant", "first_byte", "frame_count", "bitrate_kbps", "sample_rate", "size_bytes"]
 
 
 def get(url, a, b):
@@ -95,20 +98,49 @@ def main():
     if os.path.exists(clean):
         for r in csv.DictReader(open(clean, encoding="utf-8-sig")):
             rows.append((r["id"], "clean", HOST + urllib.parse.quote(r["key"])))
+    previous = read_previous()
     with ThreadPoolExecutor(32) as ex:
         results = list(ex.map(scan, rows))
-    ok = sorted((r for r in results if r[2]), key=lambda r: (r[0], r[1]))
-    bad = [r for r in results if not r[2]]
+    ok, kept, bad = merge(results, previous)
     with open(OUT, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, lineterminator="\n")
-        w.writerow(["id", "variant", "first_byte", "frame_count", "bitrate_kbps", "sample_rate", "size_bytes"])
-        for id_, variant, d, _ in ok:
-            w.writerow([id_, variant, d["first_byte"], d["frame_count"], d["bitrate_kbps"], d["sample_rate"], d["size_bytes"]])
-    print(f"{len(ok)} files written to {os.path.relpath(OUT, ROOT)}; {len(bad)} left out")
-    for id_, variant, _, why in bad:
-        print(f"  {id_} {variant}: {why}")
+        w.writerow(COLUMNS)
+        for (id_, variant), d in ok:
+            w.writerow([id_, variant] + [d[c] for c in COLUMNS[2:]])
+    print(f"{len(ok)} files written to {os.path.relpath(OUT, ROOT)}; {len(bad)} failed this run")
+    for id_, variant, why, old in bad:
+        note = "; kept its previous row" if old else ""
+        print(f"  {id_} {variant}: {why}{note}")
+    if kept:
+        print(f"{kept} failed this run but kept their previous rows (rerun to refresh them)")
     return 0 if not bad else 1
 
+
+def read_previous():
+    """Rows of the existing CSV by (id, variant), so a transient error doesn't drop a file."""
+    if not os.path.exists(OUT):
+        return {}
+    with open(OUT, encoding="utf-8-sig", newline="") as f:
+        return {(r["id"], r["variant"]): {c: r[c] for c in COLUMNS[2:]} for r in csv.DictReader(f)}
+
+
+def merge(results, previous):
+    """(rows to write sorted by id and variant, how many were kept from before, failures).
+
+    A file scanned now gets its new row. A file that failed this run (often a network error) keeps
+    its previous row, if any: the data build still checks size_bytes against the current file, so a
+    stale row never streams wrong bytes. Each failure is (id, variant, why, kept previous row)."""
+    rows, bad, kept = {}, [], 0
+    for id_, variant, d, why in results:
+        if d:
+            rows[(id_, variant)] = d
+            continue
+        old = previous.get((id_, variant))
+        if old:
+            rows[(id_, variant)] = old
+            kept += 1
+        bad.append((id_, variant, why, bool(old)))
+    return sorted(rows.items()), kept, bad
 
 if __name__ == "__main__":
     sys.exit(main())
