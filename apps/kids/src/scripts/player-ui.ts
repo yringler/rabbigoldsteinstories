@@ -564,7 +564,11 @@ export class KidsPlayer {
     const next = extra?.n ? ix.byId.get(extra.n) : undefined;
     const recs = next
       ? [next]
-      : (extra?.r ?? [])
+      : (
+          (S.getLang() === "yi" ? extra?.ry : S.getLang() === "any" ? extra?.ra : null) ??
+          extra?.r ??
+          []
+        )
           .map((x) => ix.byId.get(x))
           .filter(
             (r): r is NonNullable<typeof r> => Boolean(r) && recIn(r as NonNullable<typeof r>, v),

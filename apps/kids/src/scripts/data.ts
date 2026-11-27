@@ -2,7 +2,7 @@
 import type { KidChapter } from "../lib/chapters.ts";
 import type { CalendarDay } from "../lib/build/calendar.ts";
 import { type Variant, inVariant } from "../lib/kinds.ts";
-import type { KidsIndex, Rec } from "../lib/records.ts";
+import { type KidsIndex, type Rec, recLang } from "../lib/records.ts";
 
 const cache = new Map<string, Promise<unknown>>();
 
@@ -47,6 +47,9 @@ export interface ItemExtra {
   z: [number, number][];
   n: string | null;
   r: string[];
+  /** "More like this" for "Both" / "Yiddish only" (absent = same as `r`). */
+  ra?: string[];
+  ry?: string[];
   /** summary_short (Story of the Day card). */
   sum: string;
 }
@@ -65,7 +68,8 @@ export function dayNumber(now = new Date()): number {
   return Math.floor((a - Date.UTC(2026, 0, 1)) / 86_400_000);
 }
 
-export const recIn = (r: Rec, v: Variant): boolean => inVariant(r.a, r.v, v);
+/** In the variant: band, Gentle and language preference. */
+export const recIn = (r: Rec, v: Variant): boolean => inVariant(r.a, r.v, v, recLang(r));
 
 /** Deterministic daily shuffle (stable per day and seed). */
 export function dailyPick<T>(list: readonly T[], n: number, seed: number): T[] {

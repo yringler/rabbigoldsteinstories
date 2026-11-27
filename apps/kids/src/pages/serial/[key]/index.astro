@@ -4,9 +4,11 @@ import type { GetStaticPaths } from "astro";
 import Base from "../../../layouts/Base.astro";
 import { getModel } from "../../../lib/build/model.ts";
 import { serialPlan, serialSeconds, serialVis } from "../../../lib/build/views.ts";
-import { minutes } from "../../../lib/kinds.ts";
+import { VARIANTS, minutes } from "../../../lib/kinds.ts";
 import { itemPath } from "../../../lib/records.ts";
 import { ui } from "../../../lib/ui-icons.ts";
+import { notYi } from "../../../lib/build/lang.ts";
+import LangPanel from "../../../components/LangPanel.astro";
 
 export const getStaticPaths = (() =>
   getModel()
@@ -40,7 +42,8 @@ const durOf = (id: string, i: number) => {
   tab="explore"
   description={`${s.title}: a story in ${s.chapters.length} chapters.`}
 >
-  <div data-init="serial" class="serial-page">
+  <LangPanel title="Chapter stories are in English." />
+  <div data-init="serial" class="serial-page" data-vis={notYi().join(" ")}>
     <script
       is:inline
       type="application/json"
@@ -63,12 +66,7 @@ const durOf = (id: string, i: number) => {
         <p class="muted serial-meta">
           {s.chapters.length} {isRadio ? "chapters" : "parts"} · {minutes(serialSeconds(s, m))}
         </p>
-        <div
-          class="banner"
-          data-vis={["l", "k", "b", "lg", "kg", "bg"]
-            .filter((v) => !vis.includes(v as never))
-            .join(" ")}
-        >
+        <div class="banner" data-vis={VARIANTS.filter((v) => !vis.includes(v)).join(" ")}>
           <Fragment set:html={ui("info", "", 28)} />
           <span>This one is for bigger kids.</span>
         </div>

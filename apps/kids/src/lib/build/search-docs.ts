@@ -1,6 +1,6 @@
 /** Search documents for the kid pool (fields of §6.5 only) and the serialised MiniSearch index. */
 import MiniSearch from "minisearch";
-import { MINISEARCH_OPTIONS, type SearchDocument } from "../search.ts";
+import { MINISEARCH_OPTIONS, type SearchDocument, YIDDISH_TAGS } from "../search.ts";
 import { HOLIDAY_TILES, MIDOS_TILES, MITZVOS_TILES, TOPIC_TILES, type Tile } from "../tiles.ts";
 import { type KItem, type Model, getModel } from "./model.ts";
 
@@ -34,6 +34,10 @@ export function searchDoc(k: KItem, m: Model): SearchDocument {
     ...vocabText("midos", s.midos),
     ...vocabText("mitzvos", s.mitzvos),
     ...vocabText("calendar", s.calendar),
+    // Language (docs/design/language-kids.md §4.7): English metadata only, never a transcript.
+    ...(k.lang === "yi" ? YIDDISH_TAGS : []),
+    // A confirmed storyteller's byline (Bubby Chaya Malka; the radio bylines are not tags today).
+    ...(k.byline === "Bubby Chaya Malka" ? [k.byline] : []),
   ];
   return {
     id: k.id,

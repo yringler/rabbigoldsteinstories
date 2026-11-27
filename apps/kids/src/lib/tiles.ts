@@ -3,6 +3,7 @@
  * colours and one-sentence descriptions (written here, never generated at runtime).
  * Browser-safe (the search page and client scripts read labels from here).
  */
+import { type Variant, variantLang } from "./kinds.ts";
 
 export type Facet = "topics" | "midos" | "mitzvos" | "calendar" | "people";
 
@@ -25,6 +26,15 @@ export const TOO_DENSE = { topics: ["calendar"], mitzvos: ["shema", "torah_study
 /** Minimum items in the active band for a tile/tag page (§5) and for a shelf (§4.1). */
 export const TILE_MIN = 8;
 export const SHELF_MIN = 4;
+/**
+ * In "Yiddish only" mode there are 18 items in all (docs/design/language-kids.md §4.3): a tile needs
+ * 3 of them in the band, and a Yiddish shelf shows from 1 item, because that is all there is.
+ */
+export const YI_TILE_MIN = 3;
+export const YI_SHELF_MIN = 1;
+export const tileMin = (v: Variant): number => (variantLang(v) === "yi" ? YI_TILE_MIN : TILE_MIN);
+export const shelfMin = (v: Variant): number =>
+  variantLang(v) === "yi" ? YI_SHELF_MIN : SHELF_MIN;
 
 const C = {
   blue: "#1F5FBF",

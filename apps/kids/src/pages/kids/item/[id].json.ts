@@ -13,12 +13,18 @@ export const GET: APIRoute = ({ params }) => {
   const k = m.items.get(id);
   if (!k) return new Response("{}", { status: 404 });
   const next = m.chapterOf.get(id)?.next ?? null;
+  const rel = m.relatedByLang.get(id);
+  const r = rel?.en ?? [];
+  const same = (a: readonly string[]) => a.length === r.length && a.every((x, i) => x === r[i]);
   const body: ItemExtra = {
     c: k.chapters,
     z: k.silence,
     n: next && m.poolIds.has(next) ? next : null,
-    r: m.sim.related.get(id) ?? [],
+    r,
     sum: k.item.summary_short,
   };
+  // "Both" and "Yiddish only" lists, only when they differ from the English one.
+  if (rel && !same(rel.any)) body.ra = rel.any;
+  if (rel && !same(rel.yi)) body.ry = rel.yi;
   return new Response(JSON.stringify(body), { headers: { "Content-Type": "application/json" } });
 };

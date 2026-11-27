@@ -1,5 +1,5 @@
 /** Grown-ups, Explore tabs, Holidays order, and the item page's device-dependent bits. */
-import { BAND_INFO, type Band, inVariant } from "../../lib/kinds.ts";
+import { BAND_INFO, type Band, inVariant, withLang, withoutGentle } from "../../lib/kinds.ts";
 import { loadCalendar, localDay } from "../data.ts";
 import * as S from "../state.ts";
 
@@ -88,17 +88,20 @@ export async function initHolidays(root: HTMLElement, rerender: boolean): Promis
   });
 }
 
-/** Item page: the out-of-band banner and the heart's state. */
+/**
+ * Item page: the out-of-band banner and the heart's state. The language banner is static (CSS
+ * shows it outside the preference, before this one), so this judges the band and Gentle only.
+ */
 export function initListen(root: HTMLElement): void {
   const age = Number(root.dataset["age"] ?? 0);
   const adv = Number(root.dataset["adv"] ?? 0) as 0 | 1 | 2;
   const banner = root.querySelector<HTMLElement>("[data-band-banner]");
   if (banner) {
-    const v = S.getVariant();
+    const v = withLang(S.getVariant(), "any");
     banner.hidden = !root.dataset["pool"] || inVariant(age, adv, v);
     const text = banner.querySelector("[data-band-text]");
     if (text && !banner.hidden) {
-      const bandOk = inVariant(age, adv, v.replace("g", "") as typeof v);
+      const bandOk = inVariant(age, adv, withoutGentle(v));
       text.textContent = bandOk
         ? "This one has a note for grown-ups. Ask a grown-up first."
         : `This one is for bigger kids (ages ${adv >= 2 ? 9 : Math.max(age, 6)}+).`;

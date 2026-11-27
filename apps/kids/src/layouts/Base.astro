@@ -10,8 +10,10 @@ import "../styles/global.css";
 import "../styles/player.css";
 import { CONTACT_EMAIL, SITES } from "@goldstein/config/sites";
 import { ui } from "../lib/ui-icons.ts";
-import { BAND_INFO, BANDS } from "../lib/kinds.ts";
+import { BAND_INFO, BANDS, LANGS, LANG_INFO } from "../lib/kinds.ts";
 import { iconSvg } from "../lib/icons.ts";
+import { yiddishCounts } from "../lib/build/lang.ts";
+import { vcount } from "../lib/html.ts";
 import Logo from "../components/Logo.astro";
 
 export type TabId = "home" | "stories" | "radio" | "explore" | "shelf" | null;
@@ -36,10 +38,12 @@ const tabs: { id: Exclude<TabId, null>; href: string; label: string; icon: strin
 ];
 const bandPics = { little: "seedling", kids: "rocket", big: "mountain-flag" } as const;
 const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as const;
+// "15 so far" under the Yiddish button: Yiddish items in the listener's band and Gentle setting.
+const yiSoFar = vcount(yiddishCounts(), (n) => `${n} so far`);
 ---
 
 <!doctype html>
-<html lang="en" data-v="k" data-band="kids">
+<html lang="en" data-v="k" data-band="kids" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -50,23 +54,38 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:site_name" content={site.name} />
-    <script is:inline>
-      // Apply the age band and Gentle switch before first paint (localStorage may be unavailable).
+    <script is:inline data-prepaint>
+      // Apply the age band, Gentle switch and language before first paint (localStorage may be
+      // unavailable). ?lang=en|yi|any wins over the stored language; app.ts saves it and drops it.
       (function () {
         var band = "kids",
           gentle = false,
+          lang = "en",
           queued = false;
+        var ok = function (l) {
+          return l === "en" || l === "yi" || l === "any";
+        };
         try {
           var b = JSON.parse(localStorage.getItem("goldstein:kids:band") || "null");
           if (b && (b.v === "little" || b.v === "kids" || b.v === "big")) band = b.v;
           var g = JSON.parse(localStorage.getItem("goldstein:kids:gentle") || "null");
           gentle = !!(g && g.v === true);
+          var l = JSON.parse(localStorage.getItem("goldstein:kids:lang") || "null");
+          if (l && ok(l.v)) lang = l.v;
           var q = JSON.parse(localStorage.getItem("goldstein:kids:queue") || "null");
           queued = !!(q && q.v && q.v.tracks && q.v.tracks.length);
         } catch (e) {}
+        try {
+          var p = new URLSearchParams(location.search).get("lang");
+          if (ok(p)) lang = p;
+        } catch (e) {}
         var h = document.documentElement;
         h.dataset.band = band;
-        h.dataset.v = band.charAt(0) + (gentle ? "g" : "");
+        h.dataset.lang = lang;
+        h.dataset.v =
+          band.charAt(0) +
+          (gentle ? "g" : "") +
+          (lang === "yi" ? "-y" : lang === "any" ? "-a" : "");
         if (queued) h.classList.add("has-player");
       })();
     </script>
@@ -102,6 +121,17 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
           <span data-band-label>Kids 6+</span>
         </span>
         <span class="gentle-mark">· gentle</span>
+        <span class="lang-mark lang-mark-yi">
+          <span aria-hidden="true">· </span>
+          <span class="sr">, stories in Yiddish </span>
+          <span lang="yi" dir="rtl" aria-hidden="true">
+            אידיש
+          </span>
+        </span>
+        <span class="lang-mark lang-mark-any">
+          <span aria-hidden="true">· Both</span>
+          <span class="sr">, stories in English and Yiddish</span>
+        </span>
       </button>
     </header>
 
@@ -308,6 +338,27 @@ const bandColors = { little: "#2E9E6B", kids: "#1F5FBF", big: "#7A4FC2" } as con
               </span>
             </button>
           ))}
+        </div>
+        <div class="lang-row">
+          <h3 id="lang-h">Stories in…</h3>
+          <div class="lang-options" role="group" aria-labelledby="lang-h">
+            {LANGS.map((l) => (
+              <button type="button" class="lang-opt" data-set-lang={l} aria-pressed="false">
+                <b>
+                  {LANG_INFO[l].label}
+                  {LANG_INFO[l].he && (
+                    <>
+                      {" / "}
+                      <span lang="yi" dir="rtl">
+                        {LANG_INFO[l].he}
+                      </span>
+                    </>
+                  )}
+                </b>
+                {l === "yi" ? <span set:html={yiSoFar} /> : <span>{LANG_INFO[l].blurb}</span>}
+              </button>
+            ))}
+          </div>
         </div>
         <p class="muted">
           Grown-ups: you can also choose <a href="/grown-ups/">gentle stories only</a>.

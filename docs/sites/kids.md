@@ -14,7 +14,8 @@ Working name: **"Story Shelf"** (owner to confirm; the name must not appear in c
 |---|---|---|---|
 | Primary | A 6–11-year-old alone on a tablet or a parent's phone | Taps covers, follows a serial, keeps favourites | UI copy at grade 2–3 reading level, 1–4 words per label, every label paired with an icon |
 | Secondary | A parent with a 3–5-year-old on their lap | Picks something short and gentle, checks the advisory | Age setting, parent note on every item, "Grown-ups" page |
-| Not served here | Teachers, researchers, Yiddish listeners | | Link out to the reference library |
+| Partly served | Yiddish-speaking families | 18 children's recordings in Yiddish (§16); the rest (Tanya and Haggadah shiurim, long family recordings) is in the library | A language preference (English / Yiddish / Both), English by default |
+| Not served here | Teachers, researchers | | Link out to the reference library |
 
 **Goals**
 1. A child can start a suitable story within two taps of the home page.
@@ -291,7 +292,7 @@ No storyteller browse. Item pages show "Told by Uncle Yossi" (`rabbi_yosef_golds
    - `contains` (on a show): nothing extra; the clip is already a chapter row.
    - Serial or part set: "Chapter 2 of 4" strip with Previous / Next chapter buttons and a link to the serial page (`classification.serial`, `classification.part`, `continues`, `part_of_set`).
    - `alternate_take`, `same_recording`, `aired_again_in`, and items whose `superseded_by` points here: collapsed "Other versions" list (decision 7).
-   - `same_story` / story group (95 groups, 2–16 items each): "Hear this story told another way", listing one item per other telling, English kid-pool items only. `same_story_other_language` targets are not shown (Yiddish is out of scope) but a line "Also told in Yiddish in the grown-ups' library" links out.
+   - `same_story` / story group (95 groups, 2–16 items each): "Hear this story told another way", listing one item per other telling, kid-pool items in the item's own language only. Kid-pool tellings in the other language (story groups plus `same_story_other_language`) get a "Hear it in Yiddish" / "Hear it in English" row (§16); Yiddish tellings outside the pool are linked by title under "For grown-ups" ("Also told in Yiddish in the grown-ups' library").
 9. **More like this**: 6 cards (§6.3).
 10. **For grown-ups** (collapsed by default, expanded if the item has a moderate advisory): each advisory as "label: note" from `audience.advisories` with its severity; `display.summary_long`; air date (`date.gregorian` and `date.hebrew`, respecting `precision`); a line "Read the automatic transcript in the grown-ups' library" linking to the reference site. **The kids' site does not render transcripts.**
 
@@ -436,7 +437,7 @@ Every cover is an SVG composed at build time from the item's tags, also rasteris
 
 **Kid-pool rule** (applied by the build, in this order):
 1. `quality.publish_recommendation` is `publish` or `publish_with_note` (drops 1 `hide`, 9 `review`).
-2. `language.primary = en`.
+2. `language.primary` is `en` or `yi` (language-kids.md §1; any other language stays out). The language preference (§16) then decides which of the two a listener sees.
 3. `audience.level` in `young_children`, `children`, `older_children`, `family`.
 4. `content_type` not in `shiur`, `fragment`, `promo`, `family_recording`.
 5. Not the source of a `superseded_by` relation (58 in pool; they appear only under "Other versions").
@@ -511,10 +512,10 @@ The bedtime site's concept owns the recipes, rotation time and the playlist file
 - Parent PIN for the Grown-ups page; per-flag advisory filter.
 - Voice search; "read along" highlighted English transcript for older kids (requires hidden-span masking, so it ships only together with the reference library's masking code).
 - Parsha index page once more items carry a parsha.
-- Yiddish shelf, if the owner wants one for children.
+- ~~Yiddish shelf, if the owner wants one for children.~~ Done: the language preference and `/yiddish/` (§16).
 
 ## 12. Non-goals
-- No transcripts, no transcript search, no Yiddish or adult content, no shiurim.
+- No transcripts, no transcript search (of any language), no adult Yiddish content, no adult content, no shiurim.
 - No multi-facet filtering, boolean search, date-range search, sources-cited browsing, places browsing or downloadable data. That is the reference library.
 - No accounts, sync, comments, ratings, social features or third-party ads/trackers.
 - No playlist recipe logic; no editing of audio; no hand-made per-item art.
@@ -548,15 +549,24 @@ Where the built site differs from the text above, and why:
 - **Search** also indexes the Hebrew midah term (Emunah, Emes…) with the tile labels, and expands a few nicknames ("besht" → Baal Shem Tov, "rashbi").
 - **Tag pages** list events and songs nowhere (as in §4.6); they are reachable through search and direct links.
 
+Language preference (2026-11-27, docs/design/language-kids.md):
+- **Variants gain a language suffix:** `l k b` + `g` + `""` (English) / `-y` (Yiddish only) / `-a` (both), 18 in all. English keeps the six tokens it had, so stored settings and English pages behave as before. `global.css` has one hide rule per variant; `vcount` emits one span per distinct count.
+- **`/yiddish/`** lists all 18 Yiddish recordings in every language mode (band and Gentle still apply). It is the one exception to "events appear on no shelf": it is the complete list for one language, and holds the one Yiddish event.
+- **Minimums in "Yiddish only":** a tile needs `YI_TILE_MIN = 3` items in band (not 8), and Home's Yiddish shelves show from 1 item. Other modes keep `TILE_MIN` and `SHELF_MIN`.
+- **Heroes** still qualify on the English pool (5+ items), so the hero set is unchanged.
+- **"More like this"** has three lists per item: English (exactly the English-only run), Both (at most 2 Yiddish among 6 for English items) and Yiddish only. Tellings in the other language are never in it; they get a "Hear it in Yiddish / in English" row instead.
+- **Bylines:** Bubby Chaya Malka (confirmed, DECISIONS §3) gets one; the unconfirmed Yiddish narrator gets none, as unknown English speakers.
+- **Grown-ups' library line** on an item page reads "Read the automatic transcript…" only when the library shows one (`transcript.display = show_with_label`), else "Listen in the grown-ups' library".
+
 ## 15. Acceptance criteria
 
 **Catalog and privacy**
-1. On the 2026-11-25 data the build reports a kid pool of 1,033 items: 411 shows, 310 stories, 298 quick listens, 11 events, 3 songs. (Recomputed after the owner made `review` items publishable and linked "The Plot That Boomeranged" copies; the concept's original figure was 1,035 = 410 / 314 / 293 / 11 / 3. Band sizes now: Little 512, Kids 828, Big Kids 1,033; with Gentle 445 / 500 / 516. Per-tile Big Kids counts are pinned in `apps/kids/test/catalog.test.ts`.)
+1. On the 2026-11-25 data the build reports an English kid pool of 1,033 items: 411 shows, 310 stories, 298 quick listens, 11 events, 3 songs, and a Yiddish pool of 18 (12 stories, 5 quick listens, 1 event; Little 13, Kids 15, Big Kids 18, 10 with Gentle). (Recomputed after the owner made `review` items publishable and linked "The Plot That Boomeranged" copies; the concept's original figure was 1,035 = 410 / 314 / 293 / 11 / 3. Band sizes now: Little 512, Kids 828, Big Kids 1,033; with Gentle 445 / 500 / 516. Per-tile Big Kids counts are pinned in `apps/kids/test/catalog.test.ts`.)
 2. Grepping the entire build output finds none of the keys `hidden`, `source`, `quality`, `provenance`, `proposed_new_terms`, `identity_guesses`, `privacy`, and no transcript text.
 3. The hidden-name check (§9) runs in CI and fails the build when a seeded test name is injected into a summary.
-4. No Yiddish item, shiur, family recording, superseded copy, `review` or `hide` item is reachable from any shelf, grid, search result or "More like this".
+4. No shiur, family recording, fragment, adult-level, superseded copy, `review` or `hide` item, and no item in a language other than English or Yiddish, is reachable from any shelf, grid, search result or "More like this". With the language preference on English (the default), no Yiddish item is visible on any shelf, grid, search result or "More like this" (only `/yiddish/`, direct links and the child's own history show them).
 5. `shema_guest` and `mailbox` chapter rows show only the generic labels on every show page.
-6. No page shows "Weekly Story (working title)", "unconfirmed" or any placeholder speaker label.
+6. No page shows "Weekly Story (working title)", "unconfirmed" or any placeholder speaker label (including `yiddish_narrator_unconfirmed`, which gets no byline).
 
 **Browse**
 7. Every tile in §5 resolves to exactly the vocabulary ids listed, and its page count for Big Kids matches the tables (±0 on the reference data).
@@ -593,3 +603,7 @@ Where the built site differs from the text above, and why:
 28. Text contrast is at least 4.5:1; all controls are keyboard reachable with visible focus and have accessible names; covers have empty `alt` (the title follows as text).
 29. From Home, a first-time user reaches playing audio in at most 2 taps (band sheet aside).
 30. Lighthouse on a mid-range phone profile: performance at least 85, accessibility at least 95; initial JS plus `kids/index.json` under 400 KB gzipped.
+
+## 16. Language
+
+The site has a language preference: **English** (default), **Yiddish / אידיש** or **Both**, stored as `goldstein:kids:lang` and set from the "Who's listening?" sheet, the grown-ups page or a `?lang=en|yi|any` link. English mode is today's site plus two quiet links to `/yiddish/`. The design, the numbers and the owner's open questions are in `docs/design/language-kids.md`.

@@ -11,6 +11,8 @@ import { serialCard, serialVis, sortedSerials } from "../../lib/build/views.ts";
 import { ui } from "../../lib/ui-icons.ts";
 import { iconSvg } from "../../lib/icons.ts";
 import { VARIANTS } from "../../lib/kinds.ts";
+import { notYi } from "../../lib/build/lang.ts";
+import LangPanel from "../../components/LangPanel.astro";
 import { SHELF_MIN } from "../../lib/tiles.ts";
 
 const m = getModel();
@@ -105,96 +107,99 @@ const serialShelfVis = VARIANTS.filter(
 >
   <div data-init="radio">
     <PageHead title="The Radio Show" icon="radio" color="#1F5FBF" />
-    <section class="radio-intro">
-      <div>
-        <p class="ri-text">Uncle Yossi's radio show. Every week from 1981 to 1992.</p>
-        <p class="muted">{held.size} shows to listen to. Some tapes are still missing.</p>
-      </div>
-      <button type="button" class="btn sun big" data-play-show>
-        <Fragment set:html={ui("play", "", 28)} />
-        Play a show
-      </button>
-    </section>
-
-    <Shelf
-      title="Chapter stories from the show"
-      href="/serials/"
-      html={serialHtml}
-      vis={serialShelfVis}
-    />
-
-    <section class="section" aria-labelledby="eps-h">
-      <h2 id="eps-h">All the shows</h2>
-      <p class="legend">
-        <span>
-          <i class="ep-key held"></i> Tap to listen
-        </span>
-        <span>
-          <i class="ep-key lost"></i> Still looking for this tape
-        </span>
-        <span>
-          <i class="ep-key gone"></i> Not here
-        </span>
-      </p>
-      <div class="chips year-tabs" role="tablist" aria-label="Years">
-        {tabs.map((t, i) => (
-          <button
-            type="button"
-            class="chip"
-            role="tab"
-            id={`tab-${t.key}`}
-            aria-controls={`year-${t.key}`}
-            aria-selected={i === 0 ? "true" : "false"}
-            tabindex={i === 0 ? 0 : -1}
-          >
-            {t.label}
-            {t.small && <small>{t.small}</small>}
-          </button>
-        ))}
-      </div>
-      {tabs.map((t, i) => (
-        <div
-          class="ep-panel"
-          id={`year-${t.key}`}
-          role="tabpanel"
-          aria-labelledby={`tab-${t.key}`}
-          hidden={i !== 0}
-        >
-          <div class="ep-grid">
-            {tilesOf(t.key).map((x) =>
-              x.kind === "held" ? (
-                <a class="ep held" href={`/listen/${x.id}/`} data-in={x.vis} title={x.title}>
-                  <span class="sr">Episode </span>
-                  {x.n}
-                </a>
-              ) : x.kind === "lost" ? (
-                <button
-                  type="button"
-                  class="ep lost"
-                  data-lost={String(x.n)}
-                  data-title={x.title}
-                  data-est={x.est}
-                >
-                  <span class="sr">Episode </span>
-                  {x.n}
-                  <span class="q" aria-hidden="true">
-                    ?
-                  </span>
-                  <span class="sr"> (still looking for this tape)</span>
-                </button>
-              ) : (
-                <span class="ep gone">
-                  <span class="sr">Episode </span>
-                  {x.n}
-                  <span class="sr"> (not here)</span>
-                </span>
-              ),
-            )}
-          </div>
+    <LangPanel title="Uncle Yossi's radio show is in English." />
+    <div data-vis={notYi().join(" ")}>
+      <section class="radio-intro">
+        <div>
+          <p class="ri-text">Uncle Yossi's radio show. Every week from 1981 to 1992.</p>
+          <p class="muted">{held.size} shows to listen to. Some tapes are still missing.</p>
         </div>
-      ))}
-      <p class="muted lost-count">{lostCount} tapes are still missing.</p>
-    </section>
+        <button type="button" class="btn sun big" data-play-show>
+          <Fragment set:html={ui("play", "", 28)} />
+          Play a show
+        </button>
+      </section>
+
+      <Shelf
+        title="Chapter stories from the show"
+        href="/serials/"
+        html={serialHtml}
+        vis={serialShelfVis}
+      />
+
+      <section class="section" aria-labelledby="eps-h">
+        <h2 id="eps-h">All the shows</h2>
+        <p class="legend">
+          <span>
+            <i class="ep-key held"></i> Tap to listen
+          </span>
+          <span>
+            <i class="ep-key lost"></i> Still looking for this tape
+          </span>
+          <span>
+            <i class="ep-key gone"></i> Not here
+          </span>
+        </p>
+        <div class="chips year-tabs" role="tablist" aria-label="Years">
+          {tabs.map((t, i) => (
+            <button
+              type="button"
+              class="chip"
+              role="tab"
+              id={`tab-${t.key}`}
+              aria-controls={`year-${t.key}`}
+              aria-selected={i === 0 ? "true" : "false"}
+              tabindex={i === 0 ? 0 : -1}
+            >
+              {t.label}
+              {t.small && <small>{t.small}</small>}
+            </button>
+          ))}
+        </div>
+        {tabs.map((t, i) => (
+          <div
+            class="ep-panel"
+            id={`year-${t.key}`}
+            role="tabpanel"
+            aria-labelledby={`tab-${t.key}`}
+            hidden={i !== 0}
+          >
+            <div class="ep-grid">
+              {tilesOf(t.key).map((x) =>
+                x.kind === "held" ? (
+                  <a class="ep held" href={`/listen/${x.id}/`} data-in={x.vis} title={x.title}>
+                    <span class="sr">Episode </span>
+                    {x.n}
+                  </a>
+                ) : x.kind === "lost" ? (
+                  <button
+                    type="button"
+                    class="ep lost"
+                    data-lost={String(x.n)}
+                    data-title={x.title}
+                    data-est={x.est}
+                  >
+                    <span class="sr">Episode </span>
+                    {x.n}
+                    <span class="q" aria-hidden="true">
+                      ?
+                    </span>
+                    <span class="sr"> (still looking for this tape)</span>
+                  </button>
+                ) : (
+                  <span class="ep gone">
+                    <span class="sr">Episode </span>
+                    {x.n}
+                    <span class="sr"> (not here)</span>
+                  </span>
+                ),
+              )}
+            </div>
+          </div>
+        ))}
+        <p class="muted lost-count">{lostCount} tapes are still missing.</p>
+      </section>
+    </div>
 
     <dialog class="sheet" data-lost-sheet aria-labelledby="lost-h">
       <div class="sheet-body lost-body">
@@ -313,7 +318,12 @@ const serialShelfVis = VARIANTS.filter(
   html[data-v="k"] .ep.held:not([data-in~="k"]),
   html[data-v="lg"] .ep.held:not([data-in~="lg"]),
   html[data-v="kg"] .ep.held:not([data-in~="kg"]),
-  html[data-v="bg"] .ep.held:not([data-in~="bg"]) {
+  html[data-v="bg"] .ep.held:not([data-in~="bg"]),
+  html[data-v="l-a"] .ep.held:not([data-in~="l-a"]),
+  html[data-v="k-a"] .ep.held:not([data-in~="k-a"]),
+  html[data-v="lg-a"] .ep.held:not([data-in~="lg-a"]),
+  html[data-v="kg-a"] .ep.held:not([data-in~="kg-a"]),
+  html[data-v="bg-a"] .ep.held:not([data-in~="bg-a"]) {
     background: #a9bfe3;
     box-shadow: 0 3px 0 #8ca5cf;
     color: var(--ink);

@@ -5,7 +5,7 @@
  */
 import type { Track } from "@goldstein/player";
 import { navigate } from "astro:transitions/client";
-import { BAND_INFO, type Band } from "../lib/kinds.ts";
+import { BAND_INFO, type Band, LANG_TOAST, isLang } from "../lib/kinds.ts";
 import type { PlayRequest } from "../lib/tracks.ts";
 import { decorateCards } from "./cards.ts";
 import { initPage } from "./pages.ts";
@@ -55,6 +55,33 @@ function renderBandChip(): void {
   document.querySelectorAll<HTMLButtonElement>("#band-sheet [data-band]").forEach((b) => {
     b.setAttribute("aria-pressed", String(b.dataset["band"] === band));
   });
+  // Language buttons (the sheet, /grown-ups): only the toggles carry aria-pressed.
+  const lang = S.getLang();
+  document.querySelectorAll<HTMLButtonElement>("[data-set-lang][aria-pressed]").forEach((b) => {
+    b.setAttribute("aria-pressed", String(b.dataset["setLang"] === lang));
+  });
+}
+
+/** ?lang=en|yi|any: save it (without the change event; the caller applies it). */
+function saveLangParam(): URL | null {
+  let url: URL;
+  try {
+    url = new URL(location.href);
+  } catch {
+    return null;
+  }
+  const p = url.searchParams.get("lang");
+  if (p === null) return null;
+  if (isLang(p)) S.store.set("lang", p);
+  return url;
+}
+
+/** ?lang=en|yi|any: save it, then drop only that parameter from the address (§3.3). */
+function takeLangParam(): void {
+  const url = saveLangParam();
+  if (!url) return;
+  url.searchParams.delete("lang");
+  history.replaceState(history.state, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
 function bandSheet(): HTMLDialogElement | null {
@@ -94,6 +121,18 @@ document.addEventListener("click", (e) => {
   }
   if (t.closest("[data-close-band]")) {
     bandSheet()?.close();
+    return;
+  }
+  // Any "Show English too" / "Yiddish only" / language toggle, anywhere. The sheet stays open.
+  const langBtn = t.closest<HTMLElement>("[data-set-lang]");
+  if (langBtn) {
+    e.preventDefault();
+    const l = langBtn.dataset["setLang"];
+    if (isLang(l)) {
+      if (l !== S.getLang()) S.setLang(l);
+      else renderBandChip();
+      kp()?.toast(LANG_TOAST[l]);
+    }
     return;
   }
 
@@ -157,6 +196,8 @@ document.addEventListener("click", (e) => {
 
 // <ClientRouter /> swaps <html> attributes: put the band back before the new page paints.
 document.addEventListener("astro:after-swap", () => {
+  // A client-routed link with ?lang= must paint in that language, as a full load does.
+  saveLangParam();
   S.applyVariant();
   document.documentElement.classList.toggle("has-player", (kp()?.currentId() ?? null) !== null);
 });
@@ -175,6 +216,7 @@ function onScroll(): void {
 window.addEventListener("scroll", onScroll, { passive: true });
 
 function pageLoad(): void {
+  takeLangParam();
   S.applyVariant();
   renderBandChip();
   kp();

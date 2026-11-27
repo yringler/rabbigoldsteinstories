@@ -1,0 +1,58 @@
+---
+// A short explanation shown in one language mode (by default "Yiddish only"), with one-tap ways out
+// (docs/design/language-kids.md §4.3, §4.4, §7.3). Buttons use the delegated [data-set-lang] handler.
+import type { Lang } from "../lib/kinds.ts";
+import { visOf } from "../lib/build/lang.ts";
+
+interface Props {
+  title: string;
+  text?: string;
+  /** Mode(s) the panel shows in. */
+  langs?: Lang[];
+  /** "Show English too" (sets Both). */
+  showEnglish?: boolean;
+  /** "Show Yiddish too" (sets Both) and/or "Yiddish only" (sets Yiddish). */
+  showYiddish?: boolean;
+  yiddishOnly?: boolean;
+  /** Link to /yiddish/ with this label. */
+  yiddishLink?: string | null;
+  cls?: string;
+}
+const {
+  title,
+  text,
+  langs = ["yi"],
+  showEnglish = true,
+  showYiddish = false,
+  yiddishOnly = false,
+  yiddishLink = "Stories in Yiddish",
+  cls = "",
+} = Astro.props;
+---
+
+<section class={`lang-panel ${cls}`} data-vis={visOf(...langs).join(" ")}>
+  <h2>{title}</h2>
+  {text && <p>{text}</p>}
+  <div class="lang-panel-btns">
+    {yiddishLink && (
+      <a class="btn sun" href="/yiddish/">
+        {yiddishLink}
+      </a>
+    )}
+    {showEnglish && (
+      <button type="button" class="btn" data-set-lang="any">
+        Show English too
+      </button>
+    )}
+    {showYiddish && (
+      <button type="button" class="btn sun" data-set-lang="any">
+        Show Yiddish too
+      </button>
+    )}
+    {yiddishOnly && (
+      <button type="button" class="btn" data-set-lang="yi">
+        Yiddish only
+      </button>
+    )}
+  </div>
+</section>

@@ -8,7 +8,7 @@ import {
   itemPath,
   type Rec,
 } from "../../lib/records.ts";
-import { minutes } from "../../lib/kinds.ts";
+import { VARIANTS, minutes } from "../../lib/kinds.ts";
 import { storyOfTheDay, surprise } from "../../lib/sotd.ts";
 import { HOLIDAY_TILES, SHELF_MIN } from "../../lib/tiles.ts";
 import { recTrack } from "../../lib/tracks.ts";
@@ -60,6 +60,9 @@ export async function initHome(root: HTMLElement, rerender: boolean): Promise<vo
   // Story of the Day.
   const sotd = storyOfTheDay(ix.list, v, d, today?.g ?? [], today?.s ?? []);
   const box = root.querySelector<HTMLElement>("[data-sotd-card]");
+  // An empty pool (possible only with future data, or in "Yiddish only") hides the section.
+  const sotdSec = root.querySelector<HTMLElement>("[data-sotd]");
+  if (sotdSec) sotdSec.hidden = sotd === null;
   if (box && sotd) {
     const by = sotd.b === undefined ? "" : ` · Told by ${BYLINE_NAMES[sotd.b]}`;
     const req = JSON.stringify({
@@ -86,9 +89,7 @@ export async function initHome(root: HTMLElement, rerender: boolean): Promise<vo
   const keepRecs = keepIds.map((id) => ix.byId.get(id)).filter((r): r is Rec => Boolean(r));
   if (keep && keepRow) {
     keep.hidden = keepRecs.length === 0;
-    keepRow.innerHTML = keepRecs
-      .map((r) => cardHtml(r, { vis: ["l", "k", "b", "lg", "kg", "bg"] }))
-      .join("");
+    keepRow.innerHTML = keepRecs.map((r) => cardHtml(r, { vis: VARIANTS })).join("");
   }
 
   // Tonight's playlists (never blocks the page; hidden on any failure).

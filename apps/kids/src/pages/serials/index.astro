@@ -4,6 +4,7 @@ import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import { getModel } from "../../lib/build/model.ts";
 import { serialCard, serialVis, sortedSerials } from "../../lib/build/views.ts";
+import LangPanel from "../../components/LangPanel.astro";
 
 const m = getModel();
 const list = sortedSerials(m)
@@ -19,6 +20,7 @@ const list = sortedSerials(m)
       icon="seforim"
       color="#7A4FC2"
     />
+    <LangPanel title="Chapter stories are in English." />
     <div class="grid" set:html={list.map(({ s, vis }) => serialCard(s, vis)).join("")} />
   </div>
 </Base>

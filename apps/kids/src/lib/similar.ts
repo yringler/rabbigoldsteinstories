@@ -87,7 +87,16 @@ export interface SimResult {
   score(a: string, b: string): number;
 }
 
-export function computeSimilar(pool: readonly SimInput[]): SimResult {
+export interface SimOptions {
+  /** Only these ids may be listed as neighbours (scores still use the whole pool's IDF). */
+  candidate?: (id: string) => boolean;
+  /** Neighbours kept per item (default KEEP). */
+  keep?: number;
+}
+
+export function computeSimilar(pool: readonly SimInput[], opts: SimOptions = {}): SimResult {
+  const keep = opts.keep ?? KEEP;
+  const candidate = opts.candidate;
   const N = pool.length;
   // Merge duplicate feature keys (keep max weight).
   const feats = pool.map((x) => {
@@ -162,6 +171,7 @@ export function computeSimilar(pool: readonly SimInput[]): SimResult {
     for (const j of cands) {
       const c = pool[j];
       if (!c) continue;
+      if (candidate && !candidate(c.id)) continue;
       const s = scoreIdx(i, j);
       if (s <= 0) continue;
       const linked =
@@ -199,7 +209,7 @@ export function computeSimilar(pool: readonly SimInput[]): SimResult {
       if (keys.some((k) => (perSeries.get(k) ?? 0) >= MAX_SAME_SERIES)) continue;
       for (const k of keys) perSeries.set(k, (perSeries.get(k) ?? 0) + 1);
       out.push(c.id);
-      if (out.length >= KEEP) break;
+      if (out.length >= keep) break;
     }
     related.set(src.id, out);
   }

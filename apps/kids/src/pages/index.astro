@@ -10,8 +10,11 @@ import { tileHtml } from "../lib/html.ts";
 import { TILE_MIN, SHELF_MIN, tilePath } from "../lib/tiles.ts";
 import { ui } from "../lib/ui-icons.ts";
 import { iconSvg } from "../lib/icons.ts";
-import { VARIANTS, type Variant } from "../lib/kinds.ts";
-import { capPerVariant } from "../lib/build/model.ts";
+import { VARIANTS, type Variant, variantLang } from "../lib/kinds.ts";
+import { capPerVariant, inLangs } from "../lib/build/model.ts";
+import { notYi, visOf, yiddishGroups } from "../lib/build/lang.ts";
+import { shelfCards } from "../lib/build/views.ts";
+import LangPanel from "../components/LangPanel.astro";
 
 const m = getModel();
 const items = (key: string) => m.tileItems.get(key) ?? [];
@@ -46,6 +49,24 @@ const midosHtml = midos.map(({ t, vis }) => tileHtml(t, { vis })).join("");
 const midosVis: Variant[] = VARIANTS.filter(
   (v) => midos.filter((x) => x.vis.includes(v)).length >= SHELF_MIN,
 );
+
+// Yiddish (docs/design/language-kids.md §4.1). "Both": one mixed shelf of the Yiddish stories,
+// Bubby's first. "Yiddish only": one shelf per group, shown from a single item.
+const yiGroups = yiddishGroups(m);
+const yiStories = [
+  ...(yiGroups.find((g) => g.key === "bubby")?.items ?? []),
+  ...(yiGroups.find((g) => g.key === "stories")?.items ?? []),
+];
+const anyVis = visibleIn(yiStories, SHELF_MIN).filter((v) => variantLang(v) === "any");
+const anyHtml = shelfCards(yiStories, 12);
+const yiShelves = yiGroups
+  .filter((g) => g.key !== "more")
+  .map((g) => ({
+    g,
+    vis: inLangs(visibleIn(g.items, 1), ["yi"]),
+    html: shelfCards(g.items, 12),
+  }))
+  .filter((x) => x.vis.length > 0);
 ---
 
 <Base
@@ -84,7 +105,13 @@ const midosVis: Variant[] = VARIANTS.filter(
       <div class="shelf-row" data-keep-row></div>
     </section>
 
-    <section class="section playlists-shelf" data-playlists hidden aria-labelledby="pl-h">
+    <section
+      class="section playlists-shelf"
+      data-playlists
+      hidden
+      aria-labelledby="pl-h"
+      data-vis={notYi().join(" ")}
+    >
       <div class="section-head">
         <h2 id="pl-h">Tonight's Playlists</h2>
         <a class="see-all" href="/tonight/">
@@ -97,7 +124,20 @@ const midosVis: Variant[] = VARIANTS.filter(
     <div data-coming></div>
     <div data-parsha></div>
 
-    <section class="section shelf home-quick" data-quick hidden aria-labelledby="quick-h">
+    {anyVis.length > 0 && (
+      <Shelf title="In Yiddish" href="/yiddish/" html={anyHtml} vis={anyVis} cls="home-yiddish" />
+    )}
+    {yiShelves.map(({ g, vis, html }) => (
+      <Shelf title={g.title} href="/yiddish/" html={html} vis={vis} cls="home-yiddish" />
+    ))}
+
+    <section
+      class="section shelf home-quick"
+      data-quick
+      hidden
+      aria-labelledby="quick-h"
+      data-vis={notYi().join(" ")}
+    >
       <div class="section-head">
         <h2 id="quick-h">
           Quick Listens <span class="count">under 10 minutes</span>
@@ -143,6 +183,22 @@ const midosVis: Variant[] = VARIANTS.filter(
       tiles
       cls="home-midos"
     />
+
+    <LangPanel
+      title="That's all in Yiddish for now."
+      text="Everything else here is in English."
+      yiddishLink="See all in Yiddish"
+      cls="home-yi-note"
+    />
+    <a class="lang-link-card" href="/yiddish/" data-vis={visOf("en").join(" ")}>
+      <span>
+        Stories in Yiddish ·{" "}
+        <span lang="yi" dir="rtl">
+          מעשיות אויף אידיש
+        </span>
+      </span>
+      <Fragment set:html={ui("right", "", 22)} />
+    </a>
 
     <section class="surprise">
       <button type="button" class="btn sun big surprise-btn" data-surprise>
@@ -297,6 +353,9 @@ const midosVis: Variant[] = VARIANTS.filter(
       margin: 0 -32px;
       padding: 2px 32px 10px;
     }
+  }
+  .home-yi-note {
+    order: 9;
   }
   .surprise {
     margin: 36px 0 6px;

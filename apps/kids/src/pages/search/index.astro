@@ -4,8 +4,9 @@ import Base from "../../layouts/Base.astro";
 import PageHead from "../../components/PageHead.astro";
 import { getModel, tileKey, visibleIn } from "../../lib/build/model.ts";
 import { tileHtml } from "../../lib/html.ts";
-import { SUGGESTIONS } from "../../lib/search.ts";
-import { TILE_MIN, type Tile } from "../../lib/tiles.ts";
+import { SUGGESTIONS, SUGGESTIONS_YI } from "../../lib/search.ts";
+import { notYi, visOf } from "../../lib/build/lang.ts";
+import { type Tile, tileMin } from "../../lib/tiles.ts";
 import { ui } from "../../lib/ui-icons.ts";
 
 const m = getModel();
@@ -18,7 +19,7 @@ const all: Tile[] = [
 ];
 const tiles = all
   .map((t) => {
-    const vis = visibleIn(m.tileItems.get(tileKey(t)) ?? [], TILE_MIN);
+    const vis = visibleIn(m.tileItems.get(tileKey(t)) ?? [], tileMin);
     const aliases = t.facet === "people" ? (m.vocab("people", t.slug)?.aliases ?? []) : [];
     const terms = [
       t.label,
@@ -59,6 +60,12 @@ const tiles = all
       />
     </form>
     <p class="sr" role="status" aria-live="polite" data-status></p>
+    <div class="banner lang-banner" data-lang-hint hidden>
+      <span data-lang-hint-text></span>
+      <button type="button" class="btn sun" data-set-lang="any">
+        Show Yiddish too
+      </button>
+    </div>
     <div data-none hidden class="empty">
       <p>
         <b>We couldn't find that. Try one of these:</b>
@@ -66,8 +73,15 @@ const tiles = all
     </div>
     <div class="suggest" data-suggest>
       <p class="muted">Try:</p>
-      <div class="sugg-chips">
+      <div class="sugg-chips" data-vis={notYi().join(" ")}>
         {SUGGESTIONS.map((s) => (
+          <button type="button" class="chip" data-suggestion={s}>
+            {s}
+          </button>
+        ))}
+      </div>
+      <div class="sugg-chips" data-vis={visOf("yi").join(" ")}>
+        {SUGGESTIONS_YI.map((s) => (
           <button type="button" class="chip" data-suggestion={s}>
             {s}
           </button>

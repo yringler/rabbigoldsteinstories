@@ -3,11 +3,19 @@
  * forbidden keys in every JSON the site ships, no transcript text, and the shared gate catching a
  * seeded hidden name in a kids page.
  */
-import { mkdtempSync, rmSync, writeFileSync } from "node:fs";
+import {
+  existsSync,
+  mkdtempSync,
+  readdirSync,
+  readFileSync,
+  rmSync,
+  statSync,
+  writeFileSync,
+} from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { PublicSegment } from "@goldstein/data";
-import { loadTranscript } from "@goldstein/data/load";
+import { loadSearchDoc, loadTranscript } from "@goldstein/data/load";
 import { describe, expect, it } from "vitest";
 import { getModel } from "../src/lib/build/model.ts";
 import { buildSearchIndex } from "../src/lib/build/search-docs.ts";
@@ -118,6 +126,53 @@ describe("shipped JSON (criterion 2)", () => {
       }
     }
     expect(checked).toBeGreaterThan(100);
+  });
+});
+
+describe("Yiddish items (docs/design/language-kids.md §9)", () => {
+  it("no Yiddish search text reaches the index, the item extras or the search index", () => {
+    const shipped = [
+      JSON.stringify(m.index),
+      buildSearchIndex(),
+      ...m.poolYi.map((k) => JSON.stringify({ c: k.chapters, s: k.item.summary_short })),
+    ].join("\n");
+    let checked = 0;
+    for (const k of m.poolYi) {
+      const doc = loadSearchDoc(k.id);
+      for (const line of doc?.lines ?? []) {
+        const t = line[1];
+        if (t.length < 30) continue;
+        expect(shipped.includes(t), k.id).toBe(false);
+        checked++;
+      }
+    }
+    expect(checked).toBeGreaterThan(50);
+  });
+
+  it("the unconfirmed narrator's placeholder label is never a byline, hero or search term", () => {
+    const label = m.vocab("speakers", "yiddish_narrator_unconfirmed")?.label ?? "";
+    expect(label).toMatch(/unconfirmed/);
+    expect(buildSearchIndex().includes(label)).toBe(false);
+    expect(JSON.stringify(m.index).includes(label)).toBe(false);
+    for (const k of m.poolYi) {
+      expect(k.heroes.every((h) => !m.vocab("people", h)?.unconfirmed)).toBe(true);
+      expect(k.byline === null || k.byline === "Bubby Chaya Malka").toBe(true);
+    }
+  });
+
+  it("no built page shows a placeholder label (when dist/ exists)", () => {
+    const dist = new URL("../dist/", import.meta.url).pathname;
+    if (!existsSync(dist)) return; // npm test runs before the build; the gate checks dist too
+    const walk = (d: string): string[] =>
+      readdirSync(d).flatMap((f) => {
+        const p = join(d, f);
+        return statSync(p).isDirectory() ? walk(p) : p.endsWith(".html") ? [p] : [];
+      });
+    for (const f of walk(dist)) {
+      const html = readFileSync(f, "utf8");
+      expect(html.includes("name unconfirmed"), f).toBe(false);
+      expect(html.includes("(working title)"), f).toBe(false);
+    }
   });
 });
 
