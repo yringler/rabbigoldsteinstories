@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { moonSvg, TYPES } from "../src/lib/ui.ts";
+import { moonSvg, TYPES, YIDDISH_UI } from "../src/lib/ui.ts";
 
 const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
@@ -62,7 +62,7 @@ async function render(svg, size, file) {
   await page.setContent(`<html><body style="margin:0;background:${BG}">${svg}</body></html>`);
   writeFileSync(join(out, file), await page.screenshot({ type: "png" }));
 }
-for (const t of TYPES) await render(tile(t), 512, `${t.type}-512.png`);
+for (const t of [...TYPES, YIDDISH_UI]) await render(tile(t), 512, `${t.type}-512.png`);
 await render(app(), 512, "app-512.png");
 await render(app(), 192, "app-192.png");
 await render(app(), 180, "app-180.png");

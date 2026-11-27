@@ -3,7 +3,7 @@
  * pitch. Each page's static markup is server-rendered; these fill in the edition, Continue row
  * and history, and wire the landing page's play button.
  */
-import type { Edition, Playlist } from "@goldstein/playlists";
+import { editionAt, type Edition, type Playlist, type PlaylistItem } from "@goldstein/playlists";
 import { navigate } from "astro:transitions/client";
 import { parseDeepLink } from "../lib/deeplink.ts";
 import { GLYPHS } from "../lib/glyphs.ts";
@@ -24,6 +24,7 @@ import {
   TYPE_BY_ID,
   TYPES,
 } from "../lib/ui.ts";
+import { shelfPlaylist } from "../lib/yiddish-shelf.ts";
 import { loadHistory, loadTonight } from "./data.ts";
 import type { BedtimePlayer } from "./bedtime-player.ts";
 import type { SheetApi } from "./sheet.ts";
@@ -77,6 +78,48 @@ function takePlayMix(): boolean {
   return true;
 }
 
+/** The Yiddish shelf's items, built into the home page (empty when the site has no shelf). */
+function shelfItems(root: ParentNode): PlaylistItem[] {
+  const json = $<HTMLScriptElement>("#yiddish-shelf", root)?.textContent;
+  if (!json) return [];
+  try {
+    const items = JSON.parse(json) as unknown;
+    return Array.isArray(items) ? (items as PlaylistItem[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * The Yiddish card(s) and the "Tonight in English" disclosure (docs/design/language-bedtime.md
+ * §3.1). They work without the edition: the shelf is part of the page. Returns a setter for the
+ * night's date key (tonight's edition id once it is known), which picks the opening story.
+ */
+function wireYiddish(root: HTMLElement, app: App, now: number): (dateKey: string) => void {
+  const items = shelfItems(root);
+  let key = editionAt(now).id;
+  if (items.length > 0) {
+    for (const card of root.querySelectorAll<HTMLElement>("[data-yiddish-card]")) {
+      $<HTMLButtonElement>("[data-play]", card)!.onclick = () =>
+        app.start(shelfPlaylist(items, key), "tonight");
+      $<HTMLButtonElement>("[data-more]", card)!.onclick = () =>
+        app.sheet.preview(shelfPlaylist(items, key), "tonight");
+    }
+  }
+  const toggle = $<HTMLButtonElement>("[data-english-toggle]", root);
+  const group = $("[data-english-cards]", root);
+  if (toggle && group) {
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") !== "true";
+      toggle.setAttribute("aria-expanded", String(open));
+      group.toggleAttribute("data-open", open);
+    });
+  }
+  return (dateKey) => {
+    key = dateKey;
+  };
+}
+
 async function fetchEdition(id: string): Promise<Edition | null> {
   try {
     const r = await fetch(`/playlists/editions/${id}.json`);
@@ -102,6 +145,7 @@ export async function renderHome(app: App): Promise<void> {
   const now = Date.now();
   const saved = store.get<unknown>(SESSION_KEY, null);
   const playMix = takePlayMix();
+  const setShelfNight = wireYiddish(root, app, now);
 
   // Continue row (only for a session under 18 hours old) or the good-night line after the end.
   const cont = continuable(saved, now);
@@ -133,6 +177,11 @@ export async function renderHome(app: App): Promise<void> {
       greet.textContent = rest.length ? `${first}.` : g;
       sub.textContent = rest.join(". ");
     }
+    setShelfNight(edition.date);
+    const english = edition.playlists.filter((p) => p.items.length > 0).length;
+    const toggleLabel = $("[data-english-toggle-label]", root);
+    if (toggleLabel)
+      toggleLabel.textContent = `Tonight in English (${english} playlist${english === 1 ? "" : "s"})`;
     for (const card of cards) {
       const type = card.dataset["card"]!;
       const p = edition.playlists.find((x) => x.type === type);
@@ -158,6 +207,10 @@ export async function renderHome(app: App): Promise<void> {
     $("[data-cards]", root)!.hidden = true;
     notice.textContent = "No stories tonight. Please try again in a little while.";
     notice.hidden = false;
+    // With Yiddish chosen, the shelf still plays; CSS swaps the notice for a quieter line.
+    root.dataset["englishEmpty"] = "1";
+    const emptyNote = $("[data-english-empty-note]", root);
+    if (emptyNote) emptyNote.hidden = false;
     return;
   }
   if (offline) {

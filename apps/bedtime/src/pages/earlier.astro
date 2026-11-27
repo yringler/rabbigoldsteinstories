@@ -1,12 +1,22 @@
 ---
 // Earlier this week (bedtime.md §2.3): the 7 previous nights, newest first; tap = play, ⋯ = list.
+// Editions only (English). With Yiddish or Both chosen, CSS shows one line pointing to the shelf
+// (docs/design/language-bedtime.md §3.4).
+import { resolveShelf } from "../lib/build/yiddish.ts";
 import Base from "../layouts/Base.astro";
+
+const hasShelf = resolveShelf().length > 0;
 ---
 
 <Base page="earlier" title="Earlier this week">
   <div data-earlier>
     <h1 class="page-title">Earlier this week</h1>
     <p class="lede">The last seven nights. Tap a playlist to play it again.</p>
+    {hasShelf && (
+      <p class="lede yiddish-note" data-yiddish-note>
+        The Yiddish stories are on the <a href="/">Tonight</a> page. They're the same every night.
+      </p>
+    )}
     <ol class="nights" data-nights aria-busy="true"></ol>
     <p class="empty" data-empty hidden>
       No earlier nights yet. Come back tomorrow.

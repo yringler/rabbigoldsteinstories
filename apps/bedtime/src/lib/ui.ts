@@ -93,7 +93,33 @@ export const TYPE_BY_ID: Readonly<Record<string, TypeUi>> = Object.fromEntries(
   TYPES.map((t) => [t.type, t]),
 );
 
-export function iconSvg(t: TypeUi, size = 48, extra = ""): string {
+/**
+ * The Yiddish shelf's look (docs/design/language-bedtime.md §6). Kept out of TYPES, which is the
+ * recipes' order and holds only generated playlist types.
+ */
+export interface ShelfUi extends Omit<TypeUi, "type"> {
+  type: "yiddish";
+}
+export type AnyUi = TypeUi | ShelfUi;
+
+export const YIDDISH_UI: ShelfUi = {
+  type: "yiddish",
+  name: "Yiddish Stories",
+  line: "Stories in Yiddish.",
+  ages: "4+",
+  // warm candle gold
+  color: "#E8CF8A",
+  // an open book with a small heart above it
+  icon: '<path d="M24 20c-4.5-3-10.5-4-16-3v24c5.5-1 11.5 0 16 3 4.5-3 10.5-4 16-3V17c-5.5-1-11.5 0-16 3Z"/><path d="M24 20v24"/><path d="M24 14c-3.6-2.6-6-4.4-6-6.9a3 3 0 0 1 6-1.1 3 3 0 0 1 6 1.1c0 2.5-2.4 4.3-6 6.9Z"/>',
+};
+
+/** UI entry for any playlist type; unknown types fall back to Big Kids' look. */
+export function uiOf(type: string | null | undefined): AnyUi {
+  if (type === YIDDISH_UI.type) return YIDDISH_UI;
+  return TYPE_BY_ID[type ?? ""] ?? TYPES[2]!;
+}
+
+export function iconSvg(t: Pick<TypeUi, "icon">, size = 48, extra = ""): string {
   return `<svg viewBox="0 0 48 48" width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${t.icon}</svg>`;
 }
 

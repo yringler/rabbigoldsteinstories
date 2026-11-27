@@ -4,6 +4,7 @@
  */
 import type { Playlist } from "@goldstein/playlists";
 import { BedtimePlayer } from "./bedtime-player.ts";
+import { mountLangControls, takeLangParam } from "./lang.ts";
 import { mountNight } from "./night.ts";
 import { renderEarlier, renderHome, renderLanding, type App } from "./pages.ts";
 import { mountSheet } from "./sheet.ts";
@@ -32,6 +33,8 @@ function boot(): App & { player: BedtimePlayer } {
 }
 
 function onPage() {
+  takeLangParam();
+  mountLangControls();
   const app = boot();
   document.body.classList.toggle("has-player", !!app.player.snapshot().playlist);
   const page = document.body.dataset["page"];

@@ -11,6 +11,7 @@ import { GLYPHS } from "../lib/glyphs.ts";
 import { moonSvg } from "../lib/ui.ts";
 import { TIMER_CHOICES } from "../lib/session.ts";
 import { loadManifest } from "@goldstein/data/load";
+import { resolveShelf } from "../lib/build/yiddish.ts";
 
 interface Props {
   title?: string;
@@ -23,6 +24,8 @@ interface Props {
 const site = SITES.bedtime;
 // AI-improved sound switch: only once some recordings have a cleaned copy (docs/design/ai-audio.md §3.1).
 const hasCleanAudio = (loadManifest().counts.clean_audio ?? 0) > 0;
+// Language preference (docs/design/language-bedtime.md §2.3): only when the Yiddish shelf has stories.
+const hasYiddish = resolveShelf().length > 0;
 const { title, page, description, chrome = "full", ogTitle } = Astro.props;
 const desc =
   description ??
@@ -43,7 +46,7 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-has-yiddish={hasYiddish ? "" : undefined}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -70,6 +73,39 @@ const moon = `<svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"
         <meta property="og:image" content={ogImage} />
       </>
     )}
+    {/*
+      Pre-paint: <html data-lang> from ?lang= (saved) or the stored choice (the same safe read as
+      createStore("bedtime")); missing or invalid is "en". Re-applied after each page swap, because
+      the router replaces <html>'s attributes. scripts/lang.ts then removes ?lang from the URL.
+    */}
+    {hasYiddish && <script is:inline>
+      (function () {
+        var K = "goldstein:bedtime:lang";
+        var ok = /^(en|yi|any)$/;
+        function get() {
+          try {
+            var m = /[?&]lang=([^&#]*)/.exec(location.search);
+            var q = m ? decodeURIComponent(m[1]).trim().toLowerCase() : "";
+            if (ok.test(q)) {
+              localStorage.setItem(K, JSON.stringify({ v: q }));
+              return q;
+            }
+            var v = JSON.parse(localStorage.getItem(K) || "null");
+            return v && typeof v.v === "string" && ok.test(v.v) ? v.v : "en";
+          } catch (e) {
+            return "en";
+          }
+        }
+        function apply() {
+          document.documentElement.setAttribute("data-lang", get());
+        }
+        apply();
+        if (!window.__bedtimeLang) {
+          window.__bedtimeLang = 1;
+          document.addEventListener("astro:after-swap", apply);
+        }
+      })();
+    </script>}
     <ClientRouter fallback="swap" />
   </head>
   <body data-page={page}>
