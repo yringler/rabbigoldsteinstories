@@ -64,7 +64,10 @@ export function kvStore(kv: KVLike, cacheTtl?: number): EditionStore {
 }
 
 const SHORT = "public, max-age=300, stale-while-revalidate=3600";
-/** Editions are tombstoned at read time, so a removal must reach visitors within minutes. */
+/**
+ * Editions are tombstoned at read time, so a removal must reach visitors within minutes. The HLS
+ * stream checks the same exclusions, so it uses the same policy.
+ */
 const LONG = "public, max-age=300, stale-while-revalidate=600";
 /** Cold start: one request fills the runway; the others get 503 for this long. */
 const FILL_LOCK_KEY = "lock:fill";
@@ -154,7 +157,8 @@ export function hlsResponse(url: URL, pool: UnitPool, overrides: Overrides = {})
   return new Response(text, {
     headers: {
       "content-type": HLS_MIME,
-      "cache-control": "public, max-age=3600",
+      // Same policy as editions: an excluded unit must stop streaming within minutes too.
+      "cache-control": LONG,
       "x-content-type-options": "nosniff",
     },
   });

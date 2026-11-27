@@ -150,4 +150,17 @@ describe("HLS stream", () => {
     ).toBeNull();
     expect(buildHlsPlaylist([], "original", source())).toBeNull();
   });
+
+  it("refuses a story more than one frame past its file's end; one frame short is rounding", () => {
+    const want = Math.round(60 / frameSec(ORIGINAL)); // frames for 0..60 s, from frame 1
+    const ending = (extra: number) => (): HlsSource => ({
+      url: "x",
+      frames: { ...ORIGINAL, frame_count: 1 + want + extra },
+    });
+    const one = [{ id: "aaaaaaaaaa", start_sec: 0, end_sec: 60 }];
+    expect(buildHlsPlaylist(one, "original", ending(0))).not.toBeNull();
+    expect(buildHlsPlaylist(one, "original", ending(-1))).not.toBeNull();
+    expect(buildHlsPlaylist(one, "original", ending(-2))).toBeNull();
+    expect(buildHlsPlaylist(one, "original", ending(-20))).toBeNull(); // about 0.5 s short
+  });
 });

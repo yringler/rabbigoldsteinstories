@@ -135,7 +135,8 @@ describe("goldstein-api: HLS stream", () => {
     const r = await get(`/playlists/hls.m3u8?v=o&${q}`, deps);
     expect(r.status).toBe(200);
     expect(r.headers.get("content-type")).toBe("application/vnd.apple.mpegurl");
-    expect(r.headers.get("cache-control")).toContain("max-age=3600");
+    // As short as an edition's: an exclusion must stop the stream within minutes.
+    expect(r.headers.get("cache-control")).toBe("public, max-age=300, stale-while-revalidate=600");
     const text = await r.text();
     expect(text).toContain("#EXT-X-BYTERANGE:");
     expect(text).toContain(t.audio_url.split("#")[0]);

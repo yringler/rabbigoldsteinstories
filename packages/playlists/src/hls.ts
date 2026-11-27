@@ -149,7 +149,9 @@ export function buildHlsPlaylist(
     if (prevEnd?.url === src.url && Math.abs(prevEnd.frame - k0) <= 2) k0 = prevEnd.frame;
     const want = Math.round((chapters[n]!.end - t) / dur);
     const count = Math.min(want, f.frame_count - k0);
-    if (count < 1 || want - count > Math.round(1 / dur)) return null; // range past the file's end
+    // A range past the file's end: no stream. One frame short is rounding; more would shift every
+    // later story (they would make up the difference) and break the half-frame rule.
+    if (count < 1 || want - count > 1) return null;
     t += count * dur;
     prevEnd = { url: src.url, frame: k0 + count };
     const perSeg = Math.round(SEGMENT_SEC / dur);
