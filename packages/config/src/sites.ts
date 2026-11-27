@@ -52,7 +52,7 @@ export const SUPPORT = {
 export const ORDER = {
   url: "https://www.thelivingsidrah.com/order/",
   seller: "Rabbi Chaim Levi Goldstein",
-  note: "When you order, please mention that you found the recordings here.",
+  note: "When you order, please say in the comments box that you found the recordings here.",
 } as const;
 
 /** Credit line on every about / grown-ups page (owner, 2026-11-25). */
