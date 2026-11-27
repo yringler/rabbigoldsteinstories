@@ -2,6 +2,7 @@
  * BedtimePlayer rules with a fake audio element and fake timers (no browser): per-track resume
  * off, the sleep timer freezing while paused, the 8 s load rule, stop-after-this-story, the end.
  */
+import type { StreamAudio } from "@goldstein/player";
 import type { Playlist, PlaylistItem } from "@goldstein/playlists";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { BedtimePlayer } from "../src/scripts/bedtime-player.ts";
@@ -187,6 +188,44 @@ class FakeHlsAudio extends FakeAudio {
   }
 }
 
+/**
+ * Just enough of hls.js for StreamAudio: events, and destroy() detaching the media the way the real
+ * one does (the element's time drops to 0).
+ */
+class FakeHls {
+  static Events = { MANIFEST_PARSED: "hlsManifestParsed", ERROR: "hlsError" };
+  static ErrorTypes = { MEDIA_ERROR: "mediaError", NETWORK_ERROR: "networkError" };
+  static last: FakeHls | null = null;
+  private handlers = new Map<string, ((e: string, d: unknown) => void)[]>();
+  private media: FakeHlsAudio | null = null;
+  constructor() {
+    FakeHls.last = this;
+  }
+  on(e: string, fn: (e: string, d: unknown) => void): void {
+    this.handlers.set(e, [...(this.handlers.get(e) ?? []), fn]);
+  }
+  emit(e: string, d: unknown = {}): void {
+    for (const h of this.handlers.get(e) ?? []) h(e, d);
+  }
+  attachMedia(el: FakeHlsAudio): void {
+    this.media = el;
+  }
+  loadSource(): void {
+    this.emit(FakeHls.Events.MANIFEST_PARSED);
+  }
+  startLoad(): void {}
+  recoverMediaError(): void {}
+  destroy(): void {
+    if (this.media) this.media.currentTime = 0;
+    this.media = null;
+  }
+  /** A network failure hls.js can't recover from (StreamAudio retries once). */
+  failForGood(): void {
+    for (let i = 0; i < 2; i++)
+      this.emit(FakeHls.Events.ERROR, { fatal: true, type: FakeHls.ErrorTypes.NETWORK_ERROR });
+  }
+}
+
 describe("BedtimePlayer as one HLS stream (docs/design/hls.md)", () => {
   const origin = "https://bedtime.example";
   let el: FakeHlsAudio;
@@ -266,6 +305,71 @@ describe("BedtimePlayer as one HLS stream (docs/design/hls.md)", () => {
     // For the rest of the visit, a new start plays files too.
     await player.start(playlist(C), "tonight");
     expect(el.src).toBe(`${C.audio_url}#t=${C.start_sec},${C.end_sec}`);
+  });
+
+  it("after a fallback, a file's end-of-fragment pause advances to the next story", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(600 + 42);
+    el.fire("error"); // the element errors without pausing
+    await flush();
+    el.started();
+    el.currentTime = B.end_sec - 0.2;
+    el.pause(); // the #t= fragment ends
+    await flush();
+    expect(player.snapshot().index).toBe(2);
+    expect(el.src).toBe(`${C.audio_url}#t=${C.start_sec},${C.end_sec}`);
+  });
+
+  it("falls back at the stream's real position when hls.js gives up (it resets currentTime)", async () => {
+    const stream = (player as unknown as { stream: StreamAudio }).stream;
+    stream.setHls(FakeHls as unknown as Parameters<StreamAudio["setHls"]>[0]);
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(600 + 42);
+    FakeHls.last!.failForGood();
+    await flush();
+    expect(el.src).toBe(`${B.audio_url}#t=${B.start_sec},${B.end_sec}`);
+    expect(el.currentTime).toBe(B.start_sec + 42);
+    expect(player.snapshot().index).toBe(1);
+  });
+
+  it("falls back to the story under the playhead, not a lagging index", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.currentTime = 1250; // locked phone: no timeupdate since story A
+    expect(player.snapshot().index).toBe(0);
+    el.fire("error");
+    await flush();
+    expect(el.src).toBe(`${C.audio_url}#t=${C.start_sec},${C.end_sec}`);
+    expect(el.currentTime).toBe(C.start_sec + 50);
+    expect(player.snapshot().index).toBe(2);
+  });
+
+  it("a stall after the stream moved into the next story just waits", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    const src = el.src;
+    el.at(600.1); // into B: no new 'playing' event on the same stream
+    await flush();
+    expect(player.snapshot().index).toBe(1);
+    el.readyState = 0;
+    el.fire("waiting"); // buffering mid-stream
+    vi.advanceTimersByTime(10_000);
+    await flush();
+    expect(el.src).toBe(src);
+    expect(player.snapshot().index).toBe(1);
+  });
+
+  it("offers the AI-improved stream when only some stories have a clean copy", async () => {
+    const a = {
+      ...A,
+      clean_audio_url: A.audio_url.replace("/media.example/", "/media.example/clean/"),
+    };
+    await player.start(playlist(a, B), "tonight");
+    el.started();
+    player.setPreferClean(true);
+    expect(el.src).toContain("/playlists/hls.m3u8?v=c&");
   });
 
   it("swaps to the AI-improved stream at the same position", async () => {

@@ -315,6 +315,29 @@ describe("AI-improved sound (docs/design/ai-audio.md §2.5)", () => {
     expect(a.src).toBe(clean[0]!.url);
   });
 
+  it("a failed clean stream is not loaded again by the next track sharing its clean_url", async () => {
+    // A stream: every track is a range of the same source and the same clean source.
+    const stream = (id: string, start: number, end: number): Track => ({
+      id,
+      title: id,
+      url: "https://s/hls.m3u8?v=o",
+      clean_url: "https://s/hls.m3u8?v=c",
+      start_sec: start,
+      end_sec: end,
+    });
+    const a = new FakeAudio();
+    const p = new Player({ audio: a, mediaSession: null, preferClean: true });
+    await p.load([stream("aaaaaaaaaa", 0, 600), stream("bbbbbbbbbb", 600, 1200)]);
+    expect(a.src).toBe("https://s/hls.m3u8?v=c");
+    a.fire("error");
+    expect(a.src).toBe("https://s/hls.m3u8?v=o");
+    const n = a.loads.length;
+    await p.goTo(1);
+    expect(a.src).toBe("https://s/hls.m3u8?v=o");
+    expect(a.loads.length).toBe(n); // same source: no reload
+    expect(p.source).toBe("original");
+  });
+
   it("an error on the original reaches the site handlers", async () => {
     const a = new FakeAudio();
     const p = new Player({ audio: a, mediaSession: null, preferClean: true });

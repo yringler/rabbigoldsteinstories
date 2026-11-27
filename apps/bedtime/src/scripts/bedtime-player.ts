@@ -385,6 +385,8 @@ export class BedtimePlayer extends Player {
   private toTracks(p: Playlist): Track[] {
     // One stream for the whole playlist; each story is its range on the stream. The clean stream
     // has the same story times (within 13 ms), so the AI-sound toggle swaps at the same position.
+    // The API mixes copies per story (the original where there is no clean copy), so the clean
+    // stream is worth offering as soon as one story has a clean copy.
     const items: HlsItem[] = p.items.map((i) => ({
       id: i.id,
       start_sec: i.start_sec,
@@ -393,7 +395,7 @@ export class BedtimePlayer extends Player {
     const chapters = this.streaming ? hlsChapters(items) : [];
     const url = this.streaming ? hlsUrl(location.origin, items, "original") : "";
     const cleanUrl =
-      this.streaming && p.items.every((i) => i.clean_audio_url)
+      this.streaming && p.items.some((i) => i.clean_audio_url)
         ? hlsUrl(location.origin, items, "clean")
         : null;
     return p.items.map((i, n) => {
@@ -424,6 +426,13 @@ export class BedtimePlayer extends Player {
 
   private afterTrackChange(): void {
     this.trackStartedAt = Date.now();
+    // Within a stream that is already playing, a new story is no new load: no 'playing' event
+    // follows, and a later stall must just wait rather than count as a failed load.
+    if (this.streaming && this.startedPlaying && !this.el.paused) {
+      this.save(true);
+      this.notify();
+      return;
+    }
     this.startedPlaying = false;
     if (!this.el.paused || this.phase === "loading") this.armWatchdog();
     this.save(true);
@@ -515,23 +524,39 @@ export class BedtimePlayer extends Player {
     this.watchdog = null;
   }
 
-  /** The stream failed: same story and position, one file per story from now on. */
+  /**
+   * The stream failed: same story and position, one file per story from now on. The story is the
+   * one under the playhead, not the current index: on a locked phone the index can lag by several
+   * stories (no timeupdate). After hls.js gives up, the element's time reads 0; the stream adapter
+   * kept the real one.
+   */
   private fallbackToFiles(): void {
     if (!this.playlist) return;
     const s = this.state();
+    const t = this.stream.lastStreamTime ?? this.el.currentTime;
+    let index = this.trackAt(t);
+    if (index < 0)
+      index = t >= (s.queue.at(-1)?.end_sec ?? Infinity) ? s.queue.length - 1 : s.index;
+    index = Math.max(0, index);
+    const track = s.queue[index];
+    const start = track?.start_sec ?? 0;
+    const position = Math.min(Math.max(0, t - start), (track?.end_sec ?? Infinity) - start);
     const wasPlaying = !this.el.paused || this.phase === "loading" || this.phase === "playing";
     this.streamBroken = true;
     this.streaming = false;
     this.clearWatchdog();
-    this.intentionalPause = true;
     this.trackStartedAt = Date.now();
     this.startedPlaying = false;
     if (wasPlaying) {
       this.setPhase("loading");
       this.armWatchdog();
     }
-    const position = s.position;
-    void this.load(this.toTracks(this.playlist), Math.max(0, s.index), wasPlaying).then(() => {
+    // A source change pauses the element without a 'pause' event, so nothing else may consume
+    // intentionalPause: it covers only a pause fired during the load, and is cleared after it.
+    // Left set, it would make the file's end-of-fragment pause look intentional (no advance).
+    this.intentionalPause = true;
+    void this.load(this.toTracks(this.playlist), index, wasPlaying).then(() => {
+      this.intentionalPause = false;
       this.seek(position);
       this.save(true);
     });

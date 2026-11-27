@@ -108,6 +108,11 @@ export class Player {
   private preferClean: boolean;
   /** Ids whose clean copy failed to load this visit (not persisted). */
   private readonly failedClean = new Set<string>();
+  /**
+   * Clean URLs that failed this visit: in a stream every track shares one clean_url, so a broken
+   * clean stream must not be loaded again by the next track.
+   */
+  private readonly failedCleanUrls = new Set<string>();
   /** The copy currently assigned to audio.src. */
   private loaded: "original" | "clean" | null = null;
   private swapping = false;
@@ -362,7 +367,12 @@ export class Player {
   }
 
   private kindFor(t: Track): "original" | "clean" {
-    return this.preferClean && t.clean_url && !this.failedClean.has(t.id) ? "clean" : "original";
+    return this.preferClean &&
+      t.clean_url &&
+      !this.failedClean.has(t.id) &&
+      !this.failedCleanUrls.has(t.clean_url)
+      ? "clean"
+      : "original";
   }
 
   /** Load another copy of the current track at the same position, keeping the play state. */
@@ -394,6 +404,7 @@ export class Player {
     if (!t || this.loaded !== "clean") return;
     e.stopImmediatePropagation();
     this.failedClean.add(t.id);
+    if (t.clean_url) this.failedCleanUrls.add(t.clean_url);
     // After a failed load currentTime may read 0; lastTime is the position we were at or seeking to.
     const at = Math.max(this.audio.currentTime, this.lastTime);
     this.swapTo(t.url, "original", at);

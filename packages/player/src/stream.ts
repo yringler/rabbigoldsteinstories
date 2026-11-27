@@ -71,6 +71,11 @@ export class StreamAudio implements AudioLike {
   private recovered = false;
   /** The last error came from a stream that could not be recovered. */
   streamFailed = false;
+  /**
+   * Where the playhead was on the stream when it failed (set with streamFailed). Destroying hls.js
+   * detaches the element and resets its currentTime to 0, so read this instead after a failure.
+   */
+  lastStreamTime: number | null = null;
 
   constructor(
     readonly el: HTMLAudioElement,
@@ -92,6 +97,7 @@ export class StreamAudio implements AudioLike {
   set src(url: string) {
     this.destroy();
     this.streamFailed = false;
+    this.lastStreamTime = null;
     const H = this.Hls;
     if (!H || !isStreamUrl(url)) {
       this.el.src = url;
@@ -120,6 +126,8 @@ export class StreamAudio implements AudioLike {
         else h.startLoad(this.el.currentTime || (this.pendingTime ?? -1));
         return;
       }
+      // Before destroy(): detaching the media resets el.currentTime.
+      this.lastStreamTime = this.el.currentTime || (this.pendingTime ?? 0);
       this.destroy();
       this.streamFailed = true;
       this.el.dispatchEvent(new Event("error"));
