@@ -59,7 +59,10 @@ function isStreamUrl(url: string): boolean {
 
 /** Playback this long after a recovery means it worked: a later failure may recover again. */
 const RECOVERY_RESET_SEC = 30;
-/** An element error this soon after a recovery is the same fault (hls.js reported it too). */
+/**
+ * Errors this close together are one fault reported twice: an element error just after a recovery
+ * (hls.js reported it too), or an hls.js media error just after the element's error recovered.
+ */
 const SAME_FAULT_MS = 1000;
 
 /**
@@ -82,6 +85,8 @@ export class StreamAudio implements AudioLike {
   private pendingTime: number | null = null;
   private recovered = false;
   private recoveredAt = 0;
+  /** The last recovery was started by the element's own error, not by hls.js. */
+  private recoveredFromElement = false;
   /** Seconds played since the last recovery. */
   private playedSinceRecovery = 0;
   /** The last good playhead on the stream: a seek target, or a time that played. */
@@ -161,6 +166,9 @@ export class StreamAudio implements AudioLike {
     h.on(H.Events.ERROR, (_e, d) => {
       if (!d.fatal || this.hls !== h) return;
       const media = d.type === H.ErrorTypes.MEDIA_ERROR;
+      // The element's error already started a recovery for this fault. Two hls.js media errors in
+      // a row are not covered: hls.js reports each fault once, so the second is a new failure.
+      if (media && this.recoveredFromElement && this.sameFault()) return;
       if (
         !(d.type === H.ErrorTypes.NETWORK_ERROR && permanent.has(d.details)) &&
         this.recover(media)
@@ -228,18 +236,24 @@ export class StreamAudio implements AudioLike {
   /** The element's own error (an MSE decode error) while hls.js is attached: recover like hls.js's. */
   private onElementError(): void {
     if (!this.hls) return; // a file, or the native engine: the listeners handle it
-    if (this.recovered && Date.now() - this.recoveredAt < SAME_FAULT_MS) return;
-    if (this.recover(true)) return;
+    if (this.sameFault()) return;
+    if (this.recover(true, true)) return;
     // Failed for good: this very event now reaches the other listeners, with handlesErrors false.
     this.fail();
   }
 
+  /** A recovery started less than SAME_FAULT_MS ago. */
+  private sameFault(): boolean {
+    return this.recovered && Date.now() - this.recoveredAt < SAME_FAULT_MS;
+  }
+
   /** One recovery per fault; false when the last one has not been followed by real playback. */
-  private recover(media: boolean): boolean {
+  private recover(media: boolean, fromElement = false): boolean {
     const h = this.hls;
     if (!h || this.recovered) return false;
     this.recovered = true;
     this.recoveredAt = Date.now();
+    this.recoveredFromElement = fromElement;
     this.playedSinceRecovery = 0;
     if (media) h.recoverMediaError();
     else h.startLoad(this.resumeTime() ?? this.pendingTime ?? -1);

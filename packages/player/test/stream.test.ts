@@ -180,6 +180,31 @@ describe("StreamAudio", () => {
     expect(audio.lastStreamTime).toBe(200);
   });
 
+  it("an hls.js media error right after an element error's recovery is the same fault", () => {
+    el.at(200);
+    el.dispatchEvent(new Event("error")); // an MSE decode error: recovered
+    expect(FakeHls.last.mediaRecoveries).toBe(1);
+    vi.advanceTimersByTime(300);
+    FakeHls.last.fatal("mediaError", FakeHls.ErrorDetails.BUFFER_APPEND_ERROR); // hls.js, same fault
+    expect(errors).toBe(0);
+    expect(audio.streamFailed).toBe(false);
+    expect(audio.handlesErrors).toBe(true);
+    expect(FakeHls.last.mediaRecoveries).toBe(1);
+    vi.advanceTimersByTime(2000);
+    FakeHls.last.fatal("mediaError", FakeHls.ErrorDetails.BUFFER_APPEND_ERROR); // a new one: give up
+    expect(errors).toBe(1);
+    expect(audio.streamFailed).toBe(true);
+    expect(audio.lastStreamTime).toBe(200);
+  });
+
+  it("a network error right after a recovery is not the same fault", () => {
+    el.at(200);
+    el.dispatchEvent(new Event("error"));
+    FakeHls.last.fatal("networkError", FakeHls.ErrorDetails.FRAG_LOAD_ERROR);
+    expect(errors).toBe(1);
+    expect(audio.streamFailed).toBe(true);
+  });
+
   it("an error on a plain file is the listeners' to handle", () => {
     audio.src = "https://media.example/a.mp3";
     expect(audio.handlesErrors).toBe(false);
