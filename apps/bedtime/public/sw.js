@@ -2,8 +2,8 @@
  * - the app shell (pages, built CSS/JS/fonts, icons): cache first, refreshed in the background;
  * - the playlist JSON under /playlists/: network first, cache only when offline (a removed story
  *   must disappear at once; the cache is just for showing the last known cards offline);
- * - audio is never cached (no CORS on the media host: opaque responses break range requests). */
-const VERSION = "v2";
+ * - audio is never cached, nor the HLS stream playlist (/playlists/hls.m3u8). */
+const VERSION = "v3";
 const SHELL = `bedtime-shell-${VERSION}`;
 const DATA = `bedtime-data-${VERSION}`;
 const PAGES = ["/", "/earlier/", "/about/", "/manifest.webmanifest", "/favicon.svg"];
@@ -61,7 +61,8 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // audio and anything else: straight to the network
   if (url.pathname.startsWith("/api/")) return;
-  if (url.pathname.startsWith("/lab/")) return; // HLS lab: always the network
+  // The HLS stream (one URL per playlist): the network only, never cached (audio isn't either).
+  if (url.pathname === "/playlists/hls.m3u8") return;
   if (url.pathname.startsWith("/playlists/")) {
     event.respondWith(networkFirst(DATA, req));
     return;

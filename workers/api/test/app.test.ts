@@ -122,3 +122,29 @@ describe("goldstein-api", () => {
     expect(storedBefore).not.toContain("clean_audio_url");
   });
 });
+
+describe("goldstein-api: HLS stream", () => {
+  const t = pool.units[0]!.tracks[0]!;
+  const frames = {
+    original: { first_byte: 100, frame_count: 400_000, bitrate_kbps: 96, sample_rate: 44_100 },
+  };
+  const deps = { kv: fakeKv(), pool: { ...pool, frames: { [t.id]: frames } }, overrides: {} };
+  const q = `i=${t.id}~${t.start_sec}~${t.end_sec}`;
+
+  it("serves the stream for pool recordings, without touching KV", async () => {
+    const r = await get(`/playlists/hls.m3u8?v=o&${q}`, deps);
+    expect(r.status).toBe(200);
+    expect(r.headers.get("content-type")).toBe("application/vnd.apple.mpegurl");
+    expect(r.headers.get("cache-control")).toContain("max-age=3600");
+    const text = await r.text();
+    expect(text).toContain("#EXT-X-BYTERANGE:");
+    expect(text).toContain(t.audio_url.split("#")[0]);
+    expect(deps.kv.data.size).toBe(0);
+  });
+
+  it("404s a recording without a frame table or a clean copy, 400s a malformed query", async () => {
+    expect((await get(`/playlists/hls.m3u8?v=c&${q}`, deps)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&i=fedcba9876~0~10`, deps)).status).toBe(404);
+    expect((await get(`/playlists/hls.m3u8?v=o&i=nope`, deps)).status).toBe(400);
+  });
+});

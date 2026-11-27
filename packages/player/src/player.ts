@@ -273,15 +273,42 @@ export class Player {
     this.endSwap();
     const kind = this.kindFor(t);
     const src = kind === "clean" ? (t.clean_url as string) : t.url;
-    if (this.audio.src !== src) this.audio.src = src;
+    const sameSource = this.audio.src === src;
+    if (!sameSource) this.audio.src = src;
     this.loaded = kind;
-    this.audio.currentTime = this.lastTime = this.resumePoint(t);
+    const at = this.resumePoint(t);
+    // Already there (the next track starts where this one ended, in the same file or stream): a
+    // seek would only rebuffer.
+    if (!(sameSource && Math.abs(this.audio.currentTime - at) < 0.5)) this.audio.currentTime = at;
+    this.lastTime = at;
     this.updateMetadata();
     if (autoplay) {
       this.wantPlay = true;
       await this.audio.play().catch(() => undefined);
     }
     this.emit();
+  }
+
+  /**
+   * The playhead moved into track `index` by itself (a stream: tracks are ranges of one source):
+   * make it current without touching the source or the time.
+   */
+  protected follow(index: number): void {
+    if (!this.queue[index] || index === this.index) return;
+    this.markFinished();
+    this.index = index;
+    this.finishedIndex = -1;
+    this.lastTime = this.audio.currentTime;
+    this.updateMetadata();
+    this.emit();
+  }
+
+  /** Index of the track whose range of the current source holds time `t`, or -1. */
+  protected trackAt(t: number): number {
+    const src = this.current?.url;
+    return this.queue.findIndex(
+      (x) => x.url === src && t >= (x.start_sec ?? 0) && t < (x.end_sec ?? Infinity),
+    );
   }
 
   play(): Promise<void> {

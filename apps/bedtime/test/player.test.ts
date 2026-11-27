@@ -172,3 +172,112 @@ describe("BedtimePlayer", () => {
     expect(store.get<Session | null>(SESSION_KEY, null)?.finished).toBe(true);
   });
 });
+
+/** An element that can play HLS natively (Safari): the player streams the whole playlist. */
+class FakeHlsAudio extends FakeAudio {
+  canPlayType(type: string): string {
+    return type === "application/vnd.apple.mpegurl" ? "maybe" : "";
+  }
+  removeAttribute(): void {
+    this.src = "";
+  }
+  dispatchEvent(e: Event): boolean {
+    this.fire(e.type);
+    return true;
+  }
+}
+
+describe("BedtimePlayer as one HLS stream (docs/design/hls.md)", () => {
+  const origin = "https://bedtime.example";
+  let el: FakeHlsAudio;
+  beforeEach(() => {
+    vi.stubGlobal("location", { origin });
+    el = new FakeHlsAudio();
+    player = new BedtimePlayer(el as unknown as HTMLAudioElement);
+  });
+  afterEach(() => vi.unstubAllGlobals());
+
+  it("plays the playlist from one stream; a story change is no change of source and no seek", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    expect(el.src).toBe(
+      `${origin}/playlists/hls.m3u8?v=o&i=aaaaaaaaaa~100~700_bbbbbbbbbb~50~650_cccccccccc~0~600`,
+    );
+    expect(el.currentTime).toBe(0);
+    const src = el.src;
+    el.at(600.1); // A is 600 s long: B starts at 600 on the stream
+    await flush();
+    expect(player.snapshot().index).toBe(1);
+    expect(el.src).toBe(src);
+    expect(el.currentTime).toBe(600.1); // kept playing, not seeked back to 600
+    expect(player.snapshot().position).toBeCloseTo(0.1);
+  });
+
+  it("follows the playhead across several stories at once (a locked phone skipped timeupdates)", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(1250); // A and B both finished while the page was asleep
+    await flush();
+    expect(player.snapshot().index).toBe(2);
+    expect(el.currentTime).toBe(1250);
+    expect(player.snapshot().phase).toBe("playing");
+  });
+
+  it("next and previous are seeks on the stream", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    const src = el.src;
+    await player.skip(1);
+    expect(el.src).toBe(src);
+    expect(el.currentTime).toBe(600);
+    await player.skip(1);
+    expect(el.currentTime).toBe(1200);
+    await player.skip(-1);
+    expect(el.currentTime).toBe(600);
+  });
+
+  it("a pause near a story's end is a pause, not the end of the story", async () => {
+    await player.start(playlist(A, B), "tonight");
+    el.started();
+    el.at(599.8);
+    player.pauseNow();
+    await flush();
+    expect(player.snapshot().index).toBe(0);
+    expect(player.snapshot().phase).toBe("paused");
+  });
+
+  it("ends after the last story", async () => {
+    await player.start(playlist(A, B), "tonight");
+    el.started();
+    el.at(1200.05);
+    await flush();
+    expect(player.snapshot().phase).toBe("ended");
+  });
+
+  it("falls back to one file per story, at the same story and position, when the stream fails", async () => {
+    await player.start(playlist(A, B, C), "tonight");
+    el.started();
+    el.at(600 + 42); // 42 s into B
+    el.fire("error");
+    await flush();
+    expect(el.src).toBe(`${B.audio_url}#t=${B.start_sec},${B.end_sec}`);
+    expect(el.currentTime).toBe(B.start_sec + 42);
+    expect(player.snapshot().index).toBe(1);
+    // For the rest of the visit, a new start plays files too.
+    await player.start(playlist(C), "tonight");
+    expect(el.src).toBe(`${C.audio_url}#t=${C.start_sec},${C.end_sec}`);
+  });
+
+  it("swaps to the AI-improved stream at the same position", async () => {
+    const withClean = (i: PlaylistItem): PlaylistItem => ({
+      ...i,
+      clean_audio_url: i.audio_url.replace("/media.example/", "/media.example/clean/"),
+    });
+    await player.start(playlist(withClean(A), withClean(B)), "tonight");
+    el.started();
+    el.at(700);
+    player.setPreferClean(true);
+    expect(el.src).toContain("/playlists/hls.m3u8?v=c&");
+    expect(el.currentTime).toBe(700);
+  });
+});

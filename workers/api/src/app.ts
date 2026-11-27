@@ -7,12 +7,23 @@
  *                                        ids listed in index.json (past 7 + current), else 404
  *   GET /playlists/tonight.json          the current edition
  *   GET /playlists/history.json          the 7 editions before it, newest first
+ *   GET /playlists/hls.m3u8?v=o|c&i=…    a playlist as one HLS stream (docs/design/hls.md), built
+ *                                        from the items in the URL; only recordings in the pool
  *   GET /api/health                      pool hash, edition counts
  * Cron (hourly): ensureRunway — generate missing/stale editions up to 14 days ahead, never
  * touching editions that start within 24 hours.
  */
 import type { UnitPool } from "@goldstein/data";
-import { editionById, type Edition } from "@goldstein/playlists";
+import {
+  buildHlsPlaylist,
+  editionById,
+  HLS_MIME,
+  HLS_PATH,
+  parseHlsQuery,
+  type Edition,
+  type HlsSource,
+  type HlsVariant,
+} from "@goldstein/playlists";
 import {
   buildViews,
   ensureRunway,
@@ -68,6 +79,46 @@ function json(body: unknown, cache: string, status = 200): Response {
   });
 }
 
+/** id → file URLs (no media fragment), per pool (built once). */
+const sourceIndex = new WeakMap<UnitPool, Map<string, { original: string; clean?: string }>>();
+
+function hlsSource(pool: UnitPool, id: string, variant: HlsVariant): HlsSource | null {
+  let index = sourceIndex.get(pool);
+  if (!index) {
+    index = new Map();
+    for (const u of pool.units)
+      for (const t of u.tracks)
+        if (!index.has(t.id))
+          index.set(t.id, {
+            original: t.audio_url.split("#")[0]!,
+            ...(t.clean_audio_url ? { clean: t.clean_audio_url.split("#")[0]! } : {}),
+          });
+    sourceIndex.set(pool, index);
+  }
+  const urls = index.get(id);
+  const frames = pool.frames?.[id];
+  if (!urls || !frames) return null;
+  if (variant === "clean")
+    return urls.clean && frames.clean ? { url: urls.clean, frames: frames.clean } : null;
+  return { url: urls.original, frames: frames.original };
+}
+
+/** The HLS stream for the items in the URL; 404 when any of them can't be streamed. */
+export function hlsResponse(url: URL, pool: UnitPool): Response {
+  const q = parseHlsQuery(url.searchParams);
+  if (!q) return json({ error: "bad stream request" }, "public, max-age=60", 400);
+  const text = buildHlsPlaylist(q.items, q.variant, (id, v) => hlsSource(pool, id, v));
+  if (text === null)
+    return json({ error: "no stream for these items" }, "public, max-age=300", 404);
+  return new Response(text, {
+    headers: {
+      "content-type": HLS_MIME,
+      "cache-control": "public, max-age=3600",
+      "x-content-type-options": "nosniff",
+    },
+  });
+}
+
 export async function runCron(deps: Deps, now = new Date()) {
   // Writes must not use a cached read, or a just-written edition could be regenerated.
   const store = kvStore(deps.kv);
@@ -102,6 +153,7 @@ export async function handle(request: Request, deps: Deps, now = new Date()): Pr
     );
   }
   if (!path.startsWith("/playlists/")) return json({ error: "not found" }, "no-store", 404);
+  if (path === HLS_PATH) return hlsResponse(url, deps.pool);
 
   let views = await buildViews(store, deps.pool, now, deps.overrides);
   if (!views.current) {
